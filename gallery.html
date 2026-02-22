@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reference — The Maldek Station</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<nav class="site-nav">
+  <a href="index.html" class="nav-brand">The Maldek Station</a>
+  <div class="nav-links">
+    <a href="floorplan.html">Floor Plan</a>
+    <a href="gallery.html" class="active">Reference</a>
+    <a href="timeline.html">Timeline</a>
+    <a href="design-doc.html">Design Doc</a>
+  </div>
+</nav>
+
+<main class="gallery-page">
+  <header class="gallery-header">
+    <h1>Reference</h1>
+    <p>Visual reference and mood boards for tone, environment, and design.</p>
+  </header>
+
+  <div class="gallery-filters" id="gallery-filters">
+    <!-- Populated by gallery.js -->
+  </div>
+
+  <div class="gallery-sections" id="gallery-sections">
+    <!-- Populated by gallery.js -->
+  </div>
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  <div class="lightbox-caption" id="lightbox-caption"></div>
+</div>
+
+<script src="images-data.js"></script>
+<script src="lightbox.js"></script>
+<script src="gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Millford Station — Floor Plan</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<nav class="site-nav">
+  <a href="index.html" class="nav-brand">The Maldek Station</a>
+  <div class="nav-links">
+    <a href="floorplan.html" class="active">Floor Plan</a>
+    <a href="gallery.html">Reference</a>
+    <a href="timeline.html">Timeline</a>
+    <a href="design-doc.html">Design Doc</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Millford Station — Floor Plan</h1>
+  <p>Level Design Block-out</p>
+</header>
+
+<div class="layout">
+  <div class="plan-container">
+
+    <svg class="floorplan" viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg">
+
+      <!-- Grid dots -->
+      <defs>
+        <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+          <circle cx="10" cy="10" r="0.5" fill="#2a2a25"/>
+        </pattern>
+      </defs>
+      <rect width="700" height="520" fill="url(#grid)"/>
+
+      <!-- Cable line going up to mountain -->
+      <line x1="370" y1="140" x2="370" y2="10" class="cable-line"/>
+      <line x1="370" y1="140" x2="370" y2="10" class="cable-line-accent"/>
+      <text x="378" y="30" class="annotation">↑ TO MALDEK STATION</text>
+      <text x="378" y="42" class="annotation">CABLE ASCENT INTO FOG</text>
+
+      <!-- Mountain/forest indication -->
+      <line x1="100" y1="55" x2="620" y2="55" class="annotation-line" stroke-dasharray="2 6"/>
+      <text x="500" y="50" class="annotation">TREELINE / FOG BOUNDARY</text>
+
+      <!-- === PLATFORM (upper level) === -->
+      <g class="room" data-zone="platform" id="zone-platform">
+        <rect x="160" y="90" width="420" height="120" rx="2" fill="#1c1e14" stroke="#4a4c38" stroke-width="1.5"/>
+        <!-- Platform surface markings -->
+        <line x1="180" y1="165" x2="560" y2="165" stroke="#33342a" stroke-width="0.5" stroke-dasharray="12 4"/>
+        <text x="310" y="182" class="room-label" text-anchor="middle" id="label-platform">Platform</text>
+
+        <!-- Gondola docking bay (recessed channel — car hangs from cable above) -->
+        <rect x="348" y="85" width="44" height="50" rx="1" fill="#121410" stroke="#5a5c44" stroke-width="1" stroke-dasharray="3 2"/>
+        <!-- Platform edges flanking the bay -->
+        <line x1="348" y1="95" x2="348" y2="130" stroke="#3a3c2e" stroke-width="0.5"/>
+        <line x1="392" y1="95" x2="392" y2="130" stroke="#3a3c2e" stroke-width="0.5"/>
+        <text x="370" y="108" class="annotation" text-anchor="middle">GONDOLA</text>
+        <text x="370" y="118" class="annotation" text-anchor="middle">BAY</text>
+
+        <!-- Bull wheel / cable mechanism -->
+        <circle cx="370" cy="145" r="12" fill="none" stroke="#4a4c38" stroke-width="1.5"/>
+        <circle cx="370" cy="145" r="3" fill="#4a4c38"/>
+        <text x="390" y="152" class="annotation">BULL WHEEL</text>
+
+        <!-- Platform lamps -->
+        <circle cx="220" cy="130" r="3" fill="#3a3820" stroke="#6a6840" stroke-width="0.75"/>
+        <text x="228" y="128" class="annotation">LAMP</text>
+        <circle cx="520" cy="130" r="3" fill="#3a3820" stroke="#6a6840" stroke-width="0.75"/>
+        <text x="528" y="128" class="annotation">LAMP</text>
+      </g>
+
+      <!-- === OVERLOOK === -->
+      <g class="room" data-zone="overlook" id="zone-overlook">
+        <rect x="560" y="70" width="75" height="60" rx="2" fill="#1a1c14" stroke="#404232" stroke-width="1.5"/>
+        <!-- Railing -->
+        <line x1="565" y1="70" x2="630" y2="70" stroke="#55564a" stroke-width="2"/>
+        <text x="597" y="107" class="room-label" text-anchor="middle" id="label-overlook">Overlook</text>
+        <!-- Binoculars -->
+        <circle cx="597" cy="82" r="4" fill="none" stroke="#6a6b58" stroke-width="1"/>
+        <line x1="597" y1="78" x2="597" y2="70" stroke="#6a6b58" stroke-width="1"/>
+      </g>
+
+      <!-- === CONTROL ROOM (platform level, south-west) === -->
+      <g class="room" data-zone="control" id="zone-control">
+        <rect x="160" y="210" width="170" height="155" rx="2" fill="#1e1c14" stroke="#4a4838" stroke-width="1.5"/>
+        <text x="245" y="300" class="room-label" text-anchor="middle" id="label-control">Control Room</text>
+
+        <!-- Window to platform (north wall) -->
+        <rect x="200" y="208" width="60" height="5" rx="0" fill="#1e2840" stroke="#3a5070" stroke-width="1.5"/>
+        <text x="230" y="205" class="annotation" text-anchor="middle">WINDOW</text>
+
+        <!-- Control panel (near window) -->
+        <rect x="175" y="222" width="110" height="20" rx="1" fill="#242218" stroke="#5a5840" stroke-width="1"/>
+        <text x="230" y="236" class="annotation" text-anchor="middle">CONTROL PANEL</text>
+        <!-- Gauges -->
+        <circle cx="195" cy="232" r="4" fill="none" stroke="#555340" stroke-width="0.75"/>
+        <circle cx="215" cy="232" r="4" fill="none" stroke="#555340" stroke-width="0.75"/>
+        <circle cx="235" cy="232" r="4" fill="none" stroke="#555340" stroke-width="0.75"/>
+        <rect x="248" y="228" width="16" height="8" rx="1" fill="none" stroke="#555340" stroke-width="0.75"/>
+        <rect x="268" y="228" width="12" height="8" rx="1" fill="none" stroke="#555340" stroke-width="0.75"/>
+
+        <!-- Desk -->
+        <rect x="185" y="310" width="80" height="35" rx="1" fill="#222018" stroke="#4a4838" stroke-width="0.75"/>
+        <text x="225" y="332" class="annotation" text-anchor="middle">DESK</text>
+
+        <!-- Radio on desk -->
+        <rect x="191" y="316" width="18" height="10" rx="1" fill="none" stroke="#555340" stroke-width="0.75"/>
+
+        <!-- Chair -->
+        <circle cx="225" cy="355" r="8" fill="none" stroke="#444236" stroke-width="1"/>
+
+        <!-- Heater (east wall) -->
+        <rect x="315" y="280" width="10" height="30" rx="1" fill="#241c14" stroke="#5a4838" stroke-width="0.75"/>
+        <text x="313" y="322" class="annotation" text-anchor="end">HEATER</text>
+      </g>
+
+      <!-- === EXIT STAIRWAY (left wall of platform, descends south) === -->
+      <g>
+        <rect x="110" y="170" width="50" height="90" rx="1" fill="#141412" stroke="#3a3a35" stroke-width="1"/>
+        <!-- Step lines -->
+        <line x1="110" y1="182" x2="160" y2="182" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="110" y1="192" x2="160" y2="192" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="110" y1="202" x2="160" y2="202" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="110" y1="212" x2="160" y2="212" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="110" y1="222" x2="160" y2="222" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="110" y1="232" x2="160" y2="232" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="110" y1="242" x2="160" y2="242" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="110" y1="252" x2="160" y2="252" stroke="#2a2a28" stroke-width="0.5"/>
+        <!-- Direction arrow -->
+        <polygon points="135,172 132,177 138,177" fill="#4a4840"/>
+        <text x="135" y="168" class="annotation" text-anchor="middle">▼ DN</text>
+        <text x="85" y="210" class="annotation" text-anchor="middle">EXIT</text>
+        <text x="85" y="222" class="annotation" text-anchor="middle">STAIRS</text>
+        <text x="85" y="240" class="annotation" text-anchor="middle">↓ TO</text>
+        <text x="85" y="252" class="annotation" text-anchor="middle">PARKING</text>
+      </g>
+
+      <!-- === STAIRWAY DOWN TO MAINTENANCE (bottom-right corner of platform) === -->
+      <g>
+        <rect x="530" y="210" width="50" height="70" rx="1" fill="#141412" stroke="#3a3a35" stroke-width="1"/>
+        <!-- Step lines -->
+        <line x1="530" y1="222" x2="580" y2="222" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="530" y1="231" x2="580" y2="231" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="530" y1="240" x2="580" y2="240" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="530" y1="249" x2="580" y2="249" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="530" y1="258" x2="580" y2="258" stroke="#2a2a28" stroke-width="0.5"/>
+        <line x1="530" y1="267" x2="580" y2="267" stroke="#2a2a28" stroke-width="0.5"/>
+        <!-- Direction arrow -->
+        <polygon points="555,212 552,217 558,217" fill="#4a4840"/>
+        <text x="555" y="208" class="annotation" text-anchor="middle">▼ DN</text>
+        <text x="595" y="240" class="annotation">STAIRS TO</text>
+        <text x="595" y="252" class="annotation">MAINTENANCE</text>
+        <text x="595" y="264" class="annotation">~1m BELOW</text>
+      </g>
+
+      <!-- === MAINTENANCE ROOM (lower level, south-east) === -->
+      <g class="room" data-zone="maintenance" id="zone-maintenance">
+        <rect x="500" y="280" width="180" height="145" rx="2" fill="#1a1916" stroke="#444238" stroke-width="1.5"/>
+        <text x="590" y="365" class="room-label" text-anchor="middle" id="label-maintenance">Maintenance</text>
+
+        <!-- Elevation label -->
+        <text x="590" y="380" class="dim-label" text-anchor="middle">LOWER LEVEL</text>
+
+        <!-- Generator -->
+        <rect x="595" y="292" width="60" height="35" rx="2" fill="#222120" stroke="#4e4d44" stroke-width="1"/>
+        <text x="625" y="314" class="annotation" text-anchor="middle">GENERATOR</text>
+
+        <!-- Fuel drum -->
+        <circle cx="535" cy="310" r="10" fill="#201f1a" stroke="#4a4838" stroke-width="0.75"/>
+        <text x="535" y="330" class="annotation" text-anchor="middle">FUEL</text>
+
+        <!-- Breaker panel (east wall) -->
+        <rect x="667" y="335" width="8" height="30" rx="1" fill="#222020" stroke="#504444" stroke-width="0.75"/>
+        <text x="662" y="377" class="annotation" text-anchor="end">BREAKERS</text>
+
+        <!-- Workbench -->
+        <rect x="515" y="385" width="70" height="20" rx="1" fill="#201f1a" stroke="#444238" stroke-width="0.75"/>
+        <text x="550" y="399" class="annotation" text-anchor="middle">WORKBENCH</text>
+
+        <!-- Locker -->
+        <rect x="635" y="390" width="22" height="22" rx="1" fill="#1e1d1a" stroke="#444238" stroke-width="0.75"/>
+        <text x="646" y="423" class="annotation" text-anchor="middle">LOCKER</text>
+
+        <!-- Sink -->
+        <rect x="600" y="395" width="14" height="10" rx="1" fill="none" stroke="#3e3e38" stroke-width="0.5"/>
+      </g>
+
+      <!-- === DOORS === -->
+      <!-- Control Room to Platform (north wall) -->
+      <g class="door" id="door-control-platform">
+        <line x1="270" y1="210" x2="290" y2="210" stroke="#6a9a6a" stroke-width="2"/>
+        <path d="M 270 210 Q 280 198 290 210" class="door-indicator"/>
+      </g>
+      <text x="272" y="203" class="annotation">DOOR</text>
+
+      <!-- Maintenance Room entry (top-left of room, from stairs) -->
+      <g class="door" id="door-maint-entry">
+        <line x1="540" y1="280" x2="560" y2="280" stroke="#6a9a6a" stroke-width="2"/>
+        <path d="M 540 280 Q 550 268 560 280" class="door-indicator"/>
+      </g>
+      <text x="542" y="273" class="annotation">DOOR</text>
+
+      <!-- Platform to Overlook (open passage) -->
+      <line x1="560" y1="105" x2="560" y2="120" stroke="#6a9a6a" stroke-width="1" stroke-dasharray="2 2"/>
+
+      <!-- === SIGHTLINES === -->
+      <!-- Control room window to platform/cable -->
+      <line x1="230" y1="210" x2="300" y2="145" class="sightline" id="sight-1"/>
+      <line x1="230" y1="210" x2="370" y2="90" class="sightline" id="sight-2"/>
+
+      <!-- Overlook to mountain -->
+      <line x1="597" y1="82" x2="597" y2="55" class="sightline" id="sight-3"/>
+      <line x1="597" y1="82" x2="490" y2="55" class="sightline" id="sight-4"/>
+
+      <!-- Blind spot annotations -->
+      <text x="70" y="300" class="annotation" id="blind-1" style="opacity:0;transition:opacity 0.3s">✗ CANNOT SEE MAINTENANCE</text>
+      <text x="70" y="312" class="annotation" id="blind-2" style="opacity:0;transition:opacity 0.3s">  (BELOW + BEHIND) FROM CONTROL</text>
+
+      <!-- === DIMENSIONS === -->
+      <!-- Platform width -->
+      <line x1="160" y1="80" x2="580" y2="80" stroke="#3a3a35" stroke-width="0.5"/>
+      <text x="370" y="77" class="dim-label" text-anchor="middle">~12m</text>
+
+      <!-- Control room dims -->
+      <line x1="160" y1="380" x2="330" y2="380" stroke="#3a3a35" stroke-width="0.5"/>
+      <text x="245" y="390" class="dim-label" text-anchor="middle">~5m</text>
+
+      <line x1="145" y1="210" x2="145" y2="365" stroke="#3a3a35" stroke-width="0.5"/>
+      <text x="140" y="288" class="dim-label" text-anchor="middle" transform="rotate(-90 140 288)">~5m</text>
+
+      <!-- Maintenance dims -->
+      <line x1="695" y1="280" x2="695" y2="425" stroke="#3a3a35" stroke-width="0.5"/>
+      <text x="700" y="353" class="dim-label" text-anchor="middle" transform="rotate(90 700 353)">~5m</text>
+
+      <!-- Elevation annotation -->
+      <line x1="400" y1="210" x2="400" y2="280" stroke="#3a3a35" stroke-width="0.5" stroke-dasharray="2 3"/>
+      <text x="395" y="250" class="dim-label" text-anchor="end" transform="rotate(-90 395 250)">↓ ~1m DROP</text>
+
+      <!-- Compass -->
+      <g transform="translate(80, 460)">
+        <line x1="0" y1="-15" x2="0" y2="15" stroke="#4a4840" stroke-width="0.75"/>
+        <line x1="-15" y1="0" x2="15" y2="0" stroke="#4a4840" stroke-width="0.75"/>
+        <text x="0" y="-20" class="compass" text-anchor="middle">N</text>
+        <text x="0" y="28" class="compass" text-anchor="middle">S</text>
+        <text x="-22" y="4" class="compass" text-anchor="middle">W</text>
+        <text x="22" y="4" class="compass" text-anchor="middle">E</text>
+        <polygon points="0,-12 -3,-6 3,-6" fill="#6a6858"/>
+      </g>
+
+      <!-- Mountain direction label -->
+      <text x="80" y="60" class="annotation">MOUNTAIN ↗</text>
+
+      <!-- Forest indication -->
+      <text x="80" y="130" class="annotation">DARK FOREST</text>
+      <text x="80" y="142" class="annotation">NO VISIBILITY</text>
+
+      <!-- Circulation notes -->
+      <g transform="translate(200, 450)">
+        <text x="0" y="0" class="annotation">CIRCULATION:</text>
+        <text x="0" y="12" class="annotation">CONTROL → PLATFORM → STAIRS DN → MAINTENANCE</text>
+        <text x="0" y="24" class="annotation">CONTROL → PLATFORM → OVERLOOK</text>
+        <text x="0" y="36" class="annotation">EXIT STAIRS (WEST) → PARKING / OUTSIDE</text>
+      </g>
+
+      <!-- Exterior ground -->
+      <rect x="160" y="365" width="170" height="12" rx="0" fill="#0e0e0c" stroke="none"/>
+      <text x="245" y="375" class="annotation" text-anchor="middle">GRAVEL BASE</text>
+
+      <!-- === REAR DOOR — Maintenance to exterior === -->
+      <g class="door" id="door-maint-rear">
+        <line x1="560" y1="425" x2="580" y2="425" stroke="#6a9a6a" stroke-width="2"/>
+        <path d="M 560 425 Q 570 437 580 425" class="door-indicator"/>
+      </g>
+      <text x="562" y="443" class="annotation">REAR DOOR</text>
+
+      <!-- === BULK FUEL TANK — exterior behind maintenance === -->
+      <g>
+        <rect x="530" y="450" width="100" height="40" rx="6" fill="#18170e" stroke="#3a3830" stroke-width="1" stroke-dasharray="4 2"/>
+        <text x="580" y="474" class="annotation" text-anchor="middle">BULK DIESEL TANK</text>
+        <text x="580" y="486" class="dim-label" text-anchor="middle">EXTERIOR — CONCRETE PAD</text>
+      </g>
+
+    </svg>
+
+    <div class="legend">
+      <div class="legend-item">
+        <div class="legend-swatch" style="background:#1c1e14;border:1px solid #4a4c38"></div>
+        <span>Zones</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-swatch" style="background:transparent;border:1px solid #6a9a6a;width:16px;height:2px;border-radius:0"></div>
+        <span>Doors</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-line"></div>
+        <span>Sightlines</span>
+      </div>
+    </div>
+
+    <button class="toggle-sightlines" id="toggleSight">Show Sightlines</button>
+    <div class="zoom-indicator" id="zoom-indicator">1.0x</div>
+  </div>
+
+  <div class="resize-handle" id="resize-handle"></div>
+  <div class="sidebar" id="zone-panels">
+    <!-- Populated by zones.js -->
+  </div>
+</div>
+
+<script src="zones.js"></script>
+<script src="floorplan.js"></script>
+</body>
+</html>

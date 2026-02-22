@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Timeline — The Maldek Station</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<nav class="site-nav">
+  <a href="index.html" class="nav-brand">The Maldek Station</a>
+  <div class="nav-links">
+    <a href="floorplan.html">Floor Plan</a>
+    <a href="gallery.html">Reference</a>
+    <a href="timeline.html" class="active">Timeline</a>
+    <a href="design-doc.html">Design Doc</a>
+  </div>
+</nav>
+
+<main class="timeline-page">
+  <header class="timeline-header">
+    <h1>Timeline</h1>
+    <p>Visual evolution of the project — concept art and reference by milestone.</p>
+  </header>
+
+  <div id="timeline-container">
+    <!-- Populated by timeline.js -->
+  </div>
+</main>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightbox-close">&times;</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  <div class="lightbox-caption" id="lightbox-caption"></div>
+</div>
+
+<script src="images-data.js"></script>
+<script src="lightbox.js"></script>
+<script src="timeline.js"></script>
+</body>
+</html>
