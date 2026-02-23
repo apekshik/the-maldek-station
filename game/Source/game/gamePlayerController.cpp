@@ -1,0 +1,76 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+
+
+#include "gamePlayerController.h"
+#include "EnhancedInputSubsystems.h"
+#include "Engine/LocalPlayer.h"
+#include "InputMappingContext.h"
+#include "gameCameraManager.h"
+#include "Blueprint/UserWidget.h"
+#include "game.h"
+#include "Widgets/Input/SVirtualJoystick.h"
+
+AgamePlayerController::AgamePlayerController()
+{
+	// set the player camera manager class
+	PlayerCameraManagerClass = AgameCameraManager::StaticClass();
+}
+
+void AgamePlayerController::BeginPlay()
+{
+	Super::BeginPlay();
+
+	
+	// only spawn touch controls on local player controllers
+	if (ShouldUseTouchControls() && IsLocalPlayerController())
+	{
+		// spawn the mobile controls widget
+		MobileControlsWidget = CreateWidget<UUserWidget>(this, MobileControlsWidgetClass);
+
+		if (MobileControlsWidget)
+		{
+			// add the controls to the player screen
+			MobileControlsWidget->AddToPlayerScreen(0);
+
+		} else {
+
+			UE_LOG(Loggame, Error, TEXT("Could not spawn mobile controls widget."));
+
+		}
+
+	}
+}
+
+void AgamePlayerController::SetupInputComponent()
+{
+	Super::SetupInputComponent();
+
+	// only add IMCs for local player controllers
+	if (IsLocalPlayerController())
+	{
+		// Add Input Mapping Context
+		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer()))
+		{
+			for (UInputMappingContext* CurrentContext : DefaultMappingContexts)
+			{
+				Subsystem->AddMappingContext(CurrentContext, 0);
+			}
+
+			// only add these IMCs if we're not using mobile touch input
+			if (!ShouldUseTouchControls())
+			{
+				for (UInputMappingContext* CurrentContext : MobileExcludedMappingContexts)
+				{
+					Subsystem->AddMappingContext(CurrentContext, 0);
+				}
+			}
+		}
+	}
+	
+}
+
+bool AgamePlayerController::ShouldUseTouchControls() const
+{
+	// are we on a mobile platform? Should we force touch?
+	return SVirtualJoystick::ShouldDisplayTouchInterface() || bForceTouchControls;
+}
