@@ -22,3 +22,11 @@ game/*.xcworkspace
 *.sdf
 *.suo
 *.xcodeproj
+
+# Blender local save backups
+*.blend1
+*.blend2
+
+# Python bytecode from blockout validation
+__pycache__/
+*.pyc

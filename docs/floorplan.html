@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Millford Station — Floor Plan</title>
 <link rel="stylesheet" href="styles.css">
+<script type="importmap">{"imports":{"three":"./vendor/three/three.module.js"}}</script>
 </head>
-<body>
+<body class="floorplan-page">
 <div class="grain"></div>
 
 <nav class="site-nav">
@@ -24,7 +25,11 @@
   <p>Level Design Block-out</p>
 </header>
 
-<div class="layout">
+<div class="plan-tabs" role="tablist" aria-label="Floor plan version">
+  <button id="tab-v1" role="tab" aria-selected="false" aria-controls="plan-v1" tabindex="-1">V1 <span>Original station</span></button>
+  <button id="tab-v2" role="tab" aria-selected="true" aria-controls="plan-v2" tabindex="0">V2 <span>Expanded compound</span></button>
+</div>
+<div class="layout" id="plan-v1" role="tabpanel" aria-labelledby="tab-v1" hidden>
   <div class="plan-container">
 
     <svg class="floorplan" viewBox="0 0 700 520" xmlns="http://www.w3.org/2000/svg">
@@ -312,7 +317,109 @@
   </div>
 </div>
 
+
+<div class="layout" id="plan-v2" role="tabpanel" aria-labelledby="tab-v2">
+  <div class="plan-container">
+    <div class="view-switch" role="group" aria-label="V2 view">
+      <button data-view="2d" aria-pressed="true">2D plan</button>
+      <button data-view="3d" aria-pressed="false">3D model</button>
+    </div>
+    <div id="compound-3d" hidden>
+      <div class="model-toolbar">
+        <label>View <select id="model-mode"><option value="stacked">Stacked levels</option><option value="exploded">Exploded levels</option><option value="lower">Lower level only</option></select></label>
+        <button id="model-reset">Reset camera</button>
+        <label class="model-room-picker">Space <select id="model-room"><option value="">Select a space</option></select></label>
+      </div>
+      <div id="model-canvas" aria-label="Interactive three-dimensional model of Millford Station"></div>
+      <div id="model-labels"></div>
+      <p class="model-status" role="status">Loading the compound…</p>
+      <p class="model-help">Drag to orbit · scroll to zoom · right-drag to pan · select a room</p>
+      <p class="model-caption">Cutaway study / provisional proportions · 4 m between main floors</p>
+    </div>
+    <svg class="floorplan floorplan-v2" viewBox="0 0 1100 850" xmlns="http://www.w3.org/2000/svg" aria-label="Expanded Millford compound, upper station level and offset lower service level">
+      <defs>
+        <pattern id="grid-v2" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="0.7" fill="#272923"/></pattern>
+      </defs>
+      <rect width="1100" height="850" fill="url(#grid-v2)"/>
+      <text x="55" y="45" class="map-kicker">MILLFORD / SPATIAL STUDY 02</text>
+      <text x="55" y="67" class="map-note">Connected compound · schematic, not to scale</text>
+      <path d="M60 145 Q230 90 380 125 M610 110 Q820 65 1040 140 M790 370 Q900 320 1040 360 M55 740 Q200 780 290 740" class="terrain-line"/>
+      <text x="795" y="98" class="map-note">FOREST / MOUNTAIN SLOPE</text>
+      <path d="M510 192 V30 M520 192 V30" class="cable-line"/>
+      <text x="535" y="44" class="map-note">↑ MALDEK</text>
+      <text x="535" y="62" class="map-note">Distant / unreachable</text>
+
+      <!-- Walking connections. Lower floor is pulled down for legibility. -->
+      <path d="M210 280 V245 H325 M710 215 H745" class="walkway"/>
+      <path d="M680 280 V485 H575 V582 H540" class="walkway service-walkway"/>
+      <path d="M710 245 H775 V585 H690 V645" class="walkway service-walkway"/>
+      <path d="M540 700 H590" class="walkway service-walkway"/>
+      <path d="M740 700 H810 L968 600 V545 M968 435 V200 H880" class="walkway forest-walkway"/>
+      <path d="M210 435 V475 L140 515" class="walkway forest-walkway"/>
+      <text x="60" y="205" class="map-level">01 / PLATFORM LEVEL</text>
+      <text x="65" y="690" class="map-level">02 / SERVICE LEVEL</text>
+      <text x="65" y="710" class="map-note">Shown offset below.</text>
+      <text x="65" y="727" class="map-note">Drive sits under dock.</text>
+<g class="room public-zone" data-zone="v2-platform" id="zone-v2-platform">
+      <rect class="zone-shell" x="300" y="160" width="410" height="120" rx="3"/>
+      <text x="314" y="187" class="room-label" id="label-v2-platform">Platform + gondola</text>
+      <text x="314" y="206" class="map-note">Covered dock / cable bay</text>
+<rect x="488" y="153" width="54" height="65" rx="3" class="map-prop"/>
+<text x="515" y="181" text-anchor="middle" class="map-small">CAR</text>
+<path d="M496 194 H534 M496 203 H534" class="prop-line"/>
+<circle cx="600" cy="222" r="16" class="map-prop"/><circle cx="600" cy="222" r="4" class="map-prop"/>
+<path d="M318 258 H685" stroke="#6a6650" stroke-dasharray="12 6"/>
+<circle cx="340" cy="238" r="4" fill="#bfaa72"/><circle cx="663" cy="238" r="4" fill="#bfaa72"/>
+</g><g class="room warm-zone" data-zone="v2-control" id="zone-v2-control">
+      <rect class="zone-shell" x="300" y="280" width="165" height="155" rx="3"/>
+      <text x="314" y="307" class="room-label" id="label-v2-control">Control room</text>
+      <text x="314" y="326" class="map-note">Panel / log / dispatch</text><rect x="322" y="350" width="115" height="21" class="map-prop"/><circle cx="345" cy="360" r="5" class="map-prop"/><circle cx="364" cy="360" r="5" class="map-prop"/><path d="M407 355 V367 M420 355 V367" class="prop-line"/><rect x="318" y="397" width="65" height="20" class="map-prop"/><circle cx="405" cy="404" r="10" class="map-prop"/></g><g class="room warm-zone" data-zone="v2-waiting" id="zone-v2-waiting">
+      <rect class="zone-shell" x="125" y="280" width="175" height="155" rx="3"/>
+      <text x="139" y="307" class="room-label" id="label-v2-waiting">Waiting hall</text>
+      <text x="139" y="326" class="map-note">Ticket office / records</text><rect x="141" y="350" width="53" height="25" class="map-prop"/><text x="143" y="390" class="map-small">TICKETS</text><path d="M225 351 H280 M225 360 H280 M225 392 H280 M225 401 H280" class="prop-line"/></g><g class="room public-zone" data-zone="v2-overlook" id="zone-v2-overlook">
+      <rect class="zone-shell" x="745" y="150" width="135" height="105" rx="3"/>
+      <text x="759" y="177" class="room-label" id="label-v2-overlook">Overlook</text>
+      <text x="759" y="196" class="map-note">Binoculars</text><path d="M751 150 H875" stroke="#9a9b7a" stroke-width="3"/><circle cx="812" cy="221" r="7" class="map-prop"/><path d="M812 214 V203" class="prop-line"/></g><g class="room service-zone" data-zone="v2-drive" id="zone-v2-drive">
+      <rect class="zone-shell" x="335" y="535" width="205" height="110" rx="3"/>
+      <text x="349" y="562" class="room-label" id="label-v2-drive">Drive gallery</text>
+      <text x="349" y="581" class="map-note">Local gauges / brake</text><rect x="351" y="600" width="118" height="27" class="map-prop"/><circle cx="378" cy="613" r="9" class="map-prop"/><path d="M395 613 H451" class="prop-line"/><rect x="495" y="601" width="25" height="25" class="map-prop"/></g><g class="room service-zone" data-zone="v2-generator" id="zone-v2-generator">
+      <rect class="zone-shell" x="335" y="645" width="205" height="115" rx="3"/>
+      <text x="349" y="672" class="room-label" id="label-v2-generator">Generator room</text>
+      <text x="349" y="691" class="map-note">Power / tools / locker</text><rect x="352" y="710" width="82" height="30" rx="3" class="map-prop"/><path d="M366 715 V735 M377 715 V735 M388 715 V735" class="prop-line"/><rect x="490" y="710" width="31" height="30" class="map-prop"/></g><g class="room exterior-zone" data-zone="v2-fuel" id="zone-v2-fuel">
+      <rect class="zone-shell" x="590" y="645" width="150" height="115" rx="3"/>
+      <text x="604" y="672" class="room-label" id="label-v2-fuel">Fuel yard</text>
+      <text x="604" y="691" class="map-note">Tank / rear access</text><rect x="607" y="710" width="80" height="29" rx="12" class="map-prop"/></g><g class="room service-zone" data-zone="v2-relay" id="zone-v2-relay">
+      <rect class="zone-shell" x="885" y="435" width="165" height="110" rx="3"/>
+      <text x="899" y="462" class="room-label" id="label-v2-relay">Relay hut</text>
+      <text x="899" y="481" class="map-note">Line verification</text><rect x="902" y="503" width="89" height="24" class="map-prop"/><path d="M916 508 V522 M932 508 V522 M948 508 V522" class="prop-line"/></g><g class="room exterior-zone" data-zone="v2-parking" id="zone-v2-parking">
+      <rect class="zone-shell" x="60" y="515" width="160" height="110" rx="3"/>
+      <text x="74" y="542" class="room-label" id="label-v2-parking">Parking</text>
+      <text x="74" y="561" class="map-note">Arrival / departure</text><rect x="82" y="579" width="61" height="25" rx="5" class="map-prop"/><path d="M95 579 V604 M126 579 V604" class="prop-line"/></g>
+      <!-- Openings and vertical circulation -->
+      <path d="M195 280 H225 M300 352 V379 M399 280 H427 M197 435 H223 M710 202 V230 M745 202 V230 M880 188 V212 M956 435 H980 M956 545 H980 M728 700 H740 M590 687 V714 M540 687 V714 M422 645 H449 M540 570 V596 M666 280 H694" class="map-door"/>
+      <path d="M320 280 H379" class="map-window"/>
+      <path d="M668 305 H692 M668 315 H692 M668 325 H692 M668 335 H692 M668 345 H692 M668 355 H692 M763 385 H787 M763 395 H787 M763 405 H787 M763 415 H787 M763 425 H787 M763 435 H787" class="step-line"/>
+      <text x="590" y="391" class="map-note">↓ INTERNAL</text><text x="590" y="409" class="map-note">SERVICE STAIR</text>
+      <text x="795" y="394" class="map-note">EXTERIOR</text><text x="795" y="412" class="map-note">STAIR ↓</text>
+      <text x="835" y="300" class="map-note">FOREST SERVICE PATH</text>
+      <text x="819" y="319" class="map-small">Reconnects at overlook</text>
+      <text x="240" y="481" class="map-small">FOREST APPROACH</text>
+      <text x="807" y="743" class="map-small">LONG EXTERIOR LOOP</text>
+      <path d="M350 280 L490 215 M350 280 L550 150 M812 214 L732 35 M812 214 L855 35" class="sightline"/>
+      <text x="55" y="790" class="map-note blind-annotation" style="opacity:0">BLIND: service level has no view of dock; relay loses station visibility.</text>
+      <text x="55" y="819" class="map-small">N ↑ / MOUNTAIN     ·     SOLID PATH: SHELTERED     ·     DASHED PATH: EXTERIOR</text>
+    </svg>
+    <div class="legend"><div class="legend-item"><span class="legend-swatch" style="background:#30291d;border:1px solid #89714b"></span>Public</div><div class="legend-item"><span class="legend-swatch" style="background:#1d292b;border:1px solid #58767a"></span>Service</div><div class="legend-item"><span class="legend-line"></span>Sightlines</div></div>
+    <button class="toggle-sightlines" aria-pressed="false">Show Sightlines</button>
+    <div class="zoom-indicator">1.0x</div>
+  </div>
+  <div class="resize-handle"></div>
+  <div class="sidebar" id="zone-panels-v2" aria-live="polite"></div>
+</div>
+
 <script src="zones.js"></script>
+<script src="zones-v2.js"></script>
 <script src="floorplan.js"></script>
+<script src="floorplan-views.js"></script>
 </body>
 </html>

@@ -969,10 +969,75 @@ svg.floorplan {
   padding: 0;
 }
 
+/* Floor plan versions and compound study */
+.floorplan-page [hidden] { display: none !important; }
+.plan-tabs { display: flex; gap: 8px; padding: 12px 48px; border-bottom: 1px solid #24241f; }
+.plan-tabs button { background: transparent; border: 1px solid transparent; padding: 10px 16px; font: 12px 'DM Mono', monospace; color: #8a8778; cursor: pointer; }
+.plan-tabs button span { margin-left: 10px; font-size: 10px; }
+.plan-tabs button[aria-selected="true"] { background: #212119; color: #ded8c2; border-color: #494838; }
+.floorplan-page button:focus-visible, .floorplan-page .room:focus-visible { outline: 2px solid #d0ba81; outline-offset: 4px; }
+.floorplan-page .layout { height: calc(100dvh - 208px); min-height: 520px; }
+.floorplan-page .plan-container { padding: 58px 22px 55px; min-width: 0; }
+.floorplan-page .sidebar { max-height: none; }
+.floorplan-page .default-msg { color: #8a8778; }
+.floorplan-v2 .room-label { font-size: 13px; letter-spacing: .3px; fill: #ddd8c8; }
+.floorplan-v2 .map-note { font: 11px 'DM Mono', monospace; fill: #a5a38f; pointer-events: none; }
+.floorplan-v2 .map-small { font: 9px 'DM Mono', monospace; fill: #96947e; pointer-events: none; }
+.floorplan-v2 .map-kicker, .floorplan-v2 .map-level { font: 12px 'DM Mono', monospace; fill: #c0b998; letter-spacing: 1.6px; }
+.floorplan-v2 .zone-shell { fill: #25291d; stroke: #727958; stroke-width: 1.5; }
+.floorplan-v2 .warm-zone .zone-shell { fill: #30291d; stroke: #89714b; }
+.floorplan-v2 .service-zone .zone-shell { fill: #1d292b; stroke: #58767a; }
+.floorplan-v2 .exterior-zone .zone-shell { fill: #21231b; stroke: #65664c; stroke-dasharray: 5 4; }
+.floorplan-v2 .map-prop { fill: #111713; stroke: #7f816a; stroke-width: 1; pointer-events: none; }
+.floorplan-v2 .prop-line { fill: none; stroke: #7f816a; stroke-width: 1.2; pointer-events: none; }
+.floorplan-v2 .walkway { fill: none; stroke: #5d5941; stroke-width: 19; stroke-linejoin: round; }
+.floorplan-v2 .service-walkway { stroke: #374b4c; }
+.floorplan-v2 .forest-walkway { stroke: #4c513d; stroke-width: 12; stroke-dasharray: 6 4; }
+.floorplan-v2 .terrain-line { fill: none; stroke: #30372b; stroke-width: 1; }
+.floorplan-v2 .map-door { fill: none; stroke: #a4c49a; stroke-width: 5; }
+.floorplan-v2 .map-window { fill: none; stroke: #88aeb9; stroke-width: 5; }
+.floorplan-v2 .step-line { fill: none; stroke: #8fa09b; stroke-width: 2; }
+.floorplan-v2 .sightline { stroke: #e1c479; stroke-width: 1.6; }
+
+/* Optional 3D blockout */
+.view-switch { position: absolute; top: 20px; left: 22px; display: flex; gap: 2px; z-index: 20; padding: 3px; background: #121410; border: 1px solid #393b30; }
+.view-switch button, .model-toolbar button, .model-toolbar select { color: #b6b5a3; border: 1px solid #393d32; background: #141812; padding: 8px 10px; font: 10px 'DM Mono', monospace; cursor: pointer; }
+.view-switch button { border: 0; }
+.view-switch button[aria-pressed="true"] { color: #eee5cc; background: #36392a; }
+#compound-3d { position: absolute; inset: 0; }
+#model-canvas, #model-labels { position: absolute; inset: 0; }
+#model-canvas canvas { width: 100%; height: 100%; display: block; touch-action: none; }
+#model-labels { pointer-events: none; overflow: hidden; }
+.model-toolbar { position: absolute; top: 70px; left: 22px; right: 22px; z-index: 15; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.model-toolbar label { color: #888f7d; font-size: 10px; display: flex; gap: 8px; align-items: center; }
+.model-label { position: absolute; transform: translate(-50%,-50%); white-space: nowrap; pointer-events: auto; border: 1px solid #64705b; color: #d6dbc5; background: #11180ee8; padding: 5px 7px; font: 9px 'DM Mono',monospace; cursor: pointer; letter-spacing: .4px; }
+.model-label.selected { border-color: #e6c477; color: #ffe5a9; background: #332b16; }
+.model-label-note { border: 0; color: #a5b39a; background: transparent; pointer-events: none; }
+.model-help, .model-caption { position: absolute; bottom: 38px; left: 22px; right: 22px; pointer-events: none; font-size: 10px; line-height: 1.6; color: #b4b8a2; }
+.model-caption { bottom: 17px; color: #798471; font-size: 9px; }
+.model-status { position: absolute; top: 50%; left: 15%; right: 15%; text-align: center; color: #c9c9b7; font-size: 12px; line-height: 1.7; }
+
 /* ── Responsive ──────────────────────────────────── */
 
 @media (max-width: 900px) {
   .layout { flex-direction: column; }
+  .model-toolbar { left: 12px; right: 12px; gap: 6px; top: 66px; }
+  .model-toolbar select, .model-toolbar button { padding: 7px; font-size: 9px; }
+  .model-room-picker { flex-basis: 100%; }
+  .model-help { font-size: 9px; bottom: 44px; }
+  .model-caption { font-size: 8px; }
+  .floorplan-page .layout { height: auto; min-height: 0; }
+  .floorplan-page .plan-container { height: 68dvh; min-height: 440px; flex: none; padding: 55px 8px 60px; }
+  .floorplan-page .sidebar { width: 100% !important; max-width: none; }
+  .floorplan-page .resize-handle { display: none; }
+  .plan-tabs { padding: 10px 16px; gap: 4px; }
+  .plan-tabs button { padding: 10px; }
+  .plan-tabs button span { margin-left: 6px; font-size: 9px; }
+  .floorplan-page header { padding: 20px 24px 14px; }
+  .floorplan-page header h1 { font-size: 27px; }
+  .floorplan-page .legend { bottom: 12px; left: 12px; padding: 8px; gap: 10px; font-size: 9px; }
+  .floorplan-page .site-nav { flex-wrap: wrap; gap: 16px; }
+  .floorplan-page .nav-links { flex-wrap: wrap; gap: 16px; }
   .sidebar { width: 100%; border-left: none; border-top: 1px solid #1a1a1c; max-height: unset; }
   .toggle-sightlines { right: 24px; }
   .zoom-indicator { right: 24px; }

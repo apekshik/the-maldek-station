@@ -151,11 +151,11 @@ const ZONES = {
 /**
  * Render the sidebar zone panels into the given container.
  */
-function renderZonePanels(container) {
+function renderZonePanels(container, zoneData = ZONES, prefix = '') {
   // Default panel
   const defaultDiv = document.createElement('div');
   defaultDiv.className = 'zone-info active';
-  defaultDiv.id = 'info-default';
+  defaultDiv.id = 'info-' + prefix + 'default';
   defaultDiv.innerHTML = `
     <div class="zone-title">Select a Zone</div>
     <div class="zone-role">Interactive Floor Plan</div>
@@ -166,7 +166,7 @@ function renderZonePanels(container) {
   container.appendChild(defaultDiv);
 
   // Zone panels
-  for (const [id, zone] of Object.entries(ZONES)) {
+  for (const [id, zone] of Object.entries(zoneData)) {
     const div = document.createElement('div');
     div.className = 'zone-info';
     div.id = 'info-' + id;

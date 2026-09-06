@@ -12,6 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 the-maldek-station/
   docs/       ← static design bible / documentation site
   game/       ← Unreal Engine 5 project (future)
+  art/blender/ ← editable blockout, scripts, previews and FBX handoff
 ```
 
 ## Design Bible Site (`docs/`)
@@ -34,7 +35,7 @@ Open `http://localhost:8000`. No install step, no build step.
 
 **Shared lightbox:** `docs/lightbox.js` exposes `openLightbox(src, caption)` and `closeLightbox()` as globals. Both gallery and timeline pages include the same lightbox HTML markup and this script.
 
-**Floor plan:** `docs/zones.js` holds zone data (contents, horror potential) and renders sidebar panels. `docs/floorplan.js` handles SVG zoom/pan/selection. The SVG is inline in `floorplan.html`, not a separate file.
+**Floor plan:** `docs/floorplan.html` contains V1/V2 tabs and their inline SVGs. Preserve V1 when editing V2. `docs/zones.js` holds original zone data and the shared sidebar renderer; `docs/zones-v2.js` holds the expanded compound data. `docs/floorplan.js` scopes zoom/pan/selection to each version panel. V2 has 2D/3D switches in `docs/floorplan-views.js`, which lazily imports `docs/floorplan-3d.js`. The Three.js blockout supports stacked, exploded, and lower-only views. Its dimensions are provisional; the 2D map offsets the lower level for readability. Room selection is synchronized through scoped `maldek:select-zone` / `maldek:zone-selected` events. Three.js 0.180.0 and OrbitControls are vendored with their MIT license under `docs/vendor/three/`; no build step or runtime CDN is needed for the model.
 
 **Design doc:** `docs/design-doc.js` fetches `the-maldek-station-gdd.md` and renders it with `marked.js` (loaded from CDN). The GDD markdown file is the source of truth — edit it directly and the site reflects changes on reload.
 
@@ -57,6 +58,12 @@ Open `http://localhost:8000`. No install step, no build step.
 ## Game (`game/`)
 
 Unreal Engine 5 project (not yet initialized). The `.gitignore` at the repo root includes standard UE5 ignore rules.
+
+## Blender blockout (`art/blender/`)
+
+`millford_v2_blockout_01.blend` is the first metre-scale architectural pass. Read `art/blender/BLOCKOUT_README.md` before editing or exporting. `scripts/build_millford.py` generates revision 01 from scratch in a separate background Blender process; do not rerun it over hand-edited work. `scripts/validate_and_export.py` runs geometry samples, exports named chunks with UCX hulls and checks FBX re-import bounds. UE5 movement/import validation remains pending. The HTML map is still the earlier schematic; it is not the dimensional source of truth for this Blender revision.
+
+Latest environment study: `art/blender/revision_03/millford_v2_night_03.blend`. Read its `README.md` for the continuous relay paths, relocated hut, CC0 pine source, distant cable route and rainy night cameras. Revision 03 has sampled geometry validation but no refreshed FBX export. Keep all earlier revisions and save hand edits under a new filename.
 
 ## General
 

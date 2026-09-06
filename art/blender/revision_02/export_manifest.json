@@ -1,0 +1,444 @@
+[
+  {
+    "file": "SM_Millford_Upper_Platform.fbx",
+    "mesh": "SM_Millford_Upper_Platform",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -8.02750015258789,
+        10.02750015258789
+      ],
+      [
+        -0.027500197291374207,
+        45.004451751708984
+      ],
+      [
+        3.0900001525878906,
+        18.016925811767578
+      ]
+    ],
+    "convex_hulls": 17
+  },
+  {
+    "file": "SM_Millford_Control_Room.fbx",
+    "mesh": "SM_Millford_Control_Room",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -8.109999656677246,
+        -2.890000104904175
+      ],
+      [
+        -4.110000133514404,
+        0.10999999940395355
+      ],
+      [
+        3.6999998092651367,
+        7.100000381469727
+      ]
+    ],
+    "convex_hulls": 14
+  },
+  {
+    "file": "SM_Millford_Waiting_Hall.fbx",
+    "mesh": "SM_Millford_Waiting_Hall",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -15.109999656677246,
+        -7.889999866485596
+      ],
+      [
+        -6.110000133514404,
+        3.0275001525878906
+      ],
+      [
+        3.6999998092651367,
+        7.100000381469727
+      ]
+    ],
+    "convex_hulls": 15
+  },
+  {
+    "file": "SM_Millford_Lower_Drive.fbx",
+    "mesh": "SM_Millford_Lower_Drive",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -2.109999895095825,
+        6.027500152587891
+      ],
+      [
+        -0.10999999940395355,
+        11.52750015258789
+      ],
+      [
+        -0.30000001192092896,
+        3.6500000953674316
+      ]
+    ],
+    "convex_hulls": 13
+  },
+  {
+    "file": "SM_Millford_Generator_Room.fbx",
+    "mesh": "SM_Millford_Generator_Room",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -2.109999895095825,
+        6.110000133514404
+      ],
+      [
+        -6.110000133514404,
+        0.0
+      ],
+      [
+        -0.30000001192092896,
+        3.4000000953674316
+      ]
+    ],
+    "convex_hulls": 13
+  },
+  {
+    "file": "SM_Millford_Stairs_and_Landings.fbx",
+    "mesh": "SM_Millford_Stairs_and_Landings",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        5.972499370574951,
+        17.322500228881836
+      ],
+      [
+        -6.022500038146973,
+        8.422499656677246
+      ],
+      [
+        -0.2719373404979706,
+        5.127500534057617
+      ]
+    ],
+    "convex_hulls": 52
+  },
+  {
+    "file": "SM_Millford_Overlook.fbx",
+    "mesh": "SM_Millford_Overlook",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        7.977499961853027,
+        15.02750015258789
+      ],
+      [
+        1.9724998474121094,
+        8.422499656677246
+      ],
+      [
+        3.6999998092651367,
+        5.440000057220459
+      ]
+    ],
+    "convex_hulls": 7
+  },
+  {
+    "file": "SM_Millford_Fuel_Yard.fbx",
+    "mesh": "SM_Millford_Fuel_Yard",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        6.0,
+        15.0
+      ],
+      [
+        -6.0,
+        0.0
+      ],
+      [
+        -0.30000001192092896,
+        1.75
+      ]
+    ],
+    "convex_hulls": 5
+  },
+  {
+    "file": "SM_Millford_Relay_and_Paths.fbx",
+    "mesh": "SM_Millford_Relay_and_Paths",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        13.826456069946289,
+        28.110000610351562
+      ],
+      [
+        -7.800000190734863,
+        11.800000190734863
+      ],
+      [
+        -0.18000000715255737,
+        4.800000190734863
+      ]
+    ],
+    "convex_hulls": 22
+  },
+  {
+    "file": "SM_Millford_Parking_and_Arrival.fbx",
+    "mesh": "SM_Millford_Parking_and_Arrival",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -21.0,
+        -10.5
+      ],
+      [
+        -18.0,
+        -6.0
+      ],
+      [
+        -1.2999999523162842,
+        5.073360919952393
+      ]
+    ],
+    "convex_hulls": 28
+  },
+  {
+    "file": "SM_Door_Control_Platform.fbx",
+    "mesh": "SM_Door_Control_Platform",
+    "kind": "hinged door",
+    "blender_pivot_m": [
+      -4.400000095367432,
+      -0.18000000715255737,
+      4.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -0.03000020980834961,
+        0.03000020980834961
+      ],
+      [
+        -1.1500000953674316,
+        0.0
+      ],
+      [
+        0.0,
+        2.3499999046325684
+      ]
+    ],
+    "convex_hulls": 1
+  },
+  {
+    "file": "SM_Door_Generator_Yard.fbx",
+    "mesh": "SM_Door_Generator_Yard",
+    "kind": "hinged door",
+    "blender_pivot_m": [
+      6.179999828338623,
+      -3.700000047683716,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        0.0,
+        1.3499999046325684
+      ],
+      [
+        -0.029999971389770508,
+        0.029999971389770508
+      ],
+      [
+        0.0,
+        2.3499999046325684
+      ]
+    ],
+    "convex_hulls": 1
+  },
+  {
+    "file": "SM_Millford_Gondola.fbx",
+    "mesh": "SM_Millford_Gondola",
+    "kind": "movable gondola",
+    "blender_pivot_m": [
+      0.0,
+      8.050000190734863,
+      4.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -1.6175000667572021,
+        1.6175000667572021
+      ],
+      [
+        -3.0789475440979004,
+        3.078946113586426
+      ],
+      [
+        -2.8499999046325684,
+        5.280000686645508
+      ]
+    ],
+    "convex_hulls": 19
+  },
+  {
+    "file": "SM_Millford_Roofs.fbx",
+    "mesh": "SM_Millford_Roofs",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -15.200000762939453,
+        28.200000762939453
+      ],
+      [
+        -6.199999809265137,
+        7.099999904632568
+      ],
+      [
+        3.4000000953674316,
+        7.600000381469727
+      ]
+    ],
+    "convex_hulls": 7
+  },
+  {
+    "file": "SM_Millford_Site_Structure.fbx",
+    "mesh": "SM_Millford_Site_Structure",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -14.940000534057617,
+        -3.059999942779541
+      ],
+      [
+        -5.940000057220459,
+        6.940000057220459
+      ],
+      [
+        -11.584238052368164,
+        3.700000286102295
+      ]
+    ],
+    "convex_hulls": 6
+  },
+  {
+    "file": "SM_Millford_Cliff_Anchors.fbx",
+    "mesh": "SM_Millford_Cliff_Anchors",
+    "kind": "fixed layout chunk",
+    "blender_pivot_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -15.100000381469727,
+        28.125
+      ],
+      [
+        -6.099999904632568,
+        11.5
+      ],
+      [
+        -4.0,
+        3.700000047683716
+      ]
+    ],
+    "convex_hulls": 2
+  },
+  {
+    "file": "SM_Scale_1m.fbx",
+    "mesh": "SM_Scale_1m",
+    "kind": "scale check",
+    "blender_pivot_m": [
+      -21.0,
+      -19.0,
+      -0.949999988079071
+    ],
+    "placement_note": "Fixed chunks: actor at world origin. Moving pieces: place from the documented pivot; verify axis conversion in UE.",
+    "bounds_local_m": [
+      [
+        -0.5,
+        0.5
+      ],
+      [
+        -0.5,
+        0.5
+      ],
+      [
+        -0.5000000596046448,
+        0.5
+      ]
+    ],
+    "convex_hulls": 0
+  }
+]

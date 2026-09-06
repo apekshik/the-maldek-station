@@ -1,0 +1,175 @@
+{
+  "status": "passed geometric samples and Blender FBX round-trips; UE5 playtest pending",
+  "clearance_radius_m": 0.28,
+  "body_check_heights_m": [
+    0.7,
+    1.65
+  ],
+  "required_headroom_m": 2.0,
+  "routes": {
+    "control_to_gondola": {
+      "samples": 66,
+      "issues": [],
+      "issue_count": 0
+    },
+    "sheltered_loop": {
+      "samples": 79,
+      "issues": [],
+      "issue_count": 0
+    },
+    "lower_service": {
+      "samples": 83,
+      "issues": [],
+      "issue_count": 0
+    },
+    "upper_bridge": {
+      "samples": 89,
+      "issues": [],
+      "issue_count": 0
+    },
+    "forest_route": {
+      "samples": 217,
+      "issues": [],
+      "issue_count": 0
+    },
+    "exposed_drive": {
+      "samples": 44,
+      "issues": [],
+      "issue_count": 0
+    },
+    "arrival_to_hall": {
+      "samples": 26,
+      "issues": [],
+      "issue_count": 0
+    },
+    "stairs_Internal": {
+      "samples": 23,
+      "issues": [],
+      "issue_count": 0
+    },
+    "stairs_Exterior": {
+      "samples": 23,
+      "issues": [],
+      "issue_count": 0
+    },
+    "stairs_Arrival": {
+      "samples": 23,
+      "issues": [],
+      "issue_count": 0
+    }
+  },
+  "fbx_roundtrips": [
+    {
+      "file": "SM_Millford_Upper_Platform.fbx",
+      "bounds_max_error_m": 9.5367431640625e-07,
+      "convex_hulls": 17,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Control_Room.fbx",
+      "bounds_max_error_m": 1.2069940567016602e-06,
+      "convex_hulls": 14,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Waiting_Hall.fbx",
+      "bounds_max_error_m": 2.1457672119140625e-06,
+      "convex_hulls": 15,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Lower_Drive.fbx",
+      "bounds_max_error_m": 1.9073486328125e-06,
+      "convex_hulls": 13,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Generator_Room.fbx",
+      "bounds_max_error_m": 9.5367431640625e-07,
+      "convex_hulls": 13,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Stairs_and_Landings.fbx",
+      "bounds_max_error_m": 2.384185791015625e-06,
+      "convex_hulls": 52,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Overlook.fbx",
+      "bounds_max_error_m": 2.1457672119140625e-06,
+      "convex_hulls": 7,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Fuel_Yard.fbx",
+      "bounds_max_error_m": 2.384185791015625e-06,
+      "convex_hulls": 5,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Relay_and_Paths.fbx",
+      "bounds_max_error_m": 2.86102294921875e-06,
+      "convex_hulls": 22,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Parking_and_Arrival.fbx",
+      "bounds_max_error_m": 1.9073486328125e-06,
+      "convex_hulls": 28,
+      "passed": true
+    },
+    {
+      "file": "SM_Door_Control_Platform.fbx",
+      "bounds_max_error_m": 1.73225998878479e-07,
+      "convex_hulls": 1,
+      "passed": true
+    },
+    {
+      "file": "SM_Door_Generator_Yard.fbx",
+      "bounds_max_error_m": 2.0302832126617432e-07,
+      "convex_hulls": 1,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Gondola.fbx",
+      "bounds_max_error_m": 2.384185791015625e-07,
+      "convex_hulls": 19,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Roofs.fbx",
+      "bounds_max_error_m": 1.430511474609375e-06,
+      "convex_hulls": 7,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Site_Structure.fbx",
+      "bounds_max_error_m": 2.384185791015625e-06,
+      "convex_hulls": 6,
+      "passed": true
+    },
+    {
+      "file": "SM_Millford_Cliff_Anchors.fbx",
+      "bounds_max_error_m": 1.430511474609375e-06,
+      "convex_hulls": 2,
+      "passed": true
+    },
+    {
+      "file": "SM_Scale_1m.fbx",
+      "bounds_max_error_m": 5.960464477539063e-08,
+      "convex_hulls": 0,
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Geometric samples are not a UE5 CharacterMovement or capsule sweep test.",
+    "FBX checked by Blender re-import; UE5 import is not verified.",
+    "Placeholder materials and UVs are not production surfacing."
+  ],
+  "operator_to_gondola": {
+    "clear": true,
+    "obstruction": null
+  },
+  "geometry_issues": 0
+}

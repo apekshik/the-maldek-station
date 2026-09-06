@@ -1,0 +1,147 @@
+{
+  "revision": "v2_blockout_01",
+  "blender": "5.0.1",
+  "units": "metres",
+  "upper_floor_m": 4,
+  "lower_floor_m": 0,
+  "stairs": [
+    {
+      "name": "Internal",
+      "x": 7,
+      "y0": 0.36,
+      "y1": 6.8,
+      "z0": 0,
+      "z1": 4,
+      "width": 1.6,
+      "risers": 24,
+      "riser_m": 0.16666666666666666,
+      "going_m": 0.27999999999999997
+    },
+    {
+      "name": "Exterior",
+      "x": 16.3,
+      "y0": -4.5,
+      "y1": 1.94,
+      "z0": 0,
+      "z1": 4,
+      "width": 1.6,
+      "risers": 24,
+      "riser_m": 0.16666666666666666,
+      "going_m": 0.27999999999999997
+    },
+    {
+      "name": "Arrival",
+      "x": -11.5,
+      "y0": -13.94,
+      "y1": -7.5,
+      "z0": 0,
+      "z1": 4,
+      "width": 1.6,
+      "risers": 24,
+      "riser_m": 0.16666666666666666,
+      "going_m": 0.27999999999999997
+    }
+  ],
+  "openings": [
+    {
+      "name": "Drive_Generator_Partition",
+      "axis": "X",
+      "fixed": 0,
+      "center": 2,
+      "width": 1.4,
+      "height": 2.4,
+      "base": 0
+    },
+    {
+      "name": "Drive_Generator_Partition",
+      "axis": "X",
+      "fixed": 0,
+      "center": 5.2,
+      "width": 1.2,
+      "height": 2.4,
+      "base": 0
+    },
+    {
+      "name": "Generator_East",
+      "axis": "Y",
+      "fixed": 6,
+      "center": -3,
+      "width": 1.4,
+      "height": 2.4,
+      "base": 0
+    },
+    {
+      "name": "Generator_East",
+      "axis": "Y",
+      "fixed": 6,
+      "center": -0.6,
+      "width": 1.2,
+      "height": 2.4,
+      "base": 0
+    },
+    {
+      "name": "Control_North",
+      "axis": "X",
+      "fixed": 0,
+      "center": -3.8,
+      "width": 1.2,
+      "height": 2.4,
+      "base": 4
+    },
+    {
+      "name": "Control_Hall_Shared",
+      "axis": "Y",
+      "fixed": -8,
+      "center": -2,
+      "width": 1.2,
+      "height": 2.4,
+      "base": 4
+    },
+    {
+      "name": "Hall_North",
+      "axis": "X",
+      "fixed": 0,
+      "center": -11.5,
+      "width": 1.6,
+      "height": 2.4,
+      "base": 4
+    },
+    {
+      "name": "Hall_South",
+      "axis": "X",
+      "fixed": -6,
+      "center": -11.5,
+      "width": 1.6,
+      "height": 2.4,
+      "base": 4
+    },
+    {
+      "name": "Relay_South",
+      "axis": "X",
+      "fixed": -1,
+      "center": 26,
+      "width": 1.2,
+      "height": 2.3,
+      "base": 2
+    },
+    {
+      "name": "Relay_North",
+      "axis": "X",
+      "fixed": 3,
+      "center": 26,
+      "width": 1.2,
+      "height": 2.3,
+      "base": 2
+    },
+    {
+      "name": "Gondola_South",
+      "axis": "X",
+      "fixed": 5.05,
+      "center": 0,
+      "width": 1.2,
+      "height": 2.1,
+      "base": 4
+    }
+  ],
+  "files": []
+}

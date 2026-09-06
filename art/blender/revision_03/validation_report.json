@@ -1,0 +1,93 @@
+{
+  "status": "passed sampled geometry; no revision03 FBX exports or UE5 playtest",
+  "clearance_radius_m": 0.28,
+  "body_check_heights_m": [
+    0.7,
+    1.65
+  ],
+  "required_headroom_m": 2.0,
+  "routes": {
+    "control_to_gondola": {
+      "samples": 66,
+      "issues": [],
+      "issue_count": 0
+    },
+    "sheltered_loop": {
+      "samples": 79,
+      "issues": [],
+      "issue_count": 0
+    },
+    "lower_service": {
+      "samples": 83,
+      "issues": [],
+      "issue_count": 0
+    },
+    "upper_bridge": {
+      "samples": 89,
+      "issues": [],
+      "issue_count": 0
+    },
+    "forest_route": {
+      "samples": 526,
+      "issues": [],
+      "issue_count": 0
+    },
+    "exposed_drive": {
+      "samples": 44,
+      "issues": [],
+      "issue_count": 0
+    },
+    "arrival_to_hall": {
+      "samples": 26,
+      "issues": [],
+      "issue_count": 0
+    },
+    "stairs_Internal": {
+      "samples": 23,
+      "issues": [],
+      "issue_count": 0
+    },
+    "stairs_Exterior": {
+      "samples": 23,
+      "issues": [],
+      "issue_count": 0
+    },
+    "stairs_Arrival": {
+      "samples": 23,
+      "issues": [],
+      "issue_count": 0
+    }
+  },
+  "fbx_roundtrips": [],
+  "limitations": [
+    "Geometric samples are not a UE5 CharacterMovement or capsule sweep test.",
+    "FBX checked by Blender re-import; UE5 import is not verified.",
+    "Placeholder materials and UVs are not production surfacing."
+  ],
+  "operator_to_gondola": {
+    "clear": true,
+    "obstruction": null
+  },
+  "geometry_issues": 0,
+  "packed_tree_images": [
+    "pine_tree_01_bark_diff.png",
+    "pine_tree_01_bark_disp.png",
+    "pine_tree_01_bark_nor_gl.png",
+    "pine_tree_01_bark_rough.png",
+    "pine_tree_01_trunk_a_diff.png",
+    "pine_tree_01_trunk_a_nor_gl.png",
+    "pine_tree_01_trunk_a_rough.png",
+    "pine_tree_01_trunk_b_diff.png",
+    "pine_tree_01_trunk_b_nor_gl.png",
+    "pine_tree_01_trunk_b_rough.png",
+    "pine_tree_01_trunk_c_diff.png",
+    "pine_tree_01_trunk_c_nor_gl.png",
+    "pine_tree_01_trunk_c_rough.png",
+    "pine_tree_01_twig_alpha.png",
+    "pine_tree_01_twig_diff.png",
+    "pine_tree_01_twig_mask.png",
+    "pine_tree_01_twig_nor_gl.png",
+    "pine_tree_01_twig_rough.png"
+  ],
+  "tree_instances": 585
+}

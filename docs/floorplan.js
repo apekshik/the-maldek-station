@@ -3,20 +3,21 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  const svg = document.querySelector('svg.floorplan');
-  const container = document.querySelector('.plan-container');
-  const toggleBtn = document.getElementById('toggleSight');
-  const sightlines = document.querySelectorAll('.sightline');
-  const blindAnnotations = [document.getElementById('blind-1'), document.getElementById('blind-2')];
-  const zoomIndicator = document.getElementById('zoom-indicator');
+  document.querySelectorAll('.layout[role="tabpanel"]').forEach(layout => {
+  const svg = layout.querySelector('svg.floorplan');
+  const container = layout.querySelector('.plan-container');
+  const toggleBtn = layout.querySelector('.toggle-sightlines');
+  const sightlines = layout.querySelectorAll('.sightline');
+  const blindAnnotations = layout.querySelectorAll('[id^="blind-"], .blind-annotation');
+  const zoomIndicator = layout.querySelector('.zoom-indicator');
 
   let sightlinesVisible = false;
   let selectedZone = null;
 
   // ── Zone selection ──────────────────────────────────────────────
 
-  const zones = document.querySelectorAll('.room');
-  const labels = document.querySelectorAll('.room-label');
+  const zones = layout.querySelectorAll('.room');
+  const labels = layout.querySelectorAll('.room-label');
 
   function selectZone(zoneId) {
     zones.forEach(z => z.classList.remove('selected'));
@@ -28,14 +29,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const label = document.getElementById('label-' + zoneId);
     if (label) label.classList.add('selected');
 
-    document.querySelectorAll('.zone-info').forEach(p => p.classList.remove('active'));
+    layout.querySelectorAll('.zone-info').forEach(p => p.classList.remove('active'));
     const panel = document.getElementById('info-' + zoneId);
     if (panel) panel.classList.add('active');
 
     selectedZone = zoneId;
+    layout.dispatchEvent(new CustomEvent('maldek:zone-selected', { detail: zoneId }));
   }
 
   zones.forEach(zone => {
+    zone.setAttribute('tabindex', '0');
+    zone.setAttribute('role', 'button');
+    zone.setAttribute('aria-label', zone.querySelector('.room-label').textContent);
+    zone.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectZone(zone.dataset.zone); }
+    });
     zone.addEventListener('click', (e) => {
       // Don't select if we just dragged
       if (dragMoved) return;
@@ -43,10 +51,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  layout.addEventListener('maldek:select-zone', e => selectZone(e.detail));
+
   // ── Sightline toggle ───────────────────────────────────────────
 
   toggleBtn.addEventListener('click', () => {
     sightlinesVisible = !sightlinesVisible;
+    toggleBtn.setAttribute('aria-pressed', String(sightlinesVisible));
     toggleBtn.classList.toggle('active', sightlinesVisible);
     toggleBtn.textContent = sightlinesVisible ? 'Hide Sightlines' : 'Show Sightlines';
 
@@ -58,7 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── Zoom & Pan ─────────────────────────────────────────────────
 
-  const DEFAULT_VB = { x: 0, y: 0, w: 700, h: 520 };
+  const [x, y, w, h] = svg.getAttribute('viewBox').split(/\s+/).map(Number);
+  const DEFAULT_VB = { x, y, w, h };
   const MIN_ZOOM = 0.5;  // viewBox can be 2x the default (zoomed out)
   const MAX_ZOOM = 4;    // viewBox can be 0.25x the default (zoomed in)
   const ZOOM_SENSITIVITY = 0.001;
@@ -82,17 +94,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function screenToSVG(clientX, clientY) {
-    const rect = svg.getBoundingClientRect();
-    const sx = (clientX - rect.left) / rect.width;
-    const sy = (clientY - rect.top) / rect.height;
-    return {
-      x: vb.x + sx * vb.w,
-      y: vb.y + sy * vb.h
-    };
+    const point = new DOMPoint(clientX, clientY).matrixTransform(svg.getScreenCTM().inverse());
+    return { x: point.x, y: point.y };
   }
 
   // Wheel → zoom
   container.addEventListener('wheel', (e) => {
+    if (svg.hasAttribute('hidden')) return;
     e.preventDefault();
 
     const zoom = currentZoom();
@@ -232,8 +240,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── Sidebar resize ──────────────────────────────────────────────
 
-  const resizeHandle = document.getElementById('resize-handle');
-  const sidebar = document.getElementById('zone-panels');
+  const resizeHandle = layout.querySelector('.resize-handle');
+  const sidebar = layout.querySelector('.sidebar');
 
   if (resizeHandle && sidebar) {
     let isResizing = false;
@@ -265,4 +273,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initialize
   applyViewBox();
+  });
+
+  const tabs = Array.from(document.querySelectorAll('[role="tab"]'));
+  function activateTab(tab, focus = false) {
+    tabs.forEach(item => {
+      const active = item === tab;
+      item.setAttribute('aria-selected', String(active));
+      item.tabIndex = active ? 0 : -1;
+      document.getElementById(item.getAttribute('aria-controls')).hidden = !active;
+    });
+    if (focus) tab.focus();
+    history.replaceState(null, '', '#' + tab.id.replace('tab-', ''));
+  }
+  tabs.forEach((tab, i) => {
+    tab.addEventListener('click', () => activateTab(tab));
+    tab.addEventListener('keydown', e => {
+      let next;
+      if (e.key === 'ArrowRight') next = (i + 1) % tabs.length;
+      if (e.key === 'ArrowLeft') next = (i + tabs.length - 1) % tabs.length;
+      if (e.key === 'Home') next = 0;
+      if (e.key === 'End') next = tabs.length - 1;
+      if (next !== undefined) { e.preventDefault(); activateTab(tabs[next], true); }
+    });
+  });
+  function restoreTab() {
+    activateTab(document.getElementById('tab-' + location.hash.slice(1)) || document.getElementById('tab-v2'));
+  }
+  window.addEventListener('hashchange', restoreTab);
+  restoreTab();
 });
