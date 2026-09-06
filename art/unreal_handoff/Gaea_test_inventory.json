@@ -1,0 +1,626 @@
+[
+  {
+    "name": "Landscape_0",
+    "label": "Landscape0",
+    "class": "Landscape",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -201600.0,
+        -201600.0,
+        17540.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040C6F0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        0.0,
+        0.0,
+        17536.875
+      ],
+      "extent": [
+        201600.0,
+        201600.0,
+        25596.875
+      ]
+    },
+    "meshes": [],
+    "splines": [],
+    "landscape_material": "<Object '/Game/MWLandscapeAutoMaterial/Materials/Landscape/MTL_MWAM_Landscape_MountainRangeExample.MTL_MWAM_Landscape_MountainRangeExample' (0x00000149ED997800) Class 'MaterialInstanceConstant'>"
+  },
+  {
+    "name": "StaticMeshActor_3",
+    "label": "Platform",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -86090.0,
+        16160.0,
+        11210.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040C330) {pitch: 0.000000, yaw: -20.000000, roll: 0.000000}>",
+      "scale": [
+        57.75,
+        17.0,
+        0.5
+      ]
+    },
+    "bounds": {
+      "center": [
+        -83085.92043514324,
+        15971.155571938156,
+        11235.0
+      ],
+      "extent": [
+        3004.079564856758,
+        1786.3218849700806,
+        25.0
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube",
+        "transform": {
+          "location": [
+            -86090.0,
+            16160.0,
+            11210.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C920) {pitch: 0.000000, yaw: -20.000000, roll: 0.000000}>",
+          "scale": [
+            57.75,
+            17.0,
+            0.5
+          ]
+        },
+        "materials": [
+          "/Game/Fab/Megascans/Surfaces/Metal_Panels_Facade_udqmfeoew/High/udqmfeoew_tier_1/Materials/MI_Metal_Panels.MI_Metal_Panels"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "PointLight_0",
+    "label": "PointLight",
+    "class": "PointLight",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -82770.0,
+        15970.0,
+        11810.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040C6F0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -82770.0,
+        15970.0,
+        11810.0
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "PointLight_1",
+    "label": "PointLight2",
+    "class": "PointLight",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -84690.0,
+        16610.0,
+        11380.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040C330) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -84690.0,
+        16610.0,
+        11380.0
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "PointLight_2",
+    "label": "PointLight3",
+    "class": "PointLight",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -56823.0,
+        94545.0,
+        33049.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040C6F0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -56823.0,
+        94545.0,
+        33049.0
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "CineCameraActor_0",
+    "label": "CineCameraActor",
+    "class": "CineCameraActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -84452.0,
+        15936.0,
+        11303.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040FCB0) {pitch: 8.341968, yaw: 72.486534, roll: -2.210946}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "StaticMeshActor_4",
+    "label": "SM_Cube",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -84331.0,
+        18362.0,
+        11452.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040C470) {pitch: 0.000000, yaw: -25.312500, roll: 0.000000}>",
+      "scale": [
+        2.5,
+        8.5,
+        3.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -84036.29042478361,
+        18692.751063907246,
+        11602.0
+      ],
+      "extent": [
+        294.70957521638775,
+        437.63983649139846,
+        150.0
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube",
+        "transform": {
+          "location": [
+            -84331.0,
+            18362.0,
+            11452.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040FE90) {pitch: 0.000000, yaw: -25.312500, roll: 0.000000}>",
+          "scale": [
+            2.5,
+            8.5,
+            3.0
+          ]
+        },
+        "materials": [
+          "/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.MI_PrototypeGrid_Gray"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "Ultra_Dynamic_Sky_C_2",
+    "label": "Ultra_Dynamic_Sky",
+    "class": "Ultra_Dynamic_Sky_C",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -84029.0,
+        16056.0,
+        11563.00859284401
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040FF80) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -85904.0,
+        15118.5,
+        -574038124.4914074
+      ],
+      "extent": [
+        9369288750.0,
+        9369287500.0,
+        9964757500.0
+      ]
+    },
+    "meshes": [
+      {
+        "component": "ClockDisk",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/ClockDisk.ClockDisk",
+        "transform": {
+          "location": [
+            -84029.0,
+            16056.0000000086,
+            11488.00859284401
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C470) {pitch: 0.000000, yaw: 89.999999, roll: -0.000000}>",
+          "scale": [
+            0.8,
+            0.8000000070647831,
+            0.8000000070647831
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/UDS_Clock_Material.UDS_Clock_Material"
+        ]
+      },
+      {
+        "component": "Sky_Sphere",
+        "mesh": "/Game/UltraDynamicSky/Meshes/Ultra_Dynamic_Sky_Sphere.Ultra_Dynamic_Sky_Sphere",
+        "transform": {
+          "location": [
+            -84029.0,
+            16056.0,
+            11563.00859284401
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C6F0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            5000.0,
+            5000.0,
+            5000.0
+          ]
+        },
+        "materials": [
+          "/Game/Gaea_test.Gaea_test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sky_Sphere.MID_UDS_K_0"
+        ]
+      },
+      {
+        "component": "UDS Label",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/UDS_Text.UDS_Text",
+        "transform": {
+          "location": [
+            -84029.0,
+            16056.0,
+            11563.00859284401
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C470) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            1.3,
+            1.2999999523162842,
+            1.2999999523162842
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/UDS_EditorLabel.UDS_EditorLabel"
+        ]
+      },
+      {
+        "component": "Compass",
+        "mesh": "/Game/UltraDynamicSky/Meshes/Compass.Compass",
+        "transform": {
+          "location": [
+            -84029.00000000073,
+            16056.00000006803,
+            11488.00859284401
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C6F0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            0.55,
+            0.5500000286848862,
+            0.5500000286848862
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/UDS_Compass_Material.UDS_Compass_Material"
+        ]
+      },
+      {
+        "component": "W",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/Compass_W.Compass_W",
+        "transform": {
+          "location": [
+            -84029.0000004325,
+            15996.236796941945,
+            11489.383592915721
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C470) {pitch: 0.000000, yaw: 89.999999, roll: -0.000000}>",
+          "scale": [
+            0.7150000000000001,
+            0.7150000372903521,
+            0.7150000110643069
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/UDS_Compass_Material_Letters.UDS_Compass_Material_Letters"
+        ]
+      },
+      {
+        "component": "N",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/Compass_N.Compass_N",
+        "transform": {
+          "location": [
+            -83969.60000000073,
+            16056.00000006803,
+            11489.383592915721
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C6F0) {pitch: 0.000000, yaw: 89.999999, roll: -0.000000}>",
+          "scale": [
+            0.7150000000000001,
+            0.7150000372903521,
+            0.7150000110643069
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/UDS_Compass_Material_Letters.UDS_Compass_Material_Letters"
+        ]
+      },
+      {
+        "component": "E",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/Compass_E.Compass_E",
+        "transform": {
+          "location": [
+            -84029.00000000073,
+            16115.400003165998,
+            11489.383592915721
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C470) {pitch: 0.000000, yaw: 89.999999, roll: -0.000000}>",
+          "scale": [
+            0.7150000000000001,
+            0.7150000372903521,
+            0.7150000110643069
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/UDS_Compass_Material_Letters.UDS_Compass_Material_Letters"
+        ]
+      },
+      {
+        "component": "S",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/Compass_S.Compass_S",
+        "transform": {
+          "location": [
+            -84088.40000000072,
+            16056.00000006803,
+            11489.383592915721
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C6F0) {pitch: 0.000000, yaw: 89.999999, roll: -0.000000}>",
+          "scale": [
+            0.7150000000000001,
+            0.7150000372903521,
+            0.7150000110643069
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/UDS_Compass_Material_Letters.UDS_Compass_Material_Letters"
+        ]
+      },
+      {
+        "component": "Sun Handle",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/Editor_SunMoon_Handle.Editor_SunMoon_Handle",
+        "transform": {
+          "location": [
+            -84016.3936866445,
+            16122.09457006825,
+            11541.173818482328
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C470) {pitch: 0.000000, yaw: 89.999999, roll: -0.000000}>",
+          "scale": [
+            0.7595200303476304,
+            0.7595200303476304,
+            0.7595200303476304
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/Editor_SunHandle_Material.Editor_SunHandle_Material",
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/Editor_Sun_Glow.Editor_Sun_Glow"
+        ]
+      },
+      {
+        "component": "Moon Handle",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/Editor_SunMoon_Handle.Editor_SunMoon_Handle",
+        "transform": {
+          "location": [
+            -84027.55119457803,
+            15984.575933178936,
+            11579.393156013492
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040C6F0) {pitch: 0.000000, yaw: 89.999999, roll: -0.000000}>",
+          "scale": [
+            0.7595200303476304,
+            0.7595200303476304,
+            0.7595200303476304
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/Editor_MoonHandle_Material.Editor_MoonHandle_Material",
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/Editor_Moon_Glow.Editor_Moon_Glow"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "Ultra_Dynamic_Weather_C_1",
+    "label": "Ultra_Dynamic_Weather",
+    "class": "Ultra_Dynamic_Weather_C",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -85040.0,
+        16830.0,
+        11587.839423298836
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E045CB00) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -84452.125,
+        15936.0,
+        11303.0
+      ],
+      "extent": [
+        2499999.875,
+        2500000.0,
+        2500000.0
+      ]
+    },
+    "meshes": [
+      {
+        "component": "UDW Label",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/UDW_Text.UDW_Text",
+        "transform": {
+          "location": [
+            -85040.0,
+            16830.0,
+            11587.839423298836
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040FF80) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            1.3,
+            1.2999999523162842,
+            1.2999999523162842
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/UDS_EditorLabel.UDS_EditorLabel"
+        ]
+      },
+      {
+        "component": "SelectionHide",
+        "mesh": "/Game/UltraDynamicSky/Meshes/Nebula_Sphere.Nebula_Sphere",
+        "transform": {
+          "location": [
+            -84452.0,
+            15936.0,
+            11303.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040FDA0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "materials": [
+          "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+        ]
+      },
+      {
+        "component": "StatusDisk",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/ClockDisk.ClockDisk",
+        "transform": {
+          "location": [
+            -85040.0,
+            16830.0,
+            11512.839423298836
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040FF80) {pitch: 0.000000, yaw: 89.999999, roll: -0.000000}>",
+          "scale": [
+            0.8,
+            0.800000011920929,
+            0.800000011920929
+          ]
+        },
+        "materials": [
+          "/Game/Gaea_test.Gaea_test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_UDW_StatusDisk_Material_0"
+        ]
+      },
+      {
+        "component": "Wind_Arrow",
+        "mesh": "/Game/UltraDynamicSky/Meshes/EditorLabels/Wind_Arrow.Wind_Arrow",
+        "transform": {
+          "location": [
+            -85040.0,
+            16830.0,
+            11512.839423298836
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040FDA0) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+          "scale": [
+            0.6504187776707113,
+            0.6504187895916402,
+            0.6504187895916402
+          ]
+        },
+        "materials": [
+          "/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/UDS_Compass_Material.UDS_Compass_Material"
+        ]
+      }
+    ],
+    "splines": []
+  }
+]

@@ -1,0 +1,217 @@
+{
+  "source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\millford_v2_night_03.blend",
+  "source_sha256": "6bca23a3c24feca1f52027ca7afebfc20eb8aed721b668d0a0a0f205a636f057",
+  "blender_version": "5.0.1",
+  "devices": [
+    {
+      "name": "NVIDIA GeForce RTX 5070 Ti",
+      "type": "CUDA",
+      "enabled": false
+    },
+    {
+      "name": "13th Gen Intel Core i9-13900KF",
+      "type": "CPU",
+      "enabled": false
+    },
+    {
+      "name": "NVIDIA GeForce RTX 5070 Ti",
+      "type": "OPTIX",
+      "enabled": true
+    }
+  ],
+  "camera": "CAM_R03_Platform_Rain",
+  "view_layer": "02_Full_Shell",
+  "resolution": [
+    1400,
+    930
+  ],
+  "samples": 40,
+  "denoising": true,
+  "exposure": -0.3499999940395355,
+  "images": [
+    {
+      "name": "concrete_floor_diff_1k.jpg",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "concrete_floor_disp_1k.jpg",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "concrete_floor_rough_1k.jpg",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_bark_diff.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_bark_disp.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_bark_nor_gl.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_bark_rough.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_trunk_a_diff.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_trunk_a_nor_gl.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_trunk_a_rough.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_trunk_b_diff.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_trunk_b_nor_gl.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_trunk_b_rough.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_trunk_c_diff.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_trunk_c_nor_gl.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_trunk_c_rough.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_twig_alpha.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_twig_diff.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_twig_mask.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_twig_nor_gl.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "pine_tree_01_twig_rough.png",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "rusty_painted_metal_diff_1k.jpg",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "rusty_painted_metal_disp_1k.jpg",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    },
+    {
+      "name": "rusty_painted_metal_rough_1k.jpg",
+      "packed": true,
+      "external_exists": false,
+      "missing": false
+    }
+  ],
+  "missing_images": [],
+  "objects": 1399,
+  "mesh_objects": 1362,
+  "gpu_memory_note": "nvidia-smi total device memory usage sampled every second; includes other applications.",
+  "render_success": true,
+  "render_wall_seconds": 6.274,
+  "gpu_samples": [
+    {
+      "seconds": 0.07,
+      "memory_mib": 1599,
+      "utilization_percent": 15
+    },
+    {
+      "seconds": 1.13,
+      "memory_mib": 2794,
+      "utilization_percent": 11
+    },
+    {
+      "seconds": 2.19,
+      "memory_mib": 4268,
+      "utilization_percent": 3
+    },
+    {
+      "seconds": 3.25,
+      "memory_mib": 4285,
+      "utilization_percent": 97
+    },
+    {
+      "seconds": 4.3,
+      "memory_mib": 4285,
+      "utilization_percent": 97
+    },
+    {
+      "seconds": 5.56,
+      "memory_mib": 4290,
+      "utilization_percent": 3
+    }
+  ],
+  "peak_total_gpu_memory_mib": 4290,
+  "source_unchanged": true
+}

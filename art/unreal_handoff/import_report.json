@@ -1,0 +1,334 @@
+[
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_01_Upper_Platform",
+    "center": [
+      99.99993896484375,
+      -574.9999861717224,
+      529.5
+    ],
+    "extent": [
+      909.0,
+      584.0000138282776,
+      220.5
+    ],
+    "materials": [
+      "R02_Chipped_Painted_Steel",
+      "R02_Galvanized_Grating",
+      "R04_Concrete_Fine_Aggregate",
+      "R04_Seals",
+      "R04_Painted_Charcoal",
+      "R04_Galvanized_Fittings"
+    ],
+    "collision_hulls": 17,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_02_Control_Room",
+    "center": [
+      -549.9999542236328,
+      199.25006532669067,
+      540.0000152587891
+    ],
+    "extent": [
+      260.99998474121094,
+      211.7500262260437,
+      170.0000457763672
+    ],
+    "materials": [
+      "R04_Concrete_Fine_Aggregate",
+      "R02_Damp_Timber",
+      "Paper",
+      "R02_Chipped_Painted_Steel",
+      "R04_Seals",
+      "R04_Painted_Charcoal",
+      "R04_Galvanized_Fittings",
+      "R04_Instrument_Ivory",
+      "R04_Oxide_Enamel",
+      "R04_Green_Button",
+      "R04_Safety_Ochre"
+    ],
+    "collision_hulls": 14,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_03_Waiting_Hall",
+    "center": [
+      -1149.9999694824219,
+      154.12509155273438,
+      540.0000152587891
+    ],
+    "extent": [
+      361.0000305175781,
+      456.8750305175781,
+      170.0000457763672
+    ],
+    "materials": [
+      "R02_Weathered_Concrete",
+      "R02_Chipped_Painted_Steel",
+      "R02_Damp_Timber"
+    ],
+    "collision_hulls": 15,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_04_Lower_Drive",
+    "center": [
+      195.8749771118164,
+      -570.8750524520874,
+      167.49999904632568
+    ],
+    "extent": [
+      406.8750228881836,
+      581.8750696182251,
+      197.50000095367432
+    ],
+    "materials": [
+      "R02_Weathered_Concrete",
+      "R02_Chipped_Painted_Steel",
+      "R02_Galvanized_Grating",
+      "R04_Concrete_Fine_Aggregate",
+      "R04_Painted_Charcoal",
+      "R04_Galvanized_Fittings",
+      "R04_Seals",
+      "R04_Safety_Ochre",
+      "R04_Instrument_Ivory"
+    ],
+    "collision_hulls": 30,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_05_Generator_Room",
+    "center": [
+      200.00003814697266,
+      305.5000038099188,
+      154.99999904632568
+    ],
+    "extent": [
+      411.0000228881836,
+      305.50005722523747,
+      185.00000095367432
+    ],
+    "materials": [
+      "R02_Weathered_Concrete",
+      "R02_Chipped_Painted_Steel",
+      "R02_Damp_Timber"
+    ],
+    "collision_hulls": 13,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_06_Stairs_and_Landings",
+    "center": [
+      1164.7500305175781,
+      -120.00009155273438,
+      242.77816200256348
+    ],
+    "extent": [
+      567.5000915527344,
+      722.2499694824219,
+      269.9718990325928
+    ],
+    "materials": [
+      "R02_Worn_Safety_Paint",
+      "R02_Chipped_Painted_Steel",
+      "R02_Galvanized_Grating"
+    ],
+    "collision_hulls": 52,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_07_Overlook",
+    "center": [
+      1150.2499694824219,
+      -519.7500610351562,
+      456.99998474121094
+    ],
+    "extent": [
+      352.5000305175781,
+      322.5,
+      87.00001525878906
+    ],
+    "materials": [
+      "R02_Weathered_Concrete",
+      "R02_Chipped_Painted_Steel",
+      "R02_Galvanized_Grating"
+    ],
+    "collision_hulls": 7,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_08_Fuel_Yard",
+    "center": [
+      1050.0,
+      299.99990391533356,
+      72.49999904632568
+    ],
+    "extent": [
+      450.0,
+      300.0000350495102,
+      102.50000095367432
+    ],
+    "materials": [
+      "R02_Weathered_Concrete",
+      "R02_Chipped_Painted_Steel"
+    ],
+    "collision_hulls": 5,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_10_Parking_and_Arrival",
+    "center": [
+      -1574.9999389648438,
+      1200.0001831054688,
+      188.66802978515625
+    ],
+    "extent": [
+      525.0000610351562,
+      600.0000610351562,
+      318.66802978515625
+    ],
+    "materials": [
+      "Ground",
+      "R02_Weathered_Concrete",
+      "R02_Worn_Safety_Paint",
+      "R02_Chipped_Painted_Steel",
+      "Route",
+      "R02_Galvanized_Grating"
+    ],
+    "collision_hulls": 28,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_11_Doors_Door_Control_Platform",
+    "center": [
+      -440.00001525878906,
+      75.50003433227539,
+      517.5
+    ],
+    "extent": [
+      3.0000152587890625,
+      57.499996185302734,
+      117.5
+    ],
+    "materials": [
+      "R02_Damp_Timber"
+    ],
+    "collision_hulls": 1,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_11_Doors_Door_Generator_Yard",
+    "center": [
+      685.5,
+      369.99993896484375,
+      117.49999237060547
+    ],
+    "extent": [
+      67.5,
+      3.0,
+      117.49999237060547
+    ],
+    "materials": [
+      "R02_Damp_Timber"
+    ],
+    "collision_hulls": 1,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_12_Gondola",
+    "center": [
+      0.0,
+      3.89996337890625,
+      190.24998092651367
+    ],
+    "extent": [
+      167.00001525878906,
+      318.9000244140625,
+      216.7499885559082
+    ],
+    "materials": [
+      "R04_Painted_Charcoal",
+      "R02_Damp_Timber",
+      "R04_Oxide_Enamel",
+      "R04_Seals",
+      "R04_Glazing",
+      "R04_Galvanized_Fittings"
+    ],
+    "collision_hulls": 18,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_13_Roofs",
+    "center": [
+      -360.00006103515625,
+      -44.999969482421875,
+      550.0000305175781
+    ],
+    "extent": [
+      1160.0000610351562,
+      665.0000915527344,
+      210.00003051757812
+    ],
+    "materials": [
+      "R02_Weathered_Concrete",
+      "R02_Damp_Timber"
+    ],
+    "collision_hulls": 7,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_14_Site_Structure",
+    "center": [
+      -900.0000457763672,
+      -49.99993896484375,
+      -394.21189880371094
+    ],
+    "extent": [
+      594.0000762939453,
+      644.0000610351562,
+      764.2119293212891
+    ],
+    "materials": [
+      "R02_Weathered_Concrete"
+    ],
+    "collision_hulls": 6,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_18_Cliff_Anchors",
+    "center": [
+      -447.5000305175781,
+      -269.99993896484375,
+      -15.0
+    ],
+    "extent": [
+      1062.4999694824219,
+      880.0000610351562,
+      385.0
+    ],
+    "materials": [
+      "R02_Chipped_Painted_Steel",
+      "R02_Weathered_Concrete"
+    ],
+    "collision_hulls": 2,
+    "lods": 1
+  },
+  {
+    "path": "/Game/MaldekRefinement/Meshes/SM_R04_OrientationProbe",
+    "center": [
+      49.999991257722286,
+      -100.00000762939453,
+      150.0
+    ],
+    "extent": [
+      50.000008742277714,
+      100.00000762939453,
+      150.0
+    ],
+    "materials": [
+      "WorldGridMaterial"
+    ],
+    "collision_hulls": 0,
+    "lods": 1
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "map": "BlockOut_R05",
+  "snow_altitude_cm": 35000.0,
+  "actors": {
+    "R04_07_Overlook": "/Game/MaldekRefinement/R05/Meshes/SM_R04_07_Overlook.SM_R04_07_Overlook",
+    "R04_13_Roofs": "/Game/MaldekRefinement/R05/Meshes/SM_R04_13_Roofs.SM_R04_13_Roofs",
+    "R04_Local_Terrain": "/Game/MaldekRefinement/R05/Meshes/SM_R05_Local_Terrain.SM_R05_Local_Terrain",
+    "R04_09_Relay_and_Paths": "/Game/MaldekRefinement/R05/Meshes/SM_R04_09_Relay_and_Paths.SM_R04_09_Relay_and_Paths"
+  },
+  "saved": true
+}

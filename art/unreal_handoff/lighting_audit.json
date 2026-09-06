@@ -1,0 +1,86 @@
+{
+  "/Game/MWLandscapeAutoMaterial/Materials/Landscape/MTL_MWAM_Landscape_MountainRangeExample.MTL_MWAM_Landscape_MountainRangeExample": [
+    {
+      "path": "/Game/MWLandscapeAutoMaterial/Materials/Landscape/MTL_MWAM_Landscape_MountainRangeExample.MTL_MWAM_Landscape_MountainRangeExample",
+      "class": "MaterialInstanceConstant",
+      "scalar_parameter_values": "[{parameter_info: {name: \"MW_SnowEdgeMaskUVSize\", association: GlobalParameter, index: -1}, parameter_value: 128.000000}, {parameter_info: {name: \"MW_SnowMaskMultiplier\", association: GlobalParameter, index: -1}, parameter_value: 1.100000}, {parameter_info: {name: \"MW_SnowNormalIntensity\", association: GlobalParameter, index: -1}, parameter_value: 0.500000}, {parameter_info: {name: \"MW_WaterMaxWorldPosition\", association: GlobalParameter, index: -1}, parameter_value: -3000.000000}, {parameter_info: {name: \"MW_GrassNormalIntensity\", association: GlobalParameter, index: -1}, parameter_value: 0.500000}, {parameter_info: {name: \"MW_GrassSpecular\", association: GlobalParameter, index: -1}, parameter_value: 0.050000}, {parameter_info: {name: \"MW_StonesUVFarMultiplier\", association: GlobalParameter, index: -1}, parameter_value: 2.000000}, {parameter_info: {name: \"MW_StonesUVNearMultiplier\", association: GlobalParameter, index: -1}, parameter_value: 1.000000}, {parameter_info: {name: \"MW_RockNormalIntensity\", association: GlobalParameter, index: -1}, parameter_value: 0.500000}, {parameter_info: {name: \"MW_RockRoughness\", association: GlobalParameter, index: -1}, parameter_value: 5.000000}, {parameter_info: {name: \"MW_VariationWorldUVSize\", association: GlobalParameter, index: -1}, parameter_value: 64.000000}, {parameter_info: {name: \"MW_RoughnessMultiplier\", association: GlobalParameter, index: -1}, parameter_value: 1.000000}, {parameter_info: {name: \"MW_RoughnessPower\", association: GlobalParameter, index: -1}, parameter_value: 2.000000}, {parameter_info: {name: \"MW_LandscapeWorldUVSize\", association: GlobalParameter, index: -1}, parameter_value: 512.000000}, {parameter_info: {name: \"RefractionDepthBias\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}]",
+      "vector_parameter_values": "[{parameter_info: {name: \"MW_SnowColorCorrection\", association: GlobalParameter, index: -1}, parameter_value: {r: 0.900000, g: 0.940734, b: 1.000000, a: 1.000000}}]"
+    },
+    {
+      "path": "/Game/MWLandscapeAutoMaterial/Materials/MASTER/MTL_MWAM_AutoMaterial_MASTER.MTL_MWAM_AutoMaterial_MASTER",
+      "class": "Material",
+      "shading_model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "blend_mode": "<BlendMode.BLEND_OPAQUE: 0>",
+      "use_material_attributes": "True",
+      "inputs": {
+        "<MaterialProperty.MP_BASE_COLOR: 5>": "<Object '/Game/MWLandscapeAutoMaterial/Materials/MASTER/MTL_MWAM_AutoMaterial_MASTER.MTL_MWAM_AutoMaterial_MASTER:MaterialExpressionStaticSwitchParameter_16' (0x00000266AB9DB580) Class 'MaterialExpressionStaticSwitchParameter'>",
+        "<MaterialProperty.MP_EMISSIVE_COLOR: 0>": "None",
+        "<MaterialProperty.MP_MATERIAL_ATTRIBUTES: 33>": "<Object '/Game/MWLandscapeAutoMaterial/Materials/MASTER/MTL_MWAM_AutoMaterial_MASTER.MTL_MWAM_AutoMaterial_MASTER:MaterialExpressionMakeMaterialAttributes_0' (0x00000266ABBA1E00) Class 'MaterialExpressionMakeMaterialAttributes'>"
+      }
+    }
+  ],
+  "/Game/MaldekRefinement/Materials/M_R04_Local_Terrain.M_R04_Local_Terrain": [
+    {
+      "path": "/Game/MaldekRefinement/Materials/M_R04_Local_Terrain.M_R04_Local_Terrain",
+      "class": "Material",
+      "shading_model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "blend_mode": "<BlendMode.BLEND_OPAQUE: 0>",
+      "use_material_attributes": "True",
+      "inputs": {
+        "<MaterialProperty.MP_BASE_COLOR: 5>": "None",
+        "<MaterialProperty.MP_EMISSIVE_COLOR: 0>": "None",
+        "<MaterialProperty.MP_MATERIAL_ATTRIBUTES: 33>": "<Object '/Game/MaldekRefinement/Materials/M_R04_Local_Terrain.M_R04_Local_Terrain:MaterialExpressionMaterialFunctionCall_2' (0x0000026619DC9100) Class 'MaterialExpressionMaterialFunctionCall'>"
+      }
+    }
+  ],
+  "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete": [
+    {
+      "path": "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete",
+      "class": "Material",
+      "shading_model": "<MaterialShadingModel.MSM_DEFAULT_LIT: 1>",
+      "blend_mode": "<BlendMode.BLEND_OPAQUE: 0>",
+      "use_material_attributes": "False",
+      "inputs": {
+        "<MaterialProperty.MP_BASE_COLOR: 5>": "<Object '/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete:MaterialExpressionTextureSample_0' (0x0000026619CFB900) Class 'MaterialExpressionTextureSample'>",
+        "<MaterialProperty.MP_EMISSIVE_COLOR: 0>": "None",
+        "<MaterialProperty.MP_MATERIAL_ATTRIBUTES: 33>": "None"
+      }
+    }
+  ],
+  "lights": [
+    {
+      "actor": "Ultra_Dynamic_Sky",
+      "components": [
+        {
+          "name": "Moon",
+          "class": "DirectionalLightComponent",
+          "intensity": "0.016143400222063065",
+          "light_color": "<Struct 'Color' (0x00000266AC7C6BB8) {b: 239, g: 197, r: 178, a: 255}>",
+          "cast_shadows": "False",
+          "affect_translucent_lighting": "True"
+        },
+        {
+          "name": "Sun",
+          "class": "DirectionalLightComponent",
+          "intensity": "1.1099674701690674",
+          "light_color": "<Struct 'Color' (0x00000266AC7C70B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "cast_shadows": "False",
+          "affect_translucent_lighting": "True"
+        }
+      ]
+    },
+    {
+      "actor": "Ultra_Dynamic_Weather",
+      "components": [
+        {
+          "name": "Lightning Light",
+          "class": "DirectionalLightComponent",
+          "intensity": "0.0",
+          "light_color": "<Struct 'Color' (0x00000266AC7C75B8) {b: 255, g: 205, r: 187, a: 255}>",
+          "cast_shadows": "True",
+          "affect_translucent_lighting": "True"
+        }
+      ]
+    }
+  ]
+}

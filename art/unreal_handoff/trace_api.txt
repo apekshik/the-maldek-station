@@ -1,0 +1,27 @@
+X.line_trace_single(world_context_object, start, end, trace_channel, trace_complex, actors_to_ignore, draw_debug_type, ignore_self=True, trace_color=[1.000000, 0.000000, 0.000000, 1.000000], trace_hit_color=[0.000000, 1.000000, 0.000000, 1.000000], draw_time=5.000000) -> HitResult or None
+Does a collision trace along the given line and returns the first blocking hit encountered.
+This trace finds the objects that RESPONDS to the given TraceChannel
+
+Args:
+    world_context_object (Object): 
+    start (Vector): Start of line segment.
+    end (Vector): End of line segment.
+    trace_channel (TraceTypeQuery): 
+    trace_complex (bool): True to test against complex collision, false to test against simplified collision.
+    actors_to_ignore (Array[Actor]): 
+    draw_debug_type (DrawDebugTrace): 
+    ignore_self (bool): 
+    trace_color (LinearColor): 
+    trace_hit_color (LinearColor): 
+    draw_time (float): 
+
+Returns:
+    HitResult or None: True if there was a hit, false otherwise.
+
+    out_hit (HitResult): Properties of the trace hit.
+Structure containing information about one hit of a trace, such as point of impact and surface normal at that point.
+
+**C++ Source:**
+
+- **Module**: Engine
+- **File**: HitResult.h

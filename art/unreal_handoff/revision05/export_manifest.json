@@ -1,0 +1,196 @@
+{
+  "source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_04_refinement\\millford_v2_refinement_04.blend",
+  "units": "meters",
+  "materials": {
+    "R02_Weathered_Concrete": {
+      "color": [
+        0.47999998927116394,
+        0.5099999904632568,
+        0.49000000953674316,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "transmission": 0.0,
+      "textures": [
+        {
+          "name": "concrete_floor_diff_1k.jpg",
+          "path": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg"
+        },
+        {
+          "name": "concrete_floor_rough_1k.jpg",
+          "path": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg"
+        },
+        {
+          "name": "concrete_floor_disp_1k.jpg",
+          "path": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg"
+        }
+      ]
+    },
+    "R02_Chipped_Painted_Steel": {
+      "color": [
+        0.1599999964237213,
+        0.20000000298023224,
+        0.1899999976158142,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.699999988079071,
+      "transmission": 0.0,
+      "textures": [
+        {
+          "name": "rusty_painted_metal_diff_1k.jpg",
+          "path": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg"
+        },
+        {
+          "name": "rusty_painted_metal_rough_1k.jpg",
+          "path": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg"
+        },
+        {
+          "name": "rusty_painted_metal_disp_1k.jpg",
+          "path": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg"
+        }
+      ]
+    },
+    "R02_Galvanized_Grating": {
+      "color": [
+        0.25,
+        0.3100000023841858,
+        0.28999999165534973,
+        1.0
+      ],
+      "metallic": 0.8199999928474426,
+      "roughness": 0.4399999976158142,
+      "transmission": 0.0,
+      "textures": []
+    },
+    "R03_Wet_Gravel": {
+      "color": [
+        0.054999999701976776,
+        0.06499999761581421,
+        0.04800000041723251,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.30000001192092896,
+      "transmission": 0.0,
+      "textures": []
+    },
+    "R02_Oxide_Red_Sheet_Steel": {
+      "color": [
+        0.550000011920929,
+        0.12999999523162842,
+        0.07500000298023224,
+        1.0
+      ],
+      "metallic": 0.550000011920929,
+      "roughness": 0.699999988079071,
+      "transmission": 0.0,
+      "textures": [
+        {
+          "name": "rusty_painted_metal_diff_1k.jpg",
+          "path": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg"
+        },
+        {
+          "name": "rusty_painted_metal_rough_1k.jpg",
+          "path": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg"
+        },
+        {
+          "name": "rusty_painted_metal_disp_1k.jpg",
+          "path": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg"
+        }
+      ]
+    },
+    "R02_Damp_Timber": {
+      "color": [
+        0.10999999940395355,
+        0.07000000029802322,
+        0.03500000014901161,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "transmission": 0.0,
+      "textures": []
+    }
+  },
+  "chunks": [
+    {
+      "name": "SM_R04_07_Overlook",
+      "collection": "07_Overlook",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min": [
+        7.977499961853027,
+        1.9724998474121094,
+        3.6999998092651367
+      ],
+      "bounds_max": [
+        15.02750015258789,
+        8.422499656677246,
+        5.440000057220459
+      ],
+      "polygons": 504,
+      "collision_hulls": 7,
+      "materials": [
+        "R02_Weathered_Concrete",
+        "R02_Chipped_Painted_Steel",
+        "R02_Galvanized_Grating"
+      ]
+    },
+    {
+      "name": "SM_R04_09_Relay_and_Paths",
+      "collection": "09_Relay_and_Paths",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min": [
+        13.640752792358398,
+        -9.009737968444824,
+        -0.014999999664723873
+      ],
+      "bounds_max": [
+        50.11000061035156,
+        26.01259422302246,
+        5.800000190734863
+      ],
+      "polygons": 258,
+      "collision_hulls": 10,
+      "materials": [
+        "R02_Weathered_Concrete",
+        "R02_Chipped_Painted_Steel",
+        "R03_Wet_Gravel"
+      ]
+    },
+    {
+      "name": "SM_R04_13_Roofs",
+      "collection": "13_Roofs",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds_min": [
+        -15.200000762939453,
+        -6.199999809265137,
+        3.4000000953674316
+      ],
+      "bounds_max": [
+        50.20000076293945,
+        15.199999809265137,
+        7.600000381469727
+      ],
+      "polygons": 42,
+      "collision_hulls": 8,
+      "materials": [
+        "R02_Weathered_Concrete",
+        "R02_Damp_Timber"
+      ]
+    }
+  ]
+}

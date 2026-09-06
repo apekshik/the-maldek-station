@@ -1,0 +1,40 @@
+x.attach_to_component(parent, socket_name, location_rule, rotation_rule, scale_rule, weld_simulated_bodies=True) -> bool
+Attaches the RootComponent of this Actor to the supplied component, optionally at a named socket. It is not valid to call this on components that are not Registered.
+
+Args:
+    parent (SceneComponent): Parent to attach to.
+    socket_name (Name): Optional socket to attach to on the parent.
+    location_rule (AttachmentRule): How to handle translation when attaching.
+    rotation_rule (AttachmentRule): How to handle rotation when attaching.
+    scale_rule (AttachmentRule): How to handle scale when attaching.
+    weld_simulated_bodies (bool): Whether to weld together simulated physics bodies. This transfers the shapes in the welded object into the parent (if simulated), which can result in permanent changes that persist even after subsequently detaching.
+
+Returns:
+    bool: Whether the attachment was successful or not
+
+x.set_actor_location_and_rotation(new_location, new_rotation, sweep, teleport) -> HitResult or None
+Move the actor instantly to the specified location and rotation.
+
+Args:
+    new_location (Vector): The new location to teleport the Actor to.
+    new_rotation (Rotator): The new rotation for the Actor.
+    sweep (bool): Whether we sweep to the destination location, triggering overlaps along the way and stopping short of the target if blocked by something. Only the root component is swept and checked for blocking collision, child components move without sweeping. If collision is off, this has no effect.
+    teleport (bool): Whether we teleport the physics state (if physics collision is enabled for this object). If true, physics velocity for this object is unchanged (so ragdoll parts are not affected by change in location). If false, physics velocity is updated based on the change in position (affecting ragdoll parts). If CCD is on and not teleporting, this will affect objects along the entire swept volume. Note that when teleporting, any child/attached components will be teleported too, maintaining their current offset even if they are being simulated. Setting the location without teleporting will not update the location of simulated child/attached components.
+
+Returns:
+    HitResult or None: Whether the rotation was successfully set.
+
+    sweep_hit_result (HitResult): The hit result from the move if swept.
+x.set_world_location_and_rotation(new_location, new_rotation, sweep, teleport) -> HitResult
+Set the relative location and rotation of the component to put it at the supplied pose in world space.
+
+Args:
+    new_location (Vector): New location in world space for the component.
+    new_rotation (Rotator): New rotation in world space for the component.
+    sweep (bool): Whether we sweep to the destination location, triggering overlaps along the way and stopping short of the target if blocked by something. Only the root component is swept and checked for blocking collision, child components move without sweeping. If collision is off, this has no effect.
+    teleport (bool): Whether we teleport the physics state (if physics collision is enabled for this object). If true, physics velocity for this object is unchanged (so ragdoll parts are not affected by change in location). If false, physics velocity is updated based on the change in position (affecting ragdoll parts). If CCD is on and not teleporting, this will affect objects along the entire sweep volume.
+
+Returns:
+    HitResult: 
+
+    sweep_hit_result (HitResult): Hit result from any impact if sweep is true.

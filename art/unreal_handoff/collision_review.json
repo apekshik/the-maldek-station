@@ -1,0 +1,218 @@
+{
+  "control": {
+    "floor": {
+      "blocking": true,
+      "point": [
+        -43632.305974972965,
+        18294.707549061975,
+        10298.5
+      ],
+      "actor": "R04_02_Control_Room"
+    },
+    "terrain": {
+      "blocking": true,
+      "point": [
+        -43632.305974972965,
+        18294.707549061975,
+        8835.110876450282
+      ],
+      "actor": "Landscape0"
+    },
+    "capsule": {
+      "blocked": false,
+      "actor": null
+    }
+  },
+  "platform": {
+    "floor": {
+      "blocking": true,
+      "point": [
+        -43882.305974972965,
+        18774.707549061975,
+        10298.5
+      ],
+      "actor": "R04_01_Upper_Platform"
+    },
+    "terrain": {
+      "blocking": true,
+      "point": [
+        -43882.305974972965,
+        18774.707549061975,
+        8999.92026622228
+      ],
+      "actor": "Landscape0"
+    },
+    "capsule": {
+      "blocked": false,
+      "actor": null
+    }
+  },
+  "gondola": {
+    "floor": {
+      "blocking": true,
+      "point": [
+        -44282.305974972965,
+        19279.707549061975,
+        10298.5
+      ],
+      "actor": "R04_12_Gondola"
+    },
+    "terrain": {
+      "blocking": true,
+      "point": [
+        -44282.305974972965,
+        19279.707549061975,
+        9218.831515744758
+      ],
+      "actor": "Landscape0"
+    },
+    "capsule": {
+      "blocked": false,
+      "actor": null
+    }
+  },
+  "waiting": {
+    "floor": {
+      "blocking": true,
+      "point": [
+        -43182.305974972965,
+        18274.707549061975,
+        10298.5
+      ],
+      "actor": "R04_03_Waiting_Hall"
+    },
+    "terrain": {
+      "blocking": true,
+      "point": [
+        -43182.305974972965,
+        18274.707549061975,
+        8600.138686633494
+      ],
+      "actor": "Landscape0"
+    },
+    "capsule": {
+      "blocked": false,
+      "actor": null
+    }
+  },
+  "lower_drive": {
+    "floor": {
+      "blocking": true,
+      "point": [
+        -44482.305974972965,
+        18874.707549061975,
+        9898.5
+      ],
+      "actor": "R04_04_Lower_Drive"
+    },
+    "terrain": {
+      "blocking": true,
+      "point": [
+        -44482.305974972965,
+        18874.707549061975,
+        9263.054957812223
+      ],
+      "actor": "Landscape0"
+    },
+    "capsule": {
+      "blocked": false,
+      "actor": null
+    }
+  },
+  "generator": {
+    "floor": {
+      "blocking": true,
+      "point": [
+        -44482.305974972965,
+        18174.707549061975,
+        9898.5
+      ],
+      "actor": "R04_05_Generator_Room"
+    },
+    "terrain": {
+      "blocking": true,
+      "point": [
+        -44482.305974972965,
+        18174.707549061975,
+        9151.319566985721
+      ],
+      "actor": "Landscape0"
+    },
+    "capsule": {
+      "blocked": false,
+      "actor": null
+    }
+  },
+  "yard": {
+    "floor": {
+      "blocking": true,
+      "point": [
+        -45282.305974972965,
+        18174.707549061975,
+        9898.5
+      ],
+      "actor": "R04_08_Fuel_Yard"
+    },
+    "terrain": {
+      "blocking": true,
+      "point": [
+        -45282.305974972965,
+        18174.707549061975,
+        9328.223155134154
+      ],
+      "actor": "Landscape0"
+    },
+    "capsule": {
+      "blocked": false,
+      "actor": null
+    }
+  },
+  "overlook": {
+    "floor": {
+      "blocking": true,
+      "point": [
+        -45482.305974972965,
+        18974.707549061975,
+        10298.5
+      ],
+      "actor": "R04_07_Overlook"
+    },
+    "terrain": {
+      "blocking": true,
+      "point": [
+        -45482.305974972965,
+        18974.707549061975,
+        8904.980511254835
+      ],
+      "actor": "Landscape0"
+    },
+    "capsule": {
+      "blocked": false,
+      "actor": null
+    }
+  },
+  "arrival": {
+    "floor": {
+      "blocking": true,
+      "point": [
+        -42582.305974972965,
+        17274.707549061975,
+        9884.0
+      ],
+      "actor": "R04_Local_Terrain"
+    },
+    "terrain": {
+      "blocking": true,
+      "point": [
+        -42582.305974972965,
+        17274.707549061975,
+        8127.358860458455
+      ],
+      "actor": "Landscape0"
+    },
+    "capsule": {
+      "blocked": false,
+      "actor": null
+    }
+  }
+}

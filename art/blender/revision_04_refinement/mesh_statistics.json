@@ -1,0 +1,18 @@
+{
+  "12_Gondola": {
+    "visible_mesh_objects": 104,
+    "evaluated_triangles": 52100
+  },
+  "02_Control_Room": {
+    "visible_mesh_objects": 104,
+    "evaluated_triangles": 26228
+  },
+  "04_Lower_Drive": {
+    "visible_mesh_objects": 123,
+    "evaluated_triangles": 22920
+  },
+  "01_Upper_Platform": {
+    "visible_mesh_objects": 524,
+    "evaluated_triangles": 104516
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\millford_v2_night_03.blend",
+  "source_sha256": "6bca23a3c24feca1f52027ca7afebfc20eb8aed721b668d0a0a0f205a636f057",
+  "source_unchanged": true,
+  "objects_before": 1399,
+  "objects_after": 2122,
+  "added_objects": 799,
+  "mesh_datablocks_added": 532,
+  "shared_bolt_meshes": 12,
+  "generation_seconds": 1.0,
+  "areas": {
+    "12_Gondola": 101,
+    "02_Control_Room": 89,
+    "04_Lower_Drive": 87,
+    "01_Upper_Platform": 517
+  },
+  "limitations": [
+    "Original simplified collision proxies retained for gondola shell and platform; detailed meshes need an evaluated-geometry UE export.",
+    "Drive is an artistic machinery assembly, not an engineered ropeway layout."
+  ]
+}

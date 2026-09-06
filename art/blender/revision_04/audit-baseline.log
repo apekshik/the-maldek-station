@@ -1,0 +1,7 @@
+00:00.671  blend            | Read blend: "C:\Users\apek-anna\Developer\the-maldek-station\art\blender\revision_03\millford_v2_night_03.blend"
+00:01.390  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:07.671  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\revision_04\audit\before\platform_rain_windows.png'
+WINDOWS_BASELINE_REPORT {"source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\millford_v2_night_03.blend", "source_sha256": "6bca23a3c24feca1f52027ca7afebfc20eb8aed721b668d0a0a0f205a636f057", "blender_version": "5.0.1", "devices": [{"name": "NVIDIA GeForce RTX 5070 Ti", "type": "CUDA", "enabled": false}, {"name": "13th Gen Intel Core i9-13900KF", "type": "CPU", "enabled": false}, {"name": "NVIDIA GeForce RTX 5070 Ti", "type": "OPTIX", "enabled": true}], "camera": "CAM_R03_Platform_Rain", "view_layer": "02_Full_Shell", "resolution": [1400, 930], "samples": 40, "denoising": true, "exposure": -0.3499999940395355, "missing_images": [], "objects": 1399, "mesh_objects": 1362, "gpu_memory_note": "nvidia-smi total device memory usage sampled every second; includes other applications.", "render_success": true, "render_wall_seconds": 6.274, "peak_total_gpu_memory_mib": 4290, "source_unchanged": true}
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

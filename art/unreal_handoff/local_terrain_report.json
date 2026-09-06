@@ -1,0 +1,13 @@
+{
+  "size_m": 128,
+  "vertices": 16641,
+  "triangles": 32768,
+  "ground_target_m": -0.145,
+  "origin": [
+    -44282.305974972965,
+    18474.707549061975,
+    9898.5
+  ],
+  "landscape_samples": 4225,
+  "source_landscape_modified": false
+}

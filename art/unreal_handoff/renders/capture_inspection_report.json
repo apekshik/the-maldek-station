@@ -1,0 +1,65 @@
+{
+  "engine": "Unreal Engine 5.7",
+  "map": "BlockOut_R04",
+  "resolution": [
+    2560,
+    1440
+  ],
+  "preview_exposure_bias_stops": 0,
+  "temporary_fill_lighting": true,
+  "map_saved": false,
+  "shots": [
+    {
+      "name": "01_station_overview_inspection",
+      "location": [
+        -45700,
+        20500,
+        11300
+      ],
+      "look_at": [
+        -44100,
+        18600,
+        10250
+      ]
+    },
+    {
+      "name": "02_arrival_side_inspection",
+      "location": [
+        -41400,
+        16000,
+        10800
+      ],
+      "look_at": [
+        -43800,
+        18500,
+        10200
+      ]
+    },
+    {
+      "name": "05_lower_drive_inspection",
+      "location": [
+        -45400,
+        19900,
+        10080
+      ],
+      "look_at": [
+        -44450,
+        19000,
+        10080
+      ]
+    },
+    {
+      "name": "06_terrain_context_inspection",
+      "location": [
+        -49300,
+        14700,
+        13100
+      ],
+      "look_at": [
+        -44200,
+        18400,
+        9950
+      ]
+    }
+  ]
+}

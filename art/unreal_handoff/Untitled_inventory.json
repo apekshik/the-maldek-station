@@ -1,0 +1,1169 @@
+[
+  {
+    "name": "DirectionalLight_0",
+    "label": "DirectionalLight",
+    "class": "DirectionalLight",
+    "folder": "Lighting",
+    "transform": {
+      "location": [
+        0.0,
+        0.0,
+        400.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040C330) {pitch: -49.517110, yaw: -10.308601, roll: 112.360672}>",
+      "scale": [
+        1.0,
+        1.0000000149011612,
+        1.0000000149011612
+      ]
+    },
+    "bounds": {
+      "center": [
+        76.6489601394946,
+        -13.941363104074597,
+        308.7280146795606
+      ],
+      "extent": [
+        146.9951510832307,
+        110.74776690838567,
+        159.06327615981024
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "SkyAtmosphere_0",
+    "label": "SkyAtmosphere",
+    "class": "SkyAtmosphere",
+    "folder": "Lighting",
+    "transform": {
+      "location": [
+        0.0,
+        0.0,
+        -6000.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040C5B0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        120.0,
+        0.0,
+        -6000.0
+      ],
+      "extent": [
+        120.0,
+        80.0,
+        80.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "SkyLight_0",
+    "label": "SkyLight",
+    "class": "SkyLight",
+    "folder": "Lighting",
+    "transform": {
+      "location": [
+        0.0,
+        0.0,
+        600.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040C470) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        0.0,
+        0.0,
+        299.5
+      ],
+      "extent": [
+        1.0,
+        1.0,
+        300.5
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "ExponentialHeightFog_0",
+    "label": "ExponentialHeightFog",
+    "class": "ExponentialHeightFog",
+    "folder": "Lighting",
+    "transform": {
+      "location": [
+        -5600.0,
+        -50.0,
+        -6850.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040FCB0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -5600.0,
+        -50.0,
+        -6850.0
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "VolumetricCloud_0",
+    "label": "VolumetricCloud",
+    "class": "VolumetricCloud",
+    "folder": "Lighting",
+    "transform": {
+      "location": [
+        0.0,
+        0.0,
+        700.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040FE90) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        0.0,
+        0.0,
+        700.0
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "PlayerStart_0",
+    "label": "PlayerStart",
+    "class": "PlayerStart",
+    "folder": "None",
+    "transform": {
+      "location": [
+        0.0,
+        0.0,
+        92.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040FCB0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        100.0,
+        0.0,
+        92.0
+      ],
+      "extent": [
+        140.0,
+        80.0,
+        92.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "StaticMeshActor_0",
+    "label": "SM_SkySphere",
+    "class": "StaticMeshActor",
+    "folder": "Lighting",
+    "transform": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040FF80) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        400.0,
+        400.0,
+        400.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent": [
+        1638400.0,
+        1638400.0,
+        1638400.0
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Engine/EngineSky/SM_SkySphere.SM_SkySphere",
+        "transform": {
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E040FDA0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            400.0,
+            400.0,
+            400.0
+          ]
+        },
+        "materials": [
+          "/Engine/EngineSky/M_SimpleSkyDome.M_SimpleSkyDome"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "Floor_0",
+    "label": "Floor",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        0.0,
+        0.0,
+        -0.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E040FCB0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -0.0009765625,
+        0.00048828125,
+        -200.5001220703125
+      ],
+      "extent": [
+        4000.00146484375,
+        4000.0,
+        200.0001220703125
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor",
+        "transform": {
+          "location": [
+            0.0,
+            0.0,
+            -0.5
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E03ABE90) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            8.0,
+            8.0,
+            8.0
+          ]
+        },
+        "materials": [
+          "/Engine/OpenWorldTemplate/LandscapeMaterial/MI_ProcGrid.MI_ProcGrid"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "StaticMeshActor_2",
+    "label": "Cube",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -194.0,
+        -2486.0,
+        954.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A8F10) {pitch: 0.000000, yaw: 0.000000, roll: 89.999999}>",
+      "scale": [
+        10.0,
+        19.25,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -194.0,
+        -2486.0,
+        953.9999999999999
+      ],
+      "extent": [
+        500.0000000000015,
+        50.00001171162512,
+        962.5000006083965
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "transform": {
+          "location": [
+            -194.0,
+            -2486.0,
+            954.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E03A9780) {pitch: 0.000000, yaw: 0.000000, roll: 89.999999}>",
+          "scale": [
+            10.0,
+            19.25,
+            1.0
+          ]
+        },
+        "materials": [
+          "/Game/Fab/Megascans/Surfaces/Damaged_Concrete_Wall_vdcnfcd/High/vdcnfcd_tier_1/Materials/MI_Damaged_Concrete_Inst_Inst_2.MI_Damaged_Concrete_Inst_Inst_2"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "StaticMeshActor_3",
+    "label": "Cube2",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        979.0,
+        -77.0,
+        957.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A8150) {pitch: 0.000000, yaw: -39.375000, roll: 89.999999}>",
+      "scale": [
+        10.0,
+        19.25,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        979.0,
+        -77.0,
+        956.9999999999999
+      ],
+      "extent": [
+        418.2248998021823,
+        355.8471719144969,
+        962.5000006083974
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "transform": {
+          "location": [
+            979.0,
+            -77.0,
+            957.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E03A8600) {pitch: 0.000000, yaw: -39.375000, roll: 89.999999}>",
+          "scale": [
+            10.0,
+            19.25,
+            1.0
+          ]
+        },
+        "materials": [
+          "/Game/Fab/Megascans/Surfaces/Dirty_Metal_rmmodbdp/Medium/rmmodbdp_tier_2/Materials/MI_Dirty_Metal.MI_Dirty_Metal"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "StaticMeshActor_4",
+    "label": "Cube3",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -1327.0,
+        -77.0,
+        966.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03ABFD0) {pitch: -0.000000, yaw: -47.812500, roll: 89.999999}>",
+      "scale": [
+        10.0,
+        19.25,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -1327.0,
+        -77.0,
+        965.9999999999999
+      ],
+      "extent": [
+        372.82704613834244,
+        404.0535217012113,
+        962.5000008726643
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Engine/BasicShapes/Cube.Cube",
+        "transform": {
+          "location": [
+            -1327.0,
+            -77.0,
+            966.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E03A83D0) {pitch: -0.000000, yaw: -47.812500, roll: 89.999999}>",
+          "scale": [
+            10.0,
+            19.25,
+            1.0
+          ]
+        },
+        "materials": [
+          "/Game/Fab/Megascans/Surfaces/Metal_Panels_Facade_udqmfeoew/High/udqmfeoew_tier_1/Materials/MI_Metal_Panels_Inst_2.MI_Metal_Panels_Inst_2"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_1",
+    "label": "MI_sfcsmqg",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -171.0,
+        -176.0,
+        813.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A8C40) {pitch: 0.275564, yaw: 56.236477, roll: 84.381732}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -104.30879679327782,
+        -76.2405376514273,
+        813.5771366938533
+      ],
+      "extent": [
+        139.19797996107704,
+        148.6469822387088,
+        88.0238416014214
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_7",
+    "label": "MI_tk3jfbec",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        2179.0,
+        -1411.0,
+        0.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03ABFD0) {pitch: -90.000000, yaw: 0.000000, roll: 0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        2179.0,
+        -1411.0,
+        -120.0
+      ],
+      "extent": [
+        80.0,
+        80.0,
+        120.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_9",
+    "label": "MI_tk3jfbec2",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        1094.0,
+        -106.0,
+        326.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A8C40) {pitch: 0.000000, yaw: 1.000000, roll: 91.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        1213.981723418767,
+        -103.90571122752598,
+        326.0
+      ],
+      "extent": [
+        121.40207020610319,
+        83.46590172133793,
+        81.384008127494
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "StaticMeshActor_5",
+    "label": "Box",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        340.0,
+        2659.0,
+        1.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A9820) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        340.0,
+        2659.0,
+        145.0252227783203
+      ],
+      "extent": [
+        312.3916320800781,
+        11.516229629516602,
+        144.0252227783203
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Game/_GENERATED/apekanna/Box_81B4D3E8.Box_81B4D3E8",
+        "transform": {
+          "location": [
+            340.0,
+            2659.0,
+            1.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E03A8970) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "materials": [
+          "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_13",
+    "label": "MI_tk3jfbec3",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        546.0,
+        2647.0,
+        131.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A8C40) {pitch: -59.062500, yaw: 0.000000, roll: -84.374999}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        607.6923288726707,
+        2647.0,
+        28.072566541926065
+      ],
+      "extent": [
+        136.70597118965296,
+        87.4561501788985,
+        147.8888799478595
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_15",
+    "label": "MI_tk3jfbec4",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        882.0,
+        2663.0,
+        -1.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A9820) {pitch: -90.000000, yaw: 0.000000, roll: 0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        882.0,
+        2663.0,
+        -121.0
+      ],
+      "extent": [
+        80.0,
+        80.0,
+        120.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_18",
+    "label": "MI_tk3jfbec5",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        133.0,
+        2647.0,
+        77.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A8C40) {pitch: -90.000000, yaw: 0.000000, roll: 0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        133.00000000000003,
+        2647.0,
+        -43.0
+      ],
+      "extent": [
+        80.00000000000003,
+        80.0,
+        120.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_20",
+    "label": "MI_tbqmbg3r",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        414.0,
+        2210.0,
+        0.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A9820) {pitch: -90.000000, yaw: 0.000000, roll: 0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        414.0,
+        2210.0,
+        -120.0
+      ],
+      "extent": [
+        80.0,
+        80.0,
+        120.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "StaticMeshActor_6",
+    "label": "Box2",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -867.0,
+        1750.0,
+        -1.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A9D20) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -867.0,
+        1750.0,
+        17.952945709228516
+      ],
+      "extent": [
+        312.3916320800781,
+        360.496337890625,
+        18.952945709228516
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Game/_GENERATED/apekanna/Box_B50232E8.Box_B50232E8",
+        "transform": {
+          "location": [
+            -867.0,
+            1750.0,
+            -1.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E03A8A10) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "materials": [
+          "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_22",
+    "label": "MI_tbqmbg3r2",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -799.0,
+        1681.0,
+        37.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A9820) {pitch: -90.000000, yaw: 0.000000, roll: 0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -799.0,
+        1681.0,
+        -83.0
+      ],
+      "extent": [
+        80.0,
+        80.0,
+        120.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "StaticMeshActor_7",
+    "label": "Box3",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -768.0,
+        3107.0,
+        -1.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A90F0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -768.0,
+        3107.0,
+        277.7183837890625
+      ],
+      "extent": [
+        23.763418197631836,
+        360.496337890625,
+        278.7183837890625
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Game/_GENERATED/apekanna/Box_054D637D.Box_054D637D",
+        "transform": {
+          "location": [
+            -768.0,
+            3107.0,
+            -1.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E03A9BE0) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "materials": [
+          "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_24",
+    "label": "MI_tbqmbg3r3",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -792.0,
+        3112.0,
+        297.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A9820) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -672.0,
+        3112.0,
+        297.0
+      ],
+      "extent": [
+        120.0,
+        80.0,
+        80.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_26",
+    "label": "MI_tbqmbg3r4",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -96.0,
+        -2536.0,
+        1100.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A90F0) {pitch: -90.000000, yaw: -155.000000, roll: 0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -95.99999999999997,
+        -2536.0,
+        980.0
+      ],
+      "extent": [
+        106.31408390218795,
+        106.31408390218803,
+        120.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_28",
+    "label": "MI_tbqmbg3r5",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        -195.0,
+        -2536.0,
+        608.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A9820) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        -75.0,
+        -2536.0,
+        608.0
+      ],
+      "extent": [
+        120.0,
+        80.0,
+        80.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_30",
+    "label": "MI_tbqmbg3r6",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        824.0,
+        115.0,
+        930.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A90F0) {pitch: -9.000000, yaw: -117.000000, roll: 24.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        770.1918651999548,
+        9.395589359793973,
+        911.2278641951723
+      ],
+      "extent": [
+        145.03905677174214,
+        159.2073415097534,
+        123.09431477890939
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  },
+  {
+    "name": "StaticMeshActor_11",
+    "label": "millford-platform",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        3164.0,
+        2126.0,
+        -1.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E03A8B50) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        3164.0,
+        2126.0,
+        -1.0
+      ],
+      "extent": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": null,
+        "transform": {
+          "location": [
+            3164.0,
+            2126.0,
+            -1.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E03A8060) {pitch: 0.000000, yaw: 0.000000, roll: -0.000000}>",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "materials": []
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "StaticMeshActor_14",
+    "label": "millford-platform2",
+    "class": "StaticMeshActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        3788.0,
+        2175.0,
+        -1.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E0247BC0) {pitch: 0.000000, yaw: -89.999999, roll: 0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        4081.485962194196,
+        2151.9777867742514,
+        167.1497688293457
+      ],
+      "extent": [
+        1054.9237306675177,
+        2022.7569708440847,
+        101.31754684448242
+      ]
+    },
+    "meshes": [
+      {
+        "component": "StaticMeshComponent0",
+        "mesh": "/Game/millford-platform.millford-platform",
+        "transform": {
+          "location": [
+            3788.0,
+            2175.0,
+            -1.0
+          ],
+          "rotation": "<Struct 'Rotator' (0x00000149E0247DF0) {pitch: 0.000000, yaw: -89.999999, roll: 0.000000}>",
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "materials": [
+          "/Game/Fab/Megascans/Surfaces/Tiled_Concrete_rlvldhp0/High/rlvldhp0_tier_1/Materials/MI_Tiled_Concrete.MI_Tiled_Concrete",
+          "/Game/Fab/Megascans/Surfaces/Concrete_Floor_tk4lcgjcw/High/tk4lcgjcw_tier_1/Materials/MI_Concrete_Dark.MI_Concrete_Dark",
+          "/Game/Fab/Megascans/Surfaces/Concrete_Floor_tk4lcgjcw/High/tk4lcgjcw_tier_1/Materials/MI_Concrete_Dark.MI_Concrete_Dark"
+        ]
+      }
+    ],
+    "splines": []
+  },
+  {
+    "name": "DecalActor_34",
+    "label": "MI_sfcsmqg2",
+    "class": "DecalActor",
+    "folder": "None",
+    "transform": {
+      "location": [
+        3569.0,
+        1449.0,
+        252.0
+      ],
+      "rotation": "<Struct 'Rotator' (0x00000149E0247DF0) {pitch: -90.000000, yaw: 0.000000, roll: 0.000000}>",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "bounds": {
+      "center": [
+        3569.0,
+        1449.0,
+        132.0
+      ],
+      "extent": [
+        80.0,
+        80.0,
+        120.0
+      ]
+    },
+    "meshes": [],
+    "splines": []
+  }
+]

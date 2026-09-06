@@ -1,0 +1,421 @@
+{
+  "map": "/Game/MaldekRefinement/Maps/BlockOut_R04",
+  "source_sha256": "942a25138806eda96c349e442deba70569391460abfdb037dcd6b33a1d9110d5",
+  "legacy_removed": [
+    "StaticMeshActor_4",
+    "StaticMeshActor_6",
+    "StaticMeshActor_1",
+    "StaticMeshActor_2",
+    "StaticMeshActor_3",
+    "StaticMeshActor_7",
+    "StaticMeshActor_13",
+    "StaticMeshActor_15",
+    "StaticMeshActor_19",
+    "StaticMeshActor_20",
+    "StaticMeshActor_21",
+    "StaticMeshActor_22",
+    "StaticMeshActor_23",
+    "StaticMeshActor_24",
+    "StaticMeshActor_25",
+    "StaticMeshActor_26",
+    "StaticMeshActor_27",
+    "StaticMeshActor_28",
+    "StaticMeshActor_29",
+    "StaticMeshActor_30",
+    "StaticMeshActor_31",
+    "StaticMeshActor_32",
+    "StaticMeshActor_33",
+    "StaticMeshActor_34",
+    "StaticMeshActor_35",
+    "StaticMeshActor_36",
+    "StaticMeshActor_37",
+    "StaticMeshActor_38",
+    "StaticMeshActor_39",
+    "StaticMeshActor_40",
+    "StaticMeshActor_44",
+    "StaticMeshActor_45",
+    "StaticMeshActor_46",
+    "StaticMeshActor_47",
+    "StaticMeshActor_48",
+    "StaticMeshActor_49",
+    "StaticMeshActor_50",
+    "StaticMeshActor_51",
+    "StaticMeshActor_52",
+    "StaticMeshActor_54",
+    "StaticMeshActor_55",
+    "StaticMeshActor_56",
+    "StaticMeshActor_57",
+    "StaticMeshActor_58",
+    "StaticMeshActor_59",
+    "StaticMeshActor_60",
+    "StaticMeshActor_5",
+    "StaticMeshActor_9",
+    "StaticMeshActor_10",
+    "StaticMeshActor_11",
+    "StaticMeshActor_12",
+    "StaticMeshActor_14",
+    "StaticMeshActor_17",
+    "StaticMeshActor_18",
+    "StaticMeshActor_41",
+    "StaticMeshActor_42",
+    "StaticMeshActor_43",
+    "StaticMeshActor_53",
+    "StaticMeshActor_62",
+    "StaticMeshActor_73",
+    "StaticMeshActor_74",
+    "StaticMeshActor_75",
+    "StaticMeshActor_76",
+    "StaticMeshActor_77",
+    "StaticMeshActor_78",
+    "StaticMeshActor_79",
+    "StaticMeshActor_80",
+    "StaticMeshActor_84",
+    "StaticMeshActor_96",
+    "StaticMeshActor_97",
+    "StaticMeshActor_98",
+    "StaticMeshActor_99",
+    "StaticMeshActor_100",
+    "StaticMeshActor_101",
+    "StaticMeshActor_102",
+    "StaticMeshActor_104",
+    "StaticMeshActor_105",
+    "StaticMeshActor_106",
+    "StaticMeshActor_107",
+    "StaticMeshActor_108",
+    "StaticMeshActor_109",
+    "StaticMeshActor_110",
+    "StaticMeshActor_111",
+    "StaticMeshActor_112",
+    "StaticMeshActor_113",
+    "StaticMeshActor_114",
+    "StaticMeshActor_115",
+    "StaticMeshActor_116",
+    "StaticMeshActor_117",
+    "StaticMeshActor_118",
+    "StaticMeshActor_119",
+    "StaticMeshActor_120",
+    "StaticMeshActor_121",
+    "StaticMeshActor_122",
+    "StaticMeshActor_123",
+    "StaticMeshActor_124",
+    "StaticMeshActor_125",
+    "StaticMeshActor_126",
+    "StaticMeshActor_127",
+    "StaticMeshActor_128",
+    "StaticMeshActor_129",
+    "StaticMeshActor_130",
+    "StaticMeshActor_131",
+    "StaticMeshActor_132",
+    "StaticMeshActor_133",
+    "StaticMeshActor_134",
+    "StaticMeshActor_135",
+    "StaticMeshActor_136",
+    "StaticMeshActor_137",
+    "StaticMeshActor_138",
+    "StaticMeshActor_139",
+    "StaticMeshActor_140",
+    "StaticMeshActor_141",
+    "StaticMeshActor_142",
+    "StaticMeshActor_143",
+    "StaticMeshActor_144",
+    "StaticMeshActor_145",
+    "StaticMeshActor_146",
+    "StaticMeshActor_147",
+    "StaticMeshActor_148",
+    "StaticMeshActor_149",
+    "StaticMeshActor_150",
+    "StaticMeshActor_151",
+    "StaticMeshActor_152",
+    "StaticMeshActor_153",
+    "StaticMeshActor_154",
+    "StaticMeshActor_155",
+    "StaticMeshActor_156",
+    "StaticMeshActor_157",
+    "StaticMeshActor_158",
+    "StaticMeshActor_159",
+    "StaticMeshActor_160",
+    "StaticMeshActor_161",
+    "StaticMeshActor_162",
+    "StaticMeshActor_163",
+    "StaticMeshActor_164",
+    "StaticMeshActor_165",
+    "StaticMeshActor_166",
+    "StaticMeshActor_167",
+    "StaticMeshActor_168",
+    "StaticMeshActor_169",
+    "StaticMeshActor_170",
+    "StaticMeshActor_171",
+    "StaticMeshActor_172",
+    "StaticMeshActor_173",
+    "StaticMeshActor_174",
+    "StaticMeshActor_175",
+    "StaticMeshActor_176",
+    "StaticMeshActor_177",
+    "StaticMeshActor_178",
+    "StaticMeshActor_179",
+    "StaticMeshActor_180",
+    "StaticMeshActor_181",
+    "StaticMeshActor_182",
+    "StaticMeshActor_183",
+    "StaticMeshActor_184",
+    "StaticMeshActor_185",
+    "StaticMeshActor_186",
+    "StaticMeshActor_187",
+    "StaticMeshActor_188",
+    "StaticMeshActor_189",
+    "StaticMeshActor_190",
+    "StaticMeshActor_191",
+    "StaticMeshActor_192",
+    "StaticMeshActor_193",
+    "StaticMeshActor_194",
+    "StaticMeshActor_195",
+    "StaticMeshActor_196",
+    "StaticMeshActor_197",
+    "StaticMeshActor_198",
+    "StaticMeshActor_199",
+    "StaticMeshActor_200",
+    "StaticMeshActor_201",
+    "StaticMeshActor_202",
+    "StaticMeshActor_203",
+    "StaticMeshActor_204",
+    "StaticMeshActor_205",
+    "StaticMeshActor_206",
+    "StaticMeshActor_207",
+    "StaticMeshActor_208",
+    "StaticMeshActor_209",
+    "StaticMeshActor_210",
+    "StaticMeshActor_211",
+    "StaticMeshActor_213",
+    "StaticMeshActor_215",
+    "StaticMeshActor_217",
+    "StaticMeshActor_61",
+    "StaticMeshActor_64",
+    "StaticMeshActor_65",
+    "StaticMeshActor_67",
+    "StaticMeshActor_69",
+    "StaticMeshActor_70",
+    "StaticMeshActor_71",
+    "StaticMeshActor_72",
+    "StaticMeshActor_81",
+    "StaticMeshActor_82",
+    "StaticMeshActor_83",
+    "StaticMeshActor_85",
+    "StaticMeshActor_86",
+    "StaticMeshActor_87",
+    "StaticMeshActor_88",
+    "StaticMeshActor_89",
+    "StaticMeshActor_90",
+    "StaticMeshActor_92",
+    "StaticMeshActor_93",
+    "StaticMeshActor_95",
+    "StaticMeshActor_212",
+    "StaticMeshActor_218",
+    "StaticMeshActor_219",
+    "StaticMeshActor_222",
+    "StaticMeshActor_224",
+    "StaticMeshActor_225",
+    "StaticMeshActor_226",
+    "StaticMeshActor_228",
+    "StaticMeshActor_230",
+    "StaticMeshActor_232",
+    "StaticMeshActor_234",
+    "StaticMeshActor_236"
+  ],
+  "station_origin": [
+    -44282.305974972965,
+    18474.707549061975,
+    9898.5
+  ],
+  "station_yaw": 180,
+  "spawned": [
+    {
+      "label": "R04_01_Upper_Platform",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_01_Upper_Platform.SM_R04_01_Upper_Platform",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_02_Control_Room",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_02_Control_Room.SM_R04_02_Control_Room",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_03_Waiting_Hall",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_03_Waiting_Hall.SM_R04_03_Waiting_Hall",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_04_Lower_Drive",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_04_Lower_Drive.SM_R04_04_Lower_Drive",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_05_Generator_Room",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_05_Generator_Room.SM_R04_05_Generator_Room",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_06_Stairs_and_Landings",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_06_Stairs_and_Landings.SM_R04_06_Stairs_and_Landings",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_07_Overlook",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_07_Overlook.SM_R04_07_Overlook",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_08_Fuel_Yard",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_08_Fuel_Yard.SM_R04_08_Fuel_Yard",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_10_Parking_and_Arrival",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_10_Parking_and_Arrival.SM_R04_10_Parking_and_Arrival",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_11_Doors_Door_Control_Platform",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_11_Doors_Door_Control_Platform.SM_R04_11_Doors_Door_Control_Platform",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_11_Doors_Door_Generator_Yard",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_11_Doors_Door_Generator_Yard.SM_R04_11_Doors_Door_Generator_Yard",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_12_Gondola",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_12_Gondola.SM_R04_12_Gondola",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ]
+    },
+    {
+      "label": "R04_13_Roofs",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_13_Roofs.SM_R04_13_Roofs",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_14_Site_Structure",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_14_Site_Structure.SM_R04_14_Site_Structure",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_18_Cliff_Anchors",
+      "asset": "/Game/MaldekRefinement/Meshes/SM_R04_18_Cliff_Anchors.SM_R04_18_Cliff_Anchors",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    }
+  ],
+  "preserved": [
+    {
+      "name": "PlayerStart_0",
+      "class": "PlayerStart"
+    },
+    {
+      "name": "PointLight_0",
+      "class": "PointLight"
+    },
+    {
+      "name": "PointLight_1",
+      "class": "PointLight"
+    },
+    {
+      "name": "PointLight_2",
+      "class": "PointLight"
+    },
+    {
+      "name": "PointLight_3",
+      "class": "PointLight"
+    },
+    {
+      "name": "BP_GondolaSystem_C_1",
+      "class": "BP_GondolaSystem_C"
+    },
+    {
+      "name": "PointLight_4",
+      "class": "PointLight"
+    },
+    {
+      "name": "Landscape_0",
+      "class": "Landscape"
+    },
+    {
+      "name": "CineCameraActor_0",
+      "class": "CineCameraActor"
+    },
+    {
+      "name": "PointLight_5",
+      "class": "PointLight"
+    },
+    {
+      "name": "PointLight_6",
+      "class": "PointLight"
+    },
+    {
+      "name": "Ultra_Dynamic_Sky_C_2",
+      "class": "Ultra_Dynamic_Sky_C"
+    },
+    {
+      "name": "Ultra_Dynamic_Weather_C_1",
+      "class": "Ultra_Dynamic_Weather_C"
+    }
+  ]
+}

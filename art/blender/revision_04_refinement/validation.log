@@ -1,0 +1,6 @@
+00:00.703  blend            | Read blend: "C:\Users\apek-anna\Developer\the-maldek-station\art\blender\revision_04_refinement\millford_v2_refinement_04.blend"
+R03_VALIDATED 982 585 trees 18 packed maps
+REFINEMENT_STATISTICS {"12_Gondola": {"visible_mesh_objects": 104, "evaluated_triangles": 52100}, "02_Control_Room": {"visible_mesh_objects": 104, "evaluated_triangles": 26228}, "04_Lower_Drive": {"visible_mesh_objects": 123, "evaluated_triangles": 22920}, "01_Upper_Platform": {"visible_mesh_objects": 524, "evaluated_triangles": 104516}}
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

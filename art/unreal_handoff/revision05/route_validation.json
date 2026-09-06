@@ -1,0 +1,518 @@
+[
+  {
+    "sample": "overlook",
+    "source": [
+      12,
+      5,
+      4
+    ],
+    "floor": "R04_07_Overlook",
+    "height_error_cm": 0.0,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "relay",
+    "source": [
+      48,
+      13,
+      3
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": 0.0,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_0",
+    "source": [
+      14.0,
+      -6.0,
+      0.0
+    ],
+    "floor": "R04_Local_Terrain",
+    "height_error_cm": -11.999998332838004,
+    "capsule_blocked": true,
+    "capsule_actor": "R04_08_Fuel_Yard"
+  },
+  {
+    "sample": "path_0_5",
+    "source": [
+      15.1205415725708,
+      -6.549983024597168,
+      0.02156207337975502
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4999995973412297,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_10",
+    "source": [
+      16.729766845703125,
+      -7.344306945800781,
+      0.0521262027323246
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000001908429113,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_15",
+    "source": [
+      18.69907569885254,
+      -7.932871341705322,
+      0.12384258210659027
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000023134398361,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_20",
+    "source": [
+      20.935529708862305,
+      -7.908093452453613,
+      0.26927298307418823
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000012230157154,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_25",
+    "source": [
+      23.59842300415039,
+      -7.381258010864258,
+      0.49916839599609375
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000144948626257,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_30",
+    "source": [
+      26.51852035522461,
+      -6.481481075286865,
+      0.7740740776062012
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.500005830443115,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_35",
+    "source": [
+      29.438613891601562,
+      -5.273062705993652,
+      1.048979640007019
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000128923456941,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_40",
+    "source": [
+      32.26062774658203,
+      -3.694101333618164,
+      1.2980796098709106
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000101742243714,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_45",
+    "source": [
+      35.125,
+      -1.6875,
+      1.5437499284744263
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.500012695469195,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_50",
+    "source": [
+      37.912208557128906,
+      0.43484222888946533,
+      1.793278455734253
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.500008411336239,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_55",
+    "source": [
+      40.50565719604492,
+      2.362483024597168,
+      2.054535150527954
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000327581747115,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_60",
+    "source": [
+      43.11111068725586,
+      4.185185432434082,
+      2.3629627227783203
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.500030832732591,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_65",
+    "source": [
+      45.5622444152832,
+      5.930727005004883,
+      2.6791067123413086
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.500036322602682,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_70",
+    "source": [
+      47.47325134277344,
+      7.4705071449279785,
+      2.9322361946105957
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000279158321064,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_75",
+    "source": [
+      48.46296691894531,
+      8.708333015441895,
+      3.057870388031006
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.500058695424741,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_80",
+    "source": [
+      48.54869842529297,
+      9.703703880310059,
+      3.068587303161621
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4999740632702014,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_85",
+    "source": [
+      48.22290802001953,
+      10.467592239379883,
+      3.0278635025024414
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4999798406606715,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_0_90",
+    "source": [
+      48,
+      11,
+      3
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4223086215843068,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_0",
+    "source": [
+      48.0,
+      15.0,
+      3.0
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": 0.0,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_5",
+    "source": [
+      48.017574310302734,
+      16.548782348632812,
+      3.0943071842193604
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000485522396048,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_10",
+    "source": [
+      48.048011779785156,
+      18.779150009155273,
+      3.229766607284546
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.500034780568967,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_15",
+    "source": [
+      47.64120101928711,
+      20.983795166015625,
+      3.3935184478759766
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000296753514704,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_20",
+    "source": [
+      46.35116195678711,
+      22.547325134277344,
+      3.579012393951416
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000713391164027,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_25",
+    "source": [
+      44.0809326171875,
+      23.780607223510742,
+      3.8170526027679443
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000370458965335,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_30",
+    "source": [
+      41.296295166015625,
+      24.666667938232422,
+      4.066667079925537
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000050382041081,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_35",
+    "source": [
+      38.51165771484375,
+      25.012601852416992,
+      4.269984245300293
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4999952658981783,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_40",
+    "source": [
+      35.96159362792969,
+      24.639232635498047,
+      4.396296501159668
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4999848141615075,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_45",
+    "source": [
+      33.375,
+      23.625,
+      4.475000381469727
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.499979622905812,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_50",
+    "source": [
+      30.865568161010742,
+      22.224966049194336,
+      4.5074076652526855
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.499982783334417,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_55",
+    "source": [
+      28.555727005004883,
+      20.683984756469727,
+      4.492206573486328
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4999843061032152,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_60",
+    "source": [
+      26.370370864868164,
+      18.851850509643555,
+      4.400000095367432
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4999832900175534,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_65",
+    "source": [
+      24.33933448791504,
+      16.788238525390625,
+      4.2614970207214355
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.499984355561537,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_70",
+    "source": [
+      22.59122085571289,
+      14.75034236907959,
+      4.134567737579346
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4999888905422267,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_75",
+    "source": [
+      21.280092239379883,
+      12.907407760620117,
+      4.064815044403076
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000001475782483,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_80",
+    "source": [
+      20.447189331054688,
+      11.100136756896973,
+      4.029492378234863
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4999902464169281,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_85",
+    "source": [
+      19.79432487487793,
+      9.421467781066895,
+      4.012174129486084
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000067539967858,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_90",
+    "source": [
+      19.0,
+      8.0,
+      4.0
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000005430101737,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_95",
+    "source": [
+      17.84988021850586,
+      6.865740776062012,
+      3.99275541305542
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.4999980948596203,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_100",
+    "source": [
+      16.558298110961914,
+      5.962963104248047,
+      3.9945132732391357
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.500002744316589,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  },
+  {
+    "sample": "path_1_105",
+    "source": [
+      15.446760177612305,
+      5.291666507720947,
+      3.998842477798462
+    ],
+    "floor": "R04_09_Relay_and_Paths",
+    "height_error_cm": -1.5000008594015526,
+    "capsule_blocked": false,
+    "capsule_actor": null
+  }
+]

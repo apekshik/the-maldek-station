@@ -1,0 +1,24 @@
+{
+  "source_map_unchanged": true,
+  "preserved_environment_and_route_actors": [
+    "PointLight_0",
+    "PointLight_1",
+    "PointLight_2",
+    "PointLight_3",
+    "BP_GondolaSystem_C_1",
+    "PointLight_4",
+    "Landscape_0",
+    "PointLight_5",
+    "PointLight_6",
+    "Ultra_Dynamic_Sky_C_2",
+    "Ultra_Dynamic_Weather_C_1"
+  ],
+  "target_resolution": "2560x1440",
+  "target_fps": 60,
+  "performance_verified": false,
+  "collision_samples": 9,
+  "capsule_radius_cm": 34,
+  "capsule_half_height_cm": 88,
+  "gondola_round_trip_passed": true,
+  "local_terrain_triangles": 32768
+}

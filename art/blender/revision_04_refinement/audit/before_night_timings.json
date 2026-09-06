@@ -1,0 +1,12 @@
+{
+  "night_platform": {
+    "seconds": 8.632,
+    "camera": "CAM_R03_Platform_Rain",
+    "samples": 40
+  },
+  "night_controls": {
+    "seconds": 9.617,
+    "camera": "CAM_R03_Control_Room",
+    "samples": 40
+  }
+}

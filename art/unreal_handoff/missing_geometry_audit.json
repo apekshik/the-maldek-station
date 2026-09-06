@@ -1,0 +1,1044 @@
+{
+  "07_Overlook": [
+    {
+      "name": "Overlook",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        12.0,
+        4.25,
+        3.8499999046325684
+      ],
+      "min": [
+        9.0,
+        2.0,
+        3.6999998092651367
+      ],
+      "max": [
+        15.0,
+        6.5,
+        4.0
+      ]
+    },
+    {
+      "name": "Overlook_North_Top",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        12.5,
+        6.5,
+        5.099999904632568
+      ],
+      "min": [
+        11.0,
+        6.472499847412109,
+        5.072499752044678
+      ],
+      "max": [
+        14.0,
+        6.527500152587891,
+        5.127500057220459
+      ]
+    },
+    {
+      "name": "Overlook_North_Mid",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        12.5,
+        6.5,
+        4.550000190734863
+      ],
+      "min": [
+        11.0,
+        6.482500076293945,
+        4.532500267028809
+      ],
+      "max": [
+        14.0,
+        6.517499923706055,
+        4.567500114440918
+      ]
+    },
+    {
+      "name": "Overlook_North_Post",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        11.0,
+        6.5,
+        4.550000190734863
+      ],
+      "min": [
+        10.97249984741211,
+        6.472499847412109,
+        4.0
+      ],
+      "max": [
+        11.02750015258789,
+        6.527500152587891,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_North_Post.001",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        12.5,
+        6.5,
+        4.550000190734863
+      ],
+      "min": [
+        12.47249984741211,
+        6.472499847412109,
+        4.0
+      ],
+      "max": [
+        12.52750015258789,
+        6.527500152587891,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_North_Post.002",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        14.0,
+        6.5,
+        4.550000190734863
+      ],
+      "min": [
+        13.97249984741211,
+        6.472499847412109,
+        4.0
+      ],
+      "max": [
+        14.02750015258789,
+        6.527500152587891,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_North_Collision",
+      "type": "MESH",
+      "hidden_render": true,
+      "export_geometry": false,
+      "collision": true,
+      "location": [
+        12.5,
+        6.5,
+        4.550000190734863
+      ],
+      "min": [
+        11.0,
+        6.449999809265137,
+        4.0
+      ],
+      "max": [
+        14.0,
+        6.550000190734863,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_South_Top",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        12.0,
+        2.0,
+        5.099999904632568
+      ],
+      "min": [
+        9.0,
+        1.9724998474121094,
+        5.072499752044678
+      ],
+      "max": [
+        15.0,
+        2.0275001525878906,
+        5.127500057220459
+      ]
+    },
+    {
+      "name": "Overlook_South_Mid",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        12.0,
+        2.0,
+        4.550000190734863
+      ],
+      "min": [
+        9.0,
+        1.9824998378753662,
+        4.532500267028809
+      ],
+      "max": [
+        15.0,
+        2.017500162124634,
+        4.567500114440918
+      ]
+    },
+    {
+      "name": "Overlook_South_Post",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        9.0,
+        2.0,
+        4.550000190734863
+      ],
+      "min": [
+        8.97249984741211,
+        1.972499966621399,
+        4.0
+      ],
+      "max": [
+        9.02750015258789,
+        2.0274999141693115,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_South_Post.001",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        10.5,
+        2.0,
+        4.550000190734863
+      ],
+      "min": [
+        10.47249984741211,
+        1.972499966621399,
+        4.0
+      ],
+      "max": [
+        10.52750015258789,
+        2.0274999141693115,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_South_Post.002",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        12.0,
+        2.0,
+        4.550000190734863
+      ],
+      "min": [
+        11.97249984741211,
+        1.972499966621399,
+        4.0
+      ],
+      "max": [
+        12.02750015258789,
+        2.0274999141693115,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_South_Post.003",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        13.5,
+        2.0,
+        4.550000190734863
+      ],
+      "min": [
+        13.47249984741211,
+        1.972499966621399,
+        4.0
+      ],
+      "max": [
+        13.52750015258789,
+        2.0274999141693115,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_South_Post.004",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        15.0,
+        2.0,
+        4.550000190734863
+      ],
+      "min": [
+        14.97249984741211,
+        1.972499966621399,
+        4.0
+      ],
+      "max": [
+        15.02750015258789,
+        2.0274999141693115,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_South_Collision",
+      "type": "MESH",
+      "hidden_render": true,
+      "export_geometry": false,
+      "collision": true,
+      "location": [
+        12.0,
+        2.0,
+        4.550000190734863
+      ],
+      "min": [
+        9.0,
+        1.9499998092651367,
+        4.0
+      ],
+      "max": [
+        15.0,
+        2.0500001907348633,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_East_North_Top",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        15.0,
+        6.150000095367432,
+        5.099999904632568
+      ],
+      "min": [
+        14.97249984741211,
+        5.800000190734863,
+        5.072499752044678
+      ],
+      "max": [
+        15.02750015258789,
+        6.5,
+        5.127500057220459
+      ]
+    },
+    {
+      "name": "Overlook_East_North_Mid",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        15.0,
+        6.150000095367432,
+        4.550000190734863
+      ],
+      "min": [
+        14.982500076293945,
+        5.800000190734863,
+        4.532500267028809
+      ],
+      "max": [
+        15.017499923706055,
+        6.5,
+        4.567500114440918
+      ]
+    },
+    {
+      "name": "Overlook_East_North_Post",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        15.0,
+        5.800000190734863,
+        4.550000190734863
+      ],
+      "min": [
+        14.97249984741211,
+        5.772500038146973,
+        4.0
+      ],
+      "max": [
+        15.02750015258789,
+        5.827500343322754,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_East_North_Post.001",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        15.0,
+        6.5,
+        4.550000190734863
+      ],
+      "min": [
+        14.97249984741211,
+        6.472499847412109,
+        4.0
+      ],
+      "max": [
+        15.02750015258789,
+        6.527500152587891,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Overlook_East_North_Collision",
+      "type": "MESH",
+      "hidden_render": true,
+      "export_geometry": false,
+      "collision": true,
+      "location": [
+        15.0,
+        6.150000095367432,
+        4.550000190734863
+      ],
+      "min": [
+        14.949999809265137,
+        5.800000190734863,
+        4.0
+      ],
+      "max": [
+        15.050000190734863,
+        6.5,
+        5.100000381469727
+      ]
+    },
+    {
+      "name": "Binocular_Stand",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        12.399999618530273,
+        5.900000095367432,
+        4.650000095367432
+      ],
+      "min": [
+        12.344999313354492,
+        5.845000267028809,
+        4.0
+      ],
+      "max": [
+        12.454999923706055,
+        5.954999923706055,
+        5.300000190734863
+      ]
+    },
+    {
+      "name": "Binocular_Head",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        12.399999618530273,
+        5.900000095367432,
+        5.349999904632568
+      ],
+      "min": [
+        12.174999237060547,
+        5.760000228881836,
+        5.259999752044678
+      ],
+      "max": [
+        12.625,
+        6.039999961853027,
+        5.440000057220459
+      ]
+    },
+    {
+      "name": "Overlook_Bridge_Steel",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        7.977499961853027,
+        6.777499675750732,
+        3.9099998474121094
+      ],
+      "max": [
+        10.022500038146973,
+        8.422499656677246,
+        4.0
+      ]
+    },
+    {
+      "name": "Overlook_Bridge_Steel_Collision",
+      "type": "MESH",
+      "hidden_render": true,
+      "export_geometry": false,
+      "collision": true,
+      "location": [
+        9.0,
+        7.599999904632568,
+        3.9549999237060547
+      ],
+      "min": [
+        8.0,
+        6.799999713897705,
+        3.9099998474121094
+      ],
+      "max": [
+        10.0,
+        8.399999618530273,
+        4.0
+      ]
+    },
+    {
+      "name": "Overlook_North_Link_Steel",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        8.977499961853027,
+        6.477499961853027,
+        3.9099998474121094
+      ],
+      "max": [
+        11.022500038146973,
+        8.422499656677246,
+        4.0
+      ]
+    },
+    {
+      "name": "Overlook_North_Link_Steel_Collision",
+      "type": "MESH",
+      "hidden_render": true,
+      "export_geometry": false,
+      "collision": true,
+      "location": [
+        10.0,
+        7.449999809265137,
+        3.9549999237060547
+      ],
+      "min": [
+        9.0,
+        6.5,
+        3.9099998474121094
+      ],
+      "max": [
+        11.0,
+        8.399999618530273,
+        4.0
+      ]
+    }
+  ],
+  "09_Relay_and_Paths": [
+    {
+      "name": "Relay_Floor",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        48.0,
+        13.0,
+        2.8499999046325684
+      ],
+      "min": [
+        46.0,
+        11.0,
+        2.6999998092651367
+      ],
+      "max": [
+        50.0,
+        15.0,
+        3.0
+      ]
+    },
+    {
+      "name": "Relay_South_Pier",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        46.70000076293945,
+        11.0,
+        4.400000095367432
+      ],
+      "min": [
+        46.0,
+        10.890000343322754,
+        3.0
+      ],
+      "max": [
+        47.400001525878906,
+        11.109999656677246,
+        5.800000190734863
+      ]
+    },
+    {
+      "name": "Relay_South_Lintel",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        48.0,
+        11.0,
+        5.550000190734863
+      ],
+      "min": [
+        47.400001525878906,
+        10.890000343322754,
+        5.300000190734863
+      ],
+      "max": [
+        48.599998474121094,
+        11.109999656677246,
+        5.800000190734863
+      ]
+    },
+    {
+      "name": "Relay_South_End",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        49.29999923706055,
+        11.0,
+        4.400000095367432
+      ],
+      "min": [
+        48.599998474121094,
+        10.890000343322754,
+        3.0
+      ],
+      "max": [
+        50.0,
+        11.109999656677246,
+        5.800000190734863
+      ]
+    },
+    {
+      "name": "Relay_North_Pier",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        46.70000076293945,
+        15.0,
+        4.400000095367432
+      ],
+      "min": [
+        46.0,
+        14.890000343322754,
+        3.0
+      ],
+      "max": [
+        47.400001525878906,
+        15.109999656677246,
+        5.800000190734863
+      ]
+    },
+    {
+      "name": "Relay_North_Lintel",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        48.0,
+        15.0,
+        5.550000190734863
+      ],
+      "min": [
+        47.400001525878906,
+        14.890000343322754,
+        5.300000190734863
+      ],
+      "max": [
+        48.599998474121094,
+        15.109999656677246,
+        5.800000190734863
+      ]
+    },
+    {
+      "name": "Relay_North_End",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        49.29999923706055,
+        15.0,
+        4.400000095367432
+      ],
+      "min": [
+        48.599998474121094,
+        14.890000343322754,
+        3.0
+      ],
+      "max": [
+        50.0,
+        15.109999656677246,
+        5.800000190734863
+      ]
+    },
+    {
+      "name": "Relay_Side_End",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        46.0,
+        13.0,
+        4.400000095367432
+      ],
+      "min": [
+        45.88999938964844,
+        11.0,
+        3.0
+      ],
+      "max": [
+        46.11000061035156,
+        15.0,
+        5.800000190734863
+      ]
+    },
+    {
+      "name": "Relay_Side_End.001",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        50.0,
+        13.0,
+        4.400000095367432
+      ],
+      "min": [
+        49.88999938964844,
+        11.0,
+        3.0
+      ],
+      "max": [
+        50.11000061035156,
+        15.0,
+        5.800000190734863
+      ]
+    },
+    {
+      "name": "Relay_Cabinet",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        46.5,
+        12.699999809265137,
+        4.0
+      ],
+      "min": [
+        46.224998474121094,
+        11.800000190734863,
+        3.0
+      ],
+      "max": [
+        46.775001525878906,
+        13.59999942779541,
+        5.0
+      ]
+    },
+    {
+      "name": "Continuous_Relay_Path_0",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": false,
+      "collision": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        13.640752792358398,
+        -9.009737968444824,
+        -0.014999999664723873
+      ],
+      "max": [
+        49.59258270263672,
+        11.184060096740723,
+        3.0590739250183105
+      ]
+    },
+    {
+      "name": "Continuous_Relay_Path_1",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": false,
+      "collision": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        14.423182487487793,
+        4.183127403259277,
+        2.984999895095825
+      ],
+      "max": [
+        49.063053131103516,
+        26.01259422302246,
+        4.493333339691162
+      ]
+    }
+  ],
+  "13_Roofs": [
+    {
+      "name": "Gondola_Roof",
+      "type": "MESH",
+      "hidden_render": true,
+      "export_geometry": false,
+      "collision": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -1.600000023841858,
+        4.971052646636963,
+        6.299999713897705
+      ],
+      "max": [
+        1.600000023841858,
+        11.128946304321289,
+        6.400000095367432
+      ]
+    },
+    {
+      "name": "Control_Roof",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        -5.5,
+        -2.0,
+        7.224999904632568
+      ],
+      "min": [
+        -8.199999809265137,
+        -4.199999809265137,
+        7.099999904632568
+      ],
+      "max": [
+        -2.799999952316284,
+        0.20000004768371582,
+        7.349999904632568
+      ]
+    },
+    {
+      "name": "Hall_Roof",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        -11.600000381469727,
+        -1.5499999523162842,
+        7.375
+      ],
+      "min": [
+        -15.200000762939453,
+        -6.199999809265137,
+        7.25
+      ],
+      "max": [
+        -8.0,
+        3.1000001430511475,
+        7.5
+      ]
+    },
+    {
+      "name": "Generator_Roof",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        2.0,
+        -3.075000047683716,
+        3.5250000953674316
+      ],
+      "min": [
+        -2.1500000953674316,
+        -6.150000095367432,
+        3.4000000953674316
+      ],
+      "max": [
+        6.150000095367432,
+        0.0,
+        3.6500000953674316
+      ]
+    },
+    {
+      "name": "Relay_Roof",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        48.0,
+        13.0,
+        5.925000190734863
+      ],
+      "min": [
+        45.79999923706055,
+        10.800000190734863,
+        5.800000190734863
+      ],
+      "max": [
+        50.20000076293945,
+        15.199999809265137,
+        6.050000190734863
+      ]
+    },
+    {
+      "name": "Platform_Canopy",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        -5.0,
+        3.549999952316284,
+        7.510000228881836
+      ],
+      "min": [
+        -8.0,
+        0.0,
+        7.420000076293945
+      ],
+      "max": [
+        -2.0,
+        7.099999904632568,
+        7.600000381469727
+      ]
+    },
+    {
+      "name": "Platform_Canopy.001",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        5.0,
+        3.549999952316284,
+        7.510000228881836
+      ],
+      "min": [
+        2.0,
+        0.0,
+        7.420000076293945
+      ],
+      "max": [
+        8.0,
+        7.099999904632568,
+        7.600000381469727
+      ]
+    },
+    {
+      "name": "Canopy_Front",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": true,
+      "collision": true,
+      "location": [
+        0.0,
+        2.4000000953674316,
+        7.510000228881836
+      ],
+      "min": [
+        -2.0,
+        0.0,
+        7.420000076293945
+      ],
+      "max": [
+        2.0,
+        4.800000190734863,
+        7.600000381469727
+      ]
+    }
+  ],
+  "15_Terrain": [
+    {
+      "name": "Terrain_Cliff_And_Relay_Spur",
+      "type": "MESH",
+      "hidden_render": false,
+      "export_geometry": false,
+      "collision": false,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "min": [
+        -75.0,
+        -65.0,
+        -24.764442443847656
+      ],
+      "max": [
+        115.0,
+        115.0,
+        5.300000190734863
+      ]
+    }
+  ]
+}
