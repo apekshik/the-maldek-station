@@ -57,13 +57,15 @@ Open `http://localhost:8000`. No install step, no build step.
 
 ## Game (`game/`)
 
-Unreal Engine 5 project (not yet initialized). The `.gitignore` at the repo root includes standard UE5 ignore rules.
+Unreal Engine 5.7 project at `game/game.uproject`, including an existing BlockOut map and gondola/weather content. Inspect the current project before adding replacement systems. The `.gitignore` at the repo root includes standard UE5 ignore rules.
 
 ## Blender blockout (`art/blender/`)
 
 `millford_v2_blockout_01.blend` is the first metre-scale architectural pass. Read `art/blender/BLOCKOUT_README.md` before editing or exporting. `scripts/build_millford.py` generates revision 01 from scratch in a separate background Blender process; do not rerun it over hand-edited work. `scripts/validate_and_export.py` runs geometry samples, exports named chunks with UCX hulls and checks FBX re-import bounds. UE5 movement/import validation remains pending. The HTML map is still the earlier schematic; it is not the dimensional source of truth for this Blender revision.
 
 Latest environment study: `art/blender/revision_03/millford_v2_night_03.blend`. Read its `README.md` for the continuous relay paths, relocated hut, CC0 pine source, distant cable route and rainy night cameras. Revision 03 has sampled geometry validation but no refreshed FBX export. Keep all earlier revisions and save hand edits under a new filename.
+
+Windows continuation plan: `art/blender/WINDOWS_HANDOFF_AND_REFINEMENT_PLAN.md`. It records LFS checkout, RTX/OptiX baseline, before/after screenshot audit and the ranked model-detail pass.
 
 ## General
 
