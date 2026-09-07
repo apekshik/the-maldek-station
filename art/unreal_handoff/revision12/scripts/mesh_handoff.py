@@ -25,7 +25,7 @@ def physical(name):
  return 'Metal'
 def collision_kind(o):
  n=o.name.lower()
- if o.name in {'Arrival_ground_approach','Service_road','Relay_outbound','Relay_return','Continuous_service_apron'}:return 'surface_prisms'
+ if o.name in {'Arrival_ground_approach','Service_road','Relay_outbound','Relay_return','Continuous_service_apron','R12_Forest_Approach_Aligned'}:return 'surface_prisms'
  if o.get('collision',False):return 'authored'
  if any(t in n for t in ['open_grating_tile','flush_steel_plate','floor','gravel_route','service_apron','flush_threshold']):return 'floor'
  if any(t in n for t in ['folded_corrugated','inner_lining','wall_panel','door_return','door_lintel','structural_corner','perimeter_beam','roof','ceiling','landing_support','deck_column','foundation_pier','tank_body','mattress','bed_base','desk_top','cabinet_body','control_console','control_seat','waiting_bench']):return 'solid'
@@ -64,7 +64,7 @@ class Handoff:
       axes={0:(1,2),1:(0,2),2:(0,1)}[axis];sign=-1 if (axis==1 and normal.y>0) or (axis!=1 and normal[axis]<0) else 1
       for li in tri.loops:
        co=o.matrix_world@me.vertices[me.loops[li].vertex_index].co
-       uvs.append((sign*co[axes[0]]/8+.5,co[axes[1]]/8+.5))
+       uvs.append(tuple(me.uv_layers.active.data[li].uv) if o.get('handoff_preserve_uv') and me.uv_layers.active else (sign*co[axes[0]]/8+.5,co[axes[1]]/8+.5))
        normals.append(tuple((normal_matrix@me.corner_normals[li].vector).normalized()))
      ev.to_mesh_clear();sources.append(o.name)
    kind=collision_kind(o) if role!='terrain' else None
@@ -114,7 +114,9 @@ class Handoff:
   for c in colliders:c.select_set(True)
   file=self.folder/(name+'.fbx')
   bpy.ops.export_scene.fbx(filepath=str(file),use_selection=True,object_types={'MESH'},axis_forward='-Y',axis_up='Z',apply_unit_scale=True,apply_scale_options='FBX_SCALE_UNITS',use_mesh_modifiers=False,mesh_smooth_type='FACE',use_tspace=True,bake_anim=False,add_leaf_bones=False)
-  row={'name':name,'file':str(file.relative_to(OUT)),'sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'sources':sources,'pivot':list(pivot),'bounds':bounds(ob),'material_slots':[m.name for m in me.materials],'triangles':len(faces),'collision_boxes':boxes,'collision_hulls':len(colliders),'physical_surface':surface,'role':role,'nanite':role=='solid','replacement_targets':list(targets)}
+  rendered=[verts[i] for i in {j for f in faces for j in f}]
+  render_bounds=[[min(v[i] for v in rendered) for i in range(3)],[max(v[i] for v in rendered) for i in range(3)]]
+  row={'name':name,'file':str(file.relative_to(OUT)),'sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'sources':sources,'pivot':list(pivot),'bounds':render_bounds,'material_slots':[m.name for m in me.materials],'triangles':len(faces),'collision_boxes':boxes,'collision_hulls':len(colliders),'physical_surface':surface,'role':role,'nanite':role=='solid','replacement_targets':list(targets)}
   self.chunks.append(row)
   for c in colliders:c.hide_render=True;c.hide_set(True)
   bpy.context.window.scene=self.source

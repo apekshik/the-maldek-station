@@ -50,7 +50,14 @@ else:
   b=mesh.get_bounds();actual=[vec(b.origin-b.box_extent),vec(b.origin+b.box_extent)];lo,hi=r['bounds'];wanted=[[100*lo[0],-100*hi[1],100*lo[2]],[100*hi[0],-100*lo[1],100*hi[2]]]
   error=max(abs(actual[j][i]-wanted[j][i]) for j in range(2) for i in range(3));assert error<.2,(r['name'],error)
   assert [str(s.material_slot_name) for s in mesh.static_materials]==r['material_slots'],r['name']
-  count=sm.get_convex_collision_count(mesh);assert count==r['collision_hulls'],(r['name'],count,r['collision_hulls'])
+  # FBX importer coalesces identical UCX hulls (two adjoining rails can share a post).
+  # Account only for geometrically identical vertex sets, never arbitrary lost hulls.
+  unique_hulls={}
+  for box in r['collision_boxes']:
+   vertices=box.get('vertices') or [[x,y,z] for x in [box['min'][0],box['max'][0]] for y in [box['min'][1],box['max'][1]] for z in [box['min'][2],box['max'][2]]]
+   signature=tuple(sorted(tuple(round(v,4) for v in p) for p in vertices))
+   unique_hulls.setdefault(signature,[]).append(box['source'])
+  count=sm.get_convex_collision_count(mesh);assert len(unique_hulls)<=count<=r['collision_hulls'],(r['name'],count,len(unique_hulls),r['collision_hulls'])
   if r.get('complex_collision'):
    mesh.get_editor_property('body_setup').set_editor_property('collision_trace_flag',unreal.CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE)
    for i,s in enumerate(mesh.static_materials):mesh.set_material(i,lib.load_asset(r['preserve_material'][min(i,len(r['preserve_material'])-1)]))
@@ -72,7 +79,7 @@ else:
   if r['replacement_targets']:
    parent=actors[r['replacement_targets'][0]['actor']]
    a.attach_to_actor(parent,unreal.Name('None'),unreal.AttachmentRule.KEEP_WORLD,unreal.AttachmentRule.KEEP_WORLD,unreal.AttachmentRule.KEEP_WORLD,False)
-  ledger['assets'][r['name']]={'sha256':r['sha256'],'asset':path,'actor':a.get_path_name(),'stage':stage,'bounds_error_cm':error,'hulls':count,'physical_surface':r['physical_surface'],'material_slots':r['material_slots']}
+  ledger['assets'][r['name']]={'sha256':r['sha256'],'asset':path,'actor':a.get_path_name(),'stage':stage,'bounds_error_cm':error,'hulls':count,'coincident_hull_sources':[v for v in unique_hulls.values() if len(v)>1],'physical_surface':r['physical_surface'],'material_slots':r['material_slots']}
   ledger_path.write_text(json.dumps(ledger,indent=2))
  # Retire old combined components only after every replacement for this stage exists.
  stage_targets={t['actor']+'|'+t['component']:t for r in chunks for t in r['replacement_targets']}

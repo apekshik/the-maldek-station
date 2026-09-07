@@ -23,4 +23,15 @@ public:
 
     UFUNCTION(BlueprintCallable, Category="Station Validation")
     static TArray<FString> GetLandscapeHeightmapPaths(AActor* LandscapeActor);
+
+    // Exercises the existing input binding rather than changing flashlight visibility directly.
+    UFUNCTION(BlueprintCallable, Category="Station Validation")
+    static bool SendPIEKey(FName KeyName, bool bPressed);
+
+    UFUNCTION(BlueprintCallable, Category="Station Validation")
+    static TMap<FString, FTransform> GetFoliageInstanceTransforms(AActor* FoliageActor);
+
+    UFUNCTION(BlueprintCallable, Category="Station Validation")
+    static bool MoveR12FoliageInstance(AActor* FoliageActor, const FString& TypePath,
+        int32 InstanceIndex, FVector ExpectedLocation, FVector NewLocation);
 };

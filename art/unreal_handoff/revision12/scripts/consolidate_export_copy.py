@@ -5,6 +5,7 @@ base=Path(__file__).resolve().parents[1];manifest=json.loads((base/'handoff_mani
 bpy.ops.wm.open_mainfile(filepath=str(base/'handoff_manifest.blend'),load_ui=False);scene=bpy.context.scene
 changes=json.loads((base/'collision_refinement.json').read_text())['changed']
 patches=[('parking_split_export.blend',[r['name'] for r in manifest['chunks'] if r.get('retained_from_combined')]),('collision_refinement_export.blend',[r['name'] for r in changes])]
+if (base/'forest_arrival_export.blend').exists():patches.append(('forest_arrival_export.blend',['SM_R12_Forest_Approach_Aligned']))
 for file,names in patches:
  def included(n):return n in names or any(n.startswith('UCX_'+name+'_') for name in names)
  for o in list(scene.objects):

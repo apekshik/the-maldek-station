@@ -1,0 +1,17 @@
+[2026.09.07-13.26.44:640][169]OBJ SavePackage: Finished generating thumbnails for package [/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF07_Compacted_Gravel__Exterior]
+[2026.09.07-13.26.44:648][169]LogSavePackage: Moving output files for package: /Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF07_Compacted_Gravel__Exterior
+[2026.09.07-13.26.44:648][169]LogSavePackage: Moving '../../../../../../Users/apek-anna/Developer/the-maldek-station/game/Saved/MI_Dry_UE_VF07_Compacted_Gravel_FDF808F34EDCB0601B3B59B4D49F605F.tmp' to '../../../../../../Users/apek-anna/Developer/the-maldek-station/game/Content/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF07_Compacted_Gravel__Exterior.uasset'
+[2026.09.07-13.26.44:649][169]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.568 ms (total: 4:00 min)
+[2026.09.07-13.26.45:372][169]LogD3D12RHI: Display: D3D12 CreateCommittedResource failed with params:
+	Heap Type: 2
+	Heap Flags: 4096
+	Resource Dimension: 1
+	Resource Width: 8388608
+	Resource Height: 1
+	Array Size: 1
+	Mip Levels: 1
+	Format: 0
+	Resource Flags: 0
+[2026.09.07-13.26.45:372][169]LogD3D12RHI: Error: hr failed
+ at D:\build\++UE5\Sync\Engine\Source\Runtime\D3D12RHI\Private\D3D12Resources.cpp:866
+ with error E_OUTOFMEMORY

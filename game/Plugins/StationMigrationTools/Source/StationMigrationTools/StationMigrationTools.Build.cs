@@ -6,6 +6,6 @@ public class StationMigrationTools : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
         PublicDependencyModuleNames.AddRange(new[] { "Core", "CoreUObject", "Engine" });
-        PrivateDependencyModuleNames.AddRange(new[] { "UnrealEd", "Slate", "SlateCore", "RHI", "RenderCore", "Landscape" });
+        PrivateDependencyModuleNames.AddRange(new[] { "UnrealEd", "Slate", "SlateCore", "RHI", "RenderCore", "Landscape", "InputCore", "Foliage" });
     }
 }

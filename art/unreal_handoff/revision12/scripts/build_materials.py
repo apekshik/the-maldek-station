@@ -27,10 +27,12 @@ else:
     task=unreal.AssetImportTask();task.filename=str(base/file);task.destination_path=root+'/Textures';task.automated=True;task.save=True;task.replace_existing=True
     at.import_asset_tasks([task]);tex=lib.load_asset(path)
    assert tex,path
-   tex.set_editor_property('srgb',channel=='BaseColor')
-   tex.set_editor_property('compression_settings',unreal.TextureCompressionSettings.TC_NORMALMAP if channel=='NormalDX' else unreal.TextureCompressionSettings.TC_MASKS if channel=='ORM' else unreal.TextureCompressionSettings.TC_DEFAULT)
-   if channel=='NormalDX':tex.set_editor_property('flip_green_channel',False)
-   lib.save_loaded_asset(tex);textures[key][channel]=tex
+   compression=unreal.TextureCompressionSettings.TC_NORMALMAP if channel=='NormalDX' else unreal.TextureCompressionSettings.TC_MASKS if channel=='ORM' else unreal.TextureCompressionSettings.TC_DEFAULT
+   if tex.get_editor_property('srgb')!=(channel=='BaseColor') or tex.get_editor_property('compression_settings')!=compression or (channel=='NormalDX' and tex.get_editor_property('flip_green_channel')):
+    tex.set_editor_property('srgb',channel=='BaseColor');tex.set_editor_property('compression_settings',compression)
+    if channel=='NormalDX':tex.set_editor_property('flip_green_channel',False)
+    lib.save_loaded_asset(tex)
+   textures[key][channel]=tex
  def family(info):
   n=info['source_material'].lower()
   if info['glass']:return 'Glass'
@@ -40,6 +42,9 @@ else:
  def master(kind,weather,key):
   ident=kind+('_Exterior' if weather else '_Interior')
   if ident in masters:return masters[ident]
+  existing=lib.load_asset(root+'/Materials/Masters/M_R12_'+ident)
+  if existing and not JOB.get('rebuild_masters'):
+   masters[ident]=existing;return existing
   mat=asset('M_R12_'+ident,root+'/Materials/Masters',unreal.Material,unreal.MaterialFactoryNew())
   ml.delete_all_material_expressions(mat)
   mat.set_editor_property('two_sided',kind=='Glass')
@@ -76,6 +81,14 @@ else:
   weather=not indoor and kind not in ['Glass','Emissive'] and not JOB.get('inspection_dry')
   parent=master(kind,weather,key)
   mi=asset(('MI_Dry_' if JOB.get('inspection_dry') else 'MI_')+info['slot'],root+'/Materials/Instances',unreal.MaterialInstanceConstant,unreal.MaterialInstanceConstantFactoryNew())
+  pm=lib.load_asset('/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_'+info['physical_surface']);assert pm
+  explicit={str(v.parameter_info.name):v.parameter_value for v in mi.get_editor_property('texture_parameter_values')}
+  unchanged=mi.get_editor_property('parent')==parent and mi.get_editor_property('phys_material')==pm and all(explicit.get(ch)==tex for ch,tex in textures[key].items())
+  if unchanged and kind!='Glass':
+   ec=info.get('emission_color',[0,0,0,1]);actual=ml.get_material_instance_vector_parameter_value(mi,'EmissionColor')
+   unchanged=abs(ml.get_material_instance_scalar_parameter_value(mi,'EmissionStrength')-info.get('emission_strength',0))<.00001 and max(abs(x-y) for x,y in zip([actual.r,actual.g,actual.b,actual.a],ec))<.00001
+  if unchanged:
+   instances[info['slot']]=mi;report.append({'slot':info['slot'],'instance':mi.get_path_name(),'master':parent.get_path_name(),'texture_set':key,'weather':weather,'physical_material':pm.get_path_name(),'reused':True});continue
   ml.set_material_instance_parent(mi,parent)
   # Explicit overrides remain stable if the master's preview/default texture changes on rerun.
   mi.set_editor_property('texture_parameter_values',[unreal.TextureParameterValue(parameter_info=unreal.MaterialParameterInfo(name=ch),parameter_value=tex) for ch,tex in textures[key].items()])

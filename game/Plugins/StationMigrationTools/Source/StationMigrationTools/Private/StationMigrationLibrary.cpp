@@ -14,8 +14,49 @@
 #include "ShaderCompiler.h"
 #include "LandscapeComponent.h"
 #include "Engine/Texture2D.h"
+#include "GameFramework/PlayerController.h"
+#include "InputKeyEventArgs.h"
+#include "InstancedFoliageActor.h"
+#include "InstancedFoliage.h"
+#include "FoliageType.h"
 
 IMPLEMENT_MODULE(FDefaultModuleImpl, StationMigrationTools)
+
+TMap<FString, FTransform> UStationMigrationLibrary::GetFoliageInstanceTransforms(AActor* Actor)
+{
+    TMap<FString, FTransform> Result;
+    if (auto* Foliage = Cast<AInstancedFoliageActor>(Actor))
+        Foliage->ForEachFoliageInfo([&](UFoliageType* Type, FFoliageInfo& Info)
+        {
+            for (int32 Index = 0; Index < Info.Instances.Num(); ++Index)
+                Result.Add(Type->GetPathName() + TEXT("|") + FString::FromInt(Index), Info.Instances[Index].GetInstanceWorldTransform());
+            return true;
+        });
+    return Result;
+}
+
+bool UStationMigrationLibrary::MoveR12FoliageInstance(AActor* Actor, const FString& TypePath,
+    int32 Index, FVector ExpectedLocation, FVector NewLocation)
+{
+    auto* Foliage = Cast<AInstancedFoliageActor>(Actor);
+    if (!Foliage || !Foliage->GetOutermost()->GetName().StartsWith(TEXT("/Game/MaldekRefinement/R12/"))
+        || !Foliage->GetWorld() || Foliage->GetWorld()->WorldType != EWorldType::Editor) return false;
+    bool bMoved = false;
+    Foliage->ForEachFoliageInfo([&](UFoliageType* Type, FFoliageInfo& Info)
+    {
+        if (Type->GetPathName() != TypePath || !Info.Instances.IsValidIndex(Index)) return true;
+        if (!Info.Instances[Index].Location.Equals(ExpectedLocation, 0.1)) return false;
+        Foliage->Modify();
+        TArray<int32> Indices{Index};
+        Info.PreMoveInstances(Indices);
+        Info.Instances[Index].Location = NewLocation;
+        Info.PostMoveInstances(Indices, true);
+        Foliage->MarkPackageDirty();
+        bMoved = true;
+        return false;
+    });
+    return bMoved;
+}
 
 namespace
 {
@@ -36,6 +77,18 @@ bool UStationMigrationLibrary::SetPIERenderSize(int32 Width, int32 Height)
     if (!Client || !Client->Viewport) return false;
     static_cast<FSceneViewport*>(Client->Viewport)->SetFixedViewportSize(Width, Height);
     return true;
+}
+
+bool UStationMigrationLibrary::SendPIEKey(FName KeyName, bool bPressed)
+{
+    auto* Client = FindPIEViewport();
+    if (!Client || !Client->GetWorld()) return false;
+    auto* Controller = Client->GetWorld()->GetFirstPlayerController();
+    const FKey Key(KeyName);
+    if (!Controller || !Key.IsValid()) return false;
+    return Controller->InputKey(FInputKeyEventArgs(Client->Viewport,
+        FInputDeviceId::CreateFromInternalId(0), Key, bPressed ? IE_Pressed : IE_Released,
+        bPressed ? 1.0f : 0.0f, false, FPlatformTime::Cycles64()));
 }
 
 TMap<FString, double> UStationMigrationLibrary::CapturePIEFrameStats()

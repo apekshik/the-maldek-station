@@ -1,6 +1,6 @@
 # VF07 → Unreal R12 migration
 
-Work is on `codex/vf07-unreal-r12`. The playable station has **not yet been replaced or promoted**. This file records implementation status, not final acceptance.
+Work is on `codex/vf07-unreal-r12`. R12 circulation is imported; architecture and infrastructure are pending. The map has **not been promoted**. This file records implementation status, not final acceptance.
 
 ## Preserved checkpoint
 
@@ -25,6 +25,10 @@ Work is on `codex/vf07-unreal-r12`. The playable station has **not yet been repl
 - Prepared forest-relative terrain changes and a masked Landscape underlay clearance workflow.
 - Accepted the pilot's neutral/night appearance, glass transparency, doorway collision and shader compilation (`pilot/acceptance.json`). Parking material bindings are complete.
 - Verified R12-owned Landscape heightmaps. Within the actual VF07 terrain change mask, minimum underlay clearance is 0.837 m; no Landscape height edits are required (`landscape_delta.json`).
+- Imported 189 circulation assemblies, including the preserved bridge. The bridge was brought forward because its superseded junction guard blocked the new east terrace.
+- Preserved 86 cross-sections of the forest approach exactly, including their UVs, and aligned its final bend to the approved south landing access. The old whole approach component is replaced explicitly, so its obsolete end does not remain underneath.
+- Moved the parking PlayerStart one metre clear of the retained car's authored collision. Its class, orientation, capsule and movement settings remain inherited; the exact transform exception is recorded in `actor_adjustments.json`.
+- Runtime circulation checks cover all 14 applicable VF07 routes in both directions, plus the entire bridge and parking/forest/arrival connection. Earlier failed east-terrace and forest-end results are superseded by the targeted passing reports; final full-station traversal remains required.
 
 ## Gates still open
 
@@ -41,8 +45,9 @@ Run Blender scripts from this directory's `scripts` folder using Blender 5.0 in 
 1. `export_full.py`
 2. `export_parking_split.py` (requires the Unreal retained-slot audit)
 3. `refine_collision_exports.py`
-4. `consolidate_export_copy.py`
-5. `bake_surfaces.py -- handoff_manifest.json`
+4. `align_forest_arrival.py`
+5. `consolidate_export_copy.py`
+6. `bake_surfaces.py -- handoff_manifest.json`
 
 Build the Development Editor target to enable the editor-only `StationMigrationTools` module. Start the editor with `-ExecCmds="py <repository>/art/unreal_handoff/scripts/r12_session.py"`. The local dispatcher accepts a unique job ID and a script name from `revision12/scripts` in `revision12/request.json`; it has no network listener. A dispatcher response saying `started` is not a completed validation result—read the script's report.
 

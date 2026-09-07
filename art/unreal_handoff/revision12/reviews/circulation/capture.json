@@ -1,0 +1,14 @@
+{
+  "phase": "cleanup",
+  "next": 116467.406,
+  "index": 1,
+  "mode": "inspection",
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\circulation\\bridge_junction_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\circulation\\bridge_junction_inspection.png"
+  ],
+  "busy": true,
+  "deadline": 117030.406,
+  "success": true,
+  "inspection_lights_removed": true
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "p": [
+      14.5,
+      6.7,
+      4.9815
+    ],
+    "q": [
+      16.25,
+      6.7,
+      4.9815
+    ],
+    "hit": [
+      "True",
+      "False",
+      "0.06857136636972427",
+      "11.999988555908203",
+      "<Struct 'Vector' (0x000001C17A679820) {x: -45744.305964, y: 19144.707549, z: 10396.650000}>",
+      "<Struct 'Vector' (0x000001C17A67A4F0) {x: -45778.305975, y: 19144.707488, z: 10380.178131}>",
+      "<Struct 'Vector' (0x000001C17A67A630) {x: 1.000000, y: -0.000001, z: 0.000000}>",
+      "<Struct 'Vector' (0x000001C17A67A3B0) {x: 1.000000, y: -0.000001, z: 0.000000}>",
+      "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal' (0x000001C159D0F000) Class 'PhysicalMaterial'>",
+      "<Object '/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_38' (0x000001C261D03200) Class 'StaticMeshActor'>",
+      "<Object '/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_38.StaticMeshComponent0' (0x000001C0EDD36800) Class 'StaticMeshComponent'>",
+      "None",
+      "None",
+      "-1",
+      "3",
+      "-1",
+      "<Struct 'Vector' (0x000001C17A67A720) {x: -45732.305975, y: 19144.707549, z: 10396.650000}>",
+      "<Struct 'Vector' (0x000001C17A67A5E0) {x: -45907.305975, y: 19144.707549, z: 10396.650000}>"
+    ]
+  },
+  {
+    "p": [
+      15.5,
+      6.7,
+      4.9815
+    ],
+    "q": [
+      8.5,
+      6.7,
+      4.9815
+    ],
+    "hit": [
+      "True",
+      "False",
+      "0.017142873257398605",
+      "12.000011444091797",
+      "<Struct 'Vector' (0x000001C17A679820) {x: -45820.305964, y: 19144.707549, z: 10396.650000}>",
+      "<Struct 'Vector' (0x000001C17A67A5E0) {x: -45786.305975, y: 19144.707549, z: 10374.136932}>",
+      "<Struct 'Vector' (0x000001C17A67A4F0) {x: -1.000000, y: 0.000001, z: 0.000000}>",
+      "<Struct 'Vector' (0x000001C17A67A630) {x: -1.000000, y: 0.000001, z: 0.000000}>",
+      "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal' (0x000001C159D0F000) Class 'PhysicalMaterial'>",
+      "<Object '/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_38' (0x000001C261D03200) Class 'StaticMeshActor'>",
+      "<Object '/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_38.StaticMeshComponent0' (0x000001C0EDD36800) Class 'StaticMeshComponent'>",
+      "None",
+      "None",
+      "-1",
+      "3",
+      "-1",
+      "<Struct 'Vector' (0x000001C17A67A3B0) {x: -45832.305975, y: 19144.707549, z: 10396.650000}>",
+      "<Struct 'Vector' (0x000001C17A67A720) {x: -45132.305975, y: 19144.707549, z: 10396.650000}>"
+    ]
+  }
+]

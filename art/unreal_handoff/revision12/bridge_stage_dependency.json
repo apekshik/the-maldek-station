@@ -1,0 +1,22 @@
+{
+  "assemblies": [
+    "SM_R12_20_Lookout_Bridge_000_solid",
+    "SM_R12_20_Lookout_Bridge_001_grating",
+    "SM_R12_20_Lookout_Bridge_002_solid",
+    "SM_R12_20_Lookout_Bridge_003_thin",
+    "SM_R12_20_Lookout_Bridge_004_solid",
+    "SM_R12_20_Lookout_Bridge_005_thin",
+    "SM_R12_20_Lookout_Bridge_006_solid",
+    "SM_R12_20_Lookout_Bridge_007_thin",
+    "SM_R12_20_Lookout_Bridge_008_grating",
+    "SM_R12_20_Lookout_Bridge_009_solid",
+    "SM_R12_20_Lookout_Bridge_010_thin",
+    "SM_R12_20_Lookout_Bridge_011_solid",
+    "SM_R12_20_Lookout_Bridge_012_thin",
+    "SM_R12_20_Lookout_Bridge_013_grating",
+    "SM_R12_20_Lookout_Bridge_014_solid",
+    "SM_R12_20_Lookout_Bridge_015_thin"
+  ],
+  "reason": "Actual Unreal player blocked by the superseded R11 bridge-junction guard at x=15,y=6.7. Bring the pre-audited retained-span/new-junction assembly into circulation before accepting routes. No geometry or transforms changed.",
+  "source_preservation_report": "bridge_source_preservation.json"
+}

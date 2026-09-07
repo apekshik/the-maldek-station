@@ -1,0 +1,126 @@
+{
+  "accepted": true,
+  "scope": "Circulation stage only; complete final validation/default-map promotion remains separate.",
+  "route_reports": [
+    "routes_circulation.json",
+    "routes_junction.json",
+    "routes_forest_alignment.json"
+  ],
+  "routes": [
+    {
+      "name": "Arrival",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Arrival turn onto platform",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Quarters",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Quarters lower approach",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Exterior_service",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Service descent lower exit",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Service_road",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Relay_outbound",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Relay_return",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Arrival_ground_approach",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Front grating across facade",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "West continuous border",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "East terrace grating",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Internal descending stair",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Forest to arrival",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Entire lookout bridge",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    }
+  ],
+  "audit": "audit_circulation.json",
+  "visual_review": "reviews/circulation/visual_review.json",
+  "manifest_sha256": "2b4fef0e08a38b80de91b343ae03f460a2b39ce87e793e7133e2128c8f6edec5"
+}

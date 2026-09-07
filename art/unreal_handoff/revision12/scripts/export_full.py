@@ -17,7 +17,7 @@ mapping={
  '13_Roofs':('Architecture','R04_13_Roofs'),
  '14_Site_Structure':('Circulation','R04_14_Site_Structure'),
  '18_Cliff_Anchors':('Infrastructure','R04_18_Cliff_Anchors'),
- '20_Lookout_Bridge':('Infrastructure','R04_20_Lookout_Bridge'),
+ '20_Lookout_Bridge':('Circulation','R04_20_Lookout_Bridge'),
  '21_Maintenance':('Architecture','R04_21_Maintenance'),
  'VF06_Canopy_Junction':('Infrastructure','R04_01_Upper_Platform'),
  'VF06_Control':('Architecture','R04_02_Control_Room'),
