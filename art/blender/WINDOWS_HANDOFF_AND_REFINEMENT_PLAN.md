@@ -32,6 +32,8 @@ Render the existing platform camera first at the saved 1400 × 930 / 40 samples.
 
 The existing Unreal project is `game/game.uproject`, associated with **UE 5.7**. It includes a BlockOut map, a gondola-system asset and UltraDynamicSky content. Inspect their actual state on Windows before creating replacement systems. They have not been opened or validated during this Mac session.
 
+A supplementary [eight-shot map tour](revision_03/tour/README.md) was rendered after the handoff snapshot. Use it for context; close-up neutral/material audit captures are still the first modeling step.
+
 ## First action: screenshot and reference audit
 
 Existing renders already show the main weaknesses: the gondola reads as a sharp rectangular shell; rail intersections look like intersecting bars; concrete slabs have little assembly detail; lamps are luminous boxes; equipment and controls remain primitive forms. The next session should capture fresh screenshots of the actual objects before editing, rather than rely only on the atmospheric views.

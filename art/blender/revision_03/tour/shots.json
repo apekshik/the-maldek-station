@@ -1,0 +1,130 @@
+[
+  {
+    "file": "01_cliff_station.png",
+    "title": "Station over the gorge",
+    "camera_m": [
+      34,
+      39,
+      20
+    ],
+    "target_m": [
+      0,
+      4,
+      2
+    ],
+    "lens_mm": 36,
+    "lighting": "blue_hour"
+  },
+  {
+    "file": "02_open_drive.png",
+    "title": "Exposed flywheel gallery",
+    "camera_m": [
+      5,
+      10.8,
+      1.65
+    ],
+    "target_m": [
+      1.6,
+      5.2,
+      1.5
+    ],
+    "lens_mm": 28,
+    "lighting": "blue_hour"
+  },
+  {
+    "file": "03_under_gondola.png",
+    "title": "Below the gondola",
+    "camera_m": [
+      4.7,
+      9.5,
+      1.65
+    ],
+    "target_m": [
+      0,
+      10.7,
+      4.2
+    ],
+    "lens_mm": 23,
+    "lighting": "night"
+  },
+  {
+    "file": "04_stairs_overlook.png",
+    "title": "Steel stairs and overlook",
+    "camera_m": [
+      22,
+      -1,
+      7
+    ],
+    "target_m": [
+      9,
+      4,
+      3
+    ],
+    "lens_mm": 28,
+    "lighting": "blue_hour"
+  },
+  {
+    "file": "05_relay_approach.png",
+    "title": "Relay hidden in the woods",
+    "camera_m": [
+      42,
+      5,
+      4.65
+    ],
+    "target_m": [
+      48,
+      13,
+      4
+    ],
+    "lens_mm": 32,
+    "lighting": "night"
+  },
+  {
+    "file": "06_arrival.png",
+    "title": "Arrival from the parking area",
+    "camera_m": [
+      -18,
+      -16,
+      1.2
+    ],
+    "target_m": [
+      -10,
+      -1,
+      5
+    ],
+    "lens_mm": 27,
+    "lighting": "blue_hour"
+  },
+  {
+    "file": "07_site_cutaway.png",
+    "title": "Site layout and cutaway",
+    "camera_m": [
+      58,
+      -62,
+      78
+    ],
+    "target_m": [
+      14,
+      8,
+      1
+    ],
+    "lens_mm": 42,
+    "lighting": "cutaway"
+  },
+  {
+    "file": "08_drive_machinery.png",
+    "title": "Flywheel and motor",
+    "camera_m": [
+      4.7,
+      9.6,
+      1.65
+    ],
+    "target_m": [
+      1.8,
+      5.4,
+      1.3
+    ],
+    "lens_mm": 32,
+    "lighting": "night"
+  }
+]
