@@ -1,0 +1,10 @@
+{
+  "pawn": "/Game/MaldekRefinement/R09/BP_StationWalker.BP_StationWalker",
+  "game_mode": "/Game/MaldekRefinement/R09/BP_StationWalkGameMode.BP_StationWalkGameMode",
+  "walk_speed_cm_s": 350,
+  "flashlight_lumens": 0.2,
+  "flashlight_radius_cm": 650,
+  "outer_cone_degrees": 24,
+  "held_mesh_parts": 11,
+  "controls": "WASD + mouse, Shift sprint, Space jump; flashlight starts on"
+}

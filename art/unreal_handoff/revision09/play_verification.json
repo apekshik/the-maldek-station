@@ -1,0 +1,29 @@
+{
+  "start": 74293.984,
+  "ready": true,
+  "location": [
+    -44282.305974972965,
+    19279.70756813546,
+    10298.5
+  ],
+  "rotation": [
+    1.3213713977167088e-19,
+    -8.09106626349316e-36,
+    0.9999999999999998,
+    6.123233995736765e-17
+  ],
+  "max_delta_cm": 0.0,
+  "max_rotation_delta": 0.0,
+  "flashlight_lumens": 0.20000000298023224,
+  "held_mesh_count": 12,
+  "walk_speed": 350.0,
+  "walk_start": [
+    -43632.305974972965,
+    18774.707549061975,
+    10396.649988651276
+  ],
+  "pawn": "BP_StationWalker_C",
+  "ready_time": 74295.343,
+  "walk_displacement_cm": 332.592201971318,
+  "success": true
+}

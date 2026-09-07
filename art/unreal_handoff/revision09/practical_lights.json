@@ -1,0 +1,57 @@
+{
+  "spots": [
+    {
+      "name": "Cabin_Ceiling",
+      "position": [
+        -44282.306,
+        19279.708,
+        10509
+      ],
+      "target": [
+        -44282.306,
+        19279.708,
+        10298.5
+      ],
+      "lumens": 0.35,
+      "temperature": 3200,
+      "radius_cm": 340,
+      "outer_cone": 65
+    },
+    {
+      "name": "Canopy_Left",
+      "position": [
+        -44442.306,
+        18875,
+        10634
+      ],
+      "target": [
+        -44362.306,
+        18970,
+        10298.5
+      ],
+      "lumens": 0.45,
+      "temperature": 3900,
+      "radius_cm": 470,
+      "outer_cone": 22
+    },
+    {
+      "name": "Canopy_Right",
+      "position": [
+        -44122.306,
+        18875,
+        10634
+      ],
+      "target": [
+        -44202.306,
+        18970,
+        10298.5
+      ],
+      "lumens": 0.45,
+      "temperature": 3900,
+      "radius_cm": 470,
+      "outer_cone": 22
+    }
+  ],
+  "boarding": "Green on; red lens unlit while the cabin is parked",
+  "removed_user_lights_restored": false
+}
