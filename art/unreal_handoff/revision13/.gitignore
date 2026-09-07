@@ -1,0 +1,4 @@
+*.log
+landscape_before.png
+__pycache__/
+scripts/__pycache__/

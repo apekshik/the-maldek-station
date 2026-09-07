@@ -1,0 +1,1 @@
+{"id": "r13-openings-1", "script": "r13_openings.py", "variants": ["original"], "eye_positions": true, "burst_frames": 4, "shots": [["west_entry", [25.8, -15.45, 0.55], [27, -15, 0.1]], ["south_entry", [29.1, -20.3, 0.5], [29.5, -19, 0.3]], ["workshop_entry", [36, -15.8, 0.6], [37, -15.5, 0.2]]]}

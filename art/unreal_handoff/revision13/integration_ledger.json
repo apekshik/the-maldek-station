@@ -1,0 +1,366 @@
+{
+  "assets": {
+    "SM_R13_VF08_01_Generator_Shell_solid_Exterior": {
+      "sha256": "7eef6a2efe001ccd958a991a54390837032687b450952afb0d5c7e710f4f314a",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_459",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_01_Generator_Shell_solid_Exterior",
+      "hulls": 50,
+      "bounds_error_cm": 0.000141143798828125
+    },
+    "SM_R13_VF08_01_Generator_Shell_solid_Indoor": {
+      "sha256": "84b14901178ba24d26aa905721fa089b3a6491fd04cc510ea7f8f7caaaac74e9",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_460",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_01_Generator_Shell_solid_Indoor",
+      "hulls": 41,
+      "bounds_error_cm": 0.00012969970703125
+    },
+    "SM_R13_VF08_02_Removable_Roofs_solid_Exterior": {
+      "sha256": "63e477cf78653ee7c4c0ee0fc4e6f3ae72dc987f44910237edad60ff3871c35e",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_461",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_02_Removable_Roofs_solid_Exterior",
+      "hulls": 4,
+      "bounds_error_cm": 0.000133514404296875
+    },
+    "SM_R13_VF08_02_Removable_Roofs_thin_Exterior": {
+      "sha256": "6e1380f915a2e33390f0a736569d8ed4e0e16d9f5191b5f356196751d2210a36",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_462",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_02_Removable_Roofs_thin_Exterior",
+      "hulls": 0,
+      "bounds_error_cm": 0.00012969970703125
+    },
+    "SM_R13_VF08_03_Workshop_solid_Indoor": {
+      "sha256": "ac3b8bcc9085ded141a68ecd2e2cab7f7d2558ba60daecf21931f94ee6f3a6e8",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_463",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_03_Workshop_solid_Indoor",
+      "hulls": 7,
+      "bounds_error_cm": 0.00014495849609375
+    },
+    "SM_R13_VF08_04_Diesel_Generator_solid_Indoor": {
+      "sha256": "64de199ac9015a0e2cdd6348e8d1766fa23f4b6ad15194fee4f995ba3c404b38",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_464",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_04_Diesel_Generator_solid_Indoor",
+      "hulls": 10,
+      "bounds_error_cm": 8.0108642578125e-05
+    },
+    "SM_R13_VF08_04_Diesel_Generator_thin_Indoor": {
+      "sha256": "515d35ee446738bf5a60ef4124cf3e3747f3e5079e36da27db8e0394261cce33",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_465",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_04_Diesel_Generator_thin_Indoor",
+      "hulls": 0,
+      "bounds_error_cm": 0.0001068115234375
+    },
+    "SM_R13_VF08_05_Plant_Systems_thin_Indoor": {
+      "sha256": "d8376b64dadf557c76364b230dd49031071d3f49bfbaac01a114bd2190ce76bc",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_466",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_05_Plant_Systems_thin_Indoor",
+      "hulls": 0,
+      "bounds_error_cm": 6.866455078125e-05
+    },
+    "SM_R13_VF08_05_Plant_Systems_solid_Indoor": {
+      "sha256": "f57f33c92d71a89207a8677d0a1219cd3a4b531c951de573fda413e49c40fdd3",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_467",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_05_Plant_Systems_solid_Indoor",
+      "hulls": 11,
+      "bounds_error_cm": 9.918212890625e-05
+    },
+    "SM_R13_VF08_05_Plant_Systems_solid_Exterior": {
+      "sha256": "34c2723c572c995cb8a0e9ae7d5fce9ac88f33be1c42c09fbdc62598ad199c51",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_468",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_05_Plant_Systems_solid_Exterior",
+      "hulls": 1,
+      "bounds_error_cm": 8.0108642578125e-05
+    },
+    "SM_R13_VF08_06_Diesel_Tank_solid_Exterior": {
+      "sha256": "b383af5d78dd735e47f957fe2c24655386f1548f221f1eaa271a4db83bdc4a46",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_469",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_06_Diesel_Tank_solid_Exterior",
+      "hulls": 5,
+      "bounds_error_cm": 0.0001220703125
+    },
+    "SM_R13_VF08_06_Diesel_Tank_thin_Exterior": {
+      "sha256": "002febf1070130df92d773be30d51c596de49f8712fbb1823efb65bff7676071",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_470",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_06_Diesel_Tank_thin_Exterior",
+      "hulls": 0,
+      "bounds_error_cm": 9.918212890625e-05
+    },
+    "SM_R13_VF08_07_Fill_and_Fuel_Lines_solid_Exterior": {
+      "sha256": "30afa9dbcd78156a01baf7832300ee87bb37707d03c4015c76df52ca5e4b0ae7",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_471",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_07_Fill_and_Fuel_Lines_solid_Exterior",
+      "hulls": 2,
+      "bounds_error_cm": 0.0001068115234375
+    },
+    "SM_R13_VF08_07_Fill_and_Fuel_Lines_thin_Exterior": {
+      "sha256": "728d03a23b3985365adde35bd483d8210eb2cbb1e797b772bf7361eabf2c0a79",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_472",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_07_Fill_and_Fuel_Lines_thin_Exterior",
+      "hulls": 0,
+      "bounds_error_cm": 7.62939453125e-05
+    },
+    "SM_R13_VF09_01_Concrete_Apron_solid_Exterior": {
+      "sha256": "8b8ed4ff9af065b012ff363aa04144d2253ce66d6885b115cf65de59eaf4456e",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_473",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF09_01_Concrete_Apron_solid_Exterior",
+      "hulls": 19,
+      "bounds_error_cm": 8.392333984375e-05
+    },
+    "SM_R13_VF09_02_Open_Grating_grating_Exterior": {
+      "sha256": "491ba0b6508d7710ff116a4982d81b43f36bb228673a50ffcb45c5655459c9d0",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_474",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF09_02_Open_Grating_grating_Exterior",
+      "hulls": 31,
+      "bounds_error_cm": 3.4332275390625e-05
+    },
+    "SM_R13_VF09_02_Open_Grating_solid_Exterior": {
+      "sha256": "d29926f737e3a68a6139ff5f1de218aed68ab4cfa648864042c1baa7e2a98887",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_475",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF09_02_Open_Grating_solid_Exterior",
+      "hulls": 0,
+      "bounds_error_cm": 3.4332275390625e-05
+    },
+    "SM_R13_VF09_03_Perimeter_Structure_solid_Exterior": {
+      "sha256": "09c412c2164ae2d6382550ac41092b4151fcab5e1c070f9d08d2831d9e9c637d",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_476",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF09_03_Perimeter_Structure_solid_Exterior",
+      "hulls": 35,
+      "bounds_error_cm": 7.62939453125e-05
+    },
+    "SM_R13_VF09_04_Service_Approach_solid_Exterior": {
+      "sha256": "5178c63b225e2bcca9c6e47af1f461bf3ff6eac5c949ad72767bd60ddd13dd69",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_477",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF09_04_Service_Approach_solid_Exterior",
+      "hulls": 10,
+      "bounds_error_cm": 9.1552734375e-05
+    },
+    "SM_R13_VF09_05_Water_Main_solid_Exterior": {
+      "sha256": "a677c616721546ac582e6fa8fb22dd6b8e94e00cb8e17e1de21f70ca76e20fb9",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_478",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_VF09_05_Water_Main_solid_Exterior",
+      "hulls": 0,
+      "bounds_error_cm": 0.00017547607421875
+    },
+    "SM_R13_Preserved_Water_Valve": {
+      "sha256": "491c8938fa633465dd5c6836148553ce4f25abcf251136d66a21cde95176cb08",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_479",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_Preserved_Water_Valve",
+      "hulls": 0,
+      "bounds_error_cm": 6.4849853515625e-05
+    },
+    "SM_R13_Terrain": {
+      "sha256": "e0a7d160b2c54adc7ba0b89e728f569134c9f9c50339b2ec31ae7e3eea4746fd",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_480",
+      "asset": "/Game/MaldekRefinement/R13/Meshes/SM_R13_Terrain",
+      "hulls": 0,
+      "bounds_error_cm": 0.0009765625
+    }
+  },
+  "retired": [
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_64",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_000_floor.SM_R12_VF06_Water_Service_Terrace_000_floor"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_65",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_001_grating.SM_R12_VF06_Water_Service_Terrace_001_grating"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_67",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_002_solid.SM_R12_VF06_Water_Service_Terrace_002_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_69",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_003_thin.SM_R12_VF06_Water_Service_Terrace_003_thin"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_70",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_004_floor.SM_R12_VF06_Water_Service_Terrace_004_floor"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_71",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_005_solid.SM_R12_VF06_Water_Service_Terrace_005_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_72",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_006_thin.SM_R12_VF06_Water_Service_Terrace_006_thin"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_73",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_007_grating.SM_R12_VF06_Water_Service_Terrace_007_grating"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_74",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_008_solid.SM_R12_VF06_Water_Service_Terrace_008_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_75",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_009_thin.SM_R12_VF06_Water_Service_Terrace_009_thin"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_76",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_010_solid.SM_R12_VF06_Water_Service_Terrace_010_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_77",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Water_Service_Terrace_011_thin.SM_R12_VF06_Water_Service_Terrace_011_thin"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_432",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Service_Hardware_001_signage.SM_R12_VF06_Service_Hardware_001_signage"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_433",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Service_Hardware_002_solid.SM_R12_VF06_Service_Hardware_002_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_434",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Service_Hardware_003_solid.SM_R12_VF06_Service_Hardware_003_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_451",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF07_Water_Pipework_000_solid.SM_R12_VF07_Water_Pipework_000_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_453",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF07_Water_Pipework_002_solid.SM_R12_VF07_Water_Pipework_002_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_455",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF07_Water_Pipework_004_solid.SM_R12_VF07_Water_Pipework_004_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_456",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF07_Water_Pipework_005_solid.SM_R12_VF07_Water_Pipework_005_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_457",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF07_Water_Pipework_006_solid.SM_R12_VF07_Water_Pipework_006_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_150",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF07_Continuous_Service_Routes_001_solid.SM_R12_VF07_Continuous_Service_Routes_001_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_305",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_Terrain.SM_R12_Terrain"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_335",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_000_solid.SM_R12_21_Maintenance_000_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_336",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_001_solid.SM_R12_21_Maintenance_001_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_337",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_002_thin.SM_R12_21_Maintenance_002_thin"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_338",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_003_solid.SM_R12_21_Maintenance_003_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_339",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_004_solid.SM_R12_21_Maintenance_004_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_340",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_005_solid.SM_R12_21_Maintenance_005_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_341",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_006_solid.SM_R12_21_Maintenance_006_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_342",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_007_solid.SM_R12_21_Maintenance_007_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_343",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_008_solid.SM_R12_21_Maintenance_008_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_365",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_000_floor.SM_R12_VF06_Maintenance_Shells_000_floor"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_366",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_001_solid.SM_R12_VF06_Maintenance_Shells_001_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_367",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_002_floor.SM_R12_VF06_Maintenance_Shells_002_floor"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_368",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_003_solid.SM_R12_VF06_Maintenance_Shells_003_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_369",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_004_solid.SM_R12_VF06_Maintenance_Shells_004_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_370",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_005_solid.SM_R12_VF06_Maintenance_Shells_005_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_371",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_006_floor.SM_R12_VF06_Maintenance_Shells_006_floor"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_372",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_007_glass.SM_R12_VF06_Maintenance_Shells_007_glass"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_373",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_008_solid.SM_R12_VF06_Maintenance_Shells_008_solid"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_374",
+      "component": "StaticMeshComponent0",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_009_solid.SM_R12_VF06_Maintenance_Shells_009_solid"
+    }
+  ],
+  "saved": true
+}

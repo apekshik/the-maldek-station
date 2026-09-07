@@ -15,6 +15,9 @@ def source_center(name):
  assert len(boxes)==1,(name,len(boxes))
  return [(lo+hi)/2 for lo,hi in zip(boxes[0]['min'],boxes[0]['max'])]
 generator=source_center('Generator');generator[2]=.8 # above housing to avoid self-occlusion
+# The approved service-room port replaces the old generator housing.
+if lib.does_asset_exist('/Game/MaldekRefinement/R13/Meshes/SM_R13_VF08_04_Diesel_Generator_solid_Indoor'):
+ generator=[32,-13.6,2.2]
 wheel=source_center('R04_Bearing_Pedestal');wheel[0]-=.6 # beside the bearing, outside the solid hub
 rows=[];actors={a.get_actor_label():a for a in aa.get_all_level_actors()}
 for name,pos,volume,inner,falloff in [('Generator',generator,.65,250,2200),('Flywheel',wheel,.4,150,1400),('Ventilation',[-5.2,-2.7,6.65],.3,120,700)]:

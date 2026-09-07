@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "errors": [],
+  "world": "/Game/MaldekRefinement/R12/Station_R12.Station_R12",
+  "imports": 22,
+  "preserved_original_actors": 552,
+  "retired_components": 41,
+  "foliage_instances_checked": 138,
+  "reopened": true
+}

@@ -1,0 +1,87 @@
+{
+  "sets": {
+    "1d6b4e4301d2ea556c7541118a6211206189a70300e5fc0a7200138f26b2d038": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_1d6b4e4301d2ea55_BaseColor.png",
+        "ORM": "textures\\T_R12_1d6b4e4301d2ea55_ORM.png",
+        "NormalDX": "textures\\T_R12_1d6b4e4301d2ea55_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "d1575347c689f889822f801b3eb411a3d33663e13765a3f824bf6489b7218a89"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3a0019428e9e8c37f1911688ea9474a2e33ec2d70a005ba07826d6e6d89e5e55"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3dc5b16d0db49b8feb1a26e57010eb3b96eec00b95c4f73be1ca0d921a61bd50"
+        }
+      },
+      "source_material": "VF08_Oxide_Red__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    }
+  },
+  "materials": {
+    "VF08_Oxide_Red__Exterior": {
+      "set": "1d6b4e4301d2ea556c7541118a6211206189a70300e5fc0a7200138f26b2d038",
+      "slot": "UE_VF08_Oxide_Red__Exterior",
+      "source_material": "VF08_Oxide_Red",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.30000001192092896,
+      "roughness": 0.5199999809265137,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF08_Oxide_Red__Indoor": {
+      "set": "1d6b4e4301d2ea556c7541118a6211206189a70300e5fc0a7200138f26b2d038",
+      "slot": "UE_VF08_Oxide_Red__Indoor",
+      "source_material": "VF08_Oxide_Red",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.30000001192092896,
+      "roughness": 0.5199999809265137,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    }
+  }
+}

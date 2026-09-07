@@ -1,0 +1,22 @@
+{
+  "phase": "cleanup",
+  "next": 146304.859,
+  "index": 5,
+  "mode": "inspection",
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision13\\reviews\\service_overview_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision13\\reviews\\generator_interior_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision13\\reviews\\fuel_system_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision13\\reviews\\water_apron_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision13\\reviews\\workshop_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision13\\reviews\\service_overview_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision13\\reviews\\generator_interior_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision13\\reviews\\fuel_system_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision13\\reviews\\water_apron_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision13\\reviews\\workshop_inspection.png"
+  ],
+  "busy": true,
+  "deadline": 146779.859,
+  "success": true,
+  "inspection_lights_removed": true
+}

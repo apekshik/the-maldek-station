@@ -1,0 +1,2003 @@
+{
+  "disabled_legacy_lights": [
+    "R11_Generator_Entrance_Light",
+    "R11_Generator_Ceiling_Light",
+    "R11_Workshop_Ceiling_Light",
+    "R11_Fuel_Yard_Exit_Light",
+    "R12_Generator_North_Practical"
+  ],
+  "fixtures": [
+    {
+      "label": "R13_Generator_Ceiling_A",
+      "local": [
+        28.25,
+        -17,
+        3.04
+      ],
+      "lumens": 0.3
+    },
+    {
+      "label": "R13_Generator_Ceiling_B",
+      "local": [
+        28.25,
+        -12,
+        3.04
+      ],
+      "lumens": 0.3
+    },
+    {
+      "label": "R13_Generator_Ceiling_C",
+      "local": [
+        34.8,
+        -17,
+        3.04
+      ],
+      "lumens": 0.3
+    },
+    {
+      "label": "R13_Generator_Ceiling_D",
+      "local": [
+        34.8,
+        -12,
+        3.04
+      ],
+      "lumens": 0.3
+    },
+    {
+      "label": "R13_Generator_South_Bulkhead",
+      "local": [
+        30.65,
+        -19.32,
+        1.47
+      ],
+      "lumens": 0.16
+    }
+  ],
+  "foliage": [
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|0",
+      "local": [
+        48.949887725178485,
+        -37.38593210323483,
+        -8.507702132999311
+      ],
+      "world": [
+        -49177.294747490814,
+        14736.114338738493,
+        9047.729786700069
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|1",
+      "local": [
+        75.59688531429943,
+        -20.30167062887882,
+        -14.181827576151118
+      ],
+      "world": [
+        -51841.99450640291,
+        16444.540486174094,
+        8480.317242384888
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|2",
+      "local": [
+        34.808618712032114,
+        10.779925283488119,
+        1.9462108733917194
+      ],
+      "world": [
+        -47763.16784617618,
+        19552.700077410787,
+        10093.121087339172
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|3",
+      "local": [
+        60.85571949418743,
+        20.371921485157618,
+        -0.31703050116529996
+      ],
+      "world": [
+        -50367.87792439171,
+        20511.899697577737,
+        9866.79694988347
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|4",
+      "local": [
+        5.189301471772342,
+        -35.90061045439754,
+        -8.761406812668483
+      ],
+      "world": [
+        -44801.2361221502,
+        14884.646503622222,
+        9022.359318733152
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|5",
+      "local": [
+        -29.585676473740605,
+        -1.1053224617259183,
+        -2.793820352052862
+      ],
+      "world": [
+        -41323.738327598905,
+        18364.175302889384,
+        9619.117964794714
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|6",
+      "local": [
+        71.4010954499623,
+        -33.76840603388424,
+        -14.077500530543203
+      ],
+      "world": [
+        -51422.415519969196,
+        15097.866945673552,
+        8490.74994694568
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|7",
+      "local": [
+        47.918557685848064,
+        -18.234867742714524,
+        -1.540213309442388
+      ],
+      "world": [
+        -49074.16174355777,
+        16651.220774790523,
+        9744.478669055761
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|8",
+      "local": [
+        42.83228769437672,
+        -36.187880961858355,
+        -7.084720599195134
+      ],
+      "world": [
+        -48565.53474441064,
+        14855.91945287614,
+        9190.027940080487
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|9",
+      "local": [
+        17.114895721276334,
+        -24.241867532182077,
+        -0.43519475231802063
+      ],
+      "world": [
+        -45993.7955471006,
+        16050.520795843768,
+        9854.980524768198
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|10",
+      "local": [
+        39.63262392282675,
+        -41.79074406196658,
+        -5.971440180741483
+      ],
+      "world": [
+        -48245.56836725564,
+        14295.633142865317,
+        9301.355981925852
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|11",
+      "local": [
+        24.5677002560837,
+        -1.0842293620990677,
+        0.4557228496487369
+      ],
+      "world": [
+        -46739.076000581335,
+        18366.28461285207,
+        9944.072284964874
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|12",
+      "local": [
+        64.60193628275017,
+        -16.020437629910592,
+        -4.149481054150874
+      ],
+      "world": [
+        -50742.49960324798,
+        16872.663786070916,
+        9483.551894584913
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|13",
+      "local": [
+        39.47426334118827,
+        25.895616659396037,
+        4.037916984558105
+      ],
+      "world": [
+        -48229.73230909179,
+        21064.26921500158,
+        10302.29169845581
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|14",
+      "local": [
+        13.265920503303933,
+        -67.78612765003462,
+        -14.838902249612438
+      ],
+      "world": [
+        -45608.89802530336,
+        11696.094784058514,
+        8414.609775038756
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|15",
+      "local": [
+        57.889616709199544,
+        -24.947384388921435,
+        -5.676720069996536
+      ],
+      "world": [
+        -50071.26764589292,
+        15979.969110169832,
+        9330.827993000346
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|16",
+      "local": [
+        53.56262935645347,
+        -33.31804630525117,
+        -8.584406701322514
+      ],
+      "world": [
+        -49638.56891061831,
+        15142.902918536858,
+        9040.059329867749
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|17",
+      "local": [
+        33.71036398357217,
+        5.368748882413128,
+        1.652597086385722
+      ],
+      "world": [
+        -47653.34237333018,
+        19011.58243730329,
+        10063.759708638572
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|18",
+      "local": [
+        63.996222548011644,
+        -67.61118520534416,
+        -14.004116437032645
+      ],
+      "world": [
+        -50681.92822977413,
+        11713.58902852756,
+        8498.088356296736
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|19",
+      "local": [
+        7.730128062929143,
+        -20.82536502348521,
+        -0.185
+      ],
+      "world": [
+        -45055.31878126588,
+        16392.171046713454,
+        9880.0
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|20",
+      "local": [
+        64.43852317781719,
+        24.554704729971455,
+        -3.567652207618612
+      ],
+      "world": [
+        -50726.158292754684,
+        20930.17802205912,
+        9541.734779238139
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|21",
+      "local": [
+        17.78680879739899,
+        -60.86882802554763,
+        -11.89376956359054
+      ],
+      "world": [
+        -46060.986854712864,
+        12387.824746507213,
+        8709.123043640946
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|22",
+      "local": [
+        -34.15988834732503,
+        -15.196165497535185,
+        -7.613200157911378
+      ],
+      "world": [
+        -40866.31714024046,
+        16955.090999308457,
+        9137.179984208862
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|23",
+      "local": [
+        -39.62380343020508,
+        -1.844940475009098,
+        -16.240751998145733
+      ],
+      "world": [
+        -40319.92563195246,
+        18290.213501561066,
+        8274.424800185427
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|24",
+      "local": [
+        48.22596467070937,
+        -59.092801252293285,
+        -10.696947056729769
+      ],
+      "world": [
+        -49104.9024420439,
+        12565.427423832647,
+        8828.805294327023
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|25",
+      "local": [
+        18.414309596772945,
+        -53.61100220408558,
+        -9.892874129364209
+      ],
+      "world": [
+        -46123.73693465026,
+        13113.607328653417,
+        8909.21258706358
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|26",
+      "local": [
+        56.325238456938315,
+        -0.013384447212411032,
+        2.1515456652060494
+      ],
+      "world": [
+        -49914.8298206668,
+        18473.369104340734,
+        10113.654566520605
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|27",
+      "local": [
+        64.12170673833054,
+        -54.87129748063664,
+        -14.313750810385391
+      ],
+      "world": [
+        -50694.47664880602,
+        12987.577800998311,
+        8467.124918961461
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|28",
+      "local": [
+        -29.75,
+        1.9264659060956182,
+        -2.572730458375554
+      ],
+      "world": [
+        -41307.305974972965,
+        18667.354139671537,
+        9641.226954162445
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|29",
+      "local": [
+        35.88956487901756,
+        -49.54211552453486,
+        -6.44588445293397
+      ],
+      "world": [
+        -47871.26246287472,
+        13520.49599660849,
+        9253.911554706603
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|30",
+      "local": [
+        4.02335752696832,
+        -56.675076365853016,
+        -16.551308634035085
+      ],
+      "world": [
+        -44684.6417276698,
+        12807.199912476673,
+        8243.369136596491
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|31",
+      "local": [
+        32.210344833751805,
+        25.025238386973214,
+        4.314752424751369
+      ],
+      "world": [
+        -47503.340458348146,
+        20977.231387759297,
+        10329.975242475137
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|32",
+      "local": [
+        47.1136134066934,
+        3.295951244064054,
+        2.392592137173415
+      ],
+      "world": [
+        -48993.667315642306,
+        18804.30267346838,
+        10137.759213717341
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|33",
+      "local": [
+        46.848479057857475,
+        -5.414265190334699,
+        2.028888769917212
+      ],
+      "world": [
+        -48967.15388075871,
+        17933.281030028505,
+        10101.388876991721
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|34",
+      "local": [
+        -1.5894435338110633,
+        -61.531575941690605,
+        -18.886586827823194
+      ],
+      "world": [
+        -44123.36162159186,
+        12321.549954892915,
+        8009.841317217681
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|35",
+      "local": [
+        8.611652055155355,
+        -27.35052205730486,
+        -1.617100990961135
+      ],
+      "world": [
+        -45143.4711804885,
+        15739.65534333149,
+        9736.789900903887
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|36",
+      "local": [
+        53.538458324984965,
+        -7.846581587420551,
+        2.2340163725080493
+      ],
+      "world": [
+        -49636.15180747146,
+        17690.04939031992,
+        10121.901637250805
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|37",
+      "local": [
+        25.854004836033926,
+        -59.45533143867611,
+        -10.437886984049328
+      ],
+      "world": [
+        -46867.70645857636,
+        12529.174405194364,
+        8854.711301595067
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|38",
+      "local": [
+        64.31347626782939,
+        -24.163108497227622,
+        -7.253822480489525
+      ],
+      "world": [
+        -50713.653601755905,
+        16058.396699339213,
+        9173.117751951047
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|39",
+      "local": [
+        46.35792826316872,
+        -28.589182884275814,
+        -6.252010062924346
+      ],
+      "world": [
+        -48918.09880128984,
+        15615.789260634394,
+        9273.298993707565
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|40",
+      "local": [
+        39.98519552685808,
+        8.47823940436614,
+        2.196006824050455
+      ],
+      "world": [
+        -48280.82552765877,
+        19322.53148949859,
+        10118.100682405046
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|41",
+      "local": [
+        60.70746742178701,
+        -15.031359816899275,
+        -1.3470942367784482
+      ],
+      "world": [
+        -50353.052717151666,
+        16971.571567372048,
+        9763.790576322155
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|0",
+      "local": [
+        53.68566997832247,
+        -13.594582491060645,
+        0.7016472263053766
+      ],
+      "world": [
+        -49650.87297280521,
+        17115.24929995591,
+        9968.664722630538
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|1",
+      "local": [
+        57.17598118895737,
+        9.555042565468066,
+        2.0088085982719894
+      ],
+      "world": [
+        -49999.9040938687,
+        19430.211805608782,
+        10099.380859827199
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|2",
+      "local": [
+        18.44107819309691,
+        -43.233019785885375,
+        -8.01373311258243
+      ],
+      "world": [
+        -46126.41379428266,
+        14151.405570473438,
+        9097.126688741757
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|3",
+      "local": [
+        60.876372440425186,
+        -38.69062853375066,
+        -10.855206035053506
+      ],
+      "world": [
+        -50369.943219015484,
+        14605.64469568691,
+        8812.97939649465
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|4",
+      "local": [
+        40.92767170073952,
+        -4.151101222826619,
+        1.748233038021499
+      ],
+      "world": [
+        -48375.07314504692,
+        18059.597426779314,
+        10073.32330380215
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|5",
+      "local": [
+        37.56713012589469,
+        -28.220529530439,
+        -2.8524756967023133
+      ],
+      "world": [
+        -48039.018987562435,
+        15652.654596018076,
+        9613.252430329769
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|6",
+      "local": [
+        75.50621655118047,
+        -26.561427229152688,
+        -15.716422448891663
+      ],
+      "world": [
+        -51832.92763009101,
+        15818.564826146707,
+        8326.857755110834
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|7",
+      "local": [
+        28.966221911070825,
+        27.6978870204194,
+        4.297081726145189
+      ],
+      "world": [
+        -47178.92816608005,
+        21244.496251103916,
+        10328.208172614519
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|8",
+      "local": [
+        29.541765385370017,
+        -27.62423204069164,
+        -2.2111343383400346
+      ],
+      "world": [
+        -47236.48251350997,
+        15712.284344992811,
+        9677.386566165997
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|9",
+      "local": [
+        45.79571044997625,
+        -11.200099533890098,
+        1.1505988306835024
+      ],
+      "world": [
+        -48861.87701997059,
+        17354.697595672966,
+        10013.55988306835
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|10",
+      "local": [
+        6.835505561662504,
+        -42.044121406993185,
+        -12.677247402954235
+      ],
+      "world": [
+        -44965.856531139216,
+        14270.295408362657,
+        8630.775259704576
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|11",
+      "local": [
+        50.88350773126622,
+        -4.324862636691141,
+        2.2886553170607296
+      ],
+      "world": [
+        -49370.65674809959,
+        18042.22128539286,
+        10127.365531706073
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|12",
+      "local": [
+        26.27854223450595,
+        -33.1749451428473,
+        -3.337768506449065
+      ],
+      "world": [
+        -46910.16019842356,
+        15157.213034777245,
+        9564.723149355093
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|13",
+      "local": [
+        55.930124384719456,
+        28.78195169425744,
+        2.5285401859920786
+      ],
+      "world": [
+        -49875.31841344491,
+        21352.90271848772,
+        10151.354018599208
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|14",
+      "local": [
+        66.41405480649155,
+        -9.283489738755707,
+        -3.6859337294028776
+      ],
+      "world": [
+        -50923.71145562212,
+        17546.358575186405,
+        9529.906627059712
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|15",
+      "local": [
+        52.14065915834035,
+        -42.36974905627178,
+        -8.920206247354399
+      ],
+      "world": [
+        -49496.371890807,
+        14237.732643434798,
+        9006.47937526456
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|16",
+      "local": [
+        29.02877309769625,
+        -71.33838281152592,
+        -15.53048124333618
+      ],
+      "world": [
+        -47185.18328474259,
+        11340.869267909384,
+        8345.451875666382
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|17",
+      "local": [
+        49.6990894767749,
+        -70.52535411891105,
+        -15.826075581420445
+      ],
+      "world": [
+        -49252.214922650455,
+        11422.17213717087,
+        8315.892441857955
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|18",
+      "local": [
+        32.5256058508531,
+        -62.39133867050421,
+        -11.675534721887452
+      ],
+      "world": [
+        -47534.866560058275,
+        12235.573682011554,
+        8730.946527811255
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|19",
+      "local": [
+        57.32718424643746,
+        -41.54731686001458,
+        -10.03412881857148
+      ],
+      "world": [
+        -50015.02439961671,
+        14319.975863060517,
+        8895.087118142852
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|20",
+      "local": [
+        16.58392978457414,
+        -48.70380961796469,
+        -9.879740148794554
+      ],
+      "world": [
+        -45940.69895343038,
+        13604.326587265507,
+        8910.525985120545
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|21",
+      "local": [
+        51.895017649914664,
+        5.419590092060462,
+        2.7800919991111552
+      ],
+      "world": [
+        -49471.80773996443,
+        19016.66655826802,
+        10176.509199911116
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|22",
+      "local": [
+        14.375822134875634,
+        -55.11950228084694,
+        -11.595344812886832
+      ],
+      "world": [
+        -45719.88818846053,
+        12962.757320977282,
+        8738.965518711317
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|23",
+      "local": [
+        28.22496112530942,
+        -36.81575399760832,
+        -4.087517637742476
+      ],
+      "world": [
+        -47104.80208750391,
+        14793.132149301144,
+        9489.748236225752
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|24",
+      "local": [
+        38.24619183127885,
+        -67.55138008223814,
+        -13.954257976548398
+      ],
+      "world": [
+        -48106.92515810085,
+        11719.569540838162,
+        8503.07420234516
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|25",
+      "local": [
+        41.457845123521835,
+        21.84634391729349,
+        3.8971463669856714
+      ],
+      "world": [
+        -48428.09048732515,
+        20659.341940791324,
+        10288.214636698567
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|26",
+      "local": [
+        40.37995155437224,
+        -46.04039124484654,
+        -5.442935904093301
+      ],
+      "world": [
+        -48320.30113041019,
+        13870.668424577321,
+        9354.20640959067
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|27",
+      "local": [
+        61.16148612895231,
+        -52.44934880900266,
+        -12.524124082791822
+      ],
+      "world": [
+        -50398.4545878682,
+        13229.77266816171,
+        8646.087591720818
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|28",
+      "local": [
+        -29.75,
+        -14.764413483847857,
+        -2.7676229258692913
+      ],
+      "world": [
+        -41307.305974972965,
+        16998.26620067719,
+        9621.73770741307
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|29",
+      "local": [
+        58.5871437896038,
+        -55.74270013754198,
+        -12.165369371764827
+      ],
+      "world": [
+        -50141.020353933345,
+        12900.437535307778,
+        8681.963062823517
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|30",
+      "local": [
+        6.839445691190849,
+        -63.15268178011272,
+        -14.947867412803644
+      ],
+      "world": [
+        -44966.25054409205,
+        12159.439371050703,
+        8403.713258719636
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|31",
+      "local": [
+        23.705503323438244,
+        -65.7818851324065,
+        -13.406280208610552
+      ],
+      "world": [
+        -46652.85630731679,
+        11896.519035821326,
+        8557.871979138945
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|32",
+      "local": [
+        59.630667733941806,
+        -9.268081124204292,
+        0.5696735170602187
+      ],
+      "world": [
+        -50245.37274836715,
+        17547.899436641546,
+        9955.467351706022
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|33",
+      "local": [
+        61.81973467006086,
+        -33.22816483523326,
+        -9.978811479713695
+      ],
+      "world": [
+        -50464.27944197905,
+        15151.89106553865,
+        8900.61885202863
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|34",
+      "local": [
+        -0.9623317620252783,
+        -32.052068992848966,
+        -6.10639312979094
+      ],
+      "world": [
+        -44186.07279877044,
+        15269.50064977708,
+        9287.860687020906
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|35",
+      "local": [
+        22.07395621822965,
+        -62.05869739166039,
+        -12.008121331512084
+      ],
+      "world": [
+        -46489.70159679593,
+        12268.837809895937,
+        8697.687866848792
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|36",
+      "local": [
+        -40.59923103731831,
+        -19.87252535470172,
+        -19.20999303802684
+      ],
+      "world": [
+        -40222.382871241134,
+        16487.455013591803,
+        7977.500696197316
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|37",
+      "local": [
+        64.60405410225067,
+        -44.86936240123054,
+        -13.549329145653482
+      ],
+      "world": [
+        -50742.71138519803,
+        13987.771308938922,
+        8543.567085434652
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|38",
+      "local": [
+        -9.50312362734614,
+        -36.11253882411424,
+        -12.305006308792544
+      ],
+      "world": [
+        -43331.99361223835,
+        14863.453666650552,
+        8667.999369120746
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|39",
+      "local": [
+        24.0506402829985,
+        -51.62090388105837,
+        -8.03650483609672
+      ],
+      "world": [
+        -46687.370003272816,
+        13312.617160956139,
+        9094.849516390328
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|40",
+      "local": [
+        -31.39574028154886,
+        -18.201933590808586,
+        -3.9720023342128843
+      ],
+      "world": [
+        -41142.73194681808,
+        16654.514189981117,
+        9501.299766578712
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|41",
+      "local": [
+        40.09375652143688,
+        -8.80397271295642,
+        0.5245662437903047
+      ],
+      "world": [
+        -48291.68162711665,
+        17594.310277766333,
+        9950.95662437903
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|42",
+      "local": [
+        23.345512214906194,
+        -37.56989332844263,
+        -4.587209958128878
+      ],
+      "world": [
+        -46616.857196463585,
+        14717.718216217712,
+        9439.779004187112
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|43",
+      "local": [
+        36.6273088031145,
+        -55.00348091174405,
+        -8.08770291825378
+      ],
+      "world": [
+        -47945.036855284416,
+        12974.35945788757,
+        9089.729708174622
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|44",
+      "local": [
+        19.180317777616146,
+        -66.46561619141812,
+        -13.748984073361644
+      ],
+      "world": [
+        -46200.33775273458,
+        11828.145929920163,
+        8523.601592663836
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|45",
+      "local": [
+        55.11746188925281,
+        -67.88352760043276,
+        -13.8465663415601
+      ],
+      "world": [
+        -49794.05216389825,
+        11686.3547890187,
+        8513.84336584399
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|46",
+      "local": [
+        37.24137637286913,
+        16.208979526730364,
+        4.144799085555242
+      ],
+      "world": [
+        -48006.44361225988,
+        20095.60550173501,
+        10312.979908555524
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|47",
+      "local": [
+        42.11481239319291,
+        -57.327782374502824,
+        -9.188697927187823
+      ],
+      "world": [
+        -48493.78721429226,
+        12741.929311611693,
+        8979.630207281218
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|48",
+      "local": [
+        40.43778031238464,
+        -16.771001952643346,
+        -1.209481942945731
+      ],
+      "world": [
+        -48326.08400621143,
+        16797.60735379764,
+        9777.551805705427
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|0",
+      "local": [
+        11.605899769832103,
+        -37.66021033787285,
+        -7.8113534697564315
+      ],
+      "world": [
+        -45442.895951956176,
+        14708.68651527469,
+        9117.364653024357
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|1",
+      "local": [
+        -29.15639373500497,
+        5.9528793958167805,
+        -1.9444934390962954
+      ],
+      "world": [
+        -41366.66660147247,
+        19069.995488643654,
+        9704.05065609037
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|2",
+      "local": [
+        20.01179832000016,
+        -33.25750923086671,
+        -3.3194497186994703
+      ],
+      "world": [
+        -46283.48580697298,
+        15148.956625975305,
+        9566.555028130053
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|3",
+      "local": [
+        54.054597096206706,
+        20.398575520913727,
+        3.135487283096845
+      ],
+      "world": [
+        -49687.765684593636,
+        20514.56510115335,
+        10212.048728309685
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|4",
+      "local": [
+        14.735526583740793,
+        -30.354151054589273,
+        -2.516510651907629
+      ],
+      "world": [
+        -45755.858633347045,
+        15439.292443603048,
+        9646.848934809237
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|5",
+      "local": [
+        67.29226943271388,
+        -20.2648754381682,
+        -7.19347898881806
+      ],
+      "world": [
+        -51011.53291824435,
+        16448.220005245155,
+        9179.152101118194
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|6",
+      "local": [
+        29.852316463483803,
+        3.4431030183348774,
+        1.091704418757108
+      ],
+      "world": [
+        -47267.537621321346,
+        18819.017850895463,
+        10007.67044187571
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|7",
+      "local": [
+        2.673093349245828,
+        -28.377756212660316,
+        -2.4732248742982303
+      ],
+      "world": [
+        -44549.61530989755,
+        15636.931927795944,
+        9651.177512570177
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|8",
+      "local": [
+        58.83446901959804,
+        -5.202649030103675,
+        0.9396164845248859
+      ],
+      "world": [
+        -50165.75287693277,
+        17954.442646051608,
+        9992.461648452489
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|9",
+      "local": [
+        53.490740241288805,
+        -24.383017978847693,
+        -4.600025110302977
+      ],
+      "world": [
+        -49631.379999101846,
+        16036.405751177206,
+        9438.497488969702
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|10",
+      "local": [
+        43.31719419517867,
+        -24.24658593718399,
+        -4.177023116036871
+      ],
+      "world": [
+        -48614.02539449083,
+        16050.048955343576,
+        9480.797688396313
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|11",
+      "local": [
+        60.82968683279971,
+        -29.512007511187168,
+        -8.74680378532188
+      ],
+      "world": [
+        -50365.274658252936,
+        15523.506797943259,
+        9023.819621467812
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|12",
+      "local": [
+        60.62763699463198,
+        -20.6730845801199,
+        -4.314352894272997
+      ],
+      "world": [
+        -50345.06967443616,
+        16407.399091049985,
+        9467.0647105727
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|13",
+      "local": [
+        27.53498580001884,
+        -43.25187989730941,
+        -5.213268701356428
+      ],
+      "world": [
+        -47035.80455497485,
+        14149.519559331035,
+        9377.173129864357
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|14",
+      "local": [
+        -27.30585427113132,
+        -7.9257790364583345,
+        -0.8684838195555858
+      ],
+      "world": [
+        -41551.72054785983,
+        17682.129645416142,
+        9811.651618044441
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|15",
+      "local": [
+        30.022388072857066,
+        16.75639104765207,
+        4.301131819817965
+      ],
+      "world": [
+        -47284.54478225867,
+        20150.346653827182,
+        10328.613181981797
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|16",
+      "local": [
+        65.16570277017061,
+        -0.4121667414504918,
+        -3.500669762453399
+      ],
+      "world": [
+        -50798.87625199003,
+        18433.490874916926,
+        9548.43302375466
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|17",
+      "local": [
+        32.460786591757135,
+        -52.77226178660425,
+        -7.7954838588193525
+      ],
+      "world": [
+        -47528.38463414868,
+        13197.48137040155,
+        9118.951614118065
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|18",
+      "local": [
+        29.835233086092412,
+        -58.321715800100684,
+        -10.062608770167717
+      ],
+      "world": [
+        -47265.82928358221,
+        12642.535969051907,
+        8892.239122983228
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|19",
+      "local": [
+        48.95448595367845,
+        23.596417374054255,
+        3.333690145145647
+      ],
+      "world": [
+        -49177.75457034081,
+        20834.3492864674,
+        10231.869014514565
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|20",
+      "local": [
+        3.7258411672544027,
+        -71.71660109083169,
+        -16.983267454409507
+      ],
+      "world": [
+        -44654.890091698406,
+        11303.047439978807,
+        8200.17325455905
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|21",
+      "local": [
+        59.910926530691434,
+        -62.96261691127587,
+        -12.789437933971858
+      ],
+      "world": [
+        -50273.39862804211,
+        12178.445857934388,
+        8619.556206602814
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|22",
+      "local": [
+        30.837345681511795,
+        -40.90297990439721,
+        -4.3261115962904295
+      ],
+      "world": [
+        -47366.040543124145,
+        14384.409558622254,
+        9465.888840370957
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|23",
+      "local": [
+        -23.89555862435882,
+        9.43277713881278,
+        -15.949418422462804
+      ],
+      "world": [
+        -41892.75011253708,
+        19417.985262943253,
+        8303.55815775372
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|24",
+      "local": [
+        10.69123528369033,
+        -32.28394035782192,
+        -4.379122443356464
+      ],
+      "world": [
+        -45351.429503342,
+        15246.313513279783,
+        9460.587755664354
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|25",
+      "local": [
+        -40.5845975506612,
+        -10.824216670652822,
+        -18.644075540847954
+      ],
+      "world": [
+        -40223.846219906845,
+        17392.285881996693,
+        8034.092445915205
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|26",
+      "local": [
+        58.170313184461044,
+        -47.035013603282785,
+        -10.902681519071994
+      ],
+      "world": [
+        -50099.33729341907,
+        13771.206188733697,
+        8808.2318480928
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|27",
+      "local": [
+        0.42860953961811904,
+        -19.748384396130206,
+        -0.185
+      ],
+      "world": [
+        -44325.16692893478,
+        16499.869109448955,
+        9880.0
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|28",
+      "local": [
+        -38.551111718500906,
+        -7.419608009390322,
+        -14.88215813782479
+      ],
+      "world": [
+        -40427.194803122875,
+        17732.746748122943,
+        8410.284186217521
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|29",
+      "local": [
+        -40.132587842808064,
+        2.544579594112547,
+        -15.81651193111793
+      ],
+      "world": [
+        -40269.04719069216,
+        18729.16550847323,
+        8316.848806888207
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|30",
+      "local": [
+        24.283644747779107,
+        -46.216101600884755,
+        -6.566256297173113
+      ],
+      "world": [
+        -46710.670449750876,
+        13853.0973889735,
+        9241.874370282689
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|31",
+      "local": [
+        38.81443073268311,
+        -61.14423897393284,
+        -10.822174751720048
+      ],
+      "world": [
+        -48163.749048241276,
+        12360.283651668691,
+        8816.282524827995
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|32",
+      "local": [
+        60.48693628149289,
+        -1.0446146704444983,
+        0.35572183546957603
+      ],
+      "world": [
+        -50330.999603122254,
+        18370.246082017526,
+        9934.072183546958
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|33",
+      "local": [
+        13.499529509469431,
+        -60.8136556115211,
+        -12.972609319900403
+      ],
+      "world": [
+        -45632.25892591991,
+        12393.341987909866,
+        8601.23906800996
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|34",
+      "local": [
+        4.59631229466293,
+        -48.55387120860083,
+        -16.552327951661354
+      ],
+      "world": [
+        -44741.93720443926,
+        13619.320428201892,
+        8243.267204833865
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|35",
+      "local": [
+        50.29417132010043,
+        -52.576408017734266,
+        -8.69132862361119
+      ],
+      "world": [
+        -49311.72310698301,
+        13217.066747288549,
+        9029.367137638881
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|36",
+      "local": [
+        -4.170242038088327,
+        -66.95613584751908,
+        -19.63199531818769
+      ],
+      "world": [
+        -43865.28177116413,
+        11779.093964310068,
+        7935.300468181231
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|37",
+      "local": [
+        -29.75,
+        -9.277069414956387,
+        -2.696855661877835
+      ],
+      "world": [
+        -41307.305974972965,
+        17547.000607566337,
+        9628.814433812217
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|38",
+      "local": [
+        19.416702112550848,
+        -37.58358699142787,
+        -5.410276543088385
+      ],
+      "world": [
+        -46223.97618622805,
+        14716.348849919188,
+        9357.472345691162
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|39",
+      "local": [
+        -3.3267559086172698,
+        -19.008624912134763,
+        -0.185
+      ],
+      "world": [
+        -43949.63038411124,
+        16573.8450578485,
+        9880.0
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|40",
+      "local": [
+        57.7010540150111,
+        -59.77856315863008,
+        -11.997839311962888
+      ],
+      "world": [
+        -50052.411376474076,
+        12496.851233198968,
+        8698.716068803711
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|41",
+      "local": [
+        12.785753339012226,
+        -44.46515393496191,
+        -10.707317899513654
+      ],
+      "world": [
+        -45560.88130887419,
+        14028.192155565785,
+        8827.768210048635
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|42",
+      "local": [
+        46.44226634484468,
+        -41.315921254148996,
+        -7.583165618985986
+      ],
+      "world": [
+        -48926.532609457434,
+        14343.115423647076,
+        9140.183438101401
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|43",
+      "local": [
+        63.15269548450313,
+        7.948965363470524,
+        -2.03352622741515
+      ],
+      "world": [
+        -50597.57552342328,
+        19269.604085409028,
+        9695.147377258485
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|44",
+      "local": [
+        32.79874347545352,
+        -45.85755872986352,
+        -5.397111642035834
+      ],
+      "world": [
+        -47562.18032251832,
+        13888.951676075623,
+        9358.788835796417
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|45",
+      "local": [
+        43.891923068986436,
+        5.356029174135511,
+        2.3962500953674315
+      ],
+      "world": [
+        -48671.49828187161,
+        19010.310466475526,
+        10138.125009536743
+      ]
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|46",
+      "local": [
+        -3.2333801111774663,
+        -39.23355814245126,
+        -13.982094505983442
+      ],
+      "world": [
+        -43958.96796385522,
+        14551.35173481685,
+        8500.290549401656
+      ]
+    }
+  ],
+  "audio": {
+    "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.AmbientSound_2",
+    "before": [
+      29.0,
+      -15.0,
+      0.8
+    ],
+    "after": [
+      32,
+      -13.6,
+      2.2
+    ]
+  }
+}
