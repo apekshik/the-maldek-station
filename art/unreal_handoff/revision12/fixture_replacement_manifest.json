@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "label": "R08_Control_Entry_Backplate",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_3",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Control_Entry_Housing",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_4",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Control_Entry_Hood",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_5",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Control_Entry_Diffuser",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_6",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Control_Entry_Guard_Left",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_7",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Control_Entry_Guard_Right",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_9",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Control_Entry_Guard_Crossbar",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_10",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Control_Entry_Conduit",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_11",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Backplate",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_12",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Housing",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_13",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Hood",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_14",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Diffuser",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_15",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Guard_Left",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_17",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Guard_Right",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_18",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Guard_Crossbar",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_19",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Conduit",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_20",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+    }
+  ],
+  "preserved": "Existing canopy fixtures, generator west entrance, fuel yard exit and lookout lights remain. Only the enumerated duplicate entry fixture components are retired."
+}

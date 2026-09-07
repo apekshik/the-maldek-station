@@ -1,0 +1,90 @@
+{
+  "accepted": true,
+  "scope": "Architecture stage only; complete final validation/default-map promotion remains separate.",
+  "route_reports": [
+    "routes_architecture.json",
+    "routes_architecture_aisles.json"
+  ],
+  "routes": [
+    {
+      "name": "Completed rear hall approach",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Control front approach",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Quarters",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Quarters interior",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Quarters landing and doorway",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Quarters lower approach",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Relay interior",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Waiting hall interior",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Control interior aisle",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Generator clear entrance",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Workshop shared west door",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    }
+  ],
+  "audit": "audit_architecture.json",
+  "visual_review": "reviews/architecture/visual_review.json",
+  "manifest_sha256": "bf24b9982ab46649d373bfe46fc406939f498f551f9242c5fd6e79f28dc91807"
+}

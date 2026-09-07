@@ -83,12 +83,9 @@ else:
   ledger_path.write_text(json.dumps(ledger,indent=2))
  # Retire old combined components only after every replacement for this stage exists.
  stage_targets={t['actor']+'|'+t['component']:t for r in chunks for t in r['replacement_targets']}
- if stage=='Circulation':
-  for t in manifest['retire_components']:
-   if 'Doors_' not in t['actor']:stage_targets[t['actor']+'|'+t['component']]=t
- if stage=='Architecture':
-  for t in manifest['retire_components']:
-   if 'Doors_' in t['actor']:stage_targets[t['actor']+'|'+t['component']]=t
+ for t in manifest['retire_components']:
+  target_stage=t.get('stage','Architecture' if 'Doors_' in t['actor'] else 'Circulation')
+  if target_stage==stage:stage_targets[t['actor']+'|'+t['component']]=t
  for key,t in stage_targets.items():
   if key in ledger['retired']:continue
   c=next(c for c in actors[t['actor']].get_components_by_class(unreal.StaticMeshComponent) if c.get_name()==t['component'])

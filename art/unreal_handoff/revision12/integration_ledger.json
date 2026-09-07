@@ -2732,6 +2732,1246 @@
       "material_slots": [
         "UE_Ground__Exterior"
       ]
+    },
+    "SM_R12_04_Lower_Drive_000_solid": {
+      "sha256": "0e17bf7d6f907c83a8f8ee29e85ad76caad44f0fb098386b44cc3d6be7011f92",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_000_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_50",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.239248275756836e-05,
+      "hulls": 7,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Concrete__Exterior",
+        "UE_R02_Chipped_Painted_Steel__Exterior",
+        "UE_R02_Weathered_Concrete__Exterior",
+        "UE_R04_Galvanized_Fittings__Exterior",
+        "UE_R04_Painted_Charcoal__Exterior"
+      ]
+    },
+    "SM_R12_04_Lower_Drive_001_thin": {
+      "sha256": "062fcdcc613640c7a352bf444fff0f557c7e042692f8b145bdf95056df6477d5",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_001_thin",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_51",
+      "stage": "Architecture",
+      "bounds_error_cm": 9.5367431640625e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R04_Seals__Exterior"
+      ]
+    },
+    "SM_R12_04_Lower_Drive_002_solid": {
+      "sha256": "01a67805b5f17cd0454c6d54be3e00a44888054da222e1eda679376f90486bc5",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_002_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_52",
+      "stage": "Architecture",
+      "bounds_error_cm": 7.62939453125e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Exterior"
+      ]
+    },
+    "SM_R12_04_Lower_Drive_003_thin": {
+      "sha256": "2871dbd9ca4948c750085a0d4851ce179af78d2d5056cabbb3a506d2cf40ce3b",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_003_thin",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_53",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.103515625e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Exterior"
+      ]
+    },
+    "SM_R12_04_Lower_Drive_004_signage": {
+      "sha256": "cf528e7a51e59d6d10cc26adae6579790c118f6adac33764543c3aa94f261a20",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_004_signage",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_54",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.151199340820312e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R04_Painted_Charcoal__Exterior"
+      ]
+    },
+    "SM_R12_04_Lower_Drive_005_solid": {
+      "sha256": "6916371cb7d3e35e49e165c3c9ef02941e5e553c66d4603b7c29195464448025",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_005_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_55",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.4849853515625e-05,
+      "hulls": 19,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Exterior",
+        "UE_VF06_Concrete__Exterior",
+        "UE_R04_Painted_Charcoal__Exterior",
+        "UE_R04_Safety_Ochre__Exterior",
+        "UE_R04_Instrument_Ivory__Exterior",
+        "UE_R04_Galvanized_Fittings__Exterior",
+        "UE_R04_Seals__Exterior"
+      ]
+    },
+    "SM_R12_04_Lower_Drive_006_thin": {
+      "sha256": "f7dd1017ec7b9bfc77f96664eeb3c4fbffa1f66c0ba6cd6eccc4511aca974716",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_006_thin",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_325",
+      "stage": "Architecture",
+      "bounds_error_cm": 0.0001125335693359375,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Exterior"
+      ]
+    },
+    "SM_R12_04_Lower_Drive_007_solid": {
+      "sha256": "4dc96746970f55cb3052a4c3416e9aacb8273a573c8e267fe5e264cbb8826451",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_007_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_326",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.57763671875e-05,
+      "hulls": 2,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Exterior",
+        "UE_R02_Galvanized_Grating__Exterior"
+      ]
+    },
+    "SM_R12_04_Lower_Drive_008_thin": {
+      "sha256": "05485518a397c65ec0c6058d28dc950fa80c4b894057be700a1ac2c5f1a08859",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_008_thin",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_327",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.7220458984375e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Exterior"
+      ]
+    },
+    "SM_R12_05_Generator_Room_000_solid": {
+      "sha256": "97aa6159d1ef39250279e3bc41709e633ca53557cbc52c11503e89101175e471",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_05_Generator_Room_000_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_328",
+      "stage": "Architecture",
+      "bounds_error_cm": 9.5367431640625e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Weathered_Concrete__Exterior"
+      ]
+    },
+    "SM_R12_05_Generator_Room_001_solid": {
+      "sha256": "f38c057134a0be98713844f209f1682c1459dcbf26c0c82a32986e70e544d95e",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_05_Generator_Room_001_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_329",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.103515625e-05,
+      "hulls": 5,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Weathered_Concrete__Exterior"
+      ]
+    },
+    "SM_R12_05_Generator_Room_002_solid": {
+      "sha256": "798c2613688c4fd77f77d41bd918f40a0f6b7b2ec24c5210b8ecfe0c307e77e1",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_05_Generator_Room_002_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_330",
+      "stage": "Architecture",
+      "bounds_error_cm": 7.62939453125e-05,
+      "hulls": 3,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Concrete__Indoor",
+        "UE_R02_Weathered_Concrete__Indoor"
+      ]
+    },
+    "SM_R12_09_Relay_and_Paths_000_solid": {
+      "sha256": "3ee97b87516fea7f29837771c7155a3f43b618cc95109721a2de5b48472e4d28",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_09_Relay_and_Paths_000_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_331",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.7220458984375e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Indoor"
+      ]
+    },
+    "SM_R12_09_Relay_and_Paths_001_solid": {
+      "sha256": "76e9fa9a6220181d731e0d86ebcd041596ec12b04d48abc9e84f4deb099239ea",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_09_Relay_and_Paths_001_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_332",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.103515625e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Weathered_Concrete__Indoor"
+      ]
+    },
+    "SM_R12_13_Roofs_000_solid": {
+      "sha256": "75d11fe6e7c65694ded2938fed57c4bec899c6d8281c3eed4221e9c91dba203e",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_13_Roofs_000_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_333",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.67572021484375e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Weathered_Concrete__Exterior"
+      ]
+    },
+    "SM_R12_13_Roofs_001_solid": {
+      "sha256": "3dc27ed7adda2beed45c93957e5ca400f35c871e96699df57e4d431d945a0619",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_13_Roofs_001_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_334",
+      "stage": "Architecture",
+      "bounds_error_cm": 7.05718994140625e-05,
+      "hulls": 2,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Exterior"
+      ]
+    },
+    "SM_R12_21_Maintenance_000_solid": {
+      "sha256": "5dbaad0ddb004c9eed308a7c359745cefb697c88b698d032a26feb2971b49e9d",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_000_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_335",
+      "stage": "Architecture",
+      "bounds_error_cm": 0.0001220703125,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Weathered_Concrete__Exterior"
+      ]
+    },
+    "SM_R12_21_Maintenance_001_solid": {
+      "sha256": "592846de8f001a43289c274e3de59c3497f8da2e4836dded8bd80b22f9469651",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_001_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_336",
+      "stage": "Architecture",
+      "bounds_error_cm": 7.62939453125e-05,
+      "hulls": 8,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Exterior",
+        "UE_R02_Weathered_Concrete__Exterior"
+      ]
+    },
+    "SM_R12_21_Maintenance_002_thin": {
+      "sha256": "69173e716aacc9fa2740624222eef6bcd11c35c2a6d45f421b3fc3d1180cdea0",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_002_thin",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_337",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.57763671875e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Exterior"
+      ]
+    },
+    "SM_R12_21_Maintenance_003_solid": {
+      "sha256": "bd217e55eabd6183dd756c339740e2cff489d8b74cb9d6cf55cc36723d94ecb5",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_003_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_338",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.57763671875e-05,
+      "hulls": 2,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Weathered_Concrete__Exterior"
+      ]
+    },
+    "SM_R12_21_Maintenance_004_solid": {
+      "sha256": "be9fd8012b268a3062ec640c0b52a7224a76721ecf3ff77469f05d844e8537c0",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_004_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_339",
+      "stage": "Architecture",
+      "bounds_error_cm": 9.1552734375e-05,
+      "hulls": 3,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Indoor",
+        "UE_VF06_Concrete__Indoor"
+      ]
+    },
+    "SM_R12_21_Maintenance_005_solid": {
+      "sha256": "c602689e0d2507a49671217013f1b795f4583ab05dd0ec652b06b7efcba8efa1",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_005_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_340",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.57763671875e-05,
+      "hulls": 4,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Weathered_Concrete__Exterior"
+      ]
+    },
+    "SM_R12_21_Maintenance_006_solid": {
+      "sha256": "9b5583a18d62ef7ef02fa9dfa294231208a5a5b4a4952ab9c86f4799534c1861",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_006_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_341",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.866455078125e-05,
+      "hulls": 3,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Indoor",
+        "UE_R02_Damp_Timber__Indoor"
+      ]
+    },
+    "SM_R12_21_Maintenance_007_solid": {
+      "sha256": "65b35064f792647eebfc1c1162ea5ed34e775e8ea2f5d9fa5ce0b4b32de6f07e",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_007_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_342",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.57763671875e-05,
+      "hulls": 2,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Weathered_Concrete__Exterior"
+      ]
+    },
+    "SM_R12_21_Maintenance_008_solid": {
+      "sha256": "96e4db7719405a07f0702134d7ee3a0ff2d5c7fa3cf8c2b1384b64970c344e18",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_21_Maintenance_008_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_343",
+      "stage": "Architecture",
+      "bounds_error_cm": 3.0517578125e-05,
+      "hulls": 4,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_R02_Damp_Timber__Indoor",
+        "UE_VF06_Concrete__Indoor",
+        "UE_R02_Chipped_Painted_Steel__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Control_000_solid": {
+      "sha256": "a0fc5a6c3dc93723d1f548aec82212cdfbe2d53af766f198246fcc216da78e19",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_000_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_344",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.29425048828125e-05,
+      "hulls": 3,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Dark_Steel_Frame__Exterior",
+        "UE_VF_Local_Oxidation__Exterior",
+        "UE_VF_Galvanized_Grating__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Control_001_solid": {
+      "sha256": "cdcce17b4e3d9a192db3e3f394f8ea358f8dd2697f1fc6761a5df105089f352c",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_001_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_345",
+      "stage": "Architecture",
+      "bounds_error_cm": 9.5367431640625e-05,
+      "hulls": 4,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Local_Oxidation__Indoor",
+        "UE_VF_Faded_Petrol_Paint__Indoor",
+        "UE_VF_Galvanized_Grating__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Control_002_floor": {
+      "sha256": "e0558596e9305f804faff15ddb296848443070b0027a467dd67b6ce78a201d8e",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_002_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_346",
+      "stage": "Architecture",
+      "bounds_error_cm": 7.05718994140625e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Concrete",
+      "material_slots": [
+        "UE_VF_Cast_Concrete__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Control_003_floor": {
+      "sha256": "35a48d385f41365249170c4c93ca411f930004e34a23dc481427b0aa6ea57b1c",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_003_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_347",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.76837158203125e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Galvanized_Grating__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Control_004_solid": {
+      "sha256": "281f9920dd25969fd81d98a7bbe192532acccbccce567213e898f7a22092d11b",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_004_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_348",
+      "stage": "Architecture",
+      "bounds_error_cm": 7.05718994140625e-05,
+      "hulls": 28,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Cast_Concrete__Exterior",
+        "UE_VF_Local_Oxidation__Exterior",
+        "UE_VF_Faded_Petrol_Paint__Exterior",
+        "UE_VF_Galvanized_Grating__Exterior",
+        "UE_VF_Interior_Enamel__Exterior",
+        "UE_VF_Dark_Steel_Frame__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Control_005_solid": {
+      "sha256": "68c7935b59a9ddc76f212fe914b51a4230f6f8dc6bfa8b86de7507677c13345e",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_005_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_349",
+      "stage": "Architecture",
+      "bounds_error_cm": 9.918212890625e-05,
+      "hulls": 6,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Dark_Steel_Frame__Indoor",
+        "UE_VF_Interior_Enamel__Indoor",
+        "UE_VF_Galvanized_Grating__Indoor",
+        "UE_VF_Warm_Diffuser__Indoor",
+        "UE_VF_Bedding__Indoor",
+        "UE_VF_Window_Seal__Indoor",
+        "UE_VF_Paper__Indoor",
+        "UE_VF_Local_Oxidation__Indoor",
+        "UE_VF_Desk_Timber__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Control_006_thin": {
+      "sha256": "939f1cea0a59f65e39e82e21ad5e9343a43bcbc594568419a18ac85fc906c3c0",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_006_thin",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_350",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.7220458984375e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Galvanized_Grating__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Control_007_floor": {
+      "sha256": "4c58e706cfd4835fb9ac87b94d1450488d034ddfa8367bf5c0f78a7ee2fecdb8",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_007_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_351",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.601478576660156e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Galvanized_Grating__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Control_008_glass": {
+      "sha256": "44e5739542e9a0d90bdba7c7e3e515b2fc01a6b81875d432940871e926ca7b04",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_008_glass",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_352",
+      "stage": "Architecture",
+      "bounds_error_cm": 3.1754374504089355e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Window_Glass__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Control_009_solid": {
+      "sha256": "1ad5ca9c202999c3d585b6692ab8675e511099ac24f433b75521419f4d808a96",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_009_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_353",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.340576171875e-05,
+      "hulls": 18,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Dark_Steel_Frame__Exterior",
+        "UE_VF_Local_Oxidation__Exterior",
+        "UE_VF_Faded_Petrol_Paint__Exterior",
+        "UE_VF_Galvanized_Grating__Exterior",
+        "UE_VF_Interior_Enamel__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_000_solid": {
+      "sha256": "9d2465b2631501313804eac79a4eab0a71ed1a6a97bbec1952e9f4229b1e8d33",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_000_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_354",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.103515625e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Warm_enamel__Indoor",
+        "UE_VF06_Structural_steel__Indoor",
+        "UE_VF06_Galvanized__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_001_grating": {
+      "sha256": "2ec6b9b2d638b8c7138ad62eb779973d8a4c2aeec51d8e0b0f369d68ee244cde",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_001_grating",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_355",
+      "stage": "Architecture",
+      "bounds_error_cm": 8.20159912109375e-05,
+      "hulls": 4,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Galvanized__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_002_solid": {
+      "sha256": "157b871d0d3f738ee65195afaa85b3a7a365883bafd9da6be863cdf96459d143",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_002_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_356",
+      "stage": "Architecture",
+      "bounds_error_cm": 7.2479248046875e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Exterior",
+        "UE_VF06_Fastener_oxidation__Exterior",
+        "UE_VF06_Galvanized__Exterior",
+        "UE_VF06_Safety_ochre__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_003_thin": {
+      "sha256": "ef546d4f9c3b28233efd01d10c82e7c01f9c44abbf406cc946ee4eb183ab7de6",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_003_thin",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_357",
+      "stage": "Architecture",
+      "bounds_error_cm": 8.0108642578125e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Galvanized__Exterior",
+        "UE_VF06_Structural_steel__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_004_signage": {
+      "sha256": "fe574780fc8e4d9e98b8cc168927df16e8ae646702adbae015d0673c74b6957d",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_004_signage",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_358",
+      "stage": "Architecture",
+      "bounds_error_cm": 2.3603439331054688e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Warm_enamel__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_005_solid": {
+      "sha256": "412b70f1272ac8f3bf3d320b0e196db2ebffa5c1eaeb57e9f8ddb3283b666021",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_005_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_359",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.14984130859375e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Indoor",
+        "UE_VF06_Warm_enamel__Indoor",
+        "UE_VF06_Galvanized__Indoor",
+        "UE_VF06_Petrol_paint__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_006_floor": {
+      "sha256": "0c23f2f838c18c4722b2fbde50e1f76ba1bd9ce8f4818264cf37d749f779303c",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_006_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_360",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.53131103515625e-05,
+      "hulls": 12,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Petrol_paint__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_007_grating": {
+      "sha256": "f0c71bfe54009b0bcfbc1ba85f317071b56488db27b1aceffdb5a3a7310f3520",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_007_grating",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_361",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.866455078125e-05,
+      "hulls": 4,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Galvanized__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_008_signage": {
+      "sha256": "d8a0c5420c9a2bf50ea775552b32c4985bda05db9076dfa398ad66005205da12",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_008_signage",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_362",
+      "stage": "Architecture",
+      "bounds_error_cm": 3.653764724731445e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Warm_enamel__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_009_solid": {
+      "sha256": "c7d32f71432a4e10d41744ebd44015174ebce950ab9a85d1b05f4e0d1b3279e0",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_009_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_363",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.8160552978515625e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Exterior",
+        "UE_VF06_Fastener_oxidation__Exterior",
+        "UE_VF06_Galvanized__Exterior",
+        "UE_VF06_Petrol_paint__Exterior",
+        "UE_VF06_Safety_ochre__Exterior",
+        "UE_VF06_Lamp__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Lower_Gallery_Details_010_thin": {
+      "sha256": "b24b8b123e2f4dac69831ad47b99de31c44941ddc863df1761088b0c812c4790",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Lower_Gallery_Details_010_thin",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_364",
+      "stage": "Architecture",
+      "bounds_error_cm": 8.0108642578125e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Galvanized__Exterior",
+        "UE_VF06_Structural_steel__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Maintenance_Shells_000_floor": {
+      "sha256": "63e53bc9a7c29909388d35df5735f733c2d1e3b835819d84039094cb4f58aae7",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_000_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_365",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.866455078125e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Galvanized__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Maintenance_Shells_001_solid": {
+      "sha256": "86f17f190b78505831887b0831e4395f7e3bd3e5dd4ac17f8f4801fcc46a3939",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_001_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_366",
+      "stage": "Architecture",
+      "bounds_error_cm": 3.814697265625e-05,
+      "hulls": 16,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Exterior",
+        "UE_VF06_Fastener_oxidation__Exterior",
+        "UE_VF06_Service_green__Exterior",
+        "UE_VF06_Galvanized__Exterior",
+        "UE_VF06_Warm_enamel__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Maintenance_Shells_002_floor": {
+      "sha256": "c6d8173d15ecd3dedd687f29e2449c01959195554c52ac1d2c95c4cff70225fb",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_002_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_367",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.1961669921875e-05,
+      "hulls": 2,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Galvanized__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Maintenance_Shells_003_solid": {
+      "sha256": "bd5bd8d89ab3d0b4bd2f8edcd36aaef6d43d4c3daab8d8e47a7ab88a0f25fcf9",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_003_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_368",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.340576171875e-05,
+      "hulls": 41,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Exterior",
+        "UE_VF06_Fastener_oxidation__Exterior",
+        "UE_VF06_Service_green__Exterior",
+        "UE_VF06_Galvanized__Exterior",
+        "UE_VF06_Warm_enamel__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Maintenance_Shells_004_solid": {
+      "sha256": "796afdd1c16932c2d963108f40d75ae3344c86a25bf81fe4edd66f05e1b8cfc7",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_004_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_369",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.103515625e-05,
+      "hulls": 16,
+      "coincident_hull_sources": [
+        [
+          "Door_return.018",
+          "Door_return.020"
+        ]
+      ],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Exterior",
+        "UE_VF06_Fastener_oxidation__Exterior",
+        "UE_VF06_Service_green__Exterior",
+        "UE_VF06_Petrol_paint__Exterior",
+        "UE_VF06_Galvanized__Exterior",
+        "UE_VF06_Warm_enamel__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Maintenance_Shells_005_solid": {
+      "sha256": "9267b5be6ee883066f6c24390f2e8dcef690000ed0bec6957f96136f026bef47",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_005_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_370",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.866455078125e-05,
+      "hulls": 4,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Fastener_oxidation__Indoor",
+        "UE_VF06_Service_green__Indoor",
+        "UE_VF06_Petrol_paint__Indoor",
+        "UE_VF06_Galvanized__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Maintenance_Shells_006_floor": {
+      "sha256": "7853cda6587614ed7d00fa3356f1f8eae0efbc1149a6b52e261cb887378aa2a8",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_006_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_371",
+      "stage": "Architecture",
+      "bounds_error_cm": 1.1444091796875e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [
+        [
+          "Flush_threshold.009",
+          "Flush_threshold.010"
+        ]
+      ],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Galvanized__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Maintenance_Shells_007_glass": {
+      "sha256": "ccfdb78099232ed545db5a58c40099daa52a9f80d6fd76f76512a53fda72bce6",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_007_glass",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_372",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.1961669921875e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Glass__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Maintenance_Shells_008_solid": {
+      "sha256": "431293612d78d394940a1d2c6f91044e5e036deb80af0b62792b3b6967abc170",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_008_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_373",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.482269287109375e-05,
+      "hulls": 45,
+      "coincident_hull_sources": [
+        [
+          "Door_lintel.009",
+          "Door_lintel.010"
+        ],
+        [
+          "Door_return.019",
+          "Door_return.021"
+        ]
+      ],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Exterior",
+        "UE_VF06_Fastener_oxidation__Exterior",
+        "UE_VF06_Service_green__Exterior",
+        "UE_VF06_Petrol_paint__Exterior",
+        "UE_VF06_Galvanized__Exterior",
+        "UE_VF06_Warm_enamel__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Maintenance_Shells_009_solid": {
+      "sha256": "c9701c7b4d2d7096e0dd9aef02b49fb88015f62b7fb8a6a93963ca69d7eade26",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_009_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_374",
+      "stage": "Architecture",
+      "bounds_error_cm": 2.288818359375e-05,
+      "hulls": 8,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Fastener_oxidation__Indoor",
+        "UE_VF06_Service_green__Indoor",
+        "UE_VF06_Petrol_paint__Indoor",
+        "UE_VF06_Galvanized__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Quarters_000_floor": {
+      "sha256": "a83b9c52a106fc26b3beadafde33d1de134028a557eb20fad3bc4bf37b7bd416",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_000_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_375",
+      "stage": "Architecture",
+      "bounds_error_cm": 8.20159912109375e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Concrete",
+      "material_slots": [
+        "UE_VF_Cast_Concrete_001__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Quarters_001_floor": {
+      "sha256": "770301f619fa9e5c55369c20cc9f0919c22adb8699e03960f7613f2a147c0f0d",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_001_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_376",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.53131103515625e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Galvanized_Grating_001__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Quarters_002_glass": {
+      "sha256": "90597c549a975b5921b302dbd59396b1eb43f5fd0857346a4f3732b3d358a586",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_002_glass",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_377",
+      "stage": "Architecture",
+      "bounds_error_cm": 8.20159912109375e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Window_Glass_001__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Quarters_003_solid": {
+      "sha256": "36b4f18737a88ca2524f627b62bd7e39325a008af8b4da4b6a80c465b840fe58",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_003_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_378",
+      "stage": "Architecture",
+      "bounds_error_cm": 8.20159912109375e-05,
+      "hulls": 41,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Galvanized_Grating_001__Exterior",
+        "UE_VF_Dark_Steel_Frame_001__Exterior",
+        "UE_VF_Local_Oxidation_001__Exterior",
+        "UE_VF_Replacement_Green_Paint__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Quarters_004_solid": {
+      "sha256": "5453ce136463e2cfc3cf1917e8d51cba435de74edbe7c78ce6a3fb1819e24532",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_004_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_379",
+      "stage": "Architecture",
+      "bounds_error_cm": 8.0108642578125e-05,
+      "hulls": 14,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Dark_Steel_Frame_001__Indoor",
+        "UE_VF_Desk_Timber_001__Indoor",
+        "UE_VF_Local_Oxidation_001__Indoor",
+        "UE_VF_Galvanized_Grating_001__Indoor",
+        "UE_VF_Interior_Enamel_001__Indoor",
+        "UE_VF_Paper_001__Indoor",
+        "UE_VF_Warm_Diffuser_001__Indoor",
+        "UE_VF_Bedding_001__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Quarters_005_glass": {
+      "sha256": "b3a7e93f145e7c36a98c78cc6be0025da59c251a3e8895a3c9f23761736a8ecc",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_005_glass",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_380",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.76837158203125e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Window_Glass_001__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Quarters_006_solid": {
+      "sha256": "d9b21f578c0f704f5d8bb71760582812573f88a2114ad7ade077f32c2a9a2f53",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_006_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_381",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.532669067382812e-05,
+      "hulls": 12,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Local_Oxidation_001__Exterior",
+        "UE_VF_Replacement_Green_Paint__Exterior",
+        "UE_VF_Galvanized_Grating_001__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Quarters_007_solid": {
+      "sha256": "ae518d6b822fc3cfc2c3f54802a46af0eb69a028576aabd1657c29ab80c8af10",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_007_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_382",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.1975250244140625e-05,
+      "hulls": 4,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Dark_Steel_Frame_001__Indoor",
+        "UE_VF_Warm_Diffuser_001__Indoor",
+        "UE_VF_Interior_Enamel_001__Indoor",
+        "UE_VF_Paper_001__Indoor",
+        "UE_VF_Galvanized_Grating_001__Indoor",
+        "UE_VF_Desk_Timber_001__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Relay_Shell_000_solid": {
+      "sha256": "f7507a220a64957dce9740ad85a8569cc806095d4a43ee9336defb62d57c6788",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Relay_Shell_000_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_383",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.103515625e-05,
+      "hulls": 22,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Exterior",
+        "UE_VF06_Fastener_oxidation__Exterior",
+        "UE_VF06_Service_green__Exterior",
+        "UE_VF06_Galvanized__Exterior",
+        "UE_VF06_Warm_enamel__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Relay_Shell_001_floor": {
+      "sha256": "80eb0a009eb0045058170a824cb0a0d4cad446e3002f8a1e9a240ce3fb711d26",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Relay_Shell_001_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_384",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.103515625e-05,
+      "hulls": 2,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Galvanized__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Relay_Shell_002_glass": {
+      "sha256": "90670a0d1890c36b8cb1d43405e33ab042c68fb0bca616ad8bdd3b1e140f673e",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Relay_Shell_002_glass",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_385",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.57763671875e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Glass__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Relay_Shell_003_solid": {
+      "sha256": "574cad8e0277059b52d8265a11081b61d8659e00f0bc61c404d0787142232272",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Relay_Shell_003_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_386",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.103515625e-05,
+      "hulls": 32,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Exterior",
+        "UE_VF06_Fastener_oxidation__Exterior",
+        "UE_VF06_Service_green__Exterior",
+        "UE_VF06_Galvanized__Exterior",
+        "UE_VF06_Warm_enamel__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Relay_Shell_004_solid": {
+      "sha256": "a43ffe770ab05ccd8d047deed0a4bd2dbbe4e1e4e28b6600e02d5532a1b5ce51",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Relay_Shell_004_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_387",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.103515625e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF06_Structural_steel__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_000_solid": {
+      "sha256": "575774225ce315169092be30c787f63a748df2da856aa55cb017d6c98dfbcf94",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_000_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_388",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.866455078125e-05,
+      "hulls": 22,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Cast_Concrete_002__Exterior",
+        "UE_VF_Local_Oxidation_002__Exterior",
+        "UE_VF_Faded_Petrol_Paint_001__Exterior",
+        "UE_VF_Galvanized_Grating_002__Exterior",
+        "UE_VF_Interior_Enamel_002__Exterior",
+        "UE_VF_Dark_Steel_Frame_002__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_001_solid": {
+      "sha256": "1ea6354a728825ccbfd1385149f514a672b480731a9ee47fd28e8fdb1e452e12",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_001_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_389",
+      "stage": "Architecture",
+      "bounds_error_cm": 7.2479248046875e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Dark_Steel_Frame_002__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_002_glass": {
+      "sha256": "e21b91c131542ae08353f9f3cf267921d882be77e0be8dc68306ab9279e5e278",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_002_glass",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_390",
+      "stage": "Architecture",
+      "bounds_error_cm": 7.013976573944092e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Window_Glass_002__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_003_solid": {
+      "sha256": "40cbed6b40d3145c4100a30e27a4bb51cbc4d3b14efdeae24a63ac6dd7fbbece",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_003_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_391",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.9485435485839844e-05,
+      "hulls": 4,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Local_Oxidation_002__Exterior",
+        "UE_VF_Faded_Petrol_Paint_001__Exterior",
+        "UE_VF_Galvanized_Grating_002__Exterior",
+        "UE_VF_Interior_Enamel_002__Exterior",
+        "UE_VF_Dark_Steel_Frame_002__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_004_floor": {
+      "sha256": "c27125c06c43e6111e91c3341113c621db06a969a2ad6dbb797174a84210f85e",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_004_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_392",
+      "stage": "Architecture",
+      "bounds_error_cm": 8.392333984375e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Concrete",
+      "material_slots": [
+        "UE_VF_Cast_Concrete_002__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_005_floor": {
+      "sha256": "b7ca26ec60afa3eeff1078ab61a19f672aaea703b46c56819752254825d0337f",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_005_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_393",
+      "stage": "Architecture",
+      "bounds_error_cm": 3.0517578125e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Galvanized_Grating_002__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_006_solid": {
+      "sha256": "0ac3a356c6e9898806db730e316f76a47b381b4e129d7d514a4db9647a9be78a",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_006_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_394",
+      "stage": "Architecture",
+      "bounds_error_cm": 9.1552734375e-05,
+      "hulls": 48,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Cast_Concrete_002__Exterior",
+        "UE_VF_Dark_Steel_Frame_002__Exterior",
+        "UE_VF_Local_Oxidation_002__Exterior",
+        "UE_VF_Faded_Petrol_Paint_001__Exterior",
+        "UE_VF_Galvanized_Grating_002__Exterior",
+        "UE_VF_Interior_Enamel_002__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_007_solid": {
+      "sha256": "e33aef1cd22b78a720be15f7471597a4e59a8e9e7dfe9b73ca659ea8102929f8",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_007_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_395",
+      "stage": "Architecture",
+      "bounds_error_cm": 8.0108642578125e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Desk_Timber_002__Indoor",
+        "UE_VF_Dark_Steel_Frame_002__Indoor",
+        "UE_VF_Paper_002__Indoor",
+        "UE_VF_Interior_Enamel_002__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_008_floor": {
+      "sha256": "15e71b1d7bf93bb1651d2698ca9d2039592429a586863209323abe0330c8eb50",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_008_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_396",
+      "stage": "Architecture",
+      "bounds_error_cm": 5.745887756347656e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Galvanized_Grating_002__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_009_glass": {
+      "sha256": "8f8e6397b86b148f460dc4d2129e729c7c3fe72280ca2b94b1febf3cfd655f69",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_009_glass",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_397",
+      "stage": "Architecture",
+      "bounds_error_cm": 3.6522746086120605e-05,
+      "hulls": 0,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Window_Glass_002__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_010_solid": {
+      "sha256": "ca1d023d016368acf065bc0705590e261186920c54ad1b23c2c279abad3baa25",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_010_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_398",
+      "stage": "Architecture",
+      "bounds_error_cm": 7.18832015991211e-05,
+      "hulls": 17,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Dark_Steel_Frame_002__Exterior",
+        "UE_VF_Local_Oxidation_002__Exterior",
+        "UE_VF_Faded_Petrol_Paint_001__Exterior",
+        "UE_VF_Galvanized_Grating_002__Exterior",
+        "UE_VF_Interior_Enamel_002__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_011_floor": {
+      "sha256": "b044ffab388c3b3d470e26043744b20cf6eaabae53be668b32f47af4b35380d3",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_011_floor",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_399",
+      "stage": "Architecture",
+      "bounds_error_cm": 4.76837158203125e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Galvanized_Grating_002__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_012_solid": {
+      "sha256": "3777e82f0e4c53bf6fc6d9f85694a1f9a5685e6d6ad406f5a1140f6f0c71b45d",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_012_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_400",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.961822509765625e-05,
+      "hulls": 9,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Local_Oxidation_002__Exterior",
+        "UE_VF_Faded_Petrol_Paint_001__Exterior",
+        "UE_VF_Galvanized_Grating_002__Exterior",
+        "UE_VF_Interior_Enamel_002__Exterior",
+        "UE_VF_Dark_Steel_Frame_002__Exterior"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_013_solid": {
+      "sha256": "2ead2240a17892992e13b71c873b3004921be1a197a00845c1d3bc8bacf305e7",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_013_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_401",
+      "stage": "Architecture",
+      "bounds_error_cm": 6.866455078125e-05,
+      "hulls": 4,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Local_Oxidation_002__Indoor",
+        "UE_VF_Faded_Petrol_Paint_001__Indoor",
+        "UE_VF_Galvanized_Grating_002__Indoor"
+      ]
+    },
+    "SM_R12_VF06_Waiting_Hall_014_solid": {
+      "sha256": "620c162a54a0cc2e4c0964469d03222461cf2976ce60ea190565165e74ac3f43",
+      "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_014_solid",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_402",
+      "stage": "Architecture",
+      "bounds_error_cm": 2.288818359375e-05,
+      "hulls": 1,
+      "coincident_hull_sources": [],
+      "physical_surface": "Metal",
+      "material_slots": [
+        "UE_VF_Dark_Steel_Frame_002__Exterior"
+      ]
     }
   },
   "retired": {
@@ -2810,6 +4050,41 @@
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_30",
       "component": "StaticMeshComponent0",
       "old_mesh": "/Game/MaldekRefinement/R10/Meshes/SM_R10_Forest_Approach.SM_R10_Forest_Approach"
+    },
+    "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_63|StaticMeshComponent0": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_63",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Game/MaldekRefinement/Meshes/SM_R04_04_Lower_Drive.SM_R04_04_Lower_Drive"
+    },
+    "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_66|StaticMeshComponent0": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_66",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Game/MaldekRefinement/R11/Meshes/SM_R04_05_Generator_Room.SM_R04_05_Generator_Room"
+    },
+    "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_2|StaticMeshComponent0": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_2",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Game/MaldekRefinement/R05/Meshes/SM_R04_09_Relay_and_Paths.SM_R04_09_Relay_and_Paths"
+    },
+    "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_221|StaticMeshComponent0": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_221",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Game/MaldekRefinement/R10/Meshes/SM_R04_13_Roofs.SM_R04_13_Roofs"
+    },
+    "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_39|StaticMeshComponent0": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_39",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Game/MaldekRefinement/R11/Meshes/SM_R04_21_Maintenance.SM_R04_21_Maintenance"
+    },
+    "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_8|StaticMeshComponent0": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_8",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Game/MaldekRefinement/Meshes/SM_R04_02_Control_Room.SM_R04_02_Control_Room"
+    },
+    "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_16|StaticMeshComponent0": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_16",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Game/MaldekRefinement/R10/Meshes/SM_R04_03_Waiting_Hall.SM_R04_03_Waiting_Hall"
     }
   },
   "stages": {
@@ -2817,6 +4092,12 @@
       "imported": true,
       "accepted": true,
       "assets": 189,
+      "saved": true
+    },
+    "Architecture": {
+      "imported": true,
+      "accepted": true,
+      "assets": 84,
       "saved": true
     }
   }

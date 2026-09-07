@@ -1,0 +1,32 @@
+{
+  "phase": "cleanup",
+  "next": 117587.593,
+  "index": 10,
+  "mode": "inspection",
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\doorway_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\front_grating_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\rear_cleanup_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\sideways_arrival_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\quarters_stair_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\dock_border_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\quarters_interior_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\lower_floor_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\water_terrace_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\whole_station_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\doorway_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\front_grating_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\rear_cleanup_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\sideways_arrival_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\quarters_stair_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\dock_border_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\quarters_interior_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\lower_floor_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\water_terrace_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\architecture\\whole_station_inspection.png"
+  ],
+  "busy": true,
+  "deadline": 117952.593,
+  "success": true,
+  "inspection_lights_removed": true
+}
