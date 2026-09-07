@@ -70,7 +70,11 @@ else:
    for i,s in enumerate(mesh.static_materials):mesh.set_material(i,lib.load_asset(r['preserve_material'][min(i,len(r['preserve_material'])-1)]))
   else:
    for i,s in enumerate(mesh.static_materials):mesh.set_material(i,lib.load_asset(r.get('material_bindings_override',{}).get(str(s.material_slot_name),bindings[str(s.material_slot_name)])))
-  ns=mesh.get_editor_property('nanite_settings');ns.set_editor_property('enabled',r['nanite']);mesh.set_editor_property('nanite_settings',ns)
+  ns=mesh.get_editor_property('nanite_settings');ns.set_editor_property('enabled',r['nanite'])
+  for key in ['fallback_relative_error','fallback_percent_triangles']:
+   if 'nanite_'+key in r:ns.set_editor_property(key,r['nanite_'+key])
+  if r.get('nanite_fallback_target'):ns.set_editor_property('fallback_target',getattr(unreal.NaniteFallbackTarget,r['nanite_fallback_target']))
+  sm.set_nanite_settings(mesh,ns,True)
   if r['role'] in ['grating','thin'] and not previous:
    reduction=unreal.StaticMeshReductionOptions(auto_compute_lod_screen_size=False,reduction_settings=[unreal.StaticMeshReductionSettings(percent_triangles=1,screen_size=1),unreal.StaticMeshReductionSettings(percent_triangles=.5,screen_size=.12),unreal.StaticMeshReductionSettings(percent_triangles=.22,screen_size=.04)])
    assert sm.set_lods(mesh,reduction)==3,r['name']

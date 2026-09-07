@@ -1,0 +1,279 @@
+{
+  "success": true,
+  "meshes": [
+    {
+      "mesh": "SM_R12_12_Gondola_001_solid",
+      "triangles": 9328,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 830
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 9328
+      }
+    },
+    {
+      "mesh": "SM_R12_12_Gondola_003_solid",
+      "triangles": 12656,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 676
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 12656
+      }
+    },
+    {
+      "mesh": "SM_R12_12_Gondola_006_solid",
+      "triangles": 9892,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 622
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 9892
+      }
+    },
+    {
+      "mesh": "SM_R12_12_Gondola_008_solid",
+      "triangles": 16792,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 596
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 16792
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Control_000_solid",
+      "triangles": 4852,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 252
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 4852
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Control_009_solid",
+      "triangles": 39756,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 1822
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 39756
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Maintenance_Shells_001_solid",
+      "triangles": 29516,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 1478
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 29516
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Maintenance_Shells_003_solid",
+      "triangles": 42800,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 1928
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 42800
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Maintenance_Shells_004_solid",
+      "triangles": 34536,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 1783
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 34532
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Maintenance_Shells_008_solid",
+      "triangles": 59864,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 2348
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 59858
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Quarters_004_solid",
+      "triangles": 16320,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 1010
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 16256
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Quarters_007_solid",
+      "triangles": 6520,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 736
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 6520
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Relay_Shell_000_solid",
+      "triangles": 29568,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 1934
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 29568
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Relay_Shell_003_solid",
+      "triangles": 41784,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 2470
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 41780
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Waiting_Hall_003_solid",
+      "triangles": 11840,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 820
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 11840
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Waiting_Hall_006_solid",
+      "triangles": 36108,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 1152
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 36108
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Waiting_Hall_010_solid",
+      "triangles": 42296,
+      "before": {
+        "fallback_relative_error": 0.0,
+        "fallback_percent_triangles": 1.0,
+        "fallback_target": "<NaniteFallbackTarget.AUTO: 0>",
+        "triangles": 1794
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1,
+        "fallback_target": "PERCENT_TRIANGLES",
+        "triangles": 42296
+      }
+    }
+  ],
+  "reason": "Close sill artifacts disappear with hardware Lumen disabled; repair simplified trace geometry locally instead of disabling lighting globally.",
+  "collision_and_source_geometry_changed": false
+}

@@ -1,0 +1,211 @@
+{
+  "success": true,
+  "meshes": [
+    {
+      "mesh": "SM_R12_12_Gondola_001_solid",
+      "triangles": 9328,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_12_Gondola_003_solid",
+      "triangles": 12656,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_12_Gondola_006_solid",
+      "triangles": 9892,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_12_Gondola_008_solid",
+      "triangles": 16792,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Control_000_solid",
+      "triangles": 4852,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Control_009_solid",
+      "triangles": 39756,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Maintenance_Shells_001_solid",
+      "triangles": 29516,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Maintenance_Shells_003_solid",
+      "triangles": 42800,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Maintenance_Shells_004_solid",
+      "triangles": 34536,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Maintenance_Shells_008_solid",
+      "triangles": 59864,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Quarters_004_solid",
+      "triangles": 16320,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Quarters_007_solid",
+      "triangles": 6520,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Relay_Shell_000_solid",
+      "triangles": 29568,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Relay_Shell_003_solid",
+      "triangles": 41784,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Waiting_Hall_003_solid",
+      "triangles": 11840,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Waiting_Hall_006_solid",
+      "triangles": 36108,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    },
+    {
+      "mesh": "SM_R12_VF06_Waiting_Hall_010_solid",
+      "triangles": 42296,
+      "before": {
+        "fallback_relative_error": 1.0,
+        "fallback_percent_triangles": 1.0
+      },
+      "after": {
+        "fallback_relative_error": 0,
+        "fallback_percent_triangles": 1
+      }
+    }
+  ],
+  "reason": "Close sill artifacts disappear with hardware Lumen disabled; repair simplified trace geometry locally instead of disabling lighting globally.",
+  "collision_and_source_geometry_changed": false
+}

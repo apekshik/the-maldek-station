@@ -7533,7 +7533,10 @@
       "collection": "12_Gondola",
       "source_collision_guides": [
         "Gondola_Side_Pier"
-      ]
+      ],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_12_Gondola_002_glass",
@@ -7990,7 +7993,10 @@
         "Gondola_Side_Sill",
         "Gondola_Side_Lintel",
         "Gondola_Side_End"
-      ]
+      ],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_12_Gondola_004_thin",
@@ -8323,7 +8329,10 @@
       "source_collision_guides": [
         "Gondola_South_Lintel",
         "Gondola_Side_Pier.001"
-      ]
+      ],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_12_Gondola_007_glass",
@@ -9070,7 +9079,10 @@
         "Gondola_Side_Sill.001",
         "Gondola_Side_Lintel.001",
         "Gondola_Side_End.001"
-      ]
+      ],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_12_Gondola_009_thin",
@@ -17417,7 +17429,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Control",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Control_001_solid",
@@ -21373,7 +21388,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Control",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Gondola_Details_000_solid",
@@ -24071,7 +24089,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Maintenance_Shells",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Maintenance_Shells_002_floor",
@@ -26619,7 +26640,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Maintenance_Shells",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Maintenance_Shells_004_solid",
@@ -27722,7 +27746,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Maintenance_Shells",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Maintenance_Shells_005_solid",
@@ -31012,7 +31039,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Maintenance_Shells",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Maintenance_Shells_009_solid",
@@ -35110,7 +35140,10 @@
       "replacement_targets": [],
       "stage": "Architecture",
       "collection": "VF06_Quarters",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Quarters_005_glass",
@@ -36274,7 +36307,10 @@
       "replacement_targets": [],
       "stage": "Architecture",
       "collection": "VF06_Quarters",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Relay_Shell_000_solid",
@@ -37638,7 +37674,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Relay_Shell",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Relay_Shell_001_floor",
@@ -39717,7 +39756,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Relay_Shell",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Relay_Shell_004_solid",
@@ -42559,7 +42601,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Waiting_Hall",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Waiting_Hall_004_floor",
@@ -45529,7 +45574,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Waiting_Hall",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Waiting_Hall_007_solid",
@@ -46819,7 +46867,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Waiting_Hall",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "nanite_fallback_relative_error": 0.0,
+      "nanite_fallback_percent_triangles": 1.0,
+      "nanite_fallback_target": "PERCENT_TRIANGLES"
     },
     {
       "name": "SM_R12_VF06_Waiting_Hall_011_floor",
