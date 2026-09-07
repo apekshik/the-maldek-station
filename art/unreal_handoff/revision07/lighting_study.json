@@ -1,0 +1,110 @@
+[
+  {
+    "name": "R07_TestLight_Main_Platform_West",
+    "location_cm": [
+      -44830,
+      18560,
+      10565
+    ],
+    "target_cm": [
+      -44900,
+      19120,
+      10298
+    ],
+    "lumens": 13,
+    "kelvin": 4700,
+    "attenuation_radius_cm": 1000,
+    "outer_cone_degrees": 52,
+    "provisional": true
+  },
+  {
+    "name": "R07_TestLight_Main_Platform_East",
+    "location_cm": [
+      -43600,
+      18540,
+      10565
+    ],
+    "target_cm": [
+      -43700,
+      19050,
+      10298
+    ],
+    "lumens": 10,
+    "kelvin": 4700,
+    "attenuation_radius_cm": 950,
+    "outer_cone_degrees": 48,
+    "provisional": true
+  },
+  {
+    "name": "R07_TestLight_Lower_Deck_Machine",
+    "location_cm": [
+      -44750,
+      18700,
+      10225
+    ],
+    "target_cm": [
+      -44500,
+      19250,
+      9898
+    ],
+    "lumens": 9,
+    "kelvin": 3200,
+    "attenuation_radius_cm": 900,
+    "outer_cone_degrees": 50,
+    "provisional": true
+  },
+  {
+    "name": "R07_TestLight_Lower_Deck_Exit",
+    "location_cm": [
+      -44100,
+      18850,
+      10210
+    ],
+    "target_cm": [
+      -44300,
+      19550,
+      9898
+    ],
+    "lumens": 7,
+    "kelvin": 3800,
+    "attenuation_radius_cm": 1000,
+    "outer_cone_degrees": 45,
+    "provisional": true
+  },
+  {
+    "name": "R07_TestLight_Relay_Path_Bend",
+    "location_cm": [
+      -47580,
+      20680,
+      10650
+    ],
+    "target_cm": [
+      -47350,
+      20300,
+      10340
+    ],
+    "lumens": 10,
+    "kelvin": 3600,
+    "attenuation_radius_cm": 1100,
+    "outer_cone_degrees": 48,
+    "provisional": true
+  },
+  {
+    "name": "R07_TestLight_Relay_Door",
+    "location_cm": [
+      -49050,
+      20050,
+      10480
+    ],
+    "target_cm": [
+      -48580,
+      20200,
+      10198
+    ],
+    "lumens": 9,
+    "kelvin": 4000,
+    "attenuation_radius_cm": 1000,
+    "outer_cone_degrees": 48,
+    "provisional": true
+  }
+]

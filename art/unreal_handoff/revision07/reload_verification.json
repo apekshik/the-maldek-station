@@ -1,0 +1,61 @@
+{
+  "map": "/Game/MaldekRefinement/R07/BlockOut_R07",
+  "volumes": [
+    {
+      "label": "R07_Local_Station_Mist",
+      "center": "<Struct 'Vector' (0x0000021E11341550) {x: -44150.000000, y: 18750.000000, z: 10200.000000}>",
+      "radius_cm": 3600.0,
+      "radial_density": 0.6000000238418579,
+      "height_density": 0.05000000074505806,
+      "height_falloff": 2.0,
+      "albedo": "<Struct 'LinearColor' (0x000002217AFA77A4) {r: 0.700000, g: 0.750000, b: 0.800000, a: 1.000000}>",
+      "emissive": "<Struct 'LinearColor' (0x000002217AFA77B4) {r: 0.000000, g: 0.000000, b: 0.000000, a: 1.000000}>"
+    },
+    {
+      "label": "R07_Relay_Approach_Mist",
+      "center": "<Struct 'Vector' (0x0000021E11341C30) {x: -47600.000000, y: 19700.000000, z: 10200.000000}>",
+      "radius_cm": 2800.0,
+      "radial_density": 0.6000000238418579,
+      "height_density": 0.05000000074505806,
+      "height_falloff": 2.0,
+      "albedo": "<Struct 'LinearColor' (0x000002217AFA6BA4) {r: 0.700000, g: 0.750000, b: 0.800000, a: 1.000000}>",
+      "emissive": "<Struct 'LinearColor' (0x000002217AFA6BB4) {r: 0.000000, g: 0.000000, b: 0.000000, a: 1.000000}>"
+    }
+  ],
+  "study_lights": [
+    {
+      "name": "R07_TestLight_Main_Platform_West",
+      "intensity_lumens": 13.0,
+      "cast_shadows": true
+    },
+    {
+      "name": "R07_TestLight_Main_Platform_East",
+      "intensity_lumens": 10.0,
+      "cast_shadows": true
+    },
+    {
+      "name": "R07_TestLight_Lower_Deck_Machine",
+      "intensity_lumens": 9.0,
+      "cast_shadows": true
+    },
+    {
+      "name": "R07_TestLight_Lower_Deck_Exit",
+      "intensity_lumens": 7.0,
+      "cast_shadows": true
+    },
+    {
+      "name": "R07_TestLight_Relay_Path_Bend",
+      "intensity_lumens": 10.0,
+      "cast_shadows": true
+    },
+    {
+      "name": "R07_TestLight_Relay_Door",
+      "intensity_lumens": 9.0,
+      "cast_shadows": true
+    }
+  ],
+  "local_start_cm": 100,
+  "volumetric_enabled": true,
+  "moon_intensity": 0.15,
+  "sky_light_intensity": 1.0
+}

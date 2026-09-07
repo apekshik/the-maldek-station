@@ -1,0 +1,41 @@
+{
+  "sky": {
+    "Use Volumetric Fog": "True",
+    "Scale Fog Density": "0.35",
+    "Fog Color Intensity Scale": "0.2",
+    "Max Fog Start Distance": "100.0",
+    "Min Fog Start Distance": "0.0",
+    "Volumetric Fog Distance": "8000.0",
+    "Volumetric Fog Extinction": "1.0",
+    "All Fog Colors Multiplier": "<Struct 'LinearColor' (0x0000022175D1E020) {r: 0.350000, g: 0.400000, b: 0.480000, a: 1.000000}>",
+    "Volumetric Fog Albedo (Night)": "<Struct 'LinearColor' (0x0000021E1133BC20) {r: 0.450000, g: 0.480000, b: 0.520000, a: 1.000000}>"
+  },
+  "volumes": [
+    {
+      "name": "R07_Local_Station_Mist",
+      "location_cm": [
+        -44150,
+        18750,
+        10200
+      ],
+      "radius_cm": 3600,
+      "scale": 7.2,
+      "radial_extinction": 0.6,
+      "height_extinction": 0.05,
+      "height_falloff": 2.0
+    },
+    {
+      "name": "R07_Relay_Approach_Mist",
+      "location_cm": [
+        -47600,
+        19700,
+        10200
+      ],
+      "radius_cm": 2800,
+      "scale": 5.6,
+      "radial_extinction": 0.6,
+      "height_extinction": 0.05,
+      "height_falloff": 2.0
+    }
+  ]
+}
