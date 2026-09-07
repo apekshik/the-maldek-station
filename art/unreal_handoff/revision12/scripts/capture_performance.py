@@ -18,8 +18,9 @@ out=base/('baseline' if editor_world.get_name()=='Forest_Approach_Test' else 'fi
 origin=json.loads((base.parent/'working_level_report.json').read_text())['station_origin']
 shots=[('forest',(-31.7,-46.4,.9),(-26,-37,.9)),('station',(-30,-28,13),(-6,0,4)),('control',(-4,3,5.6),(-4,-3,5.4)),('dock',(4,9,5.6),(0,7,5.4)),('service',(17,-7,2),(5,1,1)),('bridge',(18,28,5.6),(12,9,4.8))]
 def wp(p):return unreal.Vector(origin[0]-p[0]*100,origin[1]+p[1]*100,origin[2]+p[2]*100)
-state={'map':editor_world.get_path_name(),'stage':'await_pie','next':time.monotonic(),'i':0,'samples':[],'deadline':time.monotonic()+300,'busy':False,'cameras':shots,'measurement':'Raw engine frames; generated display frames are not counted.'}
+state={'map':editor_world.get_path_name(),'stage':'await_pie','next':time.monotonic(),'i':0,'samples':[],'deadline':time.monotonic()+300,'busy':False,'cameras':shots,'measurement':'Raw engine frames; generated display frames are not counted.','measurement_version':'isolated-editor-v2'}
 def finish(world):
+ state['editor_rendering_restored']=list(unreal.StationMigrationLibrary.set_editor_rendering_suppressed(False))
  unreal.SystemLibrary.execute_console_command(world,'csvprofile stop')
  unreal.StationMigrationLibrary.set_pie_render_size(0,0)
  performance_settings.set_editor_property('bThrottleCPUWhenNotForeground',previous_throttle)
@@ -37,6 +38,7 @@ def tick(dt):
   pawn=unreal.GameplayStatics.get_player_pawn(world,0);pc=unreal.GameplayStatics.get_player_controller(world,0)
   if not pawn or not pc:return
   if state['stage']=='await_pie':
+   state['editor_rendering_suppressed']=list(unreal.StationMigrationLibrary.set_editor_rendering_suppressed(True));assert state['editor_rendering_suppressed']
    assert unreal.StationMigrationLibrary.set_pie_render_size(2560,1440)
    state.update(stage='resolution',next=now+4);return
   if now<state['next']:return

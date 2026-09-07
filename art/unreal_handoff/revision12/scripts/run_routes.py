@@ -21,6 +21,7 @@ def local(v):return [(origin[0]-v.x)/100,(v.y-origin[1])/100,(v.z-origin[2])/100
 settings=unreal.get_default_object(unreal.load_class(None,'/Script/UnrealEd.EditorPerformanceSettings'))
 throttle=settings.get_editor_property('bThrottleCPUWhenNotForeground');settings.set_editor_property('bThrottleCPUWhenNotForeground',False)
 state={'phase':'await','index':0,'results':[],'busy':False,'deadline':time.monotonic()+1800,'scope':JOB.get('stage','Full'),'map':world_name,'tests':tests,'teleport_policy':'Only between independent tests; no teleport, flying, jumping or crouching during a route.'}
+if JOB.get('benchmark'):state['measurement_version']='isolated-editor-v2'
 out=base/JOB.get('report','routes_'+JOB.get('stage','full').lower()+'.json')
 def save():out.write_text(json.dumps({k:v for k,v in state.items() if k!='busy'},indent=2))
 def gondola_snapshot():
@@ -29,7 +30,8 @@ def gondola_snapshot():
  names={'R04_12_Gondola'}|{r['name'].replace('SM_','') for r in json.loads((base/'handoff_manifest.json').read_text())['chunks'] if r['collection'] in ['12_Gondola','VF06_Gondola_Details']}
  return {a.get_actor_label():re.sub(r'0x[0-9A-Fa-f]+','ADDRESS',str(a.get_actor_transform())) for a in unreal.GameplayStatics.get_all_actors_of_class(w,unreal.Actor) if a.get_actor_label() in names}
 def finish():
- if JOB.get('benchmark'):unreal.StationMigrationLibrary.set_pie_render_size(0,0)
+ if JOB.get('benchmark'):
+  unreal.StationMigrationLibrary.set_pie_render_size(0,0);state['editor_rendering_restored']=list(unreal.StationMigrationLibrary.set_editor_rendering_suppressed(False))
  settings.set_editor_property('bThrottleCPUWhenNotForeground',throttle)
  state['gondola_end']=gondola_snapshot();state['gondola_stationary']=state.get('gondola_start')==state['gondola_end']
  state['success']=len(state['results'])==len(tests) and all(r['passed'] for r in state['results'])
@@ -55,6 +57,7 @@ def tick(dt):
   move=pawn.character_movement;half=pawn.capsule_component.get_scaled_capsule_half_height()
   if state['phase']=='await':
    if JOB.get('benchmark'):
+    state['editor_rendering_suppressed']=list(unreal.StationMigrationLibrary.set_editor_rendering_suppressed(True));assert state['editor_rendering_suppressed']
     assert unreal.StationMigrationLibrary.set_pie_render_size(2560,1440)
     for cmd in ['r.VSync 0','t.MaxFPS 0','r.GPUStatsEnabled 1','stat none','stat unit','stat RHI','stat streaming']:unreal.SystemLibrary.execute_console_command(world,cmd)
     state['console_settings']={n:unreal.SystemLibrary.get_console_variable_float_value(n) for n in ['r.ScreenPercentage','r.VSync','r.AntiAliasingMethod','sg.ViewDistanceQuality','sg.ShadowQuality','sg.GlobalIlluminationQuality','sg.ReflectionQuality']}

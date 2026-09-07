@@ -58,6 +58,7 @@ def tick(dt):
     for mc in a.get_components_by_class(unreal.StaticMeshComponent):
      if not mc.static_mesh or not mc.static_mesh.get_path_name().startswith('/Game/MaldekRefinement/R12/Meshes/'):continue
      for i,s in enumerate(mc.static_mesh.static_materials):
+      if 'glass' in str(s.material_slot_name).lower():continue
       path='/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_'+str(s.material_slot_name)
       if unreal.EditorAssetLibrary.does_asset_exist(path):mc.set_material(i,unreal.load_asset(path))
    state.update(mode='inspection',index=0,phase='place',next=now+3)

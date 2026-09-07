@@ -6,7 +6,8 @@
     "inspection_lights_removed": true,
     "captures": [
       "reviews/final/capture.json",
-      "reviews/final_water/capture.json"
+      "reviews/final_water/capture.json",
+      "reviews/closed_glass/capture.json"
     ],
     "accepted": true,
     "scope": "Integrated geometry and appearance; packaging, persistence and performance remain separate gates.",
@@ -14,7 +15,8 @@
       "All six reported defect views reviewed: doorway clear, front and dock grating continuous, rear surfaces coherent, sideways arrival connected, quarters stair unobstructed.",
       "Quarters floor coplanar stripe removed; furnishings and roof retained.",
       "Lower machinery, water terrace and whole station reviewed under inspection and production night lighting.",
-      "Final water night views supersede earlier overexposed trial captures."
+      "Final water night views supersede earlier overexposed trial captures.",
+      "Closed building glass reviewed from control exterior and quarters interior; pane visibility and transparency retained. Gondola single-surface glass stays two-sided and renders correctly in the dock night view."
     ]
   }
 }

@@ -198,5 +198,5 @@
   ],
   "audit": "audit_infrastructure.json",
   "visual_review": "reviews/infrastructure/visual_review.json",
-  "manifest_sha256": "1d9ca766c9416e8107f0b80d6969e6390be22c7892043153a60c6df2f45bc5cb"
+  "manifest_sha256": "62cc58087fff009db75726f535e93c0bd236ece1575702f265a29ca94d8fda3d"
 }

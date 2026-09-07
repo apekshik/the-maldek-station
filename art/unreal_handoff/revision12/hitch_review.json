@@ -1,0 +1,111 @@
+{
+  "accepted": true,
+  "capture_hashes": {
+    "baseline\\performance_capture.json": "5899394e4bf2b935e55dfe99cc2d07a5aa0eeb37226d2d996bed745fbbf2d514",
+    "baseline\\movement_capture.json": "3f6e9f1cf39e84330089f8a0903cccd9e35434efb57a7f7e87dcf3e9e642f0ca",
+    "final\\performance_capture.json": "c0792c2c6971abbda36e233c9c9f1b06589c92893449fcbb4425b48888be7295",
+    "final\\movement_capture.json": "4fb4b83a903532addf0d2c0fea9ead61c3f3c552d8ca0b48ab5e989fd1675226"
+  },
+  "sample_counts": {
+    "baseline/performance": 5787,
+    "baseline/movement": 3440,
+    "final/performance": 5663,
+    "final/movement": 3392
+  },
+  "outliers_over_33ms": [
+    {
+      "stage": "baseline",
+      "capture": "performance",
+      "group": "fixed views",
+      "sample_index": 2010,
+      "sample": {
+        "width": 2560.0,
+        "height": 1440.0,
+        "process_physical_bytes": 9338880000.0,
+        "draw_calls": 1302.0,
+        "frame_ms": 40.337799072265625,
+        "game_ms": 12.663999557495117,
+        "render_ms": 0.0017000000225380063,
+        "rhi_ms": 0.06889999657869339,
+        "gpu_ms": 8.11460018157959,
+        "streaming_texture_bytes": 504602624.0,
+        "nonstreaming_texture_bytes": 3635859456.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0,
+        "camera": "control",
+        "slate_delta_ms": 40.64150154590607
+      }
+    },
+    {
+      "stage": "baseline",
+      "capture": "movement",
+      "group": "Retained forest walking benchmark forward",
+      "sample_index": 356,
+      "sample": {
+        "width": 2560.0,
+        "height": 1440.0,
+        "process_physical_bytes": 9204547584.0,
+        "draw_calls": 1339.0,
+        "frame_ms": 37.52080154418945,
+        "game_ms": 13.493399620056152,
+        "render_ms": 0.00019999999494757503,
+        "rhi_ms": 0.0868000015616417,
+        "gpu_ms": 9.395999908447266,
+        "streaming_texture_bytes": 562733056.0,
+        "nonstreaming_texture_bytes": 3906969600.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0,
+        "point": 10,
+        "elapsed_seconds": 5.6560000000026776
+      }
+    },
+    {
+      "stage": "final",
+      "capture": "performance",
+      "group": "fixed views",
+      "sample_index": 4355,
+      "sample": {
+        "width": 2560.0,
+        "height": 1440.0,
+        "process_physical_bytes": 10420236288.0,
+        "draw_calls": 1762.0,
+        "frame_ms": 39.16669845581055,
+        "game_ms": 11.581199645996094,
+        "render_ms": 0.0007999999797903001,
+        "rhi_ms": 0.07519999891519547,
+        "gpu_ms": 9.41819953918457,
+        "streaming_texture_bytes": 996540416.0,
+        "nonstreaming_texture_bytes": 4179677184.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0,
+        "camera": "service",
+        "slate_delta_ms": 38.979001343250275
+      }
+    },
+    {
+      "stage": "final",
+      "capture": "movement",
+      "group": "Retained forest walking benchmark reverse",
+      "sample_index": 431,
+      "sample": {
+        "width": 2560.0,
+        "height": 1440.0,
+        "process_physical_bytes": 10377424896.0,
+        "draw_calls": 1006.0,
+        "frame_ms": 42.2775993347168,
+        "game_ms": 14.07349967956543,
+        "render_ms": 0.00019999999494757503,
+        "rhi_ms": 0.09480000287294388,
+        "gpu_ms": 9.215100288391113,
+        "streaming_texture_bytes": 996540416.0,
+        "nonstreaming_texture_bytes": 4197568512.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0,
+        "point": 14,
+        "elapsed_seconds": 6.687999999994645
+      }
+    }
+  ],
+  "hitches_over_50ms": 0,
+  "review": "Two isolated R12 outliers: 39.17 ms at the service view and 42.28 ms on reverse forest walking, point 14 at 6.688 seconds. Their GPU times were 9.42 and 9.22 ms and game-thread counters 11.58 and 14.07 ms, so these do not demonstrate a GPU workload stall. No repeated >33 ms clusters or >50 ms samples occurred in these captures. Baseline also has isolated >33 ms frames. The exact source of the wall-clock outliers is unproven; they are retained rather than filtered. p95/p99 results remain in the paired reports. This finite sample is not a guarantee of hitch-free play."
+}

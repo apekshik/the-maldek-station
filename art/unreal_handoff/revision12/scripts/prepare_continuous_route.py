@@ -17,8 +17,9 @@ add([[-13.15,-12.2,4],[-13.15,-8.1,4],[-13.15,-7.4,4]]);route('Waiting hall inte
 route('Boarding threshold');route('Boarding threshold',True);add([[4.5,4.5,4],[4.5,7.5,4],[7,7.5,4]])
 route('Internal descending stair',True);add([[7,-.5,0],[12,-6.7,0]])
 route('Service descent lower exit',True);route('Exterior_service');route('Exterior_service',True);route('Service descent lower exit')
-add([[18,-6.7,0]]);route('Service_road');add([[30,-15,-1],[31.5,-15.5,-1]])
-route('Workshop shared west door');route('Workshop shared west door',True);add([[30,-15,-1],[27,-15,-1]])
+generator_aisle=[[27,-15,-1],[27.42,-15,-1],[27.42,-14.4,-1],[27.52,-14.05,-1],[28.4,-13.75,-1],[31.5,-13.75,-1],[31.5,-15.5,-1]]
+add([[18,-6.7,0]]);route('Service_road');add(generator_aisle)
+route('Workshop shared west door');route('Workshop shared west door',True);add(generator_aisle[::-1])
 route('Service_road',True)
 # Water terrace is an out-and-back from the surveyed service road bend.
 add(r['Service_road'][:21]);route('Water terrace access');route('Water terrace access',True);add(r['Service_road'][:21][::-1])

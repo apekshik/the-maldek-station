@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "repository": "C:\\Users\\apek-anna\\Developer\\maldek-r12-verification",
+  "source_sha256": "e2ce19363f35f7fbef1860f5d5591e53ccf0b97d989085153b631a82558724dd",
+  "assemblies": 328,
+  "texture_sets": 40,
+  "textures": 120,
+  "export_triangles": 5027642,
+  "checks": "Source, FBX and texture SHA-256; imported ledger hash coverage; all 328 Unreal meshes and level exist."
+}

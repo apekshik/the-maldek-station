@@ -20,8 +20,45 @@
 #include "InstancedFoliage.h"
 #include "FoliageType.h"
 #include "Engine/Blueprint.h"
+#include "Editor.h"
+#include "LevelEditorViewport.h"
 
 IMPLEMENT_MODULE(FDefaultModuleImpl, StationMigrationTools)
+
+TArray<FString> UStationMigrationLibrary::SetEditorRenderingSuppressed(bool bSuppressed)
+{
+    static TMap<FLevelEditorViewportClient*, bool> SavedRendering;
+    static const FText OverrideName = FText::FromString(TEXT("R12 benchmark isolation"));
+    TArray<FString> Report;
+    if (!GEditor) return Report;
+    int32 Index = 0;
+    for (FLevelEditorViewportClient* Client : GEditor->GetLevelViewportClients())
+    {
+        if (!Client) continue;
+        const bool WasRealtime = Client->IsRealtime();
+        const bool WasRendering = Client->EngineShowFlags.Rendering;
+        const FString PriorOverride = Client->GetRealtimeOverrideMessage().ToString();
+        if (bSuppressed)
+        {
+            if (!SavedRendering.Contains(Client))
+            {
+                SavedRendering.Add(Client, WasRendering);
+                Client->AddRealtimeOverride(false, OverrideName);
+            }
+            Client->EngineShowFlags.SetRendering(false);
+        }
+        else if (const bool* Previous = SavedRendering.Find(Client))
+        {
+            Client->EngineShowFlags.SetRendering(*Previous);
+            Client->RemoveRealtimeOverride(OverrideName, false);
+        }
+        Report.Add(FString::Printf(TEXT("Viewport %d: realtime %d -> %d; rendering %d -> %d; prior override: %s"),
+            Index++, WasRealtime, Client->IsRealtime(), WasRendering, Client->EngineShowFlags.Rendering, *PriorOverride));
+        Client->Invalidate();
+    }
+    if (!bSuppressed) SavedRendering.Empty();
+    return Report;
+}
 
 bool UStationMigrationLibrary::IsBlueprintUpToDate(UBlueprint* Blueprint)
 {

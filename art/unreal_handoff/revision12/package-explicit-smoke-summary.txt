@@ -1,0 +1,7 @@
+[2026.09.07-16.44.18:250][  0]LogLoad: Game class is 'BP_ForestGameMode_C'
+[2026.09.07-16.44.18:498][  0]LogWorld: Bringing World /Game/MaldekRefinement/R12/Station_R12.Station_R12 up for play (max tick rate 0) at 2026.09.07-09.44.18
+[2026.09.07-16.44.18:877][  0]                           BP_ForestWalker_C /Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.BP_ForestWalker_C_2147482399      1.99       2.12       0.00            0.00            0.00            0.00
+[2026.09.07-16.44.18:878][  0]   SurfaceFootstepComponent /Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.BP_ForestWalker_C_2147482399.SurfaceFootsteps      0.62       0.66       0.00            0.00            0.00            0.00
+[2026.09.07-16.44.20:682][122]LogClient: High resolution screenshot saved as C:/Users/apek-anna/Developer/the-maldek-station/art/unreal_handoff/revision12/package-explicit-startup.png
+[2026.09.07-16.44.57:615][601]LogWindows: FPlatformMisc::RequestExit(0, FEngineLoop::Tick.Benchmarking)
+[2026.09.07-16.44.58:678][602]LogExit: Exiting.

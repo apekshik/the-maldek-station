@@ -20197,7 +20197,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Control",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "material_bindings_override": {
+        "UE_VF_Window_Glass__Exterior": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass__Exterior.MI_Closed_UE_VF_Window_Glass__Exterior"
+      }
     },
     {
       "name": "SM_R12_VF06_Control_009_solid",
@@ -28131,7 +28134,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Maintenance_Shells",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "material_bindings_override": {
+        "UE_VF06_Glass__Exterior": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF06_Glass__Exterior.MI_Closed_UE_VF06_Glass__Exterior"
+      }
     },
     {
       "name": "SM_R12_VF06_Maintenance_Shells_008_solid",
@@ -31679,7 +31685,10 @@
       "replacement_targets": [],
       "stage": "Architecture",
       "collection": "VF06_Quarters",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "material_bindings_override": {
+        "UE_VF_Window_Glass_001__Indoor": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_001__Indoor.MI_Closed_UE_VF_Window_Glass_001__Indoor"
+      }
     },
     {
       "name": "SM_R12_VF06_Quarters_003_solid",
@@ -35141,7 +35150,10 @@
       "replacement_targets": [],
       "stage": "Architecture",
       "collection": "VF06_Quarters",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "material_bindings_override": {
+        "UE_VF_Window_Glass_001__Indoor": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_001__Indoor.MI_Closed_UE_VF_Window_Glass_001__Indoor"
+      }
     },
     {
       "name": "SM_R12_VF06_Quarters_006_solid",
@@ -37744,7 +37756,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Relay_Shell",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "material_bindings_override": {
+        "UE_VF06_Glass__Exterior": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF06_Glass__Exterior.MI_Closed_UE_VF06_Glass__Exterior"
+      }
     },
     {
       "name": "SM_R12_VF06_Relay_Shell_003_solid",
@@ -42237,7 +42252,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Waiting_Hall",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "material_bindings_override": {
+        "UE_VF_Window_Glass_002__Exterior": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_002__Exterior.MI_Closed_UE_VF_Window_Glass_002__Exterior"
+      }
     },
     {
       "name": "SM_R12_VF06_Waiting_Hall_003_solid",
@@ -45682,7 +45700,10 @@
       ],
       "stage": "Architecture",
       "collection": "VF06_Waiting_Hall",
-      "source_collision_guides": []
+      "source_collision_guides": [],
+      "material_bindings_override": {
+        "UE_VF_Window_Glass_002__Exterior": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_002__Exterior.MI_Closed_UE_VF_Window_Glass_002__Exterior"
+      }
     },
     {
       "name": "SM_R12_VF06_Waiting_Hall_010_solid",

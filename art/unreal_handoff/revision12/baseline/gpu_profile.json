@@ -1,0 +1,6338 @@
+[
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "<root>",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 2.58
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Frame 12768",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "RenderGraphExecute - UpdateAllPrimitiveSceneInfos",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "BufferPoolCopyOps",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TexturePoolCopyOps",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Frame 12769",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 2.576
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SceneRender - ViewFamilies",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 2.571
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "RenderGraphExecute - /ViewFamilies",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 2.568
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Scene",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 2.566
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FXSystemPreRender",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "AccessModePass[AsyncCompute] (Textures: 0, Buffers: 1)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "AccessModePass[AsyncCompute] (Textures: 4, Buffers: 1)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "PrepareImageBasedVRS",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.093
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ContrastAdaptiveShading",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.093
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CreateShadingRateImage",
+    "exclusive_ms": 0.078,
+    "inclusive_ms": 0.078
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ReprojectShadingRateImage",
+    "exclusive_ms": 0.014,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "LocalFogVolumeVolumes",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.017
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(LocalFogVolume.DispatchIndirectBuffer Size=16bytes)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "LocalFogVolume.TiledCulling",
+    "exclusive_ms": 0.014,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CaptureConvolveSkyEnvMap",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "RenderSky StartFace=3 EndFace=4",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Capture Face=3",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Capture Sky Materials",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "AccessModePass[AsyncCompute] (Textures: 5, Buffers: 2)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "LumenSceneUpdate: 37 card captures 0.002M texels",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "AccessModePass[AsyncCompute] (Textures: 1, Buffers: 0)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "RayTracingDynamicGeometry",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "RayTracingDynamicUpdate",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "RayTracingDynamicGeometryUpdate",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "LumenSceneLighting",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.497
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "BuildCardUpdateContext",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.034
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearCardUpdateContext",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "BuildPageUpdatePriorityHistogram",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Select max update bucket",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Build cards update list",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SetCardPageIndexIndirectArgs",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "DirectLighting",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.218
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CullTiles 26 lights",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.085
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.CardTileAllocator Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SpliceCardPagesIntoTiles",
+    "exclusive_ms": 0.019,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "InitializeCardTileIndirectArgs",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CalculateCardTileDepthRanges",
+    "exclusive_ms": 0.022,
+    "inclusive_ms": 0.022
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.DirectLighting.LightTileAllocator Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.DirectLighting.LightTileAllocatorPerLight Size=128bytes)",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.DirectLighting.LightTileAllocatorForPerCardTileDispatch Size=4bytes)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "BuildLightTiles",
+    "exclusive_ms": 0.014,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ComputeLightTileOffsetsPerLight",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "InitializeLightTileIndirectArgs",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.DirectLighting.CompactedLightTileAllocatorPerLight Size=128bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CompactLightTiles",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.DirectLighting.ShadowTraceAllocator Size=4bytes)",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Light Attenuation ShadowMask",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.043
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ShadowMaskFromLightAttenuationPass(LF,UEDPIE_0_Forest_Approach_Test.Ultra_Dynamic_Sky)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ShadowMaskFromLightAttenuationPass(LF,UEDPIE_0_Forest_Approach_Test.BP_ForestWalker_C_0)",
+    "exclusive_ms": 0.011,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ShadowMaskFromLightAttenuationPass(LightType=1)",
+    "exclusive_ms": 0.024,
+    "inclusive_ms": 0.024
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ShadowMaskFromLightAttenuationPass(LightType=2)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "InitShadowTraceIndirectArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Offscreen shadows",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.024
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FLumenDirectLightingHardwareRayTracingIndirectArgsCS",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "LumenDirectLightingHardwareRayTracingCS",
+    "exclusive_ms": 0.02,
+    "inclusive_ms": 0.02
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Lights",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.047
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Batched lights",
+    "exclusive_ms": 0.046,
+    "inclusive_ms": 0.046
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CombineLighting CS",
+    "exclusive_ms": 0.011,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Radiosity",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.244
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.CardTileAllocator Size=4bytes)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.RadiosityTileAllocator Size=4bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "BuildRadiosityTiles",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "IndirectArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "HardwareRayTracingCS <indirect> 4x4 probes at 4 spacing",
+    "exclusive_ms": 0.117,
+    "inclusive_ms": 0.117
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SpatialFilterProbes",
+    "exclusive_ms": 0.058,
+    "inclusive_ms": 0.058
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ConvertToSH",
+    "exclusive_ms": 0.011,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Integrate",
+    "exclusive_ms": 0.022,
+    "inclusive_ms": 0.022
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CombineLighting CS",
+    "exclusive_ms": 0.01,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "DiffuseIndirectAndAO",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 1.631
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "LumenScreenProbeGather",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 1.387
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "UniformPlacement DownsampleFactor=16",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearTextureUint(Lumen.ScreenProbeGather.ScreenTileAdaptiveProbeHeader R32_UINT 97x55 Mip=0)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.ScreenProbeGather.NumAdaptiveScreenProbes Size=4bytes)",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "AdaptivePlacementMark 4x2",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "AdaptivePlacementSpawn",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SetupAdaptiveProbeIndirectArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ComputeBRDF_PDF",
+    "exclusive_ms": 0.024,
+    "inclusive_ms": 0.024
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "UpdateRadianceCaches",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.533
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearProbeIndirectionCS",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "MarkRadianceProbes(ScreenProbes) 97x82",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "MarkRadianceProbesUsedByTranslucencyVolume",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "UpdateCacheForUsedProbes",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "UpdateCacheForUsedProbes",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearRadianceCacheUpdateResources",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearRadianceCacheUpdateResources",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "AllocateUsedProbes",
+    "exclusive_ms": 0.01,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "AllocateUsedProbes",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SelectMaxPriorityBucket",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SelectMaxPriorityBucket",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "AllocateProbeTraces",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "AllocateProbeTraces",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SetupProbeIndirectArgsCS",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SetupProbeIndirectArgsCS",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "GenerateProbeTraceTiles",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "GenerateProbeTraceTiles",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SetupTraceFromProbesCS",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SetupTraceFromProbesCS",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "HardwareRayTracingIndirectArgs BatchSize:2",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "HardwareRayTracingCS default",
+    "exclusive_ms": 0.38,
+    "inclusive_ms": 0.38
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CompositeTracesIntoAtlas",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FilterProbeRadiance Res=32x32",
+    "exclusive_ms": 0.016,
+    "inclusive_ms": 0.016
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FilterProbeRadiance Res=8x8",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FixupBordersAndGenerateMips",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FixupBordersAndGenerateMips",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ComputeLightingPDF",
+    "exclusive_ms": 0.033,
+    "inclusive_ms": 0.033
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "GenerateRays 8x8",
+    "exclusive_ms": 0.028,
+    "inclusive_ms": 0.028
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearTraces 8x8",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TraceScreen(Scene)",
+    "exclusive_ms": 0.081,
+    "inclusive_ms": 0.081
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.ScreenProbeGather.CompactedTraceTexelAllocator Size=4bytes)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CompactTraces WaveOps:1",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SetupCompactedTracesIndirectArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "LumenScreenProbeGatherHardwareRayTracingIndirectArgsCS",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "HardwareRayTracingCS default",
+    "exclusive_ms": 0.072,
+    "inclusive_ms": 0.072
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.ScreenProbeGather.CompactedTraceTexelAllocator Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CompactTraces WaveOps:1",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SetupCompactedTracesIndirectArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "RadianceCacheInterpolate",
+    "exclusive_ms": 0.032,
+    "inclusive_ms": 0.032
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CompositeTraces",
+    "exclusive_ms": 0.014,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "CalculateMoving",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FilterRadianceWithGather",
+    "exclusive_ms": 0.024,
+    "inclusive_ms": 0.024
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FilterRadianceWithGather",
+    "exclusive_ms": 0.019,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FilterRadianceWithGather",
+    "exclusive_ms": 0.025,
+    "inclusive_ms": 0.025
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ScreenProbeConvertToIrradiance Format:0 WaveOpWaveSize:32 AO:0",
+    "exclusive_ms": 0.039,
+    "inclusive_ms": 0.039
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FixupBorders",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ShortRangeAO_ScreenSpace_StochasticHemisphere(Rays=4, Steps=4, DownsampleFactor:2, BentNormal:1)",
+    "exclusive_ms": 0.019,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Integrate",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.246
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "InitScreenProbeTileIndirectArgs",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TileClassificationBuildLists",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ScreenProbeIntegrateClearUnusedTileData",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SimpleDiffuse DownsampleFactor:1",
+    "exclusive_ms": 0.064,
+    "inclusive_ms": 0.064
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SupportImportanceSampleBRDF DownsampleFactor:1",
+    "exclusive_ms": 0.163,
+    "inclusive_ms": 0.163
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SupportAll DownsampleFactor:1",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TemporalReprojection(1552x873)",
+    "exclusive_ms": 0.099,
+    "inclusive_ms": 0.099
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TranslucencyVolumeLighting",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.244
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "HardwareRayTracing (inline) 3822x84",
+    "exclusive_ms": 0.179,
+    "inclusive_ms": 0.179
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SpatialFilter",
+    "exclusive_ms": 0.023,
+    "inclusive_ms": 0.023
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SpatialFilter",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "SpatialFilter",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "Integrate 49x28x26",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "ComputeVolumetricFog",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "VolumetricFog",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "VolumetricFog::InitialiseVolume",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "VolumetricFog::VoxelizePrimitives",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "VoxelizeVolumePrimitives",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TemporalSuperResolution",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TSR MeasureThinGeometryCoverage(#1Foliage&Hair) 1552x873",
+    "exclusive_ms": 0.01,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "PostProcessing",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.289
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TemporalSuperResolution(sg.AntiAliasingQuality=3) 1552x873 -> 2560x1440",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.288
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TSR ClearPrevTextures 1552x873",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TSR DilateVelocity(#3 MotionBlurDirections=0 ReprojectionField OutputIsMoving) 1552x873",
+    "exclusive_ms": 0.144,
+    "inclusive_ms": 0.144
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TSR DecimateHistory(#7 ReprojectMoire ReprojectResurrection ThinGeometryCoverage) 1552x873",
+    "exclusive_ms": 0.065,
+    "inclusive_ms": 0.065
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TSR DetectThinGeometry(#17 TileSize=26 PaddingCostMultiplier=1.5 WaveSize=32 VALU=32bit) 1552x873",
+    "exclusive_ms": 0.054,
+    "inclusive_ms": 0.054
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "TSR WeightRelaxation(#1 TileSize=32 PaddingCostMultiplier=1.0 WaveSize=32 VALU=32bit) 1552x873",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "RenderGraphExecute - Slate",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "FRDGBuilder::SubmitBufferUploads",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Compute 0 - GPU 0",
+    "event": "RenderGraphExecute - UpdateAllPrimitiveSceneInfos",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "<root>",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 7.536
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BufferPoolCopyOps",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TexturePoolCopyOps",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Frame 12769",
+    "exclusive_ms": 0.027,
+    "inclusive_ms": 7.528
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "WorldTick",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "WorldTick",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SendAllEndOfFrameUpdates",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SceneRender - ViewFamilies",
+    "exclusive_ms": 0.206,
+    "inclusive_ms": 6.615
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RayTracingGeometry",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPUSkinCache_UpdateSkinningBatches",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.065
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_Goat_Willow_01_D LOD=0 Chunk=0 InStreamStart=0 OutStart=0 Vert=1209 Morph=0/0",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_Goat_Willow_01_D LOD=0 Chunk=1 InStreamStart=1209 OutStart=1209 Vert=882 Morph=0/0",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_Goat_Willow_01_D LOD=0 Chunk=2 InStreamStart=2091 OutStart=2091 Vert=858 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_Goat_Willow_01_D LOD=0 Chunk=3 InStreamStart=2949 OutStart=2949 Vert=753 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_Goat_Willow_01_D LOD=0 Chunk=4 InStreamStart=3702 OutStart=3702 Vert=9771 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_Goat_Willow_01_D LOD=0 Chunk=5 InStreamStart=13473 OutStart=13473 Vert=3879 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_C LOD=0 Chunk=0 InStreamStart=0 OutStart=0 Vert=1263 Morph=0/0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_C LOD=0 Chunk=1 InStreamStart=1263 OutStart=1263 Vert=454 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_C LOD=0 Chunk=2 InStreamStart=1717 OutStart=1717 Vert=4545 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_A LOD=0 Chunk=0 InStreamStart=0 OutStart=0 Vert=1314 Morph=0/0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_A LOD=0 Chunk=1 InStreamStart=1314 OutStart=1314 Vert=1098 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_A LOD=0 Chunk=2 InStreamStart=2412 OutStart=2412 Vert=835 Morph=0/0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_A LOD=0 Chunk=3 InStreamStart=3247 OutStart=3247 Vert=414 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_A LOD=0 Chunk=4 InStreamStart=3661 OutStart=3661 Vert=5298 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_A LOD=0 Chunk=5 InStreamStart=8959 OutStart=8959 Vert=3063 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_C LOD=0 Chunk=0 InStreamStart=0 OutStart=0 Vert=1263 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_C LOD=0 Chunk=1 InStreamStart=1263 OutStart=1263 Vert=454 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_C LOD=0 Chunk=2 InStreamStart=1717 OutStart=1717 Vert=4545 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Aspen_01_A LOD=0 Chunk=0 InStreamStart=0 OutStart=0 Vert=1087 Morph=0/0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Aspen_01_A LOD=0 Chunk=1 InStreamStart=1087 OutStart=1087 Vert=934 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Aspen_01_A LOD=0 Chunk=2 InStreamStart=2021 OutStart=2021 Vert=864 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Aspen_01_A LOD=0 Chunk=3 InStreamStart=2885 OutStart=2885 Vert=559 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Aspen_01_A LOD=0 Chunk=4 InStreamStart=3444 OutStart=3444 Vert=2796 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Aspen_01_A LOD=0 Chunk=5 InStreamStart=6240 OutStart=6240 Vert=1629 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_D LOD=0 Chunk=0 InStreamStart=0 OutStart=0 Vert=1667 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_D LOD=0 Chunk=1 InStreamStart=1667 OutStart=1667 Vert=4824 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_B LOD=0 Chunk=0 InStreamStart=0 OutStart=0 Vert=1155 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_B LOD=0 Chunk=1 InStreamStart=1155 OutStart=1155 Vert=903 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_B LOD=0 Chunk=2 InStreamStart=2058 OutStart=2058 Vert=970 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_B LOD=0 Chunk=3 InStreamStart=3028 OutStart=3028 Vert=438 Morph=0/0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_B LOD=0 Chunk=4 InStreamStart=3466 OutStart=3466 Vert=4086 Morph=0/0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_B LOD=0 Chunk=5 InStreamStart=7552 OutStart=7552 Vert=2904 Morph=0/0",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_C LOD=0 Chunk=0 InStreamStart=0 OutStart=0 Vert=1263 Morph=0/0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_C LOD=0 Chunk=1 InStreamStart=1263 OutStart=1263 Vert=454 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_C LOD=0 Chunk=2 InStreamStart=1717 OutStart=1717 Vert=4545 Morph=0/0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_D LOD=0 Chunk=0 InStreamStart=0 OutStart=0 Vert=1667 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "[RT]Skinning0000 Mesh=SK_European_Beech_01_D LOD=0 Chunk=1 InStreamStart=1667 OutStart=1667 Vert=4824 Morph=0/0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Skinning0010 Mesh=SKM_Manny_Simple LOD=0 Chunk=0 InStreamStart=0 OutStart=0 Vert=20101 Morph=0/0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Skinning0010 Mesh=SKM_Manny_Simple LOD=0 Chunk=1 InStreamStart=20101 OutStart=20101 Vert=28604 Morph=0/0",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScaleVariableRateShadingTexture",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UpdateLumenSceneBuffers",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NiagaraGpuComputeDispatch",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RenderGraphExecute - /ViewFamilies",
+    "exclusive_ms": 0.023,
+    "inclusive_ms": 6.339
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FRDGBuilder::SubmitBufferUploads",
+    "exclusive_ms": 0.027,
+    "inclusive_ms": 0.027
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearGPUMessageBuffer",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UpdateAllPrimitiveSceneInfos",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.056
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Shadow.Virtual.ProcessInvalidations",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.025
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InvalidateInstancePagesLoadBalancerCS (1 batches)",
+    "exclusive_ms": 0.025,
+    "inclusive_ms": 0.025
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPUSceneUpdate",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPUScene.Update",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UpdateGPUScene NumPrimitiveDataUploads 1",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: GPUScene.PrimitiveData)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: GPUScene.InstanceSceneData)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Shadow.Virtual.ProcessInvalidations",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.018
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InvalidateInstancePagesLoadBalancerCS (1 batches)",
+    "exclusive_ms": 0.018,
+    "inclusive_ms": 0.018
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShaderPrint::UploadParameters",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UpdateDistanceFieldAtlas",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.064
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(DistanceFields.DistanceFieldAssetWantedNumMips Size=128bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ComputeWantedMips",
+    "exclusive_ms": 0.048,
+    "inclusive_ms": 0.048
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GenerateStreamingRequests",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DistanceFieldAssetReadback",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::Streaming",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.047
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::Readback",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.046
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Readback",
+    "exclusive_ms": 0.04,
+    "inclusive_ms": 0.04
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearStreamingRequestCount",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Scene",
+    "exclusive_ms": 0.098,
+    "inclusive_ms": 6.101
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FXSystemPreRender",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AccessModePass[Graphics] (Textures: 0, Buffers: 1)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPUParticles_PreRender",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPU KeyGen & Sort",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.058
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPUSort_Batch0(LowPrecision)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.057
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "KeyGen_FNiagaraGpuComputeDispatch",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Owner://STATGROUP_NiagaraEmitters//Snow/GPU_Stuck_Snow[RT]####STATCAT_Niagara####_2425855",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Sort(1817)",
+    "exclusive_ms": 0.051,
+    "inclusive_ms": 0.051
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NiagaraUpdateDrawIndirectBuffers",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPUSceneUpdate",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(ViewData.DeformingInstanceViewMask Size=10520bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: SceneCulling.Items)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: SceneCulling.ItemChunks)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SceneCulling_ComputeExplicitChunkBounds",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ComputeExplicitChunkBounds",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearIndirectDispatchArgs",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NaniteSkinningUpdateViewDataChunks",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NaniteSkinningUpdateViewData",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Skinning",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ProvideAnimRuntimeTransforms",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: Skinning.BoneTransforms)",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Shadow.Virtual.CacheInstanceAsDynamic Size=21040bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildRenderingCommandsDeferred(Culling=On)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.018
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(InstanceCulling.Compaction.BlockInstanceCounts Size=4bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearIndirectArgInstanceCount",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CullInstances(UnCulled). Bin 0",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CullInstances(Generic). Bin 1",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Instance Compaction Phase 1",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Instance Compaction Phase 2",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearIndirectDispatchArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VSMUpdateViewInstanceState",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Shadow.Virtual.ProcessInvalidationsGPU",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ProcessInvalidationQueueGPU",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Substrate.SubstrateTileDrawIndirectBuffer Size=144bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AccessModePass[Graphics] (Textures: 6, Buffers: 3)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearDepthStencil (SceneDepthZ)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PrePass DDM_AllOpaqueNoVelocity (Forced by Nanite)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.164
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DepthPassParallel",
+    "exclusive_ms": 0.026,
+    "inclusive_ms": 0.161
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 0, Num: 6)",
+    "exclusive_ms": 0.032,
+    "inclusive_ms": 0.032
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 1, Num: 6)",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 2, Num: 6)",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 3, Num: 6)",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 4, Num: 6)",
+    "exclusive_ms": 0.01,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 5, Num: 6)",
+    "exclusive_ms": 0.069,
+    "inclusive_ms": 0.069
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "EditorPrimitives",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RenderVelocities(Opaque)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearRenderTarget(SceneVelocity, slice 0, mip 0) 1552x880 ClearAction",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VelocityParallel",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 0, Num: 1)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::VisBuffer",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.021
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::InitContext",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterClear",
+    "exclusive_ms": 0.019,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::VisBuffer",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.29
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::DrawGeometry",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.29
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitArgs",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitArgs",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.SplitWorkQueue.StateBuffer Size=12bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.OccludedPatches.StateBuffer Size=12bytes)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MainPass",
+    "exclusive_ms": 0.019,
+    "inclusive_ms": 0.129
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCulling",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.027
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HierarchyCellChunkCull",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HierarchyChunkCull",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceHierarchyAppendUncullable",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceHierarchySanitizeInstanceArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCull - GroupWork",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeAndClusterCull",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.035
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitNodeCullArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_1",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_2",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_3",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_4",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_5",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_6",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_7",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_8",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_9",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_10",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_11",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_12",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitClusterCullArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClusterCull",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CalculateSafeRasterizerArgs",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinInit",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.DepthBuckets Size=86016bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinCount",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.RangeAllocatorBuffer Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinReserve",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinDepthBlock",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinScatter",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinFinalize",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Tessellated)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HW Rasterize (Triangles)",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Triangles)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearVisiblePatchesArgs",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitPatchSplitArgs",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_1",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_2",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_3",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_4",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_5",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitVisiblePatchesArgs",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinInit",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinCount",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.RangeAllocatorBuffer Size=4bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinReserve",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinScatter",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Patches)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildPreviousOccluderHZB",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildHZB",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.016
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReduceHZB(mips=[0;3] Furthest) 1024x512",
+    "exclusive_ms": 0.01,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReduceHZB(mips=[4;7] Furthest) 64x32",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReduceHZB(mips=[8;9] Furthest) 4x2",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PostPass",
+    "exclusive_ms": 0.017,
+    "inclusive_ms": 0.118
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCulling",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HierarchyChunkCull",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceHierarchySanitizeInstanceArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCull",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCull - GroupWork",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeAndClusterCull",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.033
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitNodeCullArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_1",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_2",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_3",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_4",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_5",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_6",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_7",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_8",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_9",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_10",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_11",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_12",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitClusterCullArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClusterCull",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CalculateSafeRasterizerArgs",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinInit",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.DepthBuckets Size=86016bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinCount",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.RangeAllocatorBuffer Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinReserve",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinDepthBlock",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinScatter",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinFinalize",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Tessellated)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HW Rasterize (Triangles)",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Triangles)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearVisiblePatchesArgs",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitPatchSplitArgs",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_1",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_2",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_3",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_4",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_5",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitVisiblePatchesArgs",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinInit",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinCount",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.RangeAllocatorBuffer Size=4bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinReserve",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinScatter",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Patches)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NaniteFeedbackStatus",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NaniteBasePass",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.028
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::EmitDepthTargets",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.027
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearRenderTarget(Nanite.ShadingMask, slice 0, mip 0) 1552x880 ClearAction",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Emit Scene Depth/Resolve/Velocity",
+    "exclusive_ms": 0.016,
+    "inclusive_ms": 0.016
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Emit Scene Stencil",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FVirtualShadowMapArray::UpdatePhysicalPageAddresses",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HZB",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BeginOcclusionTests",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BeginOcclusionTests",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BeginOcclusionTests",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ViewOcclusionTests 0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BeginOcclusionTests",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShadowFrustumQueries",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GroupedQueries",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "IndividualQueries",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HZB",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.026
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildHZB(ViewId=0)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.026
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildHZB",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.026
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReduceHZB(mips=[0;3] Closest Furthest) 1024x512",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReduceHZB(mips=[4;7] Furthest) 64x32",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReduceHZB(mips=[4;7] Closest) 64x32",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReduceHZB(mips=[8;9] Furthest) 4x2",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReduceHZB(mips=[8;9] Closest) 4x2",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ComputeLightGrid",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.023
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CullLights 25x14x32 NumLights 12 NumCaptures 0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.02
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(CulledLightLinkAllocator Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(CulledLightDataAllocator Size=4bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(NumCulledLightsGrid Size=179200bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LightGridInject LinkedList SingleThread",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LightGridFeedbackStatus",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LightFunctionAtlasGeneration",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LightFunctionAtlas Generation",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SkyAtmosphereLUTs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.069
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SkyAtmosphere::DistantSkyLightLut",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DistantSkyLightLut",
+    "exclusive_ms": 0.011,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SkyAtmosphere::RealTimeCaptureSkyViewLut",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RealTimeCaptureSkyViewLut",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SkyAtmosphere::RealTimeCaptureCamera360VolumeLut",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RealTimeCaptureCamera360VolumeLut",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SkyAtmosphere::SkyViewLut",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SkyViewLut",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SkyAtmosphere::CameraVolumeLut",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.017
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CameraVolumeLut",
+    "exclusive_ms": 0.014,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CaptureConvolveSkyEnvMap",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.024
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RenderSky StartFace=3 EndFace=4",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.023
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Capture Face=3",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.023
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Capture Sky Materials",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.017
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AccessModePass[Graphics] (Textures: 5, Buffers: 2)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CaptureSkyMeshReflection",
+    "exclusive_ms": 0.016,
+    "inclusive_ms": 0.016
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DistantHeightFog",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LumenSceneUpdate: 37 card captures 0.002M texels",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.196
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AccessModePass[Graphics] (Textures: 1, Buffers: 0)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ResampleLightingHistoryToCardCaptureAtlasCS",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: Lumen.Cards)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: Lumen.PrimitiveGroup)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: Lumen.MeshCards)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearCardCapture",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::InitContext",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearTextureRects(Nanite.VisBuffer64 PF_R32G32_UINT 512x512 Mip=0)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::RasterizeLumenCards",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.117
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::DrawGeometry",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.117
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitArgs",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NoOcclusionPass",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.113
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCulling",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCull - Explicit List",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeAndClusterCull",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.051
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitNodeCullArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_0",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_1",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_2",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_3",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_4",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_5",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_6",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_7",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_8",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_9",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_10",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_11",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_12",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitClusterCullArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClusterCull",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CalculateSafeRasterizerArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinInit",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.DepthBuckets Size=86016bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinCount",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.RangeAllocatorBuffer Size=4bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinReserve",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinDepthBlock",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinScatter",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinFinalize",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HW Rasterize (Triangles)",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Triangles)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NaniteFeedbackStatus",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::LumenMeshCapturePass",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.02
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LumenShadeCS",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "1 materials",
+    "exclusive_ms": 0.014,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Mark Stencil",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Emit Depth",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CopyCardsToSurfaceCache",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.036
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CopyToSurfaceCache Depth",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CompressToSurfaceCache Albedo",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CopyToSurfaceCache Opacity",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CompressToSurfaceCache Normal",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CompressToSurfaceCache Emissive",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CopyCardCaptureLightingToAtlas",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CompositionBeforeBasePass",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.031
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DeferredDecals BeforeBasePass",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.03
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearRenderTarget(DBufferA, slice 0, mip 0) 1552x880 ClearAction",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearRenderTarget(DBufferB, slice 0, mip 0) 1552x880 ClearAction",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearRenderTarget(DBufferC, slice 0, mip 0) 1552x880 ClearAction",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MeshDecal_DBuffer",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.021
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 0, Num: 1)",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CopyBuffer(NaniteRayTracing.AuxiliaryDataBuffer Size=64bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RayTracingDynamicGeometry",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.07
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RayTracingDynamicUpdate",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RayTracingDynamicGeometryUpdate",
+    "exclusive_ms": 0.016,
+    "inclusive_ms": 0.016
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RayTracingDynamicUpdateBuild",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.05
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Build",
+    "exclusive_ms": 0.049,
+    "inclusive_ms": 0.049
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RayTracingScene",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.127
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(FRayTracingScene::InstanceStatsBuffer Size=12bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RayTracingBuildInstanceBuffer",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RayTracingBuildScene",
+    "exclusive_ms": 0.115,
+    "inclusive_ms": 0.115
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SetRayTracingBindings",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SetRayTracingBindingsInline",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.FeedbackAllocator Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.Feedback Size=42680bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GBufferClear",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BasePass",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.436
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BasePassParallel",
+    "exclusive_ms": 0.036,
+    "inclusive_ms": 0.323
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 0, Num: 6)",
+    "exclusive_ms": 0.14,
+    "inclusive_ms": 0.14
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 1, Num: 6)",
+    "exclusive_ms": 0.022,
+    "inclusive_ms": 0.022
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 2, Num: 6)",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 3, Num: 6)",
+    "exclusive_ms": 0.034,
+    "inclusive_ms": 0.034
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 4, Num: 6)",
+    "exclusive_ms": 0.025,
+    "inclusive_ms": 0.025
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 5, Num: 6)",
+    "exclusive_ms": 0.049,
+    "inclusive_ms": 0.049
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NaniteBasePass",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.034
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::BasePass",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.033
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.DummyMultiViewIndices Size=4bytes)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.DummyMultiViewRectScaleOffsets Size=16bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.PackedViews Size=16bytes)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::ShadeBinning",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.024
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CopyBuffer(Nanite.ShadingBinMeta Size=256bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.ShadingBinScatterCounters Size=2048bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShadingCount",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.ShadingBinAllocator Size=4bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShadingReserve",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShadingScatter",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShadeGBufferCS",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "EditorPrimitives",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SDPG_World",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SkyPassParallel",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.06
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 0, Num: 1)",
+    "exclusive_ms": 0.053,
+    "inclusive_ms": 0.053
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "StochasticLighting",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.093
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TileClassificationMark",
+    "exclusive_ms": 0.09,
+    "inclusive_ms": 0.09
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DiffuseIndirectAndAO",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.02
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LumenScreenProbeGather",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UpdateRadianceCaches",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearProbeIndirectionCS",
+    "exclusive_ms": 0.01,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VirtualShadowMapMarkPages",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.051
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShadowDepths",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.051
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FVirtualShadowMapArray::BeginMarkPages",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.051
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: Shadow.Virtual.ProjectionData)",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Shadow.Virtual.StatsBuffer Size=360bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearPageTable(Shadow.Virtual.PageRequestFlags Size=8192x192 texels)",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearPageTableDir(Shadow.Virtual.PageReceiverMasks Size=256x384 texels)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Shadow.Virtual.DirtyPageFlags Size=81920bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitPageRectBounds",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(NanitePerformanceFeedback Size=65688bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearPageTable(Shadow.Virtual.PageTable Size=8192x192 texels)",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearPageTable(Shadow.Virtual.PageFlags Size=8192x192 texels)",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PruneLightGrid(Min=0,Max=12)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MarkCoarsePages",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GeneratePageFlagsFromPixels(Substrate,NumShadowMaps=18,{97,55})",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShadowDepths",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.948
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildRenderingCommandsDeferred(Culling=On)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(InstanceCulling.Compaction.BlockInstanceCounts Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearIndirectArgInstanceCount",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CullInstances(UnCulled). Bin 0",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CullInstances(Generic). Bin 1",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Instance Compaction Phase 1",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Instance Compaction Phase 2",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FVirtualShadowMapArray::BuildPageAllocation",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.08
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UpdatePhysicalPages",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PackAvailablePages",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AppendPhysicalPageList",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AppendPhysicalPageList(Counts)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AllocateNewPageMappings",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GenerateHierarchicalPageFlags",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PropagateMappedMips",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearIndirectDispatchArgs",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitializePhysicalPages",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SelectPagesToInitialize",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitializePhysicalMemoryIndirect",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Feedback Status",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AppendPhysicalPageList",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AppendPhysicalPageList(Counts)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RenderVirtualShadowMaps(Nanite)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.732
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Shadow.Virtual.CompactedViewsAllocation Size=8bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CompactViewsVSM",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Nanite::DrawGeometry",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.669
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitArgs",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitArgs",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.SplitWorkQueue.StateBuffer Size=12bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.OccludedPatches.StateBuffer Size=12bytes)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MainPass",
+    "exclusive_ms": 0.018,
+    "inclusive_ms": 0.473
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCulling",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.036
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HierarchyCellChunkCull",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HierarchyChunkCull",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceHierarchyAppendUncullable",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceHierarchySanitizeInstanceArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCull - GroupWork",
+    "exclusive_ms": 0.014,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeAndClusterCull",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.362
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitNodeCullArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_1",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_2",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_3",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_4",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_5",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_6",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_7",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_8",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_9",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_10",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_11",
+    "exclusive_ms": 0.327,
+    "inclusive_ms": 0.327
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_12",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitClusterCullArgs",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClusterCull",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CalculateSafeRasterizerArgs",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinInit",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.DepthBuckets Size=86016bytes)",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinCount",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.RangeAllocatorBuffer Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinReserve",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinDepthBlock",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinScatter",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinFinalize",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Tessellated)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HW Rasterize (Triangles)",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Triangles)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearVisiblePatchesArgs",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitPatchSplitArgs",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_1",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_2",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_3",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_4",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_5",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitVisiblePatchesArgs",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinInit",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinCount",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.RangeAllocatorBuffer Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinReserve",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinScatter",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Patches)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildPreviousOccluderHZB(VSM)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.02
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearIndirectDispatchArgs",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SelectPagesForHZB",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildHZBPerPage",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildHZBPerPageTop",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PostPass",
+    "exclusive_ms": 0.022,
+    "inclusive_ms": 0.144
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCulling",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HierarchyChunkCull",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceHierarchySanitizeInstanceArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCull",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InstanceCull - GroupWork",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeAndClusterCull",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.038
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitNodeCullArgs",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_0",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_1",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_2",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_3",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_4",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_5",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_6",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_7",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_8",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_9",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_10",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_11",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NodeCull_12",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitClusterCullArgs",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClusterCull",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CalculateSafeRasterizerArgs",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinInit",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.DepthBuckets Size=86016bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinCount",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.RangeAllocatorBuffer Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinReserve",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinDepthBlock",
+    "exclusive_ms": 0.023,
+    "inclusive_ms": 0.023
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinScatter",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinFinalize",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Tessellated)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HW Rasterize (Triangles)",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Triangles)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearVisiblePatchesArgs",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitPatchSplitArgs",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_1",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_2",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_3",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_4",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PatchSplit_5",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitVisiblePatchesArgs",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinInit",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinCount",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Nanite.RangeAllocatorBuffer Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinReserve",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterBinScatter",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SW Rasterize (Patches)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CalculateClusterIndirectArgs",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ExtractVSMPerformanceFeedback",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NaniteFeedbackStatus",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearIndirectDispatchArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SelectPagesForHZB",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildHZBPerPage",
+    "exclusive_ms": 0.035,
+    "inclusive_ms": 0.035
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BuildHZBPerPageTop",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RenderVirtualShadowMaps(Non-Nanite)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.1
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Batched",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.099
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CullingPasses",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.073
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Shadow.Virtual.VisibleInstanceWriteOffset Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearIndirectArgInstanceCount",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CullPerPageDrawCommands",
+    "exclusive_ms": 0.051,
+    "inclusive_ms": 0.051
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(InstanceCulling.OutputOffsetBufferOut Size=4bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AllocateCommandInstanceOutputSpaceCs",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitIndirectArgs1D",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "OutputCommandInstanceListsCs",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RasterPasses",
+    "exclusive_ms": 0.026,
+    "inclusive_ms": 0.026
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UpdateAndClearDirtyFlags",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FVirtualShadowMapArray::MergeStaticPhysicalPages",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.016
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearIndirectDispatchArgs",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SelectPagesToMerge",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MergeStaticPhysicalPagesIndirect",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LightCompositionTasks_PreLighting",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.018
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DeferredDecals Emissive",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MeshDecal_SceneColor",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 0, Num: 1)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearStencil (SceneDepthZ)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RenderDeferredLighting",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.684
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DiffuseIndirectAndAO",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.128
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LumenReflections",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.127
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitReflectionIndirectArgs",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TileClassificationBuildLists",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearUnusedTraceTileData",
+    "exclusive_ms": 0.018,
+    "inclusive_ms": 0.018
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GenerateRays MaxRoughnessToTrace:0.40",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearTraces",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TraceScreen(Scene)",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SetupCompactionIndirectArgs",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CompactTracesOrderedWaveOps 1024",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReflectionCompactRaysIndirectArgs",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReflectionHardwareRayTracingCS default",
+    "exclusive_ms": 0.022,
+    "inclusive_ms": 0.022
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearEmptyTiles",
+    "exclusive_ms": 0.018,
+    "inclusive_ms": 0.018
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ReflectionsResolve DownsampleFactor:1x1 SpatialReconstruction:1 Aniso:0",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TemporalAccumulation",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Spatial",
+    "exclusive_ms": 0.01,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitTranslucencyLightingVolumeTextures",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearTranslucencyLightingVolumeCompute 64",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Lights",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.362
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DirectLighting",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.362
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Substrate::StencilClassificationPass(Single)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Substrate::StencilClassificationPass(Simple)",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VirtualShadowMapProjectionMaskBits",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.215
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VirtualShadowMapProjection(Input:Substrate)",
+    "exclusive_ms": 0.215,
+    "inclusive_ms": 0.215
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BatchedLights",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.017
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): R09_Boarding_Indicator_Glow",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): R09_Boarding_Indicator_Glow",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UnbatchedLights",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.114
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.PointLight4",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): PointLight4",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): PointLight4",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.PointLight",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): PointLight",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): PointLight",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.R07_TestLight_Lower_Deck_Exit",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): R07_TestLight_Lower_Deck_Exit",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): R07_TestLight_Lower_Deck_Exit",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.R08_WallLight_Waiting_Hall_Entry",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): R08_WallLight_Waiting_Hall_Entry",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): R08_WallLight_Waiting_Hall_Entry",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.R07_TestLight_Lower_Deck_Machine",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): R07_TestLight_Lower_Deck_Machine",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): R07_TestLight_Lower_Deck_Machine",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.R08_WallLight_Control_Entry",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): R08_WallLight_Control_Entry",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): R08_WallLight_Control_Entry",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.R09_Light_Canopy_Left",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): R09_Light_Canopy_Left",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): R09_Light_Canopy_Left",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.R09_Light_Canopy_Right",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): R09_Light_Canopy_Right",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): R09_Light_Canopy_Right",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.R09_Light_Cabin_Ceiling",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): R09_Light_Cabin_Ceiling",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): R09_Light_Cabin_Ceiling",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.R11_Lookout_Rail_Lamp_Light",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): R11_Lookout_Rail_Lamp_Light",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): R11_Lookout_Rail_Lamp_Light",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UEDPIE_0_Forest_Approach_Test.BP_ForestWalker_C_0",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.086
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearQuad",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShadowProjectionOnOpaque",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.022
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CompositeVirtualShadowMapFromMaskBits",
+    "exclusive_ms": 0.022,
+    "inclusive_ms": 0.022
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LightFunction Material=M_Flashlight_Optics",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Single): BP_ForestWalker_C_0",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Light::StandardDeferred(Simple): BP_ForestWalker_C_0",
+    "exclusive_ms": 0.043,
+    "inclusive_ms": 0.043
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TranslucencyLightingVolume",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.123
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InjectTranslucencyLightingVolume(View=0)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.084
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InjectTranslucencyLightingVolumeBatch(VolumeCascade=0,Max=32,VirtualShadowMap)",
+    "exclusive_ms": 0.038,
+    "inclusive_ms": 0.038
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InjectTranslucencyLightingVolume(VolumeCascade=0,VirtualShadowMap,LightFunction)",
+    "exclusive_ms": 0.026,
+    "inclusive_ms": 0.026
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InjectTranslucencyLightingVolumeBatch(VolumeCascade=1,Max=32,VirtualShadowMap)",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.006
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InjectTranslucencyLightingVolume(VolumeCascade=1,VirtualShadowMap,LightFunction)",
+    "exclusive_ms": 0.014,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FilterTranslucentVolume 64x64x64 Cascades:2",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.038
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Cascade 0",
+    "exclusive_ms": 0.022,
+    "inclusive_ms": 0.022
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Cascade 1",
+    "exclusive_ms": 0.016,
+    "inclusive_ms": 0.016
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DiffuseIndirectAndAO",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.061
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DiffuseIndirectComposite(ScreenProbeGather)(Single) 1552x873",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DiffuseIndirectComposite(ScreenProbeGather)(Simple) 1552x873",
+    "exclusive_ms": 0.05,
+    "inclusive_ms": 0.05
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearStencil (SceneDepthZ)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ComputeVolumetricFog",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.295
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolumetricFog",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.294
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolumetricFog::ConservativeDepth",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GenerateConservativeDepthBuffer",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolumetricFog::LocalLights",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.021
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShadowedLights",
+    "exclusive_ms": 0.019,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ShadowedLights",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolumetricFog::InitialiseVolume",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.129
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "InitializeVolumeAttributes",
+    "exclusive_ms": 0.056,
+    "inclusive_ms": 0.056
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolumetricFog::VoxelizePrimitives",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.073
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VoxelizeVolumePrimitives",
+    "exclusive_ms": 0.073,
+    "inclusive_ms": 0.073
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolumetricFog::LightScattering",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.098
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LightScattering 194x110x128 SS:4  LF Lumen",
+    "exclusive_ms": 0.098,
+    "inclusive_ms": 0.098
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolumetricFog::FinalIntegration",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.042
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FinalIntegration",
+    "exclusive_ms": 0.042,
+    "inclusive_ms": 0.042
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolumetricCloud",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.206
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CloudView (CS) 388x219",
+    "exclusive_ms": 0.205,
+    "inclusive_ms": 0.205
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolCloudReconstruction",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.029
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolumetricReconstruct",
+    "exclusive_ms": 0.029,
+    "inclusive_ms": 0.029
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TemporalSuperResolution",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.019
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TSR MeasureFlickeringLuma 1552x873",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SkyAtmosphere",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ExponentialHeightFog",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.063
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Fog",
+    "exclusive_ms": 0.062,
+    "inclusive_ms": 0.062
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolCloudComposeOverScene",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.026
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VolumetricComposeCloudOverScene",
+    "exclusive_ms": 0.026,
+    "inclusive_ms": 0.026
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PostRenderOpsFX",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.091
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SetSceneTexturesUniformBuffer",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FXSystemPostRenderOpaque",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPUParticles_PostRenderOpaque",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "AsyncGpuTraceHelper::PostRenderOpaque",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NiagaraGpuComputeDispatch",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.018
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NiagaraGpuSim(Snow:GPU_Snow_0) DispatchCount(19465x1x1) Stage(ParticleSpawnUpdate 0) Iteration(0) NumThreads(64x1x1)",
+    "exclusive_ms": 0.016,
+    "inclusive_ms": 0.016
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NiagaraGpuSim(Snow:GPU_Stuck_Snow_3) DispatchCount(1792x1x1) Stage(ParticleSpawnUpdate 0) Iteration(0) NumThreads(64x1x1)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Niagara::PostRenderFinish",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UnsetSceneTexturesUniformBuffer",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPU KeyGen & Sort",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.047
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPUSort_Batch1(LowPrecision)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.047
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "KeyGen_FFXSystem",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "KeyGen_FNiagaraGpuComputeDispatch",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Owner://STATGROUP_NiagaraEmitters//Snow/GPU_Snow[RT]####STATCAT_Niagara####_2425855",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Sort(19465)",
+    "exclusive_ms": 0.041,
+    "inclusive_ms": 0.041
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "NiagaraUpdateDrawIndirectBuffers",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Translucency",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.096
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RenderTranslucency",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.094
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CopySceneColor",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Translucency(BeforeDistortion Parallel) 1552x873",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 0, Num: 1)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearRenderTarget(Translucency.AfterDOF.Color, slice 0, mip 0) 1552x880 ClearAction",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Translucency(AfterDOF Parallel) 1552x873",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.025
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 0, Num: 1)",
+    "exclusive_ms": 0.018,
+    "inclusive_ms": 0.018
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearRenderTarget(Translucency.AfterMotionBlur.Color, slice 0, mip 0) 1552x880 ClearAction",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Translucency(AfterMotionBlur Parallel) 1552x873",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.036
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ParallelDraw (Index: 0, Num: 1)",
+    "exclusive_ms": 0.029,
+    "inclusive_ms": 0.029
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VSM Log Stats And Status",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PostProcessing",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 1.573
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PostProcessMaterial 1552x873 Material=Post_Process_Wind_Fog",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.066
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Post_Process_Wind_Fog",
+    "exclusive_ms": 0.066,
+    "inclusive_ms": 0.066
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "PostProcessMaterial 1552x873 Material=Post_Process_Wind_Fog_Composite",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.021
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Post_Process_Wind_Fog_Composite",
+    "exclusive_ms": 0.018,
+    "inclusive_ms": 0.018
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TemporalSuperResolution(sg.AntiAliasingQuality=3) 1552x873 -> 2560x1440",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 1.167
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TSR RejectShading(#113 TileSize=26 PaddingCostMultiplier=1.5 WaveSize=32 VALU=32bit FlickeringFramePeriod=2.000000 Resurrection",
+    "exclusive_ms": 0.41,
+    "inclusive_ms": 0.41
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TSR SpatialAntiAliasing(#2 Quality=2) 1552x873",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TSR UpdateHistory(#3 Quality=Epic R11G11B10 ReprojectionField SupportLensDistortion) 5120x2880",
+    "exclusive_ms": 0.646,
+    "inclusive_ms": 0.646
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TSR ResolveHistory(#0 WaveSize=32 OutputMip1) 2560x1440",
+    "exclusive_ms": 0.097,
+    "inclusive_ms": 0.097
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MotionBlur",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.078
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Velocity Flatten(CameraMotionBlurOn) 1552x873",
+    "exclusive_ms": 0.026,
+    "inclusive_ms": 0.026
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VelocityTileScatter 97x55",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(MotionBlur.TileCounters Size=20bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MotionBlur FilterTileClassify 160x90",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MotionBlur SetupFilter",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MotionBlur FullResFilter(BlurDirections=1 MaxSamples=16 ComposeTranslucency OutputMip1) 2560x1440",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.035
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MotionBlur Filter(GatherHalfRes)",
+    "exclusive_ms": 0.034,
+    "inclusive_ms": 0.034
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MotionBlur Filter(GatherFullRes)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MotionBlur Filter(ScatterAsGatherOneVelocityHalfRes)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "MotionBlur Filter(ScatterAsGatherOneVelocityFullRes)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LocalExposure",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FLocalExposure 1280x720 (CS)",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Histogram",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.02
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearTextureUint(Histogram.Scatter32 R32_UINT 128x1 Mip=0)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Histogram Atomic 1280x720 (CS)",
+    "exclusive_ms": 0.012,
+    "inclusive_ms": 0.012
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Histogram Convert",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TextureDownsampleChain",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.016
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Downsample(Scene(1/4) Quality=High PS) 1280x720 -> 640x360",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Downsample(Scene(1/8) Quality=High PS) 640x360 -> 320x180",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Downsample(Scene(1/16) Quality=High PS) 320x180 -> 160x90",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Downsample(Scene(1/32) Quality=High PS) 160x90 -> 80x45",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "LocalExposure - Blurred Luminance",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SetupLogLuminance 80x45",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.LocalExposureGaussianX 80x45 (PS, Static)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.LocalExposureGaussianY 80x45 (PS, Static)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "HistogramEyeAdaptation (CS)",
+    "exclusive_ms": 0.011,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "EnqueueCopy(EyeAdaptationBuffer)",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "BloomSetup 1280x720 (PS)",
+    "exclusive_ms": 0.01,
+    "inclusive_ms": 0.01
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "TextureDownsampleChain",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.013
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Downsample(BloomSetup(1/4) Quality=High PS) 1280x720 -> 640x360",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Downsample(BloomSetup(1/8) Quality=High PS) 640x360 -> 320x180",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Downsample(BloomSetup(1/16) Quality=High PS) 320x180 -> 160x90",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Downsample(BloomSetup(1/32) Quality=High PS) 160x90 -> 80x45",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Downsample(BloomSetup(1/64) Quality=High PS) 80x45 -> 40x23",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Bloom",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.08
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomX 40x23 (PS, Static)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomY 40x23 (PS, Static)",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomX 80x45 (PS, Static)",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomY 80x45 (PS, Static)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomX 160x90 (PS, Static)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomY 160x90 (PS, Static)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomX 320x180 (PS, Static)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomY 320x180 (PS, Static)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomX 640x360 (PS, Static)",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomY 640x360 (PS, Static)",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomX 1280x720 (PS, Static)",
+    "exclusive_ms": 0.011,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GaussianBlur.BloomY 1280x720 (PS, Static)",
+    "exclusive_ms": 0.016,
+    "inclusive_ms": 0.016
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Tonemap 2560x1440 (PS GammaOnly=0)",
+    "exclusive_ms": 0.046,
+    "inclusive_ms": 0.046
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VirtualTextureUpdate",
+    "exclusive_ms": 0.013,
+    "inclusive_ms": 0.03
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(VirtualTexture.CompactedFeedback Size=8192bytes)",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(VirtualTexture.HashTableKeys Size=8192bytes)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(VirtualTexture.HashTableElementCounts Size=8192bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Hash table indirect arguments",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Build feedback hash table",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Compact feedback hash table",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "VirtualTextureFeedbackCopy",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Submit Lumen surface cache feedback",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.023
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.CompactedFeedback Size=8192bytes)",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.HashTableKeys Size=8192bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ClearBuffer(Lumen.HashTableElementCounts Size=8192bytes)",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Hash table indirect arguments",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Build feedback hash table",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Compact feedback hash table",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "Readback",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FRayTracingScene::StatsReadback",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ExtractUniformBuffer",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "EnqueueCopy(GPUMessageManager.MessageBuffer)",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.015
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RenderGraphExecute - Slate",
+    "exclusive_ms": 0.015,
+    "inclusive_ms": 0.864
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FRDGBuilder::SubmitBufferUploads",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SlateUI Title = game - Unreal Editor",
+    "exclusive_ms": 0.006,
+    "inclusive_ms": 0.728
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ElementBatch",
+    "exclusive_ms": 0.075,
+    "inclusive_ms": 0.075
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "DrawDebugCanvas",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.638
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasFlush",
+    "exclusive_ms": 0.177,
+    "inclusive_ms": 0.636
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.011,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.011,
+    "inclusive_ms": 0.011
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.009,
+    "inclusive_ms": 0.009
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.302,
+    "inclusive_ms": 0.302
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.007,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.004
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.001,
+    "inclusive_ms": 0.001
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "CanvasBatchedElements",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ElementBatch",
+    "exclusive_ms": 0.008,
+    "inclusive_ms": 0.008
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SlateUI Title = Content Browser",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.062
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ElementBatch",
+    "exclusive_ms": 0.062,
+    "inclusive_ms": 0.062
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SlateUI Title = Message Log",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.057
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ElementBatch",
+    "exclusive_ms": 0.056,
+    "inclusive_ms": 0.056
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "SlateUI Title = <none>",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ElementBatch",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.002
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "GPUSkinCache_UpdateSkinningBatches",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "RenderGraphExecute - UpdateAllPrimitiveSceneInfos",
+    "exclusive_ms": 0.004,
+    "inclusive_ms": 0.014
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "FRDGBuilder::SubmitBufferUploads",
+    "exclusive_ms": 0.003,
+    "inclusive_ms": 0.003
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "UpdateAllPrimitiveSceneInfos",
+    "exclusive_ms": 0.002,
+    "inclusive_ms": 0.007
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: SceneCulling.Items)",
+    "exclusive_ms": 0.005,
+    "inclusive_ms": 0.005
+  },
+  {
+    "queue": "12769 - Graphics 0 - GPU 0",
+    "event": "ScatterUpload (Resource: SceneCulling.ItemChunks)",
+    "exclusive_ms": 0.0,
+    "inclusive_ms": 0.0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "passed_directions": [
+    "forward",
+    "reverse"
+  ],
+  "validation": "routes_generator_aisle.json",
+  "reason": "The initial continuous connector targeted a point inside the retained generator. Follow the surveyed aisle around its north edge.",
+  "geometry_changed": false
+}

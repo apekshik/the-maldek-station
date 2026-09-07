@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "baseline": "pre-vf07-unreal-migration",
+  "shared_content_changed": [],
+  "approved_blender_unchanged": true,
+  "forest_source_level_unchanged": true,
+  "scope": "Git comparison of all shared Content plus byte hashes of approved VF07 and saved forest source level. R12-owned replacements are the only changed Content paths."
+}

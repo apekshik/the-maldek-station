@@ -1,0 +1,14 @@
+DumpManifest: C:\Users\apek-anna\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.7\FinalCopyWin64_NonUFSFiles.txt, NumItems: 33
+DumpManifest: C:\Users\apek-anna\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.7\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 6
+Copying NonUFSFiles to staging directory: C:\Users\apek-anna\Developer\the-maldek-station\game\Saved\StagedBuilds\Windows
+Copying DebugFiles to staging directory: C:\Users\apek-anna\Developer\the-maldek-station\game\Saved\StagedBuilds\Windows
+Stage command time: 4.80 s
+********** STAGE COMMAND COMPLETED **********
+********** ARCHIVE COMMAND STARTED **********
+Archiving to C:\Users\apek-anna\Developer\the-maldek-station\game\Saved\R12Package
+Archive command time: 0.52 s
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 706.20 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 11m 46s
+AutomationTool exiting with ExitCode=0 (Success)
