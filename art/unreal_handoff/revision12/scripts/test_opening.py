@@ -1,7 +1,7 @@
 """Exercise opening timing, input gates, switch audio and focus through the real pawn."""
 import unreal,time,json,traceback
 from pathlib import Path
-out=Path(__file__).resolve().parents[1]/'opening';out.mkdir(exist_ok=True)
+out=Path(__file__).resolve().parents[1]/JOB.get('output','opening');out.mkdir(exist_ok=True)
 ls=unreal.get_editor_subsystem(unreal.LevelEditorSubsystem);assert not ls.is_in_play_in_editor()
 mode=JOB.get('mode','interactive');state={'mode':mode,'checks':[],'flags':set(),'deadline':time.monotonic()+100}
 def widgets(w):return unreal.WidgetLibrary.get_all_widgets_of_class(w,unreal.StationOpeningWidget,True)
@@ -22,23 +22,25 @@ def tick(dt):
    steps=p.get_components_by_class(unreal.SurfaceFootstepComponent)[0]
    check('recorded footsteps preserved',len(steps.soil_steps)==18 and len(steps.metal_steps)==15)
    unreal.AudioMixerLibrary.start_recording_output(w,35);state['flags'].add('recording')
-  if t>=2 and 'title' not in state['flags']:
+  if t>=3.5 and 'title' not in state['flags']:
    check('title widget exists',len(widgets(w))==1);check('title holds movement',pc.is_move_input_ignored());check('title holds look',pc.is_look_input_ignored())
    before=light.is_visible();target=focus.get_target_focus();p.toggle_flashlight();p.focus_flashlight_in()
    check('flashlight gated during title',light.is_visible()==before and c.switch_count==0);check('scroll gated during title',focus.get_target_focus()==target)
    unreal.SystemLibrary.execute_console_command(w,'Shot SHOWUI filename="'+str(out/f'{mode}_title.png')+'"');state['flags'].add('title')
-  if t>=7.5 and 'hints' not in state['flags']:
+  if t>=8 and 'gap' not in state['flags']:
+   unreal.SystemLibrary.execute_console_command(w,'Shot SHOWUI filename="'+str(out/f'{mode}_gap.png')+'"');state['flags'].add('gap')
+  if t>=13.5 and 'hints' not in state['flags']:
    check('movement restored',not pc.is_move_input_ignored());check('look restored',not pc.is_look_input_ignored());check('hints remain visible',len(widgets(w))==1)
    unreal.SystemLibrary.execute_console_command(w,'Shot SHOWUI filename="'+str(out/f'{mode}_hints.png')+'"');state['flags'].add('hints')
   if mode=='interactive':
-   if t>=8.5 and 'off' not in state['flags']:
+   if t>=14 and 'off' not in state['flags']:
     before=light.is_visible();p.toggle_flashlight();check('F changes light and plays one click',light.is_visible()!=before and c.switch_count==1);state['flags'].add('off')
-   if t>=9.3 and 'on' not in state['flags']:
+   if t>=14.8 and 'on' not in state['flags']:
     p.toggle_flashlight();check('second F plays second click',c.switch_count==2);check('toggle acknowledged',c.tried_toggle);state['flags'].add('on')
-   if t>=10 and 'focus' not in state['flags']:
+   if t>=15.5 and 'focus' not in state['flags']:
     before=focus.get_target_focus();p.focus_flashlight_in();check('scroll up narrows beam',focus.get_target_focus()>before);p.focus_flashlight_out();check('scroll down restores width',abs(focus.get_target_focus()-before)<.001);check('scroll acknowledged',c.tried_focus);check('scroll does not click switch',c.switch_count==2);state['flags'].add('focus')
-   end=15
-  else:end=29
+   end=19
+  else:end=34
   if t>=end:
    check('onboarding removed',len(widgets(w))==0);check('no lingering input lock',not pc.is_move_input_ignored() and not pc.is_look_input_ignored())
    if mode!='interactive':check('no unsolicited switch clicks',c.switch_count==0)

@@ -31,7 +31,7 @@ void UStationOpeningComponent::TickComponent(float Dt,ELevelTick TickType,FActor
  if(Widget)
  {
   Widget->Elapsed=Elapsed;Widget->bToggled=bTriedToggle;Widget->bFocused=bTriedFocus;
-  if(bTriedToggle && bTriedFocus)Widget->HintEnd=FMath::Min(Widget->HintEnd,FMath::Max(12.0f,Elapsed+2.0f));
+  if(bTriedToggle && bTriedFocus)Widget->HintEnd=FMath::Min(Widget->HintEnd,FMath::Max(17.0f,Elapsed+2.0f));
   Widget->InvalidateLayoutAndVolatility();
   if(Elapsed>=Widget->HintEnd){Widget->RemoveFromParent();Widget=nullptr;}
  }
@@ -41,9 +41,9 @@ void UStationOpeningComponent::FlashlightToggled(bool bEnabled)
  APawn* Pawn=Cast<APawn>(GetOwner());if(!Pawn || !Pawn->IsLocallyControlled())return;
  if(USoundBase* Sound=bEnabled?SwitchOn.Get():SwitchOff.Get())
  {UGameplayStatics::PlaySound2D(this,Sound,SwitchVolume);++SwitchCount;}
- if(Elapsed>=6.2f)bTriedToggle=true;
+ if(Elapsed>=11.0f)bTriedToggle=true;
 }
-void UStationOpeningComponent::FocusAdjusted(){if(Elapsed>=6.2f)bTriedFocus=true;}
+void UStationOpeningComponent::FocusAdjusted(){if(Elapsed>=11.0f)bTriedFocus=true;}
 void UStationOpeningComponent::EndPlay(const EEndPlayReason::Type Reason)
 {
  ReleaseInput();if(Widget)Widget->RemoveFromParent();if(Atmosphere)Atmosphere->Stop();

@@ -1,8 +1,8 @@
 # Demo opening
 
-The current R12 player gets a centered MALDEK STATION title on a dark full-screen card. The title fades in from 0.35–1.65 seconds, holds, fades from 3.6–5.1 seconds, and reveals the level from 4.3–6 seconds. Movement and looking are held for those six seconds and released on completion or EndPlay.
+The current R12 player sees the game fade in from black over the first two seconds. MALDEK STATION appears directly over the forest from 2.2–3 seconds, holds, and fades out from 4.8–6 seconds. Movement and looking are held for those six seconds and released on completion or EndPlay.
 
-At 6.2 seconds a lower-screen prompt fades in: F toggles the flashlight; scrolling up tightens the beam and down widens it. Each line turns a muted green when used. After both actions, the prompt fades out (minimum 12 seconds total); otherwise it automatically clears at 28 seconds. It does not capture the mouse or change input mode.
+After a five-second gap, lower-screen instructions fade in from 11–13 seconds as plain text over the game, with no background panel. F toggles the flashlight; scrolling up tightens the beam and down widens it. Each line turns a muted green when used. After both actions, the prompt fades out (minimum 17 seconds total); otherwise it automatically clears at 33 seconds. It does not capture the mouse or change input mode.
 
 Actual light toggles play distinct recorded mechanical clicks. Focus adjustment does not play a switch click. Clicks and control acknowledgements run through the same pawn functions used by the F and mouse-wheel bindings.
 
