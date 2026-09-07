@@ -16,15 +16,20 @@ while pending:
   if not registry.get_assets_by_package_name(q):missing.append({'referencer':p,'missing':q})
   elif q not in seen:pending.append(q)
 blueprints=[]
-for p in ['/Game/MaldekRefinement/ForestTest/BP_ForestWalker','/Game/BP_GondolaSystem']:
+job=globals().get('JOB',{})
+bp_paths=['/Game/MaldekRefinement/ForestTest/BP_ForestWalker','/Game/BP_GondolaSystem']
+if job.get('polish'):bp_paths+=['/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished','/Game/MaldekRefinement/R12/Player/BP_StationGameMode_Polished']
+for p in bp_paths:
  bp=lib.load_asset(p);assert bp
  unreal.BlueprintEditorLibrary.compile_blueprint(bp);blueprints.append({'asset':p,'up_to_date':unreal.StationMigrationLibrary.is_blueprint_up_to_date(bp)})
 materials=[]
-for p in lib.list_assets('/Game/MaldekRefinement/R12/Materials',True,False):
+material_paths=list(lib.list_assets('/Game/MaldekRefinement/R12/Materials',True,False))
+if job.get('polish'):material_paths+=list(lib.list_assets('/Game/MaldekRefinement/R12/Player/Materials',True,False))
+for p in material_paths:
  a=lib.load_asset(p)
  if isinstance(a,unreal.MaterialInterface):materials.append(a)
 errors=list(unreal.StationMigrationLibrary.validate_material_shaders(materials))
 known='/Game/Megaplant_Library/Tree_European_Beech/Instances/Beech_Branch'
 new_missing=[r for r in missing if not r['missing'].startswith(known)]
 report={'success':not new_missing and not errors and all(x['up_to_date'] for x in blueprints),'reachable_packages':len(seen),'missing_references':missing,'new_missing_references':new_missing,'preexisting_authoring_reference_prefix':known,'blueprints':blueprints,'material_shader_errors':errors,'material_count':len(materials),'shared_assets_saved':False}
-(b/'reference_validation.json').write_text(json.dumps(report,indent=2));RESULT=report
+(b/job.get('report','reference_validation.json')).write_text(json.dumps(report,indent=2));RESULT=report

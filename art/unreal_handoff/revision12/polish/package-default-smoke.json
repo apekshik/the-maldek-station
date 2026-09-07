@@ -1,0 +1,18 @@
+{
+  "executable": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\game\\Saved\\R12Package\\Windows\\game.exe",
+  "exit_code": 0,
+  "finished": "2026-09-07T18:56:09.7312166Z",
+  "log": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\polish\\package-default-smoke.log",
+  "intended_benchmark_seconds": 60,
+  "checks": {
+    "real_d3d12": true,
+    "expected_game_mode": true,
+    "r12_world": true,
+    "no_fatal": true,
+    "normal_exit": true
+  },
+  "explicit_map": false,
+  "started": "2026-09-07T18:55:45.6934254Z",
+  "visual_review_required": true,
+  "success": true
+}

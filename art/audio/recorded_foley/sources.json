@@ -1,0 +1,920 @@
+{
+  "sources": [
+    {
+      "author": "Nox_Sound_Design",
+      "url": "https://nox-sound-design.itch.io/essentials-series-sfx-nox-sound",
+      "license": "CC0-1.0",
+      "recording": "Footsteps Essentials, outdoor recordings"
+    },
+    {
+      "author": "swuing; mastered by congusbongus",
+      "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+      "original_url": "https://freesound.org/people/swuing/sounds/38873/",
+      "license": "CC-BY-3.0",
+      "recording": "footstep-concrete.wav, boots subset"
+    },
+    {
+      "author": "Iochi Glaucus",
+      "url": "https://opengameart.org/content/fabric-rustling",
+      "license": "CC0-1.0",
+      "recording": "AT2020 recording of fabric movement"
+    }
+  ],
+  "processing": "No synthesis or artificial impacts. Actual footstep recordings, silence trimming, mono 48kHz conversion, group gain, 8ms fades, quiet recorded fabric layer starting 80ms after foot contact. Dry and fabric stems retained.",
+  "cloth_ranges_seconds": [
+    [
+      1.08,
+      1.72
+    ],
+    [
+      10.6,
+      11.12
+    ],
+    [
+      13.55,
+      14.3
+    ],
+    [
+      22.8,
+      23.35
+    ],
+    [
+      18.48,
+      19.18
+    ],
+    [
+      23.95,
+      24.48
+    ]
+  ],
+  "samples": [
+    {
+      "asset": "Recorded_soil_00",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_01.wav",
+      "sha256": "42a2a2d2f3d80792bcc3a37bf06fe5d127a70b23de935d46ff6e8a3a40b23c6b",
+      "trim_seconds": [
+        0.007125,
+        0.6984791666666667
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.4185376468120359
+    },
+    {
+      "asset": "Recorded_soil_01",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_02.wav",
+      "sha256": "bf17fde9102b6fe3b1fa39f98cad3029e45be49fa81afa271ecc8ddfa34c84dc",
+      "trim_seconds": [
+        0.0025625,
+        0.4756458333333333
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.32863566834917624
+    },
+    {
+      "asset": "Recorded_soil_02",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_03.wav",
+      "sha256": "b709c595af9f62e002eee6f4645b47a32797e7028819f494452df42ca116f308",
+      "trim_seconds": [
+        0.0,
+        0.5
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.5094038382450871
+    },
+    {
+      "asset": "Recorded_soil_03",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_04.wav",
+      "sha256": "65ee00e0d9aa6023749059bebb91c0fe428b097d53910fbe59c94e9b71fb2c18",
+      "trim_seconds": [
+        0.0,
+        0.49904166666666666
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 3,
+      "duration": 0.63,
+      "peak": 0.68
+    },
+    {
+      "asset": "Recorded_soil_04",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_05.wav",
+      "sha256": "2c6ba28347401f0a7387089c27d6b209741c793118c1e64ce5986bbd88cb576b",
+      "trim_seconds": [
+        0.0,
+        0.571625
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 4,
+      "duration": 0.78,
+      "peak": 0.2562204813947915
+    },
+    {
+      "asset": "Recorded_soil_05",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_06.wav",
+      "sha256": "e61cb0074ecd44a1a6e90c1dece9fe8dd1a3f468ba2d50f6a9752f08f1551871",
+      "trim_seconds": [
+        0.0015208333333333332,
+        0.715125
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 5,
+      "duration": 0.7136041666666667,
+      "peak": 0.37124717517743216
+    },
+    {
+      "asset": "Recorded_soil_06",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_01.wav",
+      "sha256": "a452be5e6489743a6b9218b1a1e13c82af5e4a2f5c8317c5aed7890ffdd74b6f",
+      "trim_seconds": [
+        0.0,
+        0.5627916666666667
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.19342144302954214
+    },
+    {
+      "asset": "Recorded_soil_07",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_02.wav",
+      "sha256": "a6e4e427da32c2fb3ebcd80d413d614db94859ec4997516f9b388e49ce9aa0b3",
+      "trim_seconds": [
+        0.0,
+        0.5419375
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.19865681928822157
+    },
+    {
+      "asset": "Recorded_soil_08",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_03.wav",
+      "sha256": "e2d20fb7aa3a4da66ff09a043fffa7959387b78c3242605573cb24520c748f37",
+      "trim_seconds": [
+        0.0,
+        0.5628541666666667
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.43534676932304567
+    },
+    {
+      "asset": "Recorded_soil_09",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_04.wav",
+      "sha256": "c9ce406b3d21b8f185092529ea9bfc8e14c4e412869b37fc1f6b62348e971bb2",
+      "trim_seconds": [
+        0.0,
+        0.4596458333333333
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 3,
+      "duration": 0.63,
+      "peak": 0.10188261292884779
+    },
+    {
+      "asset": "Recorded_soil_10",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_05.wav",
+      "sha256": "e9c7a918cf3f274a2fd7f1247f358b666a4ad07f7c2a9d928bc7de3630f7db12",
+      "trim_seconds": [
+        0.0,
+        0.4886041666666667
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 4,
+      "duration": 0.78,
+      "peak": 0.13425073663173537
+    },
+    {
+      "asset": "Recorded_soil_11",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_06.wav",
+      "sha256": "9ed771b0933a60e299b9f638cf6fd6f0a72cf101f0aa28c9da145e2a2b7567fe",
+      "trim_seconds": [
+        0.0,
+        0.5178333333333334
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 5,
+      "duration": 0.61,
+      "peak": 0.12461868098080915
+    },
+    {
+      "asset": "Recorded_soil_12",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_01.wav",
+      "sha256": "40b8e0b0463906a8edc7adf1defaa93e5ac1b42943c5482d5b474432cedd3f27",
+      "trim_seconds": [
+        0.0,
+        0.35975
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.3185495272745907
+    },
+    {
+      "asset": "Recorded_soil_13",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_02.wav",
+      "sha256": "d22b36470e485dc0d9f15f4c2032764b82cf6d3588af30d979655b874c32bb71",
+      "trim_seconds": [
+        0.0,
+        0.3445
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.2046348484460273
+    },
+    {
+      "asset": "Recorded_soil_14",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_03.wav",
+      "sha256": "3ed78b8176418af355c0abb137d7f81422446f2c099e78e5299438eeb123f07a",
+      "trim_seconds": [
+        0.0,
+        0.3897291666666667
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.2798309590304645
+    },
+    {
+      "asset": "Recorded_soil_15",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_04.wav",
+      "sha256": "6440c3ecb81f57c2053ecbdfc36919e00d3a466e345de5d6344971daae5d984d",
+      "trim_seconds": [
+        0.0,
+        0.4005625
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 3,
+      "duration": 0.63,
+      "peak": 0.20638607189525737
+    },
+    {
+      "asset": "Recorded_soil_16",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_05.wav",
+      "sha256": "8661410fdba643dedb29e10129e3674074834748cca343cae78d3c89cc20cbd1",
+      "trim_seconds": [
+        0.0,
+        0.3556875
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 4,
+      "duration": 0.78,
+      "peak": 0.22532742319813473
+    },
+    {
+      "asset": "Recorded_soil_17",
+      "surface": "soil",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_06.wav",
+      "sha256": "ac2efd3515e3833d024592db6ba75dc732bd87fdaa348a85525f723fd5631c63",
+      "trim_seconds": [
+        0.0,
+        0.40439583333333334
+      ],
+      "gain": 1.8269278741448667,
+      "cloth_index": 5,
+      "duration": 0.61,
+      "peak": 0.1932631809261193
+    },
+    {
+      "asset": "Recorded_gravel_00",
+      "surface": "gravel",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_01.wav",
+      "sha256": "bcfc3d7966423f71ba89917944961299802403bd4c1af7f1839e7df4ba0d9cde",
+      "trim_seconds": [
+        0.0,
+        0.6909375
+      ],
+      "gain": 1.2399456569702763,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.678426650398558
+    },
+    {
+      "asset": "Recorded_gravel_01",
+      "surface": "gravel",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_02.wav",
+      "sha256": "f42d3b6e6afc5854a83788a63e6d936144026481fbcd50e82fff10fb659c4f36",
+      "trim_seconds": [
+        0.0,
+        0.5935
+      ],
+      "gain": 1.2399456569702763,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.3954217824692392
+    },
+    {
+      "asset": "Recorded_gravel_02",
+      "surface": "gravel",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_03.wav",
+      "sha256": "cfe44c1607d975e6098980ace7e341691fe9bc12f5c82091143e840a76976369",
+      "trim_seconds": [
+        0.0,
+        0.47983333333333333
+      ],
+      "gain": 1.2399456569702763,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.1811147277001204
+    },
+    {
+      "asset": "Recorded_gravel_03",
+      "surface": "gravel",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_04.wav",
+      "sha256": "d653359f4a6875f027197d5b6691afa892e1c7182471c32652575339374bc89e",
+      "trim_seconds": [
+        0.0,
+        0.5968333333333333
+      ],
+      "gain": 1.2399456569702763,
+      "cloth_index": 3,
+      "duration": 0.63,
+      "peak": 0.2905891276266236
+    },
+    {
+      "asset": "Recorded_gravel_04",
+      "surface": "gravel",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_05.wav",
+      "sha256": "0d8b466b46ec59dd74cc1651fabbf2d5a050b945d21ec86f4cd940bb3466214f",
+      "trim_seconds": [
+        0.0,
+        0.6186458333333333
+      ],
+      "gain": 1.2399456569702763,
+      "cloth_index": 4,
+      "duration": 0.78,
+      "peak": 0.14526704937243554
+    },
+    {
+      "asset": "Recorded_gravel_05",
+      "surface": "gravel",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_06.wav",
+      "sha256": "c1d0b146f03dfe08d07ae41869f2f1cd500e482326f6f568c20ee3c8d548e792",
+      "trim_seconds": [
+        0.0,
+        0.5360208333333333
+      ],
+      "gain": 1.2399456569702763,
+      "cloth_index": 5,
+      "duration": 0.61,
+      "peak": 0.34813569556985086
+    },
+    {
+      "asset": "Recorded_gravel_06",
+      "surface": "gravel",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_07.wav",
+      "sha256": "5fa3b3e292340d2552bc083631259a47f72fba8a38c1b6e8850d0ee608bf3d7e",
+      "trim_seconds": [
+        0.0,
+        0.6214166666666666
+      ],
+      "gain": 1.2399456569702763,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.3690797506686713
+    },
+    {
+      "asset": "Recorded_gravel_07",
+      "surface": "gravel",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_08.wav",
+      "sha256": "ed484f0376543b05eb656f2650f360f2cc3894642585cf2bd4ebc00cf3032958",
+      "trim_seconds": [
+        0.0,
+        0.6984791666666667
+      ],
+      "gain": 1.2399456569702763,
+      "cloth_index": 1,
+      "duration": 0.6984791666666667,
+      "peak": 0.14721541783610237
+    },
+    {
+      "asset": "Recorded_gravel_08",
+      "surface": "gravel",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_09.wav",
+      "sha256": "157b5327162584ea0c754fa147b8f27b653a48e95f76b69f6bfd2206b91396ee",
+      "trim_seconds": [
+        0.0,
+        0.5259791666666667
+      ],
+      "gain": 1.2399456569702763,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.18349969111421907
+    },
+    {
+      "asset": "Recorded_gravel_09",
+      "surface": "gravel",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_10.wav",
+      "sha256": "b45b869b1da60c78d1f623396ee78fe24f86d85ad89fb66927cf138471b1131b",
+      "trim_seconds": [
+        0.0,
+        0.55675
+      ],
+      "gain": 1.2399456569702763,
+      "cloth_index": 3,
+      "duration": 0.63,
+      "peak": 0.381925524432568
+    },
+    {
+      "asset": "Recorded_metal_00",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_01.wav",
+      "sha256": "d9bae47bd010c9ca3e607616144cfe214e9c065c0bf10266ceddcf1aa08b7489",
+      "trim_seconds": [
+        0.0,
+        0.5279375
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.13369826274027538
+    },
+    {
+      "asset": "Recorded_metal_01",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_02.wav",
+      "sha256": "9a3f95723dd87b865a1d5d53bed61bcb42c367472abf1b2561c122ac2925f7e0",
+      "trim_seconds": [
+        0.0,
+        0.48364583333333333
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.2815254276808524
+    },
+    {
+      "asset": "Recorded_metal_02",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_03.wav",
+      "sha256": "f2553de2416bdfa4820471a471c5be620d0cf837dc0ae37abc36e9698fd5d83f",
+      "trim_seconds": [
+        0.0,
+        0.4773125
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.3618944509587712
+    },
+    {
+      "asset": "Recorded_metal_03",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_04.wav",
+      "sha256": "4194b7636a70bf8140b1aeca9bd21f8dd64bab2da916b6026657dce01bca153f",
+      "trim_seconds": [
+        0.0,
+        0.5256458333333334
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 3,
+      "duration": 0.63,
+      "peak": 0.17434366833920684
+    },
+    {
+      "asset": "Recorded_metal_04",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_05.wav",
+      "sha256": "69294455acf6bbd2a27609b5f3326378eba35964c94101feb88f3a2058cbf223",
+      "trim_seconds": [
+        0.0,
+        0.48020833333333335
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 4,
+      "duration": 0.78,
+      "peak": 0.3253078416605496
+    },
+    {
+      "asset": "Recorded_metal_05",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_06.wav",
+      "sha256": "935c9f39cace364164fff0056590b9602ff497868e6b9e7d44a706f1ee471857",
+      "trim_seconds": [
+        0.0,
+        0.5245208333333333
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 5,
+      "duration": 0.61,
+      "peak": 0.308768529904331
+    },
+    {
+      "asset": "Recorded_metal_06",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_07.wav",
+      "sha256": "d3c7035a3624d18417247d912dff0c0b6293e8eaee6d54242a0633d82c0e8a05",
+      "trim_seconds": [
+        0.0,
+        0.42891666666666667
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.5010515606314343
+    },
+    {
+      "asset": "Recorded_metal_07",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_08.wav",
+      "sha256": "d8df060a9cc3e9193b2bd9c6f4cf2cca91495820504544c725aac7a6dee41384",
+      "trim_seconds": [
+        0.0,
+        0.4545416666666667
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.5686597666748779
+    },
+    {
+      "asset": "Recorded_metal_08",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_09.wav",
+      "sha256": "a0e7de0a55ceac4c450eb3284fa0e9122e78acdc7ed6f91505eaa667fd1bc7e6",
+      "trim_seconds": [
+        0.0,
+        0.5089583333333333
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.5067781728743435
+    },
+    {
+      "asset": "Recorded_metal_09",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_10.wav",
+      "sha256": "6a2636b95521ba2cc76d15fd70ba5f8c1041cfb859807b620742315b1ea0d04f",
+      "trim_seconds": [
+        0.0007291666666666667,
+        0.4578125
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 3,
+      "duration": 0.63,
+      "peak": 0.68
+    },
+    {
+      "asset": "Recorded_metal_10",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_11.wav",
+      "sha256": "5c6688b228483649e4088e78be970444504ea6d7a70d599c1192a50851ac4567",
+      "trim_seconds": [
+        0.0,
+        0.46989583333333335
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 4,
+      "duration": 0.78,
+      "peak": 0.3436885508586654
+    },
+    {
+      "asset": "Recorded_metal_11",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_12.wav",
+      "sha256": "63cb2dff3bfbc1b5a03e19364ab95cb80251d5d6ce0d34e8fc6dff0899e11443",
+      "trim_seconds": [
+        0.0,
+        0.44233333333333336
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 5,
+      "duration": 0.61,
+      "peak": 0.2915578880023049
+    },
+    {
+      "asset": "Recorded_metal_12",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_13.wav",
+      "sha256": "b648e6f745c32b4af2c3ae923def6d4ccd00cc2718f4487fe2a9bea98f91f95a",
+      "trim_seconds": [
+        0.0,
+        0.48954166666666665
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.12266604383347475
+    },
+    {
+      "asset": "Recorded_metal_13",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_14.wav",
+      "sha256": "e91fd1606f31e068cd652a5d1f755800dc0503912ff2f4ec49446f2300efb6bd",
+      "trim_seconds": [
+        0.0,
+        0.4415625
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.23810188407040558
+    },
+    {
+      "asset": "Recorded_metal_14",
+      "surface": "metal",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_15.wav",
+      "sha256": "95b7781b6dfd567dd6cdac8b99e116c9e3ed5acfbac1edcf072b319676181517",
+      "trim_seconds": [
+        0.0,
+        0.4639375
+      ],
+      "gain": 1.5105435278839667,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.1840300379313888
+    },
+    {
+      "asset": "Recorded_concrete_00",
+      "surface": "concrete",
+      "original": "footsteps/boots/0.ogg",
+      "sha256": "28a77e3fc5cc53f5a45d08a429dd335bb6dd9fc3b6c5de23dd5fc0c6efc59cad",
+      "trim_seconds": [
+        0.0,
+        0.13466666666666666
+      ],
+      "gain": 0.6378887677614302,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.6006505073628592
+    },
+    {
+      "asset": "Recorded_concrete_01",
+      "surface": "concrete",
+      "original": "footsteps/boots/1.ogg",
+      "sha256": "638eb70bd1a36d83a81d123f59efa63b3619241f073a82bb318442f7cbd5048c",
+      "trim_seconds": [
+        0.0,
+        0.13466666666666666
+      ],
+      "gain": 0.6378887677614302,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.584969971329597
+    },
+    {
+      "asset": "Recorded_concrete_02",
+      "surface": "concrete",
+      "original": "footsteps/boots/2.ogg",
+      "sha256": "1d91bd437de4da810a27ce4c605e3f8e51a63f4c8a430d54d1209c0ef4a7e142",
+      "trim_seconds": [
+        0.0,
+        0.13466666666666666
+      ],
+      "gain": 0.6378887677614302,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.5897292347295892
+    },
+    {
+      "asset": "Recorded_concrete_03",
+      "surface": "concrete",
+      "original": "footsteps/boots/3.ogg",
+      "sha256": "78b45022cc4b70400e23bf8ad68c8a68d3b788dc1346de545d3130ba6d46f8cd",
+      "trim_seconds": [
+        0.0,
+        0.13466666666666666
+      ],
+      "gain": 0.6378887677614302,
+      "cloth_index": 3,
+      "duration": 0.63,
+      "peak": 0.5927746117103678
+    },
+    {
+      "asset": "Recorded_concrete_04",
+      "surface": "concrete",
+      "original": "footsteps/boots/4.ogg",
+      "sha256": "0f397ea2dafa9e63a2c63eb94c59f9819346c658203e2c2dec2aa213ca2e0ecf",
+      "trim_seconds": [
+        0.0,
+        0.13466666666666666
+      ],
+      "gain": 0.6378887677614302,
+      "cloth_index": 4,
+      "duration": 0.78,
+      "peak": 0.6111248109699267
+    },
+    {
+      "asset": "Recorded_concrete_05",
+      "surface": "concrete",
+      "original": "footsteps/boots/5.ogg",
+      "sha256": "847351c4c3f8b4b408450a8b2f221fea6c8951e08bca7c01838addbc4ec469f4",
+      "trim_seconds": [
+        0.0,
+        0.13466666666666666
+      ],
+      "gain": 0.6378887677614302,
+      "cloth_index": 5,
+      "duration": 0.61,
+      "peak": 0.591736584761139
+    },
+    {
+      "asset": "Recorded_concrete_06",
+      "surface": "concrete",
+      "original": "footsteps/boots/6.ogg",
+      "sha256": "2d09729a7181c7199e039088a730ae878274dc7a7c17155fe1e2a6e0fbd5634c",
+      "trim_seconds": [
+        0.0,
+        0.13466666666666666
+      ],
+      "gain": 0.6378887677614302,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.584650549268977
+    },
+    {
+      "asset": "Recorded_concrete_07",
+      "surface": "concrete",
+      "original": "footsteps/boots/7.ogg",
+      "sha256": "6ccd764d6a995977a1a7fd286fbbd3c82e35d798c9692104910488d7bdfc78d1",
+      "trim_seconds": [
+        0.0,
+        0.13466666666666666
+      ],
+      "gain": 0.6378887677614302,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.5768740793903003
+    },
+    {
+      "asset": "Recorded_concrete_08",
+      "surface": "concrete",
+      "original": "footsteps/boots/8.ogg",
+      "sha256": "cfe563ea35aa53bc5cb97c346248ee2a73298c1bd2e11ba02022ef74d786ba50",
+      "trim_seconds": [
+        0.0,
+        0.13466666666666666
+      ],
+      "gain": 0.6378887677614302,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.6009351463730189
+    },
+    {
+      "asset": "Recorded_wood_00",
+      "surface": "wood",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_01.wav",
+      "sha256": "ced3c3e067d9e9e7d46075a5cfdcc8063153c0099c076fdfa27cd171f16f18d6",
+      "trim_seconds": [
+        0.004354166666666667,
+        0.42554166666666665
+      ],
+      "gain": 1.541413914209427,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.2065580140639664
+    },
+    {
+      "asset": "Recorded_wood_01",
+      "surface": "wood",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_02.wav",
+      "sha256": "0fbf01e67ceeefa6489d3b82d070c3b03df67ea4daf12503da7aa46a97c9b03b",
+      "trim_seconds": [
+        0.002479166666666667,
+        0.42804166666666665
+      ],
+      "gain": 1.541413914209427,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.68
+    },
+    {
+      "asset": "Recorded_wood_02",
+      "surface": "wood",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_03.wav",
+      "sha256": "7b732ddaf1f3586571a6790ebeeea8400f1acf9e4921c64a987d29bb4764756f",
+      "trim_seconds": [
+        0.0028333333333333335,
+        0.491375
+      ],
+      "gain": 1.541413914209427,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.40165000684615787
+    },
+    {
+      "asset": "Recorded_wood_03",
+      "surface": "wood",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_04.wav",
+      "sha256": "8d8c46c46c9743a436b92f971ffdc893ea8a82bb29d1197d767520d5885a666c",
+      "trim_seconds": [
+        0.003125,
+        0.4879791666666667
+      ],
+      "gain": 1.541413914209427,
+      "cloth_index": 3,
+      "duration": 0.63,
+      "peak": 0.5518830220422666
+    },
+    {
+      "asset": "Recorded_wood_04",
+      "surface": "wood",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_05.wav",
+      "sha256": "71e464eb4ccea15c264339660b175ab55317024f8ae90aa6cdbd582efc72ab7e",
+      "trim_seconds": [
+        0.0008125,
+        0.4427291666666667
+      ],
+      "gain": 1.541413914209427,
+      "cloth_index": 4,
+      "duration": 0.78,
+      "peak": 0.3727294674365015
+    },
+    {
+      "asset": "Recorded_wood_05",
+      "surface": "wood",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_06.wav",
+      "sha256": "16f474d72ad7c3b64e2e0f1ec3cc5781c8d17bab67a6b0fd40964f5f6092157e",
+      "trim_seconds": [
+        0.0035625,
+        0.5068958333333333
+      ],
+      "gain": 1.541413914209427,
+      "cloth_index": 5,
+      "duration": 0.61,
+      "peak": 0.3199762096683757
+    },
+    {
+      "asset": "Recorded_wood_06",
+      "surface": "wood",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_07.wav",
+      "sha256": "5a255fba1df75f78fb48df8b1b582a3806e21b0ae7cc18ad0c956d2d3949498b",
+      "trim_seconds": [
+        0.0,
+        0.5626875
+      ],
+      "gain": 1.541413914209427,
+      "cloth_index": 0,
+      "duration": 0.72,
+      "peak": 0.2533710256037807
+    },
+    {
+      "asset": "Recorded_wood_07",
+      "surface": "wood",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_08.wav",
+      "sha256": "a680c1fb65103e90cbcb31d6107811894cc57ea962da7a49f5f062377b6e1fde",
+      "trim_seconds": [
+        0.0005,
+        0.3823958333333333
+      ],
+      "gain": 1.541413914209427,
+      "cloth_index": 1,
+      "duration": 0.6,
+      "peak": 0.2208308619293354
+    },
+    {
+      "asset": "Recorded_wood_08",
+      "surface": "wood",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_09.wav",
+      "sha256": "533870b8e0be9c4a692293fb8ad03d7324977df4741fe260e0991a21d8c2b77e",
+      "trim_seconds": [
+        0.00275,
+        0.41914583333333333
+      ],
+      "gain": 1.541413914209427,
+      "cloth_index": 2,
+      "duration": 0.83,
+      "peak": 0.5902825909702407
+    },
+    {
+      "asset": "Recorded_wood_09",
+      "surface": "wood",
+      "original": "Essentials_Series_NOX_SOUND/Footsteps_Essentials_NOX_SOUND/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_10.wav",
+      "sha256": "4bc630d3bd4e0ccf68df80bfba70635d518a4716bfdaf2817796a22337e9a9d0",
+      "trim_seconds": [
+        0.0,
+        0.4809375
+      ],
+      "gain": 1.541413914209427,
+      "cloth_index": 3,
+      "duration": 0.63,
+      "peak": 0.26573710172096776
+    }
+  ]
+}

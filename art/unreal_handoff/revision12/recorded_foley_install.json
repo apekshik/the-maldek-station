@@ -1,0 +1,49 @@
+{
+  "pawn": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished",
+  "counts": {
+    "soil": 18,
+    "gravel": 10,
+    "metal": 15,
+    "concrete": 9,
+    "wood": 10
+  },
+  "volume": 0.800000011920929,
+  "previous": {
+    "soil_steps": [
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_soil_00.Step_soil_00",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_soil_01.Step_soil_01",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_soil_02.Step_soil_02",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_soil_03.Step_soil_03",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_soil_04.Step_soil_04"
+    ],
+    "gravel_steps": [
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_gravel_00.Step_gravel_00",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_gravel_01.Step_gravel_01",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_gravel_02.Step_gravel_02",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_gravel_03.Step_gravel_03",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_gravel_04.Step_gravel_04"
+    ],
+    "metal_steps": [
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_metal_00.Step_metal_00",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_metal_01.Step_metal_01",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_metal_02.Step_metal_02",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_metal_03.Step_metal_03",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_metal_04.Step_metal_04"
+    ],
+    "concrete_steps": [
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_concrete_00.Step_concrete_00",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_concrete_01.Step_concrete_01",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_concrete_02.Step_concrete_02",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_concrete_03.Step_concrete_03",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_concrete_04.Step_concrete_04"
+    ],
+    "wood_steps": [
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_wood_00.Step_wood_00",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_wood_01.Step_wood_01",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_wood_02.Step_wood_02",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_wood_03.Step_wood_03",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_wood_04.Step_wood_04"
+    ]
+  },
+  "imported": 62
+}

@@ -6,6 +6,13 @@
 
 void UHorrorUI::SetupCharacter(AHorrorCharacter* HorrorCharacter)
 {
+	// This template widget contains only the stamina display. Keep it out of station play.
+	if (HorrorCharacter->bUnlimitedSprint)
+	{
+		SetVisibility(ESlateVisibility::Collapsed);
+		return;
+	}
+	SetVisibility(ESlateVisibility::SelfHitTestInvisible);
 	HorrorCharacter->OnSprintMeterUpdated.AddDynamic(this, &UHorrorUI::OnSprintMeterUpdated);
 	HorrorCharacter->OnSprintStateChanged.AddDynamic(this, &UHorrorUI::OnSprintStateChanged);
 }

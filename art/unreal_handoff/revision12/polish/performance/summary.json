@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "cameras": [
+    {
+      "camera": "forest",
+      "frame_ms": 13.302,
+      "gpu_ms": 11.135,
+      "game_ms": 11.47,
+      "draw_calls": 1537.724,
+      "process_physical_bytes": 10859200516.536,
+      "previous_gpu_ms": 10.748
+    },
+    {
+      "camera": "station",
+      "frame_ms": 12.667,
+      "gpu_ms": 10.51,
+      "game_ms": 11.612,
+      "draw_calls": 1446.576,
+      "process_physical_bytes": 10893723488.135,
+      "previous_gpu_ms": 9.952
+    },
+    {
+      "camera": "control",
+      "frame_ms": 11.824,
+      "gpu_ms": 9.748,
+      "game_ms": 11.399,
+      "draw_calls": 976.482,
+      "process_physical_bytes": 10890863696.63,
+      "previous_gpu_ms": 9.1
+    },
+    {
+      "camera": "dock",
+      "frame_ms": 11.942,
+      "gpu_ms": 9.831,
+      "game_ms": 11.588,
+      "draw_calls": 1282.672,
+      "process_physical_bytes": 10882269774.378,
+      "previous_gpu_ms": 9.09
+    },
+    {
+      "camera": "service",
+      "frame_ms": 11.523,
+      "gpu_ms": 9.342,
+      "game_ms": 9.906,
+      "draw_calls": 1700.257,
+      "process_physical_bytes": 10882359107.317,
+      "previous_gpu_ms": 8.633
+    },
+    {
+      "camera": "bridge",
+      "frame_ms": 13.027,
+      "gpu_ms": 10.834,
+      "game_ms": 11.516,
+      "draw_calls": 1956.925,
+      "process_physical_bytes": 10905015071.653,
+      "previous_gpu_ms": 10.085
+    }
+  ],
+  "comparison_limit": "Previous release capture precedes the saved user/editor lighting checkpoint; not an isolated A/B of the fallback repair."
+}

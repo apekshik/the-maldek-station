@@ -1,0 +1,12 @@
+float2 p=(UV-0.5)*2.0;
+p=p*float2(1.012,0.988)+float2(0.006,-0.004);
+float r=length(p); float a=atan2(p.y,p.x); float focus=saturate(Focus);
+float radialWarp=max(0.0,r+0.004*sin(a*5.0+0.7)+0.003*sin(a*9.0-0.8));
+float coreWidth=lerp(0.38,0.24,focus);
+float core=0.80*exp(-pow(radialWarp/coreWidth,3.2));
+float spill=0.22*exp(-pow(r/0.66,2.0));
+float corona=0.065*exp(-pow((radialWarp-lerp(0.69,0.49,focus))/0.027,2.0));
+float innerRing=0.028*exp(-pow((radialWarp-lerp(0.43,0.32,focus))/0.045,2.0));
+float reflector=1.0+0.024*sin(a*7.0+r*21.0)+0.015*sin(a*13.0-r*15.0);
+float centralDip=1.0-0.085*focus*exp(-pow(r/0.055,2.0));
+return saturate((core*centralDip+spill+corona+innerRing)*reflector*(1.0-smoothstep(0.84,1.0,r)));

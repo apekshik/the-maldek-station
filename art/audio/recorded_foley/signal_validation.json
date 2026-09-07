@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Recorded_concrete_00.wav",
+    "duration": 0.72,
+    "peak": 0.60064697265625,
+    "rms": 0.029431759925144216
+  },
+  {
+    "name": "Recorded_concrete_01.wav",
+    "duration": 0.6,
+    "peak": 0.5849609375,
+    "rms": 0.031737236684845335
+  },
+  {
+    "name": "Recorded_concrete_02.wav",
+    "duration": 0.83,
+    "peak": 0.5897216796875,
+    "rms": 0.028218306292468336
+  },
+  {
+    "name": "Recorded_concrete_03.wav",
+    "duration": 0.63,
+    "peak": 0.5927734375,
+    "rms": 0.03012504398487635
+  },
+  {
+    "name": "Recorded_concrete_04.wav",
+    "duration": 0.78,
+    "peak": 0.611114501953125,
+    "rms": 0.03021985083477415
+  },
+  {
+    "name": "Recorded_concrete_05.wav",
+    "duration": 0.61,
+    "peak": 0.59173583984375,
+    "rms": 0.030828285128092523
+  },
+  {
+    "name": "Recorded_concrete_06.wav",
+    "duration": 0.72,
+    "peak": 0.584625244140625,
+    "rms": 0.03104766542740504
+  },
+  {
+    "name": "Recorded_concrete_07.wav",
+    "duration": 0.6,
+    "peak": 0.576873779296875,
+    "rms": 0.029928019901365496
+  },
+  {
+    "name": "Recorded_concrete_08.wav",
+    "duration": 0.83,
+    "peak": 0.600921630859375,
+    "rms": 0.029768766561565806
+  },
+  {
+    "name": "Recorded_gravel_00.wav",
+    "duration": 0.72,
+    "peak": 0.67840576171875,
+    "rms": 0.02596372011172666
+  },
+  {
+    "name": "Recorded_gravel_01.wav",
+    "duration": 0.6,
+    "peak": 0.39544677734375,
+    "rms": 0.030779573077570357
+  },
+  {
+    "name": "Recorded_gravel_02.wav",
+    "duration": 0.83,
+    "peak": 0.181121826171875,
+    "rms": 0.017920586012223592
+  },
+  {
+    "name": "Recorded_gravel_03.wav",
+    "duration": 0.63,
+    "peak": 0.29058837890625,
+    "rms": 0.021723394872408902
+  },
+  {
+    "name": "Recorded_gravel_04.wav",
+    "duration": 0.78,
+    "peak": 0.145263671875,
+    "rms": 0.019353514570629102
+  },
+  {
+    "name": "Recorded_gravel_05.wav",
+    "duration": 0.61,
+    "peak": 0.34814453125,
+    "rms": 0.025809807827203914
+  },
+  {
+    "name": "Recorded_gravel_06.wav",
+    "duration": 0.72,
+    "peak": 0.369110107421875,
+    "rms": 0.02407774793374803
+  },
+  {
+    "name": "Recorded_gravel_07.wav",
+    "duration": 0.6984791666666667,
+    "peak": 0.147186279296875,
+    "rms": 0.018033674004084926
+  },
+  {
+    "name": "Recorded_gravel_08.wav",
+    "duration": 0.83,
+    "peak": 0.1834716796875,
+    "rms": 0.018235723146444803
+  },
+  {
+    "name": "Recorded_gravel_09.wav",
+    "duration": 0.63,
+    "peak": 0.38189697265625,
+    "rms": 0.030877221432877817
+  },
+  {
+    "name": "Recorded_metal_00.wav",
+    "duration": 0.72,
+    "peak": 0.13372802734375,
+    "rms": 0.012862718211410006
+  },
+  {
+    "name": "Recorded_metal_01.wav",
+    "duration": 0.6,
+    "peak": 0.281524658203125,
+    "rms": 0.017240633027707217
+  },
+  {
+    "name": "Recorded_metal_02.wav",
+    "duration": 0.83,
+    "peak": 0.36187744140625,
+    "rms": 0.017345477147621868
+  },
+  {
+    "name": "Recorded_metal_03.wav",
+    "duration": 0.63,
+    "peak": 0.174346923828125,
+    "rms": 0.014517285420815491
+  },
+  {
+    "name": "Recorded_metal_04.wav",
+    "duration": 0.78,
+    "peak": 0.3253173828125,
+    "rms": 0.02052483565100227
+  },
+  {
+    "name": "Recorded_metal_05.wav",
+    "duration": 0.61,
+    "peak": 0.308746337890625,
+    "rms": 0.027653036241226673
+  },
+  {
+    "name": "Recorded_metal_06.wav",
+    "duration": 0.72,
+    "peak": 0.501068115234375,
+    "rms": 0.023003344088474986
+  },
+  {
+    "name": "Recorded_metal_07.wav",
+    "duration": 0.6,
+    "peak": 0.568634033203125,
+    "rms": 0.03656913512598846
+  },
+  {
+    "name": "Recorded_metal_08.wav",
+    "duration": 0.83,
+    "peak": 0.506805419921875,
+    "rms": 0.029846554637322803
+  },
+  {
+    "name": "Recorded_metal_09.wav",
+    "duration": 0.63,
+    "peak": 0.680023193359375,
+    "rms": 0.037283490988948
+  },
+  {
+    "name": "Recorded_metal_10.wav",
+    "duration": 0.78,
+    "peak": 0.343658447265625,
+    "rms": 0.02246174592079113
+  },
+  {
+    "name": "Recorded_metal_11.wav",
+    "duration": 0.61,
+    "peak": 0.291534423828125,
+    "rms": 0.017845350842759733
+  },
+  {
+    "name": "Recorded_metal_12.wav",
+    "duration": 0.72,
+    "peak": 0.122650146484375,
+    "rms": 0.012987294918756631
+  },
+  {
+    "name": "Recorded_metal_13.wav",
+    "duration": 0.6,
+    "peak": 0.238128662109375,
+    "rms": 0.01707737980569737
+  },
+  {
+    "name": "Recorded_metal_14.wav",
+    "duration": 0.83,
+    "peak": 0.184051513671875,
+    "rms": 0.014359233180240178
+  },
+  {
+    "name": "Recorded_soil_00.wav",
+    "duration": 0.72,
+    "peak": 0.418548583984375,
+    "rms": 0.021376535450959567
+  },
+  {
+    "name": "Recorded_soil_01.wav",
+    "duration": 0.6,
+    "peak": 0.32861328125,
+    "rms": 0.022265694498704015
+  },
+  {
+    "name": "Recorded_soil_02.wav",
+    "duration": 0.83,
+    "peak": 0.5093994140625,
+    "rms": 0.022001811170941913
+  },
+  {
+    "name": "Recorded_soil_03.wav",
+    "duration": 0.63,
+    "peak": 0.67999267578125,
+    "rms": 0.026621833363997812
+  },
+  {
+    "name": "Recorded_soil_04.wav",
+    "duration": 0.78,
+    "peak": 0.2562255859375,
+    "rms": 0.017794947397996926
+  },
+  {
+    "name": "Recorded_soil_05.wav",
+    "duration": 0.7136041666666667,
+    "peak": 0.37127685546875,
+    "rms": 0.019090276111301416
+  },
+  {
+    "name": "Recorded_soil_06.wav",
+    "duration": 0.72,
+    "peak": 0.19342041015625,
+    "rms": 0.01902789588955668
+  },
+  {
+    "name": "Recorded_soil_07.wav",
+    "duration": 0.6,
+    "peak": 0.19866943359375,
+    "rms": 0.021172872859503877
+  },
+  {
+    "name": "Recorded_soil_08.wav",
+    "duration": 0.83,
+    "peak": 0.435333251953125,
+    "rms": 0.01685162892910312
+  },
+  {
+    "name": "Recorded_soil_09.wav",
+    "duration": 0.63,
+    "peak": 0.101898193359375,
+    "rms": 0.012427823260523363
+  },
+  {
+    "name": "Recorded_soil_10.wav",
+    "duration": 0.78,
+    "peak": 0.13427734375,
+    "rms": 0.014731254350015871
+  },
+  {
+    "name": "Recorded_soil_11.wav",
+    "duration": 0.61,
+    "peak": 0.1246337890625,
+    "rms": 0.015563437880976864
+  },
+  {
+    "name": "Recorded_soil_12.wav",
+    "duration": 0.72,
+    "peak": 0.318572998046875,
+    "rms": 0.019901586650445755
+  },
+  {
+    "name": "Recorded_soil_13.wav",
+    "duration": 0.6,
+    "peak": 0.20465087890625,
+    "rms": 0.01893434216303798
+  },
+  {
+    "name": "Recorded_soil_14.wav",
+    "duration": 0.83,
+    "peak": 0.27984619140625,
+    "rms": 0.021532138192417977
+  },
+  {
+    "name": "Recorded_soil_15.wav",
+    "duration": 0.63,
+    "peak": 0.20635986328125,
+    "rms": 0.016178915223629783
+  },
+  {
+    "name": "Recorded_soil_16.wav",
+    "duration": 0.78,
+    "peak": 0.225341796875,
+    "rms": 0.019332421789978495
+  },
+  {
+    "name": "Recorded_soil_17.wav",
+    "duration": 0.61,
+    "peak": 0.193267822265625,
+    "rms": 0.016063592658660718
+  },
+  {
+    "name": "Recorded_wood_00.wav",
+    "duration": 0.72,
+    "peak": 0.20654296875,
+    "rms": 0.02044387159173441
+  },
+  {
+    "name": "Recorded_wood_01.wav",
+    "duration": 0.6,
+    "peak": 0.67999267578125,
+    "rms": 0.04054915194201141
+  },
+  {
+    "name": "Recorded_wood_02.wav",
+    "duration": 0.83,
+    "peak": 0.401641845703125,
+    "rms": 0.027947801734335226
+  },
+  {
+    "name": "Recorded_wood_03.wav",
+    "duration": 0.63,
+    "peak": 0.5518798828125,
+    "rms": 0.04061142624332459
+  },
+  {
+    "name": "Recorded_wood_04.wav",
+    "duration": 0.78,
+    "peak": 0.37274169921875,
+    "rms": 0.026958138430882662
+  },
+  {
+    "name": "Recorded_wood_05.wav",
+    "duration": 0.61,
+    "peak": 0.3199462890625,
+    "rms": 0.02152920093387111
+  },
+  {
+    "name": "Recorded_wood_06.wav",
+    "duration": 0.72,
+    "peak": 0.25335693359375,
+    "rms": 0.01840740835113871
+  },
+  {
+    "name": "Recorded_wood_07.wav",
+    "duration": 0.6,
+    "peak": 0.2208251953125,
+    "rms": 0.021235150083286705
+  },
+  {
+    "name": "Recorded_wood_08.wav",
+    "duration": 0.83,
+    "peak": 0.59027099609375,
+    "rms": 0.028071022053050596
+  },
+  {
+    "name": "Recorded_wood_09.wav",
+    "duration": 0.63,
+    "peak": 0.265716552734375,
+    "rms": 0.020885879105556712
+  }
+]

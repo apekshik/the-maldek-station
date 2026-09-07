@@ -12,10 +12,12 @@
 #include "InputCoreTypes.h"
 #include "Components/StaticMeshComponent.h"
 #include "SurfaceFootstepComponent.h"
+#include "StationPlayerPresentationComponent.h"
 
 AHorrorCharacter::AHorrorCharacter()
 {
 	SurfaceFootsteps = CreateDefaultSubobject<USurfaceFootstepComponent>(TEXT("SurfaceFootsteps"));
+	PlayerPresentation = CreateDefaultSubobject<UStationPlayerPresentationComponent>(TEXT("PlayerPresentation"));
 	// create the spotlight
 	SpotLight = CreateDefaultSubobject<USpotLightComponent>(TEXT("SpotLight"));
 	SpotLight->SetupAttachment(GetFirstPersonCameraComponent());
@@ -39,7 +41,8 @@ void AHorrorCharacter::BeginPlay()
 	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
 
 	// start the sprint tick timer
-	GetWorld()->GetTimerManager().SetTimer(SprintTimer, this, &AHorrorCharacter::SprintFixedTick, SprintFixedTickTime, true);
+	if (!bUnlimitedSprint)
+		GetWorld()->GetTimerManager().SetTimer(SprintTimer, this, &AHorrorCharacter::SprintFixedTick, SprintFixedTickTime, true);
 }
 
 void AHorrorCharacter::EndPlay(EEndPlayReason::Type EndPlayReason)
@@ -54,6 +57,8 @@ void AHorrorCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindKey(EKeys::F, IE_Pressed, this, &AHorrorCharacter::ToggleFlashlight);
+	PlayerInputComponent->BindKey(EKeys::MouseScrollUp, IE_Pressed, this, &AHorrorCharacter::FocusFlashlightIn);
+	PlayerInputComponent->BindKey(EKeys::MouseScrollDown, IE_Pressed, this, &AHorrorCharacter::FocusFlashlightOut);
 
 	{
 		// Set up action bindings
@@ -62,6 +67,7 @@ void AHorrorCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 			// Sprinting
 			EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Started, this, &AHorrorCharacter::DoStartSprint);
 			EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Completed, this, &AHorrorCharacter::DoEndSprint);
+			EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Canceled, this, &AHorrorCharacter::DoEndSprint);
 
 		}
 	}
@@ -80,6 +86,9 @@ void AHorrorCharacter::ToggleFlashlight()
 		}
 	}
 }
+
+void AHorrorCharacter::FocusFlashlightIn() { PlayerPresentation->AdjustFocus(1.0f); }
+void AHorrorCharacter::FocusFlashlightOut() { PlayerPresentation->AdjustFocus(-1.0f); }
 
 void AHorrorCharacter::DoStartSprint()
 {

@@ -1,0 +1,52 @@
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Components/ActorComponent.h"
+#include "StationPlayerPresentationComponent.generated.h"
+
+class ACharacter;
+class UCameraComponent;
+class USceneComponent;
+class USpotLightComponent;
+class UPointLightComponent;
+class UMaterialInstanceDynamic;
+class UStaticMesh;
+
+/** Camera and held-tool presentation. Never moves the collision capsule. */
+UCLASS(ClassGroup=(Station), meta=(BlueprintSpawnableComponent))
+class GAME_API UStationPlayerPresentationComponent : public UActorComponent
+{
+ GENERATED_BODY()
+public:
+ UStationPlayerPresentationComponent();
+ virtual void BeginPlay() override;
+ virtual void EndPlay(const EEndPlayReason::Type Reason) override;
+ virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+
+ UFUNCTION(BlueprintCallable, Category="Flashlight") void AdjustFocus(float Steps);
+ UFUNCTION(BlueprintCallable, Category="Flashlight") void SetFocus(float Value);
+ UFUNCTION(BlueprintPure, Category="Flashlight") float GetFocus() const { return Focus; }
+ UFUNCTION(BlueprintPure, Category="Flashlight") float GetTargetFocus() const { return TargetFocus; }
+ UFUNCTION(BlueprintPure, Category="Walking") FVector GetViewOffset() const { return ViewOffset; }
+
+ /** Set to zero for a steady camera; hand motion remains restrained. */
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="1.5")) float HeadBobScale=0.7f;
+ UPROPERTY(EditAnywhere, Category="Flashlight", meta=(ClampMin="0",ClampMax="1")) float InitialFocus=0.35f;
+ UPROPERTY(EditAnywhere, Category="Flashlight") float WideLumens=1.2f;
+ UPROPERTY(EditAnywhere, Category="Flashlight") float FocusedLumens=1.0f;
+ UPROPERTY(EditAnywhere, Category="Flashlight") TObjectPtr<UStaticMesh> DetailedTorchMesh;
+
+private:
+ UPROPERTY(Transient) TObjectPtr<ACharacter> Character;
+ UPROPERTY(Transient) TObjectPtr<UCameraComponent> Camera;
+ UPROPERTY(Transient) TObjectPtr<USpotLightComponent> Beam;
+ UPROPERTY(Transient) TObjectPtr<USceneComponent> HeldRoot;
+ UPROPERTY(Transient) TObjectPtr<UPointLightComponent> HandFill;
+ UPROPERTY(Transient) TObjectPtr<UMaterialInstanceDynamic> Optics;
+ float Focus=0.35f,TargetFocus=0.35f,Phase=0,MotionWeight=0,LandingOffset=0,PreviousVerticalSpeed=0;
+ bool bWasGrounded=true;
+ FRotator PreviousAim=FRotator::ZeroRotator;
+ FVector2D AimLag=FVector2D::ZeroVector;
+ FVector ViewOffset=FVector::ZeroVector;
+ void UpdateBeam();
+};

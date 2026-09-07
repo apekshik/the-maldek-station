@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "reopened_editor": true,
+  "map": "/Game/MaldekRefinement/R12/Station_R12.Station_R12",
+  "game_mode": "/Game/MaldekRefinement/R12/Player/BP_StationGameMode_Polished.BP_StationGameMode_Polished_C",
+  "pawn": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished_C",
+  "torch": "/Game/MaldekRefinement/R12/Player/Meshes/SM_Torch_Field.SM_Torch_Field",
+  "optics": "/Game/MaldekRefinement/R12/Player/Materials/M_Torch_Optics.M_Torch_Optics",
+  "repaired_meshes": [
+    "SM_R12_12_Gondola_001_solid",
+    "SM_R12_12_Gondola_003_solid",
+    "SM_R12_12_Gondola_006_solid",
+    "SM_R12_12_Gondola_008_solid",
+    "SM_R12_VF06_Control_000_solid",
+    "SM_R12_VF06_Control_009_solid",
+    "SM_R12_VF06_Maintenance_Shells_001_solid",
+    "SM_R12_VF06_Maintenance_Shells_003_solid",
+    "SM_R12_VF06_Maintenance_Shells_004_solid",
+    "SM_R12_VF06_Maintenance_Shells_008_solid",
+    "SM_R12_VF06_Quarters_004_solid",
+    "SM_R12_VF06_Quarters_007_solid",
+    "SM_R12_VF06_Relay_Shell_000_solid",
+    "SM_R12_VF06_Relay_Shell_003_solid",
+    "SM_R12_VF06_Waiting_Hall_003_solid",
+    "SM_R12_VF06_Waiting_Hall_006_solid",
+    "SM_R12_VF06_Waiting_Hall_010_solid"
+  ]
+}

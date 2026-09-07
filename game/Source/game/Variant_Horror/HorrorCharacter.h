@@ -9,13 +9,14 @@
 class USpotLightComponent;
 class UInputAction;
 class USurfaceFootstepComponent;
+class UStationPlayerPresentationComponent;
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateSprintMeterDelegate, float, Percentage);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FSprintStateChangedDelegate, bool, bSprinting);
 
 /**
  *  Simple first person horror character
- *  Provides stamina-based sprinting
+ *  Provides walking, unlimited sprinting and a focusable held torch
  */
 UCLASS(abstract)
 class GAME_API AHorrorCharacter : public AgameCharacter
@@ -28,6 +29,8 @@ class GAME_API AHorrorCharacter : public AgameCharacter
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess="true"))
 	USurfaceFootstepComponent* SurfaceFootsteps;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess="true"))
+	UStationPlayerPresentationComponent* PlayerPresentation;
 	
 protected:
 
@@ -72,6 +75,9 @@ protected:
 	FTimerHandle SprintTimer;
 
 public:
+	/** Retains optional stamina for older template use; station play is unlimited. */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Sprint")
+	bool bUnlimitedSprint = true;
 
 	/** Delegate called when the sprint meter should be updated */
 	FUpdateSprintMeterDelegate OnSprintMeterUpdated;
@@ -97,6 +103,8 @@ protected:
 
 	/** Toggle the held flashlight once per key press. */
 	void ToggleFlashlight();
+	void FocusFlashlightIn();
+	void FocusFlashlightOut();
 
 	/** Starts sprinting behavior */
 	UFUNCTION(BlueprintCallable, Category = "Input")

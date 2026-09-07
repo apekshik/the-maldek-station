@@ -1,0 +1,150 @@
+{
+  "phase": "finished",
+  "next": 133845.89,
+  "busy": true,
+  "checks": {
+    "five_audio_sets_present": true,
+    "ambience_playing": true,
+    "flashlight_first_toggle": true,
+    "flashlight_second_toggle": true,
+    "idle_silent": true,
+    "airborne_silent": true
+  },
+  "deadline": 133919.703,
+  "initial_flashlight": true,
+  "surface_audio_sets": {
+    "soil_steps": [
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_soil_00.Step_soil_00",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_soil_01.Step_soil_01",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_soil_02.Step_soil_02",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_soil_03.Step_soil_03",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_soil_04.Step_soil_04"
+    ],
+    "gravel_steps": [
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_gravel_00.Step_gravel_00",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_gravel_01.Step_gravel_01",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_gravel_02.Step_gravel_02",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_gravel_03.Step_gravel_03",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_gravel_04.Step_gravel_04"
+    ],
+    "metal_steps": [
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_metal_00.Step_metal_00",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_metal_01.Step_metal_01",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_metal_02.Step_metal_02",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_metal_03.Step_metal_03",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_metal_04.Step_metal_04"
+    ],
+    "concrete_steps": [
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_concrete_00.Step_concrete_00",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_concrete_01.Step_concrete_01",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_concrete_02.Step_concrete_02",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_concrete_03.Step_concrete_03",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_concrete_04.Step_concrete_04"
+    ],
+    "wood_steps": [
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_wood_00.Step_wood_00",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_wood_01.Step_wood_01",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_wood_02.Step_wood_02",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_wood_03.Step_wood_03",
+      "/Game/MaldekRefinement/ForestTest/Audio/Steps/Step_wood_04.Step_wood_04"
+    ]
+  },
+  "ambience": [
+    {
+      "actor": "R10_Forest_Wind",
+      "sound": "/Game/MaldekRefinement/R10/Audio/Forest_Wind_Loop.Forest_Wind_Loop",
+      "playing": true
+    },
+    {
+      "actor": "FT_Night_Insects",
+      "sound": "/Game/MaldekRefinement/ForestTest/Audio/NightInsects_Loop.NightInsects_Loop",
+      "playing": true
+    },
+    {
+      "actor": "Ultra_Dynamic_Weather",
+      "sound": "/Game/UltraDynamicSky/Sound/MetaSounds/UDS_Global_WeatherSounds.UDS_Global_WeatherSounds",
+      "playing": true
+    },
+    {
+      "actor": "Ultra_Dynamic_Weather",
+      "sound": "/Game/UltraDynamicSky/Sound/MetaSounds/UDS_Directional_WeatherSounds.UDS_Directional_WeatherSounds",
+      "playing": true
+    },
+    {
+      "actor": "Ultra_Dynamic_Weather",
+      "sound": "/Game/UltraDynamicSky/Sound/MetaSounds/UDS_WeatherSoundMixer.UDS_WeatherSoundMixer",
+      "playing": true
+    }
+  ],
+  "input_dispatched": false,
+  "idle_start": 0,
+  "idle_end": 0,
+  "airborne_test": "Controlled 2 m drop solely for suppression test; ordinary walking routes use no drops or teleports.",
+  "air_start": 0,
+  "air_samples": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "success": true
+}

@@ -1,0 +1,14 @@
+{
+  "mesh": "SM_Torch_Field",
+  "length_m": 0.25,
+  "triangles": 10580,
+  "slots": [
+    "Anodized",
+    "Machined",
+    "Grip",
+    "Reflector",
+    "Lens",
+    "Switch"
+  ],
+  "fbx_sha256": "135261dfdb3f9d69f3125ea50ba5aa221a3dd30a5c81a86b6146434794010b97"
+}

@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "pawn": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished",
+  "game_mode": "/Game/MaldekRefinement/R12/Player/BP_StationGameMode_Polished.BP_StationGameMode_Polished",
+  "torch_bounds_cm": [
+    25.00000019233012,
+    7.159999847412109,
+    7.159999847412109
+  ],
+  "optics": "/Game/MaldekRefinement/R12/Player/Materials/M_Torch_Optics.M_Torch_Optics",
+  "controls": "F toggle; wheel up focus/far throw, wheel down wide spill; hold Shift for unlimited sprint.",
+  "material_count": 7,
+  "shared_forest_assets_modified": false
+}

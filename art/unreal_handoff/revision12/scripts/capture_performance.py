@@ -14,7 +14,7 @@ previous_throttle=performance_settings.get_editor_property('bThrottleCPUWhenNotF
 performance_settings.set_editor_property('bThrottleCPUWhenNotForeground',False)
 unreal.SystemLibrary.execute_console_command(editor_world,'t.IdleWhenNotForeground 0')
 unreal.SystemLibrary.execute_console_command(editor_world,'Slate.bAllowThrottling 0')
-out=base/('baseline' if editor_world.get_name()=='Forest_Approach_Test' else 'final');out.mkdir(exist_ok=True)
+out=base/JOB.get('output',('baseline' if editor_world.get_name()=='Forest_Approach_Test' else 'final'));out.mkdir(parents=True,exist_ok=True)
 origin=json.loads((base.parent/'working_level_report.json').read_text())['station_origin']
 shots=[('forest',(-31.7,-46.4,.9),(-26,-37,.9)),('station',(-30,-28,13),(-6,0,4)),('control',(-4,3,5.6),(-4,-3,5.4)),('dock',(4,9,5.6),(0,7,5.4)),('service',(17,-7,2),(5,1,1)),('bridge',(18,28,5.6),(12,9,4.8))]
 def wp(p):return unreal.Vector(origin[0]-p[0]*100,origin[1]+p[1]*100,origin[2]+p[2]*100)

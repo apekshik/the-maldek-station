@@ -1,0 +1,23 @@
+Maldek Station - Recorded Footstep and Clothing Foley
+
+Outdoor footsteps: Nox_Sound_Design, Footsteps Essentials.
+https://nox-sound-design.itch.io/essentials-series-sfx-nox-sound
+License: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/
+
+Concrete footsteps: "footstep-concrete.wav" by swuing.
+https://freesound.org/people/swuing/sounds/38873/
+Mastered/excerpted by congusbongus in "Footsteps on different surfaces".
+https://opengameart.org/content/footsteps-on-different-surfaces
+License: Creative Commons Attribution 3.0 Unported.
+https://creativecommons.org/licenses/by/3.0/
+Further modifications for Maldek Station: mono 48 kHz conversion,
+silence trimming, short fades, level adjustment, recorded fabric layer.
+No endorsement by the original authors is implied.
+
+Clothing layer: "Fabric Rustling" by Iochi Glaucus.
+https://opengameart.org/content/fabric-rustling
+License: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/
+Excerpts, mono conversion, fades, reduced level, mixed with footsteps.
+
+Every footfall and rustle comes from these recordings. No synthesized
+footfalls, generated textures, or added artificial metal impacts are used.

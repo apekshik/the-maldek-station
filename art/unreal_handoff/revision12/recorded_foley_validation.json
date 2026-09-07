@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": 10,
+  "cleanup": {
+    "success": true,
+    "temporary_actors": 0,
+    "reloaded_saved_map": true,
+    "saved_audio_banks_verified": true,
+    "closed_editor_pid": 46508
+  },
+  "capture_seconds": 9.002666666666666,
+  "peak": 0.1988525390625,
+  "clipped_samples": 0,
+  "target": "R12 Unreal project; existing packaged executable predates the audio replacement"
+}

@@ -1,7 +1,8 @@
-param([switch]$UseDefaultMap)
+param([switch]$UseDefaultMap, [string]$ReportSubdirectory = '')
 $ErrorActionPreference = 'Stop'
 $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '../../../..')).Path
 $reportRoot = Split-Path $PSScriptRoot -Parent
+if ($ReportSubdirectory) { $reportRoot = Join-Path $reportRoot $ReportSubdirectory }
 $uat = 'C:/Program Files/Epic Games/UE_5.7/Engine/Build/BatchFiles/RunUAT.bat'
 $projectFile = Join-Path $repoRoot 'game/game.uproject'
 $packageDirectory = Join-Path $repoRoot 'game/Saved/R12Package'

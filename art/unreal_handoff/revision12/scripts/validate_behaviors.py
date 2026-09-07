@@ -9,7 +9,7 @@ state={'phase':'start','next':time.monotonic()+10,'busy':False,'checks':{},'dead
 def finish():
  settings.set_editor_property('bThrottleCPUWhenNotForeground',throttle)
  state['success']='error' not in state and all(state['checks'].values());state['phase']='finished'
- (b/'behavior_validation.json').write_text(json.dumps(state,indent=2));ls.editor_request_end_play();unreal.unregister_slate_post_tick_callback(handle)
+ (b/JOB.get('report','behavior_validation.json')).write_text(json.dumps(state,indent=2));ls.editor_request_end_play();unreal.unregister_slate_post_tick_callback(handle)
 def tick(dt):
  if state['busy'] or time.monotonic()<state['next']:return
  state['busy']=True

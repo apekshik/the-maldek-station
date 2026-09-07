@@ -1,0 +1,7 @@
+{
+  "world": "/Game/MaldekRefinement/R12/Station_R12.Station_R12",
+  "gamemode": "/Game/MaldekRefinement/R12/Player/BP_StationGameMode_Polished.BP_StationGameMode_Polished_C",
+  "pawn": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished_C",
+  "dirty": [],
+  "dirty_maps": []
+}

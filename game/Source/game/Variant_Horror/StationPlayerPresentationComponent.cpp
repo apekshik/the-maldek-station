@@ -1,0 +1,116 @@
+#include "StationPlayerPresentationComponent.h"
+#include "GameFramework/Character.h"
+#include "GameFramework/CharacterMovementComponent.h"
+#include "Camera/CameraComponent.h"
+#include "Components/SceneComponent.h"
+#include "Components/StaticMeshComponent.h"
+#include "Components/SpotLightComponent.h"
+#include "Components/PointLightComponent.h"
+#include "Materials/MaterialInstanceDynamic.h"
+
+UStationPlayerPresentationComponent::UStationPlayerPresentationComponent()
+{
+ PrimaryComponentTick.bCanEverTick=true;
+ PrimaryComponentTick.TickGroup=TG_PostPhysics;
+}
+
+void UStationPlayerPresentationComponent::BeginPlay()
+{
+ Super::BeginPlay();
+ Character=Cast<ACharacter>(GetOwner());
+ if(!Character)return;
+ Camera=Character->FindComponentByClass<UCameraComponent>();
+ Beam=Character->FindComponentByClass<USpotLightComponent>();
+ if(!Camera || !Beam)return;
+ AddTickPrerequisiteComponent(Character->GetCharacterMovement());
+ HeldRoot=NewObject<USceneComponent>(Character,TEXT("HeldTorchMotion"));
+ HeldRoot->SetupAttachment(Camera);HeldRoot->RegisterComponent();
+ TInlineComponentArray<UStaticMeshComponent*> Parts(Character);
+ for(UStaticMeshComponent* Part:Parts)
+ {
+  const FString Name=Part->GetName();
+  if(Name.StartsWith(TEXT("Torch")) || Name.StartsWith(TEXT("Gloved")) || Name.StartsWith(TEXT("JacketSleeve")))
+   Part->AttachToComponent(HeldRoot,FAttachmentTransformRules::KeepRelativeTransform);
+  if(DetailedTorchMesh && Name.StartsWith(TEXT("Torch")))Part->SetHiddenInGame(true);
+ }
+ if(DetailedTorchMesh)
+ {
+  UStaticMeshComponent* Model=NewObject<UStaticMeshComponent>(Character,TEXT("HeldTorchDetailed"));
+  Model->SetupAttachment(HeldRoot);Model->SetStaticMesh(DetailedTorchMesh);
+  Model->SetRelativeLocation(FVector(16.5f,17.5f,-11));
+  Model->SetCollisionProfileName(TEXT("NoCollision"));Model->SetOnlyOwnerSee(true);
+  Model->SetCastShadow(false);Model->RegisterComponent();
+ }
+ Beam->AttachToComponent(HeldRoot,FAttachmentTransformRules::KeepRelativeTransform);
+ if(Beam->LightFunctionMaterial)
+ {
+  Optics=UMaterialInstanceDynamic::Create(Beam->LightFunctionMaterial,this);
+  Beam->SetLightFunctionMaterial(Optics);
+ }
+ // A very local bounce reveals the casing without lighting the room.
+ HandFill=NewObject<UPointLightComponent>(Character,TEXT("TorchHandBounce"));
+ HandFill->SetupAttachment(HeldRoot);HandFill->SetRelativeLocation(FVector(29,9,-3));
+ HandFill->SetIntensityUnits(ELightUnits::Lumens);HandFill->SetIntensity(0.003f);
+ HandFill->SetAttenuationRadius(22);HandFill->SetCastShadows(false);
+ HandFill->SetIndirectLightingIntensity(0);HandFill->SetVolumetricScatteringIntensity(0);
+ HandFill->SetLightColor(FLinearColor(0.80f,0.86f,1.0f));HandFill->RegisterComponent();
+ Focus=TargetFocus=FMath::Clamp(InitialFocus,0.0f,1.0f);
+ PreviousAim=Character->GetControlRotation();UpdateBeam();
+}
+
+void UStationPlayerPresentationComponent::AdjustFocus(float Steps)
+{
+ if(FMath::IsFinite(Steps))SetFocus(TargetFocus+Steps*0.1f);
+}
+
+void UStationPlayerPresentationComponent::SetFocus(float Value)
+{
+ if(FMath::IsFinite(Value))TargetFocus=FMath::Clamp(Value,0.0f,1.0f);
+}
+
+void UStationPlayerPresentationComponent::UpdateBeam()
+{
+ if(!Beam)return;
+ // Lumen units concentrate the same available flux as the cone narrows.
+ Beam->SetOuterConeAngle(FMath::Lerp(34.0f,11.0f,Focus));
+ Beam->SetInnerConeAngle(0.0f);
+ Beam->SetAttenuationRadius(FMath::Lerp(1800.0f,6000.0f,Focus));
+ Beam->SetIntensity(FMath::Lerp(WideLumens,FocusedLumens,Focus));
+ if(Optics)Optics->SetScalarParameterValue(TEXT("Focus"),Focus);
+}
+
+void UStationPlayerPresentationComponent::TickComponent(float Dt,ELevelTick TickType,FActorComponentTickFunction* TickFunction)
+{
+ Super::TickComponent(Dt,TickType,TickFunction);
+ if(!Character || !Camera || !Beam || !Character->IsLocallyControlled() || Dt<=0)return;
+ const float Blend=1.0f-FMath::Exp(-10.0f*Dt);
+ const float NewFocus=FMath::Lerp(Focus,TargetFocus,Blend);
+ if(FMath::Abs(NewFocus-Focus)>0.00001f){Focus=NewFocus;UpdateBeam();}
+ HandFill->SetVisibility(Beam->IsVisible());
+ const FVector Velocity=Character->GetVelocity();
+ const float Speed=Velocity.Size2D();
+ const bool Grounded=Character->GetCharacterMovement()->IsMovingOnGround();
+ const float Run=FMath::Clamp((Speed-350.0f)/250.0f,0.0f,1.0f);
+ const float TargetMotion=Grounded?FMath::Clamp(Speed/150.0f,0.0f,1.0f):0.0f;
+ MotionWeight=FMath::Lerp(MotionWeight,TargetMotion,Blend);
+ if(Grounded && Speed>5)Phase=FMath::Fmod(Phase+Speed*Dt/190.0f*2.0f*PI,4.0f*PI);
+ if(Grounded && !bWasGrounded)LandingOffset=-FMath::Clamp(-PreviousVerticalSpeed/450.0f,0.0f,1.6f);
+ LandingOffset=FMath::Lerp(LandingOffset,0.0f,Blend);
+ const float Step=FMath::Sin(Phase),Sway=FMath::Sin(Phase*0.5f);
+ ViewOffset=FVector(0,0.45f*Sway,(1.05f+0.6f*Run)*Step)*MotionWeight*HeadBobScale;
+ ViewOffset.Z+=LandingOffset*HeadBobScale;
+ Camera->ClearAdditiveOffset();
+ Camera->AddAdditiveOffset(FTransform(FRotator(0.10f*Step*MotionWeight*HeadBobScale,0,0),ViewOffset),0);
+ const FRotator Aim=Character->GetControlRotation();
+ FVector2D TargetLag(FMath::Clamp(FMath::FindDeltaAngleDegrees(PreviousAim.Yaw,Aim.Yaw)/Dt*-0.006f,-2.2f,2.2f),FMath::Clamp(FMath::FindDeltaAngleDegrees(PreviousAim.Pitch,Aim.Pitch)/Dt*-0.006f,-1.8f,1.8f));
+ AimLag=FMath::Lerp(AimLag,TargetLag,Blend);
+ HeldRoot->SetRelativeLocation(FVector(0,0.35f*Sway,0.5f*Step+LandingOffset)*MotionWeight);
+ HeldRoot->SetRelativeRotation(FRotator(AimLag.Y+0.45f*Step*MotionWeight,AimLag.X+0.3f*Sway*MotionWeight,0.4f*Sway*MotionWeight));
+ PreviousAim=Aim;PreviousVerticalSpeed=Velocity.Z;bWasGrounded=Grounded;
+}
+
+void UStationPlayerPresentationComponent::EndPlay(const EEndPlayReason::Type Reason)
+{
+ if(Camera)Camera->ClearAdditiveOffset();
+ Super::EndPlay(Reason);
+}

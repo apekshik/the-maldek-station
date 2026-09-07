@@ -1,0 +1,633 @@
+{
+  "stage": "walk",
+  "case": 8,
+  "busy": true,
+  "results": [
+    {
+      "name": "idle",
+      "passed": true
+    },
+    {
+      "name": "airborne",
+      "passed": true
+    },
+    {
+      "name": "soil",
+      "passed": true,
+      "steps": 14,
+      "seconds": 6.328000000008615,
+      "surfaces": [
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "gravel",
+      "passed": true,
+      "steps": 14,
+      "seconds": 7.25,
+      "surfaces": [
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "metal",
+      "passed": true,
+      "steps": 14,
+      "seconds": 6.296999999991385,
+      "surfaces": [
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "concrete",
+      "passed": true,
+      "steps": 13,
+      "seconds": 5.687000000005355,
+      "surfaces": [
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "wood",
+      "passed": true,
+      "steps": 13,
+      "seconds": 5.7189999999827705,
+      "surfaces": [
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "gravel_running",
+      "passed": true,
+      "steps": 13,
+      "seconds": 5.687999999994645,
+      "surfaces": [
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "actual_forest_path",
+      "passed": true,
+      "steps": 9,
+      "seconds": 3.937999999994645,
+      "surfaces": [
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        }
+      ]
+    },
+    {
+      "name": "actual_bridge",
+      "passed": true,
+      "steps": 10,
+      "seconds": 4.375,
+      "surfaces": [
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        }
+      ]
+    }
+  ],
+  "deadline": 134657.781,
+  "pawn": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished_C",
+  "banks": {
+    "soil": [
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_00.Recorded_soil_00",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_01.Recorded_soil_01",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_02.Recorded_soil_02",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_03.Recorded_soil_03",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_04.Recorded_soil_04",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_05.Recorded_soil_05",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_06.Recorded_soil_06",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_07.Recorded_soil_07",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_08.Recorded_soil_08",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_09.Recorded_soil_09",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_10.Recorded_soil_10",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_11.Recorded_soil_11",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_12.Recorded_soil_12",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_13.Recorded_soil_13",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_14.Recorded_soil_14",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_15.Recorded_soil_15",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_16.Recorded_soil_16",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_17.Recorded_soil_17"
+    ],
+    "gravel": [
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_00.Recorded_gravel_00",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_01.Recorded_gravel_01",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_02.Recorded_gravel_02",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_03.Recorded_gravel_03",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_04.Recorded_gravel_04",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_05.Recorded_gravel_05",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_06.Recorded_gravel_06",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_07.Recorded_gravel_07",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_08.Recorded_gravel_08",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_09.Recorded_gravel_09"
+    ],
+    "metal": [
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_00.Recorded_metal_00",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_01.Recorded_metal_01",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_02.Recorded_metal_02",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_03.Recorded_metal_03",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_04.Recorded_metal_04",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_05.Recorded_metal_05",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_06.Recorded_metal_06",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_07.Recorded_metal_07",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_08.Recorded_metal_08",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_09.Recorded_metal_09",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_10.Recorded_metal_10",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_11.Recorded_metal_11",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_12.Recorded_metal_12",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_13.Recorded_metal_13",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_14.Recorded_metal_14"
+    ],
+    "concrete": [
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_00.Recorded_concrete_00",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_01.Recorded_concrete_01",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_02.Recorded_concrete_02",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_03.Recorded_concrete_03",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_04.Recorded_concrete_04",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_05.Recorded_concrete_05",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_06.Recorded_concrete_06",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_07.Recorded_concrete_07",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_08.Recorded_concrete_08"
+    ],
+    "wood": [
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_00.Recorded_wood_00",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_01.Recorded_wood_01",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_02.Recorded_wood_02",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_03.Recorded_wood_03",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_04.Recorded_wood_04",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_05.Recorded_wood_05",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_06.Recorded_wood_06",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_07.Recorded_wood_07",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_08.Recorded_wood_08",
+      "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_09.Recorded_wood_09"
+    ]
+  },
+  "ambience": [
+    {
+      "name": "R10_Forest_Wind",
+      "playing": true,
+      "volume": 0.3499999940395355
+    },
+    {
+      "name": "FT_Night_Insects",
+      "playing": true,
+      "volume": 0.10000000149011612
+    }
+  ],
+  "next": 134531.121,
+  "count": 90,
+  "points": [
+    [
+      -45882.305974972965,
+      19974.707549061975,
+      10396.5
+    ],
+    [
+      -46032.305974972965,
+      20774.707549061975,
+      10396.5
+    ],
+    [
+      -46182.305974972965,
+      21474.707549061975,
+      10396.5
+    ]
+  ],
+  "point": 3,
+  "begin": 134531.125,
+  "surfaces": [
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    }
+  ],
+  "lastcount": 100,
+  "waypoint": 134535.5,
+  "success": true
+}
