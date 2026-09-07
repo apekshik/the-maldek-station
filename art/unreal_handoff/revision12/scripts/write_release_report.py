@@ -15,6 +15,8 @@ assert p['accepted'] and w['accepted'] and tour['success']
 for name in ['package-default-build.json','package-default-smoke.json','reference_validation.json','foliage_persistence.json']:assert read(name)['success'],name
 
 assert read('package-default-visual.json')['accepted']
+assert read('editor_release_reopen.json')['success']
+remote=read('remote_verification.json');assert remote['success']
 
 lines=['# VF07 station migration — R12 release review','',
 
@@ -98,6 +100,7 @@ lines += ['', 'Across the fixed views, R12 process RAM averages %.2f–%.2f GiB,
 
 'Rollback uses `pre-vf07-unreal-migration` at `d713a3c5e7189bc3c5f59cc12396d3428a84b96c`, the preserved `Forest_Approach_Test` level and the previous map values in `default_map_promotion.json`. Original R04–R11 assets and the approved Blender source remain available. No history rewrite is required.','']
 
+lines += ['## Remote delivery verification','',f"Release commit `{remote['verified_release_commit']}` was pushed to main and retrieved in the independent verification checkout. All {remote['all_lfs_files_hydrated']} LFS files are hydrated; {remote['r12_lfs_working_files_hash_verified']} actual R12 files ({remote['r12_bytes_hash_verified']:,} bytes) match their committed SHA-256 OIDs. Git LFS fsck and the separate source/328-FBX/120-texture checks pass. The previously verified baseline LFS cache was reused; missing migration assets were fetched from origin.",'','The editor also reopened through its default-map setting and verified the saved closed-glass slot bindings. The final documentation commit adds these verification receipts without changing playable assets.','']
 (b/'RELEASE_REVIEW.md').write_text('\n'.join(lines),encoding='utf-8')
 
 print('Wrote RELEASE_REVIEW.md')

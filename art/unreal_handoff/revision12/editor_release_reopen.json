@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "world": "/Game/MaldekRefinement/R12/Station_R12.Station_R12",
+  "saved_material_overrides": [
+    {
+      "mesh": "SM_R12_VF06_Control_008_glass",
+      "slot": "UE_VF_Window_Glass__Exterior",
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass__Exterior.MI_Closed_UE_VF_Window_Glass__Exterior"
+    },
+    {
+      "mesh": "SM_R12_VF06_Maintenance_Shells_007_glass",
+      "slot": "UE_VF06_Glass__Exterior",
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF06_Glass__Exterior.MI_Closed_UE_VF06_Glass__Exterior"
+    },
+    {
+      "mesh": "SM_R12_VF06_Quarters_002_glass",
+      "slot": "UE_VF_Window_Glass_001__Indoor",
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_001__Indoor.MI_Closed_UE_VF_Window_Glass_001__Indoor"
+    },
+    {
+      "mesh": "SM_R12_VF06_Quarters_005_glass",
+      "slot": "UE_VF_Window_Glass_001__Indoor",
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_001__Indoor.MI_Closed_UE_VF_Window_Glass_001__Indoor"
+    },
+    {
+      "mesh": "SM_R12_VF06_Relay_Shell_002_glass",
+      "slot": "UE_VF06_Glass__Exterior",
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF06_Glass__Exterior.MI_Closed_UE_VF06_Glass__Exterior"
+    },
+    {
+      "mesh": "SM_R12_VF06_Waiting_Hall_002_glass",
+      "slot": "UE_VF_Window_Glass_002__Exterior",
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_002__Exterior.MI_Closed_UE_VF_Window_Glass_002__Exterior"
+    },
+    {
+      "mesh": "SM_R12_VF06_Waiting_Hall_009_glass",
+      "slot": "UE_VF_Window_Glass_002__Exterior",
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_002__Exterior.MI_Closed_UE_VF_Window_Glass_002__Exterior"
+    },
+    {
+      "mesh": "SM_R12_Retained_Parking",
+      "slot": "UE_Ground__Exterior",
+      "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Gravel_ff87cc66ad.MI_Foot_Gravel_ff87cc66ad"
+    },
+    {
+      "mesh": "SM_R12_Retained_Parked_Car",
+      "slot": "UE_R02_Chipped_Painted_Steel__Exterior",
+      "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Metal_65892e371c.MI_Foot_Metal_65892e371c"
+    },
+    {
+      "mesh": "SM_R12_Forest_Approach_Aligned",
+      "slot": "UE_Ground__Exterior",
+      "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Gravel_6c782250aa.MI_Foot_Gravel_6c782250aa"
+    }
+  ],
+  "operation": "Read-only default-map startup; no asset saves."
+}

@@ -65,3 +65,9 @@ The import manifest, material bindings, exact actor/component replacement invent
 The local GaeaUnrealTools 2.0.0.15 vendor plugin remains intentionally excluded from Git; a new authoring machine needs its compatible UE 5.7 installation. Five pre-existing missing Beech authoring-graph branch references remain documented; placed foliage assets and the packaged level are valid, and no new missing references were introduced.
 
 Rollback uses `pre-vf07-unreal-migration` at `d713a3c5e7189bc3c5f59cc12396d3428a84b96c`, the preserved `Forest_Approach_Test` level and the previous map values in `default_map_promotion.json`. Original R04–R11 assets and the approved Blender source remain available. No history rewrite is required.
+
+## Remote delivery verification
+
+Release commit `cf773e9c81eeccc28f53adf58f9cd6efc50fbcc3` was pushed to main and retrieved in the independent verification checkout. All 3534 LFS files are hydrated; 1151 actual R12 files (1,680,398,430 bytes) match their committed SHA-256 OIDs. Git LFS fsck and the separate source/328-FBX/120-texture checks pass. The previously verified baseline LFS cache was reused; missing migration assets were fetched from origin.
+
+The editor also reopened through its default-map setting and verified the saved closed-glass slot bindings. The final documentation commit adds these verification receipts without changing playable assets.

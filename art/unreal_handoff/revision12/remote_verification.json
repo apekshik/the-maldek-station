@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "verified_release_commit": "cf773e9c81eeccc28f53adf58f9cd6efc50fbcc3",
+  "remote_main": "cf773e9c81eeccc28f53adf58f9cd6efc50fbcc3",
+  "checkout": "C:\\Users\\apek-anna\\Developer\\maldek-r12-verification",
+  "clean": true,
+  "all_lfs_files_hydrated": 3534,
+  "r12_lfs_working_files_hash_verified": 1151,
+  "r12_bytes_hash_verified": 1680398430,
+  "retrieval": "Independent Git clone from origin with dissociated Git objects. The already remotely verified baseline LFS cache is reused; missing migration and final LFS objects were downloaded from origin. This is not a second cold download of the baseline.",
+  "checks": "Remote HEAD equality, clean checkout, hydrated LFS pointers, actual R12 working-file hashes against committed LFS OIDs, both default-map settings. Separate git lfs fsck and handoff source/FBX/texture checks also run."
+}

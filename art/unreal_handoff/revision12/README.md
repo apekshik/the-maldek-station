@@ -73,3 +73,7 @@ The full independent route report has 54 directional tests. Its two initial wate
 ## Rollback
 
 Restore the previous map values recorded in `default_map_promotion.json` and select the preserved forest level. The checkpoint tag, source level and shared R04–R11 assets provide rollback without rewriting Git history.
+
+## Delivered repository
+
+The migration is merged and pushed to `main`. `remote_verification.json` records the independently retrieved release commit, all 3,534 hydrated LFS files and SHA-256 verification of 1,151 R12 working files. `editor_release_reopen.json` confirms the final default-map startup and saved material bindings. The release report includes package paths, before/after results and rollback instructions.
