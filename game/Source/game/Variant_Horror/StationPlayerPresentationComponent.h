@@ -28,6 +28,9 @@ public:
  UFUNCTION(BlueprintPure, Category="Flashlight") float GetFocus() const { return Focus; }
  UFUNCTION(BlueprintPure, Category="Flashlight") float GetTargetFocus() const { return TargetFocus; }
  UFUNCTION(BlueprintPure, Category="Walking") FVector GetViewOffset() const { return ViewOffset; }
+ UFUNCTION(BlueprintCallable, Category="Looking") void SetInspectActive(bool bActive) { bInspectRequested=bActive; }
+ UFUNCTION(BlueprintPure, Category="Looking") float GetInspectAmount() const { return InspectAmount; }
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Looking", meta=(ClampMin="0",ClampMax="20")) float InspectFovReduction=12.0f;
 
  /** Scales breathing and gait motion; zero removes voluntary sway but retains stair smoothing. */
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="1.5")) float HeadBobScale=0.7f;
@@ -56,6 +59,8 @@ private:
  double SmoothedGroundZ=0;
  double BreathTime=0;
  float IdleWeight=0;
+ bool bInspectRequested=false;
+ float InspectAmount=0;
  float GroundZVelocity=0;
  FVector PreviousCapsuleLocation=FVector::ZeroVector;
  void UpdateBeam();

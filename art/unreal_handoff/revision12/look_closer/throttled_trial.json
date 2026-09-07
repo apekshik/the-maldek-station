@@ -1,0 +1,42 @@
+{
+  "phase": "missed_release",
+  "next": 141367.968,
+  "checks": {
+    "subtle_zoom": true,
+    "smooth_intermediate_frames": false,
+    "monotonic_zoom": true,
+    "beam_unchanged": true,
+    "speed_unchanged": true,
+    "release_restores_fov": true,
+    "no_latch_without_button": true
+  },
+  "samples": [
+    [
+      0.32800000000861473,
+      78.83380126953125,
+      0.9305166006088257
+    ],
+    [
+      0.6559999999881256,
+      78.05793762207031,
+      0.9951720237731934
+    ],
+    [
+      0.9839999999967404,
+      78.0040283203125,
+      0.9996645450592041
+    ],
+    [
+      1.3280000000086147,
+      78.0,
+      1.0
+    ]
+  ],
+  "busy": true,
+  "base_fov": 90.0,
+  "beam_focus": 0.3499999940395355,
+  "walk_speed": 350.0,
+  "started": 141364.812,
+  "held_fov": 78.0,
+  "success": false
+}

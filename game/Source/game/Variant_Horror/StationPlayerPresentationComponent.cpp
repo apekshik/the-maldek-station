@@ -1,6 +1,8 @@
 #include "StationPlayerPresentationComponent.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/PlayerController.h"
+#include "InputCoreTypes.h"
 #include "Camera/CameraComponent.h"
 #include "Components/SceneComponent.h"
 #include "Components/StaticMeshComponent.h"
@@ -85,6 +87,11 @@ void UStationPlayerPresentationComponent::TickComponent(float Dt,ELevelTick Tick
  Super::TickComponent(Dt,TickType,TickFunction);
  if(!Character || !Camera || !Beam || !Character->IsLocallyControlled() || Dt<=0)return;
  const float Blend=1.0f-FMath::Exp(-10.0f*Dt);
+ const APlayerController* PC=Cast<APlayerController>(Character->GetController());
+ // Release also follows physical input state, so a missed release or ignored look cannot latch zoom.
+ const bool bInspect=bInspectRequested && PC && PC->IsInputKeyDown(EKeys::RightMouseButton) && !PC->IsLookInputIgnored();
+ InspectAmount=FMath::Lerp(InspectAmount,bInspect?1.0f:0.0f,1.0f-FMath::Exp(-8.0f*Dt));
+ if(FMath::Abs(InspectAmount-(bInspect?1.0f:0.0f))<0.0001f)InspectAmount=bInspect?1.0f:0.0f;
  const float NewFocus=FMath::Lerp(Focus,TargetFocus,Blend);
  if(FMath::Abs(NewFocus-Focus)>0.00001f){Focus=NewFocus;UpdateBeam();}
  HandFill->SetVisibility(Beam->IsVisible());
@@ -132,7 +139,8 @@ void UStationPlayerPresentationComponent::TickComponent(float Dt,ELevelTick Tick
  ViewOffset.Z+=LandingOffset*HeadBobScale;
  Camera->ClearAdditiveOffset();
  const FRotator GaitRotation(0.10f*Step*GaitAmount,(0.06f+0.04f*Run)*Sway*GaitAmount,(0.10f+0.08f*Run)*Sway*GaitAmount);
- Camera->AddAdditiveOffset(FTransform(GaitRotation+IdleRotation,ViewOffset),0);
+ const float InspectFovOffset=-FMath::Clamp(InspectFovReduction,0.0f,FMath::Max(0.0f,Camera->FieldOfView-40.0f))*InspectAmount;
+ Camera->AddAdditiveOffset(FTransform(GaitRotation+IdleRotation,ViewOffset),InspectFovOffset);
  const FRotator Aim=Character->GetControlRotation();
  FVector2D TargetLag(FMath::Clamp(FMath::FindDeltaAngleDegrees(PreviousAim.Yaw,Aim.Yaw)/Dt*-0.006f,-2.2f,2.2f),FMath::Clamp(FMath::FindDeltaAngleDegrees(PreviousAim.Pitch,Aim.Pitch)/Dt*-0.006f,-1.8f,1.8f));
  AimLag=FMath::Lerp(AimLag,TargetLag,Blend);

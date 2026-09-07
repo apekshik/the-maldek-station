@@ -112,6 +112,9 @@ protected:
 	UFUNCTION(BlueprintCallable, Category="Flashlight")
 	void FocusFlashlightOut();
 
+	void BeginInspect();
+	void EndInspect();
+
 	/** Starts sprinting behavior */
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void DoStartSprint();

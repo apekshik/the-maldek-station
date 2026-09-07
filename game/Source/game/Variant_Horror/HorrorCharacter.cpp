@@ -61,6 +61,8 @@ void AHorrorCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	PlayerInputComponent->BindKey(EKeys::F, IE_Pressed, this, &AHorrorCharacter::ToggleFlashlight);
 	PlayerInputComponent->BindKey(EKeys::MouseScrollUp, IE_Pressed, this, &AHorrorCharacter::FocusFlashlightIn);
 	PlayerInputComponent->BindKey(EKeys::MouseScrollDown, IE_Pressed, this, &AHorrorCharacter::FocusFlashlightOut);
+	PlayerInputComponent->BindKey(EKeys::RightMouseButton, IE_Pressed, this, &AHorrorCharacter::BeginInspect);
+	PlayerInputComponent->BindKey(EKeys::RightMouseButton, IE_Released, this, &AHorrorCharacter::EndInspect);
 
 	{
 		// Set up action bindings
@@ -93,6 +95,9 @@ void AHorrorCharacter::ToggleFlashlight()
 
 void AHorrorCharacter::FocusFlashlightIn() { if (OpeningExperience->AllowsFlashlightInput()) { PlayerPresentation->AdjustFocus(1.0f); OpeningExperience->FocusAdjusted(); } }
 void AHorrorCharacter::FocusFlashlightOut() { if (OpeningExperience->AllowsFlashlightInput()) { PlayerPresentation->AdjustFocus(-1.0f); OpeningExperience->FocusAdjusted(); } }
+
+void AHorrorCharacter::BeginInspect() { PlayerPresentation->SetInspectActive(true); }
+void AHorrorCharacter::EndInspect() { PlayerPresentation->SetInspectActive(false); }
 
 void AHorrorCharacter::DoStartSprint()
 {
