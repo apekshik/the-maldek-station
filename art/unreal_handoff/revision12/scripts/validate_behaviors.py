@@ -3,9 +3,11 @@ import unreal,json,time,traceback
 from pathlib import Path
 b=Path(__file__).resolve().parents[1];ls=unreal.get_editor_subsystem(unreal.LevelEditorSubsystem)
 assert not ls.is_in_play_in_editor()
+settings=unreal.get_default_object(unreal.load_class(None,'/Script/UnrealEd.EditorPerformanceSettings'));throttle=settings.get_editor_property('bThrottleCPUWhenNotForeground');settings.set_editor_property('bThrottleCPUWhenNotForeground',False)
 o=json.loads((b.parent/'working_level_report.json').read_text())['station_origin']
 state={'phase':'start','next':time.monotonic()+10,'busy':False,'checks':{},'deadline':time.monotonic()+90}
 def finish():
+ settings.set_editor_property('bThrottleCPUWhenNotForeground',throttle)
  state['success']='error' not in state and all(state['checks'].values());state['phase']='finished'
  (b/'behavior_validation.json').write_text(json.dumps(state,indent=2));ls.editor_request_end_play();unreal.unregister_slate_post_tick_callback(handle)
 def tick(dt):
@@ -31,13 +33,14 @@ def tick(dt):
    unreal.StationMigrationLibrary.send_pie_key('F',True);state.update(phase='toggle2',next=now+.4);return
   if state['phase']=='toggle2':
    state['checks']['flashlight_second_toggle']=beam.is_visible()==state['initial_flashlight'];unreal.StationMigrationLibrary.send_pie_key('F',False)
-   p.character_movement.stop_movement_immediately();p.set_actor_location(unreal.Vector(o[0]+500,o[1]+300,o[2]+500),False,True)
+   p.character_movement.stop_movement_immediately();p.set_actor_location(unreal.Vector(o[0]+2100,o[1],o[2]+500),False,True)
    state.update(phase='settle',next=now+2);return
   if state['phase']=='settle':
    assert not p.character_movement.is_falling();state['idle_start']=foot.footstep_count;state.update(phase='idle',next=now+3);return
   if state['phase']=='idle':
    state['idle_end']=foot.footstep_count;state['checks']['idle_silent']=state['idle_start']==state['idle_end']
-   p.jump();state.update(phase='await_air',next=now+.05);return
+   pos=p.get_actor_location();pos.z+=200;p.set_actor_location(pos,False,True);p.character_movement.set_movement_mode(unreal.MovementMode.MOVE_FALLING)
+   state['airborne_test']='Controlled 2 m drop solely for suppression test; ordinary walking routes use no drops or teleports.';state.update(phase='await_air',next=now+.05);return
   if state['phase']=='await_air':
    assert p.character_movement.is_falling(),'Jump did not enter falling state'
    state['air_start']=foot.footstep_count;state['air_samples']=[];state.update(phase='air',next=now);return

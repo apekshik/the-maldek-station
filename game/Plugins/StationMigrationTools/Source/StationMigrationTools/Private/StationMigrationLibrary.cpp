@@ -19,8 +19,14 @@
 #include "InstancedFoliageActor.h"
 #include "InstancedFoliage.h"
 #include "FoliageType.h"
+#include "Engine/Blueprint.h"
 
 IMPLEMENT_MODULE(FDefaultModuleImpl, StationMigrationTools)
+
+bool UStationMigrationLibrary::IsBlueprintUpToDate(UBlueprint* Blueprint)
+{
+    return Blueprint && Blueprint->IsUpToDate();
+}
 
 TMap<FString, FTransform> UStationMigrationLibrary::GetFoliageInstanceTransforms(AActor* Actor)
 {

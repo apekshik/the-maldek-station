@@ -1,0 +1,384 @@
+{
+  "passed": true,
+  "directional_tests": 54,
+  "routes": [
+    {
+      "name": "Arrival",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 16.191946633303814
+    },
+    {
+      "name": "Arrival",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 18.869226455688477
+    },
+    {
+      "name": "Arrival turn onto platform",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Arrival turn onto platform",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Completed rear hall approach",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.335834503173828
+    },
+    {
+      "name": "Completed rear hall approach",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.535004615783691
+    },
+    {
+      "name": "Quarters",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 17.658630564665145
+    },
+    {
+      "name": "Quarters",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 20.400025844573975
+    },
+    {
+      "name": "Quarters landing and doorway",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.547159194946289
+    },
+    {
+      "name": "Quarters landing and doorway",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.306250095367432
+    },
+    {
+      "name": "Quarters lower approach",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.649024486541748
+    },
+    {
+      "name": "Quarters lower approach",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 13.439561273746222
+    },
+    {
+      "name": "Exterior_service",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 16.19099678880957
+    },
+    {
+      "name": "Exterior_service",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 18.816664218902588
+    },
+    {
+      "name": "Service descent lower exit",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149998188018799
+    },
+    {
+      "name": "Service descent lower exit",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149998188018799
+    },
+    {
+      "name": "Service_road",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 6.534609674527019
+    },
+    {
+      "name": "Service_road",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 5.049024546364308
+    },
+    {
+      "name": "Relay_outbound",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.399573575514296
+    },
+    {
+      "name": "Relay_outbound",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 5.165780484991046
+    },
+    {
+      "name": "Relay_return",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.550024509429932
+    },
+    {
+      "name": "Relay_return",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 5.112337355181808
+    },
+    {
+      "name": "Arrival_ground_approach",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.150001049041748
+    },
+    {
+      "name": "Arrival_ground_approach",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149998188018799
+    },
+    {
+      "name": "Control front approach",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.522315979003906
+    },
+    {
+      "name": "Control front approach",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.520081996917725
+    },
+    {
+      "name": "Front grating across facade",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Front grating across facade",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "West continuous border",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "West continuous border",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "East terrace grating",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "East terrace grating",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Boarding threshold",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Boarding threshold",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149996280670166
+    },
+    {
+      "name": "Internal descending stair",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 15.807508506955855
+    },
+    {
+      "name": "Internal descending stair",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 18.890484405066672
+    },
+    {
+      "name": "Forest to arrival",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.673313617706299
+    },
+    {
+      "name": "Forest to arrival",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.9006682500912575
+    },
+    {
+      "name": "Entire lookout bridge",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Entire lookout bridge",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Control interior aisle",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Control interior aisle",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Generator clear entrance",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.547155380249023
+    },
+    {
+      "name": "Generator clear entrance",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.549996376037598
+    },
+    {
+      "name": "Workshop shared west door",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.373000621795654
+    },
+    {
+      "name": "Workshop shared west door",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 4.547425270080566
+    },
+    {
+      "name": "Water terrace access",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_junction_repairs.json",
+      "max_height_error_cm": 12.374830806638784
+    },
+    {
+      "name": "Water terrace access",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_junction_repairs.json",
+      "max_height_error_cm": 12.127110756635375
+    },
+    {
+      "name": "Waiting hall interior",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 1.715845186423394
+    },
+    {
+      "name": "Waiting hall interior",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 1.727574353262753
+    },
+    {
+      "name": "Quarters interior",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_junction_repairs.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Quarters interior",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_junction_repairs.json",
+      "max_height_error_cm": 2.149989604949951
+    },
+    {
+      "name": "Relay interior",
+      "direction": "forward",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 2.398606300354004
+    },
+    {
+      "name": "Relay interior",
+      "direction": "reverse",
+      "passed": true,
+      "report": "routes_full.json",
+      "max_height_error_cm": 1.750287072152787
+    }
+  ]
+}

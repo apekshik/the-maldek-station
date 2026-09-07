@@ -91,6 +91,10 @@ class Handoff:
      # Preserve orientation of narrow diagonal guards and authored hulls.
      # Blender's bound_box corner order is converted to our UCX face order.
      box['vertices']=[list(o.matrix_world@Vector(o.bound_box[j])) for j in [0,4,3,7,1,5,2,6]]
+    if o.get('handoff_collision_vertices'):
+     box['vertices']=json.loads(o['handoff_collision_vertices'])
+     box['min']=[min(v[i] for v in box['vertices']) for i in range(3)]
+     box['max']=[max(v[i] for v in box['vertices']) for i in range(3)]
     boxes.append(box)
   assert faces,('Empty export chunk',name)
   me=bpy.data.meshes.new(name);me.from_pydata(verts,[],faces);me.update()

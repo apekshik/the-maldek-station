@@ -2,10 +2,38 @@
   "accepted": true,
   "scope": "Architecture stage only; complete final validation/default-map promotion remains separate.",
   "route_reports": [
-    "routes_architecture.json",
-    "routes_architecture_aisles.json"
+    "routes_full.json",
+    "routes_junction_repairs.json"
   ],
   "routes": [
+    {
+      "name": "Arrival",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Arrival turn onto platform",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Arrival_ground_approach",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Boarding threshold",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
     {
       "name": "Completed rear hall approach",
       "directions": [
@@ -15,6 +43,62 @@
     },
     {
       "name": "Control front approach",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Control interior aisle",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "East terrace grating",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Entire lookout bridge",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Exterior_service",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Forest to arrival",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Front grating across facade",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Generator clear entrance",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Internal descending stair",
       "directions": [
         "forward",
         "reverse"
@@ -56,6 +140,34 @@
       ]
     },
     {
+      "name": "Relay_outbound",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Relay_return",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Service descent lower exit",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
+      "name": "Service_road",
+      "directions": [
+        "forward",
+        "reverse"
+      ]
+    },
+    {
       "name": "Waiting hall interior",
       "directions": [
         "forward",
@@ -63,14 +175,14 @@
       ]
     },
     {
-      "name": "Control interior aisle",
+      "name": "Water terrace access",
       "directions": [
         "forward",
         "reverse"
       ]
     },
     {
-      "name": "Generator clear entrance",
+      "name": "West continuous border",
       "directions": [
         "forward",
         "reverse"
@@ -86,5 +198,5 @@
   ],
   "audit": "audit_architecture.json",
   "visual_review": "reviews/architecture/visual_review.json",
-  "manifest_sha256": "bf24b9982ab46649d373bfe46fc406939f498f551f9242c5fd6e79f28dc91807"
+  "manifest_sha256": "1d9ca766c9416e8107f0b80d6969e6390be22c7892043153a60c6df2f45bc5cb"
 }

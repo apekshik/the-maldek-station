@@ -3,5 +3,20 @@
     "old_transform": "<Struct 'Transform' (0x00000275038C4840) {rotation: {x: 0.000000, y: -0.000000, z: 0.707107, w: 0.707107}, translation: {x: -40682.305975, y: 12424.707549, z: 9908.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
     "new_transform": "<Struct 'Transform' (0x000001C20AEE80F0) {rotation: {x: 0.000000, y: -0.000000, z: 0.707107, w: 0.707107}, translation: {x: -40782.305975, y: 12424.707549, z: 9908.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
     "reason": "Move parking spawn 1 metre clear of the retained car. Original center was only 10 cm from car geometry, less than the 34 cm player radius. Class, rotation, capsule, movement and route remain inherited."
+  },
+  "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SpotLight_6": {
+    "original_transform": "<Struct 'Transform' (0x000001D7ED2A7F60) {rotation: {x: -0.383183, y: 0.383183, z: 0.594282, w: 0.594282}, translation: {x: -43902.305975, y: 18506.707550, z: 10543.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "reason": "Align retained functional entrance light with approved bulkhead diffuser.",
+    "new_transform": "<Struct 'Transform' (0x000001D5622C7ED0) {rotation: {x: -0.383183, y: 0.383183, z: 0.594282, w: 0.594282}, translation: {x: -43952.305975, y: 18506.707549, z: 10552.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SpotLight_7": {
+    "original_transform": "<Struct 'Transform' (0x000001D7ED2A7F60) {rotation: {x: -0.383183, y: 0.383183, z: 0.594282, w: 0.594282}, translation: {x: -42992.305975, y: 18506.707550, z: 10543.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "reason": "Align retained functional entrance light with approved bulkhead diffuser.",
+    "new_transform": "<Struct 'Transform' (0x000001D5622C7ED0) {rotation: {x: -0.383183, y: 0.383183, z: 0.594282, w: 0.594282}, translation: {x: -43257.305975, y: 18506.707549, z: 10557.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SpotLight_8": {
+    "original_transform": "<Struct 'Transform' (0x000001D7CB443F60) {rotation: {x: -0.000000, y: 0.707107, z: 0.000000, w: 0.707107}, translation: {x: -44282.306000, y: 19279.708000, z: 10509.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "reason": "Align retained functional entrance light with approved bulkhead diffuser.",
+    "new_transform": "<Struct 'Transform' (0x000001D5622C7ED0) {rotation: {x: -0.000000, y: 0.707107, z: 0.000000, w: 0.707107}, translation: {x: -44282.305975, y: 19114.707549, z: 10521.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
   }
 }

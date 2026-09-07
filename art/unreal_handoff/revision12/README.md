@@ -1,6 +1,6 @@
 # VF07 → Unreal R12 migration
 
-Work is on `codex/vf07-unreal-r12`. R12 circulation is imported; architecture and infrastructure are pending. The map has **not been promoted**. This file records implementation status, not final acceptance.
+Work is on `codex/vf07-unreal-r12`. All 328 R12 assemblies are imported and saved. Final integration validation is in progress. The map has **not been promoted**. This file records implementation status, not final acceptance.
 
 ## Preserved checkpoint
 
@@ -32,7 +32,7 @@ Work is on `codex/vf07-unreal-r12`. R12 circulation is imported; architecture an
 
 ## Gates still open
 
-- Circulation, architecture and infrastructure imports, with saved stage acceptance reports.
+- Final stage acceptance after water-ramp and quarters-floor numerical repairs.
 - All 18 approved routes in both directions with the actual player, plus continuous forest/bridge/water/maintenance traversal.
 - Final defect-view, furnishing, glass, weather, audio and flashlight review.
 - Blueprint/reference validation, editor reopen, packaged Development smoke test and default-map promotion.
@@ -46,14 +46,18 @@ Run Blender scripts from this directory's `scripts` folder using Blender 5.0 in 
 2. `export_parking_split.py` (requires the Unreal retained-slot audit)
 3. `refine_collision_exports.py`
 4. `align_forest_arrival.py`
-5. `consolidate_export_copy.py`
-6. `bake_surfaces.py -- handoff_manifest.json`
+5. `repair_export_junctions.py` (bakes the intended water-access shear into vertices; separates two coplanar hidden beam faces from the finished quarters floor by 3 mm)
+6. `prepare_fixture_handoff.py` (ordinary Python; resolves the finite obsolete fixture list to exact actor/component identities)
+7. `consolidate_export_copy.py`
+8. `bake_surfaces.py -- handoff_manifest.json`
 
 Build the Development Editor target to enable the editor-only `StationMigrationTools` module. Start the editor with `-ExecCmds="py <repository>/art/unreal_handoff/scripts/r12_session.py"`. The local dispatcher accepts a unique job ID and a script name from `revision12/scripts` in `revision12/request.json`; it has no network listener. A dispatcher response saying `started` is not a completed validation result—read the script's report.
 
 `build_materials.py` and `import_stage.py` accept a `dry_run` job flag. Import stages are `Circulation`, `Architecture`, and `Infrastructure`; later stages require acceptance of the earlier stage. No broad actor-name deletion is used. Old combined mesh components are cleared only through the explicit manifest, while their actor roots remain as anchors.
 
 The fixed-camera benchmark forces a real 2560×1440 PIE render target, records engine frame timing without generated frames, and samples texture memory once per second. Earlier captures with a stale stat counter, editor throttling, different initialized weather, or per-frame memory-query overhead are retained under `diagnostics` and must not be used as the final performance comparison.
+
+The full independent route report has 54 directional tests. Its two initial water-access failures are superseded by `routes_junction_repairs.json`, which validates the repaired intended ramp in both directions and rechecks the quarters interior. `export_junction_repairs.json` records the exact export-only corrections; the approved source hash remains unchanged. The original 18 VF07 routes pass in both directions. Continuous-tour, final visual, package and performance evidence remain separate gates.
 
 ## Rollback
 

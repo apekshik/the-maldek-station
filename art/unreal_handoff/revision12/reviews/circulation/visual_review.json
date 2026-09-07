@@ -1,17 +1,20 @@
 {
   "accepted": true,
-  "scope": "Circulation stage; not final station visual acceptance",
-  "reviewed_images": ["sideways_arrival_inspection.png", "rear_cleanup_inspection.png", "deck_borders_inspection.png", "bridge_junction_inspection.png", "sideways_arrival_night.png", "rear_cleanup_night.png", "deck_borders_night.png", "bridge_junction_night.png"],
-  "findings": [
-    "Completed west deck and sideways arrival flight meet through a turning landing.",
-    "Inner and outer grating bands remain actual open geometry around broad plate surfaces.",
-    "The east terrace is continuous after retiring the superseded bridge-junction guard.",
-    "Three intersecting pine trunks are clear of the deck after explicit instance relocation.",
-    "Service stair exits are clear of the former terrain mound; terrain is below the apron surface.",
-    "Temporary inspection light and dry overrides were removed after PIE. Production weather/exposure were preserved."
-  ],
-  "known_stage_boundaries": [
-    {"actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_39", "label": "R04_21_Maintenance", "observation": "Old maintenance-route strip remains visible through the reserved lower-gallery area.", "resolution": "Explicitly retired by the immediately following Architecture import; verify its disappearance in that stage."},
-    {"observation": "Old room shells, canopy details and gondola remain visible during circulation review.", "resolution": "Scheduled Architecture and Infrastructure replacements; final material and lighting review is still required."}
-  ]
+  "scope": "Circulation in the integrated station.",
+  "final_review": "final_visual_review.json",
+  "review": {
+    "inspection_lights_removed": true,
+    "captures": [
+      "reviews/final/capture.json",
+      "reviews/final_water/capture.json"
+    ],
+    "accepted": true,
+    "scope": "Integrated geometry and appearance; packaging, persistence and performance remain separate gates.",
+    "findings": [
+      "All six reported defect views reviewed: doorway clear, front and dock grating continuous, rear surfaces coherent, sideways arrival connected, quarters stair unobstructed.",
+      "Quarters floor coplanar stripe removed; furnishings and roof retained.",
+      "Lower machinery, water terrace and whole station reviewed under inspection and production night lighting.",
+      "Final water night views supersede earlier overexposed trial captures."
+    ]
+  }
 }

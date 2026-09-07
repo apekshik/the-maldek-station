@@ -1,0 +1,187 @@
+{
+  "success": true,
+  "bindings": [
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_79",
+      "label": "FT_RockPatch_00",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_80",
+      "label": "FT_RockPatch_01",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_81",
+      "label": "FT_RockPatch_02",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_82",
+      "label": "FT_RockPatch_03",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_83",
+      "label": "FT_RockPatch_04",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_84",
+      "label": "FT_RockPatch_05",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_85",
+      "label": "FT_RockPatch_06",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_86",
+      "label": "FT_RockPatch_07",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_87",
+      "label": "FT_RockPatch_08",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_88",
+      "label": "FT_RockPatch_09",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_89",
+      "label": "FT_RockPatch_10",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_90",
+      "label": "FT_RockPatch_11",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_92",
+      "label": "FT_RockPatch_12",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_93",
+      "label": "FT_RockPatch_13",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_95",
+      "label": "FT_RockPatch_14",
+      "component": "StaticMeshComponent0",
+      "slot": 0,
+      "nanite": true,
+      "chain": [
+        "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu",
+        "/Fab/Materials/Standard/M_MS_Base.M_MS_Base"
+      ],
+      "new_material": "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+    }
+  ],
+  "original_shared_materials_saved": false,
+  "reason": "Existing Fab master auto-enables Nanite in editor but lacks the serialized usage flag. R12 copies retain all textures/parameters and explicitly persist that usage for packaging."
+}

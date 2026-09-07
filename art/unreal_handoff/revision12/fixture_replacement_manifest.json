@@ -6,7 +6,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Control_Entry_Housing",
@@ -14,7 +14,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Control_Entry_Hood",
@@ -22,7 +22,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Control_Entry_Diffuser",
@@ -30,7 +30,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Control_Entry_Guard_Left",
@@ -38,7 +38,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Control_Entry_Guard_Right",
@@ -46,7 +46,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Control_Entry_Guard_Crossbar",
@@ -54,7 +54,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Control_Entry_Conduit",
@@ -62,7 +62,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Waiting_Hall_Entry_Backplate",
@@ -70,7 +70,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Waiting_Hall_Entry_Housing",
@@ -78,7 +78,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Waiting_Hall_Entry_Hood",
@@ -86,7 +86,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Waiting_Hall_Entry_Diffuser",
@@ -94,7 +94,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Waiting_Hall_Entry_Guard_Left",
@@ -102,7 +102,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Waiting_Hall_Entry_Guard_Right",
@@ -110,7 +110,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Waiting_Hall_Entry_Guard_Crossbar",
@@ -118,7 +118,7 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     },
     {
       "label": "R08_Waiting_Hall_Entry_Conduit",
@@ -126,7 +126,23 @@
       "component": "StaticMeshComponent0",
       "old_mesh": "/Engine/BasicShapes/Cube.Cube",
       "stage": "Infrastructure",
-      "reason": "Superseded by approved VF06 bulkhead assembly; original actor identity and functional light retained."
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R09_Cabin_Ceiling_Housing",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_21",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
+    },
+    {
+      "label": "R09_Cabin_Ceiling_Diffuser",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_22",
+      "component": "StaticMeshComponent0",
+      "old_mesh": "/Engine/BasicShapes/Cube.Cube",
+      "stage": "Infrastructure",
+      "reason": "Superseded by approved VF06 fixture assembly; original actor identity and functional light retained."
     }
   ],
   "preserved": "Existing canopy fixtures, generator west entrance, fuel yard exit and lookout lights remain. Only the enumerated duplicate entry fixture components are retired."

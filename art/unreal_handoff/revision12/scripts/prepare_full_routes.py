@@ -1,4 +1,4 @@
-"""Final independent routes plus a continuous walking tour, using surveyed aisle waypoints."""
+"""Final independent routes using surveyed aisle waypoints."""
 import json,time
 from pathlib import Path
 b=Path(__file__).resolve().parents[1];repo=b.parents[2]
@@ -9,7 +9,7 @@ aisles=[
  {'name':'Control interior aisle','points':[[-3.3,-.8,4],[-3.3,-2.6,4],[-6.5,-2.6,4],[-6.5,-3.5,4],[-4,-3.5,4]]},
  {'name':'Generator clear entrance','points':[[30,-10.6,-1],[30,-12.4,-1],[31.5,-12.4,-1],[31.5,-15.5,-1]]},
  {'name':'Workshop shared west door','points':[[31.5,-15.5,-1],[32.5,-15.5,-1],[34.3,-15.5,-1]]},
- {'name':'Water terrace access','points':[[22,-12,-.7],[23.5,-14,-1],[23.5,-16,-1],[23.5,-19,-1]]}]
+ {'name':'Water terrace access','points':[[22,-12,-.7],[21.5,-13.5,-.85],[21,-15,-1],[21,-15.7,-1],[19,-15.7,-1]]}]
 # Retain successfully surveyed room paths from the architecture request's samples.
 previous=json.loads((b/'routes_architecture.json').read_text())
 for name in ['Waiting hall interior','Quarters interior','Relay interior']:

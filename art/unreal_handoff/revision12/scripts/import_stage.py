@@ -8,7 +8,14 @@ world=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world
 assert json.loads((base/'checkpoint-verification.json').read_text())
 stage=JOB.get('stage','Circulation');assert stage in ['Circulation','Architecture','Infrastructure']
 chunks=[r for r in manifest['chunks'] if r['stage']==stage]
+stage_count=len(chunks)
+if JOB.get('asset_names'):
+ assert set(JOB['asset_names'])<=set(r['name'] for r in chunks),'Repair asset names must belong to the explicit stage'
+ chunks=[r for r in chunks if r['name'] in JOB['asset_names']]
 ledger_path=base/'integration_ledger.json';ledger=json.loads(ledger_path.read_text()) if ledger_path.exists() else {'assets':{},'retired':{},'stages':{}}
+if JOB.get('asset_names'):
+ assert ledger['stages'].get(stage,{}).get('imported'),'Selective repair requires an existing full-stage import'
+ assert all(r['name'] in ledger['assets'] for r in manifest['chunks'] if r['stage']==stage)
 actors={a.get_path_name():a for a in aa.get_all_level_actors()};expected={r['r12_path']:r for r in inventory}
 targets={}
 for r in manifest['chunks']:
@@ -91,5 +98,5 @@ else:
   c=next(c for c in actors[t['actor']].get_components_by_class(unreal.StaticMeshComponent) if c.get_name()==t['component'])
   c.set_static_mesh(None);c.set_editor_property('override_materials',[]);c.set_collision_enabled(unreal.CollisionEnabled.NO_COLLISION);ledger['retired'][key]=t
  assert levels.save_current_level()
- ledger['stages'][stage]={'imported':True,'accepted':False,'assets':len(chunks),'saved':True};ledger_path.write_text(json.dumps(ledger,indent=2))
+ ledger['stages'][stage]={'imported':True,'accepted':False,'assets':stage_count,'saved':True};ledger_path.write_text(json.dumps(ledger,indent=2))
  RESULT=ledger['stages'][stage]

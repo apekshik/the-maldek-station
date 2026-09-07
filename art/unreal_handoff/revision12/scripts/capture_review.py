@@ -11,7 +11,7 @@ shots=JOB.get('shots') or [
  ['rear_cleanup',(23,-10,10),(13,-2,0)],['sideways_arrival',(-25,-22,9),(-17,-14,3)],
  ['quarters_stair',(5,-13,9),(-.6,-6.8,6)],['dock_border',(5,12,8),(4,5.5,4)],
  ['quarters_interior',(-2.5,-3.8,9.2),(-6,-.8,8.5)],['lower_floor',(10,-3,2),(3,4,1)],
- ['water_terrace',(27,-25,8),(20,-17,2)],['whole_station',(-28,23,22),(-3,-3,4)]]
+ ['water_terrace',(26,-13,7),(21,-18,2)],['whole_station',(-28,23,22),(-3,-3,4)]]
 lamp=aa.spawn_actor_from_class(unreal.RectLight,wp((0,0,30)),unreal.Rotator(pitch=-60))
 lamp.set_actor_label('R12_Transient_Review_Lamp');lamp.set_actor_hidden_in_game(True)
 lc=lamp.get_component_by_class(unreal.RectLightComponent);lc.set_mobility(unreal.ComponentMobility.MOVABLE);lc.set_intensity(15000);lc.set_editor_property('attenuation_radius',16000);lc.set_editor_property('source_width',2000);lc.set_editor_property('source_height',1500)

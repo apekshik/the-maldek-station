@@ -3,12 +3,16 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "StationMigrationLibrary.generated.h"
 class UMaterialInterface;
+class UBlueprint;
 
 UCLASS()
 class STATIONMIGRATIONTOOLS_API UStationMigrationLibrary : public UBlueprintFunctionLibrary
 {
     GENERATED_BODY()
 public:
+    UFUNCTION(BlueprintCallable, Category="Station Validation")
+    static bool IsBlueprintUpToDate(UBlueprint* Blueprint);
+
     // Changes the render target, independent of desktop window borders. Only PIE is eligible.
     UFUNCTION(BlueprintCallable, Category="Station Validation")
     static bool SetPIERenderSize(int32 Width, int32 Height);

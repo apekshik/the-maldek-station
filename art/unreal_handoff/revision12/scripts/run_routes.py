@@ -3,7 +3,8 @@ import unreal,json,time,math,traceback,re
 from pathlib import Path
 base=Path(__file__).resolve().parents[1];repo=base.parents[2]
 levels=unreal.get_editor_subsystem(unreal.LevelEditorSubsystem)
-assert unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world().get_name()=='Station_R12'
+world_name=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world().get_name()
+assert world_name=='Station_R12' or (JOB.get('benchmark') and world_name=='Forest_Approach_Test')
 assert not levels.is_in_play_in_editor()
 layout=json.loads((repo/'art/blender/visual_fidelity_07/layout.json').read_text())
 routes=layout['routes']
@@ -19,7 +20,7 @@ def wp(p):return unreal.Vector(origin[0]-p[0]*100,origin[1]+p[1]*100,origin[2]+p
 def local(v):return [(origin[0]-v.x)/100,(v.y-origin[1])/100,(v.z-origin[2])/100]
 settings=unreal.get_default_object(unreal.load_class(None,'/Script/UnrealEd.EditorPerformanceSettings'))
 throttle=settings.get_editor_property('bThrottleCPUWhenNotForeground');settings.set_editor_property('bThrottleCPUWhenNotForeground',False)
-state={'phase':'await','index':0,'results':[],'busy':False,'deadline':time.monotonic()+1800,'scope':JOB.get('stage','Full'),'teleport_policy':'Only between independent tests; no teleport, flying, jumping or crouching during a route.'}
+state={'phase':'await','index':0,'results':[],'busy':False,'deadline':time.monotonic()+1800,'scope':JOB.get('stage','Full'),'map':world_name,'tests':tests,'teleport_policy':'Only between independent tests; no teleport, flying, jumping or crouching during a route.'}
 out=base/JOB.get('report','routes_'+JOB.get('stage','full').lower()+'.json')
 def save():out.write_text(json.dumps({k:v for k,v in state.items() if k!='busy'},indent=2))
 def gondola_snapshot():
@@ -28,6 +29,7 @@ def gondola_snapshot():
  names={'R04_12_Gondola'}|{r['name'].replace('SM_','') for r in json.loads((base/'handoff_manifest.json').read_text())['chunks'] if r['collection'] in ['12_Gondola','VF06_Gondola_Details']}
  return {a.get_actor_label():re.sub(r'0x[0-9A-Fa-f]+','ADDRESS',str(a.get_actor_transform())) for a in unreal.GameplayStatics.get_all_actors_of_class(w,unreal.Actor) if a.get_actor_label() in names}
 def finish():
+ if JOB.get('benchmark'):unreal.StationMigrationLibrary.set_pie_render_size(0,0)
  settings.set_editor_property('bThrottleCPUWhenNotForeground',throttle)
  state['gondola_end']=gondola_snapshot();state['gondola_stationary']=state.get('gondola_start')==state['gondola_end']
  state['success']=len(state['results'])==len(tests) and all(r['passed'] for r in state['results'])
@@ -38,7 +40,7 @@ def result(pawn,passed,reason):
   q=wp(tests[state['index']]['points'][min(state['point'],len(tests[state['index']]['points'])-1)])
   p=pawn.get_actor_location();q.z=p.z
   hit=unreal.SystemLibrary.capsule_trace_single(pawn,p,q,34,94,unreal.TraceTypeQuery.TRACE_TYPE_QUERY1,False,[pawn],unreal.DrawDebugTrace.NONE,True)
-  row['blocking_trace']=[str(v) for v in hit.to_tuple()]
+  row['blocking_trace']=[str(v) for v in hit.to_tuple()] if hit else []
  state['results'].append(row);state['index']+=1;state['phase']='place';save()
  if state['index']==len(tests):finish()
 def tick(dt):
@@ -52,18 +54,24 @@ def tick(dt):
   if not pawn or not pc:return
   move=pawn.character_movement;half=pawn.capsule_component.get_scaled_capsule_half_height()
   if state['phase']=='await':
+   if JOB.get('benchmark'):
+    assert unreal.StationMigrationLibrary.set_pie_render_size(2560,1440)
+    for cmd in ['r.VSync 0','t.MaxFPS 0','r.GPUStatsEnabled 1','stat none','stat unit','stat RHI','stat streaming']:unreal.SystemLibrary.execute_console_command(world,cmd)
+    state['console_settings']={n:unreal.SystemLibrary.get_console_variable_float_value(n) for n in ['r.ScreenPercentage','r.VSync','r.AntiAliasingMethod','sg.ViewDistanceQuality','sg.ShadowQuality','sg.GlobalIlluminationQuality','sg.ReflectionQuality']}
    state['gondola_start']=gondola_snapshot()
    state['player']={'class':pawn.get_class().get_path_name(),'radius_cm':pawn.capsule_component.get_scaled_capsule_radius(),'half_height_cm':half,'max_step_cm':move.max_step_height,'slope_degrees':move.get_walkable_floor_angle(),'max_walk_speed':move.max_walk_speed}
    state.update(phase='warm',next=now+8);return
   if state['phase']=='warm':
    if now<state['next']:return
+   if JOB.get('benchmark'):
+    state['viewport_size']=list(pc.get_viewport_size());assert state['viewport_size']==[2560,1440]
    state['phase']='place'
   if state['phase']=='place':
    test=tests[state['index']];p=wp(test['points'][0]);p.z+=half+8
    move.stop_movement_immediately();pawn.set_actor_location(p,False,True);move.set_movement_mode(unreal.MovementMode.MOVE_WALKING)
    state.update(phase='settle',next=now+1,point=1,started=now,last_progress=now,best=1e20,last_sample=0)
    foot=pawn.get_component_by_class(unreal.SurfaceFootstepComponent)
-   state['current']={'name':test['name'],'direction':test['direction'],'passed':False,'samples':[],'max_height_error_cm':0,'max_airborne_seconds':0,'initial_footstep_count':foot.footstep_count if foot else None}
+   state['current']={'name':test['name'],'direction':test['direction'],'passed':False,'samples':[],'performance':[],'max_height_error_cm':0,'max_airborne_seconds':0,'initial_footstep_count':foot.footstep_count if foot else None}
    state['air_start']=None;return
   if state['phase']=='settle':
    if now<state['next']:return
@@ -74,6 +82,8 @@ def tick(dt):
    t=max(0,min(1,((p.x-previous.x)*segx+(p.y-previous.y)*segy)/max(1,segx*segx+segy*segy)))
    expected=previous.z+(target.z-previous.z)*t;height_error=abs(feet-expected)
    row=state['current'];row['max_height_error_cm']=max(row['max_height_error_cm'],height_error)
+   if JOB.get('benchmark'):
+    timing=dict(unreal.StationMigrationLibrary.capture_pie_frame_stats());timing.update(point=state['point'],elapsed_seconds=now-state['started']);row['performance'].append(timing)
    if move.is_falling():
     if state['air_start'] is None:state['air_start']=now
     row['max_airborne_seconds']=max(row['max_airborne_seconds'],now-state['air_start'])
