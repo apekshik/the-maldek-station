@@ -1,0 +1,1332 @@
+{
+  "bridge": [
+    {
+      "position": [
+        12.0,
+        8.35,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        12.25,
+        8.765625,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        12.5,
+        9.18125,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        12.75,
+        9.596875,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        13.0,
+        10.0125,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        13.25,
+        10.428125,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        13.5,
+        10.84375,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        13.75,
+        11.259375,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        14.0,
+        11.675,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        14.25,
+        12.090625,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        14.5,
+        12.50625,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        14.75,
+        12.921875,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        15.0,
+        13.3375,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        15.25,
+        13.753125,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        15.5,
+        14.16875,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        15.75,
+        14.584375,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.0,
+        15.0,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.0,
+        15.0,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.09090909090909,
+        15.488484848484848,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.181818181818183,
+        15.976969696969697,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.272727272727273,
+        16.465454545454545,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.363636363636363,
+        16.953939393939393,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.454545454545453,
+        17.44242424242424,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.545454545454547,
+        17.93090909090909,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.636363636363637,
+        18.41939393939394,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.727272727272727,
+        18.907878787878786,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.818181818181817,
+        19.39636363636364,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.90909090909091,
+        19.884848484848487,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.0,
+        20.373333333333335,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.09090909090909,
+        20.861818181818183,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.18181818181818,
+        21.35030303030303,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.272727272727273,
+        21.83878787878788,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.363636363636363,
+        22.327272727272728,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.454545454545453,
+        22.815757575757576,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.545454545454547,
+        23.304242424242425,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.636363636363637,
+        23.792727272727273,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.727272727272727,
+        24.28121212121212,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.81818181818182,
+        24.769696969696973,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.90909090909091,
+        25.258181818181818,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.0,
+        25.746666666666666,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.09090909090909,
+        26.235151515151514,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.18181818181818,
+        26.723636363636366,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.272727272727273,
+        27.21212121212121,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.363636363636363,
+        27.700606060606063,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.454545454545453,
+        28.18909090909091,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.545454545454547,
+        28.67757575757576,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.636363636363637,
+        29.166060606060604,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.727272727272727,
+        29.654545454545456,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.81818181818182,
+        30.143030303030304,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.90909090909091,
+        30.631515151515153,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        19.0,
+        31.12,
+        4.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 10298.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+      }
+    }
+  ],
+  "service": [
+    {
+      "position": [
+        6.0,
+        -3.0,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        6.461538461538462,
+        -3.076923076923077,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        6.923076923076923,
+        -3.1538461538461537,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        7.384615384615385,
+        -3.230769230769231,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        7.846153846153847,
+        -3.3076923076923075,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        8.307692307692308,
+        -3.3846153846153846,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        8.76923076923077,
+        -3.4615384615384617,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        9.23076923076923,
+        -3.5384615384615383,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        9.692307692307693,
+        -3.6153846153846154,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        10.153846153846153,
+        -3.6923076923076925,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        10.615384615384617,
+        -3.769230769230769,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        11.076923076923077,
+        -3.8461538461538463,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        11.538461538461538,
+        -3.9230769230769234,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        12.0,
+        -4.0,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.508099481829,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        12.0,
+        -4.0,
+        0.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.508099481829,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        12.333333333333334,
+        -4.333333333333333,
+        -0.02
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_94' (0x000001EA74D47D00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        12.666666666666666,
+        -4.666666666666667,
+        -0.04
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_94' (0x000001EA74D47D00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        13.0,
+        -5.0,
+        -0.06
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_94' (0x000001EA74D47D00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        13.333333333333334,
+        -5.333333333333333,
+        -0.08
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_94' (0x000001EA74D47D00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        13.666666666666666,
+        -5.666666666666666,
+        -0.09999999999999999
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.5,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_94' (0x000001EA74D47D00) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        14.0,
+        -6.0,
+        -0.12
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9886.508097289388,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        14.333333333333334,
+        -6.333333333333334,
+        -0.13999999999999999
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.005720036914,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_2' (0x000001EA74D4E100) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        14.666666666666666,
+        -6.666666666666666,
+        -0.16
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9898.69458594953,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_2' (0x000001EA74D4E100) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        15.0,
+        -7.0,
+        -0.18
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9899.301045295462,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_2' (0x000001EA74D4E100) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        15.333333333333332,
+        -7.333333333333333,
+        -0.19999999999999998
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9899.919146692657,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_2' (0x000001EA74D4E100) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        15.666666666666666,
+        -7.666666666666666,
+        -0.21999999999999997
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9900.599335370218,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_2' (0x000001EA74D4E100) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.0,
+        -8.0,
+        -0.24
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9901.371084135775,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_2' (0x000001EA74D4E100) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.333333333333336,
+        -8.333333333333334,
+        -0.26
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9872.50809473154,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        16.666666666666668,
+        -8.666666666666668,
+        -0.27999999999999997
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9870.508094366132,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.0,
+        -9.0,
+        -0.3
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9868.521162219018,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.0,
+        -9.0,
+        -0.3
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9868.521162219018,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.416666666666668,
+        -9.25,
+        -0.3333333333333333
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9865.187827908609,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        17.833333333333332,
+        -9.5,
+        -0.36666666666666664
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9861.8544935982,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.25,
+        -9.75,
+        -0.39999999999999997
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9858.521159287791,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        18.666666666666668,
+        -10.0,
+        -0.4333333333333333
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9855.187824977384,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        19.083333333333332,
+        -10.25,
+        -0.4666666666666667
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9851.854490666974,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        19.5,
+        -10.5,
+        -0.5
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9848.521156356566,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        19.916666666666668,
+        -10.75,
+        -0.5333333333333333
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9845.187822046159,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        20.333333333333332,
+        -11.0,
+        -0.5666666666666667
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9841.854487735749,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        20.75,
+        -11.25,
+        -0.6
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9838.521153425341,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        21.166666666666668,
+        -11.5,
+        -0.6333333333333333
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9835.187819114932,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        21.583333333333332,
+        -11.75,
+        -0.6666666666666666
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9831.854484804524,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        22.0,
+        -12.0,
+        -0.7
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9828.521150494114,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        22.0,
+        -12.0,
+        -0.7
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9828.521150494114,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        22.416666666666668,
+        -12.25,
+        -0.725
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9826.011903355638,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        22.833333333333332,
+        -12.5,
+        -0.75
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9823.511902507013,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        23.25,
+        -12.75,
+        -0.7749999999999999
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9821.011901658389,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        23.666666666666668,
+        -13.0,
+        -0.7999999999999999
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9818.511900809764,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        24.083333333333332,
+        -13.25,
+        -0.825
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9816.01189996114,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        24.5,
+        -13.5,
+        -0.85
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9813.511899112515,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        24.916666666666668,
+        -13.75,
+        -0.875
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9811.01189826389,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        25.333333333333332,
+        -14.0,
+        -0.8999999999999999
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9808.511897415267,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        25.75,
+        -14.25,
+        -0.925
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9806.011896566642,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        26.166666666666668,
+        -14.5,
+        -0.95
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9803.511895718017,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        26.583333333333332,
+        -14.75,
+        -0.975
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9801.011894869393,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    },
+    {
+      "position": [
+        27.0,
+        -15.0,
+        -1.0
+      ],
+      "floor": {
+        "blocking": true,
+        "z": 9798.511894020769,
+        "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+      }
+    }
+  ],
+  "rooms": {
+    "generator": {
+      "blocking": true,
+      "z": 9828.5,
+      "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+    },
+    "workshop": {
+      "blocking": true,
+      "z": 9798.5,
+      "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+    },
+    "tank_yard": {
+      "blocking": true,
+      "z": 9798.5,
+      "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_39' (0x000001EAF105F500) Class 'StaticMeshActor'>"
+    },
+    "lookout": {
+      "blocking": true,
+      "z": 10298.5,
+      "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.StaticMeshActor_38' (0x000001EAF105AA00) Class 'StaticMeshActor'>"
+    }
+  },
+  "doorways": {
+    "generator": null,
+    "workshop": null,
+    "fuel": null
+  },
+  "bridge_ground": [
+    {
+      "blocking": true,
+      "z": -1786.740915475977,
+      "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.Landscape_0' (0x000001E6C0B99000) Class 'Landscape'>"
+    },
+    {
+      "blocking": true,
+      "z": -1837.0,
+      "actor": "<Object '/Game/MaldekRefinement/R11/BlockOut_R11.BlockOut_R11:PersistentLevel.Landscape_0' (0x000001E6C0B99000) Class 'Landscape'>"
+    }
+  ],
+  "route_floor_pass": true,
+  "doors_pass": true,
+  "moon_rotation": "<Struct 'Rotator' (0x000001EA780E53E8) {pitch: -66.113834, yaw: 28.486248, roll: 35.420164}>"
+}

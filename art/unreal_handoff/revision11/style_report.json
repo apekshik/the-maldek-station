@@ -1,0 +1,7 @@
+{
+  "pines_removed_from_route": 2,
+  "pines_retained": 150,
+  "fixtures": 5,
+  "waiting_lamp_location": "<Struct 'Vector' (0x000001EA7478CFB0) {x: -42992.305975, y: 18506.707550, z: 10543.500000}>",
+  "wind_sound": "<Object '/Game/MaldekRefinement/R10/Audio/Forest_Wind_Loop.Forest_Wind_Loop' (0x000001EA846C6E00) Class 'SoundWave'>"
+}

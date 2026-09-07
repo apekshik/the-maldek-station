@@ -1,0 +1,5 @@
+{
+  "target_world_azimuth": 90,
+  "target_elevation": 20,
+  "result": "<Struct 'Rotator' (0x000001EA780E53E8) {pitch: -20.000001, yaw: -90.000001, roll: 85.941912}>"
+}

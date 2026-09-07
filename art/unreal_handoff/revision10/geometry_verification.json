@@ -1,0 +1,441 @@
+{
+  "west_entry": {
+    "hit": true,
+    "point": [
+      -43992.305974972965,
+      19174.707549061975,
+      10298.5
+    ],
+    "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_0' (0x000001AF7E9C9B00) Class 'StaticMeshActor'>"
+  },
+  "west_end": {
+    "hit": true,
+    "point": [
+      -43992.305974972965,
+      19544.707549061975,
+      10298.5
+    ],
+    "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_0' (0x000001AF7E9C9B00) Class 'StaticMeshActor'>"
+  },
+  "east_infill": {
+    "hit": true,
+    "point": [
+      -44552.305974972965,
+      19234.707549061975,
+      10298.5
+    ],
+    "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_0' (0x000001AF7E9C9B00) Class 'StaticMeshActor'>"
+  },
+  "east_end": {
+    "hit": true,
+    "point": [
+      -44552.305974972965,
+      19544.707549061975,
+      10298.5
+    ],
+    "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_0' (0x000001AF7E9C9B00) Class 'StaticMeshActor'>"
+  },
+  "west_clear": null,
+  "east_clear": null,
+  "canyon": [
+    {
+      "hit": true,
+      "point": [
+        -42282.305974972965,
+        20974.707549061975,
+        -1837.0
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -44282.305974972965,
+        20974.707549061975,
+        -1837.0
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -45782.305974972965,
+        20974.707549061975,
+        -1837.0
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+    }
+  ],
+  "approach": [
+    {
+      "hit": true,
+      "point": [
+        -40682.305974972965,
+        12774.707549061975,
+        9784.5
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_1' (0x000001B017FF7300) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -41051.055974972965,
+        12918.457549061975,
+        9802.249996703658
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -41382.305974972965,
+        13174.707549061975,
+        9808.500001250071
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -41232.305974972965,
+        13593.457549061975,
+        9817.87500895462
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -41082.305974972965,
+        14074.707549061975,
+        9828.50000247915
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -41432.305974972965,
+        14530.957549061975,
+        9838.499994737036
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -41782.305974972965,
+        14974.707549061975,
+        9848.500002482951
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -41626.055974972965,
+        15405.957549061975,
+        9858.812507007966
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -41482.305974972965,
+        15774.707549061975,
+        9868.500000221266
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -41819.180974972965,
+        15999.707549061975,
+        9876.312497785393
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -42282.305974972965,
+        16174.707549061975,
+        9883.49999704462
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -42687.305974972965,
+        16389.082549061975,
+        9891.937500112443
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -42992.305974972965,
+        16574.707549061975,
+        9898.499999106183
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -43036.680974972965,
+        16684.707549061975,
+        9899.364615838513
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    },
+    {
+      "hit": true,
+      "point": [
+        -42992.305974972965,
+        16744.707549061975,
+        9898.575356493913
+      ],
+      "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.StaticMeshActor_30' (0x000001AF30812D00) Class 'StaticMeshActor'>"
+    }
+  ],
+  "moon": {
+    "Moon Target": "<Struct 'Vector' (0x000001B008BCAF70) {x: -44282.000000, y: 100000.000000, z: 43000.000000}>",
+    "Moon World Rotation": "<Struct 'Rotator' (0x000001B008BCB3E8) {pitch: -21.463543, yaw: 105.447218, roll: 89.411960}>",
+    "Cached Moon Vector": "<Struct 'Vector' (0x000001B008BCA878) {x: -0.247879, y: 0.897032, z: -0.365909}>",
+    "Manually Position Moon Target": "True",
+    "Moon Yaw": "90.0",
+    "Moon Pitch": "20.0"
+  },
+  "ridge_candidates": [
+    {
+      "xy": [
+        -60,
+        600
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -38282.305974972965,
+          78474.70754906198,
+          7718.1265995382855
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        0,
+        600
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -44282.305974972965,
+          78474.70754906198,
+          7093.116375760859
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        60,
+        600
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -50282.305974972965,
+          78474.70754906198,
+          6480.2020469855925
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        -60,
+        750
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -38282.305974972965,
+          93474.70754906198,
+          9252.010217930816
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        0,
+        750
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -44282.305974972965,
+          93474.70754906198,
+          9328.807831540253
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        60,
+        750
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -50282.305974972965,
+          93474.70754906198,
+          8708.823955838074
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        -60,
+        900
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -38282.305974972965,
+          108474.70754906198,
+          14245.698398277702
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        0,
+        900
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -44282.305974972965,
+          108474.70754906198,
+          13157.800231104338
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        60,
+        900
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -50282.305974972965,
+          108474.70754906198,
+          11713.399189465345
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        -60,
+        1100
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -38282.305974972965,
+          128474.70754906198,
+          18879.203335414757
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        0,
+        1100
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -44282.305974972965,
+          128474.70754906198,
+          17328.052993547884
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        60,
+        1100
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -50282.305974972965,
+          128474.70754906198,
+          17602.61508210849
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        -60,
+        1400
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -38282.305974972965,
+          158474.70754906198,
+          32495.260106509188
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        0,
+        1400
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -44282.305974972965,
+          158474.70754906198,
+          32227.83025356852
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    },
+    {
+      "xy": [
+        60,
+        1400
+      ],
+      "hit": {
+        "hit": true,
+        "point": [
+          -50282.305974972965,
+          158474.70754906198,
+          29613.700754299178
+        ],
+        "actor": "<Object '/Game/MaldekRefinement/R10/BlockOut_R10.BlockOut_R10:PersistentLevel.Landscape_0' (0x000001B116BFE000) Class 'Landscape'>"
+      }
+    }
+  ]
+}

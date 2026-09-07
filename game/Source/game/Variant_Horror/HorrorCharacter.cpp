@@ -9,6 +9,8 @@
 #include "Components/SpotLightComponent.h"
 #include "EnhancedInputComponent.h"
 #include "InputAction.h"
+#include "InputCoreTypes.h"
+#include "Components/StaticMeshComponent.h"
 
 AHorrorCharacter::AHorrorCharacter()
 {
@@ -49,6 +51,7 @@ void AHorrorCharacter::EndPlay(EEndPlayReason::Type EndPlayReason)
 void AHorrorCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	PlayerInputComponent->BindKey(EKeys::F, IE_Pressed, this, &AHorrorCharacter::ToggleFlashlight);
 
 	{
 		// Set up action bindings
@@ -58,6 +61,20 @@ void AHorrorCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 			EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Started, this, &AHorrorCharacter::DoStartSprint);
 			EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Completed, this, &AHorrorCharacter::DoEndSprint);
 
+		}
+	}
+}
+
+void AHorrorCharacter::ToggleFlashlight()
+{
+	const bool bEnabled = !SpotLight->IsVisible();
+	SpotLight->SetVisibility(bEnabled);
+	TInlineComponentArray<UStaticMeshComponent*> Meshes(this);
+	for (UStaticMeshComponent* TorchMesh : Meshes)
+	{
+		if (TorchMesh->GetName().Contains(TEXT("TorchLens")))
+		{
+			TorchMesh->SetVisibility(bEnabled);
 		}
 	}
 }

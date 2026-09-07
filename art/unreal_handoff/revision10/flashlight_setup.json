@@ -1,0 +1,7 @@
+{
+  "beam": "hotspot, feathered spill, faint corona and reflector variation",
+  "lumens": 0.23,
+  "outer_cone_degrees": 32,
+  "radius_cm": 850,
+  "material": "/Game/MaldekRefinement/R10/Materials/M_Flashlight_Optics.M_Flashlight_Optics"
+}

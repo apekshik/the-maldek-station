@@ -91,6 +91,9 @@ protected:
 
 protected:
 
+	/** Toggle the held flashlight once per key press. */
+	void ToggleFlashlight();
+
 	/** Starts sprinting behavior */
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void DoStartSprint();

@@ -1,0 +1,47 @@
+{
+  "route": 5,
+  "point": 2,
+  "stage": "capture",
+  "next": 77685.515,
+  "deadline": 77777.14,
+  "results": [
+    {
+      "route": "west_dock",
+      "passed": true,
+      "duration": 2.2039999999979045
+    },
+    {
+      "route": "east_dock",
+      "passed": true,
+      "duration": 1.7970000000059372
+    },
+    {
+      "route": "bridge",
+      "passed": true,
+      "duration": 9.280999999988126
+    },
+    {
+      "route": "service",
+      "passed": true,
+      "duration": 8.01600000000326
+    },
+    {
+      "route": "workshop",
+      "passed": true,
+      "duration": 1.639999999999418
+    }
+  ],
+  "busy": true,
+  "beam_material": "<Object '/Game/MaldekRefinement/R10/Materials/M_Flashlight_Optics.M_Flashlight_Optics' (0x000001EA27CE5400) Class 'Material'>",
+  "wind": [
+    {
+      "name": "R10_Forest_Wind",
+      "playing": true
+    }
+  ],
+  "cabin_start": "<Struct 'Transform' (0x000001E6E29FD5C0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "route_start": 77679.875,
+  "waypoint_start": 77681.515,
+  "cabin_end": "<Struct 'Transform' (0x000001E6E29FD5C0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "success": true
+}

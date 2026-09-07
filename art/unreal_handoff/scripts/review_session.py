@@ -3,11 +3,15 @@ import unreal,json,time,traceback,runpy
 from pathlib import Path
 review_out=Path(__file__).resolve().parents[1]
 review_deadline=time.monotonic()+1800
+review_busy=False
 def review_tick(delta):
+ global review_busy
+ if review_busy:return
  if time.monotonic()>review_deadline:
   unreal.unregister_slate_post_tick_callback(review_handle);return
  request=review_out/'review_request.json'
  if not request.exists():return
+ review_busy=True
  try:
   command=json.loads(request.read_text());request.unlink()
   action=command['action'];result={}
@@ -23,4 +27,5 @@ def review_tick(delta):
   (review_out/'review_response.json').write_text(json.dumps({'action':action,'success':True,'result':result}))
  except Exception:
   (review_out/'review_response.json').write_text(json.dumps({'success':False,'error':traceback.format_exc()}))
+ finally:review_busy=False
 review_handle=unreal.register_slate_post_tick_callback(review_tick)
