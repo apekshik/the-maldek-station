@@ -1,0 +1,54 @@
+{
+  "disabled": [
+    "PointLight3",
+    "R07_TestLight_Main_Platform_West",
+    "R07_TestLight_Main_Platform_East"
+  ],
+  "fixtures": [
+    {
+      "name": "R08_WallLight_Control_Entry",
+      "wall_mount_cm": [
+        -43902.305975,
+        18487.70755,
+        10553.5
+      ],
+      "light_cm": [
+        -43902.305975,
+        18506.70755,
+        10543.5
+      ],
+      "target_cm": [
+        -43902.305975,
+        18617.70755,
+        10298.5
+      ],
+      "intensity_lumens": 1.5,
+      "outer_cone_degrees": 34,
+      "radius_cm": 420,
+      "kelvin": 3600
+    },
+    {
+      "name": "R08_WallLight_Waiting_Hall_Entry",
+      "wall_mount_cm": [
+        -43132.305975,
+        18487.70755,
+        10553.5
+      ],
+      "light_cm": [
+        -43132.305975,
+        18506.70755,
+        10543.5
+      ],
+      "target_cm": [
+        -43132.305975,
+        18617.70755,
+        10298.5
+      ],
+      "intensity_lumens": 1.2,
+      "outer_cone_degrees": 34,
+      "radius_cm": 420,
+      "kelvin": 3600
+    }
+  ],
+  "time_of_day": 2300.0
+}

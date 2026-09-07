@@ -1,0 +1,158 @@
+[
+  {
+    "label": "PointLight",
+    "class": "PointLightComponent",
+    "position": [
+      -42324.245998552775,
+      17985.952227059548,
+      10431.0
+    ],
+    "intensity": 0.20000000298023224,
+    "units": "<LightUnits.CANDELAS: 1>",
+    "attenuation": 1000.0
+  },
+  {
+    "label": "PointLight2",
+    "class": "PointLightComponent",
+    "position": [
+      -42219.24596891161,
+      18594.952221949014,
+      10582.0
+    ],
+    "intensity": 1.0,
+    "units": "<LightUnits.CANDELAS: 1>",
+    "attenuation": 1000.0
+  },
+  {
+    "label": "PointLight3",
+    "class": "PointLightComponent",
+    "position": [
+      -44464.245947982716,
+      19024.95233121732,
+      10660.0
+    ],
+    "intensity": 1.0,
+    "units": "<LightUnits.CANDELAS: 1>",
+    "attenuation": 1000.0
+  },
+  {
+    "label": "PointLight4",
+    "class": "PointLightComponent",
+    "position": [
+      -47061.24603096822,
+      17319.95245761814,
+      10358.0
+    ],
+    "intensity": 0.20999999344348907,
+    "units": "<LightUnits.CANDELAS: 1>",
+    "attenuation": 1000.0
+  },
+  {
+    "label": "PointLight5",
+    "class": "PointLightComponent",
+    "position": [
+      -42230.313208670734,
+      19583.97775187329,
+      10457.0
+    ],
+    "intensity": 2.0,
+    "units": "<LightUnits.CANDELAS: 1>",
+    "attenuation": 1000.0
+  },
+  {
+    "label": "PointLight6",
+    "class": "PointLightComponent",
+    "position": [
+      -46748.0,
+      172964.0,
+      41833.0
+    ],
+    "intensity": 160.0,
+    "units": "<LightUnits.CANDELAS: 1>",
+    "attenuation": 2805.089599609375
+  },
+  {
+    "label": "PointLight7",
+    "class": "PointLightComponent",
+    "position": [
+      -46141.0,
+      16817.0,
+      10363.0
+    ],
+    "intensity": 4.668101787567139,
+    "units": "<LightUnits.CANDELAS: 1>",
+    "attenuation": 466.40789794921875
+  },
+  {
+    "label": "R07_TestLight_Main_Platform_West",
+    "class": "SpotLightComponent",
+    "position": [
+      -44830.0,
+      18560.0,
+      10565.0
+    ],
+    "intensity": 13.0,
+    "units": "<LightUnits.LUMENS: 2>",
+    "attenuation": 1000.0
+  },
+  {
+    "label": "R07_TestLight_Main_Platform_East",
+    "class": "SpotLightComponent",
+    "position": [
+      -43600.0,
+      18540.0,
+      10565.0
+    ],
+    "intensity": 10.0,
+    "units": "<LightUnits.LUMENS: 2>",
+    "attenuation": 950.0
+  },
+  {
+    "label": "R07_TestLight_Lower_Deck_Machine",
+    "class": "SpotLightComponent",
+    "position": [
+      -44750.0,
+      18700.0,
+      10225.0
+    ],
+    "intensity": 9.0,
+    "units": "<LightUnits.LUMENS: 2>",
+    "attenuation": 900.0
+  },
+  {
+    "label": "R07_TestLight_Lower_Deck_Exit",
+    "class": "SpotLightComponent",
+    "position": [
+      -44100.0,
+      18850.0,
+      10210.0
+    ],
+    "intensity": 7.0,
+    "units": "<LightUnits.LUMENS: 2>",
+    "attenuation": 1000.0
+  },
+  {
+    "label": "R07_TestLight_Relay_Path_Bend",
+    "class": "SpotLightComponent",
+    "position": [
+      -47580.0,
+      20680.0,
+      10650.0
+    ],
+    "intensity": 10.0,
+    "units": "<LightUnits.LUMENS: 2>",
+    "attenuation": 1100.0
+  },
+  {
+    "label": "R07_TestLight_Relay_Door",
+    "class": "SpotLightComponent",
+    "position": [
+      -49050.0,
+      20050.0,
+      10480.0
+    ],
+    "intensity": 9.0,
+    "units": "<LightUnits.LUMENS: 2>",
+    "attenuation": 1000.0
+  }
+]

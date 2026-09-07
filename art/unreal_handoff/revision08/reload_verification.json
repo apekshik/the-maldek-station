@@ -1,0 +1,43 @@
+{
+  "disabled": [
+    "PointLight3",
+    "R07_TestLight_Main_Platform_West",
+    "R07_TestLight_Main_Platform_East"
+  ],
+  "wall_lights": [
+    {
+      "label": "R08_WallLight_Control_Entry",
+      "lumens": 1.5,
+      "radius_cm": 420,
+      "outer_cone_degrees": 34
+    },
+    {
+      "label": "R08_WallLight_Waiting_Hall_Entry",
+      "lumens": 1.2000000476837158,
+      "radius_cm": 420,
+      "outer_cone_degrees": 34
+    }
+  ],
+  "wall_checks": [
+    {
+      "label": "R08_WallLight_Control_Entry",
+      "hit": true,
+      "wall_face_cm": [
+        -43902.305975,
+        18485.70751616021,
+        10553.5
+      ]
+    },
+    {
+      "label": "R08_WallLight_Waiting_Hall_Entry",
+      "hit": true,
+      "wall_face_cm": [
+        -43132.305975,
+        18485.707448449335,
+        10553.5
+      ]
+    }
+  ],
+  "time_of_day": 2300.0,
+  "moon_intensity": 0.15
+}
