@@ -13,11 +13,13 @@
 #include "Components/StaticMeshComponent.h"
 #include "SurfaceFootstepComponent.h"
 #include "StationPlayerPresentationComponent.h"
+#include "StationOpeningComponent.h"
 
 AHorrorCharacter::AHorrorCharacter()
 {
 	SurfaceFootsteps = CreateDefaultSubobject<USurfaceFootstepComponent>(TEXT("SurfaceFootsteps"));
 	PlayerPresentation = CreateDefaultSubobject<UStationPlayerPresentationComponent>(TEXT("PlayerPresentation"));
+	OpeningExperience = CreateDefaultSubobject<UStationOpeningComponent>(TEXT("OpeningExperience"));
 	// create the spotlight
 	SpotLight = CreateDefaultSubobject<USpotLightComponent>(TEXT("SpotLight"));
 	SpotLight->SetupAttachment(GetFirstPersonCameraComponent());
@@ -75,8 +77,10 @@ void AHorrorCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 void AHorrorCharacter::ToggleFlashlight()
 {
+	if (!OpeningExperience->AllowsFlashlightInput()) return;
 	const bool bEnabled = !SpotLight->IsVisible();
 	SpotLight->SetVisibility(bEnabled);
+	OpeningExperience->FlashlightToggled(bEnabled);
 	TInlineComponentArray<UStaticMeshComponent*> Meshes(this);
 	for (UStaticMeshComponent* TorchMesh : Meshes)
 	{
@@ -87,8 +91,8 @@ void AHorrorCharacter::ToggleFlashlight()
 	}
 }
 
-void AHorrorCharacter::FocusFlashlightIn() { PlayerPresentation->AdjustFocus(1.0f); }
-void AHorrorCharacter::FocusFlashlightOut() { PlayerPresentation->AdjustFocus(-1.0f); }
+void AHorrorCharacter::FocusFlashlightIn() { if (OpeningExperience->AllowsFlashlightInput()) { PlayerPresentation->AdjustFocus(1.0f); OpeningExperience->FocusAdjusted(); } }
+void AHorrorCharacter::FocusFlashlightOut() { if (OpeningExperience->AllowsFlashlightInput()) { PlayerPresentation->AdjustFocus(-1.0f); OpeningExperience->FocusAdjusted(); } }
 
 void AHorrorCharacter::DoStartSprint()
 {

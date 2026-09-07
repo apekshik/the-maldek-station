@@ -10,6 +10,7 @@ class USpotLightComponent;
 class UInputAction;
 class USurfaceFootstepComponent;
 class UStationPlayerPresentationComponent;
+class UStationOpeningComponent;
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateSprintMeterDelegate, float, Percentage);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FSprintStateChangedDelegate, bool, bSprinting);
@@ -31,6 +32,8 @@ class GAME_API AHorrorCharacter : public AgameCharacter
 	USurfaceFootstepComponent* SurfaceFootsteps;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess="true"))
 	UStationPlayerPresentationComponent* PlayerPresentation;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess="true"))
+	UStationOpeningComponent* OpeningExperience;
 	
 protected:
 
@@ -102,8 +105,11 @@ protected:
 protected:
 
 	/** Toggle the held flashlight once per key press. */
+	UFUNCTION(BlueprintCallable, Category="Flashlight")
 	void ToggleFlashlight();
+	UFUNCTION(BlueprintCallable, Category="Flashlight")
 	void FocusFlashlightIn();
+	UFUNCTION(BlueprintCallable, Category="Flashlight")
 	void FocusFlashlightOut();
 
 	/** Starts sprinting behavior */

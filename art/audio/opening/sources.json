@@ -1,0 +1,33 @@
+[
+  {
+    "asset": "Flashlight_On",
+    "author": "Rudmer_Rotteveel",
+    "source": "https://freesound.org/people/Rudmer_Rotteveel/sounds/457458/",
+    "license": "CC0-1.0",
+    "download": "Public high-quality MP3 preview",
+    "sha256": "c25278e556636c04ef99b2bfb4a2d86502e42ffd9f83fa9651d8bef11cc93cf4",
+    "seconds": 0.1918125
+  },
+  {
+    "asset": "Flashlight_Off",
+    "author": "Rudmer_Rotteveel",
+    "source": "https://freesound.org/people/Rudmer_Rotteveel/sounds/457463/",
+    "license": "CC0-1.0",
+    "download": "Public high-quality MP3 preview",
+    "sha256": "885c3c37b45a08e365c6a1d0dd0e303cc999eb6d1d58c2f9b6c0b84e9021a650",
+    "seconds": 0.15547916666666667
+  },
+  {
+    "asset": "Opening_Atmosphere",
+    "author": "Nox_Sound_Design",
+    "source": "https://nox-sound-design.itch.io/essentials-series-sfx-nox-sound",
+    "license": "CC0-1.0",
+    "original": "Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Cave_Dark_Loop_Stereo.wav",
+    "sha256": "2db110a3db4b5f59b74ee374c15930a1a2461fc0206bd83388b28648961c550c",
+    "excerpt_seconds": [
+      0,
+      14
+    ],
+    "edits": "Gain, 2.5-second fade-in, 5-second fade-out. No synthesized or generated audio."
+  }
+]

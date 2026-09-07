@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "mode": "timeout",
+  "checks": [
+    "recorded footsteps preserved",
+    "title widget exists",
+    "title holds movement",
+    "title holds look",
+    "flashlight gated during title",
+    "scroll gated during title",
+    "movement restored",
+    "look restored",
+    "hints remain visible",
+    "onboarding removed",
+    "no lingering input lock",
+    "no unsolicited switch clicks"
+  ],
+  "elapsed": 29.006587982177734,
+  "switch_count": 0
+}

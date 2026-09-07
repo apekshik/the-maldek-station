@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "checks": 30,
+  "builds": [
+    "gameEditor Win64 Development: succeeded",
+    "game Win64 Development: succeeded"
+  ],
+  "visual_review": [
+    "title fills game viewport and is centered",
+    "control hints visible over forest without obscuring route"
+  ],
+  "audio": [
+    {
+      "file": "interactive_mix.wav",
+      "seconds": 14.613333333333333,
+      "peak": 0.114227294921875,
+      "clipped_samples": 0
+    },
+    {
+      "file": "timeout_mix.wav",
+      "seconds": 28.586666666666666,
+      "peak": 0.13385009765625,
+      "clipped_samples": 0
+    }
+  ],
+  "packaging": "Native game built; existing cooked package has not been replaced by this task"
+}

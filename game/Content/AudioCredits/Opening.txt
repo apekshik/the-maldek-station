@@ -1,0 +1,15 @@
+MALDEK STATION - Opening and flashlight audio
+
+Small_Flashlight_Click_on_01.wav and Small_Flashlight_Click_on_02.wav
+by Rudmer_Rotteveel, recorded with a Zoom H4n.
+https://freesound.org/people/Rudmer_Rotteveel/sounds/457458/
+https://freesound.org/people/Rudmer_Rotteveel/sounds/457463/
+Public high-quality MP3 previews converted to mono PCM, trimmed and leveled.
+
+Ambiance_Cave_Dark_Loop_Stereo.wav, Nature Essentials, by Nox_Sound_Design.
+https://nox-sound-design.itch.io/essentials-series-sfx-nox-sound
+14-second excerpt with gain adjustment and gentle fades.
+
+All three sources are licensed CC0 1.0:
+https://creativecommons.org/publicdomain/zero/1.0/
+No audio was synthesized or generated for this implementation.
