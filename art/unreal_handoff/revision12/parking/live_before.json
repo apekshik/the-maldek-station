@@ -1,0 +1,589 @@
+{
+  "world": "/Game/MaldekRefinement/R12/Station_R12.Station_R12",
+  "actors": [
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.PlayerStart_0",
+      "label": "PlayerStart",
+      "location": [
+        -40782.305974972965,
+        12424.707549061975,
+        9908.5
+      ],
+      "source_xy": [
+        -35.0,
+        -60.5
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_8",
+      "label": "FT_European_Aspen_002",
+      "location": [
+        -41647.12201925591,
+        13657.242324197658,
+        9844.262623853756
+      ],
+      "source_xy": [
+        -26.351839557170532,
+        -48.17465224864318
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_10",
+      "label": "FT_European_Beech_004",
+      "location": [
+        -40512.51099158476,
+        13659.867308069013,
+        9838.864000286383
+      ],
+      "source_xy": [
+        -37.697949833882085,
+        -48.14840240992962
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_13",
+      "label": "FT_Goat_Willow_007",
+      "location": [
+        -41514.45660136037,
+        12555.737948908496,
+        9795.51685586878
+      ],
+      "source_xy": [
+        -27.678493736125965,
+        -59.18969600153479
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_25",
+      "label": "FT_European_Beech_019",
+      "location": [
+        -41605.03556577153,
+        11762.167846514021,
+        9668.736189850966
+      ],
+      "source_xy": [
+        -26.77270409201432,
+        -67.12539702547954
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_28",
+      "label": "FT_European_Beech_022",
+      "location": [
+        -40229.05039890439,
+        13021.866651338976,
+        9790.800120583772
+      ],
+      "source_xy": [
+        -40.53255576068579,
+        -54.528408977229994
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_30",
+      "label": "FT_European_Beech_024",
+      "location": [
+        -41657.76948811488,
+        12265.402176059531,
+        9809.48254535873
+      ],
+      "source_xy": [
+        -26.24536486858087,
+        -62.09305373002444
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_36",
+      "label": "FT_Goat_Willow_030",
+      "location": [
+        -40841.17883994871,
+        13417.33960572039,
+        9835.271544310826
+      ],
+      "source_xy": [
+        -34.41127135024253,
+        -50.573679433415855
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_38",
+      "label": "FT_European_Beech_032",
+      "location": [
+        -40429.98417072864,
+        13363.131447711137,
+        9839.519169782898
+      ],
+      "source_xy": [
+        -38.52321804244326,
+        -51.11576101350838
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_83",
+      "label": "FT_RockPatch_04",
+      "location": [
+        -40698.506622291694,
+        12468.584111113913,
+        9782.0
+      ],
+      "source_xy": [
+        -35.83799352681272,
+        -60.06123437948063
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/StaticMeshes/SM_ydzkbhu_tier_1.SM_ydzkbhu_tier_1",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_86",
+      "label": "FT_RockPatch_07",
+      "location": [
+        -40860.65281513003,
+        13654.078151767091,
+        9809.425049231933
+      ],
+      "source_xy": [
+        -34.216531598429356,
+        -48.20629397294884
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/StaticMeshes/SM_ydzkbhu_tier_1.SM_ydzkbhu_tier_1",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Retained/MI_R12_Retained_9a7039e4c0.MI_R12_Retained_9a7039e4c0"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_96",
+      "label": "FT_Marker_0_Post",
+      "location": [
+        -40728.24751608397,
+        12972.919956778478,
+        9830.009338368583
+      ],
+      "source_xy": [
+        -35.54058458888998,
+        -55.017875922834975
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_97",
+      "label": "FT_Marker_0_Cap",
+      "location": [
+        -40728.24751608397,
+        12972.919956778478,
+        9876.009338368583
+      ],
+      "source_xy": [
+        -35.54058458888998,
+        -55.017875922834975
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_98",
+      "label": "FT_Marker_0_Lens",
+      "location": [
+        -40728.24751608397,
+        12972.919956778478,
+        9868.009338368583
+      ],
+      "source_xy": [
+        -35.54058458888998,
+        -55.017875922834975
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "/Game/MaldekRefinement/ForestTest/Materials/M_Path_Marker.M_Path_Marker"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SpotLight_22",
+      "label": "FT_Marker_0_Light",
+      "location": [
+        -40728.24751608397,
+        12972.919956778478,
+        9868.009338368583
+      ],
+      "source_xy": [
+        -35.54058458888998,
+        -55.017875922834975
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_99",
+      "label": "FT_Marker_1_Post",
+      "location": [
+        -41155.1794820805,
+        13394.89528990652,
+        9845.01700001967
+      ],
+      "source_xy": [
+        -31.271264928924648,
+        -50.798122591554545
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_100",
+      "label": "FT_Marker_1_Cap",
+      "location": [
+        -41155.1794820805,
+        13394.89528990652,
+        9891.01700001967
+      ],
+      "source_xy": [
+        -31.271264928924648,
+        -50.798122591554545
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_101",
+      "label": "FT_Marker_1_Lens",
+      "location": [
+        -41155.1794820805,
+        13394.89528990652,
+        9883.01700001967
+      ],
+      "source_xy": [
+        -31.271264928924648,
+        -50.798122591554545
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "/Game/MaldekRefinement/ForestTest/Materials/M_Path_Marker.M_Path_Marker"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SpotLight_23",
+      "label": "FT_Marker_1_Light",
+      "location": [
+        -41155.1794820805,
+        13394.89528990652,
+        9883.01700001967
+      ],
+      "source_xy": [
+        -31.271264928924648,
+        -50.798122591554545
+      ],
+      "components": []
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_116",
+      "label": "FT_TrunkCollision_1",
+      "location": [
+        -41647.12201925591,
+        13657.242324197658,
+        9977.262623853756
+      ],
+      "source_xy": [
+        -26.351839557170532,
+        -48.17465224864318
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+          "materials": [
+            "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_117",
+      "label": "FT_TrunkCollision_2",
+      "location": [
+        -40512.51099158476,
+        13659.867308069013,
+        9971.864000286383
+      ],
+      "source_xy": [
+        -37.697949833882085,
+        -48.14840240992962
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+          "materials": [
+            "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_128",
+      "label": "FT_TrunkCollision_13",
+      "location": [
+        -41605.03556577153,
+        11762.167846514021,
+        9801.736189850966
+      ],
+      "source_xy": [
+        -26.77270409201432,
+        -67.12539702547954
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+          "materials": [
+            "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_131",
+      "label": "FT_TrunkCollision_16",
+      "location": [
+        -40229.05039890439,
+        13021.866651338976,
+        9923.800120583772
+      ],
+      "source_xy": [
+        -40.53255576068579,
+        -54.528408977229994
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+          "materials": [
+            "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_133",
+      "label": "FT_TrunkCollision_18",
+      "location": [
+        -41657.76948811488,
+        12265.402176059531,
+        9942.48254535873
+      ],
+      "source_xy": [
+        -26.24536486858087,
+        -62.09305373002444
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+          "materials": [
+            "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_140",
+      "label": "FT_TrunkCollision_25",
+      "location": [
+        -40429.98417072864,
+        13363.131447711137,
+        9972.519169782898
+      ],
+      "source_xy": [
+        -38.52321804244326,
+        -51.11576101350838
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cylinder.Cylinder",
+          "materials": [
+            "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_480",
+      "label": "R13_Terrain",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "source_xy": [
+        0.0,
+        0.0
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R13/Meshes/SM_R13_Terrain.SM_R13_Terrain",
+          "materials": [
+            "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Soil_4af055d463.MI_Foot_Soil_4af055d463"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_306",
+      "label": "R12_Retained_Parking",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "source_xy": [
+        0.0,
+        0.0
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_Retained_Parking.SM_R12_Retained_Parking",
+          "materials": [
+            "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Gravel_ff87cc66ad.MI_Foot_Gravel_ff87cc66ad"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_324",
+      "label": "R12_Forest_Approach_Aligned",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "source_xy": [
+        0.0,
+        0.0
+      ],
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_Forest_Approach_Aligned.SM_R12_Forest_Approach_Aligned",
+          "materials": [
+            "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Gravel_6c782250aa.MI_Foot_Gravel_6c782250aa"
+          ]
+        }
+      ]
+    }
+  ],
+  "grass_assets": [
+    {
+      "path": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA",
+      "origin": [
+        0.3544731140136719,
+        -0.6185083389282227,
+        20.23894500732422
+      ],
+      "extent": [
+        55.82289123535156,
+        57.04104709625244,
+        28.92092514038086
+      ]
+    },
+    {
+      "path": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB",
+      "origin": [
+        -1.9073486328125e-06,
+        3.814697265625e-06,
+        19.647062301635742
+      ],
+      "extent": [
+        39.66924285888672,
+        37.3402214050293,
+        26.79109001159668
+      ]
+    },
+    {
+      "path": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC",
+      "origin": [
+        -1.623185157775879,
+        -1.8275384902954102,
+        15.994203567504883
+      ],
+      "extent": [
+        25.59157943725586,
+        24.60517120361328,
+        21.433706283569336
+      ]
+    },
+    {
+      "path": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD",
+      "origin": [
+        2.297628402709961,
+        -0.726294994354248,
+        8.628701210021973
+      ],
+      "extent": [
+        21.11296272277832,
+        20.01382875442505,
+        12.45226001739502
+      ]
+    }
+  ],
+  "landscape_samples": 347,
+  "minimum_underlay_clearance": 30.078109585571656
+}

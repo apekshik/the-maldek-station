@@ -1,0 +1,6 @@
+{
+  "outside_mask_changes": 0,
+  "verified_fbx_files": 5,
+  "passed": true,
+  "landscape_clearance": "Requires live collision trace in parking_audit.py"
+}

@@ -1,0 +1,9 @@
+{
+  "dry_run": true,
+  "chunks": 5,
+  "targets": {
+    "R12_Retained_Parking": "SM_R12_Retained_Parking",
+    "R12_Forest_Approach_Aligned": "SM_R12_Forest_Approach_Aligned",
+    "R13_Terrain": "SM_R13_Terrain"
+  }
+}

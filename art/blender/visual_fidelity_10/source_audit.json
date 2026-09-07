@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Parked_Car",
+    "bounds": [
+      [
+        -37.900001525878906,
+        -61.900001525878906,
+        -1.0
+      ],
+      [
+        -36.099998474121094,
+        -58.099998474121094,
+        0.29999998211860657
+      ]
+    ],
+    "materials": [
+      "R02_Chipped_Painted_Steel"
+    ],
+    "collections": [
+      "10_Parking_and_Arrival"
+    ]
+  },
+  {
+    "name": "Parking",
+    "bounds": [
+      [
+        -40.0,
+        -63.0,
+        -1.2999999523162842
+      ],
+      [
+        -32.0,
+        -57.0,
+        -1.0
+      ]
+    ],
+    "materials": [
+      "Ground"
+    ],
+    "collections": [
+      "10_Parking_and_Arrival"
+    ]
+  },
+  {
+    "name": "R11_Current_Terrain",
+    "bounds": [
+      [
+        -96.0,
+        -80.0,
+        -153.9970245361328
+      ],
+      [
+        112.0,
+        96.0,
+        4.450560569763184
+      ]
+    ],
+    "materials": [
+      "VF07_Terrain_Study"
+    ],
+    "collections": [
+      "15_Terrain"
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "assets": {
+    "SM_VF10_Parking_Ground": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_481",
+      "mesh": "/Game/MaldekRefinement/R12/Parking/Meshes/SM_VF10_Parking_Ground.SM_VF10_Parking_Ground",
+      "bounds_error_cm": 6.103515625e-05,
+      "collision_hulls": 1,
+      "sha256": "d8aa2a299457ac00c31e184b33a709375dd147a6e027deaa933ef3cc98c63290"
+    },
+    "SM_VF10_Parking_Furniture": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_482",
+      "mesh": "/Game/MaldekRefinement/R12/Parking/Meshes/SM_VF10_Parking_Furniture.SM_VF10_Parking_Furniture",
+      "bounds_error_cm": 6.103515625e-05,
+      "collision_hulls": 7,
+      "sha256": "161aa9d17ef0862cc03aa5df0579926e8bd7ca02cd52f7b11ae507a7cca2d92b"
+    },
+    "SM_VF10_Parking_Rock_Clusters": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_483",
+      "mesh": "/Game/MaldekRefinement/R12/Parking/Meshes/SM_VF10_Parking_Rock_Clusters.SM_VF10_Parking_Rock_Clusters",
+      "bounds_error_cm": 6.103515625e-05,
+      "collision_hulls": 0,
+      "sha256": "fdf3abc33bc25a0ca2a1194c5764732295565fc24369fc890799572c14f89768"
+    },
+    "SM_VF10_Parking_Forest_Connector": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_484",
+      "mesh": "/Game/MaldekRefinement/R12/Parking/Meshes/SM_VF10_Parking_Forest_Connector.SM_VF10_Parking_Forest_Connector",
+      "bounds_error_cm": 0.0005035400390625,
+      "collision_hulls": 163,
+      "sha256": "d354112c0f2ea16e3c1ec97515e8f69acd282632f8f370872ed1cc6f0a8f63b9"
+    },
+    "SM_VF10_Parking_Terrain": {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_485",
+      "mesh": "/Game/MaldekRefinement/R12/Parking/Meshes/SM_VF10_Parking_Terrain.SM_VF10_Parking_Terrain",
+      "bounds_error_cm": 0.0009765625,
+      "collision_hulls": 0,
+      "sha256": "b036aa62583269b820de0409641e34e7724feaf44169a18eaceba98dd8afc148"
+    }
+  },
+  "retired": [
+    "R12_Retained_Parking",
+    "R12_Forest_Approach_Aligned",
+    "R13_Terrain"
+  ],
+  "saved": true
+}

@@ -1,0 +1,29 @@
+{
+  "phase": "cleanup",
+  "next": 146867.281,
+  "i": 3,
+  "j": 0,
+  "frame": 0,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\polish\\..\\parking\\views\\parking_overview_original.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\polish\\..\\parking\\views\\parking_player_original.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\polish\\..\\parking\\views\\parking_exit_original.png"
+  ],
+  "busy": true,
+  "original_console": {
+    "r.RayTracing.Shadows": 0,
+    "r.Nanite": 1,
+    "r.Lumen.HardwareRayTracing": 1
+  },
+  "light": {
+    "cast_raytraced_shadow": "<CastRayTracedShadow.USE_PROJECT_SETTING: 1>",
+    "cast_shadows": "True",
+    "shadow_bias": "0.5",
+    "shadow_slope_bias": "0.5",
+    "source_radius": "0.6000000238418579",
+    "contact_shadow_length": "0.0"
+  },
+  "pending_image": null,
+  "image_deadline": 146891.671,
+  "success": true
+}

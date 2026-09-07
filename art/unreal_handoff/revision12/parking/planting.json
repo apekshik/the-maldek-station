@@ -1,0 +1,616 @@
+{
+  "grass": [
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_486",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "position": [
+        -46.75139148303453,
+        -62.38746761754486,
+        -2.265491544868362
+      ],
+      "scale": 0.962101018253953
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_487",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -46.68434319783039,
+        -60.700014199997256,
+        -1.314679131687167
+      ],
+      "scale": 1.5747726974300689
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_488",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -45.56100111426633,
+        -59.5126840519654,
+        -1.1519590646977553
+      ],
+      "scale": 2.5553582885363495
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_489",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -45.87229794476284,
+        -61.983764896508575,
+        -1.0340706079768502
+      ],
+      "scale": 1.2114039562995702
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_490",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -46.84513730445547,
+        -61.28700027254836,
+        -1.561291081926429
+      ],
+      "scale": 2.8633797772567253
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_491",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -47.6406118976892,
+        -61.055048314469715,
+        -3.1858287318447083
+      ],
+      "scale": 4.023180019699286
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_492",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -45.611043866383056,
+        -60.00317938049161,
+        -1.1367980443740138
+      ],
+      "scale": 1.8404583947386781
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_493",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "position": [
+        -46.97724925563155,
+        -61.75128730065153,
+        -2.035288428178616
+      ],
+      "scale": 0.8258371381473111
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_494",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -45.915333184198175,
+        -60.38023059270822,
+        -1.0840196545584277
+      ],
+      "scale": 1.8201364855426048
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_495",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -45.71155837169292,
+        -53.818352121155556,
+        -1.1398039832570894
+      ],
+      "scale": 1.340151960427589
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_496",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -47.49640475790155,
+        -54.79219493776902,
+        -1.9543357295979265
+      ],
+      "scale": 2.2068765883059913
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_497",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "position": [
+        -46.81054372909965,
+        -56.006536291068954,
+        -1.1283944511258057
+      ],
+      "scale": 1.3853531453190637
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_498",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -46.29551471910213,
+        -55.47503327030534,
+        -1.1038873520006205
+      ],
+      "scale": 3.1124102954715367
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_499",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -46.875552839323774,
+        -54.90092038849565,
+        -1.0896184550033987
+      ],
+      "scale": 2.0526962743408115
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_500",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -45.887671652834776,
+        -55.672902552009084,
+        -1.20885434151242
+      ],
+      "scale": 1.7584023222898784
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_501",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "position": [
+        -47.068778038702106,
+        -55.340790497872426,
+        -1.2548412308250287
+      ],
+      "scale": 0.8020560812549317
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_502",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -45.49736624775763,
+        -53.72557755512898,
+        -1.0926266985644488
+      ],
+      "scale": 2.9976844501145443
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_503",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -41.99446053538947,
+        -49.40862092833026,
+        -0.47469631434169707
+      ],
+      "scale": 2.1750652129261243
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_504",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -40.41981353179548,
+        -50.40356410463205,
+        -0.6819850250672506
+      ],
+      "scale": 3.324867962860957
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_505",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "position": [
+        -42.188382049930276,
+        -50.192721587679685,
+        -0.6506703537897813
+      ],
+      "scale": 0.956539952114978
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_506",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -40.92408256440198,
+        -50.91933539150767,
+        -0.8857305778445806
+      ],
+      "scale": 1.735886671019864
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_507",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -40.70534699895816,
+        -50.751335296042946,
+        -0.810266415326156
+      ],
+      "scale": 3.463325977563821
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_508",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "position": [
+        -42.905944762492176,
+        -49.69267374051103,
+        -0.5079347213712518
+      ],
+      "scale": 1.1990443315954602
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_509",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -40.420788977990284,
+        -49.29601790500763,
+        -0.37451957720651663
+      ],
+      "scale": 2.8952696682287935
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_510",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -39.92807438330981,
+        -50.371678250270676,
+        -0.6858544796752382
+      ],
+      "scale": 2.8579760640951353
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_511",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "position": [
+        -40.408872336472854,
+        -49.9893854213974,
+        -0.5371781320370518
+      ],
+      "scale": 1.3686576611334151
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_512",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -39.944873690139175,
+        -50.04990908211198,
+        -0.5393150949826837
+      ],
+      "scale": 1.9331017518601328
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_513",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -40.55288801890419,
+        -49.93309586160444,
+        -0.5171117185812824
+      ],
+      "scale": 2.3943445049833554
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_514",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -41.87797807762741,
+        -49.398525010489124,
+        -0.4928576520585872
+      ],
+      "scale": 2.675056063078933
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_515",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -30.986856271890996,
+        -65.76148903838572,
+        -0.7914658184492894
+      ],
+      "scale": 2.970592540212657
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_516",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "position": [
+        -32.059302150116686,
+        -65.08381408111616,
+        -1.077869037783729
+      ],
+      "scale": 1.2685921173822805
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_517",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -32.6288331954276,
+        -65.43555646602574,
+        -0.9645817662624956
+      ],
+      "scale": 3.0684008241396605
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_518",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -31.81049592850747,
+        -65.343846686639,
+        -0.9414739957131695
+      ],
+      "scale": 2.1375647234005286
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_519",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -31.693568957075712,
+        -65.69078062438709,
+        -0.8138724314943355
+      ],
+      "scale": 2.81093997291621
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_520",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -30.181266255037848,
+        -65.03971512754018,
+        -1.0073181938131763
+      ],
+      "scale": 3.633110410218174
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_521",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "position": [
+        -28.873846942937767,
+        -62.02779011455273,
+        -1.0131516473674183
+      ],
+      "scale": 0.8848822880608793
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_522",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -28.58349093248073,
+        -60.63158449662532,
+        -0.9774275902550613
+      ],
+      "scale": 1.2879964554833008
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_523",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -26.803746142962275,
+        -61.757667464707744,
+        -0.7916793872790173
+      ],
+      "scale": 1.7917336842003975
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_524",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -27.9093773968824,
+        -62.81012663980078,
+        -0.6151715376405472
+      ],
+      "scale": 3.631140828941069
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_525",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "position": [
+        -28.28201986156154,
+        -60.286089872579865,
+        -0.9441878350999438
+      ],
+      "scale": 0.896310342457271
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_526",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -28.191410383760054,
+        -60.70389733682906,
+        -0.8507113291511256
+      ],
+      "scale": 1.7844804340538807
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_527",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -27.139506327858143,
+        -60.49330326183335,
+        -0.8881322669959053
+      ],
+      "scale": 2.060661135569403
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_528",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -27.88553068746339,
+        -61.5323248411697,
+        -0.773512611472528
+      ],
+      "scale": 2.577348885330218
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_529",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -28.112475842507948,
+        -60.668194136878654,
+        -0.8631735341820094
+      ],
+      "scale": 1.393422453817778
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_530",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "position": [
+        -27.644211372026593,
+        -61.79121873409872,
+        -0.7053773990718272
+      ],
+      "scale": 2.7895939194004225
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_531",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "position": [
+        -27.327819791424716,
+        -61.60968985365917,
+        -0.766595982226067
+      ],
+      "scale": 3.1298620408815783
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_532",
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "position": [
+        -28.843385936078093,
+        -62.42704367296864,
+        -0.9367616655899283
+      ],
+      "scale": 1.8373501082987416
+    }
+  ],
+  "trees": [
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_C",
+      "position": [
+        -47,
+        -57,
+        -1.2252155657646624
+      ],
+      "scale": 0.85
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "position": [
+        -28,
+        -63,
+        -0.7118480525035197
+      ],
+      "scale": 0.9
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_2",
+      "mesh": "/Game/Megaplant_Library/Tree_European_Aspen/Tree_European_Aspen_01/SK_European_Aspen_01_B",
+      "position": [
+        -43.5,
+        -49.5,
+        -0.5819677437124852
+      ],
+      "scale": 0.85
+    },
+    {
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SkeletalMeshActor_3",
+      "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_A",
+      "position": [
+        -47.8,
+        -62,
+        -4.838838958427157
+      ],
+      "scale": 0.85
+    }
+  ],
+  "moves": [
+    {
+      "label": "FT_European_Beech_022",
+      "before": [
+        -40229.05039890439,
+        13021.866651338976,
+        9790.800120583772
+      ],
+      "after": [
+        -39602.305974972965,
+        13194.707549061975,
+        9734.709335601428
+      ]
+    },
+    {
+      "label": "FT_TrunkCollision_16",
+      "before": [
+        -40229.05039890439,
+        13021.866651338976,
+        9923.800120583772
+      ],
+      "after": [
+        -39602.305974972965,
+        13194.707549061975,
+        9867.709335601428
+      ]
+    },
+    {
+      "label": "FT_RockPatch_04",
+      "before": [
+        -40698.506622291694,
+        12468.584111113913,
+        9782.0
+      ],
+      "after": [
+        -40982.305974972965,
+        11964.707549061975,
+        9779.42088952608
+      ]
+    },
+    {
+      "label": "FT_Marker_0_Post",
+      "before": [
+        -40728.24751608397,
+        12972.919956778478,
+        9830.009338368583
+      ],
+      "after": [
+        -41162.305974972965,
+        12574.707549061975,
+        9809.5
+      ]
+    },
+    {
+      "label": "FT_Marker_0_Cap",
+      "before": [
+        -40728.24751608397,
+        12972.919956778478,
+        9876.009338368583
+      ],
+      "after": [
+        -41162.305974972965,
+        12574.707549061975,
+        9855.5
+      ]
+    },
+    {
+      "label": "FT_Marker_0_Lens",
+      "before": [
+        -40728.24751608397,
+        12972.919956778478,
+        9868.009338368583
+      ],
+      "after": [
+        -41162.305974972965,
+        12574.707549061975,
+        9847.5
+      ]
+    },
+    {
+      "label": "FT_Marker_0_Light",
+      "before": [
+        -40728.24751608397,
+        12972.919956778478,
+        9868.009338368583
+      ],
+      "after": [
+        -41162.305974972965,
+        12574.707549061975,
+        9847.5
+      ]
+    }
+  ],
+  "seed": 1010,
+  "clearance_envelope": [
+    -45.35,
+    -29.15,
+    -64.85,
+    -51.15
+  ]
+}

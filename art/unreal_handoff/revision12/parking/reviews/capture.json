@@ -1,0 +1,16 @@
+{
+  "phase": "cleanup",
+  "next": 147426.296,
+  "index": 2,
+  "mode": "inspection",
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking\\reviews\\lot_overview_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking\\reviews\\arrival_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking\\reviews\\lot_overview_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking\\reviews\\arrival_inspection.png"
+  ],
+  "busy": true,
+  "deadline": 147967.296,
+  "success": true,
+  "inspection_lights_removed": true
+}
