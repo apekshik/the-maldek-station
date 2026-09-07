@@ -1,0 +1,28 @@
+00:00.766  blend            | Read blend: "C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_07\Maldek_Station_Cleanup.blend"
+BUILD_BVH 2557774 5025156
+ROUTE Arrival samples 25 failures 0
+ROUTE Arrival turn onto platform samples 27 failures 0
+ROUTE Completed rear hall approach samples 30 failures 0
+ROUTE Quarters samples 21 failures 0
+ROUTE Quarters landing and doorway samples 17 failures 0
+ROUTE Quarters lower approach samples 12 failures 0
+ROUTE Exterior_service samples 25 failures 0
+ROUTE Service descent lower exit samples 26 failures 0
+ROUTE Service_road samples 63 failures 0
+ROUTE Relay_outbound samples 179 failures 0
+ROUTE Relay_return samples 221 failures 0
+ROUTE Arrival_ground_approach samples 8 failures 0
+ROUTE Control front approach samples 16 failures 0
+ROUTE Front grating across facade samples 19 failures 0
+ROUTE West continuous border samples 41 failures 0
+ROUTE East terrace grating samples 47 failures 0
+ROUTE Boarding threshold samples 5 failures 0
+ROUTE Internal descending stair samples 23 failures 0
+{
+  "rays": 9505,
+  "failed_routes": [],
+  "failures": {}
+}
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

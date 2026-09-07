@@ -1,0 +1,69 @@
+{
+  "cabin_before": "<Struct 'Transform' (0x000001AC7C33B150) {rotation: {x: -0.000000, y: -0.000000, z: -1.000000, w: -0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "parent_before": "None",
+  "cabin_after": "<Struct 'Transform' (0x000001AC7C33B150) {rotation: {x: -0.000000, y: -0.000000, z: -1.000000, w: -0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "parent_after": "None",
+  "game_mode": "None",
+  "remaining_lights": [
+    "PointLight",
+    "PointLight3",
+    "PointLight4",
+    "PointLight6",
+    "PointLight7",
+    "R07_TestLight_Main_Platform_West",
+    "R07_TestLight_Main_Platform_East",
+    "R07_TestLight_Lower_Deck_Machine",
+    "R07_TestLight_Lower_Deck_Exit",
+    "R07_TestLight_Relay_Path_Bend",
+    "R07_TestLight_Relay_Door",
+    "R08_WallLight_Control_Entry",
+    "R08_WallLight_Waiting_Hall_Entry"
+  ],
+  "horror_components": [
+    {
+      "name": "CollisionCylinder",
+      "class": "CapsuleComponent"
+    },
+    {
+      "name": "Arrow",
+      "class": "ArrowComponent"
+    },
+    {
+      "name": "CharMoveComp",
+      "class": "CharacterMovementComponent"
+    },
+    {
+      "name": "CharacterMesh0",
+      "class": "SkeletalMeshComponent",
+      "mesh": "<Object '/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple' (0x000001AFC5B8A000) Class 'SkeletalMesh'>"
+    },
+    {
+      "name": "First Person Mesh",
+      "class": "SkeletalMeshComponent",
+      "mesh": "<Object '/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple.SKM_Manny_Simple' (0x000001AFC5B8A000) Class 'SkeletalMesh'>"
+    },
+    {
+      "name": "First Person Camera",
+      "class": "CameraComponent"
+    },
+    {
+      "name": "SpotLight",
+      "class": "SpotLightComponent",
+      "intensity": 0.5,
+      "units": "<LightUnits.LUMENS: 2>"
+    },
+    {
+      "name": "CameraProxyMeshComponent_0",
+      "class": "CameraProxyMeshComponent",
+      "mesh": "<Object '/Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM' (0x000001AF447E7800) Class 'StaticMesh'>"
+    },
+    {
+      "name": "DrawFrustumComponent_0",
+      "class": "DrawFrustumComponent"
+    },
+    {
+      "name": "BillboardComponent_0",
+      "class": "BillboardComponent"
+    }
+  ]
+}

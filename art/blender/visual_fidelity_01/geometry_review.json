@@ -1,0 +1,18 @@
+{
+  "front_door_clear_width_m": 1.2,
+  "front_door_clear_height_m": 2.4,
+  "window_opening_m": [
+    3,
+    1.4
+  ],
+  "west_door_clear_width_m": 1.2,
+  "roof_underside_m": 3.1,
+  "wall_top_m": 3.1,
+  "source_origin_translation_m": [
+    -8,
+    -4,
+    4
+  ],
+  "sample_deck_is_proposed_extension": true,
+  "roof_wall_gap_m": 0
+}

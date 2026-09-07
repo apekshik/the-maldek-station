@@ -1,0 +1,173 @@
+{
+  "buildings": [
+    {
+      "building": "Control",
+      "footprint_m": [
+        5.8,
+        5.2
+      ],
+      "floor_z_m": 0,
+      "height_m": 3.15,
+      "front_openings": [
+        [
+          0.45,
+          3.65,
+          1,
+          2.4
+        ],
+        [
+          4.05,
+          5.35,
+          0,
+          2.4
+        ]
+      ],
+      "back_openings": []
+    },
+    {
+      "building": "Quarters",
+      "footprint_m": [
+        6.1,
+        5.7
+      ],
+      "floor_z_m": 3.65,
+      "height_m": 2.65,
+      "front_openings": [
+        [
+          1.0,
+          2.5,
+          1,
+          2.15
+        ],
+        [
+          3.4,
+          5.6,
+          0.85,
+          2.15
+        ]
+      ],
+      "back_openings": [
+        [
+          5.35,
+          6.4,
+          0,
+          2.3
+        ]
+      ]
+    },
+    {
+      "building": "Waiting_Hall",
+      "footprint_m": [
+        9.8,
+        7.8
+      ],
+      "floor_z_m": 0,
+      "height_m": 3.15,
+      "front_openings": [
+        [
+          -10,
+          -7.5,
+          0.85,
+          2.4
+        ],
+        [
+          -6.9,
+          -4.6,
+          0.85,
+          2.4
+        ],
+        [
+          -3.8,
+          -2.3,
+          0,
+          2.4
+        ]
+      ],
+      "back_openings": [
+        [
+          -6.7,
+          -5.2,
+          0,
+          2.4
+        ]
+      ]
+    },
+    {
+      "building": "Generator",
+      "footprint_m": [
+        6,
+        8
+      ],
+      "floor_z_m": 0,
+      "height_m": 3.4,
+      "front_openings": [
+        [
+          12.9,
+          14.5,
+          0,
+          2.5
+        ]
+      ],
+      "back_openings": [
+        [
+          13.3,
+          14.7,
+          0,
+          2.4
+        ]
+      ]
+    },
+    {
+      "building": "Workshop",
+      "footprint_m": [
+        3,
+        5
+      ],
+      "floor_z_m": 0,
+      "height_m": 3.4,
+      "front_openings": [
+        [
+          17.6,
+          19.4,
+          1,
+          2.5
+        ]
+      ],
+      "back_openings": []
+    },
+    {
+      "building": "Relay_Hut",
+      "footprint_m": [
+        4,
+        4
+      ],
+      "floor_z_m": 0,
+      "height_m": 2.8,
+      "front_openings": [
+        [
+          12.45,
+          13.55,
+          0,
+          2.3
+        ]
+      ],
+      "back_openings": []
+    }
+  ],
+  "control_area_m2": 30.16,
+  "previous_area_m2": 20,
+  "quarters_area_m2": 34.769999999999996,
+  "front_cantilever_m": 1.2,
+  "side_cantilever_m": 0.7,
+  "deck_bands_m": [
+    0.6,
+    2.4,
+    0.65
+  ],
+  "upper_floor_m": 3.65,
+  "stair_risers": 20,
+  "riser_m": 0.1825,
+  "going_m": 0.28,
+  "stair_width_m": 1.25,
+  "status": "Blender design studies; service and relay positions are presentation placements, not approved level coordinates."
+}

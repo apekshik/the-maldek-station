@@ -1,0 +1,2 @@
+C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_02\scripts\build_redesign.py:16: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  wood=material('VF_Desk_Timber',(.22,.13,.065),0,.77)

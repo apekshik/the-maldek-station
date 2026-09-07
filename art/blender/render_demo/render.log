@@ -1,0 +1,486 @@
+00:00.703  blend            | Read blend: "C:\Users\apek-anna\Developer\the-maldek-station\art\blender\revision_03\millford_v2_night_03.blend"
+00:00.890  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:05.890  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0001.png'
+Info: Saved as "maldek_render_demo.blend"
+FRAME_DONE 01_exterior 1 4.8
+00:09.718  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0002.png'
+FRAME_DONE 01_exterior 2 3.82
+00:13.500  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0003.png'
+FRAME_DONE 01_exterior 3 3.77
+00:17.312  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0004.png'
+FRAME_DONE 01_exterior 4 3.81
+00:21.125  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0005.png'
+FRAME_DONE 01_exterior 5 3.8
+00:24.906  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0006.png'
+FRAME_DONE 01_exterior 6 3.78
+00:28.703  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0007.png'
+FRAME_DONE 01_exterior 7 3.8
+00:32.484  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0008.png'
+FRAME_DONE 01_exterior 8 3.77
+00:36.265  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0009.png'
+FRAME_DONE 01_exterior 9 3.78
+00:40.062  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0010.png'
+FRAME_DONE 01_exterior 10 3.79
+00:43.828  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0011.png'
+FRAME_DONE 01_exterior 11 3.76
+00:47.656  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0012.png'
+FRAME_DONE 01_exterior 12 3.82
+00:52.562  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0013.png'
+FRAME_DONE 01_exterior 13 4.9
+00:56.859  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0014.png'
+FRAME_DONE 01_exterior 14 4.29
+01:01.515  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0015.png'
+FRAME_DONE 01_exterior 15 4.66
+01:05.359  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0016.png'
+FRAME_DONE 01_exterior 16 3.82
+01:09.125  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0017.png'
+FRAME_DONE 01_exterior 17 3.76
+01:12.890  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0018.png'
+FRAME_DONE 01_exterior 18 3.77
+01:16.656  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0019.png'
+FRAME_DONE 01_exterior 19 3.75
+01:20.437  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0020.png'
+FRAME_DONE 01_exterior 20 3.78
+01:24.171  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0021.png'
+FRAME_DONE 01_exterior 21 3.73
+01:27.906  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0022.png'
+FRAME_DONE 01_exterior 22 3.72
+01:31.640  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0023.png'
+FRAME_DONE 01_exterior 23 3.74
+01:35.390  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0024.png'
+FRAME_DONE 01_exterior 24 3.74
+01:39.078  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0025.png'
+FRAME_DONE 01_exterior 25 3.69
+01:42.812  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0026.png'
+FRAME_DONE 01_exterior 26 3.72
+01:46.546  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0027.png'
+FRAME_DONE 01_exterior 27 3.73
+01:50.296  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0028.png'
+FRAME_DONE 01_exterior 28 3.74
+01:54.015  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0029.png'
+FRAME_DONE 01_exterior 29 3.71
+01:57.750  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0030.png'
+FRAME_DONE 01_exterior 30 3.74
+02:01.546  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0031.png'
+FRAME_DONE 01_exterior 31 3.79
+02:05.343  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0032.png'
+FRAME_DONE 01_exterior 32 3.79
+02:09.015  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0033.png'
+FRAME_DONE 01_exterior 33 3.66
+02:12.734  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0034.png'
+FRAME_DONE 01_exterior 34 3.72
+02:16.500  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0035.png'
+FRAME_DONE 01_exterior 35 3.76
+02:20.296  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0036.png'
+FRAME_DONE 01_exterior 36 3.8
+02:24.078  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0037.png'
+FRAME_DONE 01_exterior 37 3.77
+02:27.812  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0038.png'
+FRAME_DONE 01_exterior 38 3.73
+02:31.515  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0039.png'
+FRAME_DONE 01_exterior 39 3.71
+02:35.281  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0040.png'
+FRAME_DONE 01_exterior 40 3.75
+02:39.062  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0041.png'
+FRAME_DONE 01_exterior 41 3.78
+02:42.843  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0042.png'
+FRAME_DONE 01_exterior 42 3.77
+02:46.609  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0043.png'
+FRAME_DONE 01_exterior 43 3.76
+02:50.359  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0044.png'
+FRAME_DONE 01_exterior 44 3.74
+02:54.109  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0045.png'
+FRAME_DONE 01_exterior 45 3.75
+02:57.875  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0046.png'
+FRAME_DONE 01_exterior 46 3.76
+03:01.625  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0047.png'
+FRAME_DONE 01_exterior 47 3.75
+03:05.406  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0048.png'
+FRAME_DONE 01_exterior 48 3.78
+03:09.187  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0049.png'
+FRAME_DONE 01_exterior 49 3.77
+03:12.953  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0050.png'
+FRAME_DONE 01_exterior 50 3.77
+03:16.750  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0051.png'
+FRAME_DONE 01_exterior 51 3.79
+03:20.515  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0052.png'
+FRAME_DONE 01_exterior 52 3.76
+03:24.265  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0053.png'
+FRAME_DONE 01_exterior 53 3.74
+03:27.953  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0054.png'
+FRAME_DONE 01_exterior 54 3.68
+03:31.718  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0055.png'
+FRAME_DONE 01_exterior 55 3.76
+03:35.515  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0056.png'
+FRAME_DONE 01_exterior 56 3.79
+03:39.234  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0057.png'
+FRAME_DONE 01_exterior 57 3.72
+03:43.000  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0058.png'
+FRAME_DONE 01_exterior 58 3.76
+03:47.734  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0059.png'
+FRAME_DONE 01_exterior 59 4.74
+03:52.031  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\01_exterior\0060.png'
+FRAME_DONE 01_exterior 60 4.29
+03:56.984  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0001.png'
+FRAME_DONE 02_platform 1 4.86
+04:00.437  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0002.png'
+FRAME_DONE 02_platform 2 3.44
+04:03.875  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0003.png'
+FRAME_DONE 02_platform 3 3.43
+04:07.281  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0004.png'
+FRAME_DONE 02_platform 4 3.41
+04:10.734  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0005.png'
+FRAME_DONE 02_platform 5 3.45
+04:14.203  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0006.png'
+FRAME_DONE 02_platform 6 3.47
+04:17.625  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0007.png'
+FRAME_DONE 02_platform 7 3.42
+04:21.031  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0008.png'
+FRAME_DONE 02_platform 8 3.4
+04:24.453  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0009.png'
+FRAME_DONE 02_platform 9 3.42
+04:27.953  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0010.png'
+FRAME_DONE 02_platform 10 3.49
+04:31.546  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0011.png'
+FRAME_DONE 02_platform 11 3.59
+04:37.484  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0012.png'
+FRAME_DONE 02_platform 12 5.93
+04:41.218  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0013.png'
+FRAME_DONE 02_platform 13 3.72
+04:47.171  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0014.png'
+FRAME_DONE 02_platform 14 5.95
+04:50.703  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0015.png'
+FRAME_DONE 02_platform 15 3.53
+04:57.656  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0016.png'
+FRAME_DONE 02_platform 16 6.95
+05:01.234  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0017.png'
+FRAME_DONE 02_platform 17 3.56
+05:08.062  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0018.png'
+FRAME_DONE 02_platform 18 6.84
+05:11.421  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0019.png'
+FRAME_DONE 02_platform 19 3.35
+05:14.718  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0020.png'
+FRAME_DONE 02_platform 20 3.3
+05:18.015  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0021.png'
+FRAME_DONE 02_platform 21 3.29
+05:21.281  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0022.png'
+FRAME_DONE 02_platform 22 3.26
+05:24.562  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0023.png'
+FRAME_DONE 02_platform 23 3.29
+05:27.812  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0024.png'
+FRAME_DONE 02_platform 24 3.24
+05:31.078  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0025.png'
+FRAME_DONE 02_platform 25 3.26
+05:34.343  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0026.png'
+FRAME_DONE 02_platform 26 3.25
+05:37.593  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0027.png'
+FRAME_DONE 02_platform 27 3.24
+05:40.937  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0028.png'
+FRAME_DONE 02_platform 28 3.34
+05:44.265  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0029.png'
+FRAME_DONE 02_platform 29 3.33
+05:47.578  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0030.png'
+FRAME_DONE 02_platform 30 3.3
+05:50.859  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0031.png'
+FRAME_DONE 02_platform 31 3.27
+05:54.140  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0032.png'
+FRAME_DONE 02_platform 32 3.28
+05:57.390  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0033.png'
+FRAME_DONE 02_platform 33 3.25
+06:00.671  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0034.png'
+FRAME_DONE 02_platform 34 3.28
+06:03.953  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0035.png'
+FRAME_DONE 02_platform 35 3.27
+06:07.234  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0036.png'
+FRAME_DONE 02_platform 36 3.28
+06:10.515  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0037.png'
+FRAME_DONE 02_platform 37 3.27
+06:13.781  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0038.png'
+FRAME_DONE 02_platform 38 3.27
+06:17.062  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0039.png'
+FRAME_DONE 02_platform 39 3.27
+06:20.343  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0040.png'
+FRAME_DONE 02_platform 40 3.27
+06:23.765  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0041.png'
+FRAME_DONE 02_platform 41 3.42
+06:27.046  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0042.png'
+FRAME_DONE 02_platform 42 3.27
+06:30.328  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0043.png'
+FRAME_DONE 02_platform 43 3.28
+06:33.578  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0044.png'
+FRAME_DONE 02_platform 44 3.25
+06:36.859  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0045.png'
+FRAME_DONE 02_platform 45 3.27
+06:40.125  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0046.png'
+FRAME_DONE 02_platform 46 3.26
+06:43.390  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0047.png'
+FRAME_DONE 02_platform 47 3.26
+06:46.656  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0048.png'
+FRAME_DONE 02_platform 48 3.27
+06:49.937  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0049.png'
+FRAME_DONE 02_platform 49 3.28
+06:53.218  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0050.png'
+FRAME_DONE 02_platform 50 3.26
+06:56.468  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0051.png'
+FRAME_DONE 02_platform 51 3.26
+06:59.734  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0052.png'
+FRAME_DONE 02_platform 52 3.25
+07:03.078  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0053.png'
+FRAME_DONE 02_platform 53 3.35
+07:06.531  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0054.png'
+FRAME_DONE 02_platform 54 3.45
+07:10.109  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0055.png'
+FRAME_DONE 02_platform 55 3.57
+07:13.562  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0056.png'
+FRAME_DONE 02_platform 56 3.45
+07:17.109  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0057.png'
+FRAME_DONE 02_platform 57 3.53
+07:20.609  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0058.png'
+FRAME_DONE 02_platform 58 3.5
+07:24.078  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0059.png'
+FRAME_DONE 02_platform 59 3.47
+07:27.500  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\02_platform\0060.png'
+FRAME_DONE 02_platform 60 3.42
+07:31.515  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0001.png'
+FRAME_DONE 03_operator 1 3.94
+07:34.968  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0002.png'
+FRAME_DONE 03_operator 2 3.46
+07:38.484  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0003.png'
+FRAME_DONE 03_operator 3 3.5
+07:42.046  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0004.png'
+FRAME_DONE 03_operator 4 3.56
+07:45.500  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0005.png'
+FRAME_DONE 03_operator 5 3.45
+07:48.984  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0006.png'
+FRAME_DONE 03_operator 6 3.48
+07:52.437  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0007.png'
+FRAME_DONE 03_operator 7 3.45
+07:55.937  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0008.png'
+FRAME_DONE 03_operator 8 3.49
+07:59.359  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0009.png'
+FRAME_DONE 03_operator 9 3.42
+08:02.812  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0010.png'
+FRAME_DONE 03_operator 10 3.44
+08:06.203  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0011.png'
+FRAME_DONE 03_operator 11 3.39
+08:09.687  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0012.png'
+FRAME_DONE 03_operator 12 3.48
+08:13.515  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0013.png'
+FRAME_DONE 03_operator 13 3.82
+08:17.093  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0014.png'
+FRAME_DONE 03_operator 14 3.58
+08:20.671  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0015.png'
+FRAME_DONE 03_operator 15 3.56
+08:24.140  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0016.png'
+FRAME_DONE 03_operator 16 3.46
+08:27.593  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0017.png'
+FRAME_DONE 03_operator 17 3.45
+08:31.062  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0018.png'
+FRAME_DONE 03_operator 18 3.46
+08:34.546  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0019.png'
+FRAME_DONE 03_operator 19 3.48
+08:38.015  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0020.png'
+FRAME_DONE 03_operator 20 3.46
+08:41.484  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0021.png'
+FRAME_DONE 03_operator 21 3.46
+08:44.921  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0022.png'
+FRAME_DONE 03_operator 22 3.43
+08:48.390  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0023.png'
+FRAME_DONE 03_operator 23 3.47
+08:51.796  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0024.png'
+FRAME_DONE 03_operator 24 3.4
+08:55.250  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0025.png'
+FRAME_DONE 03_operator 25 3.44
+08:58.656  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0026.png'
+FRAME_DONE 03_operator 26 3.4
+09:02.062  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0027.png'
+FRAME_DONE 03_operator 27 3.4
+09:05.484  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0028.png'
+FRAME_DONE 03_operator 28 3.41
+09:08.906  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0029.png'
+FRAME_DONE 03_operator 29 3.42
+09:12.390  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0030.png'
+FRAME_DONE 03_operator 30 3.48
+09:15.890  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0031.png'
+FRAME_DONE 03_operator 31 3.49
+09:19.343  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0032.png'
+FRAME_DONE 03_operator 32 3.45
+09:22.812  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0033.png'
+FRAME_DONE 03_operator 33 3.46
+09:26.281  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0034.png'
+FRAME_DONE 03_operator 34 3.47
+09:29.781  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0035.png'
+FRAME_DONE 03_operator 35 3.49
+09:33.390  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0036.png'
+FRAME_DONE 03_operator 36 3.59
+09:36.859  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0037.png'
+FRAME_DONE 03_operator 37 3.47
+09:40.296  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0038.png'
+FRAME_DONE 03_operator 38 3.44
+09:43.734  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0039.png'
+FRAME_DONE 03_operator 39 3.42
+09:47.125  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0040.png'
+FRAME_DONE 03_operator 40 3.39
+09:50.562  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0041.png'
+FRAME_DONE 03_operator 41 3.43
+09:54.000  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0042.png'
+FRAME_DONE 03_operator 42 3.42
+09:57.421  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0043.png'
+FRAME_DONE 03_operator 43 3.42
+10:00.843  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0044.png'
+FRAME_DONE 03_operator 44 3.41
+10:04.250  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0045.png'
+FRAME_DONE 03_operator 45 3.4
+10:07.656  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0046.png'
+FRAME_DONE 03_operator 46 3.41
+10:11.078  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0047.png'
+FRAME_DONE 03_operator 47 3.42
+10:14.500  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0048.png'
+FRAME_DONE 03_operator 48 3.42
+10:17.937  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0049.png'
+FRAME_DONE 03_operator 49 3.42
+10:21.359  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0050.png'
+FRAME_DONE 03_operator 50 3.41
+10:24.781  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0051.png'
+FRAME_DONE 03_operator 51 3.42
+10:28.203  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0052.png'
+FRAME_DONE 03_operator 52 3.42
+10:31.625  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0053.png'
+FRAME_DONE 03_operator 53 3.42
+10:35.046  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0054.png'
+FRAME_DONE 03_operator 54 3.41
+10:38.468  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0055.png'
+FRAME_DONE 03_operator 55 3.42
+10:41.890  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0056.png'
+FRAME_DONE 03_operator 56 3.42
+10:45.328  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0057.png'
+FRAME_DONE 03_operator 57 3.42
+10:48.765  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0058.png'
+FRAME_DONE 03_operator 58 3.43
+10:52.203  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0059.png'
+FRAME_DONE 03_operator 59 3.44
+10:55.640  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\03_operator\0060.png'
+FRAME_DONE 03_operator 60 3.43
+11:01.203  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0001.png'
+FRAME_DONE 04_forest 1 5.47
+11:06.250  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0002.png'
+FRAME_DONE 04_forest 2 5.04
+11:11.296  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0003.png'
+FRAME_DONE 04_forest 3 5.04
+11:16.171  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0004.png'
+FRAME_DONE 04_forest 4 4.87
+11:21.140  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0005.png'
+FRAME_DONE 04_forest 5 4.97
+11:26.140  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0006.png'
+FRAME_DONE 04_forest 6 4.99
+11:31.109  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0007.png'
+FRAME_DONE 04_forest 7 4.97
+11:36.000  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0008.png'
+FRAME_DONE 04_forest 8 4.88
+11:41.031  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0009.png'
+FRAME_DONE 04_forest 9 5.02
+11:46.203  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0010.png'
+FRAME_DONE 04_forest 10 5.16
+11:51.125  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0011.png'
+FRAME_DONE 04_forest 11 4.92
+11:55.984  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0012.png'
+FRAME_DONE 04_forest 12 4.85
+12:00.906  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0013.png'
+FRAME_DONE 04_forest 13 4.92
+12:05.718  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0014.png'
+FRAME_DONE 04_forest 14 4.81
+12:10.515  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0015.png'
+FRAME_DONE 04_forest 15 4.79
+12:15.281  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0016.png'
+FRAME_DONE 04_forest 16 4.77
+12:20.062  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0017.png'
+FRAME_DONE 04_forest 17 4.76
+12:24.859  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0018.png'
+FRAME_DONE 04_forest 18 4.79
+12:29.671  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0019.png'
+FRAME_DONE 04_forest 19 4.81
+12:34.343  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0020.png'
+FRAME_DONE 04_forest 20 4.67
+12:39.015  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0021.png'
+FRAME_DONE 04_forest 21 4.67
+12:43.734  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0022.png'
+FRAME_DONE 04_forest 22 4.7
+12:48.484  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0023.png'
+FRAME_DONE 04_forest 23 4.74
+12:53.140  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0024.png'
+FRAME_DONE 04_forest 24 4.66
+12:57.859  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0025.png'
+FRAME_DONE 04_forest 25 4.71
+13:02.531  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0026.png'
+FRAME_DONE 04_forest 26 4.67
+13:07.234  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0027.png'
+FRAME_DONE 04_forest 27 4.71
+13:11.828  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0028.png'
+FRAME_DONE 04_forest 28 4.58
+13:16.421  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0029.png'
+FRAME_DONE 04_forest 29 4.6
+13:21.062  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0030.png'
+FRAME_DONE 04_forest 30 4.63
+13:25.687  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0031.png'
+FRAME_DONE 04_forest 31 4.62
+13:30.343  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0032.png'
+FRAME_DONE 04_forest 32 4.65
+13:34.968  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0033.png'
+FRAME_DONE 04_forest 33 4.63
+13:39.656  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0034.png'
+FRAME_DONE 04_forest 34 4.69
+13:44.343  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0035.png'
+FRAME_DONE 04_forest 35 4.68
+13:49.093  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0036.png'
+FRAME_DONE 04_forest 36 4.75
+13:53.796  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0037.png'
+FRAME_DONE 04_forest 37 4.69
+13:58.500  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0038.png'
+FRAME_DONE 04_forest 38 4.71
+14:03.187  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0039.png'
+FRAME_DONE 04_forest 39 4.68
+14:07.921  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0040.png'
+FRAME_DONE 04_forest 40 4.72
+14:12.546  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0041.png'
+FRAME_DONE 04_forest 41 4.63
+14:17.265  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0042.png'
+FRAME_DONE 04_forest 42 4.71
+14:22.046  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0043.png'
+FRAME_DONE 04_forest 43 4.78
+14:26.828  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0044.png'
+FRAME_DONE 04_forest 44 4.77
+14:31.578  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0045.png'
+FRAME_DONE 04_forest 45 4.75
+14:36.281  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0046.png'
+FRAME_DONE 04_forest 46 4.69
+14:40.968  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0047.png'
+FRAME_DONE 04_forest 47 4.68
+14:45.750  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0048.png'
+FRAME_DONE 04_forest 48 4.77
+14:50.437  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0049.png'
+FRAME_DONE 04_forest 49 4.68
+14:55.140  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0050.png'
+FRAME_DONE 04_forest 50 4.7
+14:59.796  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0051.png'
+FRAME_DONE 04_forest 51 4.65
+15:04.390  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0052.png'
+FRAME_DONE 04_forest 52 4.58
+15:08.875  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0053.png'
+FRAME_DONE 04_forest 53 4.49
+15:13.328  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0054.png'
+FRAME_DONE 04_forest 54 4.44
+15:17.859  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0055.png'
+FRAME_DONE 04_forest 55 4.52
+15:22.343  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0056.png'
+FRAME_DONE 04_forest 56 4.49
+15:26.843  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0057.png'
+FRAME_DONE 04_forest 57 4.5
+15:31.500  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0058.png'
+FRAME_DONE 04_forest 58 4.65
+15:36.234  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0059.png'
+FRAME_DONE 04_forest 59 4.72
+15:40.953  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\render_demo\frames\04_forest\0060.png'
+FRAME_DONE 04_forest 60 4.72
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

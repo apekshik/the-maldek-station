@@ -1,0 +1,534 @@
+{
+  "stage": "walk",
+  "case": 8,
+  "busy": true,
+  "results": [
+    {
+      "name": "idle",
+      "passed": true
+    },
+    {
+      "name": "airborne",
+      "passed": true
+    },
+    {
+      "name": "soil",
+      "passed": true,
+      "steps": 13,
+      "seconds": 5.702999999994063,
+      "surfaces": [
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 1,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "gravel",
+      "passed": true,
+      "steps": 13,
+      "seconds": 5.703000000008615,
+      "surfaces": [
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "metal",
+      "passed": true,
+      "steps": 13,
+      "seconds": 5.702999999994063,
+      "surfaces": [
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 3,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "concrete",
+      "passed": true,
+      "steps": 13,
+      "seconds": 5.687999999994645,
+      "surfaces": [
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 4,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "wood",
+      "passed": true,
+      "steps": 13,
+      "seconds": 5.703000000008615,
+      "surfaces": [
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 5,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "gravel_running",
+      "passed": true,
+      "steps": 10,
+      "seconds": 3.4060000000026776,
+      "surfaces": [
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        },
+        {
+          "surface": 2,
+          "material": "WorldGridMaterial"
+        }
+      ]
+    },
+    {
+      "name": "actual_forest_path",
+      "passed": true,
+      "steps": 9,
+      "seconds": 3.937000000005355,
+      "surfaces": [
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        },
+        {
+          "surface": 2,
+          "material": "MI_Foot_Gravel_6c782250aa"
+        }
+      ]
+    },
+    {
+      "name": "actual_bridge",
+      "passed": true,
+      "steps": 10,
+      "seconds": 4.375,
+      "surfaces": [
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": "MI_Foot_Metal_a61515a336"
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": ""
+        },
+        {
+          "surface": 3,
+          "material": "MI_Foot_Metal_65892e371c"
+        }
+      ]
+    }
+  ],
+  "deadline": 81350.343,
+  "ambience": [
+    {
+      "name": "R10_Forest_Wind",
+      "playing": true,
+      "volume": 0.3499999940395355
+    },
+    {
+      "name": "FT_Night_Insects",
+      "playing": true,
+      "volume": 0.10000000149011612
+    }
+  ],
+  "next": 81217.262,
+  "count": 84,
+  "points": [
+    [
+      -45882.305974972965,
+      19974.707549061975,
+      10396.5
+    ],
+    [
+      -46032.305974972965,
+      20774.707549061975,
+      10396.5
+    ],
+    [
+      -46182.305974972965,
+      21474.707549061975,
+      10396.5
+    ]
+  ],
+  "point": 3,
+  "begin": 81217.265,
+  "surfaces": [
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": "MI_Foot_Metal_a61515a336"
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": ""
+    },
+    {
+      "surface": 3,
+      "material": "MI_Foot_Metal_65892e371c"
+    }
+  ],
+  "lastcount": 94,
+  "waypoint": 81221.64,
+  "success": true
+}

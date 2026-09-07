@@ -1,0 +1,434 @@
+{
+  "sound_variants": 25,
+  "wind_volume": 0.35,
+  "weather_master": 0.6,
+  "insects_volume": 0.1,
+  "footstep_volume": 0.65,
+  "material_mapping": {
+    "/Game/MaldekRefinement/R06/Materials/M_R02_Chipped_Painted_Steel_Snow.M_R02_Chipped_Painted_Steel_Snow": "Metal",
+    "/Game/MaldekRefinement/R06/Materials/M_R02_Galvanized_Grating_Snow.M_R02_Galvanized_Grating_Snow": "Metal",
+    "/Game/MaldekRefinement/R06/Materials/M_R04_Concrete_Fine_Aggregate_Snow.M_R04_Concrete_Fine_Aggregate_Snow": "Concrete",
+    "/Game/MaldekRefinement/R06/Materials/M_R04_Painted_Charcoal_Snow.M_R04_Painted_Charcoal_Snow": "Metal",
+    "/Game/MaldekRefinement/R06/Materials/M_R04_Galvanized_Fittings_Snow.M_R04_Galvanized_Fittings_Snow": "Metal",
+    "/Game/MaldekRefinement/Materials/M_R04_Concrete_Fine_Aggregate.M_R04_Concrete_Fine_Aggregate": "Concrete",
+    "/Game/MaldekRefinement/Materials/M_R02_Damp_Timber.M_R02_Damp_Timber": "Wood",
+    "/Game/MaldekRefinement/Materials/M_R02_Chipped_Painted_Steel.M_R02_Chipped_Painted_Steel": "Metal",
+    "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal": "Metal",
+    "/Game/MaldekRefinement/Materials/M_R04_Galvanized_Fittings.M_R04_Galvanized_Fittings": "Metal",
+    "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete": "Concrete",
+    "/Game/MaldekRefinement/Materials/M_R02_Galvanized_Grating.M_R02_Galvanized_Grating": "Metal",
+    "/Game/MaldekRefinement/Materials/M_R02_Worn_Safety_Paint.M_R02_Worn_Safety_Paint": "Concrete",
+    "/Game/MaldekRefinement/R06/Materials/M_R02_Weathered_Concrete_Snow.M_R02_Weathered_Concrete_Snow": "Concrete",
+    "/Game/MaldekRefinement/Materials/M_Ground.M_Ground": "Gravel",
+    "/Game/MaldekRefinement/R06/Materials/M_R02_Damp_Timber_Snow.M_R02_Damp_Timber_Snow": "Wood",
+    "/Game/MaldekRefinement/ForestTest/Materials/M_Forest_Soil.M_Forest_Soil": "Soil",
+    "/Game/MaldekRefinement/R05/Materials/M_R03_Wet_Gravel.M_R03_Wet_Gravel": "Gravel"
+  },
+  "actors": [
+    {
+      "actor": "R04_01_Upper_Platform",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_01_Upper_Platform",
+      "slot": 1,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_01_Upper_Platform",
+      "slot": 2,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_01_Upper_Platform",
+      "slot": 4,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_01_Upper_Platform",
+      "slot": 5,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_02_Control_Room",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_02_Control_Room",
+      "slot": 1,
+      "surface": "Wood"
+    },
+    {
+      "actor": "R04_02_Control_Room",
+      "slot": 3,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_02_Control_Room",
+      "slot": 5,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_02_Control_Room",
+      "slot": 6,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_03_Waiting_Hall",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_03_Waiting_Hall",
+      "slot": 1,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_03_Waiting_Hall",
+      "slot": 2,
+      "surface": "Wood"
+    },
+    {
+      "actor": "R04_04_Lower_Drive",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_04_Lower_Drive",
+      "slot": 1,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_04_Lower_Drive",
+      "slot": 2,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_04_Lower_Drive",
+      "slot": 3,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_04_Lower_Drive",
+      "slot": 4,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_04_Lower_Drive",
+      "slot": 5,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_05_Generator_Room",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_06_Stairs_and_Landings",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_06_Stairs_and_Landings",
+      "slot": 1,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_06_Stairs_and_Landings",
+      "slot": 2,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_07_Overlook",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_07_Overlook",
+      "slot": 1,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_07_Overlook",
+      "slot": 2,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_08_Fuel_Yard",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_10_Parking_and_Arrival",
+      "slot": 0,
+      "surface": "Gravel"
+    },
+    {
+      "actor": "R04_10_Parking_and_Arrival",
+      "slot": 1,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_10_Parking_and_Arrival",
+      "slot": 2,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_10_Parking_and_Arrival",
+      "slot": 3,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_10_Parking_and_Arrival",
+      "slot": 4,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_11_Doors_Door_Control_Platform",
+      "slot": 0,
+      "surface": "Wood"
+    },
+    {
+      "actor": "R04_11_Doors_Door_Generator_Yard",
+      "slot": 0,
+      "surface": "Wood"
+    },
+    {
+      "actor": "R04_13_Roofs",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_13_Roofs",
+      "slot": 1,
+      "surface": "Wood"
+    },
+    {
+      "actor": "R04_14_Site_Structure",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_18_Cliff_Anchors",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_18_Cliff_Anchors",
+      "slot": 1,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_Local_Terrain",
+      "slot": 0,
+      "surface": "Soil"
+    },
+    {
+      "actor": "R04_09_Relay_and_Paths",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_09_Relay_and_Paths",
+      "slot": 1,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_09_Relay_and_Paths",
+      "slot": 2,
+      "surface": "Gravel"
+    },
+    {
+      "actor": "R08_Control_Entry_Backplate",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Control_Entry_Housing",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Control_Entry_Hood",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Control_Entry_Guard_Left",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Control_Entry_Guard_Right",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Control_Entry_Guard_Crossbar",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Control_Entry_Conduit",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Waiting_Hall_Entry_Backplate",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Waiting_Hall_Entry_Housing",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Waiting_Hall_Entry_Hood",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Waiting_Hall_Entry_Guard_Left",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Waiting_Hall_Entry_Guard_Right",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Waiting_Hall_Entry_Guard_Crossbar",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R08_Waiting_Hall_Entry_Conduit",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_12_Gondola",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_12_Gondola",
+      "slot": 1,
+      "surface": "Wood"
+    },
+    {
+      "actor": "R04_12_Gondola",
+      "slot": 5,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R09_Cabin_Ceiling_Housing",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R09_Canopy_Left_Housing",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R09_Canopy_Right_Housing",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R09_Boarding_Panel",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R10_Forest_Approach",
+      "slot": 0,
+      "surface": "Gravel"
+    },
+    {
+      "actor": "R10_Distant_Station",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R10_Hall_Foundation_0",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R10_Hall_Foundation_1",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R10_Hall_Foundation_2",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_20_Lookout_Bridge",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_20_Lookout_Bridge",
+      "slot": 1,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_20_Lookout_Bridge",
+      "slot": 2,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_21_Maintenance",
+      "slot": 0,
+      "surface": "Concrete"
+    },
+    {
+      "actor": "R04_21_Maintenance",
+      "slot": 1,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R04_21_Maintenance",
+      "slot": 2,
+      "surface": "Wood"
+    },
+    {
+      "actor": "R04_21_Maintenance",
+      "slot": 3,
+      "surface": "Gravel"
+    },
+    {
+      "actor": "R11_Lookout_Rail_Lamp_Housing",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R11_Generator_Entrance_Housing",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R11_Generator_Ceiling_Housing",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R11_Workshop_Ceiling_Housing",
+      "slot": 0,
+      "surface": "Metal"
+    },
+    {
+      "actor": "R11_Fuel_Yard_Exit_Housing",
+      "slot": 0,
+      "surface": "Metal"
+    }
+  ]
+}

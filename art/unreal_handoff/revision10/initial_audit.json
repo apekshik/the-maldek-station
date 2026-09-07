@@ -1,0 +1,386 @@
+[
+  {
+    "label": "PlayerStart",
+    "class": "PlayerStart",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 0.923880, w: 0.382683}, translation: {x: -43632.305975, y: 18774.707549, z: 10398.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "PointLight",
+    "class": "PointLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -42544.245999, y: 18467.952227, z: 10431.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "PointLight3",
+    "class": "PointLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44464.245948, y: 19024.952331, z: 10660.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "PointLight4",
+    "class": "PointLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -47061.246031, y: 17319.952458, z: 10358.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "BP_GondolaSystem",
+    "class": "BP_GondolaSystem_C",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 0.707107, w: 0.707107}, translation: {x: -44178.212343, y: 19265.290023, z: 10275.000000}, scale3d: {x: 3.062500, y: 1.312500, z: 2.687500}}>"
+  },
+  {
+    "label": "Landscape0",
+    "class": "Landscape",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -105812.000000, y: -138209.000000, z: 23763.000000}, scale3d: {x: 100.000000, y: 100.000000, z: 100.000000}}>"
+  },
+  {
+    "label": "CineCameraActor",
+    "class": "CineCameraActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.082828, y: 0.199964, z: -0.373612, w: 0.901980}, translation: {x: -46482.305975, y: 21074.707549, z: 11698.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "PointLight6",
+    "class": "PointLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -46748.000000, y: 172964.000000, z: 41833.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "PointLight7",
+    "class": "PointLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -46141.000000, y: 16817.000000, z: 10363.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R04_01_Upper_Platform",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_01_Upper_Platform.SM_R04_01_Upper_Platform"
+  },
+  {
+    "label": "R04_02_Control_Room",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_02_Control_Room.SM_R04_02_Control_Room"
+  },
+  {
+    "label": "R04_03_Waiting_Hall",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_03_Waiting_Hall.SM_R04_03_Waiting_Hall"
+  },
+  {
+    "label": "R04_04_Lower_Drive",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_04_Lower_Drive.SM_R04_04_Lower_Drive"
+  },
+  {
+    "label": "R04_05_Generator_Room",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_05_Generator_Room.SM_R04_05_Generator_Room"
+  },
+  {
+    "label": "R04_06_Stairs_and_Landings",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F222B0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_06_Stairs_and_Landings.SM_R04_06_Stairs_and_Landings"
+  },
+  {
+    "label": "R04_07_Overlook",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F22070) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/R05/Meshes/SM_R04_07_Overlook.SM_R04_07_Overlook"
+  },
+  {
+    "label": "R04_08_Fuel_Yard",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F22070) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_08_Fuel_Yard.SM_R04_08_Fuel_Yard"
+  },
+  {
+    "label": "R04_10_Parking_and_Arrival",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F22070) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_10_Parking_and_Arrival.SM_R04_10_Parking_and_Arrival"
+  },
+  {
+    "label": "R04_11_Doors_Door_Control_Platform",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F22100) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_11_Doors_Door_Control_Platform.SM_R04_11_Doors_Door_Control_Platform"
+  },
+  {
+    "label": "R04_11_Doors_Door_Generator_Yard",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F22100) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_11_Doors_Door_Generator_Yard.SM_R04_11_Doors_Door_Generator_Yard"
+  },
+  {
+    "label": "R04_13_Roofs",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F22100) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/R05/Meshes/SM_R04_13_Roofs.SM_R04_13_Roofs"
+  },
+  {
+    "label": "R04_14_Site_Structure",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F22100) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_14_Site_Structure.SM_R04_14_Site_Structure"
+  },
+  {
+    "label": "R04_18_Cliff_Anchors",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F22100) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_18_Cliff_Anchors.SM_R04_18_Cliff_Anchors"
+  },
+  {
+    "label": "R04_Local_Terrain",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F22100) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Local_Terrain.SM_R06_Local_Terrain"
+  },
+  {
+    "label": "R04_09_Relay_and_Paths",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F22100) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/R05/Meshes/SM_R04_09_Relay_and_Paths.SM_R04_09_Relay_and_Paths"
+  },
+  {
+    "label": "InstancedFoliageActor0",
+    "class": "InstancedFoliageActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R07_Local_Station_Mist",
+    "class": "LocalFogVolume",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44150.000000, y: 18750.000000, z: 10200.000000}, scale3d: {x: 7.200000, y: 7.200000, z: 7.200000}}>"
+  },
+  {
+    "label": "R07_Relay_Approach_Mist",
+    "class": "LocalFogVolume",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -47600.000000, y: 19700.000000, z: 10200.000000}, scale3d: {x: 5.600000, y: 5.600000, z: 5.600000}}>"
+  },
+  {
+    "label": "R07_TestLight_Main_Platform_West",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: -0.164297, y: 0.145038, z: 0.731453, w: 0.645714}, translation: {x: -44830.000000, y: 18560.000000, z: 10565.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R07_TestLight_Main_Platform_East",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: -0.181509, y: 0.149375, z: 0.750508, w: 0.617640}, translation: {x: -43600.000000, y: 18540.000000, z: 10565.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R07_TestLight_Lower_Deck_Machine",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: -0.132919, y: 0.206424, z: 0.524815, w: 0.815040}, translation: {x: -44750.000000, y: 18700.000000, z: 10225.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R07_TestLight_Lower_Deck_Exit",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: -0.160519, y: 0.121079, z: 0.782045, w: 0.589898}, translation: {x: -44100.000000, y: 18850.000000, z: 10210.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R07_TestLight_Relay_Path_Bend",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.147290, y: 0.261318, z: -0.468406, w: 0.831032}, translation: {x: -47580.000000, y: 20680.000000, z: 10650.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R07_TestLight_Relay_Door",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: -0.039498, y: 0.253672, z: 0.148695, w: 0.954976}, translation: {x: -49050.000000, y: 20050.000000, z: 10480.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R08_Control_Entry_Backplate",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43902.305975, y: 18489.207550, z: 10553.500000}, scale3d: {x: 0.280000, y: 0.030000, z: 0.340000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Control_Entry_Housing",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43902.305975, y: 18495.707550, z: 10553.500000}, scale3d: {x: 0.240000, y: 0.110000, z: 0.280000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Control_Entry_Hood",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43902.305975, y: 18497.707550, z: 10568.500000}, scale3d: {x: 0.300000, y: 0.220000, z: 0.040000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Control_Entry_Diffuser",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43902.305975, y: 18501.707550, z: 10551.500000}, scale3d: {x: 0.180000, y: 0.015000, z: 0.180000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Control_Entry_Guard_Left",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43908.305975, y: 18503.007550, z: 10551.500000}, scale3d: {x: 0.010000, y: 0.013000, z: 0.200000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Control_Entry_Guard_Right",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43896.305975, y: 18503.007550, z: 10551.500000}, scale3d: {x: 0.010000, y: 0.013000, z: 0.200000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Control_Entry_Guard_Crossbar",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43902.305975, y: 18503.207550, z: 10551.500000}, scale3d: {x: 0.200000, y: 0.013000, z: 0.010000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Control_Entry_Conduit",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43902.305975, y: 18489.207550, z: 10602.000000}, scale3d: {x: 0.015000, y: 0.020000, z: 0.640000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_WallLight_Control_Entry",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: -0.383183, y: 0.383183, z: 0.594282, w: 0.594282}, translation: {x: -43902.305975, y: 18506.707550, z: 10543.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Backplate",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43132.305975, y: 18489.207550, z: 10553.500000}, scale3d: {x: 0.280000, y: 0.030000, z: 0.340000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Housing",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43132.305975, y: 18495.707550, z: 10553.500000}, scale3d: {x: 0.240000, y: 0.110000, z: 0.280000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Hood",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43132.305975, y: 18497.707550, z: 10568.500000}, scale3d: {x: 0.300000, y: 0.220000, z: 0.040000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Diffuser",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43132.305975, y: 18501.707550, z: 10551.500000}, scale3d: {x: 0.180000, y: 0.015000, z: 0.180000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Guard_Left",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43138.305975, y: 18503.007550, z: 10551.500000}, scale3d: {x: 0.010000, y: 0.013000, z: 0.200000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Guard_Right",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43126.305975, y: 18503.007550, z: 10551.500000}, scale3d: {x: 0.010000, y: 0.013000, z: 0.200000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Guard_Crossbar",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43132.305975, y: 18503.207550, z: 10551.500000}, scale3d: {x: 0.200000, y: 0.013000, z: 0.010000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Conduit",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -43132.305975, y: 18489.207550, z: 10602.000000}, scale3d: {x: 0.015000, y: 0.020000, z: 0.640000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R08_WallLight_Waiting_Hall_Entry",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: -0.383183, y: 0.383183, z: 0.594282, w: 0.594282}, translation: {x: -43132.305975, y: 18506.707550, z: 10543.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R04_12_Gondola",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "mesh": "/Game/MaldekRefinement/Meshes/SM_R04_12_Gondola.SM_R04_12_Gondola"
+  },
+  {
+    "label": "R09_Cabin_Ceiling_Housing",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44282.306000, y: 19279.708000, z: 10522.000000}, scale3d: {x: 0.160000, y: 0.620000, z: 0.050000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R09_Cabin_Ceiling_Diffuser",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44282.306000, y: 19279.708000, z: 10519.000000}, scale3d: {x: 0.120000, y: 0.570000, z: 0.010000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R09_Light_Cabin_Ceiling",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: -0.000000, y: 0.707107, z: 0.000000, w: 0.707107}, translation: {x: -44282.306000, y: 19279.708000, z: 10509.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R09_Canopy_Left_Housing",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44442.306000, y: 18875.000000, z: 10643.500000}, scale3d: {x: 0.160000, y: 0.160000, z: 0.100000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R09_Canopy_Left_Lens",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44442.306000, y: 18875.000000, z: 10638.000000}, scale3d: {x: 0.100000, y: 0.100000, z: 0.010000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R09_Light_Canopy_Left",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: -0.240999, y: 0.518014, z: 0.346196, w: 0.744130}, translation: {x: -44442.306000, y: 18875.000000, z: 10634.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R09_Canopy_Right_Housing",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44122.306000, y: 18875.000000, z: 10643.500000}, scale3d: {x: 0.160000, y: 0.160000, z: 0.100000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R09_Canopy_Right_Lens",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44122.306000, y: 18875.000000, z: 10638.000000}, scale3d: {x: 0.100000, y: 0.100000, z: 0.010000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R09_Light_Canopy_Right",
+    "class": "SpotLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: -0.518014, y: 0.240999, z: 0.744130, w: 0.346196}, translation: {x: -44122.306000, y: 18875.000000, z: 10634.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "R09_Boarding_Panel",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44365.000000, y: 18965.000000, z: 10453.000000}, scale3d: {x: 0.160000, y: 0.070000, z: 0.300000}}>",
+    "mesh": "/Engine/BasicShapes/Cube.Cube"
+  },
+  {
+    "label": "R09_Boarding_Green_Lens",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44365.000000, y: 18960.500000, z: 10460.000000}, scale3d: {x: 0.060000, y: 0.020000, z: 0.060000}}>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere"
+  },
+  {
+    "label": "R09_Boarding_Red_Lens_Off",
+    "class": "StaticMeshActor",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44365.000000, y: 18960.500000, z: 10447.000000}, scale3d: {x: 0.060000, y: 0.020000, z: 0.060000}}>",
+    "mesh": "/Engine/BasicShapes/Sphere.Sphere"
+  },
+  {
+    "label": "R09_Boarding_Indicator_Glow",
+    "class": "PointLight",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44365.000000, y: 18957.000000, z: 10460.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  {
+    "label": "Ultra_Dynamic_Sky",
+    "class": "Ultra_Dynamic_Sky_C",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: -0.000000, z: 0.997290, w: 0.073565}, translation: {x: -43369.891053, y: 19420.190387, z: 10388.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "fields": {}
+  },
+  {
+    "label": "Ultra_Dynamic_Weather",
+    "class": "Ultra_Dynamic_Weather_C",
+    "transform": "<Struct 'Transform' (0x000001AF43F231E0) {rotation: {x: 0.000000, y: -0.000000, z: 0.997290, w: 0.073565}, translation: {x: -43309.091023, y: 19523.386106, z: 10388.499999}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "fields": {}
+  }
+]

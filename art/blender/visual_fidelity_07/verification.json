@@ -1,0 +1,201 @@
+{
+  "scope": "Evaluated Blender mesh cross-section rays over declared clear route widths; not Unreal movement/collision validation.",
+  "ray_count": 9505,
+  "routes": [
+    {
+      "name": "Arrival",
+      "clear_width_m": 1.4,
+      "samples": 25,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Arrival turn onto platform",
+      "clear_width_m": 1.2,
+      "samples": 27,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Completed rear hall approach",
+      "clear_width_m": 1.1,
+      "samples": 30,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Quarters",
+      "clear_width_m": 1.2000000000000002,
+      "samples": 21,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Quarters landing and doorway",
+      "clear_width_m": 0.8,
+      "samples": 17,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Quarters lower approach",
+      "clear_width_m": 1.1,
+      "samples": 12,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Exterior_service",
+      "clear_width_m": 1.4,
+      "samples": 25,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Service descent lower exit",
+      "clear_width_m": 1.2,
+      "samples": 26,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Service_road",
+      "clear_width_m": 1.2,
+      "samples": 63,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Relay_outbound",
+      "clear_width_m": 1.0,
+      "samples": 179,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Relay_return",
+      "clear_width_m": 1.0,
+      "samples": 221,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Arrival_ground_approach",
+      "clear_width_m": 1.2,
+      "samples": 8,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Control front approach",
+      "clear_width_m": 1.0,
+      "samples": 16,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Front grating across facade",
+      "clear_width_m": 1.2,
+      "samples": 19,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "West continuous border",
+      "clear_width_m": 1.2,
+      "samples": 41,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "East terrace grating",
+      "clear_width_m": 1.2,
+      "samples": 47,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Boarding threshold",
+      "clear_width_m": 1.0,
+      "samples": 5,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    },
+    {
+      "name": "Internal descending stair",
+      "clear_width_m": 1.2,
+      "samples": 23,
+      "pass": true,
+      "failures": [],
+      "failure_count": 0
+    }
+  ],
+  "anchor_and_surface_checks": [
+    {
+      "name": "Gondola_Floor",
+      "pass": true,
+      "error_m": 0.0
+    },
+    {
+      "name": "Drive_Floor",
+      "pass": true,
+      "error_m": 0.0
+    },
+    {
+      "name": "Control_Floor",
+      "pass": true,
+      "error_m": 0.0
+    },
+    {
+      "name": "Quarters_Floor",
+      "pass": true,
+      "error_m": 0.0
+    },
+    {
+      "name": "Control grating aperture",
+      "pass": true,
+      "covering_grating_rectangles": [
+        [
+          -8,
+          6,
+          0,
+          1.8,
+          4,
+          "grate"
+        ]
+      ]
+    },
+    {
+      "name": "West dock grating aperture",
+      "pass": true,
+      "covering_grating_rectangles": [
+        [
+          -8,
+          -4,
+          5.4,
+          7.35,
+          4,
+          "grate"
+        ]
+      ]
+    }
+  ],
+  "failed_routes": []
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "01_exterior",
+    "a": [
+      25,
+      34,
+      13
+    ],
+    "b": [
+      23,
+      33,
+      12.7
+    ],
+    "target": [
+      0,
+      4,
+      3
+    ],
+    "lens": 43,
+    "fstop": 8,
+    "camera": "DEMO_01_exterior"
+  },
+  {
+    "name": "02_platform",
+    "a": [
+      -7,
+      1,
+      4.9
+    ],
+    "b": [
+      -6.3,
+      1.5,
+      5
+    ],
+    "target": [
+      0,
+      9,
+      5.2
+    ],
+    "lens": 28,
+    "fstop": 5.6,
+    "camera": "DEMO_02_platform"
+  },
+  {
+    "name": "03_operator",
+    "a": [
+      -6.4,
+      -1.9,
+      5.65
+    ],
+    "b": [
+      -6,
+      -1.65,
+      5.65
+    ],
+    "target": [
+      -0.4,
+      10,
+      5.1
+    ],
+    "lens": 25,
+    "fstop": 4,
+    "camera": "DEMO_03_operator"
+  },
+  {
+    "name": "04_forest",
+    "a": [
+      23,
+      25,
+      9
+    ],
+    "b": [
+      21.5,
+      25,
+      9
+    ],
+    "target": [
+      0,
+      5,
+      4
+    ],
+    "lens": 45,
+    "fstop": 2.8,
+    "camera": "DEMO_04_forest"
+  }
+]

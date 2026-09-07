@@ -1,0 +1,10 @@
+{
+  "Moon Light Intensity": {
+    "before": "0.6",
+    "after": 0.6
+  },
+  "Sky Light Intensity": {
+    "before": "1.5",
+    "after": 1.5
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "lights": [
+    {
+      "actor": "PointLight",
+      "name": "LightComponent0",
+      "mobility": "<ComponentMobility.STATIONARY: 1>",
+      "intensity": "0.20000000298023224",
+      "volumetric_scattering_intensity": "1.0"
+    },
+    {
+      "actor": "PointLight2",
+      "name": "LightComponent0",
+      "mobility": "<ComponentMobility.STATIONARY: 1>",
+      "intensity": "1.0",
+      "volumetric_scattering_intensity": "1.0"
+    },
+    {
+      "actor": "PointLight3",
+      "name": "LightComponent0",
+      "mobility": "<ComponentMobility.STATIONARY: 1>",
+      "intensity": "1.0",
+      "volumetric_scattering_intensity": "1.0"
+    },
+    {
+      "actor": "PointLight4",
+      "name": "LightComponent0",
+      "mobility": "<ComponentMobility.STATIONARY: 1>",
+      "intensity": "0.20999999344348907",
+      "volumetric_scattering_intensity": "1.0"
+    },
+    {
+      "actor": "PointLight5",
+      "name": "LightComponent0",
+      "mobility": "<ComponentMobility.STATIONARY: 1>",
+      "intensity": "2.0",
+      "volumetric_scattering_intensity": "1.0"
+    },
+    {
+      "actor": "PointLight6",
+      "name": "LightComponent0",
+      "mobility": "<ComponentMobility.STATIONARY: 1>",
+      "intensity": "160.0",
+      "volumetric_scattering_intensity": "1.0"
+    },
+    {
+      "actor": "PointLight7",
+      "name": "LightComponent0",
+      "mobility": "<ComponentMobility.STATIONARY: 1>",
+      "intensity": "4.668101787567139",
+      "volumetric_scattering_intensity": "1.0"
+    },
+    {
+      "actor": "Ultra_Dynamic_Sky",
+      "name": "Sun",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "intensity": "0.8186010122299194",
+      "volumetric_scattering_intensity": "1.0"
+    },
+    {
+      "actor": "Ultra_Dynamic_Sky",
+      "name": "Moon",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "intensity": "0.011905757710337639",
+      "volumetric_scattering_intensity": "1.0"
+    },
+    {
+      "actor": "Ultra_Dynamic_Weather",
+      "name": "Lightning Light",
+      "mobility": "<ComponentMobility.MOVABLE: 2>",
+      "intensity": "0.0",
+      "volumetric_scattering_intensity": "0.0"
+    }
+  ],
+  "enable_volumetric_fog": "True",
+  "volumetric_fog_extinction_scale": "1.0"
+}

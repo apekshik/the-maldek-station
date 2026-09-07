@@ -1,0 +1,8 @@
+{
+  "pawn": "BP_ForestWalker_C",
+  "light_intensity": 1.2000000476837158,
+  "light_radius": 1500.0,
+  "light_visible": true,
+  "map": "Forest_Approach_Test",
+  "playing": true
+}

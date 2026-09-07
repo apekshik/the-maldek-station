@@ -11,9 +11,11 @@
 #include "InputAction.h"
 #include "InputCoreTypes.h"
 #include "Components/StaticMeshComponent.h"
+#include "SurfaceFootstepComponent.h"
 
 AHorrorCharacter::AHorrorCharacter()
 {
+	SurfaceFootsteps = CreateDefaultSubobject<USurfaceFootstepComponent>(TEXT("SurfaceFootsteps"));
 	// create the spotlight
 	SpotLight = CreateDefaultSubobject<USpotLightComponent>(TEXT("SpotLight"));
 	SpotLight->SetupAttachment(GetFirstPersonCameraComponent());

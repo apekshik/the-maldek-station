@@ -1,0 +1,1406 @@
+{
+  "world": "/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test",
+  "time": "2026-09-06T21:37:23.141453",
+  "actors": [
+    {
+      "label": "BP_GondolaSystem",
+      "location": [
+        -44178.21234269882,
+        19265.29002268535,
+        10275.0
+      ],
+      "rotation": [
+        0.0,
+        89.99999930282787,
+        0.0
+      ],
+      "scale": [
+        3.0625,
+        1.3125,
+        2.6875
+      ],
+      "meshes": [
+        "/Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube"
+      ]
+    },
+    {
+      "label": "R04_01_Upper_Platform",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R10/Meshes/SM_R04_01_Upper_Platform.SM_R04_01_Upper_Platform"
+      ]
+    },
+    {
+      "label": "R04_02_Control_Room",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/Meshes/SM_R04_02_Control_Room.SM_R04_02_Control_Room"
+      ]
+    },
+    {
+      "label": "R04_03_Waiting_Hall",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R10/Meshes/SM_R04_03_Waiting_Hall.SM_R04_03_Waiting_Hall"
+      ]
+    },
+    {
+      "label": "R04_04_Lower_Drive",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/Meshes/SM_R04_04_Lower_Drive.SM_R04_04_Lower_Drive"
+      ]
+    },
+    {
+      "label": "R04_05_Generator_Room",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R11/Meshes/SM_R04_05_Generator_Room.SM_R04_05_Generator_Room"
+      ]
+    },
+    {
+      "label": "R04_06_Stairs_and_Landings",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R10/Meshes/SM_R04_06_Stairs_and_Landings.SM_R04_06_Stairs_and_Landings"
+      ]
+    },
+    {
+      "label": "R04_07_Overlook",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R11/Meshes/SM_R04_07_Overlook.SM_R04_07_Overlook"
+      ]
+    },
+    {
+      "label": "R04_08_Fuel_Yard",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R11/Meshes/SM_R04_08_Fuel_Yard.SM_R04_08_Fuel_Yard"
+      ]
+    },
+    {
+      "label": "R04_10_Parking_and_Arrival",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R10/Meshes/SM_R04_10_Parking_and_Arrival.SM_R04_10_Parking_and_Arrival"
+      ]
+    },
+    {
+      "label": "R04_11_Doors_Door_Control_Platform",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/Meshes/SM_R04_11_Doors_Door_Control_Platform.SM_R04_11_Doors_Door_Control_Platform"
+      ]
+    },
+    {
+      "label": "R04_11_Doors_Door_Generator_Yard",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/Meshes/SM_R04_11_Doors_Door_Generator_Yard.SM_R04_11_Doors_Door_Generator_Yard"
+      ]
+    },
+    {
+      "label": "R04_13_Roofs",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R10/Meshes/SM_R04_13_Roofs.SM_R04_13_Roofs"
+      ]
+    },
+    {
+      "label": "R04_14_Site_Structure",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/Meshes/SM_R04_14_Site_Structure.SM_R04_14_Site_Structure"
+      ]
+    },
+    {
+      "label": "R04_18_Cliff_Anchors",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/Meshes/SM_R04_18_Cliff_Anchors.SM_R04_18_Cliff_Anchors"
+      ]
+    },
+    {
+      "label": "R04_Local_Terrain",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/ForestTest/Meshes/SM_ForestTerrain.SM_ForestTerrain"
+      ]
+    },
+    {
+      "label": "R04_09_Relay_and_Paths",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R05/Meshes/SM_R04_09_Relay_and_Paths.SM_R04_09_Relay_and_Paths"
+      ]
+    },
+    {
+      "label": "R07_Local_Station_Mist",
+      "location": [
+        -44150.0,
+        18750.0,
+        10200.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        7.2,
+        7.2,
+        7.2
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R07_Relay_Approach_Mist",
+      "location": [
+        -47600.0,
+        19700.0,
+        10200.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        5.6,
+        5.6,
+        5.6
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R07_TestLight_Main_Platform_West",
+      "location": [
+        -44830.0,
+        18560.0,
+        10565.0
+      ],
+      "rotation": [
+        -25.31901446672623,
+        97.12501634890182,
+        3.2175523971045755e-07
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R07_TestLight_Main_Platform_East",
+      "location": [
+        -43600.0,
+        18540.0,
+        10565.0
+      ],
+      "rotation": [
+        -27.191678647322775,
+        101.0937230115579,
+        3.578563584101335e-07
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R07_TestLight_Relay_Path_Bend",
+      "location": [
+        -47580.0,
+        20680.0,
+        10650.0
+      ],
+      "rotation": [
+        -34.91149472651727,
+        -58.8150253412616,
+        -2.6074622099796734e-07
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R07_TestLight_Relay_Door",
+      "location": [
+        -49050.0,
+        20050.0,
+        10480.0
+      ],
+      "rotation": [
+        -29.75209194564644,
+        17.700427788667213,
+        6.804257753178688e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R08_Control_Entry_Backplate",
+      "location": [
+        -43902.305975,
+        18489.20755,
+        10553.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.28,
+        0.03,
+        0.34
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Housing",
+      "location": [
+        -43902.305975,
+        18495.70755,
+        10553.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.24,
+        0.11,
+        0.28
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Hood",
+      "location": [
+        -43902.305975,
+        18497.70755,
+        10568.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.3,
+        0.22,
+        0.04
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Diffuser",
+      "location": [
+        -43902.305975,
+        18501.70755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.18,
+        0.015,
+        0.18
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Guard_Left",
+      "location": [
+        -43908.305975,
+        18503.00755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.01,
+        0.013000000000000001,
+        0.2
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Guard_Right",
+      "location": [
+        -43896.305975,
+        18503.00755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.01,
+        0.013000000000000001,
+        0.2
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Guard_Crossbar",
+      "location": [
+        -43902.305975,
+        18503.20755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.013000000000000001,
+        0.01
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Conduit",
+      "location": [
+        -43902.305975,
+        18489.20755,
+        10602.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.015,
+        0.02,
+        0.64
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_WallLight_Control_Entry",
+      "location": [
+        -43902.305975,
+        18506.70755,
+        10543.5
+      ],
+      "rotation": [
+        -65.62656306645448,
+        90.00000000000006,
+        6.350375229668869e-07
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Backplate",
+      "location": [
+        -42992.305975,
+        18489.20755,
+        10553.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.28,
+        0.03,
+        0.34
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Housing",
+      "location": [
+        -42992.305975,
+        18495.70755,
+        10553.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.24,
+        0.11,
+        0.28
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Hood",
+      "location": [
+        -42992.305975,
+        18497.70755,
+        10568.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.3,
+        0.22,
+        0.04
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Diffuser",
+      "location": [
+        -42992.305975,
+        18501.70755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.18,
+        0.015,
+        0.18
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Guard_Left",
+      "location": [
+        -42998.305975,
+        18503.00755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.01,
+        0.013000000000000001,
+        0.2
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Guard_Right",
+      "location": [
+        -42986.305975,
+        18503.00755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.01,
+        0.013000000000000001,
+        0.2
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Guard_Crossbar",
+      "location": [
+        -42992.305975,
+        18503.20755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.2,
+        0.013000000000000001,
+        0.01
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_Waiting_Hall_Entry_Conduit",
+      "location": [
+        -42992.305975,
+        18489.20755,
+        10602.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.015,
+        0.02,
+        0.64
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R08_WallLight_Waiting_Hall_Entry",
+      "location": [
+        -42992.305975,
+        18506.70755,
+        10543.5
+      ],
+      "rotation": [
+        -65.62656306645448,
+        90.00000000000006,
+        6.350375229668869e-07
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R04_12_Gondola",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        1.5141800851693988e-17,
+        180.0,
+        3.0627627503957967e-49
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/Meshes/SM_R04_12_Gondola.SM_R04_12_Gondola"
+      ]
+    },
+    {
+      "label": "R10_Forest_Approach",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R10/Meshes/SM_R10_Forest_Approach.SM_R10_Forest_Approach"
+      ]
+    },
+    {
+      "label": "R10_Forest_Wind",
+      "location": [
+        -44282.0,
+        18475.0,
+        10300.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R10_Distant_Station",
+      "location": [
+        -44282.0,
+        158475.0,
+        32427.830253560303
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        14.0,
+        8.0,
+        4.0
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R10_Distant_Window_0",
+      "location": [
+        -44632.0,
+        158069.0,
+        32467.830253560303
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.2,
+        0.04,
+        1.1
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R10_Distant_Window_1",
+      "location": [
+        -44282.0,
+        158069.0,
+        32467.830253560303
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.2,
+        0.04,
+        1.1
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R10_Distant_Window_2",
+      "location": [
+        -43932.0,
+        158069.0,
+        32467.830253560303
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.2,
+        0.04,
+        1.1
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R10_Hall_Foundation_0",
+      "location": [
+        -42552.305974972965,
+        17744.707549061975,
+        10078.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        4.3
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R10_Hall_Foundation_1",
+      "location": [
+        -42552.305974972965,
+        18424.707549061975,
+        10078.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        4.3
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R10_Hall_Foundation_2",
+      "location": [
+        -42992.305974972965,
+        17744.707549061975,
+        10078.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        4.3
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R04_20_Lookout_Bridge",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R11/Meshes/SM_R04_20_Lookout_Bridge.SM_R04_20_Lookout_Bridge"
+      ]
+    },
+    {
+      "label": "R04_21_Maintenance",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": [
+        "/Game/MaldekRefinement/R11/Meshes/SM_R04_21_Maintenance.SM_R04_21_Maintenance"
+      ]
+    },
+    {
+      "label": "R11_Lookout_Rail_Lamp_Housing",
+      "location": [
+        -46424.305974972965,
+        22074.707549061975,
+        10406.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.22,
+        0.14,
+        0.12
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R11_Lookout_Rail_Lamp_Lens",
+      "location": [
+        -46424.305974972965,
+        22074.707549061975,
+        10399.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.165,
+        0.098,
+        0.02
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R11_Lookout_Rail_Lamp_Light",
+      "location": [
+        -46424.305974972965,
+        22074.707549061975,
+        10399.0
+      ],
+      "rotation": [
+        -20.56129254442658,
+        -34.04593735660167,
+        -9.262521414922351e-08
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R11_Generator_Entrance_Housing",
+      "location": [
+        -46967.305974972965,
+        16974.707549061975,
+        10063.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.22,
+        0.14,
+        0.12
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R11_Generator_Entrance_Lens",
+      "location": [
+        -46967.305974972965,
+        16974.707549061975,
+        10056.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.165,
+        0.098,
+        0.02
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R11_Generator_Entrance_Light",
+      "location": [
+        -46967.305974972965,
+        16974.707549061975,
+        10056.0
+      ],
+      "rotation": [
+        -58.95450917313681,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R11_Generator_Ceiling_Housing",
+      "location": [
+        -47282.305974972965,
+        17074.707549061975,
+        10126.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7,
+        0.15,
+        0.1
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R11_Generator_Ceiling_Lens",
+      "location": [
+        -47282.305974972965,
+        17074.707549061975,
+        10119.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5249999999999999,
+        0.105,
+        0.02
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R11_Generator_Ceiling_Light",
+      "location": [
+        -47282.305974972965,
+        17074.707549061975,
+        10119.0
+      ],
+      "rotation": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R11_Workshop_Ceiling_Housing",
+      "location": [
+        -47732.305974972965,
+        16924.707549061975,
+        10126.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.55,
+        0.15,
+        0.1
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R11_Workshop_Ceiling_Lens",
+      "location": [
+        -47732.305974972965,
+        16924.707549061975,
+        10119.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.41250000000000003,
+        0.105,
+        0.02
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R11_Workshop_Ceiling_Light",
+      "location": [
+        -47732.305974972965,
+        16924.707549061975,
+        10119.0
+      ],
+      "rotation": [
+        -90.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R11_Fuel_Yard_Exit_Housing",
+      "location": [
+        -47282.305974972965,
+        16559.707549061975,
+        10058.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.22,
+        0.14,
+        0.12
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R11_Fuel_Yard_Exit_Lens",
+      "location": [
+        -47282.305974972965,
+        16559.707549061975,
+        10051.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.165,
+        0.098,
+        0.02
+      ],
+      "meshes": [
+        "/Engine/BasicShapes/Cube.Cube"
+      ]
+    },
+    {
+      "label": "R11_Fuel_Yard_Exit_Light",
+      "location": [
+        -47282.305974972965,
+        16559.707549061975,
+        10051.0
+      ],
+      "rotation": [
+        -53.770763282732176,
+        -89.99999999999999,
+        -5.623807692473287e-07
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshes": []
+    }
+  ]
+}

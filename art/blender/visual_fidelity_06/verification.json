@@ -1,0 +1,674 @@
+{
+  "scope": "Blender geometry regression and vertical point samples. Does not replace Unreal collision or capsule walkthrough.",
+  "checks": [
+    {
+      "name": "Unchanged Gondola_Floor",
+      "pass": true,
+      "detail": [
+        [
+          -1.5499999523162842,
+          5.049999713897705,
+          3.880000114440918
+        ],
+        [
+          1.5499999523162842,
+          11.049999237060547,
+          4.0
+        ]
+      ]
+    },
+    {
+      "name": "Unchanged Drive_Floor",
+      "pass": true,
+      "detail": [
+        [
+          -2.0,
+          0.0,
+          -0.30000001192092896
+        ],
+        [
+          6.0,
+          7.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Unchanged Internal_Stair_Top_Steel",
+      "pass": true,
+      "detail": [
+        [
+          5.977499961853027,
+          6.777499675750732,
+          3.9099998474121094
+        ],
+        [
+          8.022500038146973,
+          8.422499656677246,
+          4.0
+        ]
+      ]
+    },
+    {
+      "name": "Unchanged Internal_Lower_Landing_Steel",
+      "pass": true,
+      "detail": [
+        [
+          5.977499961853027,
+          -1.222499966621399,
+          -0.09000000357627869
+        ],
+        [
+          8.022500038146973,
+          0.3824999928474426,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Unchanged Exterior_Upper_Landing_Steel",
+      "pass": true,
+      "detail": [
+        [
+          14.977499961853027,
+          1.9175000190734863,
+          3.9099998474121094
+        ],
+        [
+          17.322500228881836,
+          3.622499942779541,
+          4.0
+        ]
+      ]
+    },
+    {
+      "name": "Unchanged Arrival_Upper_Landing",
+      "pass": true,
+      "detail": [
+        [
+          -13.899999618530273,
+          -9.300000190734863,
+          3.6999998092651367
+        ],
+        [
+          -11.899999618530273,
+          -7.800000190734863,
+          4.0
+        ]
+      ]
+    },
+    {
+      "name": "Unchanged Generator_Floor.001",
+      "pass": true,
+      "detail": [
+        [
+          27.0,
+          -19.0,
+          -1.3199999332427979
+        ],
+        [
+          33.0,
+          -11.0,
+          -1.0
+        ]
+      ]
+    },
+    {
+      "name": "Unchanged Workshop_Floor",
+      "pass": true,
+      "detail": [
+        [
+          33.0,
+          -18.0,
+          -1.3199999332427979
+        ],
+        [
+          36.0,
+          -13.0,
+          -1.0
+        ]
+      ]
+    },
+    {
+      "name": "Unchanged Relay_Floor",
+      "pass": true,
+      "detail": [
+        [
+          46.0,
+          11.0,
+          2.6999998092651367
+        ],
+        [
+          50.0,
+          15.0,
+          3.0
+        ]
+      ]
+    },
+    {
+      "name": "New deck clears gondola bay",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "New deck clears internal descent",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "New deck clears arrival descent",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "lower entry floor",
+      "pass": true,
+      "detail": {
+        "object": "Drive_Floor",
+        "point": [
+          5.25,
+          0.7999999523162842,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "lower entry headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "lower aisle floor",
+      "pass": true,
+      "detail": {
+        "object": "Flush_steel_plate.108",
+        "point": [
+          4.300000190734863,
+          2.0,
+          0.007999986410140991
+        ]
+      }
+    },
+    {
+      "name": "lower aisle headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "lower aisle floor",
+      "pass": true,
+      "detail": {
+        "object": "Flush_steel_plate.110",
+        "point": [
+          4.300000190734863,
+          3.9000000953674316,
+          0.007999986410140991
+        ]
+      }
+    },
+    {
+      "name": "lower aisle headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "drive door floor",
+      "pass": true,
+      "detail": {
+        "object": "Generator_Floor",
+        "point": [
+          2.0,
+          -0.09999990463256836,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "drive door headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "lower stores floor",
+      "pass": true,
+      "detail": {
+        "object": "Generator_Floor",
+        "point": [
+          2.0,
+          -3.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "lower stores headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "boarding approach floor",
+      "pass": true,
+      "detail": {
+        "object": "R04_Concrete_Finish.007",
+        "point": [
+          0.0,
+          4.400000095367432,
+          3.9993607997894287
+        ]
+      }
+    },
+    {
+      "name": "boarding approach headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cabin entry floor",
+      "pass": true,
+      "detail": {
+        "object": "Gondola_Floor",
+        "point": [
+          0.0,
+          5.179999828338623,
+          4.0
+        ]
+      }
+    },
+    {
+      "name": "cabin entry headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cabin aisle floor",
+      "pass": true,
+      "detail": {
+        "object": "Gondola_Floor",
+        "point": [
+          0.0,
+          8.0,
+          4.0
+        ]
+      }
+    },
+    {
+      "name": "cabin aisle headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hall door floor",
+      "pass": true,
+      "detail": {
+        "object": "Flush_threshold.003",
+        "point": [
+          -10.25,
+          -0.11999999731779099,
+          4.02400016784668
+        ]
+      }
+    },
+    {
+      "name": "hall door headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "control door floor",
+      "pass": true,
+      "detail": {
+        "object": "Flush_threshold",
+        "point": [
+          -3.299999952316284,
+          0.15000000596046448,
+          4.02400016784668
+        ]
+      }
+    },
+    {
+      "name": "control door headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "control aisle floor",
+      "pass": true,
+      "detail": {
+        "object": "Control_Floor",
+        "point": [
+          -4.099999904632568,
+          -2.0,
+          4.0
+        ]
+      }
+    },
+    {
+      "name": "control aisle headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "hall link floor",
+      "pass": true,
+      "detail": {
+        "object": "Flush_threshold.001",
+        "point": [
+          -8.0,
+          -3.0999999046325684,
+          4.02400016784668
+        ]
+      }
+    },
+    {
+      "name": "hall link headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "quarters doorway floor",
+      "pass": true,
+      "detail": {
+        "object": "Flush_threshold.002",
+        "point": [
+          -2.130000114440918,
+          -4.5,
+          7.673999786376953
+        ]
+      }
+    },
+    {
+      "name": "quarters doorway headroom",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Exterior_Tread_01_Open unchanged",
+      "pass": true,
+      "detail": 3.333194255829286e-05
+    },
+    {
+      "name": "Exterior_Tread_02_Open unchanged",
+      "pass": true,
+      "detail": 3.3354592323314725e-05
+    },
+    {
+      "name": "Exterior_Tread_03_Open unchanged",
+      "pass": true,
+      "detail": 9.918212882098487e-07
+    },
+    {
+      "name": "Exterior_Tread_04_Open unchanged",
+      "pass": true,
+      "detail": 3.334684371947283e-05
+    },
+    {
+      "name": "Exterior_Tread_05_Open unchanged",
+      "pass": true,
+      "detail": 3.333969116214863e-05
+    },
+    {
+      "name": "Exterior_Tread_06_Open unchanged",
+      "pass": true,
+      "detail": 9.918212882098487e-07
+    },
+    {
+      "name": "Exterior_Tread_07_Open unchanged",
+      "pass": true,
+      "detail": 3.337306976325394e-05
+    },
+    {
+      "name": "Exterior_Tread_08_Open unchanged",
+      "pass": true,
+      "detail": 3.333969116203761e-05
+    },
+    {
+      "name": "Exterior_Tread_09_Open unchanged",
+      "pass": true,
+      "detail": 9.918212882098487e-07
+    },
+    {
+      "name": "Exterior_Tread_10_Open unchanged",
+      "pass": true,
+      "detail": 3.328723907469744e-05
+    },
+    {
+      "name": "Exterior_Tread_11_Open unchanged",
+      "pass": true,
+      "detail": 3.333969116203761e-05
+    },
+    {
+      "name": "Exterior_Tread_12_Open unchanged",
+      "pass": true,
+      "detail": 9.918212882098487e-07
+    },
+    {
+      "name": "Exterior_Tread_13_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Exterior_Tread_14_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Exterior_Tread_15_Open unchanged",
+      "pass": true,
+      "detail": 9.918212882098487e-07
+    },
+    {
+      "name": "Exterior_Tread_16_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Exterior_Tread_17_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Exterior_Tread_18_Open unchanged",
+      "pass": true,
+      "detail": 9.918212882098487e-07
+    },
+    {
+      "name": "Exterior_Tread_19_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Exterior_Tread_20_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Exterior_Tread_21_Open unchanged",
+      "pass": true,
+      "detail": 9.918212882098487e-07
+    },
+    {
+      "name": "Exterior_Tread_22_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Exterior_Tread_23_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Internal_Tread_01_Open unchanged",
+      "pass": true,
+      "detail": 3.333194255829286e-05
+    },
+    {
+      "name": "Internal_Tread_02_Open unchanged",
+      "pass": true,
+      "detail": 3.3354592323314725e-05
+    },
+    {
+      "name": "Internal_Tread_03_Open unchanged",
+      "pass": true,
+      "detail": 2.2888183615066282e-07
+    },
+    {
+      "name": "Internal_Tread_04_Open unchanged",
+      "pass": true,
+      "detail": 3.334684371947283e-05
+    },
+    {
+      "name": "Internal_Tread_05_Open unchanged",
+      "pass": true,
+      "detail": 3.333969116214863e-05
+    },
+    {
+      "name": "Internal_Tread_06_Open unchanged",
+      "pass": true,
+      "detail": 2.2888183615066282e-07
+    },
+    {
+      "name": "Internal_Tread_07_Open unchanged",
+      "pass": true,
+      "detail": 3.337306976325394e-05
+    },
+    {
+      "name": "Internal_Tread_08_Open unchanged",
+      "pass": true,
+      "detail": 3.333969116203761e-05
+    },
+    {
+      "name": "Internal_Tread_09_Open unchanged",
+      "pass": true,
+      "detail": 2.2888183615066282e-07
+    },
+    {
+      "name": "Internal_Tread_10_Open unchanged",
+      "pass": true,
+      "detail": 3.328723907469744e-05
+    },
+    {
+      "name": "Internal_Tread_11_Open unchanged",
+      "pass": true,
+      "detail": 3.333969116203761e-05
+    },
+    {
+      "name": "Internal_Tread_12_Open unchanged",
+      "pass": true,
+      "detail": 2.2888183615066282e-07
+    },
+    {
+      "name": "Internal_Tread_13_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Internal_Tread_14_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Internal_Tread_15_Open unchanged",
+      "pass": true,
+      "detail": 2.2888183615066282e-07
+    },
+    {
+      "name": "Internal_Tread_16_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Internal_Tread_17_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Internal_Tread_18_Open unchanged",
+      "pass": true,
+      "detail": 3.3569335933236744e-07
+    },
+    {
+      "name": "Internal_Tread_19_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Internal_Tread_20_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Internal_Tread_21_Open unchanged",
+      "pass": true,
+      "detail": 2.2888183615066282e-07
+    },
+    {
+      "name": "Internal_Tread_22_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Internal_Tread_23_Open unchanged",
+      "pass": true,
+      "detail": 3.349227905280472e-05
+    },
+    {
+      "name": "Three outward material band widths",
+      "pass": true,
+      "detail": [
+        1.8,
+        3.6,
+        1.95
+      ]
+    },
+    {
+      "name": "West_canopy_clear_of_quarters clears upper floor",
+      "pass": true,
+      "detail": [
+        [
+          -8.0,
+          1.4800000190734863,
+          7.420000076293945
+        ],
+        [
+          -2.0,
+          7.099999904632568,
+          7.600000381469727
+        ]
+      ]
+    },
+    {
+      "name": "Front_canopy_clear_of_quarters clears upper floor",
+      "pass": true,
+      "detail": [
+        [
+          -1.25,
+          0.0,
+          7.420000076293945
+        ],
+        [
+          2.0,
+          4.800000190734863,
+          7.600000381469727
+        ]
+      ]
+    },
+    {
+      "name": "Canopy_corner_return clears upper floor",
+      "pass": true,
+      "detail": [
+        [
+          -2.0,
+          1.4800001382827759,
+          7.420000076293945
+        ],
+        [
+          -1.25,
+          4.800000190734863,
+          7.600000381469727
+        ]
+      ]
+    }
+  ],
+  "passed": 88,
+  "failed": []
+}

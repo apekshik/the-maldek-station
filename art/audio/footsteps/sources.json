@@ -1,0 +1,57 @@
+{
+  "Step_soil_00": "kenney\\Audio\\footstep_grass_000.ogg",
+  "Step_soil_01": "kenney\\Audio\\footstep_grass_001.ogg",
+  "Step_soil_02": "kenney\\Audio\\footstep_grass_002.ogg",
+  "Step_soil_03": "kenney\\Audio\\footstep_grass_003.ogg",
+  "Step_soil_04": "kenney\\Audio\\footstep_grass_004.ogg",
+  "Step_concrete_00": "kenney\\Audio\\footstep_concrete_000.ogg",
+  "Step_concrete_01": "kenney\\Audio\\footstep_concrete_001.ogg",
+  "Step_concrete_02": "kenney\\Audio\\footstep_concrete_002.ogg",
+  "Step_concrete_03": "kenney\\Audio\\footstep_concrete_003.ogg",
+  "Step_concrete_04": "kenney\\Audio\\footstep_concrete_004.ogg",
+  "Step_wood_00": "kenney\\Audio\\footstep_wood_000.ogg",
+  "Step_wood_01": "kenney\\Audio\\footstep_wood_001.ogg",
+  "Step_wood_02": "kenney\\Audio\\footstep_wood_002.ogg",
+  "Step_wood_03": "kenney\\Audio\\footstep_wood_003.ogg",
+  "Step_wood_04": "kenney\\Audio\\footstep_wood_004.ogg",
+  "Step_gravel_00": [
+    "tinyworlds/gravel.ogg",
+    "kenney\\Audio\\footstep_concrete_000.ogg"
+  ],
+  "Step_gravel_01": [
+    "tinyworlds/gravel.ogg",
+    "kenney\\Audio\\footstep_concrete_001.ogg"
+  ],
+  "Step_gravel_02": [
+    "tinyworlds/gravel.ogg",
+    "kenney\\Audio\\footstep_concrete_002.ogg"
+  ],
+  "Step_gravel_03": [
+    "tinyworlds/gravel.ogg",
+    "kenney\\Audio\\footstep_concrete_003.ogg"
+  ],
+  "Step_gravel_04": [
+    "tinyworlds/gravel.ogg",
+    "kenney\\Audio\\footstep_concrete_004.ogg"
+  ],
+  "Step_metal_00": [
+    "kenney\\Audio\\impactMetal_light_000.ogg",
+    "kenney/Audio/footstep_concrete_000.ogg"
+  ],
+  "Step_metal_01": [
+    "kenney\\Audio\\impactMetal_light_001.ogg",
+    "kenney/Audio/footstep_concrete_001.ogg"
+  ],
+  "Step_metal_02": [
+    "kenney\\Audio\\impactMetal_light_002.ogg",
+    "kenney/Audio/footstep_concrete_002.ogg"
+  ],
+  "Step_metal_03": [
+    "kenney\\Audio\\impactMetal_light_003.ogg",
+    "kenney/Audio/footstep_concrete_003.ogg"
+  ],
+  "Step_metal_04": [
+    "kenney\\Audio\\impactMetal_light_004.ogg",
+    "kenney/Audio/footstep_concrete_004.ogg"
+  ]
+}

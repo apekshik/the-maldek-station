@@ -1,0 +1,24 @@
+{
+  "fog": {
+    "location": "<Struct 'Vector' (0x0000022175D4FFD0) {x: -43369.891053, y: 19420.190387, z: 10238.500000}>",
+    "fog_density": "0.025350624695420265",
+    "fog_height_falloff": "0.027249999344348907",
+    "start_distance": "331.9276428222656",
+    "fog_max_opacity": "1.0",
+    "volumetric_fog_distance": "8000.0",
+    "volumetric_fog_albedo": "<Struct 'Color' (0x000002217AB192BC) {b: 255, g: 255, r: 255, a: 255}>",
+    "volumetric_fog_emissive": "<Struct 'LinearColor' (0x000002217AB192C0) {r: 0.000000, g: 0.000000, b: 0.000000, a: 0.000000}>",
+    "directional_inscattering_start_distance": "10000.0",
+    "fog_cutoff_distance": "0.0"
+  },
+  "local_fog_available": true,
+  "local_props": {
+    "radial_fog_extinction": "1.0",
+    "height_fog_extinction": "1.0",
+    "height_fog_falloff": "1000.0",
+    "height_fog_offset": "0.0",
+    "fog_albedo": "<Struct 'LinearColor' (0x00000221D1D420A4) {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}>",
+    "fog_emissive": "<Struct 'LinearColor' (0x00000221D1D420B4) {r: 0.000000, g: 0.000000, b: 0.000000, a: 1.000000}>",
+    "fog_phase_g": "0.20000000298023224"
+  }
+}

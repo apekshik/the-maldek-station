@@ -8,6 +8,7 @@
 
 class USpotLightComponent;
 class UInputAction;
+class USurfaceFootstepComponent;
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateSprintMeterDelegate, float, Percentage);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FSprintStateChangedDelegate, bool, bSprinting);
@@ -24,6 +25,9 @@ class GAME_API AHorrorCharacter : public AgameCharacter
 	/** Player light source */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta = (AllowPrivateAccess = "true"))
 	USpotLightComponent* SpotLight;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess="true"))
+	USurfaceFootstepComponent* SurfaceFootsteps;
 	
 protected:
 

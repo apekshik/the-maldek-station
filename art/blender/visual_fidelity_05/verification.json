@@ -1,0 +1,2063 @@
+{
+  "count": 513,
+  "passed": true,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Stair tread height",
+      "passed": true
+    },
+    {
+      "check": "Stair headroom",
+      "passed": true
+    },
+    {
+      "check": "Upper landing floor",
+      "passed": true
+    },
+    {
+      "check": "Upper access headroom",
+      "passed": true
+    },
+    {
+      "check": "Upper landing floor",
+      "passed": true
+    },
+    {
+      "check": "Upper access headroom",
+      "passed": true
+    },
+    {
+      "check": "Upper landing floor",
+      "passed": true
+    },
+    {
+      "check": "Upper access headroom",
+      "passed": true
+    },
+    {
+      "check": "Upper landing floor",
+      "passed": true
+    },
+    {
+      "check": "Upper access headroom",
+      "passed": true
+    },
+    {
+      "check": "Upper landing floor",
+      "passed": true
+    },
+    {
+      "check": "Upper access headroom",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Promenade 1.2m diameter clearance",
+      "passed": true
+    },
+    {
+      "check": "Inner ring has real openings",
+      "passed": true,
+      "coverage": 0.33014354066985646
+    },
+    {
+      "check": "Broad middle ring is solid",
+      "passed": true,
+      "coverage": 1.0
+    },
+    {
+      "check": "Outer ring has real openings",
+      "passed": true,
+      "coverage": 0.15789473684210525
+    },
+    {
+      "check": "Transfer slab meets upper floor",
+      "passed": true
+    },
+    {
+      "check": "Transfer slab meets lower wall top",
+      "passed": true
+    },
+    {
+      "check": "Upper floor at intended height",
+      "passed": true
+    },
+    {
+      "check": "Upper room projects forward",
+      "passed": true
+    }
+  ],
+  "limits": "Sampled geometry checks, not Unreal capsule tests or structural validation."
+}

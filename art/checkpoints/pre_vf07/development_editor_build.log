@@ -1,0 +1,8 @@
+Using bundled DotNet SDK version: 8.0.412 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" gameEditor Win64 Development C:/Users/apek-anna/Developer/the-maldek-station/game/game.uproject -WaitMutex -NoHotReloadFromIDE
+Log file: C:\Users\apek-anna\AppData\Local\UnrealBuildTool\Log.txt
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\apek-anna\Developer\the-maldek-station).
+Target is up to date
+
+Result: Succeeded
+Total execution time: 1.92 seconds

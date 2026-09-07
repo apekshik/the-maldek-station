@@ -1,0 +1,14 @@
+C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_03\scripts\build_revision.py:16: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  c=y0+(y1-y0)*iy/ny+.004;d=y0+(y1-y0)*(iy+1)/ny-.004
+C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_03\scripts\build_revision.py:285: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+00:03.938  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:32.688  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_03\renders\01_Control_Quarters.png'
+00:55.391  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_03\renders\02_Rear_Stair.png'
+01:09.172  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_03\renders\03_Upper_Interior.png'
+01:27.922  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_03\renders\04_Building_Family.png'
+01:39.016  render           | Saved: 'C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_03\renders\05_Control_Interior.png'
+Info: Saved as "Maldek_Architecture_Redesign.blend"
+REDESIGN_COMPLETE
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

@@ -12,6 +12,7 @@ public class game : ModuleRules
 			"Core",
 			"CoreUObject",
 			"Engine",
+			"PhysicsCore",
 			"InputCore",
 			"EnhancedInput",
 			"AIModule",

@@ -1,0 +1,881 @@
+Begin Object Class=/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C Name="Default__Ultra_Dynamic_Sky_C" ExportPath="/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Default__Ultra_Dynamic_Sky_C'"
+   UDS_PlayerOcclusion=None
+   Cloud Paint Actors Manager=None
+   UDS_Editor_Tick_Handler=None
+   UDS_Utility_Opener=None
+   Moon=None
+   Sun=None
+   Moon Parent=None
+   Sun Parent=None
+   Moon Handle=None
+   Sun Handle=None
+   S=None
+   E=None
+   N=None
+   W=None
+   Compass=None
+   UDS Label=None
+   Captured Scene Sky Light=None
+   VolumetricCloud=None
+   Cubemap Sky Light=None
+   Sky_Sphere=None
+   SkyAtmosphere=None
+   HeightFog=None
+   ClockDisk=None
+   SkyRoot=None
+   Sky Sphere MID=None
+   Cloud Speed=0.350000
+   "Cloud Wisps Opacity (Clear)"=0.200000
+   Refresh Settings=False
+   Time of Day=960.000000
+   Sky Mode=NewEnumerator0
+   Color Mode=NewEnumerator0
+   Project Mode=NewEnumerator0
+   Feature Level=NewEnumerator0
+   Cloud Coverage=3.800000
+   Fog=1.000000
+   Overall Intensity=1.000000
+   Cloud Direction=180.000000
+   Cloud Phase=0.000000
+   Manually Position Moon Target=False
+   Render Moon=True
+   Moon Light Intensity=0.150000
+   Moon Mobility=Movable
+   Moon Scale=0.950000
+   Moon Phase=0.000000
+   Moon Yaw=15.000000
+   Moon Pitch=35.000000
+   Moon Vertical Offset=0.040000
+   Moon Orbit Offset=0.000000
+   Moon Casts Shadows=True
+   Moon Transmission=False
+   Moon Light Color=(R=0.445801,G=0.557475,B=0.864583,A=1.000000)
+   Moon Texture="/Game/UltraDynamicSky/Textures/Sky/Moon_Color.Moon_Color"
+   Moon Material Color=(R=0.486328,G=0.574971,B=0.864583,A=1.000000)
+   "Moon Texture Intensity (Night)"=0.300000
+   "Moon Texture Intensity (Day)"=0.600000
+   Moon Glow Intensity=0.070000
+   Moon Glow Scale=1.000000
+   Render Moon Phases=True
+   Moon Phase Contrast=1.600000
+   Moon Phase Changes Over Time=False
+   Dark Side Brightness=0.005000
+   Moon Phase Normal="/Game/UltraDynamicSky/Textures/Sky/Moon_PhaseNormal.Moon_PhaseNormal"
+   Manually Position Sun Target=False
+   Sun Light Intensity=5.000000
+   Sun Mobility=Movable
+   Sun Yaw=0.000000
+   Contrast=0.100000
+   Saturation=1.000000
+   Dawn Time=600.000000
+   Dusk Time=1800.000000
+   "Lighting Brightness (Day)"=1.000000
+   "Lighting Brightness (Dawn/Dusk)"=1.000000
+   "Lighting Brightness (Night)"=1.000000
+   Sun Pitch=30.000000
+   Sun Vertical Offset=0.000000
+   Sun Casts Shadows=True
+   Sun Transmission=False
+   Sun Light Color=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Soften 2D Dynamic Cloud Layer 1=0.000000
+   Soften 2D Dynamic Cloud Layer 2=0.000000
+   Sharpen 2D Dynamic Cloud Outer Edge=0.000000
+   Stars Intensity=0.750000
+   Stars Color=(R=0.484375,G=0.639062,B=1.000000,A=1.000000)
+   Sun Scale=1.200000
+   Cloud Shadows MID=None
+   Use Cloud Shadows=True
+   Cloud Shadows Intensity When Sunny=0.700000
+   Stars Speed=0.030000
+   New Moon Light Brightness=0.015000
+   Moon Source Angle Scale=1.000000
+   Moon Texture Rotation=0.000000
+   Sky Light Mode=NewEnumerator0
+   Use Auroras=False
+   Aurora Intensity=0.120000
+   Aurora Speed=0.150000
+   Cloud Shadows Intensity When Overcast=1.000000
+   Cloud Shadows Softness=0.100000
+   2D Dynamic Cloud Tiling=3.500000
+   Soften 2D Dynamic Cloud Horizon=2.000000
+   2D Dynamic Clouds - Use Single Layer=False
+   2D Dynamic Cloud Height=0.500000
+   2D Dynamic Clouds Overcast Texture=2.000000
+   Directional Balance=1.000000
+   Night Brightness=1.000000
+   Sun Softness=3.800000
+   Aurora Phase=1.000000
+   Sun_LightComponent=None
+   Moon_LightComponent=None
+   SkyLightComponent=None
+   Height Fog Component=None
+   Apply Exposure Settings=True
+   Exposure Metering Mode=AEM_Histogram
+   Exposure Compensation Curve="/Script/Engine.CurveFloat'/Game/UltraDynamicSky/Materials/Float_Curves/Exposure_Compensation_Curve.Exposure_Compensation_Curve'"
+   Animate Time of Day=False
+   Day Length=30.000000
+   Night Length=15.000000
+   Sun Disk Tint=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Extend Dawn and Dusk=0.000000
+   Base Fog Density=0.005500
+   Foggy Density Contribution=0.100000
+   Cloudy Density Contribution=0.002000
+   Dust Density Contribution=0.500000
+   Stars Tiling=2.500000
+   Stars Daytime Intensity=0.000000
+   Twinkle Amount=0.300000
+   Twinkle Speed=1.000000
+   Tiling Stars Texture="/Game/UltraDynamicSky/Textures/Sky/Tiling_Stars.Tiling_Stars"
+   Real Stars Texture="/Game/UltraDynamicSky/Textures/Sky/Real_Stars.Real_Stars"
+   Stars Phase=0.000000
+   Sky Light Intensity=1.000000
+   Sky Light Mobility=Movable
+   Sky Light Temperature=0.000000
+   "Sky Light Color Multiplier (Day)"=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   "Sky Light Color Multiplier (Dawn/Dusk)"=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   "Sky Light Color Multiplier (Night)"=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Real Time Capture=True
+   Render Sky Light=True
+   Move Sky Light Capture with Camera Location=True
+   Sky Light Movement uses Z Axis=False
+   "Sky Light Lower Hemisphere Tint (Capture Based)"=(R=0.260417,G=0.229905,B=0.202094,A=1.000000)
+   "Sky Light Lower Hemisphere Tint (Cubemap)"=(R=0.000000,G=0.000000,B=0.000000,A=0.750000)
+   Sky Light Cubemap="/Game/UltraDynamicSky/Textures/Sky/FlatCubemap.FlatCubemap"
+   Sky Light Cubemap Angle=0.000000
+   Custom Sky Light Actor=None
+   Real Time Capture Uses Time Slicing=True
+   Real Time Capture Time Slicing Cloud Faces Per Frame=1
+   Static/Stationary Sky Light Casts Shadows=True
+   "Movable Sky Light Casts Shadows (Enable DFAO)"=False
+   Random Starting Time=False
+   Sunrise Event Offset=0.000000
+   Sunset Event Offset=0.000000
+   "Cloud Wisps Opacity (Cloudy)"=0.500000
+   Cloud Wisps Texture="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Sky/Cloud_Wisps.Cloud_Wisps'"
+   2D Dynamic Cloud Formation Texture="/Game/UltraDynamicSky/Textures/Clouds/clouds_diverse.clouds_diverse"
+   2D Dynamic Clouds Sun Shader Intensity=0.350000
+   2D Dynamic Clouds Directional Lighting Intensity=3.000000
+   2D Dynamic Clouds Sun Highlight Radius Scale=1.000000
+   2D Dynamic Cloud Opacity=1.000000
+   2D Clouds Horizon Density Multiplier=1.100000
+   2D Clouds Zenith Density Multiplier=0.900000
+   2D Clouds Latitude Gradient Position=0.250000
+   2D Clouds Latitude Gradient Width=50.000000
+   2D Clouds Around Sun Density Multiplier=1.000000
+   2D Clouds Around Sun Density Exponent=25.000000
+   2D Clouds Around Moon Density Multiplier=1.000000
+   2D Clouds Around Moon Density Exponent=45.000000
+   2D Clouds Shading Offset=1.000000
+   2D Dynamic Clouds Shine Intensity Curve="/Script/Engine.CurveFloat'/Game/UltraDynamicSky/Materials/Float_Curves/Shine_Intensity.Shine_Intensity'"
+   2D Dynamic Clouds Sun Highlight Intensity Curve="/Script/Engine.CurveFloat'/Game/UltraDynamicSky/Materials/Float_Curves/Sun_Highlight_Intensity.Sun_Highlight_Intensity'"
+   2D Dynamic Clouds Sun Highlight Radius Curve="/Script/Engine.CurveFloat'/Game/UltraDynamicSky/Materials/Float_Curves/Sun_Highlight_Radius.Sun_Highlight_Radius'"
+   Adjust for Path Tracer=False
+   Lights Update Period=0.000000
+   Lights Update Degree Threshold=0.030000
+   Dim Directional Lights with Cloud Coverage=False
+   Directional Lights Absent Brightness=2.000000
+   Sky Configuration Override=None
+   Extra Night Brightness when Cloudy=0.000000
+   Vol Clouds MID Complex=None
+   Volumetric Cloud Rendering Mode=NewEnumerator0
+   Bottom Altitude=0.600000
+   Volumetric Clouds Scale=1.000000
+   Layer Height Scale=1.000000
+   Cloud Formation Texture Scale=1.000000
+   Cloud Formation Z Shift=0.000000
+   3D Noise Scale=0.900000
+   3D Erosion Intensity=1.200000
+   High Frequency Noise Amount=0.240000
+   High Frequency Noise Distance Scale=130000.000000
+   Max High Frequency Noise Levels=2
+   Distort High Frequency Noise=0.210000
+   Extinction Scale=10.000000
+   Base Floor Variation=0.100000
+   Overcast Floor Variation=0.800000
+   Floor Luminance Scale=1.200000
+   "View Sample Scale (Day)"=2.200000
+   "View Sample Scale (Night)"=1.700000
+   Shadow Sample Scale=0.400000
+   Shadow Tracing Distance=0.500000
+   "Tracing Max Distance (Inside Cloud Layer)"=6.000000
+   "Tracing Max Distance (Outside Cloud Layer)"=20.000000
+   Volumetric Cloud Color=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Cloud Profile LUT="/Game/UltraDynamicSky/Textures/Volumetric_Clouds/Cloud_Profile.Cloud_Profile"
+   Volumetric Cloud Formation Volume Texture="/Game/UltraDynamicSky/Textures/3D_Clouds/FormationVolume.FormationVolume"
+   Minimum Erosion=0.000000
+   Close View Sample Ratio=2.000000
+   Cloud Formation Mip Level=0.000000
+   Reflection Sample Count Scale=2.000000
+   Reflection Shadow Sample Count Scale=0.300000
+   Volumetric Cloud Ambient Light Intensity=1.000000
+   "Volumetric Cloud Ambient Light (Day)"=(R=0.354899,G=0.463542,B=0.443624,A=1.000000)
+   "Volumetric Cloud Ambient Light (Dawn/Dusk)"=(R=0.531250,G=0.313991,B=0.296061,A=1.000000)
+   "Volumetric Cloud Ambient Light (Night)"=(R=0.368548,G=0.376632,B=0.500000,A=1.000000)
+   Volumetric Cloud Ambient Light Saturation=0.450000
+   Multiscattering Light Intensity=0.850000
+   Multiscattering Light Occlusion=0.500000
+   Vol Clouds MID Simple=None
+   Scale Fog Density=1.000000
+   Min Fog Start Distance=0.000000
+   Max Fog Start Distance=15000.000000
+   Min Fog Start Distance Density=0.080000
+   Formation Change Speed=0.700000
+   Randomize Cloud Formation on Run=True
+   3D Noise Vertical Movement=0.250000
+   Macro Variation=0.160000
+   Macro Scale=1.300000
+   Multiscattering Phase 1=0.850000
+   Multiscattering Phase 2=0.400000
+   Multiscattering Eccentricity=0.400000
+   Time Event Dispatcher Check Period=1.000000
+   Time Speed=1.000000
+   Time Cycle Degrees=0.000000
+   Tracing Max Start Distance=100.000000
+   Aurora Shape Change Speed=2.000000
+   Aurora Texture Scale=1.000000
+   Daytime Aurora Intensity=0.000000
+   Aurora Color 1=(R=0.619792,G=0.091135,B=0.341744,A=1.000000)
+   Aurora Color 2=(R=0.189217,G=1.000000,B=0.050196,A=1.000000)
+   Aurora Color 3=(R=0.070031,G=0.347007,B=0.656250,A=1.000000)
+   Volumetric Aurora MID=None
+   Half Rate Tick=True
+   Half Rate Tick Framerate Threshold=45
+   Disable All Runtime Updating=False
+   Use Sky Mode Scalability Map=False
+   Sky Mode Scalability Map=((0, NewEnumerator6),(1, NewEnumerator6),(2, NewEnumerator0),(3, NewEnumerator0),(4, NewEnumerator0))
+   Sun Disk Intensity=4.000000
+   Inside Clouds Fog MID=None
+   Enable Fog Inside Clouds=True
+   Aurora Sky Light/Reflection Brightness=1.000000
+   Aurora Texture="/Game/UltraDynamicSky/Textures/Clouds/Aurora_Clouds.Aurora_Clouds"
+   2D Aurora Max Samples=14.000000
+   2D Aurora Sample Step Size=0.025000
+   2D Aurora Line Exponent=15.000000
+   2D Aurora Mask Exponent=3.500000
+   Volumetric Aurora Rendering Mode=NewEnumerator1
+   Volumetric Aurora Sample Count Scale=1.000000
+   Volumetric Aurora Layer Height=1.200000
+   Volumetric Aurora Bottom Altitude=0.500000
+   Fog Density Daytime Mutliplier=1.000000
+   Fog Density Nighttime Multiplier=1.000000
+   Base Height Fog Falloff=0.065000
+   Cloudy Height Fog Falloff=0.050000
+   Foggy Height Fog Falloff=0.015000
+   Inside Cloud Fog Strength=1.000000
+   Inside Cloud Fog Color=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   2D Overcast Turbulence=0.800000
+   Close Fade Distance=100000.000000
+   Close Fade Offset=5000.000000
+   Two Layers=False
+   Layer 2 Coverage Scale=1.000000
+   Layer 2 Extinction Scale=0.050000
+   Layer 2 Cloud Scale=(X=0.600000,Y=1.400000)
+   Layer 2 Mip Offset=1.000000
+   Distance Between Layers=0.000000
+   Enable Sun Light Shaft Bloom=False
+   Sun Light Shaft Bloom - Scale=0.300000
+   Sun Light Shaft Bloom - Max Brightness=0.350000
+   Sun Light Shaft Bloom - Threshold=0.750000
+   Sun Light Shaft Bloom - Tint Color=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Enable Moon Light Shaft Bloom=False
+   Moon Light Shaft Bloom - Scale=0.400000
+   Moon Light Shaft Bloom - Max Brightness=0.150000
+   Moon Light Shaft Bloom - Threshold=0.150000
+   Moon Light Shaft Bloom - Tint Color=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Volumetric Clouds Replacement=NewEnumerator6
+   Real Time Capture Sky Light Replacement=NewEnumerator2
+   Volumetric Aurora Replacement=NewEnumerator4
+   Platform Feature Levels=()
+   Simulate Real Sun=False
+   Simulate Real Moon=False
+   Simulate Real Stars=False
+   Location Preset=NewEnumerator0
+   Latitude=51.178856
+   Longitude=-1.826185
+   Time Zone=0.000000
+   Month=3
+   Day=26
+   Year=2021
+   North Yaw=0.000000
+   Simulation Speed=1.000000
+   Use System Time=False
+   Apply Daylight Savings Time=True
+   Calendar="/Game/UltraDynamicSky/Blueprints/System/UDS_Calendar.UDS_Calendar_C'/Game/UltraDynamicSky/Blueprints/System/Calendars/Gregorian_Calendar.Gregorian_Calendar'"
+   Simulation Speed Night Multiplier=1.000000
+   DST Start Month=3
+   DST Start Day of the Week=6
+   DST Start Day Count=0
+   Allow DST=False
+   DST Start Day=14
+   DST Start Hour=1
+   DST End Month=10
+   DST End Day of the Week=6
+   DST End Day Count=0
+   Stellar Calibration=0.000000
+   Lunar Orbit Calibration=0.358600
+   Lunar Inclination Calibration=0.642000
+   Daylight Savings Time=False
+   DST Start Year Progress=0.000000
+   DST End Day=7
+   DST End Year Progress=0.000000
+   Total Days Elapsed=0
+   Preview Cloud Movement in Editor=True
+   Clouds Move with Time of Day=False
+   Time of Day Movement Multiplier=1.000000
+   Sky MID Parent Instances=(("", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_B.UDS_B"),("A", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_A.UDS_A"),("AD", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_AD.UDS_AD"),("ADO", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_ADO.UDS_ADO"),("CA", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_CA.UDS_CA"),("CAD", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_CAD.UDS_CAD"),("CADO", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_CADO.UDS_CADO"),("CD", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_CD.UDS_CD"),("CDO", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_CDO.UDS_CDO"),("CS", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_CS.UDS_CS"),("D", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_D.UDS_D"),("DO", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_DO.UDS_DO"),("K", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_K.UDS_K"),("KA", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KA.UDS_KA"),("KAD", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KAD.UDS_KAD"),("KADO", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KADO.UDS_KADO"),("KCA", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KCA.UDS_KCA"),("KCAD", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KCAD.UDS_KCAD"),("KCADO", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KCADO.UDS_KCADO"),("KCD", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KCD.UDS_KCD"),("KCDO", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KCDO.UDS_KCDO"),("KCS", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KCS.UDS_KCS"),("KD", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KD.UDS_KD"),("KDO", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KDO.UDS_KDO"),("KS", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KS.UDS_KS"),("P", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_P.UDS_P"),("PC", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_PC.UDS_PC"),("S", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_S.UDS_S"),("C", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_C.UDS_C"),("KC", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KC.UDS_KC"),("KAS", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KAS.UDS_KAS"),("KCAS", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_KCAS.UDS_KCAS"),("AS", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_AS.UDS_AS"),("CAS", "/Game/UltraDynamicSky/Materials/Material_Instances/UDS_CAS.UDS_CAS"))
+   Fog Shadows=0.800000
+   Dust Shadows=1.000000
+   2D Cloud Shadows Speed=1.000000
+   2D Cloud Shadows Scale=450000.000000
+   2D Cloud Shadows Light Angle Offset Scale=1.000000
+   Correct Specular Scale for Low Angle Cloud Shadows=False
+   Disable Directional Light Shadows when Fully Shadowed by Clouds=True
+   Custom Light Function Material=None
+   Force Light Functions On=True
+   Time of Day Replication Period=1.000000
+   Replicated Time of Day=-1.000000
+   Render Moon Directional Light=True
+   Custom Moon Light Actor=None
+   Scale Moon Radius as it Nears Horizon=1.000000
+   Fog Colors from Sky Atmosphere=False
+   Dusty Height Fog Falloff=0.030000
+   Moon Specular Scale=0.100000
+   Ambient Light from Sky Atmosphere=0.000000
+   Volumetric Cloud Ambient Light Bottom Scale=0.850000
+   Volumetric Cloud Ambient Light Top Scale=1.000000
+   Change to Simplified Material when Overcast=True
+   Simplified Material Cloud Coverage Threshold=2.100000
+   Simplified Material Fade Length=0.200000
+   Scale View Samples when Overcast=0.700000
+   Cloud Phase Vector Multiplier=(X=0.000000,Y=0.000000,Z=0.000000)
+   "Rayleigh Scattering Color (Day)"=(R=0.168627,G=0.407843,B=1.000000,A=1.000000)
+   "Rayleigh Scattering Color (Dawn/Dusk)"=(R=0.170000,G=0.409234,B=1.000000,A=1.000000)
+   "Rayleigh Scattering Color (Night)"=(R=0.241211,G=0.347328,B=0.609375,A=1.000000)
+   Desaturate Rayleigh Scattering when Cloudy=0.400000
+   Current Time of Day Offset=0.000000
+   Last Frame Time of Day=-5.000000
+   Time of Day Change Speed=0.000000
+   Night Sky Glow=0.600000
+   Night Sky Glow Color=(R=0.093045,G=0.141694,B=0.255208,A=1.000000)
+   Light Pollution Intensity=0.000000
+   Light Pollution Color=(R=0.630208,G=0.481016,B=0.377575,A=1.000000)
+   Cloud Fog Post Process MID=None
+   Dimming Range=(LowerBound=(Type=Exclusive,Value=1.400000),UpperBound=(Type=Exclusive,Value=2.000000))
+   Dimming Range Exponent=2.000000
+   Custom Sky Sphere Material=None
+   Fog Snow Contribution=0.000000
+   "Sunset/Sunrise Color (Absorption)"=(R=0.198069,G=0.095307,B=1.000000,A=1.000000)
+   "Sunset/Sunrise Color Intensity (Absorption Scale)"=0.002000
+   Simulated Sunrise Time=0.000000
+   Simulated Sunset Time=0.000000
+   Base Cloud Height=15.000000
+   Enable Sun Lens Flare=False
+   Lens Flare Type=NewEnumerator0
+   Lens Flare Strength=0.300000
+   Lens Flare Tint=(R=1.000000,G=0.710467,B=0.440498,A=1.000000)
+   Lens Flare MID=None
+   Lens Flare Brightness Threshold=0.950000
+   Custom Lens Flare Parent Instance=None
+   Scale Flare Elements=1.000000
+   Dynamic Sky Light Transition Time=0.000000
+   Target Sky Light Multiplier=1.000000
+   Dynamic Sky Light Multiplier=1.000000
+   Cloud Coverage 0-3=0.000000
+   Global Overcast 0-1=0.000000
+   Local Overcast 0-1=0.000000
+   Override with New Changes=True
+   Scale View Samples when Camera is In Cloud Layer=2.000000
+   Low Material Quality Sample Count Scale=0.800000
+   Medium Material Quality Sample Count Scale=0.900000
+   Epic Material Quality Sample Count Scale=1.150000
+   2D Overcast Turbulence Texture="/Game/UltraDynamicSky/Textures/Clouds/CloudsTurbulence.CloudsTurbulence"
+   Epic Quality Volume Texture="/Game/UltraDynamicSky/Textures/3D_Clouds/3DCells_128.3DCells_128"
+   High Quality Volume Texture="/Game/UltraDynamicSky/Textures/3D_Clouds/3D_Cells_64.3D_Cells_64"
+   Low Quality Volume Texture="/Game/UltraDynamicSky/Textures/3D_Clouds/3D_Cells_32.3D_Cells_32"
+   Inside Cloud Fog Parent Material="/Game/UltraDynamicSky/Materials/Inside_Clouds_Fog_Particle.Inside_Clouds_Fog_Particle"
+   Post Process Cloud Fog Parent Material="/Game/UltraDynamicSky/Materials/Cloud_Fog_PostProcess.Cloud_Fog_PostProcess"
+   Moon Light Current Intensity Value=0.000000
+   "Twilight Color (Absorption)"=(R=0.030354,G=0.181178,B=1.000000,A=1.000000)
+   "Twilight Color Intensity (Absorption Scale)"=0.004000
+   "Base Sky Color (Day)"=(R=0.050313,G=0.100844,B=0.218750,A=1.000000)
+   "Base Sky Color (Dawn/Dusk)"=(R=0.094145,G=0.167055,B=0.260417,A=1.000000)
+   "Base Sky Color (Night)"=(R=0.065593,G=0.102341,B=0.161458,A=1.000000)
+   "Cloud Light Color (Day)"=(R=0.708631,G=0.785507,B=0.901042,A=1.000000)
+   "Cloud Light Color (Dawn/Dusk)"=(R=1.000000,G=0.477468,B=0.054318,A=1.000000)
+   "Cloud Light Color (Night)"=(R=1.177604,G=1.321682,B=1.700000,A=1.000000)
+   "Cloud Dark Color (Day)"=(R=0.034505,G=0.119041,B=0.276042,A=1.000000)
+   "Cloud Dark Color (Dawn/Dusk)"=(R=0.043050,G=0.069910,B=0.119792,A=1.000000)
+   "Cloud Dark Color (Night)"=(R=0.070258,G=0.109470,B=0.182292,A=1.000000)
+   Directional Intensity Curve="/Script/Engine.CurveFloat'/Game/UltraDynamicSky/Materials/Float_Curves/Directional_Light_Intensity.Directional_Light_Intensity'"
+   Directional Light Scattering Curve="/Script/Engine.CurveLinearColor'/Game/UltraDynamicSky/Materials/Color_Curves/Sun_Light_Color.Sun_Light_Color'"
+   Render Exponential Height Fog=True
+   Custom Height Fog Actor=None
+   Fog Color Mode=NewEnumerator2
+   Fog Color Intensity Scale=1.000000
+   Overcast Brightness Day=0.200000
+   Overcast Brightness Night=0.200000
+   Sky Atmosphere Fog Influence Sun=2.300000
+   Sky Atmosphere Fog Influence Moon=1.650000
+   Sky Atmosphere Fog Influence None=0.800000
+   Fog Inscattering Color Curve="/Script/Engine.CurveLinearColor'/Game/UltraDynamicSky/Materials/Color_Curves/Fog_Scattering_Color.Fog_Scattering_Color'"
+   Fog Inscattering Sun=(R=0.083620,G=0.156441,B=0.302083,A=1.000000)
+   Fog Inscattering Moon=(R=0.076091,G=0.108017,B=0.171875,A=1.000000)
+   Fog Directional Inscattering Color Curve="/Script/Engine.CurveLinearColor'/Game/UltraDynamicSky/Materials/Color_Curves/Fog_Directional_Scattering_Color.Fog_Directional_Scattering_Color'"
+   Fog Directional Inscattering=(R=0.146484,G=0.147386,B=0.156250,A=1.000000)
+   Foggy Desaturation=0.400000
+   Overcast Desaturation=0.450000
+   All Fog Colors Multiplier=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Dust Amount=0.000000
+   Dust Color=(R=0.260417,G=0.216760,B=0.184462,A=1.000000)
+   Use Volumetric Fog=False
+   Volumetric Fog Distance=8000.000000
+   Volumetric Fog Extinction=2.500000
+   Sun Volumetric Scattering Intensity=1.000000
+   Moon Volumetric Scattering Intensity=1.000000
+   "Volumetric Fog Albedo (Day)"=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   "Volumetric Fog Albedo (Dawn/Dusk)"=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   "Volumetric Fog Albedo (Night)"=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Disable Height Fog Above Volumetric Cloud Layer=False
+   Cached Height Fog Density=0.000000
+   Using Post Process Cloud Fog=False
+   Ambient Fog Color=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Directional Base Fog Color=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Scaled Directional Base Fog Color=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Volumetric Aurora Parent Material="/Game/UltraDynamicSky/Materials/Volumetric_Aurora.Volumetric_Aurora"
+   Using Volumetric Cloud Fog=False
+   Forward Shading=False
+   Event Hour=0
+   Cloud Wisps Color Intensity=1.000000
+   Max Moon Source Angle Scale=20.000000
+   Transition Time A=0.000000
+   Transition Time B=0.000000
+   Transitioning Time=False
+   Transition Easing Function=EaseInOut
+   Transition Easing Exponent=2.000000
+   Transition Timer=()
+   Transition Duration=0.000000
+   Transition Days Counted=0
+   Transition Can Go Backwards=False
+   Moon Source Angle Softness=0.300000
+   Exposure Bias Day=0.000000
+   Exposure Bias Dawn/Dusk=0.000000
+   Exposure Bias Night=0.000000
+   Exposure Bias Cloudy=0.000000
+   Exposure Bias Foggy=0.000000
+   Exposure Bias Dusty=0.000000
+   Exposure Brightness Range=(LowerBound=(Type=Exclusive,Value=-10.000000),UpperBound=(Type=Exclusive,Value=20.000000))
+   Apply Interior Adjustments=False
+   Extra Fog Start Distance in Interior=0.000000
+   Fog Density Multiplier in Interior=1.000000
+   Exposure Bias in Interior=0.000000
+   Sky Light Intensity Multiplier in Interiors=1.000000
+   Sun Light Intensity Multiplier in Interiors=1.000000
+   Moon Light Intensity Multiplier in Interiors=1.000000
+   Extra Sun Volumetric Scattering in Interiors=0.000000
+   Extra Moon Volumetric Scattering in Interiors=0.000000
+   Cached Inverted Global Occlusion=0.000000
+   Cloud Shadow Disable Threshold=3.000000
+   Cloud Bottom World Height=0.000000
+   Cached Night Filter=0.000000
+   Cache Alpha=1.000000
+   Filling Starting Cache=True
+   Cached Sun Vector=(X=0.000000,Y=0.000000,Z=0.000000)
+   Cached Sun Z Vector=(X=0.000000,Y=0.000000,Z=0.000000)
+   Cached Moon Vector=(X=0.000000,Y=0.000000,Z=0.000000)
+   Max Property Cache Period=1.500000
+   Preset Location Coordinates=((NewEnumerator1, (X=5.550000,Y=-0.200000,Z=0.000000)),(NewEnumerator2, (X=9.030000,Y=38.740000,Z=3.000000)),(NewEnumerator3, (X=-34.920000,Y=138.600000,Z=9.500000)),(NewEnumerator4, (X=36.750000,Y=3.050000,Z=1.000000)),(NewEnumerator5, (X=43.270000,Y=76.890000,Z=6.000000)),(NewEnumerator6, (X=31.940000,Y=35.930000,Z=2.000000)),(NewEnumerator7, (X=52.360000,Y=4.900000,Z=1.000000)),(NewEnumerator8, (X=64.730000,Y=177.510000,Z=12.000000)),(NewEnumerator9, (X=61.210000,Y=-149.890000,Z=-9.000000)),(NewEnumerator10, (X=39.930000,Y=32.850000,Z=3.000000)),(NewEnumerator11, (X=-18.930000,Y=47.510000,Z=3.000000)),(NewEnumerator12, (X=-25.300000,Y=-57.630000,Z=-4.000000)),(NewEnumerator13, (X=37.980000,Y=23.720000,Z=2.000000)),(NewEnumerator14, (X=33.740000,Y=-84.390000,Z=-5.000000)),(NewEnumerator15, (X=-36.840000,Y=174.740000,Z=12.000000)),(NewEnumerator16, (X=33.330000,Y=44.380000,Z=3.000000)),(NewEnumerator17, (X=13.750000,Y=100.490000,Z=7.000000)),(NewEnumerator18, (X=41.380000,Y=2.180000,Z=1.000000)),(NewEnumerator19, (X=39.900000,Y=116.390000,Z=8.000000)),(NewEnumerator20, (X=33.880000,Y=35.510000,Z=2.000000)),(NewEnumerator21, (X=44.810000,Y=20.450000,Z=1.000000)),(NewEnumerator22, (X=12.970000,Y=77.590000,Z=5.500000)),(NewEnumerator23, (X=52.520000,Y=13.400000,Z=1.000000)),(NewEnumerator24, (X=4.710000,Y=-74.070000,Z=-5.000000)),(NewEnumerator25, (X=42.360000,Y=-71.050000,Z=-5.000000)),(NewEnumerator26, (X=-15.790000,Y=-47.880000,Z=-3.000000)),(NewEnumerator27, (X=-27.460000,Y=153.020000,Z=10.000000)),(NewEnumerator28, (X=50.840000,Y=4.350000,Z=1.000000)),(NewEnumerator29, (X=44.430000,Y=26.100000,Z=2.000000)),(NewEnumerator30, (X=47.490000,Y=19.050000,Z=1.000000)),(NewEnumerator31, (X=-34.600000,Y=-58.380000,Z=-3.000000)),(NewEnumerator32, (X=30.040000,Y=31.230000,Z=2.000000)),(NewEnumerator33, (X=51.040000,Y=-114.050000,Z=-7.000000)),(NewEnumerator34, (X=-35.290000,Y=149.120000,Z=10.000000)),(NewEnumerator35, (X=-33.920000,Y=18.420000,Z=2.000000)),(NewEnumerator36, (X=10.480000,Y=-66.900000,Z=-4.000000)),(NewEnumerator37, (X=33.530000,Y=-7.580000,Z=1.000000)),(NewEnumerator38, (X=41.880000,Y=-87.620000,Z=-6.000000)),(NewEnumerator39, (X=55.670000,Y=12.560000,Z=1.000000)),(NewEnumerator40, (X=32.770000,Y=-96.800000,Z=-6.000000)),(NewEnumerator41, (X=-6.800000,Y=39.280000,Z=3.000000)),(NewEnumerator42, (X=-12.430000,Y=130.840000,Z=9.500000)),(NewEnumerator43, (X=39.730000,Y=-104.980000,Z=-7.000000)),(NewEnumerator44, (X=42.330000,Y=-83.040000,Z=-5.000000)),(NewEnumerator45, (X=23.760000,Y=90.380000,Z=6.000000)),(NewEnumerator46, (X=25.380000,Y=51.530000,Z=3.000000)),(NewEnumerator47, (X=25.260000,Y=55.390000,Z=4.000000)),(NewEnumerator48, (X=53.350000,Y=-6.260000,Z=0.000000)),(NewEnumerator49, (X=53.530000,Y=-113.490000,Z=-7.000000)),(NewEnumerator50, (X=50.110000,Y=8.680000,Z=1.000000)),(NewEnumerator51, (X=14.610000,Y=-90.530000,Z=-6.000000)),(NewEnumerator52, (X=44.860000,Y=-63.710000,Z=-4.000000)),(NewEnumerator53, (X=21.020000,Y=105.850000,Z=7.000000)),(NewEnumerator54, (X=-17.820000,Y=31.050000,Z=2.000000)),(NewEnumerator55, (X=23.130000,Y=-82.350000,Z=-5.000000)),(NewEnumerator56, (X=60.170000,Y=24.930000,Z=2.000000)),(NewEnumerator57, (X=22.300000,Y=114.200000,Z=8.000000)),(NewEnumerator58, (X=21.300000,Y=-157.850000,Z=-10.000000)),(NewEnumerator59, (X=29.760000,Y=-95.380000,Z=-6.000000)),(NewEnumerator60, (X=39.760000,Y=-86.150000,Z=-5.000000)),(NewEnumerator61, (X=33.690000,Y=73.060000,Z=5.000000)),(NewEnumerator62, (X=41.010000,Y=28.950000,Z=3.000000)),(NewEnumerator63, (X=-6.200000,Y=106.810000,Z=7.000000)),(NewEnumerator64, (X=31.780000,Y=35.210000,Z=2.000000)),(NewEnumerator65, (X=-26.200000,Y=28.040000,Z=2.000000)),(NewEnumerator66, (X=34.520000,Y=69.170000,Z=4.500000)),(NewEnumerator67, (X=24.860000,Y=67.010000,Z=5.000000)),(NewEnumerator68, (X=27.710000,Y=85.320000,Z=5.750000)),(NewEnumerator69, (X=15.500000,Y=32.560000,Z=2.000000)),(NewEnumerator70, (X=17.970000,Y=-76.790000,Z=-5.000000)),(NewEnumerator71, (X=-4.320000,Y=15.320000,Z=1.000000)),(NewEnumerator72, (X=1.850000,Y=-157.400000,Z=14.000000)),(NewEnumerator73, (X=22.560000,Y=88.730000,Z=5.500000)),(NewEnumerator74, (X=3.140000,Y=101.690000,Z=8.000000)),(NewEnumerator75, (X=29.360000,Y=47.970000,Z=3.000000)),(NewEnumerator76, (X=50.450000,Y=30.520000,Z=2.000000)),(NewEnumerator77, (X=-16.500000,Y=-68.150000,Z=-4.000000)),(NewEnumerator78, (X=6.450000,Y=3.380000,Z=1.000000)),(NewEnumerator79, (X=31.540000,Y=74.340000,Z=5.000000)),(NewEnumerator80, (X=36.175000,Y=-115.130000,Z=-8.000000)),(NewEnumerator81, (X=-12.060000,Y=-77.030000,Z=-5.000000)),(NewEnumerator82, (X=38.720000,Y=-9.150000,Z=0.000000)),(NewEnumerator83, (X=51.500000,Y=-0.120000,Z=0.000000)),(NewEnumerator84, (X=34.050000,Y=-118.250000,Z=-8.000000)),(NewEnumerator85, (X=40.410000,Y=-3.700000,Z=1.000000)),(NewEnumerator86, (X=12.130000,Y=-86.250000,Z=-6.000000)),(NewEnumerator87, (X=14.590000,Y=120.970000,Z=8.000000)),(NewEnumerator104, (X=-77.840000,Y=166.660000,Z=12.000000)),(NewEnumerator88, (X=-37.810000,Y=144.960000,Z=10.000000)),(NewEnumerator89, (X=19.430000,Y=-99.130000,Z=-6.000000)),(NewEnumerator90, (X=25.770000,Y=-80.200000,Z=-5.000000)),(NewEnumerator91, (X=44.980000,Y=-93.260000,Z=-6.000000)),(NewEnumerator92, (X=53.900000,Y=27.560000,Z=3.000000)),(NewEnumerator93, (X=-34.880000,Y=-56.180000,Z=-3.000000)),(NewEnumerator94, (X=45.500000,Y=-73.550000,Z=-5.000000)),(NewEnumerator95, (X=55.750000,Y=37.610000,Z=3.000000)),(NewEnumerator96, (X=19.060000,Y=72.800000,Z=5.500000)),(NewEnumerator97, (X=-1.280000,Y=36.810000,Z=3.000000)),(NewEnumerator98, (X=25.070000,Y=-77.330000,Z=-5.000000)),(NewEnumerator99, (X=28.610000,Y=77.200000,Z=5.500000)),(NewEnumerator100, (X=29.950000,Y=-90.080000,Z=-6.000000)),(NewEnumerator101, (X=40.710000,Y=-74.000000,Z=-5.000000)),(NewEnumerator102, (X=59.910000,Y=10.730000,Z=1.000000)),(NewEnumerator103, (X=45.420000,Y=-75.690000,Z=-5.000000)),(NewEnumerator105, (X=48.850000,Y=2.350000,Z=1.000000)),(NewEnumerator106, (X=-31.950000,Y=115.860000,Z=8.000000)),(NewEnumerator107, (X=39.950000,Y=-75.160000,Z=-5.000000)),(NewEnumerator108, (X=33.440000,Y=-112.070000,Z=-7.000000)),(NewEnumerator109, (X=50.080000,Y=14.420000,Z=1.000000)),(NewEnumerator110, (X=64.140000,Y=-21.940000,Z=0.000000)),(NewEnumerator111, (X=-22.910000,Y=-43.200000,Z=-3.000000)),(NewEnumerator112, (X=24.630000,Y=46.710000,Z=3.000000)),(NewEnumerator113, (X=41.890000,Y=12.480000,Z=1.000000)),(NewEnumerator114, (X=40.760000,Y=-111.890000,Z=-7.000000)),(NewEnumerator115, (X=37.770000,Y=-122.410000,Z=-8.000000)),(NewEnumerator116, (X=18.400000,Y=-66.060000,Z=-4.000000)),(NewEnumerator117, (X=13.690000,Y=-89.190000,Z=-6.000000)),(NewEnumerator118, (X=-33.450000,Y=-70.660000,Z=-4.000000)),(NewEnumerator119, (X=18.460000,Y=-69.950000,Z=-4.000000)),(NewEnumerator120, (X=-23.550000,Y=-46.630000,Z=-3.000000)),(NewEnumerator121, (X=47.600000,Y=-122.330000,Z=-8.000000)),(NewEnumerator122, (X=37.560000,Y=126.990000,Z=9.000000)),(NewEnumerator123, (X=31.220000,Y=121.470000,Z=8.000000)),(NewEnumerator124, (X=1.390000,Y=103.820000,Z=8.000000)),(NewEnumerator125, (X=42.700000,Y=23.330000,Z=2.000000)),(NewEnumerator126, (X=47.480000,Y=-52.790000,Z=-3.500000)),(NewEnumerator127, (X=59.320000,Y=18.060000,Z=1.000000)),(NewEnumerator128, (X=-18.140000,Y=178.440000,Z=12.000000)),(NewEnumerator129, (X=-33.860000,Y=151.210000,Z=10.000000)),(NewEnumerator130, (X=25.060000,Y=121.510000,Z=8.000000)),(NewEnumerator131, (X=59.430000,Y=24.740000,Z=2.000000)),(NewEnumerator132, (X=41.300000,Y=69.260000,Z=5.000000)),(NewEnumerator133, (X=14.100000,Y=-87.210000,Z=-6.000000)),(NewEnumerator134, (X=35.680000,Y=51.380000,Z=3.500000)),(NewEnumerator135, (X=35.680000,Y=139.690000,Z=9.000000)),(NewEnumerator136, (X=43.740000,Y=-79.370000,Z=-5.000000)),(NewEnumerator137, (X=49.260000,Y=-123.110000,Z=-8.000000)),(NewEnumerator138, (X=48.200000,Y=16.360000,Z=1.000000)),(NewEnumerator139, (X=52.230000,Y=21.010000,Z=1.000000)),(NewEnumerator140, (X=38.900000,Y=-77.010000,Z=-5.000000)),(NewEnumerator141, (X=49.880000,Y=-97.140000,Z=-6.000000)),(NewEnumerator142, (X=16.790000,Y=96.160000,Z=6.500000)),(NewEnumerator143, (X=45.810000,Y=15.980000,Z=1.000000)),(NewEnumerator144, (X=47.370000,Y=8.540000,Z=1.000000)))
+   Disable Image Based Lens Flares when Enabled=True
+   Starting Sky Atmosphere Height=0.000000
+   Using Post Process Components=False
+   "Cloud Wisps Tint (Day)"=(R=0.416713,G=0.436257,B=0.478431,A=1.000000)
+   "Cloud Wisps Tint (Dawn/Dusk)"=(R=1.000000,G=0.587119,B=0.395833,A=1.000000)
+   "Cloud Wisps Tint (Night)"=(R=0.367187,G=0.428386,B=0.489583,A=1.000000)
+   Increase Wisps Brightness Around Sun=5.000000
+   Increase Wisps Brightness Around Moon=3.000000
+   Sun Source Angle Scale=1.000000
+   Solar Eclipse=True
+   Solar Eclipse Tint Color=(R=0.994792,G=0.754438,B=0.784207,A=1.000000)
+   Solar Eclipse Intensity Multiplier=0.000000
+   Sun Specular Scale=1.000000
+   Render Sun Directional Light=True
+   Custom Sun Light Actor=None
+   Max Sun Source Angle Scale=5.000000
+   Sun Source Angle Softness=0.500000
+   Scale Sun Radius as it Nears Horizon=1.000000
+   Fade Down High Sun Light Intensity Below Horizon=True
+   Support Sky Atmo Affecting Height Fog=False
+   UDS Version=""
+   UDS Version Info="/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_VersionInfo.UDS_VersionInfo_C'/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_CurrentVersion.UDS_CurrentVersion'"
+   Mie Scattering Scale Multiplier=1.000000
+   Sky Atmosphere Overcast Luminance=1.000000
+   Keep Planet Top at Camera XY Location=True
+   Control Sky Atmosphere Settings=True
+   Old Composite Weather=(X=-1.000000,Y=-1.000000,Z=-1.000000)
+   Old Composite Context=(X=-1.000000,Y=-1.000000,Z=-1.000000)
+   Composite Weather Change Speed=0.000000
+   Composite Context Change Speed=0.000000
+   Old Moon Target=(X=0.000000,Y=0.000000,Z=0.000000)
+   Old Sun Target=(X=1.000000,Y=0.000000,Z=0.000000)
+   Last Low Frequency Update Location=(X=50000000000.000000,Y=50000000000.000000,Z=50000000000.000000)
+   Add Planet/Moon Preset=None
+   "Space Layer Brightness (Night)"=1.000000
+   "Space Layer Brightness (Day)"=5.000000
+   Space Glow Brightness=0.080000
+   Render Nebula=False
+   Nebula Intensity=0.700000
+   Nebula Color 1=(R=0.019449,G=1.000000,B=0.950241,A=1.000000)
+   Nebula Color 2=(R=1.000000,G=0.082829,B=0.000000,A=1.000000)
+   Nebula Color 3=(R=0.000000,G=0.355670,B=1.000000,A=1.000000)
+   Nebula Core Highlight=0.500000
+   Nebula Noise Scale=5.000000
+   Nebula Exponent=4.500000
+   Nebula Large Distortion=0.110000
+   Nebula Small Distortion=0.030000
+   Nebula Noise Offset=0.500000
+   Nebula Sort Index=0
+   Moon Renders Behind Space Layer=False
+   Force Enable Space Layer=False
+   Space Layer Active=False
+   Cached Moon Z Vector=(X=0.000000,Y=0.000000,Z=0.000000)
+   Cached Solar Eclipse Tint=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Cached Sun Scale=0.000000
+   Cached Moon Scale=0.000000
+   Sun - Lighting Channel 0=True
+   Sun - Lighting Channel 1=False
+   Sun - Lighting Channel 2=False
+   Moon - Lighting Channel 0=True
+   Moon - Lighting Channel 1=False
+   Moon - Lighting Channel 2=False
+   Water Level=0.000000
+   Render Water Caustics=False
+   Caustics Intensity=0.800000
+   Caustics Falloff=100.000000
+   Deep Water Falloff=20000.000000
+   Caustics Texture Scale=700.000000
+   Moons Cloud Mask=1.000000
+   Caustics Falloff Offset=0.000000
+   Blur Caustics with Depth=5.000000
+   Blur Caustics in Cloud Shadow=7.000000
+   Blur Caustics with Camera Distance=1.000000
+   Event Minute=-1
+   Sunset Event State=-1
+   Disable Sky/Fog Cloudiness Above Cloud Layer=True
+   Custom Volumetric Cloud Material=None
+   Camera Cloud Layer Normalized Height=0.000000
+   Camera Sky Atmosphere Normalized Density=1.000000
+   Moon Fog Base Color=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Sun Fog Base Color=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Last High Frequency Update Location=(X=50000000000.000000,Y=50000000000.000000,Z=50000000000.000000)
+   Old Cloud Layer Camera Level=0.000000
+   Cloud Camera Relative Change Speed=0.000000
+   Cached Sky Atmosphere Absorption Color=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Cloud Coverage Target Resolution=256
+   Cloud Coverage Target Size=20000000
+   Painted Cloud Coverage Opacity=1.000000
+   Layer 2 Painted Cloud Coverage Opacity=0.000000
+   Painted Coverage Affects Global Values=0.850000
+   Cloud Coverage Target Location=(X=0.000000,Y=0.000000)
+   Current Cloud Coverage Render Target Mapping=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Cloud Coverage Render Target="/Script/Engine.TextureRenderTarget2D'/Game/UltraDynamicSky/Textures/Sky/CloudPaintTarget.CloudPaintTarget'"
+   Async Loading Active=False
+   Cloud Coverage After Painting=0.000000
+   Enable Volumetric Cloud Light Rays=True
+   Light Ray Intensity=1.000000
+   Light Ray Tint Color=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Light Rays Point Spacing=50000.000000
+   Light Ray Length=1.000000
+   Individual Clouds Light Rays=0.000000
+   Scale Light Ray Width=1.000000
+   "Light Rays Max Distance (Km)"=12.000000
+   Light Rays Depth Fade Distance=100000.000000
+   Light Rays 3D Noise Scale=700000.000000
+   Volumetric Cloud Light Rays Niagara System="/Game/UltraDynamicSky/Particles/VolumetricCloud_LightRays.VolumetricCloud_LightRays"
+   Max Light Ray Length=0.000000
+   Cloud Top World Height=0.000000
+   Cached Light Ray Vector=(X=0.000000,Y=0.000000,Z=0.000000)
+   Light Rays Using Sun=False
+   Cached Light Ray Strength=0.000000
+   Space Nebula MID=None
+   Cloud Paint Draw MID=None
+   Render Global Volumetric Material=False
+   Fog Noise Scale=2000.000000
+   Fog Noise Intensity=1.500000
+   Fog Noise Max Samples=4.000000
+   Fog Noise Speed Scale=1.000000
+   Fog Noise Offset=(X=0.000000,Y=0.000000,Z=0.000000)
+   Mask Fog with Weather Masks=1.000000
+   Fog Masked Extinction=0.000000
+   "Extra Fog Extinction (Rainy)"=0.200000
+   "Extra Fog Extinction (Snowy)"=0.200000
+   "Extra Fog Extinction (Dusty)"=0.200000
+   "Render Ground Fog (Fog Above Distance Fields)"=False
+   "Ground Fog Extinction (Foggy)"=0.200000
+   "Ground Fog Extinction (Dusty)"=0.300000
+   "Ground Fog Extinction (Rainy)"=0.100000
+   "Ground Fog Extinction (Snowy)"=0.100000
+   "Ground Fog Extinction (Manual)"=0.000000
+   Ground Fog Height=70.000000
+   Ground Fog Height Noise=2.000000
+   Ground Fog Angle Threshold=0.200000
+   Ground Fog Hardness=4.000000
+   Apply Water Fog Values=False
+   Water Extinction=0.100000
+   Water Albedo=(R=0.225152,G=0.311797,B=0.432292,A=1.000000)
+   Water Fog Falloff=20.000000
+   Water Fog Falloff Offset=0.000000
+   Water Caustic Fog Ray Intensity=2.000000
+   Volumetric Clouds Apply Fog Late=True
+   Global Volumetric Fog MID=None
+   Sun Disk Color Curve="/Script/Engine.CurveLinearColor'/Game/UltraDynamicSky/Materials/Color_Curves/Sun_Disk_Color.Sun_Disk_Color'"
+   Sun Target=(X=0.000000,Y=0.000000,Z=0.000000)
+   Moon Target=(X=0.000000,Y=0.000000,Z=0.000000)
+   Static Clouds Texture="/Game/UltraDynamicSky/Textures/StaticClouds/StaticClouds_A.StaticClouds_A"
+   Static Clouds Rotation=0.000000
+   Static Clouds Rotation Speed=0.000000
+   Static Clouds Color Intensity=1.000000
+   Cloud Movement Update Period=0.550000
+   Current Cache Timer Speed=10.000000
+   Low Priority Update Step=-1
+   Active Update Speed=4
+   High Priority Update Step=0
+   Non Cached Update Step=0
+   Min Property Cache Period=0.100000
+   Fast Cache Toggle=False
+   Minimum Active Update Speed=0
+   Fast Cache Toggle Speed=1.300000
+   UDW Wind Value=2.000000
+   "Volumetric Aurora Fade Distance (km)"=30.000000
+   Cinematic Clouds View Sample Scale=25.000000
+   Cinematic Clouds Shadow Sample Scale=0.600000
+   Cinematic Clouds Tracing Max Distance=20.000000
+   Cinematic Clouds View Ray Sample Max Count=10000
+   Time of Day Specific Modifiers=()
+   Preview Modifiers in Editor=True
+   Replicate Modifiers to Clients=False
+   Using Volumetric Light Rays=False
+   Last Material Quality Level=0
+   Last Effects Quality Level=0
+   Instant Exposure Adjustment on Begin Play=False
+   Exposure Compensation Curve for Physical Light Intensity="/Script/Engine.CurveFloat'/Game/UltraDynamicSky/Materials/Float_Curves/Exposure_Compensation_Curve_Physical.Exposure_Compensation_Curve_Physical'"
+   Instant Exposure Post Process=None
+   Tick Delta Seconds=1.000000
+   Editor Camera Position=(X=0.000000,Y=0.000000,Z=0.000000)
+   Editor Camera Position Offset=(X=0.000000,Y=0.000000,Z=0.000000)
+   Current Camera Location=(X=0.000000,Y=0.000000,Z=-10000000.000000)
+   Current Camera Rotation=(Pitch=0.000000,Yaw=0.000000,Roll=-10000000.000000)
+   Slow Falling Combined Change Speed=10.000000
+   Custom Sky Sphere Static Mesh=None
+   Fallback Cloud Layer Altitude=70000.000000
+   Level Editor Tick=True
+   Editor Camera Rotation=(Pitch=0.000000,Yaw=0.000000,Roll=0.000000)
+   Cached Cloud Shadows Cancel Value=1.000000
+   Interior Occlusion Change Speed=0.000000
+   Old Interior Occlusion=-1.000000
+   Transitioning Sky Light Intensity=False
+   Cached Sun Cast Shadows=False
+   Eclipse Percent=1.000000
+   Sun Shadows Cutoff Z=0.002000
+   Called Starting Event Dispatchers=False
+   World Origin Location=(X=0.000000,Y=0.000000,Z=0.000000)
+   Event Date=(Year_2_5936ACDB4E7F71C3EC90F69D7234DCB1=0,Month_4_32A4CA754DFE7D22C3ECE9AF0E8329B4=0,Day_6_004C80D94C5AA9D6C83EC884AE3346E4=0,TimeofDay_9_81503E2845CAEAE1C342BCAEA896B01D=0.000000)
+   Initial Replication=False
+   Starting Date=(Year_2_5936ACDB4E7F71C3EC90F69D7234DCB1=0,Month_4_32A4CA754DFE7D22C3ECE9AF0E8329B4=0,Day_6_004C80D94C5AA9D6C83EC884AE3346E4=0,TimeofDay_9_81503E2845CAEAE1C342BCAEA896B01D=0.000000)
+   Modifiers Ticking=False
+   Move Sky Light Location=False
+   Weather Cloud Coverage=-1.000000
+   Weather Fog=-1.000000
+   Weather Dust Amount=-1.000000
+   Sky Glow Fog Color=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Cached Night Sky Glow=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+   Cached Light Pollution=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)
+   Local Cloud Coverage=0.000000
+   Storm Clouds Draw MID=None
+   Cvar Cache=()
+   Sun World Rotation=(Pitch=0.000000,Yaw=0.000000,Roll=0.000000)
+   Moon World Rotation=(Pitch=0.000000,Yaw=0.000000,Roll=0.000000)
+   Path Tracer Sky Light=None
+   Global Volumetric Fog Mesh=None
+   Volumetric Cloud Light Rays=None
+   Inside Cloud Fog Mesh=None
+   Volumetric Cloud Shadow Altitude=0.000000
+   Path Tracer Fog Parent Mat="/Game/UltraDynamicSky/Materials/PathTracer_ExpHeightFog.PathTracer_ExpHeightFog"
+   Path Tracer Fog MID=None
+   Render Height Fog in Path Tracer using Post Process=True
+   Mie Anisotropy Multiplier=1.000000
+   Sky Atmosphere Density Curve="/Script/Engine.CurveFloat'/Game/UltraDynamicSky/Materials/Float_Curves/Skyatmosphere_Density.Skyatmosphere_Density'"
+   Allow Disabling Directional Shadows with Coverage=False
+   Apply Flat Cloudiness=False
+   Using Sky Atmosphere=False
+   Cached Moon Effective Illumination 0-1=0.000000
+   Cached Absent Directional Lights Brightness=0.000000
+   Cached Current Moon Lit Percent=0.000000
+   Using Space Mode=False
+   Using Volumetric Clouds=False
+   Using Static Clouds=False
+   Using 2D Dynamic Clouds=False
+   Using Volumetric Aurora=False
+   Cached Lit Intensity=0.000000
+   Cached Directional Light Dimming=0.000000
+   Modifiers Animating=False
+   Cached Directional Inscattering Multiplier=0.000000
+   Space Nebula Parent Material="/Game/UltraDynamicSky/Materials/Space/Nebula_Layer.Nebula_Layer"
+   Cached Fog Directional Inscattering=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Sun Moon Delta=0.000000
+   Use Legacy Cloud Coverage Range=False
+   Space Nebula Sphere=None
+   Movement Update Threshold=100.000000
+   Show UDS Level Editor Toolbar=True
+   Dedicated Server Tick Interval=0.250000
+   Compensate Directional Inscattering=False
+   Show Editor Warnings for Incompatible Project Settings=True
+   Light Functions Supported=False
+   DBuffer Supported=False
+   Static Overcast Texture="/Game/UltraDynamicSky/Textures/Sky/Static_Overcast.Static_Overcast"
+   Static Overcast Strength=1.000000
+   Caching Incoming Modifiers=False
+   Simplified Color Sun Atmosphere LUT="/Game/UltraDynamicSky/Textures/Sky/Sun_Atmosphere_LUT_Volume.Sun_Atmosphere_LUT_Volume"
+   Simplified Color Moon Atmosphere LUT="/Game/UltraDynamicSky/Textures/Sky/Moon_Atmosphere_LUT_Volume.Moon_Atmosphere_LUT_Volume"
+   Static Clouds Fade in Clear Skies=True
+   Force Cloud Coverage Target Active=False
+   Connect with UDW=True
+   Current Scene Lighting Brightness Scale=0.000000
+   Sky Modifier Post Process Components=()
+   Light Function Atlas Scale=8.000000
+   Apply Light Function Atlas Resolution=True
+   Light Function Atlas Resolution=512
+   Cached VolCloud Top Emissive=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Cached VolCloud Bottom Emissive=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   DST End Hour=1
+   Preset Location DST Settings=((NewEnumerator1, ()),(NewEnumerator2, ()),(NewEnumerator3, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=10,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=1,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=4,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator4, ()),(NewEnumerator5, ()),(NewEnumerator6, ()),(NewEnumerator7, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator8, ()),(NewEnumerator9, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator10, ()),(NewEnumerator11, ()),(NewEnumerator12, ()),(NewEnumerator13, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=3,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator14, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator15, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=9,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=4,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator16, ()),(NewEnumerator17, ()),(NewEnumerator18, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator19, ()),(NewEnumerator20, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6)),(NewEnumerator21, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=3,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator22, ()),(NewEnumerator23, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=3,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator24, ()),(NewEnumerator25, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator26, ()),(NewEnumerator27, ()),(NewEnumerator28, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator29, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=3,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator30, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator31, ()),(NewEnumerator32, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=4,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=4,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=3,DSTEndHour_22_356947C540229AABB2901B93C9E77190=24)),(NewEnumerator33, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator34, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=10,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=1,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=4,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator35, ()),(NewEnumerator36, ()),(NewEnumerator37, ()),(NewEnumerator38, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator39, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator40, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator41, ()),(NewEnumerator42, ()),(NewEnumerator43, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator44, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator45, ()),(NewEnumerator46, ()),(NewEnumerator47, ()),(NewEnumerator48, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=1,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=1)),(NewEnumerator49, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator50, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator51, ()),(NewEnumerator52, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator53, ()),(NewEnumerator54, ()),(NewEnumerator55, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=1)),(NewEnumerator56, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=3,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator57, ()),(NewEnumerator58, ()),(NewEnumerator59, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator60, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator61, ()),(NewEnumerator62, ()),(NewEnumerator63, ()),(NewEnumerator64, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator65, ()),(NewEnumerator66, ()),(NewEnumerator67, ()),(NewEnumerator68, ()),(NewEnumerator69, ()),(NewEnumerator70, ()),(NewEnumerator71, ()),(NewEnumerator72, ()),(NewEnumerator73, ()),(NewEnumerator74, ()),(NewEnumerator75, ()),(NewEnumerator76, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=3,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator77, ()),(NewEnumerator78, ()),(NewEnumerator79, ()),(NewEnumerator80, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator81, ()),(NewEnumerator82, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=1,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=1)),(NewEnumerator83, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=1,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=1)),(NewEnumerator84, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator85, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator86, ()),(NewEnumerator87, ()),(NewEnumerator104, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=9,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=4,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator88, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=10,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=1,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=4,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator89, ()),(NewEnumerator90, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator91, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator92, ()),(NewEnumerator93, ()),(NewEnumerator94, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator95, ()),(NewEnumerator96, ()),(NewEnumerator97, ()),(NewEnumerator98, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator99, ()),(NewEnumerator100, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator101, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator102, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator103, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator105, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator106, ()),(NewEnumerator107, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator108, ()),(NewEnumerator109, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator110, ()),(NewEnumerator111, ()),(NewEnumerator112, ()),(NewEnumerator113, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator114, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator115, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator116, ()),(NewEnumerator117, ()),(NewEnumerator118, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=9,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=5,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=1,DSTStartHour_14_790920F8469C47CDAF342B844018210E=24,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=4,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=5,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=24)),(NewEnumerator119, ()),(NewEnumerator120, ()),(NewEnumerator121, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator122, ()),(NewEnumerator123, ()),(NewEnumerator124, ()),(NewEnumerator125, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=3,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator126, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator127, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator128, ()),(NewEnumerator129, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=10,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=1,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=4,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator130, ()),(NewEnumerator131, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=3,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=3)),(NewEnumerator132, ()),(NewEnumerator133, ()),(NewEnumerator134, ()),(NewEnumerator135, ()),(NewEnumerator136, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator137, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator138, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator139, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator140, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator141, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartDayCount_12_5ACA19024B4C50AF91927A86C9DC9C5F=2,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=11,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndDayCount_20_9ECD2F464E5746FA3686A99989498D27=1,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator142, ()),(NewEnumerator143, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)),(NewEnumerator144, (ApplyDST_5_8F6945EF4138B744A49B39B6FD16404B=True,DSTStartMonth_8_21BF09114B395EA3FD807F99F363A6C0=3,DSTStartDayoftheWeek_10_B383F1E041B47DCC9A8285AC1D129C0F=6,DSTStartHour_14_790920F8469C47CDAF342B844018210E=2,DSTEndMonth_16_C3CEE1D74AD66CF5DE9FFBBCBA33E107=10,DSTEndDayoftheWeek_18_B120DBCA4DBA0A86BEDEFBA758B93036=6,DSTEndHour_22_356947C540229AABB2901B93C9E77190=2)))
+   Directional Specular Cancel Value=1.000000
+   Cache Properties Step=0
+   Active Cache Group=0
+   Cache Steps Multiplier=1
+   Hard Cache Reset Change Speed Threshold=0.350000
+   Last Delayed Change Speed=-1.000000
+   Low Priority Set Toggle=False
+   High Priority Toggle One=True
+   High Priority Toggle Two=True
+   Use Angle Threshold Light Update=False
+   Use Forced Light Update=True
+   Use Periodic Light Update=False
+   Last Sun Light Periodic Update Time=0.000000
+   Last Moon Light Periodic Update Time=0.000000
+   Using Either Aurora=False
+   Cached Night Filtered Night Brightness=0.000000
+   Occlusion Mode=NewEnumerator2
+   Occlusion Sampling Location=NewEnumerator0
+   Occlusion Uses GPU Distance Field Collision=False
+   Occlusion Max Trace Distance=4500.000000
+   Occlusion Horizontal Trace Steps=12
+   Occlusion Vertical Trace Steps=4
+   Occlusion Trace Channel=TraceTypeQuery1
+   Occlusion Update Period=0.550000
+   Global Occlusion Min Fraction=0.200000
+   Global Occlusion Max Fraction=0.900000
+   Query Occlusion Portals=True
+   Occlusion GPU Distance Field Sample Count=100
+   Show Player Occlusion Trace Debugs=False
+   Using Player Occlusion=False
+   UDW Snow Value=0.000000
+   UDW Rain Value=0.000000
+   Lens Flare Post Process=None
+   Cloud Fog Post Process=None
+   Path Tracer Fog Post Process=None
+   Cloud Movement Increment Timer=0.000000
+   Event Dispatcher Check Timer=()
+   Force Calculate Player Occlusion=False
+   General Post Process=None
+   Generate Mesh Distance Fields=False
+   UDS Dispatch Tunnel="/Game/UltraDynamicSky/Blueprints/System/UDS_DispatcherTunnel.UDS_DispatcherTunnel_C'/Game/UltraDynamicSky/Blueprints/System/UDS_DispatcherTunnelObject.UDS_DispatcherTunnelObject'"
+   Path Tracer Sky Resolution=NewEnumerator0
+   Cloud Top World Height Bottom Layer=0.000000
+   PrimaryActorTick=(TickGroup=TG_DuringPhysics,EndTickGroup=TG_PrePhysics,bTickEvenWhenPaused=False,bCanEverTick=True,bStartWithTickEnabled=True,bAllowTickOnDedicatedServer=True,TickInterval=0.000000)
+   bNetTemporary=False
+   bOnlyRelevantToOwner=False
+   bAlwaysRelevant=True
+   bReplicateMovement=False
+   bCallPreReplication=True
+   bCallPreReplicationForReplay=True
+   bHidden=False
+   bTearOff=False
+   bForceNetAddressable=False
+   bIsMainWorldOnly=False
+   bNetLoadOnClient=True
+   bNetUseOwnerRelevancy=False
+   bRelevantForNetworkReplays=True
+   bRelevantForLevelBounds=False
+   bReplayRewindable=False
+   bAllowTickBeforeBeginPlay=False
+   bAutoDestroyWhenFinished=False
+   bCanBeDamaged=False
+   bBlockInput=False
+   bCollideWhenPlacing=False
+   bFindCameraComponentWhenViewTarget=True
+   bGenerateOverlapEventsDuringLevelStreaming=False
+   bIgnoresOriginShifting=False
+   bEnableAutoLODGeneration=False
+   bIsEditorOnlyActor=False
+   bReplicates=True
+   bCanBeInCluster=False
+   bMigratingAsset=False
+   bAllowReceiveTickEventOnDedicatedServer=True
+   bReplicateUsingRegisteredSubObjectList=False
+   bActorEnableCollision=True
+   bAsyncPhysicsTickEnabled=False
+   UpdateOverlapsMethodDuringLevelStreaming=UseConfigDefault
+   DefaultUpdateOverlapsMethodDuringLevelStreaming=OnlyUpdateMovable
+   InitialLifeSpan=0.000000
+   CustomTimeDilation=1.000000
+   RayTracingGroupId=-1
+   RuntimeGrid=""
+   ReplicatedMovement=(LocationQuantizationLevel=RoundWholeNumber,VelocityQuantizationLevel=RoundWholeNumber,RotationQuantizationLevel=ByteComponents)
+   Owner=None
+   NetDriverName="GameNetDriver"
+   Role=ROLE_Authority
+   NetDormancy=DORM_Awake
+   SpawnCollisionHandlingMethod=AlwaysSpawn
+   AutoReceiveInput=Disabled
+   InputPriority=0
+   InputComponent=None
+   NetCullDistanceSquared=225000000.000000
+   NetUpdateFrequency=60.000000
+   MinNetUpdateFrequency=2.000000
+   NetPriority=1.000000
+   PhysicsReplicationMode=Default
+   Instigator=None
+   RootComponent=None
+   PivotOffset=(X=0.000000,Y=0.000000,Z=0.000000)
+   HLODLayer=None
+   ParentComponent=None
+   ContentBundleGuid=00000000000000000000000000000000
+   ExternalDataLayerAsset=None
+   SpriteScale=1.000000
+   ActorLabel="Ultra_Dynamic_Sky_BP-1"
+   FolderPath=""
+   FolderGuid=00000000000000000000000000000000
+   bHiddenEd=False
+   bLockLocation=False
+   bActorLabelEditable=True
+   bEditable=True
+   bListedInSceneOutliner=True
+   bOptimizeBPComponentData=False
+   bCanPlayFromHere=False
+   bIsSpatiallyLoaded=False
+   OnTakeAnyDamage=()
+   OnTakePointDamage=()
+   OnTakeRadialDamage=()
+   OnActorBeginOverlap=()
+   OnActorEndOverlap=()
+   OnBeginCursorOver=()
+   OnEndCursorOver=()
+   OnClicked=()
+   OnReleased=()
+   OnInputTouchBegin=()
+   OnInputTouchEnd=()
+   OnInputTouchEnter=()
+   OnInputTouchLeave=()
+   OnActorHit=()
+   OnDestroyed=()
+   OnEndPlay=()
+End Object

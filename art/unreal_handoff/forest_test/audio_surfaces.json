@@ -1,0 +1,829 @@
+[
+  {
+    "label": "R04_01_Upper_Platform",
+    "materials": [
+      "/Game/MaldekRefinement/R06/Materials/M_R02_Chipped_Painted_Steel_Snow.M_R02_Chipped_Painted_Steel_Snow",
+      "/Game/MaldekRefinement/R06/Materials/M_R02_Galvanized_Grating_Snow.M_R02_Galvanized_Grating_Snow",
+      "/Game/MaldekRefinement/R06/Materials/M_R04_Concrete_Fine_Aggregate_Snow.M_R04_Concrete_Fine_Aggregate_Snow",
+      "/Game/MaldekRefinement/R06/Materials/M_R04_Seals_Snow.M_R04_Seals_Snow",
+      "/Game/MaldekRefinement/R06/Materials/M_R04_Painted_Charcoal_Snow.M_R04_Painted_Charcoal_Snow",
+      "/Game/MaldekRefinement/R06/Materials/M_R04_Galvanized_Fittings_Snow.M_R04_Galvanized_Fittings_Snow"
+    ]
+  },
+  {
+    "label": "R04_02_Control_Room",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Concrete_Fine_Aggregate.M_R04_Concrete_Fine_Aggregate",
+      "/Game/MaldekRefinement/Materials/M_R02_Damp_Timber.M_R02_Damp_Timber",
+      "/Game/MaldekRefinement/Materials/M_Paper.M_Paper",
+      "/Game/MaldekRefinement/Materials/M_R02_Chipped_Painted_Steel.M_R02_Chipped_Painted_Steel",
+      "/Game/MaldekRefinement/Materials/M_R04_Seals.M_R04_Seals",
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal",
+      "/Game/MaldekRefinement/Materials/M_R04_Galvanized_Fittings.M_R04_Galvanized_Fittings",
+      "/Game/MaldekRefinement/Materials/M_R04_Instrument_Ivory.M_R04_Instrument_Ivory",
+      "/Game/MaldekRefinement/Materials/M_R04_Oxide_Enamel.M_R04_Oxide_Enamel",
+      "/Game/MaldekRefinement/Materials/M_R04_Green_Button.M_R04_Green_Button",
+      "/Game/MaldekRefinement/Materials/M_R04_Safety_Ochre.M_R04_Safety_Ochre"
+    ]
+  },
+  {
+    "label": "R04_03_Waiting_Hall",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete",
+      "/Game/MaldekRefinement/Materials/M_R02_Chipped_Painted_Steel.M_R02_Chipped_Painted_Steel",
+      "/Game/MaldekRefinement/Materials/M_R02_Damp_Timber.M_R02_Damp_Timber"
+    ]
+  },
+  {
+    "label": "R04_04_Lower_Drive",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete",
+      "/Game/MaldekRefinement/Materials/M_R02_Chipped_Painted_Steel.M_R02_Chipped_Painted_Steel",
+      "/Game/MaldekRefinement/Materials/M_R02_Galvanized_Grating.M_R02_Galvanized_Grating",
+      "/Game/MaldekRefinement/Materials/M_R04_Concrete_Fine_Aggregate.M_R04_Concrete_Fine_Aggregate",
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal",
+      "/Game/MaldekRefinement/Materials/M_R04_Galvanized_Fittings.M_R04_Galvanized_Fittings",
+      "/Game/MaldekRefinement/Materials/M_R04_Seals.M_R04_Seals",
+      "/Game/MaldekRefinement/Materials/M_R04_Safety_Ochre.M_R04_Safety_Ochre",
+      "/Game/MaldekRefinement/Materials/M_R04_Instrument_Ivory.M_R04_Instrument_Ivory"
+    ]
+  },
+  {
+    "label": "R04_05_Generator_Room",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete"
+    ]
+  },
+  {
+    "label": "R04_06_Stairs_and_Landings",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Worn_Safety_Paint.M_R02_Worn_Safety_Paint",
+      "/Game/MaldekRefinement/Materials/M_R02_Chipped_Painted_Steel.M_R02_Chipped_Painted_Steel",
+      "/Game/MaldekRefinement/Materials/M_R02_Galvanized_Grating.M_R02_Galvanized_Grating"
+    ]
+  },
+  {
+    "label": "R04_07_Overlook",
+    "materials": [
+      "/Game/MaldekRefinement/R06/Materials/M_R02_Weathered_Concrete_Snow.M_R02_Weathered_Concrete_Snow",
+      "/Game/MaldekRefinement/R06/Materials/M_R02_Chipped_Painted_Steel_Snow.M_R02_Chipped_Painted_Steel_Snow",
+      "/Game/MaldekRefinement/R06/Materials/M_R02_Galvanized_Grating_Snow.M_R02_Galvanized_Grating_Snow"
+    ]
+  },
+  {
+    "label": "R04_08_Fuel_Yard",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete"
+    ]
+  },
+  {
+    "label": "R04_10_Parking_and_Arrival",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_Ground.M_Ground",
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete",
+      "/Game/MaldekRefinement/Materials/M_R02_Worn_Safety_Paint.M_R02_Worn_Safety_Paint",
+      "/Game/MaldekRefinement/Materials/M_R02_Chipped_Painted_Steel.M_R02_Chipped_Painted_Steel",
+      "/Game/MaldekRefinement/Materials/M_R02_Galvanized_Grating.M_R02_Galvanized_Grating"
+    ]
+  },
+  {
+    "label": "R04_11_Doors_Door_Control_Platform",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Damp_Timber.M_R02_Damp_Timber"
+    ]
+  },
+  {
+    "label": "R04_11_Doors_Door_Generator_Yard",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Damp_Timber.M_R02_Damp_Timber"
+    ]
+  },
+  {
+    "label": "R04_13_Roofs",
+    "materials": [
+      "/Game/MaldekRefinement/R06/Materials/M_R02_Weathered_Concrete_Snow.M_R02_Weathered_Concrete_Snow",
+      "/Game/MaldekRefinement/R06/Materials/M_R02_Damp_Timber_Snow.M_R02_Damp_Timber_Snow"
+    ]
+  },
+  {
+    "label": "R04_14_Site_Structure",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete"
+    ]
+  },
+  {
+    "label": "R04_18_Cliff_Anchors",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Chipped_Painted_Steel.M_R02_Chipped_Painted_Steel",
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete"
+    ]
+  },
+  {
+    "label": "R04_Local_Terrain",
+    "materials": [
+      "/Game/MaldekRefinement/ForestTest/Materials/M_Forest_Soil.M_Forest_Soil"
+    ]
+  },
+  {
+    "label": "R04_09_Relay_and_Paths",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete",
+      "/Game/MaldekRefinement/Materials/M_R02_Chipped_Painted_Steel.M_R02_Chipped_Painted_Steel",
+      "/Game/MaldekRefinement/R05/Materials/M_R03_Wet_Gravel.M_R03_Wet_Gravel"
+    ]
+  },
+  {
+    "label": "R08_Control_Entry_Backplate",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Control_Entry_Housing",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Control_Entry_Hood",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Control_Entry_Diffuser",
+    "materials": [
+      "/Game/MaldekRefinement/R08/Materials/M_WallLamp_Diffuser.M_WallLamp_Diffuser"
+    ]
+  },
+  {
+    "label": "R08_Control_Entry_Guard_Left",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Control_Entry_Guard_Right",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Control_Entry_Guard_Crossbar",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Control_Entry_Conduit",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Backplate",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Housing",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Hood",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Diffuser",
+    "materials": [
+      "/Game/MaldekRefinement/R08/Materials/M_WallLamp_Diffuser.M_WallLamp_Diffuser"
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Guard_Left",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Guard_Right",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Guard_Crossbar",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Conduit",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R04_12_Gondola",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal",
+      "/Game/MaldekRefinement/Materials/M_R02_Damp_Timber.M_R02_Damp_Timber",
+      "/Game/MaldekRefinement/Materials/M_R04_Oxide_Enamel.M_R04_Oxide_Enamel",
+      "/Game/MaldekRefinement/Materials/M_R04_Seals.M_R04_Seals",
+      "/Game/MaldekRefinement/Materials/M_R04_Glazing.M_R04_Glazing",
+      "/Game/MaldekRefinement/Materials/M_R04_Galvanized_Fittings.M_R04_Galvanized_Fittings"
+    ]
+  },
+  {
+    "label": "R09_Cabin_Ceiling_Housing",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R09_Cabin_Ceiling_Diffuser",
+    "materials": [
+      "/Game/MaldekRefinement/R08/Materials/M_WallLamp_Diffuser.M_WallLamp_Diffuser"
+    ]
+  },
+  {
+    "label": "R09_Canopy_Left_Housing",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R09_Canopy_Left_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/R08/Materials/M_WallLamp_Diffuser.M_WallLamp_Diffuser"
+    ]
+  },
+  {
+    "label": "R09_Canopy_Right_Housing",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R09_Canopy_Right_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/R08/Materials/M_WallLamp_Diffuser.M_WallLamp_Diffuser"
+    ]
+  },
+  {
+    "label": "R09_Boarding_Panel",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R09_Boarding_Green_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/R09/Materials/M_Boarding_Green.M_Boarding_Green"
+    ]
+  },
+  {
+    "label": "R09_Boarding_Red_Lens_Off",
+    "materials": [
+      "/Game/MaldekRefinement/R09/Materials/M_Hold_Red_Off.M_Hold_Red_Off"
+    ]
+  },
+  {
+    "label": "R10_Forest_Approach",
+    "materials": [
+      "/Game/MaldekRefinement/R05/Materials/M_R03_Wet_Gravel.M_R03_Wet_Gravel"
+    ]
+  },
+  {
+    "label": "R10_Distant_Station",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R10_Distant_Window_0",
+    "materials": [
+      "/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp"
+    ]
+  },
+  {
+    "label": "R10_Distant_Window_1",
+    "materials": [
+      "/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp"
+    ]
+  },
+  {
+    "label": "R10_Distant_Window_2",
+    "materials": [
+      "/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp"
+    ]
+  },
+  {
+    "label": "R10_Hall_Foundation_0",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete"
+    ]
+  },
+  {
+    "label": "R10_Hall_Foundation_1",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete"
+    ]
+  },
+  {
+    "label": "R10_Hall_Foundation_2",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete"
+    ]
+  },
+  {
+    "label": "R04_20_Lookout_Bridge",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Chipped_Painted_Steel.M_R02_Chipped_Painted_Steel",
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete",
+      "/Game/MaldekRefinement/Materials/M_R04_Galvanized_Fittings.M_R04_Galvanized_Fittings"
+    ]
+  },
+  {
+    "label": "R04_21_Maintenance",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R02_Weathered_Concrete.M_R02_Weathered_Concrete",
+      "/Game/MaldekRefinement/Materials/M_R02_Chipped_Painted_Steel.M_R02_Chipped_Painted_Steel",
+      "/Game/MaldekRefinement/Materials/M_R02_Damp_Timber.M_R02_Damp_Timber",
+      "/Game/MaldekRefinement/R05/Materials/M_R03_Wet_Gravel.M_R03_Wet_Gravel"
+    ]
+  },
+  {
+    "label": "R11_Lookout_Rail_Lamp_Housing",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R11_Lookout_Rail_Lamp_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/R08/Materials/M_WallLamp_Diffuser.M_WallLamp_Diffuser"
+    ]
+  },
+  {
+    "label": "R11_Generator_Entrance_Housing",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R11_Generator_Entrance_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/R08/Materials/M_WallLamp_Diffuser.M_WallLamp_Diffuser"
+    ]
+  },
+  {
+    "label": "R11_Generator_Ceiling_Housing",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R11_Generator_Ceiling_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/R08/Materials/M_WallLamp_Diffuser.M_WallLamp_Diffuser"
+    ]
+  },
+  {
+    "label": "R11_Workshop_Ceiling_Housing",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R11_Workshop_Ceiling_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/R08/Materials/M_WallLamp_Diffuser.M_WallLamp_Diffuser"
+    ]
+  },
+  {
+    "label": "R11_Fuel_Yard_Exit_Housing",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "R11_Fuel_Yard_Exit_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/R08/Materials/M_WallLamp_Diffuser.M_WallLamp_Diffuser"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_00",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_01",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_02",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_03",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_04",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_05",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_06",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_07",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_08",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_09",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_10",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_11",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_12",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_13",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_RockPatch_14",
+    "materials": [
+      "/Game/Fab/Megascans/3D/Military_Trenches_Ground_Patch_Rock_S_03_ydzkbhu/High/SM_ydzkbhu_tier_1/Materials/MI_ydzkbhu.MI_ydzkbhu"
+    ]
+  },
+  {
+    "label": "FT_Marker_0_Post",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_0_Cap",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_0_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/ForestTest/Materials/M_Path_Marker.M_Path_Marker"
+    ]
+  },
+  {
+    "label": "FT_Marker_1_Post",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_1_Cap",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_1_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/ForestTest/Materials/M_Path_Marker.M_Path_Marker"
+    ]
+  },
+  {
+    "label": "FT_Marker_2_Post",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_2_Cap",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_2_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/ForestTest/Materials/M_Path_Marker.M_Path_Marker"
+    ]
+  },
+  {
+    "label": "FT_Marker_3_Post",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_3_Cap",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_3_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/ForestTest/Materials/M_Path_Marker.M_Path_Marker"
+    ]
+  },
+  {
+    "label": "FT_Marker_4_Post",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_4_Cap",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_4_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/ForestTest/Materials/M_Path_Marker.M_Path_Marker"
+    ]
+  },
+  {
+    "label": "FT_Marker_5_Post",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_5_Cap",
+    "materials": [
+      "/Game/MaldekRefinement/Materials/M_R04_Painted_Charcoal.M_R04_Painted_Charcoal"
+    ]
+  },
+  {
+    "label": "FT_Marker_5_Lens",
+    "materials": [
+      "/Game/MaldekRefinement/ForestTest/Materials/M_Path_Marker.M_Path_Marker"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_0",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_1",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_2",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_3",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_4",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_5",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_6",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_7",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_8",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_9",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_10",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_11",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_12",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_13",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_14",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_15",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_16",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_17",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_18",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_19",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_20",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_21",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_22",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_23",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_24",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_25",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_26",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_27",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_28",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_29",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_30",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_31",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_32",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_33",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  },
+  {
+    "label": "FT_TrunkCollision_34",
+    "materials": [
+      "/Engine/EngineMaterials/DefaultMaterial.DefaultMaterial"
+    ]
+  }
+]

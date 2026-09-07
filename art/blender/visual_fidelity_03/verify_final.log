@@ -1,0 +1,5 @@
+00:00.844  blend            | Read blend: "C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_03\Maldek_Architecture_Redesign.blend"
+{"count": 513, "passed": true, "failures": [], "limits": "Sampled geometry checks, not Unreal capsule tests or structural validation."}
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

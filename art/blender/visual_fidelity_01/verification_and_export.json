@@ -1,0 +1,152 @@
+{
+  "sampled_checks": 421,
+  "failures": [],
+  "all_passed": true,
+  "scope": "Shell rays only; not continuous player capsule sweeps.",
+  "fbx_roundtrip_bounds_error_m": 5.21540641784668e-07,
+  "render_vertices": 101532,
+  "render_polygons": 99301,
+  "collision_hulls": 22,
+  "bounds_m": [
+    [
+      -0.20999999344348907,
+      -0.20999999344348907,
+      -0.9099999666213989
+    ],
+    [
+      6.599999904632568,
+      6.0,
+      3.311999797821045
+    ]
+  ],
+  "materials": {
+    "VF_Cast_Concrete": {
+      "preview_color": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.3499999940395355,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "procedural_shader_requires_Unreal_rebuild": true
+    },
+    "VF_Dark_Steel_Frame": {
+      "preview_color": [
+        0.03500000014901161,
+        0.06499999761581421,
+        0.0729999989271164,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.46000000834465027,
+      "procedural_shader_requires_Unreal_rebuild": true
+    },
+    "VF_Interior_Enamel": {
+      "preview_color": [
+        0.5699999928474426,
+        0.550000011920929,
+        0.4300000071525574,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.6800000071525574,
+      "procedural_shader_requires_Unreal_rebuild": true
+    },
+    "VF_Faded_Petrol_Paint": {
+      "preview_color": [
+        0.06499999761581421,
+        0.1899999976158142,
+        0.2199999988079071,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.5899999737739563,
+      "procedural_shader_requires_Unreal_rebuild": true
+    },
+    "VF_Local_Oxidation": {
+      "preview_color": [
+        0.18000000715255737,
+        0.054999999701976776,
+        0.017999999225139618,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "procedural_shader_requires_Unreal_rebuild": true
+    },
+    "VF_Galvanized_Grating": {
+      "preview_color": [
+        0.41999998688697815,
+        0.46000000834465027,
+        0.44999998807907104,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.4000000059604645,
+      "procedural_shader_requires_Unreal_rebuild": true
+    },
+    "VF_Replacement_Green_Paint": {
+      "preview_color": [
+        0.07999999821186066,
+        0.1899999976158142,
+        0.13500000536441803,
+        1.0
+      ],
+      "metallic": 0.2199999988079071,
+      "roughness": 0.6299999952316284,
+      "procedural_shader_requires_Unreal_rebuild": true
+    },
+    "VF_Window_Glass": {
+      "preview_color": [
+        0.18000000715255737,
+        0.25,
+        0.27000001072883606,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.03500000014901161,
+      "procedural_shader_requires_Unreal_rebuild": true
+    },
+    "VF_Window_Seal": {
+      "preview_color": [
+        0.008999999612569809,
+        0.013000000268220901,
+        0.014999999664723873,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.800000011920929,
+      "procedural_shader_requires_Unreal_rebuild": true
+    },
+    "VF_Faded_Safety_Ochre": {
+      "preview_color": [
+        0.5400000214576721,
+        0.3199999928474426,
+        0.04500000178813934,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.6000000238418579,
+      "procedural_shader_requires_Unreal_rebuild": true
+    },
+    "VF_Lamp_Diffuser": {
+      "preview_color": [
+        0.8500000238418579,
+        0.7200000286102295,
+        0.4300000071525574,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.4000000059604645,
+      "procedural_shader_requires_Unreal_rebuild": true
+    }
+  },
+  "unreal_import_validated": false,
+  "source_station_translation_m": [
+    -8,
+    -4,
+    4
+  ],
+  "deck_placement": "Proposed sample extension; reconcile with platform layout before replacing live assets."
+}

@@ -1,0 +1,45 @@
+{
+  "params_doc": "Options when adding a new subobject\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: SubobjectDataInterface\r\n- **File**: SubobjectDataSubsystem.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``blueprint_context`` (Blueprint):  [Read-Write] Pointer to the blueprint context that this subobject is in. If this is null, it is assumed that\r\n  this subobject is being added to an instance.\r\n- ``conform_transform_to_parent`` (bool):  [Read-Write] Whether the newly created component should keep its transform, or conform it to its parent\r\n- ``new_class`` (type(Class)):  [Read-Write] The class of the new subobject that will be added\r\n- ``parent_handle`` (SubobjectDataHandle):  [Read-Write]\r\n- ``skip_mark_blueprint_modified`` (bool):  [Read-Write] Optionally skip marking this blueprint as modified (e.g. if we're handling that externally",
+  "handles": [
+    {
+      "name": "Default__BP_StationWalker_C",
+      "class": "BP_StationWalker_C",
+      "path": "/Game/MaldekRefinement/R09/BP_StationWalker.Default__BP_StationWalker_C"
+    },
+    {
+      "name": "CollisionCylinder",
+      "class": "CapsuleComponent",
+      "path": "/Game/MaldekRefinement/R09/BP_StationWalker.Default__BP_StationWalker_C:CollisionCylinder"
+    },
+    {
+      "name": "Arrow",
+      "class": "ArrowComponent",
+      "path": "/Game/MaldekRefinement/R09/BP_StationWalker.Default__BP_StationWalker_C:Arrow"
+    },
+    {
+      "name": "SpotLight",
+      "class": "SpotLightComponent",
+      "path": "/Game/MaldekRefinement/R09/BP_StationWalker.Default__BP_StationWalker_C:SpotLight"
+    },
+    {
+      "name": "CharacterMesh0",
+      "class": "SkeletalMeshComponent",
+      "path": "/Game/MaldekRefinement/R09/BP_StationWalker.Default__BP_StationWalker_C:CharacterMesh0"
+    },
+    {
+      "name": "First Person Mesh",
+      "class": "SkeletalMeshComponent",
+      "path": "/Game/MaldekRefinement/R09/BP_StationWalker.Default__BP_StationWalker_C:First Person Mesh"
+    },
+    {
+      "name": "First Person Camera",
+      "class": "CameraComponent",
+      "path": "/Game/MaldekRefinement/R09/BP_StationWalker.Default__BP_StationWalker_C:First Person Camera"
+    },
+    {
+      "name": "CharMoveComp",
+      "class": "CharacterMovementComponent",
+      "path": "/Game/MaldekRefinement/R09/BP_StationWalker.Default__BP_StationWalker_C:CharMoveComp"
+    }
+  ]
+}

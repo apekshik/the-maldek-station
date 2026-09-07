@@ -1,0 +1,8 @@
+{
+  "class": "BP_StationWalker_C",
+  "walk_property": 350.0,
+  "max_walk": 350.0,
+  "controller": "<Object '/Game/MaldekRefinement/R09/UEDPIE_0_BlockOut_R09.BlockOut_R09:PersistentLevel.BP_HorrorPlayerController_C_0' (0x000001B11320DC00) Class 'BP_HorrorPlayerController_C'>",
+  "movement_mode": "<MovementMode.MOVE_WALKING: 1>",
+  "cdo_walk": 250.0
+}

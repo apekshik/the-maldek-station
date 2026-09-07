@@ -1,0 +1,1777 @@
+[
+  {
+    "file": "art/blender/render_demo/maldek_render_demo.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_disp.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_alpha.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_mask.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/visual_fidelity_01/Maldek_Control_Art_Sample.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_01\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_01\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/visual_fidelity_02/Maldek_Architecture_Redesign.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_02\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_02\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/visual_fidelity_03/Maldek_Architecture_Redesign.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_03\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_03\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/visual_fidelity_04/Maldek_Architecture_Redesign.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_04\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_04\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/visual_fidelity_05/Maldek_Architecture_Redesign.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_05\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_05\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/visual_fidelity_06/Maldek_Integrated_Station.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.001",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_06\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.002",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_06\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.003",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_06\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.004",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_06\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.001",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_06\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.002",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_06\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.003",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_06\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.004",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_06\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_bark_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_disp.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_alpha.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_mask.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/visual_fidelity_07/Maldek_Station_Cleanup.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.001",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.002",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.003",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.004",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\..\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.001",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.002",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.003",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.004",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\..\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_bark_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_disp.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_alpha.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_mask.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/checkpoints/pre_vf07/Unsaved_VF06_Review.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.001",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\checkpoints\\pre_vf07\\..\\..\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.002",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\checkpoints\\pre_vf07\\..\\..\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.003",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\checkpoints\\pre_vf07\\..\\..\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_diff_1k.jpg.004",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\checkpoints\\pre_vf07\\..\\..\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.001",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\checkpoints\\pre_vf07\\..\\..\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.002",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\checkpoints\\pre_vf07\\..\\..\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.003",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\checkpoints\\pre_vf07\\..\\..\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg.004",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\checkpoints\\pre_vf07\\..\\..\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_bark_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_disp.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_alpha.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_mask.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/unreal_handoff/forest_test/forest_terrain.blend",
+    "images": [],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/millford_v2_blockout_01.blend",
+    "images": [],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/revision_02/millford_v2_cliff_02.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/revision_03/assets/pine_tree_01_1k.blend",
+    "images": [
+      {
+        "name": "pine_tree_01_bark_diff.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_bark_disp.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_bark_nor_gl.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_bark_rough.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_trunk_a_diff.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_trunk_a_nor_gl.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_trunk_a_rough.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_trunk_b_diff.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_trunk_b_nor_gl.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_trunk_b_rough.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_trunk_c_diff.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_trunk_c_nor_gl.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_trunk_c_rough.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_twig_alpha.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_twig_diff.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_twig_mask.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_twig_nor_gl.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png",
+        "packed": false,
+        "exists": true
+      },
+      {
+        "name": "pine_tree_01_twig_rough.png",
+        "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png",
+        "packed": false,
+        "exists": true
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/revision_03/millford_v2_night_03.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_disp.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_alpha.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_mask.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/revision_04/millford_v2_detail_04.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_disp.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_alpha.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_mask.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/blender/revision_04_refinement/millford_v2_refinement_04.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_disp.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_alpha.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_mask.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/unreal_handoff/revision05/complete_route_terrain.blend",
+    "images": [],
+    "libraries": []
+  },
+  {
+    "file": "art/unreal_handoff/revision06/complete_route_terrain.blend",
+    "images": [],
+    "libraries": []
+  },
+  {
+    "file": "art/unreal_handoff/revision10/canyon_approach.blend",
+    "images": [],
+    "libraries": []
+  },
+  {
+    "file": "art/unreal_handoff/revision10/station_patched.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_disp.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_alpha.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_mask.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/unreal_handoff/revision11/station_layout.blend",
+    "images": [
+      {
+        "name": "concrete_floor_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "concrete_floor_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\concrete_floor_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_disp.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_bark_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_a_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_b_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_trunk_c_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_alpha.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_diff.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_mask.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_nor_gl.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "pine_tree_01_twig_rough.png",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_diff_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_diff_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_disp_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_disp_1k.jpg",
+        "packed": true,
+        "exists": false
+      },
+      {
+        "name": "rusty_painted_metal_rough_1k.jpg",
+        "path": "\\Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_02\\assets\\rusty_painted_metal_rough_1k.jpg",
+        "packed": true,
+        "exists": false
+      }
+    ],
+    "libraries": []
+  },
+  {
+    "file": "art/unreal_handoff/revision11/terrain.blend",
+    "images": [],
+    "libraries": []
+  },
+  {
+    "file": "art/unreal_handoff/station_local_terrain.blend",
+    "images": [],
+    "libraries": []
+  }
+]

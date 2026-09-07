@@ -1,0 +1,38 @@
+{
+  "engine": "Unreal Engine 5.7",
+  "map": "BlockOut_R07",
+  "resolution": [
+    2560,
+    1440
+  ],
+  "preview_exposure_bias_stops": 0,
+  "map_saved": false,
+  "shots": [
+    {
+      "name": "03_lower_deck_eye",
+      "location": [
+        -44582,
+        19125,
+        10070
+      ],
+      "look_at": [
+        -44200,
+        20700,
+        10100
+      ]
+    },
+    {
+      "name": "04_relay_approach",
+      "location": [
+        -47182,
+        20575,
+        10518
+      ],
+      "look_at": [
+        -48600,
+        20800,
+        10360
+      ]
+    }
+  ]
+}

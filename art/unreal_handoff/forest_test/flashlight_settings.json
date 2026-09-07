@@ -1,0 +1,8 @@
+{
+  "test_only": true,
+  "intensity": 1.2,
+  "radius_cm": 1500,
+  "outer_cone": 42,
+  "pitch": -12,
+  "game_mode": "/Game/MaldekRefinement/ForestTest/BP_ForestGameMode.BP_ForestGameMode"
+}

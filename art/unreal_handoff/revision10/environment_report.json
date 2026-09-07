@@ -1,0 +1,12 @@
+{
+  "pines": 157,
+  "wind_master": 0.24,
+  "wind_bed": 0.07,
+  "remote_station_distance_m": 650,
+  "remote_ground_z": 7581.472908560303,
+  "moon_target": [
+    -44282,
+    100000,
+    43000
+  ]
+}

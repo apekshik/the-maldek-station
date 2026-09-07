@@ -1,0 +1,128 @@
+{
+  "stage": "done",
+  "i": 30,
+  "start": 80049.921,
+  "waypoint": 80068.171,
+  "samples": [
+    {
+      "waypoint": 1,
+      "floor_delta_cm": -0.2543148994445801
+    },
+    {
+      "waypoint": 2,
+      "floor_delta_cm": -0.34011220932006836
+    },
+    {
+      "waypoint": 3,
+      "floor_delta_cm": -0.3691590077833098
+    },
+    {
+      "waypoint": 4,
+      "floor_delta_cm": -0.19732942626797012
+    },
+    {
+      "waypoint": 5,
+      "floor_delta_cm": -0.7712237500418269
+    },
+    {
+      "waypoint": 6,
+      "floor_delta_cm": -0.6445163546413823
+    },
+    {
+      "waypoint": 7,
+      "floor_delta_cm": -0.3812253921187221
+    },
+    {
+      "waypoint": 8,
+      "floor_delta_cm": -0.29465148045164824
+    },
+    {
+      "waypoint": 9,
+      "floor_delta_cm": -0.5269004097699508
+    },
+    {
+      "waypoint": 10,
+      "floor_delta_cm": -0.4356583084918384
+    },
+    {
+      "waypoint": 11,
+      "floor_delta_cm": -0.4577241432525625
+    },
+    {
+      "waypoint": 12,
+      "floor_delta_cm": -0.23683834475923504
+    },
+    {
+      "waypoint": 13,
+      "floor_delta_cm": -0.6749230212572002
+    },
+    {
+      "waypoint": 14,
+      "floor_delta_cm": -0.6285335089596629
+    },
+    {
+      "waypoint": 15,
+      "floor_delta_cm": -0.540121420779542
+    },
+    {
+      "waypoint": 16,
+      "floor_delta_cm": -0.7778868171699287
+    },
+    {
+      "waypoint": 17,
+      "floor_delta_cm": -0.6273898202089185
+    },
+    {
+      "waypoint": 18,
+      "floor_delta_cm": -0.29505787644120574
+    },
+    {
+      "waypoint": 19,
+      "floor_delta_cm": -0.26653884727966215
+    },
+    {
+      "waypoint": 20,
+      "floor_delta_cm": -0.3872755243082793
+    },
+    {
+      "waypoint": 21,
+      "floor_delta_cm": -0.36452163188005215
+    },
+    {
+      "waypoint": 22,
+      "floor_delta_cm": -0.3643719210194831
+    },
+    {
+      "waypoint": 23,
+      "floor_delta_cm": -0.3735080647365976
+    },
+    {
+      "waypoint": 24,
+      "floor_delta_cm": -0.35838317590787483
+    },
+    {
+      "waypoint": 25,
+      "floor_delta_cm": -0.24239239900998655
+    },
+    {
+      "waypoint": 26,
+      "floor_delta_cm": 0.1555334547192615
+    },
+    {
+      "waypoint": 27,
+      "floor_delta_cm": 0.7414709547192615
+    },
+    {
+      "waypoint": 28,
+      "floor_delta_cm": 0.7305348983773001
+    },
+    {
+      "waypoint": 29,
+      "floor_delta_cm": 0.43962719869341527
+    }
+  ],
+  "busy": true,
+  "next": 80083.171,
+  "success": true,
+  "duration_seconds": 33.25
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\apek-anna\Developer\the-maldek-station\art\unreal_handoff\scripts\capture_forest_test.py", line 14, in forest_capture_tick
+    name,p,q=shots[state['i']]
+             ~~~~~^^^^^^^^^^^^
+IndexError: list index out of range

@@ -1,0 +1,64 @@
+{
+  "engine": "Unreal Engine 5.7",
+  "map": "BlockOut_R07",
+  "resolution": [
+    2560,
+    1440
+  ],
+  "preview_exposure_bias_stops": 0,
+  "map_saved": false,
+  "shots": [
+    {
+      "name": "01_overview",
+      "location": [
+        -45700,
+        20500,
+        11300
+      ],
+      "look_at": [
+        -44100,
+        18600,
+        10250
+      ]
+    },
+    {
+      "name": "02_platform_eye",
+      "location": [
+        -42900,
+        19400,
+        10560
+      ],
+      "look_at": [
+        -44280,
+        19300,
+        10400
+      ]
+    },
+    {
+      "name": "03_lower_deck_eye",
+      "location": [
+        -44082,
+        19075,
+        10070
+      ],
+      "look_at": [
+        -44200,
+        21000,
+        9750
+      ]
+    },
+    {
+      "name": "04_relay_approach",
+      "location": [
+        -47100,
+        19700,
+        10480
+      ],
+      "look_at": [
+        -48900,
+        19775,
+        10400
+      ]
+    }
+  ]
+}

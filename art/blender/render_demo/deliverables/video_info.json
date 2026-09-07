@@ -1,0 +1,12 @@
+{
+  "frames": 384,
+  "fps": 24,
+  "duration_seconds": 16.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "codec": "H.264",
+  "audio": "silent",
+  "cycles_frames": 240
+}

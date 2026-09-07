@@ -1,0 +1,12 @@
+{
+  "count": 42,
+  "passed": true,
+  "failures": [],
+  "bands_m": [
+    1.8,
+    3.6,
+    1.95
+  ],
+  "total_depth_m": 7.35,
+  "limits": "Sampled Blender geometry, not an engine capsule test."
+}

@@ -1,0 +1,9 @@
+00:00.937  blend            | Read blend: "C:\Users\apek-anna\Developer\the-maldek-station\art\blender\visual_fidelity_01\Maldek_Control_Art_Sample.blend"
+
+FBX export starting... 'C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_01\\exports\\SM_VF01_Control_Sample.fbx'
+export finished in 0.1928 sec.
+FBX version: 7400
+{"sampled_checks": 421, "failures": [], "all_passed": true, "scope": "Shell rays only; not continuous player capsule sweeps.", "fbx_roundtrip_bounds_error_m": 5.21540641784668e-07, "render_vertices": 101532, "render_polygons": 99301, "collision_hulls": 22, "bounds_m": [[-0.20999999344348907, -0.20999999344348907, -0.9099999666213989], [6.599999904632568, 6.0, 3.311999797821045]], "unreal_import_validated": false, "source_station_translation_m": [-8, -4, 4], "deck_placement": "Proposed sample extension; reconcile with platform layout before replacing live assets."}
+Blender 5.0.1 (hash a3db93c5b259 built 2025-12-16 01:32:30)
+
+Blender quit

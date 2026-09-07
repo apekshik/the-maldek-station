@@ -1,0 +1,26 @@
+{
+  "cvars": {
+    "r.SupportLocalFogVolumes": 1,
+    "r.LocalFogVolume": 1,
+    "r.LocalFogVolume.RenderIntoVolumetricFog": 1,
+    "r.VolumetricFog": 1,
+    "r.Fog": 1,
+    "r.LocalFogVolume.GlobalStartDistance": 100
+  },
+  "actors": [
+    {
+      "name": "R07_Local_Station_Mist",
+      "actor_scale": "<Struct 'Vector' (0x0000021E113410F0) {x: 14.062500, y: 14.062500, z: 14.062500}>",
+      "component_scale": "<Struct 'Vector' (0x0000021E113410F0) {x: 14.062500, y: 14.062500, z: 14.062500}>",
+      "component_location": "<Struct 'Vector' (0x0000021E113410F0) {x: -44150.000000, y: 18750.000000, z: 10200.000000}>",
+      "visible": true
+    },
+    {
+      "name": "R07_Relay_Approach_Mist",
+      "actor_scale": "<Struct 'Vector' (0x0000021E113408D0) {x: 10.937500, y: 10.937500, z: 10.937500}>",
+      "component_scale": "<Struct 'Vector' (0x0000021E113408D0) {x: 10.937500, y: 10.937500, z: 10.937500}>",
+      "component_location": "<Struct 'Vector' (0x0000021E113408D0) {x: -47600.000000, y: 19700.000000, z: 10200.000000}>",
+      "visible": true
+    }
+  ]
+}

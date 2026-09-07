@@ -1,0 +1,11 @@
+{
+  "actor": "<Struct 'Transform' (0x000001E9E3586A00) {rotation: {x: 0.000000, y: -0.000000, z: 0.997290, w: 0.073565}, translation: {x: -43369.891053, y: 19420.190387, z: 10388.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "methods": [],
+  "Moon Handle": "<Struct 'Transform' (0x000001E9E3586A00) {rotation: {x: 0.000000, y: 0.000000, z: 0.757209, w: -0.653173}, translation: {x: -43388.600400, y: 19410.037854, z: 10436.566966}, scale3d: {x: 0.759520, y: 0.759520, z: 0.759520}}>",
+  "Moon Parent": "<Struct 'Transform' (0x000001E9E3586A00) {rotation: {x: -0.374968, y: 0.440919, z: 0.357270, w: 0.733040}, translation: {x: -44581.518823, y: 18984.202285, z: 70238.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "Moon": "<Struct 'Transform' (0x000001E9E3586A00) {rotation: {x: -0.374968, y: 0.440919, z: 0.357270, w: 0.733040}, translation: {x: 145800.675342, y: -512336.294666, z: 32118.299787}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+  "Moon Target": "<Struct 'Vector' (0x000001EA780E4F70) {x: 17.017160, y: 12.787879, z: 48.066966}>",
+  "Moon World Rotation": "<Struct 'Rotator' (0x000001EA780E53E8) {pitch: -66.113834, yaw: 28.486248, roll: 35.420164}>",
+  "Sun Yaw": "0.0",
+  "Sun Pitch": "30.0"
+}

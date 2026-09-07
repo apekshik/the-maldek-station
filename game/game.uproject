@@ -33,6 +33,10 @@
 		{
 			"Name": "GaeaUnrealTools",
 			"Enabled": true
+		},
+		{
+			"Name": "ProceduralVegetationEditor",
+			"Enabled": true
 		}
 	]
 }

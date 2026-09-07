@@ -1,0 +1,45 @@
+{
+  "01_exterior.mp4": {
+    "frames": 60,
+    "seconds": 2.5,
+    "bytes": 683389,
+    "decode_ok": true
+  },
+  "02_platform.mp4": {
+    "frames": 60,
+    "seconds": 2.5,
+    "bytes": 1110172,
+    "decode_ok": true
+  },
+  "03_operator.mp4": {
+    "frames": 60,
+    "seconds": 2.5,
+    "bytes": 784066,
+    "decode_ok": true
+  },
+  "04_forest.mp4": {
+    "frames": 60,
+    "seconds": 2.5,
+    "bytes": 1171887,
+    "decode_ok": true
+  },
+  "maldek_map_to_mood.mp4": {
+    "frames": 384,
+    "seconds": 16.0,
+    "bytes": 4714540,
+    "decode_ok": true
+  },
+  "01_exterior": {
+    "endpoint_mean_pixel_difference": 5.820084635416666
+  },
+  "02_platform": {
+    "endpoint_mean_pixel_difference": 9.589920066550926
+  },
+  "03_operator": {
+    "endpoint_mean_pixel_difference": 13.606557074652777
+  },
+  "04_forest": {
+    "endpoint_mean_pixel_difference": 10.30038158275463
+  },
+  "source_unchanged": true
+}

@@ -1,0 +1,512 @@
+{
+  "checks": [
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 0
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 0,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 1
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 1,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 2
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 2,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 3
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 3,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 4
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 4,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 5
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 5,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 6
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 6,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 7
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 7,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 8
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 8,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 9
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 9,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 10
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 10,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 11
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 11,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 12
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 12,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 13
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 13,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 14
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 14,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 15
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 15,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 16
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 16,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 17
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 17,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 18
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 18,
+      "hit": null
+    },
+    {
+      "check": "stair tread elevation",
+      "passed": true,
+      "index": 19
+    },
+    {
+      "check": "stair vertical headroom",
+      "passed": true,
+      "index": 19,
+      "hit": null
+    },
+    {
+      "check": "landing and upstairs floor",
+      "passed": true,
+      "y": -1.1
+    },
+    {
+      "check": "upper entry headroom",
+      "passed": true,
+      "y": -1.1,
+      "hit": null
+    },
+    {
+      "check": "landing and upstairs floor",
+      "passed": true,
+      "y": -0.5
+    },
+    {
+      "check": "upper entry headroom",
+      "passed": true,
+      "y": -0.5,
+      "hit": null
+    },
+    {
+      "check": "landing and upstairs floor",
+      "passed": true,
+      "y": 0.1
+    },
+    {
+      "check": "upper entry headroom",
+      "passed": true,
+      "y": 0.1,
+      "hit": null
+    },
+    {
+      "check": "landing and upstairs floor",
+      "passed": true,
+      "y": 0.5
+    },
+    {
+      "check": "upper entry headroom",
+      "passed": true,
+      "y": 0.5,
+      "hit": null
+    },
+    {
+      "check": "landing and upstairs floor",
+      "passed": true,
+      "y": 0.9
+    },
+    {
+      "check": "upper entry headroom",
+      "passed": true,
+      "y": 0.9,
+      "hit": null
+    },
+    {
+      "check": "landing and upstairs floor",
+      "passed": true,
+      "y": 1.3
+    },
+    {
+      "check": "upper entry headroom",
+      "passed": true,
+      "y": 1.3,
+      "hit": null
+    },
+    {
+      "check": "landing and upstairs floor",
+      "passed": true,
+      "y": 1.8
+    },
+    {
+      "check": "upper entry headroom",
+      "passed": true,
+      "y": 1.8,
+      "hit": null
+    },
+    {
+      "check": "landing and upstairs floor",
+      "passed": true,
+      "y": 2.3
+    },
+    {
+      "check": "upper entry headroom",
+      "passed": true,
+      "y": 2.3,
+      "hit": null
+    },
+    {
+      "check": "landing and upstairs floor",
+      "passed": true,
+      "y": 2.6
+    },
+    {
+      "check": "upper entry headroom",
+      "passed": true,
+      "y": 2.6,
+      "hit": null
+    },
+    {
+      "check": "upper doorway passage",
+      "passed": true,
+      "x": 5.74,
+      "z": 3.4,
+      "hit": null
+    },
+    {
+      "check": "upper doorway passage",
+      "passed": true,
+      "x": 5.74,
+      "z": 4.3,
+      "hit": null
+    },
+    {
+      "check": "upper doorway passage",
+      "passed": true,
+      "x": 5.74,
+      "z": 5.2,
+      "hit": null
+    },
+    {
+      "check": "upper doorway passage",
+      "passed": true,
+      "x": 5.95,
+      "z": 3.4,
+      "hit": null
+    },
+    {
+      "check": "upper doorway passage",
+      "passed": true,
+      "x": 5.95,
+      "z": 4.3,
+      "hit": null
+    },
+    {
+      "check": "upper doorway passage",
+      "passed": true,
+      "x": 5.95,
+      "z": 5.2,
+      "hit": null
+    },
+    {
+      "check": "upper doorway passage",
+      "passed": true,
+      "x": 6.16,
+      "z": 3.4,
+      "hit": null
+    },
+    {
+      "check": "upper doorway passage",
+      "passed": true,
+      "x": 6.16,
+      "z": 4.3,
+      "hit": null
+    },
+    {
+      "check": "upper doorway passage",
+      "passed": true,
+      "x": 6.16,
+      "z": 5.2,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 4.2,
+      "z": 0.06,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 4.2,
+      "z": 0.6,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 4.2,
+      "z": 1.7,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 4.2,
+      "z": 2.2,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 4.65,
+      "z": 0.06,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 4.65,
+      "z": 0.6,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 4.65,
+      "z": 1.7,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 4.65,
+      "z": 2.2,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 5.2,
+      "z": 0.06,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 5.2,
+      "z": 0.6,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 5.2,
+      "z": 1.7,
+      "hit": null
+    },
+    {
+      "check": "lower doorway passage",
+      "passed": true,
+      "x": 5.2,
+      "z": 2.2,
+      "hit": null
+    },
+    {
+      "check": "upper floor no roof seam protrusion",
+      "passed": true,
+      "x": 2.7,
+      "y": 2.4
+    },
+    {
+      "check": "upper floor no roof seam protrusion",
+      "passed": true,
+      "x": 3,
+      "y": 3
+    },
+    {
+      "check": "upper floor no roof seam protrusion",
+      "passed": true,
+      "x": 4.9,
+      "y": 1.9
+    },
+    {
+      "check": "landing support contact",
+      "passed": true,
+      "top_m": 3.309999942779541
+    },
+    {
+      "check": "landing support contact",
+      "passed": true,
+      "top_m": 3.309999942779541
+    },
+    {
+      "check": "landing support contact",
+      "passed": true,
+      "top_m": 3.309999942779541
+    },
+    {
+      "check": "landing support contact",
+      "passed": true,
+      "top_m": 3.309999942779541
+    }
+  ],
+  "count": 86,
+  "passed": true,
+  "scope": "Sampled rays and measured support bounds. Not continuous capsule sweeps or structural engineering validation.",
+  "unreal_integration": false
+}

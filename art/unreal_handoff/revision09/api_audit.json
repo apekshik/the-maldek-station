@@ -1,0 +1,1260 @@
+{
+  "foliage_api": [
+    "actor_instance_guid",
+    "add_instances",
+    "remove_all_instances"
+  ],
+  "subobject_api": [
+    "add_new_subobject",
+    "attach_subobject",
+    "k2_gather_subobject_data_for_blueprint",
+    "k2_gather_subobject_data_for_instance"
+  ],
+  "add_doc": "x.add_new_subobject(params) -> (SubobjectDataHandle, fail_reason=Text)\r\nAdd a new subobject as a child to the given parent object\r\n\r\nArgs:\r\n    params (AddNewSubobjectParams): Options to consider when adding this subobject\r\n\r\nReturns:\r\n    Text: FSubobjectDataHandle          Handle to the newly created subobject, Invalid handle if creation failed\r\n\r\n    fail_reason (Text):",
+  "foliage_remove_doc": "X.remove_all_instances(world_context_object, foliage_type) -> None\r\nRemove All Instances\r\n\r\nArgs:\r\n    world_context_object (Object): \r\n    foliage_type (FoliageType):",
+  "components": [
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_0",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_1",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_2",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_3",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_4",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_5",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_6",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_7",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_8",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_9",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_10",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_11",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_12",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_13",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_14",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_15",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_16",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_17",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_18",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_19",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_20",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_21",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_22",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_23",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_24",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_25",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_26",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_27",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_28",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_29",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_30",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_31",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_32",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_33",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_34",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_35",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_36",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_37",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_38",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_39",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_40",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_41",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_42",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_43",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_44",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_45",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_46",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_47",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_48",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_49",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_50",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_51",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_52",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000001AFBFCE0800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_53",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000001AFBFCE0800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_54",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000001AFBFCE1000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_55",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000001AFBFCE1000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_56",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000001AFBFCE1800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_57",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000001AFBFCE1800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_58",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000001AFBFCE2000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_59",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000001AFBFCE2000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_60",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_61",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_62",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_63",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_64",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_65",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_66",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_67",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_68",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_69",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000001AFBFCE0800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_70",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000001AFBFCE0800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_71",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000001AFBFCE1000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_72",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000001AFBFCE1000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_73",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000001AFBFCE1800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_74",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000001AFBFCE1800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_75",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000001AFBFCE2000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_76",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000001AFBFCE2000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_77",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_78",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_79",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_80",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_81",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_82",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_83",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_84",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_85",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_86",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000001AFBFCE0800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_87",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000001AFBFCE0800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_88",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000001AFBFCE1000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_89",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000001AFBFCE1000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_90",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000001AFBFCE1800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_91",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000001AFBFCE1800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_92",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000001AFBFCE2000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_93",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000001AFBFCE2000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_94",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_95",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_96",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_97",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_98",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_99",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_100",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_101",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_102",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_103",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_104",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_105",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_106",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_107",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_108",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_109",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_110",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_111",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_112",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_113",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_114",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_115",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_116",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_117",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_118",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_119",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_120",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_121",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_122",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_123",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_124",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_125",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_126",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_127",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000001AFBFCE0800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_128",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000001AFBFCE0800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_129",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000001AFBFCE1000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_130",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000001AFBFCE1000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_131",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000001AFBFCE1800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_132",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000001AFBFCE1800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_133",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000001AFBFCE2000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_134",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000001AFBFCE2000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_135",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_136",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_137",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_138",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_139",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_140",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_141",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_142",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_143",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_144",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000001AFBFCE0800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_145",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000001AFBFCE0800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_146",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000001AFBFCE1000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_147",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000001AFBFCE1000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_148",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000001AFBFCE1800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_149",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000001AFBFCE1800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_150",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000001AFBFCE2000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_151",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000001AFBFCE2000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_152",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_153",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_154",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_155",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_156",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_157",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_158",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_159",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_160",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_161",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_162",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_163",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_164",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_165",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_166",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_167",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_168",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_169",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_170",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_171",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_172",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_173",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_174",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_175",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_176",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_177",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_178",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_179",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_180",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_181",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_182",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_183",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_184",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_185",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_186",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_187",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_188",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_189",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_190",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_191",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_192",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_193",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_194",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000001AFB3617800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_195",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000001AFB79AF800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_196",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_197",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000001AFBF86E000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_198",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000001AFBF862000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_199",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000001AFBF862800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_200",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000001AFBF869800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_201",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000001AFC06EA800) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "Landscape0",
+      "component": "GrassInstancedStaticMeshComponent_202",
+      "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000001AFC06ED000) Class 'StaticMesh'>",
+      "count": 0
+    },
+    {
+      "actor": "InstancedFoliageActor0",
+      "component": "FoliageInstancedStaticMeshComponent_0",
+      "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0' (0x000001AF5CA84000) Class 'StaticMesh'>",
+      "count": 54
+    },
+    {
+      "actor": "InstancedFoliageActor0",
+      "component": "FoliageInstancedStaticMeshComponent_1",
+      "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_1.SM_R06_Pine_1' (0x000001AF5CA85000) Class 'StaticMesh'>",
+      "count": 53
+    },
+    {
+      "actor": "InstancedFoliageActor0",
+      "component": "FoliageInstancedStaticMeshComponent_2",
+      "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2' (0x000001AF5CA86000) Class 'StaticMesh'>",
+      "count": 53
+    }
+  ],
+  "bp_default": "<Object '/Game/Variant_Horror/Blueprints/BP_HorrorCharacter.Default__BP_HorrorCharacter_C' (0x000001B10C7F0A00) Class 'BP_HorrorCharacter_C'>",
+  "CharacterMesh0": {
+    "anim": "<Object '/Game/Characters/Mannequins/Anims/Unarmed/ABP_Unarmed.ABP_Unarmed_C' (0x000001AC890FC400) Class 'AnimBlueprintGeneratedClass'>"
+  },
+  "First Person Mesh": {
+    "anim": "<Object '/Game/FirstPerson/Anims/ABP_FP_Copy.ABP_FP_Copy_C' (0x000001AC890F9A00) Class 'AnimBlueprintGeneratedClass'>"
+  }
+}

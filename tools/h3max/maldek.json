@@ -1,0 +1,95 @@
+{
+  "source_blend": "../../art/blender/revision_04_refinement/millford_v2_refinement_04.blend",
+  "output_root": "../../art/blender/h3max/outputs",
+  "resolution": "768P",
+  "duration": 5,
+  "seed": 73419,
+  "mood": "A very dark, ominous live-action nighttime shot of an isolated mountain cable-car station in rain and thick fog. The overall exposure is low: most of the forest, cliff and lower machinery disappear into deep cool charcoal-blue shadow and layers of dense drifting valley mist. No daylight, no bright blue sky, no evenly readable architecture. The distant pines are vague silhouettes dissolving into fog. Thick low cloud and mist partially veil the lower deck and cliff, with occasional wisps passing in front of the station. Only a few dim warm tungsten pools from the booth and restrained cold dock lamps reveal fragments of the worn red gondola, wet railings and platform. Gentle light bloom and volumetric shafts in humid air; muted saturation, dark red paint, restrained broken reflections. Keep the gondola silhouette and camera direction legible, but deliberately suppress fine detail: low visibility, soft atmospheric contrast, indistinct shadowed surfaces. Unsettling quiet horror-film mood, believable photographed night rather than a crisply lit architectural visualization. No additional lights, no neon, no lightning, no dramatic flashes, no text. The exposure and fog treatment are established from frame one and remain consistent through the shot.",
+  "shots": [
+    {
+      "id": "exterior",
+      "position": [
+        25,
+        34,
+        13
+      ],
+      "target": [
+        0,
+        4,
+        3
+      ],
+      "lens": 43,
+      "motion": "Extremely slow, subtle forward camera drift, at most one metre. Keep the full station and both levels readable. No orbit or dramatic zoom.",
+      "style_image": "../../art/blender/revision_04_refinement/audit/after/night_platform.png",
+      "end_position": [
+        23,
+        33,
+        12.7
+      ]
+    },
+    {
+      "id": "platform",
+      "position": [
+        -7,
+        1,
+        4.9
+      ],
+      "target": [
+        0,
+        9,
+        5.2
+      ],
+      "lens": 28,
+      "motion": "Very slow lateral camera slide beside the platform, no more than half a metre. Hold focus on the gondola with slightly softer near-floor reflections.",
+      "style_image": "../../art/blender/revision_04_refinement/audit/after/night_platform.png",
+      "end_position": [
+        -6.3,
+        1.5,
+        5
+      ]
+    },
+    {
+      "id": "operator",
+      "position": [
+        -6.4,
+        -1.9,
+        5.65
+      ],
+      "target": [
+        -0.4,
+        10,
+        5.1
+      ],
+      "lens": 25,
+      "motion": "Subtle lateral drift inside the control booth. Keep the window opening, console and gondola aligned. Shallow foreground depth of field; focus on the gondola.",
+      "style_image": "../../art/blender/revision_04_refinement/audit/after/night_controls.png",
+      "end_position": [
+        -6,
+        -1.65,
+        5.65
+      ]
+    },
+    {
+      "id": "forest",
+      "position": [
+        23,
+        25,
+        9
+      ],
+      "target": [
+        0,
+        5,
+        4
+      ],
+      "lens": 45,
+      "motion": "Slow lateral reveal past soft foreground pine branches, focus held on the station. Do not let foliage completely obscure the gondola.",
+      "style_image": "../../art/blender/revision_04_refinement/audit/after/night_platform.png",
+      "end_position": [
+        21.5,
+        25,
+        9
+      ]
+    }
+  ],
+  "conditioning": "motion_only"
+}

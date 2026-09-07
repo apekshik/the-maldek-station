@@ -1,0 +1,176 @@
+{
+  "count": 28,
+  "passed": true,
+  "failures": [],
+  "checks": [
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 0.55,
+      "z": 0.5,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 0.55,
+      "z": 1,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 0.55,
+      "z": 1.7,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 1.1,
+      "z": 0.5,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 1.1,
+      "z": 1,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 1.1,
+      "z": 1.7,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 1.8,
+      "z": 0.5,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 1.8,
+      "z": 1,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 1.8,
+      "z": 1.7,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 6.5,
+      "z": 0.5,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 6.5,
+      "z": 1,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 6.5,
+      "z": 1.7,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 7.2,
+      "z": 0.5,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 7.2,
+      "z": 1,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 7.2,
+      "z": 1.7,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 7.7,
+      "z": 0.5,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 7.7,
+      "z": 1,
+      "hit": null
+    },
+    {
+      "check": "Utility gateway clear",
+      "passed": true,
+      "y": 7.7,
+      "z": 1.7,
+      "hit": null
+    },
+    {
+      "check": "Ladder exit guard opening",
+      "passed": true,
+      "z": 6.8
+    },
+    {
+      "check": "Ladder exit guard opening",
+      "passed": true,
+      "z": 7.35
+    },
+    {
+      "check": "Tank has closed lid",
+      "passed": true
+    },
+    {
+      "check": "Tank column reaches bearing",
+      "passed": true
+    },
+    {
+      "check": "Tank column reaches bearing",
+      "passed": true
+    },
+    {
+      "check": "Tank column reaches bearing",
+      "passed": true
+    },
+    {
+      "check": "Tank column reaches bearing",
+      "passed": true
+    },
+    {
+      "check": "Relay connector floor",
+      "passed": true
+    },
+    {
+      "check": "Relay connector floor",
+      "passed": true
+    },
+    {
+      "check": "Relay connector floor",
+      "passed": true
+    }
+  ],
+  "limits": "Blender sampled checks; no engine collision or structural certification."
+}
