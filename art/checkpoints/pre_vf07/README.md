@@ -6,6 +6,8 @@ Saved 2026-09-07 before replacing any playable station geometry.
 - `Unsaved_VF06_Review.blend`: copy of the unsaved open VF06 review. The approved VF07 source remains unchanged.
 - `blender_dependencies.json`: read-only audit of 23 Blender sources; no unpacked missing external images or missing linked libraries.
 - `development_editor_build.log`: Win64 Development Editor build succeeded with UE 5.7.
+- `runtime_dependencies.json`: additional component/light settings and recursive package dependency inventory. Five unresolved branch-instance inputs belong to `PVE_European_Beech_01`, an imported vegetation authoring graph. They are an existing dependency issue and are not silently counted as resolved.
+- `performance_capture.json`: rejected preliminary performance attempt. The PIE window clamped to 2554 x 1402; no valid 1440p timing baseline or 60 FPS claim is established by this file. Establish a fixed render viewport before R12 geometry changes and before comparing performance.
 
 ## Dependencies and exclusions
 

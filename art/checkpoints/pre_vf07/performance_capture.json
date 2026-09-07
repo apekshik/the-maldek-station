@@ -1,0 +1,14 @@
+{
+  "stage": "resolution",
+  "next": 104953.921,
+  "i": 0,
+  "samples": [],
+  "deadline": 105445.375,
+  "busy": true,
+  "viewport_size": [
+    2554,
+    1402
+  ],
+  "success": false,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\scripts\\capture_checkpoint_performance.py\", line 29, in tick\n    if state['viewport_size']!=[2560,1440]:raise RuntimeError('Require actual 2560x1440 viewport: '+str(state['viewport_size']))\n                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Require actual 2560x1440 viewport: [2554, 1402]\n"
+}
