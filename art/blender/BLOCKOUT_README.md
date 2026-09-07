@@ -1,5 +1,7 @@
 # Millford V2 — dimensional blockout 01
 
+Before new mesh work, read [Mesh authoring lessons](../MESH_AUTHORING.md) for surface ownership, opening clearances and the confirmed R12 z-fighting fixes.
+
 Editable source: `millford_v2_blockout_01.blend` · Blender 5.0.1 · September 6, 2026
 
 This is the first architectural interpretation of the V2 website diagram. It resolves floor heights, stair runs, openings and the operator's window into geometry. It is a blockout for iteration, not final art or a tested UE5 level.

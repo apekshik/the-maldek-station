@@ -61,6 +61,8 @@ Unreal Engine 5.7 project at `game/game.uproject`, including an existing BlockOu
 
 ## Blender blockout (`art/blender/`)
 
+Before creating or importing architectural meshes, read [Mesh authoring lessons](art/MESH_AUTHORING.md). It records the R12 z-fighting causes, concealed-core repair, separate Nanite fallback issue, and proactive source/export/rapid-frame checks. Apply these lessons to future openings and layered surfaces.
+
 `millford_v2_blockout_01.blend` is the first metre-scale architectural pass. Read `art/blender/BLOCKOUT_README.md` before editing or exporting. `scripts/build_millford.py` generates revision 01 from scratch in a separate background Blender process; do not rerun it over hand-edited work. `scripts/validate_and_export.py` runs geometry samples, exports named chunks with UCX hulls and checks FBX re-import bounds. UE5 movement/import validation remains pending. The HTML map is still the earlier schematic; it is not the dimensional source of truth for this Blender revision.
 
 Latest environment study: `art/blender/revision_03/millford_v2_night_03.blend`. Read its `README.md` for the continuous relay paths, relocated hut, CC0 pine source, distant cable route and rainy night cameras. Revision 03 has sampled geometry validation but no refreshed FBX export. Keep all earlier revisions and save hand edits under a new filename.

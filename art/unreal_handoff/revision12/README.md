@@ -1,5 +1,7 @@
 # VF07 → Unreal R12 migration
 
+For future meshes and reimports, read [Mesh authoring lessons](../../MESH_AUTHORING.md). It preserves the door/window z-fighting diagnosis, cumulative fixes and preventive validation checks.
+
 All 328 approved VF07 assemblies are integrated in `/Game/MaldekRefinement/R12/Station_R12`. The map is selected for editor and game startup. See `RELEASE_REVIEW.md` for measured results, reproduction instructions and the explicitly retained GPU performance limitation. The migration history is preserved on `codex/vf07-unreal-r12`; final remote verification is recorded separately.
 
 ## Preserved checkpoint
