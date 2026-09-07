@@ -33,7 +33,7 @@ surface from beneath the new lot, following the project's surface-ownership rule
 
 ## Integration status
 
-Imported into Station_R12 after the service task's 0033896 checkpoint. Five
+Imported into Station_R12 after the service task's dbb0eca checkpoint. Five
 assemblies replace three exact components; car and player remain in place.
 Unreal planting adds 47 grass clumps and four trees, with one existing tree and
 its trunk proxy moved out of the new lane. The first path marker moves into the

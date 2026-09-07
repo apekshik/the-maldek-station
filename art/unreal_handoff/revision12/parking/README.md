@@ -19,6 +19,6 @@ Rock shapes are authored study meshes; the intended next art pass substitutes
 the user's Fab geology assets. Grass uses four installed MWLandscape variants;
 trees use existing Megaplant species. No assets were purchased.
 
-Rollback uses the preserved pre-parking map at commit 0033896. Avoid restoring
+Rollback uses the preserved pre-parking map at commit dbb0eca. Avoid restoring
 that entire map after later unrelated changes; use the explicit replacement and
 planting manifests to reverse only this pass in that case.
