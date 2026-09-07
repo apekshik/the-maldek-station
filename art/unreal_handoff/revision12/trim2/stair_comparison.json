@@ -1,0 +1,102 @@
+{
+  "routes": [
+    {
+      "route": "Arrival/forward",
+      "before": {
+        "camera_height_second_difference_p95_cm": 4.797481912172406,
+        "capsule_height_second_difference_p95_cm": 4.786709561307179,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "after": {
+        "camera_height_second_difference_p95_cm": 0.4841900285926373,
+        "capsule_height_second_difference_p95_cm": 3.087964156057932,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "same_frame_camera_vs_capsule_reduction_percent": 84.3
+    },
+    {
+      "route": "Arrival/reverse",
+      "before": {
+        "camera_height_second_difference_p95_cm": 5.252640110684657,
+        "capsule_height_second_difference_p95_cm": 5.247574424743649,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "after": {
+        "camera_height_second_difference_p95_cm": 0.4122283236938528,
+        "capsule_height_second_difference_p95_cm": 3.2663818359374988,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "same_frame_camera_vs_capsule_reduction_percent": 87.4
+    },
+    {
+      "route": "Quarters/forward",
+      "before": {
+        "camera_height_second_difference_p95_cm": 5.348798799042468,
+        "capsule_height_second_difference_p95_cm": 5.359892384154862,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "after": {
+        "camera_height_second_difference_p95_cm": 0.4944798794822418,
+        "capsule_height_second_difference_p95_cm": 3.2522404020292015,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "same_frame_camera_vs_capsule_reduction_percent": 84.8
+    },
+    {
+      "route": "Quarters/reverse",
+      "before": {
+        "camera_height_second_difference_p95_cm": 5.201814204560285,
+        "capsule_height_second_difference_p95_cm": 5.210308074951169,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "after": {
+        "camera_height_second_difference_p95_cm": 0.48122452030547685,
+        "capsule_height_second_difference_p95_cm": 3.472950744628906,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "same_frame_camera_vs_capsule_reduction_percent": 86.1
+    },
+    {
+      "route": "Internal descending stair/forward",
+      "before": {
+        "camera_height_second_difference_p95_cm": 4.885791808019439,
+        "capsule_height_second_difference_p95_cm": 4.879585874774693,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "after": {
+        "camera_height_second_difference_p95_cm": 0.3539607615321074,
+        "capsule_height_second_difference_p95_cm": 2.9830641498365367,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "same_frame_camera_vs_capsule_reduction_percent": 88.1
+    },
+    {
+      "route": "Internal descending stair/reverse",
+      "before": {
+        "camera_height_second_difference_p95_cm": 5.426097501115145,
+        "capsule_height_second_difference_p95_cm": 5.4293931961059565,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "after": {
+        "camera_height_second_difference_p95_cm": 0.4159199633549178,
+        "capsule_height_second_difference_p95_cm": 3.170752716064453,
+        "falling_frames": 0,
+        "passed": true
+      },
+      "same_frame_camera_vs_capsule_reduction_percent": 86.9
+    }
+  ],
+  "measurement": "Per-frame height second difference: camera versus capsule on identical frames within each run, with full walking input. This measures suppression of step discontinuities, not physical acceleration or subjective comfort. Quantized Windows clock timestamps are not used to estimate acceleration.",
+  "success": true
+}

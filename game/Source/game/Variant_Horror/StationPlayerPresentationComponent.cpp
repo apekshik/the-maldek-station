@@ -55,6 +55,7 @@ void UStationPlayerPresentationComponent::BeginPlay()
  HandFill->SetIndirectLightingIntensity(0);HandFill->SetVolumetricScatteringIntensity(0);
  HandFill->SetLightColor(FLinearColor(0.80f,0.86f,1.0f));HandFill->RegisterComponent();
  Focus=TargetFocus=FMath::Clamp(InitialFocus,0.0f,1.0f);
+ PreviousCapsuleLocation=Character->GetActorLocation();SmoothedGroundZ=PreviousCapsuleLocation.Z;
  PreviousAim=Character->GetControlRotation();UpdateBeam();
 }
 
@@ -90,6 +91,27 @@ void UStationPlayerPresentationComponent::TickComponent(float Dt,ELevelTick Tick
  const FVector Velocity=Character->GetVelocity();
  const float Speed=Velocity.Size2D();
  const bool Grounded=Character->GetCharacterMovement()->IsMovingOnGround();
+ const FVector CapsuleLocation=Character->GetActorLocation();
+ const float MaxOffset=Character->GetCharacterMovement()->MaxStepHeight*0.8f;
+ const bool ResetHeight=!Grounded || !bWasGrounded || Dt>0.15f ||
+  FVector::DistSquared(CapsuleLocation,PreviousCapsuleLocation)>FMath::Square(150.0f);
+ if(ResetHeight){SmoothedGroundZ=CapsuleLocation.Z;GroundZVelocity=0;}
+ else
+ {
+  // Exact critically damped spring response for this frame's target height.
+  // Removes tread-sized view jolts without a ramp over the walking collision.
+  const float Omega=FMath::Clamp(GroundHeightResponse,6.0f,40.0f);
+  const double Error=SmoothedGroundZ-CapsuleLocation.Z;
+  const double Travel=(GroundZVelocity+Omega*Error)*Dt;
+  const double Decay=FMath::Exp(-Omega*Dt);
+  SmoothedGroundZ=CapsuleLocation.Z+(Error+Travel)*Decay;
+  GroundZVelocity=(GroundZVelocity-Omega*Travel)*Decay;
+  SmoothedGroundZ=FMath::Clamp(SmoothedGroundZ,CapsuleLocation.Z-MaxOffset,CapsuleLocation.Z+MaxOffset);
+ }
+ const float GroundOffset=SmoothedGroundZ-CapsuleLocation.Z;
+ const FVector LocalGroundOffset=Camera->GetComponentQuat().UnrotateVector(FVector(0,0,GroundOffset));
+ const float StairBob=FMath::Lerp(1.0f,0.35f,FMath::Clamp(FMath::Abs(GroundOffset)/4.0f,0.0f,1.0f));
+ PreviousCapsuleLocation=CapsuleLocation;
  const float Run=FMath::Clamp((Speed-350.0f)/250.0f,0.0f,1.0f);
  const float TargetMotion=Grounded?FMath::Clamp(Speed/150.0f,0.0f,1.0f):0.0f;
  MotionWeight=FMath::Lerp(MotionWeight,TargetMotion,Blend);
@@ -97,14 +119,14 @@ void UStationPlayerPresentationComponent::TickComponent(float Dt,ELevelTick Tick
  if(Grounded && !bWasGrounded)LandingOffset=-FMath::Clamp(-PreviousVerticalSpeed/450.0f,0.0f,1.6f);
  LandingOffset=FMath::Lerp(LandingOffset,0.0f,Blend);
  const float Step=FMath::Sin(Phase),Sway=FMath::Sin(Phase*0.5f);
- ViewOffset=FVector(0,0.45f*Sway,(1.05f+0.6f*Run)*Step)*MotionWeight*HeadBobScale;
+ ViewOffset=FVector(0,0.45f*Sway,(1.05f+0.6f*Run)*Step)*MotionWeight*HeadBobScale*StairBob+LocalGroundOffset;
  ViewOffset.Z+=LandingOffset*HeadBobScale;
  Camera->ClearAdditiveOffset();
  Camera->AddAdditiveOffset(FTransform(FRotator(0.10f*Step*MotionWeight*HeadBobScale,0,0),ViewOffset),0);
  const FRotator Aim=Character->GetControlRotation();
  FVector2D TargetLag(FMath::Clamp(FMath::FindDeltaAngleDegrees(PreviousAim.Yaw,Aim.Yaw)/Dt*-0.006f,-2.2f,2.2f),FMath::Clamp(FMath::FindDeltaAngleDegrees(PreviousAim.Pitch,Aim.Pitch)/Dt*-0.006f,-1.8f,1.8f));
  AimLag=FMath::Lerp(AimLag,TargetLag,Blend);
- HeldRoot->SetRelativeLocation(FVector(0,0.35f*Sway,0.5f*Step+LandingOffset)*MotionWeight);
+ HeldRoot->SetRelativeLocation(FVector(0,0.35f*Sway,0.5f*Step+LandingOffset)*MotionWeight*StairBob+LocalGroundOffset);
  HeldRoot->SetRelativeRotation(FRotator(AimLag.Y+0.45f*Step*MotionWeight,AimLag.X+0.3f*Sway*MotionWeight,0.4f*Sway*MotionWeight));
  PreviousAim=Aim;PreviousVerticalSpeed=Velocity.Z;bWasGrounded=Grounded;
 }

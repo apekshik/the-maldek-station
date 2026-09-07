@@ -31,9 +31,11 @@ public:
 
  /** Set to zero for a steady camera; hand motion remains restrained. */
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="1.5")) float HeadBobScale=0.7f;
+ /** Critically damped ground-height response; never changes capsule collision. */
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="6",ClampMax="40")) float GroundHeightResponse=18.0f;
  UPROPERTY(EditAnywhere, Category="Flashlight", meta=(ClampMin="0",ClampMax="1")) float InitialFocus=0.35f;
  UPROPERTY(EditAnywhere, Category="Flashlight") float WideLumens=1.2f;
- UPROPERTY(EditAnywhere, Category="Flashlight") float FocusedLumens=1.0f;
+ UPROPERTY(EditAnywhere, Category="Flashlight") float FocusedLumens=1.35f;
  UPROPERTY(EditAnywhere, Category="Flashlight") TObjectPtr<UStaticMesh> DetailedTorchMesh;
 
 private:
@@ -48,5 +50,8 @@ private:
  FRotator PreviousAim=FRotator::ZeroRotator;
  FVector2D AimLag=FVector2D::ZeroVector;
  FVector ViewOffset=FVector::ZeroVector;
+ double SmoothedGroundZ=0;
+ float GroundZVelocity=0;
+ FVector PreviousCapsuleLocation=FVector::ZeroVector;
  void UpdateBeam();
 };

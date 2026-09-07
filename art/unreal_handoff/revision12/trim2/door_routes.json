@@ -1,0 +1,1195 @@
+{
+  "phase": "finished",
+  "index": 8,
+  "results": [
+    {
+      "name": "Completed rear hall approach",
+      "direction": "forward",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            -13.15,
+            -14.4,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 0,
+          "surface": 0
+        },
+        {
+          "p": [
+            -13.15,
+            -14.152268104457981,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 0,
+          "surface": 0
+        },
+        {
+          "p": [
+            -13.15,
+            -13.60056041201362,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 0,
+          "surface": 0
+        },
+        {
+          "p": [
+            -13.15,
+            -13.047480968961208,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 0,
+          "surface": 0
+        },
+        {
+          "p": [
+            -13.15,
+            -12.487885214591115,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 1,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -11.955187319049328,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 1,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -11.400195464694589,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 2,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -10.85046831538686,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 2,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -10.311303811350554,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 2,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -9.78600001914212,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 3,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -9.22275586632797,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 3,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -8.663239568674653,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 3,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -8.145313764193743,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 4,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -7.585306409949153,
+            5.004847173690796
+          ],
+          "feet_z": 4.044847173690796,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 4,
+          "surface": 3
+        }
+      ],
+      "performance": [],
+      "max_height_error_cm": 4.48471736907959,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 0,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        -13.15,
+        -7.488864613899677,
+        4.983189196586609
+      ],
+      "elapsed_seconds": 3.062000000005355
+    },
+    {
+      "name": "Completed rear hall approach",
+      "direction": "reverse",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            -13.15,
+            -7.4,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 4,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -7.664605548412401,
+            5.003566126823426
+          ],
+          "feet_z": 4.043566126823425,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 4,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -8.203759927541977,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 4,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -8.760141635553008,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 4,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -9.302135536686546,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 5,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -9.839170277358061,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 5,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -10.398818876833683,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 6,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -10.957139229641324,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 6,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -11.497896583990222,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 6,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -12.02422343032158,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 7,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -12.59460863494969,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 7,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -13.127139233292109,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 7,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -13.69107532711423,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 8,
+          "surface": 3
+        },
+        {
+          "p": [
+            -13.15,
+            -14.232723433763748,
+            4.9815000057220455
+          ],
+          "feet_z": 4.021500005722046,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 8,
+          "surface": 3
+        }
+      ],
+      "performance": [],
+      "max_height_error_cm": 4.356612682342529,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 4,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        -13.15,
+        -14.300781632081634,
+        4.9815000057220455
+      ],
+      "elapsed_seconds": 3.0469999999913853
+    },
+    {
+      "name": "Quarters landing and doorway",
+      "direction": "forward",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            0.4,
+            -5.2,
+            8.6314998960495
+          ],
+          "feet_z": 7.671499896049499,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 8,
+          "surface": 3
+        },
+        {
+          "p": [
+            0.13860963966908457,
+            -5.2,
+            8.6314998960495
+          ],
+          "feet_z": 7.671499896049499,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 8,
+          "surface": 3
+        },
+        {
+          "p": [
+            -0.4175123036798323,
+            -5.2,
+            8.6314998960495
+          ],
+          "feet_z": 7.671499896049499,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 8,
+          "surface": 3
+        },
+        {
+          "p": [
+            -0.9682271596934879,
+            -5.2,
+            8.6314998960495
+          ],
+          "feet_z": 7.671499896049499,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 8,
+          "surface": 3
+        },
+        {
+          "p": [
+            -1.5076009579893435,
+            -5.2,
+            8.6314998960495
+          ],
+          "feet_z": 7.671499896049499,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 9,
+          "surface": 3
+        },
+        {
+          "p": [
+            -2.03422033700248,
+            -5.195832618777676,
+            8.6314998960495
+          ],
+          "feet_z": 7.671499896049499,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 9,
+          "surface": 3
+        },
+        {
+          "p": [
+            -2.2813639399378007,
+            -4.758685124975673,
+            8.648489608764649
+          ],
+          "feet_z": 7.688489608764648,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 3
+        },
+        {
+          "p": [
+            -2.2070287741564245,
+            -4.2319070256662235,
+            8.646409702301025
+          ],
+          "feet_z": 7.686409702301026,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 3
+        }
+      ],
+      "performance": [],
+      "max_height_error_cm": 4.355525493621826,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 8,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        -2.168241240163843,
+        -4.1028084753795335,
+        8.631500053405762
+      ],
+      "elapsed_seconds": 2.125
+    },
+    {
+      "name": "Quarters landing and doorway",
+      "direction": "reverse",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            -2.12,
+            -4.0,
+            8.6314998960495
+          ],
+          "feet_z": 7.671499896049499,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 3
+        },
+        {
+          "p": [
+            -2.12,
+            -4.281580301401664,
+            8.65430971622467
+          ],
+          "feet_z": 7.69430971622467,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 3
+        },
+        {
+          "p": [
+            -2.12,
+            -4.836683100489426,
+            8.631499848365785
+          ],
+          "feet_z": 7.671499848365784,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 3
+        },
+        {
+          "p": [
+            -1.993908734723518,
+            -5.29220213418539,
+            8.631499848365785
+          ],
+          "feet_z": 7.671499848365784,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 3
+        },
+        {
+          "p": [
+            -1.4787900409364374,
+            -5.393265607453504,
+            8.631499848365785
+          ],
+          "feet_z": 7.671499848365784,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 11,
+          "surface": 3
+        },
+        {
+          "p": [
+            -0.9283930320324726,
+            -5.355209914096522,
+            8.631499848365785
+          ],
+          "feet_z": 7.671499848365784,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 11,
+          "surface": 3
+        },
+        {
+          "p": [
+            -0.38134327625550213,
+            -5.293994611113012,
+            8.631499848365785
+          ],
+          "feet_z": 7.671499848365784,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 12,
+          "surface": 3
+        },
+        {
+          "p": [
+            0.14704726957868844,
+            -5.230840445876711,
+            8.631499848365785
+          ],
+          "feet_z": 7.671499848365784,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 12,
+          "surface": 3
+        }
+      ],
+      "performance": [],
+      "max_height_error_cm": 4.430971622467041,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 10,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        0.28398130149878853,
+        -5.214244518239611,
+        8.631499848365785
+      ],
+      "elapsed_seconds": 2.125
+    },
+    {
+      "name": "Control front approach",
+      "direction": "forward",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            -3.3,
+            2.7,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 12,
+          "surface": 3
+        },
+        {
+          "p": [
+            -3.3,
+            2.432540909531708,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 12,
+          "surface": 3
+        },
+        {
+          "p": [
+            -3.3,
+            1.885210948813401,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 12,
+          "surface": 3
+        },
+        {
+          "p": [
+            -3.3,
+            1.3227504499290808,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 12,
+          "surface": 3
+        },
+        {
+          "p": [
+            -3.3,
+            0.7670767985318525,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 13,
+          "surface": 3
+        },
+        {
+          "p": [
+            -3.3,
+            0.2447259433601721,
+            5.001066942214965
+          ],
+          "feet_z": 4.041066942214965,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 13,
+          "surface": 3
+        },
+        {
+          "p": [
+            -3.3,
+            -0.3016842596198694,
+            4.98663330078125
+          ],
+          "feet_z": 4.02663330078125,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        }
+      ],
+      "performance": [],
+      "max_height_error_cm": 4.4705729484558105,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 12,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        -3.3,
+        -0.700791006159343,
+        4.9814998960495
+      ],
+      "elapsed_seconds": 2.0469999999913853
+    },
+    {
+      "name": "Control front approach",
+      "direction": "reverse",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            -3.3,
+            -0.8,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.3,
+            -0.5481550492775932,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.3,
+            0.008739402868777689,
+            5.004289603233337
+          ],
+          "feet_z": 4.044289603233337,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.3,
+            0.5306688532018962,
+            4.981500101089478
+          ],
+          "feet_z": 4.021500101089478,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.3,
+            1.1011580139184298,
+            4.981500101089478
+          ],
+          "feet_z": 4.021500101089478,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 15,
+          "surface": 3
+        },
+        {
+          "p": [
+            -3.3,
+            1.629648914911777,
+            4.981500101089478
+          ],
+          "feet_z": 4.021500101089478,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 15,
+          "surface": 3
+        },
+        {
+          "p": [
+            -3.3,
+            2.196910703905851,
+            4.981500101089478
+          ],
+          "feet_z": 4.021500101089478,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 3
+        }
+      ],
+      "performance": [],
+      "max_height_error_cm": 4.42896032333374,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 14,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        -3.3,
+        2.606721863501698,
+        4.981500101089478
+      ],
+      "elapsed_seconds": 2.0469999999913853
+    },
+    {
+      "name": "Boarding threshold",
+      "direction": "forward",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            0.0,
+            4.5,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 3
+        },
+        {
+          "p": [
+            0.0,
+            4.7577590207092,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 3
+        },
+        {
+          "p": [
+            0.0,
+            5.306809409291054,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 3
+        }
+      ],
+      "performance": [],
+      "max_height_error_cm": 2.149989604949951,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 16,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        0.0,
+        5.306809409291054,
+        4.9814998960495
+      ],
+      "elapsed_seconds": 1.312999999994645
+    },
+    {
+      "name": "Boarding threshold",
+      "direction": "reverse",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            0.0,
+            5.4,
+            4.981499962806701
+          ],
+          "feet_z": 4.021499962806701,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 3
+        },
+        {
+          "p": [
+            0.0,
+            5.133600109214495,
+            4.981499962806701
+          ],
+          "feet_z": 4.021499962806701,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 3
+        },
+        {
+          "p": [
+            0.0,
+            4.5901337309754675,
+            4.981499962806701
+          ],
+          "feet_z": 4.021499962806701,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 3
+        }
+      ],
+      "performance": [],
+      "max_height_error_cm": 2.149996280670166,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 16,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        0.0,
+        4.5901337309754675,
+        4.981499962806701
+      ],
+      "elapsed_seconds": 1.312000000005355
+    }
+  ],
+  "deadline": 139094.562,
+  "scope": "Full",
+  "map": "Station_R12",
+  "tests": [
+    {
+      "name": "Completed rear hall approach",
+      "direction": "forward",
+      "points": [
+        [
+          -13.15,
+          -14.4,
+          4
+        ],
+        [
+          -13.15,
+          -8.1,
+          4
+        ],
+        [
+          -13.15,
+          -7.4,
+          4
+        ]
+      ]
+    },
+    {
+      "name": "Completed rear hall approach",
+      "direction": "reverse",
+      "points": [
+        [
+          -13.15,
+          -7.4,
+          4
+        ],
+        [
+          -13.15,
+          -8.1,
+          4
+        ],
+        [
+          -13.15,
+          -14.4,
+          4
+        ]
+      ]
+    },
+    {
+      "name": "Quarters landing and doorway",
+      "direction": "forward",
+      "points": [
+        [
+          0.4,
+          -5.2,
+          7.65
+        ],
+        [
+          -2.12,
+          -5.2,
+          7.65
+        ],
+        [
+          -2.12,
+          -4.0,
+          7.65
+        ]
+      ]
+    },
+    {
+      "name": "Quarters landing and doorway",
+      "direction": "reverse",
+      "points": [
+        [
+          -2.12,
+          -4.0,
+          7.65
+        ],
+        [
+          -2.12,
+          -5.2,
+          7.65
+        ],
+        [
+          0.4,
+          -5.2,
+          7.65
+        ]
+      ]
+    },
+    {
+      "name": "Control front approach",
+      "direction": "forward",
+      "points": [
+        [
+          -3.3,
+          2.7,
+          4
+        ],
+        [
+          -3.3,
+          0.5,
+          4
+        ],
+        [
+          -3.3,
+          -0.8,
+          4
+        ]
+      ]
+    },
+    {
+      "name": "Control front approach",
+      "direction": "reverse",
+      "points": [
+        [
+          -3.3,
+          -0.8,
+          4
+        ],
+        [
+          -3.3,
+          0.5,
+          4
+        ],
+        [
+          -3.3,
+          2.7,
+          4
+        ]
+      ]
+    },
+    {
+      "name": "Boarding threshold",
+      "direction": "forward",
+      "points": [
+        [
+          0,
+          4.5,
+          4
+        ],
+        [
+          0,
+          5.4,
+          4
+        ]
+      ]
+    },
+    {
+      "name": "Boarding threshold",
+      "direction": "reverse",
+      "points": [
+        [
+          0,
+          5.4,
+          4
+        ],
+        [
+          0,
+          4.5,
+          4
+        ]
+      ]
+    }
+  ],
+  "teleport_policy": "Only between independent tests; no teleport, flying, jumping or crouching during a route.",
+  "gondola_start": {
+    "R04_12_Gondola": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_000_glass": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_001_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_002_glass": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_003_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_004_thin": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_005_glass": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_006_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_007_glass": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_008_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_009_thin": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_000_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_001_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_002_thin": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_003_signage": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_004_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_005_signage": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_006_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_007_thin": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  "player": {
+    "class": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished_C",
+    "radius_cm": 34.0,
+    "half_height_cm": 96.0,
+    "max_step_cm": 45.0,
+    "slope_degrees": 44.76508331298828,
+    "max_walk_speed": 350.0
+  },
+  "next": 137320.203,
+  "point": 2,
+  "started": 137319.203,
+  "last_progress": 137320.515,
+  "best": 1e+20,
+  "last_sample": 137320.515,
+  "current": {
+    "name": "Boarding threshold",
+    "direction": "reverse",
+    "passed": true,
+    "samples": [
+      {
+        "p": [
+          0.0,
+          5.4,
+          4.981499962806701
+        ],
+        "feet_z": 4.021499962806701,
+        "point": 1,
+        "falling": false,
+        "footstep_count": 16,
+        "surface": 3
+      },
+      {
+        "p": [
+          0.0,
+          5.133600109214495,
+          4.981499962806701
+        ],
+        "feet_z": 4.021499962806701,
+        "point": 1,
+        "falling": false,
+        "footstep_count": 16,
+        "surface": 3
+      },
+      {
+        "p": [
+          0.0,
+          4.5901337309754675,
+          4.981499962806701
+        ],
+        "feet_z": 4.021499962806701,
+        "point": 1,
+        "falling": false,
+        "footstep_count": 16,
+        "surface": 3
+      }
+    ],
+    "performance": [],
+    "max_height_error_cm": 2.149996280670166,
+    "max_airborne_seconds": 0,
+    "initial_footstep_count": 16,
+    "reason": "Reached all waypoints using walking input",
+    "end": [
+      0.0,
+      4.5901337309754675,
+      4.981499962806701
+    ],
+    "elapsed_seconds": 1.312000000005355
+  },
+  "air_start": null,
+  "gondola_end": {
+    "R04_12_Gondola": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_000_glass": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_001_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_002_glass": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_003_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_004_thin": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_005_glass": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_006_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_007_glass": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_008_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_12_Gondola_009_thin": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_000_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_001_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_002_thin": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_003_signage": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_004_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_005_signage": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_006_solid": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+    "R12_VF06_Gondola_Details_007_thin": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  "gondola_stationary": true,
+  "success": true
+}

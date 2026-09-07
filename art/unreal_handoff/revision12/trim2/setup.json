@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "marker_count": 10,
+  "new_mesh_actors": 1,
+  "spill_lights": [
+    "R12_Gondola_Marker_Spill_0",
+    "R12_Gondola_Marker_Spill_1"
+  ],
+  "beam_focused_lumens": 1.35,
+  "beam_previous_focused_lumens": 1.0,
+  "wide_lumens": 1.2000000476837158,
+  "ground_height_response": 18,
+  "gondola_transform_preserved": true,
+  "marker_collision": "NoCollision",
+  "material_errors": []
+}

@@ -7,6 +7,7 @@ assert unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_worl
 ledger=json.loads((base/'integration_ledger.json').read_text());manifest=json.loads((base/'handoff_manifest.json').read_text());inventory=json.loads((base/'replacement_inventory.json').read_text())
 actors={a.get_path_name():a for a in aa.get_all_level_actors()};origin=json.loads((base.parent/'working_level_report.json').read_text())['station_origin']
 adjustments=json.loads((base/'actor_adjustments.json').read_text()) if (base/'actor_adjustments.json').exists() else {}
+checkpoint=json.loads((base/JOB['checkpoint_transforms']).read_text()) if JOB.get('checkpoint_transforms') else None
 checks=[];errors=[]
 for r in manifest['chunks']:
  if r['name'] not in ledger['assets']:continue
@@ -19,10 +20,11 @@ for r in manifest['chunks']:
  assert not c.get_editor_property('override_materials'),r['name']
  assert all(c.get_material(i) for i in range(c.get_num_materials())),r['name']
  checks.append({'name':r['name'],'placement_error_cm':delta,'materials':c.get_num_materials(),'hulls':l['hulls']})
-for r in inventory:
+retained_inventory=[{'r12_path':p,'label':p.rsplit('.',1)[-1]} for p in checkpoint] if checkpoint is not None else inventory
+for r in retained_inventory:
  assert r['r12_path'] in actors,('Lost original actor',r['r12_path'])
  actual=re.sub(r'0x[0-9A-Fa-f]+','ADDRESS',str(actors[r['r12_path']].get_actor_transform()))
- expected=re.sub(r'0x[0-9A-Fa-f]+','ADDRESS',adjustments.get(r['r12_path'],{}).get('new_transform',r['transform']))
+ expected=checkpoint[r['r12_path']] if checkpoint is not None else re.sub(r'0x[0-9A-Fa-f]+','ADDRESS',adjustments.get(r['r12_path'],{}).get('new_transform',r['transform']))
  assert actual==expected,('Original actor transform changed',r['label'],actual,expected)
 for key,t in ledger['retired'].items():
  a=actors[t['actor']];c=next(c for c in a.get_components_by_class(unreal.StaticMeshComponent) if c.get_name()==t['component'])
@@ -35,5 +37,5 @@ if JOB.get('remove_pilot'):
    assert a.get_actor_label()==r['name'].replace('SM_',''),a.get_path_name()
    removed.append(a.get_path_name());assert aa.destroy_actor(a)
  assert levels.save_current_level()
-report={'success':not errors,'stage':JOB.get('stage'),'assets':checks,'original_actor_identities_preserved':len(inventory),'retired_components':len(ledger['retired']),'pilot_actors_removed':removed,'errors':errors,'note':'Structural audit only. Runtime route and visual review are separate acceptance gates.'}
+report={'success':not errors,'stage':JOB.get('stage'),'assets':checks,'original_actor_identities_preserved':len(retained_inventory),'checkpoint_transforms':JOB.get('checkpoint_transforms'),'retired_components':len(ledger['retired']),'pilot_actors_removed':removed,'errors':errors,'note':'Structural audit only. Runtime route and visual review are separate acceptance gates.'}
 (base/('audit_'+JOB.get('stage','all').lower()+'.json')).write_text(json.dumps(report,indent=2));RESULT={k:v for k,v in report.items() if k!='assets'}

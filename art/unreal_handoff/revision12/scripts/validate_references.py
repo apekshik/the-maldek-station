@@ -25,6 +25,7 @@ for p in bp_paths:
 materials=[]
 material_paths=list(lib.list_assets('/Game/MaldekRefinement/R12/Materials',True,False))
 if job.get('polish'):material_paths+=list(lib.list_assets('/Game/MaldekRefinement/R12/Player/Materials',True,False))
+for root in job.get('extra_material_roots',[]):material_paths+=list(lib.list_assets(root,True,False))
 for p in material_paths:
  a=lib.load_asset(p)
  if isinstance(a,unreal.MaterialInterface):materials.append(a)

@@ -1971,7 +1971,8 @@
       "hulls": 194
     }
   ],
-  "original_actor_identities_preserved": 214,
+  "original_actor_identities_preserved": 545,
+  "checkpoint_transforms": "trim2/checkpoint_transforms.json",
   "retired_components": 41,
   "pilot_actors_removed": [],
   "errors": [],

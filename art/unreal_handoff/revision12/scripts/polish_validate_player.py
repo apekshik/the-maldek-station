@@ -1,7 +1,7 @@
 """Real PIE input and movement checks for the polished player; no saved test actors."""
 import unreal,json,time,traceback,math
 from pathlib import Path
-b=Path(__file__).resolve().parents[1];out=b/'polish';ls=unreal.get_editor_subsystem(unreal.LevelEditorSubsystem);assert not ls.is_in_play_in_editor()
+b=Path(__file__).resolve().parents[1];out=b/JOB.get('output','polish');out.mkdir(parents=True,exist_ok=True);ls=unreal.get_editor_subsystem(unreal.LevelEditorSubsystem);assert not ls.is_in_play_in_editor()
 o=json.loads((b.parent/'working_level_report.json').read_text())['station_origin']
 settings=unreal.get_default_object(unreal.load_class(None,'/Script/UnrealEd.EditorPerformanceSettings'));throttle=settings.get_editor_property('bThrottleCPUWhenNotForeground');settings.set_editor_property('bThrottleCPUWhenNotForeground',False)
 s={'phase':'start','next':time.monotonic()+8,'checks':{},'samples':{'walk':[],'run':[]},'busy':False,'deadline':time.monotonic()+180}
@@ -32,7 +32,8 @@ def tick(dt):
    for i in range(20):key('MouseScrollUp')
    s.update(phase='narrow',next=now+1);return
   if s['phase']=='narrow':
-   s['narrow']={'focus':c.get_focus(),'angle':beam.outer_cone_angle,'range':beam.attenuation_radius};s['checks']['narrow_clamped']=c.get_target_focus()==1 and abs(beam.outer_cone_angle-11)<.01
+   s['narrow']={'focus':c.get_focus(),'angle':beam.outer_cone_angle,'range':beam.attenuation_radius,'intensity':beam.intensity};s['checks']['narrow_clamped']=c.get_target_focus()==1 and abs(beam.outer_cone_angle-11)<.01
+   if JOB.get('focused_intensity') is not None:s['checks']['focused_intensity']=abs(beam.intensity-JOB['focused_intensity'])<.01
    for i in range(20):key('MouseScrollDown')
    s.update(phase='wide',next=now+1);return
   if s['phase']=='wide':

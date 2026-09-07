@@ -3132,7 +3132,7 @@
       ]
     },
     "SM_R12_VF06_Control_004_solid": {
-      "sha256": "281f9920dd25969fd81d98a7bbe192532acccbccce567213e898f7a22092d11b",
+      "sha256": "25d349c92c7892b36fffcc64742e6a26b9380da736fd0719e56fc7b586610c73",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_004_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_348",
       "stage": "Architecture",
@@ -3210,7 +3210,7 @@
       ]
     },
     "SM_R12_VF06_Control_009_solid": {
-      "sha256": "1ad5ca9c202999c3d585b6692ab8675e511099ac24f433b75521419f4d808a96",
+      "sha256": "86a668f7db17166788c7b6fa9362457a8bd167a1377ec6e7984af8371077d4b2",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_009_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_353",
       "stage": "Architecture",
@@ -3398,7 +3398,7 @@
       ]
     },
     "SM_R12_VF06_Maintenance_Shells_001_solid": {
-      "sha256": "86f17f190b78505831887b0831e4395f7e3bd3e5dd4ac17f8f4801fcc46a3939",
+      "sha256": "f5dbe8549a671a2a2331a9d4dbb54cde8c226267bac82dea4a79eb196f46cc16",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_001_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_366",
       "stage": "Architecture",
@@ -3428,7 +3428,7 @@
       ]
     },
     "SM_R12_VF06_Maintenance_Shells_003_solid": {
-      "sha256": "bd5bd8d89ab3d0b4bd2f8edcd36aaef6d43d4c3daab8d8e47a7ab88a0f25fcf9",
+      "sha256": "03a3905cca5bb45fcb3ea66c8e88c8a5759dee398e72f1b81ccee3a24b91e332",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_003_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_368",
       "stage": "Architecture",
@@ -3445,7 +3445,7 @@
       ]
     },
     "SM_R12_VF06_Maintenance_Shells_004_solid": {
-      "sha256": "796afdd1c16932c2d963108f40d75ae3344c86a25bf81fe4edd66f05e1b8cfc7",
+      "sha256": "063a356055897f61b2ca432dfbd15c118056e4605a90413916031f3ab681bbf4",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_004_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_369",
       "stage": "Architecture",
@@ -3515,7 +3515,7 @@
       ]
     },
     "SM_R12_VF06_Maintenance_Shells_008_solid": {
-      "sha256": "431293612d78d394940a1d2c6f91044e5e036deb80af0b62792b3b6967abc170",
+      "sha256": "62c42dadc9bb2428f344430b165f9b92da5a19678e1419d4ec77f5260048f312",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Maintenance_Shells_008_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_373",
       "stage": "Architecture",
@@ -3613,7 +3613,7 @@
       ]
     },
     "SM_R12_VF06_Quarters_004_solid": {
-      "sha256": "c16accf8ed9e8421d04c578efcdc7bea3b99e37084612d02c7106097d476b94b",
+      "sha256": "271f5d76ae1d56bc3c404f57fb60f7969cdedefa6fa1694acfb34c6d304fd195",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_004_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_379",
       "stage": "Architecture",
@@ -3679,7 +3679,7 @@
       ]
     },
     "SM_R12_VF06_Relay_Shell_000_solid": {
-      "sha256": "f7507a220a64957dce9740ad85a8569cc806095d4a43ee9336defb62d57c6788",
+      "sha256": "82f9cdd1ae810052748b8ae43806b3e6e9eea607dc4fb42dc7f54da0389b7273",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Relay_Shell_000_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_383",
       "stage": "Architecture",
@@ -3722,7 +3722,7 @@
       ]
     },
     "SM_R12_VF06_Relay_Shell_003_solid": {
-      "sha256": "574cad8e0277059b52d8265a11081b61d8659e00f0bc61c404d0787142232272",
+      "sha256": "72ec3dd28824dbce4f25c8bbb51bb5a0275c0d70e68d92233976481f2e68e19c",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Relay_Shell_003_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_386",
       "stage": "Architecture",
@@ -3839,7 +3839,7 @@
       ]
     },
     "SM_R12_VF06_Waiting_Hall_006_solid": {
-      "sha256": "0ac3a356c6e9898806db730e316f76a47b381b4e129d7d514a4db9647a9be78a",
+      "sha256": "140b7438480972f4259f31675682effaed7c5ab4863ac948deeb3236b9eb7b13",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_006_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_394",
       "stage": "Architecture",
@@ -3899,7 +3899,7 @@
       ]
     },
     "SM_R12_VF06_Waiting_Hall_010_solid": {
-      "sha256": "ca1d023d016368acf065bc0705590e261186920c54ad1b23c2c279abad3baa25",
+      "sha256": "87910274f2548788ae3bc434b1b476548604f5c9eaabd9eafa405a377100088b",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_010_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_398",
       "stage": "Architecture",
@@ -3929,7 +3929,7 @@
       ]
     },
     "SM_R12_VF06_Waiting_Hall_012_solid": {
-      "sha256": "3777e82f0e4c53bf6fc6d9f85694a1f9a5685e6d6ad406f5a1140f6f0c71b45d",
+      "sha256": "3bf035f3c9ba8c25aca844ec25daa14228b5f52868829d2bb18a6083634011ba",
       "asset": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Waiting_Hall_012_solid",
       "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_400",
       "stage": "Architecture",

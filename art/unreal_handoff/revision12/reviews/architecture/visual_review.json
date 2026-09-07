@@ -18,5 +18,14 @@
       "Final water night views supersede earlier overexposed trial captures.",
       "Closed building glass reviewed from control exterior and quarters interior; pane visibility and transparency retained. Gondola single-surface glass stays two-sided and renders correctly in the dock night view."
     ]
+  },
+  "trim2_supplement": {
+    "accepted": true,
+    "images": "trim2/after/report.json",
+    "findings": [
+      "Control jamb and header overlapping stripes removed in matched night view.",
+      "Small red markers sit on gondola roof; parked transform preserved."
+    ],
+    "geometry_evidence": "trim2/core_recess.json"
   }
 }

@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "checkpoint": "adc092e11e497db27eab469102233b9a57d8415a",
+  "retained_actor_transforms": "Matched against untouched map in verification checkout, using current compiled native modules only to load it.",
+  "fallback_meshes": [
+    {
+      "name": "SM_R12_12_Gondola_001_solid",
+      "triangles": 9328
+    },
+    {
+      "name": "SM_R12_12_Gondola_003_solid",
+      "triangles": 12656
+    },
+    {
+      "name": "SM_R12_12_Gondola_006_solid",
+      "triangles": 9892
+    },
+    {
+      "name": "SM_R12_12_Gondola_008_solid",
+      "triangles": 16792
+    },
+    {
+      "name": "SM_R12_VF06_Control_000_solid",
+      "triangles": 4852
+    },
+    {
+      "name": "SM_R12_VF06_Control_009_solid",
+      "triangles": 39756
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_001_solid",
+      "triangles": 29516
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_003_solid",
+      "triangles": 42800
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_004_solid",
+      "triangles": 34534
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_008_solid",
+      "triangles": 59861
+    },
+    {
+      "name": "SM_R12_VF06_Quarters_004_solid",
+      "triangles": 16256
+    },
+    {
+      "name": "SM_R12_VF06_Quarters_007_solid",
+      "triangles": 6520
+    },
+    {
+      "name": "SM_R12_VF06_Relay_Shell_000_solid",
+      "triangles": 29568
+    },
+    {
+      "name": "SM_R12_VF06_Relay_Shell_003_solid",
+      "triangles": 41782
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_003_solid",
+      "triangles": 11840
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_006_solid",
+      "triangles": 36108
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_010_solid",
+      "triangles": 42296
+    }
+  ],
+  "focused_lumens": 1.350000023841858,
+  "ground_height_response": 18.0
+}

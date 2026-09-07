@@ -1,0 +1,469 @@
+{
+  "source_sha256": "e2ce19363f35f7fbef1860f5d5591e53ccf0b97d989085153b631a82558724dd",
+  "approved_source_modified": false,
+  "edits": [
+    {
+      "core": "Insulated_wall_core.008",
+      "trim": "Door_lintel",
+      "axis": 2,
+      "side": 0,
+      "plane": 6.400000095367432,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.017",
+      "trim": "Door_lintel.001",
+      "axis": 2,
+      "side": 0,
+      "plane": 6.400000095367432,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.085",
+      "trim": "Door_lintel.001",
+      "axis": 2,
+      "side": 0,
+      "plane": 6.400000095367432,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.039",
+      "trim": "Door_lintel.002",
+      "axis": 2,
+      "side": 0,
+      "plane": 9.949999809265137,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.063",
+      "trim": "Door_lintel.003",
+      "axis": 2,
+      "side": 0,
+      "plane": 6.400000095367432,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.069",
+      "trim": "Door_lintel.004",
+      "axis": 2,
+      "side": 0,
+      "plane": 6.400000095367432,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.017",
+      "trim": "Door_lintel.005",
+      "axis": 2,
+      "side": 0,
+      "plane": 6.400000095367432,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.085",
+      "trim": "Door_lintel.005",
+      "axis": 2,
+      "side": 0,
+      "plane": 6.400000095367432,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.090",
+      "trim": "Door_lintel.006",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.399999976158142,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.095",
+      "trim": "Door_lintel.007",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.399999976158142,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.101",
+      "trim": "Door_lintel.008",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.5,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.102",
+      "trim": "Door_lintel.008",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.5,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.109",
+      "trim": "Door_lintel.009",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.399999976158142,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.110",
+      "trim": "Door_lintel.009",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.399999976158142,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.126",
+      "trim": "Door_lintel.009",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.399999976158142,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.127",
+      "trim": "Door_lintel.009",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.399999976158142,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.109",
+      "trim": "Door_lintel.010",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.399999976158142,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.110",
+      "trim": "Door_lintel.010",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.399999976158142,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.126",
+      "trim": "Door_lintel.010",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.399999976158142,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.127",
+      "trim": "Door_lintel.010",
+      "axis": 2,
+      "side": 0,
+      "plane": 1.399999976158142,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.136",
+      "trim": "Door_lintel.011",
+      "axis": 2,
+      "side": 0,
+      "plane": 5.300000190734863,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.139",
+      "trim": "Door_lintel.012",
+      "axis": 2,
+      "side": 0,
+      "plane": 5.300000190734863,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.007",
+      "trim": "Door_return",
+      "axis": 0,
+      "side": 1,
+      "plane": -3.950000047683716,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.009",
+      "trim": "Door_return.001",
+      "axis": 0,
+      "side": 0,
+      "plane": -2.6500000953674316,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.016",
+      "trim": "Door_return.002",
+      "axis": 1,
+      "side": 1,
+      "plane": -3.799999952316284,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.084",
+      "trim": "Door_return.002",
+      "axis": 1,
+      "side": 1,
+      "plane": -3.799999713897705,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.018",
+      "trim": "Door_return.003",
+      "axis": 1,
+      "side": 0,
+      "plane": -2.499999761581421,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.086",
+      "trim": "Door_return.003",
+      "axis": 1,
+      "side": 0,
+      "plane": -2.499999761581421,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.038",
+      "trim": "Door_return.004",
+      "axis": 0,
+      "side": 1,
+      "plane": -2.6500000953674316,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.040",
+      "trim": "Door_return.005",
+      "axis": 0,
+      "side": 0,
+      "plane": -1.6000001430511475,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.062",
+      "trim": "Door_return.006",
+      "axis": 0,
+      "side": 1,
+      "plane": -11.0,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.064",
+      "trim": "Door_return.007",
+      "axis": 0,
+      "side": 0,
+      "plane": -9.5,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.068",
+      "trim": "Door_return.008",
+      "axis": 0,
+      "side": 1,
+      "plane": -13.899999618530273,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.070",
+      "trim": "Door_return.009",
+      "axis": 0,
+      "side": 0,
+      "plane": -12.40000057220459,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.016",
+      "trim": "Door_return.010",
+      "axis": 1,
+      "side": 1,
+      "plane": -3.799999952316284,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.084",
+      "trim": "Door_return.010",
+      "axis": 1,
+      "side": 1,
+      "plane": -3.799999713897705,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.018",
+      "trim": "Door_return.011",
+      "axis": 1,
+      "side": 0,
+      "plane": -2.499999761581421,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.086",
+      "trim": "Door_return.011",
+      "axis": 1,
+      "side": 0,
+      "plane": -2.499999761581421,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.089",
+      "trim": "Door_return.012",
+      "axis": 0,
+      "side": 1,
+      "plane": 29.30000114440918,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.091",
+      "trim": "Door_return.013",
+      "axis": 0,
+      "side": 0,
+      "plane": 30.69999885559082,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.094",
+      "trim": "Door_return.014",
+      "axis": 0,
+      "side": 1,
+      "plane": 29.30000114440918,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.096",
+      "trim": "Door_return.015",
+      "axis": 0,
+      "side": 0,
+      "plane": 30.69999885559082,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.100",
+      "trim": "Door_return.016",
+      "axis": 1,
+      "side": 1,
+      "plane": -15.800000190734863,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.103",
+      "trim": "Door_return.017",
+      "axis": 1,
+      "side": 0,
+      "plane": -14.200000762939453,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.108",
+      "trim": "Door_return.018",
+      "axis": 1,
+      "side": 1,
+      "plane": -16.299999237060547,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.125",
+      "trim": "Door_return.018",
+      "axis": 1,
+      "side": 1,
+      "plane": -16.30000114440918,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.111",
+      "trim": "Door_return.019",
+      "axis": 1,
+      "side": 0,
+      "plane": -14.699999809265137,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.128",
+      "trim": "Door_return.019",
+      "axis": 1,
+      "side": 0,
+      "plane": -14.699999809265137,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.108",
+      "trim": "Door_return.020",
+      "axis": 1,
+      "side": 1,
+      "plane": -16.299999237060547,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.125",
+      "trim": "Door_return.020",
+      "axis": 1,
+      "side": 1,
+      "plane": -16.30000114440918,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.111",
+      "trim": "Door_return.021",
+      "axis": 1,
+      "side": 0,
+      "plane": -14.699999809265137,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.128",
+      "trim": "Door_return.021",
+      "axis": 1,
+      "side": 0,
+      "plane": -14.699999809265137,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.135",
+      "trim": "Door_return.022",
+      "axis": 0,
+      "side": 1,
+      "plane": 47.400001525878906,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.137",
+      "trim": "Door_return.023",
+      "axis": 0,
+      "side": 0,
+      "plane": 48.599998474121094,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.138",
+      "trim": "Door_return.024",
+      "axis": 0,
+      "side": 1,
+      "plane": 47.400001525878906,
+      "recess_metres": 0.004
+    },
+    {
+      "core": "Insulated_wall_core.140",
+      "trim": "Door_return.025",
+      "axis": 0,
+      "side": 0,
+      "plane": 48.599998474121094,
+      "recess_metres": 0.004
+    }
+  ],
+  "changed_assets": [
+    "SM_R12_VF06_Control_004_solid",
+    "SM_R12_VF06_Control_009_solid",
+    "SM_R12_VF06_Maintenance_Shells_001_solid",
+    "SM_R12_VF06_Maintenance_Shells_003_solid",
+    "SM_R12_VF06_Maintenance_Shells_004_solid",
+    "SM_R12_VF06_Maintenance_Shells_008_solid",
+    "SM_R12_VF06_Quarters_004_solid",
+    "SM_R12_VF06_Relay_Shell_000_solid",
+    "SM_R12_VF06_Relay_Shell_003_solid",
+    "SM_R12_VF06_Waiting_Hall_006_solid",
+    "SM_R12_VF06_Waiting_Hall_010_solid",
+    "SM_R12_VF06_Waiting_Hall_012_solid"
+  ],
+  "collision_unchanged": true
+}

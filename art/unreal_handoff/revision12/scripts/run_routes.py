@@ -85,6 +85,9 @@ def tick(dt):
    t=max(0,min(1,((p.x-previous.x)*segx+(p.y-previous.y)*segy)/max(1,segx*segx+segy*segy)))
    expected=previous.z+(target.z-previous.z)*t;height_error=abs(feet-expected)
    row=state['current'];row['max_height_error_cm']=max(row['max_height_error_cm'],height_error)
+   if JOB.get('camera_trace'):
+    eye=pc.player_camera_manager.get_camera_location()
+    row.setdefault('camera_samples',[]).append({'time':now-state['started'],'capsule_z':p.z,'eye_z':eye.z,'x':p.x,'y':p.y,'falling':move.is_falling()})
    if JOB.get('benchmark'):
     timing=dict(unreal.StationMigrationLibrary.capture_pie_frame_stats());timing.update(point=state['point'],elapsed_seconds=now-state['started']);row['performance'].append(timing)
    if move.is_falling():
@@ -103,7 +106,7 @@ def tick(dt):
    if distance<state['best']-2:state['best']=distance;state['last_progress']=now
    if now-state['last_progress']>3:result(pawn,False,'No progress for 3 seconds');return
    pc.set_control_rotation(unreal.MathLibrary.find_look_at_rotation(p,unreal.Vector(target.x,target.y,p.z)))
-   pawn.add_movement_input(unreal.Vector(dx/max(distance,1),dy/max(distance,1),0),min(1,max(.15,distance/80)),False)
+   pawn.add_movement_input(unreal.Vector(dx/max(distance,1),dy/max(distance,1),0),1 if JOB.get('full_speed') else min(1,max(.15,distance/80)),False)
  except Exception:
   state['error']=traceback.format_exc();finish()
  finally:state['busy']=False

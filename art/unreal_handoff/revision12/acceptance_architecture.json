@@ -2,33 +2,12 @@
   "accepted": true,
   "scope": "Architecture stage only; complete final validation/default-map promotion remains separate.",
   "route_reports": [
-    "routes_full.json",
-    "routes_junction_repairs.json"
+    "trim2/door_routes.json",
+    "trim2/stairs_full_after.json"
   ],
   "routes": [
     {
-      "name": "Arrival",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Arrival turn onto platform",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Arrival_ground_approach",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Boarding threshold",
+      "name": "Control front approach",
       "directions": [
         "forward",
         "reverse"
@@ -42,63 +21,21 @@
       ]
     },
     {
-      "name": "Control front approach",
+      "name": "Quarters landing and doorway",
       "directions": [
         "forward",
         "reverse"
       ]
     },
     {
-      "name": "Control interior aisle",
+      "name": "Boarding threshold",
       "directions": [
         "forward",
         "reverse"
       ]
     },
     {
-      "name": "East terrace grating",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Entire lookout bridge",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Exterior_service",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Forest to arrival",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Front grating across facade",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Generator clear entrance",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Internal descending stair",
+      "name": "Arrival",
       "directions": [
         "forward",
         "reverse"
@@ -112,84 +49,7 @@
       ]
     },
     {
-      "name": "Quarters interior",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Quarters landing and doorway",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Quarters lower approach",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Relay interior",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Relay_outbound",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Relay_return",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Service descent lower exit",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Service_road",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Waiting hall interior",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Water terrace access",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "West continuous border",
-      "directions": [
-        "forward",
-        "reverse"
-      ]
-    },
-    {
-      "name": "Workshop shared west door",
+      "name": "Internal descending stair",
       "directions": [
         "forward",
         "reverse"
@@ -198,5 +58,5 @@
   ],
   "audit": "audit_architecture.json",
   "visual_review": "reviews/architecture/visual_review.json",
-  "manifest_sha256": "62cc58087fff009db75726f535e93c0bd236ece1575702f265a29ca94d8fda3d"
+  "manifest_sha256": "9917eaaeb06a326ff137c37f47728fc1c005b40aaefd658cd765e24db23b56e6"
 }
