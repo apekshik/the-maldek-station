@@ -1,0 +1,44 @@
+{
+  "R04_10_Parking_and_Arrival": {
+    "slots": [
+      {
+        "name": "Ground",
+        "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Gravel_ff87cc66ad.MI_Foot_Gravel_ff87cc66ad"
+      },
+      {
+        "name": "R02_Weathered_Concrete",
+        "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Concrete_7ae96abc6a.MI_Foot_Concrete_7ae96abc6a"
+      },
+      {
+        "name": "R02_Worn_Safety_Paint",
+        "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Concrete_e67cd78fbf.MI_Foot_Concrete_e67cd78fbf"
+      },
+      {
+        "name": "R02_Chipped_Painted_Steel",
+        "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Metal_65892e371c.MI_Foot_Metal_65892e371c"
+      },
+      {
+        "name": "R02_Galvanized_Grating",
+        "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Metal_f6ab3ff2d9.MI_Foot_Metal_f6ab3ff2d9"
+      }
+    ],
+    "hulls": 27
+  },
+  "R04_20_Lookout_Bridge": {
+    "slots": [
+      {
+        "name": "R02_Chipped_Painted_Steel",
+        "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Metal_65892e371c.MI_Foot_Metal_65892e371c"
+      },
+      {
+        "name": "R02_Weathered_Concrete",
+        "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Concrete_7ae96abc6a.MI_Foot_Concrete_7ae96abc6a"
+      },
+      {
+        "name": "R04_Galvanized_Fittings",
+        "material": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Metal_a61515a336.MI_Foot_Metal_a61515a336"
+      }
+    ],
+    "hulls": 16
+  }
+}

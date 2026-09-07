@@ -1,0 +1,11 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Station Migration Validation",
+  "Description": "Editor-only fixed-resolution capture and frame telemetry for station acceptance.",
+  "Category": "Editor",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "Modules": [{"Name": "StationMigrationTools", "Type": "Editor", "LoadingPhase": "Default"}]
+}

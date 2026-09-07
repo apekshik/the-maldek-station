@@ -2,3 +2,5 @@
 *.umap filter=lfs diff=lfs merge=lfs -text
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
+art/unreal_handoff/revision12/textures/*.png filter=lfs diff=lfs merge=lfs -text
+art/unreal_handoff/revision12/textures/*.exr filter=lfs diff=lfs merge=lfs -text

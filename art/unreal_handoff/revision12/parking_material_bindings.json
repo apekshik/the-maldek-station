@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "materials": [
+    {
+      "slot": "UE_Ground__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_Ground__Exterior.MI_UE_Ground__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Exterior.M_R12_PaintedMetal_Exterior",
+      "texture_set": "ad1e364fabe13d9bd8ad64dd98515328445d839b318b415c4b02911d2c0b472e",
+      "weather": true,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal"
+    },
+    {
+      "slot": "UE_R02_Chipped_Painted_Steel__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Exterior.M_R12_PaintedMetal_Exterior",
+      "texture_set": "2d3ced294997d6b7fdbbf0ccf530bbc475e74e5efee54a4fd782937e04eeca43",
+      "weather": true,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal"
+    }
+  ],
+  "texture_sets": 2,
+  "normal_green_flipped_on_import": false
+}

@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "samples": 5808,
+  "environment": {
+    "Ultra_Dynamic_Sky": {
+      "Fog": "6.5",
+      "Time Of Day": "2300.0"
+    },
+    "Ultra_Dynamic_Weather": {
+      "Weather": "/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow.Snow",
+      "Snow": "0.0",
+      "Rain": "0.0",
+      "Fog": "6.5",
+      "Material Snow Coverage": "0.0",
+      "Wind Intensity": "2.0",
+      "Begin Play Weather is Random": "False",
+      "Random Weather Variation": "<UDS_RandomWeatherTiming.DISABLED: 0>"
+    }
+  },
+  "cameras": {
+    "bridge": {
+      "frame_ms": 13.159,
+      "game_ms": 13.155,
+      "render_ms": 0.0,
+      "gpu_ms": 8.814,
+      "draw_calls": 1716.897,
+      "process_physical_bytes": 9281759525.853,
+      "streaming_texture_bytes": 506699776.0,
+      "nonstreaming_texture_bytes": 3871186944.0
+    },
+    "control": {
+      "frame_ms": 12.75,
+      "game_ms": 12.746,
+      "render_ms": 0.0,
+      "gpu_ms": 8.287,
+      "draw_calls": 1237.642,
+      "process_physical_bytes": 9314727975.134,
+      "streaming_texture_bytes": 506699776.0,
+      "nonstreaming_texture_bytes": 3871186944.0
+    },
+    "dock": {
+      "frame_ms": 12.475,
+      "game_ms": 12.471,
+      "render_ms": 0.0,
+      "gpu_ms": 7.889,
+      "draw_calls": 1229.942,
+      "process_physical_bytes": 9317408470.264,
+      "streaming_texture_bytes": 506699776.0,
+      "nonstreaming_texture_bytes": 3871186944.0
+    },
+    "forest": {
+      "frame_ms": 12.534,
+      "game_ms": 12.53,
+      "render_ms": 0.0,
+      "gpu_ms": 9.692,
+      "draw_calls": 1404.799,
+      "process_physical_bytes": 8967096880.1,
+      "streaming_texture_bytes": 506667008.0,
+      "nonstreaming_texture_bytes": 3871186944.0
+    },
+    "service": {
+      "frame_ms": 11.191,
+      "game_ms": 11.188,
+      "render_ms": 0.0,
+      "gpu_ms": 7.154,
+      "draw_calls": 1528.837,
+      "process_physical_bytes": 9314202374.197,
+      "streaming_texture_bytes": 506699776.0,
+      "nonstreaming_texture_bytes": 3871186944.0
+    },
+    "station": {
+      "frame_ms": 12.538,
+      "game_ms": 12.534,
+      "render_ms": 0.0,
+      "gpu_ms": 9.016,
+      "draw_calls": 1284.966,
+      "process_physical_bytes": 9353561855.466,
+      "streaming_texture_bytes": 506667008.0,
+      "nonstreaming_texture_bytes": 3871186944.0
+    }
+  }
+}

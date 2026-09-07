@@ -1,0 +1,102 @@
+{
+  "success": true,
+  "assets": [
+    {
+      "name": "SM_R12_OrientationProbe",
+      "path": "/Game/MaldekRefinement/R12/Probe/Meshes/SM_R12_OrientationProbe",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_50",
+      "bounds_error_cm": 3.0517578125e-05,
+      "collision_hulls": 2,
+      "material_slots": [
+        "UE_VF06_Safety_ochre"
+      ],
+      "inspection_location_m": [
+        -35,
+        -5,
+        12
+      ]
+    },
+    {
+      "name": "SM_R12_Probe_Door",
+      "path": "/Game/MaldekRefinement/R12/Probe/Meshes/SM_R12_Probe_Door",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_51",
+      "bounds_error_cm": 7.62939453125e-06,
+      "collision_hulls": 9,
+      "material_slots": [
+        "UE_VF_Dark_Steel_Frame",
+        "UE_VF_Cast_Concrete",
+        "UE_VF_Local_Oxidation",
+        "UE_VF_Galvanized_Grating",
+        "UE_VF_Faded_Petrol_Paint",
+        "UE_VF_Interior_Enamel"
+      ],
+      "inspection_location_m": [
+        -30,
+        -5,
+        12
+      ]
+    },
+    {
+      "name": "SM_R12_Probe_Glass",
+      "path": "/Game/MaldekRefinement/R12/Probe/Meshes/SM_R12_Probe_Glass",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_52",
+      "bounds_error_cm": 4.4889748096466064e-06,
+      "collision_hulls": 0,
+      "material_slots": [
+        "UE_VF_Window_Glass"
+      ],
+      "inspection_location_m": [
+        -27,
+        -5,
+        13.2
+      ]
+    },
+    {
+      "name": "SM_R12_Probe_Grating",
+      "path": "/Game/MaldekRefinement/R12/Probe/Meshes/SM_R12_Probe_Grating",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_53",
+      "bounds_error_cm": 7.62939453125e-06,
+      "collision_hulls": 1,
+      "material_slots": [
+        "UE_VF06_Galvanized"
+      ],
+      "inspection_location_m": [
+        -30,
+        -2,
+        12
+      ]
+    },
+    {
+      "name": "SM_R12_Probe_Plate",
+      "path": "/Game/MaldekRefinement/R12/Probe/Meshes/SM_R12_Probe_Plate",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_54",
+      "bounds_error_cm": 7.62939453125e-06,
+      "collision_hulls": 1,
+      "material_slots": [
+        "UE_VF06_Petrol_paint"
+      ],
+      "inspection_location_m": [
+        -30,
+        -0.4,
+        12
+      ]
+    },
+    {
+      "name": "SM_R12_Probe_Tread",
+      "path": "/Game/MaldekRefinement/R12/Probe/Meshes/SM_R12_Probe_Tread",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_55",
+      "bounds_error_cm": 3.814697265625e-06,
+      "collision_hulls": 1,
+      "material_slots": [
+        "UE_VF06_Galvanized"
+      ],
+      "inspection_location_m": [
+        -27,
+        -2,
+        12
+      ]
+    }
+  ],
+  "scale_and_axis_validated": true,
+  "materials_validated": false
+}

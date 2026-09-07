@@ -1,0 +1,401 @@
+Begin Actor Class=/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C Name=Ultra_Dynamic_Weather_C_1 Archetype="/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Default__Ultra_Dynamic_Weather_C'" ExportPath="/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1'"
+   Begin Object Class=/Script/Niagara.NiagaraComponent Name="NODE_AddNiagaraComponent-15" Archetype="/Script/Niagara.NiagaraComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:NODE_AddNiagaraComponent-15'" ExportPath="/Script/Niagara.NiagaraComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15'"
+      Begin Object Class=/Script/Niagara.NiagaraDataInterfaceArrayMatrix Name="NiagaraDataInterfaceArrayMatrix_0" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayMatrix'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayMatrix_0'"
+      End Object
+      Begin Object Class=/Script/Niagara.NiagaraDataInterfaceArrayPosition Name="NiagaraDataInterfaceArrayPosition_1" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayPosition'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayPosition_1'"
+      End Object
+      Begin Object Class=/Script/Niagara.NiagaraDataInterfaceArrayInt32 Name="NiagaraDataInterfaceArrayInt32_0" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayInt32'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayInt32_0'"
+      End Object
+      Begin Object Class=/Script/Niagara.NiagaraDataInterfaceArrayFloat Name="NiagaraDataInterfaceArrayFloat_0" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayFloat'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayFloat_0'"
+      End Object
+      Begin Object Class=/Script/Niagara.NiagaraDataInterfaceArrayFloat3 Name="NiagaraDataInterfaceArrayFloat3_0" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayFloat3'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayFloat3_0'"
+      End Object
+      Begin Object Class=/Script/Niagara.NiagaraDataInterfaceArrayPosition Name="NiagaraDataInterfaceArrayPosition_0" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayPosition'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayPosition_0'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.WindDirectionalSourceComponent Name="WindDirectionalSourceComponent_0" ExportPath="/Script/Engine.WindDirectionalSourceComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.WindDirectionalSourceComponent_0'"
+   End Object
+   Begin Object Class=/Script/Niagara.NiagaraComponent Name="NODE_AddNiagaraComponent-21" Archetype="/Script/Niagara.NiagaraComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:NODE_AddNiagaraComponent-21'" ExportPath="/Script/Niagara.NiagaraComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-21'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MID_Post_Process_Wind_Fog_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_Post_Process_Wind_Fog_1'"
+      Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MID_Post_Process_Wind_Fog_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_Post_Process_Wind_Fog_1.MID_Post_Process_Wind_Fog_1EditorOnlyData'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.PostProcessComponent Name="NODE_AddPostProcessComponent-1" Archetype="/Script/Engine.PostProcessComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:NODE_AddPostProcessComponent-1'" ExportPath="/Script/Engine.PostProcessComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddPostProcessComponent-1'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MID_LightningFlashBloom_PP_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_LightningFlashBloom_PP_1'"
+      Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MID_LightningFlashBloom_PP_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_LightningFlashBloom_PP_1.MID_LightningFlashBloom_PP_1EditorOnlyData'"
+      End Object
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C Name="UDS_Weather_Settings_C_5" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Weather_Settings_C_5'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MID_UDW_StatusDisk_Material_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_UDW_StatusDisk_Material_1'"
+      Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MID_UDW_StatusDisk_Material_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_UDW_StatusDisk_Material_1.MID_UDW_StatusDisk_Material_1EditorOnlyData'"
+      End Object
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Utility_Opener.UDS_Utility_Opener_C Name="UDS_Utility_Opener" Archetype="/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Utility_Opener.UDS_Utility_Opener_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:UDS_Utility_Opener_GEN_VARIABLE'" ExportPath="/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Utility_Opener.UDS_Utility_Opener_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Utility_Opener'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C Name="WOV Target Draw Actors Manager" Archetype="/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:WOV Target Draw Actors Manager_GEN_VARIABLE'" ExportPath="/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.WOV Target Draw Actors Manager'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C Name="Local Weather Actors Manager" Archetype="/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:Local Weather Actors Manager_GEN_VARIABLE'" ExportPath="/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Local Weather Actors Manager'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="Wind_Arrow" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:Wind_Arrow_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Wind_Arrow'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="StatusDisk" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:StatusDisk_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.StatusDisk'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="SelectionHide" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:SelectionHide_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.SelectionHide'"
+   End Object
+   Begin Object Class=/Script/Engine.SceneComponent Name="WeatherParticles_Parent" Archetype="/Script/Engine.SceneComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:WeatherParticles_Parent_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.WeatherParticles_Parent'"
+   End Object
+   Begin Object Class=/Script/Engine.AudioComponent Name="Sound_Mixer" Archetype="/Script/Engine.AudioComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:Sound_Mixer_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Sound_Mixer'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="UDW Label" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:UDW Label_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDW Label'"
+   End Object
+   Begin Object Class=/Script/Engine.AudioComponent Name="Sound_Directional" Archetype="/Script/Engine.AudioComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:Sound_Directional_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Sound_Directional'"
+   End Object
+   Begin Object Class=/Script/Engine.PostProcessComponent Name="LightningFlashBloom" Archetype="/Script/Engine.PostProcessComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:LightningFlashBloom_GEN_VARIABLE'" ExportPath="/Script/Engine.PostProcessComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.LightningFlashBloom'"
+   End Object
+   Begin Object Class=/Script/Engine.DirectionalLightComponent Name="Lightning Light" Archetype="/Script/Engine.DirectionalLightComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:Lightning Light_GEN_VARIABLE'" ExportPath="/Script/Engine.DirectionalLightComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Lightning Light'"
+   End Object
+   Begin Object Class=/Script/Engine.AudioComponent Name="Sound_Global" Archetype="/Script/Engine.AudioComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:Sound_Global_GEN_VARIABLE'" ExportPath="/Script/Engine.AudioComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Sound_Global'"
+   End Object
+   Begin Object Class=/Script/Engine.SceneComponent Name="WeatherRoot" Archetype="/Script/Engine.SceneComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:WeatherRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.WeatherRoot'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDW_Temperature_Manager.UDW_Temperature_Manager_C Name="Temperature Manager" Archetype="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDW_Temperature_Manager.UDW_Temperature_Manager_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:Temperature Manager_GEN_VARIABLE'" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDW_Temperature_Manager.UDW_Temperature_Manager_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Temperature Manager'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDW_Material_State_Manager.UDW_Material_State_Manager_C Name="Material State Manager" Archetype="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDW_Material_State_Manager.UDW_Material_State_Manager_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:Material State Manager_GEN_VARIABLE'" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDW_Material_State_Manager.UDW_Material_State_Manager_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Material State Manager'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/Random_Weather_Variation.Random_Weather_Variation_C Name="Random Weather Manager" Archetype="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/Random_Weather_Variation.Random_Weather_Variation_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Weather.Ultra_Dynamic_Weather_C:Random Weather Manager_GEN_VARIABLE'" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/Random_Weather_Variation.Random_Weather_Variation_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Random Weather Manager'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C Name="UDS_Weather_Settings_C_3" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Weather_Settings_C_3'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C Name="UDS_Weather_Settings_C_2" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Weather_Settings_C_2'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C Name="UDS_Weather_Settings_C_1" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Weather_Settings_C_1'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C Name="UDS_Weather_Settings_C_0" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Weather_Settings_C_0'"
+   End Object
+   Begin Object Name="NODE_AddNiagaraComponent-15" ExportPath="/Script/Niagara.NiagaraComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15'"
+      Begin Object Name="NiagaraDataInterfaceArrayMatrix_0" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayMatrix'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayMatrix_0'"
+      End Object
+      Begin Object Name="NiagaraDataInterfaceArrayPosition_1" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayPosition'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayPosition_1'"
+      End Object
+      Begin Object Name="NiagaraDataInterfaceArrayInt32_0" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayInt32'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayInt32_0'"
+      End Object
+      Begin Object Name="NiagaraDataInterfaceArrayFloat_0" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayFloat'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayFloat_0'"
+      End Object
+      Begin Object Name="NiagaraDataInterfaceArrayFloat3_0" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayFloat3'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayFloat3_0'"
+      End Object
+      Begin Object Name="NiagaraDataInterfaceArrayPosition_0" ExportPath="/Script/Niagara.NiagaraDataInterfaceArrayPosition'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-15.NiagaraDataInterfaceArrayPosition_0'"
+      End Object
+      Asset="/Script/Niagara.NiagaraSystem'/Game/UltraDynamicSky/Particles/Snow.Snow'"
+      RandomSeedOffset=55
+      OverrideParameters=(UserParameterRedirects=(((Name="Alpha Scale Max Distance",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Alpha Scale Max Distance",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Alpha Scale Multiplier",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Alpha Scale Multiplier",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Ambient Intensity",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Ambient Intensity",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Camera Affects Sprite Angle",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Camera Affects Sprite Angle",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Camera Forward Offset",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Camera Forward Offset",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Ceiling Check Height",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Ceiling Check Height",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="CPU Spawn Rate",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.CPU Spawn Rate",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Custom Camera Forward",TypeDefHandle=(RegisteredTypeIndex=99)), (Name="User.Custom Camera Forward",TypeDefHandle=(RegisteredTypeIndex=99))),((Name="Custom Camera Position",TypeDefHandle=(RegisteredTypeIndex=102)), (Name="User.Custom Camera Position",TypeDefHandle=(RegisteredTypeIndex=102))),((Name="Custom Time Dilation",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Custom Time Dilation",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="End Positions",TypeDefHandle=(RegisteredTypeIndex=68)), (Name="User.End Positions",TypeDefHandle=(RegisteredTypeIndex=68))),((Name="Fog Draw Distance",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Fog Draw Distance",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Fog Particle Camera Offset",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Fog Particle Camera Offset",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Fog Particle Percentage",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Fog Particle Percentage",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Fog Strength Multiplier",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Fog Strength Multiplier",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Forward Spawn Bias",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Forward Spawn Bias",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="General Velocity",TypeDefHandle=(RegisteredTypeIndex=99)), (Name="User.General Velocity",TypeDefHandle=(RegisteredTypeIndex=99))),((Name="GPU Buffer Period",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.GPU Buffer Period",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Impact Normals",TypeDefHandle=(RegisteredTypeIndex=67)), (Name="User.Impact Normals",TypeDefHandle=(RegisteredTypeIndex=67))),((Name="Lifetimes",TypeDefHandle=(RegisteredTypeIndex=65)), (Name="User.Lifetimes",TypeDefHandle=(RegisteredTypeIndex=65))),((Name="Max Lifetime",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Max Lifetime",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Max Spawn Distance",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Max Spawn Distance",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Minimum View Distance",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Minimum View Distance",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Motion Stretching",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Motion Stretching",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Override Camera Transform",TypeDefHandle=(RegisteredTypeIndex=97)), (Name="User.Override Camera Transform",TypeDefHandle=(RegisteredTypeIndex=97))),((Name="Particle Collision Channel",TypeDefHandle=(RegisteredTypeIndex=96)), (Name="User.Particle Collision Channel",TypeDefHandle=(RegisteredTypeIndex=96))),((Name="Particle Collision Enabled",TypeDefHandle=(RegisteredTypeIndex=97)), (Name="User.Particle Collision Enabled",TypeDefHandle=(RegisteredTypeIndex=97))),((Name="Particle Paths Count",TypeDefHandle=(RegisteredTypeIndex=96)), (Name="User.Particle Paths Count",TypeDefHandle=(RegisteredTypeIndex=96))),((Name="Particle Paths CPU",TypeDefHandle=(RegisteredTypeIndex=72)), (Name="User.Particle Paths CPU",TypeDefHandle=(RegisteredTypeIndex=72))),((Name="Particles Stick Time",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Particles Stick Time",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Recycled Paths",TypeDefHandle=(RegisteredTypeIndex=73)), (Name="User.Recycled Paths",TypeDefHandle=(RegisteredTypeIndex=73))),((Name="Refracted Light Intensity",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Refracted Light Intensity",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Snow_Twirl",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Snow_Twirl",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Spawn Box Height",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Spawn Box Height",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Spawn Distance Distribution",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Spawn Distance Distribution",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Spawn Rate",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Spawn Rate",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Sprite Alpha",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Sprite Alpha",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Sprite Color Multiplier",TypeDefHandle=(RegisteredTypeIndex=99)), (Name="User.Sprite Color Multiplier",TypeDefHandle=(RegisteredTypeIndex=99))),((Name="Sprite Scale",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Sprite Scale",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Start Positions",TypeDefHandle=(RegisteredTypeIndex=68)), (Name="User.Start Positions",TypeDefHandle=(RegisteredTypeIndex=68))),((Name="Stuck Snow Enabled",TypeDefHandle=(RegisteredTypeIndex=97)), (Name="User.Stuck Snow Enabled",TypeDefHandle=(RegisteredTypeIndex=97))),((Name="Twirl Velocity",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Twirl Velocity",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Use Water Level",TypeDefHandle=(RegisteredTypeIndex=97)), (Name="User.Use Water Level",TypeDefHandle=(RegisteredTypeIndex=97))),((Name="Velocity Randomization",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Velocity Randomization",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Velocity Randomization Scale",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Velocity Randomization Scale",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Water Kill Height",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Water Kill Height",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Wind Gust Multiplier",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Wind Gust Multiplier",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Wind Velocity Scale",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Wind Velocity Scale",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="World Spawn Offset",TypeDefHandle=(RegisteredTypeIndex=99)), (Name="User.World Spawn Offset",TypeDefHandle=(RegisteredTypeIndex=99)))),SortedParameterOffsets=((Offset=0,Name="User.Alpha Scale Max Distance",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=4,Name="User.Alpha Scale Multiplier",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=8,Name="User.Ambient Intensity",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=12,Name="User.Camera Affects Sprite Angle",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=16,Name="User.Camera Forward Offset",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=20,Name="User.Ceiling Check Height",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=24,Name="User.CPU Spawn Rate",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=28,Name="User.Custom Camera Forward",TypeDefHandle=(RegisteredTypeIndex=99)),(Offset=40,Name="User.Custom Camera Position",TypeDefHandle=(RegisteredTypeIndex=102)),(Offset=52,Name="User.Custom Time Dilation",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=0,Name="User.End Positions",TypeDefHandle=(RegisteredTypeIndex=68)),(Offset=56,Name="User.Fog Draw Distance",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=60,Name="User.Fog Particle Camera Offset",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=64,Name="User.Fog Particle Percentage",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=68,Name="User.Fog Strength Multiplier",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=72,Name="User.Forward Spawn Bias",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=76,Name="User.General Velocity",TypeDefHandle=(RegisteredTypeIndex=99)),(Offset=208,Name="User.GPU Buffer Period",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=1,Name="User.Impact Normals",TypeDefHandle=(RegisteredTypeIndex=67)),(Offset=2,Name="User.Lifetimes",TypeDefHandle=(RegisteredTypeIndex=65)),(Offset=88,Name="User.Max Lifetime",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=92,Name="User.Max Spawn Distance",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=96,Name="User.Minimum View Distance",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=100,Name="User.Motion Stretching",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=104,Name="User.Override Camera Transform",TypeDefHandle=(RegisteredTypeIndex=97)),(Offset=108,Name="User.Particle Collision Channel",TypeDefHandle=(RegisteredTypeIndex=96)),(Offset=112,Name="User.Particle Collision Enabled",TypeDefHandle=(RegisteredTypeIndex=97)),(Offset=204,Name="User.Particle Paths Count",TypeDefHandle=(RegisteredTypeIndex=96)),(Offset=5,Name="User.Particle Paths CPU",TypeDefHandle=(RegisteredTypeIndex=72)),(Offset=116,Name="User.Particles Stick Time",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=3,Name="User.Recycled Paths",TypeDefHandle=(RegisteredTypeIndex=73)),(Offset=120,Name="User.Refracted Light Intensity",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=124,Name="User.Snow_Twirl",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=128,Name="User.Spawn Box Height",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=132,Name="User.Spawn Distance Distribution",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=136,Name="User.Spawn Rate",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=140,Name="User.Sprite Alpha",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=144,Name="User.Sprite Color Multiplier",TypeDefHandle=(RegisteredTypeIndex=99)),(Offset=156,Name="User.Sprite Scale",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=4,Name="User.Start Positions",TypeDefHandle=(RegisteredTypeIndex=68)),(Offset=160,Name="User.Stuck Snow Enabled",TypeDefHandle=(RegisteredTypeIndex=97)),(Offset=164,Name="User.Twirl Velocity",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=168,Name="User.Use Water Level",TypeDefHandle=(RegisteredTypeIndex=97)),(Offset=172,Name="User.Velocity Randomization",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=176,Name="User.Velocity Randomization Scale",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=180,Name="User.Water Kill Height",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=184,Name="User.Wind Gust Multiplier",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=188,Name="User.Wind Velocity Scale",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=192,Name="User.World Spawn Offset",TypeDefHandle=(RegisteredTypeIndex=99))),ParameterData=(0,64,28,69,0,0,64,64,0,0,128,63,0,0,0,63,0,0,72,66,0,0,250,69,0,0,250,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,63,0,0,122,69,0,0,22,195,0,0,0,0,0,0,128,63,102,102,102,63,0,0,0,0,0,0,0,0,0,0,250,196,0,0,64,64,0,0,250,68,0,0,52,66,0,0,128,63,0,0,0,0,3,0,0,0,255,255,255,255,0,0,192,63,0,0,0,0,0,0,128,63,0,0,22,68,0,0,128,63,164,60,17,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,128,63,255,255,255,255,0,0,112,193,0,0,0,0,154,153,153,62,0,0,128,63,0,0,0,0,0,0,0,0,0,128,187,68,0,0,0,0,0,0,0,0,0,0,0,0,208,7,0,0,0,0,128,63),DataInterfaces=("/Script/Niagara.NiagaraDataInterfaceArrayPosition'NiagaraDataInterfaceArrayPosition_0'","/Script/Niagara.NiagaraDataInterfaceArrayFloat3'NiagaraDataInterfaceArrayFloat3_0'","/Script/Niagara.NiagaraDataInterfaceArrayFloat'NiagaraDataInterfaceArrayFloat_0'","/Script/Niagara.NiagaraDataInterfaceArrayInt32'NiagaraDataInterfaceArrayInt32_0'","/Script/Niagara.NiagaraDataInterfaceArrayPosition'NiagaraDataInterfaceArrayPosition_1'","/Script/Niagara.NiagaraDataInterfaceArrayMatrix'NiagaraDataInterfaceArrayMatrix_0'"),OriginalPositionData=((Name="User.Custom Camera Position")))
+      InstanceParameterOverrides=(((Name="User.Particle Paths Count",TypeDefHandle=(RegisteredTypeIndex=96)), (Bytes=(208,7,0,0),CurrentMode=Bytes)),((Name="User.CPU Spawn Rate",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,250,68),CurrentMode=Bytes)),((Name="User.GPU Buffer Period",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,128,63),CurrentMode=Bytes)),((Name="User.Camera Forward Offset",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,72,66),CurrentMode=Bytes)),((Name="User.Ceiling Check Height",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,250,69),CurrentMode=Bytes)),((Name="User.World Spawn Offset",TypeDefHandle=(RegisteredTypeIndex=99)), (Bytes=(0,0,0,0,0,0,0,0,0,0,0,0),CurrentMode=Bytes)),((Name="User.Max Spawn Distance",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,250,68),CurrentMode=Bytes)),((Name="User.Minimum View Distance",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,52,66),CurrentMode=Bytes)),((Name="User.Particle Collision Enabled",TypeDefHandle=(RegisteredTypeIndex=97)), (Bytes=(255,255,255,255),CurrentMode=Bytes)),((Name="User.Spawn Box Height",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,22,68),CurrentMode=Bytes)),((Name="User.Spawn Distance Distribution",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,128,63),CurrentMode=Bytes)),((Name="User.Forward Spawn Bias",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(102,102,102,63),CurrentMode=Bytes)),((Name="User.Camera Affects Sprite Angle",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,0,63),CurrentMode=Bytes)),((Name="User.Motion Stretching",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,128,63),CurrentMode=Bytes)),((Name="User.Particle Collision Channel",TypeDefHandle=(RegisteredTypeIndex=96)), (Bytes=(3,0,0,0),CurrentMode=Bytes)),((Name="User.Alpha Scale Max Distance",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,64,28,69),CurrentMode=Bytes)),((Name="User.Alpha Scale Multiplier",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,64,64),CurrentMode=Bytes)),((Name="User.Use Water Level",TypeDefHandle=(RegisteredTypeIndex=97)), (Bytes=(0,0,0,0),CurrentMode=Bytes)),((Name="User.Override Camera Transform",TypeDefHandle=(RegisteredTypeIndex=97)), (Bytes=(0,0,0,0),CurrentMode=Bytes)),((Name="User.Custom Time Dilation",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,128,63),CurrentMode=Bytes)),((Name="User.Particles Stick Time",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,192,63),CurrentMode=Bytes)),((Name="User.Stuck Snow Enabled",TypeDefHandle=(RegisteredTypeIndex=97)), (Bytes=(255,255,255,255),CurrentMode=Bytes)),((Name="User.Sprite Scale",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,128,63),CurrentMode=Bytes)),((Name="User.Wind Velocity Scale",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,128,187,68),CurrentMode=Bytes)),((Name="User.Velocity Randomization Scale",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,128,63),CurrentMode=Bytes)),((Name="User.Spawn Rate",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(164,60,17,70),CurrentMode=Bytes)))
+      OnSystemFinished=(/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Snow System Finished)
+      bVisibleInRayTracing=False
+      AttachParent="WeatherParticles_Parent"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=UserConstructionScript
+   End Object
+   Begin Object Name="WindDirectionalSourceComponent_0" ExportPath="/Script/Engine.WindDirectionalSourceComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.WindDirectionalSourceComponent_0'"
+      Strength=1.000000
+      Speed=1.930906
+      MinGustAmount=0.000000
+      MaxGustAmount=0.000000
+      AttachParent="WeatherRoot"
+      RelativeRotation=(Pitch=0.000000,Yaw=8.437501,Roll=-0.000000)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=UserConstructionScript
+   End Object
+   Begin Object Name="NODE_AddNiagaraComponent-21" ExportPath="/Script/Niagara.NiagaraComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddNiagaraComponent-21'"
+      Asset="/Script/Niagara.NiagaraSystem'/Game/UltraDynamicSky/Particles/WeatherOcclusionVolumeSystem.WeatherOcclusionVolumeSystem'"
+      OverrideParameters=(UserParameterRedirects=(((Name="Constant Spawning",TypeDefHandle=(RegisteredTypeIndex=97)), (Name="User.Constant Spawning",TypeDefHandle=(RegisteredTypeIndex=97))),((Name="Corner Position",TypeDefHandle=(RegisteredTypeIndex=102)), (Name="User.Corner Position",TypeDefHandle=(RegisteredTypeIndex=102))),((Name="Max Trace Distance",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Max Trace Distance",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Sample Rate",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Sample Rate",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Trace Direction",TypeDefHandle=(RegisteredTypeIndex=99)), (Name="User.Trace Direction",TypeDefHandle=(RegisteredTypeIndex=99))),((Name="Volume Area",TypeDefHandle=(RegisteredTypeIndex=94)), (Name="User.Volume Area",TypeDefHandle=(RegisteredTypeIndex=94))),((Name="Volume Corner",TypeDefHandle=(RegisteredTypeIndex=99)), (Name="User.Volume Corner",TypeDefHandle=(RegisteredTypeIndex=99))),((Name="Volume Target Asset",TypeDefHandle=(RegisteredTypeIndex=3)), (Name="User.Volume Target Asset",TypeDefHandle=(RegisteredTypeIndex=3)))),SortedParameterOffsets=((Offset=0,Name="User.Constant Spawning",TypeDefHandle=(RegisteredTypeIndex=97)),(Offset=4,Name="User.Corner Position",TypeDefHandle=(RegisteredTypeIndex=102)),(Offset=16,Name="User.Max Trace Distance",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=20,Name="User.Sample Rate",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=24,Name="User.Trace Direction",TypeDefHandle=(RegisteredTypeIndex=99)),(Offset=36,Name="User.Volume Area",TypeDefHandle=(RegisteredTypeIndex=94)),(Offset=40,Name="User.Volume Corner",TypeDefHandle=(RegisteredTypeIndex=99)),(Offset=0,Name="User.Volume Target Asset",TypeDefHandle=(RegisteredTypeIndex=3))),ParameterData=(0,0,0,0,128,30,44,199,0,161,116,70,0,182,50,70,0,0,122,69,0,0,0,72,81,140,218,61,46,118,50,177,200,137,126,63,0,128,187,69,0,0,0,0,0,0,0,0,0,0,0,0),UObjects=("/Script/Engine.TextureRenderTargetVolume'/Game/UltraDynamicSky/Textures/Weather/WeatherOcclusionVolume.WeatherOcclusionVolume'"),OriginalPositionData=((Name="User.Corner Position",Value=(X=-44062.500000,Y=15656.250000,Z=11437.500000))))
+      InstanceParameterOverrides=(((Name="User.Volume Area",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,128,187,69),CurrentMode=Bytes)),((Name="User.Sample Rate",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,0,72),CurrentMode=Bytes)),((Name="User.Max Trace Distance",TypeDefHandle=(RegisteredTypeIndex=94)), (Bytes=(0,0,122,69),CurrentMode=Bytes)),((Name="User.Trace Direction",TypeDefHandle=(RegisteredTypeIndex=99)), (Bytes=(81,140,218,61,46,118,50,177,200,137,126,63),CurrentMode=Bytes)),((Name="User.Constant Spawning",TypeDefHandle=(RegisteredTypeIndex=97)), (Bytes=(0,0,0,0),CurrentMode=Bytes)),((Name="User.Corner Position",TypeDefHandle=(RegisteredTypeIndex=102)), (Bytes=(0,0,0,0,208,131,229,192,0,0,0,0,32,148,206,64,0,0,0,0,192,86,198,64),CurrentMode=Bytes)))
+      AttachParent="WeatherParticles_Parent"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=UserConstructionScript
+   End Object
+   Begin Object Name="MID_Post_Process_Wind_Fog_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_Post_Process_Wind_Fog_1'"
+      Begin Object Name="MID_Post_Process_Wind_Fog_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_Post_Process_Wind_Fog_1.MID_Post_Process_Wind_Fog_1EditorOnlyData'"
+      End Object
+      Parent="/Script/Engine.Material'/Game/UltraDynamicSky/Materials/Weather/Post_Process_Wind_Fog.Post_Process_Wind_Fog'"
+      ScalarParameterValues(0)=(ParameterInfo=(Name="Max Sample Distance"),ParameterValue=1800.000000)
+      ScalarParameterValues(1)=(ParameterInfo=(Name="Step Distance"),ParameterValue=120.000000)
+      ScalarParameterValues(2)=(ParameterInfo=(Name="3D Noise Scale"),ParameterValue=2000.000000)
+      ScalarParameterValues(3)=(ParameterInfo=(Name="Intensity"),ParameterValue=0.217467)
+      EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MID_Post_Process_Wind_Fog_1EditorOnlyData'"
+      LightingGuid=E4D2054041BBFFB12A09339A1EB55361
+   End Object
+   Begin Object Name="NODE_AddPostProcessComponent-1" ExportPath="/Script/Engine.PostProcessComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.NODE_AddPostProcessComponent-1'"
+      Settings=(WeightedBlendables=(Array=((Weight=1.000000,Object="/Script/Engine.MaterialInstanceDynamic'MID_Post_Process_Wind_Fog_1'"),(Weight=1.000000,Object="/Script/Engine.Material'/Game/UltraDynamicSky/Materials/Weather/Post_Process_Wind_Fog_Composite.Post_Process_Wind_Fog_Composite'"))))
+      bEnabled=True
+      AttachParent="WeatherRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=UserConstructionScript
+   End Object
+   Begin Object Name="MID_LightningFlashBloom_PP_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_LightningFlashBloom_PP_1'"
+      Begin Object Name="MID_LightningFlashBloom_PP_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_LightningFlashBloom_PP_1.MID_LightningFlashBloom_PP_1EditorOnlyData'"
+      End Object
+      Parent="/Script/Engine.Material'/Game/UltraDynamicSky/Materials/Weather/LightningFlashBloom_PP.LightningFlashBloom_PP'"
+      ScalarParameterValues(0)=(ParameterInfo=(Name="Intensity"))
+      VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.495000,G=0.612833,B=1.000000,A=1.000000))
+      EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MID_LightningFlashBloom_PP_1EditorOnlyData'"
+      LightingGuid=999B32CD466DFE0909CA02827D887C04
+   End Object
+   Begin Object Name="UDS_Weather_Settings_C_5" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Weather_Settings_C_5'"
+      NativeClass="/Script/Engine.BlueprintGeneratedClass'/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'"
+   End Object
+   Begin Object Name="MID_UDW_StatusDisk_Material_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_UDW_StatusDisk_Material_1'"
+      Begin Object Name="MID_UDW_StatusDisk_Material_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.MID_UDW_StatusDisk_Material_1.MID_UDW_StatusDisk_Material_1EditorOnlyData'"
+      End Object
+      Parent="/Script/Engine.Material'/Game/UltraDynamicSky/Blueprints/System/Editor_UI/Editor_Materials/UDW_StatusDisk_Material.UDW_StatusDisk_Material'"
+      TextureParameterValues(0)=(ParameterInfo=(Name="Symbol"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Icons/Weather/Symbols/Snow.Snow'")
+      EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MID_UDW_StatusDisk_Material_1EditorOnlyData'"
+      LightingGuid=53DD67A24E2A737B04A3AB8D538AC2BF
+   End Object
+   Begin Object Name="UDS_Utility_Opener" ExportPath="/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Utility_Opener.UDS_Utility_Opener_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Utility_Opener'"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="WOV Target Draw Actors Manager" ExportPath="/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.WOV Target Draw Actors Manager'"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Local Weather Actors Manager" ExportPath="/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Local Weather Actors Manager'"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Wind_Arrow" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Wind_Arrow'"
+      BodyInstance=(MaxAngularVelocity=3599.999756)
+      AttachParent="WeatherRoot"
+      RelativeRotation=(Pitch=0.000000,Yaw=8.437501,Roll=-0.000000)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="StatusDisk" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.StatusDisk'"
+      OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'MID_UDW_StatusDisk_Material_1'"
+      AttachParent="WeatherRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="SelectionHide" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.SelectionHide'"
+      AttachParent="WeatherParticles_Parent"
+      bVisible=True
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="WeatherParticles_Parent" ExportPath="/Script/Engine.SceneComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.WeatherParticles_Parent'"
+      AttachParent="WeatherRoot"
+      RelativeLocation=(X=3114.445292,Y=-1463.197849,Z=71.775105)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Sound_Mixer" ExportPath="/Script/Engine.AudioComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Sound_Mixer'"
+      AttachParent="WeatherRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="UDW Label" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDW Label'"
+      AttachParent="WeatherRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Sound_Directional" ExportPath="/Script/Engine.AudioComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Sound_Directional'"
+      Sound="/Script/MetasoundEngine.MetaSoundSource'/Game/UltraDynamicSky/Sound/MetaSounds/UDS_Directional_WeatherSounds.UDS_Directional_WeatherSounds'"
+      AttachParent="WeatherRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="LightningFlashBloom" ExportPath="/Script/Engine.PostProcessComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.LightningFlashBloom'"
+      Settings=(WeightedBlendables=(Array=((Weight=1.000000,Object="/Script/Engine.MaterialInstanceDynamic'MID_LightningFlashBloom_PP_1'"))))
+      AttachParent="Lightning Light"
+      bVisible=False
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Lightning Light" ExportPath="/Script/Engine.DirectionalLightComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Lightning Light'"
+      LightColor=(B=255,G=205,R=187,A=255)
+      AttachParent="WeatherRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Sound_Global" ExportPath="/Script/Engine.AudioComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Sound_Global'"
+      Sound="/Script/MetasoundEngine.MetaSoundSource'/Game/UltraDynamicSky/Sound/MetaSounds/UDS_Global_WeatherSounds.UDS_Global_WeatherSounds'"
+      AttachParent="WeatherRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="WeatherRoot" ExportPath="/Script/Engine.SceneComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.WeatherRoot'"
+      RelativeLocation=(X=-43309.091023,Y=19523.386106,Z=10388.499999)
+      RelativeRotation=(Pitch=0.000000,Yaw=171.562499,Roll=0.000000)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Temperature Manager" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDW_Temperature_Manager.UDW_Temperature_Manager_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Temperature Manager'"
+      Weather State="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'UDS_Weather_Settings_C_1'"
+      Temperature Range=(X=27.847793,Y=62.847793)
+      Target Temperature=27.847793
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Material State Manager" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDW_Material_State_Manager.UDW_Material_State_Manager_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Material State Manager'"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Random Weather Manager" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/Random_Weather_Variation.Random_Weather_Variation_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.Random Weather Manager'"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="UDS_Weather_Settings_C_3" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Weather_Settings_C_3'"
+      Cloud Coverage=4.607990
+      Wind Intensity=2.000000
+      Fog=6.500000
+      User Friendly Name=NSLOCTEXT("", "C716B4314286E3956E80D29E299C0B40", "Manual Weather State")
+      NativeClass="/Script/Engine.BlueprintGeneratedClass'/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'"
+   End Object
+   Begin Object Name="UDS_Weather_Settings_C_2" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Weather_Settings_C_2'"
+      NativeClass="/Script/Engine.BlueprintGeneratedClass'/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'"
+   End Object
+   Begin Object Name="UDS_Weather_Settings_C_1" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Weather_Settings_C_1'"
+      Cloud Coverage=8.500000
+      Snow=6.000000
+      Wind Intensity=4.000000
+      Fog=6.500000
+      Material Snow Coverage=1.000000
+      State Sources=(("/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow.Snow'", 1.000000))
+      Changing=True
+      Wind Direction=180.000000
+      Is Local Weather=True
+      NativeClass="/Script/Engine.BlueprintGeneratedClass'/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'"
+   End Object
+   Begin Object Name="UDS_Weather_Settings_C_0" ExportPath="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Weather_C_1.UDS_Weather_Settings_C_0'"
+      Cloud Coverage=8.500000
+      Snow=6.000000
+      Wind Intensity=4.000000
+      Fog=5.000000
+      Material Snow Coverage=1.000000
+      State Sources=(("/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow.Snow'", 1.000000))
+      Changing=True
+      NativeClass="/Script/Engine.BlueprintGeneratedClass'/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'"
+   End Object
+   UDS_Utility_Opener="UDS_Utility_Opener"
+   WOV Target Draw Actors Manager="WOV Target Draw Actors Manager"
+   Local Weather Actors Manager="Local Weather Actors Manager"
+   LightningFlashBloom="LightningFlashBloom"
+   SelectionHide="SelectionHide"
+   Wind_Arrow="Wind_Arrow"
+   StatusDisk="StatusDisk"
+   WeatherParticles_Parent="WeatherParticles_Parent"
+   Sound_Mixer="Sound_Mixer"
+   UDW Label="UDW Label"
+   Sound_Directional="Sound_Directional"
+   Lightning Light="Lightning Light"
+   Sound_Global="Sound_Global"
+   WeatherRoot="WeatherRoot"
+   Temperature Manager="Temperature Manager"
+   Material State Manager="Material State Manager"
+   Random Weather Manager="Random Weather Manager"
+   Weather="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow.Snow'"
+   Cloud Coverage=4.607990
+   Fog=6.500000
+   Fog - Manual Override=True
+   Weather Sounds Master Volume=0.600000
+   Rain Volume=0.120000
+   Distant Thunder Volume=0.080000
+   Close Thunder Volume=0.000000
+   Wind Volume=0.850000
+   Wind Whistling Volume=0.220000
+   Control Point Location=(X=-41078.053699,Y=18687.464377,Z=14462.275104)
+   Current Snow/Dust Depth=14.000000
+   Post Process Wind Fog MID="/Script/Engine.MaterialInstanceDynamic'MID_Post_Process_Wind_Fog_1'"
+   Time Random Offset=128.947449
+   Old Weather State="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'UDS_Weather_Settings_C_2'"
+   Global Weather State="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'UDS_Weather_Settings_C_0'"
+   Local Weather State="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'UDS_Weather_Settings_C_1'"
+   Season=3.784779
+   Individual Seasons(0)=0.784779
+   Individual Seasons(3)=0.215221
+   Manual Weather State="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'UDS_Weather_Settings_C_3'"
+   UDS Version="9.3A"
+   Anti Aliasing Method=4
+   Season Debug="Early Spring"
+   Previous Temperature Scale=0
+   Current PPWF Intensity=0.217467
+   Target PPWF Intensity=0.217467
+   Random Stream=(InitialSeed=699,Seed=236407204)
+   Last Update Sources(0)="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow.Snow'"
+   Tick Behavior Active=True
+   Tick Delta Seconds=0.000010
+   Last Season Value=3.784779
+   Snow Particles="NODE_AddNiagaraComponent-15"
+   Sparse Weather Occlusion="NODE_AddNiagaraComponent-21"
+   Temperature Weather State="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'UDS_Weather_Settings_C_5'"
+   Active Weather Particle Systems(0)="NODE_AddNiagaraComponent-15"
+   Wind Directional Source Component="/Script/Engine.WindDirectionalSourceComponent'WindDirectionalSourceComponent_0'"
+   DBuffer Supported=True
+   Lightning Flash Bloom MID="/Script/Engine.MaterialInstanceDynamic'MID_LightningFlashBloom_PP_1'"
+   Last Weather State Hash(0)=18
+   Last Weather State Hash(1)=0
+   Last Weather State Hash(2)=13
+   Last Weather State Hash(3)=0
+   Last Weather State Hash(4)=9
+   Last Weather State Hash(5)=14
+   Last Weather State Hash(6)=0
+   Last Weather State Hash(7)=180
+   Last Weather State Hash(8)=0
+   Last Weather State Hash(9)=11
+   Last Weather State Hash(10)=0
+   Material Parameters Weather State="/Game/UltraDynamicSky/Blueprints/Weather_Effects/System/UDS_Weather_Settings.UDS_Weather_Settings_C'UDS_Weather_Settings_C_0'"
+   Instant Weather Updating=True
+   PPWF Post Process="NODE_AddPostProcessComponent-1"
+   Distance Fields Supported=True
+   Global State Binding Active=True
+   Weather Occlusion Volume Dirty=True
+   Last Weather Occlusion Trace Direction=(X=0.106713,Y=-0.000000,Z=0.994290)
+   RootComponent="WeatherRoot"
+   ActorLabel="Ultra_Dynamic_Weather"
+   FolderPath="Weather and Sky"
+   BlueprintCreatedComponents(0)="Random Weather Manager"
+   BlueprintCreatedComponents(1)="Material State Manager"
+   BlueprintCreatedComponents(2)="Temperature Manager"
+   BlueprintCreatedComponents(3)="WeatherRoot"
+   BlueprintCreatedComponents(4)="Sound_Global"
+   BlueprintCreatedComponents(5)="Lightning Light"
+   BlueprintCreatedComponents(6)="LightningFlashBloom"
+   BlueprintCreatedComponents(7)="Sound_Directional"
+   BlueprintCreatedComponents(8)="UDW Label"
+   BlueprintCreatedComponents(9)="Sound_Mixer"
+   BlueprintCreatedComponents(10)="WeatherParticles_Parent"
+   BlueprintCreatedComponents(11)="SelectionHide"
+   BlueprintCreatedComponents(12)="StatusDisk"
+   BlueprintCreatedComponents(13)="Wind_Arrow"
+   BlueprintCreatedComponents(14)="Local Weather Actors Manager"
+   BlueprintCreatedComponents(15)="WOV Target Draw Actors Manager"
+   BlueprintCreatedComponents(16)="UDS_Utility_Opener"
+   BlueprintCreatedComponents(17)="NODE_AddPostProcessComponent-1"
+   BlueprintCreatedComponents(18)="NODE_AddNiagaraComponent-21"
+   BlueprintCreatedComponents(19)="/Script/Engine.WindDirectionalSourceComponent'WindDirectionalSourceComponent_0'"
+   BlueprintCreatedComponents(20)="NODE_AddNiagaraComponent-15"
+End Actor

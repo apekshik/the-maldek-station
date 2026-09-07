@@ -1,0 +1,29 @@
+{
+  "accepted": true,
+  "scope": "Pilot scale, materials and doorway; full station route/visual acceptance remains separate",
+  "geometry_checks": [
+    {
+      "name": "center",
+      "blocking": false,
+      "expected": false
+    },
+    {
+      "name": "left_jamb",
+      "blocking": true,
+      "expected": true
+    },
+    {
+      "name": "right_jamb",
+      "blocking": true,
+      "expected": true
+    }
+  ],
+  "render_review": [
+    "Teal paint and concrete grain visible under dry inspection lighting",
+    "Open grating remains real geometry",
+    "Yellow reference cube is visible through the glass pane",
+    "Existing night/Snow preset retained; inspection light and dry overrides removed"
+  ],
+  "probe_manifest_sha256": "38fb0fbb86d9bd7251b964e8baf5a82b26501e5d1d5b71d4567e4641e0eeec29",
+  "shader_errors": []
+}

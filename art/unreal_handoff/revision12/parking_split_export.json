@@ -1,0 +1,265 @@
+{
+  "source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\Maldek_Station_Cleanup.blend",
+  "source_sha256": "e2ce19363f35f7fbef1860f5d5591e53ccf0b97d989085153b631a82558724dd",
+  "units": "metres",
+  "texture_tile_metres": 8,
+  "axis_forward": "-Y",
+  "axis_up": "Z",
+  "placement": "FBX scene conversion once; audited station actor yaw 180. wp(x,y,z)=(origin.x-100*x,origin.y+100*y,origin.z+100*z).",
+  "materials": {
+    "Ground__Exterior": {
+      "slot": "UE_Ground__Exterior",
+      "source_material": "Ground",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.15000000596046448,
+        0.1899999976158142,
+        0.15000000596046448,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7799999713897705,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R02_Chipped_Painted_Steel__Exterior": {
+      "slot": "UE_R02_Chipped_Painted_Steel__Exterior",
+      "source_material": "R02_Chipped_Painted_Steel",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.1599999964237213,
+        0.20000000298023224,
+        0.1899999976158142,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.699999988079071,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    }
+  },
+  "chunks": [
+    {
+      "name": "SM_R12_Retained_Parking",
+      "file": "fbx\\SM_R12_Retained_Parking.fbx",
+      "sha256": "0558013c39eb0400045ceccc834ae9ce7813417e469431cb4edf55398e6bd68c",
+      "sources": [
+        "Parking"
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -40.0,
+          -63.0,
+          -1.2999999523162842
+        ],
+        [
+          -32.0,
+          -57.0,
+          -1.0
+        ]
+      ],
+      "material_slots": [
+        "UE_Ground__Exterior"
+      ],
+      "triangles": 12,
+      "collision_boxes": [
+        {
+          "min": [
+            -40.0,
+            -63.0,
+            -1.2999999523162842
+          ],
+          "max": [
+            -32.0,
+            -57.0,
+            -1.0
+          ],
+          "source": "Parking",
+          "kind": "authored",
+          "vertices": [
+            [
+              -40.0,
+              -63.0,
+              -1.2999999523162842
+            ],
+            [
+              -32.0,
+              -63.0,
+              -1.2999999523162842
+            ],
+            [
+              -40.0,
+              -57.0,
+              -1.2999999523162842
+            ],
+            [
+              -32.0,
+              -57.0,
+              -1.2999999523162842
+            ],
+            [
+              -40.0,
+              -63.0,
+              -1.0
+            ],
+            [
+              -32.0,
+              -63.0,
+              -1.0
+            ],
+            [
+              -40.0,
+              -57.0,
+              -1.0
+            ],
+            [
+              -32.0,
+              -57.0,
+              -1.0
+            ]
+          ]
+        }
+      ],
+      "collision_hulls": 1,
+      "physical_surface": "Gravel",
+      "role": "floor",
+      "nanite": false,
+      "replacement_targets": [
+        {
+          "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_103",
+          "component": "StaticMeshComponent0",
+          "old_mesh": "/Game/MaldekRefinement/R10/Meshes/SM_R04_10_Parking_and_Arrival.SM_R04_10_Parking_and_Arrival"
+        }
+      ],
+      "stage": "Circulation",
+      "collection": "10_Parking_and_Arrival",
+      "retained_from_combined": true,
+      "material_bindings_override": {
+        "UE_Ground__Exterior": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Gravel_ff87cc66ad.MI_Foot_Gravel_ff87cc66ad"
+      }
+    },
+    {
+      "name": "SM_R12_Retained_Parked_Car",
+      "file": "fbx\\SM_R12_Retained_Parked_Car.fbx",
+      "sha256": "22e2fecea11f434c8d58ea100ff17bdae4a81e3b03412f44b5cf2f4fbd276ded",
+      "sources": [
+        "Parked_Car"
+      ],
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": [
+        [
+          -37.900001525878906,
+          -61.900001525878906,
+          -1.0
+        ],
+        [
+          -36.099998474121094,
+          -58.099998474121094,
+          0.29999998211860657
+        ]
+      ],
+      "material_slots": [
+        "UE_R02_Chipped_Painted_Steel__Exterior"
+      ],
+      "triangles": 12,
+      "collision_boxes": [
+        {
+          "min": [
+            -37.900001525878906,
+            -61.900001525878906,
+            -1.0
+          ],
+          "max": [
+            -36.099998474121094,
+            -58.099998474121094,
+            0.29999998211860657
+          ],
+          "source": "Parked_Car",
+          "kind": "authored",
+          "vertices": [
+            [
+              -37.900001525878906,
+              -61.900001525878906,
+              -1.0
+            ],
+            [
+              -36.099998474121094,
+              -61.900001525878906,
+              -1.0
+            ],
+            [
+              -37.900001525878906,
+              -58.099998474121094,
+              -1.0
+            ],
+            [
+              -36.099998474121094,
+              -58.099998474121094,
+              -1.0
+            ],
+            [
+              -37.900001525878906,
+              -61.900001525878906,
+              0.29999998211860657
+            ],
+            [
+              -36.099998474121094,
+              -61.900001525878906,
+              0.29999998211860657
+            ],
+            [
+              -37.900001525878906,
+              -58.099998474121094,
+              0.29999998211860657
+            ],
+            [
+              -36.099998474121094,
+              -58.099998474121094,
+              0.29999998211860657
+            ]
+          ]
+        }
+      ],
+      "collision_hulls": 1,
+      "physical_surface": "Metal",
+      "role": "solid",
+      "nanite": true,
+      "replacement_targets": [
+        {
+          "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_103",
+          "component": "StaticMeshComponent0",
+          "old_mesh": "/Game/MaldekRefinement/R10/Meshes/SM_R04_10_Parking_and_Arrival.SM_R04_10_Parking_and_Arrival"
+        }
+      ],
+      "stage": "Circulation",
+      "collection": "10_Parking_and_Arrival",
+      "retained_from_combined": true,
+      "material_bindings_override": {
+        "UE_R02_Chipped_Painted_Steel__Exterior": "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Metal_65892e371c.MI_Foot_Metal_65892e371c"
+      }
+    }
+  ]
+}

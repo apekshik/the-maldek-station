@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "mask_envelope": [
+    [
+      -30,
+      58
+    ],
+    [
+      -30,
+      33
+    ]
+  ],
+  "active_mask": "abs(combined R12 height - latest forest height) >= 0.001 m",
+  "changed_pixels": 0,
+  "outside_mask_changes": 0,
+  "required_underlay_clearance_m": 0.6,
+  "measured_minimum_existing_clearance_m": 0.8368920680745617,
+  "sampled_pixels": 1529,
+  "source_sha256": "1e8433d5af8af43e499e89524404c3a81dd72505d0167d03f1a56557101cc261",
+  "result_sha256": "479b153ff264b2a3719e87269a840b7ce80a1821c90dfea0520c54824ecda33f",
+  "pixels": []
+}

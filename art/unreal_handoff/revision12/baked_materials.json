@@ -1,0 +1,3867 @@
+{
+  "sets": {
+    "bccac58e7cec6e7179218d518fed913cec897efd3ae5db0147d682e3c5ac3fff": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_bccac58e7cec6e71_BaseColor.png",
+        "ORM": "textures\\T_R12_bccac58e7cec6e71_ORM.png",
+        "NormalDX": "textures\\T_R12_bccac58e7cec6e71_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a3adc5a1fe5564dcbbd993a86c7cf063ef9b123cbe46408640645abb5d9775ae"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "c38877558fb5497071cbf0cc8ffab168e4acc122debbc22b37c1a590794d2c1d"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a926ed147d7dfbdabfd6fd2c14840803c854f34bbcf1b497273bb0b574fd5cf2"
+        }
+      },
+      "source_material": "VF06_Galvanized",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "717b0ced502c1cceff85df743868fa5f8feacece64d21c828d68810e6f6296c4": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_717b0ced502c1cce_BaseColor.png",
+        "ORM": "textures\\T_R12_717b0ced502c1cce_ORM.png",
+        "NormalDX": "textures\\T_R12_717b0ced502c1cce_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "ecae568419a2404fb72afc7556116a1987a60a609f16bfe169be2346b0088778"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "171a5170c5e99df26d55f8ce4e345ffe83e9ff110436fef76e9533ec769f14f2"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3dc5b16d0db49b8feb1a26e57010eb3b96eec00b95c4f73be1ca0d921a61bd50"
+        }
+      },
+      "source_material": "VF06_Petrol_paint",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "397cd4dc6bcdd415544f3338e5ba27f41a240b166ffeaa66a550cf1f1f2e7ea7": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_397cd4dc6bcdd415_BaseColor.png",
+        "ORM": "textures\\T_R12_397cd4dc6bcdd415_ORM.png",
+        "NormalDX": "textures\\T_R12_397cd4dc6bcdd415_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "701121e3380efdc9e1a12574e3a5c6f876ddc315fcf6c210863bc5cfb0642f81"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "91eb0fcac3d53e87580888019823431869e3517ab5725b1aab3784a4d926cc0c"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a926ed147d7dfbdabfd6fd2c14840803c854f34bbcf1b497273bb0b574fd5cf2"
+        }
+      },
+      "source_material": "VF06_Safety_ochre",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_4cae7c514a69d86a_BaseColor.png",
+        "ORM": "textures\\T_R12_4cae7c514a69d86a_ORM.png",
+        "NormalDX": "textures\\T_R12_4cae7c514a69d86a_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "5e61b0ccf172c0dcc102f22b8d49b2591576117bdca1d1e74604716c6a9034b9"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3e6eb9699308bcd79f35194c2e4c270555141b60da1774c2629aa5b7a5948332"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b21c795b118c8b1e633fb530920f2bddda653fab1e168a3a82a5e711bd1f074d"
+        }
+      },
+      "source_material": "VF_Cast_Concrete",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_d885e3e3d5846c2e_BaseColor.png",
+        "ORM": "textures\\T_R12_d885e3e3d5846c2e_ORM.png",
+        "NormalDX": "textures\\T_R12_d885e3e3d5846c2e_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b9987841e60bb95762f236c27162ca8f1a8ee41633f84e18be29fdb3790840b8"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "1de3bc4aa98a73eb7a719b1afa5ce63ac29696715bec7efa2bd46095bf790285"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3dc5b16d0db49b8feb1a26e57010eb3b96eec00b95c4f73be1ca0d921a61bd50"
+        }
+      },
+      "source_material": "VF_Dark_Steel_Frame",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_e926691aed44cfb6_BaseColor.png",
+        "ORM": "textures\\T_R12_e926691aed44cfb6_ORM.png",
+        "NormalDX": "textures\\T_R12_e926691aed44cfb6_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "16fcfce6724f2f733f576be7e0798de6c937553a3c9e2e61593ec7450df2dd74"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "5dd93690fb0d8c7afc8057d64a9393bc57d11c6506e9820f93a1a87459f24c22"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3dc5b16d0db49b8feb1a26e57010eb3b96eec00b95c4f73be1ca0d921a61bd50"
+        }
+      },
+      "source_material": "VF_Faded_Petrol_Paint",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_d5c05ea591eb58cb_BaseColor.png",
+        "ORM": "textures\\T_R12_d5c05ea591eb58cb_ORM.png",
+        "NormalDX": "textures\\T_R12_d5c05ea591eb58cb_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "93b0501e83b99bd5af4fa21909179e7174eedb1b7f8802376ef2e2e7753e1d17"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "d3b411e4950f90958cb68f7c3d4d5fafac369cf9a69154d2cbb7ae8d2279a5f1"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3dc5b16d0db49b8feb1a26e57010eb3b96eec00b95c4f73be1ca0d921a61bd50"
+        }
+      },
+      "source_material": "VF_Galvanized_Grating",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_6e56c3860bb27d4c_BaseColor.png",
+        "ORM": "textures\\T_R12_6e56c3860bb27d4c_ORM.png",
+        "NormalDX": "textures\\T_R12_6e56c3860bb27d4c_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "ed2dfcb2632ebc17b1ff41dae3760aac2e7a038caf0b705dc3e1951312608ae8"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "0a518c8440f5fdb95de6529a1ec2e198ae9e442e3acabf42ebdf849fd3573c3f"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a926ed147d7dfbdabfd6fd2c14840803c854f34bbcf1b497273bb0b574fd5cf2"
+        }
+      },
+      "source_material": "VF_Interior_Enamel",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_443587c5a4d64e6c_BaseColor.png",
+        "ORM": "textures\\T_R12_443587c5a4d64e6c_ORM.png",
+        "NormalDX": "textures\\T_R12_443587c5a4d64e6c_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "1b14d6860bf737f652ebb1de495dfd1e57848541ba08627199fdd371a6ff820d"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "aab235e294eb2c3aea9425136dd0515b809bb4486334b4a20164fe09b47f49d2"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3dc5b16d0db49b8feb1a26e57010eb3b96eec00b95c4f73be1ca0d921a61bd50"
+        }
+      },
+      "source_material": "VF_Local_Oxidation",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "0a60b55bbc856360c35637a4a63f278f96e76cab0ef3553cffe96023e0a08b9f": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_0a60b55bbc856360_BaseColor.png",
+        "ORM": "textures\\T_R12_0a60b55bbc856360_ORM.png",
+        "NormalDX": "textures\\T_R12_0a60b55bbc856360_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "bc801be94b98dadd6bf033479227fed545dbaafceac6a0d4422312cf2d3ddec0"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "d41266a1d5606f7259b0cb77488da179b4718762c8f0ce0be7920e16d6d6c87b"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "VF_Window_Glass",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "2d3ced294997d6b7fdbbf0ccf530bbc475e74e5efee54a4fd782937e04eeca43": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_2d3ced294997d6b7_BaseColor.png",
+        "ORM": "textures\\T_R12_2d3ced294997d6b7_ORM.png",
+        "NormalDX": "textures\\T_R12_2d3ced294997d6b7_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "840db7cefaba28019350798edf781a86540b3eaa0de2ebde57f1f722b480effc"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "06a893df3c12ada6e60fb587a276ab420d4ba0cc8d0b920f0b9b6e83b552c3a1"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "e75c999f44c8a24ad1f866b40fec921e3a5dc400cb5e2abdba977dbcc680e7be"
+        }
+      },
+      "source_material": "R02_Chipped_Painted_Steel__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "e22904f1e64684990389c9070045979c6f67c56dbfb0fb01bfeabfb308d6c73e": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_e22904f1e6468499_BaseColor.png",
+        "ORM": "textures\\T_R12_e22904f1e6468499_ORM.png",
+        "NormalDX": "textures\\T_R12_e22904f1e6468499_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "ba6284097e50f72639957908572afc1bda258224f6cfddcda26557c90c098abf"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "192a72a02ce59470bb6a0d97083314cecdfe6f8070847152a5486c0bac097e26"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "R02_Damp_Timber__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "a7fabe9cbd35f92c6f8a50b9dddf93c74a19e67f48597e0269494dd8d55e00cf": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_a7fabe9cbd35f92c_BaseColor.png",
+        "ORM": "textures\\T_R12_a7fabe9cbd35f92c_ORM.png",
+        "NormalDX": "textures\\T_R12_a7fabe9cbd35f92c_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "d1df68e4e64370eb5fba7ee7745471d76c51b43d8dbd5146487e9e7fce3389a8"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "c5d66e46b454478310071757fe1006ed9396b5bbe563cb930b2352d8135fe0c2"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "R02_Galvanized_Grating__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "38e57fd1bdf80c78a359c5a8cc67d8ee4213669e5d36a1a5ce1e1900fecec8d3": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_38e57fd1bdf80c78_BaseColor.png",
+        "ORM": "textures\\T_R12_38e57fd1bdf80c78_ORM.png",
+        "NormalDX": "textures\\T_R12_38e57fd1bdf80c78_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "43e63f5e5040d3c41114dad775bd9b862e32cc1021c6912bfd114ed9bd6c4115"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "e8a2c5ada6b22d60c49aa12a883608ea738f7536ff44d182f4dd59487d8c15f3"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3ea9715061877040cbbb32429d1b1d29e722ffa1e640c6051bdeff72fbeefc10"
+        }
+      },
+      "source_material": "R02_Weathered_Concrete__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "134e014d8940ea3b71ac8954de9d6936bb8608d6482fb58f87d03b466059e43c": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_134e014d8940ea3b_BaseColor.png",
+        "ORM": "textures\\T_R12_134e014d8940ea3b_ORM.png",
+        "NormalDX": "textures\\T_R12_134e014d8940ea3b_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "68e4f14117b62bc03bee4c3dc07a1a7a6ff8b3f40cb91739628e8125228800e2"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "38f082070dc479c3569f572aece105b11d4f5a51e7d932100c5e74df14ee472a"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "R02_Worn_Safety_Paint__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "470e8e22fb8bf23acf8204adf7f9b34e0d180fff063be4452a65a247aff4bef8": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_470e8e22fb8bf23a_BaseColor.png",
+        "ORM": "textures\\T_R12_470e8e22fb8bf23a_ORM.png",
+        "NormalDX": "textures\\T_R12_470e8e22fb8bf23a_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "2127cc7bec75b2dd2cd32c28162b157bafa28a2aa1795344e7f822aa1225e560"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b67c336a7346b4a0dc0a66a3513020b69f837d055a0594800acdff3d9680b700"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "R04_Galvanized_Fittings__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "77d10fddb32733e81b4db23221df8d1e6df4793f1c0a899fe062e29ae5e7e8a4": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_77d10fddb32733e8_BaseColor.png",
+        "ORM": "textures\\T_R12_77d10fddb32733e8_ORM.png",
+        "NormalDX": "textures\\T_R12_77d10fddb32733e8_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "9b793f48ec88d1d7f04e14391d269eed2faf3ed21956c34fc24bc9c7b126807c"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "99fcb5daa237bdd6608bc752fa100190b0e7a621590f666b1403f8e959e996db"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "R04_Instrument_Ivory__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "6963800f92a86709d57f865daaeef8aeb1cb92bb18d446f9b0c83deb65924777": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_6963800f92a86709_BaseColor.png",
+        "ORM": "textures\\T_R12_6963800f92a86709_ORM.png",
+        "NormalDX": "textures\\T_R12_6963800f92a86709_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "492b792d1e2ba04ec0ed44ab415c85c6c40e4e17a69319aacc6fd1371cea5dc1"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "6cbf876e1db01a1bfa1228998188697a73948da6b05dd309a117e23bf40514e4"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "R04_Oxide_Enamel__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "d6c23d01fee3f2e4a48c69a8d84fd6c8beecad4469a02e841e812925226a91e4": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_d6c23d01fee3f2e4_BaseColor.png",
+        "ORM": "textures\\T_R12_d6c23d01fee3f2e4_ORM.png",
+        "NormalDX": "textures\\T_R12_d6c23d01fee3f2e4_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "e8a8ff4bcf5064d85e5ad566ea74ee461e8c5b61c615102f0ada1dd0d9a98908"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "f84d6cd5f258db7021d79cb16cbc9bd57c2ec4c21b4f17f7f6d781a0e39831fd"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "R04_Painted_Charcoal__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "d4f9d99db8cc040ba44cf31fff012328428ae5ea9cdfc7e91980e78b1ced7d3c": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_d4f9d99db8cc040b_BaseColor.png",
+        "ORM": "textures\\T_R12_d4f9d99db8cc040b_ORM.png",
+        "NormalDX": "textures\\T_R12_d4f9d99db8cc040b_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "e6b6a8a520883b02ec15f66e3b684dd6a89e61eedeb9abfe02019f4c8c80acdc"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "46cb178a976b36dd413e01793cdf5bda04c791059332e4390c5e498b5d9cffc9"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "R04_Safety_Ochre__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "83939d50701a7a8d22a4a6c012bbfe3685029dbfc663e2f368441ffc4382f07f": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_83939d50701a7a8d_BaseColor.png",
+        "ORM": "textures\\T_R12_83939d50701a7a8d_ORM.png",
+        "NormalDX": "textures\\T_R12_83939d50701a7a8d_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "ff0977adac553000237a397926a40dbff75e9e5773d3fb38e6eade493c10bcdf"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "79012d3918b52e5e347adfec4f4a49b40faa5987eb8b54271b54f0c6bc639efa"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "R04_Seals__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "e845ed8fe034d0f15d2fbc48b2fd500248913f84ac2b86d9aa20c88ed5731e7f": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_e845ed8fe034d0f1_BaseColor.png",
+        "ORM": "textures\\T_R12_e845ed8fe034d0f1_ORM.png",
+        "NormalDX": "textures\\T_R12_e845ed8fe034d0f1_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "4162f5c57eb9ffc9ad87959b4c9d9a12f6649be99ff7842efc94430dbb882858"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "ceaf89e101dcf2fa583d3e926043b0e3479045323c323e8da9fbbf0539963cc1"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "34905d176a0a306a1ff3c86e42d218182cf7df3ff01a50d6568e7f963239c880"
+        }
+      },
+      "source_material": "VF06_Concrete__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "1907926b3567c76b45b5b570e0a5b44169ee7c66dbcbb98bd8cedd1cf11dd79d": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_1907926b3567c76b_BaseColor.png",
+        "ORM": "textures\\T_R12_1907926b3567c76b_ORM.png",
+        "NormalDX": "textures\\T_R12_1907926b3567c76b_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b022558c9acbe99ef90204170b42f840488bbb0bc483609ab0b19d33bb46b3e0"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "059b8b4eb2ef4b49c0b8f54dfefdd4c2b5c16e09433342fe225d306ed0f2d923"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3dc5b16d0db49b8feb1a26e57010eb3b96eec00b95c4f73be1ca0d921a61bd50"
+        }
+      },
+      "source_material": "VF06_Fastener_oxidation__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "af138731c9a687e413d51569e9227bd1f28caea577ccf22f4fad8a000452a05a": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_af138731c9a687e4_BaseColor.png",
+        "ORM": "textures\\T_R12_af138731c9a687e4_ORM.png",
+        "NormalDX": "textures\\T_R12_af138731c9a687e4_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "866503189d80dcb98274e54b356cb584765ade0e052529be21c8370d6dbfd0e8"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "c568b0d4831f04a10482a4f7b5a84f471e91c0df47437266c20ba97dc0d3250f"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "VF06_Glass__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "4bb419fc1549835caf3635004a7ba68494660a39e47f4937e9a0a300f494f599": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_4bb419fc1549835c_BaseColor.png",
+        "ORM": "textures\\T_R12_4bb419fc1549835c_ORM.png",
+        "NormalDX": "textures\\T_R12_4bb419fc1549835c_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "95f4ac49d3288c5dfa4a680d9f59b2ed1eb47998a48b41961c1502d050bf8f7b"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "e5eddae8433f901a6f5dd135b59f5dd2336544459bf05c9f1e98a8ad4cff26fc"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "2a4355f55410c8d7a30f4b4e80403bd7c174cbda2bfe1c325253a99db4ea8fab"
+        }
+      },
+      "source_material": "VF06_Lamp__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "34e4047949b72b7dccb3b0338b5ca56ac2a45ffa33659f74a784211ab15be528": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_34e4047949b72b7d_BaseColor.png",
+        "ORM": "textures\\T_R12_34e4047949b72b7d_ORM.png",
+        "NormalDX": "textures\\T_R12_34e4047949b72b7d_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "85894a99dd83a6bc03b209f777f614c1015c40193e0398b43eb38cb16fc7fc72"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a66425cf5c969c84092ee2e38c4075dcced1a9750f75b9ca8254d83c24ae6954"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "e9a05655b9f45a860ded3a45f0e91d269d2633bf56bc982ae35c8f63c5d42c7f"
+        }
+      },
+      "source_material": "VF06_Rubber__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "8c178feba2d54989a0e145f2bdd28424fdc5e2d30a771a16c893c056cb81ea85": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_8c178feba2d54989_BaseColor.png",
+        "ORM": "textures\\T_R12_8c178feba2d54989_ORM.png",
+        "NormalDX": "textures\\T_R12_8c178feba2d54989_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "38ed36c577afdc6910f619a7de2e8897f65fe01a995ee35ab41da77f37c781a6"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "893b1e1d5dc3535c4ce63d22f4564fdfbcc4df737ffb0c717d1df899e2d4c6dd"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a926ed147d7dfbdabfd6fd2c14840803c854f34bbcf1b497273bb0b574fd5cf2"
+        }
+      },
+      "source_material": "VF06_Service_green__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "5c56721ae787b8f4e6fbd3240347cc587bfaa04a82b99c9c9de5d95f826d1002": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_5c56721ae787b8f4_BaseColor.png",
+        "ORM": "textures\\T_R12_5c56721ae787b8f4_ORM.png",
+        "NormalDX": "textures\\T_R12_5c56721ae787b8f4_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "6f9aa1e443200fc7ceb88be1388f3e6cff0f053ceab1d45146329befce90267a"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3debc46374d2fd2a26b03491bd06a8feffd327dcdd0a909ec26be97ec96eb97b"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "559e9c1c72d41ca8124181ada7e789266acdf0408ef462cbc9deb0d0b9567a1d"
+        }
+      },
+      "source_material": "VF06_Structural_steel__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "3fc351d3ec2d1c3a12d6dc054878d99fba3328777ff7690aa75c7b0a763b8048": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_3fc351d3ec2d1c3a_BaseColor.png",
+        "ORM": "textures\\T_R12_3fc351d3ec2d1c3a_ORM.png",
+        "NormalDX": "textures\\T_R12_3fc351d3ec2d1c3a_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "8092ad43f6497e4ec018f0ee667ff8c0e242e7b6713729fb397fe9ecf1c6602f"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "2abca07e9574e33a5bbe0c087f11786c5c3c7447e96c544f5dbd316ff7312f3c"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a926ed147d7dfbdabfd6fd2c14840803c854f34bbcf1b497273bb0b574fd5cf2"
+        }
+      },
+      "source_material": "VF06_Warm_enamel__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "a259db1bee12fd6976cb9ec0e25359693fd4cc8932a90453123d62f47792e216": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_a259db1bee12fd69_BaseColor.png",
+        "ORM": "textures\\T_R12_a259db1bee12fd69_ORM.png",
+        "NormalDX": "textures\\T_R12_a259db1bee12fd69_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "51263d7b0a489b1b06aa79f9f3a84e9161064beeac62ba41c65240775dd480d1"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "5abf9ecd2540af33d1393ccac3778f664842c6e4f059a3b52641b57ee978e1ac"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "4916f0b89d819c6b491fa497720bc8fd39aefbf43bda6fd545359733b56dc288"
+        }
+      },
+      "source_material": "VF07_Compacted_Gravel__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "e10e6994c84aa13ddc1664b8389d1cad1d49cd0af4b64aed8db871777eb04817": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_e10e6994c84aa13d_BaseColor.png",
+        "ORM": "textures\\T_R12_e10e6994c84aa13d_ORM.png",
+        "NormalDX": "textures\\T_R12_e10e6994c84aa13d_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "430fd3342be9f0310eb41b9720a565a68fca51ac74973c46faf533e05d3014ab"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "952b26c4bb47a76d2a43d8888f90a4391a5923b89e5f327f231cee3426b58d96"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "c69b694e0f78052298e08d3df3fc94b1f6146f3b441d1caea0ca14579090135a"
+        }
+      },
+      "source_material": "VF07_Terrain_Study",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "a88e13b874ad5ee08c22ba737bf37b3b9a29ffab33eeaa05afa297a34dea4dcc": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_a88e13b874ad5ee0_BaseColor.png",
+        "ORM": "textures\\T_R12_a88e13b874ad5ee0_ORM.png",
+        "NormalDX": "textures\\T_R12_a88e13b874ad5ee0_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a8c09e015bd9c34ddcd1caab03d4ea6e3183e023ea397be67b4d5813e66006df"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "1b7bb280f581b879f6fd4a65f401ac5e17a72cd00b222f7e39e08e1cc3a48767"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "84457b0c0ec87e7526e5e128cedb62276960a3a1267cc9d94cc5738c49fc609d"
+        }
+      },
+      "source_material": "VF_Bedding.001__Indoor",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "0f49ff13db621867a4c09bead01567c11cf4791f861e9da5146d7f4e313b2948": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_0f49ff13db621867_BaseColor.png",
+        "ORM": "textures\\T_R12_0f49ff13db621867_ORM.png",
+        "NormalDX": "textures\\T_R12_0f49ff13db621867_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "9415b132647d22b1120051ba2c4357328e0083480d05ee92dee65e2744839ef5"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "7b10069548dad0f12c97ea8a586c69836bf08cf7c3ffd18df43bb2399dba85ef"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3a4b032e723f78a3079a984dfdcd7a0a05b33b8039763c90c095ad3ae673e43b"
+        }
+      },
+      "source_material": "VF_Desk_Timber.001__Indoor",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "d5ecc041a894204798ecf34bb00a76c6ab076ab6f8bac61e24e061aa2bc33a77": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_d5ecc041a8942047_BaseColor.png",
+        "ORM": "textures\\T_R12_d5ecc041a8942047_ORM.png",
+        "NormalDX": "textures\\T_R12_d5ecc041a8942047_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "892c20dcd5f9eb5a8938302825aa5f88cd6794d53b5fab07c4cf046fc310f19e"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "c31a8c40fd993f11235e26dae6e34cd33c1784237acaebb838ab1331388abcb6"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "3dc5b16d0db49b8feb1a26e57010eb3b96eec00b95c4f73be1ca0d921a61bd50"
+        }
+      },
+      "source_material": "VF_Faded_Safety_Ochre.001__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "5e64494f29546ed90ea5580ce96ff657157a27f23822e83daace43851a26cf8c": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_5e64494f29546ed9_BaseColor.png",
+        "ORM": "textures\\T_R12_5e64494f29546ed9_ORM.png",
+        "NormalDX": "textures\\T_R12_5e64494f29546ed9_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "0ced423521b2a0689d02bfdbc5e4ad8f9545b5b42a866b5f6109c1186f37ccf6"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "6c1b20b77ef77c7746bf229b10f454346fe6b2f0bdea93e1d7313bec724d5a39"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "aca766f696c43b8473e86425f78f0640dc4afe1c16a41963d1f609d5b9be907e"
+        }
+      },
+      "source_material": "VF_Paper.001__Indoor",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "d3ddbf5f63766e2d824f9a32558adfda8059399c0d86b2499283f20815677ec5": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_d3ddbf5f63766e2d_BaseColor.png",
+        "ORM": "textures\\T_R12_d3ddbf5f63766e2d_ORM.png",
+        "NormalDX": "textures\\T_R12_d3ddbf5f63766e2d_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "e210a33b4961369ce04ad3ea41da11c3858f73f805935e742d9037982dc805e4"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "e2de4155034f331f2e0f1330b9f27c312bb24ba697e4eb95ad98dd7b6490c7fb"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a926ed147d7dfbdabfd6fd2c14840803c854f34bbcf1b497273bb0b574fd5cf2"
+        }
+      },
+      "source_material": "VF_Replacement_Green_Paint__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "815a872b693212f5fdfe30fbd2fd75578d593bf116e23791fc27118d82524c9b": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_815a872b693212f5_BaseColor.png",
+        "ORM": "textures\\T_R12_815a872b693212f5_ORM.png",
+        "NormalDX": "textures\\T_R12_815a872b693212f5_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "ba60c8185f04ee3329261ffcbce827dd7c8d35c3531ebb48e7bf79e2f1a1aa47"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "0ce7fbacff01259d7b132d43bcb651d53bc0c1ce4c5fa77d4d3e6aedbc602df6"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a926ed147d7dfbdabfd6fd2c14840803c854f34bbcf1b497273bb0b574fd5cf2"
+        }
+      },
+      "source_material": "VF_Service_Red.001__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "d66c8958803c8207ddc543189865d8d95e94ceb96f2de2cf2c22f2c12502e3f9": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_d66c8958803c8207_BaseColor.png",
+        "ORM": "textures\\T_R12_d66c8958803c8207_ORM.png",
+        "NormalDX": "textures\\T_R12_d66c8958803c8207_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "1d3d6a9300083f324cae9cf143c2b814792a3fef855d3a5d66c1d656cac13875"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "694847d256d073ebd113db83044a2eac001fdf21fefeb39138b8fb9cbbef3e98"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "77a2563754d20e5916cd7aa448de7ddbd0b42ae13c320c2b8174b78c67256bb5"
+        }
+      },
+      "source_material": "VF_Warm_Diffuser.001__Indoor",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "24557afd157e49723dd034f71fdcb4be68d918b80f05b2067268adfbcbbf2117": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_24557afd157e4972_BaseColor.png",
+        "ORM": "textures\\T_R12_24557afd157e4972_ORM.png",
+        "NormalDX": "textures\\T_R12_24557afd157e4972_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "67ca52c135edb3f0f33c5777cec174c9ffb2f8d66c9d5eab3ba9684b9f70044f"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b698430481a76a7448efb894621f76ff3ae664e8db56f85f629b9b8d5890d4d9"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "28cc4f036f7269585170bda29becdcab087f368ccd99e101f07da9c91de49af2"
+        }
+      },
+      "source_material": "VF_Window_Seal.001__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    },
+    "ad1e364fabe13d9bd8ad64dd98515328445d839b318b415c4b02911d2c0b472e": {
+      "textures": {
+        "BaseColor": "textures\\T_R12_ad1e364fabe13d9b_BaseColor.png",
+        "ORM": "textures\\T_R12_ad1e364fabe13d9b_ORM.png",
+        "NormalDX": "textures\\T_R12_ad1e364fabe13d9b_NormalDX.png"
+      },
+      "files": {
+        "BaseColor": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "a4bab51fd031baf31f196f756d4a9657f840acd329439a0fd34fd72d466baf67"
+        },
+        "ORM": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "0b8e6e18f9f785002a18bf77d7a11ec88091341ffb2fefd10249b21a5405e39b"
+        },
+        "NormalDX": {
+          "width": 2048,
+          "height": 2048,
+          "sha256": "b858c6eef8b1d761eac55c7aa4cf0e054919b74cb042fa5b0d6637303b3eb762"
+        }
+      },
+      "source_material": "Ground__Exterior",
+      "tile_metres": 8,
+      "pixels_per_metre": 256,
+      "normal_convention": "DirectX (-Y tangent normal)",
+      "occlusion": "1 for a shared unoccluded surface; geometric contact/shadowing remains real-time",
+      "base_color": "Evaluated shader color without scene lighting",
+      "orm_channels": [
+        "occlusion",
+        "roughness",
+        "metallic"
+      ]
+    }
+  },
+  "materials": {
+    "VF06_Galvanized": {
+      "set": "bccac58e7cec6e7179218d518fed913cec897efd3ae5db0147d682e3c5ac3fff",
+      "slot": "UE_VF06_Galvanized",
+      "source_material": "VF06_Galvanized",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.3799999952316284,
+      "exposure": null,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Petrol_paint": {
+      "set": "717b0ced502c1cceff85df743868fa5f8feacece64d21c828d68810e6f6296c4",
+      "slot": "UE_VF06_Petrol_paint",
+      "source_material": "VF06_Petrol_paint",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.2800000011920929,
+      "roughness": 0.550000011920929,
+      "exposure": null,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Safety_ochre": {
+      "set": "397cd4dc6bcdd415544f3338e5ba27f41a240b166ffeaa66a550cf1f1f2e7ea7",
+      "slot": "UE_VF06_Safety_ochre",
+      "source_material": "VF06_Safety_ochre",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.5199999809265137,
+      "exposure": null,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Cast_Concrete": {
+      "set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "slot": "UE_VF_Cast_Concrete",
+      "source_material": "VF_Cast_Concrete",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "exposure": null,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Dark_Steel_Frame": {
+      "set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "slot": "UE_VF_Dark_Steel_Frame",
+      "source_material": "VF_Dark_Steel_Frame",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.46000000834465027,
+      "exposure": null,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Faded_Petrol_Paint": {
+      "set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "slot": "UE_VF_Faded_Petrol_Paint",
+      "source_material": "VF_Faded_Petrol_Paint",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.5899999737739563,
+      "exposure": null,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Galvanized_Grating": {
+      "set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "slot": "UE_VF_Galvanized_Grating",
+      "source_material": "VF_Galvanized_Grating",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.4000000059604645,
+      "exposure": null,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Interior_Enamel": {
+      "set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "slot": "UE_VF_Interior_Enamel",
+      "source_material": "VF_Interior_Enamel",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.6800000071525574,
+      "exposure": null,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Local_Oxidation": {
+      "set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "slot": "UE_VF_Local_Oxidation",
+      "source_material": "VF_Local_Oxidation",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "exposure": null,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Window_Glass": {
+      "set": "0a60b55bbc856360c35637a4a63f278f96e76cab0ef3553cffe96023e0a08b9f",
+      "slot": "UE_VF_Window_Glass",
+      "source_material": "VF_Window_Glass",
+      "physical_surface": "Metal",
+      "glass": true,
+      "base_color": [
+        0.8799999952316284,
+        0.949999988079071,
+        0.9700000286102295,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.03500000014901161,
+      "exposure": null,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R02_Chipped_Painted_Steel__Exterior": {
+      "set": "2d3ced294997d6b7fdbbf0ccf530bbc475e74e5efee54a4fd782937e04eeca43",
+      "slot": "UE_R02_Chipped_Painted_Steel__Exterior",
+      "source_material": "R02_Chipped_Painted_Steel",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.1599999964237213,
+        0.20000000298023224,
+        0.1899999976158142,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.699999988079071,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R02_Chipped_Painted_Steel__Indoor": {
+      "set": "2d3ced294997d6b7fdbbf0ccf530bbc475e74e5efee54a4fd782937e04eeca43",
+      "slot": "UE_R02_Chipped_Painted_Steel__Indoor",
+      "source_material": "R02_Chipped_Painted_Steel",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.1599999964237213,
+        0.20000000298023224,
+        0.1899999976158142,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.699999988079071,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R02_Damp_Timber__Exterior": {
+      "set": "e22904f1e64684990389c9070045979c6f67c56dbfb0fb01bfeabfb308d6c73e",
+      "slot": "UE_R02_Damp_Timber__Exterior",
+      "source_material": "R02_Damp_Timber",
+      "exposure": "Exterior",
+      "physical_surface": "Wood",
+      "glass": false,
+      "base_color": [
+        0.10999999940395355,
+        0.07000000029802322,
+        0.03500000014901161,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R02_Damp_Timber__Indoor": {
+      "set": "e22904f1e64684990389c9070045979c6f67c56dbfb0fb01bfeabfb308d6c73e",
+      "slot": "UE_R02_Damp_Timber__Indoor",
+      "source_material": "R02_Damp_Timber",
+      "exposure": "Indoor",
+      "physical_surface": "Wood",
+      "glass": false,
+      "base_color": [
+        0.10999999940395355,
+        0.07000000029802322,
+        0.03500000014901161,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R02_Galvanized_Grating__Exterior": {
+      "set": "a7fabe9cbd35f92c6f8a50b9dddf93c74a19e67f48597e0269494dd8d55e00cf",
+      "slot": "UE_R02_Galvanized_Grating__Exterior",
+      "source_material": "R02_Galvanized_Grating",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.25,
+        0.3100000023841858,
+        0.28999999165534973,
+        1.0
+      ],
+      "metallic": 0.8199999928474426,
+      "roughness": 0.4399999976158142,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R02_Weathered_Concrete__Exterior": {
+      "set": "38e57fd1bdf80c78a359c5a8cc67d8ee4213669e5d36a1a5ce1e1900fecec8d3",
+      "slot": "UE_R02_Weathered_Concrete__Exterior",
+      "source_material": "R02_Weathered_Concrete",
+      "exposure": "Exterior",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.47999998927116394,
+        0.5099999904632568,
+        0.49000000953674316,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R02_Weathered_Concrete__Indoor": {
+      "set": "38e57fd1bdf80c78a359c5a8cc67d8ee4213669e5d36a1a5ce1e1900fecec8d3",
+      "slot": "UE_R02_Weathered_Concrete__Indoor",
+      "source_material": "R02_Weathered_Concrete",
+      "exposure": "Indoor",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.47999998927116394,
+        0.5099999904632568,
+        0.49000000953674316,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R02_Worn_Safety_Paint__Exterior": {
+      "set": "134e014d8940ea3b71ac8954de9d6936bb8608d6482fb58f87d03b466059e43c",
+      "slot": "UE_R02_Worn_Safety_Paint__Exterior",
+      "source_material": "R02_Worn_Safety_Paint",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.550000011920929,
+        0.30000001192092896,
+        0.04500000178813934,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.6499999761581421,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R04_Galvanized_Fittings__Exterior": {
+      "set": "470e8e22fb8bf23acf8204adf7f9b34e0d180fff063be4452a65a247aff4bef8",
+      "slot": "UE_R04_Galvanized_Fittings__Exterior",
+      "source_material": "R04_Galvanized_Fittings",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.30000001192092896,
+        0.3400000035762787,
+        0.33000001311302185,
+        1.0
+      ],
+      "metallic": 0.7799999713897705,
+      "roughness": 0.4300000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R04_Instrument_Ivory__Exterior": {
+      "set": "77d10fddb32733e81b4db23221df8d1e6df4793f1c0a899fe062e29ae5e7e8a4",
+      "slot": "UE_R04_Instrument_Ivory__Exterior",
+      "source_material": "R04_Instrument_Ivory",
+      "exposure": "Exterior",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.6499999761581421,
+        0.6100000143051147,
+        0.46000000834465027,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5799999833106995,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R04_Oxide_Enamel__Exterior": {
+      "set": "6963800f92a86709d57f865daaeef8aeb1cb92bb18d446f9b0c83deb65924777",
+      "slot": "UE_R04_Oxide_Enamel__Exterior",
+      "source_material": "R04_Oxide_Enamel",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.25999999046325684,
+        0.04800000041723251,
+        0.023000000044703484,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.4000000059604645,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R04_Painted_Charcoal__Exterior": {
+      "set": "d6c23d01fee3f2e4a48c69a8d84fd6c8beecad4469a02e841e812925226a91e4",
+      "slot": "UE_R04_Painted_Charcoal__Exterior",
+      "source_material": "R04_Painted_Charcoal",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.041999999433755875,
+        0.05700000002980232,
+        0.052000001072883606,
+        1.0
+      ],
+      "metallic": 0.5,
+      "roughness": 0.47999998927116394,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R04_Safety_Ochre__Exterior": {
+      "set": "d4f9d99db8cc040ba44cf31fff012328428ae5ea9cdfc7e91980e78b1ced7d3c",
+      "slot": "UE_R04_Safety_Ochre__Exterior",
+      "source_material": "R04_Safety_Ochre",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.550000011920929,
+        0.28999999165534973,
+        0.03500000014901161,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.47999998927116394,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "R04_Seals__Exterior": {
+      "set": "83939d50701a7a8d22a4a6c012bbfe3685029dbfc663e2f368441ffc4382f07f",
+      "slot": "UE_R04_Seals__Exterior",
+      "source_material": "R04_Seals",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.008999999612569809,
+        0.013000000268220901,
+        0.012000000104308128,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7599999904632568,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Concrete__Exterior": {
+      "set": "e845ed8fe034d0f15d2fbc48b2fd500248913f84ac2b86d9aa20c88ed5731e7f",
+      "slot": "UE_VF06_Concrete__Exterior",
+      "source_material": "VF06_Concrete",
+      "exposure": "Exterior",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8399999737739563,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Concrete__Indoor": {
+      "set": "e845ed8fe034d0f15d2fbc48b2fd500248913f84ac2b86d9aa20c88ed5731e7f",
+      "slot": "UE_VF06_Concrete__Indoor",
+      "source_material": "VF06_Concrete",
+      "exposure": "Indoor",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8399999737739563,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Fastener_oxidation__Exterior": {
+      "set": "1907926b3567c76b45b5b570e0a5b44169ee7c66dbcbb98bd8cedd1cf11dd79d",
+      "slot": "UE_VF06_Fastener_oxidation__Exterior",
+      "source_material": "VF06_Fastener_oxidation",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.800000011920929,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Fastener_oxidation__Indoor": {
+      "set": "1907926b3567c76b45b5b570e0a5b44169ee7c66dbcbb98bd8cedd1cf11dd79d",
+      "slot": "UE_VF06_Fastener_oxidation__Indoor",
+      "source_material": "VF06_Fastener_oxidation",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.800000011920929,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Galvanized__Exterior": {
+      "set": "bccac58e7cec6e7179218d518fed913cec897efd3ae5db0147d682e3c5ac3fff",
+      "slot": "UE_VF06_Galvanized__Exterior",
+      "source_material": "VF06_Galvanized",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.3799999952316284,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Galvanized__Indoor": {
+      "set": "bccac58e7cec6e7179218d518fed913cec897efd3ae5db0147d682e3c5ac3fff",
+      "slot": "UE_VF06_Galvanized__Indoor",
+      "source_material": "VF06_Galvanized",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.3799999952316284,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Glass__Exterior": {
+      "set": "af138731c9a687e413d51569e9227bd1f28caea577ccf22f4fad8a000452a05a",
+      "slot": "UE_VF06_Glass__Exterior",
+      "source_material": "VF06_Glass",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": true,
+      "base_color": [
+        0.8199999928474426,
+        0.8999999761581421,
+        0.9200000166893005,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.03999999910593033,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Lamp__Exterior": {
+      "set": "4bb419fc1549835caf3635004a7ba68494660a39e47f4937e9a0a300f494f599",
+      "slot": "UE_VF06_Lamp__Exterior",
+      "source_material": "VF06_Lamp",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6000000238418579,
+      "emission_color": [
+        1.0,
+        0.7200000286102295,
+        0.36000001430511475,
+        1.0
+      ],
+      "emission_strength": 3.0
+    },
+    "VF06_Petrol_paint__Exterior": {
+      "set": "717b0ced502c1cceff85df743868fa5f8feacece64d21c828d68810e6f6296c4",
+      "slot": "UE_VF06_Petrol_paint__Exterior",
+      "source_material": "VF06_Petrol_paint",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.2800000011920929,
+      "roughness": 0.550000011920929,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Petrol_paint__Indoor": {
+      "set": "717b0ced502c1cceff85df743868fa5f8feacece64d21c828d68810e6f6296c4",
+      "slot": "UE_VF06_Petrol_paint__Indoor",
+      "source_material": "VF06_Petrol_paint",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.2800000011920929,
+      "roughness": 0.550000011920929,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Rubber__Exterior": {
+      "set": "34e4047949b72b7dccb3b0338b5ca56ac2a45ffa33659f74a784211ab15be528",
+      "slot": "UE_VF06_Rubber__Exterior",
+      "source_material": "VF06_Rubber",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7699999809265137,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Safety_ochre__Exterior": {
+      "set": "397cd4dc6bcdd415544f3338e5ba27f41a240b166ffeaa66a550cf1f1f2e7ea7",
+      "slot": "UE_VF06_Safety_ochre__Exterior",
+      "source_material": "VF06_Safety_ochre",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.5199999809265137,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Service_green__Exterior": {
+      "set": "8c178feba2d54989a0e145f2bdd28424fdc5e2d30a771a16c893c056cb81ea85",
+      "slot": "UE_VF06_Service_green__Exterior",
+      "source_material": "VF06_Service_green",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.20000000298023224,
+      "roughness": 0.6200000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Service_green__Indoor": {
+      "set": "8c178feba2d54989a0e145f2bdd28424fdc5e2d30a771a16c893c056cb81ea85",
+      "slot": "UE_VF06_Service_green__Indoor",
+      "source_material": "VF06_Service_green",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.20000000298023224,
+      "roughness": 0.6200000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Structural_steel__Exterior": {
+      "set": "5c56721ae787b8f4e6fbd3240347cc587bfaa04a82b99c9c9de5d95f826d1002",
+      "slot": "UE_VF06_Structural_steel__Exterior",
+      "source_material": "VF06_Structural_steel",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.4300000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Structural_steel__Indoor": {
+      "set": "5c56721ae787b8f4e6fbd3240347cc587bfaa04a82b99c9c9de5d95f826d1002",
+      "slot": "UE_VF06_Structural_steel__Indoor",
+      "source_material": "VF06_Structural_steel",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.4300000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Warm_enamel__Exterior": {
+      "set": "3fc351d3ec2d1c3a12d6dc054878d99fba3328777ff7690aa75c7b0a763b8048",
+      "slot": "UE_VF06_Warm_enamel__Exterior",
+      "source_material": "VF06_Warm_enamel",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.10000000149011612,
+      "roughness": 0.6200000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Warm_enamel__Indoor": {
+      "set": "3fc351d3ec2d1c3a12d6dc054878d99fba3328777ff7690aa75c7b0a763b8048",
+      "slot": "UE_VF06_Warm_enamel__Indoor",
+      "source_material": "VF06_Warm_enamel",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.10000000149011612,
+      "roughness": 0.6200000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF07_Compacted_Gravel__Exterior": {
+      "set": "a259db1bee12fd6976cb9ec0e25359693fd4cc8932a90453123d62f47792e216",
+      "slot": "UE_VF07_Compacted_Gravel__Exterior",
+      "source_material": "VF07_Compacted_Gravel",
+      "exposure": "Exterior",
+      "physical_surface": "Gravel",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9200000166893005,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF07_Terrain_Study": {
+      "set": "e10e6994c84aa13ddc1664b8389d1cad1d49cd0af4b64aed8db871777eb04817",
+      "slot": "UE_VF07_Terrain_Study",
+      "source_material": "VF07_Terrain_Study",
+      "exposure": null,
+      "physical_surface": "Soil",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.949999988079071,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Bedding.001__Indoor": {
+      "set": "a88e13b874ad5ee08c22ba737bf37b3b9a29ffab33eeaa05afa297a34dea4dcc",
+      "slot": "UE_VF_Bedding_001__Indoor",
+      "source_material": "VF_Bedding.001",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.949999988079071,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Bedding__Indoor": {
+      "set": "a88e13b874ad5ee08c22ba737bf37b3b9a29ffab33eeaa05afa297a34dea4dcc",
+      "slot": "UE_VF_Bedding__Indoor",
+      "source_material": "VF_Bedding",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.949999988079071,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Cast_Concrete.001__Indoor": {
+      "set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "slot": "UE_VF_Cast_Concrete_001__Indoor",
+      "source_material": "VF_Cast_Concrete.001",
+      "exposure": "Indoor",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Cast_Concrete.002__Exterior": {
+      "set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "slot": "UE_VF_Cast_Concrete_002__Exterior",
+      "source_material": "VF_Cast_Concrete.002",
+      "exposure": "Exterior",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Cast_Concrete.002__Indoor": {
+      "set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "slot": "UE_VF_Cast_Concrete_002__Indoor",
+      "source_material": "VF_Cast_Concrete.002",
+      "exposure": "Indoor",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Cast_Concrete.003__Exterior": {
+      "set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "slot": "UE_VF_Cast_Concrete_003__Exterior",
+      "source_material": "VF_Cast_Concrete.003",
+      "exposure": "Exterior",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Cast_Concrete__Exterior": {
+      "set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "slot": "UE_VF_Cast_Concrete__Exterior",
+      "source_material": "VF_Cast_Concrete",
+      "exposure": "Exterior",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Cast_Concrete__Indoor": {
+      "set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "slot": "UE_VF_Cast_Concrete__Indoor",
+      "source_material": "VF_Cast_Concrete",
+      "exposure": "Indoor",
+      "physical_surface": "Concrete",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Dark_Steel_Frame.001__Exterior": {
+      "set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "slot": "UE_VF_Dark_Steel_Frame_001__Exterior",
+      "source_material": "VF_Dark_Steel_Frame.001",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.46000000834465027,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Dark_Steel_Frame.001__Indoor": {
+      "set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "slot": "UE_VF_Dark_Steel_Frame_001__Indoor",
+      "source_material": "VF_Dark_Steel_Frame.001",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.46000000834465027,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Dark_Steel_Frame.002__Exterior": {
+      "set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "slot": "UE_VF_Dark_Steel_Frame_002__Exterior",
+      "source_material": "VF_Dark_Steel_Frame.002",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.46000000834465027,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Dark_Steel_Frame.002__Indoor": {
+      "set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "slot": "UE_VF_Dark_Steel_Frame_002__Indoor",
+      "source_material": "VF_Dark_Steel_Frame.002",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.46000000834465027,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Dark_Steel_Frame.004__Exterior": {
+      "set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "slot": "UE_VF_Dark_Steel_Frame_004__Exterior",
+      "source_material": "VF_Dark_Steel_Frame.004",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.46000000834465027,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Dark_Steel_Frame.005__Exterior": {
+      "set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "slot": "UE_VF_Dark_Steel_Frame_005__Exterior",
+      "source_material": "VF_Dark_Steel_Frame.005",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.46000000834465027,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Dark_Steel_Frame__Exterior": {
+      "set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "slot": "UE_VF_Dark_Steel_Frame__Exterior",
+      "source_material": "VF_Dark_Steel_Frame",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.46000000834465027,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Dark_Steel_Frame__Indoor": {
+      "set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "slot": "UE_VF_Dark_Steel_Frame__Indoor",
+      "source_material": "VF_Dark_Steel_Frame",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.46000000834465027,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Desk_Timber.001__Indoor": {
+      "set": "0f49ff13db621867a4c09bead01567c11cf4791f861e9da5146d7f4e313b2948",
+      "slot": "UE_VF_Desk_Timber_001__Indoor",
+      "source_material": "VF_Desk_Timber.001",
+      "exposure": "Indoor",
+      "physical_surface": "Wood",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7699999809265137,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Desk_Timber.002__Indoor": {
+      "set": "0f49ff13db621867a4c09bead01567c11cf4791f861e9da5146d7f4e313b2948",
+      "slot": "UE_VF_Desk_Timber_002__Indoor",
+      "source_material": "VF_Desk_Timber.002",
+      "exposure": "Indoor",
+      "physical_surface": "Wood",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7699999809265137,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Desk_Timber__Indoor": {
+      "set": "0f49ff13db621867a4c09bead01567c11cf4791f861e9da5146d7f4e313b2948",
+      "slot": "UE_VF_Desk_Timber__Indoor",
+      "source_material": "VF_Desk_Timber",
+      "exposure": "Indoor",
+      "physical_surface": "Wood",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7699999809265137,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Faded_Petrol_Paint.001__Exterior": {
+      "set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "slot": "UE_VF_Faded_Petrol_Paint_001__Exterior",
+      "source_material": "VF_Faded_Petrol_Paint.001",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.5899999737739563,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Faded_Petrol_Paint.001__Indoor": {
+      "set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "slot": "UE_VF_Faded_Petrol_Paint_001__Indoor",
+      "source_material": "VF_Faded_Petrol_Paint.001",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.5899999737739563,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Faded_Petrol_Paint.002__Exterior": {
+      "set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "slot": "UE_VF_Faded_Petrol_Paint_002__Exterior",
+      "source_material": "VF_Faded_Petrol_Paint.002",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.5899999737739563,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Faded_Petrol_Paint__Exterior": {
+      "set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "slot": "UE_VF_Faded_Petrol_Paint__Exterior",
+      "source_material": "VF_Faded_Petrol_Paint",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.5899999737739563,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Faded_Petrol_Paint__Indoor": {
+      "set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "slot": "UE_VF_Faded_Petrol_Paint__Indoor",
+      "source_material": "VF_Faded_Petrol_Paint",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.25,
+      "roughness": 0.5899999737739563,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Faded_Safety_Ochre.001__Exterior": {
+      "set": "d5ecc041a894204798ecf34bb00a76c6ab076ab6f8bac61e24e061aa2bc33a77",
+      "slot": "UE_VF_Faded_Safety_Ochre_001__Exterior",
+      "source_material": "VF_Faded_Safety_Ochre.001",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.6000000238418579,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Galvanized_Grating.001__Exterior": {
+      "set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "slot": "UE_VF_Galvanized_Grating_001__Exterior",
+      "source_material": "VF_Galvanized_Grating.001",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.4000000059604645,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Galvanized_Grating.001__Indoor": {
+      "set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "slot": "UE_VF_Galvanized_Grating_001__Indoor",
+      "source_material": "VF_Galvanized_Grating.001",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.4000000059604645,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Galvanized_Grating.002__Exterior": {
+      "set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "slot": "UE_VF_Galvanized_Grating_002__Exterior",
+      "source_material": "VF_Galvanized_Grating.002",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.4000000059604645,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Galvanized_Grating.002__Indoor": {
+      "set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "slot": "UE_VF_Galvanized_Grating_002__Indoor",
+      "source_material": "VF_Galvanized_Grating.002",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.4000000059604645,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Galvanized_Grating.004__Exterior": {
+      "set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "slot": "UE_VF_Galvanized_Grating_004__Exterior",
+      "source_material": "VF_Galvanized_Grating.004",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.4000000059604645,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Galvanized_Grating.005__Exterior": {
+      "set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "slot": "UE_VF_Galvanized_Grating_005__Exterior",
+      "source_material": "VF_Galvanized_Grating.005",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.4000000059604645,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Galvanized_Grating__Exterior": {
+      "set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "slot": "UE_VF_Galvanized_Grating__Exterior",
+      "source_material": "VF_Galvanized_Grating",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.4000000059604645,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Galvanized_Grating__Indoor": {
+      "set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "slot": "UE_VF_Galvanized_Grating__Indoor",
+      "source_material": "VF_Galvanized_Grating",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.4000000059604645,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Interior_Enamel.001__Indoor": {
+      "set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "slot": "UE_VF_Interior_Enamel_001__Indoor",
+      "source_material": "VF_Interior_Enamel.001",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.6800000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Interior_Enamel.002__Exterior": {
+      "set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "slot": "UE_VF_Interior_Enamel_002__Exterior",
+      "source_material": "VF_Interior_Enamel.002",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.6800000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Interior_Enamel.002__Indoor": {
+      "set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "slot": "UE_VF_Interior_Enamel_002__Indoor",
+      "source_material": "VF_Interior_Enamel.002",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.6800000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Interior_Enamel.003__Exterior": {
+      "set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "slot": "UE_VF_Interior_Enamel_003__Exterior",
+      "source_material": "VF_Interior_Enamel.003",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.6800000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Interior_Enamel.004__Exterior": {
+      "set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "slot": "UE_VF_Interior_Enamel_004__Exterior",
+      "source_material": "VF_Interior_Enamel.004",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.6800000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Interior_Enamel__Exterior": {
+      "set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "slot": "UE_VF_Interior_Enamel__Exterior",
+      "source_material": "VF_Interior_Enamel",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.6800000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Interior_Enamel__Indoor": {
+      "set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "slot": "UE_VF_Interior_Enamel__Indoor",
+      "source_material": "VF_Interior_Enamel",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.6800000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Local_Oxidation.001__Exterior": {
+      "set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "slot": "UE_VF_Local_Oxidation_001__Exterior",
+      "source_material": "VF_Local_Oxidation.001",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Local_Oxidation.001__Indoor": {
+      "set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "slot": "UE_VF_Local_Oxidation_001__Indoor",
+      "source_material": "VF_Local_Oxidation.001",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Local_Oxidation.002__Exterior": {
+      "set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "slot": "UE_VF_Local_Oxidation_002__Exterior",
+      "source_material": "VF_Local_Oxidation.002",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Local_Oxidation.002__Indoor": {
+      "set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "slot": "UE_VF_Local_Oxidation_002__Indoor",
+      "source_material": "VF_Local_Oxidation.002",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Local_Oxidation.004__Exterior": {
+      "set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "slot": "UE_VF_Local_Oxidation_004__Exterior",
+      "source_material": "VF_Local_Oxidation.004",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Local_Oxidation.005__Exterior": {
+      "set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "slot": "UE_VF_Local_Oxidation_005__Exterior",
+      "source_material": "VF_Local_Oxidation.005",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Local_Oxidation__Exterior": {
+      "set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "slot": "UE_VF_Local_Oxidation__Exterior",
+      "source_material": "VF_Local_Oxidation",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Local_Oxidation__Indoor": {
+      "set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "slot": "UE_VF_Local_Oxidation__Indoor",
+      "source_material": "VF_Local_Oxidation",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.8700000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Paper.001__Indoor": {
+      "set": "5e64494f29546ed90ea5580ce96ff657157a27f23822e83daace43851a26cf8c",
+      "slot": "UE_VF_Paper_001__Indoor",
+      "source_material": "VF_Paper.001",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8999999761581421,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Paper.002__Indoor": {
+      "set": "5e64494f29546ed90ea5580ce96ff657157a27f23822e83daace43851a26cf8c",
+      "slot": "UE_VF_Paper_002__Indoor",
+      "source_material": "VF_Paper.002",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8999999761581421,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Paper__Indoor": {
+      "set": "5e64494f29546ed90ea5580ce96ff657157a27f23822e83daace43851a26cf8c",
+      "slot": "UE_VF_Paper__Indoor",
+      "source_material": "VF_Paper",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8999999761581421,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Replacement_Green_Paint__Exterior": {
+      "set": "d3ddbf5f63766e2d824f9a32558adfda8059399c0d86b2499283f20815677ec5",
+      "slot": "UE_VF_Replacement_Green_Paint__Exterior",
+      "source_material": "VF_Replacement_Green_Paint",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.2199999988079071,
+      "roughness": 0.6299999952316284,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Service_Red.001__Exterior": {
+      "set": "815a872b693212f5fdfe30fbd2fd75578d593bf116e23791fc27118d82524c9b",
+      "slot": "UE_VF_Service_Red_001__Exterior",
+      "source_material": "VF_Service_Red.001",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.20000000298023224,
+      "roughness": 0.5799999833106995,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Service_Red__Exterior": {
+      "set": "815a872b693212f5fdfe30fbd2fd75578d593bf116e23791fc27118d82524c9b",
+      "slot": "UE_VF_Service_Red__Exterior",
+      "source_material": "VF_Service_Red",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.20000000298023224,
+      "roughness": 0.5799999833106995,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Warm_Diffuser.001__Indoor": {
+      "set": "d66c8958803c8207ddc543189865d8d95e94ceb96f2de2cf2c22f2c12502e3f9",
+      "slot": "UE_VF_Warm_Diffuser_001__Indoor",
+      "source_material": "VF_Warm_Diffuser.001",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "emission_color": [
+        1.0,
+        0.7200000286102295,
+        0.4000000059604645,
+        1.0
+      ],
+      "emission_strength": 3.0
+    },
+    "VF_Warm_Diffuser.002__Exterior": {
+      "set": "d66c8958803c8207ddc543189865d8d95e94ceb96f2de2cf2c22f2c12502e3f9",
+      "slot": "UE_VF_Warm_Diffuser_002__Exterior",
+      "source_material": "VF_Warm_Diffuser.002",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "emission_color": [
+        1.0,
+        0.7200000286102295,
+        0.4000000059604645,
+        1.0
+      ],
+      "emission_strength": 3.0
+    },
+    "VF_Warm_Diffuser__Indoor": {
+      "set": "d66c8958803c8207ddc543189865d8d95e94ceb96f2de2cf2c22f2c12502e3f9",
+      "slot": "UE_VF_Warm_Diffuser__Indoor",
+      "source_material": "VF_Warm_Diffuser",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "emission_color": [
+        1.0,
+        0.7200000286102295,
+        0.4000000059604645,
+        1.0
+      ],
+      "emission_strength": 3.0
+    },
+    "VF_Window_Glass.001__Indoor": {
+      "set": "0a60b55bbc856360c35637a4a63f278f96e76cab0ef3553cffe96023e0a08b9f",
+      "slot": "UE_VF_Window_Glass_001__Indoor",
+      "source_material": "VF_Window_Glass.001",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": true,
+      "base_color": [
+        0.8799999952316284,
+        0.949999988079071,
+        0.9700000286102295,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.03500000014901161,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Window_Glass.002__Exterior": {
+      "set": "0a60b55bbc856360c35637a4a63f278f96e76cab0ef3553cffe96023e0a08b9f",
+      "slot": "UE_VF_Window_Glass_002__Exterior",
+      "source_material": "VF_Window_Glass.002",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": true,
+      "base_color": [
+        0.8799999952316284,
+        0.949999988079071,
+        0.9700000286102295,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.03500000014901161,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Window_Glass__Exterior": {
+      "set": "0a60b55bbc856360c35637a4a63f278f96e76cab0ef3553cffe96023e0a08b9f",
+      "slot": "UE_VF_Window_Glass__Exterior",
+      "source_material": "VF_Window_Glass",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": true,
+      "base_color": [
+        0.8799999952316284,
+        0.949999988079071,
+        0.9700000286102295,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.03500000014901161,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Window_Seal.001__Exterior": {
+      "set": "24557afd157e49723dd034f71fdcb4be68d918b80f05b2067268adfbcbbf2117",
+      "slot": "UE_VF_Window_Seal_001__Exterior",
+      "source_material": "VF_Window_Seal.001",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.800000011920929,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF_Window_Seal__Indoor": {
+      "set": "24557afd157e49723dd034f71fdcb4be68d918b80f05b2067268adfbcbbf2117",
+      "slot": "UE_VF_Window_Seal__Indoor",
+      "source_material": "VF_Window_Seal",
+      "exposure": "Indoor",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.800000011920929,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "Ground__Exterior": {
+      "set": "ad1e364fabe13d9bd8ad64dd98515328445d839b318b415c4b02911d2c0b472e",
+      "slot": "UE_Ground__Exterior",
+      "source_material": "Ground",
+      "exposure": "Exterior",
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.15000000596046448,
+        0.1899999976158142,
+        0.15000000596046448,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7799999713897705,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    }
+  }
+}

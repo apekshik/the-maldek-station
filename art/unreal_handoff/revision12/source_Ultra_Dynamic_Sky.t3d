@@ -1,0 +1,1365 @@
+Begin Actor Class=/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C Name=Ultra_Dynamic_Sky_C_2 Archetype="/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Default__Ultra_Dynamic_Sky_C'" ExportPath="/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2'"
+   Begin Object Class=/Script/Engine.PostProcessComponent Name="NODE_AddPostProcessComponent-6" Archetype="/Script/Engine.PostProcessComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:NODE_AddPostProcessComponent-6'" ExportPath="/Script/Engine.PostProcessComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.NODE_AddPostProcessComponent-6'"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MID_LF_VolCloud_Shadows_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_LF_VolCloud_Shadows_1'"
+      Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MID_LF_VolCloud_Shadows_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_LF_VolCloud_Shadows_1.MID_LF_VolCloud_Shadows_1EditorOnlyData'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MID_Volumetric_Clouds_default_S_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Volumetric_Clouds_default_S_1'"
+      Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MID_Volumetric_Clouds_default_S_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Volumetric_Clouds_default_S_1.MID_Volumetric_Clouds_default_S_1EditorOnlyData'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MID_Volumetric_Clouds_default_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Volumetric_Clouds_default_1'"
+      Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MID_Volumetric_Clouds_default_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Volumetric_Clouds_default_1.MID_Volumetric_Clouds_default_1EditorOnlyData'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MID_Inside_Clouds_Fog_Particle_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Inside_Clouds_Fog_Particle_1'"
+      Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MID_Inside_Clouds_Fog_Particle_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Inside_Clouds_Fog_Particle_1.MID_Inside_Clouds_Fog_Particle_1EditorOnlyData'"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="NODE_AddStaticMeshComponent-22" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:NODE_AddStaticMeshComponent-22'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.NODE_AddStaticMeshComponent-22'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/System/UDS_PlayerOcclusion.UDS_PlayerOcclusion_C Name="UDS_PlayerOcclusion" Archetype="/Game/UltraDynamicSky/Blueprints/System/UDS_PlayerOcclusion.UDS_PlayerOcclusion_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:UDS_PlayerOcclusion_GEN_VARIABLE'" ExportPath="/Game/UltraDynamicSky/Blueprints/System/UDS_PlayerOcclusion.UDS_PlayerOcclusion_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.UDS_PlayerOcclusion'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C Name="Cloud Paint Actors Manager" Archetype="/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Cloud Paint Actors Manager_GEN_VARIABLE'" ExportPath="/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Cloud Paint Actors Manager'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Editor_Tick_Handler.UDS_Editor_Tick_Handler_C Name="UDS_Editor_Tick_Handler" Archetype="/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Editor_Tick_Handler.UDS_Editor_Tick_Handler_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:UDS_Editor_Tick_Handler_GEN_VARIABLE'" ExportPath="/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Editor_Tick_Handler.UDS_Editor_Tick_Handler_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.UDS_Editor_Tick_Handler'"
+   End Object
+   Begin Object Class=/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Utility_Opener.UDS_Utility_Opener_C Name="UDS_Utility_Opener" Archetype="/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Utility_Opener.UDS_Utility_Opener_C'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:UDS_Utility_Opener_GEN_VARIABLE'" ExportPath="/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Utility_Opener.UDS_Utility_Opener_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.UDS_Utility_Opener'"
+   End Object
+   Begin Object Class=/Script/Engine.DirectionalLightComponent Name="Moon" Archetype="/Script/Engine.DirectionalLightComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Moon_GEN_VARIABLE'" ExportPath="/Script/Engine.DirectionalLightComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Moon'"
+   End Object
+   Begin Object Class=/Script/Engine.SceneComponent Name="Moon Parent" Archetype="/Script/Engine.SceneComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Moon Parent_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Moon Parent'"
+   End Object
+   Begin Object Class=/Script/Engine.DirectionalLightComponent Name="Sun" Archetype="/Script/Engine.DirectionalLightComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Sun_GEN_VARIABLE'" ExportPath="/Script/Engine.DirectionalLightComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sun'"
+   End Object
+   Begin Object Class=/Script/Engine.SceneComponent Name="Sun Parent" Archetype="/Script/Engine.SceneComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Sun Parent_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sun Parent'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="Moon Handle" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Moon Handle_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Moon Handle'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="Sun Handle" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Sun Handle_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sun Handle'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="S" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:S_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.S'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="E" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:E_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.E'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="N" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:N_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.N'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="W" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:W_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.W'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="Compass" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Compass_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Compass'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="UDS Label" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:UDS Label_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.UDS Label'"
+   End Object
+   Begin Object Class=/Script/Engine.SkyLightComponent Name="Captured Scene Sky Light" Archetype="/Script/Engine.SkyLightComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Captured Scene Sky Light_GEN_VARIABLE'" ExportPath="/Script/Engine.SkyLightComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Captured Scene Sky Light'"
+   End Object
+   Begin Object Class=/Script/Engine.VolumetricCloudComponent Name="VolumetricCloud" Archetype="/Script/Engine.VolumetricCloudComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:VolumetricCloud_GEN_VARIABLE'" ExportPath="/Script/Engine.VolumetricCloudComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.VolumetricCloud'"
+   End Object
+   Begin Object Class=/Script/Engine.SkyLightComponent Name="Cubemap Sky Light" Archetype="/Script/Engine.SkyLightComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Cubemap Sky Light_GEN_VARIABLE'" ExportPath="/Script/Engine.SkyLightComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Cubemap Sky Light'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="Sky_Sphere" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:Sky_Sphere_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sky_Sphere'"
+      Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MID_UDS_K_0" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sky_Sphere.MID_UDS_K_0'"
+         Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MID_UDS_K_0EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sky_Sphere.MID_UDS_K_0.MID_UDS_K_0EditorOnlyData'"
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.SkyAtmosphereComponent Name="SkyAtmosphere" Archetype="/Script/Engine.SkyAtmosphereComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:SkyAtmosphere_GEN_VARIABLE'" ExportPath="/Script/Engine.SkyAtmosphereComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.SkyAtmosphere'"
+   End Object
+   Begin Object Class=/Script/Engine.ExponentialHeightFogComponent Name="HeightFog" Archetype="/Script/Engine.ExponentialHeightFogComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:HeightFog_GEN_VARIABLE'" ExportPath="/Script/Engine.ExponentialHeightFogComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.HeightFog'"
+   End Object
+   Begin Object Class=/Script/Engine.StaticMeshComponent Name="ClockDisk" Archetype="/Script/Engine.StaticMeshComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:ClockDisk_GEN_VARIABLE'" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.ClockDisk'"
+   End Object
+   Begin Object Class=/Script/Engine.SceneComponent Name="SkyRoot" Archetype="/Script/Engine.SceneComponent'/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C:SkyRoot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.SkyRoot'"
+   End Object
+   Begin Object Name="NODE_AddPostProcessComponent-6" ExportPath="/Script/Engine.PostProcessComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.NODE_AddPostProcessComponent-6'"
+      Settings=(bOverride_AutoExposureMethod=True,bOverride_AutoExposureMinBrightness=True,bOverride_AutoExposureMaxBrightness=True,bOverride_AutoExposureBias=True,bOverride_AutoExposureBiasCurve=True,AutoExposureBias=0.000000,AutoExposureBiasCurve="/Script/Engine.CurveFloat'/Game/UltraDynamicSky/Materials/Float_Curves/Exposure_Compensation_Curve.Exposure_Compensation_Curve'")
+      AttachParent="SkyRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=UserConstructionScript
+   End Object
+   Begin Object Name="MID_LF_VolCloud_Shadows_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_LF_VolCloud_Shadows_1'"
+      Begin Object Name="MID_LF_VolCloud_Shadows_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_LF_VolCloud_Shadows_1.MID_LF_VolCloud_Shadows_1EditorOnlyData'"
+      End Object
+      Parent="/Script/Engine.MaterialInstanceConstant'/Game/UltraDynamicSky/Materials/Material_Instances/Light_Functions/LF_VolCloud_Shadows.LF_VolCloud_Shadows'"
+      ScalarParameterValues(0)=(ParameterInfo=(Name="Atlas Scale"),ParameterValue=800000.000000)
+      ScalarParameterValues(1)=(ParameterInfo=(Name="Shadow Softness"),ParameterValue=0.100000)
+      ScalarParameterValues(2)=(ParameterInfo=(Name="Clear Intensity"),ParameterValue=0.700000)
+      ScalarParameterValues(3)=(ParameterInfo=(Name="Cloudy Intensity"),ParameterValue=1.000000)
+      ScalarParameterValues(4)=(ParameterInfo=(Name="Shadows Scale"),ParameterValue=450000.000000)
+      VectorParameterValues(0)=(ParameterInfo=(Name="Atlas Center"),ParameterValue=(R=-41078.054688,G=18687.464844,B=70238.500000,A=1.000000))
+      VectorParameterValues(1)=(ParameterInfo=(Name="Atlas Light Up"),ParameterValue=(R=0.997493,G=-0.024204,B=0.066500,A=1.000000))
+      VectorParameterValues(2)=(ParameterInfo=(Name="Atlas Light Forward"),ParameterValue=(R=-0.000000,G=-0.939693,B=-0.342020,A=1.000000))
+      VectorParameterValues(3)=(ParameterInfo=(Name="Atlas Light Right"),ParameterValue=(R=0.070768,G=0.341163,B=-0.937337,A=1.000000))
+      TextureParameterValues(0)=(ParameterInfo=(Name="Formation Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/FormationVolume.FormationVolume'")
+      EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MID_LF_VolCloud_Shadows_1EditorOnlyData'"
+      LightingGuid=6463931E4012AB8D3D0C00B0B30D07C4
+   End Object
+   Begin Object Name="MID_Volumetric_Clouds_default_S_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Volumetric_Clouds_default_S_1'"
+      Begin Object Name="MID_Volumetric_Clouds_default_S_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Volumetric_Clouds_default_S_1.MID_Volumetric_Clouds_default_S_1EditorOnlyData'"
+      End Object
+      Parent="/Script/Engine.MaterialInstanceConstant'/Game/UltraDynamicSky/Materials/Material_Instances/Volumetric_Clouds_default_S.Volumetric_Clouds_default_S'"
+      TextureParameterValues(0)=(ParameterInfo=(Name="2D Turbulence"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Clouds/CloudsTurbulence.CloudsTurbulence'")
+      TextureParameterValues(1)=(ParameterInfo=(Name="Cloud_Profile"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Volumetric_Clouds/Cloud_Profile.Cloud_Profile'")
+      TextureParameterValues(2)=(ParameterInfo=(Name="Formation Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/FormationVolume.FormationVolume'")
+      TextureParameterValues(3)=(ParameterInfo=(Name="Low_3D_Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/3D_Cells_32.3D_Cells_32'")
+      TextureParameterValues(4)=(ParameterInfo=(Name="High_3D_Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/3D_Cells_64.3D_Cells_64'")
+      TextureParameterValues(5)=(ParameterInfo=(Name="Epic_3D_Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/3DCells_128.3DCells_128'")
+      EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MID_Volumetric_Clouds_default_S_1EditorOnlyData'"
+      LightingGuid=EB6FAE0F496FBD18CEBEF8B9509FCFEE
+   End Object
+   Begin Object Name="MID_Volumetric_Clouds_default_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Volumetric_Clouds_default_1'"
+      Begin Object Name="MID_Volumetric_Clouds_default_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Volumetric_Clouds_default_1.MID_Volumetric_Clouds_default_1EditorOnlyData'"
+      End Object
+      Parent="/Script/Engine.MaterialInstanceConstant'/Game/UltraDynamicSky/Materials/Material_Instances/Volumetric_Clouds_default.Volumetric_Clouds_default'"
+      TextureParameterValues(0)=(ParameterInfo=(Name="2D Turbulence"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Clouds/CloudsTurbulence.CloudsTurbulence'")
+      TextureParameterValues(1)=(ParameterInfo=(Name="Cloud_Profile"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Volumetric_Clouds/Cloud_Profile.Cloud_Profile'")
+      TextureParameterValues(2)=(ParameterInfo=(Name="Formation Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/FormationVolume.FormationVolume'")
+      TextureParameterValues(3)=(ParameterInfo=(Name="Low_3D_Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/3D_Cells_32.3D_Cells_32'")
+      TextureParameterValues(4)=(ParameterInfo=(Name="High_3D_Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/3D_Cells_64.3D_Cells_64'")
+      TextureParameterValues(5)=(ParameterInfo=(Name="Epic_3D_Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/3DCells_128.3DCells_128'")
+      EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MID_Volumetric_Clouds_default_1EditorOnlyData'"
+      LightingGuid=7DD883894211637049B306A4F17C79A8
+   End Object
+   Begin Object Name="MID_Inside_Clouds_Fog_Particle_1" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Inside_Clouds_Fog_Particle_1'"
+      Begin Object Name="MID_Inside_Clouds_Fog_Particle_1EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Inside_Clouds_Fog_Particle_1.MID_Inside_Clouds_Fog_Particle_1EditorOnlyData'"
+      End Object
+      Parent="/Script/Engine.Material'/Game/UltraDynamicSky/Materials/Inside_Clouds_Fog_Particle.Inside_Clouds_Fog_Particle'"
+      ScalarParameterValues(0)=(ParameterInfo=(Name="Fog Amount"),ParameterValue=0.400000)
+      VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.481934,G=0.554565,B=0.656250,A=1.000000))
+      TextureParameterValues(0)=(ParameterInfo=(Name="2D Turbulence"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Clouds/CloudsTurbulence.CloudsTurbulence'")
+      TextureParameterValues(1)=(ParameterInfo=(Name="Cloud_Profile"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Volumetric_Clouds/Cloud_Profile.Cloud_Profile'")
+      TextureParameterValues(2)=(ParameterInfo=(Name="Formation Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/FormationVolume.FormationVolume'")
+      TextureParameterValues(3)=(ParameterInfo=(Name="Low_3D_Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/3D_Cells_32.3D_Cells_32'")
+      TextureParameterValues(4)=(ParameterInfo=(Name="High_3D_Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/3D_Cells_64.3D_Cells_64'")
+      TextureParameterValues(5)=(ParameterInfo=(Name="Epic_3D_Texture"),ParameterValue="/Script/Engine.VolumeTexture'/Game/UltraDynamicSky/Textures/3D_Clouds/3DCells_128.3DCells_128'")
+      EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MID_Inside_Clouds_Fog_Particle_1EditorOnlyData'"
+      LightingGuid=603373224FB17364D77B468CCAEC349E
+   End Object
+   Begin Object Name="NODE_AddStaticMeshComponent-22" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.NODE_AddStaticMeshComponent-22'"
+      OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'MID_Inside_Clouds_Fog_Particle_1'"
+      BodyInstance=(MaxAngularVelocity=3599.999756)
+      AttachParent="SkyRoot"
+      RelativeLocation=(X=0.000000,Y=0.000000,Z=94850.000000)
+      RelativeScale3D=(X=185000000.000000,Y=185000000.000000,Z=700.000000)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=UserConstructionScript
+   End Object
+   Begin Object Name="UDS_PlayerOcclusion" ExportPath="/Game/UltraDynamicSky/Blueprints/System/UDS_PlayerOcclusion.UDS_PlayerOcclusion_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.UDS_PlayerOcclusion'"
+      Tick Delta Seconds=0.008333
+      Sample Location=(X=-41078.053699,Y=18687.464377,Z=14462.275104)
+      UDS="/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C'Ultra_Dynamic_Sky_C_2'"
+      All Trace Offsets(0)=(X=4219.164262,Y=-88.912946,Z=0.000000)
+      All Trace Offsets(1)=(X=3969.422935,Y=556.534747,Z=1497.192882)
+      All Trace Offsets(2)=(X=2649.180178,Y=1004.967848,Z=4011.980074)
+      All Trace Offsets(3)=(X=550.517208,Y=389.500700,Z=4575.585104)
+      All Trace Offsets(4)=(X=3906.677777,Y=2211.339595,Z=46.575544)
+      All Trace Offsets(5)=(X=2907.205553,Y=2420.580364,Z=1559.858108)
+      All Trace Offsets(6)=(X=1376.931855,Y=2063.726851,Z=3397.874641)
+      All Trace Offsets(7)=(X=289.428447,Y=591.435823,Z=4262.934511)
+      All Trace Offsets(8)=(X=2010.868411,Y=3578.544927,Z=0.000000)
+      All Trace Offsets(9)=(X=1193.251949,Y=3488.299152,Z=1803.103214)
+      All Trace Offsets(10)=(X=337.467958,Y=2532.062538,Z=3496.741407)
+      All Trace Offsets(11)=(X=185.464802,Y=438.655096,Z=4592.531134)
+      All Trace Offsets(12)=(X=-7.678215,Y=4401.978520,Z=0.000000)
+      All Trace Offsets(13)=(X=-979.768978,Y=3740.533958,Z=1335.628580)
+      All Trace Offsets(14)=(X=-840.543388,Y=2548.975586,Z=3708.430487)
+      All Trace Offsets(15)=(X=-281.295347,Y=776.214709,Z=4739.926955)
+      All Trace Offsets(16)=(X=-1950.195268,Y=3781.254390,Z=0.000000)
+      All Trace Offsets(17)=(X=-2507.438346,Y=2820.289520,Z=1626.159130)
+      All Trace Offsets(18)=(X=-1893.764110,Y=1770.674142,Z=3512.065636)
+      All Trace Offsets(19)=(X=-669.393646,Y=404.616414,Z=4501.811711)
+      All Trace Offsets(20)=(X=-4233.573569,Y=2073.008705,Z=248.964966)
+      All Trace Offsets(21)=(X=-4164.422833,Y=1216.395275,Z=1865.799761)
+      All Trace Offsets(22)=(X=-2613.433907,Y=222.440966,Z=3574.090148)
+      All Trace Offsets(23)=(X=-719.865578,Y=-14.678325,Z=4333.958514)
+      All Trace Offsets(24)=(X=-4717.192350,Y=-1.578768,Z=0.336041)
+      All Trace Offsets(25)=(X=-4218.036005,Y=-770.808054,Z=1722.703868)
+      All Trace Offsets(26)=(X=-2596.880497,Y=-918.464305,Z=3728.174449)
+      All Trace Offsets(27)=(X=-688.063093,Y=-725.867104,Z=4554.083565)
+      All Trace Offsets(28)=(X=-3723.582076,Y=-2248.195672,Z=10.281090)
+      All Trace Offsets(29)=(X=-3485.679699,Y=-2751.469159,Z=2169.991416)
+      All Trace Offsets(30)=(X=-1802.377447,Y=-1751.230665,Z=3563.117293)
+      All Trace Offsets(31)=(X=-736.769909,Y=-742.657258,Z=4614.012295)
+      All Trace Offsets(32)=(X=-2100.072257,Y=-3589.707560,Z=129.889367)
+      All Trace Offsets(33)=(X=-1501.532541,Y=-4347.643736,Z=1561.780660)
+      All Trace Offsets(34)=(X=-781.152312,Y=-2710.485840,Z=3982.060928)
+      All Trace Offsets(35)=(X=67.972008,Y=-937.649179,Z=4770.297805)
+      All Trace Offsets(36)=(X=-240.192294,Y=-4321.963206,Z=36.536993)
+      All Trace Offsets(37)=(X=954.004214,Y=-4444.309773,Z=1891.196144)
+      All Trace Offsets(38)=(X=926.071719,Y=-2479.219921,Z=3483.727597)
+      All Trace Offsets(39)=(X=575.995429,Y=-719.006723,Z=4232.314624)
+      All Trace Offsets(40)=(X=2278.962936,Y=-4087.365966,Z=40.972555)
+      All Trace Offsets(41)=(X=2768.546263,Y=-3260.526381,Z=1609.273551)
+      All Trace Offsets(42)=(X=2413.755709,Y=-1930.382165,Z=3581.152099)
+      All Trace Offsets(43)=(X=548.687804,Y=-469.158063,Z=4730.930564)
+      All Trace Offsets(44)=(X=3596.783110,Y=-2047.600884,Z=186.944678)
+      All Trace Offsets(45)=(X=4226.464508,Y=-1478.480501,Z=1803.291206)
+      All Trace Offsets(46)=(X=2726.810149,Y=-464.277432,Z=3739.662873)
+      All Trace Offsets(47)=(X=657.011534,Y=-31.560451,Z=4034.748699)
+      All Trace Offsets(48)=(X=0.000000,Y=0.000000,Z=4507.017732)
+      X Axis Max=45336.646717
+      Y Axis Max=43032.029825
+      X Axis Min=-47452.903665
+      Y Axis Min=-47333.200036
+      Z Axis Max=123375.710597
+      Target Occlusion A=(X=1.000000,Y=1.000000,Z=1.000000)
+      Target Occlusion B=(X=1.000000,Y=1.000000,Z=1.000000)
+      Old Occlusion A=(X=1.000000,Y=1.000000,Z=1.000000)
+      Old Occlusion B=(X=1.000000,Y=1.000000,Z=1.000000)
+      Occlusion Update Period=0.550000
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Cloud Paint Actors Manager" ExportPath="/Game/UltraDynamicSky/Blueprints/System/UDS_InterfaceActorArrayManager.UDS_InterfaceActorArrayManager_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Cloud Paint Actors Manager'"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="UDS_Editor_Tick_Handler" ExportPath="/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Editor_Tick_Handler.UDS_Editor_Tick_Handler_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.UDS_Editor_Tick_Handler'"
+      UDS="/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky.Ultra_Dynamic_Sky_C'Ultra_Dynamic_Sky_C_2'"
+      Added Tool Menu=True
+      Ticks=100
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="UDS_Utility_Opener" ExportPath="/Game/UltraDynamicSky/Blueprints/System/Editor_UI/UDS_Utility_Opener.UDS_Utility_Opener_C'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.UDS_Utility_Opener'"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Moon" ExportPath="/Script/Engine.DirectionalLightComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Moon'"
+      LightSourceAngle=19.000000
+      LightSourceSoftAngle=5.700000
+      SpecularScale=0.000000
+      LightingChannels=(bChannel0=False)
+      LightFunctionMaterial="/Script/Engine.MaterialInstanceDynamic'MID_LF_VolCloud_Shadows_1'"
+      LightFunctionScale=(X=800000.000000,Y=800000.000000,Z=800000.000000)
+      BloomThreshold=0.150000
+      BloomMaxBrightness=0.150000
+      Intensity=0.005746
+      LightColor=(B=239,G=197,R=178,A=255)
+      CastShadows=False
+      AttachParent="Moon Parent"
+      RelativeLocation=(X=0.000000,Y=-400000.000000,Z=-400000.000000)
+      bVisible=True
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Moon Parent" ExportPath="/Script/Engine.SceneComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Moon Parent'"
+      AttachParent="SkyRoot"
+      RelativeLocation=(X=-2374.544920,Y=388.512920,Z=59850.000000)
+      RelativeRotation=(Pitch=-20.000001,Yaw=98.437500,Roll=85.941912)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Sun" ExportPath="/Script/Engine.DirectionalLightComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sun'"
+      LightSourceAngle=6.000000
+      LightSourceSoftAngle=3.000000
+      SpecularScale=0.000000
+      LightingChannels=(bChannel0=False)
+      LightFunctionMaterial="/Script/Engine.MaterialInstanceDynamic'MID_LF_VolCloud_Shadows_1'"
+      LightFunctionScale=(X=800000.000000,Y=800000.000000,Z=800000.000000)
+      DisabledBrightness=0.000000
+      BloomThreshold=0.750000
+      BloomMaxBrightness=0.350000
+      Intensity=0.000000
+      CastShadows=False
+      AttachParent="Sun Parent"
+      RelativeLocation=(X=0.000000,Y=-400000.000000,Z=-400000.000000)
+      bVisible=True
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Sun Parent" ExportPath="/Script/Engine.SceneComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sun Parent'"
+      AttachParent="SkyRoot"
+      RelativeLocation=(X=-2374.544920,Y=388.512920,Z=59850.000000)
+      RelativeRotation=(Pitch=56.774058,Yaw=151.813215,Roll=-24.146109)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Moon Handle" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Moon Handle'"
+      BodyInstance=(MaxAngularVelocity=3599.999756)
+      AttachParent="SkyRoot"
+      RelativeLocation=(X=7.336525,Y=-49.458825,Z=18.198512)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Sun Handle" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sun Handle'"
+      BodyInstance=(MaxAngularVelocity=3599.999756)
+      AttachParent="SkyRoot"
+      RelativeLocation=(X=26.516842,Y=-14.210333,Z=-45.928519)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="S" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.S'"
+      AttachParent="Compass"
+      bVisible=False
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="E" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.E'"
+      AttachParent="Compass"
+      bVisible=False
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="N" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.N'"
+      AttachParent="Compass"
+      bVisible=False
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="W" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.W'"
+      AttachParent="Compass"
+      bVisible=False
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Compass" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Compass'"
+      StaticMeshImportVersion=1
+      AttachParent="SkyRoot"
+      RelativeLocation=(X=-0.000000,Y=0.000000,Z=-75.000000)
+      RelativeRotation=(Pitch=0.000000,Yaw=0.000000,Roll=-0.000000)
+      bVisible=False
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="UDS Label" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.UDS Label'"
+      AttachParent="SkyRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Captured Scene Sky Light" ExportPath="/Script/Engine.SkyLightComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Captured Scene Sky Light'"
+      LowerHemisphereColor=(R=0.000019,G=0.000024,B=0.000042,A=1.000000)
+      Intensity=0.300000
+      CastShadows=False
+      AttachParent="SkyRoot"
+      RelativeLocation=(X=-2374.544920,Y=388.512920,Z=-150.000000)
+      bVisible=True
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="VolumetricCloud" ExportPath="/Script/Engine.VolumetricCloudComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.VolumetricCloud'"
+      LayerBottomAltitude=0.600000
+      LayerHeight=0.700000
+      TracingStartMaxDistance=100.000000
+      TracingMaxDistance=20.000000
+      Material="/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.MID_Volumetric_Clouds_default_S_1"
+      ViewSampleCountScale=1.011500
+      ReflectionViewSampleCountScaleValue=2.000000
+      ShadowViewSampleCountScale=0.400000
+      ShadowReflectionViewSampleCountScaleValue=0.300000
+      ShadowTracingDistance=1.075956
+      MaterialLifetimePtr="/Script/Engine.MaterialInstanceDynamic'MID_Volumetric_Clouds_default_S_1'"
+      AttachParent="SkyRoot"
+      bVisible=True
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Cubemap Sky Light" ExportPath="/Script/Engine.SkyLightComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Cubemap Sky Light'"
+      AttachParent="SkyRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="Sky_Sphere" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sky_Sphere'"
+      Begin Object Name="MID_UDS_K_0" ExportPath="/Script/Engine.MaterialInstanceDynamic'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sky_Sphere.MID_UDS_K_0'"
+         Begin Object Name="MID_UDS_K_0EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.Sky_Sphere.MID_UDS_K_0.MID_UDS_K_0EditorOnlyData'"
+         End Object
+         Parent="/Script/Engine.MaterialInstanceConstant'/Game/UltraDynamicSky/Materials/Material_Instances/UDS_K.UDS_K'"
+         ScalarParameterValues(0)=(ParameterInfo=(Name="Extra_Contrast"),ParameterValue=0.100000)
+         ScalarParameterValues(1)=(ParameterInfo=(Name="Sun Brightness"),ParameterValue=0.350000)
+         ScalarParameterValues(2)=(ParameterInfo=(Name="Sun Lighting Intensity"),ParameterValue=3.000000)
+         ScalarParameterValues(3)=(ParameterInfo=(Name="Sun Softness"),ParameterValue=3.800000)
+         ScalarParameterValues(4)=(ParameterInfo=(Name="Enable Moon Gradient"),ParameterValue=1.000000)
+         ScalarParameterValues(5)=(ParameterInfo=(Name="Moon Glow Scale"),ParameterValue=0.202128)
+         ScalarParameterValues(6)=(ParameterInfo=(Name="Moon_Earthlight"),ParameterValue=0.005000)
+         ScalarParameterValues(7)=(ParameterInfo=(Name="Moon Terminator Sharpness"),ParameterValue=1.600000)
+         ScalarParameterValues(8)=(ParameterInfo=(Name="Cancel Dbuffer"),ParameterValue=1.000000)
+         ScalarParameterValues(9)=(ParameterInfo=(Name="Moon Blocks Space Layer"),ParameterValue=1.000000)
+         ScalarParameterValues(10)=(ParameterInfo=(Name="Space Brightness"))
+         ScalarParameterValues(11)=(ParameterInfo=(Name="Stars_Tiling"),ParameterValue=2.500000)
+         ScalarParameterValues(12)=(ParameterInfo=(Name="Stars Speed"),ParameterValue=0.030000)
+         ScalarParameterValues(13)=(ParameterInfo=(Name="Real_Star_Movement"))
+         ScalarParameterValues(14)=(ParameterInfo=(Name="Sun Angle"),ParameterValue=0.476562)
+         ScalarParameterValues(15)=(ParameterInfo=(Name="Twinkle Floor"),ParameterValue=0.700000)
+         ScalarParameterValues(16)=(ParameterInfo=(Name="Twinkle Strength"),ParameterValue=1.500000)
+         ScalarParameterValues(17)=(ParameterInfo=(Name="Twinkle Speed"),ParameterValue=0.025000)
+         ScalarParameterValues(18)=(ParameterInfo=(Name="Contrast Midpoint"),ParameterValue=0.010000)
+         ScalarParameterValues(19)=(ParameterInfo=(Name="Wispy Cloud Alpha"),ParameterValue=0.500000)
+         ScalarParameterValues(20)=(ParameterInfo=(Name="Overall Intensity"),ParameterValue=0.700652)
+         ScalarParameterValues(21)=(ParameterInfo=(Name="Lit_Intensity"),ParameterValue=2.666667)
+         ScalarParameterValues(22)=(ParameterInfo=(Name="Saturation"))
+         ScalarParameterValues(23)=(ParameterInfo=(Name="Stars Phase"))
+         ScalarParameterValues(24)=(ParameterInfo=(Name="Sun Disk Reflection"))
+         ScalarParameterValues(25)=(ParameterInfo=(Name="Sun Radius"),ParameterValue=0.020944)
+         ScalarParameterValues(26)=(ParameterInfo=(Name="Moon Scale"),ParameterValue=0.033161)
+         ScalarParameterValues(27)=(ParameterInfo=(Name="Moon Intensity"),ParameterValue=0.181728)
+         ScalarParameterValues(28)=(ParameterInfo=(Name="Moon_Lit_Percent"),ParameterValue=1.000000)
+         ScalarParameterValues(29)=(ParameterInfo=(Name="Moon Glow Intensity"),ParameterValue=0.070000)
+         VectorParameterValues(0)=(ParameterInfo=(Name="Moon X Axis"),ParameterValue=(R=-1.000000,G=0.000000,B=0.000000,A=1.000000))
+         VectorParameterValues(1)=(ParameterInfo=(Name="Cloud Wisps Gradient"),ParameterValue=(R=-0.000000,G=-0.939693,B=-0.342020,A=3.000000))
+         VectorParameterValues(2)=(ParameterInfo=(Name="Stars Color"),ParameterValue=(R=0.109194,G=0.144065,B=0.225432,A=0.225432))
+         VectorParameterValues(3)=(ParameterInfo=(Name="Night Sky Glow Color"),ParameterValue=(R=0.000541,G=0.000824,B=0.001485,A=0.011318))
+         VectorParameterValues(4)=(ParameterInfo=(Name="Cloud Wisps Color"),ParameterValue=(R=0.000305,G=0.000468,B=0.000780,A=1.000000))
+         VectorParameterValues(5)=(ParameterInfo=(Name="Ambient Color"),ParameterValue=(R=0.000014,G=0.000020,B=0.000040,A=0.000000))
+         VectorParameterValues(6)=(ParameterInfo=(Name="Sun Disk Color"))
+         VectorParameterValues(7)=(ParameterInfo=(Name="Moon_Phase_Angle"),ParameterValue=(R=0.000000,G=-1.000000,B=0.000000,A=1.000000))
+         VectorParameterValues(8)=(ParameterInfo=(Name="Moon Color"),ParameterValue=(R=0.486328,G=0.574971,B=0.864583,A=1.000000))
+         TextureParameterValues(0)=(ParameterInfo=(Name="Cloud_Wisps_Texture"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Sky/Cloud_Wisps.Cloud_Wisps'")
+         TextureParameterValues(1)=(ParameterInfo=(Name="Moon_Texture"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Sky/Moon_Color.Moon_Color'")
+         TextureParameterValues(2)=(ParameterInfo=(Name="Moon_Normal"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Sky/Moon_PhaseNormal.Moon_PhaseNormal'")
+         TextureParameterValues(3)=(ParameterInfo=(Name="Stars_Texture"),ParameterValue="/Script/Engine.Texture2D'/Game/UltraDynamicSky/Textures/Sky/Tiling_Stars.Tiling_Stars'")
+         EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MID_UDS_K_0EditorOnlyData'"
+         LightingGuid=14779F0F47433737E20078ADD154A85B
+      End Object
+      StaticMeshImportVersion=1
+      OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'MID_UDS_K_0'"
+      AttachParent="SkyRoot"
+      bVisible=True
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="SkyAtmosphere" ExportPath="/Script/Engine.SkyAtmosphereComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.SkyAtmosphere'"
+      RayleighScattering=(R=0.282199,G=0.345869,B=0.503097,A=0.600000)
+      MieScatteringScale=0.085000
+      MieAnisotropy=0.050000
+      OtherAbsorptionScale=0.001600
+      OtherAbsorption=(R=1.000000,G=0.849176,B=0.030354,A=0.001600)
+      SkyLuminanceFactor=(R=6.823709,G=7.150515,B=7.831039,A=1.000000)
+      AerialPespectiveViewDistanceScale=0.000000
+      HeightFogContribution=0.280202
+      AttachParent="SkyRoot"
+      RelativeLocation=(X=3069.445290,Y=-1574.197847,Z=0.000000)
+      bVisible=True
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="HeightFog" ExportPath="/Script/Engine.ExponentialHeightFogComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.HeightFog'"
+      FogDensity=0.008873
+      FogHeightFalloff=0.027250
+      FogInscatteringLuminance=(R=0.000000,G=0.000001,B=0.000001,A=0.005818)
+      DirectionalInscatteringExponent=2.000000
+      DirectionalInscatteringLuminance=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+      StartDistance=30.864712
+      bEnableVolumetricFog=True
+      VolumetricFogAlbedo=(B=191,G=184,R=179,A=255)
+      VolumetricFogExtinctionScale=1.000000
+      AttachParent="SkyRoot"
+      bVisible=True
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="ClockDisk" ExportPath="/Script/Engine.StaticMeshComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.ClockDisk'"
+      AttachParent="SkyRoot"
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   Begin Object Name="SkyRoot" ExportPath="/Script/Engine.SceneComponent'/Game/MaldekRefinement/ForestTest/Forest_Approach_Test.Forest_Approach_Test:PersistentLevel.Ultra_Dynamic_Sky_C_2.SkyRoot'"
+      RelativeLocation=(X=-43369.891053,Y=19420.190387,Z=10388.500000)
+      RelativeRotation=(Pitch=0.000000,Yaw=171.562499,Roll=0.000000)
+      UCSSerializationIndex=0
+      bNetAddressable=True
+      CreationMethod=SimpleConstructionScript
+   End Object
+   UDS_PlayerOcclusion="UDS_PlayerOcclusion"
+   Cloud Paint Actors Manager="Cloud Paint Actors Manager"
+   UDS_Editor_Tick_Handler="UDS_Editor_Tick_Handler"
+   UDS_Utility_Opener="UDS_Utility_Opener"
+   Moon="Moon"
+   Sun="Sun"
+   Moon Parent="Moon Parent"
+   Sun Parent="Sun Parent"
+   Moon Handle="Moon Handle"
+   Sun Handle="Sun Handle"
+   S="S"
+   E="E"
+   N="N"
+   W="W"
+   Compass="Compass"
+   UDS Label="UDS Label"
+   Captured Scene Sky Light="Captured Scene Sky Light"
+   VolumetricCloud="VolumetricCloud"
+   Cubemap Sky Light="Cubemap Sky Light"
+   Sky_Sphere="Sky_Sphere"
+   SkyAtmosphere="SkyAtmosphere"
+   HeightFog="HeightFog"
+   ClockDisk="ClockDisk"
+   SkyRoot="SkyRoot"
+   Sky Sphere MID="/Script/Engine.MaterialInstanceDynamic'Sky_Sphere.MID_UDS_K_0'"
+   Time of Day=2300.000000
+   Cloud Coverage=8.500000
+   Fog=6.500000
+   Manually Position Moon Target=True
+   Moon Yaw=255.000000
+   Moon Pitch=20.000000
+   "Lighting Brightness (Night)"=0.300000
+   Cloud Shadows MID="/Script/Engine.MaterialInstanceDynamic'MID_LF_VolCloud_Shadows_1'"
+   Night Brightness=0.484801
+   Sun_LightComponent="Sun"
+   Moon_LightComponent="Moon"
+   SkyLightComponent="Captured Scene Sky Light"
+   Height Fog Component="HeightFog"
+   Vol Clouds MID Complex="/Script/Engine.MaterialInstanceDynamic'MID_Volumetric_Clouds_default_1'"
+   Vol Clouds MID Simple="/Script/Engine.MaterialInstanceDynamic'MID_Volumetric_Clouds_default_S_1'"
+   Scale Fog Density=0.350000
+   Max Fog Start Distance=100.000000
+   Time Cycle Degrees=345.000000
+   Inside Clouds Fog MID="/Script/Engine.MaterialInstanceDynamic'MID_Inside_Clouds_Fog_Particle_1'"
+   Replicated Time of Day=2300.000000
+   Fog Colors from Sky Atmosphere=True
+   Cloud Phase Vector Multiplier=(X=24000.000000,Y=0.000000,Z=-6000.000000)
+   Fog Snow Contribution=1.000000
+   Base Cloud Height=0.700000
+   Cloud Coverage 0-3=2.550000
+   Global Overcast 0-1=1.000000
+   Local Overcast 0-1=1.000000
+   Moon Light Current Intensity Value=0.150000
+   Fog Color Intensity Scale=0.200000
+   All Fog Colors Multiplier=(R=0.350000,G=0.400000,B=0.480000,A=1.000000)
+   Use Volumetric Fog=True
+   Volumetric Fog Extinction=1.000000
+   "Volumetric Fog Albedo (Night)"=(R=0.450000,G=0.480000,B=0.520000,A=1.000000)
+   Cached Height Fog Density=0.008873
+   Ambient Fog Color=(R=0.000072,G=0.000105,B=0.000208,A=0.550000)
+   Directional Base Fog Color=(R=0.000000,G=0.000000,B=0.000000,A=0.550000)
+   Scaled Directional Base Fog Color=(R=0.000000,G=0.000000,B=0.000000,A=0.550000)
+   Using Volumetric Cloud Fog=True
+   Cloud Shadow Disable Threshold=2.100000
+   Cloud Bottom World Height=70238.500000
+   Cached Night Filter=1.000000
+   Cached Floats Old(0)=0.500000
+   Cached Floats Old(1)=0.000000
+   Cached Floats Old(2)=0.033161
+   Cached Floats Old(3)=0.000000
+   Cached Floats Old(4)=0.181728
+   Cached Floats Old(5)=1.000000
+   Cached Floats Old(6)=0.000000
+   Cached Floats Old(7)=0.000000
+   Cached Floats Old(8)=0.000000
+   Cached Floats Old(9)=0.000000
+   Cached Floats Old(10)=0.000000
+   Cached Floats Old(11)=0.000000
+   Cached Floats Old(12)=0.861111
+   Cached Floats Old(13)=0.000000
+   Cached Floats Old(14)=0.000000
+   Cached Floats Old(15)=0.000000
+   Cached Floats Old(16)=0.700652
+   Cached Floats Old(17)=2.666667
+   Cached Floats Old(18)=0.000000
+   Cached Floats Old(19)=0.000000
+   Cached Floats Old(20)=0.000000
+   Cached Floats Old(21)=0.000000
+   Cached Floats Old(22)=0.000000
+   Cached Floats Old(23)=0.000000
+   Cached Floats Old(24)=0.000000
+   Cached Floats Old(25)=0.000000
+   Cached Floats Old(26)=0.020944
+   Cached Floats Old(27)=0.000000
+   Cached Floats Old(28)=0.000000
+   Cached Floats Old(29)=0.000000
+   Cached Floats Old(30)=0.000000
+   Cached Floats Old(31)=0.000000
+   Cached Floats Old(32)=0.000000
+   Cached Floats Old(33)=0.000000
+   Cached Floats Old(34)=0.000000
+   Cached Floats Old(35)=0.000000
+   Cached Floats Old(36)=0.000000
+   Cached Floats Old(37)=6.000000
+   Cached Floats Old(38)=0.000000
+   Cached Floats Old(39)=0.000000
+   Cached Floats Old(40)=0.000000
+   Cached Floats Old(41)=0.008873
+   Cached Floats Old(42)=0.280202
+   Cached Floats Old(43)=0.027250
+   Cached Floats Old(44)=30.864712
+   Cached Floats Old(45)=0.000000
+   Cached Floats Old(46)=0.005746
+   Cached Floats Old(47)=0.000000
+   Cached Floats Old(48)=0.000000
+   Cached Floats Old(49)=0.000000
+   Cached Floats Old(50)=19.000000
+   Cached Floats Old(51)=0.000000
+   Cached Floats Old(52)=0.300000
+   Cached Floats Old(53)=0.000000
+   Cached Floats Old(54)=0.000000
+   Cached Floats Old(55)=0.050000
+   Cached Floats Old(56)=0.085000
+   Cached Floats Old(57)=0.000000
+   Cached Floats Old(58)=0.480000
+   Cached Floats Old(59)=0.000000
+   Cached Floats Old(60)=0.000000
+   Cached Floats Old(61)=0.000000
+   Cached Floats Old(62)=20.000000
+   Cached Floats Old(63)=0.000000
+   Cached Floats Old(64)=0.000000
+   Cached Floats Old(65)=0.375000
+   Cached Floats Old(66)=0.000000
+   Cached Floats Old(67)=1.000000
+   Cached Floats Old(68)=0.000000
+   Cached Floats Old(69)=0.080000
+   Cached Floats Old(70)=0.960000
+   Cached Floats Old(71)=0.010000
+   Cached Floats Old(72)=1.075956
+   Cached Floats Old(73)=1.011500
+   Cached Floats Old(74)=2.000000
+   Cached Floats Old(75)=0.000000
+   Cached Floats Old(76)=0.000000
+   Cached Floats Old(77)=0.680000
+   Cached Floats Old(78)=0.000000
+   Cached Floats Old(79)=0.080000
+   Cached Floats Old(80)=0.000000
+   Cached Floats Old(81)=0.000000
+   Cached Floats Old(82)=0.000000
+   Cached Floats Old(83)=0.722500
+   Cached Floats Old(84)=0.640000
+   Cached Floats Old(85)=0.000000
+   Cached Floats Old(86)=0.250000
+   Cached Floats Old(87)=0.000000
+   Cached Floats Old(88)=0.000000
+   Cached Floats Old(89)=0.000000
+   Cached Floats Old(90)=1.333333
+   Cached Floats Old(91)=0.000000
+   Cached Floats Old(92)=1.000000
+   Cached Floats Old(93)=1.000000
+   Cached Floats Old(94)=0.000000
+   Cached Floats Old(95)=0.000000
+   Cached Floats Old(96)=0.000000
+   Cached Floats Old(97)=0.000000
+   Cached Floats Old(98)=0.000000
+   Cached Floats Old(99)=1.000000
+   Cached Floats Old(100)=0.900000
+   Cached Floats Old(101)=1.000000
+   Cached Floats Old(102)=0.000000
+   Cached Floats Old(103)=0.000000
+   Cached Floats Old(104)=0.000000
+   Cached Floats Old(105)=0.000000
+   Cached Floats Old(106)=0.000000
+   Cached Floats Old(107)=0.000000
+   Cached Floats Old(108)=1.000000
+   Cached Floats Old(109)=0.000000
+   Cached Floats Old(110)=0.000000
+   Cached Floats Old(111)=0.000000
+   Cached Floats New(0)=0.500000
+   Cached Floats New(1)=0.000000
+   Cached Floats New(2)=0.033161
+   Cached Floats New(3)=0.000000
+   Cached Floats New(4)=0.181728
+   Cached Floats New(5)=1.000000
+   Cached Floats New(6)=0.000000
+   Cached Floats New(7)=0.000000
+   Cached Floats New(8)=0.000000
+   Cached Floats New(9)=0.000000
+   Cached Floats New(10)=0.000000
+   Cached Floats New(11)=0.000000
+   Cached Floats New(12)=0.861111
+   Cached Floats New(13)=0.000000
+   Cached Floats New(14)=0.000000
+   Cached Floats New(15)=0.000000
+   Cached Floats New(16)=0.700652
+   Cached Floats New(17)=2.666667
+   Cached Floats New(18)=0.000000
+   Cached Floats New(19)=0.000000
+   Cached Floats New(20)=0.000000
+   Cached Floats New(21)=0.000000
+   Cached Floats New(22)=0.000000
+   Cached Floats New(23)=0.000000
+   Cached Floats New(24)=0.000000
+   Cached Floats New(25)=0.000000
+   Cached Floats New(26)=0.020944
+   Cached Floats New(27)=0.000000
+   Cached Floats New(28)=0.000000
+   Cached Floats New(29)=0.000000
+   Cached Floats New(30)=0.000000
+   Cached Floats New(31)=0.000000
+   Cached Floats New(32)=0.000000
+   Cached Floats New(33)=0.000000
+   Cached Floats New(34)=0.000000
+   Cached Floats New(35)=0.000000
+   Cached Floats New(36)=0.000000
+   Cached Floats New(37)=6.000000
+   Cached Floats New(38)=0.000000
+   Cached Floats New(39)=0.000000
+   Cached Floats New(40)=0.000000
+   Cached Floats New(41)=0.008873
+   Cached Floats New(42)=0.280202
+   Cached Floats New(43)=0.027250
+   Cached Floats New(44)=30.864712
+   Cached Floats New(45)=0.000000
+   Cached Floats New(46)=0.005746
+   Cached Floats New(47)=0.000000
+   Cached Floats New(48)=0.000000
+   Cached Floats New(49)=0.000000
+   Cached Floats New(50)=19.000000
+   Cached Floats New(51)=0.000000
+   Cached Floats New(52)=0.300000
+   Cached Floats New(53)=0.000000
+   Cached Floats New(54)=0.000000
+   Cached Floats New(55)=0.050000
+   Cached Floats New(56)=0.085000
+   Cached Floats New(57)=0.000000
+   Cached Floats New(58)=0.480000
+   Cached Floats New(59)=0.000000
+   Cached Floats New(60)=0.000000
+   Cached Floats New(61)=0.000000
+   Cached Floats New(62)=20.000000
+   Cached Floats New(63)=0.000000
+   Cached Floats New(64)=0.000000
+   Cached Floats New(65)=0.375000
+   Cached Floats New(66)=0.000000
+   Cached Floats New(67)=1.000000
+   Cached Floats New(68)=0.000000
+   Cached Floats New(69)=0.080000
+   Cached Floats New(70)=0.960000
+   Cached Floats New(71)=0.010000
+   Cached Floats New(72)=1.075956
+   Cached Floats New(73)=1.011500
+   Cached Floats New(74)=2.000000
+   Cached Floats New(75)=0.000000
+   Cached Floats New(76)=0.000000
+   Cached Floats New(77)=0.680000
+   Cached Floats New(78)=0.000000
+   Cached Floats New(79)=0.080000
+   Cached Floats New(80)=0.000000
+   Cached Floats New(81)=0.000000
+   Cached Floats New(82)=0.000000
+   Cached Floats New(83)=0.722500
+   Cached Floats New(84)=0.640000
+   Cached Floats New(85)=0.000000
+   Cached Floats New(86)=0.250000
+   Cached Floats New(87)=0.000000
+   Cached Floats New(88)=0.000000
+   Cached Floats New(89)=0.000000
+   Cached Floats New(90)=1.333333
+   Cached Floats New(91)=0.000000
+   Cached Floats New(92)=1.000000
+   Cached Floats New(93)=1.000000
+   Cached Floats New(94)=0.000000
+   Cached Floats New(95)=0.000000
+   Cached Floats New(96)=0.000000
+   Cached Floats New(97)=0.000000
+   Cached Floats New(98)=0.000000
+   Cached Floats New(99)=1.000000
+   Cached Floats New(100)=0.900000
+   Cached Floats New(101)=1.000000
+   Cached Floats New(102)=0.000000
+   Cached Floats New(103)=0.000000
+   Cached Floats New(104)=0.000000
+   Cached Floats New(105)=0.000000
+   Cached Floats New(106)=0.000000
+   Cached Floats New(107)=0.000000
+   Cached Floats New(108)=1.000000
+   Cached Floats New(109)=0.000000
+   Cached Floats New(110)=0.000000
+   Cached Floats New(111)=0.000000
+   Cached Floats Last Accessed(0)=0.500000
+   Cached Floats Last Accessed(1)=0.000000
+   Cached Floats Last Accessed(2)=0.033161
+   Cached Floats Last Accessed(3)=0.000000
+   Cached Floats Last Accessed(4)=0.181728
+   Cached Floats Last Accessed(5)=1.000000
+   Cached Floats Last Accessed(6)=0.000000
+   Cached Floats Last Accessed(7)=0.000000
+   Cached Floats Last Accessed(8)=0.000000
+   Cached Floats Last Accessed(9)=0.000000
+   Cached Floats Last Accessed(10)=0.000000
+   Cached Floats Last Accessed(11)=0.000000
+   Cached Floats Last Accessed(12)=0.861111
+   Cached Floats Last Accessed(13)=0.000000
+   Cached Floats Last Accessed(14)=0.000000
+   Cached Floats Last Accessed(15)=0.000000
+   Cached Floats Last Accessed(16)=0.700652
+   Cached Floats Last Accessed(17)=2.666667
+   Cached Floats Last Accessed(18)=0.000000
+   Cached Floats Last Accessed(19)=0.000000
+   Cached Floats Last Accessed(20)=0.000000
+   Cached Floats Last Accessed(21)=0.000000
+   Cached Floats Last Accessed(22)=0.000000
+   Cached Floats Last Accessed(23)=0.000000
+   Cached Floats Last Accessed(24)=0.000000
+   Cached Floats Last Accessed(25)=0.000000
+   Cached Floats Last Accessed(26)=0.020944
+   Cached Floats Last Accessed(27)=0.000000
+   Cached Floats Last Accessed(28)=0.000000
+   Cached Floats Last Accessed(29)=0.000000
+   Cached Floats Last Accessed(30)=0.000000
+   Cached Floats Last Accessed(31)=0.000000
+   Cached Floats Last Accessed(32)=0.000000
+   Cached Floats Last Accessed(33)=0.000000
+   Cached Floats Last Accessed(34)=0.000000
+   Cached Floats Last Accessed(35)=0.000000
+   Cached Floats Last Accessed(36)=0.000000
+   Cached Floats Last Accessed(37)=6.000000
+   Cached Floats Last Accessed(38)=0.000000
+   Cached Floats Last Accessed(39)=0.000000
+   Cached Floats Last Accessed(40)=0.000000
+   Cached Floats Last Accessed(41)=0.008873
+   Cached Floats Last Accessed(42)=0.280202
+   Cached Floats Last Accessed(43)=0.027250
+   Cached Floats Last Accessed(44)=30.864712
+   Cached Floats Last Accessed(45)=0.000000
+   Cached Floats Last Accessed(46)=0.005746
+   Cached Floats Last Accessed(47)=0.000000
+   Cached Floats Last Accessed(48)=0.000000
+   Cached Floats Last Accessed(49)=0.000000
+   Cached Floats Last Accessed(50)=19.000000
+   Cached Floats Last Accessed(51)=0.000000
+   Cached Floats Last Accessed(52)=0.300000
+   Cached Floats Last Accessed(53)=0.000000
+   Cached Floats Last Accessed(54)=0.000000
+   Cached Floats Last Accessed(55)=0.050000
+   Cached Floats Last Accessed(56)=0.085000
+   Cached Floats Last Accessed(57)=0.000000
+   Cached Floats Last Accessed(58)=0.480000
+   Cached Floats Last Accessed(59)=0.000000
+   Cached Floats Last Accessed(60)=0.000000
+   Cached Floats Last Accessed(61)=0.000000
+   Cached Floats Last Accessed(62)=20.000000
+   Cached Floats Last Accessed(63)=0.000000
+   Cached Floats Last Accessed(64)=0.000000
+   Cached Floats Last Accessed(65)=0.375000
+   Cached Floats Last Accessed(66)=0.000000
+   Cached Floats Last Accessed(67)=1.000000
+   Cached Floats Last Accessed(68)=0.000000
+   Cached Floats Last Accessed(69)=0.080000
+   Cached Floats Last Accessed(70)=0.960000
+   Cached Floats Last Accessed(71)=0.010000
+   Cached Floats Last Accessed(72)=1.075956
+   Cached Floats Last Accessed(73)=1.011500
+   Cached Floats Last Accessed(74)=2.000000
+   Cached Floats Last Accessed(75)=0.000000
+   Cached Floats Last Accessed(76)=0.000000
+   Cached Floats Last Accessed(77)=0.680000
+   Cached Floats Last Accessed(78)=0.000000
+   Cached Floats Last Accessed(79)=0.080000
+   Cached Floats Last Accessed(80)=0.000000
+   Cached Floats Last Accessed(81)=0.000000
+   Cached Floats Last Accessed(82)=0.000000
+   Cached Floats Last Accessed(83)=0.722500
+   Cached Floats Last Accessed(84)=0.640000
+   Cached Floats Last Accessed(85)=0.000000
+   Cached Floats Last Accessed(86)=0.250000
+   Cached Floats Last Accessed(87)=0.000000
+   Cached Floats Last Accessed(88)=0.000000
+   Cached Floats Last Accessed(89)=0.000000
+   Cached Floats Last Accessed(90)=1.333333
+   Cached Floats Last Accessed(91)=0.000000
+   Cached Floats Last Accessed(92)=1.000000
+   Cached Floats Last Accessed(93)=1.000000
+   Cached Floats Last Accessed(94)=0.000000
+   Cached Floats Last Accessed(95)=0.000000
+   Cached Floats Last Accessed(96)=0.000000
+   Cached Floats Last Accessed(97)=0.000000
+   Cached Floats Last Accessed(98)=0.000000
+   Cached Floats Last Accessed(99)=1.000000
+   Cached Floats Last Accessed(100)=0.900000
+   Cached Floats Last Accessed(101)=1.000000
+   Cached Floats Last Accessed(102)=0.000000
+   Cached Floats Last Accessed(103)=0.000000
+   Cached Floats Last Accessed(104)=0.000000
+   Cached Floats Last Accessed(105)=0.000000
+   Cached Floats Last Accessed(106)=0.000000
+   Cached Floats Last Accessed(107)=0.000000
+   Cached Floats Last Accessed(108)=1.000000
+   Cached Floats Last Accessed(109)=0.000000
+   Cached Floats Last Accessed(110)=0.000000
+   Cached Floats Last Accessed(111)=0.000000
+   Cached Colors Old(3)=(R=0.000000,G=-1.000000,B=0.000000,A=1.000000)
+   Cached Colors Old(9)=(R=0.439759,G=-0.326883,B=0.836516,A=1.000000)
+   Cached Colors Old(10)=(R=-0.000000,G=-0.939693,B=-0.342020,A=1.000000)
+   Cached Colors Old(11)=(R=-0.000000,G=-0.939693,B=0.315467,A=0.000000)
+   Cached Colors Old(13)=(R=-1.000000,G=0.000000,B=0.000000,A=1.000000)
+   Cached Colors Old(15)=(R=0.000541,G=0.000824,B=0.001485,A=0.011318)
+   Cached Colors Old(27)=(R=0.109194,G=0.144065,B=0.225432,A=0.225432)
+   Cached Colors Old(36)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Cached Colors Old(38)=(R=0.000000,G=0.000001,B=0.000001,A=0.005818)
+   Cached Colors Old(40)=(R=0.000014,G=0.000020,B=0.000040,A=0.000000)
+   Cached Colors Old(45)=(R=0.000035,G=0.000051,B=0.000101,A=0.555818)
+   Cached Colors Old(47)=(R=0.445801,G=0.557475,B=0.864583,A=1.000000)
+   Cached Colors Old(51)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Cached Colors Old(53)=(R=0.000019,G=0.000024,B=0.000042,A=1.000000)
+   Cached Colors Old(54)=(R=6.823709,G=7.150515,B=7.831039,A=1.000000)
+   Cached Colors Old(57)=(R=0.282199,G=0.345869,B=0.503097,A=0.600000)
+   Cached Colors Old(59)=(R=2.500000,G=2.500000,B=2.500000,A=1.000000)
+   Cached Colors Old(60)=(R=0.000250,G=0.000237,B=0.000329,A=1.452558)
+   Cached Colors Old(61)=(R=0.000145,G=0.000203,B=0.000448,A=0.452558)
+   Cached Colors Old(75)=(R=-0.000000,G=-0.939693,B=-0.342020,A=3.000000)
+   Cached Colors Old(81)=(R=1.000000,G=0.849176,B=0.030354,A=0.001600)
+   Cached Colors Old(82)=(R=0.000305,G=0.000468,B=0.000780,A=1.000000)
+   Cached Colors Old(89)=(R=0.450000,G=0.480000,B=0.520000,A=1.000000)
+   Cached Colors Old(107)=(R=0.486328,G=0.574971,B=0.864583,A=1.000000)
+   Cached Colors Old(111)=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Cached Colors New(3)=(R=0.000000,G=-1.000000,B=0.000000,A=1.000000)
+   Cached Colors New(9)=(R=0.439759,G=-0.326883,B=0.836516,A=1.000000)
+   Cached Colors New(10)=(R=-0.000000,G=-0.939693,B=-0.342020,A=1.000000)
+   Cached Colors New(11)=(R=-0.000000,G=-0.939693,B=0.315467,A=0.000000)
+   Cached Colors New(13)=(R=-1.000000,G=0.000000,B=0.000000,A=1.000000)
+   Cached Colors New(15)=(R=0.000541,G=0.000824,B=0.001485,A=0.011318)
+   Cached Colors New(27)=(R=0.109194,G=0.144065,B=0.225432,A=0.225432)
+   Cached Colors New(36)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Cached Colors New(38)=(R=0.000000,G=0.000001,B=0.000001,A=0.005818)
+   Cached Colors New(40)=(R=0.000014,G=0.000020,B=0.000040,A=0.000000)
+   Cached Colors New(45)=(R=0.000035,G=0.000051,B=0.000101,A=0.555818)
+   Cached Colors New(47)=(R=0.445801,G=0.557475,B=0.864583,A=1.000000)
+   Cached Colors New(51)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Cached Colors New(53)=(R=0.000019,G=0.000024,B=0.000042,A=1.000000)
+   Cached Colors New(54)=(R=6.823709,G=7.150515,B=7.831039,A=1.000000)
+   Cached Colors New(57)=(R=0.282199,G=0.345869,B=0.503097,A=0.600000)
+   Cached Colors New(59)=(R=2.500000,G=2.500000,B=2.500000,A=1.000000)
+   Cached Colors New(60)=(R=0.000250,G=0.000237,B=0.000329,A=1.452558)
+   Cached Colors New(61)=(R=0.000145,G=0.000203,B=0.000448,A=0.452558)
+   Cached Colors New(75)=(R=-0.000000,G=-0.939693,B=-0.342020,A=3.000000)
+   Cached Colors New(81)=(R=1.000000,G=0.849176,B=0.030354,A=0.001600)
+   Cached Colors New(82)=(R=0.000305,G=0.000468,B=0.000780,A=1.000000)
+   Cached Colors New(89)=(R=0.450000,G=0.480000,B=0.520000,A=1.000000)
+   Cached Colors New(107)=(R=0.486328,G=0.574971,B=0.864583,A=1.000000)
+   Cached Colors New(111)=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Cached Sun Vector=(X=0.439759,Y=-0.326883,Z=0.836516)
+   Cached Sun Z Vector=(X=-0.856652,Y=0.127072,Z=0.500000)
+   Cached Moon Vector=(X=-0.000000,Y=-0.939693,Z=-0.342020)
+   Support Sky Atmo Affecting Height Fog=True
+   UDS Version="9.3A"
+   Cached Colors Last Accessed(3)=(R=0.000000,G=-1.000000,B=0.000000,A=1.000000)
+   Cached Colors Last Accessed(9)=(R=0.439759,G=-0.326883,B=0.836516,A=1.000000)
+   Cached Colors Last Accessed(10)=(R=-0.000000,G=-0.939693,B=-0.342020,A=1.000000)
+   Cached Colors Last Accessed(11)=(R=-0.000000,G=-0.939693,B=0.315467,A=0.000000)
+   Cached Colors Last Accessed(13)=(R=-1.000000,G=0.000000,B=0.000000,A=1.000000)
+   Cached Colors Last Accessed(15)=(R=0.000541,G=0.000824,B=0.001485,A=0.011318)
+   Cached Colors Last Accessed(27)=(R=0.109194,G=0.144065,B=0.225432,A=0.225432)
+   Cached Colors Last Accessed(36)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Cached Colors Last Accessed(38)=(R=0.000000,G=0.000001,B=0.000001,A=0.005818)
+   Cached Colors Last Accessed(40)=(R=0.000014,G=0.000020,B=0.000040,A=0.000000)
+   Cached Colors Last Accessed(45)=(R=0.000035,G=0.000051,B=0.000101,A=0.555818)
+   Cached Colors Last Accessed(47)=(R=0.445801,G=0.557475,B=0.864583,A=1.000000)
+   Cached Colors Last Accessed(51)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Cached Colors Last Accessed(53)=(R=0.000019,G=0.000024,B=0.000042,A=1.000000)
+   Cached Colors Last Accessed(54)=(R=6.823709,G=7.150515,B=7.831039,A=1.000000)
+   Cached Colors Last Accessed(57)=(R=0.282199,G=0.345869,B=0.503097,A=0.600000)
+   Cached Colors Last Accessed(59)=(R=2.500000,G=2.500000,B=2.500000,A=1.000000)
+   Cached Colors Last Accessed(60)=(R=0.000250,G=0.000237,B=0.000329,A=1.452558)
+   Cached Colors Last Accessed(61)=(R=0.000145,G=0.000203,B=0.000448,A=0.452558)
+   Cached Colors Last Accessed(75)=(R=-0.000000,G=-0.939693,B=-0.342020,A=3.000000)
+   Cached Colors Last Accessed(81)=(R=1.000000,G=0.849176,B=0.030354,A=0.001600)
+   Cached Colors Last Accessed(82)=(R=0.000305,G=0.000468,B=0.000780,A=1.000000)
+   Cached Colors Last Accessed(89)=(R=0.450000,G=0.480000,B=0.520000,A=1.000000)
+   Cached Colors Last Accessed(107)=(R=0.486328,G=0.574971,B=0.864583,A=1.000000)
+   Cached Colors Last Accessed(111)=(R=0.000000,G=0.000000,B=0.000000,A=0.000000)
+   Last Low Frequency Update Location=(X=-41078.053699,Y=18687.464377,Z=14462.275104)
+   Cached Moon Z Vector=(X=0.373761,Y=0.862163,Z=0.342020)
+   Cached Sun Scale=0.020944
+   Cached Moon Scale=0.033161
+   Sunset Event State=0
+   Moon Fog Base Color=(R=0.021758,G=0.025359,B=0.034698,A=1.000000)
+   Last High Frequency Update Location=(X=-41078.053699,Y=18687.464377,Z=14462.275104)
+   Cached Sky Atmosphere Absorption Color=(R=1.000000,G=0.849176,B=0.030354,A=0.001600)
+   Cloud Coverage After Painting=2.550000
+   Cloud Top World Height=140238.500000
+   Sun Target=(X=26.516842,Y=-14.210333,Z=-45.928519)
+   Moon Target=(X=7.336525,Y=-49.458825,Z=18.198512)
+   Low Priority Update Step=0
+   UDW Wind Value=4.000000
+   Last Material Quality Level=1
+   Last Effects Quality Level=3
+   Editor Camera Position=(X=-41078.053699,Y=18687.464377,Z=14462.275104)
+   Current Camera Location=(X=-41078.053699,Y=18687.464377,Z=14462.275104)
+   Current Camera Rotation=(Pitch=-17.548401,Yaw=-108.434949,Roll=0.000000)
+   Cached Cloud Shadows Cancel Value=0.861111
+   Event Date=(Year_2_5936ACDB4E7F71C3EC90F69D7234DCB1=2021,Month_4_32A4CA754DFE7D22C3ECE9AF0E8329B4=3,Day_6_004C80D94C5AA9D6C83EC884AE3346E4=26)
+   Starting Date=(Year_2_5936ACDB4E7F71C3EC90F69D7234DCB1=2021,Month_4_32A4CA754DFE7D22C3ECE9AF0E8329B4=3,Day_6_004C80D94C5AA9D6C83EC884AE3346E4=26)
+   Unmodified Floats(0)=0.000000
+   Unmodified Floats(1)=1.000000
+   Unmodified Floats(2)=1.000000
+   Unmodified Floats(3)=1.000000
+   Unmodified Floats(4)=0.484801
+   Unmodified Floats(5)=0.000000
+   Unmodified Floats(6)=2.000000
+   Unmodified Floats(7)=30.000000
+   Unmodified Floats(8)=15.000000
+   Unmodified Floats(9)=1.000000
+   Unmodified Floats(10)=0.240000
+   Unmodified Floats(11)=0.100000
+   Unmodified Floats(12)=0.800000
+   Unmodified Floats(13)=1.200000
+   Unmodified Floats(14)=2.200000
+   Unmodified Floats(15)=1.700000
+   Unmodified Floats(16)=0.500000
+   Unmodified Floats(17)=6.000000
+   Unmodified Floats(18)=20.000000
+   Unmodified Floats(19)=1.000000
+   Unmodified Floats(20)=0.450000
+   Unmodified Floats(21)=0.850000
+   Unmodified Floats(22)=0.500000
+   Unmodified Floats(23)=0.160000
+   Unmodified Floats(24)=0.850000
+   Unmodified Floats(25)=0.000000
+   Unmodified Floats(26)=0.850000
+   Unmodified Floats(27)=1.000000
+   Unmodified Floats(28)=0.700000
+   Unmodified Floats(29)=2.000000
+   Unmodified Floats(30)=0.200000
+   Unmodified Floats(31)=0.500000
+   Unmodified Floats(32)=1.000000
+   Unmodified Floats(33)=5.000000
+   Unmodified Floats(34)=3.000000
+   Unmodified Floats(35)=1.000000
+   Unmodified Floats(36)=1.000000
+   Unmodified Floats(37)=5.000000
+   Unmodified Floats(38)=0.000000
+   Unmodified Floats(39)=30.000000
+   Unmodified Floats(40)=0.000000
+   Unmodified Floats(41)=1.200000
+   Unmodified Floats(42)=0.000000
+   Unmodified Floats(43)=4.000000
+   Unmodified Floats(44)=1.000000
+   Unmodified Floats(45)=0.000000
+   Unmodified Floats(46)=1.000000
+   Unmodified Floats(47)=5.000000
+   Unmodified Floats(48)=0.500000
+   Unmodified Floats(49)=1.000000
+   Unmodified Floats(50)=0.150000
+   Unmodified Floats(51)=0.950000
+   Unmodified Floats(52)=0.000000
+   Unmodified Floats(53)=255.000000
+   Unmodified Floats(54)=20.000000
+   Unmodified Floats(55)=0.040000
+   Unmodified Floats(56)=0.000000
+   Unmodified Floats(57)=0.300000
+   Unmodified Floats(58)=0.600000
+   Unmodified Floats(59)=0.015000
+   Unmodified Floats(60)=1.000000
+   Unmodified Floats(61)=0.000000
+   Unmodified Floats(62)=1.000000
+   Unmodified Floats(63)=0.100000
+   Unmodified Floats(64)=20.000000
+   Unmodified Floats(65)=0.300000
+   Unmodified Floats(66)=1.000000
+   Unmodified Floats(67)=0.000000
+   Unmodified Floats(68)=0.030000
+   Unmodified Floats(69)=0.800000
+   Unmodified Floats(70)=1.000000
+   Unmodified Floats(71)=0.000000
+   Unmodified Floats(72)=0.000000
+   Unmodified Floats(73)=0.000000
+   Unmodified Floats(74)=0.000000
+   Unmodified Floats(75)=0.000000
+   Unmodified Floats(76)=0.000000
+   Unmodified Floats(77)=0.200000
+   Unmodified Floats(78)=0.200000
+   Unmodified Floats(79)=0.200000
+   Unmodified Floats(80)=2.300000
+   Unmodified Floats(81)=1.650000
+   Unmodified Floats(82)=0.800000
+   Unmodified Floats(83)=0.400000
+   Unmodified Floats(84)=0.450000
+   Unmodified Floats(85)=0.005500
+   Unmodified Floats(86)=0.100000
+   Unmodified Floats(87)=0.002000
+   Unmodified Floats(88)=0.500000
+   Unmodified Floats(89)=0.350000
+   Unmodified Floats(90)=100.000000
+   Unmodified Floats(91)=0.080000
+   Unmodified Floats(92)=1.000000
+   Unmodified Floats(93)=1.000000
+   Unmodified Floats(94)=0.065000
+   Unmodified Floats(95)=0.065000
+   Unmodified Floats(96)=0.015000
+   Unmodified Floats(97)=0.030000
+   Unmodified Floats(98)=1.000000
+   Unmodified Floats(99)=1.000000
+   Unmodified Floats(100)=0.200000
+   Unmodified Floats(101)=0.300000
+   Unmodified Floats(102)=0.100000
+   Unmodified Floats(103)=0.100000
+   Unmodified Floats(104)=0.000000
+   Unmodified Floats(105)=0.400000
+   Unmodified Floats(106)=0.002000
+   Unmodified Floats(107)=0.004000
+   Unmodified Floats(108)=1.000000
+   Unmodified Floats(109)=0.750000
+   Unmodified Floats(110)=0.000000
+   Unmodified Floats(111)=1.000000
+   Unmodified Floats(112)=5.000000
+   Unmodified Floats(113)=0.600000
+   Unmodified Floats(114)=0.000000
+   Unmodified Floats(115)=0.120000
+   Unmodified Floats(116)=0.000000
+   Unmodified Floats(117)=0.000000
+   Unmodified Floats(118)=1.000000
+   Unmodified Floats(119)=1.000000
+   Unmodified Floats(120)=0.000000
+   Unmodified Floats(121)=1.000000
+   Unmodified Floats(122)=1.000000
+   Unmodified Floats(123)=0.300000
+   Unmodified Floats(124)=1.000000
+   Unmodified Floats(125)=1.000000
+   Unmodified Colors(1)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Unmodified Colors(2)=(R=0.354899,G=0.463542,B=0.443624,A=1.000000)
+   Unmodified Colors(3)=(R=0.531250,G=0.313991,B=0.296061,A=1.000000)
+   Unmodified Colors(4)=(R=0.368548,G=0.376632,B=0.500000,A=1.000000)
+   Unmodified Colors(5)=(R=0.416713,G=0.436257,B=0.478431,A=1.000000)
+   Unmodified Colors(6)=(R=1.000000,G=0.587119,B=0.395833,A=1.000000)
+   Unmodified Colors(7)=(R=0.367187,G=0.428386,B=0.489583,A=1.000000)
+   Unmodified Colors(8)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Unmodified Colors(9)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Unmodified Colors(10)=(R=0.994792,G=0.754438,B=0.784207,A=1.000000)
+   Unmodified Colors(11)=(R=0.445801,G=0.557475,B=0.864583,A=1.000000)
+   Unmodified Colors(12)=(R=0.486328,G=0.574971,B=0.864583,A=1.000000)
+   Unmodified Colors(13)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Unmodified Colors(14)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Unmodified Colors(15)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Unmodified Colors(16)=(R=0.260417,G=0.229905,B=0.202094,A=1.000000)
+   Unmodified Colors(17)=(R=0.000000,G=0.000000,B=0.000000,A=0.750000)
+   Unmodified Colors(18)=(R=0.083620,G=0.156441,B=0.302083,A=1.000000)
+   Unmodified Colors(19)=(R=0.076091,G=0.108017,B=0.171875,A=1.000000)
+   Unmodified Colors(20)=(R=0.146484,G=0.147386,B=0.156250,A=1.000000)
+   Unmodified Colors(21)=(R=0.350000,G=0.400000,B=0.480000,A=1.000000)
+   Unmodified Colors(22)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Unmodified Colors(23)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Unmodified Colors(24)=(R=0.450000,G=0.480000,B=0.520000,A=1.000000)
+   Unmodified Colors(25)=(R=0.260417,G=0.216760,B=0.184462,A=1.000000)
+   Unmodified Colors(26)=(R=0.168627,G=0.407843,B=1.000000,A=1.000000)
+   Unmodified Colors(27)=(R=0.170000,G=0.409234,B=1.000000,A=1.000000)
+   Unmodified Colors(28)=(R=0.241211,G=0.347328,B=0.609375,A=1.000000)
+   Unmodified Colors(29)=(R=0.198069,G=0.095307,B=1.000000,A=1.000000)
+   Unmodified Colors(30)=(R=0.030354,G=0.181178,B=1.000000,A=1.000000)
+   Unmodified Colors(31)=(R=0.050313,G=0.100844,B=0.218750,A=1.000000)
+   Unmodified Colors(32)=(R=0.094145,G=0.167055,B=0.260417,A=1.000000)
+   Unmodified Colors(33)=(R=0.065593,G=0.102341,B=0.161458,A=1.000000)
+   Unmodified Colors(34)=(R=0.708631,G=0.785507,B=0.901042,A=1.000000)
+   Unmodified Colors(35)=(R=1.000000,G=0.477468,B=0.054318,A=1.000000)
+   Unmodified Colors(36)=(R=1.177604,G=1.321682,B=1.700000,A=1.000000)
+   Unmodified Colors(37)=(R=0.034505,G=0.119041,B=0.276042,A=1.000000)
+   Unmodified Colors(38)=(R=0.043050,G=0.069910,B=0.119792,A=1.000000)
+   Unmodified Colors(39)=(R=0.070258,G=0.109470,B=0.182292,A=1.000000)
+   Unmodified Colors(40)=(R=0.484375,G=0.639062,B=1.000000,A=1.000000)
+   Unmodified Colors(41)=(R=0.093045,G=0.141694,B=0.255208,A=1.000000)
+   Unmodified Colors(42)=(R=0.630208,G=0.481016,B=0.377575,A=1.000000)
+   Unmodified Colors(43)=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+   Move Sky Light Location=True
+   Weather Cloud Coverage=8.500000
+   Weather Fog=6.500000
+   Weather Dust Amount=0.000000
+   Sky Glow Fog Color=(R=0.000000,G=0.000001,B=0.000001,A=0.005818)
+   Cached Night Sky Glow=(R=0.000541,G=0.000824,B=0.001485,A=0.005818)
+   Local Cloud Coverage=2.550000
+   Sun World Rotation=(Pitch=56.774058,Yaw=-36.624286,Roll=-24.146109)
+   Moon World Rotation=(Pitch=-20.000001,Yaw=-90.000001,Roll=85.941912)
+   Inside Cloud Fog Mesh="NODE_AddStaticMeshComponent-22"
+   Volumetric Cloud Shadow Altitude=87738.500000
+   Allow Disabling Directional Shadows with Coverage=True
+   Using Sky Atmosphere=True
+   Cached Moon Effective Illumination 0-1=0.721497
+   Cached Absent Directional Lights Brightness=1.557005
+   Cached Current Moon Lit Percent=1.000000
+   Using Volumetric Clouds=True
+   Cached Lit Intensity=2.666667
+   Cached Directional Light Dimming=1.000000
+   Cached Directional Inscattering Multiplier=0.263375
+   Compensate Directional Inscattering=True
+   Light Functions Supported=True
+   DBuffer Supported=True
+   Current Scene Lighting Brightness Scale=0.300000
+   Cached VolCloud Top Emissive=(R=0.000250,G=0.000237,B=0.000329,A=1.452558)
+   Cached VolCloud Bottom Emissive=(R=0.000145,G=0.000203,B=0.000448,A=0.452558)
+   Cache Group Timer Indexes(0)=0
+   Cache Group Timer Indexes(1)=0
+   Cache Group Timer Indexes(2)=0
+   Cache Group Timer Indexes(3)=0
+   Cache Group Timer Indexes(4)=0
+   Cache Group Timer Indexes(5)=0
+   Cache Group Timer Indexes(6)=0
+   Cache Group Timer Indexes(7)=0
+   Cache Group Timer Indexes(8)=0
+   Cache Group Timer Indexes(9)=0
+   Cache Group Timer Indexes(10)=0
+   Cache Group Timer Indexes(11)=0
+   Cache Group Timer Indexes(12)=0
+   Cache Group Timer Indexes(13)=0
+   Cache Group Timer Indexes(14)=0
+   Cache Group Timer Indexes(15)=0
+   Cache Group Timer Indexes(16)=0
+   Cache Group Timer Indexes(17)=0
+   Cache Group Timer Indexes(18)=0
+   Cache Group Timer Indexes(19)=0
+   Cache Group Timer Indexes(20)=0
+   Cache Group Timer Indexes(21)=0
+   Cache Group Timer Indexes(22)=0
+   Cache Group Timer Indexes(23)=0
+   Cache Group Timer Indexes(24)=0
+   Cache Group Timer Indexes(25)=0
+   Cache Group Timer Indexes(26)=0
+   Cache Group Timer Indexes(27)=0
+   Cache Group Timer Indexes(28)=0
+   Cache Group Timer Indexes(29)=0
+   Cache Group Timer Indexes(30)=0
+   Cache Group Timer Indexes(31)=0
+   Cache Group Timer Indexes(32)=0
+   Cache Group Timer Indexes(33)=0
+   Cache Group Timer Indexes(34)=0
+   Cache Group Timer Indexes(35)=0
+   Cache Group Timer Indexes(36)=0
+   Cache Group Timer Indexes(37)=0
+   Cache Group Timer Indexes(38)=0
+   Cache Group Timer Indexes(39)=0
+   Cache Group Timer Indexes(40)=0
+   Cache Group Timer Indexes(41)=0
+   Cache Group Timer Indexes(42)=0
+   Cache Group Timer Indexes(43)=0
+   Cache Group Timer Indexes(44)=0
+   Cache Group Timer Indexes(45)=0
+   Cache Group Timer Indexes(46)=0
+   Cache Group Timer Indexes(47)=0
+   Cache Group Timer Indexes(48)=0
+   Cache Group Timer Indexes(49)=0
+   Cache Group Timer Indexes(50)=0
+   Cache Group Timer Indexes(51)=0
+   Cache Group Timer Indexes(52)=0
+   Cache Group Timer Indexes(53)=0
+   Cache Group Timer Indexes(54)=0
+   Cache Group Timer Indexes(55)=0
+   Cache Group Timer Indexes(56)=0
+   Cache Group Timer Indexes(57)=0
+   Cache Group Timer Indexes(58)=0
+   Cache Group Timer Indexes(59)=0
+   Cache Group Timer Indexes(60)=0
+   Cache Group Timer Indexes(61)=0
+   Cache Group Timer Indexes(62)=0
+   Cache Group Timer Indexes(63)=0
+   Cache Group Timer Indexes(64)=0
+   Cache Group Timer Indexes(65)=0
+   Cache Group Timer Indexes(66)=0
+   Cache Group Timer Indexes(67)=0
+   Cache Group Timer Indexes(68)=0
+   Cache Group Timer Indexes(69)=0
+   Cache Group Timer Indexes(70)=0
+   Cache Group Timer Indexes(71)=0
+   Cache Group Timer Indexes(72)=0
+   Cache Group Timer Indexes(73)=0
+   Cache Group Timer Indexes(74)=0
+   Cache Group Timer Indexes(75)=0
+   Cache Group Timer Indexes(76)=0
+   Cache Group Timer Indexes(77)=0
+   Cache Group Timer Indexes(78)=0
+   Cache Group Timer Indexes(79)=0
+   Cache Group Timer Indexes(80)=0
+   Cache Group Timer Indexes(81)=0
+   Cache Group Timer Indexes(82)=0
+   Cache Group Timer Indexes(83)=0
+   Cache Group Timer Indexes(84)=0
+   Cache Group Timer Indexes(85)=0
+   Cache Group Timer Indexes(86)=0
+   Cache Group Timer Indexes(87)=0
+   Cache Group Timer Indexes(88)=0
+   Cache Group Timer Indexes(89)=0
+   Cache Group Timer Indexes(90)=0
+   Cache Group Timer Indexes(91)=0
+   Cache Group Timer Indexes(92)=0
+   Cache Group Timer Indexes(93)=0
+   Cache Group Timer Indexes(94)=0
+   Cache Group Timer Indexes(95)=0
+   Cache Group Timer Indexes(96)=0
+   Cache Group Timer Indexes(97)=0
+   Cache Group Timer Indexes(98)=0
+   Cache Group Timer Indexes(99)=0
+   Cache Group Timer Indexes(100)=0
+   Cache Group Timer Indexes(101)=0
+   Cache Group Timer Indexes(102)=0
+   Cache Group Timer Indexes(103)=0
+   Cache Group Timer Indexes(104)=0
+   Cache Group Timer Indexes(105)=0
+   Cache Group Timer Indexes(106)=0
+   Cache Group Timer Indexes(107)=0
+   Cache Group Timer Indexes(108)=0
+   Cache Group Timer Indexes(109)=0
+   Cache Group Timer Indexes(110)=0
+   Cache Group Timer Indexes(111)=0
+   Active Cache Group=9
+   Change Speed Rolling Buffer(0)=0.000000
+   Change Speed Rolling Buffer(1)=0.000000
+   Change Speed Rolling Buffer(2)=0.000000
+   Change Speed Rolling Buffer(3)=0.000000
+   Change Speed Rolling Buffer(4)=0.000000
+   Change Speed Rolling Buffer(5)=0.000000
+   Change Speed Rolling Buffer(6)=0.000000
+   Change Speed Rolling Buffer(7)=0.000000
+   Change Speed Rolling Buffer(8)=0.000000
+   Change Speed Rolling Buffer(9)=0.000000
+   Change Speed Rolling Buffer(10)=0.000000
+   Change Speed Rolling Buffer(11)=0.000000
+   Change Speed Rolling Buffer(12)=0.000000
+   Change Speed Rolling Buffer(13)=0.000000
+   Change Speed Rolling Buffer(14)=0.000000
+   Change Speed Rolling Buffer(15)=0.000000
+   Change Speed Rolling Buffer(16)=0.000000
+   Change Speed Rolling Buffer(17)=0.000000
+   Change Speed Rolling Buffer(18)=0.000000
+   Change Speed Rolling Buffer(19)=0.000000
+   Change Speed Rolling Buffer(20)=0.000000
+   Change Speed Rolling Buffer(21)=0.000000
+   Change Speed Rolling Buffer(22)=0.000000
+   Change Speed Rolling Buffer(23)=0.000000
+   Change Speed Rolling Buffer(24)=0.000000
+   Change Speed Rolling Buffer(25)=0.000000
+   Change Speed Rolling Buffer(26)=0.000000
+   Change Speed Rolling Buffer(27)=0.000000
+   Change Speed Rolling Buffer(28)=0.000000
+   Change Speed Rolling Buffer(29)=0.000000
+   Low Priority Set Toggle=True
+   Cached Night Filtered Night Brightness=0.484801
+   Using Player Occlusion=True
+   UDW Snow Value=6.000000
+   General Post Process="NODE_AddPostProcessComponent-6"
+   Generate Mesh Distance Fields=True
+   Cloud Top World Height Bottom Layer=140238.500000
+   RootComponent="SkyRoot"
+   ActorLabel="Ultra_Dynamic_Sky"
+   FolderPath="Weather and Sky"
+   BlueprintCreatedComponents(0)="SkyRoot"
+   BlueprintCreatedComponents(1)="ClockDisk"
+   BlueprintCreatedComponents(2)="HeightFog"
+   BlueprintCreatedComponents(3)="SkyAtmosphere"
+   BlueprintCreatedComponents(4)="Sky_Sphere"
+   BlueprintCreatedComponents(5)="Cubemap Sky Light"
+   BlueprintCreatedComponents(6)="VolumetricCloud"
+   BlueprintCreatedComponents(7)="Captured Scene Sky Light"
+   BlueprintCreatedComponents(8)="UDS Label"
+   BlueprintCreatedComponents(9)="Compass"
+   BlueprintCreatedComponents(10)="W"
+   BlueprintCreatedComponents(11)="N"
+   BlueprintCreatedComponents(12)="E"
+   BlueprintCreatedComponents(13)="S"
+   BlueprintCreatedComponents(14)="Sun Handle"
+   BlueprintCreatedComponents(15)="Moon Handle"
+   BlueprintCreatedComponents(16)="Sun Parent"
+   BlueprintCreatedComponents(17)="Sun"
+   BlueprintCreatedComponents(18)="Moon Parent"
+   BlueprintCreatedComponents(19)="Moon"
+   BlueprintCreatedComponents(20)="UDS_Utility_Opener"
+   BlueprintCreatedComponents(21)="UDS_Editor_Tick_Handler"
+   BlueprintCreatedComponents(22)="Cloud Paint Actors Manager"
+   BlueprintCreatedComponents(23)="UDS_PlayerOcclusion"
+   BlueprintCreatedComponents(24)="NODE_AddStaticMeshComponent-22"
+   BlueprintCreatedComponents(25)="NODE_AddPostProcessComponent-6"
+End Actor
