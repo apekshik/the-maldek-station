@@ -49,3 +49,6 @@ art/unreal_handoff/revision12/request.json
 art/unreal_handoff/revision12/response.json
 art/unreal_handoff/revision12/session.json
 .claude/settings.local.json
+
+# Cached web pages may contain third-party tokens. Keep attribution in sources.json.
+art/audio/**/source_pages/
