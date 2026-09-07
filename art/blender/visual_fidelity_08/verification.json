@@ -1,0 +1,69 @@
+{
+  "evaluated_objects": 906,
+  "vertices": 165136,
+  "polygons": 158467,
+  "routes": [
+    {
+      "route": "entry",
+      "samples": 17,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "left_service",
+      "samples": 36,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "right_service",
+      "samples": 36,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "rear_cross_aisle",
+      "samples": 32,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "workshop",
+      "samples": 23,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "fuel_exit",
+      "samples": 32,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "emergency_fill_access",
+      "samples": 33,
+      "passed": true,
+      "failures": []
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Control_Floor",
+      "passed": true
+    },
+    {
+      "name": "Drive_Floor",
+      "passed": true
+    },
+    {
+      "name": "Gondola_Floor",
+      "passed": true
+    },
+    {
+      "name": "Quarters_Floor",
+      "passed": true
+    }
+  ],
+  "scope": "Blender sampled visible floor/body clearances; not Unreal capsule verification",
+  "passed": true
+}
