@@ -1,1 +1,1 @@
-{"installed": true, "pawn": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished", "opening_enabled": true, "sounds": 3}
+{"installed": true, "pawn": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished", "opening_enabled": true, "sounds": 4, "approach_location": [-42932.305974972965, 16524.707549061975, 9898.5], "approach_radius_cm": 1600.0}

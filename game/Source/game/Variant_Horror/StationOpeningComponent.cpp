@@ -28,6 +28,24 @@ void UStationOpeningComponent::TickComponent(float Dt,ELevelTick TickType,FActor
  }
  Elapsed+=Dt;
  if(Elapsed>=6.0f)ReleaseInput();
+ // A single approach transition per play session, so backing across the boundary
+ // never restarts the drone or stacks additional music voices.
+ if(Elapsed>=6.0f && StationAtmosphere && StationAtmosphereStartCount==0 &&
+    FVector::DistSquared(GetOwner()->GetActorLocation(),StationApproachLocation)<=FMath::Square(StationApproachRadius))
+ {
+  StationAudio=UGameplayStatics::CreateSound2D(this,StationAtmosphere,StationAtmosphereVolume,1,0,nullptr,false,true);
+  if(StationAudio)
+  {
+   StationAudio->FadeIn(5.f,StationAtmosphereVolume);
+   if(Atmosphere && Atmosphere->IsPlaying())Atmosphere->FadeOut(5.f,0.f);
+   ++StationAtmosphereStartCount;
+   StationStartedAt=Elapsed;
+  }
+ }
+ if(StationAudio && !bStationFading && Elapsed-StationStartedAt>=StationAtmosphereHoldSeconds)
+ {
+  StationAudio->FadeOut(12.f,0.f);bStationFading=true;
+ }
  if(Widget)
  {
   Widget->Elapsed=Elapsed;Widget->bToggled=bTriedToggle;Widget->bFocused=bTriedFocus;
@@ -44,8 +62,9 @@ void UStationOpeningComponent::FlashlightToggled(bool bEnabled)
  if(Elapsed>=11.0f)bTriedToggle=true;
 }
 void UStationOpeningComponent::FocusAdjusted(){if(Elapsed>=11.0f)bTriedFocus=true;}
+bool UStationOpeningComponent::IsStationAtmospherePlaying() const{return StationAudio && StationAudio->IsPlaying();}
 void UStationOpeningComponent::EndPlay(const EEndPlayReason::Type Reason)
 {
- ReleaseInput();if(Widget)Widget->RemoveFromParent();if(Atmosphere)Atmosphere->Stop();
+ ReleaseInput();if(Widget)Widget->RemoveFromParent();if(Atmosphere)Atmosphere->Stop();if(StationAudio)StationAudio->Stop();
  Super::EndPlay(Reason);
 }

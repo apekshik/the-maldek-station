@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "platform": "Win64",
+  "configuration": "Development",
+  "explicit_map": false,
+  "finished": "2026-09-07T21:30:09.7343705Z",
+  "success": true,
+  "archive": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\game\\Saved\\R12Package",
+  "log": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\station_audio\\package-build.log",
+  "started": "2026-09-07T21:28:54.4391498Z"
+}

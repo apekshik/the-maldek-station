@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "checks": [
+    "A raised about 10dB",
+    "B raised about 10dB",
+    "B has 60 second hold",
+    "A opening asset assigned",
+    "A has 35 second duration",
+    "B assigned with creator loop",
+    "Parking does not trigger B",
+    "Outside approach remains silent",
+    "Approach starts B exactly once",
+    "B survives fade-in",
+    "Leaving does not abruptly stop B",
+    "Reentry does not restart or stack B",
+    "Opening input released",
+    "B eventually fades to silence",
+    "B does not retrigger after fade"
+  ],
+  "error": null
+}

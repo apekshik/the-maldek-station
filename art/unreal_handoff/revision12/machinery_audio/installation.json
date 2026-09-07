@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Generator",
+    "label": "R12_Audio_Generator",
+    "station_local": [
+      29.0,
+      -15.0,
+      0.8
+    ],
+    "location": [
+      -47182.305974972965,
+      16974.707549061975,
+      9978.5
+    ],
+    "volume": 0.65,
+    "inner_radius_cm": 250,
+    "falloff_cm": 2200,
+    "sound": "/Game/MaldekRefinement/Audio/Machinery/Generator_Loop.Generator_Loop"
+  },
+  {
+    "name": "Flywheel",
+    "label": "R12_Audio_Flywheel",
+    "station_local": [
+      1.4999999046325683,
+      7.150000095367432,
+      0.5700000077486038
+    ],
+    "location": [
+      -44432.30596543622,
+      19189.70755859872,
+      9955.50000077486
+    ],
+    "volume": 0.4,
+    "inner_radius_cm": 150,
+    "falloff_cm": 1400,
+    "sound": "/Game/MaldekRefinement/Audio/Machinery/Flywheel_Loop.Flywheel_Loop"
+  },
+  {
+    "name": "Ventilation",
+    "label": "R12_Audio_Ventilation",
+    "station_local": [
+      -5.2,
+      -2.7,
+      6.65
+    ],
+    "location": [
+      -43762.305974972965,
+      18204.707549061975,
+      10563.5
+    ],
+    "volume": 0.3,
+    "inner_radius_cm": 120,
+    "falloff_cm": 700,
+    "sound": "/Game/MaldekRefinement/Audio/Machinery/Ventilation_Loop.Ventilation_Loop"
+  },
+  {
+    "name": "Cable",
+    "label": "R12_Audio_GondolaCable",
+    "target": "BP_GondolaSystem",
+    "sound": "/Game/MaldekRefinement/Audio/Machinery/Cable_Loop.Cable_Loop",
+    "motion_driven": true
+  }
+]

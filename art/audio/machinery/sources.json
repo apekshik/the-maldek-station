@@ -1,0 +1,70 @@
+[
+  {
+    "asset": "Generator_Loop",
+    "author": "qubodup",
+    "source": "https://freesound.org/people/qubodup/sounds/189896/",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "Public high-quality MP3 preview",
+    "sha256": "ad82887528cdb85cc952fe51a1b28129ccc9798611dca6c87982151cca85b585",
+    "source_excerpt": [
+      2,
+      42
+    ],
+    "seconds": 39.75,
+    "peak": 0.6902100452494472,
+    "rms": 0.14999999999999997,
+    "edits": "Mono, 48kHz, DC removal, constant gain, 250ms circular seam crossfade. Original pitch retained."
+  },
+  {
+    "asset": "Flywheel_Loop",
+    "author": "Nox_Sound",
+    "source": "https://freesound.org/people/Nox_Sound/sounds/559470/",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "Public high-quality MP3 preview",
+    "sha256": "10efe0a429b741cd091a9656e25a717dee2d5595925c34a230ac51d5c5eaa63b",
+    "source_excerpt": [
+      0,
+      9.49
+    ],
+    "seconds": 9.24,
+    "peak": 0.5534457315778486,
+    "rms": 0.08999999999999998,
+    "edits": "Mono, 48kHz, DC removal, constant gain, 250ms circular seam crossfade. Original pitch retained."
+  },
+  {
+    "asset": "Ventilation_Loop",
+    "author": "iccleste",
+    "source": "https://freesound.org/people/iccleste/sounds/260815/",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "Public high-quality MP3 preview",
+    "sha256": "0ccc633b699059f3136b3ac593bb186283a1230a9a606da8b66fc65d3b3ac02d",
+    "source_excerpt": [
+      3,
+      53
+    ],
+    "seconds": 49.75,
+    "peak": 0.4170372195491046,
+    "rms": 0.07999999999999997,
+    "edits": "Mono, 48kHz, DC removal, constant gain, 250ms circular seam crossfade. Original pitch retained."
+  },
+  {
+    "asset": "Cable_Loop",
+    "author": "mikewest",
+    "source": "https://freesound.org/people/mikewest/sounds/394222/",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "Public high-quality MP3 preview",
+    "sha256": "ec46b42ed63a8151488d4c1bcf89eea8c2739e44259247b3f10f943c70eaed42",
+    "source_excerpt": [
+      1,
+      21
+    ],
+    "seconds": 19.75,
+    "peak": 0.7,
+    "rms": 0.04734279093750921,
+    "edits": "Mono, 48kHz, DC removal, constant gain, 250ms circular seam crossfade. Original pitch retained."
+  }
+]

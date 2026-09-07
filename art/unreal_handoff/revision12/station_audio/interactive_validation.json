@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "mode": "interactive",
+  "checks": [
+    "recorded footsteps preserved",
+    "title widget exists",
+    "title holds movement",
+    "title holds look",
+    "flashlight gated during title",
+    "scroll gated during title",
+    "movement restored",
+    "look restored",
+    "hints remain visible",
+    "F changes light and plays one click",
+    "second F plays second click",
+    "toggle acknowledged",
+    "scroll up narrows beam",
+    "scroll down restores width",
+    "scroll acknowledged",
+    "scroll does not click switch",
+    "onboarding removed",
+    "no lingering input lock"
+  ],
+  "elapsed": 19.13450813293457,
+  "switch_count": 2
+}

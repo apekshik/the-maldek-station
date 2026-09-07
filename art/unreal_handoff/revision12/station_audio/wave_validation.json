@@ -1,0 +1,27 @@
+[
+  {
+    "file": "art\\audio\\opening\\wav\\Flashlight_Off.wav",
+    "seconds": 0.15547916666666667,
+    "peak": 0.3499755859375
+  },
+  {
+    "file": "art\\audio\\opening\\wav\\Flashlight_On.wav",
+    "seconds": 0.1918125,
+    "peak": 0.350006103515625
+  },
+  {
+    "file": "art\\audio\\opening\\wav\\Opening_Atmosphere.wav",
+    "seconds": 35.0,
+    "peak": 0.52130126953125
+  },
+  {
+    "file": "art\\audio\\opening\\wav\\Station_Atmosphere.wav",
+    "seconds": 307.19952083333334,
+    "peak": 0.5999755859375
+  },
+  {
+    "file": "art\\unreal_handoff\\revision12\\station_audio\\approach_mix.wav",
+    "seconds": 10.026666666666667,
+    "peak": 0.2208251953125
+  }
+]

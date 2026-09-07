@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "near_to_far_db": 7.214106949937589,
+  "captures": [
+    {
+      "file": "cable_moving.wav",
+      "rms": 0.01720575459531622,
+      "peak": 0.19384765625
+    },
+    {
+      "file": "flashlight_clicks.wav",
+      "rms": 0.005754167457114141,
+      "peak": 0.300872802734375
+    },
+    {
+      "file": "flywheel_near.wav",
+      "rms": 0.017342754803081308,
+      "peak": 0.124542236328125
+    },
+    {
+      "file": "generator_far.wav",
+      "rms": 0.02094261357104664,
+      "peak": 0.105804443359375
+    },
+    {
+      "file": "generator_near.wav",
+      "rms": 0.048054739439729224,
+      "peak": 0.2828369140625
+    },
+    {
+      "file": "ventilation_near.wav",
+      "rms": 0.003199004621343002,
+      "peak": 0.016387939453125
+    }
+  ]
+}

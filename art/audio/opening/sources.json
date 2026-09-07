@@ -19,15 +19,22 @@
   },
   {
     "asset": "Opening_Atmosphere",
-    "author": "Nox_Sound_Design",
-    "source": "https://nox-sound-design.itch.io/essentials-series-sfx-nox-sound",
+    "author": "Paul Wortmann",
+    "source": "https://opengameart.org/content/dark-cavern-ambient",
     "license": "CC0-1.0",
-    "original": "Essentials_Series_NOX_SOUND/Nature_Essentials_NOX_SOUND/Ambiance_Cave_Dark_Loop_Stereo.wav",
-    "sha256": "2db110a3db4b5f59b74ee374c15930a1a2461fc0206bd83388b28648961c550c",
-    "excerpt_seconds": [
-      0,
-      14
-    ],
-    "edits": "Gain, 2.5-second fade-in, 5-second fade-out. No synthesized or generated audio."
+    "original": "A_dark_cavern_ambient_001.ogg",
+    "sha256": "3e364b94dc1fceff13d8d067af9f034f297cfa5d15ff9cecfbe02fd857801dce",
+    "seconds": 35.0,
+    "edits": "Constant gain and resampling. Opening: first 35 seconds, 2-second fade-in, 8-second fade-out. Station: creator-provided loop, runtime 5-second fade-in. No generated audio."
+  },
+  {
+    "asset": "Station_Atmosphere",
+    "author": "Tsorthan Grove",
+    "source": "https://opengameart.org/content/dark-ambient-drone-2",
+    "license": "CC-BY-4.0",
+    "original": "B_dark_ambient_drone_2_loop.flac",
+    "sha256": "dbbe8a56f020766dc22e00cfb8ba85913c3602f61a1761db0306e74c69e60002",
+    "seconds": 307.19952083333334,
+    "edits": "Constant gain and resampling. Opening: first 35 seconds, 2-second fade-in, 8-second fade-out. Station: creator-provided loop, runtime 5-second fade-in. No generated audio."
   }
 ]

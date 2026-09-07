@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "checks": [
+    "three fixed sources present",
+    "Generator loop playing",
+    "Generator positional and wall occlusion",
+    "Flywheel loop playing",
+    "Flywheel positional and wall occlusion",
+    "Ventilation loop playing",
+    "Ventilation positional and wall occlusion",
+    "flashlight click multiplier increased",
+    "cable targets moving system",
+    "both real toggles played",
+    "stationary cabin fades cable to silence",
+    "moving gondola activates cable",
+    "cable fades away at rest"
+  ],
+  "error": null
+}

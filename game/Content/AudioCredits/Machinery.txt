@@ -1,0 +1,23 @@
+MALDEK STATION - Recorded machinery and cable foley
+
+Diesel Power Generator.flac by qubodup
+https://freesound.org/people/qubodup/sounds/189896/
+Field recording of a diesel generator near a Berlin railway station.
+
+Foley_Mechanism_Wheel_Moderate_Rusty_Loop_Mono.wav by Nox_Sound
+https://freesound.org/people/Nox_Sound/sounds/559470/
+Recorded old coffee grinder; used as mechanical bearing/wheel foley.
+
+Industrial Machine Cycle.wav by iccleste
+https://freesound.org/people/iccleste/sounds/260815/
+Creator's edited extractor-fan recording; used for ventilation.
+
+Large rope pulley operated.wav by mikewest
+https://freesound.org/people/mikewest/sounds/394222/
+Studio recording of a large rope pulley; used for moving gondola cable foley.
+
+All four sources: CC0 1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+Downloaded public high-quality MP3 previews. Converted to mono 48kHz,
+excerpted, leveled and crossfaded at loop boundaries. Original pitch retained.
+No audio synthesized or generated.
