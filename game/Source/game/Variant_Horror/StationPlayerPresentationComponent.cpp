@@ -115,19 +115,29 @@ void UStationPlayerPresentationComponent::TickComponent(float Dt,ELevelTick Tick
  const float Run=FMath::Clamp((Speed-350.0f)/250.0f,0.0f,1.0f);
  const float TargetMotion=Grounded?FMath::Clamp(Speed/150.0f,0.0f,1.0f):0.0f;
  MotionWeight=FMath::Lerp(MotionWeight,TargetMotion,Blend);
+ IdleWeight=FMath::Lerp(IdleWeight,Grounded?1.0f-MotionWeight:0.0f,Blend);
+ // Independent slow rhythms avoid a rigid loop; all offsets stay centered, never accumulating aim drift.
+ BreathTime+=FMath::Min(Dt,0.05f);
+ const float Breath=FMath::Sin(BreathTime*2.0*PI*0.22);
+ const float Balance=0.75f*FMath::Sin(BreathTime*2.0*PI*0.13)+0.25f*FMath::Sin(BreathTime*2.0*PI*0.31+0.7);
+ const float IdleAmount=IdleWeight*IdleSwayScale*HeadBobScale;
+ const FVector IdleOffset=FVector(0.05f*Breath,0.20f*Balance,0.30f*Breath)*IdleAmount;
+ const FRotator IdleRotation(0.055f*Breath*IdleAmount,0.065f*Balance*IdleAmount,0.035f*Balance*IdleAmount);
  if(Grounded && Speed>5)Phase=FMath::Fmod(Phase+Speed*Dt/190.0f*2.0f*PI,4.0f*PI);
  if(Grounded && !bWasGrounded)LandingOffset=-FMath::Clamp(-PreviousVerticalSpeed/450.0f,0.0f,1.6f);
  LandingOffset=FMath::Lerp(LandingOffset,0.0f,Blend);
  const float Step=FMath::Sin(Phase),Sway=FMath::Sin(Phase*0.5f);
- ViewOffset=FVector(0,0.45f*Sway,(1.05f+0.6f*Run)*Step)*MotionWeight*HeadBobScale*StairBob+LocalGroundOffset;
+ const float GaitAmount=MotionWeight*HeadBobScale*StairBob;
+ ViewOffset=FVector(0,FMath::Lerp(WalkSwayCm,RunSwayCm,Run)*Sway,(1.05f+0.6f*Run)*Step)*GaitAmount+IdleOffset+LocalGroundOffset;
  ViewOffset.Z+=LandingOffset*HeadBobScale;
  Camera->ClearAdditiveOffset();
- Camera->AddAdditiveOffset(FTransform(FRotator(0.10f*Step*MotionWeight*HeadBobScale,0,0),ViewOffset),0);
+ const FRotator GaitRotation(0.10f*Step*GaitAmount,(0.06f+0.04f*Run)*Sway*GaitAmount,(0.10f+0.08f*Run)*Sway*GaitAmount);
+ Camera->AddAdditiveOffset(FTransform(GaitRotation+IdleRotation,ViewOffset),0);
  const FRotator Aim=Character->GetControlRotation();
  FVector2D TargetLag(FMath::Clamp(FMath::FindDeltaAngleDegrees(PreviousAim.Yaw,Aim.Yaw)/Dt*-0.006f,-2.2f,2.2f),FMath::Clamp(FMath::FindDeltaAngleDegrees(PreviousAim.Pitch,Aim.Pitch)/Dt*-0.006f,-1.8f,1.8f));
  AimLag=FMath::Lerp(AimLag,TargetLag,Blend);
- HeldRoot->SetRelativeLocation(FVector(0,0.35f*Sway,0.5f*Step+LandingOffset)*MotionWeight*StairBob+LocalGroundOffset);
- HeldRoot->SetRelativeRotation(FRotator(AimLag.Y+0.45f*Step*MotionWeight,AimLag.X+0.3f*Sway*MotionWeight,0.4f*Sway*MotionWeight));
+ HeldRoot->SetRelativeLocation(FVector(0,(0.45f+0.35f*Run)*Sway,0.5f*Step+LandingOffset)*MotionWeight*StairBob+IdleOffset+LocalGroundOffset);
+ HeldRoot->SetRelativeRotation(FRotator(AimLag.Y+0.45f*Step*MotionWeight,AimLag.X+0.3f*Sway*MotionWeight,0.4f*Sway*MotionWeight)+IdleRotation);
  PreviousAim=Aim;PreviousVerticalSpeed=Velocity.Z;bWasGrounded=Grounded;
 }
 

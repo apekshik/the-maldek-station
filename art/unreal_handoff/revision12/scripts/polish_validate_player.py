@@ -46,16 +46,22 @@ def tick(dt):
    s['checks']['toggle_on']=beam.is_visible()==s['initial_visible'];s['checks']['focus_retained']=c.get_target_focus()==0;c.set_focus(.35)
    p.set_actor_location(unreal.Vector(o[0]+2050,o[1],o[2]+500),False,True);m.stop_movement_immediately();s.update(phase='settle',next=now+2);return
   if s['phase']=='settle':
-   assert not m.is_falling();s['idle_count']=foot.footstep_count;s.update(phase='idle',next=now+2);return
+   assert not m.is_falling();s['idle_count']=foot.footstep_count;s['idle_samples']=[];s['idle_aim']=list(p.get_control_rotation().to_tuple());s.update(phase='idle',started=now,next=now);return
   if s['phase']=='idle':
-   s['checks']['idle_silent']=foot.footstep_count==s['idle_count'];s['checks']['idle_camera_settles']=c.get_view_offset().length()<.01
+   v=c.get_view_offset();s['idle_samples'].append([now-s['started'],v.y,v.z,p.get_velocity().length()])
+   if now-s['started']<8:return
+   s['checks']['idle_silent']=foot.footstep_count==s['idle_count']
+   s['checks']['idle_sway_subtle']=max(math.hypot(r[1],r[2]) for r in s['idle_samples'])<.5
+   s['checks']['idle_breathing_present']=max(r[2] for r in s['idle_samples'])-min(r[2] for r in s['idle_samples'])>.2
+   s['checks']['idle_capsule_stationary']=max(r[3] for r in s['idle_samples'])<.1
+   s['checks']['idle_aim_unchanged']=list(p.get_control_rotation().to_tuple())==s['idle_aim']
    s.update(phase='walk',started=now,next=now,direction=1);return
   if s['phase'] in ['walk','run']:
    phase=s['phase'];pos=p.get_actor_location();y=(pos.y-o[1])/100
    if y>5:s['direction']=-1
    if y<-6:s['direction']=1
    p.add_movement_input(unreal.Vector(0,s['direction'],0),1,False)
-   s['samples'][phase].append([round(now-s['started'],3),round(p.get_velocity().length(),2),round(c.get_view_offset().z,4),m.is_falling()])
+   s['samples'][phase].append([round(now-s['started'],3),round(p.get_velocity().length(),2),round(c.get_view_offset().z,4),m.is_falling(),round(c.get_view_offset().y,4)])
    if now-s['started']>(9 if phase=='walk' else 35):
     if phase=='walk':
      unreal.StationMigrationLibrary.send_pie_key('LeftShift',True);s.update(phase='run',started=now);return
@@ -63,13 +69,19 @@ def tick(dt):
     unreal.StationMigrationLibrary.send_pie_key('LeftShift',False);m.stop_movement_immediately();s.update(phase='stop',next=now+2);return
    return
   if s['phase']=='stop':
-   s['checks']['release_walk_speed']=abs(m.max_walk_speed-350)<1;s['checks']['camera_settles_after_run']=c.get_view_offset().length()<.01
+   s['checks']['release_walk_speed']=abs(m.max_walk_speed-350)<1;s['checks']['camera_returns_to_idle_after_run']=c.get_view_offset().length()<.5
    for name,rows in s['samples'].items():
     s['checks'][name+'_grounded']=all(not r[3] for r in rows);s['checks'][name+'_bob_bounded']=max(abs(r[2]) for r in rows)<2
    def hz(rows):
     rows=[r for r in rows if r[0]>1];return sum(a[2]<0<=z[2] for a,z in zip(rows,rows[1:]))/(rows[-1][0]-rows[0][0])
    s['cadence_hz']={n:hz(r) for n,r in s['samples'].items()};s['checks']['run_bob_faster']=s['cadence_hz']['run']>s['cadence_hz']['walk']*1.25
-   s['checks']['moving_footsteps']=foot.footstep_count>s['idle_count'];s['footsteps']=foot.footstep_count-s['idle_count'];finish()
+   s['lateral_range_cm']={n:max(r[4] for r in rows)-min(r[4] for r in rows) for n,rows in s['samples'].items()}
+   s['checks']['walk_sway_present']=s['lateral_range_cm']['walk']>1
+   s['checks']['run_sway_stronger']=s['lateral_range_cm']['run']>s['lateral_range_cm']['walk']*1.5
+   s['checks']['moving_footsteps']=foot.footstep_count>s['idle_count'];s['footsteps']=foot.footstep_count-s['idle_count']
+   s['saved_scale']=c.head_bob_scale;c.head_bob_scale=0;s.update(phase='steady',next=now+1);return
+  if s['phase']=='steady':
+   s['checks']['zero_scale_removes_sway']=c.get_view_offset().length()<.01;c.head_bob_scale=s['saved_scale'];finish()
  except Exception:s['error']=traceback.format_exc();finish()
  finally:s['busy']=False
 handle=unreal.register_slate_post_tick_callback(tick);ls.editor_request_begin_play();RESULT={'started':True}

@@ -29,8 +29,11 @@ public:
  UFUNCTION(BlueprintPure, Category="Flashlight") float GetTargetFocus() const { return TargetFocus; }
  UFUNCTION(BlueprintPure, Category="Walking") FVector GetViewOffset() const { return ViewOffset; }
 
- /** Set to zero for a steady camera; hand motion remains restrained. */
+ /** Scales breathing and gait motion; zero removes voluntary sway but retains stair smoothing. */
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="1.5")) float HeadBobScale=0.7f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="2")) float IdleSwayScale=1.0f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="3")) float WalkSwayCm=0.9f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="3")) float RunSwayCm=1.65f;
  /** Critically damped ground-height response; never changes capsule collision. */
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="6",ClampMax="40")) float GroundHeightResponse=18.0f;
  UPROPERTY(EditAnywhere, Category="Flashlight", meta=(ClampMin="0",ClampMax="1")) float InitialFocus=0.35f;
@@ -51,6 +54,8 @@ private:
  FVector2D AimLag=FVector2D::ZeroVector;
  FVector ViewOffset=FVector::ZeroVector;
  double SmoothedGroundZ=0;
+ double BreathTime=0;
+ float IdleWeight=0;
  float GroundZVelocity=0;
  FVector PreviousCapsuleLocation=FVector::ZeroVector;
  void UpdateBeam();
