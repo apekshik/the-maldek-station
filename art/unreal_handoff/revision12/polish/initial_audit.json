@@ -1,0 +1,7780 @@
+{
+  "game_mode": "/Game/MaldekRefinement/ForestTest/BP_ForestGameMode.BP_ForestGameMode_C",
+  "pawn": "/Game/MaldekRefinement/ForestTest/BP_ForestWalker.BP_ForestWalker_C",
+  "components": [
+    {
+      "name": "Default__BP_ForestWalker_C",
+      "class": "BP_ForestWalker_C",
+      "walk_speed": "350.0",
+      "sprint_speed": "600.0"
+    },
+    {
+      "name": "TorchLens_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A5980) {x: 41.400000, y: 17.500000, z: -11.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A5998) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A59B0) {x: 0.059000, y: 0.059000, z: 0.004000}>"
+    },
+    {
+      "name": "TorchRim_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A6180) {x: 40.700000, y: 17.500000, z: -11.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A6198) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A61B0) {x: 0.072000, y: 0.072000, z: 0.007000}>"
+    },
+    {
+      "name": "GlovedPalm_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A6980) {x: 20.000000, y: 18.000000, z: -15.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A6998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A69B0) {x: 0.100000, y: 0.070000, z: 0.060000}>"
+    },
+    {
+      "name": "GlovedThumb_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A7180) {x: 23.000000, y: 14.500000, z: -12.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A7198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A71B0) {x: 0.050000, y: 0.035000, z: 0.040000}>"
+    },
+    {
+      "name": "JacketSleeve_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A7980) {x: 8.000000, y: 24.000000, z: -24.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A7998) {pitch: 35.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A79B0) {x: 0.280000, y: 0.100000, z: 0.100000}>"
+    },
+    {
+      "name": "GlovedFinger0_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A8180) {x: 21.000000, y: 20.000000, z: -12.500000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A8198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A81B0) {x: 0.015000, y: 0.040000, z: 0.050000}>"
+    },
+    {
+      "name": "GlovedFinger1_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A8980) {x: 22.600000, y: 20.000000, z: -12.500000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A8998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A89B0) {x: 0.015000, y: 0.040000, z: 0.050000}>"
+    },
+    {
+      "name": "GlovedFinger2_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A4180) {x: 24.200000, y: 20.000000, z: -12.500000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A4198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A41B0) {x: 0.015000, y: 0.040000, z: 0.050000}>"
+    },
+    {
+      "name": "GlovedFinger3_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A4980) {x: 25.800000, y: 20.000000, z: -12.500000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A4998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A49B0) {x: 0.015000, y: 0.040000, z: 0.050000}>"
+    },
+    {
+      "name": "TorchHead_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A5180) {x: 39.000000, y: 17.500000, z: -11.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A5198) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A51B0) {x: 0.070000, y: 0.070000, z: 0.045000}>"
+    },
+    {
+      "name": "CharacterMesh0",
+      "class": "SkeletalMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD3FC980) {x: -20.000000, y: 0.000000, z: -96.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD3FC998) {pitch: 0.000000, yaw: -90.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD3FC9B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+    },
+    {
+      "name": "CollisionCylinder",
+      "class": "CapsuleComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CBEFA980) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CBEFA998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CBEFA9B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+    },
+    {
+      "name": "Arrow",
+      "class": "ArrowComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CBEFB080) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CBEFB098) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CBEFB0B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+    },
+    {
+      "name": "First Person Mesh",
+      "class": "SkeletalMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CDEE0180) {x: 0.000000, y: 0.000000, z: 0.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CDEE0198) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CDEE01B0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+    },
+    {
+      "name": "TorchBody_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CD5A3980) {x: 27.000000, y: 17.500000, z: -11.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CD5A3998) {pitch: 90.000000, yaw: 0.000000, roll: 0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CD5A39B0) {x: 0.048000, y: 0.048000, z: 0.210000}>"
+    },
+    {
+      "name": "First Person Camera",
+      "class": "CameraComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CBF76D80) {x: -2.800000, y: 5.890000, z: 0.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CBF76D98) {pitch: -0.000000, yaw: 90.000000, roll: -90.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CBF76DB0) {x: 1.000000, y: 1.000000, z: 1.000000}>"
+    },
+    {
+      "name": "SpotLight",
+      "class": "SpotLightComponent",
+      "relative_location": "<Struct 'Vector' (0x00000219CBE88880) {x: 42.000000, y: 17.500000, z: -11.000000}>",
+      "relative_rotation": "<Struct 'Rotator' (0x00000219CBE88898) {pitch: -12.000000, yaw: -1.300000, roll: -0.000000}>",
+      "relative_scale3d": "<Struct 'Vector' (0x00000219CBE888B0) {x: 1.000000, y: 1.000000, z: 1.000000}>",
+      "intensity": "1.2000000476837158",
+      "attenuation_radius": "1500.0",
+      "shadow_bias": "0.5",
+      "shadow_slope_bias": "0.5",
+      "cast_raytraced_shadow": "<CastRayTracedShadow.USE_PROJECT_SETTING: 1>",
+      "light_function_material": "<Object '/Game/MaldekRefinement/R10/Materials/M_Flashlight_Optics.M_Flashlight_Optics' (0x00000219BA953800) Class 'Material'>",
+      "source_radius": "0.0",
+      "contact_shadow_length": "0.0"
+    },
+    {
+      "name": "SurfaceFootsteps",
+      "class": "SurfaceFootstepComponent"
+    },
+    {
+      "name": "CharMoveComp",
+      "class": "CharacterMovementComponent"
+    }
+  ],
+  "actors": [
+    {
+      "name": "PlayerStart_0",
+      "label": "PlayerStart",
+      "location": [
+        -40782.305974972965,
+        12424.707549061975,
+        9908.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ]
+    },
+    {
+      "name": "PointLight_0",
+      "label": "PointLight",
+      "location": [
+        -42582.245998552775,
+        18380.952227059548,
+        10547.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "PointLight_2",
+      "label": "PointLight3",
+      "location": [
+        -44464.245947982716,
+        19024.95233121732,
+        10660.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "Landscape_0",
+      "label": "Landscape0",
+      "location": [
+        -105812.0,
+        -138209.0,
+        23763.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CineCameraActor_0",
+      "label": "CineCameraActor",
+      "location": [
+        -46482.305974972965,
+        21074.707549061975,
+        11698.5
+      ],
+      "rotation": [
+        0.0,
+        -25.0,
+        -45.0
+      ]
+    },
+    {
+      "name": "PointLight_5",
+      "label": "PointLight6",
+      "location": [
+        -46748.0,
+        172964.0,
+        41833.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PointLight_6",
+      "label": "PointLight7",
+      "location": [
+        -46141.0,
+        16817.0,
+        10363.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_0",
+      "label": "R04_01_Upper_Platform",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_8",
+      "label": "R04_02_Control_Room",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_16",
+      "label": "R04_03_Waiting_Hall",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_63",
+      "label": "R04_04_Lower_Drive",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_66",
+      "label": "R04_05_Generator_Room",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_68",
+      "label": "R04_06_Stairs_and_Landings",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_91",
+      "label": "R04_07_Overlook",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_94",
+      "label": "R04_08_Fuel_Yard",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_103",
+      "label": "R04_10_Parking_and_Arrival",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_214",
+      "label": "R04_11_Doors_Door_Control_Platform",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_216",
+      "label": "R04_11_Doors_Door_Generator_Yard",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_221",
+      "label": "R04_13_Roofs",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_223",
+      "label": "R04_14_Site_Structure",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_227",
+      "label": "R04_18_Cliff_Anchors",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_1",
+      "label": "R04_Local_Terrain",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_2",
+      "label": "R04_09_Relay_and_Paths",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "InstancedFoliageActor_0",
+      "label": "InstancedFoliageActor0",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LocalFogVolume_0",
+      "label": "R07_Local_Station_Mist",
+      "location": [
+        -44150.0,
+        18750.0,
+        10200.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LocalFogVolume_1",
+      "label": "R07_Relay_Approach_Mist",
+      "location": [
+        -47600.0,
+        19700.0,
+        10200.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_0",
+      "label": "R07_TestLight_Main_Platform_West",
+      "location": [
+        -44830.0,
+        18560.0,
+        10565.0
+      ],
+      "rotation": [
+        3.2175523756450275e-07,
+        -25.319013595581055,
+        97.12501525878906
+      ]
+    },
+    {
+      "name": "SpotLight_1",
+      "label": "R07_TestLight_Main_Platform_East",
+      "location": [
+        -43600.0,
+        18540.0,
+        10565.0
+      ],
+      "rotation": [
+        3.5785635077445477e-07,
+        -27.191679000854492,
+        101.09371948242188
+      ]
+    },
+    {
+      "name": "SpotLight_2",
+      "label": "R07_TestLight_Lower_Deck_Machine",
+      "location": [
+        -44750.0,
+        18700.0,
+        10225.0
+      ],
+      "rotation": [
+        2.4172425128199393e-07,
+        -28.42465591430664,
+        65.55604553222656
+      ]
+    },
+    {
+      "name": "SpotLight_3",
+      "label": "R07_TestLight_Lower_Deck_Exit",
+      "location": [
+        -44100.0,
+        18850.0,
+        10210.0
+      ],
+      "rotation": [
+        3.2328225074707007e-07,
+        -23.19827651977539,
+        105.94539642333984
+      ]
+    },
+    {
+      "name": "SpotLight_4",
+      "label": "R07_TestLight_Relay_Path_Bend",
+      "location": [
+        -47580.0,
+        20680.0,
+        10650.0
+      ],
+      "rotation": [
+        -2.60746219282737e-07,
+        -34.911495208740234,
+        -58.815025329589844
+      ]
+    },
+    {
+      "name": "SpotLight_5",
+      "label": "R07_TestLight_Relay_Door",
+      "location": [
+        -49050.0,
+        20050.0,
+        10480.0
+      ],
+      "rotation": [
+        6.804257424164462e-08,
+        -29.752092361450195,
+        17.700428009033203
+      ]
+    },
+    {
+      "name": "StaticMeshActor_3",
+      "label": "R08_Control_Entry_Backplate",
+      "location": [
+        -43902.305975,
+        18489.20755,
+        10553.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_4",
+      "label": "R08_Control_Entry_Housing",
+      "location": [
+        -43902.305975,
+        18495.70755,
+        10553.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_5",
+      "label": "R08_Control_Entry_Hood",
+      "location": [
+        -43902.305975,
+        18497.70755,
+        10568.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_6",
+      "label": "R08_Control_Entry_Diffuser",
+      "location": [
+        -43902.305975,
+        18501.70755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_7",
+      "label": "R08_Control_Entry_Guard_Left",
+      "location": [
+        -43908.305975,
+        18503.00755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_9",
+      "label": "R08_Control_Entry_Guard_Right",
+      "location": [
+        -43896.305975,
+        18503.00755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_10",
+      "label": "R08_Control_Entry_Guard_Crossbar",
+      "location": [
+        -43902.305975,
+        18503.20755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_11",
+      "label": "R08_Control_Entry_Conduit",
+      "location": [
+        -43902.305975,
+        18489.20755,
+        10602.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_6",
+      "label": "R08_WallLight_Control_Entry",
+      "location": [
+        -43952.305974972965,
+        18506.707549061975,
+        10552.0
+      ],
+      "rotation": [
+        6.350375088004512e-07,
+        -65.6265640258789,
+        90.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_12",
+      "label": "R08_Waiting_Hall_Entry_Backplate",
+      "location": [
+        -42992.305975,
+        18489.20755,
+        10553.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_13",
+      "label": "R08_Waiting_Hall_Entry_Housing",
+      "location": [
+        -42992.305975,
+        18495.70755,
+        10553.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_14",
+      "label": "R08_Waiting_Hall_Entry_Hood",
+      "location": [
+        -42992.305975,
+        18497.70755,
+        10568.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_15",
+      "label": "R08_Waiting_Hall_Entry_Diffuser",
+      "location": [
+        -42992.305975,
+        18501.70755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_17",
+      "label": "R08_Waiting_Hall_Entry_Guard_Left",
+      "location": [
+        -42998.305975,
+        18503.00755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_18",
+      "label": "R08_Waiting_Hall_Entry_Guard_Right",
+      "location": [
+        -42986.305975,
+        18503.00755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_19",
+      "label": "R08_Waiting_Hall_Entry_Guard_Crossbar",
+      "location": [
+        -42992.305975,
+        18503.20755,
+        10551.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_20",
+      "label": "R08_Waiting_Hall_Entry_Conduit",
+      "location": [
+        -42992.305975,
+        18489.20755,
+        10602.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_7",
+      "label": "R08_WallLight_Waiting_Hall_Entry",
+      "location": [
+        -43257.305974972965,
+        18506.707549061975,
+        10557.0
+      ],
+      "rotation": [
+        6.350375088004512e-07,
+        -65.6265640258789,
+        90.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_220",
+      "label": "R04_12_Gondola",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_21",
+      "label": "R09_Cabin_Ceiling_Housing",
+      "location": [
+        -44282.306,
+        19279.708,
+        10522.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_22",
+      "label": "R09_Cabin_Ceiling_Diffuser",
+      "location": [
+        -44282.306,
+        19279.708,
+        10519.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_8",
+      "label": "R09_Light_Cabin_Ceiling",
+      "location": [
+        -44282.305974972965,
+        19114.707549061975,
+        10521.5
+      ],
+      "rotation": [
+        0.0,
+        -90.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_23",
+      "label": "R09_Canopy_Left_Housing",
+      "location": [
+        -44442.306,
+        18875.0,
+        10643.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_24",
+      "label": "R09_Canopy_Left_Lens",
+      "location": [
+        -44442.306,
+        18875.0,
+        10638.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_9",
+      "label": "R09_Light_Canopy_Left",
+      "location": [
+        -44442.306,
+        18875.0,
+        10634.0
+      ],
+      "rotation": [
+        3.6249605273042107e-07,
+        -69.68614959716797,
+        49.89909362792969
+      ]
+    },
+    {
+      "name": "StaticMeshActor_25",
+      "label": "R09_Canopy_Right_Housing",
+      "location": [
+        -44122.306,
+        18875.0,
+        10643.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_26",
+      "label": "R09_Canopy_Right_Lens",
+      "location": [
+        -44122.306,
+        18875.0,
+        10638.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_10",
+      "label": "R09_Light_Canopy_Right",
+      "location": [
+        -44122.306,
+        18875.0,
+        10634.0
+      ],
+      "rotation": [
+        9.451286473449727e-07,
+        -69.68614959716797,
+        130.1009063720703
+      ]
+    },
+    {
+      "name": "StaticMeshActor_27",
+      "label": "R09_Boarding_Panel",
+      "location": [
+        -44365.0,
+        18965.0,
+        10453.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_28",
+      "label": "R09_Boarding_Green_Lens",
+      "location": [
+        -44365.0,
+        18960.5,
+        10460.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_29",
+      "label": "R09_Boarding_Red_Lens_Off",
+      "location": [
+        -44365.0,
+        18960.5,
+        10447.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PointLight_1",
+      "label": "R09_Boarding_Indicator_Glow",
+      "location": [
+        -44365.0,
+        18957.0,
+        10460.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_30",
+      "label": "R10_Forest_Approach",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "AmbientSound_0",
+      "label": "R10_Forest_Wind",
+      "location": [
+        -44282.0,
+        18475.0,
+        10300.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_31",
+      "label": "R10_Distant_Station",
+      "location": [
+        -44282.0,
+        158475.0,
+        32427.830253560303
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_32",
+      "label": "R10_Distant_Window_0",
+      "location": [
+        -44632.0,
+        158069.0,
+        32467.830253560303
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_33",
+      "label": "R10_Distant_Window_1",
+      "location": [
+        -44282.0,
+        158069.0,
+        32467.830253560303
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_34",
+      "label": "R10_Distant_Window_2",
+      "location": [
+        -43932.0,
+        158069.0,
+        32467.830253560303
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_35",
+      "label": "R10_Hall_Foundation_0",
+      "location": [
+        -42552.305974972965,
+        17744.707549061975,
+        10078.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_36",
+      "label": "R10_Hall_Foundation_1",
+      "location": [
+        -42552.305974972965,
+        18424.707549061975,
+        10078.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_37",
+      "label": "R10_Hall_Foundation_2",
+      "location": [
+        -42992.305974972965,
+        17744.707549061975,
+        10078.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_38",
+      "label": "R04_20_Lookout_Bridge",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_39",
+      "label": "R04_21_Maintenance",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_40",
+      "label": "R11_Lookout_Rail_Lamp_Housing",
+      "location": [
+        -46424.305974972965,
+        22074.707549061975,
+        10406.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_41",
+      "label": "R11_Lookout_Rail_Lamp_Lens",
+      "location": [
+        -46424.305974972965,
+        22074.707549061975,
+        10399.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_11",
+      "label": "R11_Lookout_Rail_Lamp_Light",
+      "location": [
+        -46424.305974972965,
+        22074.707549061975,
+        10399.0
+      ],
+      "rotation": [
+        -9.262521416530944e-08,
+        -20.56129264831543,
+        -34.045936584472656
+      ]
+    },
+    {
+      "name": "StaticMeshActor_42",
+      "label": "R11_Generator_Entrance_Housing",
+      "location": [
+        -46967.305974972965,
+        16974.707549061975,
+        10063.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_43",
+      "label": "R11_Generator_Entrance_Lens",
+      "location": [
+        -46967.305974972965,
+        16974.707549061975,
+        10056.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_12",
+      "label": "R11_Generator_Entrance_Light",
+      "location": [
+        -46967.305974972965,
+        16974.707549061975,
+        10056.0
+      ],
+      "rotation": [
+        0.0,
+        -58.95450973510742,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_44",
+      "label": "R11_Generator_Ceiling_Housing",
+      "location": [
+        -47282.305974972965,
+        17074.707549061975,
+        10126.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_45",
+      "label": "R11_Generator_Ceiling_Lens",
+      "location": [
+        -47282.305974972965,
+        17074.707549061975,
+        10119.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_13",
+      "label": "R11_Generator_Ceiling_Light",
+      "location": [
+        -47282.305974972965,
+        17074.707549061975,
+        10119.0
+      ],
+      "rotation": [
+        0.0,
+        -90.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_46",
+      "label": "R11_Workshop_Ceiling_Housing",
+      "location": [
+        -47732.305974972965,
+        16924.707549061975,
+        10126.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_47",
+      "label": "R11_Workshop_Ceiling_Lens",
+      "location": [
+        -47732.305974972965,
+        16924.707549061975,
+        10119.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_14",
+      "label": "R11_Workshop_Ceiling_Light",
+      "location": [
+        -47732.305974972965,
+        16924.707549061975,
+        10119.0
+      ],
+      "rotation": [
+        0.0,
+        -90.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_48",
+      "label": "R11_Fuel_Yard_Exit_Housing",
+      "location": [
+        -47282.305974972965,
+        16559.707549061975,
+        10058.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_49",
+      "label": "R11_Fuel_Yard_Exit_Lens",
+      "location": [
+        -47282.305974972965,
+        16559.707549061975,
+        10051.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_15",
+      "label": "R11_Fuel_Yard_Exit_Light",
+      "location": [
+        -47282.305974972965,
+        16559.707549061975,
+        10051.0
+      ],
+      "rotation": [
+        -5.623807624033361e-07,
+        -53.7707633972168,
+        -90.0
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_6",
+      "label": "FT_Goat_Willow_000",
+      "location": [
+        -42070.16648422595,
+        15659.75963488648,
+        9869.82911084084
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -3.716156005859375
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_7",
+      "label": "FT_European_Beech_001",
+      "location": [
+        -43210.18462334573,
+        15169.57346473412,
+        9819.615499802785
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        28.753393173217773
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_8",
+      "label": "FT_European_Aspen_002",
+      "location": [
+        -41647.12201925591,
+        13657.242324197658,
+        9844.262623853756
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        95.51612091064453
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_9",
+      "label": "FT_Goat_Willow_003",
+      "location": [
+        -41165.83178795386,
+        14953.927909385691,
+        9863.469652828033
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -163.57675170898438
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_10",
+      "label": "FT_European_Beech_004",
+      "location": [
+        -40512.51099158476,
+        13659.867308069013,
+        9838.864000286383
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        177.6346893310547
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_11",
+      "label": "FT_Goat_Willow_005",
+      "location": [
+        -41787.90006249865,
+        13989.999676918998,
+        9925.598073432118
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -50.84417724609375
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_12",
+      "label": "FT_European_Beech_006",
+      "location": [
+        -42415.53366282881,
+        14730.106459955303,
+        9874.307354371058
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        95.09913635253906
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_13",
+      "label": "FT_Goat_Willow_007",
+      "location": [
+        -41514.45660136037,
+        12555.737948908496,
+        9795.51685586878
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        83.85757446289062
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_14",
+      "label": "FT_European_Beech_008",
+      "location": [
+        -42342.64505519796,
+        15703.569579983323,
+        9921.665634787141
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        110.26795959472656
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_15",
+      "label": "FT_Goat_Willow_009",
+      "location": [
+        -41538.45210074618,
+        13966.415828376736,
+        9879.345585621762
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        115.87586975097656
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_16",
+      "label": "FT_Goat_Willow_010",
+      "location": [
+        -40997.83730544048,
+        16063.382880698327,
+        9921.046542623728
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        82.79021453857422
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_17",
+      "label": "FT_European_Aspen_011",
+      "location": [
+        -42884.25702618484,
+        15435.14937897013,
+        9987.130965431277
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -156.66818237304688
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_18",
+      "label": "FT_European_Beech_012",
+      "location": [
+        -42199.2841161001,
+        13731.334093066971,
+        9860.231692986164
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        89.54345703125
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_19",
+      "label": "FT_European_Beech_013",
+      "location": [
+        -40721.61340048479,
+        15060.917237504109,
+        9898.991089343124
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -8.108734130859375
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_20",
+      "label": "FT_European_Beech_014",
+      "location": [
+        -42529.23312205418,
+        15314.542104668097,
+        9918.655905708014
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -113.64614868164062
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_21",
+      "label": "FT_European_Beech_015",
+      "location": [
+        -40990.284919869904,
+        15365.279996847534,
+        9928.334607148196
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -170.41986083984375
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_22",
+      "label": "FT_European_Aspen_016",
+      "location": [
+        -42403.98157045944,
+        14072.82239062303,
+        9855.527459573103
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -95.6153564453125
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_23",
+      "label": "FT_European_Aspen_017",
+      "location": [
+        -40451.50170785465,
+        14513.085971996063,
+        9826.89956579026
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        56.305450439453125
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_24",
+      "label": "FT_European_Beech_018",
+      "location": [
+        -42010.13039647203,
+        13463.050020473835,
+        9843.923832445184
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -63.13983154296875
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_25",
+      "label": "FT_European_Beech_019",
+      "location": [
+        -41605.03556577153,
+        11762.167846514021,
+        9668.736189850966
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -15.7490234375
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_26",
+      "label": "FT_European_Beech_020",
+      "location": [
+        -40445.12598087444,
+        14817.821894292852,
+        9856.024124227706
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        129.18116760253906
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_27",
+      "label": "FT_European_Beech_021",
+      "location": [
+        -40723.5102363225,
+        15362.760738234569,
+        9961.53439092842
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -85.482666015625
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_28",
+      "label": "FT_European_Beech_022",
+      "location": [
+        -40229.05039890439,
+        13021.866651338976,
+        9790.800120583772
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        170.20895385742188
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_29",
+      "label": "FT_European_Beech_023",
+      "location": [
+        -40285.436418074256,
+        13825.079420706426,
+        9854.363521405188
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        13.5038423538208
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_30",
+      "label": "FT_European_Beech_024",
+      "location": [
+        -41657.76948811488,
+        12265.402176059531,
+        9809.48254535873
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -15.702667236328125
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_31",
+      "label": "FT_European_Beech_025",
+      "location": [
+        -42405.56915516287,
+        15023.052335188748,
+        9883.763819101874
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        64.81425476074219
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_32",
+      "label": "FT_European_Beech_026",
+      "location": [
+        -40308.767343320884,
+        16022.25527355562,
+        9832.170447198992
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -10.340240478515625
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_33",
+      "label": "FT_European_Beech_027",
+      "location": [
+        -42554.32264995082,
+        13401.187114500435,
+        9768.74270978185
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -154.83883666992188
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_34",
+      "label": "FT_European_Beech_028",
+      "location": [
+        -40410.512096574945,
+        15134.113508025583,
+        9813.498693757125
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -87.31845092773438
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_35",
+      "label": "FT_European_Beech_029",
+      "location": [
+        -42620.40755156336,
+        15900.450291048843,
+        9918.927691085819
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -127.26715087890625
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_36",
+      "label": "FT_Goat_Willow_030",
+      "location": [
+        -40841.17883994871,
+        13417.33960572039,
+        9835.271544310826
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -58.56524658203125
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_37",
+      "label": "FT_European_Beech_031",
+      "location": [
+        -42390.94430362679,
+        12270.933791603024,
+        9422.772994600966
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        168.61965942382812
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_38",
+      "label": "FT_European_Beech_032",
+      "location": [
+        -40429.98417072864,
+        13363.131447711137,
+        9839.519169782898
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        91.78857421875
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_39",
+      "label": "FT_Goat_Willow_033",
+      "location": [
+        -41024.9433468795,
+        14665.891417441686,
+        9833.61493272348
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -95.18023681640625
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_40",
+      "label": "FT_Goat_Willow_034",
+      "location": [
+        -40793.52420113646,
+        15688.098294391715,
+        9966.41604606398
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        35.087276458740234
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_41",
+      "label": "FT_European_Beech_035",
+      "location": [
+        -42048.17286249935,
+        12714.953749006665,
+        9810.310328290107
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        162.4506378173828
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_42",
+      "label": "FT_European_Aspen_036",
+      "location": [
+        -42458.24899135788,
+        12918.182294240665,
+        9874.753172037677
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        46.8145866394043
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_43",
+      "label": "FT_European_Beech_037",
+      "location": [
+        -42419.80431224487,
+        14333.6649091154,
+        9857.716860942823
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        169.09548950195312
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_44",
+      "label": "FT_European_Beech_038",
+      "location": [
+        -41964.02174702382,
+        14174.265442170592,
+        9921.58558654663
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        109.29107666015625
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_45",
+      "label": "FT_European_Aspen_039",
+      "location": [
+        -40525.675463059255,
+        14064.46601823815,
+        9816.324057572823
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        32.44208908081055
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_46",
+      "label": "FT_European_Beech_040",
+      "location": [
+        -39862.7041851984,
+        14133.756762210995,
+        9802.068416889328
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        88.55818176269531
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_47",
+      "label": "FT_European_Beech_041",
+      "location": [
+        -42150.97847298368,
+        13180.8182345122,
+        9837.055598110708
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        159.85379028320312
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_48",
+      "label": "FT_European_Beech_042",
+      "location": [
+        -40275.75151870506,
+        14218.44889681607,
+        9854.329532824338
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -5.01544189453125
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_49",
+      "label": "FT_European_Beech_043",
+      "location": [
+        -39981.31298956589,
+        14450.377240100153,
+        9850.870165573493
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -79.8248291015625
+      ]
+    },
+    {
+      "name": "SkeletalMeshActor_50",
+      "label": "FT_Goat_Willow_044",
+      "location": [
+        -42148.35269881105,
+        14421.156288823557,
+        9890.369611593354
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -161.98162841796875
+      ]
+    },
+    {
+      "name": "StaticMeshActor_79",
+      "label": "FT_RockPatch_00",
+      "location": [
+        -41964.063066969306,
+        15567.9071441994,
+        9842.24844280073
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -172.8796844482422
+      ]
+    },
+    {
+      "name": "StaticMeshActor_80",
+      "label": "FT_RockPatch_01",
+      "location": [
+        -40675.6831579085,
+        14033.015377335214,
+        9805.326063924878
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        142.61257934570312
+      ]
+    },
+    {
+      "name": "StaticMeshActor_81",
+      "label": "FT_RockPatch_02",
+      "location": [
+        -41604.960750605795,
+        13914.952810966493,
+        9861.342838803768
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -177.18289184570312
+      ]
+    },
+    {
+      "name": "StaticMeshActor_82",
+      "label": "FT_RockPatch_03",
+      "location": [
+        -42852.853505505846,
+        16116.806442241439,
+        9909.975715561868
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        53.267539978027344
+      ]
+    },
+    {
+      "name": "StaticMeshActor_83",
+      "label": "FT_RockPatch_04",
+      "location": [
+        -40698.506622291694,
+        12468.584111113913,
+        9782.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        58.40190124511719
+      ]
+    },
+    {
+      "name": "StaticMeshActor_84",
+      "label": "FT_RockPatch_05",
+      "location": [
+        -41192.78389619778,
+        15497.065063938751,
+        9868.90840189564
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        73.09933471679688
+      ]
+    },
+    {
+      "name": "StaticMeshActor_85",
+      "label": "FT_RockPatch_06",
+      "location": [
+        -41422.465010705535,
+        13976.472963693615,
+        9824.681539695095
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -179.56365966796875
+      ]
+    },
+    {
+      "name": "StaticMeshActor_86",
+      "label": "FT_RockPatch_07",
+      "location": [
+        -40860.65281513003,
+        13654.078151767091,
+        9809.425049231933
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -93.3580322265625
+      ]
+    },
+    {
+      "name": "StaticMeshActor_87",
+      "label": "FT_RockPatch_08",
+      "location": [
+        -40730.64163299554,
+        14412.907379549393,
+        9807.554340750914
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -49.0465087890625
+      ]
+    },
+    {
+      "name": "StaticMeshActor_88",
+      "label": "FT_RockPatch_09",
+      "location": [
+        -41990.65648590425,
+        14748.135783685764,
+        9839.081462902703
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        45.109554290771484
+      ]
+    },
+    {
+      "name": "StaticMeshActor_89",
+      "label": "FT_RockPatch_10",
+      "location": [
+        -41928.2890829051,
+        15677.232488514794,
+        9856.615567359857
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        21.602310180664062
+      ]
+    },
+    {
+      "name": "StaticMeshActor_90",
+      "label": "FT_RockPatch_11",
+      "location": [
+        -42159.833210085235,
+        15223.470731364272,
+        9856.959793357817
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        41.083011627197266
+      ]
+    },
+    {
+      "name": "StaticMeshActor_92",
+      "label": "FT_RockPatch_12",
+      "location": [
+        -41927.55511105287,
+        15345.947779778471,
+        9839.717786624504
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        36.75898742675781
+      ]
+    },
+    {
+      "name": "StaticMeshActor_93",
+      "label": "FT_RockPatch_13",
+      "location": [
+        -42778.61754224304,
+        16125.108005721448,
+        9880.397470891296
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        83.90999603271484
+      ]
+    },
+    {
+      "name": "StaticMeshActor_95",
+      "label": "FT_RockPatch_14",
+      "location": [
+        -40786.328494112546,
+        14123.834672618937,
+        9808.349760305515
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        32.736839294433594
+      ]
+    },
+    {
+      "name": "StaticMeshActor_96",
+      "label": "FT_Marker_0_Post",
+      "location": [
+        -40728.24751608397,
+        12972.919956778478,
+        9830.009338368583
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_97",
+      "label": "FT_Marker_0_Cap",
+      "location": [
+        -40728.24751608397,
+        12972.919956778478,
+        9876.009338368583
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_98",
+      "label": "FT_Marker_0_Lens",
+      "location": [
+        -40728.24751608397,
+        12972.919956778478,
+        9868.009338368583
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_22",
+      "label": "FT_Marker_0_Light",
+      "location": [
+        -40728.24751608397,
+        12972.919956778478,
+        9868.009338368583
+      ],
+      "rotation": [
+        -3.261103529439424e-07,
+        -22.515060424804688,
+        -109.93889617919922
+      ]
+    },
+    {
+      "name": "StaticMeshActor_99",
+      "label": "FT_Marker_1_Post",
+      "location": [
+        -41155.1794820805,
+        13394.89528990652,
+        9845.01700001967
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_100",
+      "label": "FT_Marker_1_Cap",
+      "location": [
+        -41155.1794820805,
+        13394.89528990652,
+        9891.01700001967
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_101",
+      "label": "FT_Marker_1_Lens",
+      "location": [
+        -41155.1794820805,
+        13394.89528990652,
+        9883.01700001967
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_23",
+      "label": "FT_Marker_1_Light",
+      "location": [
+        -41155.1794820805,
+        13394.89528990652,
+        9883.01700001967
+      ],
+      "rotation": [
+        4.4347217453832855e-07,
+        -22.323179244995117,
+        150.72267150878906
+      ]
+    },
+    {
+      "name": "StaticMeshActor_102",
+      "label": "FT_Marker_2_Post",
+      "location": [
+        -41430.78765031387,
+        14759.538348187307,
+        9874.356295811975
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_104",
+      "label": "FT_Marker_2_Cap",
+      "location": [
+        -41430.78765031387,
+        14759.538348187307,
+        9920.356295811975
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_105",
+      "label": "FT_Marker_2_Lens",
+      "location": [
+        -41430.78765031387,
+        14759.538348187307,
+        9912.356295811975
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_24",
+      "label": "FT_Marker_2_Light",
+      "location": [
+        -41430.78765031387,
+        14759.538348187307,
+        9912.356295811975
+      ],
+      "rotation": [
+        -4.175959134045115e-07,
+        -23.386667251586914,
+        -135.8124237060547
+      ]
+    },
+    {
+      "name": "StaticMeshActor_106",
+      "label": "FT_Marker_3_Post",
+      "location": [
+        -41324.552539535034,
+        15611.411236709562,
+        9898.052603802273
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_107",
+      "label": "FT_Marker_3_Cap",
+      "location": [
+        -41324.552539535034,
+        15611.411236709562,
+        9944.052603802273
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_108",
+      "label": "FT_Marker_3_Lens",
+      "location": [
+        -41324.552539535034,
+        15611.411236709562,
+        9936.052603802273
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_25",
+      "label": "FT_Marker_3_Light",
+      "location": [
+        -41324.552539535034,
+        15611.411236709562,
+        9936.052603802273
+      ],
+      "rotation": [
+        5.087040335638449e-07,
+        -23.280351638793945,
+        166.15623474121094
+      ]
+    },
+    {
+      "name": "StaticMeshActor_109",
+      "label": "FT_Marker_4_Post",
+      "location": [
+        -42205.26653128037,
+        16320.618220760573,
+        9915.571655273438
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_110",
+      "label": "FT_Marker_4_Cap",
+      "location": [
+        -42205.26653128037,
+        16320.618220760573,
+        9961.571655273438
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_111",
+      "label": "FT_Marker_4_Lens",
+      "location": [
+        -42205.26653128037,
+        16320.618220760573,
+        9953.571655273438
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_26",
+      "label": "FT_Marker_4_Light",
+      "location": [
+        -42205.26653128037,
+        16320.618220760573,
+        9953.571655273438
+      ],
+      "rotation": [
+        -3.5679624943441013e-07,
+        -23.00979995727539,
+        -117.83362579345703
+      ]
+    },
+    {
+      "name": "StaticMeshActor_112",
+      "label": "FT_Marker_5_Post",
+      "location": [
+        -42884.31487486734,
+        16687.599162339975,
+        9931.527465820312
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_113",
+      "label": "FT_Marker_5_Cap",
+      "location": [
+        -42884.31487486734,
+        16687.599162339975,
+        9977.527465820312
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_114",
+      "label": "FT_Marker_5_Lens",
+      "location": [
+        -42884.31487486734,
+        16687.599162339975,
+        9969.527465820312
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "SpotLight_27",
+      "label": "FT_Marker_5_Light",
+      "location": [
+        -42884.31487486734,
+        16687.599162339975,
+        9969.527465820312
+      ],
+      "rotation": [
+        -4.756817588713602e-07,
+        -23.017879486083984,
+        -157.0439910888672
+      ]
+    },
+    {
+      "name": "StaticMeshActor_115",
+      "label": "FT_TrunkCollision_0",
+      "location": [
+        -43210.18462334573,
+        15169.57346473412,
+        9952.615499802785
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_116",
+      "label": "FT_TrunkCollision_1",
+      "location": [
+        -41647.12201925591,
+        13657.242324197658,
+        9977.262623853756
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_117",
+      "label": "FT_TrunkCollision_2",
+      "location": [
+        -40512.51099158476,
+        13659.867308069013,
+        9971.864000286383
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_118",
+      "label": "FT_TrunkCollision_3",
+      "location": [
+        -42415.53366282881,
+        14730.106459955303,
+        10007.307354371058
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_119",
+      "label": "FT_TrunkCollision_4",
+      "location": [
+        -42342.64505519796,
+        15703.569579983323,
+        10054.665634787141
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_120",
+      "label": "FT_TrunkCollision_5",
+      "location": [
+        -42884.25702618484,
+        15435.14937897013,
+        10120.130965431277
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_121",
+      "label": "FT_TrunkCollision_6",
+      "location": [
+        -42199.2841161001,
+        13731.334093066971,
+        9993.231692986164
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_122",
+      "label": "FT_TrunkCollision_7",
+      "location": [
+        -40721.61340048479,
+        15060.917237504109,
+        10031.991089343124
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_123",
+      "label": "FT_TrunkCollision_8",
+      "location": [
+        -42529.23312205418,
+        15314.542104668097,
+        10051.655905708014
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_124",
+      "label": "FT_TrunkCollision_9",
+      "location": [
+        -40990.284919869904,
+        15365.279996847534,
+        10061.334607148196
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_125",
+      "label": "FT_TrunkCollision_10",
+      "location": [
+        -42403.98157045944,
+        14072.82239062303,
+        9988.527459573103
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_126",
+      "label": "FT_TrunkCollision_11",
+      "location": [
+        -40451.50170785465,
+        14513.085971996063,
+        9959.89956579026
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_127",
+      "label": "FT_TrunkCollision_12",
+      "location": [
+        -42010.13039647203,
+        13463.050020473835,
+        9976.923832445184
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_128",
+      "label": "FT_TrunkCollision_13",
+      "location": [
+        -41605.03556577153,
+        11762.167846514021,
+        9801.736189850966
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_129",
+      "label": "FT_TrunkCollision_14",
+      "location": [
+        -40445.12598087444,
+        14817.821894292852,
+        9989.024124227706
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_130",
+      "label": "FT_TrunkCollision_15",
+      "location": [
+        -40723.5102363225,
+        15362.760738234569,
+        10094.53439092842
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_131",
+      "label": "FT_TrunkCollision_16",
+      "location": [
+        -40229.05039890439,
+        13021.866651338976,
+        9923.800120583772
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_132",
+      "label": "FT_TrunkCollision_17",
+      "location": [
+        -40285.436418074256,
+        13825.079420706426,
+        9987.363521405188
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_133",
+      "label": "FT_TrunkCollision_18",
+      "location": [
+        -41657.76948811488,
+        12265.402176059531,
+        9942.48254535873
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_134",
+      "label": "FT_TrunkCollision_19",
+      "location": [
+        -42405.56915516287,
+        15023.052335188748,
+        10016.763819101874
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_135",
+      "label": "FT_TrunkCollision_20",
+      "location": [
+        -40308.767343320884,
+        16022.25527355562,
+        9965.170447198992
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_136",
+      "label": "FT_TrunkCollision_21",
+      "location": [
+        -42554.32264995082,
+        13401.187114500435,
+        9901.74270978185
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_137",
+      "label": "FT_TrunkCollision_22",
+      "location": [
+        -40410.512096574945,
+        15134.113508025583,
+        9946.498693757125
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_138",
+      "label": "FT_TrunkCollision_23",
+      "location": [
+        -42620.40755156336,
+        15900.450291048843,
+        10051.927691085819
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_139",
+      "label": "FT_TrunkCollision_24",
+      "location": [
+        -42390.94430362679,
+        12270.933791603024,
+        9555.772994600966
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_140",
+      "label": "FT_TrunkCollision_25",
+      "location": [
+        -40429.98417072864,
+        13363.131447711137,
+        9972.519169782898
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_141",
+      "label": "FT_TrunkCollision_26",
+      "location": [
+        -42048.17286249935,
+        12714.953749006665,
+        9943.310328290107
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_142",
+      "label": "FT_TrunkCollision_27",
+      "location": [
+        -42458.24899135788,
+        12918.182294240665,
+        10007.753172037677
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_143",
+      "label": "FT_TrunkCollision_28",
+      "location": [
+        -42419.80431224487,
+        14333.6649091154,
+        9990.716860942823
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_144",
+      "label": "FT_TrunkCollision_29",
+      "location": [
+        -41964.02174702382,
+        14174.265442170592,
+        10054.58558654663
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_145",
+      "label": "FT_TrunkCollision_30",
+      "location": [
+        -40525.675463059255,
+        14064.46601823815,
+        9949.324057572823
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_146",
+      "label": "FT_TrunkCollision_31",
+      "location": [
+        -39862.7041851984,
+        14133.756762210995,
+        9935.068416889328
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_147",
+      "label": "FT_TrunkCollision_32",
+      "location": [
+        -42150.97847298368,
+        13180.8182345122,
+        9970.055598110708
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_148",
+      "label": "FT_TrunkCollision_33",
+      "location": [
+        -40275.75151870506,
+        14218.44889681607,
+        9987.329532824338
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_149",
+      "label": "FT_TrunkCollision_34",
+      "location": [
+        -39981.31298956589,
+        14450.377240100153,
+        9983.870165573493
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "AmbientSound_1",
+      "label": "FT_Night_Insects",
+      "location": [
+        -44282.0,
+        18475.0,
+        10300.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_64",
+      "label": "R12_VF06_Water_Service_Terrace_000_floor",
+      "location": [
+        -45882.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_65",
+      "label": "R12_VF06_Water_Service_Terrace_001_grating",
+      "location": [
+        -45882.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_67",
+      "label": "R12_VF06_Water_Service_Terrace_002_solid",
+      "location": [
+        -45882.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_69",
+      "label": "R12_VF06_Water_Service_Terrace_003_thin",
+      "location": [
+        -45882.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_70",
+      "label": "R12_VF06_Water_Service_Terrace_004_floor",
+      "location": [
+        -45882.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_71",
+      "label": "R12_VF06_Water_Service_Terrace_005_solid",
+      "location": [
+        -45882.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_72",
+      "label": "R12_VF06_Water_Service_Terrace_006_thin",
+      "location": [
+        -45882.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_73",
+      "label": "R12_VF06_Water_Service_Terrace_007_grating",
+      "location": [
+        -46682.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_74",
+      "label": "R12_VF06_Water_Service_Terrace_008_solid",
+      "location": [
+        -46682.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_75",
+      "label": "R12_VF06_Water_Service_Terrace_009_thin",
+      "location": [
+        -46682.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_76",
+      "label": "R12_VF06_Water_Service_Terrace_010_solid",
+      "location": [
+        -46682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_77",
+      "label": "R12_VF06_Water_Service_Terrace_011_thin",
+      "location": [
+        -46682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_267",
+      "label": "R12_VF07_Quarters_Access_000_solid",
+      "location": [
+        -43482.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_268",
+      "label": "R12_VF07_Quarters_Access_001_thin",
+      "location": [
+        -43482.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_269",
+      "label": "R12_VF07_Quarters_Access_002_grating",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_270",
+      "label": "R12_VF07_Quarters_Access_003_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_271",
+      "label": "R12_VF07_Quarters_Access_004_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_272",
+      "label": "R12_VF07_Quarters_Access_005_thin",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_273",
+      "label": "R12_VF07_Quarters_Access_006_thin",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_274",
+      "label": "R12_VF07_Quarters_Access_007_grating",
+      "location": [
+        -44282.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_275",
+      "label": "R12_VF07_Quarters_Access_008_solid",
+      "location": [
+        -44282.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_276",
+      "label": "R12_VF07_Quarters_Access_009_thin",
+      "location": [
+        -44282.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_277",
+      "label": "R12_VF07_Quarters_Access_010_grating",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_278",
+      "label": "R12_VF07_Quarters_Access_011_solid",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_279",
+      "label": "R12_VF07_Quarters_Access_012_thin",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_375",
+      "label": "R12_VF06_Quarters_000_floor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_376",
+      "label": "R12_VF06_Quarters_001_floor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_377",
+      "label": "R12_VF06_Quarters_002_glass",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_378",
+      "label": "R12_VF06_Quarters_003_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_379",
+      "label": "R12_VF06_Quarters_004_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_380",
+      "label": "R12_VF06_Quarters_005_glass",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_381",
+      "label": "R12_VF06_Quarters_006_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_382",
+      "label": "R12_VF06_Quarters_007_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_431",
+      "label": "R12_VF06_Service_Hardware_000_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_432",
+      "label": "R12_VF06_Service_Hardware_001_signage",
+      "location": [
+        -46682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_433",
+      "label": "R12_VF06_Service_Hardware_002_solid",
+      "location": [
+        -46682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_434",
+      "label": "R12_VF06_Service_Hardware_003_solid",
+      "location": [
+        -47482.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_435",
+      "label": "R12_VF06_Service_Hardware_004_signage",
+      "location": [
+        -48282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_436",
+      "label": "R12_VF06_Service_Hardware_005_solid",
+      "location": [
+        -49082.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_437",
+      "label": "R12_VF06_Transferred_Details_000_solid",
+      "location": [
+        -41882.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_438",
+      "label": "R12_VF06_Transferred_Details_001_thin",
+      "location": [
+        -41882.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_439",
+      "label": "R12_VF06_Transferred_Details_002_signage",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_440",
+      "label": "R12_VF06_Transferred_Details_003_solid",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_441",
+      "label": "R12_VF06_Transferred_Details_004_thin",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_442",
+      "label": "R12_VF06_Transferred_Details_005_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_443",
+      "label": "R12_VF06_Transferred_Details_006_thin",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_444",
+      "label": "R12_VF06_Transferred_Details_007_signage",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_445",
+      "label": "R12_VF06_Transferred_Details_008_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_446",
+      "label": "R12_VF06_Transferred_Details_009_thin",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_447",
+      "label": "R12_VF06_Water_Tower_000_signage",
+      "location": [
+        -45882.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_448",
+      "label": "R12_VF06_Water_Tower_001_solid",
+      "location": [
+        -45882.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_449",
+      "label": "R12_VF06_Water_Tower_002_thin",
+      "location": [
+        -45882.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_450",
+      "label": "R12_VF06_Water_Tower_003_solid",
+      "location": [
+        -45882.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_451",
+      "label": "R12_VF07_Water_Pipework_000_solid",
+      "location": [
+        -44282.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_452",
+      "label": "R12_VF07_Water_Pipework_001_signage",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_453",
+      "label": "R12_VF07_Water_Pipework_002_solid",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_454",
+      "label": "R12_VF07_Water_Pipework_003_thin",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_455",
+      "label": "R12_VF07_Water_Pipework_004_solid",
+      "location": [
+        -45082.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_456",
+      "label": "R12_VF07_Water_Pipework_005_solid",
+      "location": [
+        -45882.305974972965,
+        16074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_457",
+      "label": "R12_VF07_Water_Pipework_006_solid",
+      "location": [
+        -45882.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "RectLight_3",
+      "label": "R12_Control_Ceiling_Practical",
+      "location": [
+        -43762.305974972965,
+        18204.707549061975,
+        10591.5
+      ],
+      "rotation": [
+        0.0,
+        -90.0,
+        0.0
+      ]
+    },
+    {
+      "name": "RectLight_4",
+      "label": "R12_Quarters_Ceiling_Practical",
+      "location": [
+        -43832.305974972965,
+        18234.707549061975,
+        10913.5
+      ],
+      "rotation": [
+        0.0,
+        -90.0,
+        0.0
+      ]
+    },
+    {
+      "name": "RectLight_5",
+      "label": "R12_Generator_North_Practical",
+      "location": [
+        -47282.305974972965,
+        17402.707549061975,
+        10057.5
+      ],
+      "rotation": [
+        6.012750191075611e-07,
+        -59.59249496459961,
+        90.0
+      ]
+    },
+    {
+      "name": "RectLight_6",
+      "label": "R12_Cabin_Rear_Practical",
+      "location": [
+        -44282.305974972965,
+        19434.707549061975,
+        10521.5
+      ],
+      "rotation": [
+        0.0,
+        -90.0,
+        0.0
+      ]
+    },
+    {
+      "name": "BP_GondolaSystem_C_1",
+      "label": "BP_GondolaSystem",
+      "location": [
+        -44178.21234269882,
+        19265.29002268535,
+        10275.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ]
+    },
+    {
+      "name": "Ultra_Dynamic_Sky_C_2",
+      "label": "Ultra_Dynamic_Sky",
+      "location": [
+        -43369.89105323442,
+        19420.190387335268,
+        10388.499999523163
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        171.5625
+      ]
+    },
+    {
+      "name": "Ultra_Dynamic_Weather_C_1",
+      "label": "Ultra_Dynamic_Weather",
+      "location": [
+        -43309.09102283417,
+        19523.38610577033,
+        10388.499998569489
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        171.5625
+      ]
+    },
+    {
+      "name": "StaticMeshActor_56",
+      "label": "R12_06_Stairs_and_Landings_000_solid",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_57",
+      "label": "R12_06_Stairs_and_Landings_001_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_58",
+      "label": "R12_06_Stairs_and_Landings_002_thin",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_59",
+      "label": "R12_14_Site_Structure_000_solid",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_60",
+      "label": "R12_14_Site_Structure_001_solid",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_61",
+      "label": "R12_14_Site_Structure_002_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_62",
+      "label": "R12_14_Site_Structure_003_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_78",
+      "label": "R12_VF07_Continuous_Service_Routes_000_solid",
+      "location": [
+        -42682.305974972965,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_150",
+      "label": "R12_VF07_Continuous_Service_Routes_001_solid",
+      "location": [
+        -45882.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_151",
+      "label": "R12_VF07_Continuous_Service_Routes_002_solid",
+      "location": [
+        -47482.30597497296,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_152",
+      "label": "R12_VF07_Continuous_Service_Routes_003_solid",
+      "location": [
+        -47482.30597497296,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_153",
+      "label": "R12_VF07_Deck_Structure_000_solid",
+      "location": [
+        -41082.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_154",
+      "label": "R12_VF07_Deck_Structure_001_solid",
+      "location": [
+        -41082.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_155",
+      "label": "R12_VF07_Deck_Structure_002_solid",
+      "location": [
+        -41082.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_156",
+      "label": "R12_VF07_Deck_Structure_003_solid",
+      "location": [
+        -41882.30597497297,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_157",
+      "label": "R12_VF07_Deck_Structure_004_solid",
+      "location": [
+        -41882.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_158",
+      "label": "R12_VF07_Deck_Structure_005_solid",
+      "location": [
+        -41882.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_159",
+      "label": "R12_VF07_Deck_Structure_006_solid",
+      "location": [
+        -41882.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_160",
+      "label": "R12_VF07_Deck_Structure_007_solid",
+      "location": [
+        -42682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_161",
+      "label": "R12_VF07_Deck_Structure_008_solid",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_162",
+      "label": "R12_VF07_Deck_Structure_009_solid",
+      "location": [
+        -43482.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_163",
+      "label": "R12_VF07_Deck_Structure_010_solid",
+      "location": [
+        -43482.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_164",
+      "label": "R12_VF07_Deck_Structure_011_solid",
+      "location": [
+        -44282.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_165",
+      "label": "R12_VF07_Deck_Structure_012_solid",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_166",
+      "label": "R12_VF07_Deck_Structure_013_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_167",
+      "label": "R12_VF07_Deck_Structure_014_solid",
+      "location": [
+        -44282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_168",
+      "label": "R12_VF07_Deck_Structure_015_solid",
+      "location": [
+        -45082.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_169",
+      "label": "R12_VF07_Deck_Structure_016_solid",
+      "location": [
+        -45882.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_170",
+      "label": "R12_VF07_Internal_Tread_Refresh_000_grating",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_171",
+      "label": "R12_VF07_Internal_Tread_Refresh_001_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_172",
+      "label": "R12_VF07_Public_Deck_000_grating",
+      "location": [
+        -41082.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_173",
+      "label": "R12_VF07_Public_Deck_001_solid",
+      "location": [
+        -41082.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_174",
+      "label": "R12_VF07_Public_Deck_002_grating",
+      "location": [
+        -41082.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_175",
+      "label": "R12_VF07_Public_Deck_003_solid",
+      "location": [
+        -41082.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_176",
+      "label": "R12_VF07_Public_Deck_004_grating",
+      "location": [
+        -41082.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_177",
+      "label": "R12_VF07_Public_Deck_005_solid",
+      "location": [
+        -41082.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_178",
+      "label": "R12_VF07_Public_Deck_006_floor",
+      "location": [
+        -41882.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_179",
+      "label": "R12_VF07_Public_Deck_007_grating",
+      "location": [
+        -41882.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_180",
+      "label": "R12_VF07_Public_Deck_008_solid",
+      "location": [
+        -41882.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_181",
+      "label": "R12_VF07_Public_Deck_009_floor",
+      "location": [
+        -41882.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_182",
+      "label": "R12_VF07_Public_Deck_010_grating",
+      "location": [
+        -41882.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_183",
+      "label": "R12_VF07_Public_Deck_011_solid",
+      "location": [
+        -41882.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_184",
+      "label": "R12_VF07_Public_Deck_012_floor",
+      "location": [
+        -41882.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_185",
+      "label": "R12_VF07_Public_Deck_013_grating",
+      "location": [
+        -41882.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_186",
+      "label": "R12_VF07_Public_Deck_014_solid",
+      "location": [
+        -41882.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_187",
+      "label": "R12_VF07_Public_Deck_015_floor",
+      "location": [
+        -42682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_188",
+      "label": "R12_VF07_Public_Deck_016_grating",
+      "location": [
+        -42682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_189",
+      "label": "R12_VF07_Public_Deck_017_solid",
+      "location": [
+        -42682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_190",
+      "label": "R12_VF07_Public_Deck_018_solid",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_191",
+      "label": "R12_VF07_Public_Deck_019_floor",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_192",
+      "label": "R12_VF07_Public_Deck_020_grating",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_193",
+      "label": "R12_VF07_Public_Deck_021_solid",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_194",
+      "label": "R12_VF07_Public_Deck_022_floor",
+      "location": [
+        -43482.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_195",
+      "label": "R12_VF07_Public_Deck_023_grating",
+      "location": [
+        -43482.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_196",
+      "label": "R12_VF07_Public_Deck_024_solid",
+      "location": [
+        -43482.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_197",
+      "label": "R12_VF07_Public_Deck_025_floor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_198",
+      "label": "R12_VF07_Public_Deck_026_grating",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_199",
+      "label": "R12_VF07_Public_Deck_027_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_200",
+      "label": "R12_VF07_Public_Deck_028_floor",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_201",
+      "label": "R12_VF07_Public_Deck_029_grating",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_202",
+      "label": "R12_VF07_Public_Deck_030_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_203",
+      "label": "R12_VF07_Public_Deck_031_grating",
+      "location": [
+        -43482.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_204",
+      "label": "R12_VF07_Public_Deck_032_solid",
+      "location": [
+        -43482.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_205",
+      "label": "R12_VF07_Public_Deck_033_floor",
+      "location": [
+        -44282.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_206",
+      "label": "R12_VF07_Public_Deck_034_grating",
+      "location": [
+        -44282.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_207",
+      "label": "R12_VF07_Public_Deck_035_solid",
+      "location": [
+        -44282.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_208",
+      "label": "R12_VF07_Public_Deck_036_floor",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_209",
+      "label": "R12_VF07_Public_Deck_037_grating",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_210",
+      "label": "R12_VF07_Public_Deck_038_solid",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_211",
+      "label": "R12_VF07_Public_Deck_039_floor",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_212",
+      "label": "R12_VF07_Public_Deck_040_grating",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_213",
+      "label": "R12_VF07_Public_Deck_041_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_215",
+      "label": "R12_VF07_Public_Deck_042_grating",
+      "location": [
+        -44282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_217",
+      "label": "R12_VF07_Public_Deck_043_solid",
+      "location": [
+        -44282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_218",
+      "label": "R12_VF07_Public_Deck_044_floor",
+      "location": [
+        -45082.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_219",
+      "label": "R12_VF07_Public_Deck_045_grating",
+      "location": [
+        -45082.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_222",
+      "label": "R12_VF07_Public_Deck_046_solid",
+      "location": [
+        -45082.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_224",
+      "label": "R12_VF07_Public_Deck_047_solid",
+      "location": [
+        -45082.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_225",
+      "label": "R12_VF07_Public_Deck_048_grating",
+      "location": [
+        -45882.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_226",
+      "label": "R12_VF07_Public_Deck_049_solid",
+      "location": [
+        -45882.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_228",
+      "label": "R12_VF07_Public_Deck_050_solid",
+      "location": [
+        -45882.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_229",
+      "label": "R12_VF07_Public_Guards_000_solid",
+      "location": [
+        -41082.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_230",
+      "label": "R12_VF07_Public_Guards_001_thin",
+      "location": [
+        -41082.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_231",
+      "label": "R12_VF07_Public_Guards_002_solid",
+      "location": [
+        -41082.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_232",
+      "label": "R12_VF07_Public_Guards_003_thin",
+      "location": [
+        -41082.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_233",
+      "label": "R12_VF07_Public_Guards_004_solid",
+      "location": [
+        -41082.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_234",
+      "label": "R12_VF07_Public_Guards_005_thin",
+      "location": [
+        -41082.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_235",
+      "label": "R12_VF07_Public_Guards_006_solid",
+      "location": [
+        -41882.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_236",
+      "label": "R12_VF07_Public_Guards_007_thin",
+      "location": [
+        -41882.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_237",
+      "label": "R12_VF07_Public_Guards_008_solid",
+      "location": [
+        -41882.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_238",
+      "label": "R12_VF07_Public_Guards_009_thin",
+      "location": [
+        -41882.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_239",
+      "label": "R12_VF07_Public_Guards_010_solid",
+      "location": [
+        -42682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_240",
+      "label": "R12_VF07_Public_Guards_011_thin",
+      "location": [
+        -42682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_241",
+      "label": "R12_VF07_Public_Guards_012_solid",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_242",
+      "label": "R12_VF07_Public_Guards_013_thin",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_243",
+      "label": "R12_VF07_Public_Guards_014_solid",
+      "location": [
+        -43482.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_244",
+      "label": "R12_VF07_Public_Guards_015_thin",
+      "location": [
+        -43482.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_245",
+      "label": "R12_VF07_Public_Guards_016_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_246",
+      "label": "R12_VF07_Public_Guards_017_thin",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_247",
+      "label": "R12_VF07_Public_Guards_018_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_248",
+      "label": "R12_VF07_Public_Guards_019_thin",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_249",
+      "label": "R12_VF07_Public_Guards_020_solid",
+      "location": [
+        -43482.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_250",
+      "label": "R12_VF07_Public_Guards_021_thin",
+      "location": [
+        -43482.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_251",
+      "label": "R12_VF07_Public_Guards_022_solid",
+      "location": [
+        -44282.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_252",
+      "label": "R12_VF07_Public_Guards_023_thin",
+      "location": [
+        -44282.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_253",
+      "label": "R12_VF07_Public_Guards_024_solid",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_254",
+      "label": "R12_VF07_Public_Guards_025_thin",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_255",
+      "label": "R12_VF07_Public_Guards_026_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_256",
+      "label": "R12_VF07_Public_Guards_027_thin",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_257",
+      "label": "R12_VF07_Public_Guards_028_solid",
+      "location": [
+        -44282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_258",
+      "label": "R12_VF07_Public_Guards_029_thin",
+      "location": [
+        -44282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_259",
+      "label": "R12_VF07_Public_Guards_030_solid",
+      "location": [
+        -45082.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_260",
+      "label": "R12_VF07_Public_Guards_031_thin",
+      "location": [
+        -45082.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_261",
+      "label": "R12_VF07_Public_Guards_032_solid",
+      "location": [
+        -45082.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_262",
+      "label": "R12_VF07_Public_Guards_033_thin",
+      "location": [
+        -45082.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_263",
+      "label": "R12_VF07_Public_Guards_034_solid",
+      "location": [
+        -45882.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_264",
+      "label": "R12_VF07_Public_Guards_035_thin",
+      "location": [
+        -45882.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_265",
+      "label": "R12_VF07_Public_Guards_036_solid",
+      "location": [
+        -45882.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_266",
+      "label": "R12_VF07_Public_Guards_037_thin",
+      "location": [
+        -45882.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_280",
+      "label": "R12_VF07_Service_Apron_000_floor",
+      "location": [
+        -45082.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_281",
+      "label": "R12_VF07_Service_Apron_001_solid",
+      "location": [
+        -45082.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_282",
+      "label": "R12_VF07_Service_Apron_002_solid",
+      "location": [
+        -45882.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_283",
+      "label": "R12_VF07_Service_Descent_000_grating",
+      "location": [
+        -45082.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_284",
+      "label": "R12_VF07_Service_Descent_001_solid",
+      "location": [
+        -45082.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_285",
+      "label": "R12_VF07_Service_Descent_002_thin",
+      "location": [
+        -45082.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_286",
+      "label": "R12_VF07_Service_Descent_003_grating",
+      "location": [
+        -45082.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_287",
+      "label": "R12_VF07_Service_Descent_004_solid",
+      "location": [
+        -45082.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_288",
+      "label": "R12_VF07_Service_Descent_005_grating",
+      "location": [
+        -45882.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_289",
+      "label": "R12_VF07_Service_Descent_006_solid",
+      "location": [
+        -45882.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_290",
+      "label": "R12_VF07_Service_Descent_007_thin",
+      "location": [
+        -45882.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_291",
+      "label": "R12_VF07_Service_Descent_008_grating",
+      "location": [
+        -45882.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_292",
+      "label": "R12_VF07_Service_Descent_009_solid",
+      "location": [
+        -45882.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_293",
+      "label": "R12_VF07_Sideways_Arrival_000_grating",
+      "location": [
+        -41882.30597497297,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_294",
+      "label": "R12_VF07_Sideways_Arrival_001_solid",
+      "location": [
+        -41882.30597497297,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_295",
+      "label": "R12_VF07_Sideways_Arrival_002_thin",
+      "location": [
+        -41882.30597497297,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_296",
+      "label": "R12_VF07_Sideways_Arrival_003_grating",
+      "location": [
+        -41882.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_297",
+      "label": "R12_VF07_Sideways_Arrival_004_solid",
+      "location": [
+        -41882.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_298",
+      "label": "R12_VF07_Sideways_Arrival_005_thin",
+      "location": [
+        -41882.30597497297,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_299",
+      "label": "R12_VF07_Sideways_Arrival_006_grating",
+      "location": [
+        -42682.305974972965,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_300",
+      "label": "R12_VF07_Sideways_Arrival_007_solid",
+      "location": [
+        -42682.305974972965,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_301",
+      "label": "R12_VF07_Sideways_Arrival_008_thin",
+      "location": [
+        -42682.305974972965,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_302",
+      "label": "R12_VF07_Sideways_Arrival_009_grating",
+      "location": [
+        -42682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_303",
+      "label": "R12_VF07_Sideways_Arrival_010_solid",
+      "location": [
+        -42682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_304",
+      "label": "R12_VF07_Sideways_Arrival_011_thin",
+      "location": [
+        -42682.305974972965,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_305",
+      "label": "R12_Terrain",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_306",
+      "label": "R12_Retained_Parking",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_307",
+      "label": "R12_Retained_Parked_Car",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_308",
+      "label": "R12_20_Lookout_Bridge_000_solid",
+      "location": [
+        -45082.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_309",
+      "label": "R12_20_Lookout_Bridge_001_grating",
+      "location": [
+        -45082.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_310",
+      "label": "R12_20_Lookout_Bridge_002_solid",
+      "location": [
+        -45082.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_311",
+      "label": "R12_20_Lookout_Bridge_003_thin",
+      "location": [
+        -45082.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_312",
+      "label": "R12_20_Lookout_Bridge_004_solid",
+      "location": [
+        -45082.305974972965,
+        20074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_313",
+      "label": "R12_20_Lookout_Bridge_005_thin",
+      "location": [
+        -45082.305974972965,
+        20074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_314",
+      "label": "R12_20_Lookout_Bridge_006_solid",
+      "location": [
+        -45882.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_315",
+      "label": "R12_20_Lookout_Bridge_007_thin",
+      "location": [
+        -45882.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_316",
+      "label": "R12_20_Lookout_Bridge_008_grating",
+      "location": [
+        -45882.305974972965,
+        20074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_317",
+      "label": "R12_20_Lookout_Bridge_009_solid",
+      "location": [
+        -45882.305974972965,
+        20074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_318",
+      "label": "R12_20_Lookout_Bridge_010_thin",
+      "location": [
+        -45882.305974972965,
+        20074.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_319",
+      "label": "R12_20_Lookout_Bridge_011_solid",
+      "location": [
+        -45882.305974972965,
+        20874.70754906197,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_320",
+      "label": "R12_20_Lookout_Bridge_012_thin",
+      "location": [
+        -45882.305974972965,
+        20874.70754906197,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_321",
+      "label": "R12_20_Lookout_Bridge_013_grating",
+      "location": [
+        -45882.305974972965,
+        21674.70754906197,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_322",
+      "label": "R12_20_Lookout_Bridge_014_solid",
+      "location": [
+        -45882.305974972965,
+        21674.70754906197,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_323",
+      "label": "R12_20_Lookout_Bridge_015_thin",
+      "location": [
+        -45882.305974972965,
+        21674.70754906197,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_324",
+      "label": "R12_Forest_Approach_Aligned",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_50",
+      "label": "R12_04_Lower_Drive_000_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_51",
+      "label": "R12_04_Lower_Drive_001_thin",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_52",
+      "label": "R12_04_Lower_Drive_002_solid",
+      "location": [
+        -43482.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_53",
+      "label": "R12_04_Lower_Drive_003_thin",
+      "location": [
+        -43482.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_54",
+      "label": "R12_04_Lower_Drive_004_signage",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_55",
+      "label": "R12_04_Lower_Drive_005_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_325",
+      "label": "R12_04_Lower_Drive_006_thin",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_326",
+      "label": "R12_04_Lower_Drive_007_solid",
+      "location": [
+        -44282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_327",
+      "label": "R12_04_Lower_Drive_008_thin",
+      "location": [
+        -44282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_328",
+      "label": "R12_05_Generator_Room_000_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_329",
+      "label": "R12_05_Generator_Room_001_solid",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_330",
+      "label": "R12_05_Generator_Room_002_solid",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_331",
+      "label": "R12_09_Relay_and_Paths_000_solid",
+      "location": [
+        -48282.30597497296,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_332",
+      "label": "R12_09_Relay_and_Paths_001_solid",
+      "location": [
+        -49082.30597497296,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_333",
+      "label": "R12_13_Roofs_000_solid",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_334",
+      "label": "R12_13_Roofs_001_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_335",
+      "label": "R12_21_Maintenance_000_solid",
+      "location": [
+        -46682.30597497296,
+        15274.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_336",
+      "label": "R12_21_Maintenance_001_solid",
+      "location": [
+        -46682.30597497296,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_337",
+      "label": "R12_21_Maintenance_002_thin",
+      "location": [
+        -46682.30597497296,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_338",
+      "label": "R12_21_Maintenance_003_solid",
+      "location": [
+        -46682.30597497296,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_339",
+      "label": "R12_21_Maintenance_004_solid",
+      "location": [
+        -46682.30597497296,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_340",
+      "label": "R12_21_Maintenance_005_solid",
+      "location": [
+        -47482.30597497296,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_341",
+      "label": "R12_21_Maintenance_006_solid",
+      "location": [
+        -47482.30597497296,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_342",
+      "label": "R12_21_Maintenance_007_solid",
+      "location": [
+        -47482.30597497296,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_343",
+      "label": "R12_21_Maintenance_008_solid",
+      "location": [
+        -47482.30597497296,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_344",
+      "label": "R12_VF06_Control_000_solid",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_345",
+      "label": "R12_VF06_Control_001_solid",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_346",
+      "label": "R12_VF06_Control_002_floor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_347",
+      "label": "R12_VF06_Control_003_floor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_348",
+      "label": "R12_VF06_Control_004_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_349",
+      "label": "R12_VF06_Control_005_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_350",
+      "label": "R12_VF06_Control_006_thin",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_351",
+      "label": "R12_VF06_Control_007_floor",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_352",
+      "label": "R12_VF06_Control_008_glass",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_353",
+      "label": "R12_VF06_Control_009_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_354",
+      "label": "R12_VF06_Lower_Gallery_Details_000_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_355",
+      "label": "R12_VF06_Lower_Gallery_Details_001_grating",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_356",
+      "label": "R12_VF06_Lower_Gallery_Details_002_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_357",
+      "label": "R12_VF06_Lower_Gallery_Details_003_thin",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_358",
+      "label": "R12_VF06_Lower_Gallery_Details_004_signage",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_359",
+      "label": "R12_VF06_Lower_Gallery_Details_005_solid",
+      "location": [
+        -44282.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_360",
+      "label": "R12_VF06_Lower_Gallery_Details_006_floor",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_361",
+      "label": "R12_VF06_Lower_Gallery_Details_007_grating",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_362",
+      "label": "R12_VF06_Lower_Gallery_Details_008_signage",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_363",
+      "label": "R12_VF06_Lower_Gallery_Details_009_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_364",
+      "label": "R12_VF06_Lower_Gallery_Details_010_thin",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_365",
+      "label": "R12_VF06_Maintenance_Shells_000_floor",
+      "location": [
+        -46682.30597497296,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_366",
+      "label": "R12_VF06_Maintenance_Shells_001_solid",
+      "location": [
+        -46682.30597497296,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_367",
+      "label": "R12_VF06_Maintenance_Shells_002_floor",
+      "location": [
+        -46682.30597497296,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_368",
+      "label": "R12_VF06_Maintenance_Shells_003_solid",
+      "location": [
+        -46682.30597497296,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_369",
+      "label": "R12_VF06_Maintenance_Shells_004_solid",
+      "location": [
+        -47482.30597497296,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_370",
+      "label": "R12_VF06_Maintenance_Shells_005_solid",
+      "location": [
+        -47482.30597497296,
+        16074.707549061979,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_371",
+      "label": "R12_VF06_Maintenance_Shells_006_floor",
+      "location": [
+        -47482.30597497296,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_372",
+      "label": "R12_VF06_Maintenance_Shells_007_glass",
+      "location": [
+        -47482.30597497296,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_373",
+      "label": "R12_VF06_Maintenance_Shells_008_solid",
+      "location": [
+        -47482.30597497296,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_374",
+      "label": "R12_VF06_Maintenance_Shells_009_solid",
+      "location": [
+        -47482.30597497296,
+        16874.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_383",
+      "label": "R12_VF06_Relay_Shell_000_solid",
+      "location": [
+        -48282.30597497296,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_384",
+      "label": "R12_VF06_Relay_Shell_001_floor",
+      "location": [
+        -49082.30597497296,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_385",
+      "label": "R12_VF06_Relay_Shell_002_glass",
+      "location": [
+        -49082.30597497296,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_386",
+      "label": "R12_VF06_Relay_Shell_003_solid",
+      "location": [
+        -49082.30597497296,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_387",
+      "label": "R12_VF06_Relay_Shell_004_solid",
+      "location": [
+        -49082.30597497296,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_388",
+      "label": "R12_VF06_Waiting_Hall_000_solid",
+      "location": [
+        -41882.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_389",
+      "label": "R12_VF06_Waiting_Hall_001_solid",
+      "location": [
+        -41882.30597497297,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_390",
+      "label": "R12_VF06_Waiting_Hall_002_glass",
+      "location": [
+        -41882.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_391",
+      "label": "R12_VF06_Waiting_Hall_003_solid",
+      "location": [
+        -41882.30597497297,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_392",
+      "label": "R12_VF06_Waiting_Hall_004_floor",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_393",
+      "label": "R12_VF06_Waiting_Hall_005_floor",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_394",
+      "label": "R12_VF06_Waiting_Hall_006_solid",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_395",
+      "label": "R12_VF06_Waiting_Hall_007_solid",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_396",
+      "label": "R12_VF06_Waiting_Hall_008_floor",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_397",
+      "label": "R12_VF06_Waiting_Hall_009_glass",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_398",
+      "label": "R12_VF06_Waiting_Hall_010_solid",
+      "location": [
+        -42682.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_399",
+      "label": "R12_VF06_Waiting_Hall_011_floor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_400",
+      "label": "R12_VF06_Waiting_Hall_012_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_401",
+      "label": "R12_VF06_Waiting_Hall_013_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_402",
+      "label": "R12_VF06_Waiting_Hall_014_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_403",
+      "label": "R12_01_Upper_Platform_000_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_404",
+      "label": "R12_01_Upper_Platform_001_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_405",
+      "label": "R12_12_Gondola_000_glass",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_406",
+      "label": "R12_12_Gondola_001_solid",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_407",
+      "label": "R12_12_Gondola_002_glass",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_408",
+      "label": "R12_12_Gondola_003_solid",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_409",
+      "label": "R12_12_Gondola_004_thin",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_410",
+      "label": "R12_12_Gondola_005_glass",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_411",
+      "label": "R12_12_Gondola_006_solid",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_412",
+      "label": "R12_12_Gondola_007_glass",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_413",
+      "label": "R12_12_Gondola_008_solid",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_414",
+      "label": "R12_12_Gondola_009_thin",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_415",
+      "label": "R12_18_Cliff_Anchors_000_solid",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_416",
+      "label": "R12_18_Cliff_Anchors_001_solid",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_417",
+      "label": "R12_18_Cliff_Anchors_002_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_418",
+      "label": "R12_18_Cliff_Anchors_003_solid",
+      "location": [
+        -43482.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_419",
+      "label": "R12_18_Cliff_Anchors_004_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_420",
+      "label": "R12_18_Cliff_Anchors_005_solid",
+      "location": [
+        -44282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_421",
+      "label": "R12_VF06_Canopy_Junction_000_solid",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_422",
+      "label": "R12_VF06_Canopy_Junction_001_solid",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        -0.0,
+        0.0,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_423",
+      "label": "R12_VF06_Gondola_Details_000_solid",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_424",
+      "label": "R12_VF06_Gondola_Details_001_solid",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_425",
+      "label": "R12_VF06_Gondola_Details_002_thin",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_426",
+      "label": "R12_VF06_Gondola_Details_003_signage",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_427",
+      "label": "R12_VF06_Gondola_Details_004_solid",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_428",
+      "label": "R12_VF06_Gondola_Details_005_signage",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_429",
+      "label": "R12_VF06_Gondola_Details_006_solid",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    },
+    {
+      "name": "StaticMeshActor_430",
+      "label": "R12_VF06_Gondola_Details_007_thin",
+      "location": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        1.5141800847495513e-17,
+        180.0
+      ]
+    }
+  ],
+  "saved_current_level": true
+}
