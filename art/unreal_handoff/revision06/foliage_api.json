@@ -1,0 +1,18 @@
+{
+  "Actor": {},
+  "InstancedFoliageActor": {
+    "add_instances": "X.add_instances(world_context_object, foliage_type, transforms) -> None\r\nAdd Instances\r\n\r\nArgs:\r\n    world_context_object (Object): \r\n    foliage_type (FoliageType): \r\n    transforms (Array[Transform]):"
+  },
+  "HierarchicalInstancedStaticMeshComponent": {
+    "add_instances": "x.add_instances(instance_transforms, should_return_indices, world_space=False, update_navigation=True) -> Array[int32]\r\nAdd multiple instances to this component. Transform is given in local space of this component unless bWorldSpace is set.\r\n\r\nArgs:\r\n    instance_transforms (Array[Transform]): \r\n    should_return_indices (bool): \r\n    world_space (bool): \r\n    update_navigation (bool): \r\n\r\nReturns:\r\n    Array[int32]:",
+    "add_instance": "x.add_instance(instance_transform, world_space=False) -> int32\r\nAdd an instance to this component. Transform is given in local space of this component unless bWorldSpace is set.\r\n\r\nArgs:\r\n    instance_transform (Transform): \r\n    world_space (bool): \r\n\r\nReturns:\r\n    int32:",
+    "set_cull_distances": "x.set_cull_distances(start_cull_distance, end_cull_distance) -> None\r\nSets the fading start and culling end distances for this component.\r\n\r\nArgs:\r\n    start_cull_distance (int32): \r\n    end_cull_distance (int32):"
+  },
+  "factories": [
+    "FoliageType_ActorFactory",
+    "FoliageType_InstancedStaticMeshFactory",
+    "InterchangeInstancedFoliageTypeFactory",
+    "InterchangeInstancedFoliageTypeFactoryNode",
+    "ProceduralFoliageSpawnerFactory"
+  ]
+}

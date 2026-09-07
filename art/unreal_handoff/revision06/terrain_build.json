@@ -1,0 +1,11 @@
+{
+  "vertices": 36993,
+  "triangles": 73216,
+  "bounds": [
+    -96,
+    112,
+    -80,
+    96
+  ],
+  "route_samples": 68
+}

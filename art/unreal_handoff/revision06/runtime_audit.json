@@ -1,0 +1,100 @@
+{
+  "landscape_api": [
+    "landscape_export_heightmap_to_render_target",
+    "landscape_import_heightmap_from_render_target",
+    "landscape_import_weightmap_from_render_target",
+    "render_heightmap",
+    "render_weightmap",
+    "render_weightmaps"
+  ],
+  "conversion_api": [
+    "EditorSkeletalMeshLibrary",
+    "HLODBuilderMeshMergeSettings",
+    "MeshMergeCullingVolume",
+    "SkelMeshMergeMeshUVTransforms",
+    "SkelMeshMergeSectionMapping",
+    "SkelMeshMergeUVTransformMapping"
+  ],
+  "EditorSkeletalMeshLibrary": [
+    "static_class"
+  ],
+  "StaticMeshEditorSubsystem": [
+    "create_proxy_mesh_actor",
+    "import_nanite_hi_res_mesh",
+    "join_static_mesh_actors",
+    "merge_static_mesh_actors",
+    "replace_mesh_components_materials",
+    "replace_mesh_components_materials_on_actors",
+    "replace_mesh_components_meshes",
+    "replace_mesh_components_meshes_on_actors",
+    "set_lod_from_static_mesh",
+    "static_class"
+  ],
+  "SkeletalMeshEditorSubsystem": [
+    "get_skeletal_mesh_overlay_material",
+    "set_morph_targets_to_generated_by_engine_for_all_skeletal_mesh",
+    "set_skeletal_mesh_overlay_material",
+    "static_class"
+  ],
+  "sky": {
+    "Ultra_Dynamic_Sky": [
+      "SceneComponent:SkyRoot",
+      "StaticMeshComponent:ClockDisk",
+      "ExponentialHeightFogComponent:HeightFog",
+      "SkyAtmosphereComponent:SkyAtmosphere",
+      "StaticMeshComponent:Sky_Sphere",
+      "SkyLightComponent:Cubemap Sky Light",
+      "BillboardComponent:BillboardComponent_4",
+      "VolumetricCloudComponent:VolumetricCloud",
+      "SkyLightComponent:Captured Scene Sky Light",
+      "BillboardComponent:BillboardComponent_5",
+      "StaticMeshComponent:UDS Label",
+      "StaticMeshComponent:Compass",
+      "StaticMeshComponent:W",
+      "StaticMeshComponent:N",
+      "StaticMeshComponent:E",
+      "StaticMeshComponent:S",
+      "StaticMeshComponent:Sun Handle",
+      "StaticMeshComponent:Moon Handle",
+      "SceneComponent:Sun Parent",
+      "DirectionalLightComponent:Sun",
+      "BillboardComponent:BillboardComponent_6",
+      "SceneComponent:Moon Parent",
+      "DirectionalLightComponent:Moon",
+      "BillboardComponent:BillboardComponent_7",
+      "UDS_Utility_Opener_C:UDS_Utility_Opener",
+      "UDS_Editor_Tick_Handler_C:UDS_Editor_Tick_Handler",
+      "UDS_InterfaceActorArrayManager_C:Cloud Paint Actors Manager",
+      "UDS_PlayerOcclusion_C:UDS_PlayerOcclusion",
+      "PostProcessComponent:NODE_AddPostProcessComponent-5",
+      "PostProcessComponent:NODE_AddPostProcessComponent-6"
+    ],
+    "Ultra_Dynamic_Weather": [
+      "Random_Weather_Variation_C:Random Weather Manager",
+      "UDW_Material_State_Manager_C:Material State Manager",
+      "UDW_Temperature_Manager_C:Temperature Manager",
+      "SceneComponent:WeatherRoot",
+      "AudioComponent:Sound_Global",
+      "BillboardComponent:BillboardComponent_4",
+      "DirectionalLightComponent:Lightning Light",
+      "BillboardComponent:BillboardComponent_5",
+      "PostProcessComponent:LightningFlashBloom",
+      "AudioComponent:Sound_Directional",
+      "BillboardComponent:BillboardComponent_6",
+      "StaticMeshComponent:UDW Label",
+      "AudioComponent:Sound_Mixer",
+      "BillboardComponent:BillboardComponent_7",
+      "SceneComponent:WeatherParticles_Parent",
+      "StaticMeshComponent:SelectionHide",
+      "StaticMeshComponent:StatusDisk",
+      "StaticMeshComponent:Wind_Arrow",
+      "UDS_InterfaceActorArrayManager_C:Local Weather Actors Manager",
+      "UDS_InterfaceActorArrayManager_C:WOV Target Draw Actors Manager",
+      "UDS_Utility_Opener_C:UDS_Utility_Opener",
+      "PostProcessComponent:NODE_AddPostProcessComponent-1",
+      "NiagaraComponent:NODE_AddNiagaraComponent-21",
+      "WindDirectionalSourceComponent:WindDirectionalSourceComponent_0",
+      "NiagaraComponent:NODE_AddNiagaraComponent-15"
+    ]
+  }
+}

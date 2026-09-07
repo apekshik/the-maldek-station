@@ -1,0 +1,116 @@
+{
+  "engine": "Unreal Engine 5.7",
+  "map": "BlockOut_R06",
+  "resolution": [
+    2560,
+    1440
+  ],
+  "preview_exposure_bias_stops": 0,
+  "map_saved": false,
+  "shots": [
+    {
+      "name": "01_station_overview",
+      "location": [
+        -45700,
+        20500,
+        11300
+      ],
+      "look_at": [
+        -44100,
+        18600,
+        10250
+      ]
+    },
+    {
+      "name": "02_arrival_side",
+      "location": [
+        -41400,
+        16000,
+        10800
+      ],
+      "look_at": [
+        -43800,
+        18500,
+        10200
+      ]
+    },
+    {
+      "name": "03_gondola_front",
+      "location": [
+        -44282,
+        20750,
+        10800
+      ],
+      "look_at": [
+        -44282,
+        18800,
+        10400
+      ]
+    },
+    {
+      "name": "04_platform",
+      "location": [
+        -42900,
+        19400,
+        10560
+      ],
+      "look_at": [
+        -44280,
+        19300,
+        10400
+      ]
+    },
+    {
+      "name": "05_lower_drive",
+      "location": [
+        -45400,
+        19900,
+        10080
+      ],
+      "look_at": [
+        -44450,
+        19000,
+        10080
+      ]
+    },
+    {
+      "name": "07_viewing_deck",
+      "location": [
+        -46350,
+        21100,
+        11300
+      ],
+      "look_at": [
+        -45480,
+        19000,
+        10350
+      ]
+    },
+    {
+      "name": "08_relay_route",
+      "location": [
+        -50200,
+        21800,
+        12400
+      ],
+      "look_at": [
+        -47600,
+        19100,
+        10150
+      ]
+    },
+    {
+      "name": "06_terrain_context",
+      "location": [
+        -49300,
+        14700,
+        13100
+      ],
+      "look_at": [
+        -44200,
+        18400,
+        9950
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Ultra_Dynamic_Sky": {
+    "Fog": "3.54399"
+  },
+  "Ultra_Dynamic_Weather": {
+    "Fog": "3.54399",
+    "Snow": "0.0"
+  },
+  "exporters": [
+    "ActorElementsExporterT3D",
+    "ActorExporterT3D",
+    "GLTFLevelExporter",
+    "GLTFLevelSequenceExporter",
+    "GLTFLevelVariantSetsExporter",
+    "GroupActorExporterT3D",
+    "LevelExporterFBX",
+    "LevelExporterLOD",
+    "LevelExporterOBJ",
+    "LevelExporterSTL",
+    "LevelExporterT3D",
+    "TextBufferExporterTXT",
+    "TextureCubeExporterHDR",
+    "TextureExporterBMP",
+    "TextureExporterDDS",
+    "TextureExporterEXR",
+    "TextureExporterGeneric",
+    "TextureExporterHDR",
+    "TextureExporterJPEG",
+    "TextureExporterPNG",
+    "TextureExporterTGA",
+    "TextureExporterUEJPEG",
+    "VirtualTextureBuilderExporterBMP",
+    "VirtualTextureBuilderExporterDDS",
+    "VirtualTextureBuilderExporterEXR",
+    "VirtualTextureBuilderExporterHDR",
+    "VirtualTextureBuilderExporterPNG"
+  ]
+}

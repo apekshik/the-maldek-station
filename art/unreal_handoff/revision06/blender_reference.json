@@ -1,0 +1,353 @@
+{
+  "Pine_CC0_0": {
+    "vertices": 269875,
+    "triangles": 347991,
+    "materials": [
+      "pine_tree_01_bark",
+      "pine_tree_01_trunk_c",
+      "pine_tree_01_twig",
+      "pine_tree_01_dead_branches"
+    ],
+    "bounds": [
+      [
+        -62.27338409423828,
+        96.63179016113281,
+        3.5696957111358643
+      ],
+      [
+        -62.27338409423828,
+        96.63179016113281,
+        17.224119186401367
+      ],
+      [
+        -60.439510345458984,
+        101.90616607666016,
+        17.224119186401367
+      ],
+      [
+        -60.439510345458984,
+        101.90616607666016,
+        3.5696957111358643
+      ],
+      [
+        -57.17683792114258,
+        94.85974884033203,
+        3.5696957111358643
+      ],
+      [
+        -57.17683792114258,
+        94.85974884033203,
+        17.224119186401367
+      ],
+      [
+        -55.34296417236328,
+        100.13412475585938,
+        17.224119186401367
+      ],
+      [
+        -55.34296417236328,
+        100.13412475585938,
+        3.5696957111358643
+      ]
+    ]
+  },
+  "Pine_CC0_1": {
+    "vertices": 200715,
+    "triangles": 267343,
+    "materials": [
+      "pine_tree_01_bark",
+      "pine_tree_01_trunk_b",
+      "pine_tree_01_twig",
+      "pine_tree_01_dead_branches"
+    ],
+    "bounds": [
+      [
+        -26.054370880126953,
+        33.91031265258789,
+        4.170726776123047
+      ],
+      [
+        -26.054370880126953,
+        33.91031265258789,
+        18.278545379638672
+      ],
+      [
+        -18.842294692993164,
+        35.74691390991211,
+        18.278545379638672
+      ],
+      [
+        -18.842294692993164,
+        35.74691390991211,
+        4.170726776123047
+      ],
+      [
+        -24.311918258666992,
+        27.06794548034668,
+        4.170726776123047
+      ],
+      [
+        -24.311918258666992,
+        27.06794548034668,
+        18.278545379638672
+      ],
+      [
+        -17.099842071533203,
+        28.9045467376709,
+        18.278545379638672
+      ],
+      [
+        -17.099842071533203,
+        28.9045467376709,
+        4.170726776123047
+      ]
+    ]
+  },
+  "Pine_CC0_2": {
+    "vertices": 318849,
+    "triangles": 416451,
+    "materials": [
+      "pine_tree_01_bark",
+      "pine_tree_01_trunk_a",
+      "pine_tree_01_twig",
+      "pine_tree_01_dead_branches"
+    ],
+    "bounds": [
+      [
+        72.41756439208984,
+        -2.653201103210449,
+        0.020000020042061806
+      ],
+      [
+        72.41756439208984,
+        -2.653201103210449,
+        16.573198318481445
+      ],
+      [
+        76.0512466430664,
+        -8.082805633544922,
+        16.573198318481445
+      ],
+      [
+        76.0512466430664,
+        -8.082805633544922,
+        0.020000020042061806
+      ],
+      [
+        67.4442367553711,
+        -5.98152494430542,
+        0.020000020042061806
+      ],
+      [
+        67.4442367553711,
+        -5.98152494430542,
+        16.573198318481445
+      ],
+      [
+        71.07791900634766,
+        -11.41112995147705,
+        16.573198318481445
+      ],
+      [
+        71.07791900634766,
+        -11.41112995147705,
+        0.020000020042061806
+      ]
+    ]
+  },
+  "Terrain_Cliff_And_Relay_Spur": {
+    "vertices": 34571,
+    "triangles": 68400,
+    "materials": [
+      "R02_Cliff_Rock_and_Forest_Soil"
+    ],
+    "bounds": [
+      [
+        -75.0,
+        -65.0,
+        -24.764442443847656
+      ],
+      [
+        -75.0,
+        -65.0,
+        5.300000190734863
+      ],
+      [
+        -75.0,
+        115.0,
+        5.300000190734863
+      ],
+      [
+        -75.0,
+        115.0,
+        -24.764442443847656
+      ],
+      [
+        115.0,
+        -65.0,
+        -24.764442443847656
+      ],
+      [
+        115.0,
+        -65.0,
+        5.300000190734863
+      ],
+      [
+        115.0,
+        115.0,
+        5.300000190734863
+      ],
+      [
+        115.0,
+        115.0,
+        -24.764442443847656
+      ]
+    ]
+  },
+  "materials": {
+    "pine_tree_01_bark": [
+      {
+        "image": "pine_tree_01_bark_disp.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_rough.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_nor_gl.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_diff.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png"
+      }
+    ],
+    "pine_tree_01_dead_branches": [
+      {
+        "image": "pine_tree_01_bark_diff.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_rough.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_nor_gl.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_disp.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png"
+      }
+    ],
+    "pine_tree_01_trunk_a": [
+      {
+        "image": "pine_tree_01_bark_diff.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_rough.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_nor_gl.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png"
+      },
+      {
+        "image": "pine_tree_01_trunk_a_diff.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_diff_1k.png"
+      },
+      {
+        "image": "pine_tree_01_trunk_a_rough.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_rough_1k.png"
+      },
+      {
+        "image": "pine_tree_01_trunk_a_nor_gl.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_a_nor_gl_1k.png"
+      }
+    ],
+    "pine_tree_01_trunk_b": [
+      {
+        "image": "pine_tree_01_trunk_b_rough.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_rough_1k.png"
+      },
+      {
+        "image": "pine_tree_01_trunk_b_nor_gl.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_nor_gl_1k.png"
+      },
+      {
+        "image": "pine_tree_01_trunk_b_diff.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_b_diff_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_diff.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_rough.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_nor_gl.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_disp.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png"
+      }
+    ],
+    "pine_tree_01_trunk_c": [
+      {
+        "image": "pine_tree_01_bark_diff.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_diff_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_rough.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_rough_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_nor_gl.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_nor_gl_1k.png"
+      },
+      {
+        "image": "pine_tree_01_bark_disp.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_bark_disp_1k.png"
+      },
+      {
+        "image": "pine_tree_01_trunk_c_diff.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_diff_1k.png"
+      },
+      {
+        "image": "pine_tree_01_trunk_c_rough.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_rough_1k.png"
+      },
+      {
+        "image": "pine_tree_01_trunk_c_nor_gl.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_trunk_c_nor_gl_1k.png"
+      }
+    ],
+    "pine_tree_01_twig": [
+      {
+        "image": "pine_tree_01_twig_mask.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_mask_1k.png"
+      },
+      {
+        "image": "pine_tree_01_twig_alpha.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_alpha_1k.png"
+      },
+      {
+        "image": "pine_tree_01_twig_nor_gl.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_nor_gl_1k.png"
+      },
+      {
+        "image": "pine_tree_01_twig_rough.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_rough_1k.png"
+      },
+      {
+        "image": "pine_tree_01_twig_diff.png",
+        "filepath": "/Users\\apekshik\\Developer\\the-maldek-station\\art\\blender\\revision_03\\assets\\textures\\pine_tree_01_twig_diff_1k.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "xy": [
+      0,
+      8
+    ],
+    "relative_ground_m": -15.3376220703125,
+    "actor": "R04_Local_Terrain"
+  },
+  {
+    "xy": [
+      0,
+      12
+    ],
+    "relative_ground_m": -23.50427001953125,
+    "actor": "R04_Local_Terrain"
+  },
+  {
+    "xy": [
+      0,
+      18
+    ],
+    "relative_ground_m": -23.58430908203125,
+    "actor": "R04_Local_Terrain"
+  },
+  {
+    "xy": [
+      5,
+      12
+    ],
+    "relative_ground_m": -23.50427001953125,
+    "actor": "R04_Local_Terrain"
+  },
+  {
+    "xy": [
+      -5,
+      12
+    ],
+    "relative_ground_m": -23.50427001953125,
+    "actor": "R04_Local_Terrain"
+  },
+  {
+    "xy": [
+      12,
+      5
+    ],
+    "relative_ground_m": -0.39988443173844646,
+    "actor": "R04_Local_Terrain"
+  },
+  {
+    "xy": [
+      48,
+      13
+    ],
+    "relative_ground_m": 2.65,
+    "actor": "R04_Local_Terrain"
+  }
+]
