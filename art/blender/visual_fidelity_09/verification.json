@@ -1,0 +1,2425 @@
+{
+  "evaluated_objects": 1805,
+  "vertices": 380212,
+  "polygons": 367788,
+  "routes": [
+    {
+      "route": "entry",
+      "samples": 17,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "left_service",
+      "samples": 36,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "right_service",
+      "samples": 36,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "rear_cross_aisle",
+      "samples": 32,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "workshop",
+      "samples": 23,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "fuel_exit",
+      "samples": 32,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "emergency_fill_access",
+      "samples": 33,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "water_pad_connection",
+      "samples": 10,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "water_north_border",
+      "samples": 43,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "water_south_border",
+      "samples": 42,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "route": "incoming_service_ramp",
+      "samples": 56,
+      "passed": true,
+      "failures": []
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Brace_gusset",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.001",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.002",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.003",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.004",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.005",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.006",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.007",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.008",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.009",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.010",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.011",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.012",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.013",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.014",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.015",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.016",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.017",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.018",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.019",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.020",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.021",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.022",
+      "passed": true
+    },
+    {
+      "name": "Brace_gusset.023",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3286",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3287",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3288",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3289",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3290",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3291",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3292",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3293",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3294",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3295",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3296",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3297",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3298",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3299",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3300",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.3301",
+      "passed": true
+    },
+    {
+      "name": "Hatch_rim",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3286",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3287",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3288",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3289",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3290",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3291",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3292",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3293",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3294",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3295",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3296",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3297",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3298",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3299",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3300",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.3301",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.001",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.002",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.003",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.004",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.005",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.006",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.007",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.008",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.009",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.010",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.011",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.012",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.013",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.014",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.015",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.016",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.017",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.018",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.019",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.020",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.021",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.022",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.023",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.024",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.025",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.026",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.027",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.028",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.029",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.030",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.031",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.032",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.033",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.034",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.035",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.036",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.037",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.038",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.039",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.040",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.041",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.042",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.043",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.044",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.045",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.046",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.047",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.048",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.049",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.050",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.051",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.052",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.053",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.054",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.055",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.056",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.057",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.058",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.059",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.060",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.061",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.062",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.063",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.064",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.065",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.066",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.067",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.068",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.069",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.070",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.071",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.072",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.073",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.074",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.075",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.076",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.077",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.078",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.079",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.080",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.081",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.082",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.083",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.084",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.085",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.086",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.087",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.088",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.089",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.090",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.091",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.092",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.093",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.094",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.095",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.096",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.097",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.098",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.099",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.100",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.101",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.102",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.103",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.104",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.105",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.106",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.107",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.108",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.109",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.110",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.111",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.112",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.113",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.114",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.115",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.116",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.117",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.118",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.119",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.120",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.121",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.122",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.123",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.124",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.125",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.126",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.127",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.128",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.129",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.130",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.131",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.132",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.133",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.134",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.135",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.136",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.137",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.138",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.139",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.140",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.141",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.142",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_hoop.143",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_upright",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_upright.001",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_upright.002",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_upright.003",
+      "passed": true
+    },
+    {
+      "name": "Ladder_cage_upright.004",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.001",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.002",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.003",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.004",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.005",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.006",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.007",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.008",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.009",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.010",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.011",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.012",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.013",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.014",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.015",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.016",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.017",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.018",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.019",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.020",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.021",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.022",
+      "passed": true
+    },
+    {
+      "name": "Ladder_rung.023",
+      "passed": true
+    },
+    {
+      "name": "Ladder_stile",
+      "passed": true
+    },
+    {
+      "name": "Ladder_stile.001",
+      "passed": true
+    },
+    {
+      "name": "Overflow_neck",
+      "passed": true
+    },
+    {
+      "name": "Overflow_pipe",
+      "passed": true
+    },
+    {
+      "name": "Red_valve_wheel",
+      "passed": true
+    },
+    {
+      "name": "Tank_base_plate",
+      "passed": true
+    },
+    {
+      "name": "Tank_base_plate.001",
+      "passed": true
+    },
+    {
+      "name": "Tank_base_plate.002",
+      "passed": true
+    },
+    {
+      "name": "Tank_base_plate.003",
+      "passed": true
+    },
+    {
+      "name": "Tank_closed_roof",
+      "passed": true
+    },
+    {
+      "name": "Tank_column",
+      "passed": true
+    },
+    {
+      "name": "Tank_column.001",
+      "passed": true
+    },
+    {
+      "name": "Tank_column.002",
+      "passed": true
+    },
+    {
+      "name": "Tank_column.003",
+      "passed": true
+    },
+    {
+      "name": "Tank_concrete_footing",
+      "passed": true
+    },
+    {
+      "name": "Tank_concrete_footing.001",
+      "passed": true
+    },
+    {
+      "name": "Tank_concrete_footing.002",
+      "passed": true
+    },
+    {
+      "name": "Tank_concrete_footing.003",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion.001",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion.002",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion.003",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion.004",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion.005",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion.006",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion.007",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion.008",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion.009",
+      "passed": true
+    },
+    {
+      "name": "Tank_guard_stanchion.010",
+      "passed": true
+    },
+    {
+      "name": "Tank_inspection_hatch",
+      "passed": true
+    },
+    {
+      "name": "Tank_lower_blue_courses",
+      "passed": true
+    },
+    {
+      "name": "Tank_outlet",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band.001",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band.002",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band.003",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band.004",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band.005",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band.006",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band.007",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band.008",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band.009",
+      "passed": true
+    },
+    {
+      "name": "Tank_rolled_band.010",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_bearer",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_bearer.001",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_bearer.002",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_bearer.003",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.001",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.002",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.003",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.004",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.005",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.006",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.007",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.008",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.009",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.010",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.011",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.012",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.013",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.014",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.015",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.016",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.017",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.018",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.019",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.020",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.021",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.022",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.023",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.024",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.025",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.026",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.027",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.028",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.029",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.030",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.031",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.032",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.033",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.034",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.035",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.036",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.037",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.038",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.039",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.040",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.041",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.042",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.043",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.044",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.045",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.046",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.047",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.048",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.049",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.050",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.051",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.052",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.053",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.054",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.055",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.056",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.057",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.058",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.059",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.060",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.061",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.062",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.063",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.064",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.065",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.066",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.067",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.068",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.069",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.070",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.071",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.072",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.073",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.074",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.075",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.076",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.077",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.078",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.079",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.080",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.081",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.082",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.083",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.084",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.085",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.086",
+      "passed": true
+    },
+    {
+      "name": "Tank_top_guard.087",
+      "passed": true
+    },
+    {
+      "name": "Tank_upper_zinc_courses",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.001",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.002",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.003",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.004",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.005",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.006",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.007",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.008",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.009",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.010",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.011",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.012",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.013",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.014",
+      "passed": true
+    },
+    {
+      "name": "Tank_X_brace.015",
+      "passed": true
+    },
+    {
+      "name": "Valve_body",
+      "passed": true
+    },
+    {
+      "name": "Valve_spoke",
+      "passed": true
+    },
+    {
+      "name": "Valve_spoke.001",
+      "passed": true
+    },
+    {
+      "name": "Water_id_plate",
+      "passed": true
+    },
+    {
+      "name": "Water_supply_header",
+      "passed": true
+    },
+    {
+      "name": "VF08_Inertia_plinth",
+      "passed": true
+    },
+    {
+      "name": "VF08_Skid_longitudinal",
+      "passed": true
+    },
+    {
+      "name": "VF08_Skid_longitudinal.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Skid_crossmember",
+      "passed": true
+    },
+    {
+      "name": "VF08_Isolation_rubber",
+      "passed": true
+    },
+    {
+      "name": "VF08_Mount_base",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.252",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.252",
+      "passed": true
+    },
+    {
+      "name": "VF08_Isolation_rubber.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Mount_base.001",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.253",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.253",
+      "passed": true
+    },
+    {
+      "name": "VF08_Skid_crossmember.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Isolation_rubber.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Mount_base.002",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.254",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.254",
+      "passed": true
+    },
+    {
+      "name": "VF08_Isolation_rubber.003",
+      "passed": true
+    },
+    {
+      "name": "VF08_Mount_base.003",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.255",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.255",
+      "passed": true
+    },
+    {
+      "name": "VF08_Skid_crossmember.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Isolation_rubber.004",
+      "passed": true
+    },
+    {
+      "name": "VF08_Mount_base.004",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.256",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.256",
+      "passed": true
+    },
+    {
+      "name": "VF08_Isolation_rubber.005",
+      "passed": true
+    },
+    {
+      "name": "VF08_Mount_base.005",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.257",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.257",
+      "passed": true
+    },
+    {
+      "name": "VF08_Oil_sump",
+      "passed": true
+    },
+    {
+      "name": "VF08_Crankcase",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cylinder_head",
+      "passed": true
+    },
+    {
+      "name": "VF08_Rocker_cover",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Rocker_cover.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.003",
+      "passed": true
+    },
+    {
+      "name": "VF08_Rocker_cover.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.004",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.005",
+      "passed": true
+    },
+    {
+      "name": "VF08_Rocker_cover.003",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.006",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.007",
+      "passed": true
+    },
+    {
+      "name": "VF08_Rocker_cover.004",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.008",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.009",
+      "passed": true
+    },
+    {
+      "name": "VF08_Rocker_cover.005",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.010",
+      "passed": true
+    },
+    {
+      "name": "VF08_Head_bolt.011",
+      "passed": true
+    },
+    {
+      "name": "VF08_Intake_manifold",
+      "passed": true
+    },
+    {
+      "name": "VF08_Turbocharger",
+      "passed": true
+    },
+    {
+      "name": "VF08_Air_cleaner",
+      "passed": true
+    },
+    {
+      "name": "VF08_Airbox_band",
+      "passed": true
+    },
+    {
+      "name": "VF08_Airbox_band.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_body",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_cast_rib",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_cast_rib.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_cast_rib.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_cast_rib.003",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_end",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_end_vent",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_end_vent.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_end_vent.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_end_vent.003",
+      "passed": true
+    },
+    {
+      "name": "VF08_Alternator_end_vent.004",
+      "passed": true
+    },
+    {
+      "name": "VF08_Terminal_box",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_frame",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.003",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.004",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.005",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.006",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.007",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.008",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.009",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.010",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.011",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.012",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.013",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.014",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.015",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.016",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.017",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.018",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.019",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.020",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.021",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.022",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.023",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.024",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.025",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.026",
+      "passed": true
+    },
+    {
+      "name": "VF08_Radiator_fins.027",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_shroud",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard_spoke",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard_spoke.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard_spoke.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard_spoke.003",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard_spoke.004",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard_spoke.005",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard_spoke.006",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard_spoke.007",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Fan_guard.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Service_filter",
+      "passed": true
+    },
+    {
+      "name": "VF08_Service_filter.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Battery_box",
+      "passed": true
+    },
+    {
+      "name": "VF08_Crankcase_inspection_cover",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.003",
+      "passed": true
+    },
+    {
+      "name": "VF08_Crankcase_inspection_cover.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.004",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.005",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.006",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.007",
+      "passed": true
+    },
+    {
+      "name": "VF08_Crankcase_inspection_cover.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.008",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.009",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.010",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.011",
+      "passed": true
+    },
+    {
+      "name": "VF08_Crankcase_inspection_cover.003",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.012",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.013",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.014",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.015",
+      "passed": true
+    },
+    {
+      "name": "VF08_Crankcase_inspection_cover.004",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.016",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.017",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.018",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.019",
+      "passed": true
+    },
+    {
+      "name": "VF08_Crankcase_inspection_cover.005",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.020",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.021",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.022",
+      "passed": true
+    },
+    {
+      "name": "VF08_Cover_hex.023",
+      "passed": true
+    },
+    {
+      "name": "VF08_Local_control_enclosure",
+      "passed": true
+    },
+    {
+      "name": "VF08_Local_control_screen",
+      "passed": true
+    },
+    {
+      "name": "VF08_Local_control_button",
+      "passed": true
+    },
+    {
+      "name": "VF08_Local_control_button.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Local_control_button.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Bund_foundation",
+      "passed": true
+    },
+    {
+      "name": "VF08_Bund_side",
+      "passed": true
+    },
+    {
+      "name": "VF08_Bund_side.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Bund_end",
+      "passed": true
+    },
+    {
+      "name": "VF08_Bund_end.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Dished_horizontal_shell",
+      "passed": true
+    },
+    {
+      "name": "VF08_Tank_weld_band",
+      "passed": true
+    },
+    {
+      "name": "VF08_Tank_weld_band.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Tank_weld_band.002",
+      "passed": true
+    },
+    {
+      "name": "VF08_Tank_weld_band.003",
+      "passed": true
+    },
+    {
+      "name": "VF08_Tank_weld_band.004",
+      "passed": true
+    },
+    {
+      "name": "VF08_Saddle_base",
+      "passed": true
+    },
+    {
+      "name": "VF08_Profiled_saddle",
+      "passed": true
+    },
+    {
+      "name": "VF08_Saddle_gusset",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.262",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.262",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.263",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.263",
+      "passed": true
+    },
+    {
+      "name": "VF08_Saddle_gusset.001",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.264",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.264",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.265",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.265",
+      "passed": true
+    },
+    {
+      "name": "VF08_Hold_down_stud",
+      "passed": true
+    },
+    {
+      "name": "VF08_Saddle_base.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Profiled_saddle.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Saddle_gusset.002",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.266",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.266",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.267",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.267",
+      "passed": true
+    },
+    {
+      "name": "VF08_Saddle_gusset.003",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.268",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.268",
+      "passed": true
+    },
+    {
+      "name": "Fastener_washer.269",
+      "passed": true
+    },
+    {
+      "name": "Hex_head.269",
+      "passed": true
+    },
+    {
+      "name": "VF08_Hold_down_stud.001",
+      "passed": true
+    },
+    {
+      "name": "VF08_Manway_neck",
+      "passed": true
+    },
+    {
+      "name": "VF08_Manway_bolted_cover",
+      "passed": true
+    },
+    {
+      "name": "VF08_Flange_fastener.016",
+      "passed": true
+    },
+    {
+      "name": "VF08_Flange_fastener.017",
+      "passed": true
+    },
+    {
+      "name": "VF08_Flange_fastener.018",
+      "passed": true
+    },
+    {
+      "name": "VF08_Flange_fastener.019",
+      "passed": true
+    },
+    {
+      "name": "VF08_Flange_fastener.020",
+      "passed": true
+    },
+    {
+      "name": "VF08_Flange_fastener.021",
+      "passed": true
+    },
+    {
+      "name": "VF08_Flange_fastener.022",
+      "passed": true
+    },
+    {
+      "name": "VF08_Flange_fastener.023",
+      "passed": true
+    },
+    {
+      "name": "VF08_Vent_weather_cap",
+      "passed": true
+    },
+    {
+      "name": "VF08_Emergency_relief",
+      "passed": true
+    },
+    {
+      "name": "VF08_Relief_cap",
+      "passed": true
+    },
+    {
+      "name": "VF08_Tank_identification_plate",
+      "passed": true
+    },
+    {
+      "name": "VF08_Tank_level_gauge",
+      "passed": true
+    },
+    {
+      "name": "VF08_Level_gauge_face",
+      "passed": true
+    }
+  ],
+  "scope": "Blender sampled floor patches (70 mm search on grating), 560 mm body clearance; not Unreal capsule verification",
+  "passed": true
+}
