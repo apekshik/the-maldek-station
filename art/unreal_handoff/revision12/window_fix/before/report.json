@@ -1,0 +1,26 @@
+{
+  "phase": "cleanup",
+  "next": 138840.687,
+  "i": 3,
+  "j": 0,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\polish\\..\\window_fix\\before\\control_window_original.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\polish\\..\\window_fix\\before\\hall_window_original.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\polish\\..\\window_fix\\before\\quarters_window_original.png"
+  ],
+  "busy": true,
+  "original_console": {
+    "r.RayTracing.Shadows": 0,
+    "r.Nanite": 1,
+    "r.Lumen.HardwareRayTracing": 1
+  },
+  "light": {
+    "cast_raytraced_shadow": "<CastRayTracedShadow.USE_PROJECT_SETTING: 1>",
+    "cast_shadows": "True",
+    "shadow_bias": "0.5",
+    "shadow_slope_bias": "0.5",
+    "source_radius": "0.6000000238418579",
+    "contact_shadow_length": "0.0"
+  },
+  "success": true
+}

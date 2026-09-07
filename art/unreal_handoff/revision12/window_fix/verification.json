@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "meshes": [
+    {
+      "mesh": "SM_R12_VF06_Control_009_solid",
+      "triangles": 39756,
+      "collision_boxes": 18
+    },
+    {
+      "mesh": "SM_R12_VF06_Maintenance_Shells_008_solid",
+      "triangles": 59861,
+      "collision_boxes": 47
+    },
+    {
+      "mesh": "SM_R12_VF06_Quarters_004_solid",
+      "triangles": 16256,
+      "collision_boxes": 14
+    },
+    {
+      "mesh": "SM_R12_VF06_Quarters_007_solid",
+      "triangles": 6520,
+      "collision_boxes": 4
+    },
+    {
+      "mesh": "SM_R12_VF06_Relay_Shell_003_solid",
+      "triangles": 41782,
+      "collision_boxes": 32
+    },
+    {
+      "mesh": "SM_R12_VF06_Waiting_Hall_003_solid",
+      "triangles": 11840,
+      "collision_boxes": 4
+    },
+    {
+      "mesh": "SM_R12_VF06_Waiting_Hall_010_solid",
+      "triangles": 42296,
+      "collision_boxes": 17
+    }
+  ],
+  "collision_unchanged": true,
+  "retained_actor_audit": "audit_architecture.json"
+}

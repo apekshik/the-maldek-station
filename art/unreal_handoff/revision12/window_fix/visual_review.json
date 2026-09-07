@@ -1,0 +1,11 @@
+{
+  "accepted": true,
+  "scope": "Window reveal surfaces only",
+  "capture": "window_fix/burst/report.json",
+  "findings": [
+    "Matched control-room view no longer contains the competing beige stripe on the window side.",
+    "Waiting-hall and quarters head/side surfaces remain stable in the captured rapid sequences."
+  ],
+  "collision": "Unchanged export collision boxes; previous movement route acceptance retained.",
+  "manifest_sha256": "4d2fe54f3716c2eee242248d5fc7e1e110deabd6f00607c5e877c70295589ff9"
+}

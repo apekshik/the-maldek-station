@@ -7,12 +7,17 @@ o=json.loads((b.parent/'working_level_report.json').read_text())['station_origin
 def wp(p):return unreal.Vector(o[0]-100*p[0],o[1]+100*p[1],o[2]+100*p[2])
 variants=JOB.get('variants',['original','torch_shadows_off','ray_shadows_off','nanite_off','glass_hidden'])
 shots=JOB.get('shots',[('control_sill',(-5,1.5,5.05),(-5,-.15,4.75)),('hall_threshold',(-9.7,1.5,4.7),(-9.7,-.2,4.03))])
-s={'phase':'start','next':time.monotonic()+10,'i':0,'j':0,'images':[],'busy':False}
+s={'phase':'start','next':time.monotonic()+10,'i':0,'j':0,'frame':0,'images':[],'busy':False}
 old={};glass=[]
 def tick(dt):
  if s['busy'] or time.monotonic()<s['next']:return
  s['busy']=True
  try:
+  if s.get('pending_image'):
+   if not Path(s['pending_image']).exists():
+    assert time.monotonic()<s['image_deadline'],'Screenshot did not complete'
+    s['next']=time.monotonic()+.05;return
+   s['pending_image']=None
   if s['phase']=='cleanup':
    if ls.is_in_play_in_editor():return
    s['success']='error' not in s;(out/'report.json').write_text(json.dumps(s,indent=2));unreal.unregister_slate_post_tick_callback(handle);return
@@ -46,7 +51,11 @@ def tick(dt):
    p.set_actor_location(pos-unreal.Vector(0,0,p.base_eye_height) if JOB.get('eye_positions') else pos,False,True);pc.set_control_rotation(unreal.MathLibrary.find_look_at_rotation(pos,wp(target)))
    s.update(phase='capture',next=time.monotonic()+6);return
   if s['phase']=='capture':
-   file=out/(shots[s['i']][0]+'_'+variants[s['j']]+'.png');unreal.AutomationLibrary.take_high_res_screenshot(1920,1080,str(file));s['images'].append(str(file));s['j']+=1
+   suffix=('_'+str(s['frame']).zfill(2)) if JOB.get('burst_frames',1)>1 else ''
+   file=out/(shots[s['i']][0]+'_'+variants[s['j']]+suffix+'.png');unreal.AutomationLibrary.take_high_res_screenshot(1920,1080,str(file));s['images'].append(str(file));s['frame']+=1
+   s['pending_image']=str(file);s['image_deadline']=time.monotonic()+30
+   if s['frame']<JOB.get('burst_frames',1):s['next']=time.monotonic()+JOB.get('burst_interval',.25);return
+   s['frame']=0;s['j']+=1
    if s['j']==len(variants):s['j']=0;s['i']+=1
    s.update(phase='finish' if s['i']==len(shots) else 'place',next=time.monotonic()+3);return
   if s['phase']=='finish':
@@ -54,6 +63,7 @@ def tick(dt):
    unreal.StationMigrationLibrary.set_pie_render_size(0,0);ls.editor_request_end_play();s.update(phase='cleanup',next=time.monotonic()+2)
  except Exception:
   s['error']=traceback.format_exc()
+  s['pending_image']=None
   for k,v in old.items():unreal.SystemLibrary.execute_console_command(None,f'{k} {v}')
   ls.editor_request_end_play();s.update(phase='cleanup',next=time.monotonic()+2)
  finally:s['busy']=False
