@@ -1,0 +1,8 @@
+{
+  "deleted": [
+    "/Game/MaldekRefinement/R12/Diagnostics/SM_TerrainNaniteProbe",
+    "/Game/MaldekRefinement/R12/Diagnostics/MI_TerrainNaniteProbe",
+    "/Game/MaldekRefinement/R12/Diagnostics/M_TerrainNaniteProbe"
+  ],
+  "level_bindings_changed": false
+}

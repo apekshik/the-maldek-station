@@ -1,0 +1,11 @@
+{
+  "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.PointLight_6.LightComponent0": {
+    "label": "PointLight7",
+    "old_intensity": 4.668101787567139,
+    "old_volumetric_scattering_intensity": 2.0,
+    "units": "<LightUnits.CANDELAS: 1>",
+    "reason": "Calibrate retained yard light beside the newly added reflective water tower; preserve position, color and radius.",
+    "new_intensity": 0.15,
+    "new_volumetric_scattering_intensity": 0.035
+  }
+}

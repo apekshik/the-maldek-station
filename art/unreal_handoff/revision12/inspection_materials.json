@@ -1,0 +1,878 @@
+{
+  "success": true,
+  "materials": [
+    {
+      "slot": "UE_VF06_Structural_steel__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Structural_steel__Exterior.MI_Dry_UE_VF06_Structural_steel__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "5c56721ae787b8f4e6fbd3240347cc587bfaa04a82b99c9c9de5d95f826d1002",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_R02_Chipped_Painted_Steel__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Chipped_Painted_Steel__Exterior.MI_Dry_UE_R02_Chipped_Painted_Steel__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "2d3ced294997d6b7fdbbf0ccf530bbc475e74e5efee54a4fd782937e04eeca43",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Concrete__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Concrete__Exterior.MI_Dry_UE_VF06_Concrete__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "e845ed8fe034d0f15d2fbc48b2fd500248913f84ac2b86d9aa20c88ed5731e7f",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_R02_Weathered_Concrete__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Weathered_Concrete__Exterior.MI_Dry_UE_R02_Weathered_Concrete__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "38e57fd1bdf80c78a359c5a8cc67d8ee4213669e5d36a1a5ce1e1900fecec8d3",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_R04_Galvanized_Fittings__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Galvanized_Fittings__Exterior.MI_Dry_UE_R04_Galvanized_Fittings__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "470e8e22fb8bf23acf8204adf7f9b34e0d180fff063be4452a65a247aff4bef8",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_R04_Painted_Charcoal__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Painted_Charcoal__Exterior.MI_Dry_UE_R04_Painted_Charcoal__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "d6c23d01fee3f2e4a48c69a8d84fd6c8beecad4469a02e841e812925226a91e4",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_R04_Seals__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Seals__Exterior.MI_Dry_UE_R04_Seals__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "83939d50701a7a8d22a4a6c012bbfe3685029dbfc663e2f368441ffc4382f07f",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_R04_Safety_Ochre__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Safety_Ochre__Exterior.MI_Dry_UE_R04_Safety_Ochre__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "d4f9d99db8cc040ba44cf31fff012328428ae5ea9cdfc7e91980e78b1ced7d3c",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_R04_Instrument_Ivory__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Instrument_Ivory__Exterior.MI_Dry_UE_R04_Instrument_Ivory__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "77d10fddb32733e81b4db23221df8d1e6df4793f1c0a899fe062e29ae5e7e8a4",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_R02_Galvanized_Grating__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Galvanized_Grating__Exterior.MI_Dry_UE_R02_Galvanized_Grating__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "a7fabe9cbd35f92c6f8a50b9dddf93c74a19e67f48597e0269494dd8d55e00cf",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Concrete__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Concrete__Indoor.MI_Dry_UE_VF06_Concrete__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "e845ed8fe034d0f15d2fbc48b2fd500248913f84ac2b86d9aa20c88ed5731e7f",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_R02_Weathered_Concrete__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Weathered_Concrete__Indoor.MI_Dry_UE_R02_Weathered_Concrete__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "38e57fd1bdf80c78a359c5a8cc67d8ee4213669e5d36a1a5ce1e1900fecec8d3",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Galvanized__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Galvanized__Exterior.MI_Dry_UE_VF06_Galvanized__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "bccac58e7cec6e7179218d518fed913cec897efd3ae5db0147d682e3c5ac3fff",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_R02_Worn_Safety_Paint__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Worn_Safety_Paint__Exterior.MI_Dry_UE_R02_Worn_Safety_Paint__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "134e014d8940ea3b71ac8954de9d6936bb8608d6482fb58f87d03b466059e43c",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_R02_Chipped_Painted_Steel__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Chipped_Painted_Steel__Indoor.MI_Dry_UE_R02_Chipped_Painted_Steel__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "2d3ced294997d6b7fdbbf0ccf530bbc475e74e5efee54a4fd782937e04eeca43",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Glass__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Glass__Exterior.MI_Dry_UE_VF06_Glass__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Glass_Interior.M_R12_Glass_Interior",
+      "texture_set": "af138731c9a687e413d51569e9227bd1f28caea577ccf22f4fad8a000452a05a",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Petrol_paint__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Petrol_paint__Exterior.MI_Dry_UE_VF06_Petrol_paint__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "717b0ced502c1cceff85df743868fa5f8feacece64d21c828d68810e6f6296c4",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_R04_Oxide_Enamel__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Oxide_Enamel__Exterior.MI_Dry_UE_R04_Oxide_Enamel__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "6963800f92a86709d57f865daaeef8aeb1cb92bb18d446f9b0c83deb65924777",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_R02_Damp_Timber__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Damp_Timber__Exterior.MI_Dry_UE_R02_Damp_Timber__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_WoodFabricRubber_Interior.M_R12_WoodFabricRubber_Interior",
+      "texture_set": "e22904f1e64684990389c9070045979c6f67c56dbfb0fb01bfeabfb308d6c73e",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Wood.PM_Wood",
+      "reused": true
+    },
+    {
+      "slot": "UE_R02_Damp_Timber__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Damp_Timber__Indoor.MI_Dry_UE_R02_Damp_Timber__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_WoodFabricRubber_Interior.M_R12_WoodFabricRubber_Interior",
+      "texture_set": "e22904f1e64684990389c9070045979c6f67c56dbfb0fb01bfeabfb308d6c73e",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Wood.PM_Wood",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Dark_Steel_Frame__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame__Exterior.MI_Dry_UE_VF_Dark_Steel_Frame__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Local_Oxidation__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation__Exterior.MI_Dry_UE_VF_Local_Oxidation__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Galvanized_Grating__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating__Exterior.MI_Dry_UE_VF_Galvanized_Grating__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Local_Oxidation__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation__Indoor.MI_Dry_UE_VF_Local_Oxidation__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Faded_Petrol_Paint__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint__Indoor.MI_Dry_UE_VF_Faded_Petrol_Paint__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Galvanized_Grating__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating__Indoor.MI_Dry_UE_VF_Galvanized_Grating__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Cast_Concrete__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete__Indoor.MI_Dry_UE_VF_Cast_Concrete__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Cast_Concrete__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete__Exterior.MI_Dry_UE_VF_Cast_Concrete__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Faded_Petrol_Paint__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint__Exterior.MI_Dry_UE_VF_Faded_Petrol_Paint__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Interior_Enamel__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel__Exterior.MI_Dry_UE_VF_Interior_Enamel__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Dark_Steel_Frame__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame__Indoor.MI_Dry_UE_VF_Dark_Steel_Frame__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Interior_Enamel__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel__Indoor.MI_Dry_UE_VF_Interior_Enamel__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Warm_Diffuser__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Warm_Diffuser__Indoor.MI_Dry_UE_VF_Warm_Diffuser__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "d66c8958803c8207ddc543189865d8d95e94ceb96f2de2cf2c22f2c12502e3f9",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Bedding__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Bedding__Indoor.MI_Dry_UE_VF_Bedding__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "a88e13b874ad5ee08c22ba737bf37b3b9a29ffab33eeaa05afa297a34dea4dcc",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Window_Seal__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Seal__Indoor.MI_Dry_UE_VF_Window_Seal__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "24557afd157e49723dd034f71fdcb4be68d918b80f05b2067268adfbcbbf2117",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Paper__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Paper__Indoor.MI_Dry_UE_VF_Paper__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "5e64494f29546ed90ea5580ce96ff657157a27f23822e83daace43851a26cf8c",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Desk_Timber__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Desk_Timber__Indoor.MI_Dry_UE_VF_Desk_Timber__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_WoodFabricRubber_Interior.M_R12_WoodFabricRubber_Interior",
+      "texture_set": "0f49ff13db621867a4c09bead01567c11cf4791f861e9da5146d7f4e313b2948",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Wood.PM_Wood",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Window_Glass__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Glass__Exterior.MI_Dry_UE_VF_Window_Glass__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Glass_Interior.M_R12_Glass_Interior",
+      "texture_set": "0a60b55bbc856360c35637a4a63f278f96e76cab0ef3553cffe96023e0a08b9f",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Fastener_oxidation__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Fastener_oxidation__Exterior.MI_Dry_UE_VF06_Fastener_oxidation__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "1907926b3567c76b45b5b570e0a5b44169ee7c66dbcbb98bd8cedd1cf11dd79d",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Rubber__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Rubber__Exterior.MI_Dry_UE_VF06_Rubber__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_WoodFabricRubber_Interior.M_R12_WoodFabricRubber_Interior",
+      "texture_set": "34e4047949b72b7dccb3b0338b5ca56ac2a45ffa33659f74a784211ab15be528",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Safety_ochre__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Safety_ochre__Exterior.MI_Dry_UE_VF06_Safety_ochre__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "397cd4dc6bcdd415544f3338e5ba27f41a240b166ffeaa66a550cf1f1f2e7ea7",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Lamp__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Lamp__Exterior.MI_Dry_UE_VF06_Lamp__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Emissive_Interior.M_R12_Emissive_Interior",
+      "texture_set": "4bb419fc1549835caf3635004a7ba68494660a39e47f4937e9a0a300f494f599",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Warm_enamel__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Warm_enamel__Exterior.MI_Dry_UE_VF06_Warm_enamel__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "3fc351d3ec2d1c3a12d6dc054878d99fba3328777ff7690aa75c7b0a763b8048",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Warm_enamel__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Warm_enamel__Indoor.MI_Dry_UE_VF06_Warm_enamel__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "3fc351d3ec2d1c3a12d6dc054878d99fba3328777ff7690aa75c7b0a763b8048",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Structural_steel__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Structural_steel__Indoor.MI_Dry_UE_VF06_Structural_steel__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "5c56721ae787b8f4e6fbd3240347cc587bfaa04a82b99c9c9de5d95f826d1002",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Galvanized__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Galvanized__Indoor.MI_Dry_UE_VF06_Galvanized__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "bccac58e7cec6e7179218d518fed913cec897efd3ae5db0147d682e3c5ac3fff",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Petrol_paint__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Petrol_paint__Indoor.MI_Dry_UE_VF06_Petrol_paint__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "717b0ced502c1cceff85df743868fa5f8feacece64d21c828d68810e6f6296c4",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Service_green__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Service_green__Exterior.MI_Dry_UE_VF06_Service_green__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "8c178feba2d54989a0e145f2bdd28424fdc5e2d30a771a16c893c056cb81ea85",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Fastener_oxidation__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Fastener_oxidation__Indoor.MI_Dry_UE_VF06_Fastener_oxidation__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "1907926b3567c76b45b5b570e0a5b44169ee7c66dbcbb98bd8cedd1cf11dd79d",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF06_Service_green__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Service_green__Indoor.MI_Dry_UE_VF06_Service_green__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "8c178feba2d54989a0e145f2bdd28424fdc5e2d30a771a16c893c056cb81ea85",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Cast_Concrete_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete_001__Indoor.MI_Dry_UE_VF_Cast_Concrete_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Galvanized_Grating_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_001__Indoor.MI_Dry_UE_VF_Galvanized_Grating_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Window_Glass_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Glass_001__Indoor.MI_Dry_UE_VF_Window_Glass_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Glass_Interior.M_R12_Glass_Interior",
+      "texture_set": "0a60b55bbc856360c35637a4a63f278f96e76cab0ef3553cffe96023e0a08b9f",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Galvanized_Grating_001__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_001__Exterior.MI_Dry_UE_VF_Galvanized_Grating_001__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Dark_Steel_Frame_001__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_001__Exterior.MI_Dry_UE_VF_Dark_Steel_Frame_001__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Local_Oxidation_001__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_001__Exterior.MI_Dry_UE_VF_Local_Oxidation_001__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Replacement_Green_Paint__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Replacement_Green_Paint__Exterior.MI_Dry_UE_VF_Replacement_Green_Paint__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "d3ddbf5f63766e2d824f9a32558adfda8059399c0d86b2499283f20815677ec5",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Dark_Steel_Frame_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_001__Indoor.MI_Dry_UE_VF_Dark_Steel_Frame_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Desk_Timber_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Desk_Timber_001__Indoor.MI_Dry_UE_VF_Desk_Timber_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_WoodFabricRubber_Interior.M_R12_WoodFabricRubber_Interior",
+      "texture_set": "0f49ff13db621867a4c09bead01567c11cf4791f861e9da5146d7f4e313b2948",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Wood.PM_Wood",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Local_Oxidation_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_001__Indoor.MI_Dry_UE_VF_Local_Oxidation_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Interior_Enamel_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel_001__Indoor.MI_Dry_UE_VF_Interior_Enamel_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Paper_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Paper_001__Indoor.MI_Dry_UE_VF_Paper_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "5e64494f29546ed90ea5580ce96ff657157a27f23822e83daace43851a26cf8c",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Warm_Diffuser_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Warm_Diffuser_001__Indoor.MI_Dry_UE_VF_Warm_Diffuser_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "d66c8958803c8207ddc543189865d8d95e94ceb96f2de2cf2c22f2c12502e3f9",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Bedding_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Bedding_001__Indoor.MI_Dry_UE_VF_Bedding_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "a88e13b874ad5ee08c22ba737bf37b3b9a29ffab33eeaa05afa297a34dea4dcc",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Dark_Steel_Frame_004__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_004__Exterior.MI_Dry_UE_VF_Dark_Steel_Frame_004__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Galvanized_Grating_004__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_004__Exterior.MI_Dry_UE_VF_Galvanized_Grating_004__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Interior_Enamel_003__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel_003__Exterior.MI_Dry_UE_VF_Interior_Enamel_003__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Local_Oxidation_004__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_004__Exterior.MI_Dry_UE_VF_Local_Oxidation_004__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Faded_Safety_Ochre_001__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Safety_Ochre_001__Exterior.MI_Dry_UE_VF_Faded_Safety_Ochre_001__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "d5ecc041a894204798ecf34bb00a76c6ab076ab6f8bac61e24e061aa2bc33a77",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Warm_Diffuser_002__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Warm_Diffuser_002__Exterior.MI_Dry_UE_VF_Warm_Diffuser_002__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "d66c8958803c8207ddc543189865d8d95e94ceb96f2de2cf2c22f2c12502e3f9",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Service_Red__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Service_Red__Exterior.MI_Dry_UE_VF_Service_Red__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "815a872b693212f5fdfe30fbd2fd75578d593bf116e23791fc27118d82524c9b",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Window_Seal_001__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Seal_001__Exterior.MI_Dry_UE_VF_Window_Seal_001__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "24557afd157e49723dd034f71fdcb4be68d918b80f05b2067268adfbcbbf2117",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Cast_Concrete_002__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete_002__Exterior.MI_Dry_UE_VF_Cast_Concrete_002__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Local_Oxidation_002__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_002__Exterior.MI_Dry_UE_VF_Local_Oxidation_002__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Faded_Petrol_Paint_001__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint_001__Exterior.MI_Dry_UE_VF_Faded_Petrol_Paint_001__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Galvanized_Grating_002__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_002__Exterior.MI_Dry_UE_VF_Galvanized_Grating_002__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Interior_Enamel_002__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel_002__Exterior.MI_Dry_UE_VF_Interior_Enamel_002__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Dark_Steel_Frame_002__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_002__Exterior.MI_Dry_UE_VF_Dark_Steel_Frame_002__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Dark_Steel_Frame_002__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_002__Indoor.MI_Dry_UE_VF_Dark_Steel_Frame_002__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Window_Glass_002__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Glass_002__Exterior.MI_Dry_UE_VF_Window_Glass_002__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Glass_Interior.M_R12_Glass_Interior",
+      "texture_set": "0a60b55bbc856360c35637a4a63f278f96e76cab0ef3553cffe96023e0a08b9f",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Cast_Concrete_002__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete_002__Indoor.MI_Dry_UE_VF_Cast_Concrete_002__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Desk_Timber_002__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Desk_Timber_002__Indoor.MI_Dry_UE_VF_Desk_Timber_002__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_WoodFabricRubber_Interior.M_R12_WoodFabricRubber_Interior",
+      "texture_set": "0f49ff13db621867a4c09bead01567c11cf4791f861e9da5146d7f4e313b2948",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Wood.PM_Wood",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Paper_002__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Paper_002__Indoor.MI_Dry_UE_VF_Paper_002__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "5e64494f29546ed90ea5580ce96ff657157a27f23822e83daace43851a26cf8c",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Interior_Enamel_002__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel_002__Indoor.MI_Dry_UE_VF_Interior_Enamel_002__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Local_Oxidation_002__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_002__Indoor.MI_Dry_UE_VF_Local_Oxidation_002__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Faded_Petrol_Paint_001__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint_001__Indoor.MI_Dry_UE_VF_Faded_Petrol_Paint_001__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Galvanized_Grating_002__Indoor",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_002__Indoor.MI_Dry_UE_VF_Galvanized_Grating_002__Indoor",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Interior_Enamel_004__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel_004__Exterior.MI_Dry_UE_VF_Interior_Enamel_004__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "6e56c3860bb27d4cf4cb299478f48a095e5e7fe9b9b190017a064eb26138dbf0",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Local_Oxidation_005__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_005__Exterior.MI_Dry_UE_VF_Local_Oxidation_005__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "443587c5a4d64e6c271d50892ac9d9b27bf19dfc140ec08f8484a0f57f8f4dd1",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Galvanized_Grating_005__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_005__Exterior.MI_Dry_UE_VF_Galvanized_Grating_005__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "texture_set": "d5c05ea591eb58cb1cd59e8d6495ee3a95a52d644d6e88816ac473f17e5d8609",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Service_Red_001__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Service_Red_001__Exterior.MI_Dry_UE_VF_Service_Red_001__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "815a872b693212f5fdfe30fbd2fd75578d593bf116e23791fc27118d82524c9b",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Dark_Steel_Frame_005__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_005__Exterior.MI_Dry_UE_VF_Dark_Steel_Frame_005__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "texture_set": "d885e3e3d5846c2e4e26d5bb9d981ea2a1b105a694df4b3b74a2a678246f20a6",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Cast_Concrete_003__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete_003__Exterior.MI_Dry_UE_VF_Cast_Concrete_003__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "texture_set": "4cae7c514a69d86a8c60f629fa339e157c294ff2c8e8bc46915b4d95ad9e31c5",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF_Faded_Petrol_Paint_002__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint_002__Exterior.MI_Dry_UE_VF_Faded_Petrol_Paint_002__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "e926691aed44cfb6de37ca33ab207675913ed5ef833ac40ca3b1022a60ce47ef",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF07_Compacted_Gravel__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF07_Compacted_Gravel__Exterior.MI_Dry_UE_VF07_Compacted_Gravel__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Gravel_Interior.M_R12_Gravel_Interior",
+      "texture_set": "a259db1bee12fd6976cb9ec0e25359693fd4cc8932a90453123d62f47792e216",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Gravel.PM_Gravel",
+      "reused": true
+    },
+    {
+      "slot": "UE_VF07_Terrain_Study",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF07_Terrain_Study.MI_Dry_UE_VF07_Terrain_Study",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "e10e6994c84aa13ddc1664b8389d1cad1d49cd0af4b64aed8db871777eb04817",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil"
+    },
+    {
+      "slot": "UE_Ground__Exterior",
+      "instance": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_Ground__Exterior.MI_Dry_UE_Ground__Exterior",
+      "master": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "texture_set": "ad1e364fabe13d9bd8ad64dd98515328445d839b318b415c4b02911d2c0b472e",
+      "weather": false,
+      "physical_material": "/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal"
+    }
+  ],
+  "texture_sets": 40,
+  "normal_green_flipped_on_import": false
+}

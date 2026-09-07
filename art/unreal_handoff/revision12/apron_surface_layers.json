@@ -1,0 +1,175 @@
+[
+  {
+    "xy": [
+      7,
+      -3
+    ],
+    "layers": [
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_39",
+        "label": "R04_21_Maintenance",
+        "impact": [
+          7.0,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_305",
+        "label": "R12_Terrain",
+        "impact": [
+          7.0,
+          -3.0,
+          -0.22
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      8,
+      -3
+    ],
+    "layers": [
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_39",
+        "label": "R04_21_Maintenance",
+        "impact": [
+          8.0,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_305",
+        "label": "R12_Terrain",
+        "impact": [
+          8.0,
+          -3.0,
+          -0.22
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      9,
+      -3
+    ],
+    "layers": [
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_39",
+        "label": "R04_21_Maintenance",
+        "impact": [
+          9.0,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_305",
+        "label": "R12_Terrain",
+        "impact": [
+          9.0,
+          -3.0,
+          -0.22
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      8,
+      -1
+    ],
+    "layers": [
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_56",
+        "label": "R12_06_Stairs_and_Landings_000_solid",
+        "impact": [
+          8.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_305",
+        "label": "R12_Terrain",
+        "impact": [
+          8.0,
+          -1.0,
+          -0.22
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      8,
+      -5
+    ],
+    "layers": [
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_305",
+        "label": "R12_Terrain",
+        "impact": [
+          8.0,
+          -5.0,
+          -0.22
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      10,
+      -3
+    ],
+    "layers": [
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_39",
+        "label": "R04_21_Maintenance",
+        "impact": [
+          10.0,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_305",
+        "label": "R12_Terrain",
+        "impact": [
+          10.0,
+          -3.0,
+          -0.22
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      12,
+      -3
+    ],
+    "layers": [
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_39",
+        "label": "R04_21_Maintenance",
+        "impact": [
+          12.0,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StaticMeshActor_305",
+        "label": "R12_Terrain",
+        "impact": [
+          12.0,
+          -3.0,
+          -0.22
+        ]
+      }
+    ]
+  }
+]

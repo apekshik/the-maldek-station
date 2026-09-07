@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "closed_assemblies": [
+    {
+      "assembly": "SM_R12_VF06_Control_008_glass",
+      "bindings": {
+        "UE_VF_Window_Glass__Exterior": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass__Exterior.MI_Closed_UE_VF_Window_Glass__Exterior"
+      },
+      "geometry_changed": false,
+      "collision_changed": false
+    },
+    {
+      "assembly": "SM_R12_VF06_Maintenance_Shells_007_glass",
+      "bindings": {
+        "UE_VF06_Glass__Exterior": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF06_Glass__Exterior.MI_Closed_UE_VF06_Glass__Exterior"
+      },
+      "geometry_changed": false,
+      "collision_changed": false
+    },
+    {
+      "assembly": "SM_R12_VF06_Quarters_002_glass",
+      "bindings": {
+        "UE_VF_Window_Glass_001__Indoor": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_001__Indoor.MI_Closed_UE_VF_Window_Glass_001__Indoor"
+      },
+      "geometry_changed": false,
+      "collision_changed": false
+    },
+    {
+      "assembly": "SM_R12_VF06_Quarters_005_glass",
+      "bindings": {
+        "UE_VF_Window_Glass_001__Indoor": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_001__Indoor.MI_Closed_UE_VF_Window_Glass_001__Indoor"
+      },
+      "geometry_changed": false,
+      "collision_changed": false
+    },
+    {
+      "assembly": "SM_R12_VF06_Relay_Shell_002_glass",
+      "bindings": {
+        "UE_VF06_Glass__Exterior": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF06_Glass__Exterior.MI_Closed_UE_VF06_Glass__Exterior"
+      },
+      "geometry_changed": false,
+      "collision_changed": false
+    },
+    {
+      "assembly": "SM_R12_VF06_Waiting_Hall_002_glass",
+      "bindings": {
+        "UE_VF_Window_Glass_002__Exterior": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_002__Exterior.MI_Closed_UE_VF_Window_Glass_002__Exterior"
+      },
+      "geometry_changed": false,
+      "collision_changed": false
+    },
+    {
+      "assembly": "SM_R12_VF06_Waiting_Hall_009_glass",
+      "bindings": {
+        "UE_VF_Window_Glass_002__Exterior": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Closed_UE_VF_Window_Glass_002__Exterior.MI_Closed_UE_VF_Window_Glass_002__Exterior"
+      },
+      "geometry_changed": false,
+      "collision_changed": false
+    }
+  ],
+  "closed_objects": 14,
+  "gondola_sheet_objects_two_sided": 10,
+  "reason": "Closed panes already have outward-facing surfaces on both sides. Backface culling removes redundant tint/overdraw while preserving visibility from inside and outside. Open gondola sheets retain two-sided shading."
+}

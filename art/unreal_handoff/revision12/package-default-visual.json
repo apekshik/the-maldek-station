@@ -1,0 +1,6 @@
+{
+  "accepted": true,
+  "image": "package-default-startup.png",
+  "sha256": "8d898952bf2a0778b8b68dab5ca1e2b7216b3d8c464bd3292f45b9e8844c0465",
+  "review": "Packaged launch without a map override renders the same preserved forest entrance, path lighting, vegetation and held flashlight. The engine log confirms Station_R12 and BP_ForestGameMode. Startup and normal exit pass; this is a startup smoke test, while full movement and station appearance were validated in PIE."
+}

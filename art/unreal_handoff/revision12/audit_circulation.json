@@ -1,0 +1,1979 @@
+{
+  "success": true,
+  "stage": "Circulation",
+  "assets": [
+    {
+      "name": "SM_R12_01_Upper_Platform_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_01_Upper_Platform_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_04_Lower_Drive_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 5,
+      "hulls": 7
+    },
+    {
+      "name": "SM_R12_04_Lower_Drive_001_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_04_Lower_Drive_002_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_04_Lower_Drive_003_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_04_Lower_Drive_004_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_04_Lower_Drive_005_solid",
+      "placement_error_cm": 0.0,
+      "materials": 7,
+      "hulls": 19
+    },
+    {
+      "name": "SM_R12_04_Lower_Drive_006_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_04_Lower_Drive_007_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_04_Lower_Drive_008_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_05_Generator_Room_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_05_Generator_Room_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 5
+    },
+    {
+      "name": "SM_R12_05_Generator_Room_002_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 3
+    },
+    {
+      "name": "SM_R12_06_Stairs_and_Landings_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_06_Stairs_and_Landings_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 25
+    },
+    {
+      "name": "SM_R12_06_Stairs_and_Landings_002_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_09_Relay_and_Paths_000_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_09_Relay_and_Paths_001_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_12_Gondola_000_glass",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_12_Gondola_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 5,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_12_Gondola_002_glass",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_12_Gondola_003_solid",
+      "placement_error_cm": 0.0,
+      "materials": 5,
+      "hulls": 6
+    },
+    {
+      "name": "SM_R12_12_Gondola_004_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_12_Gondola_005_glass",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_12_Gondola_006_solid",
+      "placement_error_cm": 0.0,
+      "materials": 5,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_12_Gondola_007_glass",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_12_Gondola_008_solid",
+      "placement_error_cm": 0.0,
+      "materials": 6,
+      "hulls": 11
+    },
+    {
+      "name": "SM_R12_12_Gondola_009_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_13_Roofs_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_13_Roofs_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_14_Site_Structure_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_14_Site_Structure_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_14_Site_Structure_002_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_14_Site_Structure_003_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_18_Cliff_Anchors_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_18_Cliff_Anchors_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_18_Cliff_Anchors_002_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_18_Cliff_Anchors_003_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_18_Cliff_Anchors_004_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_18_Cliff_Anchors_005_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_001_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_002_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_003_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 15
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_004_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_005_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_006_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_007_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_008_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_009_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_010_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 12
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_011_solid",
+      "placement_error_cm": 3.637978807091713e-12,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_012_thin",
+      "placement_error_cm": 3.637978807091713e-12,
+      "materials": 1,
+      "hulls": 18
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_013_grating",
+      "placement_error_cm": 3.637978807091713e-12,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_014_solid",
+      "placement_error_cm": 3.637978807091713e-12,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_20_Lookout_Bridge_015_thin",
+      "placement_error_cm": 3.637978807091713e-12,
+      "materials": 1,
+      "hulls": 14
+    },
+    {
+      "name": "SM_R12_21_Maintenance_000_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_21_Maintenance_001_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 8
+    },
+    {
+      "name": "SM_R12_21_Maintenance_002_thin",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_21_Maintenance_003_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_21_Maintenance_004_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 3
+    },
+    {
+      "name": "SM_R12_21_Maintenance_005_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_21_Maintenance_006_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 3
+    },
+    {
+      "name": "SM_R12_21_Maintenance_007_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_21_Maintenance_008_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 3,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF06_Canopy_Junction_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Canopy_Junction_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Control_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 3
+    },
+    {
+      "name": "SM_R12_VF06_Control_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF06_Control_002_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Control_003_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Control_004_solid",
+      "placement_error_cm": 0.0,
+      "materials": 6,
+      "hulls": 28
+    },
+    {
+      "name": "SM_R12_VF06_Control_005_solid",
+      "placement_error_cm": 0.0,
+      "materials": 9,
+      "hulls": 6
+    },
+    {
+      "name": "SM_R12_VF06_Control_006_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Control_007_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Control_008_glass",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Control_009_solid",
+      "placement_error_cm": 0.0,
+      "materials": 5,
+      "hulls": 18
+    },
+    {
+      "name": "SM_R12_VF06_Gondola_Details_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Gondola_Details_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Gondola_Details_002_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Gondola_Details_003_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Gondola_Details_004_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Gondola_Details_005_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Gondola_Details_006_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Gondola_Details_007_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_001_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_002_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_003_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_004_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_005_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_006_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 12
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_007_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_008_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_009_solid",
+      "placement_error_cm": 0.0,
+      "materials": 6,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Lower_Gallery_Details_010_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_000_floor",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_001_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 5,
+      "hulls": 16
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_002_floor",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_003_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 5,
+      "hulls": 41
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_004_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 6,
+      "hulls": 16
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_005_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 4,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_006_floor",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_007_glass",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_008_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 6,
+      "hulls": 45
+    },
+    {
+      "name": "SM_R12_VF06_Maintenance_Shells_009_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 4,
+      "hulls": 8
+    },
+    {
+      "name": "SM_R12_VF06_Quarters_000_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Quarters_001_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Quarters_002_glass",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Quarters_003_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 41
+    },
+    {
+      "name": "SM_R12_VF06_Quarters_004_solid",
+      "placement_error_cm": 0.0,
+      "materials": 8,
+      "hulls": 14
+    },
+    {
+      "name": "SM_R12_VF06_Quarters_005_glass",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Quarters_006_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 12
+    },
+    {
+      "name": "SM_R12_VF06_Quarters_007_solid",
+      "placement_error_cm": 0.0,
+      "materials": 6,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF06_Relay_Shell_000_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 5,
+      "hulls": 22
+    },
+    {
+      "name": "SM_R12_VF06_Relay_Shell_001_floor",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF06_Relay_Shell_002_glass",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Relay_Shell_003_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 5,
+      "hulls": 32
+    },
+    {
+      "name": "SM_R12_VF06_Relay_Shell_004_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Service_Hardware_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Service_Hardware_001_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Service_Hardware_002_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Service_Hardware_003_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Service_Hardware_004_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Service_Hardware_005_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Transferred_Details_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 5,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Transferred_Details_001_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Transferred_Details_002_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Transferred_Details_003_solid",
+      "placement_error_cm": 0.0,
+      "materials": 6,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Transferred_Details_004_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Transferred_Details_005_solid",
+      "placement_error_cm": 0.0,
+      "materials": 7,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Transferred_Details_006_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Transferred_Details_007_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Transferred_Details_008_solid",
+      "placement_error_cm": 0.0,
+      "materials": 6,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Transferred_Details_009_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_000_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 6,
+      "hulls": 22
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_001_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_002_glass",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_003_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 5,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_004_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_005_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_006_solid",
+      "placement_error_cm": 0.0,
+      "materials": 6,
+      "hulls": 48
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_007_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_008_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_009_glass",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_010_solid",
+      "placement_error_cm": 0.0,
+      "materials": 5,
+      "hulls": 17
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_011_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_012_solid",
+      "placement_error_cm": 0.0,
+      "materials": 5,
+      "hulls": 9
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_013_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF06_Waiting_Hall_014_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_000_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 20
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_001_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 3
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_002_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_003_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 13
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_004_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 5
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_005_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_006_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_007_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_008_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_009_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 7
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_010_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Water_Service_Terrace_011_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Water_Tower_000_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Water_Tower_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 6,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF06_Water_Tower_002_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF06_Water_Tower_003_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Continuous_Service_Routes_000_solid",
+      "placement_error_cm": 3.637978807091713e-12,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Continuous_Service_Routes_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 52
+    },
+    {
+      "name": "SM_R12_VF07_Continuous_Service_Routes_002_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 117
+    },
+    {
+      "name": "SM_R12_VF07_Continuous_Service_Routes_003_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 144
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_000_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_001_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_002_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_003_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_004_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_005_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_006_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_007_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_008_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_009_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_010_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_011_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_012_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_013_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_014_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_015_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Deck_Structure_016_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Internal_Tread_Refresh_000_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 46
+    },
+    {
+      "name": "SM_R12_VF07_Internal_Tread_Refresh_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_000_grating",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 5
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_001_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_002_grating",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 5
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_003_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_004_grating",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 5
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_005_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_006_floor",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 18
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_007_grating",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 19
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_008_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_009_floor",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 15
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_010_grating",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 15
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_011_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_012_floor",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 18
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_013_grating",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 19
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_014_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_015_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 18
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_016_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 24
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_017_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_018_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_019_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 18
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_020_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 24
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_021_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_022_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 12
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_023_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 12
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_024_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_025_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 6
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_026_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 12
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_027_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_028_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 18
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_029_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 22
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_030_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_031_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 6
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_032_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_033_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_034_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_035_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_036_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_037_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_038_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_039_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 15
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_040_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 16
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_041_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_042_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 6
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_043_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_044_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 10
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_045_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 25
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_046_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_047_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_048_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 5
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_049_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Deck_050_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_000_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_001_thin",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 8
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_002_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_003_thin",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 8
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_004_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_005_thin",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 6
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_006_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_007_thin",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 5
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_008_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_009_thin",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 6
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_010_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_011_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 7
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_012_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_013_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 8
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_014_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_015_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 12
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_016_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_017_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_018_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_019_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 6
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_020_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_021_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 9
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_022_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_023_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 7
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_024_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_025_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_026_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_027_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 14
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_028_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 3
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_029_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 15
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_030_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_031_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 7
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_032_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_033_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 7
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_034_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_035_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 9
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_036_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Public_Guards_037_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_001_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_002_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_003_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 3
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_004_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_005_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 11
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_006_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_007_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 24
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_008_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_009_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_010_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 15
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_011_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Quarters_Access_012_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF07_Service_Apron_000_floor",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 28
+    },
+    {
+      "name": "SM_R12_VF07_Service_Apron_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Service_Apron_002_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Service_Descent_000_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 18
+    },
+    {
+      "name": "SM_R12_VF07_Service_Descent_001_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Service_Descent_002_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Service_Descent_003_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 7
+    },
+    {
+      "name": "SM_R12_VF07_Service_Descent_004_solid",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Service_Descent_005_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 18
+    },
+    {
+      "name": "SM_R12_VF07_Service_Descent_006_solid",
+      "placement_error_cm": 0.0,
+      "materials": 4,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Service_Descent_007_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Service_Descent_008_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 7
+    },
+    {
+      "name": "SM_R12_VF07_Service_Descent_009_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_000_grating",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 20
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_001_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 4,
+      "hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_002_thin",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 10
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_003_grating",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 1,
+      "hulls": 20
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_004_solid",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_005_thin",
+      "placement_error_cm": 7.275957614183426e-12,
+      "materials": 2,
+      "hulls": 3
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_006_grating",
+      "placement_error_cm": 3.637978807091713e-12,
+      "materials": 1,
+      "hulls": 9
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_007_solid",
+      "placement_error_cm": 3.637978807091713e-12,
+      "materials": 4,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_008_thin",
+      "placement_error_cm": 3.637978807091713e-12,
+      "materials": 2,
+      "hulls": 4
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_009_grating",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 5
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_010_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_VF07_Sideways_Arrival_011_thin",
+      "placement_error_cm": 0.0,
+      "materials": 2,
+      "hulls": 5
+    },
+    {
+      "name": "SM_R12_VF07_Water_Pipework_000_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Water_Pipework_001_signage",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Water_Pipework_002_solid",
+      "placement_error_cm": 0.0,
+      "materials": 3,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Water_Pipework_003_thin",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Water_Pipework_004_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Water_Pipework_005_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_VF07_Water_Pipework_006_solid",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_Terrain",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 0
+    },
+    {
+      "name": "SM_R12_Retained_Parking",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_Retained_Parked_Car",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 1
+    },
+    {
+      "name": "SM_R12_Forest_Approach_Aligned",
+      "placement_error_cm": 0.0,
+      "materials": 1,
+      "hulls": 194
+    }
+  ],
+  "original_actor_identities_preserved": 214,
+  "retired_components": 41,
+  "pilot_actors_removed": [],
+  "errors": [],
+  "note": "Structural audit only. Runtime route and visual review are separate acceptance gates."
+}

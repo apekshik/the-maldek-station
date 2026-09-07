@@ -1,0 +1,29 @@
+{
+  "promoted": true,
+  "previous": {
+    "EditorStartupMap": "/Game/BlockOut.BlockOut",
+    "GameDefaultMap": "/Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson"
+  },
+  "current": {
+    "EditorStartupMap": "/Game/MaldekRefinement/R12/Station_R12.Station_R12",
+    "GameDefaultMap": "/Game/MaldekRefinement/R12/Station_R12.Station_R12"
+  },
+  "evidence_sha256": {
+    "acceptance_circulation.json": "83f9613af1634df3760392ce46ab11bccbe927951003111589fedb3fab25a308",
+    "acceptance_architecture.json": "1917b428ece9eab294a6b9d27d5019fc6d5f8e4eee9a019b650a41fbe01e60cb",
+    "acceptance_infrastructure.json": "e6656174e4110767f057a0bdd25c87914e13ac7a97b4c56c8d78dfe41d79805f",
+    "foliage_persistence.json": "265be054aa33010d34f6c458a3b061d48066c7dafab0db680195d244d00110fa",
+    "reference_validation.json": "3073e308a1e2d9b16ea5b1b8eb3ef9e3dd9f765b0cd6f99cf94bab4d67084bd8",
+    "behavior_validation.json": "6625e1fffa6f6b8c6ae7281908325a8ef5c09da343975ef08158e99ec180f460",
+    "routes_continuous.json": "c5a4c15b319b310940909d5372d860b668b79a50689440d68098e1181a556568",
+    "performance_comparison.json": "60039d2edd08d9f7792c2e45621da12497864a89e151dfeeabf94bd83507725d",
+    "movement_performance_comparison.json": "a630ed5a9608dee251374c7f4c6701878fb1b614620a0ec11bade1e8c0f3b61b",
+    "hitch_review.json": "9d283ad9fac2e78bc5f4169325eb12f2fc1ea304acc3d42cb376c58ebe2d74bf",
+    "preservation_verification.json": "6cab926351bebd2cdd552363c6e533aadde1205ff0f714f178e0efc35bc79d3e",
+    "package-explicit-build.json": "e90d0edcbc47d190516e815c5a6dfd97a1ff4ca48db12cfd7f767f92921f40e5",
+    "package-explicit-smoke.json": "462517f440746eee29f2abef0406e5bd36f38ef7dd7aa5fa252e585a86d47c4f",
+    "package-explicit-visual.json": "ec1c671bf964d95dcd59114d48db7e27dff501ad7e144b6e9978ce5b06c2a840"
+  },
+  "game_mode": "Inherited BP_ForestGameMode from the level; project global game mode unchanged.",
+  "post_promotion_required": "Repackage without map override and validate actual default startup."
+}

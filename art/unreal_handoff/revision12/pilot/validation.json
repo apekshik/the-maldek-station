@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "capsule_radius_cm": 34,
+  "capsule_half_height_cm": 96,
+  "collision_checks": [
+    {
+      "name": "door_center",
+      "expected_block": false,
+      "actual_block": false
+    },
+    {
+      "name": "left_jamb",
+      "expected_block": true,
+      "actual_block": true
+    },
+    {
+      "name": "right_jamb",
+      "expected_block": true,
+      "actual_block": true
+    }
+  ],
+  "visual_review": "pending human/model image inspection",
+  "inspection_lights_removed": true
+}

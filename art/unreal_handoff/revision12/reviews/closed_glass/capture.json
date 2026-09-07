@@ -1,0 +1,18 @@
+{
+  "phase": "cleanup",
+  "next": 126588.953,
+  "index": 3,
+  "mode": "inspection",
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\closed_glass\\control_glass_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\closed_glass\\quarters_glass_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\closed_glass\\gondola_glass_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\closed_glass\\control_glass_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\closed_glass\\quarters_glass_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\closed_glass\\gondola_glass_inspection.png"
+  ],
+  "busy": true,
+  "deadline": 127107.953,
+  "success": true,
+  "inspection_lights_removed": true
+}

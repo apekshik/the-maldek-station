@@ -1,0 +1,209 @@
+{
+  "source_sha256": "e2ce19363f35f7fbef1860f5d5591e53ccf0b97d989085153b631a82558724dd",
+  "approved_source_modified": false,
+  "edits": [
+    {
+      "object": "Open_grating_tile.140",
+      "before": [
+        [
+          22.041330337524414,
+          -18.938772201538086,
+          -0.39354971051216125
+        ],
+        [
+          23.466596603393555,
+          -17.191383361816406,
+          -0.254072904586792
+        ]
+      ],
+      "operation": "Bake the original VF06 intended shear directly into vertices. Blender object TRS decomposition had displaced the world-coordinate grating geometry.",
+      "intended_matrix": [
+        [
+          1.0,
+          0.3333333432674408,
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.10000000149011612,
+          1.0,
+          1.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": "Open_grating_tile.141",
+      "before": [
+        [
+          22.29310417175293,
+          -17.3724365234375,
+          -0.3180178105831146
+        ],
+        [
+          23.71837043762207,
+          -15.625048637390137,
+          -0.17854100465774536
+        ]
+      ],
+      "operation": "Bake the original VF06 intended shear directly into vertices. Blender object TRS decomposition had displaced the world-coordinate grating geometry.",
+      "intended_matrix": [
+        [
+          1.0,
+          0.3333333432674408,
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.10000000149011612,
+          1.0,
+          1.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": "Open_grating_tile.142",
+      "before": [
+        [
+          23.226146697998047,
+          -19.12900161743164,
+          -0.3981044590473175
+        ],
+        [
+          24.651412963867188,
+          -17.381610870361328,
+          -0.25862765312194824
+        ]
+      ],
+      "operation": "Bake the original VF06 intended shear directly into vertices. Blender object TRS decomposition had displaced the world-coordinate grating geometry.",
+      "intended_matrix": [
+        [
+          1.0,
+          0.3333333432674408,
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.10000000149011612,
+          1.0,
+          1.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": "Open_grating_tile.143",
+      "before": [
+        [
+          23.477920532226562,
+          -17.562665939331055,
+          -0.3225725591182709
+        ],
+        [
+          24.903186798095703,
+          -15.815277099609375,
+          -0.1830957531929016
+        ]
+      ],
+      "operation": "Bake the original VF06 intended shear directly into vertices. Blender object TRS decomposition had displaced the world-coordinate grating geometry.",
+      "intended_matrix": [
+        [
+          1.0,
+          0.3333333432674408,
+          0.0,
+          5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.10000000149011612,
+          1.0,
+          1.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": "Cantilever_transfer_beam",
+      "operation": "Recess the beam top by 3 mm to separate its coplanar face from the finished quarters floor. Beam location, underside, supports and floor remain fixed."
+    },
+    {
+      "object": "Cantilever_transfer_beam.001",
+      "operation": "Recess the beam top by 3 mm to separate its coplanar face from the finished quarters floor. Beam location, underside, supports and floor remain fixed."
+    }
+  ],
+  "changed_assets": [
+    "SM_R12_VF06_Quarters_004_solid",
+    "SM_R12_VF06_Water_Service_Terrace_001_grating",
+    "SM_R12_VF06_Water_Service_Terrace_007_grating"
+  ],
+  "water_access_centerline": [
+    [
+      22,
+      -12,
+      -0.7
+    ],
+    [
+      21.5,
+      -13.5,
+      -0.85
+    ],
+    [
+      21,
+      -15,
+      -1
+    ],
+    [
+      21,
+      -15.7,
+      -1
+    ]
+  ]
+}

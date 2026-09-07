@@ -1,0 +1,45 @@
+{
+  "accepted_within_frame_budget": true,
+  "gpu_threshold_met": false,
+  "remaining_gpu_cost": [
+    {
+      "camera": "bridge",
+      "metric": "gpu_ms",
+      "percent": 12.830833245533801
+    },
+    {
+      "camera": "dock",
+      "metric": "gpu_ms",
+      "percent": 13.174529132066182
+    },
+    {
+      "camera": "service",
+      "metric": "gpu_ms",
+      "percent": 19.08059237263373
+    },
+    {
+      "name": "Retained bridge walking benchmark",
+      "direction": "reverse",
+      "metric": "gpu_ms",
+      "percent": 11.163841017731224
+    }
+  ],
+  "capture_hashes": {
+    "baseline/performance_capture.json": "5899394e4bf2b935e55dfe99cc2d07a5aa0eeb37226d2d996bed745fbbf2d514",
+    "final/performance_capture.json": "c0792c2c6971abbda36e233c9c9f1b06589c92893449fcbb4425b48888be7295",
+    "baseline/movement_capture.json": "3f6e9f1cf39e84330089f8a0903cccd9e35434efb57a7f7e87dcf3e9e642f0ca",
+    "final/movement_capture.json": "4fb4b83a903532addf0d2c0fea9ead61c3f3c552d8ca0b48ab5e989fd1675226"
+  },
+  "decision": "Retain the approved architectural, grating, glass, lighting and weather fidelity. The remaining GPU-time increases are acknowledged resource costs, not eliminated regressions. All paired routes/views meet 60 FPS mean and p95 frame budgets and stay within 10% of baseline frame time.",
+  "investigation": "Thin geometry ray tracing, new-light shadows, reduced grating LODs, editor realtime/render isolation, opaque-mesh ray tracing/shadows, and Nanite terrain were tested. The tested changes saved little; several would compromise the requested appearance. Redundant double-sided shading was removed only from topologically closed building panes; single-surface gondola panes remain two-sided.",
+  "resolution": "2560x1440 output with inherited automatic TSR scale. GPU pass captures verify 1552x873 internal rendering in both baseline and R12 at the service view. No native-1440p or frame-generation claim is made.",
+  "evidence": [
+    "cost_probe.json",
+    "cost_probe_lod_editor.json",
+    "cost_probe_terrain.json",
+    "cost_probe_opaque.json",
+    "baseline/gpu_profile.json",
+    "final/gpu_profile.json",
+    "closed_glass_optimization.json"
+  ]
+}

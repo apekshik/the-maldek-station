@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "objects": [
+    {
+      "name": "Parking",
+      "unchanged": true,
+      "geometry_sha256": "cbc8096c49d8668373293a84e1f434b11021f1bc12ceee6ee0eb609493375387"
+    },
+    {
+      "name": "Parked_Car",
+      "unchanged": true,
+      "geometry_sha256": "92ff9955bf847e09e22b0320fa1cedb128fe88b28c1c6febdddf98df56261831"
+    }
+  ]
+}

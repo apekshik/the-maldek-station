@@ -1,0 +1,13 @@
+{
+  "reason": "Original candidate points intersected the approved operator chair/workbench and assumed a nonexistent north workshop entrance. Corrected routes use clear aisles and the reviewed shared west workshop doorway; geometry unchanged.",
+  "superseded": [
+    "Control interior",
+    "Generator entrance",
+    "Workshop entrance"
+  ],
+  "replacement": [
+    "Control interior aisle",
+    "Generator clear entrance",
+    "Workshop shared west door"
+  ]
+}

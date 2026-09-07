@@ -1,0 +1,82 @@
+{
+  "success": true,
+  "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.InstancedFoliageActor_0",
+  "moves": [
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|28",
+      "old_world": [
+        -42134.39857331435,
+        18467.354139671537,
+        9880.0
+      ],
+      "new_world": [
+        -41307.305974972965,
+        18667.354139671537,
+        9641.226954162445
+      ],
+      "old_local": [
+        -21.479074016586164,
+        -0.07353409390438173,
+        -0.185
+      ],
+      "new_local": [
+        -29.75,
+        1.9264659060956182,
+        -2.572730458375554
+      ],
+      "reason": "Trunk intersects widened platform; preserve the tree in adjacent forest clearing."
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|28",
+      "old_world": [
+        -41794.119800785964,
+        16998.26620067719,
+        9872.027977713593
+      ],
+      "new_world": [
+        -41307.305974972965,
+        16998.26620067719,
+        9621.73770741307
+      ],
+      "old_local": [
+        -24.881861741870015,
+        -14.764413483847857,
+        -0.2647202228640708
+      ],
+      "new_local": [
+        -29.75,
+        -14.764413483847857,
+        -2.767622925869291
+      ],
+      "reason": "Trunk intersects widened platform; preserve the tree in adjacent forest clearing."
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|37",
+      "old_world": [
+        -42237.25186958483,
+        17547.000607566337,
+        9880.0
+      ],
+      "new_world": [
+        -41307.305974972965,
+        17547.000607566337,
+        9628.814433812217
+      ],
+      "old_local": [
+        -20.450541053881388,
+        -9.277069414956387,
+        -0.185
+      ],
+      "new_local": [
+        -29.75,
+        -9.277069414956387,
+        -2.6968556618778345
+      ],
+      "reason": "Trunk intersects widened platform; preserve the tree in adjacent forest clearing."
+    }
+  ],
+  "instance_count_preserved": 138,
+  "untouched_instances": 135,
+  "rotation_scale_and_species_preserved": true,
+  "reopen_verification_pending": true
+}

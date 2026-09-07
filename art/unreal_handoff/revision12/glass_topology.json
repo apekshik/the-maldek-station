@@ -1,0 +1,173 @@
+{
+  "objects": [
+    {
+      "object": "R04_Entry_Window_Glass",
+      "assembly": "SM_R12_12_Gondola_000_glass",
+      "faces": 1,
+      "boundary_edges": 68,
+      "non_manifold_edges": 68
+    },
+    {
+      "object": "R04_Side_Window_Glass",
+      "assembly": "SM_R12_12_Gondola_000_glass",
+      "faces": 1,
+      "boundary_edges": 68,
+      "non_manifold_edges": 68
+    },
+    {
+      "object": "R04_Rear_Window_Glass",
+      "assembly": "SM_R12_12_Gondola_002_glass",
+      "faces": 1,
+      "boundary_edges": 68,
+      "non_manifold_edges": 68
+    },
+    {
+      "object": "R04_Side_Window_Glass.001",
+      "assembly": "SM_R12_12_Gondola_002_glass",
+      "faces": 1,
+      "boundary_edges": 68,
+      "non_manifold_edges": 68
+    },
+    {
+      "object": "R04_Side_Window_Glass.002",
+      "assembly": "SM_R12_12_Gondola_002_glass",
+      "faces": 1,
+      "boundary_edges": 68,
+      "non_manifold_edges": 68
+    },
+    {
+      "object": "R04_Entry_Window_Glass.001",
+      "assembly": "SM_R12_12_Gondola_005_glass",
+      "faces": 1,
+      "boundary_edges": 68,
+      "non_manifold_edges": 68
+    },
+    {
+      "object": "R04_Side_Window_Glass.003",
+      "assembly": "SM_R12_12_Gondola_005_glass",
+      "faces": 1,
+      "boundary_edges": 68,
+      "non_manifold_edges": 68
+    },
+    {
+      "object": "R04_Rear_Window_Glass.001",
+      "assembly": "SM_R12_12_Gondola_007_glass",
+      "faces": 1,
+      "boundary_edges": 68,
+      "non_manifold_edges": 68
+    },
+    {
+      "object": "R04_Side_Window_Glass.004",
+      "assembly": "SM_R12_12_Gondola_007_glass",
+      "faces": 1,
+      "boundary_edges": 68,
+      "non_manifold_edges": 68
+    },
+    {
+      "object": "R04_Side_Window_Glass.005",
+      "assembly": "SM_R12_12_Gondola_007_glass",
+      "faces": 1,
+      "boundary_edges": 68,
+      "non_manifold_edges": 68
+    },
+    {
+      "object": "Clear_glazing",
+      "assembly": "SM_R12_VF06_Control_008_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.001",
+      "assembly": "SM_R12_VF06_Control_008_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.002",
+      "assembly": "SM_R12_VF06_Control_008_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.011",
+      "assembly": "SM_R12_VF06_Maintenance_Shells_007_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.012",
+      "assembly": "SM_R12_VF06_Maintenance_Shells_007_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.006",
+      "assembly": "SM_R12_VF06_Quarters_002_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.003",
+      "assembly": "SM_R12_VF06_Quarters_005_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.004",
+      "assembly": "SM_R12_VF06_Quarters_005_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.005",
+      "assembly": "SM_R12_VF06_Quarters_005_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.013",
+      "assembly": "SM_R12_VF06_Relay_Shell_002_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.007",
+      "assembly": "SM_R12_VF06_Waiting_Hall_002_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.008",
+      "assembly": "SM_R12_VF06_Waiting_Hall_009_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.009",
+      "assembly": "SM_R12_VF06_Waiting_Hall_009_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    },
+    {
+      "object": "Clear_glazing.010",
+      "assembly": "SM_R12_VF06_Waiting_Hall_009_glass",
+      "faces": 6,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0
+    }
+  ],
+  "all_closed": false
+}

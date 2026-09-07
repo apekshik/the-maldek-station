@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "error": null,
+  "night": "night.png",
+  "inspection": "inspection.png",
+  "inspection_method": "temporary neutral rect light and dry material/weather overrides in PIE; production weather retained",
+  "inspection_lights_removed": true
+}

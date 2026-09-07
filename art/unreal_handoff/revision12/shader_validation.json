@@ -1,0 +1,1374 @@
+{
+  "success": true,
+  "errors": [],
+  "materials": [
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_Ground__Exterior.MI_Dry_UE_Ground__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Chipped_Painted_Steel__Exterior.MI_Dry_UE_R02_Chipped_Painted_Steel__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Chipped_Painted_Steel__Indoor.MI_Dry_UE_R02_Chipped_Painted_Steel__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Damp_Timber__Exterior.MI_Dry_UE_R02_Damp_Timber__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Damp_Timber__Indoor.MI_Dry_UE_R02_Damp_Timber__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Galvanized_Grating__Exterior.MI_Dry_UE_R02_Galvanized_Grating__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Weathered_Concrete__Exterior.MI_Dry_UE_R02_Weathered_Concrete__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Weathered_Concrete__Indoor.MI_Dry_UE_R02_Weathered_Concrete__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R02_Worn_Safety_Paint__Exterior.MI_Dry_UE_R02_Worn_Safety_Paint__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Galvanized_Fittings__Exterior.MI_Dry_UE_R04_Galvanized_Fittings__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Instrument_Ivory__Exterior.MI_Dry_UE_R04_Instrument_Ivory__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Oxide_Enamel__Exterior.MI_Dry_UE_R04_Oxide_Enamel__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Painted_Charcoal__Exterior.MI_Dry_UE_R04_Painted_Charcoal__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Safety_Ochre__Exterior.MI_Dry_UE_R04_Safety_Ochre__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_R04_Seals__Exterior.MI_Dry_UE_R04_Seals__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Concrete__Exterior.MI_Dry_UE_VF06_Concrete__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Concrete__Indoor.MI_Dry_UE_VF06_Concrete__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Fastener_oxidation__Exterior.MI_Dry_UE_VF06_Fastener_oxidation__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Fastener_oxidation__Indoor.MI_Dry_UE_VF06_Fastener_oxidation__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Galvanized.MI_Dry_UE_VF06_Galvanized",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Galvanized__Exterior.MI_Dry_UE_VF06_Galvanized__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Galvanized__Indoor.MI_Dry_UE_VF06_Galvanized__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Glass__Exterior.MI_Dry_UE_VF06_Glass__Exterior",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Lamp__Exterior.MI_Dry_UE_VF06_Lamp__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Petrol_paint.MI_Dry_UE_VF06_Petrol_paint",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Petrol_paint__Exterior.MI_Dry_UE_VF06_Petrol_paint__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Petrol_paint__Indoor.MI_Dry_UE_VF06_Petrol_paint__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Rubber__Exterior.MI_Dry_UE_VF06_Rubber__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Safety_ochre.MI_Dry_UE_VF06_Safety_ochre",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Safety_ochre__Exterior.MI_Dry_UE_VF06_Safety_ochre__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Service_green__Exterior.MI_Dry_UE_VF06_Service_green__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Service_green__Indoor.MI_Dry_UE_VF06_Service_green__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Structural_steel__Exterior.MI_Dry_UE_VF06_Structural_steel__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Structural_steel__Indoor.MI_Dry_UE_VF06_Structural_steel__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Warm_enamel__Exterior.MI_Dry_UE_VF06_Warm_enamel__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF06_Warm_enamel__Indoor.MI_Dry_UE_VF06_Warm_enamel__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF07_Compacted_Gravel__Exterior.MI_Dry_UE_VF07_Compacted_Gravel__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF07_Terrain_Study.MI_Dry_UE_VF07_Terrain_Study",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Bedding_001__Indoor.MI_Dry_UE_VF_Bedding_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Bedding__Indoor.MI_Dry_UE_VF_Bedding__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete.MI_Dry_UE_VF_Cast_Concrete",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete_001__Indoor.MI_Dry_UE_VF_Cast_Concrete_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete_002__Exterior.MI_Dry_UE_VF_Cast_Concrete_002__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete_002__Indoor.MI_Dry_UE_VF_Cast_Concrete_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete_003__Exterior.MI_Dry_UE_VF_Cast_Concrete_003__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete__Exterior.MI_Dry_UE_VF_Cast_Concrete__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Cast_Concrete__Indoor.MI_Dry_UE_VF_Cast_Concrete__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame.MI_Dry_UE_VF_Dark_Steel_Frame",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_001__Exterior.MI_Dry_UE_VF_Dark_Steel_Frame_001__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_001__Indoor.MI_Dry_UE_VF_Dark_Steel_Frame_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_002__Exterior.MI_Dry_UE_VF_Dark_Steel_Frame_002__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_002__Indoor.MI_Dry_UE_VF_Dark_Steel_Frame_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_004__Exterior.MI_Dry_UE_VF_Dark_Steel_Frame_004__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame_005__Exterior.MI_Dry_UE_VF_Dark_Steel_Frame_005__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame__Exterior.MI_Dry_UE_VF_Dark_Steel_Frame__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Dark_Steel_Frame__Indoor.MI_Dry_UE_VF_Dark_Steel_Frame__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Desk_Timber_001__Indoor.MI_Dry_UE_VF_Desk_Timber_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Desk_Timber_002__Indoor.MI_Dry_UE_VF_Desk_Timber_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Desk_Timber__Indoor.MI_Dry_UE_VF_Desk_Timber__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint.MI_Dry_UE_VF_Faded_Petrol_Paint",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint_001__Exterior.MI_Dry_UE_VF_Faded_Petrol_Paint_001__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint_001__Indoor.MI_Dry_UE_VF_Faded_Petrol_Paint_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint_002__Exterior.MI_Dry_UE_VF_Faded_Petrol_Paint_002__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint__Exterior.MI_Dry_UE_VF_Faded_Petrol_Paint__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Petrol_Paint__Indoor.MI_Dry_UE_VF_Faded_Petrol_Paint__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Faded_Safety_Ochre_001__Exterior.MI_Dry_UE_VF_Faded_Safety_Ochre_001__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating.MI_Dry_UE_VF_Galvanized_Grating",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_001__Exterior.MI_Dry_UE_VF_Galvanized_Grating_001__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_001__Indoor.MI_Dry_UE_VF_Galvanized_Grating_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_002__Exterior.MI_Dry_UE_VF_Galvanized_Grating_002__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_002__Indoor.MI_Dry_UE_VF_Galvanized_Grating_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_004__Exterior.MI_Dry_UE_VF_Galvanized_Grating_004__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating_005__Exterior.MI_Dry_UE_VF_Galvanized_Grating_005__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating__Exterior.MI_Dry_UE_VF_Galvanized_Grating__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Galvanized_Grating__Indoor.MI_Dry_UE_VF_Galvanized_Grating__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel.MI_Dry_UE_VF_Interior_Enamel",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel_001__Indoor.MI_Dry_UE_VF_Interior_Enamel_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel_002__Exterior.MI_Dry_UE_VF_Interior_Enamel_002__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel_002__Indoor.MI_Dry_UE_VF_Interior_Enamel_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel_003__Exterior.MI_Dry_UE_VF_Interior_Enamel_003__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel_004__Exterior.MI_Dry_UE_VF_Interior_Enamel_004__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel__Exterior.MI_Dry_UE_VF_Interior_Enamel__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Interior_Enamel__Indoor.MI_Dry_UE_VF_Interior_Enamel__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation.MI_Dry_UE_VF_Local_Oxidation",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_001__Exterior.MI_Dry_UE_VF_Local_Oxidation_001__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_001__Indoor.MI_Dry_UE_VF_Local_Oxidation_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_002__Exterior.MI_Dry_UE_VF_Local_Oxidation_002__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_002__Indoor.MI_Dry_UE_VF_Local_Oxidation_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_004__Exterior.MI_Dry_UE_VF_Local_Oxidation_004__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation_005__Exterior.MI_Dry_UE_VF_Local_Oxidation_005__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation__Exterior.MI_Dry_UE_VF_Local_Oxidation__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Local_Oxidation__Indoor.MI_Dry_UE_VF_Local_Oxidation__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Paper_001__Indoor.MI_Dry_UE_VF_Paper_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Paper_002__Indoor.MI_Dry_UE_VF_Paper_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Paper__Indoor.MI_Dry_UE_VF_Paper__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Replacement_Green_Paint__Exterior.MI_Dry_UE_VF_Replacement_Green_Paint__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Service_Red_001__Exterior.MI_Dry_UE_VF_Service_Red_001__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Service_Red__Exterior.MI_Dry_UE_VF_Service_Red__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Warm_Diffuser_001__Indoor.MI_Dry_UE_VF_Warm_Diffuser_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Warm_Diffuser_002__Exterior.MI_Dry_UE_VF_Warm_Diffuser_002__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Warm_Diffuser__Indoor.MI_Dry_UE_VF_Warm_Diffuser__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Glass.MI_Dry_UE_VF_Window_Glass",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Glass_001__Indoor.MI_Dry_UE_VF_Window_Glass_001__Indoor",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Glass_002__Exterior.MI_Dry_UE_VF_Window_Glass_002__Exterior",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Glass__Exterior.MI_Dry_UE_VF_Window_Glass__Exterior",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Seal_001__Exterior.MI_Dry_UE_VF_Window_Seal_001__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_Dry_UE_VF_Window_Seal__Indoor.MI_Dry_UE_VF_Window_Seal__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_Ground__Exterior.MI_UE_Ground__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Indoor.MI_UE_R02_Chipped_Painted_Steel__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Damp_Timber__Exterior.MI_UE_R02_Damp_Timber__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Damp_Timber__Indoor.MI_UE_R02_Damp_Timber__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Galvanized_Grating__Exterior.MI_UE_R02_Galvanized_Grating__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Weathered_Concrete__Exterior.MI_UE_R02_Weathered_Concrete__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Weathered_Concrete__Indoor.MI_UE_R02_Weathered_Concrete__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Worn_Safety_Paint__Exterior.MI_UE_R02_Worn_Safety_Paint__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Instrument_Ivory__Exterior.MI_UE_R04_Instrument_Ivory__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Safety_Ochre__Exterior.MI_UE_R04_Safety_Ochre__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Concrete__Exterior.MI_UE_VF06_Concrete__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Concrete__Indoor.MI_UE_VF06_Concrete__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Indoor.MI_UE_VF06_Fastener_oxidation__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized.MI_UE_VF06_Galvanized",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Indoor.MI_UE_VF06_Galvanized__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Lamp__Exterior.MI_UE_VF06_Lamp__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint.MI_UE_VF06_Petrol_paint",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Indoor.MI_UE_VF06_Petrol_paint__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Safety_ochre.MI_UE_VF06_Safety_ochre",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Safety_ochre__Exterior.MI_UE_VF06_Safety_ochre__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Service_green__Exterior.MI_UE_VF06_Service_green__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Service_green__Indoor.MI_UE_VF06_Service_green__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Structural_steel__Exterior.MI_UE_VF06_Structural_steel__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Structural_steel__Indoor.MI_UE_VF06_Structural_steel__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Warm_enamel__Exterior.MI_UE_VF06_Warm_enamel__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Warm_enamel__Indoor.MI_UE_VF06_Warm_enamel__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF07_Compacted_Gravel__Exterior.MI_UE_VF07_Compacted_Gravel__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF07_Terrain_Study.MI_UE_VF07_Terrain_Study",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Bedding_001__Indoor.MI_UE_VF_Bedding_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Bedding__Indoor.MI_UE_VF_Bedding__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Cast_Concrete.MI_UE_VF_Cast_Concrete",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Cast_Concrete_001__Indoor.MI_UE_VF_Cast_Concrete_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Cast_Concrete_002__Exterior.MI_UE_VF_Cast_Concrete_002__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Cast_Concrete_002__Indoor.MI_UE_VF_Cast_Concrete_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Cast_Concrete_003__Exterior.MI_UE_VF_Cast_Concrete_003__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Cast_Concrete__Exterior.MI_UE_VF_Cast_Concrete__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Cast_Concrete__Indoor.MI_UE_VF_Cast_Concrete__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Dark_Steel_Frame.MI_UE_VF_Dark_Steel_Frame",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Dark_Steel_Frame_001__Exterior.MI_UE_VF_Dark_Steel_Frame_001__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Dark_Steel_Frame_001__Indoor.MI_UE_VF_Dark_Steel_Frame_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Dark_Steel_Frame_002__Exterior.MI_UE_VF_Dark_Steel_Frame_002__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Dark_Steel_Frame_002__Indoor.MI_UE_VF_Dark_Steel_Frame_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Dark_Steel_Frame_004__Exterior.MI_UE_VF_Dark_Steel_Frame_004__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Dark_Steel_Frame_005__Exterior.MI_UE_VF_Dark_Steel_Frame_005__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Dark_Steel_Frame__Exterior.MI_UE_VF_Dark_Steel_Frame__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Dark_Steel_Frame__Indoor.MI_UE_VF_Dark_Steel_Frame__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Desk_Timber_001__Indoor.MI_UE_VF_Desk_Timber_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Desk_Timber_002__Indoor.MI_UE_VF_Desk_Timber_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Desk_Timber__Indoor.MI_UE_VF_Desk_Timber__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Faded_Petrol_Paint.MI_UE_VF_Faded_Petrol_Paint",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Faded_Petrol_Paint_001__Exterior.MI_UE_VF_Faded_Petrol_Paint_001__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Faded_Petrol_Paint_001__Indoor.MI_UE_VF_Faded_Petrol_Paint_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Faded_Petrol_Paint_002__Exterior.MI_UE_VF_Faded_Petrol_Paint_002__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Faded_Petrol_Paint__Exterior.MI_UE_VF_Faded_Petrol_Paint__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Faded_Petrol_Paint__Indoor.MI_UE_VF_Faded_Petrol_Paint__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Faded_Safety_Ochre_001__Exterior.MI_UE_VF_Faded_Safety_Ochre_001__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Galvanized_Grating.MI_UE_VF_Galvanized_Grating",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Galvanized_Grating_001__Exterior.MI_UE_VF_Galvanized_Grating_001__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Galvanized_Grating_001__Indoor.MI_UE_VF_Galvanized_Grating_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Galvanized_Grating_002__Exterior.MI_UE_VF_Galvanized_Grating_002__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Galvanized_Grating_002__Indoor.MI_UE_VF_Galvanized_Grating_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Galvanized_Grating_004__Exterior.MI_UE_VF_Galvanized_Grating_004__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Galvanized_Grating_005__Exterior.MI_UE_VF_Galvanized_Grating_005__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Galvanized_Grating__Exterior.MI_UE_VF_Galvanized_Grating__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Galvanized_Grating__Indoor.MI_UE_VF_Galvanized_Grating__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Interior_Enamel.MI_UE_VF_Interior_Enamel",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Interior_Enamel_001__Indoor.MI_UE_VF_Interior_Enamel_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Interior_Enamel_002__Exterior.MI_UE_VF_Interior_Enamel_002__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Interior_Enamel_002__Indoor.MI_UE_VF_Interior_Enamel_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Interior_Enamel_003__Exterior.MI_UE_VF_Interior_Enamel_003__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Interior_Enamel_004__Exterior.MI_UE_VF_Interior_Enamel_004__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Interior_Enamel__Exterior.MI_UE_VF_Interior_Enamel__Exterior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Interior_Enamel__Indoor.MI_UE_VF_Interior_Enamel__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Local_Oxidation.MI_UE_VF_Local_Oxidation",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Local_Oxidation_001__Exterior.MI_UE_VF_Local_Oxidation_001__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Local_Oxidation_001__Indoor.MI_UE_VF_Local_Oxidation_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Local_Oxidation_002__Exterior.MI_UE_VF_Local_Oxidation_002__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Local_Oxidation_002__Indoor.MI_UE_VF_Local_Oxidation_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Local_Oxidation_004__Exterior.MI_UE_VF_Local_Oxidation_004__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Local_Oxidation_005__Exterior.MI_UE_VF_Local_Oxidation_005__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Local_Oxidation__Exterior.MI_UE_VF_Local_Oxidation__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Local_Oxidation__Indoor.MI_UE_VF_Local_Oxidation__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Paper_001__Indoor.MI_UE_VF_Paper_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Paper_002__Indoor.MI_UE_VF_Paper_002__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Paper__Indoor.MI_UE_VF_Paper__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Replacement_Green_Paint__Exterior.MI_UE_VF_Replacement_Green_Paint__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Service_Red_001__Exterior.MI_UE_VF_Service_Red_001__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Service_Red__Exterior.MI_UE_VF_Service_Red__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Warm_Diffuser_001__Indoor.MI_UE_VF_Warm_Diffuser_001__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Warm_Diffuser_002__Exterior.MI_UE_VF_Warm_Diffuser_002__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Warm_Diffuser__Indoor.MI_UE_VF_Warm_Diffuser__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Window_Glass.MI_UE_VF_Window_Glass",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Window_Glass_001__Indoor.MI_UE_VF_Window_Glass_001__Indoor",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Window_Glass_002__Exterior.MI_UE_VF_Window_Glass_002__Exterior",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Window_Glass__Exterior.MI_UE_VF_Window_Glass__Exterior",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Window_Seal_001__Exterior.MI_UE_VF_Window_Seal_001__Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF_Window_Seal__Indoor.MI_UE_VF_Window_Seal__Indoor",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Exterior.M_R12_Concrete_Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Concrete_Interior.M_R12_Concrete_Interior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Emissive_Interior.M_R12_Emissive_Interior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Exterior.M_R12_Galvanized_Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Galvanized_Interior.M_R12_Galvanized_Interior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Glass_Interior.M_R12_Glass_Interior",
+      "pixel_instructions": 322,
+      "vertex_instructions": 349,
+      "samplers": 2
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Gravel_Exterior.M_R12_Gravel_Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_Gravel_Interior.M_R12_Gravel_Interior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Exterior.M_R12_PaintedMetal_Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_PaintedMetal_Interior.M_R12_PaintedMetal_Interior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Exterior.M_R12_StructuralSteel_Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_StructuralSteel_Interior.M_R12_StructuralSteel_Interior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_WoodFabricRubber_Exterior.M_R12_WoodFabricRubber_Exterior",
+      "pixel_instructions": 310,
+      "vertex_instructions": 153,
+      "samplers": 6
+    },
+    {
+      "material": "/Game/MaldekRefinement/R12/Materials/Masters/M_R12_WoodFabricRubber_Interior.M_R12_WoodFabricRubber_Interior",
+      "pixel_instructions": 203,
+      "vertex_instructions": 153,
+      "samplers": 4
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "relocated": [
+    {
+      "label": "R08_WallLight_Control_Entry",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SpotLight_6",
+      "position_m": [
+        -3.3,
+        0.32,
+        6.535
+      ]
+    },
+    {
+      "label": "R08_WallLight_Waiting_Hall_Entry",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SpotLight_7",
+      "position_m": [
+        -10.25,
+        0.32,
+        6.585
+      ]
+    },
+    {
+      "label": "R09_Light_Cabin_Ceiling",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.SpotLight_8",
+      "position_m": [
+        0,
+        6.4,
+        6.23
+      ]
+    }
+  ],
+  "created": [
+    {
+      "label": "R12_Control_Ceiling_Practical",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.RectLight_3",
+      "position_m": [
+        -5.2,
+        -2.7,
+        6.93
+      ],
+      "lumens": 1.0,
+      "radius_cm": 550
+    },
+    {
+      "label": "R12_Quarters_Ceiling_Practical",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.RectLight_4",
+      "position_m": [
+        -4.5,
+        -2.4,
+        10.15
+      ],
+      "lumens": 0.8,
+      "radius_cm": 500
+    },
+    {
+      "label": "R12_Generator_North_Practical",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.RectLight_5",
+      "position_m": [
+        30,
+        -10.72,
+        1.59
+      ],
+      "lumens": 0.22,
+      "radius_cm": 450
+    },
+    {
+      "label": "R12_Cabin_Rear_Practical",
+      "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.RectLight_6",
+      "position_m": [
+        0,
+        9.6,
+        6.23
+      ],
+      "lumens": 0.16,
+      "radius_cm": 300
+    }
+  ],
+  "global_environment_changed": false
+}

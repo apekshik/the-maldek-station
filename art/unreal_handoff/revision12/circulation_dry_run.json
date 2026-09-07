@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "dry_run": true,
+  "stage": "Circulation",
+  "stage_assets": 172,
+  "total_assets": 327,
+  "explicit_replacement_components": 22,
+  "preserved_actors": 192
+}

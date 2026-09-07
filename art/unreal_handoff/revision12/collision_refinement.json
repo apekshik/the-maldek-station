@@ -1,0 +1,35 @@
+{
+  "changed": [
+    {
+      "name": "SM_R12_VF06_Control_005_solid",
+      "old_hulls": 1,
+      "new_hulls": 6
+    },
+    {
+      "name": "SM_R12_VF07_Continuous_Service_Routes_000_solid",
+      "old_hulls": 0,
+      "new_hulls": 2
+    },
+    {
+      "name": "SM_R12_VF07_Continuous_Service_Routes_001_solid",
+      "old_hulls": 0,
+      "new_hulls": 52
+    },
+    {
+      "name": "SM_R12_VF07_Continuous_Service_Routes_002_solid",
+      "old_hulls": 0,
+      "new_hulls": 117
+    },
+    {
+      "name": "SM_R12_VF07_Continuous_Service_Routes_003_solid",
+      "old_hulls": 0,
+      "new_hulls": 144
+    },
+    {
+      "name": "SM_R12_VF07_Service_Apron_000_floor",
+      "old_hulls": 1,
+      "new_hulls": 28
+    }
+  ],
+  "note": "Convex prisms follow individual road/apron faces; furniture main bodies receive collision."
+}

@@ -1,0 +1,21 @@
+{
+  "remote": "d713a3c5e7189bc3c5f59cc12396d3428a84b96c",
+  "commit": "d713a3c5e7189bc3c5f59cc12396d3428a84b96c",
+  "verified_at": "2026-09-07T03:56:35.0873082-07:00",
+  "critical_hashes": [
+    {
+      "file": "art/blender/visual_fidelity_07/Maldek_Station_Cleanup.blend",
+      "sha256": "E2CE19363F35F7FBEF1860F5D5591E53CCF0B97D989085153B631A82558724DD"
+    },
+    {
+      "file": "art/checkpoints/pre_vf07/Unsaved_VF06_Review.blend",
+      "sha256": "7E769EF825FB832AFC53C1CC74C6F1AA4858FF68ACBEFCB7FB0BCBB8CB318F62"
+    },
+    {
+      "file": "game/Content/MaldekRefinement/ForestTest/Forest_Approach_Test.umap",
+      "sha256": "0AA5E9984698D8AD8A654294D973B9F929A90A067C5C5D6DAA7FC0C59E99E128"
+    }
+  ],
+  "lfs_fsck": "passed",
+  "fresh_checkout": "d713a3c5e7189bc3c5f59cc12396d3428a84b96c"
+}

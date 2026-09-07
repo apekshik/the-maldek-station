@@ -1,0 +1,1447 @@
+{
+  "phase": "finished",
+  "index": 6,
+  "results": [
+    {
+      "name": "Control interior aisle",
+      "direction": "forward",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            -3.3,
+            -0.8,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 0,
+          "surface": 0
+        },
+        {
+          "p": [
+            -3.3,
+            -1.0585355841314958,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 0,
+          "surface": 0
+        },
+        {
+          "p": [
+            -3.3,
+            -1.594299413840854,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 0,
+          "surface": 0
+        },
+        {
+          "p": [
+            -3.3,
+            -2.1007816942522184,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 0,
+          "surface": 0
+        },
+        {
+          "p": [
+            -3.3,
+            -2.345730765199005,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 1,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.3,
+            -2.4779906545582344,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 1,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.5361470247882973,
+            -2.5338960920733005,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 1,
+          "surface": 4
+        },
+        {
+          "p": [
+            -4.066959869269631,
+            -2.556202162607151,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 1,
+          "surface": 4
+        },
+        {
+          "p": [
+            -4.639686964614448,
+            -2.5679913530109117,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 2,
+          "surface": 4
+        },
+        {
+          "p": [
+            -5.175629073479867,
+            -2.5773966047476278,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 2,
+          "surface": 4
+        },
+        {
+          "p": [
+            -5.692852922639068,
+            -2.586252295845552,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 2,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.116918264206688,
+            -2.5934827886697893,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 3,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.305772669033031,
+            -2.596698656310291,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 3,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.4080919586095115,
+            -2.6421322836194303,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 3,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.473504739669879,
+            -3.0242179283632504,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 3,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.496525192907866,
+            -3.2668046068402328,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 3,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.502186175612005,
+            -3.3840777461557083,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 3,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.247199611601536,
+            -3.435855915279244,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 4,
+          "surface": 4
+        },
+        {
+          "p": [
+            -5.671147798901075,
+            -3.462300799601144,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 4,
+          "surface": 4
+        },
+        {
+          "p": [
+            -5.126160784773383,
+            -3.4758433385429814,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 4,
+          "surface": 4
+        },
+        {
+          "p": [
+            -4.597238049603693,
+            -3.4873924830478065,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 5,
+          "surface": 4
+        },
+        {
+          "p": [
+            -4.288810191677548,
+            -3.4939781886857237,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 5,
+          "surface": 4
+        },
+        {
+          "p": [
+            -4.138327980692484,
+            -3.497146457004601,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 5,
+          "surface": 4
+        }
+      ],
+      "max_height_error_cm": 2.149989604949951,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 0,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        -4.119826110584982,
+        -3.4975328042401816,
+        4.9814998960495
+      ],
+      "elapsed_seconds": 4.48399999999674
+    },
+    {
+      "name": "Control interior aisle",
+      "direction": "reverse",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            -4.0,
+            -3.5,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 5,
+          "surface": 4
+        },
+        {
+          "p": [
+            -4.260754832470848,
+            -3.5,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 5,
+          "surface": 4
+        },
+        {
+          "p": [
+            -4.82799727676349,
+            -3.5,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 5,
+          "surface": 4
+        },
+        {
+          "p": [
+            -5.395902373100689,
+            -3.5,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 5,
+          "surface": 4
+        },
+        {
+          "p": [
+            -5.9091784649832695,
+            -3.5,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 6,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.197513962846133,
+            -3.5,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 6,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.355905023521409,
+            -3.5,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 6,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.434618240986092,
+            -3.3410253332169306,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 6,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.486242125668141,
+            -2.9594118248831363,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 7,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.4998842353343935,
+            -2.785884598532757,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 7,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.448251152783269,
+            -2.691154668346353,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 7,
+          "surface": 4
+        },
+        {
+          "p": [
+            -6.023029368126227,
+            -2.6548031916006583,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 7,
+          "surface": 4
+        },
+        {
+          "p": [
+            -5.457187843842912,
+            -2.6390161197901034,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 7,
+          "surface": 4
+        },
+        {
+          "p": [
+            -4.896482484622757,
+            -2.6283235563143537,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 8,
+          "surface": 4
+        },
+        {
+          "p": [
+            -4.377468579974156,
+            -2.6190416867761086,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 8,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.860199033250974,
+            -2.6098863268865897,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 9,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.5737206265518036,
+            -2.6048254042815095,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 9,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.4342156092938967,
+            -2.6023639525846374,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 9,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.3694127382662553,
+            -2.423952053773064,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 9,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.332880389276761,
+            -1.8810869249315147,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 9,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.314726989565752,
+            -1.3579261342131577,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.3063429259863186,
+            -1.0715254559099776,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 4
+        },
+        {
+          "p": [
+            -3.3027525373618847,
+            -0.9322453143769599,
+            4.9814998960495
+          ],
+          "feet_z": 4.0214998960495,
+          "point": 4,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 4
+        }
+      ],
+      "max_height_error_cm": 2.149989604949951,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 5,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        -3.3023874207130577,
+        -0.9169160931903388,
+        4.9814998960495
+      ],
+      "elapsed_seconds": 4.4689999999973224
+    },
+    {
+      "name": "Generator clear entrance",
+      "direction": "forward",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            30.0,
+            -10.6,
+            -0.033538346290588376
+          ],
+          "feet_z": -0.9935383462905883,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.0,
+            -10.884918646565348,
+            0.005401268005371094
+          ],
+          "feet_z": -0.9545987319946289,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.0,
+            -11.444757295450836,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.0,
+            -11.924261122731696,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 10,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.0,
+            -12.166568237869068,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 11,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.0,
+            -12.277963607845777,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 11,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.26162367641111,
+            -12.343764117632855,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 11,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.801745477841322,
+            -12.37792440567082,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 11,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.16521341659034,
+            -12.39247316328503,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 11,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.32577639868745,
+            -12.397272150052158,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 12,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.41303311811971,
+            -12.46167989924168,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 12,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.44857005876751,
+            -12.915953658299586,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 12,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.463503449880445,
+            -13.476271649263289,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 12,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.474009210873845,
+            -14.031582946430353,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 13,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.483931431402233,
+            -14.588300432968026,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 13,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.491708829406853,
+            -15.028797700965479,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 13,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.495919119235694,
+            -15.267740570549613,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.498013343598213,
+            -15.38679223210289,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        }
+      ],
+      "max_height_error_cm": 4.540126800537109,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 10,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        31.498013343598213,
+        -15.38679223210289,
+        -0.018500027656555177
+      ],
+      "elapsed_seconds": 3.6560000000026776
+    },
+    {
+      "name": "Generator clear entrance",
+      "direction": "reverse",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            31.5,
+            -15.5,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.5,
+            -15.204875879880564,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.5,
+            -14.644438737031596,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.5,
+            -14.124444776174204,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 14,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.5,
+            -13.556082927581446,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 15,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.5,
+            -13.04945162069118,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 15,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.5,
+            -12.707212922387516,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 15,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.5,
+            -12.5574695007017,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 4
+        },
+        {
+          "p": [
+            31.390122109199876,
+            -12.47663035902373,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.89495144707129,
+            -12.432447275326703,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.448698884780313,
+            -12.412042107784146,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.22265636231954,
+            -12.40419762454163,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 16,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.109590605760967,
+            -12.394911624839187,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 17,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.052173197756346,
+            -12.031083179855413,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 17,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.02577588560518,
+            -11.490460658844059,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 17,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.011590992976053,
+            -11.052673428018425,
+            0.005458903312683105
+          ],
+          "feet_z": -0.9545410966873169,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 17,
+          "surface": 4
+        },
+        {
+          "p": [
+            30.005096794573838,
+            -10.824431519545614,
+            0.005458903312683105
+          ],
+          "feet_z": -0.9545410966873169,
+          "point": 3,
+          "falling": false,
+          "footstep_count": 18,
+          "surface": 3
+        }
+      ],
+      "max_height_error_cm": 4.5458903312683105,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 14,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        30.002420890766444,
+        -10.718337126555417,
+        -0.007089061737060547
+      ],
+      "elapsed_seconds": 3.6409999999887077
+    },
+    {
+      "name": "Workshop shared west door",
+      "direction": "forward",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            31.5,
+            -15.5,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 18,
+          "surface": 3
+        },
+        {
+          "p": [
+            31.790686849919947,
+            -15.5,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 18,
+          "surface": 3
+        },
+        {
+          "p": [
+            32.14504666297769,
+            -15.5,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 18,
+          "surface": 3
+        },
+        {
+          "p": [
+            32.32271860057735,
+            -15.5,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 18,
+          "surface": 3
+        },
+        {
+          "p": [
+            32.46443287343769,
+            -15.5,
+            -0.01850001811981201
+          ],
+          "feet_z": -0.978500018119812,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 18,
+          "surface": 3
+        },
+        {
+          "p": [
+            32.948531814012824,
+            -15.5,
+            0.005499973297119141
+          ],
+          "feet_z": -0.9545000267028808,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 18,
+          "surface": 3
+        },
+        {
+          "p": [
+            33.535390466544925,
+            -15.5,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 19,
+          "surface": 3
+        },
+        {
+          "p": [
+            33.91051006638765,
+            -15.5,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 19,
+          "surface": 3
+        },
+        {
+          "p": [
+            34.10438336853244,
+            -15.5,
+            -0.018500027656555177
+          ],
+          "feet_z": -0.9785000276565552,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 19,
+          "surface": 3
+        }
+      ],
+      "max_height_error_cm": 4.549997329711914,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 18,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        34.182853178635995,
+        -15.5,
+        -0.018500027656555177
+      ],
+      "elapsed_seconds": 2.360000000000582
+    },
+    {
+      "name": "Workshop shared west door",
+      "direction": "reverse",
+      "passed": true,
+      "samples": [
+        {
+          "p": [
+            34.3,
+            -15.5,
+            -0.01850003719329834
+          ],
+          "feet_z": -0.9785000371932984,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 19,
+          "surface": 3
+        },
+        {
+          "p": [
+            34.03194089329518,
+            -15.5,
+            -0.01850003719329834
+          ],
+          "feet_z": -0.9785000371932984,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 19,
+          "surface": 3
+        },
+        {
+          "p": [
+            33.48702946160614,
+            -15.5,
+            -0.01850003719329834
+          ],
+          "feet_z": -0.9785000371932984,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 19,
+          "surface": 3
+        },
+        {
+          "p": [
+            33.00517912367235,
+            -15.5,
+            0.00420464038848877
+          ],
+          "feet_z": -0.9557953596115112,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 19,
+          "surface": 3
+        },
+        {
+          "p": [
+            32.753217266998035,
+            -15.5,
+            0.0007248210906982422
+          ],
+          "feet_z": -0.9592751789093018,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 20,
+          "surface": 3
+        },
+        {
+          "p": [
+            32.6246220206625,
+            -15.5,
+            -0.018500056266784668
+          ],
+          "feet_z": -0.9785000562667847,
+          "point": 1,
+          "falling": false,
+          "footstep_count": 20,
+          "surface": 3
+        },
+        {
+          "p": [
+            32.26822083638959,
+            -15.5,
+            -0.018500056266784668
+          ],
+          "feet_z": -0.9785000562667847,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 20,
+          "surface": 3
+        },
+        {
+          "p": [
+            31.882550714393364,
+            -15.5,
+            -0.018500056266784668
+          ],
+          "feet_z": -0.9785000562667847,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 20,
+          "surface": 3
+        },
+        {
+          "p": [
+            31.69974371297787,
+            -15.5,
+            -0.018500056266784668
+          ],
+          "feet_z": -0.9785000562667847,
+          "point": 2,
+          "falling": false,
+          "footstep_count": 20,
+          "surface": 3
+        }
+      ],
+      "max_height_error_cm": 4.420464038848877,
+      "max_airborne_seconds": 0,
+      "initial_footstep_count": 19,
+      "reason": "Reached all waypoints using walking input",
+      "end": [
+        31.61286471043837,
+        -15.5,
+        -0.018500056266784668
+      ],
+      "elapsed_seconds": 2.360000000000582
+    }
+  ],
+  "deadline": 119108.562,
+  "scope": "Architecture",
+  "teleport_policy": "Only between independent tests; no teleport, flying, jumping or crouching during a route.",
+  "gondola_start": {
+    "R04_12_Gondola": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  "player": {
+    "class": "/Game/MaldekRefinement/ForestTest/BP_ForestWalker.BP_ForestWalker_C",
+    "radius_cm": 34.0,
+    "half_height_cm": 96.0,
+    "max_step_cm": 45.0,
+    "slope_degrees": 44.76508331298828,
+    "max_walk_speed": 350.0
+  },
+  "next": 117337.218,
+  "point": 3,
+  "started": 117336.218,
+  "last_progress": 117338.578,
+  "best": 1e+20,
+  "last_sample": 117338.468,
+  "current": {
+    "name": "Workshop shared west door",
+    "direction": "reverse",
+    "passed": true,
+    "samples": [
+      {
+        "p": [
+          34.3,
+          -15.5,
+          -0.01850003719329834
+        ],
+        "feet_z": -0.9785000371932984,
+        "point": 1,
+        "falling": false,
+        "footstep_count": 19,
+        "surface": 3
+      },
+      {
+        "p": [
+          34.03194089329518,
+          -15.5,
+          -0.01850003719329834
+        ],
+        "feet_z": -0.9785000371932984,
+        "point": 1,
+        "falling": false,
+        "footstep_count": 19,
+        "surface": 3
+      },
+      {
+        "p": [
+          33.48702946160614,
+          -15.5,
+          -0.01850003719329834
+        ],
+        "feet_z": -0.9785000371932984,
+        "point": 1,
+        "falling": false,
+        "footstep_count": 19,
+        "surface": 3
+      },
+      {
+        "p": [
+          33.00517912367235,
+          -15.5,
+          0.00420464038848877
+        ],
+        "feet_z": -0.9557953596115112,
+        "point": 1,
+        "falling": false,
+        "footstep_count": 19,
+        "surface": 3
+      },
+      {
+        "p": [
+          32.753217266998035,
+          -15.5,
+          0.0007248210906982422
+        ],
+        "feet_z": -0.9592751789093018,
+        "point": 1,
+        "falling": false,
+        "footstep_count": 20,
+        "surface": 3
+      },
+      {
+        "p": [
+          32.6246220206625,
+          -15.5,
+          -0.018500056266784668
+        ],
+        "feet_z": -0.9785000562667847,
+        "point": 1,
+        "falling": false,
+        "footstep_count": 20,
+        "surface": 3
+      },
+      {
+        "p": [
+          32.26822083638959,
+          -15.5,
+          -0.018500056266784668
+        ],
+        "feet_z": -0.9785000562667847,
+        "point": 2,
+        "falling": false,
+        "footstep_count": 20,
+        "surface": 3
+      },
+      {
+        "p": [
+          31.882550714393364,
+          -15.5,
+          -0.018500056266784668
+        ],
+        "feet_z": -0.9785000562667847,
+        "point": 2,
+        "falling": false,
+        "footstep_count": 20,
+        "surface": 3
+      },
+      {
+        "p": [
+          31.69974371297787,
+          -15.5,
+          -0.018500056266784668
+        ],
+        "feet_z": -0.9785000562667847,
+        "point": 2,
+        "falling": false,
+        "footstep_count": 20,
+        "surface": 3
+      }
+    ],
+    "max_height_error_cm": 4.420464038848877,
+    "max_airborne_seconds": 0,
+    "initial_footstep_count": 19,
+    "reason": "Reached all waypoints using walking input",
+    "end": [
+      31.61286471043837,
+      -15.5,
+      -0.018500056266784668
+    ],
+    "elapsed_seconds": 2.360000000000582
+  },
+  "air_start": null,
+  "gondola_end": {
+    "R04_12_Gondola": "<Struct 'Transform' (ADDRESS) {rotation: {x: 0.000000, y: -0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 19279.707568, z: 10298.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+  },
+  "gondola_stationary": true,
+  "success": true
+}

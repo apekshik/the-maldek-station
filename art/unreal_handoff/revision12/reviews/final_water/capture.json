@@ -1,0 +1,16 @@
+{
+  "phase": "cleanup",
+  "next": 120079.343,
+  "index": 2,
+  "mode": "inspection",
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\final_water\\water_terrace_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\final_water\\whole_station_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\final_water\\water_terrace_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\reviews\\final_water\\whole_station_inspection.png"
+  ],
+  "busy": true,
+  "deadline": 120620.343,
+  "success": true,
+  "inspection_lights_removed": true
+}

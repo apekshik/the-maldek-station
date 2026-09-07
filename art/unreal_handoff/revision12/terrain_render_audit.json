@@ -1,0 +1,18 @@
+[
+  {
+    "mesh": "/Game/MaldekRefinement/ForestTest/Meshes/SM_ForestTerrain",
+    "nanite": "<Struct 'MeshNaniteSettings' (0x000001F92F0E5BA0) {enabled: False, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+    "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "materials": [
+      "/Game/MaldekRefinement/ForestTest/Materials/M_Forest_Soil.M_Forest_Soil"
+    ]
+  },
+  {
+    "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_Terrain",
+    "nanite": "<Struct 'MeshNaniteSettings' (0x000001F5B7511BA0) {enabled: False, explicit_tangents: False, lerp_u_vs: True, separable: False, voxel_ndf: True, voxel_opacity: False, shape_preservation: None, position_precision: -2147483648, normal_precision: -1, tangent_precision: -1, bone_weight_precision: -1, keep_percent_triangles: 1.000000, trim_relative_error: 0.000000, generate_fallback: PlatformDefault, fallback_target: Auto, fallback_percent_triangles: 1.000000, fallback_relative_error: 1.000000, max_edge_length_factor: 0.000000, num_rays: 64, voxel_level: 0, ray_back_up: 0.000000, displacement_uv_channel: 0}>",
+    "collision": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>",
+    "materials": [
+      "/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Soil_4af055d463.MI_Foot_Soil_4af055d463"
+    ]
+  }
+]

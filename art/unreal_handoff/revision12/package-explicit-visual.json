@@ -1,0 +1,7 @@
+{
+  "accepted": true,
+  "image": "package-explicit-startup.png",
+  "sha256": "ae2817104ba85f0605dea6a9fc9d9c896b2d1e751dd161e0ae935f954ce900bb",
+  "review": "Engine-generated packaged startup image inspected: forest approach, path lamps, foliage, station silhouette and held flashlight render correctly at the inherited night exposure. Live window also displayed the inherited HUD. Windows Security overlay prevented the optional manual keyboard check; existing actual-key PIE behavior tests provide that evidence. No firewall permission was granted.",
+  "scope": "Packaged rendering and startup; full station visual and movement checks are the separate PIE reports."
+}

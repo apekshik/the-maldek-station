@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "reachable_packages": 1931,
+  "missing_references": [
+    {
+      "referencer": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/PVE_European_Beech_01",
+      "missing": "/Game/Megaplant_Library/Tree_European_Beech/Instances/Beech_Branch03"
+    },
+    {
+      "referencer": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/PVE_European_Beech_01",
+      "missing": "/Game/Megaplant_Library/Tree_European_Beech/Instances/Beech_Branch01"
+    },
+    {
+      "referencer": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/PVE_European_Beech_01",
+      "missing": "/Game/Megaplant_Library/Tree_European_Beech/Instances/Beech_Branch02"
+    },
+    {
+      "referencer": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/PVE_European_Beech_01",
+      "missing": "/Game/Megaplant_Library/Tree_European_Beech/Instances/Beech_Branch04"
+    },
+    {
+      "referencer": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/PVE_European_Beech_01",
+      "missing": "/Game/Megaplant_Library/Tree_European_Beech/Instances/Beech_Branch05"
+    }
+  ],
+  "new_missing_references": [],
+  "preexisting_authoring_reference_prefix": "/Game/Megaplant_Library/Tree_European_Beech/Instances/Beech_Branch",
+  "blueprints": [
+    {
+      "asset": "/Game/MaldekRefinement/ForestTest/BP_ForestWalker",
+      "up_to_date": true
+    },
+    {
+      "asset": "/Game/BP_GondolaSystem",
+      "up_to_date": true
+    }
+  ],
+  "material_shader_errors": [],
+  "material_count": 235,
+  "shared_assets_saved": false
+}

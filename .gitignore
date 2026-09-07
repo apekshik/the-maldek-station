@@ -14,6 +14,8 @@ game/DerivedDataCache/
 game/Intermediate/
 game/Saved/
 game/.vs/
+game/Plugins/StationMigrationTools/Binaries/
+game/Plugins/StationMigrationTools/Intermediate/
 game/*.sln
 game/*.xcworkspace
 *.VC.db
@@ -43,4 +45,7 @@ art/unreal_handoff/**/*.log
 art/unreal_handoff/*.log
 art/unreal_handoff/review_request.json
 art/unreal_handoff/review_response.json
+art/unreal_handoff/revision12/request.json
+art/unreal_handoff/revision12/response.json
+art/unreal_handoff/revision12/session.json
 .claude/settings.local.json

@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "dry_run": true,
+  "stage": "Infrastructure",
+  "stage_assets": 55,
+  "total_assets": 328,
+  "explicit_replacement_components": 39,
+  "preserved_actors": 175
+}

@@ -1,0 +1,27 @@
+{
+  "r12": {
+    "Ultra_Dynamic_Sky": {
+      "Fog": "6.5",
+      "Cloud Coverage": "8.5",
+      "Time Of Day": "2300.0",
+      "Time of Day": "2300.0",
+      "Simulate Real Sun": "False",
+      "Animate Time Of Day": "False"
+    },
+    "Ultra_Dynamic_Weather": {
+      "Weather": "<Object '/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow.Snow' (0x000001D9A8078E80) Class 'UDS_Weather_Settings_C'>",
+      "Snow": "0.0",
+      "Rain": "0.0",
+      "Fog": "6.5",
+      "Cloud Coverage": "4.60799",
+      "Wind Intensity": "2.0",
+      "Material Snow Coverage": "0.0",
+      "Material Wetness": "0.0",
+      "Begin Play Weather is Random": "False",
+      "Random Weather Variation": "<UDS_RandomWeatherTiming.DISABLED: 0>",
+      "Weather Sounds Master Volume": "0.6",
+      "Wind Volume": "0.85",
+      "Season": "3.784779299847793"
+    }
+  }
+}
