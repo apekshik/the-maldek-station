@@ -1,0 +1,12 @@
+{
+  "poses": 735,
+  "collisions": [],
+  "body_swing_degrees": [
+    -8,
+    0,
+    8
+  ],
+  "travel_step_m": 0.25,
+  "tower_count": 5,
+  "scope": "Sampled triangle intersections; not a continuous dynamic or capacity check."
+}

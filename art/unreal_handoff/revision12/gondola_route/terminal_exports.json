@@ -1,0 +1,22 @@
+[
+  {
+    "name": "SM_Gondola_Terminal_Millford",
+    "vertices": 2976,
+    "materials": [
+      "Pylon_Graphite",
+      "Pylon_Galvanized",
+      "Pylon_Faded_Grey_Green",
+      "Pylon_Marker_Red"
+    ]
+  },
+  {
+    "name": "SM_Gondola_Terminal_Maldek",
+    "vertices": 2976,
+    "materials": [
+      "Pylon_Graphite",
+      "Pylon_Galvanized",
+      "Pylon_Faded_Grey_Green",
+      "Pylon_Marker_Red"
+    ]
+  }
+]

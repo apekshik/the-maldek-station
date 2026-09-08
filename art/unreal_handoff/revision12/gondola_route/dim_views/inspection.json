@@ -1,0 +1,12 @@
+{
+  "phase": "end",
+  "i": 2,
+  "next": 188293.25,
+  "busy": true,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_route\\dim_views\\01_first_arrival.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_route\\dim_views\\02_docked.png"
+  ],
+  "deadline": 188440.187,
+  "passed": true
+}

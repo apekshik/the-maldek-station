@@ -1,0 +1,12 @@
+{
+  "rope_diameter_m": 0.064,
+  "bullwheel_pitch_diameter_m": 3.7755163559597875,
+  "wheel_rpm_at_3_5_m_s": 17.704883199109627,
+  "nominal_motor_rpm": 1500,
+  "illustrative_total_ratio": 84.72238890993839,
+  "wrap_degrees": 180,
+  "single_cabin_reverses_before_wheel": true,
+  "unreal_imported": false,
+  "geometry_objects": 156,
+  "limits": "Layout study only. Gear/bearing/brake sizing, traction margin, hydraulic stroke and exact station retrofit require further validation."
+}

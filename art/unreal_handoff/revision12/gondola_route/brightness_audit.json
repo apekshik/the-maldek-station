@@ -1,0 +1,857 @@
+[
+  {
+    "label": "R04_04_Lower_Drive",
+    "position": "<Struct 'Vector' (0x0000027E82076270) {x: -44282.305975, y: 18474.707549, z: 9898.500000}>",
+    "lights": [],
+    "materials": []
+  },
+  {
+    "label": "R04_12_Gondola",
+    "position": "<Struct 'Vector' (0x0000027E82076270) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": []
+  },
+  {
+    "label": "BP_GondolaSystem",
+    "position": "<Struct 'Vector' (0x0000027E82076270) {x: -44178.212343, y: 19265.290023, z: 10275.000000}>",
+    "lights": [],
+    "materials": []
+  },
+  {
+    "label": "R12_Audio_Flywheel",
+    "position": "<Struct 'Vector' (0x0000027E82077440) {x: -44432.305965, y: 19189.707559, z: 9955.500001}>",
+    "lights": [],
+    "materials": []
+  },
+  {
+    "label": "R12_Audio_GondolaCable",
+    "position": "<Struct 'Vector' (0x0000027E82077490) {x: -44178.212343, y: 19265.290023, z: 10275.000000}>",
+    "lights": [],
+    "materials": []
+  },
+  {
+    "label": "R12_Gondola_Hanger_Adapter",
+    "position": "<Struct 'Vector' (0x0000027E82077490) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Graphite.M_Pylon_Graphite"
+      }
+    ]
+  },
+  {
+    "label": "R12_Gondola_Interior_Light_0",
+    "position": "<Struct 'Vector' (0x0000027E82077490) {x: -44282.305975, y: 19129.707568, z: 10528.500000}>",
+    "lights": [
+      {
+        "name": "LightComponent0",
+        "intensity": 35.0
+      }
+    ],
+    "materials": []
+  },
+  {
+    "label": "R12_Gondola_Interior_Light_1",
+    "position": "<Struct 'Vector' (0x0000027E82077490) {x: -44282.305975, y: 19429.707568, z: 10528.500000}>",
+    "lights": [
+      {
+        "name": "LightComponent0",
+        "intensity": 35.0
+      }
+    ],
+    "materials": []
+  },
+  {
+    "label": "R12_04_Lower_Drive_000_solid",
+    "position": "<Struct 'Vector' (0x0000027E82077350) {x: -43482.305975, y: 18474.707549, z: 9898.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Concrete__Exterior.MI_UE_VF06_Concrete__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE7A80) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A83B80) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FECEE0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A86100) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Weathered_Concrete__Exterior.MI_UE_R02_Weathered_Concrete__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE4100) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8B240) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEE4C0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8F940) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE29E0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A81240) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_04_Lower_Drive_001_thin",
+    "position": "<Struct 'Vector' (0x0000027E820772B0) {x: -43482.305975, y: 18474.707549, z: 9898.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE8980) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A82100) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_04_Lower_Drive_002_solid",
+    "position": "<Struct 'Vector' (0x0000027E82077120) {x: -43482.305975, y: 19274.707549, z: 9898.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FED700) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A86680) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_04_Lower_Drive_003_thin",
+    "position": "<Struct 'Vector' (0x0000027E82077210) {x: -43482.305975, y: 19274.707549, z: 9898.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE8840) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A87C00) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_04_Lower_Drive_004_signage",
+    "position": "<Struct 'Vector' (0x0000027E82076FE0) {x: -44282.305975, y: 18474.707549, z: 9898.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEDE80) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A88400) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_04_Lower_Drive_005_solid",
+    "position": "<Struct 'Vector' (0x0000027E82077170) {x: -44282.305975, y: 18474.707549, z: 9898.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FECD00) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A80D40) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Concrete__Exterior.MI_UE_VF06_Concrete__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE80C0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A808C0) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE60E0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A88F00) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Safety_Ochre__Exterior.MI_UE_R04_Safety_Ochre__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEA780) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A80D00) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Instrument_Ivory__Exterior.MI_UE_R04_Instrument_Ivory__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE6B80) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A843C0) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE26C0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A83040) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEDE80) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A89100) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_04_Lower_Drive_006_thin",
+    "position": "<Struct 'Vector' (0x0000027E820771C0) {x: -44282.305975, y: 18474.707549, z: 9898.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEA280) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A83D80) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_04_Lower_Drive_007_solid",
+    "position": "<Struct 'Vector' (0x0000027E82077030) {x: -44282.305975, y: 19274.707549, z: 9898.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE0A00) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A80180) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Galvanized_Grating__Exterior.MI_UE_R02_Galvanized_Grating__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE64A0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A883C0) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_04_Lower_Drive_008_thin",
+    "position": "<Struct 'Vector' (0x0000027E82077080) {x: -44282.305975, y: 19274.707549, z: 9898.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEE240) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A80A40) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_12_Gondola_000_glass",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior",
+        "scalars": [],
+        "vectors": []
+      }
+    ]
+  },
+  {
+    "label": "R12_12_Gondola_001_solid",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE1F40) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A80B00) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE5B40) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8B240) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE00A0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A86100) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FECDA0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A85240) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE3F20) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8BA80) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_12_Gondola_002_glass",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior",
+        "scalars": [],
+        "vectors": []
+      }
+    ]
+  },
+  {
+    "label": "R12_12_Gondola_003_solid",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Damp_Timber__Exterior.MI_UE_R02_Damp_Timber__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE6180) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A80F00) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEAB40) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A82140) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FED980) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8AB80) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE7D00) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8F700) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEA500) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A86740) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_12_Gondola_004_thin",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE9D80) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A802C0) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_12_Gondola_005_glass",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior",
+        "scalars": [],
+        "vectors": []
+      }
+    ]
+  },
+  {
+    "label": "R12_12_Gondola_006_solid",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE6D60) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A89B40) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE6860) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A85A80) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE5960) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A80780) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEA6E0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A865C0) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE6CC0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A811C0) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_12_Gondola_007_glass",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior",
+        "scalars": [],
+        "vectors": []
+      }
+    ]
+  },
+  {
+    "label": "R12_12_Gondola_008_solid",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Damp_Timber__Exterior.MI_UE_R02_Damp_Timber__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE5280) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A89A40) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE6220) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8D100) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FED200) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A85440) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FED020) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8DF00) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEAAA0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8FBC0) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE37A0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8AB80) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_12_Gondola_009_thin",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE2EE0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A82140) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Gondola_Details_000_solid",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE0460) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A81240) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE9F60) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A89240) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE5AA0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A82100) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Gondola_Details_001_solid",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE69A0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A84E40) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE2C60) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A80100) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEB9A0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A80580) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Gondola_Details_002_thin",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEA140) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8C280) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Gondola_Details_003_signage",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Safety_ochre__Exterior.MI_UE_VF06_Safety_ochre__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE67C0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A818C0) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Gondola_Details_004_solid",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Lamp__Exterior.MI_UE_VF06_Lamp__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE78A0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 3.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A88E80) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.720000, b: 0.360000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE3160) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A88F00) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE3DE0) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8F480) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEEF60) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A843C0) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Gondola_Details_005_signage",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Warm_enamel__Exterior.MI_UE_VF06_Warm_enamel__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEC940) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A83040) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Gondola_Details_006_solid",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Lamp__Exterior.MI_UE_VF06_Lamp__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FECA80) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 3.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8F4C0) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 0.720000, b: 0.360000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEBC20) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8A300) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FE8480) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A8EF80) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEE560) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A82B40) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Gondola_Details_007_thin",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior",
+        "scalars": [
+          "<Struct 'ScalarParameterValue' (0x0000028117FEAF00) {parameter_info: {name: \"EmissionStrength\", association: GlobalParameter, index: -1}, parameter_value: 0.000000}>"
+        ],
+        "vectors": [
+          "<Struct 'VectorParameterValue' (0x0000028001A85300) {parameter_info: {name: \"EmissionColor\", association: GlobalParameter, index: -1}, parameter_value: {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}}>"
+        ]
+      }
+    ]
+  },
+  {
+    "label": "R12_Gondola_Roof_Markers",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44282.305975, y: 19279.707568, z: 10298.500000}>",
+    "lights": [],
+    "materials": [
+      {
+        "path": "/Game/MaldekRefinement/R12/GondolaMarkers/M_Marker_Base.M_Marker_Base"
+      },
+      {
+        "path": "/Game/MaldekRefinement/R12/GondolaMarkers/M_Marker_Red_Lens.M_Marker_Red_Lens"
+      }
+    ]
+  },
+  {
+    "label": "R12_Gondola_Marker_Spill_0",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44132.305975, y: 19279.707568, z: 10558.000034}>",
+    "lights": [
+      {
+        "name": "LightComponent0",
+        "intensity": 0.014999999664723873
+      }
+    ],
+    "materials": []
+  },
+  {
+    "label": "R12_Gondola_Marker_Spill_1",
+    "position": "<Struct 'Vector' (0x0000027E820770D0) {x: -44432.305975, y: 19279.707568, z: 10558.000034}>",
+    "lights": [
+      {
+        "name": "LightComponent0",
+        "intensity": 0.014999999664723873
+      }
+    ],
+    "materials": []
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "noise_inputs": "[\"World Position\", \"FilterWidth\"]",
+  "local_fog": "<class 'LocalFogVolume'>",
+  "gondola_properties": [
+    "arrival_trigger_location",
+    "arrival_trigger_radius",
+    "begin_arrival",
+    "cabin_dock_rotation",
+    "cabin_parts",
+    "first_arrival_distance",
+    "get_route_distance",
+    "stage_first_arrival"
+  ]
+}

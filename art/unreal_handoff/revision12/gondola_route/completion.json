@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "level": "/Game/MaldekRefinement/R12/Station_R12",
+  "length_m": 1416.25234375,
+  "pylons": 5,
+  "arrival_seconds": 39.55170511081815,
+  "outbound_seconds": 468.30334320664406,
+  "return_seconds": 467.5652424097061,
+  "occupied_bridge_held": true,
+  "poses_checked": 735,
+  "terrain_samples_unchanged": 281,
+  "saved_and_reopened": true,
+  "inspection_light_removed": true
+}

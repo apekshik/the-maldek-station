@@ -24,7 +24,7 @@ case "$mode" in
   package)
     bash "$engine_root/Engine/Build/BatchFiles/RunUAT.sh" BuildCookRun \
       -project="$project" -noP4 -platform=Mac -clientconfig=Development \
-      -build -cook -map=/Game/MaldekRefinement/R12/Station_R12 \
+      -build -cook -map=/Engine/Maps/Entry+/Game/MaldekRefinement/R12/Station_R12 \
       -stage -pak -archive -archivedirectory="$repo_root/game/Saved/MacPackage" \
       -utf8output
     ;;

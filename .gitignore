@@ -59,3 +59,7 @@ art/unreal_handoff/revision12/gorge/landscape*.png
 art/unreal_handoff/revision12/gorge/landscape_applied.json
 art/unreal_handoff/revision12/gorge/heightmap_report.json
 game/Content/MaldekRefinement/R12/Gorge/HeightImport/
+
+# Local gondola rollback and Blender render logs
+art/unreal_handoff/revision12/gondola_route/Station_R12_before_gondola.umap
+art/blender/terminal_drive_study_01/*.log

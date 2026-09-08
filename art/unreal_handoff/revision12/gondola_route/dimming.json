@@ -1,0 +1,10 @@
+{
+  "saved": true,
+  "interior_lumens_each": 12,
+  "emission_strength": 0.6,
+  "previous_emission": 3,
+  "lamp_actors": [
+    "R12_VF06_Gondola_Details_004_solid",
+    "R12_VF06_Gondola_Details_006_solid"
+  ]
+}

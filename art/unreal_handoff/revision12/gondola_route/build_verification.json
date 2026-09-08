@@ -1,0 +1,12 @@
+{
+  "editor_target": "gameEditor Win64 Development",
+  "editor_result": "Succeeded",
+  "game_target": "game Win64 Development",
+  "game_result": "Succeeded",
+  "cpp_sha256": "5C9D4757FD1BF9A664728D4B0897F182EBB9B8244270E04CC27D45F66023155C",
+  "header_sha256": "38FED5529D8997695A831657A43744E11AB4597A2EE541A374E4B136562F65A4",
+  "game_executable_write_time": "2026-09-08T01:42:10.2896359-07:00",
+  "final_cpp_sha256": "B4762B6F6DB3B990FAF9D435C313A2ACF3634E5D62DBA381FB5F8F7053707F8E",
+  "final_header_sha256": "0FFFBD1A59F95E8D3880CAE0C0AD2D6E80AA726076778E6B6AB8327BE3FC8ED7",
+  "post_build_change": "Removed trailing blank lines only; final git diff --check passes."
+}

@@ -121,3 +121,20 @@ A door authored with an exterior hinge pivot cannot be made inward-opening by on
 The verified inward variant moves the pivot to the opposite side, mirrors the hinge hardware and frame stops/seals, re-exports leaf/glass/fixed components around that pivot, and updates the leaf collision centre from -3.5 cm to +3.5 cm. Moving the installed actor by the corresponding 7 cm preserves the closed leaf plane and opening clearances. It does not widen or move the building's doorway. Both inward doors then reached -95 degrees and passed actual player-capsule traversal. Keep this as an assembly change, including hardware and collision, rather than only an animation-sign change.
 
 Evidence: [initial pivot diagnosis](unreal_handoff/revision12/doors/rooms/swing_diagnosis.json), [inward export](unreal_handoff/revision12/scripts/doors_export_inward.py), [placement](unreal_handoff/revision12/doors/rooms_install.json), and [runtime traversal](unreal_handoff/revision12/doors/rooms/runtime.json). Service-area openings come from VF09/R13, which supersedes the VF07 generator/workshop footprint; inspect the current live assembly before applying older opening coordinates.
+
+## Long route imports: verify basis with asymmetric geometry
+
+The gondola route FBX used Blender `axis_forward='-Y', axis_up='Z'`; in this
+import configuration its long +Y cable arrived along Unreal -Y. A symmetric
+twin-leg tower concealed that mistake. Compare the actual imported endpoints,
+not only symmetric bounds or expected axis labels. The route assemblies use an
+explicit 180-degree yaw to produce the intended (-X,+Y,+Z) mapping. Existing
+cabin assets use their original export pipeline and were not rotated.
+
+Use named fields for Python rotations: `unreal.Rotator(pitch=0, yaw=180, roll=0)`.
+The positional call `unreal.Rotator(0,180,0)` in this environment produced a pitch
+half-turn, normalized to yaw=180/roll=180, and inverted the tower vertically.
+The failed bounds assertion exposed it before saving. Evidence:
+[diagnostic transform](unreal_handoff/revision12/gondola_route/bounds_probe.json),
+[corrected cable bounds](unreal_handoff/revision12/gondola_route/orientation.json),
+and [correction script](unreal_handoff/revision12/scripts/gondola_orientation_fix.py).

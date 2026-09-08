@@ -1,0 +1,14 @@
+{
+  "phase": "end",
+  "i": 4,
+  "next": 185538.656,
+  "busy": true,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_route\\views\\04_pylon_neutral.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_route\\views\\05_head_neutral.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_route\\views\\06_head_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_route\\views\\07_footing_neutral.png"
+  ],
+  "deadline": 185667.5,
+  "passed": true
+}

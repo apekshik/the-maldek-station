@@ -8,6 +8,7 @@ class USplineComponent;
 class UStaticMeshComponent;
 class UTimelineComponent;
 class UCurveFloat;
+class UWidgetComponent;
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FGondolaDockedDelegate);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FGondolaDepartedDelegate);
@@ -44,6 +45,41 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Gondola")
 	bool IsMoving() const { return bMoving; }
 
+	UFUNCTION(BlueprintCallable, Category = "Gondola")
+	void BeginArrival();
+	UFUNCTION(BlueprintPure, Category = "Gondola")
+	float GetRouteDistance() const { return RouteDistance; }
+	/** Finished cabin pieces and lights, attached with authored dock offsets. */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Assembly")
+	TArray<TObjectPtr<AActor>> CabinParts;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Terminal")
+	TObjectPtr<AActor> FarBoardingBridge;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Terminal")
+	TArray<TObjectPtr<AActor>> FarBridgeParts;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Terminal")
+	FVector FarBridgeParked = FVector::ZeroVector;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Terminal")
+	FVector FarBridgeDeployed = FVector::ZeroVector;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Arrival")
+	bool bStageFirstArrival = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Arrival")
+	FVector ArrivalTriggerLocation = FVector::ZeroVector;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Arrival", meta = (ClampMin = "100"))
+	float ArrivalTriggerRadius = 4300.f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Arrival", meta = (ClampMin = "0"))
+	float FirstArrivalDistance = 3048.f;
+	/** Speeds/distances in centimetres/seconds. TravelTime is a legacy fallback. */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Motion", meta = (ClampMin = "0"))
+	float CruiseSpeed = 350.f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Motion", meta = (ClampMin = "1"))
+	float ApproachSpeed = 80.f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Motion", meta = (ClampMin = "1"))
+	float Acceleration = 40.f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Motion", meta = (ClampMin = "0"))
+	float SlowZoneDistance = 3500.f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Motion")
+	FRotator CabinDockRotation = FRotator::ZeroRotator;
+
 	/** Called when the gondola arrives and docks at the platform */
 	UPROPERTY(BlueprintAssignable, Category = "Gondola")
 	FGondolaDockedDelegate OnGondolaDocked;
@@ -61,10 +97,12 @@ protected:
 	/** The gondola mesh */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UStaticMeshComponent* GondolaMesh;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	TObjectPtr<UWidgetComponent> DeparturePrompt;
 
 	/** How long the gondola takes to travel one way (seconds) */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola", meta = (ClampMin = 1.0))
-	float TravelTime = 30.0f;
+	float TravelTime = 420.0f;
 
 	/** How long the gondola waits at Maldek before returning (seconds) */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola", meta = (ClampMin = 0.0))
@@ -88,6 +126,13 @@ private:
 	bool bMoving = false;
 	bool bDocked = true;
 	bool bWaitingAtMaldek = false;
+	bool bArrivalPending = false;
+	float RouteDistance = 0.f;
+	float CurrentSpeed = 0.f;
+	float DockRouteYaw = 0.f;
+	void SetCabinHidden(bool bHideCabin);
+	bool bReturnRequested = false;
+	void UpdateBoardingBridge(float DeltaTime);
 
 	/** Timer for waiting at Maldek */
 	FTimerHandle MaldekWaitTimer;

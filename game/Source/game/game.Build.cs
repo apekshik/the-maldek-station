@@ -23,7 +23,7 @@ public class game : ModuleRules
 			"SlateCore"
 		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] { });
+		PrivateDependencyModuleNames.AddRange(new string[] { "MoviePlayer", "RenderCore", "RHI" });
 
 		PublicIncludePaths.AddRange(new string[] {
 			"game",

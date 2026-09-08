@@ -1,4 +1,5 @@
 #include "StationOpeningComponent.h"
+#include "StationStartupGameInstance.h"
 #include "UI/StationOpeningWidget.h"
 #include "GameFramework/Pawn.h"
 #include "GameFramework/PlayerController.h"
@@ -15,12 +16,15 @@ void UStationOpeningComponent::TickComponent(float Dt,ELevelTick TickType,FActor
 {
  Super::TickComponent(Dt,TickType,Function);
  if(!bEnableOpening)return;
+ if(const UStationStartupGameInstance* Startup=Cast<UStationStartupGameInstance>(GetWorld()->GetGameInstance()))
+  if(!Startup->IsOpeningReady())return;
  if(!bStarted)
  {
   APawn* Pawn=Cast<APawn>(GetOwner());
   Controller=Pawn?Cast<APlayerController>(Pawn->GetController()):nullptr;
   if(!Controller || !Controller->IsLocalController())return;
   bStarted=true;
+  UE_LOG(LogTemp,Log,TEXT("Station opening started (elapsed=%.3f)."),Elapsed);
   Widget=CreateWidget<UStationOpeningWidget>(Controller);
   if(Widget){Widget->SetVisibility(ESlateVisibility::HitTestInvisible);Widget->AddToPlayerScreen(100);}
   Controller->SetIgnoreMoveInput(true);Controller->SetIgnoreLookInput(true);bInputHeld=true;

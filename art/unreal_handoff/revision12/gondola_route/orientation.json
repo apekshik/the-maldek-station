@@ -1,0 +1,19 @@
+{
+  "saved": true,
+  "rotated": [
+    "R12_Route_Pylon_01",
+    "R12_Route_Pylon_02",
+    "R12_Route_Pylon_03",
+    "R12_Route_Pylon_04",
+    "R12_Route_Pylon_05",
+    "R12_Route_Cable_Passenger",
+    "R12_Route_Cable_Return",
+    "R12_Gondola_Hanger_Adapter",
+    "R12_Route_Terminal_Millford",
+    "R12_Route_Terminal_Maldek"
+  ],
+  "cable_y_bounds_cm": [
+    19279.35098483821,
+    157776.1919431354
+  ]
+}
