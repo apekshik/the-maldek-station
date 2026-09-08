@@ -1,0 +1,131 @@
+{
+  "success": true,
+  "checks": {
+    "old_cylinder_removed": true,
+    "pear_shaped_bow": true,
+    "glass_preserved": true,
+    "all_key_parts_parented": true,
+    "evaluated_parts_closed": true,
+    "Leaf_slab_through_hole": true,
+    "Interior_enamel_through_hole": true,
+    "key_and_plug_turn_together": true,
+    "door_stays_closed_until_key_withdrawn": true,
+    "opens_95_degrees": true,
+    "key_inserted_80mm": true,
+    "key_returned_before_withdrawal": true
+  },
+  "details": {
+    "nonmanifold_parts": []
+  },
+  "animation": [
+    {
+      "frame": 1,
+      "key_turn": 0.0,
+      "plug_turn": 0.0,
+      "door_angle": 0.0,
+      "blade_bounds": [
+        [
+          1.1490000486373901,
+          -0.1379999965429306,
+          0.9965999722480774
+        ],
+        [
+          1.1510000228881836,
+          -0.10199999809265137,
+          1.0033999681472778
+        ]
+      ]
+    },
+    {
+      "frame": 30,
+      "key_turn": 0.0,
+      "plug_turn": 0.0,
+      "door_angle": 0.0,
+      "blade_bounds": [
+        [
+          1.1490000486373901,
+          -0.057999998331069946,
+          0.9965999722480774
+        ],
+        [
+          1.1510000228881836,
+          -0.02199999988079071,
+          1.0033999681472778
+        ]
+      ]
+    },
+    {
+      "frame": 48,
+      "key_turn": 90.00000250447816,
+      "plug_turn": 90.00000250447816,
+      "door_angle": 0.0,
+      "blade_bounds": [
+        [
+          1.1465998888015747,
+          -0.057999998331069946,
+          0.9990000128746033
+        ],
+        [
+          1.15339994430542,
+          -0.02199999988079071,
+          1.0010000467300415
+        ]
+      ]
+    },
+    {
+      "frame": 70,
+      "key_turn": 0.0,
+      "plug_turn": 0.0,
+      "door_angle": 0.0,
+      "blade_bounds": [
+        [
+          1.1490000486373901,
+          -0.057999998331069946,
+          0.9965999722480774
+        ],
+        [
+          1.1510000228881836,
+          -0.02199999988079071,
+          1.0033999681472778
+        ]
+      ]
+    },
+    {
+      "frame": 88,
+      "key_turn": 0.0,
+      "plug_turn": 0.0,
+      "door_angle": 0.0,
+      "blade_bounds": [
+        [
+          1.1490000486373901,
+          -0.1379999965429306,
+          0.9965999722480774
+        ],
+        [
+          1.1510000228881836,
+          -0.10199999809265137,
+          1.0033999681472778
+        ]
+      ]
+    },
+    {
+      "frame": 120,
+      "key_turn": 0.0,
+      "plug_turn": 0.0,
+      "door_angle": -95.00000150525098,
+      "blade_bounds": [
+        [
+          -0.19856266677379608,
+          -1.171778678894043,
+          0.9965999722480774
+        ],
+        [
+          -0.16255147755146027,
+          -1.16667902469635,
+          1.0033999681472778
+        ]
+      ]
+    }
+  ],
+  "scope": "Blender design validation, not Unreal runtime validation"
+}
