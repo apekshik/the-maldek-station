@@ -9,7 +9,7 @@ def finish(dt):
  if ls.is_in_play_in_editor() and time.monotonic()<deadline:return
  unreal.unregister_slate_post_tick_callback(handle)
  assert not ls.is_in_play_in_editor()
- assert unreal.EditorLoadingSavingUtils.save_dirty_packages(True,True)
+ assert ls.save_current_level()
  (out/'shutdown.json').write_text(json.dumps({'saved':True}))
  unreal.SystemLibrary.quit_editor()
 handle=unreal.register_slate_post_tick_callback(finish)
