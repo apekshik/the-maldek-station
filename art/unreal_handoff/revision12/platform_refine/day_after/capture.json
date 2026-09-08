@@ -1,0 +1,12 @@
+{
+  "phase": "end",
+  "index": 2,
+  "next": 180982.046,
+  "deadline": 181188.968,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\platform_refine\\day_after\\quarters.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\platform_refine\\day_after\\bridge_end.png"
+  ],
+  "busy": true,
+  "success": true
+}

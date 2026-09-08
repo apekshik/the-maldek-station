@@ -1,0 +1,184 @@
+{
+  "saved": true,
+  "removed": [
+    {
+      "label": "R12_VF06_Canopy_Junction_000_solid",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (0x0000022E714F36F0) {rotation: {x: 0.000000, y: 0.000000, z: 1.000000, w: 0.000000}, translation: {x: -43482.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+    },
+    {
+      "label": "R12_VF06_Canopy_Junction_001_solid",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (0x0000022E714F36F0) {rotation: {x: 0.000000, y: 0.000000, z: 1.000000, w: 0.000000}, translation: {x: -44282.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+    },
+    {
+      "label": "R12_01_Upper_Platform_000_solid",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (0x0000022E714F36F0) {rotation: {x: 0.000000, y: 0.000000, z: 1.000000, w: 0.000000}, translation: {x: -43482.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+    },
+    {
+      "label": "R12_VF07_Public_Guards_018_solid",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (0x0000022E714F36F0) {rotation: {x: 0.000000, y: 0.000000, z: 1.000000, w: 0.000000}, translation: {x: -43482.305975, y: 18474.707549, z: 9898.500000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+    },
+    {
+      "label": "R09_Canopy_Left_Housing",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (0x0000022E714F36F0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44442.306000, y: 18875.000000, z: 10643.500000}, scale3d: {x: 0.160000, y: 0.160000, z: 0.100000}}>"
+    },
+    {
+      "label": "R09_Canopy_Left_Lens",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (0x0000022E714F36F0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44442.306000, y: 18875.000000, z: 10638.000000}, scale3d: {x: 0.100000, y: 0.100000, z: 0.010000}}>"
+    },
+    {
+      "label": "R09_Canopy_Right_Housing",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (0x0000022E714F36F0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44122.306000, y: 18875.000000, z: 10643.500000}, scale3d: {x: 0.160000, y: 0.160000, z: 0.100000}}>"
+    },
+    {
+      "label": "R09_Canopy_Right_Lens",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (0x0000022E714F36F0) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -44122.306000, y: 18875.000000, z: 10638.000000}, scale3d: {x: 0.100000, y: 0.100000, z: 0.010000}}>"
+    },
+    {
+      "label": "R09_Light_Canopy_Left",
+      "class": "SpotLight",
+      "transform": "<Struct 'Transform' (0x0000022E714F36F0) {rotation: {x: -0.240999, y: 0.518014, z: 0.346196, w: 0.744130}, translation: {x: -44442.306000, y: 18875.000000, z: 10634.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+    },
+    {
+      "label": "R09_Light_Canopy_Right",
+      "class": "SpotLight",
+      "transform": "<Struct 'Transform' (0x0000022E714F36F0) {rotation: {x: -0.518014, y: 0.240999, z: 0.744130, w: 0.346196}, translation: {x: -44122.306000, y: 18875.000000, z: 10634.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+    }
+  ],
+  "markers": [
+    {
+      "name": "WestRear",
+      "position": [
+        -25.15,
+        -15.15,
+        5.111989382246484
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "WestFront",
+      "position": [
+        -25.15,
+        7.35,
+        5.123983882550365
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "BoardingWestTurn",
+      "position": [
+        -4,
+        7.35,
+        5.100000305175781
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "BoardingWestEnd",
+      "position": [
+        -4,
+        11.5,
+        5.123981807825803
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "BoardingEastEnd",
+      "position": [
+        3.6,
+        11.5,
+        5.1239818184146495
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "EastFront",
+      "position": [
+        17.3,
+        8.4,
+        5.12398040932856
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "EastRear",
+      "position": [
+        17.3,
+        2,
+        5.100000305175781
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "RearCorner",
+      "position": [
+        1.5,
+        -13.2,
+        5.123979920395759
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "BridgeNearLeft",
+      "position": [
+        12.023974418640137,
+        9.844916343688965,
+        5.127499898274728
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "BridgeNearRight",
+      "position": [
+        13.976025581359863,
+        10.180084228515625,
+        5.127499796549528
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "BridgeMidLeft",
+      "position": [
+        16.626296997070312,
+        22.464496612548828,
+        5.127500221946102
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "BridgeMidRight",
+      "position": [
+        18.100975036621094,
+        22.190052032470703,
+        5.127500221946084
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "BridgeEndLeft",
+      "position": [
+        16.5,
+        37,
+        5.127499999999945
+      ],
+      "rail_hit": true
+    },
+    {
+      "name": "BridgeEndRight",
+      "position": [
+        21.5,
+        37,
+        5.127499389648492
+      ],
+      "rail_hit": true
+    }
+  ],
+  "marker_count": 14
+}

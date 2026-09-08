@@ -1,0 +1,14 @@
+{
+  "phase": "end",
+  "index": 4,
+  "next": 181120.515,
+  "deadline": 181309.359,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\platform_refine\\night_after\\quarters.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\platform_refine\\night_after\\platform.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\platform_refine\\night_after\\bridge_approach.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\platform_refine\\night_after\\bridge_end.png"
+  ],
+  "busy": true,
+  "success": true
+}
