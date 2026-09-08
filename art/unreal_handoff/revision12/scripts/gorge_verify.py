@@ -6,7 +6,12 @@ aa=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);actors={a.get_actor_
 o=json.loads((b.parent/'working_level_report.json').read_text())['station_origin'];grid={(round(x,3),round(y,3)):z for x,y,z in json.loads((out/'terrain_grid.json').read_text())['vertices']}
 def wp(x,y,z):return unreal.Vector(o[0]-x*100,o[1]+y*100,o[2]+z*100)
 preserve=json.loads((out/'preserve_resume.json').read_text());moved=json.loads((out/'dressing.json').read_text())['result']['existing_actors_grounded'];errors=[]
+density=json.loads((out/'density'/'installation.json').read_text()) if (out/'density'/'installation.json').exists() else {'added':0,'removed':[]}
+removed={r['label'] for r in density['removed']}
 for label,t in preserve.items():
+ if label in removed:
+  if label in actors:errors.append('Removed tree still present: '+label)
+  continue
  if label in moved:continue
  def stable(s):return re.sub(r'\(0x[0-9A-Fa-f]+\)','',s)
  if label not in actors or stable(str(actors[label].get_actor_transform()))!=stable(t):errors.append('Actor changed: '+label)
@@ -37,6 +42,6 @@ for a in actors.values():
   if not hit:root_errors.append(key);continue
   fm=unreal.load_asset(key.rsplit('|',1)[0]).get_editor_property('mesh');bd=fm.get_bounds();base=t.translation.z+(bd.origin.z-bd.box_extent.z)*t.scale3d.z;burial=hit.to_tuple()[5].z-base
   if not 5<=burial<=40:root_errors.append([key,burial])
-if tree_count!=172 or root_errors:errors.append('Gorge tree count/rooting mismatch')
+if tree_count!=172+density['added'] or root_errors:errors.append('Gorge tree count/rooting mismatch')
 assert ls.save_current_level();RESULT={'passed':not errors,'errors':errors,'collision':checks,'preserved_actor_count':len(preserve)-len(moved),'merged_height_readback_errors':native_errors,'sky_restored':sky_after,'new_tree_count':tree_count,'tree_root_errors':root_errors}
 (out/'verification.json').write_text(json.dumps(RESULT,indent=2))

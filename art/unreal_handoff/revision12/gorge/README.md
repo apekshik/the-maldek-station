@@ -1,7 +1,7 @@
 # Station gorge: nighttime terrain pass
 
 The current R12 map contains the local cliff, solid western platform shoulder,
-172 additional descending pines and 12 embedded rock masses. Distant Gaia mountain
+553 additional pines and 12 embedded rock masses. Distant Gaia mountain
 composition, station position, lighting, weather, fog, doors and audio are retained.
 
 ## Terrain and access
@@ -57,3 +57,18 @@ transition. Source: gorge_blend_edges.py, gorge_prepare_edge_patch.py,
 gorge_mesh_refresh.py and gorge_edge_material.py. Final terrain evidence is
 native_edge_patch.json and native_edge_applied.json. The original night settings
 are recorded in night_sky_settings.json and restored after inspection.
+
+## Player-view density follow-up
+
+Daylight views from inside the gondola, upper deck, lower gallery and both sides
+showed that the original twelve crest trees were too low to read from the station.
+gorge_density_install.py adds 381 trees: 32 near the crest, 45 below the gondola,
+99 on the side banks and 205 farther down. These use separate foliage types and
+terrain collision placement, with full-crown bounds checked against station mesh
+bounds before planting. The terrain and distant Gaia landscape are unchanged.
+
+The rear landing tree FR_Black_Alder_080_2 and two small understorey actors that
+protruded through the deck (FR_Understorey_087_0 and _087_1) are removed.
+density/installation.json records placements and removals. Matched daylight
+views are in density/density_before and density/density_after; night views are
+in density/night. gorge_density_capture.py reproduces the player viewpoints.

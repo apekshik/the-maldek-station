@@ -121,5 +121,14 @@
     }
   ],
   "preserved_actor_count": 790,
-  "merged_height_readback_errors": 0
+  "merged_height_readback_errors": 0,
+  "sky_restored": {
+    "Time Of Day": 2187.894917,
+    "Animate Time Of Day": false,
+    "Simulate Real Sun": false,
+    "Scale Fog Density": 0.45499999999999996,
+    "Cloud Coverage": 10.0
+  },
+  "new_tree_count": 553,
+  "tree_root_errors": []
 }

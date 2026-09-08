@@ -1,0 +1,13 @@
+{
+  "phase": "end",
+  "index": 3,
+  "next": 179428.312,
+  "deadline": 179626.187,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\density\\density_after\\back_stairs.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\density\\density_after\\ground_down.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\density\\density_after\\basement_front.png"
+  ],
+  "busy": true,
+  "success": true
+}

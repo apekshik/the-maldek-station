@@ -1,0 +1,15 @@
+{
+  "phase": "end",
+  "index": 5,
+  "next": 179583.515,
+  "deadline": 179763.312,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\density\\night\\gondola.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\density\\night\\ground_floor.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\density\\night\\west_side.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\density\\night\\east_side.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\density\\night\\basement_edge.png"
+  ],
+  "busy": true,
+  "success": true
+}
