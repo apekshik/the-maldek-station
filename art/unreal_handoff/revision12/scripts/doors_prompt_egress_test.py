@@ -5,6 +5,9 @@ out=Path(__file__).resolve().parents[1]/'doors'/'prompt_egress'
 out.mkdir(parents=True,exist_ok=True)
 ls=unreal.get_editor_subsystem(unreal.LevelEditorSubsystem)
 assert not ls.is_in_play_in_editor()
+settings=unreal.get_default_object(unreal.load_class(None,'/Script/UnrealEd.EditorPerformanceSettings'))
+throttle=settings.get_editor_property('bThrottleCPUWhenNotForeground')
+settings.set_editor_property('bThrottleCPUWhenNotForeground',False)
 s={'phase':0,'index':0,'next':time.monotonic()+10,'deadline':time.monotonic()+180,'checks':{}}
 labels=['R12_Door_Control_front','R12_Door_Relay_north','R12_Door_Relay_south']
 def check(name,value):
@@ -18,6 +21,7 @@ def place(y,x=65):
     p.character_movement.stop_movement_immediately()
     pc.set_control_rotation(unreal.Rotator(yaw=d.get_actor_rotation().yaw+(-90 if y>0 else 90)))
 def finish(error=None):
+    settings.set_editor_property('bThrottleCPUWhenNotForeground',throttle)
     s.update(success=error is None,error=error)
     (out/'runtime.json').write_text(json.dumps(s,indent=2))
     unreal.StationMigrationLibrary.set_pie_render_size(0,0)
@@ -51,20 +55,31 @@ def tick(dt):
             check('starts_locked',d.is_locked());check('world_prompt_visible',prompt.is_visible())
             check('world_space',prompt.get_widget_space()==unreal.WidgetSpace.WORLD)
             check('nonblocking_prompt',prompt.get_collision_enabled()==unreal.CollisionEnabled.NO_COLLISION)
-            first_rotation=prompt.get_world_rotation();shot('outside');place(145,95)
-            s.update(phase=3,next=now+1);return
+            check('exposure_safe_material',prompt.get_material_instance().get_editor_property('parent').get_name()=='M_DoorInteractionPrompt')
+            first_rotation=prompt.get_world_rotation();shot('outside')
+            s.update(phase=2.5,next=now+.4);return
+        if phase==2.5:
+            place(145,95)
+            s.update(phase=3,next=now+2);return
         if phase==3:
             rotation=prompt.get_world_rotation()
+            s['rotation_debug']={'before':str(first_rotation),'after':str(rotation),'visible':prompt.is_visible(),'pawn':str(p.get_actor_location())}
             check('turns_toward_player',abs(rotation.yaw-first_rotation.yaw)>3)
             eye=unreal.GameplayStatics.get_player_camera_manager(w,0).get_camera_location()
             direction=eye-prompt.get_world_location();forward=prompt.get_forward_vector()
             dot=(direction.x*forward.x+direction.y*forward.y+direction.z*forward.z)/math.sqrt(direction.x**2+direction.y**2+direction.z**2)
-            check('faces_camera',dot>.99);shot('angled');key('E');s.update(phase=4,next=now+1);return
+            check('faces_camera',dot>.99);shot('angled');s.update(phase=3.5,next=now+.4);return
+        if phase==3.5:
+            key('E');s.update(phase=4,next=now+1);return
         if phase==4:
             check('outside_enters_keypad',d.is_using_keypad());check('outside_stays_locked',d.is_locked())
-            shot('inspection');d.cancel_keypad_interaction();place(-145);s.update(phase=5,next=now+1);return
+            shot('inspection');s.update(phase=4.5,next=now+.4);return
+        if phase==4.5:
+            d.cancel_keypad_interaction();place(-145);s.update(phase=5,next=now+1);return
         if phase==5:
-            check('inside_hint_visible',prompt.is_visible());shot('inside');key('E');s.update(phase=6,next=now+.4);return
+            check('inside_hint_visible',prompt.is_visible());shot('inside');s.update(phase=5.5,next=now+.4);return
+        if phase==5.5:
+            key('E');s.update(phase=6,next=now+.4);return
         if phase==6:
             check('inside_releases_lock',not d.is_locked());check('inside_skips_inspection',not d.is_using_keypad())
             check('inside_preserves_controls',not pc.is_move_input_ignored() and not pc.is_look_input_ignored())
