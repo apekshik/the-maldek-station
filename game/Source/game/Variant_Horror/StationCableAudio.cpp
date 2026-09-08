@@ -2,6 +2,7 @@
 #include "Components/AudioComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Sound/SoundAttenuation.h"
+#include "GondolaSystem.h"
 
 AStationCableAudio::AStationCableAudio()
 {
@@ -33,7 +34,7 @@ void AStationCableAudio::Tick(float Dt)
  const float Distance=bHasLocation?FVector::Distance(Center,PreviousLocation):0;
  const float Speed=Dt>SMALL_NUMBER?Distance/Dt:0;
  PreviousLocation=Center;bHasLocation=true;
- SetActorLocation(Center+FVector(0,0,Extent.Z+30));
+ SetActorLocation(Center+FVector(0,0,Cast<AGondolaSystem>(GondolaTarget)?592.7f:Extent.Z+30));
  // Ignore scene teleports; playback represents continuous physical travel.
  const float Target=Speed>2 && Speed<3000?FMath::Clamp(Speed/100.f,.2f,1.f):0;
  MotionAmount=FMath::FInterpTo(MotionAmount,Target,Dt,Target>MotionAmount?2.f:3.f);

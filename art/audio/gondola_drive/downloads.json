@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ElectricMotor",
+    "author": "onursamli",
+    "source": "https://freesound.org/people/onursamli/sounds/846904/",
+    "preview_url": "https://cdn.freesound.org/previews/846/846904_5343877-hq.mp3",
+    "license": "CC0-1.0"
+  },
+  {
+    "name": "WheelMechanism",
+    "author": "Dan_AudioFile",
+    "source": "https://freesound.org/people/Dan_AudioFile/sounds/631820/",
+    "preview_url": "https://cdn.freesound.org/previews/631/631820_12932169-hq.mp3",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "name": "MotorHum",
+    "author": "felix.blume",
+    "source": "https://freesound.org/people/felix.blume/sounds/414060/",
+    "preview_url": "https://cdn.freesound.org/previews/414/414060_1661766-hq.mp3",
+    "license": "CC0-1.0"
+  }
+]

@@ -1,0 +1,16 @@
+Gondola drive and terminal sound credits
+
+Electric Motor 1 — onursamli
+https://freesound.org/people/onursamli/sounds/846904/
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+
+Electric motor — Felix Blume (mastering: Adriana Santiago)
+https://freesound.org/people/felix.blume/sounds/414060/
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+
+Fr, Ski lift, chairlift arriving at the top.stereo.wav — Dan_AudioFile
+https://freesound.org/people/Dan_AudioFile/sounds/631820/
+Creative Commons Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+Used for bullwheel/roller loops and brake cues. Modified: excerpts, mono conversion,
+48 kHz resampling, filtering, soft peak compression, loop crossfades, gain and short fades. The author
+has not endorsed this project. Public high-quality previews used as source.

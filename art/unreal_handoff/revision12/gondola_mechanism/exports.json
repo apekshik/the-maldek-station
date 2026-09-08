@@ -1,0 +1,146 @@
+[
+  {
+    "name": "SM_GM_Millford_Frame",
+    "pivot": [
+      0,
+      0,
+      0
+    ],
+    "materials": [
+      "Pylon_Graphite",
+      "Pylon_Faded_Grey_Green",
+      "Pylon_Concrete",
+      "Pylon_Joint_Patina",
+      "Pylon_Galvanized",
+      "Pylon_Safety_Amber"
+    ],
+    "terminal": 0,
+    "part": "Frame",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "ratio": 84.7224
+  },
+  {
+    "name": "SM_GM_Millford_Wheel",
+    "pivot": [
+      -1.175,
+      -5,
+      1.4775
+    ],
+    "materials": [
+      "Pylon_Galvanized",
+      "Pylon_Sheave_Liner",
+      "Pylon_Faded_Grey_Green",
+      "Pylon_Graphite"
+    ],
+    "terminal": 0,
+    "part": "Wheel",
+    "axis": [
+      0.782674,
+      0,
+      -0.622432
+    ],
+    "ratio": 1
+  },
+  {
+    "name": "SM_GM_Millford_Shaft",
+    "pivot": [
+      -2.2316,
+      -5,
+      -8.477
+    ],
+    "materials": [
+      "Pylon_Galvanized"
+    ],
+    "terminal": 0,
+    "part": "Shaft",
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "ratio": 8
+  },
+  {
+    "name": "SM_GM_Millford_Input",
+    "pivot": [
+      -1.38,
+      -5,
+      -8.477
+    ],
+    "materials": [
+      "Pylon_Galvanized"
+    ],
+    "terminal": 0,
+    "part": "Input",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "ratio": 84.7224
+  },
+  {
+    "name": "SM_GM_Maldek_Frame",
+    "pivot": [
+      0,
+      0,
+      0
+    ],
+    "materials": [
+      "Pylon_Graphite",
+      "Pylon_Faded_Grey_Green",
+      "Pylon_Galvanized",
+      "Pylon_Safety_Amber",
+      "Pylon_Concrete",
+      "Pylon_Sheave_Liner"
+    ],
+    "terminal": 1,
+    "part": "Frame",
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "ratio": 84.7224
+  },
+  {
+    "name": "SM_GM_Maldek_Wheel",
+    "pivot": [
+      -1.175,
+      5,
+      1.4775
+    ],
+    "materials": [
+      "Pylon_Galvanized",
+      "Pylon_Sheave_Liner",
+      "Pylon_Faded_Grey_Green",
+      "Pylon_Graphite"
+    ],
+    "terminal": 1,
+    "part": "Wheel",
+    "axis": [
+      0.782674,
+      0,
+      -0.622432
+    ],
+    "ratio": 1
+  },
+  {
+    "name": "SM_GM_Continuous_Rope",
+    "pivot": [
+      0,
+      0,
+      0
+    ],
+    "materials": [
+      "Pylon_Sheave_Liner"
+    ],
+    "terminal": 0,
+    "part": "Rope",
+    "loop_length_m": 2864.364078729397
+  }
+]

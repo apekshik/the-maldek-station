@@ -1,0 +1,27 @@
+{
+  "phase": "end",
+  "next": 191548.296,
+  "deadline": 191586.671,
+  "checks": [
+    "All nine motion loops stop at dock",
+    "Motor loop active during travel",
+    "Real listener moved to opposite sides and 200 metres away"
+  ],
+  "clips": [
+    "motor_right.wav",
+    "motor_left.wav",
+    "motor_far.wav",
+    "full_drive.wav",
+    "parked.wav"
+  ],
+  "index": 4,
+  "capture_override": {
+    "VolumeBefore": 0.0,
+    "UnfocusedBefore": 0.0,
+    "Device3MutedBefore": 0.0
+  },
+  "full_gain_test_cruise_cm_s": 80,
+  "name": "full_drive",
+  "error": null,
+  "passed": true
+}

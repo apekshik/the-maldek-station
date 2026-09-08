@@ -1,0 +1,16 @@
+{
+  "phase": "end",
+  "i": 5,
+  "next": 192261.25,
+  "busy": true,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\verified_views\\01_terminal_neutral.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\verified_views\\02_terminal_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\verified_views\\03_lower_drive.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\verified_views\\04_lower_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\verified_views\\05_return_terminal.png"
+  ],
+  "deadline": 192381.078,
+  "far_inspection_fog_disabled_in_pie_only": true,
+  "passed": true
+}

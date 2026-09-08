@@ -1,0 +1,1268 @@
+{
+  "meshes": [
+    {
+      "name": "SM_GM_PylonRoller_Passenger",
+      "vertices": 456,
+      "materials": [
+        "Pylon_Sheave_Liner",
+        "Pylon_Galvanized",
+        "Pylon_Graphite"
+      ],
+      "bounds": [
+        [
+          -0.14800000190734863,
+          -0.2929985523223877,
+          -0.29300689697265625
+        ],
+        [
+          -0.14800000190734863,
+          -0.2929985523223877,
+          0.29299163818359375
+        ],
+        [
+          -0.14800000190734863,
+          0.2930014133453369,
+          0.29299163818359375
+        ],
+        [
+          -0.14800000190734863,
+          0.2930014133453369,
+          -0.29300689697265625
+        ],
+        [
+          0.14800000190734863,
+          -0.2929985523223877,
+          -0.29300689697265625
+        ],
+        [
+          0.14800000190734863,
+          -0.2929985523223877,
+          0.29299163818359375
+        ],
+        [
+          0.14800000190734863,
+          0.2930014133453369,
+          0.29299163818359375
+        ],
+        [
+          0.14800000190734863,
+          0.2930014133453369,
+          -0.29300689697265625
+        ]
+      ]
+    },
+    {
+      "name": "SM_GM_PylonRoller_Return",
+      "vertices": 312,
+      "materials": [
+        "Pylon_Sheave_Liner",
+        "Pylon_Galvanized",
+        "Pylon_Graphite"
+      ],
+      "bounds": [
+        [
+          -0.14800000190734863,
+          -0.29299992322921753,
+          -0.292999267578125
+        ],
+        [
+          -0.14800000190734863,
+          -0.29299992322921753,
+          0.292999267578125
+        ],
+        [
+          -0.14800000190734863,
+          0.29300016164779663,
+          0.292999267578125
+        ],
+        [
+          -0.14800000190734863,
+          0.29300016164779663,
+          -0.292999267578125
+        ],
+        [
+          0.14800000190734863,
+          -0.29299992322921753,
+          -0.292999267578125
+        ],
+        [
+          0.14800000190734863,
+          -0.29299992322921753,
+          0.292999267578125
+        ],
+        [
+          0.14800000190734863,
+          0.29300016164779663,
+          0.292999267578125
+        ],
+        [
+          0.14800000190734863,
+          0.29300016164779663,
+          -0.292999267578125
+        ]
+      ]
+    },
+    {
+      "name": "SM_GM_Pylon_01",
+      "vertices": 19520,
+      "materials": [
+        "Pylon_Concrete",
+        "Pylon_Graphite",
+        "Pylon_Galvanized",
+        "Pylon_Faded_Grey_Green",
+        "Pylon_Joint_Patina",
+        "Pylon_Lettering",
+        "Pylon_Safety_Amber",
+        "Pylon_Marker_Red"
+      ],
+      "bounds": [
+        [
+          -8.09999942779541,
+          -4.0,
+          -6.64951229095459
+        ],
+        [
+          -8.09999942779541,
+          -4.0,
+          68.75629425048828
+        ],
+        [
+          -8.09999942779541,
+          4.0,
+          68.75629425048828
+        ],
+        [
+          -8.09999942779541,
+          4.0,
+          -6.64951229095459
+        ],
+        [
+          8.09999942779541,
+          -4.0,
+          -6.64951229095459
+        ],
+        [
+          8.09999942779541,
+          -4.0,
+          68.75629425048828
+        ],
+        [
+          8.09999942779541,
+          4.0,
+          68.75629425048828
+        ],
+        [
+          8.09999942779541,
+          4.0,
+          -6.64951229095459
+        ]
+      ]
+    },
+    {
+      "name": "SM_GM_Pylon_02",
+      "vertices": 18544,
+      "materials": [
+        "Pylon_Concrete",
+        "Pylon_Graphite",
+        "Pylon_Galvanized",
+        "Pylon_Faded_Grey_Green",
+        "Pylon_Joint_Patina",
+        "Pylon_Lettering",
+        "Pylon_Safety_Amber",
+        "Pylon_Marker_Red"
+      ],
+      "bounds": [
+        [
+          -8.09999942779541,
+          -4.0,
+          -8.63837718963623
+        ],
+        [
+          -8.09999942779541,
+          -4.0,
+          48.47183609008789
+        ],
+        [
+          -8.09999942779541,
+          4.0,
+          48.47183609008789
+        ],
+        [
+          -8.09999942779541,
+          4.0,
+          -8.63837718963623
+        ],
+        [
+          8.09999942779541,
+          -4.0,
+          -8.63837718963623
+        ],
+        [
+          8.09999942779541,
+          -4.0,
+          48.47183609008789
+        ],
+        [
+          8.09999942779541,
+          4.0,
+          48.47183609008789
+        ],
+        [
+          8.09999942779541,
+          4.0,
+          -8.63837718963623
+        ]
+      ]
+    },
+    {
+      "name": "SM_GM_Pylon_03",
+      "vertices": 18816,
+      "materials": [
+        "Pylon_Concrete",
+        "Pylon_Graphite",
+        "Pylon_Galvanized",
+        "Pylon_Faded_Grey_Green",
+        "Pylon_Joint_Patina",
+        "Pylon_Lettering",
+        "Pylon_Safety_Amber",
+        "Pylon_Marker_Red"
+      ],
+      "bounds": [
+        [
+          -8.09999942779541,
+          -4.0,
+          -6.85115385055542
+        ],
+        [
+          -8.09999942779541,
+          -4.0,
+          45.03730010986328
+        ],
+        [
+          -8.09999942779541,
+          4.0,
+          45.03730010986328
+        ],
+        [
+          -8.09999942779541,
+          4.0,
+          -6.85115385055542
+        ],
+        [
+          8.09999942779541,
+          -4.0,
+          -6.85115385055542
+        ],
+        [
+          8.09999942779541,
+          -4.0,
+          45.03730010986328
+        ],
+        [
+          8.09999942779541,
+          4.0,
+          45.03730010986328
+        ],
+        [
+          8.09999942779541,
+          4.0,
+          -6.85115385055542
+        ]
+      ]
+    },
+    {
+      "name": "SM_GM_Pylon_04",
+      "vertices": 18552,
+      "materials": [
+        "Pylon_Concrete",
+        "Pylon_Graphite",
+        "Pylon_Galvanized",
+        "Pylon_Faded_Grey_Green",
+        "Pylon_Joint_Patina",
+        "Pylon_Lettering",
+        "Pylon_Safety_Amber",
+        "Pylon_Marker_Red"
+      ],
+      "bounds": [
+        [
+          -8.09999942779541,
+          -4.0,
+          -7.494449615478516
+        ],
+        [
+          -8.09999942779541,
+          -4.0,
+          54.308013916015625
+        ],
+        [
+          -8.09999942779541,
+          4.0,
+          54.308013916015625
+        ],
+        [
+          -8.09999942779541,
+          4.0,
+          -7.494449615478516
+        ],
+        [
+          8.09999942779541,
+          -4.0,
+          -7.494449615478516
+        ],
+        [
+          8.09999942779541,
+          -4.0,
+          54.308013916015625
+        ],
+        [
+          8.09999942779541,
+          4.0,
+          54.308013916015625
+        ],
+        [
+          8.09999942779541,
+          4.0,
+          -7.494449615478516
+        ]
+      ]
+    },
+    {
+      "name": "SM_GM_Pylon_05",
+      "vertices": 18480,
+      "materials": [
+        "Pylon_Concrete",
+        "Pylon_Graphite",
+        "Pylon_Galvanized",
+        "Pylon_Faded_Grey_Green",
+        "Pylon_Joint_Patina",
+        "Pylon_Lettering",
+        "Pylon_Safety_Amber",
+        "Pylon_Marker_Red"
+      ],
+      "bounds": [
+        [
+          -8.09999942779541,
+          -4.0,
+          -6.896273612976074
+        ],
+        [
+          -8.09999942779541,
+          -4.0,
+          47.79507064819336
+        ],
+        [
+          -8.09999942779541,
+          4.0,
+          47.79507064819336
+        ],
+        [
+          -8.09999942779541,
+          4.0,
+          -6.896273612976074
+        ],
+        [
+          8.09999942779541,
+          -4.0,
+          -6.896273612976074
+        ],
+        [
+          8.09999942779541,
+          -4.0,
+          47.79507064819336
+        ],
+        [
+          8.09999942779541,
+          4.0,
+          47.79507064819336
+        ],
+        [
+          8.09999942779541,
+          4.0,
+          -6.896273612976074
+        ]
+      ]
+    }
+  ],
+  "rotors": [
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        -3.687474012374878,
+        65.59033966064453
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        -3.0482189655303955,
+        65.6155776977539
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        -2.4085323810577393,
+        65.6401596069336
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        -1.7689870595932007,
+        65.66313934326172
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        -1.129754662513733,
+        65.68538665771484
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        -0.48975467681884766,
+        65.70677947998047
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        0.5094773173332214,
+        65.73785400390625
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        1.1487094163894653,
+        65.7562026977539
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        1.787940263748169,
+        65.77391052246094
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        2.427940845489502,
+        65.79042053222656
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        3.0671725273132324,
+        65.8057861328125
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 1,
+      "center": [
+        0.0,
+        3.7064735889434814,
+        65.82046508789062
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 1,
+      "center": [
+        -2.3500003814697266,
+        -0.9500001072883606,
+        68.64801025390625
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 1,
+      "center": [
+        -2.3500003814697266,
+        -0.320000022649765,
+        68.6676025390625
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 1,
+      "center": [
+        -2.3500003814697266,
+        0.31999993324279785,
+        68.6875228881836
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 1,
+      "center": [
+        -2.3500003814697266,
+        0.9499998688697815,
+        68.70709991455078
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        -3.6582436561584473,
+        44.941490173339844
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        -3.0189130306243896,
+        45.027992248535156
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        -2.3796615600585938,
+        45.11381149291992
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        -1.7396612167358398,
+        45.19865036010742
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        -1.100411057472229,
+        45.28215408325195
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        -0.4611612856388092,
+        45.3649787902832
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        0.5380875468254089,
+        45.49210739135742
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        1.1780880689620972,
+        45.572120666503906
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        1.8173363208770752,
+        45.65104293823242
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        2.4566218852996826,
+        45.729244232177734
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        3.0965824127197266,
+        45.80605697631836
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 2,
+      "center": [
+        0.0,
+        3.7358436584472656,
+        45.88198471069336
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 2,
+      "center": [
+        -2.3500003814697266,
+        -0.9500001072883606,
+        48.260711669921875
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 2,
+      "center": [
+        -2.3500003814697266,
+        -0.320000022649765,
+        48.34086227416992
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 2,
+      "center": [
+        -2.3500003814697266,
+        0.31999993324279785,
+        48.42226791381836
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 2,
+      "center": [
+        -2.3500003814697266,
+        0.9499998688697815,
+        48.50244903564453
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        -3.6304566860198975,
+        41.149288177490234
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        -2.990457773208618,
+        41.298133850097656
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        -2.3515820503234863,
+        41.44526290893555
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        -1.7122074365615845,
+        41.591426849365234
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        -1.0727077722549438,
+        41.73508834838867
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        -0.4338371455669403,
+        41.87748336791992
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        0.5650303363800049,
+        42.0968132019043
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        1.2050307989120483,
+        42.23552322387695
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        1.8438953161239624,
+        42.371761322021484
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        2.4827592372894287,
+        42.50687789916992
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        3.1227588653564453,
+        42.640541076660156
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 3,
+      "center": [
+        0.0,
+        3.761617660522461,
+        42.772037506103516
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 3,
+      "center": [
+        -2.3500003814697266,
+        -0.9500001072883606,
+        44.72735595703125
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 3,
+      "center": [
+        -2.3500003814697266,
+        -0.320000022649765,
+        44.865692138671875
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 3,
+      "center": [
+        -2.3500003814697266,
+        0.31999993324279785,
+        45.006221771240234
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 3,
+      "center": [
+        -2.3500003814697266,
+        0.9499998688697815,
+        45.14455032348633
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        -3.6080386638641357,
+        50.075374603271484
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        -2.96868634223938,
+        50.2760009765625
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        -2.3287065029144287,
+        50.47532272338867
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        -1.6893770694732666,
+        50.67365264892578
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        -1.0494916439056396,
+        50.871337890625
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        -0.4100482165813446,
+        51.06739044189453
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        0.5892791152000427,
+        51.37211990356445
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        1.2286049127578735,
+        51.5658073425293
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        1.8686050176620483,
+        51.75872802734375
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        2.5079286098480225,
+        51.95011520385742
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        3.147251844406128,
+        52.14082717895508
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 4,
+      "center": [
+        0.0,
+        3.787252187728882,
+        52.33054733276367
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 4,
+      "center": [
+        -2.3500003814697266,
+        -0.9500001072883606,
+        53.87230682373047
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 4,
+      "center": [
+        -2.3500003814697266,
+        -0.320000022649765,
+        54.06439208984375
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 4,
+      "center": [
+        -2.3500003814697266,
+        0.31999993324279785,
+        54.25957489013672
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 4,
+      "center": [
+        -2.3500003814697266,
+        0.9499998688697815,
+        54.451690673828125
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        -3.5916049480438232,
+        43.268375396728516
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        -2.951991081237793,
+        43.509727478027344
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        -2.3122355937957764,
+        43.74955368041992
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        -1.672867774963379,
+        43.988521575927734
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        -1.0328677892684937,
+        44.226829528808594
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        -0.3935016095638275,
+        44.463497161865234
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        0.6058627963066101,
+        44.83169937133789
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        1.245226502418518,
+        45.0660400390625
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        1.8852261304855347,
+        45.299556732177734
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        2.524587631225586,
+        45.531593322753906
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        3.1639468669891357,
+        45.762939453125
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Passenger",
+      "tower": 5,
+      "center": [
+        0.0,
+        3.8039486408233643,
+        45.993247985839844
+      ],
+      "lane": "Passenger",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 5,
+      "center": [
+        -2.3500003814697266,
+        -0.9500001072883606,
+        47.234230041503906
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 5,
+      "center": [
+        -2.3500003814697266,
+        -0.320000022649765,
+        47.46635437011719
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 5,
+      "center": [
+        -2.3500003814697266,
+        0.31999993324279785,
+        47.70216751098633
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    },
+    {
+      "mesh": "SM_GM_PylonRoller_Return",
+      "tower": 5,
+      "center": [
+        -2.3500003814697266,
+        0.9499998688697815,
+        47.93429183959961
+      ],
+      "lane": "Return",
+      "radius_cm": 30.7
+    }
+  ]
+}

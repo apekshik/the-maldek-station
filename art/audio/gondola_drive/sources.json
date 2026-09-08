@@ -1,0 +1,106 @@
+{
+  "sources": [
+    {
+      "name": "ElectricMotor",
+      "author": "onursamli",
+      "source": "https://freesound.org/people/onursamli/sounds/846904/",
+      "preview_url": "https://cdn.freesound.org/previews/846/846904_5343877-hq.mp3",
+      "license": "CC0-1.0",
+      "sha256": "09b1bbab779eaa2df1725c0750918f8ec3e7dd0109eca1ce905acdb6294ef700",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "name": "WheelMechanism",
+      "author": "Dan_AudioFile",
+      "source": "https://freesound.org/people/Dan_AudioFile/sounds/631820/",
+      "preview_url": "https://cdn.freesound.org/previews/631/631820_12932169-hq.mp3",
+      "license": "CC-BY-4.0",
+      "sha256": "6fd33411d48039b3a78df00e71826b5c144be7149bd7979857f154d82b84dd2a",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "name": "MotorHum",
+      "author": "felix.blume",
+      "source": "https://freesound.org/people/felix.blume/sounds/414060/",
+      "preview_url": "https://cdn.freesound.org/previews/414/414060_1661766-hq.mp3",
+      "license": "CC0-1.0",
+      "sha256": "48fd7b496f1ab1d8d5cd58b521baa022dd3c3bbc07ab059dfffdf319f0b3ccbc",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "assets": [
+    {
+      "asset": "Motor_Load_Loop",
+      "loop": true,
+      "source": "ElectricMotor",
+      "excerpt_seconds": [
+        2,
+        18
+      ],
+      "rms_dbfs": -16.96244259025834,
+      "peak_dbfs": -9.370421659154896,
+      "duration": 15.75
+    },
+    {
+      "asset": "Gearbox_Loop",
+      "loop": true,
+      "source": "MotorHum",
+      "excerpt_seconds": [
+        8,
+        28
+      ],
+      "rms_dbfs": -16.789607103800915,
+      "peak_dbfs": -9.370421659154896,
+      "duration": 19.75
+    },
+    {
+      "asset": "Bullwheel_Roll_Loop",
+      "loop": true,
+      "source": "WheelMechanism",
+      "excerpt_seconds": [
+        12,
+        27
+      ],
+      "rms_dbfs": -19.1697484970812,
+      "peak_dbfs": -9.370421659154896,
+      "duration": 14.75
+    },
+    {
+      "asset": "Pylon_Roller_Loop",
+      "loop": true,
+      "source": "WheelMechanism",
+      "excerpt_seconds": [
+        16,
+        24
+      ],
+      "rms_dbfs": -20.0,
+      "peak_dbfs": -11.364263210958182,
+      "duration": 7.75
+    },
+    {
+      "asset": "Brake_Set",
+      "loop": false,
+      "source": "WheelMechanism",
+      "excerpt_seconds": [
+        12.82,
+        13.82
+      ],
+      "rms_dbfs": -18.50253217253272,
+      "peak_dbfs": -7.5459669166711505,
+      "duration": 1.0
+    },
+    {
+      "asset": "Brake_Release",
+      "loop": false,
+      "source": "WheelMechanism",
+      "excerpt_seconds": [
+        12.82,
+        13.32
+      ],
+      "rms_dbfs": -20.14854687243339,
+      "peak_dbfs": -10.305895081794795,
+      "duration": 0.5
+    }
+  ],
+  "edits": "Mono 48 kHz, DC removal, band filtering, soft peak compression, gain, 250ms circular loop crossfades; one-shot trims/fades. No generated audio."
+}

@@ -1,0 +1,69 @@
+{
+  "phase": "wait",
+  "next": 192303.89,
+  "deadline": 192438.984,
+  "frames": [
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion_final\\frame_00.png",
+      "travel_m": -2.1111474609375,
+      "requested": 1788864718.836871,
+      "game_time": 16.517434306442738
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion_final\\frame_01.png",
+      "travel_m": -2.7518115234375,
+      "requested": 1788864719.4970837,
+      "game_time": 17.17737490311265
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion_final\\frame_02.png",
+      "travel_m": -3.3458251953125,
+      "requested": 1788864720.1500504,
+      "game_time": 17.82910880073905
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion_final\\frame_03.png",
+      "travel_m": -3.8993847656250002,
+      "requested": 1788864720.7884452,
+      "game_time": 18.467773597687483
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion_final\\frame_04.png",
+      "travel_m": -4.45114501953125,
+      "requested": 1788864721.4497383,
+      "game_time": 19.12935760617256
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion_final\\frame_05.png",
+      "travel_m": -4.97507080078125,
+      "requested": 1788864722.1033483,
+      "game_time": 19.774274915456772
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion_final\\frame_06.png",
+      "travel_m": -5.2740185546875,
+      "requested": 1788864723.499642,
+      "game_time": 20.146665915846825
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion_final\\frame_07.png",
+      "travel_m": -5.815341796875,
+      "requested": 1788864724.1756797,
+      "game_time": 20.823230013251305
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion_final\\frame_08.png",
+      "travel_m": -6.10865234375,
+      "requested": 1788864725.5668979,
+      "game_time": 21.18987001478672
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion_final\\frame_09.png",
+      "travel_m": -6.61262939453125,
+      "requested": 1788864726.197962,
+      "game_time": 21.819871217012405
+    }
+  ],
+  "error": null,
+  "passed": true
+}

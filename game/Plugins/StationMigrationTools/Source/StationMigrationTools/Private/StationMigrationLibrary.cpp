@@ -1,4 +1,7 @@
 #include "StationMigrationLibrary.h"
+#include "Misc/App.h"
+#include "AudioDevice.h"
+
 #include "Engine/Engine.h"
 #include "Engine/GameViewportClient.h"
 #include "Engine/World.h"
@@ -274,4 +277,31 @@ FString UStationMigrationLibrary::ApplyR12LandscapePatch(AActor* Actor, int32 X1
     for (ULandscapeComponent* Component : Components) Component->RequestHeightmapUpdate();
     Land->MarkPackageDirty();
     return FString::Printf(TEXT("OK %d heights, %d components"),Changed,Components.Num());
+}
+
+TMap<FString,double> UStationMigrationLibrary::SetPIEAudioCaptureEnabled(bool bEnabled)
+{
+ static bool bOverridden=false;
+ static float PriorUnfocused=0,PriorVolume=1;
+ static TMap<uint32,bool> PriorMute;
+ TMap<FString,double> Report;
+ Report.Add(TEXT("VolumeBefore"),FApp::GetVolumeMultiplier());
+ Report.Add(TEXT("UnfocusedBefore"),FApp::GetUnfocusedVolumeMultiplier());
+ if(bEnabled&&!bOverridden)
+ { PriorUnfocused=FApp::GetUnfocusedVolumeMultiplier(); PriorVolume=FApp::GetVolumeMultiplier(); bOverridden=true; }
+ if(bEnabled) { FApp::SetUnfocusedVolumeMultiplier(1); FApp::SetVolumeMultiplier(1); }
+ else if(bOverridden) { FApp::SetUnfocusedVolumeMultiplier(PriorUnfocused); FApp::SetVolumeMultiplier(PriorVolume); }
+ if(GEngine)for(const FWorldContext& C:GEngine->GetWorldContexts())if(C.WorldType==EWorldType::PIE&&C.World())
+ {
+  auto Device=C.World()->GetAudioDevice();
+  if(Device.IsValid())
+  {
+   const uint32 Id=Device.GetDeviceID();
+   Report.Add(FString::Printf(TEXT("Device%uMutedBefore"),Id),Device->IsAudioDeviceMuted()?1:0);
+   if(bEnabled) { if(!PriorMute.Contains(Id))PriorMute.Add(Id,Device->IsAudioDeviceMuted()); Device->SetDeviceMuted(false); }
+   else if(const bool* Muted=PriorMute.Find(Id))Device->SetDeviceMuted(*Muted);
+  }
+ }
+ if(!bEnabled) { bOverridden=false; PriorMute.Empty(); }
+ return Report;
 }

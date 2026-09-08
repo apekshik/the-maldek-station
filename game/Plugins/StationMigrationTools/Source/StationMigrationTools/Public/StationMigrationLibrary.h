@@ -10,6 +10,10 @@ class STATIONMIGRATIONTOOLS_API UStationMigrationLibrary : public UBlueprintFunc
 {
     GENERATED_BODY()
 public:
+    // Temporary audio-capture override; restores background volume/device mute states.
+    UFUNCTION(BlueprintCallable, Category="Station Validation")
+    static TMap<FString, double> SetPIEAudioCaptureEnabled(bool bEnabled);
+
     // Isolate floating PIE from unrelated editor rendering; restores flags and removes only our override.
     UFUNCTION(BlueprintCallable, Category="Station Validation")
     static TArray<FString> SetEditorRenderingSuppressed(bool bSuppressed);

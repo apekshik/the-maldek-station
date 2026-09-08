@@ -1,0 +1,17 @@
+{
+  "editor_build": "Succeeded: audio_helper_build.log",
+  "game_build": "Succeeded: game_build.log",
+  "visual_review": "Both wheel rims complete; compact pivots; lower reducer feet supported; visible rotating wheel frames reviewed.",
+  "motion_frames": 10,
+  "audio_validation": {
+    "passed": true,
+    "near_motor_dbfs": -14.1,
+    "full_drive_dbfs": -19.8,
+    "motor_pan_separation_db": 39.4,
+    "far_silent_at_m": 200,
+    "clipped_samples": 0,
+    "loops_stop_at_dock": true,
+    "test_gain": "Configured full cruise sound gain at 80 cm/s in PIE; gameplay speeds unchanged.",
+    "capture_background_override_restored": true
+  }
+}

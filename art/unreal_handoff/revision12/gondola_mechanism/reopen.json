@@ -1,0 +1,15 @@
+{
+  "audio_capture_override_restored": true,
+  "passed": true,
+  "reopened": true,
+  "rotors": 84,
+  "sound_sources": 9,
+  "continuous_rope": true,
+  "full_precision_uv": true,
+  "shader_errors": [],
+  "old_geometry_retired": true,
+  "cabin_lighting_preserved": true,
+  "terrain_samples": 281,
+  "max_terrain_change_cm": 0.0,
+  "bridge_parked": true
+}
