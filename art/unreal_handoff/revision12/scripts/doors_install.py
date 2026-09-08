@@ -14,6 +14,7 @@ for name,secured in [('BP_StationDoor_Standard',False),('BP_StationDoor_Keypad',
  for prop,part in [('leaf','Leaf'),('glass','Glass'),('fixed_hardware','Fixed'),('keypad','Keypad'),('interior_electronics','InteriorElectronics'),('electronic_strike','ElectronicStrike')]:
   cdo.get_editor_property(prop).set_static_mesh(lib.load_asset(root+'/Meshes/SM_StationDoor_'+part))
  cdo.set_editor_property('has_keypad',secured);cdo.set_editor_property('locked',secured);cdo.set_editor_property('access_code','')
+ cdo.set_editor_property('open_angle',95.0)
  unreal.BlueprintEditorLibrary.compile_blueprint(bp);assert lib.save_loaded_asset(bp,False);classes[name]=bp.generated_class()
 actors={a.get_actor_label():a for a in aa.get_all_level_actors()}
 preserved={k:[list(a.get_actor_location().to_tuple()),list(a.get_actor_rotation().to_tuple()),list(a.get_actor_scale3d().to_tuple())] for k,a in actors.items() if not k.startswith('R12_Door_')}
@@ -27,7 +28,15 @@ for name,p,yaw in placements:
  if a:assert isinstance(a,unreal.StationDoor)
  else:a=aa.spawn_actor_from_class(classes['BP_StationDoor_Standard'],wp(p),unreal.Rotator(yaw=yaw))
  a.set_actor_label(label);a.set_folder_path('R12/Architecture/Doors');a.set_actor_location(wp(p),False,True);a.set_actor_rotation(unreal.Rotator(yaw=yaw),False)
- a.set_editor_property('has_keypad',False);a.set_editor_property('locked',False);made.append({'label':label,'position':list(a.get_actor_location().to_tuple()),'yaw':yaw})
+ a.set_editor_property('has_keypad',False);a.set_editor_property('locked',False);a.set_editor_property('open_angle',95.0);made.append({'label':label,'position':list(a.get_actor_location().to_tuple()),'yaw':yaw,'open_angle':95.0})
+ # The side entry is sheltered by the adjacent hall; use the station's dry interior family.
+ if name=='Control_side':
+  for component in [a.leaf,a.fixed_hardware]:
+   for i,slot in enumerate(component.static_mesh.static_materials):
+    slot_name=str(slot.material_slot_name)
+    if slot_name.startswith('UE_VF06_'):
+     interior=lib.load_asset('/Game/MaldekRefinement/R12/Materials/Instances/MI_'+slot_name+'__Indoor')
+     if interior:component.set_material(i,interior)
 for k,v in preserved.items():
  a=actors[k];assert v==[list(a.get_actor_location().to_tuple()),list(a.get_actor_rotation().to_tuple()),list(a.get_actor_scale3d().to_tuple())],k
 assert ls.save_current_level()

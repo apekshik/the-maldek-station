@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Leaf.SM_StationDoor_Leaf",
+      "bounds_error_cm": 1.0013580322265625e-05,
+      "triangles": 32244
+    },
+    {
+      "asset": "/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Glass.SM_StationDoor_Glass",
+      "bounds_error_cm": 1.0028481483459473e-05,
+      "triangles": 188
+    },
+    {
+      "asset": "/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Fixed.SM_StationDoor_Fixed",
+      "bounds_error_cm": 1.1622905731201172e-05,
+      "triangles": 5000
+    },
+    {
+      "asset": "/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Keypad.SM_StationDoor_Keypad",
+      "bounds_error_cm": 8.143484592437744e-06,
+      "triangles": 17952
+    },
+    {
+      "asset": "/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_InteriorElectronics.SM_StationDoor_InteriorElectronics",
+      "bounds_error_cm": 7.927417755126953e-06,
+      "triangles": 940
+    },
+    {
+      "asset": "/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_ElectronicStrike.SM_StationDoor_ElectronicStrike",
+      "bounds_error_cm": 1.138448715209961e-05,
+      "triangles": 660
+    }
+  ],
+  "materials": {
+    "UE_VF06_Warm_enamel": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Warm_enamel__Indoor.MI_UE_VF06_Warm_enamel__Indoor",
+    "UE_D01_Recess": "/Game/MaldekRefinement/R12/Doors/Materials/M_UE_D01_Recess.M_UE_D01_Recess",
+    "UE_D01_Brushed_stainless": "/Game/MaldekRefinement/R12/Doors/Materials/M_UE_D01_Brushed_stainless.M_UE_D01_Brushed_stainless",
+    "UE_VF06_Structural_steel": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Structural_steel__Exterior.MI_UE_VF06_Structural_steel__Exterior",
+    "UE_D01_Paint_edge_wear": "/Game/MaldekRefinement/R12/Doors/Materials/M_UE_D01_Paint_edge_wear.M_UE_D01_Paint_edge_wear",
+    "UE_VF06_Petrol_paint": "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior",
+    "UE_D01_EPDM": "/Game/MaldekRefinement/R12/Doors/Materials/M_UE_D01_EPDM.M_UE_D01_EPDM",
+    "UE_D01_Frosted_glass": "/Game/MaldekRefinement/R12/Doors/Materials/M_UE_D01_Frosted_glass.M_UE_D01_Frosted_glass",
+    "UE_D03_Graphite_housing": "/Game/MaldekRefinement/R12/Doors/Materials/M_UE_D03_Graphite_housing.M_UE_D03_Graphite_housing",
+    "UE_D03_Display_lens": "/Game/MaldekRefinement/R12/Doors/Materials/M_UE_D03_Display_lens.M_UE_D03_Display_lens",
+    "UE_D03_Key_legends": "/Game/MaldekRefinement/R12/Doors/Materials/M_UE_D03_Key_legends.M_UE_D03_Key_legends",
+    "UE_D03_Status_red": "/Game/MaldekRefinement/R12/Doors/Materials/M_UE_D03_Status_red.M_UE_D03_Status_red",
+    "UE_D03_Keycaps": "/Game/MaldekRefinement/R12/Doors/Materials/M_UE_D03_Keycaps.M_UE_D03_Keycaps"
+  },
+  "shader_errors": [],
+  "map_modified": false
+}

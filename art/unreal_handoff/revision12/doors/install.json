@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "placed": [
+    {
+      "label": "R12_Door_Control_front",
+      "position": [
+        -44016.905974972964,
+        18478.207549061975,
+        10298.5
+      ],
+      "yaw": 0,
+      "open_angle": 95.0
+    },
+    {
+      "label": "R12_Door_Control_side",
+      "position": [
+        -43478.805974972965,
+        18224.307549061974,
+        10298.5
+      ],
+      "yaw": -90,
+      "open_angle": 95.0
+    }
+  ],
+  "unplaced_keypad_blueprint": "/Game/MaldekRefinement/R12/Doors/BP_StationDoor_Keypad",
+  "keypad_locations": "Awaiting user review",
+  "other_actor_transforms_preserved": 861,
+  "existing_building_meshes_modified": false
+}

@@ -1,0 +1,24 @@
+{
+  "phase": 1,
+  "index": 12,
+  "next": 160820.871,
+  "deadline": 161022.921,
+  "files": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\front_night_0.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\front_night_1.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\front_night_2.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\front_neutral_0.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\front_neutral_1.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\front_neutral_2.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\side_night_0.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\side_night_1.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\side_night_2.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\side_neutral_0.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\side_neutral_1.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\side_neutral_2.png"
+  ],
+  "awaiting": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\previews\\side_neutral_2.png",
+  "success": true,
+  "error": null,
+  "temporary_light_removed": true
+}

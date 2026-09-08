@@ -13,7 +13,10 @@ def value(m,v,prop):
  vec=isinstance(v,(tuple,list));n=ml.create_material_expression(m,unreal.MaterialExpressionConstant3Vector if vec else unreal.MaterialExpressionConstant)
  n.set_editor_property('constant' if vec else 'r',unreal.LinearColor(*v[:3],1) if vec else v);assert ml.connect_material_property(n,'',prop);return n
 for name,info in manifest['materials'].items():
- slot=info['slot'];m=lib.load_asset('/Game/MaldekRefinement/R12/Materials/Instances/MI_'+slot) if name.startswith('VF06_') else None
+ slot=info['slot'];m=None
+ if name.startswith('VF06_'):
+  suffix='__Indoor' if name=='VF06_Warm_enamel' else '__Exterior'
+  m=lib.load_asset('/Game/MaldekRefinement/R12/Materials/Instances/MI_'+slot+suffix) or lib.load_asset('/Game/MaldekRefinement/R12/Materials/Instances/MI_'+slot)
  if not m:
   m=material('M_'+slot)
   value(m,info['base_color'],unreal.MaterialProperty.MP_BASE_COLOR);value(m,info['metallic'],unreal.MaterialProperty.MP_METALLIC);value(m,info['roughness'],unreal.MaterialProperty.MP_ROUGHNESS)
@@ -28,7 +31,7 @@ for name,info in manifest['materials'].items():
    for x in range(-2,3):
     for y in range(-2,3):
      weight=[1,4,6,4,1][x+2]*[1,4,6,4,1][y+2];weight_sum+=weight
-     n=ml.create_material_expression(m,unreal.MaterialExpressionSceneColor);n.set_editor_property('input_mode',unreal.MaterialSceneAttributeInputMode.MSAIM_OFFSET_FRACTION);n.set_editor_property('const_input',unreal.Vector2D(x*.005,y*.005))
+     n=ml.create_material_expression(m,unreal.MaterialExpressionSceneColor);n.set_editor_property('input_mode',getattr(unreal.MaterialSceneAttributeInputMode,next(k for k in unreal.MaterialSceneAttributeInputMode.__dict__ if 'OFFSET' in k.upper())));n.set_editor_property('const_input',unreal.Vector2D(x*.005,y*.005))
      mul=ml.create_material_expression(m,unreal.MaterialExpressionMultiply);mul.set_editor_property('const_b',float(weight));ml.connect_material_expressions(n,'',mul,'A')
      if total:
       add=ml.create_material_expression(m,unreal.MaterialExpressionAdd);ml.connect_material_expressions(total,'',add,'A');ml.connect_material_expressions(mul,'',add,'B');total=add

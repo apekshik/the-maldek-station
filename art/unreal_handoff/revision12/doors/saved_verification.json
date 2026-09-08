@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "reopened_standard_doors": [
+    "R12_Door_Control_front",
+    "R12_Door_Control_side"
+  ],
+  "keypad_unplaced": true,
+  "temporary_actors_removed": true,
+  "foot_volume": 3.5,
+  "idle_sway": 5.0,
+  "held_motion": 0.15000000596046448,
+  "source_buildings_unchanged": true,
+  "open_angle_degrees": 95
+}

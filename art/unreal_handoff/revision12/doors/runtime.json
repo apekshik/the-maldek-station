@@ -1,0 +1,56 @@
+{
+  "phase": 8,
+  "next": 160525.406,
+  "deadline": 160614.687,
+  "checks": {
+    "two_standard_control_doors": true,
+    "standard_closed_initially": true,
+    "E_opens_actual_control_door": true,
+    "player_passes_open_control_door": true,
+    "control_door_closes": true,
+    "keypad_starts_locked": true,
+    "locked_interaction_refused": true,
+    "wrong_code_refused": true,
+    "empty_code_refused": true,
+    "locked_leaf_did_not_move": true,
+    "keyboard_code_unlocks": true,
+    "unlocked_interaction_accepted": true,
+    "keypad_door_opens_after_code": true,
+    "closing_stops_for_player": true
+  },
+  "door_debug": {
+    "angle": 95.0,
+    "prompt_visible": false,
+    "prompt": "E  Close",
+    "pawn": [
+      -43951.905974972964,
+      18668.207549061975,
+      10396.5
+    ],
+    "door": [
+      -44016.905974972964,
+      18478.207549061975,
+      10298.5
+    ],
+    "leaf_mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Leaf.SM_StationDoor_Leaf' (0x0000016BD7ABE800) Class 'StaticMesh'>",
+    "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>"
+  },
+  "walk_start_y": 18668.207549061975,
+  "until": 160510.687,
+  "entry": [
+    "E",
+    "Zero",
+    "Four",
+    "Two",
+    "Six",
+    "Enter"
+  ],
+  "entry_index": 6,
+  "final_angles": {
+    "control": 0.0,
+    "obstructed_keypad": 61.0600700378418
+  },
+  "success": true,
+  "error": null,
+  "temporary_test_actor_removed": true
+}
