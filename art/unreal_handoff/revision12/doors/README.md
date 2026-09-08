@@ -1,5 +1,13 @@
 # Standard and digital-keypad door integration
 
+## Keypad inspection camera
+
+Press E while looking at a locked door to blend into a fixed, slightly elevated oblique close-up of its keypad. The camera uses a constrained 16:9 frame so the reader and hints stay visible across viewport shapes. Mouse movement controls a visible cursor; each click is ray-projected against the measured 3 x 4 physical key layout, including scaled relay instances. Digits appear as masked characters on the reader display. CLR clears the whole entry and OK submits it. Wrong codes leave the door locked and show TRY AGAIN. Correct code 1234 returns to the player view; E then opens the unlocked door normally.
+
+E or right-click cancels without unlocking. Escape also cancels in standalone play (the editor may intercept it to stop PIE). Number keys/numpad, Backspace and Enter remain keyboard alternatives. Movement/look are paused and held meshes hidden during the close-up; previous player view, movement mode, input locks and mesh visibility are restored on exit or actor teardown. The first-person motion/torch settings are unchanged.
+
+Reproduce actual cursor-click, cancellation, re-entry, wrong-code, CLR and unlock/open checks using doors_test_camera.py. Camera screenshots and runtime results are in camera/. Win64 Development game and editor builds passed; Mac runtime validation remains outstanding.
+
 ## Approved placement update
 
 The user selected temporary code **1234** for the main control-room entrance and the distant relay station. Both relay entrances use that keypad code; the control-room side door remains standard. Relay openings are 1.2 x 2.3 metres, verified against evaluated VF07 geometry in relay_openings.json. The relay leaf plaque reads R / 01 and RELAY; relay_label_import.json verifies identical bounds and unchanged walking collision. The shared door assembly is fitted to those openings with per-instance width/height scaling, retaining its thickness, existing reveals, thresholds, 6 mm side/head gaps and 10 mm threshold clearance.
@@ -24,8 +32,9 @@ Reproduce through the existing editor dispatcher in order, with exclusive editor
 3. `doors_test.py` — actual PIE E input, walking passage, closed/open state, wrong/empty-code rejection, digit entry, and player obstruction tests. A temporary editor test actor is cloned into PIE and removed afterward; it is never saved.
 4. Capture both control openings under neutral and actual night/torch lighting; inspect rapid small-viewpoint sequences, preserve current global light settings, save/reopen and verify persistence as required by `art/MESH_AUTHORING.md`.
 
-`StationDoor` expects E to interact. A secured door accepts numeric keys, E/Enter to submit and Backspace to delete a digit. Codes are configured per instance (up to eight digits); an empty configured code rejects every entry. No secure locations or final codes were selected by the user. The keypad display and status light update when unlocked. Opening uses the moving leaf's collision volume and subdivided obstruction checks. The temporary test code is assigned only to the unsaved test actor; the reusable keypad blueprint has an empty default.
+`StationDoor` expects E to interact. A secured door enters the close-up described above; numeric keys and Enter are optional alternatives to clicking its buttons. Codes are configured per instance (up to eight digits); an empty configured code rejects every entry. No secure locations or final codes were selected by the user. The keypad display and status light update when unlocked. Opening uses the moving leaf's collision volume and subdivided obstruction checks. The temporary test code is assigned only to the unsaved test actor; the reusable keypad blueprint has an empty default.
 
 The frosted pane uses a local scene-color blur material rather than changing global camera effects. Its shaders compile on the tested Win64 D3D12 renderer. This is a screen-space approximation, not a physical transmission simulation; dedicated Mac rendering and performance validation are still required. Blender renders are not evidence of Unreal appearance.
 
 Preserve the concurrent sensory settings: foot volume 3.5, idle sway 5, head bob 1.5, walk sway 1.8, run sway 3, held motion .15 and TorchV2 detailed mesh. Do not restore an older map or pawn to install doors.
+

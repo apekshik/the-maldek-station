@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "reopened_keypad_cameras": [
+    "R12_Door_Control_front",
+    "R12_Door_Relay_north",
+    "R12_Door_Relay_south"
+  ],
+  "code": "1234",
+  "standard_door_unlocked": true,
+  "builds": [
+    "Win64 Development game",
+    "Win64 Development Editor"
+  ]
+}
