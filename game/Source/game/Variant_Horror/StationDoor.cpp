@@ -7,7 +7,7 @@
 #include "Widgets/SOverlay.h"
 #include "Widgets/SBoxPanel.h"
 #include "Widgets/Text/STextBlock.h"
-#include "Brushes/SlateRoundedBoxBrush.h"
+#include "StationInteractionStyle.h"
 #include "Styling/CoreStyle.h"
 #include "Camera/CameraComponent.h"
 #include "Components/MeshComponent.h"
@@ -244,20 +244,22 @@ void AStationDoor::ShowDoorHint(bool bVisible,const FString& Action,const FStrin
  if(!HintWidget.IsValid() && bVisible)
  {
   auto* Viewport=GetWorld()?GetWorld()->GetGameViewport():nullptr;if(!Viewport)return;
-  static const FSlateRoundedBoxBrush Panel(FLinearColor(.012f,.024f,.027f,.96f),10.f,FLinearColor(.32f,.57f,.55f,.85f),1.2f);
-  static const FSlateRoundedBoxBrush Key(FLinearColor(.84f,.88f,.78f,1),6.f,FLinearColor(.98f,.99f,.9f,1),1.f);
+  using namespace StationInteractionStyle;
   HintWidget=SNew(SOverlay)
    +SOverlay::Slot().HAlign(HAlign_Center).VAlign(VAlign_Bottom).Padding(FMargin(16,0,16,48))
-   [SNew(SBorder).BorderImage(&Panel).Padding(FMargin(17,12))
+   [SNew(SBorder).BorderImage(&OuterRule).Padding(1)
+    [SNew(SBorder).BorderImage(&RuleGap).Padding(3)
+     [SNew(SBorder).BorderImage(&InnerRule).Padding(1)
+      [SNew(SBorder).BorderImage(&Panel).Padding(FMargin(15,10))
     [SNew(SHorizontalBox)
      +SHorizontalBox::Slot().AutoWidth().VAlign(VAlign_Center).Padding(0,0,15,0)
      [SNew(SBox).WidthOverride(40).HeightOverride(40)
       [SNew(SBorder).BorderImage(&Key).HAlign(HAlign_Center).VAlign(VAlign_Center)
-       [SNew(STextBlock).Text(FText::FromString(TEXT("E"))).Font(FCoreStyle::GetDefaultFontStyle("Bold",20)).ColorAndOpacity(FLinearColor(.025f,.055f,.055f,1))]]]
+       [SNew(STextBlock).Text(FText::FromString(TEXT("E"))).Font(FCoreStyle::GetDefaultFontStyle("Bold",20)).ColorAndOpacity(Ink)]]]
      +SHorizontalBox::Slot().AutoWidth().VAlign(VAlign_Center)
      [SNew(SVerticalBox)
-      +SVerticalBox::Slot().AutoHeight()[SAssignNew(HintAction,STextBlock).Font(FCoreStyle::GetDefaultFontStyle("Bold",17)).ColorAndOpacity(FLinearColor(.94f,.95f,.86f,1))]
-      +SVerticalBox::Slot().AutoHeight().Padding(0,4,0,0)[SAssignNew(HintDetail,STextBlock).Font(FCoreStyle::GetDefaultFontStyle("Regular",10)).ColorAndOpacity(FLinearColor(.49f,.66f,.63f,1))]]]];
+      +SVerticalBox::Slot().AutoHeight()[SAssignNew(HintAction,STextBlock).Font(FCoreStyle::GetDefaultFontStyle("Bold",17)).ColorAndOpacity(StationInteractionStyle::Action)]
+      +SVerticalBox::Slot().AutoHeight().Padding(0,4,0,0)[SAssignNew(HintDetail,STextBlock).Font(FCoreStyle::GetDefaultFontStyle("Regular",10)).ColorAndOpacity(StationInteractionStyle::Detail)]]]]]]];
   Viewport->AddViewportWidgetContent(HintWidget.ToSharedRef(),30);
  }
  if(HintWidget.IsValid())
