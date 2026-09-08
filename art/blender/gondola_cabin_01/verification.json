@@ -1,0 +1,74 @@
+{
+  "success": true,
+  "scope": "Blender design validation; Unreal collision and state-machine integration remain pending",
+  "checks": {
+    "replaced_old_handles_track_sill_removed": true,
+    "retained_shell_world_bounds_preserved": true,
+    "Gondola_South_Pier_glazing_core_is_open": true,
+    "Gondola_South_End_glazing_core_is_open": true,
+    "new_solid_meshes_manifold": true,
+    "leaf_pair_stays_symmetric": true,
+    "slide_stays_in_travel_limits": true,
+    "closed_during_travel": true,
+    "drive_matches_racks": true,
+    "both_leaves_fully_open": true,
+    "open_leaves_clear_structural_width": true,
+    "rack_stays_within_guarded_span": true,
+    "two_recorded_audio_cues": true,
+    "audio_packed": true,
+    "rendered_shell_visible": true
+  },
+  "preserved_meshes": 166,
+  "maximum_shell_bounds_error_m": 0.0003675222396850586,
+  "new_evaluated_objects": 524,
+  "new_triangles": 101672,
+  "non_manifold_objects": [],
+  "sampled_frames": 384,
+  "key_frames": [
+    {
+      "frame": 1,
+      "door_open_fraction": 0.0,
+      "cabin_y": 6.0
+    },
+    {
+      "frame": 60,
+      "door_open_fraction": 0.0,
+      "cabin_y": 0.0
+    },
+    {
+      "frame": 78,
+      "door_open_fraction": 0.0,
+      "cabin_y": 0.0
+    },
+    {
+      "frame": 120,
+      "door_open_fraction": 0.4999999924907534,
+      "cabin_y": 0.0
+    },
+    {
+      "frame": 162,
+      "door_open_fraction": 0.9999999849815068,
+      "cabin_y": 0.0
+    },
+    {
+      "frame": 264,
+      "door_open_fraction": 0.9999999849815068,
+      "cabin_y": 0.0
+    },
+    {
+      "frame": 306,
+      "door_open_fraction": 0.0,
+      "cabin_y": 0.0
+    },
+    {
+      "frame": 348,
+      "door_open_fraction": 0.0,
+      "cabin_y": 0.0
+    },
+    {
+      "frame": 384,
+      "door_open_fraction": 0.0,
+      "cabin_y": 6.0
+    }
+  ]
+}

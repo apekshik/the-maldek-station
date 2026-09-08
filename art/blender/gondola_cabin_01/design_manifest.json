@@ -1,0 +1,45 @@
+{
+  "scope": "Blender design and sourced sounds for review; not installed in Unreal",
+  "source": "visual_fidelity_07/Maldek_Station_Cleanup.blend",
+  "origin_shift_m": [
+    0,
+    8.05,
+    4
+  ],
+  "removed_replaced_objects": [
+    "R04_Boarding_Grab_Handle",
+    "R04_Handle_Mount",
+    "R04_Handle_Mount.001",
+    "R04_Boarding_Grab_Handle.001",
+    "R04_Handle_Mount.002",
+    "R04_Handle_Mount.003",
+    "R04_Boarding_Sill",
+    "Upholstered_bench_pad",
+    "Upholstered_bench_pad.001",
+    "Upholstered_bench_pad.002",
+    "Upholstered_bench_pad.003",
+    "Upholstered_bench_pad.004",
+    "Upholstered_bench_pad.005",
+    "Door_track",
+    "MIND THE GAP"
+  ],
+  "doorway_clear_m": [
+    1.2,
+    2.1
+  ],
+  "leaf_travel_m": 0.635,
+  "door_plane_y_m": -3.16,
+  "opening_seconds": 3.5,
+  "closing_seconds": 1.75,
+  "settle_seconds": 0.75,
+  "fps": 24,
+  "frames": {
+    "stopped": 60,
+    "open_start": 78,
+    "open": 162,
+    "close_start": 264,
+    "closed": 306,
+    "departure": 348
+  },
+  "integration_rule": "Stopped cabin and deployed landing before opening; doorway obstruction reopens/holds; closed latch before gangway retraction and route movement; preserve existing dim lamps."
+}

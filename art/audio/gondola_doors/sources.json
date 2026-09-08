@@ -1,0 +1,53 @@
+[
+  {
+    "asset": "Gondola_Door_Open",
+    "title": "Train Door Opening",
+    "author": "iamaviolin",
+    "page": "https://freesound.org/people/iamaviolin/sounds/439499/",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "https://cdn.freesound.org/previews/439/439499_6470379-hq.mp3",
+    "original_sha256": "9de7cf2fefffade30164be63e020e855574a1d6948c2f0c46dca25561a863d0c",
+    "wav_sha256": "26d799b3a45b9dace8b75ab8ccd4ea1b69692b629ebfd81ebaf1098393da70f8",
+    "seconds": 3.5294375,
+    "peak": 0.6,
+    "rms": 0.06803133457350867,
+    "gain_db": 1.539579295672712,
+    "edits": "Complete recording; mono 48kHz PCM16, DC removal, constant gain, 4ms edge fades. No synthesis, layering or pitch changes.",
+    "role": "opening"
+  },
+  {
+    "asset": "Gondola_Door_Close",
+    "title": "Train Door Closing",
+    "author": "iamaviolin",
+    "page": "https://freesound.org/people/iamaviolin/sounds/439494/",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "https://cdn.freesound.org/previews/439/439494_6470379-hq.mp3",
+    "original_sha256": "10e052eff3f7d60b9102ff7968f746ac0a69d917ff688abbadb39b263f2ddcb9",
+    "wav_sha256": "fb4b15b430d11c75757d93b08dc347d8723f87cc51f2df0feee477f1f1ec16e0",
+    "seconds": 1.7763333333333333,
+    "peak": 0.6,
+    "rms": 0.06931245726132165,
+    "gain_db": -3.5601222001450754,
+    "edits": "Complete recording; mono 48kHz PCM16, DC removal, constant gain, 4ms edge fades. No synthesis, layering or pitch changes.",
+    "role": "closing"
+  },
+  {
+    "asset": "Metal_Track_Alternate",
+    "title": "Door sliding along a metal track",
+    "author": "wlabarron",
+    "page": "https://freesound.org/people/wlabarron/sounds/509114/",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "download": "https://cdn.freesound.org/previews/509/509114_3782735-hq.mp3",
+    "original_sha256": "8ea6ca47b3d232af155cb99ae7d369b1e2676e3e1861b74bbe8041da955997d7",
+    "wav_sha256": "40a2dfea1a24027eb4ff81aff0330c536d727de3b46c3150fc81282ca660c686",
+    "seconds": 11.9885,
+    "peak": 0.55,
+    "rms": 0.01912496365831044,
+    "gain_db": -4.9643858543653225,
+    "edits": "Complete recording; mono 48kHz PCM16, DC removal, constant gain, 4ms edge fades. No synthesis, layering or pitch changes.",
+    "role": "alternate audition"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "files": [
+    {
+      "asset": "Gondola_Door_Open",
+      "frames": 169413,
+      "sample_rate": 48000,
+      "peak": 0.5999755859375,
+      "nonzero": true
+    },
+    {
+      "asset": "Gondola_Door_Close",
+      "frames": 85264,
+      "sample_rate": 48000,
+      "peak": 0.5999755859375,
+      "nonzero": true
+    },
+    {
+      "asset": "Metal_Track_Alternate",
+      "frames": 575448,
+      "sample_rate": 48000,
+      "peak": 0.550018310546875,
+      "nonzero": true
+    }
+  ]
+}
