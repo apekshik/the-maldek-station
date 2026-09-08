@@ -1,0 +1,33 @@
+{
+  "reopened_blend": true,
+  "shaft_sections": 8,
+  "sheaves": 24,
+  "minimum_adjacent_sheave_flange_clearance_m": 0.05399986648559574,
+  "rope_contact_error_m": 0,
+  "fbx_reimported": true,
+  "fbx_mesh_count": 1,
+  "fbx_bounds_m": [
+    [
+      -7.27000093460083,
+      -3.9930007457733154,
+      0.0
+    ],
+    [
+      7.270001411437988,
+      3.9930007457733154,
+      43.6300048828125
+    ]
+  ],
+  "fbx_materials": [
+    "Pylon_Concrete",
+    "Pylon_Graphite",
+    "Pylon_Satin_Silver",
+    "Pylon_Galvanized",
+    "Pylon_Lettering",
+    "Pylon_Safety_Amber",
+    "Pylon_Sheave_Liner",
+    "Pylon_Marker_Red"
+  ],
+  "renders_present": 4,
+  "unreal_validation": "pending editor availability and route-specific placement"
+}

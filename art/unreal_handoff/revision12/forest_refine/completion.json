@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "saved": true,
+  "vehicles": 2,
+  "new_rock_pieces": 44,
+  "parking_edge_plants": 30,
+  "removed_unused_trial_assets": [
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/M_Woodland_Landscape_Blend",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_CombineNormal.MF_MWAM_CombineNormal",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_CombineNormalSimple.MF_MWAM_CombineNormalSimple",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_DefaultLayer.MF_MWAM_DefaultLayer",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_DepthFade.MF_MWAM_DepthFade",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_LandscapeUVs.MF_MWAM_LandscapeUVs",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_LayerBlend.MF_MWAM_LayerBlend",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_Opacity.MF_MWAM_Opacity",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_PivotMask.MF_MWAM_PivotMask",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_Roughness.MF_MWAM_Roughness",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_SlopeMask.MF_MWAM_SlopeMask",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_Snow.MF_MWAM_Snow",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_SnowMask.MF_MWAM_SnowMask",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_SubSurface.MF_MWAM_SubSurface",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_WaterMask.MF_MWAM_WaterMask",
+    "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MW_MWAM_Water.MW_MWAM_Water"
+  ]
+}

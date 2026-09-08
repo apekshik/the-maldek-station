@@ -27,7 +27,7 @@ public:
 	TArray<TObjectPtr<USoundBase>> ConcreteSteps;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Footsteps")
 	TArray<TObjectPtr<USoundBase>> WoodSteps;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Footsteps", meta=(ClampMin="0", ClampMax="2"))
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Footsteps", meta=(ClampMin="0", ClampMax="8"))
 	float Volume = 0.65f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Footsteps", meta=(ClampMin="50"))
 	float WalkStepDistance = 145.0f;

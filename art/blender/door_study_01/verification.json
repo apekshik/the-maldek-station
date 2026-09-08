@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "vision_cut_through_both_skins": true,
+    "solid_skin_beside_vision": true,
+    "closed_leaf_blocks_route": true,
+    "bottom_above_existing_threshold": true,
+    "leaf_inside_measured_reveal": true,
+    "open_105_degree_sampled_1_1m_route": true,
+    "hinge_pivot_persisted": true
+  },
+  "sampled_open_route_rays": 145,
+  "blocked": [],
+  "evaluated_review_triangles": 34288,
+  "scope": "Saved/reopened Blender geometry. Includes study frame and moving leaf. Does not prove building swing clearance or Unreal capsule/collision behavior."
+}

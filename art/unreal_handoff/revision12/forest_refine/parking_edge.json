@@ -1,0 +1,309 @@
+{
+  "summary": {
+    "trees": 10,
+    "shrubs": 20,
+    "saved": true
+  },
+  "plants": [
+    {
+      "label": "FR_Parking_Edge_00_0",
+      "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B",
+      "local": [
+        -47,
+        -63,
+        -3.6225541584733385
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_00_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -47.81667308057817,
+        -64.16071641669107,
+        -9.432044786082534
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_00_2",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -47.99629114628646,
+        -63.44948162484497,
+        -8.51445080642347
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_01_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_B",
+      "local": [
+        -48,
+        -57,
+        -2.5433470855330325
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_01_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -48.86008654183357,
+        -55.82068760621747,
+        -5.566002448643572
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_01_2",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -47.536814289620146,
+        -57.53899314807447,
+        -2.079053604097126
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_02_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_B",
+      "local": [
+        -47,
+        -52,
+        -2.457055727670365
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_02_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -48.19991811744243,
+        -50.95667483750177,
+        -8.250080359852552
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_02_2",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -46.728006519710306,
+        -51.46740146085774,
+        -2.650885680654853
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_03_0",
+      "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B",
+      "local": [
+        -44,
+        -68,
+        -6.143014778171654
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_03_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -44.79241092184352,
+        -68.46847788565204,
+        -11.337550876112973
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_03_2",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -43.085642022685,
+        -68.35915115904224,
+        -5.408631642699439
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_04_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_B",
+      "local": [
+        -39,
+        -68.5,
+        -1.9234035704141803
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_04_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -38.6260081796315,
+        -67.23859365716902,
+        -1.0635065760805555
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_04_2",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -40.04734663075761,
+        -68.85195615470475,
+        -3.041962659824165
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_05_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_B",
+      "local": [
+        -34,
+        -68,
+        -1.2548612268904618
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_05_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -32.87202739413601,
+        -67.40368908774334,
+        -1.1718910241357865
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_05_2",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -34.6463053364226,
+        -67.74019925703547,
+        -1.2781686357988973
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_06_0",
+      "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B",
+      "local": [
+        -29,
+        -67,
+        -1.0197486640900901
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_06_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -29.580776057704618,
+        -67.7095198862726,
+        -1.9670913473428244
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_06_2",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -27.972918385388194,
+        -68.19066113691376,
+        -4.779692077968683
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_07_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_B",
+      "local": [
+        -26,
+        -63,
+        -0.8980331563053674
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_07_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -26.8892648644939,
+        -64.16900976642012,
+        -0.7732386980977801
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_07_2",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -26.095840829157197,
+        -62.40202137911943,
+        -1.0211110138571056
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_08_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_B",
+      "local": [
+        -26,
+        -57,
+        -1.3296252675738753
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_08_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -27.332260167176166,
+        -58.163027764162685,
+        -1.2963259153614113
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_08_2",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -26.581236007995457,
+        -57.44130358030903,
+        -1.3388854868223623
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_09_0",
+      "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B",
+      "local": [
+        -28,
+        -51,
+        -1.2060784497917525
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_09_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -26.612291624553844,
+        -51.20387099950181,
+        -1.1098951047807692
+      ],
+      "base_burial_cm": 22
+    },
+    {
+      "label": "FR_Parking_Edge_09_2",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -28.422238740351585,
+        -51.41899171673091,
+        -1.2924380319489819
+      ],
+      "base_burial_cm": 22
+    }
+  ]
+}

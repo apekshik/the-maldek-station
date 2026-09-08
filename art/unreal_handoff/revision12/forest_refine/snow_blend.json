@@ -1,0 +1,14 @@
+{
+  "saved": true,
+  "functions": 15,
+  "material": "/Game/MaldekRefinement/R12/ForestRefine/Materials/M_Woodland_Landscape_Blend.M_Woodland_Landscape_Blend",
+  "ellipse_center_local": [
+    0,
+    40
+  ],
+  "ellipse_radius_m": [
+    100,
+    155
+  ],
+  "full_clear_fraction": 0.5
+}

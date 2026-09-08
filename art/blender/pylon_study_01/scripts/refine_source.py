@@ -1,0 +1,11 @@
+from pathlib import Path
+p=Path('art/blender/pylon_study_01/scripts/build.py')
+s=p.read_text()
+s=s.replace("(.47,.56,.59),.72,.32)","(.47,.56,.59),.45,.44)")
+s=s.replace("noise.inputs['Scale'].default_value=22;bump=", "noise.inputs['Scale'].default_value=14;tc=n.new('ShaderNodeTexCoord');l.new(tc.outputs['Object'],noise.inputs['Vector']);bump=")
+s=s.replace('range(129)','range(134)').replace('(x1+dx,.94,40.75)','(x1+dx,.92,42.6)').replace('(x1,.96,41)','(x1,.94,41.65)')
+s=s.replace(" # Crosshead access walkway joins", " for y in [-3.85,3.85]:\n  for z in [42.68,43.24]:rod('Catwalk_end_guard',(cx-.4,y,z),(cx+.4,y,z),.025)\n # Crosshead access walkway joins")
+s=s.replace('42.32','42.327')
+s=s.replace("(x,-3.2,1.45),.19,.25,figure)","(x,-3.2,1.45),.19,.25,figure)\n rod('STUDY_human_neck',(x,-3.2,1.44),(x,-3.2,1.60),.065,figure)")
+s=s.replace("  rod('STUDY_human_leg'", "  box('STUDY_human_boot',(x+s*.16,-3.25,.07),(.18,.30,.14),figure,.035)\n  rod('STUDY_human_leg'")
+p.write_text(s)

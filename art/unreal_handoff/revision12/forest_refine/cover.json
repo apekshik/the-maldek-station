@@ -1,0 +1,207 @@
+{
+  "source": "/Game/MaldekRefinement/R06/Materials/MI_Snowy_Landscape.MI_Snowy_Landscape",
+  "material": "/Game/MaldekRefinement/R12/ForestRefine/Materials/MI_Woodland_Landscape.MI_Woodland_Landscape",
+  "before": {
+    "MW_SnowMaskMultiplier": 0.0,
+    "MW_SnowWorldPosition": 1000000.0
+  },
+  "snow_mask_multiplier": 0,
+  "snow_height": 1000000,
+  "saved": true,
+  "components": [
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1480",
+      "local_center": [
+        79.79694025027034,
+        -86.33707549061975
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1481",
+      "local_center": [
+        16.796940250270346,
+        -86.33707549061975
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1482",
+      "local_center": [
+        -46.203059749729654,
+        -86.33707549061975
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1483",
+      "local_center": [
+        -109.20305974972966,
+        -86.33707549061975
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1544",
+      "local_center": [
+        79.79694025027034,
+        -23.337075490619753
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1545",
+      "local_center": [
+        16.796940250270346,
+        -23.337075490619753
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1546",
+      "local_center": [
+        -46.203059749729654,
+        -23.337075490619753
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1547",
+      "local_center": [
+        -109.20305974972966,
+        -23.337075490619753
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1608",
+      "local_center": [
+        79.79694025027034,
+        39.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1609",
+      "local_center": [
+        16.796940250270346,
+        39.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1610",
+      "local_center": [
+        -46.203059749729654,
+        39.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1611",
+      "local_center": [
+        -109.20305974972966,
+        39.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1672",
+      "local_center": [
+        79.79694025027034,
+        102.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1673",
+      "local_center": [
+        16.796940250270346,
+        102.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1674",
+      "local_center": [
+        -46.203059749729654,
+        102.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1675",
+      "local_center": [
+        -109.20305974972966,
+        102.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1736",
+      "local_center": [
+        79.79694025027034,
+        165.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1737",
+      "local_center": [
+        16.796940250270346,
+        165.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1738",
+      "local_center": [
+        -46.203059749729654,
+        165.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1739",
+      "local_center": [
+        -109.20305974972966,
+        165.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1800",
+      "local_center": [
+        79.79694025027034,
+        228.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1801",
+      "local_center": [
+        16.796940250270346,
+        228.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1802",
+      "local_center": [
+        -46.203059749729654,
+        228.66292450938025
+      ],
+      "size_m": 63.0
+    },
+    {
+      "component": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.Landscape_0.LandscapeComponent_1803",
+      "local_center": [
+        -109.20305974972966,
+        228.66292450938025
+      ],
+      "size_m": 63.0
+    }
+  ],
+  "blocking_grass_batch": 1,
+  "original_batch_restored": 1
+}

@@ -2,6 +2,13 @@
 *.umap filter=lfs diff=lfs merge=lfs -text
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.TGA filter=lfs diff=lfs merge=lfs -text
+*.sh text eol=lf
+art/audio/auditions/2026-09-07/originals/*.flac filter=lfs diff=lfs merge=lfs -text
+art/audio/auditions/2026-09-07/originals/*.mp3 filter=lfs diff=lfs merge=lfs -text
+art/blender/door_study_*/previews/*.png filter=lfs diff=lfs merge=lfs -text
+art/blender/pylon_study_*/previews/*.png filter=lfs diff=lfs merge=lfs -text
 art/unreal_handoff/revision12/textures/*.png filter=lfs diff=lfs merge=lfs -text
 art/unreal_handoff/revision12/textures/*.exr filter=lfs diff=lfs merge=lfs -text
 docs/design/references/*.pdf filter=lfs diff=lfs merge=lfs -text

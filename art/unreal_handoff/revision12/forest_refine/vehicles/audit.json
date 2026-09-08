@@ -1,0 +1,728 @@
+{
+  "assets": [
+    {
+      "path": "/Game/VehicleVarietyPack/Meshes/SM_Hatchback.SM_Hatchback",
+      "origin": [
+        -0.3058013916015625,
+        0.3115997314453125,
+        61.809024810791016
+      ],
+      "extent": [
+        197.1126708984375,
+        90.0495834350586,
+        61.80071258544922
+      ],
+      "materials": [
+        {
+          "slot": "M_Hatchback_BODY",
+          "path": "/Game/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Body.M_Hatchback_Body",
+          "class": "Material",
+          "scalar_names": [
+            "Emissive Intensity_1"
+          ],
+          "vector_names": [],
+          "texture_names": []
+        },
+        {
+          "slot": "M_Hatchback_Windows",
+          "path": "/Game/VehicleVarietyPack/Materials/Hatchback/Mi_Hatchback_Glass.Mi_Hatchback_Glass",
+          "class": "MaterialInstanceConstant",
+          "scalar_names": [
+            "Metal",
+            "Refraction",
+            "Transparency_Amount",
+            "Tile Amount",
+            "NormalStrength",
+            "RoughnessHigh",
+            "RoughnessLow"
+          ],
+          "vector_names": [
+            "Diffuse Colour"
+          ],
+          "texture_names": [
+            "DiffuseTex",
+            "RGBTex",
+            "NormalTex",
+            "Opac_Tex"
+          ]
+        },
+        {
+          "slot": "M_Hatchback_Interior",
+          "path": "/Game/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Interior.M_Hatchback_Interior",
+          "class": "Material",
+          "scalar_names": [],
+          "vector_names": [],
+          "texture_names": []
+        },
+        {
+          "slot": "Hatchback_UNDER",
+          "path": "/Game/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Under.M_Hatchback_Under",
+          "class": "Material",
+          "scalar_names": [],
+          "vector_names": [],
+          "texture_names": []
+        }
+      ],
+      "collision_hulls": 1,
+      "exported": true
+    },
+    {
+      "path": "/Game/VehicleVarietyPack/Meshes/SM_Pickup.SM_Pickup",
+      "origin": [
+        0.0,
+        5.0463409423828125,
+        70.83074951171875
+      ],
+      "extent": [
+        214.50759887695312,
+        95.57269287109375,
+        71.33792114257812
+      ],
+      "materials": [
+        {
+          "slot": "Pickup_Body",
+          "path": "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Body.M_Pickup_Body",
+          "class": "Material",
+          "scalar_names": [
+            "Emissive Intensity_1"
+          ],
+          "vector_names": [],
+          "texture_names": []
+        },
+        {
+          "slot": "Pickup_Interior",
+          "path": "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Interior.M_Pickup_Interior",
+          "class": "Material",
+          "scalar_names": [],
+          "vector_names": [],
+          "texture_names": []
+        },
+        {
+          "slot": "Pickup_Windows",
+          "path": "/Game/VehicleVarietyPack/Materials/Pickup/Mi_Pickup_Glass.Mi_Pickup_Glass",
+          "class": "MaterialInstanceConstant",
+          "scalar_names": [
+            "Metal",
+            "Refraction",
+            "Transparency_Amount",
+            "Tile Amount",
+            "NormalStrength",
+            "RoughnessHigh",
+            "RoughnessLow"
+          ],
+          "vector_names": [
+            "Diffuse Colour"
+          ],
+          "texture_names": [
+            "DiffuseTex",
+            "RGBTex",
+            "NormalTex",
+            "Opac_Tex"
+          ]
+        },
+        {
+          "slot": "Pickup_Under",
+          "path": "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Under.M_Pickup_Under",
+          "class": "Material",
+          "scalar_names": [],
+          "vector_names": [],
+          "texture_names": []
+        }
+      ],
+      "collision_hulls": 9,
+      "exported": true
+    }
+  ],
+  "parking_actors": [
+    {
+      "label": "R04_10_Parking_and_Arrival",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865000) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865000) {x: -44282.305975, y: 18474.707549, z: 9898.500000}>, <Struct 'Vector' (0x000001D685865050) {x: 0.000000, y: 0.000000, z: 0.000000}>)"
+    },
+    {
+      "label": "VF10_Parking_Ground",
+      "location": [
+        -40582.305974972965,
+        12674.707549061975,
+        9798.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865050) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865050) {x: -40557.305975, y: 12674.707549, z: 9782.500004}>, <Struct 'Vector' (0x000001D6858650A0) {x: 725.000061, y: 600.000061, z: 15.999996}>)"
+    },
+    {
+      "label": "VF10_Parking_Furniture",
+      "location": [
+        -40582.305974972965,
+        12674.707549061975,
+        9798.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858650A0) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858650A0) {x: -40557.305975, y: 12674.707702, z: 9906.500004}>, <Struct 'Vector' (0x000001D6858650F0) {x: 734.000061, y: 608.999847, z: 115.999996}>)"
+    },
+    {
+      "label": "VF10_Parking_Rock_Clusters",
+      "location": [
+        -40582.305974972965,
+        12674.707549061975,
+        9798.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858650F0) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858650F0) {x: -40557.366003, y: 12689.794494, z: 9774.017090}>, <Struct 'Vector' (0x000001D685865140) {x: 1003.244110, y: 815.701813, z: 112.732468}>)"
+    },
+    {
+      "label": "VF10_Parking_Forest_Connector",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865140) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865140) {x: -41971.049932, y: 14714.229522, z: 9848.500000}>, <Struct 'Vector' (0x000001D685865190) {x: 1020.570618, y: 1819.521973, z: 50.000000}>)"
+    },
+    {
+      "label": "VF10_Parking_Terrain",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865190) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865190) {x: -45082.305975, y: 19274.707793, z: 7703.335648}>, <Struct 'Vector' (0x000001D6858651E0) {x: 10400.000977, y: 8800.001709, z: 2640.220413}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_00_00",
+      "location": [
+        -39607.16682666951,
+        12235.96078730749,
+        9671.950845513164
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858651E0) {pitch: 0.000000, yaw: 29.943325, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858651E0) {x: -39606.574286, y: 12235.615377, z: 9691.422755}>, <Struct 'Vector' (0x000001D685865230) {x: 73.930991, y: 74.361552, z: 27.824852}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_00_01",
+      "location": [
+        -39613.87165518993,
+        12404.70612906225,
+        9767.032086831283
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865230) {pitch: 0.000000, yaw: -97.617645, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865230) {x: -39613.871649, y: 12404.706131, z: 9797.971744}>, <Struct 'Vector' (0x000001D685865280) {x: 66.564548, y: 69.713665, z: 42.189877}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_00_02",
+      "location": [
+        -39726.20586354633,
+        12523.439143865435,
+        9783.304093530225
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865280) {pitch: 0.000000, yaw: -178.055862, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865280) {x: -39722.218862, y: 12528.247186, z: 9824.175014}>, <Struct 'Vector' (0x000001D6858652D0) {x: 67.491053, y: 65.057389, z: 54.770799}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_00_05",
+      "location": [
+        -39695.07618049668,
+        12276.331059411117,
+        9795.092939202315
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858652D0) {pitch: 0.000000, yaw: -170.085052, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858652D0) {x: -39695.076177, y: 12276.331055, z: 9818.893468}>, <Struct 'Vector' (0x000001D685865320) {x: 55.126424, y: 52.832980, z: 32.454832}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_00_06",
+      "location": [
+        -39597.792244527416,
+        12346.00752180714,
+        9742.370891807357
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865320) {pitch: 0.000000, yaw: 53.375580, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865320) {x: -39596.365203, y: 12339.155574, z: 9788.168371}>, <Struct 'Vector' (0x000001D685865370) {x: 100.259234, y: 100.841063, z: 61.372841}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_00_07",
+      "location": [
+        -39518.24478520405,
+        12369.202717615004,
+        9579.91712681553
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865370) {pitch: 0.000000, yaw: -76.577209, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865370) {x: -39518.941180, y: 12359.533150, z: 9614.631945}>, <Struct 'Vector' (0x000001D6858653C0) {x: 98.037564, y: 101.312281, z: 50.097684}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_00_09",
+      "location": [
+        -39721.20158833466,
+        12474.389611012815,
+        9784.8201955626
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858653C0) {pitch: 0.000000, yaw: 6.042244, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858653C0) {x: -39721.201593, y: 12474.389618, z: 9820.979796}>, <Struct 'Vector' (0x000001D685865410) {x: 79.837903, y: 76.026450, z: 49.307887}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_00_12",
+      "location": [
+        -39584.58104940981,
+        12299.578818996823,
+        9694.971157182139
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865410) {pitch: 0.000000, yaw: -47.172363, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865410) {x: -39584.756661, y: 12299.016894, z: 9711.685230}>, <Struct 'Vector' (0x000001D685865460) {x: 65.887063, y: 65.833135, z: 23.883974}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_00_13",
+      "location": [
+        -39690.77265655315,
+        12436.684489791154,
+        9790.098034544157
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865460) {pitch: 0.000000, yaw: -155.178040, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865460) {x: -39690.772650, y: 12436.684485, z: 9825.858369}>, <Struct 'Vector' (0x000001D6858654B0) {x: 94.064452, y: 91.996531, z: 48.763440}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_01_00",
+      "location": [
+        -39711.15013780368,
+        13092.87233694642,
+        9784.51960167429
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858654B0) {pitch: 0.000000, yaw: 50.439278, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858654B0) {x: -39711.150143, y: 13092.872338, z: 9810.849651}>, <Struct 'Vector' (0x000001D685865500) {x: 72.438715, y: 72.857131, z: 35.904132}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_01_02",
+      "location": [
+        -39532.66549918281,
+        12995.488055285074,
+        9703.066427040207
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865500) {pitch: 0.000000, yaw: 64.605957, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865500) {x: -39529.043048, y: 12999.381352, z: 9722.108906}>, <Struct 'Vector' (0x000001D685865550) {x: 59.881828, y: 61.032894, z: 27.480601}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_01_03",
+      "location": [
+        -39601.251602063,
+        12874.05391995508,
+        9785.66055488742
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865550) {pitch: 0.000000, yaw: -45.902740, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865550) {x: -39601.525234, y: 12873.104988, z: 9813.698641}>, <Struct 'Vector' (0x000001D6858655A0) {x: 110.565757, y: 110.528156, z: 40.065695}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_01_05",
+      "location": [
+        -39652.75450306275,
+        12927.204222031442,
+        9788.111264799938
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858655A0) {pitch: 0.000000, yaw: -8.740295, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858655A0) {x: -39658.612187, y: 12922.349911, z: 9837.891789}>, <Struct 'Vector' (0x000001D6858655F0) {x: 90.363523, y: 87.795590, z: 66.710488}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_01_08",
+      "location": [
+        -39594.75069104059,
+        12984.61551021241,
+        9789.53815449966
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858655F0) {pitch: 0.000000, yaw: 12.961172, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858655F0) {x: -39594.750697, y: 12984.615517, z: 9829.867606}>, <Struct 'Vector' (0x000001D685865640) {x: 96.545748, y: 92.959060, z: 54.993971}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_01_09",
+      "location": [
+        -39693.53880968949,
+        12907.417293861068,
+        9777.614565848759
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865640) {pitch: 0.000000, yaw: -117.544495, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865640) {x: -39695.068214, y: 12911.434052, z: 9805.738811}>, <Struct 'Vector' (0x000001D685865690) {x: 59.171513, y: 59.907314, z: 37.689079}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_01_11",
+      "location": [
+        -39575.42817110276,
+        12940.628499274733,
+        9773.015876917498
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865690) {pitch: 0.000000, yaw: 162.329300, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865690) {x: -39575.548481, y: 12941.187471, z: 9789.248646}>, <Struct 'Vector' (0x000001D6858656E0) {x: 56.547812, y: 57.182169, z: 23.196204}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_01_13",
+      "location": [
+        -39732.5693501972,
+        13102.149793549077,
+        9789.237330143555
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858656E0) {pitch: 0.000000, yaw: -23.018433, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858656E0) {x: -39739.189925, y: 13099.010263, z: 9837.182905}>, <Struct 'Vector' (0x000001D685865730) {x: 99.448923, y: 97.883661, z: 64.251488}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_00",
+      "location": [
+        -40082.85992143402,
+        13533.84545622895,
+        9851.030368565831
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865730) {pitch: 0.000000, yaw: 177.207657, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865730) {x: -40079.139932, y: 13537.643757, z: 9885.818804}>, <Struct 'Vector' (0x000001D685865780) {x: 58.204454, y: 56.166020, z: 46.619709}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_01",
+      "location": [
+        -40240.32462179342,
+        13434.35113859877,
+        9830.301497493276
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865780) {pitch: 0.000000, yaw: -133.467499, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865780) {x: -40247.332634, y: 13430.468065, z: 9858.990790}>, <Struct 'Vector' (0x000001D6858657D0) {x: 96.586901, y: 96.725120, z: 41.402120}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_02",
+      "location": [
+        -40063.467769979936,
+        13455.435390294006,
+        9833.432964621023
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858657D0) {pitch: 0.000000, yaw: 172.256638, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858657D0) {x: -40063.724032, y: 13456.067308, z: 9852.792324}>, <Struct 'Vector' (0x000001D685865820) {x: 60.261406, y: 61.258999, z: 27.664020}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_03",
+      "location": [
+        -40189.89771853277,
+        13382.774009911209,
+        9809.926942215541
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865820) {pitch: 0.000000, yaw: 88.349785, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865820) {x: -40189.897725, y: 13382.774007, z: 9844.032016}>, <Struct 'Vector' (0x000001D685865870) {x: 66.774558, y: 70.699371, z: 46.506296}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_05",
+      "location": [
+        -40211.771275077146,
+        13399.574019457681,
+        9817.473358467385
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865870) {pitch: 0.000000, yaw: -173.710098, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865870) {x: -40219.956394, y: 13401.202464, z: 9847.357364}>, <Struct 'Vector' (0x000001D6858658C0) {x: 80.274930, y: 76.908240, z: 43.126236}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_06",
+      "location": [
+        -39991.71149872375,
+        13505.440175010872,
+        9847.706527862874
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858658C0) {pitch: 0.000000, yaw: -159.591385, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858658C0) {x: -39992.368461, y: 13505.987029, z: 9871.973920}>, <Struct 'Vector' (0x000001D685865910) {x: 86.582772, y: 87.442373, z: 34.677471}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_08",
+      "location": [
+        -40240.227077173935,
+        13545.105758561212,
+        9861.048042279348
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865910) {pitch: 0.000000, yaw: 176.177521, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865910) {x: -40235.185232, y: 13550.071907, z: 9907.355575}>, <Struct 'Vector' (0x000001D685865960) {x: 78.678840, y: 76.019667, z: 62.056360}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_09",
+      "location": [
+        -40289.498536641986,
+        13437.539724034908,
+        9829.914552032476
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865960) {pitch: 0.000000, yaw: -101.463196, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865960) {x: -40292.837894, y: 13431.516671, z: 9854.575174}>, <Struct 'Vector' (0x000001D6858659B0) {x: 68.050015, y: 70.504356, z: 35.588261}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_10",
+      "location": [
+        -40241.41874132568,
+        13475.769006922235,
+        9844.782186796296
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858659B0) {pitch: 0.000000, yaw: 37.298332, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858659B0) {x: -40240.519842, y: 13475.389588, z: 9872.482374}>, <Struct 'Vector' (0x000001D685865A00) {x: 108.084957, y: 108.400942, z: 39.582846}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_11",
+      "location": [
+        -40287.81860595905,
+        13469.716640850776,
+        9844.568490501732
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865A00) {pitch: 0.000000, yaw: 135.991440, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865A00) {x: -40287.818608, y: 13469.716633, z: 9882.548261}>, <Struct 'Vector' (0x000001D685865A50) {x: 105.304283, y: 105.194113, z: 51.789903}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_12",
+      "location": [
+        -40227.017173082546,
+        13481.39796290153,
+        9846.78882814187
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865A50) {pitch: 0.000000, yaw: 35.746510, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865A50) {x: -40227.615147, y: 13475.576083, z: 9885.084462}>, <Struct 'Vector' (0x000001D685865AA0) {x: 84.148561, y: 83.611465, z: 51.319677}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_02_13",
+      "location": [
+        -40094.508167210224,
+        13534.855048013063,
+        9849.21423479414
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865AA0) {pitch: 0.000000, yaw: -34.312103, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865AA0) {x: -40090.526666, y: 13529.785606, z: 9872.296494}>, <Struct 'Vector' (0x000001D685865AF0) {x: 76.829416, y: 76.058252, z: 33.310494}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_03_04",
+      "location": [
+        -41183.620347783864,
+        11898.558645223404,
+        9819.353418155071
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865AF0) {pitch: 0.000000, yaw: -149.774292, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865AF0) {x: -41190.603872, y: 11896.986936, z: 9844.985774}>, <Struct 'Vector' (0x000001D685865B40) {x: 84.120497, y: 82.942974, z: 36.990591}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_03_05",
+      "location": [
+        -41076.375759961295,
+        11966.32614095036,
+        9790.713096221627
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865B40) {pitch: 0.000000, yaw: -142.446808, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865B40) {x: -41077.210495, y: 11966.674110, z: 9816.388062}>, <Struct 'Vector' (0x000001D685865B90) {x: 100.246808, y: 100.530054, z: 36.688858}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_03_08",
+      "location": [
+        -41019.42265543021,
+        11931.151902459402,
+        9802.041823373751
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865B90) {pitch: 0.000000, yaw: 112.822800, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865B90) {x: -41020.103156, y: 11938.514412, z: 9828.518137}>, <Struct 'Vector' (0x000001D685865BE0) {x: 81.730753, y: 83.531127, z: 38.208525}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_03_10",
+      "location": [
+        -41101.25638212222,
+        11940.322880398075,
+        9804.352600428683
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865BE0) {pitch: 0.000000, yaw: 109.927330, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865BE0) {x: -41101.256388, y: 11940.322874, z: 9846.349468}>, <Struct 'Vector' (0x000001D685865C30) {x: 103.938850, y: 106.922413, z: 57.267689}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_03_11",
+      "location": [
+        -41112.949079265396,
+        11905.629486623267,
+        9817.112756850567
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865C30) {pitch: 0.000000, yaw: 179.555511, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865C30) {x: -41108.346688, y: 11910.731037, z: 9862.071503}>, <Struct 'Vector' (0x000001D685865C80) {x: 72.470781, y: 69.719640, z: 60.248862}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_03_12",
+      "location": [
+        -41264.17934946918,
+        11970.736036307957,
+        9797.768180618683
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865C80) {pitch: 0.000000, yaw: 149.362747, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865C80) {x: -41270.016973, y: 11977.260324, z: 9829.117205}>, <Struct 'Vector' (0x000001D685865CD0) {x: 103.052773, y: 101.651892, z: 45.240435}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_00",
+      "location": [
+        -41394.92128067919,
+        12271.928537606702,
+        9797.184835263259
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865CD0) {pitch: 0.000000, yaw: 78.234550, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865CD0) {x: -41394.321514, y: 12272.124016, z: 9815.093919}>, <Struct 'Vector' (0x000001D685865D20) {x: 59.486435, y: 58.650952, z: 25.591614}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_01",
+      "location": [
+        -41423.956881724895,
+        12411.549099399443,
+        9800.757240974493
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865D20) {pitch: 0.000000, yaw: -24.890137, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865D20) {x: -41423.956882, y: 12411.549105, z: 9826.062588}>, <Struct 'Vector' (0x000001D685865D70) {x: 66.589885, y: 65.131286, z: 34.506829}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_02",
+      "location": [
+        -41601.93136067674,
+        12298.940802591202,
+        9819.332061272098
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865D70) {pitch: 0.000000, yaw: 49.192326, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865D70) {x: -41601.353544, y: 12294.599544, z: 9847.989415}>, <Struct 'Vector' (0x000001D685865F50) {x: 63.335097, y: 63.517818, z: 38.403494}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_03",
+      "location": [
+        -41491.368235284725,
+        12193.694885081899,
+        9836.982846235946
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865F50) {pitch: 0.000000, yaw: -9.686890, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865F50) {x: -41483.587936, y: 12189.691381, z: 9868.314876}>, <Struct 'Vector' (0x000001D685865E60) {x: 87.799306, y: 84.536660, z: 45.215910}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_04",
+      "location": [
+        -41454.10398881681,
+        12446.098561803989,
+        9804.081216490005
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865E60) {pitch: 0.000000, yaw: 105.734962, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865E60) {x: -41453.656549, y: 12446.554714, z: 9822.221592}>, <Struct 'Vector' (0x000001D685865FA0) {x: 62.779374, y: 62.024539, z: 25.922124}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_05",
+      "location": [
+        -41463.16493659696,
+        12404.317815379069,
+        9813.428867084887
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865FA0) {pitch: 0.000000, yaw: -15.267212, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865FA0) {x: -41463.164938, y: 12404.317823, z: 9848.488665}>, <Struct 'Vector' (0x000001D685865FF0) {x: 85.836564, y: 82.921533, z: 47.808176}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_06",
+      "location": [
+        -41568.35534218715,
+        12425.37722287864,
+        9809.68677330041
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685865FF0) {pitch: 0.000000, yaw: 45.819107, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685865FF0) {x: -41567.985728, y: 12420.353918, z: 9842.645407}>, <Struct 'Vector' (0x000001D685866040) {x: 73.114039, y: 73.155133, z: 44.167606}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_07",
+      "location": [
+        -41493.752906226626,
+        12321.475064945007,
+        9821.148738852748
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685866040) {pitch: 0.000000, yaw: -141.692688, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685866040) {x: -41499.560080, y: 12319.273158, z: 9843.387912}>, <Struct 'Vector' (0x000001D6858660E0) {x: 74.674663, y: 74.207758, z: 32.093818}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_09",
+      "location": [
+        -41471.05839072217,
+        12407.888135374109,
+        9812.1826465818
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858660E0) {pitch: 0.000000, yaw: -143.515305, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858660E0) {x: -41471.058385, y: 12407.888133, z: 9839.559304}>, <Struct 'Vector' (0x000001D685866130) {x: 75.380658, y: 74.701065, z: 37.331306}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_10",
+      "location": [
+        -41517.8848377703,
+        12295.585675652103,
+        9827.962260092818
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685866130) {pitch: 0.000000, yaw: 90.825676, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685866130) {x: -41512.722027, y: 12291.131583, z: 9872.579593}>, <Struct 'Vector' (0x000001D685866090) {x: 69.660060, y: 72.371800, z: 59.791337}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_11",
+      "location": [
+        -41549.523995830496,
+        12313.738563696059,
+        9821.840401777394
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685866090) {pitch: 0.000000, yaw: -143.396820, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685866090) {x: -41556.652469, y: 12311.275527, z: 9848.847046}>, <Struct 'Vector' (0x000001D6858661D0) {x: 90.399151, y: 89.688711, z: 38.973856}>)"
+    },
+    {
+      "label": "VF10_Parking_Grass_04_13",
+      "location": [
+        -41397.96738136515,
+        12232.00318176511,
+        9804.823833441007
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858661D0) {pitch: 0.000000, yaw: -2.172089, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858661D0) {x: -41397.967385, y: 12232.003189, z: 9840.922365}>, <Struct 'Vector' (0x000001D685866180) {x: 75.434196, y: 71.320230, z: 49.224612}>)"
+    },
+    {
+      "label": "VF10_Parking_Tree_00",
+      "location": [
+        -39582.305974972965,
+        12774.707549061975,
+        9758.303922770172
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685866180) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685866180) {x: -39601.167639, y: 12771.552014, z: 9970.007969}>, <Struct 'Vector' (0x000001D685866220) {x: 192.169804, y: 182.883539, z: 216.030621}>)"
+    },
+    {
+      "label": "VF10_Parking_Tree_01",
+      "location": [
+        -41482.305974972965,
+        12174.707549061975,
+        9806.607169352763
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685866220) {pitch: 0.000000, yaw: 97.000000, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685866220) {x: -41479.702938, y: 12172.309998, z: 9934.505167}>, <Struct 'Vector' (0x000001D685866270) {x: 191.164919, y: 172.535692, z: 129.190402}>)"
+    },
+    {
+      "label": "VF10_Parking_Tree_02",
+      "location": [
+        -39932.305974972965,
+        13524.707549061975,
+        9820.993212922654
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685866270) {pitch: 0.000000, yaw: -166.000000, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685866270) {x: -39942.697781, y: 13537.998489, z: 10283.398038}>, <Struct 'Vector' (0x000001D6858662C0) {x: 212.235364, y: 209.503050, z: 462.739035}>)"
+    },
+    {
+      "label": "VF10_Parking_Tree_03",
+      "location": [
+        -39502.305974972965,
+        12274.707549061975,
+        9393.818113573858
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D6858662C0) {pitch: 0.000000, yaw: -69.000000, roll: 0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D6858662C0) {x: -39481.521808, y: 12250.532479, z: 10528.682872}>, <Struct 'Vector' (0x000001D685866310) {x: 706.563133, y: 720.654355, z: 1136.069617}>)"
+    },
+    {
+      "label": "R12_Retained_Parking",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685866310) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685866310) {x: -44282.305975, y: 18474.707549, z: 9898.500000}>, <Struct 'Vector' (0x000001D685866360) {x: 0.000000, y: 0.000000, z: 0.000000}>)"
+    },
+    {
+      "label": "R12_Retained_Parked_Car",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x000001D685866360) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000001D685866360) {x: -40582.306463, y: 12474.707305, z: 9863.499999}>, <Struct 'Vector' (0x000001D685866400) {x: 90.000244, y: 190.000244, z: 64.999999}>)"
+    }
+  ]
+}

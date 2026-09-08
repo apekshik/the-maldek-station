@@ -1,0 +1,424 @@
+{
+  "pawn": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished_C",
+  "foot_volume": 0.800000011920929,
+  "camera": {
+    "head_bob_scale": 0.699999988079071,
+    "idle_sway_scale": 1.0,
+    "walk_sway_cm": 0.8999999761581421,
+    "run_sway_cm": 1.649999976158142
+  },
+  "samples": {
+    "soil": [
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_00.Recorded_soil_00",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_01.Recorded_soil_01",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_02.Recorded_soil_02",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_03.Recorded_soil_03",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_04.Recorded_soil_04",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_05.Recorded_soil_05",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_06.Recorded_soil_06",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_07.Recorded_soil_07",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_08.Recorded_soil_08",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_09.Recorded_soil_09",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_10.Recorded_soil_10",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_11.Recorded_soil_11",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_12.Recorded_soil_12",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_13.Recorded_soil_13",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_14.Recorded_soil_14",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_15.Recorded_soil_15",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_16.Recorded_soil_16",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_soil_17.Recorded_soil_17",
+        "volume": 1.0
+      }
+    ],
+    "gravel": [
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_00.Recorded_gravel_00",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_01.Recorded_gravel_01",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_02.Recorded_gravel_02",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_03.Recorded_gravel_03",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_04.Recorded_gravel_04",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_05.Recorded_gravel_05",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_06.Recorded_gravel_06",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_07.Recorded_gravel_07",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_08.Recorded_gravel_08",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_gravel_09.Recorded_gravel_09",
+        "volume": 1.0
+      }
+    ],
+    "metal": [
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_00.Recorded_metal_00",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_01.Recorded_metal_01",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_02.Recorded_metal_02",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_03.Recorded_metal_03",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_04.Recorded_metal_04",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_05.Recorded_metal_05",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_06.Recorded_metal_06",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_07.Recorded_metal_07",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_08.Recorded_metal_08",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_09.Recorded_metal_09",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_10.Recorded_metal_10",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_11.Recorded_metal_11",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_12.Recorded_metal_12",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_13.Recorded_metal_13",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_metal_14.Recorded_metal_14",
+        "volume": 1.0
+      }
+    ],
+    "concrete": [
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_00.Recorded_concrete_00",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_01.Recorded_concrete_01",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_02.Recorded_concrete_02",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_03.Recorded_concrete_03",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_04.Recorded_concrete_04",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_05.Recorded_concrete_05",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_06.Recorded_concrete_06",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_07.Recorded_concrete_07",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_concrete_08.Recorded_concrete_08",
+        "volume": 1.0
+      }
+    ],
+    "wood": [
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_00.Recorded_wood_00",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_01.Recorded_wood_01",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_02.Recorded_wood_02",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_03.Recorded_wood_03",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_04.Recorded_wood_04",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_05.Recorded_wood_05",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_06.Recorded_wood_06",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_07.Recorded_wood_07",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_08.Recorded_wood_08",
+        "volume": 1.0
+      },
+      {
+        "path": "/Game/MaldekRefinement/Audio/RecordedFoley/Recorded_wood_09.Recorded_wood_09",
+        "volume": 1.0
+      }
+    ]
+  },
+  "lights": [
+    {
+      "label": "R09_Cabin_Ceiling_Housing",
+      "position": [
+        -44282.306,
+        19279.708,
+        10522.0
+      ]
+    },
+    {
+      "label": "R09_Cabin_Ceiling_Diffuser",
+      "position": [
+        -44282.306,
+        19279.708,
+        10519.0
+      ]
+    },
+    {
+      "label": "R09_Light_Cabin_Ceiling",
+      "position": [
+        -44282.305974972965,
+        19114.707549061975,
+        10521.5
+      ]
+    },
+    {
+      "label": "R11_Generator_Ceiling_Housing",
+      "position": [
+        -47282.305974972965,
+        17074.707549061975,
+        10126.5
+      ]
+    },
+    {
+      "label": "R11_Generator_Ceiling_Lens",
+      "position": [
+        -47282.305974972965,
+        17074.707549061975,
+        10119.0
+      ]
+    },
+    {
+      "label": "R11_Generator_Ceiling_Light",
+      "position": [
+        -47282.305974972965,
+        17074.707549061975,
+        10119.0
+      ]
+    },
+    {
+      "label": "R11_Workshop_Ceiling_Housing",
+      "position": [
+        -47732.305974972965,
+        16924.707549061975,
+        10126.5
+      ]
+    },
+    {
+      "label": "R11_Workshop_Ceiling_Lens",
+      "position": [
+        -47732.305974972965,
+        16924.707549061975,
+        10119.0
+      ]
+    },
+    {
+      "label": "R11_Workshop_Ceiling_Light",
+      "position": [
+        -47732.305974972965,
+        16924.707549061975,
+        10119.0
+      ]
+    },
+    {
+      "label": "R12_Control_Ceiling_Practical",
+      "position": [
+        -43762.305974972965,
+        18204.707549061975,
+        10591.5
+      ]
+    },
+    {
+      "label": "R12_Quarters_Ceiling_Practical",
+      "position": [
+        -43832.305974972965,
+        18234.707549061975,
+        10913.5
+      ]
+    },
+    {
+      "label": "R12_Generator_North_Practical",
+      "position": [
+        -47282.305974972965,
+        17402.707549061975,
+        10057.5
+      ]
+    },
+    {
+      "label": "R12_Cabin_Rear_Practical",
+      "position": [
+        -44282.305974972965,
+        19434.707549061975,
+        10521.5
+      ]
+    },
+    {
+      "label": "R13_Generator_Ceiling_A",
+      "position": [
+        -47107.305974972965,
+        16774.707549061975,
+        10202.5
+      ]
+    },
+    {
+      "label": "R13_Generator_Ceiling_B",
+      "position": [
+        -47107.305974972965,
+        17274.707549061975,
+        10202.5
+      ]
+    },
+    {
+      "label": "R13_Generator_Ceiling_C",
+      "position": [
+        -47762.305974972965,
+        16774.707549061975,
+        10202.5
+      ]
+    },
+    {
+      "label": "R13_Generator_Ceiling_D",
+      "position": [
+        -47762.305974972965,
+        17274.707549061975,
+        10202.5
+      ]
+    },
+    {
+      "label": "R12_Gondola_Marker_Spill_0",
+      "position": [
+        -44132.305974972965,
+        19279.70756813546,
+        10558.000034332275
+      ]
+    },
+    {
+      "label": "R12_Gondola_Marker_Spill_1",
+      "position": [
+        -44432.305974972965,
+        19279.70756813546,
+        10558.000034332275
+      ]
+    }
+  ]
+}

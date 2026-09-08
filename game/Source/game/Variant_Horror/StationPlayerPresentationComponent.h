@@ -34,7 +34,7 @@ public:
 
  /** Scales breathing and gait motion; zero removes voluntary sway but retains stair smoothing. */
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="1.5")) float HeadBobScale=0.7f;
- UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="2")) float IdleSwayScale=1.0f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="8")) float IdleSwayScale=1.0f;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="3")) float WalkSwayCm=0.9f;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Walking", meta=(ClampMin="0",ClampMax="3")) float RunSwayCm=1.65f;
  /** Critically damped ground-height response; never changes capsule collision. */
@@ -43,6 +43,8 @@ public:
  UPROPERTY(EditAnywhere, Category="Flashlight") float WideLumens=1.2f;
  UPROPERTY(EditAnywhere, Category="Flashlight") float FocusedLumens=1.35f;
  UPROPERTY(EditAnywhere, Category="Flashlight") TObjectPtr<UStaticMesh> DetailedTorchMesh;
+ /** Independent hand motion relative to the rendered view; does not scale camera sway. */
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Flashlight", meta=(ClampMin="0",ClampMax="1")) float HeldMotionScale=0.15f;
 
 private:
  UPROPERTY(Transient) TObjectPtr<ACharacter> Character;

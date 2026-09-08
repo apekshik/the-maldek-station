@@ -1,0 +1,20 @@
+[
+  {
+    "source": "/Game/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Body",
+    "material": "/Game/MaldekRefinement/R12/ForestRefine/Materials/M_Weathered_Hatchback",
+    "dust_fraction": [
+      0.1,
+      0.33
+    ],
+    "minimum_roughness": 0.68
+  },
+  {
+    "source": "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Body",
+    "material": "/Game/MaldekRefinement/R12/ForestRefine/Materials/M_Weathered_Pickup",
+    "dust_fraction": [
+      0.1,
+      0.33
+    ],
+    "minimum_roughness": 0.68
+  }
+]

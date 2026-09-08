@@ -1,0 +1,13 @@
+[
+  {
+    "owner": "/Game/MWLandscapeAutoMaterial/Materials/MASTER/MTL_MWAM_AutoMaterial_MASTER.MTL_MWAM_AutoMaterial_MASTER",
+    "node": "MaterialExpressionMaterialFunctionCall_16",
+    "inputs": [
+      {
+        "pin": "Mask",
+        "node": "MaterialExpressionMultiply_7",
+        "output": ""
+      }
+    ]
+  }
+]

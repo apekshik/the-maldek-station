@@ -1,0 +1,13 @@
+{
+  "phase": "end",
+  "index": 2,
+  "next": 159353.718,
+  "deadline": 159540.562,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\fog_density\\views\\forest.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\fog_density\\views\\bridge.png"
+  ],
+  "busy": true,
+  "runtime_density_scale": 0.45499999999999996,
+  "success": true
+}

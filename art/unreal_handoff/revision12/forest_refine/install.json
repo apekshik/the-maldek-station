@@ -1,0 +1,22 @@
+{
+  "terrain": "/Game/MaldekRefinement/R12/ForestRefine/Meshes/SM_Forest_Refined_Terrain.SM_Forest_Refined_Terrain",
+  "material": "/Game/MaldekRefinement/R12/ForestRefine/Materials/M_Woodland_Ground.M_Woodland_Ground",
+  "retired_rock_patches": [
+    "FT_RockPatch_00",
+    "FT_RockPatch_01",
+    "FT_RockPatch_02",
+    "FT_RockPatch_03",
+    "FT_RockPatch_05",
+    "FT_RockPatch_06",
+    "FT_RockPatch_07",
+    "FT_RockPatch_08",
+    "FT_RockPatch_09",
+    "FT_RockPatch_10",
+    "FT_RockPatch_11",
+    "FT_RockPatch_12",
+    "FT_RockPatch_13",
+    "FT_RockPatch_14"
+  ],
+  "backup": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\backup\\Station_R12.umap",
+  "saved": true
+}

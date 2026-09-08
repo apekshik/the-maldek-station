@@ -1,0 +1,278 @@
+{
+  "world": "/Game/MaldekRefinement/R12/Station_R12.Station_R12",
+  "pie": false,
+  "native_door": true,
+  "actors": [
+    {
+      "label": "R04_02_Control_Room",
+      "class": "StaticMeshActor",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_11_Doors_Door_Control_Platform",
+      "class": "StaticMeshActor",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R04_11_Doors_Door_Generator_Yard",
+      "class": "StaticMeshActor",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R07_TestLight_Relay_Door",
+      "class": "SpotLight",
+      "location": [
+        -49050.0,
+        20050.0,
+        10480.0
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Backplate",
+      "class": "StaticMeshActor",
+      "location": [
+        -43902.305975,
+        18489.20755,
+        10553.5
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Housing",
+      "class": "StaticMeshActor",
+      "location": [
+        -43902.305975,
+        18495.70755,
+        10553.5
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Hood",
+      "class": "StaticMeshActor",
+      "location": [
+        -43902.305975,
+        18497.70755,
+        10568.5
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Diffuser",
+      "class": "StaticMeshActor",
+      "location": [
+        -43902.305975,
+        18501.70755,
+        10551.5
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Guard_Left",
+      "class": "StaticMeshActor",
+      "location": [
+        -43908.305975,
+        18503.00755,
+        10551.5
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Guard_Right",
+      "class": "StaticMeshActor",
+      "location": [
+        -43896.305975,
+        18503.00755,
+        10551.5
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Guard_Crossbar",
+      "class": "StaticMeshActor",
+      "location": [
+        -43902.305975,
+        18503.20755,
+        10551.5
+      ]
+    },
+    {
+      "label": "R08_Control_Entry_Conduit",
+      "class": "StaticMeshActor",
+      "location": [
+        -43902.305975,
+        18489.20755,
+        10602.0
+      ]
+    },
+    {
+      "label": "R08_WallLight_Control_Entry",
+      "class": "SpotLight",
+      "location": [
+        -43952.305974972965,
+        18506.707549061975,
+        10552.0
+      ]
+    },
+    {
+      "label": "R12_Control_Ceiling_Practical",
+      "class": "RectLight",
+      "location": [
+        -43762.305974972965,
+        18204.707549061975,
+        10591.5
+      ]
+    },
+    {
+      "label": "R13_VF08_01_Generator_Shell_solid_Indoor",
+      "class": "StaticMeshActor",
+      "location": [
+        -46682.305974972965,
+        16874.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R13_VF08_03_Workshop_solid_Indoor",
+      "class": "StaticMeshActor",
+      "location": [
+        -46682.305974972965,
+        16874.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R13_VF08_04_Diesel_Generator_solid_Indoor",
+      "class": "StaticMeshActor",
+      "location": [
+        -46682.305974972965,
+        16874.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R13_VF08_04_Diesel_Generator_thin_Indoor",
+      "class": "StaticMeshActor",
+      "location": [
+        -46682.305974972965,
+        16874.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R13_VF08_05_Plant_Systems_thin_Indoor",
+      "class": "StaticMeshActor",
+      "location": [
+        -46682.305974972965,
+        16874.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R13_VF08_05_Plant_Systems_solid_Indoor",
+      "class": "StaticMeshActor",
+      "location": [
+        -46682.305974972965,
+        16874.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R12_VF06_Control_000_solid",
+      "class": "StaticMeshActor",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R12_VF06_Control_001_solid",
+      "class": "StaticMeshActor",
+      "location": [
+        -42682.305974972965,
+        17674.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R12_VF06_Control_002_floor",
+      "class": "StaticMeshActor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R12_VF06_Control_003_floor",
+      "class": "StaticMeshActor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R12_VF06_Control_004_solid",
+      "class": "StaticMeshActor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R12_VF06_Control_005_solid",
+      "class": "StaticMeshActor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R12_VF06_Control_006_thin",
+      "class": "StaticMeshActor",
+      "location": [
+        -43482.305974972965,
+        17674.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R12_VF06_Control_007_floor",
+      "class": "StaticMeshActor",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R12_VF06_Control_008_glass",
+      "class": "StaticMeshActor",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    },
+    {
+      "label": "R12_VF06_Control_009_solid",
+      "class": "StaticMeshActor",
+      "location": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ]
+    }
+  ],
+  "scene_color_properties": "Material Expression Scene Color\r\n\r\n**C++ Source:**\r\n\r\n- **Module**: Engine\r\n- **File**: MaterialExpressionSceneColor.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``const_input`` (Vector2D):  [Read-Write] only used if Input is not hooked up\r\n- ``desc`` (str):  [Read-Write] A description that level designers can add (shows in the material editor UI).\r\n- ``input_mode`` (MaterialSceneAttributeInputMode):  [Read-Write] Coordinates - UV coordinates to apply to the scene color lookup.\r\n  OffsetFraction -      An offset to apply to the scene color lookup in a 2d fraction of the screen.\r\n- ``material_expression_editor_x`` (int32):  [Read-Write]\r\n- ``material_expression_editor_y`` (int32):  [Read-Write]"
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "function": "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_SnowMask.MF_MWAM_SnowMask",
+    "node": "MaterialExpressionFunctionOutput_1",
+    "name": "SnowPixelMask",
+    "tree": {
+      "node": "MaterialExpressionFunctionOutput_1",
+      "inputs": [
+        {
+          "node": "MaterialExpressionMultiply_11",
+          "inputs": [
+            {
+              "node": "MaterialExpressionSaturate_1",
+              "inputs": [
+                "MaterialExpressionMultiply_12"
+              ]
+            },
+            {
+              "node": "MaterialExpressionMultiply_10",
+              "inputs": [
+                "MaterialExpressionMultiply_7",
+                "MaterialExpressionAdd_3"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "function": "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_MWAM_SnowMask.MF_MWAM_SnowMask",
+    "node": "MaterialExpressionFunctionOutput_0",
+    "name": "SnowVertexMask",
+    "tree": {
+      "node": "MaterialExpressionFunctionOutput_0",
+      "inputs": [
+        {
+          "node": "MaterialExpressionMultiply_13",
+          "inputs": [
+            {
+              "node": "MaterialExpressionSaturate_0",
+              "inputs": [
+                "MaterialExpressionMultiply_5"
+              ]
+            },
+            {
+              "node": "MaterialExpressionMultiply_10",
+              "inputs": [
+                "MaterialExpressionMultiply_7",
+                "MaterialExpressionAdd_3"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "function": "/Game/MWLandscapeAutoMaterial/Materials/MASTER/Func/MF_MWAM_SnowMask.MF_MWAM_SnowMask",
+    "node": "MaterialExpressionFunctionOutput_0",
+    "name": "SnowVertexMask",
+    "tree": {
+      "node": "MaterialExpressionFunctionOutput_0",
+      "inputs": [
+        {
+          "node": "MaterialExpressionSaturate_0",
+          "inputs": [
+            {
+              "node": "MaterialExpressionMultiply_5",
+              "inputs": [
+                "MaterialExpressionSaturate_4",
+                "MaterialExpressionAdd_0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "function": "/Game/MWLandscapeAutoMaterial/Materials/MASTER/Func/MF_MWAM_SnowMask.MF_MWAM_SnowMask",
+    "node": "MaterialExpressionFunctionOutput_1",
+    "name": "SnowPixelMask",
+    "tree": {
+      "node": "MaterialExpressionFunctionOutput_1",
+      "inputs": [
+        {
+          "node": "MaterialExpressionSaturate_1",
+          "inputs": [
+            {
+              "node": "MaterialExpressionMultiply_12",
+              "inputs": [
+                "MaterialExpressionSaturate_3",
+                "MaterialExpressionAdd_0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "function": "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_Woodland_SnowMask_Final.MF_Woodland_SnowMask_Final",
+    "node": "MaterialExpressionFunctionOutput_1",
+    "name": "SnowPixelMask",
+    "tree": {
+      "node": "MaterialExpressionFunctionOutput_1",
+      "inputs": [
+        {
+          "node": "MaterialExpressionMultiply_10",
+          "inputs": [
+            {
+              "node": "MaterialExpressionSaturate_1",
+              "inputs": [
+                "MaterialExpressionMultiply_12"
+              ]
+            },
+            {
+              "node": "MaterialExpressionMultiply_9",
+              "inputs": [
+                "MaterialExpressionMultiply_6",
+                "MaterialExpressionAdd_3"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "function": "/Game/MaldekRefinement/R12/ForestRefine/Materials/Functions/MF_Woodland_SnowMask_Final.MF_Woodland_SnowMask_Final",
+    "node": "MaterialExpressionFunctionOutput_0",
+    "name": "SnowVertexMask",
+    "tree": {
+      "node": "MaterialExpressionFunctionOutput_0",
+      "inputs": [
+        {
+          "node": "MaterialExpressionMultiply_11",
+          "inputs": [
+            {
+              "node": "MaterialExpressionSaturate_0",
+              "inputs": [
+                "MaterialExpressionMultiply_5"
+              ]
+            },
+            {
+              "node": "MaterialExpressionMultiply_9",
+              "inputs": [
+                "MaterialExpressionMultiply_6",
+                "MaterialExpressionAdd_3"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

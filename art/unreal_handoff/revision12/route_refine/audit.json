@@ -1,0 +1,1141 @@
+{
+  "world": "/Game/MaldekRefinement/R12/Station_R12.Station_R12",
+  "pie": false,
+  "actors": [
+    {
+      "label": "R04_12_Gondola",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44282.305974972965,
+          19279.70756813546,
+          10298.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": null,
+          "materials": []
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R10_Distant_Station",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.0,
+        158475.0,
+        32427.830253560303
+      ],
+      "scale": [
+        14.0,
+        8.0,
+        4.0
+      ],
+      "bounds": [
+        [
+          -44282.0,
+          158475.0,
+          32427.830253560303
+        ],
+        [
+          700.0,
+          400.0,
+          200.0
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Metal_c669267589.MI_Foot_Metal_c669267589' (0x00000293B83E7800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R10_Distant_Window_0",
+      "class": "StaticMeshActor",
+      "position": [
+        -44632.0,
+        158069.0,
+        32467.830253560303
+      ],
+      "scale": [
+        2.2,
+        0.04,
+        1.1
+      ],
+      "bounds": [
+        [
+          -44632.0,
+          158069.0,
+          32467.830253560303
+        ],
+        [
+          110.0,
+          2.0,
+          55.0
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp' (0x00000293B84B8C00) Class 'Material'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R10_Distant_Window_1",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.0,
+        158069.0,
+        32467.830253560303
+      ],
+      "scale": [
+        2.2,
+        0.04,
+        1.1
+      ],
+      "bounds": [
+        [
+          -44282.0,
+          158069.0,
+          32467.830253560303
+        ],
+        [
+          110.0,
+          2.0,
+          55.0
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp' (0x00000293B84B8C00) Class 'Material'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R10_Distant_Window_2",
+      "class": "StaticMeshActor",
+      "position": [
+        -43932.0,
+        158069.0,
+        32467.830253560303
+      ],
+      "scale": [
+        2.2,
+        0.04,
+        1.1
+      ],
+      "bounds": [
+        [
+          -43932.0,
+          158069.0,
+          32467.830253560303
+        ],
+        [
+          110.0,
+          2.0,
+          55.0
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp' (0x00000293B84B8C00) Class 'Material'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "BP_GondolaSystem",
+      "class": "BP_GondolaSystem_C",
+      "position": [
+        -44178.21234269882,
+        19265.29002268535,
+        10275.0
+      ],
+      "scale": [
+        3.0625,
+        1.3125,
+        2.6875
+      ],
+      "bounds": [
+        [
+          -44806.51191999919,
+          48181.68089655874,
+          14983.569802193158
+        ],
+        [
+          626.7467460017833,
+          28904.557432866466,
+          4640.3676978068415
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "GondolaMesh",
+          "mesh": "/Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube",
+          "materials": [
+            "<Object '/Game/Fab/Megascans/Surfaces/Rusty_Metal_Sheet_tj4kedvcw/Medium/tj4kedvcw_tier_2/Materials/MI_tj4kedvcw.MI_tj4kedvcw' (0x00000293BDE0A000) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": [
+        {
+          "name": "CablePath",
+          "length": 58581.4765625,
+          "points": [
+            [
+              -44282.305974972965,
+              19279.707549061975,
+              10343.25
+            ],
+            [
+              -45293.64983319625,
+              77086.22725251471,
+              19623.9375
+            ]
+          ],
+          "samples": [
+            [
+              -44282.305974972965,
+              19279.707549061975,
+              10343.25
+            ],
+            [
+              -44291.95035751449,
+              21919.37919580348,
+              10735.845393062844
+            ],
+            [
+              -44358.96614927088,
+              25017.40161602343,
+              11196.486369588694
+            ],
+            [
+              -44425.27969913592,
+              27755.3155991338,
+              11604.793396801404
+            ],
+            [
+              -44501.408758243764,
+              30765.390549456464,
+              12055.10120694853
+            ],
+            [
+              -44576.06708777239,
+              33656.06101943778,
+              12489.019448198376
+            ],
+            [
+              -44651.09401966167,
+              36536.32983076035,
+              12922.90850338373
+            ],
+            [
+              -44729.57465335267,
+              39546.262485563624,
+              13378.095004810864
+            ],
+            [
+              -44803.700140981455,
+              42402.94121352995,
+              13811.927616925022
+            ],
+            [
+              -44878.30029327357,
+              45306.05039455222,
+              14254.824044869227
+            ],
+            [
+              -44952.47046487313,
+              48235.5358537336,
+              14704.04981691778
+            ],
+            [
+              -45025.10656442585,
+              51163.62930066821,
+              15155.698545004205
+            ],
+            [
+              -45095.15073831608,
+              54064.397878649004,
+              15606.145887524159
+            ],
+            [
+              -45161.85007578005,
+              56925.3706509983,
+              16053.887246102673
+            ],
+            [
+              -45228.58111589531,
+              59928.32553586396,
+              16528.360715465176
+            ],
+            [
+              -45288.28975535916,
+              62800.72731787979,
+              16987.641320470542
+            ],
+            [
+              -45342.931288914726,
+              65696.52679481865,
+              17457.750277799645
+            ],
+            [
+              -45390.92889364226,
+              68690.36070088962,
+              17954.342119270696
+            ],
+            [
+              -45422.83530002358,
+              71436.75144760252,
+              18424.68514328667
+            ],
+            [
+              -45430.652870458376,
+              74496.57647697581,
+              18982.021461227676
+            ],
+            [
+              -45293.64983319625,
+              77086.22725251471,
+              19623.9375
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_Audio_GondolaCable",
+      "class": "StationCableAudio",
+      "position": [
+        -44178.21234269882,
+        19265.29002268535,
+        10275.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44178.21234269882,
+          19265.29002268535,
+          10275.0
+        ],
+        [
+          128.0,
+          128.0,
+          128.0
+        ]
+      ],
+      "meshes": [],
+      "splines": []
+    },
+    {
+      "label": "R12_12_Gondola_000_glass",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44162.955987942936,
+          19088.007548299036,
+          10447.499980926514
+        ],
+        [
+          41.35000991821289,
+          114.70000457763672,
+          53.4999885559082
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_000_glass.SM_R12_12_Gondola_000_glass",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x00000293BE4E8800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_12_Gondola_001_solid",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44182.65489007306,
+          19101.89007851144,
+          10429.437474250793
+        ],
+        [
+          62.098915100097656,
+          144.98252868652344,
+          133.93749523162842
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_001_solid.SM_R12_12_Gondola_001_solid",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x00000293C205B800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x00000293C3E28800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior' (0x00000293BE585000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x000002938866D800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_12_Gondola_002_glass",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44197.10594846082,
+          19403.307545628748,
+          10447.499980926514
+        ],
+        [
+          74.6999979019165,
+          184.600004196167,
+          53.4999885559082
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_002_glass.SM_R12_12_Gondola_002_glass",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x00000293BE4E8800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_12_Gondola_003_solid",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44200.18094767404,
+          19287.832537617884,
+          10483.434671401978
+        ],
+        [
+          79.62500321865082,
+          301.125,
+          211.43468284606934
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_003_solid.SM_R12_12_Gondola_003_solid",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Damp_Timber__Exterior.MI_UE_R02_Damp_Timber__Exterior' (0x00000293C3DE7800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x00000293C3E28800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x00000293C205B800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x000002938866D800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_12_Gondola_004_thin",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44122.305974972965,
+          19281.207491841516,
+          10349.499998092651
+        ],
+        [
+          2.75,
+          291.49998474121094,
+          41.75002479553223
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_004_thin.SM_R12_12_Gondola_004_thin",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_12_Gondola_005_glass",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44400.256002438786,
+          19088.007578816614,
+          10447.499980926514
+        ],
+        [
+          39.94999694824219,
+          114.70000457763672,
+          53.4999885559082
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_005_glass.SM_R12_12_Gondola_005_glass",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x00000293BE4E8800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_12_Gondola_006_solid",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44287.68100549054,
+          19101.890080418787,
+          10417.687479019165
+        ],
+        [
+          156.375,
+          144.98253059387207,
+          145.68749046325684
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_006_solid.SM_R12_12_Gondola_006_solid",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x00000293C205B800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x00000293C3E28800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior' (0x00000293BE585000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x000002938866D800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_12_Gondola_007_glass",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44366.505967152836,
+          19403.30755898019,
+          10447.499980926514
+        ],
+        [
+          73.70001697540283,
+          184.59999084472656,
+          53.4999885559082
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_007_glass.SM_R12_12_Gondola_007_glass",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x00000293BE4E8800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_12_Gondola_008_solid",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44282.305974972965,
+          19279.70758339425,
+          10488.749979019165
+        ],
+        [
+          167.00001525878906,
+          315.0000457763672,
+          216.74999046325684
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_008_solid.SM_R12_12_Gondola_008_solid",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Damp_Timber__Exterior.MI_UE_R02_Damp_Timber__Exterior' (0x00000293C3DE7800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x00000293C3E28800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior' (0x00000293BE585000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x00000293C205B800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x000002938866D800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_12_Gondola_009_thin",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44442.305974972965,
+          19281.207522359095,
+          10349.499998092651
+        ],
+        [
+          2.75,
+          291.49998474121094,
+          41.75002479553223
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_009_thin.SM_R12_12_Gondola_009_thin",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_VF06_Gondola_Details_000_solid",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44148.205987942936,
+          19108.70754333993,
+          10345.500001907349
+        ],
+        [
+          30.10000991821289,
+          107.5999813079834,
+          31.599973678588867
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_000_solid.SM_R12_VF06_Gondola_Details_000_solid",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x00000293C46AE000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x00000293C3DE9000) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_VF06_Gondola_Details_001_solid",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44147.05597878766,
+          19282.207507100306,
+          10345.500001907349
+        ],
+        [
+          31.250003814697266,
+          287.5,
+          31.599973678588867
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_001_solid.SM_R12_VF06_Gondola_Details_001_solid",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x00000293C3DE9000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x00000293C46AE000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_VF06_Gondola_Details_002_thin",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44157.305974972965,
+          19279.707560506067,
+          10493.499977111816
+        ],
+        [
+          2.5,
+          255.0000228881836,
+          2.5000076293945312
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_002_thin.SM_R12_VF06_Gondola_Details_002_thin",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_VF06_Gondola_Details_003_signage",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44282.684001935246,
+          18956.79957863351,
+          10299.500022888184
+        ],
+        [
+          40.70999717712402,
+          4.20001220703125,
+          0.09999275207519531
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_003_signage.SM_R12_VF06_Gondola_Details_003_signage",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Safety_ochre__Exterior.MI_UE_VF06_Safety_ochre__Exterior' (0x00000293C46A1000) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_VF06_Gondola_Details_004_solid",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44329.35600091291,
+          19087.75752922555,
+          10421.075021743774
+        ],
+        [
+          118.04999542236328,
+          128.55002212524414,
+          107.17499351501465
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_004_solid.SM_R12_VF06_Gondola_Details_004_solid",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Lamp__Exterior.MI_UE_VF06_Lamp__Exterior' (0x00000293BE605800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x00000293C46AE000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x00000293C3DE9000) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_VF06_Gondola_Details_005_signage",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44283.70295144391,
+          19591.707552876673,
+          10348.002014160156
+        ],
+        [
+          65.60400009155273,
+          0.1000518798828125,
+          7.699989318847656
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_005_signage.SM_R12_VF06_Gondola_Details_005_signage",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Warm_enamel__Exterior.MI_UE_VF06_Warm_enamel__Exterior' (0x00000293BE606000) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_VF06_Gondola_Details_006_solid",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44345.55596734357,
+          19282.207537617884,
+          10421.075021743774
+        ],
+        [
+          103.25000762939453,
+          287.5,
+          107.17499351501465
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_006_solid.SM_R12_VF06_Gondola_Details_006_solid",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Lamp__Exterior.MI_UE_VF06_Lamp__Exterior' (0x00000293BE605800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x00000293C3DE9000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x00000293C46AE000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_VF06_Gondola_Details_007_thin",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44407.305974972965,
+          19279.707575764856,
+          10493.499977111816
+        ],
+        [
+          2.5,
+          255.0000228881836,
+          2.5000076293945312
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_007_thin.SM_R12_VF06_Gondola_Details_007_thin",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_Gondola_Roof_Markers",
+      "class": "StaticMeshActor",
+      "position": [
+        -44282.305974972965,
+        19279.70756813546,
+        10298.5
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44282.30598260236,
+          19279.70756813546,
+          10552.069816589355
+        ],
+        [
+          154.5000228881836,
+          284.5000305175781,
+          2.5301895141601562
+        ]
+      ],
+      "meshes": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/MaldekRefinement/R12/GondolaMarkers/SM_Gondola_Roof_Markers.SM_Gondola_Roof_Markers",
+          "materials": [
+            "<Object '/Game/MaldekRefinement/R12/GondolaMarkers/M_Marker_Base.M_Marker_Base' (0x00000293BD180000) Class 'Material'>",
+            "<Object '/Game/MaldekRefinement/R12/GondolaMarkers/M_Marker_Red_Lens.M_Marker_Red_Lens' (0x00000293BD180E00) Class 'Material'>"
+          ]
+        }
+      ],
+      "splines": []
+    },
+    {
+      "label": "R12_Gondola_Marker_Spill_0",
+      "class": "PointLight",
+      "position": [
+        -44132.305974972965,
+        19279.70756813546,
+        10558.000034332275
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44132.305974972965,
+          19279.70756813546,
+          10558.000034332275
+        ],
+        [
+          128.0,
+          128.0,
+          128.0
+        ]
+      ],
+      "meshes": [],
+      "splines": []
+    },
+    {
+      "label": "R12_Gondola_Marker_Spill_1",
+      "class": "PointLight",
+      "position": [
+        -44432.305974972965,
+        19279.70756813546,
+        10558.000034332275
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": [
+        [
+          -44432.305974972965,
+          19279.70756813546,
+          10558.000034332275
+        ],
+        [
+          128.0,
+          128.0,
+          128.0
+        ]
+      ],
+      "meshes": [],
+      "splines": []
+    }
+  ],
+  "camera": "(<Struct 'Vector' (0x00000290BAAD1280) {x: -42996.752455, y: 18701.961742, z: 10460.708333}>, <Struct 'Rotator' (0x00000290BAAD11E0) {pitch: -1.016052, yaw: -24.925957, roll: 0.000000}>)"
+}

@@ -1,0 +1,47 @@
+{
+  "vehicles": [
+    {
+      "label": "FR_Parked_Hatchback",
+      "mesh": "/Game/VehicleVarietyPack/Meshes/SM_Hatchback.SM_Hatchback",
+      "local": [
+        -42.2,
+        -60.0,
+        -0.995083122253418
+      ],
+      "yaw": 86,
+      "tire_clearance_cm": 0.5,
+      "materials": [
+        "/Game/MaldekRefinement/R12/ForestRefine/Materials/M_Weathered_Hatchback.M_Weathered_Hatchback",
+        "/Game/VehicleVarietyPack/Materials/Hatchback/Mi_Hatchback_Glass.Mi_Hatchback_Glass",
+        "/Game/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Interior.M_Hatchback_Interior",
+        "/Game/VehicleVarietyPack/Materials/Hatchback/M_Hatchback_Under.M_Hatchback_Under"
+      ],
+      "collision_hulls": 1
+    },
+    {
+      "label": "FR_Parked_Pickup",
+      "mesh": "/Game/VehicleVarietyPack/Meshes/SM_Pickup.SM_Pickup",
+      "local": [
+        -38.5,
+        -61.0,
+        -0.9899282836914063
+      ],
+      "yaw": 97,
+      "tire_clearance_cm": 0.5,
+      "materials": [
+        "/Game/MaldekRefinement/R12/ForestRefine/Materials/M_Weathered_Pickup.M_Weathered_Pickup",
+        "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Interior.M_Pickup_Interior",
+        "/Game/VehicleVarietyPack/Materials/Pickup/Mi_Pickup_Glass.Mi_Pickup_Glass",
+        "/Game/VehicleVarietyPack/Materials/Pickup/M_Pickup_Under.M_Pickup_Under"
+      ],
+      "collision_hulls": 9
+    }
+  ],
+  "retired": [
+    {
+      "label": "R12_Retained_Parked_Car",
+      "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_Retained_Parked_Car.SM_R12_Retained_Parked_Car"
+    }
+  ],
+  "saved": true
+}

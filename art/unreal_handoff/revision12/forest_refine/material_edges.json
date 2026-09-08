@@ -1,0 +1,33 @@
+{
+  "edges": [
+    {
+      "consumer": "MaterialExpressionDivide_4",
+      "pin": "B",
+      "parameter": "MW_SnowEdgeMaskUVSize"
+    },
+    {
+      "consumer": "MaterialExpressionMaterialFunctionCall_7",
+      "pin": "UVNearMultiplier",
+      "parameter": "MW_SnowUVNearMultiplier"
+    },
+    {
+      "consumer": "MaterialExpressionMaterialFunctionCall_7",
+      "pin": "UVFarMultiplier",
+      "parameter": "MW_SnowUVFarMultiplier"
+    },
+    {
+      "consumer": "MaterialExpressionMaterialFunctionCall_7",
+      "pin": "NormalIntensity",
+      "parameter": "MW_SnowNormalIntensity"
+    }
+  ],
+  "vectors": {
+    "MW_WaterNormalIntensity": "<Struct 'LinearColor' (0x000001F5C4573560) {r: 0.050000, g: 0.050000, b: 1.000000, a: 1.000000}>",
+    "MW_WaterColor": "<Struct 'LinearColor' (0x000001F5C4571220) {r: 0.040000, g: 0.047500, b: 0.050000, a: 1.000000}>",
+    "MW_DirtColorCorrection": "<Struct 'LinearColor' (0x000001F5C4571220) {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}>",
+    "MW_GrassColorCorrection": "<Struct 'LinearColor' (0x000001F5C4571220) {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}>",
+    "MW_StonesColorCorrection": "<Struct 'LinearColor' (0x000001F5C4571220) {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}>",
+    "MW_RockColorCorrection": "<Struct 'LinearColor' (0x000001F5C4571220) {r: 1.000000, g: 1.000000, b: 1.000000, a: 1.000000}>",
+    "MW_SnowColorCorrection": "<Struct 'LinearColor' (0x000001F5C4571220) {r: 0.220000, g: 0.270000, b: 0.320000, a: 1.000000}>"
+  }
+}

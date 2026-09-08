@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "twelve_separate_buttons": true,
+    "reader_attached_to_leaf": true,
+    "glass_preserved": true,
+    "no_mechanical_padlock": true,
+    "reader_below_glass": true,
+    "buttons_clear_of_lever": true,
+    "strike_remains_fixed": true
+  },
+  "success": true,
+  "scope": "Blender design geometry; engine verification recorded separately."
+}

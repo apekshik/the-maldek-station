@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "foot_volume": 3.5,
+  "idle_sway_scale": 5.0,
+  "held_motion_scale": 0.15000000596046448,
+  "mesh": "/Game/MaldekRefinement/R12/Player/TorchV2/SM_Torch_Field_V2.SM_Torch_Field_V2",
+  "map_modified": false
+}

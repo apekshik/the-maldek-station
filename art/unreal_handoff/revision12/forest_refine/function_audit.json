@@ -1,0 +1,169 @@
+{
+  "nodes": [
+    {
+      "name": "MaterialExpressionAdd_0",
+      "class": "MaterialExpressionAdd"
+    },
+    {
+      "name": "MaterialExpressionAdd_1",
+      "class": "MaterialExpressionAdd"
+    },
+    {
+      "name": "MaterialExpressionAdd_2",
+      "class": "MaterialExpressionAdd"
+    },
+    {
+      "name": "MaterialExpressionAdd_4",
+      "class": "MaterialExpressionAdd"
+    },
+    {
+      "name": "MaterialExpressionAdd_5",
+      "class": "MaterialExpressionAdd"
+    },
+    {
+      "name": "MaterialExpressionComponentMask_0",
+      "class": "MaterialExpressionComponentMask"
+    },
+    {
+      "name": "MaterialExpressionComponentMask_3",
+      "class": "MaterialExpressionComponentMask"
+    },
+    {
+      "name": "MaterialExpressionComponentMask_4",
+      "class": "MaterialExpressionComponentMask"
+    },
+    {
+      "name": "MaterialExpressionConstant_2",
+      "class": "MaterialExpressionConstant"
+    },
+    {
+      "name": "MaterialExpressionFunctionInput_0",
+      "class": "MaterialExpressionFunctionInput"
+    },
+    {
+      "name": "MaterialExpressionFunctionOutput_0",
+      "class": "MaterialExpressionFunctionOutput"
+    },
+    {
+      "name": "MaterialExpressionFunctionOutput_1",
+      "class": "MaterialExpressionFunctionOutput"
+    },
+    {
+      "name": "MaterialExpressionMaterialFunctionCall_19",
+      "class": "MaterialExpressionMaterialFunctionCall"
+    },
+    {
+      "name": "MaterialExpressionMultiply_12",
+      "class": "MaterialExpressionMultiply"
+    },
+    {
+      "name": "MaterialExpressionMultiply_18",
+      "class": "MaterialExpressionMultiply"
+    },
+    {
+      "name": "MaterialExpressionMultiply_2",
+      "class": "MaterialExpressionMultiply"
+    },
+    {
+      "name": "MaterialExpressionMultiply_3",
+      "class": "MaterialExpressionMultiply"
+    },
+    {
+      "name": "MaterialExpressionMultiply_4",
+      "class": "MaterialExpressionMultiply"
+    },
+    {
+      "name": "MaterialExpressionMultiply_5",
+      "class": "MaterialExpressionMultiply"
+    },
+    {
+      "name": "MaterialExpressionMultiply_8",
+      "class": "MaterialExpressionMultiply"
+    },
+    {
+      "name": "MaterialExpressionOneMinus_2",
+      "class": "MaterialExpressionOneMinus"
+    },
+    {
+      "name": "MaterialExpressionPixelNormalWS_1",
+      "class": "MaterialExpressionPixelNormalWS"
+    },
+    {
+      "name": "MaterialExpressionPower_0",
+      "class": "MaterialExpressionPower"
+    },
+    {
+      "name": "MaterialExpressionPower_1",
+      "class": "MaterialExpressionPower"
+    },
+    {
+      "name": "MaterialExpressionPower_3",
+      "class": "MaterialExpressionPower"
+    },
+    {
+      "name": "MaterialExpressionSaturate_0",
+      "class": "MaterialExpressionSaturate"
+    },
+    {
+      "name": "MaterialExpressionSaturate_1",
+      "class": "MaterialExpressionSaturate"
+    },
+    {
+      "name": "MaterialExpressionSaturate_2",
+      "class": "MaterialExpressionSaturate"
+    },
+    {
+      "name": "MaterialExpressionSaturate_3",
+      "class": "MaterialExpressionSaturate"
+    },
+    {
+      "name": "MaterialExpressionSaturate_4",
+      "class": "MaterialExpressionSaturate"
+    },
+    {
+      "name": "MaterialExpressionSaturate_5",
+      "class": "MaterialExpressionSaturate"
+    },
+    {
+      "name": "MaterialExpressionSaturate_6",
+      "class": "MaterialExpressionSaturate"
+    },
+    {
+      "name": "MaterialExpressionScalarParameter_25",
+      "class": "MaterialExpressionScalarParameter",
+      "parameter": "MW_SnowWorldPositionPower"
+    },
+    {
+      "name": "MaterialExpressionScalarParameter_26",
+      "class": "MaterialExpressionScalarParameter",
+      "parameter": "MW_SnowMaskMultiplier"
+    },
+    {
+      "name": "MaterialExpressionScalarParameter_27",
+      "class": "MaterialExpressionScalarParameter",
+      "parameter": "MW_SnowMaskPower"
+    },
+    {
+      "name": "MaterialExpressionScalarParameter_28",
+      "class": "MaterialExpressionScalarParameter",
+      "parameter": "MW_SnowWorldPosition"
+    },
+    {
+      "name": "MaterialExpressionScalarParameter_6",
+      "class": "MaterialExpressionScalarParameter",
+      "parameter": "MW_SnowSlopePower"
+    },
+    {
+      "name": "MaterialExpressionVertexNormalWS_0",
+      "class": "MaterialExpressionVertexNormalWS"
+    },
+    {
+      "name": "MaterialExpressionVertexNormalWS_2",
+      "class": "MaterialExpressionVertexNormalWS"
+    },
+    {
+      "name": "MaterialExpressionWorldPosition_1",
+      "class": "MaterialExpressionWorldPosition"
+    }
+  ]
+}

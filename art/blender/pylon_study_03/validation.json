@@ -1,0 +1,36 @@
+{
+  "fbx_reimported": true,
+  "mesh_count": 1,
+  "bounds_m": [
+    [
+      -8.100000381469727,
+      -4.0,
+      -6.0
+    ],
+    [
+      8.100000381469727,
+      4.0,
+      45.26799774169922
+    ]
+  ],
+  "materials": [
+    "Pylon_Concrete",
+    "Pylon_Graphite",
+    "Pylon_Galvanized",
+    "Pylon_Faded_Grey_Green",
+    "Pylon_Joint_Patina",
+    "Pylon_Lettering",
+    "Pylon_Safety_Amber",
+    "Pylon_Marker_Red",
+    "Pylon_Sheave_Liner"
+  ],
+  "sampled_cabin_poses": 147,
+  "illustrative_swing_degrees": [
+    -8,
+    0,
+    8
+  ],
+  "mesh_intersections": 0,
+  "unreal_integration": "pending",
+  "weathering_transfer": "Procedural Blender shaders require baking or recreation in Unreal"
+}

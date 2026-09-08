@@ -1,0 +1,19 @@
+{
+  "approved_base": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\door_study_01\\Maldek_Control_Door_Study.blend",
+  "variants": [
+    "standard",
+    "digital_keypad"
+  ],
+  "additional_keypad_collections": [
+    "04_Digital_keypad",
+    "05_Interior_electronics",
+    "06_Electronic_strike"
+  ],
+  "key_layout": "3 x 4 tactile buttons: 0-9, CLR, OK",
+  "enclosure_mm": [
+    142,
+    40,
+    260
+  ],
+  "placement_status": "Choose secure-door locations only after review."
+}

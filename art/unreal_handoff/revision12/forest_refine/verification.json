@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "errors": [],
+  "preserved_actors": 503,
+  "terrain_collision_samples": [
+    {
+      "xy": [
+        -30,
+        -35
+      ],
+      "expected": 1.057390823205624,
+      "actual": 1.0573919343672606,
+      "error_m": 1.111161636702107e-06
+    },
+    {
+      "xy": [
+        -10,
+        -27
+      ],
+      "expected": 0.7914849111472657,
+      "actual": 0.791485612679644,
+      "error_m": 7.015323782999516e-07
+    },
+    {
+      "xy": [
+        5,
+        -29
+      ],
+      "expected": -2.989269733428955,
+      "actual": -2.9892698457680673,
+      "error_m": 1.1233911223484938e-07
+    },
+    {
+      "xy": [
+        -25,
+        -12
+      ],
+      "expected": -0.22338640689849854,
+      "actual": -0.22338697225051873,
+      "error_m": 5.65352020198695e-07
+    },
+    {
+      "xy": [
+        -7,
+        12
+      ],
+      "expected": -0.5089090138508681,
+      "actual": -0.5089090962235423,
+      "error_m": 8.237267423716332e-08
+    },
+    {
+      "xy": [
+        -7,
+        20
+      ],
+      "expected": -1.7760932915015246,
+      "actual": -1.7760934721314334,
+      "error_m": 1.8062990880807206e-07
+    },
+    {
+      "xy": [
+        -7,
+        35
+      ],
+      "expected": -6.408877784038225,
+      "actual": -6.408877320622651,
+      "error_m": 4.634155743588053e-07
+    },
+    {
+      "xy": [
+        -20,
+        35
+      ],
+      "expected": -6.672925207545688,
+      "actual": -6.672925820511591,
+      "error_m": 6.129659029241452e-07
+    },
+    {
+      "xy": [
+        17,
+        25
+      ],
+      "expected": -2.266532289188177,
+      "actual": -2.266531171539791,
+      "error_m": 1.1176483862840314e-06
+    },
+    {
+      "xy": [
+        30,
+        40
+      ],
+      "expected": -1.9816386023072994,
+      "actual": -1.981635707405203,
+      "error_m": 2.894902096484131e-06
+    },
+    {
+      "xy": [
+        50,
+        50
+      ],
+      "expected": -4.786550787608036,
+      "actual": -4.78654717831314,
+      "error_m": 3.609294895845494e-06
+    }
+  ],
+  "plant_placements": 140,
+  "foliage": [
+    {
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+      "count": 937,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+      "count": 956,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+      "count": 898,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+      "count": 894,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA",
+      "count": 41,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB",
+      "count": 39,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC",
+      "count": 43,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    },
+    {
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD",
+      "count": 57,
+      "collision": "<CollisionEnabled.NO_COLLISION: 0>"
+    }
+  ],
+  "expected_foliage_instances": 3865,
+  "saved": true
+}

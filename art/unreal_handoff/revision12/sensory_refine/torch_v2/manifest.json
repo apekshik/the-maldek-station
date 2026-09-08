@@ -1,0 +1,22 @@
+{
+  "source": "Field_Torch_V2.blend",
+  "mesh": "SM_Torch_Field_V2",
+  "dimensions_m": [
+    0.23180000483989716,
+    0.05714999884366989,
+    0.05714999884366989
+  ],
+  "triangles": 56308,
+  "slots": [
+    "Anodized",
+    "Switch",
+    "Grip",
+    "Machined",
+    "Reflector",
+    "Markings",
+    "Lens"
+  ],
+  "parts": 94,
+  "reference": "https://maglite.com/products/ml300l-led-2-cell-d-flashlight",
+  "fbx_sha256": "30071a97d045abc203068b97853a1fcf55b58ef543241c7ce9426f4f39df01d5"
+}

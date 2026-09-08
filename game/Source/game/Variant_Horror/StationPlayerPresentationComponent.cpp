@@ -34,6 +34,8 @@ void UStationPlayerPresentationComponent::BeginPlay()
   if(Name.StartsWith(TEXT("Torch")) || Name.StartsWith(TEXT("Gloved")) || Name.StartsWith(TEXT("JacketSleeve")))
    Part->AttachToComponent(HeldRoot,FAttachmentTransformRules::KeepRelativeTransform);
   if(DetailedTorchMesh && Name.StartsWith(TEXT("Torch")))Part->SetHiddenInGame(true);
+  // Retire the oversized spherical thumb placeholder beside the detailed casing.
+  if(DetailedTorchMesh && Name.StartsWith(TEXT("GlovedThumb")))Part->SetHiddenInGame(true);
  }
  if(DetailedTorchMesh)
  {
@@ -144,8 +146,15 @@ void UStationPlayerPresentationComponent::TickComponent(float Dt,ELevelTick Tick
  const FRotator Aim=Character->GetControlRotation();
  FVector2D TargetLag(FMath::Clamp(FMath::FindDeltaAngleDegrees(PreviousAim.Yaw,Aim.Yaw)/Dt*-0.006f,-2.2f,2.2f),FMath::Clamp(FMath::FindDeltaAngleDegrees(PreviousAim.Pitch,Aim.Pitch)/Dt*-0.006f,-1.8f,1.8f));
  AimLag=FMath::Lerp(AimLag,TargetLag,Blend);
- HeldRoot->SetRelativeLocation(FVector(0,(0.45f+0.35f*Run)*Sway,0.5f*Step+LandingOffset)*MotionWeight*StairBob+IdleOffset+LocalGroundOffset);
- HeldRoot->SetRelativeRotation(FRotator(AimLag.Y+0.45f*Step*MotionWeight,AimLag.X+0.3f*Sway*MotionWeight,0.4f*Sway*MotionWeight)+IdleRotation);
+ // Camera additive offsets affect the rendered view, not attached component transforms.
+ // Follow that view exactly, then add restrained hand movement in view-local space.
+ // Without this, stronger camera sway makes a nearly stationary torch swim across the frame.
+ const float HandScale=FMath::Clamp(HeldMotionScale,0.0f,1.0f);
+ const FVector HandOffset=(FVector(0,(0.45f+0.35f*Run)*Sway,0.5f*Step+LandingOffset)*MotionWeight*StairBob
+  +FVector(0,0.08f*Balance,0.10f*Breath)*IdleWeight)*HandScale;
+ const FRotator HandRotation=FRotator(AimLag.Y+0.45f*Step*MotionWeight,AimLag.X+0.3f*Sway*MotionWeight,0.4f*Sway*MotionWeight)*HandScale;
+ const FTransform ViewTransform(GaitRotation+IdleRotation,ViewOffset);
+ HeldRoot->SetRelativeTransform(FTransform(HandRotation,HandOffset)*ViewTransform);
  PreviousAim=Aim;PreviousVerticalSpeed=Velocity.Z;bWasGrounded=Grounded;
 }
 

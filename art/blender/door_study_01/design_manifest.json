@@ -1,0 +1,64 @@
+{
+  "source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_10\\Maldek_Parking_Arrival.blend",
+  "stage": "Blender design review; not game-ready",
+  "opening_m": [
+    1.3,
+    2.4
+  ],
+  "leaf_m": [
+    1.288,
+    0.045,
+    2.3600000000000003
+  ],
+  "threshold_top_m": 0.024,
+  "bottom_gap_m": 0.010000000000000002,
+  "side_gap_m": 0.006,
+  "hinge_local_m": [
+    0.004000000189989805,
+    -0.03500000014901161,
+    0.0
+  ],
+  "source_placement": {
+    "rotation_z_degrees": 180,
+    "translation_m": [
+      -2.65,
+      0,
+      4
+    ]
+  },
+  "frames": {
+    "closed": 1,
+    "open_105_degrees": 90
+  },
+  "materials": [
+    "D01_Brushed_stainless",
+    "D01_EPDM",
+    "D01_Frosted_glass",
+    "D01_Paint_edge_wear",
+    "D01_Recess",
+    "D01_Studio",
+    "Material",
+    "VF06_Galvanized",
+    "VF06_Petrol_paint",
+    "VF06_Structural_steel",
+    "VF06_Warm_enamel",
+    "VF_Bedding",
+    "VF_Cast_Concrete",
+    "VF_Dark_Steel_Frame",
+    "VF_Desk_Timber",
+    "VF_Faded_Petrol_Paint",
+    "VF_Galvanized_Grating",
+    "VF_Interior_Enamel",
+    "VF_Local_Oxidation",
+    "VF_Paper",
+    "VF_Warm_Diffuser",
+    "VF_Window_Glass",
+    "VF_Window_Seal"
+  ],
+  "pending": [
+    "Unreal material bake and UVs",
+    "Optimized moving mesh and collision",
+    "Per-opening swing/capsule validation",
+    "User design review before integration"
+  ]
+}

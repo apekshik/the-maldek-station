@@ -1,0 +1,25 @@
+{
+  "approved_base": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\door_study_01\\Maldek_Control_Door_Study.blend",
+  "variants": {
+    "standard": {
+      "collections": [
+        "01_Moving_leaf",
+        "02_Stationary_hardware"
+      ]
+    },
+    "padlocked": {
+      "additional_collections": [
+        "04_Hasp_moving",
+        "05_Hasp_fixed",
+        "06_Padlock_removable"
+      ]
+    }
+  },
+  "padlock_body_mm": [
+    60,
+    28,
+    58
+  ],
+  "shackle_diameter_mm": 9,
+  "placement_status": "User requested choosing lock locations after reviewing variants."
+}

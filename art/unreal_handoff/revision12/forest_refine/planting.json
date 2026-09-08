@@ -1,0 +1,1741 @@
+{
+  "seed": 1709,
+  "clusters": [
+    [
+      -37.32784768127424,
+      -45.192243018183525
+    ],
+    [
+      -36.27786319155234,
+      -39.18851951738241
+    ],
+    [
+      -43.92487755426503,
+      -45.133800663140484
+    ],
+    [
+      -40.88663106011843,
+      -46.25453560019697
+    ],
+    [
+      -24.154035240714258,
+      -41.8682377843213
+    ],
+    [
+      -19.668454773211042,
+      -39.27841765622656
+    ],
+    [
+      -20.138817764652252,
+      -44.204190650793464
+    ],
+    [
+      -14.378269803855911,
+      -41.635495403934684
+    ],
+    [
+      -16.739488197347438,
+      -38.65960733899354
+    ],
+    [
+      -37.41642156867721,
+      -27.28982126688799
+    ],
+    [
+      -39.229361846432425,
+      -29.911359247680547
+    ],
+    [
+      -15.356936174214741,
+      -29.816492159236127
+    ],
+    [
+      -11.034797109231205,
+      -32.91528596252423
+    ],
+    [
+      -17.515795435789993,
+      -26.011167975388183
+    ],
+    [
+      -21.44420634945753,
+      -32.973239223840444
+    ],
+    [
+      -3.405219130139269,
+      -25.69589197001617
+    ],
+    [
+      -9.624594957860996,
+      -24.86243830720942
+    ],
+    [
+      0.7138503563854837,
+      -25.986393511567
+    ],
+    [
+      7.42669043229445,
+      -23.001379494256767
+    ],
+    [
+      10.83108226221424,
+      -25.40478038460026
+    ],
+    [
+      6.226435906679256,
+      -29.72914398932236
+    ],
+    [
+      11.468330789863336,
+      -38.9509949324233
+    ],
+    [
+      10.415886973952935,
+      -30.95999397169372
+    ],
+    [
+      14.230720043310916,
+      -34.67255819077177
+    ],
+    [
+      4.509963080183443,
+      -32.59102587193409
+    ],
+    [
+      26.716266124603095,
+      -35.25938028017443
+    ],
+    [
+      26.335922513223203,
+      -29.586352255251853
+    ],
+    [
+      23.615049076529445,
+      -36.51644391899535
+    ],
+    [
+      21.110551324435633,
+      -31.611000905465566
+    ],
+    [
+      43.34438711461213,
+      -27.07502554222866
+    ],
+    [
+      46.466388654517765,
+      -32.39176981635439
+    ],
+    [
+      45.557368764493575,
+      -36.97637563328783
+    ],
+    [
+      42.98521020871459,
+      -32.60821323590627
+    ],
+    [
+      -29.976195437098184,
+      -20.310437526917898
+    ],
+    [
+      -26.849355476836095,
+      -12.362540399087377
+    ],
+    [
+      -24.9927023237397,
+      -21.639292548013973
+    ],
+    [
+      -32.577807825680836,
+      -14.75294005179203
+    ],
+    [
+      -30.974387582130444,
+      -4.120064529599785
+    ],
+    [
+      -37.48172952060657,
+      -6.118495022101362
+    ],
+    [
+      -35.536943610117305,
+      -3.596021935362609
+    ],
+    [
+      -35.88366804016407,
+      6.2878362967937775
+    ],
+    [
+      -38.92117429915201,
+      1.692107603749756
+    ],
+    [
+      -28.452206766686224,
+      8.677989595691265
+    ],
+    [
+      -27.615224532809254,
+      5.757183350056202
+    ],
+    [
+      -38.77842138228433,
+      6.984782439792195
+    ],
+    [
+      46.01924494300098,
+      -23.907959250576763
+    ],
+    [
+      45.89676652465829,
+      -28.326959946068854
+    ],
+    [
+      51.4987397048328,
+      -27.812524326873454
+    ],
+    [
+      46.5868556411572,
+      -20.61356062311432
+    ],
+    [
+      54.697401771346726,
+      -26.76300421149138
+    ],
+    [
+      65.13197837330145,
+      -6.584224581025564
+    ],
+    [
+      59.645699378492715,
+      -12.449126472677733
+    ],
+    [
+      65.03740205052384,
+      -13.034206964216626
+    ],
+    [
+      -22.402166772887902,
+      12.40191519766125
+    ],
+    [
+      -21.219516482786354,
+      21.072825665455802
+    ],
+    [
+      -27.099208731309368,
+      20.02310827982546
+    ],
+    [
+      -26.546755643226685,
+      13.961840636557275
+    ],
+    [
+      -42.013361912091476,
+      17.168685734422695
+    ],
+    [
+      -33.45242822548272,
+      25.20848528257487
+    ],
+    [
+      -33.880342306950595,
+      17.539826042159785
+    ],
+    [
+      -20.144026500805516,
+      30.463112021791925
+    ],
+    [
+      -25.480839146085266,
+      31.82279167742287
+    ],
+    [
+      -16.558571057512758,
+      30.373931760310153
+    ],
+    [
+      16.822163503701177,
+      17.904105584453884
+    ],
+    [
+      14.858504229097695,
+      20.035181693289893
+    ],
+    [
+      25.050581652481824,
+      37.02072731694301
+    ],
+    [
+      22.085204785972874,
+      40.633465825871454
+    ],
+    [
+      32.602759653265906,
+      36.140142633492175
+    ],
+    [
+      46.22160541352375,
+      41.595391032276694
+    ],
+    [
+      43.07129546876937,
+      43.15229606630866
+    ],
+    [
+      48.28109060417217,
+      44.225754505422685
+    ],
+    [
+      -27.57955742992572,
+      -44.48432622851476
+    ],
+    [
+      -20.96535103386224,
+      -48.991936570528644
+    ],
+    [
+      -33.790348128918964,
+      -40.53942124440451
+    ],
+    [
+      -35.12703545236472,
+      -30.363862822308963
+    ],
+    [
+      -34.41193316026629,
+      -35.20107992116078
+    ],
+    [
+      -32.32737635443158,
+      -30.753459812566078
+    ],
+    [
+      -18.327125513722862,
+      -31.003646436377455
+    ],
+    [
+      -28.406831296449127,
+      -33.61845775279175
+    ],
+    [
+      -31.98192086807368,
+      -24.998228407170842
+    ],
+    [
+      -36.947551966382946,
+      -24.470915928814424
+    ],
+    [
+      -27.91973691218898,
+      -22.76148162826916
+    ],
+    [
+      -23.270182259304626,
+      -29.259105509268526
+    ],
+    [
+      -23.483442492478957,
+      -15.337340564752285
+    ],
+    [
+      -21.997071704957406,
+      -18.980690090802263
+    ],
+    [
+      -13.705934667037129,
+      -23.26189105845905
+    ],
+    [
+      -19.448316508538596,
+      -14.574089523211606
+    ],
+    [
+      -22.38817294889294,
+      -12.640598895783894
+    ],
+    [
+      -6.330724587181235,
+      -24.417250920030256
+    ]
+  ],
+  "plants": [
+    {
+      "label": "FR_Understorey_000_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "local": [
+        -37.327847681274214,
+        -45.192243018183525,
+        0.48916799748072665
+      ],
+      "scale": 0.7231809961824363
+    },
+    {
+      "label": "FR_Understorey_000_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -37.51458211805126,
+        -45.677370803228406,
+        0.5464817297923582
+      ],
+      "scale": 1.1003799259990759
+    },
+    {
+      "label": "FR_Understorey_001_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -36.27786319155231,
+        -39.18851951738241,
+        0.7236302184646775
+      ],
+      "scale": 0.7566007728168145
+    },
+    {
+      "label": "FR_Understorey_002_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -43.92487755426504,
+        -45.133800663140484,
+        -0.6254485042163287
+      ],
+      "scale": 0.9082811393325602
+    },
+    {
+      "label": "FR_Understorey_003_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -40.886631060118454,
+        -46.25453560019698,
+        0.2800756066044596
+      ],
+      "scale": 0.730185879346717
+    },
+    {
+      "label": "FR_Understorey_003_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -42.41391010329942,
+        -45.743331490278564,
+        0.14790811889844918
+      ],
+      "scale": 1.0865045202400343
+    },
+    {
+      "label": "FR_Understorey_004_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -24.15403524071422,
+        -41.8682377843213,
+        0.7924123033330761
+      ],
+      "scale": 0.9897420998671924
+    },
+    {
+      "label": "FR_Understorey_005_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -19.668454773211053,
+        -39.27841765622656,
+        0.9794515532765763
+      ],
+      "scale": 0.7429144969838768
+    },
+    {
+      "label": "FR_Understorey_006_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -20.138817764652266,
+        -44.204190650793464,
+        0.8918100066241095
+      ],
+      "scale": 0.8098869485205509
+    },
+    {
+      "label": "FR_Understorey_006_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -19.693300506315428,
+        -45.35368278037964,
+        0.3270876763276829
+      ],
+      "scale": 0.9262579923288776
+    },
+    {
+      "label": "FR_Understorey_007_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -14.378269803855874,
+        -41.63549540393469,
+        -2.0532485849554543
+      ],
+      "scale": 0.9235018125710299
+    },
+    {
+      "label": "FR_Understorey_008_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -16.739488197347455,
+        -38.65960733899354,
+        0.47630437473553683
+      ],
+      "scale": 0.8860862628836861
+    },
+    {
+      "label": "FR_Understorey_009_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "local": [
+        -37.41642156867718,
+        -27.289821266887994,
+        0.4321364196959621
+      ],
+      "scale": 0.9651873760180599
+    },
+    {
+      "label": "FR_Understorey_009_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -37.109323434623946,
+        -27.711606073945514,
+        0.46301931327647255
+      ],
+      "scale": 1.043638779713003
+    },
+    {
+      "label": "FR_Understorey_010_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -39.22936184643244,
+        -29.911359247680558,
+        0.022337050835230913
+      ],
+      "scale": 0.7309765843224214
+    },
+    {
+      "label": "FR_Understorey_011_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -15.356936174214717,
+        -29.81649215923613,
+        1.6418693279850958
+      ],
+      "scale": 0.9135028305126656
+    },
+    {
+      "label": "FR_Understorey_012_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -11.034797109231222,
+        -32.91528596252423,
+        -0.7611917003618509
+      ],
+      "scale": 0.763359372676303
+    },
+    {
+      "label": "FR_Understorey_012_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -9.688393663696916,
+        -32.85814437184372,
+        -1.5807906454018303
+      ],
+      "scale": 0.7773376313249901
+    },
+    {
+      "label": "FR_Understorey_013_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -17.515795435789986,
+        -26.01116797538818,
+        1.0649232528480934
+      ],
+      "scale": 0.8749125344510361
+    },
+    {
+      "label": "FR_Understorey_014_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -21.444206349457527,
+        -32.973239223840444,
+        0.2839936590709658
+      ],
+      "scale": 1.0396029669367592
+    },
+    {
+      "label": "FR_Understorey_015_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -3.405219130139303,
+        -25.695891970016163,
+        0.19740344834228382
+      ],
+      "scale": 0.7728887627132549
+    },
+    {
+      "label": "FR_Understorey_015_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -3.451989118590282,
+        -26.541743734835364,
+        -0.0779570702424462
+      ],
+      "scale": 0.9371362036012345
+    },
+    {
+      "label": "FR_Understorey_016_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -9.624594957860973,
+        -24.862438307209413,
+        0.6611492871197333
+      ],
+      "scale": 0.9157821592401307
+    },
+    {
+      "label": "FR_Understorey_017_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        0.7138503563855193,
+        -25.986393511567,
+        -0.52131836335966
+      ],
+      "scale": 1.0368467188916437
+    },
+    {
+      "label": "FR_Understorey_018_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "local": [
+        7.426690432294418,
+        -23.001379494256764,
+        -0.5183195063392304
+      ],
+      "scale": 0.9674509570561206
+    },
+    {
+      "label": "FR_Understorey_018_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        6.5405616887387446,
+        -24.349033457694695,
+        -0.8464348079067531
+      ],
+      "scale": 0.7570162138665508
+    },
+    {
+      "label": "FR_Understorey_019_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        10.83108226221426,
+        -25.404780384600272,
+        -1.0980837407553008
+      ],
+      "scale": 0.9257887828364957
+    },
+    {
+      "label": "FR_Understorey_020_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        6.226435906679253,
+        -29.729143989322367,
+        -3.6211729116941753
+      ],
+      "scale": 1.0808118165596192
+    },
+    {
+      "label": "FR_Understorey_021_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        11.468330789863321,
+        -38.950994932423306,
+        -8.768309662997035
+      ],
+      "scale": 0.8167579531274072
+    },
+    {
+      "label": "FR_Understorey_021_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        10.266791705502547,
+        -38.0555820347834,
+        -8.717829065470832
+      ],
+      "scale": 0.8801641035772844
+    },
+    {
+      "label": "FR_Understorey_022_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        10.415886973952947,
+        -30.95999397169373,
+        -3.8946800958418133
+      ],
+      "scale": 1.1033711002711437
+    },
+    {
+      "label": "FR_Understorey_023_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        14.230720043310939,
+        -34.67255819077176,
+        -5.523047926406398
+      ],
+      "scale": 0.8522603766243367
+    },
+    {
+      "label": "FR_Understorey_024_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        4.509963080183443,
+        -32.591025871934086,
+        -6.072544604823561
+      ],
+      "scale": 0.8422966493120845
+    },
+    {
+      "label": "FR_Understorey_024_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        4.487887785715065,
+        -31.432008069561036,
+        -5.101650783484056
+      ],
+      "scale": 1.03691759836485
+    },
+    {
+      "label": "FR_Understorey_025_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        26.716266124603063,
+        -35.259380280174426,
+        -4.040609112864204
+      ],
+      "scale": 0.8089333624618951
+    },
+    {
+      "label": "FR_Understorey_026_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        26.335922513223196,
+        -29.58635225525186,
+        -2.5950698472489604
+      ],
+      "scale": 1.1172620797895387
+    },
+    {
+      "label": "FR_Understorey_027_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "local": [
+        23.615049076529466,
+        -36.51644391899536,
+        -4.2697489272932945
+      ],
+      "scale": 0.8200186288436198
+    },
+    {
+      "label": "FR_Understorey_027_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        24.060529338004997,
+        -34.952478754298355,
+        -3.850478276148515
+      ],
+      "scale": 0.7819605360444277
+    },
+    {
+      "label": "FR_Understorey_028_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        21.110551324435654,
+        -31.61100090546557,
+        -2.849489465184233
+      ],
+      "scale": 0.8278474442850036
+    },
+    {
+      "label": "FR_Understorey_029_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        43.34438711461211,
+        -27.07502554222865,
+        -5.512456149604969
+      ],
+      "scale": 1.0949442404513048
+    },
+    {
+      "label": "FR_Understorey_030_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        46.46638865451779,
+        -32.39176981635439,
+        -7.455839295998994
+      ],
+      "scale": 0.8005273242272188
+    },
+    {
+      "label": "FR_Understorey_030_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        47.01870078072905,
+        -31.31684911065642,
+        -7.263923725319964
+      ],
+      "scale": 0.8154482582476072
+    },
+    {
+      "label": "FR_Understorey_031_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        45.55736876449359,
+        -36.97637563328782,
+        -7.775084954382601
+      ],
+      "scale": 0.8776383348735486
+    },
+    {
+      "label": "FR_Understorey_032_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        42.98521020871456,
+        -32.60821323590626,
+        -6.857796862385331
+      ],
+      "scale": 0.883658305499708
+    },
+    {
+      "label": "FR_Understorey_033_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -29.976195437098212,
+        -20.310437526917884,
+        -2.3788218395647527
+      ],
+      "scale": 0.9469625835886646
+    },
+    {
+      "label": "FR_Understorey_033_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -28.437711823678256,
+        -21.276010646882003,
+        -0.8567614536877045
+      ],
+      "scale": 0.9932537782059865
+    },
+    {
+      "label": "FR_Understorey_034_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -26.849355476836063,
+        -12.362540399087374,
+        -1.0069677567056896
+      ],
+      "scale": 0.8329777539518939
+    },
+    {
+      "label": "FR_Understorey_035_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -24.99270232373972,
+        -21.639292548013984,
+        -0.4793348362383222
+      ],
+      "scale": 0.8659303799363873
+    },
+    {
+      "label": "FR_Understorey_036_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "local": [
+        -32.577807825680864,
+        -14.752940051792029,
+        -5.9163750669961885
+      ],
+      "scale": 1.1012746076384061
+    },
+    {
+      "label": "FR_Understorey_036_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -34.16949545517026,
+        -15.197328741507226,
+        -8.041063341371173
+      ],
+      "scale": 0.8785848796084298
+    },
+    {
+      "label": "FR_Understorey_037_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -30.97438758213044,
+        -4.120064529599768,
+        -2.4873427193568567
+      ],
+      "scale": 0.730282296977788
+    },
+    {
+      "label": "FR_Understorey_038_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -37.481729520606606,
+        -6.118495022101379,
+        -9.808463043071242
+      ],
+      "scale": 0.8810860548574191
+    },
+    {
+      "label": "FR_Understorey_039_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -35.536943610117305,
+        -3.5960219353626233,
+        -5.678378814569641
+      ],
+      "scale": 0.7826226621916962
+    },
+    {
+      "label": "FR_Understorey_039_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -37.01431889523228,
+        -3.3730865647163593,
+        -6.840363935204205
+      ],
+      "scale": 0.8494626954751857
+    },
+    {
+      "label": "FR_Understorey_040_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -35.883668040164046,
+        6.2878362967937935,
+        -0.44620835453626567
+      ],
+      "scale": 1.040958266550242
+    },
+    {
+      "label": "FR_Understorey_041_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -38.92117429915197,
+        1.692107603749755,
+        -3.3013042384510665
+      ],
+      "scale": 0.9478723700353525
+    },
+    {
+      "label": "FR_Understorey_042_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -28.452206766686214,
+        8.677989595691251,
+        -0.4958940001542396
+      ],
+      "scale": 1.0046961509432863
+    },
+    {
+      "label": "FR_Understorey_042_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -29.51249390573146,
+        7.385309465598221,
+        -0.44027947663056693
+      ],
+      "scale": 0.7311695652103003
+    },
+    {
+      "label": "FR_Understorey_043_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -27.615224532809226,
+        5.757183350056221,
+        -0.4203037932015104
+      ],
+      "scale": 0.8723163989113178
+    },
+    {
+      "label": "FR_Understorey_044_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -38.77842138228436,
+        6.98478243979218,
+        -0.4319626151509328
+      ],
+      "scale": 0.9850350141819597
+    },
+    {
+      "label": "FR_Understorey_045_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "local": [
+        46.019244943000956,
+        -23.90795925057677,
+        -4.524512702263273
+      ],
+      "scale": 0.7968797426547195
+    },
+    {
+      "label": "FR_Understorey_045_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        46.9370729824785,
+        -24.145341426581343,
+        -4.610639269363219
+      ],
+      "scale": 0.8944564084277985
+    },
+    {
+      "label": "FR_Understorey_046_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        45.896766524658304,
+        -28.326959946068854,
+        -6.210378984166964
+      ],
+      "scale": 0.9063988597089627
+    },
+    {
+      "label": "FR_Understorey_047_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        51.49873970483277,
+        -27.81252432687346,
+        -6.549665414733027
+      ],
+      "scale": 0.8886411903236191
+    },
+    {
+      "label": "FR_Understorey_048_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        46.586855641157236,
+        -20.613560623114317,
+        -3.015497280674408
+      ],
+      "scale": 0.8305763620626467
+    },
+    {
+      "label": "FR_Understorey_048_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        45.649333159862074,
+        -22.079289745257082,
+        -3.6433985448673227
+      ],
+      "scale": 1.0151035027783106
+    },
+    {
+      "label": "FR_Understorey_049_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        54.697401771346705,
+        -26.76300421149139,
+        -6.30087240519615
+      ],
+      "scale": 1.0927173234079852
+    },
+    {
+      "label": "FR_Understorey_050_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        65.13197837330146,
+        -6.5842245810255555,
+        -3.298913234044485
+      ],
+      "scale": 0.858831045510997
+    },
+    {
+      "label": "FR_Understorey_051_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        59.645699378492715,
+        -12.449126472677744,
+        -0.08798737846747827
+      ],
+      "scale": 1.012535845732996
+    },
+    {
+      "label": "FR_Understorey_051_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        60.79310453898492,
+        -11.759952252664116,
+        -0.47669185888395077
+      ],
+      "scale": 1.0334547023989773
+    },
+    {
+      "label": "FR_Understorey_052_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        65.03740205052381,
+        -13.03420696421661,
+        -3.536111670557821
+      ],
+      "scale": 0.9143443625573289
+    },
+    {
+      "label": "FR_Understorey_053_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -22.40216677288794,
+        12.401915197661255,
+        -0.8536604076110416
+      ],
+      "scale": 1.0302286406343177
+    },
+    {
+      "label": "FR_Understorey_054_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "local": [
+        -21.219516482786347,
+        21.07282566545582,
+        -2.4022960815785153
+      ],
+      "scale": 0.766207571205642
+    },
+    {
+      "label": "FR_Understorey_054_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -20.893343290848932,
+        20.474351182965112,
+        -2.2744458497829148
+      ],
+      "scale": 0.7311011970696213
+    },
+    {
+      "label": "FR_Understorey_055_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -27.099208731309336,
+        20.023108279825465,
+        -2.0790186502107098
+      ],
+      "scale": 1.098569366609547
+    },
+    {
+      "label": "FR_Understorey_056_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -26.546755643226717,
+        13.96184063655728,
+        -1.0091868758354394
+      ],
+      "scale": 0.9616395596677356
+    },
+    {
+      "label": "FR_Understorey_057_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -42.0133619120915,
+        17.168685734422688,
+        -1.1516342137487663
+      ],
+      "scale": 1.0361459744412724
+    },
+    {
+      "label": "FR_Understorey_057_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -42.93462112601446,
+        18.187327879503826,
+        -1.2935779170697423
+      ],
+      "scale": 1.0353023429691695
+    },
+    {
+      "label": "FR_Understorey_058_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -33.45242822548273,
+        25.208485282574873,
+        -3.17270412784188
+      ],
+      "scale": 1.0306546605745959
+    },
+    {
+      "label": "FR_Understorey_059_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -33.880342306950624,
+        17.539826042159767,
+        -1.4162364188558059
+      ],
+      "scale": 0.8208529796082207
+    },
+    {
+      "label": "FR_Understorey_060_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -20.144026500805484,
+        30.46311202179193,
+        -5.195181897627371
+      ],
+      "scale": 0.9066809203506234
+    },
+    {
+      "label": "FR_Understorey_060_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -20.797158208909096,
+        29.984020459013156,
+        -5.021558739152988
+      ],
+      "scale": 0.8054753678416144
+    },
+    {
+      "label": "FR_Understorey_061_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -25.480839146085273,
+        31.822791677422867,
+        -5.581744597201123
+      ],
+      "scale": 1.0545968626689648
+    },
+    {
+      "label": "FR_Understorey_062_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -16.558571057512744,
+        30.373931760310153,
+        -5.161912882260858
+      ],
+      "scale": 1.0911352351861938
+    },
+    {
+      "label": "FR_Understorey_063_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "local": [
+        16.82216350370116,
+        17.9041055844539,
+        -1.0648375257422231
+      ],
+      "scale": 0.9615088264790588
+    },
+    {
+      "label": "FR_Understorey_064_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        14.85850422909767,
+        20.035181693289886,
+        -1.4569497334546941
+      ],
+      "scale": 0.8920290647601432
+    },
+    {
+      "label": "FR_Understorey_065_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        25.050581652481853,
+        37.02072731694301,
+        -3.4076780580321246
+      ],
+      "scale": 1.0940906059570665
+    },
+    {
+      "label": "FR_Understorey_066_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        22.08520478597289,
+        40.63346582587146,
+        -6.239719599817017
+      ],
+      "scale": 1.056771423967688
+    },
+    {
+      "label": "FR_Understorey_066_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        23.051534506763563,
+        39.54789721696849,
+        -5.308660413715589
+      ],
+      "scale": 0.9153399578971972
+    },
+    {
+      "label": "FR_Understorey_067_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        32.60275965326589,
+        36.140142633492175,
+        -0.8595748235866085
+      ],
+      "scale": 0.8162126862548279
+    },
+    {
+      "label": "FR_Understorey_068_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        46.22160541352372,
+        41.59539103227667,
+        -2.0185660678515522
+      ],
+      "scale": 1.0285677957406358
+    },
+    {
+      "label": "FR_Understorey_069_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        43.071295468769385,
+        43.152296066308665,
+        -2.3264196192166855
+      ],
+      "scale": 0.7844104238747664
+    },
+    {
+      "label": "FR_Understorey_069_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        43.783575405010126,
+        42.421612436642825,
+        -2.1536391248783184
+      ],
+      "scale": 0.7312357018492484
+    },
+    {
+      "label": "FR_Understorey_070_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        48.281090604172135,
+        44.225754505422664,
+        -2.8331319700030506
+      ],
+      "scale": 0.7221385688824106
+    },
+    {
+      "label": "FR_Understorey_071_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -27.5795574299257,
+        -44.48432622851477,
+        0.03666997890462881
+      ],
+      "scale": 0.7765630742277815
+    },
+    {
+      "label": "FR_Understorey_072_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "local": [
+        -20.965351033862245,
+        -48.99193657052863,
+        0.18120361954197506
+      ],
+      "scale": 0.9132173194612869
+    },
+    {
+      "label": "FR_Understorey_072_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -20.267308265035464,
+        -50.284530200044756,
+        -0.18920051896333462
+      ],
+      "scale": 0.7326743023190572
+    },
+    {
+      "label": "FR_Understorey_073_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -33.79034812891899,
+        -40.53942124440451,
+        0.006330149741061177
+      ],
+      "scale": 0.8925551102094189
+    },
+    {
+      "label": "FR_Understorey_074_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -35.12703545236472,
+        -30.363862822308967,
+        0.5761021775965309
+      ],
+      "scale": 1.0939345364859594
+    },
+    {
+      "label": "FR_Understorey_075_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -34.41193316026627,
+        -35.20107992116078,
+        1.0728282681943528
+      ],
+      "scale": 0.852683753661883
+    },
+    {
+      "label": "FR_Understorey_075_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -34.30674089689135,
+        -35.884917622681805,
+        1.171172284460954
+      ],
+      "scale": 0.8621216594997576
+    },
+    {
+      "label": "FR_Understorey_076_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -32.32737635443154,
+        -30.75345981256607,
+        0.9115042062388238
+      ],
+      "scale": 1.0879332414897958
+    },
+    {
+      "label": "FR_Understorey_077_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -18.32712551372286,
+        -31.00364643637746,
+        1.39370741555309
+      ],
+      "scale": 1.0177578412344659
+    },
+    {
+      "label": "FR_Understorey_078_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -28.406831296449162,
+        -33.61845775279175,
+        -0.06856673201002195
+      ],
+      "scale": 0.8292862133915463
+    },
+    {
+      "label": "FR_Understorey_078_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -29.157132755237107,
+        -35.01384795901533,
+        0.3407478127860304
+      ],
+      "scale": 0.9284723023815259
+    },
+    {
+      "label": "FR_Understorey_079_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -31.981920868073647,
+        -24.998228407170846,
+        1.3765578223491683
+      ],
+      "scale": 0.8594022324644106
+    },
+    {
+      "label": "FR_Understorey_080_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -36.94755196638296,
+        -24.470915928814428,
+        0.5925118358182226
+      ],
+      "scale": 0.848088719513257
+    },
+    {
+      "label": "FR_Understorey_081_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Goat_Willow/Tree_Goat_Willow_01/SK_Goat_Willow_01_D",
+      "local": [
+        -27.919736912188963,
+        -22.761481628269156,
+        -0.299751257467633
+      ],
+      "scale": 1.0294886277049153
+    },
+    {
+      "label": "FR_Understorey_081_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -27.9021456346145,
+        -22.09845703842122,
+        -0.4102483677285454
+      ],
+      "scale": 0.8936120652267301
+    },
+    {
+      "label": "FR_Understorey_082_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -23.270182259304637,
+        -29.25910550926852,
+        0.3543921907218282
+      ],
+      "scale": 1.113435979627876
+    },
+    {
+      "label": "FR_Understorey_083_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -23.483442492478936,
+        -15.337340564752303,
+        -0.4366323986104726
+      ],
+      "scale": 1.018168286459504
+    },
+    {
+      "label": "FR_Understorey_084_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -21.997071704957417,
+        -18.980690090802273,
+        -0.4344937767582087
+      ],
+      "scale": 1.0866585862863212
+    },
+    {
+      "label": "FR_Understorey_084_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -23.15951736147166,
+        -18.821442831733258,
+        -0.43163741356176616
+      ],
+      "scale": 1.0952394534203553
+    },
+    {
+      "label": "FR_Understorey_085_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -13.705934667037145,
+        -23.261891058459042,
+        0.11971016693814818
+      ],
+      "scale": 0.9106232909276114
+    },
+    {
+      "label": "FR_Understorey_086_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -19.44831650853863,
+        -14.574089523211587,
+        -0.4278231738906834
+      ],
+      "scale": 0.8370525248827947
+    },
+    {
+      "label": "FR_Understorey_087_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -22.388172948892972,
+        -12.640598895783878,
+        -0.3671319986015806
+      ],
+      "scale": 0.975434197986729
+    },
+    {
+      "label": "FR_Understorey_087_1",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_D",
+      "local": [
+        -23.646196648004697,
+        -11.219617179489068,
+        -0.3633276571349961
+      ],
+      "scale": 1.1145437738396655
+    },
+    {
+      "label": "FR_Understorey_088_0",
+      "mesh": "/Game/Megaplant_Library/Tree_Common_Hazel/Tree_Common_Hazel_01/SK_Common_Hazel_01_C",
+      "local": [
+        -6.3307245871812485,
+        -24.417250920030256,
+        0.6669126514651907
+      ],
+      "scale": 0.8544333293191321
+    }
+  ],
+  "foliage_counts": {
+    "FT_Woodland_Grass_A": 937,
+    "FT_Woodland_Grass_B": 956,
+    "FT_Woodland_Grass_C": 898,
+    "FT_Woodland_Grass_D": 894,
+    "FT_Woodland_Stone_A": 41,
+    "FT_Woodland_Stone_B": 39,
+    "FT_Woodland_Stone_C": 43,
+    "FT_Woodland_Stone_D": 57
+  },
+  "trees": [
+    {
+      "label": "FR_Slope_Tree_00",
+      "local": [
+        -41.0,
+        18.0,
+        -1.3071007980757896
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_01",
+      "local": [
+        -31.0,
+        26.0,
+        -3.4788727878865213
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_02",
+      "local": [
+        -19.0,
+        24.0,
+        -3.17293791406677
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_03",
+      "local": [
+        -28.0,
+        38.0,
+        -7.908150910042532
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_04",
+      "local": [
+        -48.0,
+        33.0,
+        -5.051837230512174
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_05",
+      "local": [
+        -37.0,
+        43.0,
+        -9.64299944084074
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_07",
+      "local": [
+        17.0,
+        37.0,
+        -6.444086479857524
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_08",
+      "local": [
+        29.0,
+        43.0,
+        -3.4910486257415143
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_09",
+      "local": [
+        41.0,
+        48.0,
+        -3.784665298662385
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_10",
+      "local": [
+        55.0,
+        42.0,
+        -2.2825572451596234
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_11",
+      "local": [
+        -50.0,
+        -18.0,
+        -32.448231225400875
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_12",
+      "local": [
+        -47.0,
+        -4.0,
+        -18.222849266067886
+      ]
+    },
+    {
+      "label": "FR_Slope_Tree_13",
+      "local": [
+        62.0,
+        3.0,
+        -1.2390968799553592
+      ]
+    },
+    {
+      "label": "FR_Black_Alder_045_2",
+      "local": [
+        -31.5187134853506,
+        -32.775869917268686,
+        1.001547543350316
+      ],
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_D"
+    },
+    {
+      "label": "FR_Black_Alder_052_0",
+      "local": [
+        -16.19539795149176,
+        -28.423337963264693,
+        1.6432733099507277
+      ],
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_C"
+    },
+    {
+      "label": "FR_Black_Alder_066_2",
+      "local": [
+        -32.4255456450145,
+        -20.664138343552878,
+        -4.205866934664282
+      ],
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_B"
+    },
+    {
+      "label": "FR_Black_Alder_073_0",
+      "local": [
+        -20.76056138466942,
+        -34.048092312128176,
+        0.5609992574413082
+      ],
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_B"
+    },
+    {
+      "label": "FR_Black_Alder_073_2",
+      "local": [
+        -26.37099468718072,
+        -17.722187005452653,
+        -0.8062021405016822
+      ],
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_D"
+    },
+    {
+      "label": "FR_Black_Alder_080_0",
+      "local": [
+        -15.17554880542848,
+        -32.1373831460403,
+        0.9492157313836833
+      ],
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_D"
+    },
+    {
+      "label": "FR_Black_Alder_080_2",
+      "local": [
+        -24.33083395539528,
+        -14.797514868249783,
+        -0.39111880161395673
+      ],
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_B"
+    },
+    {
+      "label": "FR_Black_Alder_087_0",
+      "local": [
+        -13.235163276719831,
+        -27.070625778433385,
+        1.1264404069209013
+      ],
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_D"
+    },
+    {
+      "label": "FR_Black_Alder_094_0",
+      "local": [
+        -9.72219961962357,
+        -24.78295127906904,
+        0.6671280910327915
+      ],
+      "mesh": "/Game/Megaplant_Library/Tree_Black_Alder/Tree_Black_Alder_01/SK_Black_Alder_01_C"
+    }
+  ],
+  "saved": true
+}

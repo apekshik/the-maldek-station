@@ -1,0 +1,1468 @@
+[
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Jungle_Rocks/SM_Jungle_Rock_1.SM_Jungle_Rock_1",
+    "origin": [
+      -8.32000732421875,
+      4.66845703125,
+      365.81195068359375
+    ],
+    "extent": [
+      225.33099365234375,
+      360.84747314453125,
+      365.6880187988281
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ],
+    "exported": true
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Jungle_Rocks/SM_Jungle_Rock_2.SM_Jungle_Rock_2",
+    "origin": [
+      16.67999267578125,
+      -7.32598876953125,
+      158.56442260742188
+    ],
+    "extent": [
+      458.864013671875,
+      331.08502197265625,
+      159.28756713867188
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Jungle_Rocks/SM_Jungle_Rock_3.SM_Jungle_Rock_3",
+    "origin": [
+      6.740997314453125,
+      -25.8060302734375,
+      524.3370971679688
+    ],
+    "extent": [
+      470.7510070800781,
+      339.8420104980469,
+      524.452880859375
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Jungle_Rocks/SM_Jungle_Rock_4.SM_Jungle_Rock_4",
+    "origin": [
+      -16.249496459960938,
+      8.068954467773438,
+      553.1475219726562
+    ],
+    "extent": [
+      214.7755126953125,
+      215.10699462890625,
+      553.3124389648438
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Jungle_Rocks/SM_Jungle_Rock_5.SM_Jungle_Rock_5",
+    "origin": [
+      3.8310089111328125,
+      -7.193023681640625,
+      98.68096160888672
+    ],
+    "extent": [
+      171.16900634765625,
+      370.7460021972656,
+      98.72403717041016
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Jungle_Rocks/SM_Jungle_Rock_6.SM_Jungle_Rock_6",
+    "origin": [
+      -19.263992309570312,
+      -6.0050048828125,
+      103.68385314941406
+    ],
+    "extent": [
+      186.1529998779297,
+      136.37001037597656,
+      103.1761474609375
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Jungle_Rocks/SM_Jungle_Rock_7.SM_Jungle_Rock_7",
+    "origin": [
+      -16.283493041992188,
+      0.00409698486328125,
+      93.74375915527344
+    ],
+    "extent": [
+      87.48750305175781,
+      77.26439666748047,
+      94.2552490234375
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_1.SM_Rock_1",
+    "origin": [
+      13.457351684570312,
+      9.250991821289062,
+      122.77388000488281
+    ],
+    "extent": [
+      109.27265167236328,
+      112.59100341796875,
+      141.090087890625
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ],
+    "exported": true
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_10.SM_Rock_10",
+    "origin": [
+      0.9340057373046875,
+      -6.3509979248046875,
+      57.21980667114258
+    ],
+    "extent": [
+      140.81100463867188,
+      131.50100708007812,
+      61.9031982421875
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_11.SM_Rock_11",
+    "origin": [
+      8.418502807617188,
+      -1.5659942626953125,
+      61.264156341552734
+    ],
+    "extent": [
+      112.24850463867188,
+      141.94500732421875,
+      70.43083190917969
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_12.SM_Rock_12",
+    "origin": [
+      12.644554138183594,
+      16.94249725341797,
+      55.845741271972656
+    ],
+    "extent": [
+      102.45245361328125,
+      117.94049835205078,
+      66.12224578857422
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ],
+    "exported": true
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_13.SM_Rock_13",
+    "origin": [
+      -2.4844970703125,
+      3.49798583984375,
+      71.82462310791016
+    ],
+    "extent": [
+      118.90449523925781,
+      131.75299072265625,
+      77.05838012695312
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_14.SM_Rock_14",
+    "origin": [
+      34.72200012207031,
+      -0.5170135498046875,
+      51.03857421875
+    ],
+    "extent": [
+      178.17799377441406,
+      197.96798706054688,
+      60.28541946411133
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_15.SM_Rock_15",
+    "origin": [
+      2.368701934814453,
+      4.898994445800781,
+      58.80899429321289
+    ],
+    "extent": [
+      37.74970245361328,
+      33.345794677734375,
+      56.89700698852539
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_16.SM_Rock_16",
+    "origin": [
+      3.781902313232422,
+      4.614952087402344,
+      14.855082511901855
+    ],
+    "extent": [
+      48.00469970703125,
+      63.44355010986328,
+      15.638162612915039
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_17.SM_Rock_17",
+    "origin": [
+      -2.4489479064941406,
+      3.0050430297851562,
+      57.84133529663086
+    ],
+    "extent": [
+      41.33774948120117,
+      33.714447021484375,
+      60.17466735839844
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_18.SM_Rock_18",
+    "origin": [
+      -5.579898834228516,
+      1.1816463470458984,
+      66.66107177734375
+    ],
+    "extent": [
+      36.07320022583008,
+      18.811553955078125,
+      66.9433364868164
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_19.SM_Rock_19",
+    "origin": [
+      4.778299331665039,
+      -2.5257034301757812,
+      52.56132507324219
+    ],
+    "extent": [
+      24.86509895324707,
+      40.79499816894531,
+      54.09267807006836
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_2.SM_Rock_2",
+    "origin": [
+      5.506500244140625,
+      -14.735557556152344,
+      171.776611328125
+    ],
+    "extent": [
+      144.9615020751953,
+      105.533447265625,
+      186.93740844726562
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_20.SM_Rock_20",
+    "origin": [
+      -0.5203514099121094,
+      -0.6676006317138672,
+      31.080718994140625
+    ],
+    "extent": [
+      61.08694839477539,
+      21.225000381469727,
+      31.00968360900879
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ],
+    "exported": true
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_21.SM_Rock_21",
+    "origin": [
+      -3.9720001220703125,
+      -4.096107482910156,
+      48.25090026855469
+    ],
+    "extent": [
+      33.251197814941406,
+      52.36119842529297,
+      50.670494079589844
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_22.SM_Rock_22",
+    "origin": [
+      1.6356010437011719,
+      1.2537956237792969,
+      25.58355140686035
+    ],
+    "extent": [
+      40.68239974975586,
+      60.268898010253906,
+      26.14141082763672
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_23.SM_Rock_23",
+    "origin": [
+      -4.183399200439453,
+      0.7002487182617188,
+      18.359317779541016
+    ],
+    "extent": [
+      47.84659957885742,
+      60.42264938354492,
+      17.926286697387695
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_24.SM_Rock_24",
+    "origin": [
+      1.742950439453125,
+      1.8285484313964844,
+      25.296058654785156
+    ],
+    "extent": [
+      31.749549865722656,
+      50.2392463684082,
+      26.056446075439453
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_25.SM_Rock_25",
+    "origin": [
+      -4.164447784423828,
+      3.590343475341797,
+      20.11643409729004
+    ],
+    "extent": [
+      40.820350646972656,
+      57.950347900390625,
+      19.89816665649414
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_26.SM_Rock_26",
+    "origin": [
+      1.6492996215820312,
+      -6.505950927734375,
+      16.688167572021484
+    ],
+    "extent": [
+      28.579998016357422,
+      55.75054931640625,
+      16.69493293762207
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_27.SM_Rock_27",
+    "origin": [
+      -9.073001861572266,
+      1.9271469116210938,
+      22.725522994995117
+    ],
+    "extent": [
+      34.27739715576172,
+      59.362945556640625,
+      26.259878158569336
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_28.SM_Rock_28",
+    "origin": [
+      -0.5585479736328125,
+      -2.8898544311523438,
+      14.004324913024902
+    ],
+    "extent": [
+      39.98455047607422,
+      50.65534973144531,
+      16.902374267578125
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ],
+    "exported": true
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_29.SM_Rock_29",
+    "origin": [
+      -1.6874504089355469,
+      -1.4220504760742188,
+      22.493234634399414
+    ],
+    "extent": [
+      42.63254928588867,
+      56.638248443603516,
+      23.064260482788086
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_3.SM_Rock_3",
+    "origin": [
+      -10.101348876953125,
+      -8.626495361328125,
+      137.27120971679688
+    ],
+    "extent": [
+      101.24765014648438,
+      120.67350769042969,
+      142.46478271484375
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_30.SM_Rock_30",
+    "origin": [
+      1.505950927734375,
+      -0.9463539123535156,
+      25.38014030456543
+    ],
+    "extent": [
+      47.29875183105469,
+      54.677146911621094,
+      25.832860946655273
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_31.SM_Rock_31",
+    "origin": [
+      -2.4368515014648438,
+      -0.19445419311523438,
+      20.584585189819336
+    ],
+    "extent": [
+      55.86014938354492,
+      38.40094757080078,
+      20.688016891479492
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_32.SM_Rock_32",
+    "origin": [
+      9.236251831054688,
+      -5.970302581787109,
+      18.211774826049805
+    ],
+    "extent": [
+      53.997249603271484,
+      44.14290237426758,
+      18.56512451171875
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_33.SM_Rock_33",
+    "origin": [
+      -86.342041015625,
+      -0.021026611328125,
+      566.046875
+    ],
+    "extent": [
+      966.3280029296875,
+      396.3079833984375,
+      565.8829956054688
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_34.SM_Rock_34",
+    "origin": [
+      -8.748504638671875,
+      -20.18450927734375,
+      80.4124984741211
+    ],
+    "extent": [
+      206.7375030517578,
+      186.5294952392578,
+      85.45549011230469
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_35.SM_Rock_35",
+    "origin": [
+      -2.251495361328125,
+      -26.850006103515625,
+      52.001502990722656
+    ],
+    "extent": [
+      124.89950561523438,
+      131.61199951171875,
+      68.34149932861328
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_36.SM_Rock_36",
+    "origin": [
+      9.488998413085938,
+      -9.173507690429688,
+      86.05229187011719
+    ],
+    "extent": [
+      160.90899658203125,
+      183.3404998779297,
+      100.30269622802734
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_37.SM_Rock_37",
+    "origin": [
+      35.10748291015625,
+      -56.465087890625,
+      185.03443908691406
+    ],
+    "extent": [
+      679.7135009765625,
+      1386.0048828125,
+      209.83456420898438
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_38.SM_Rock_38",
+    "origin": [
+      15.84600830078125,
+      -49.2919921875,
+      159.55250549316406
+    ],
+    "extent": [
+      782.4630126953125,
+      693.0130004882812,
+      197.9625244140625
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_39.SM_Rock_39",
+    "origin": [
+      21.967010498046875,
+      31.834014892578125,
+      159.3404998779297
+    ],
+    "extent": [
+      418.29400634765625,
+      365.3280029296875,
+      159.34051513671875
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_4.SM_Rock_4",
+    "origin": [
+      -6.7760009765625,
+      2.9879913330078125,
+      166.55630493164062
+    ],
+    "extent": [
+      119.65199279785156,
+      129.9169921875,
+      178.918701171875
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ],
+    "exported": true
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_40.SM_Rock_40",
+    "origin": [
+      25.05450439453125,
+      -72.468017578125,
+      166.79251098632812
+    ],
+    "extent": [
+      326.822509765625,
+      345.6159973144531,
+      166.79251098632812
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_5.SM_Rock_5",
+    "origin": [
+      10.187995910644531,
+      4.382347106933594,
+      113.05992889404297
+    ],
+    "extent": [
+      111.38699340820312,
+      76.56254577636719,
+      108.01206970214844
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_6.SM_Rock_6",
+    "origin": [
+      0.154998779296875,
+      -13.72650146484375,
+      82.21401977539062
+    ],
+    "extent": [
+      146.7989959716797,
+      152.55450439453125,
+      90.08097076416016
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_7.SM_Rock_7",
+    "origin": [
+      -6.5510101318359375,
+      11.00299072265625,
+      50.98405075073242
+    ],
+    "extent": [
+      146.79598999023438,
+      211.4290008544922,
+      59.848941802978516
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_8.SM_Rock_8",
+    "origin": [
+      -2.7599945068359375,
+      2.5670013427734375,
+      67.5406723022461
+    ],
+    "extent": [
+      141.13800048828125,
+      148.4499969482422,
+      76.09332275390625
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ],
+    "exported": true
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_9.SM_Rock_9",
+    "origin": [
+      -13.440055847167969,
+      -3.0894927978515625,
+      55.2234001159668
+    ],
+    "extent": [
+      113.12594604492188,
+      153.14849853515625,
+      75.58060455322266
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_2.MI_Rock_2",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_1.SM_Small_Rock_1",
+    "origin": [
+      -0.060300350189208984,
+      -0.023835182189941406,
+      1.9988151788711548
+    ],
+    "extent": [
+      5.379269599914551,
+      5.906825065612793,
+      3.102674722671509
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_1.MI_Rock_1",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2.SM_Small_Rock_2",
+    "origin": [
+      0.1912250518798828,
+      -1.124159812927246,
+      2.918543815612793
+    ],
+    "extent": [
+      7.657145023345947,
+      7.317150115966797,
+      3.8003158569335938
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_1.MI_Rock_1",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ],
+    "exported": true
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_3.SM_Small_Rock_3",
+    "origin": [
+      -0.8821296691894531,
+      -1.74261474609375,
+      2.4172396659851074
+    ],
+    "extent": [
+      10.67197036743164,
+      10.647985458374023,
+      3.3039300441741943
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_1.MI_Rock_1",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_4.SM_Small_Rock_4",
+    "origin": [
+      0.5078001022338867,
+      -1.5707263946533203,
+      5.9167399406433105
+    ],
+    "extent": [
+      10.159500122070312,
+      9.888774871826172,
+      6.799260139465332
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_1.MI_Rock_1",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5.SM_Small_Rock_5",
+    "origin": [
+      -1.6819496154785156,
+      1.323399543762207,
+      0.6159812211990356
+    ],
+    "extent": [
+      17.4156494140625,
+      12.258699417114258,
+      1.5075188875198364
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_1.MI_Rock_1",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_6.SM_Small_Rock_6",
+    "origin": [
+      -1.2119998931884766,
+      -0.7718753814697266,
+      4.613945007324219
+    ],
+    "extent": [
+      11.96969985961914,
+      8.028414726257324,
+      5.4974541664123535
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_1.MI_Rock_1",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_7.SM_Small_Rock_7",
+    "origin": [
+      0.07266998291015625,
+      0.09288978576660156,
+      3.615480899810791
+    ],
+    "extent": [
+      7.588590145111084,
+      8.636590003967285,
+      4.498158931732178
+    ],
+    "materials": [
+      {
+        "path": "/Game/RockEnv_Pack/Instancials/Rock/MI_Rock_1.MI_Rock_1",
+        "scalars": {
+          "Texture UV": 2.5,
+          "Multiply Metallic": 0.25,
+          "Multiply Normal": 1.0
+        },
+        "vector_names": [
+          "Texture Tint",
+          "Texture Tint 2"
+        ]
+      }
+    ]
+  }
+]

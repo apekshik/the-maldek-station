@@ -1,0 +1,759 @@
+{
+  "source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\door_study_03\\Maldek_Digital_Door_Variants.blend",
+  "source_sha256": "be99d7295d3c50f2f4b7f0fe1818d0153096f48477a9f74b42224c331e3c183b",
+  "units": "metres",
+  "texture_tile_metres": 8,
+  "axis_forward": "-Y",
+  "axis_up": "Z",
+  "placement": "FBX scene conversion once; audited station actor yaw 180. wp(x,y,z)=(origin.x-100*x,origin.y+100*y,origin.z+100*z).",
+  "materials": {
+    "VF06_Warm_enamel": {
+      "slot": "UE_VF06_Warm_enamel",
+      "source_material": "VF06_Warm_enamel",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.10000000149011612,
+      "roughness": 0.6200000047683716,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "D01_Recess": {
+      "slot": "UE_D01_Recess",
+      "source_material": "D01_Recess",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.014000000432133675,
+        0.020999999716877937,
+        0.023000000044703484,
+        1.0
+      ],
+      "metallic": 0.30000001192092896,
+      "roughness": 0.550000011920929,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "D01_Brushed_stainless": {
+      "slot": "UE_D01_Brushed_stainless",
+      "source_material": "D01_Brushed_stainless",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.4300000071525574,
+        0.4699999988079071,
+        0.46000000834465027,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.3199999928474426,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Structural_steel": {
+      "slot": "UE_VF06_Structural_steel",
+      "source_material": "VF06_Structural_steel",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.4300000071525574,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "D01_Paint_edge_wear": {
+      "slot": "UE_D01_Paint_edge_wear",
+      "source_material": "D01_Paint_edge_wear",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.23999999463558197,
+        0.2800000011920929,
+        0.27000001072883606,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.6499999761581421,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "VF06_Petrol_paint": {
+      "slot": "UE_VF06_Petrol_paint",
+      "source_material": "VF06_Petrol_paint",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.2800000011920929,
+      "roughness": 0.550000011920929,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "D01_EPDM": {
+      "slot": "UE_D01_EPDM",
+      "source_material": "D01_EPDM",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.008999999612569809,
+        0.014000000432133675,
+        0.013000000268220901,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "D01_Frosted_glass": {
+      "slot": "UE_D01_Frosted_glass",
+      "source_material": "D01_Frosted_glass",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": true,
+      "base_color": [
+        0.7900000214576721,
+        0.8600000143051147,
+        0.8299999833106995,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.3199999928474426,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "D03_Graphite_housing": {
+      "slot": "UE_D03_Graphite_housing",
+      "source_material": "D03_Graphite_housing",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.03500000014901161,
+        0.04600000008940697,
+        0.04800000041723251,
+        1.0
+      ],
+      "metallic": 0.6499999761581421,
+      "roughness": 0.36000001430511475,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "D03_Display_lens": {
+      "slot": "UE_D03_Display_lens",
+      "source_material": "D03_Display_lens",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.012000000104308128,
+        0.03200000151991844,
+        0.026000000536441803,
+        1.0
+      ],
+      "metallic": 0.10000000149011612,
+      "roughness": 0.20000000298023224,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "D03_Key_legends": {
+      "slot": "UE_D03_Key_legends",
+      "source_material": "D03_Key_legends",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.6800000071525574,
+        0.7599999904632568,
+        0.6499999761581421,
+        1.0
+      ],
+      "metallic": 0.10000000149011612,
+      "roughness": 0.4399999976158142,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "D03_Status_red": {
+      "slot": "UE_D03_Status_red",
+      "source_material": "D03_Status_red",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.3199999928474426,
+        0.006000000052154064,
+        0.0020000000949949026,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.25,
+      "emission_color": [
+        1.0,
+        0.02500000037252903,
+        0.004999999888241291,
+        1.0
+      ],
+      "emission_strength": 0.6000000238418579
+    },
+    "D03_Keycaps": {
+      "slot": "UE_D03_Keycaps",
+      "source_material": "D03_Keycaps",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.3400000035762787,
+        0.3799999952316284,
+        0.3700000047683716,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.36000001430511475,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    }
+  },
+  "chunks": [
+    {
+      "name": "SM_StationDoor_Leaf",
+      "file": "fbx\\SM_StationDoor_Leaf.fbx",
+      "sha256": "86f674b569847be8455023a101a18a5808ee3d31628086ed599e63aca57469ba",
+      "sources": [
+        "Asset_number_plate",
+        "Boot_scuff",
+        "Boot_scuff.001",
+        "Boot_scuff.002",
+        "Boot_scuff.003",
+        "Boot_scuff.004",
+        "Boot_scuff.005",
+        "Boot_scuff.006",
+        "Boot_scuff.007",
+        "Boot_scuff.008",
+        "Boot_scuff.009",
+        "Boot_scuff.010",
+        "Boot_scuff.011",
+        "Boot_scuff.012",
+        "Boot_scuff.013",
+        "Boot_scuff.014",
+        "Boot_scuff.015",
+        "Boot_scuff.016",
+        "Boot_scuff.017",
+        "Boot_scuff.018",
+        "Boot_scuff.019",
+        "Boot_scuff.020",
+        "Boot_scuff.021",
+        "Boot_scuff.022",
+        "Boot_scuff.023",
+        "Countersunk_fastener",
+        "Countersunk_fastener.001",
+        "Countersunk_fastener.002",
+        "Countersunk_fastener.003",
+        "Countersunk_fastener.004",
+        "Countersunk_fastener.005",
+        "Countersunk_fastener.006",
+        "Countersunk_fastener.007",
+        "Countersunk_fastener.008",
+        "Countersunk_fastener.009",
+        "Countersunk_fastener.010",
+        "Countersunk_fastener.011",
+        "Countersunk_fastener.012",
+        "Countersunk_fastener.013",
+        "Countersunk_fastener.014",
+        "Countersunk_fastener.015",
+        "Countersunk_fastener.016",
+        "Countersunk_fastener.017",
+        "Countersunk_fastener.018",
+        "Countersunk_fastener.019",
+        "Countersunk_fastener.020",
+        "Countersunk_fastener.021",
+        "Countersunk_fastener.022",
+        "Countersunk_fastener.023",
+        "Door_ID",
+        "Door_ID_sub",
+        "Edge_chip",
+        "Edge_chip.001",
+        "Edge_chip.002",
+        "Edge_chip.003",
+        "Edge_chip.004",
+        "Edge_chip.005",
+        "Edge_chip.006",
+        "Edge_chip.007",
+        "Edge_chip.008",
+        "Edge_chip.009",
+        "Edge_chip.010",
+        "Edge_chip.011",
+        "Edge_chip.012",
+        "Edge_chip.013",
+        "Edge_chip.014",
+        "Edge_chip.015",
+        "Edge_chip.016",
+        "Edge_chip.017",
+        "Edge_chip.018",
+        "Edge_chip.019",
+        "Instruction_plate",
+        "Interior_enamel",
+        "Key_slot",
+        "Key_slot.001",
+        "Latch_edge_plate",
+        "Latch_tongue",
+        "Leaf_slab",
+        "Lever_return",
+        "Lever_return.001",
+        "Lever_rosette",
+        "Lever_rosette.001",
+        "Lever_spindle",
+        "Lever_spindle.001",
+        "Lock_cylinder",
+        "Lock_cylinder.001",
+        "Lock_escutcheon",
+        "Lock_escutcheon.001",
+        "Moving_hinge_knuckle",
+        "Moving_hinge_knuckle.001",
+        "Moving_hinge_knuckle.002",
+        "Moving_hinge_knuckle.003",
+        "Moving_hinge_knuckle.004",
+        "Moving_hinge_knuckle.005",
+        "Moving_hinge_knuckle.006",
+        "Moving_hinge_knuckle.007",
+        "Moving_hinge_knuckle.008",
+        "Moving_hinge_strap",
+        "Moving_hinge_strap.001",
+        "Moving_hinge_strap.002",
+        "Pull_instruction",
+        "Replaceable_kick_plate",
+        "Replaceable_kick_plate.001",
+        "Return_lever",
+        "Return_lever.001",
+        "Screw_slot",
+        "Screw_slot.001",
+        "Screw_slot.002",
+        "Screw_slot.003",
+        "Screw_slot.004",
+        "Screw_slot.005",
+        "Screw_slot.006",
+        "Screw_slot.007",
+        "Screw_slot.008",
+        "Screw_slot.009",
+        "Screw_slot.010",
+        "Screw_slot.011",
+        "Screw_slot.012",
+        "Screw_slot.013",
+        "Screw_slot.014",
+        "Screw_slot.015",
+        "Screw_slot.016",
+        "Screw_slot.017",
+        "Screw_slot.018",
+        "Screw_slot.019",
+        "Screw_slot.020",
+        "Screw_slot.021",
+        "Screw_slot.022",
+        "Screw_slot.023",
+        "Vision_bead_horizontal",
+        "Vision_bead_horizontal.001",
+        "Vision_bead_horizontal.002",
+        "Vision_bead_horizontal.003",
+        "Vision_bead_vertical",
+        "Vision_bead_vertical.001",
+        "Vision_bead_vertical.002",
+        "Vision_bead_vertical.003",
+        "Vision_gasket",
+        "Vision_gasket.001",
+        "Vision_gasket.002",
+        "Vision_gasket.003"
+      ],
+      "pivot": [
+        0.004000000189989805,
+        -0.03500000014901161,
+        0.0
+      ],
+      "bounds": [
+        [
+          -0.014000000432133675,
+          -0.06400001049041748,
+          0.03400003910064697
+        ],
+        [
+          1.3025000095367432,
+          0.1340000033378601,
+          2.3940000534057617
+        ]
+      ],
+      "material_slots": [
+        "UE_VF06_Warm_enamel",
+        "UE_D01_Recess",
+        "UE_D01_Brushed_stainless",
+        "UE_VF06_Structural_steel",
+        "UE_D01_Paint_edge_wear",
+        "UE_VF06_Petrol_paint",
+        "UE_D01_EPDM"
+      ],
+      "triangles": 32244,
+      "collision_boxes": [],
+      "collision_hulls": 0,
+      "physical_surface": "Metal",
+      "role": "thin",
+      "nanite": false,
+      "replacement_targets": []
+    },
+    {
+      "name": "SM_StationDoor_Glass",
+      "file": "fbx\\SM_StationDoor_Glass.fbx",
+      "sha256": "1aa91fb51ba5667dcaebd65f92310e66878922557d32524b0c5e139327225790",
+      "sources": [
+        "Vision_glass"
+      ],
+      "pivot": [
+        0.004000000189989805,
+        -0.03500000014901161,
+        0.0
+      ],
+      "bounds": [
+        [
+          0.14799998700618744,
+          0.03099999949336052,
+          1.3519999980926514
+        ],
+        [
+          1.1440000534057617,
+          0.039000000804662704,
+          2.2079999446868896
+        ]
+      ],
+      "material_slots": [
+        "UE_D01_Frosted_glass"
+      ],
+      "triangles": 188,
+      "collision_boxes": [],
+      "collision_hulls": 0,
+      "physical_surface": "Metal",
+      "role": "glass",
+      "nanite": false,
+      "replacement_targets": []
+    },
+    {
+      "name": "SM_StationDoor_Fixed",
+      "file": "fbx\\SM_StationDoor_Fixed.fbx",
+      "sha256": "f88265063251490d0a303aef6cca79b3095f860fbf398a15ae96cb1e85b78c23",
+      "sources": [
+        "EPDM_head_seal",
+        "EPDM_side_seal",
+        "EPDM_side_seal.001",
+        "Fixed_hinge_knuckle",
+        "Fixed_hinge_knuckle.001",
+        "Fixed_hinge_knuckle.002",
+        "Fixed_hinge_knuckle.003",
+        "Fixed_hinge_knuckle.004",
+        "Fixed_hinge_knuckle.005",
+        "Fixed_hinge_strap",
+        "Fixed_hinge_strap.001",
+        "Fixed_hinge_strap.002",
+        "Frame_stop",
+        "Frame_stop.001",
+        "Head_stop",
+        "Hinge_pin",
+        "Hinge_pin.001",
+        "Hinge_pin.002",
+        "Strike_end",
+        "Strike_end.001",
+        "Strike_side",
+        "Strike_side.001"
+      ],
+      "pivot": [
+        0.004000000189989805,
+        -0.03500000014901161,
+        0.0
+      ],
+      "bounds": [
+        [
+          -0.04450000077486038,
+          -0.014000002294778824,
+          0.03400003910064697
+        ],
+        [
+          1.3250000476837158,
+          0.07999999821186066,
+          2.4140000343322754
+        ]
+      ],
+      "material_slots": [
+        "UE_D01_EPDM",
+        "UE_D01_Brushed_stainless",
+        "UE_VF06_Structural_steel"
+      ],
+      "triangles": 5000,
+      "collision_boxes": [],
+      "collision_hulls": 0,
+      "physical_surface": "Metal",
+      "role": "thin",
+      "nanite": false,
+      "replacement_targets": []
+    },
+    {
+      "name": "SM_StationDoor_Keypad",
+      "file": "fbx\\SM_StationDoor_Keypad.fbx",
+      "sha256": "974880121e1fd695143d370821ebe9d4e0792ba750a91a6d1d78ff47809f0141",
+      "sources": [
+        "Bottom_drain_slot",
+        "Bottom_drain_slot.001",
+        "Device_label",
+        "Display_optical_bezel",
+        "Display_protective_lens",
+        "Key_legend_0",
+        "Key_legend_1",
+        "Key_legend_2",
+        "Key_legend_3",
+        "Key_legend_4",
+        "Key_legend_5",
+        "Key_legend_6",
+        "Key_legend_7",
+        "Key_legend_8",
+        "Key_legend_9",
+        "Key_legend_CLR",
+        "Key_legend_OK",
+        "Key_socket_0",
+        "Key_socket_1",
+        "Key_socket_2",
+        "Key_socket_3",
+        "Key_socket_4",
+        "Key_socket_5",
+        "Key_socket_6",
+        "Key_socket_7",
+        "Key_socket_8",
+        "Key_socket_9",
+        "Key_socket_CLR",
+        "Key_socket_OK",
+        "Rain_hood_side",
+        "Rain_hood_side.001",
+        "Rain_hood_top",
+        "Reader_EPDM_back_gasket",
+        "Reader_cast_enclosure",
+        "Reader_dark_inset",
+        "Reader_stainless_fascia",
+        "Security_screw",
+        "Security_screw.001",
+        "Security_screw.002",
+        "Security_screw.003",
+        "Security_screw_center_pin",
+        "Security_screw_center_pin.001",
+        "Security_screw_center_pin.002",
+        "Security_screw_center_pin.003",
+        "Security_screw_recess",
+        "Security_screw_recess.001",
+        "Security_screw_recess.002",
+        "Security_screw_recess.003",
+        "Status_caption",
+        "Status_indicator_bezel",
+        "Status_indicator_lens",
+        "Tactile_key_0",
+        "Tactile_key_1",
+        "Tactile_key_2",
+        "Tactile_key_3",
+        "Tactile_key_4",
+        "Tactile_key_5",
+        "Tactile_key_6",
+        "Tactile_key_7",
+        "Tactile_key_8",
+        "Tactile_key_9",
+        "Tactile_key_CLR",
+        "Tactile_key_OK",
+        "Tactile_locator"
+      ],
+      "pivot": [
+        0.004000000189989805,
+        -0.03500000014901161,
+        0.0
+      ],
+      "bounds": [
+        [
+          0.7774999737739563,
+          -0.06750001013278961,
+          0.9129999876022339
+        ],
+        [
+          0.9345000386238098,
+          0.012000000104308128,
+          1.1855000257492065
+        ]
+      ],
+      "material_slots": [
+        "UE_D01_Recess",
+        "UE_VF06_Warm_enamel",
+        "UE_D03_Graphite_housing",
+        "UE_D03_Display_lens",
+        "UE_D01_EPDM",
+        "UE_D01_Brushed_stainless",
+        "UE_D03_Key_legends",
+        "UE_D03_Status_red",
+        "UE_D03_Keycaps"
+      ],
+      "triangles": 17952,
+      "collision_boxes": [],
+      "collision_hulls": 0,
+      "physical_surface": "Metal",
+      "role": "thin",
+      "nanite": false,
+      "replacement_targets": []
+    },
+    {
+      "name": "SM_StationDoor_InteriorElectronics",
+      "file": "fbx\\SM_StationDoor_InteriorElectronics.fbx",
+      "sha256": "7163fd3c8a9ff67825bf972488732155edd7b0f1d0665495e5b427354d6872a8",
+      "sources": [
+        "Interior_battery_cover",
+        "Interior_cover_screw",
+        "Interior_cover_screw.001",
+        "Interior_cover_seam",
+        "Interior_electronics_backplate"
+      ],
+      "pivot": [
+        0.004000000189989805,
+        -0.03500000014901161,
+        0.0
+      ],
+      "bounds": [
+        [
+          0.7820000052452087,
+          0.05900000035762787,
+          0.9129999876022339
+        ],
+        [
+          0.9300000071525574,
+          0.09600000083446503,
+          1.1769999265670776
+        ]
+      ],
+      "material_slots": [
+        "UE_D03_Graphite_housing",
+        "UE_D01_Brushed_stainless",
+        "UE_D01_Recess",
+        "UE_D01_EPDM"
+      ],
+      "triangles": 940,
+      "collision_boxes": [],
+      "collision_hulls": 0,
+      "physical_surface": "Metal",
+      "role": "thin",
+      "nanite": false,
+      "replacement_targets": []
+    },
+    {
+      "name": "SM_StationDoor_ElectronicStrike",
+      "file": "fbx\\SM_StationDoor_ElectronicStrike.fbx",
+      "sha256": "3953c1871297fe410728981a2395ed1a189d99e59443b3182c350aa6e009886c",
+      "sources": [
+        "Electric_keeper_face",
+        "Electronic_strike_housing",
+        "Keeper_pivot"
+      ],
+      "pivot": [
+        0.004000000189989805,
+        -0.03500000014901161,
+        0.0
+      ],
+      "bounds": [
+        [
+          1.3010001182556152,
+          0.02250000089406967,
+          1.0049999952316284
+        ],
+        [
+          1.3325001001358032,
+          0.09399999678134918,
+          1.1950000524520874
+        ]
+      ],
+      "material_slots": [
+        "UE_D01_Brushed_stainless",
+        "UE_VF06_Structural_steel"
+      ],
+      "triangles": 660,
+      "collision_boxes": [],
+      "collision_hulls": 0,
+      "physical_surface": "Metal",
+      "role": "thin",
+      "nanite": false,
+      "replacement_targets": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "design_height_m": 45.268,
+  "rope_height_m": 42.327,
+  "buried_socket_depth_m": 6.0,
+  "base_leg_spacing_m": 12.4,
+  "top_leg_spacing_m": 8.5,
+  "passenger_lanes": 1,
+  "passenger_rope_x_m": 0,
+  "bare_return_rope_x_m": -2.35,
+  "shaft_diameter_base_m": 1.95,
+  "shaft_diameter_top_m": 0.9,
+  "sheaves_per_lane": 12,
+  "objects": 580,
+  "route_status": "standalone study - not imported",
+  "sources": [
+    {
+      "url": "https://www.leitner.com/en/products/ropeway-components/detail/leitner-line/",
+      "used": "Modular circular tubes, special twin legs, flange joints, sheave trains and catwalks"
+    },
+    {
+      "url": "https://www.doppelmayr.com/wp-content/uploads/2022/11/DM_WIR199_ENG.pdf",
+      "used": "550 mm sheave diameter as detail proportion reference"
+    }
+  ],
+  "evaluated_triangles": 41752
+}

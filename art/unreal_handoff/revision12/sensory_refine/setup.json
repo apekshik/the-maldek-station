@@ -1,0 +1,153 @@
+{
+  "success": true,
+  "pawn": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished",
+  "foot_volume": 3.5,
+  "camera": {
+    "head_bob_scale": 1.5,
+    "idle_sway_scale": 5.0,
+    "walk_sway_cm": 1.8,
+    "run_sway_cm": 3.0
+  },
+  "fixtures": [
+    {
+      "label": "R12_Sensory_Office_0_Housing",
+      "position_m": [
+        -11.0,
+        -3.0,
+        7.1
+      ],
+      "size_m": [
+        1.12,
+        0.32,
+        0.08
+      ]
+    },
+    {
+      "label": "R12_Sensory_Office_0_Panel",
+      "position_m": [
+        -11.0,
+        -3.0,
+        7.045
+      ],
+      "size_m": [
+        1.04,
+        0.24,
+        0.026
+      ]
+    },
+    {
+      "label": "R12_Sensory_Office_0_Light",
+      "position_m": [
+        -11.0,
+        -3.0,
+        7.015
+      ]
+    },
+    {
+      "label": "R12_Sensory_Office_1_Housing",
+      "position_m": [
+        -15.0,
+        -3.0,
+        7.1
+      ],
+      "size_m": [
+        1.12,
+        0.32,
+        0.08
+      ]
+    },
+    {
+      "label": "R12_Sensory_Office_1_Panel",
+      "position_m": [
+        -15.0,
+        -3.0,
+        7.045
+      ],
+      "size_m": [
+        1.04,
+        0.24,
+        0.026
+      ]
+    },
+    {
+      "label": "R12_Sensory_Office_1_Light",
+      "position_m": [
+        -15.0,
+        -3.0,
+        7.015
+      ]
+    },
+    {
+      "label": "R12_Sensory_Bridge_0_Base",
+      "position_m": [
+        11.0,
+        7.5,
+        14.135
+      ],
+      "size_m": [
+        0.2,
+        0.2,
+        0.05
+      ]
+    },
+    {
+      "label": "R12_Sensory_Bridge_0_RedLens",
+      "position_m": [
+        11.0,
+        7.5,
+        14.195
+      ],
+      "size_m": [
+        0.12,
+        0.12,
+        0.066
+      ]
+    },
+    {
+      "label": "R12_Sensory_Bridge_0_Spill",
+      "position_m": [
+        11.0,
+        7.5,
+        14.21
+      ]
+    },
+    {
+      "label": "R12_Sensory_Bridge_1_Base",
+      "position_m": [
+        13.0,
+        7.5,
+        14.135
+      ],
+      "size_m": [
+        0.2,
+        0.2,
+        0.05
+      ]
+    },
+    {
+      "label": "R12_Sensory_Bridge_1_RedLens",
+      "position_m": [
+        13.0,
+        7.5,
+        14.195
+      ],
+      "size_m": [
+        0.12,
+        0.12,
+        0.066
+      ]
+    },
+    {
+      "label": "R12_Sensory_Bridge_1_Spill",
+      "position_m": [
+        13.0,
+        7.5,
+        14.21
+      ]
+    }
+  ],
+  "existing_actor_transforms_preserved": 725,
+  "global_lighting_changed": false,
+  "office_headroom_m": 3.032,
+  "bridge_red_emission_vs_gondola": 0.15
+}

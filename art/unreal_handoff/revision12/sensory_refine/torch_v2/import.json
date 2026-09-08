@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "mesh": "/Game/MaldekRefinement/R12/Player/TorchV2/SM_Torch_Field_V2.SM_Torch_Field_V2",
+  "dimensions_cm": [
+    23.18000045816565,
+    5.7149999141693115,
+    5.714999675750732
+  ],
+  "materials": 7,
+  "held_motion_scale": 0.15000000596046448,
+  "foot_volume": 4,
+  "idle_sway_scale": 5,
+  "map_modified": false
+}

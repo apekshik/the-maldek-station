@@ -1,0 +1,537 @@
+{
+  "summary": {
+    "rocks": 44,
+    "saved": true,
+    "retired_parking_study": true
+  },
+  "placements": [
+    {
+      "label": "FR_Outcrop_00_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_28",
+      "local": [
+        -42,
+        -45,
+        0.20025792644306697
+      ],
+      "width_m": 2.347006400208775,
+      "scale": 2.316642183551863,
+      "base_burial_m": 0.1566270129218101
+    },
+    {
+      "label": "FR_Outcrop_00_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -41.79811119336283,
+        -43.98889906277122,
+        0.25291196814447203
+      ],
+      "width_m": 0.6872506388347255,
+      "scale": 1.9730835827454005,
+      "base_burial_m": 0.01189784307057562
+    },
+    {
+      "label": "FR_Outcrop_00_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        -42.2168558234822,
+        -43.81861990090434,
+        0.22029176288498986
+      ],
+      "width_m": 0.8226764767395376,
+      "scale": 5.3719530858516515,
+      "base_burial_m": 0.08166047397946385
+    },
+    {
+      "label": "FR_Outcrop_01_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_20",
+      "local": [
+        -39,
+        -34,
+        -0.6881196049990654
+      ],
+      "width_m": 1.9176031959376978,
+      "scale": 1.569568661005258,
+      "base_burial_m": 0.19468731032155484
+    },
+    {
+      "label": "FR_Outcrop_01_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -37.770935443717974,
+        -34.42808306801979,
+        0.4193061213842948
+      ],
+      "width_m": 0.8898843106944534,
+      "scale": 2.5548410212481207,
+      "base_burial_m": 0.015405884376566974
+    },
+    {
+      "label": "FR_Outcrop_01_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        -37.67727653570702,
+        -33.50980225386065,
+        0.4545628143309818
+      ],
+      "width_m": 0.7373711160639081,
+      "scale": 4.814921970367087,
+      "base_burial_m": 0.07319289725553245
+    },
+    {
+      "label": "FR_Outcrop_02_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_8",
+      "local": [
+        -21,
+        -42,
+        1.2084302948957304
+      ],
+      "width_m": 2.3219509132212313,
+      "scale": 0.7820649919012093,
+      "base_burial_m": 0.2380396953730815
+    },
+    {
+      "label": "FR_Outcrop_02_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -19.727945914632425,
+        -42.81836296433396,
+        1.2644071748106995
+      ],
+      "width_m": 0.8961878857450858,
+      "scale": 2.57293846596799,
+      "base_burial_m": 0.015515013335490949
+    },
+    {
+      "label": "FR_Outcrop_02_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        -20.236472592157256,
+        -42.30410515590916,
+        1.3803497743927133
+      ],
+      "width_m": 1.0948187955093283,
+      "scale": 7.14900130643552,
+      "base_burial_m": 0.10867385210434442
+    },
+    {
+      "label": "FR_Outcrop_03_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_12",
+      "local": [
+        -20,
+        -32,
+        0.8655380970017998
+      ],
+      "width_m": 2.5650078808295236,
+      "scale": 1.0874160770344592,
+      "base_burial_m": 0.28760957248047636
+    },
+    {
+      "label": "FR_Outcrop_03_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -21.43708792050342,
+        -32.32479824143131,
+        0.4117819332670089
+      ],
+      "width_m": 0.9808796103709899,
+      "scale": 2.816086805178122,
+      "base_burial_m": 0.016981216190804845
+    },
+    {
+      "label": "FR_Outcrop_03_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        -21.07116092351111,
+        -33.281211471928685,
+        0.5019294699374981
+      ],
+      "width_m": 0.6887624701030854,
+      "scale": 4.497514857059064,
+      "base_burial_m": 0.06836790811230457
+    },
+    {
+      "label": "FR_Outcrop_04_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_28",
+      "local": [
+        -31,
+        -14,
+        -4.80644778372503
+      ],
+      "width_m": 2.221332764981506,
+      "scale": 2.192594441414516,
+      "base_burial_m": 0.1482402074631973
+    },
+    {
+      "label": "FR_Outcrop_04_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -31.198603690919374,
+        -14.399322500824088,
+        -4.4038153797805935
+      ],
+      "width_m": 0.7898663706024879,
+      "scale": 2.267691407374966,
+      "base_burial_m": 0.013674350510736986
+    },
+    {
+      "label": "FR_Outcrop_04_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        -32.59889858746746,
+        -14.732285338982855,
+        -6.053551525028696
+      ],
+      "width_m": 0.6902682984049885,
+      "scale": 4.507347688338293,
+      "base_burial_m": 0.06851737957081787
+    },
+    {
+      "label": "FR_Outcrop_05_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_20",
+      "local": [
+        -32,
+        -3,
+        -3.0885047239261296
+      ],
+      "width_m": 1.8708003240594837,
+      "scale": 1.531260255439023,
+      "base_burial_m": 0.18993558417685563
+    },
+    {
+      "label": "FR_Outcrop_05_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -31.55368897247817,
+        -3.168704979265602,
+        -2.447931044823505
+      ],
+      "width_m": 0.7302198036019643,
+      "scale": 2.0964472419051408,
+      "base_burial_m": 0.012641735255441745
+    },
+    {
+      "label": "FR_Outcrop_05_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        -33.54451304807114,
+        -3.1082631697829406,
+        -3.84138520067774
+      ],
+      "width_m": 1.0087961273324892,
+      "scale": 6.587286281353954,
+      "base_burial_m": 0.10013507403676342
+    },
+    {
+      "label": "FR_Outcrop_06_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_8",
+      "local": [
+        -30,
+        13,
+        -0.8698516649165964
+      ],
+      "width_m": 2.173328645657485,
+      "scale": 0.7320069687893718,
+      "base_burial_m": 0.22280337013678944
+    },
+    {
+      "label": "FR_Outcrop_06_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -31.287719639593423,
+        13.884063688197543,
+        -0.7330991521920823
+      ],
+      "width_m": 0.7931560022551776,
+      "scale": 2.2771358776168666,
+      "base_burial_m": 0.01373130137982662
+    },
+    {
+      "label": "FR_Outcrop_06_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        -28.463596012841787,
+        13.79134213403999,
+        -0.8050015448332926
+      ],
+      "width_m": 0.7510804335869448,
+      "scale": 4.904441742300609,
+      "base_burial_m": 0.07455371089068649
+    },
+    {
+      "label": "FR_Outcrop_07_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_12",
+      "local": [
+        -22,
+        28,
+        -4.447680343750969
+      ],
+      "width_m": 1.7764762033610189,
+      "scale": 0.7531239176462785,
+      "base_burial_m": 0.19919297916744108
+    },
+    {
+      "label": "FR_Outcrop_07_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -22.57312101085609,
+        28.91847952452531,
+        -4.528959702203149
+      ],
+      "width_m": 1.0321076795668784,
+      "scale": 2.9631616227112647,
+      "base_burial_m": 0.017868088452043594
+    },
+    {
+      "label": "FR_Outcrop_07_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        -22.975599186331138,
+        27.331655376950565,
+        -4.032668744961667
+      ],
+      "width_m": 0.8742234913439528,
+      "scale": 5.708547302411826,
+      "base_burial_m": 0.0867771313336416
+    },
+    {
+      "label": "FR_Outcrop_08_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_28",
+      "local": [
+        16,
+        -32,
+        -3.9160518291086346
+      ],
+      "width_m": 2.012940470470306,
+      "scale": 1.9868982063514742,
+      "base_burial_m": 0.134333188461329
+    },
+    {
+      "label": "FR_Outcrop_08_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        16.05546278671242,
+        -32.821345560993,
+        -4.00964697316008
+      ],
+      "width_m": 0.6942995975985653,
+      "scale": 1.9933210100047827,
+      "base_burial_m": 0.012019876285892678
+    },
+    {
+      "label": "FR_Outcrop_08_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        17.31061045495338,
+        -32.732989102022444,
+        -3.850743500256923
+      ],
+      "width_m": 1.102170338018233,
+      "scale": 7.197005768193072,
+      "base_burial_m": 0.10940358057322737
+    },
+    {
+      "label": "FR_Outcrop_09_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_20",
+      "local": [
+        43,
+        -32,
+        -6.843866565092621
+      ],
+      "width_m": 1.913937282570846,
+      "scale": 1.5665680909463633,
+      "base_burial_m": 0.19431512340886548
+    },
+    {
+      "label": "FR_Outcrop_09_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        43.59823392754123,
+        -30.75826272209091,
+        -6.457703554055166
+      ],
+      "width_m": 0.9110559764177855,
+      "scale": 2.6156244730160365,
+      "base_burial_m": 0.01577241318292363
+    },
+    {
+      "label": "FR_Outcrop_09_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        43.970434117085496,
+        -31.31650135380915,
+        -6.65896727029161
+      ],
+      "width_m": 0.9748581601737032,
+      "scale": 6.365676483868651,
+      "base_burial_m": 0.09676632512702055
+    },
+    {
+      "label": "FR_Outcrop_10_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_8",
+      "local": [
+        54,
+        -24,
+        -5.2606148516870554
+      ],
+      "width_m": 2.550507019685784,
+      "scale": 0.8590458309591716,
+      "base_burial_m": 0.2614706067022926
+    },
+    {
+      "label": "FR_Outcrop_10_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        55.29400510429211,
+        -24.052473614150774,
+        -4.909170739840421
+      ],
+      "width_m": 1.0982357468569006,
+      "scale": 3.1530140528957693,
+      "base_burial_m": 0.01901291294942348
+    },
+    {
+      "label": "FR_Outcrop_10_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        53.3265174721,
+        -23.37785822866127,
+        -4.416008242195768
+      ],
+      "width_m": 0.9388069728704173,
+      "scale": 6.130267678149488,
+      "base_burial_m": 0.09318781385807234
+    },
+    {
+      "label": "FR_Outcrop_11_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_12",
+      "local": [
+        60,
+        8,
+        -0.25480374763280855
+      ],
+      "width_m": 2.0591105026518934,
+      "scale": 0.8729446337022745,
+      "base_burial_m": 0.23088423851791595
+    },
+    {
+      "label": "FR_Outcrop_11_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        59.4676599540054,
+        8.329148055014421,
+        0.4894254765031067
+      ],
+      "width_m": 1.128122428663792,
+      "scale": 3.2388181509696516,
+      "base_burial_m": 0.019530318143311888
+    },
+    {
+      "label": "FR_Outcrop_11_2",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_2",
+      "local": [
+        60.62085509027418,
+        9.281571958178798,
+        -0.34323001092887023
+      ],
+      "width_m": 0.987748499471648,
+      "scale": 6.4498484517407695,
+      "base_burial_m": 0.0980458453838728
+    },
+    {
+      "label": "FR_Outcrop_12_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_28",
+      "local": [
+        -43,
+        -64,
+        -1.4253861667022723
+      ],
+      "width_m": 2.2393878908922993,
+      "scale": 2.210415980508131,
+      "base_burial_m": 0.1494451127583379
+    },
+    {
+      "label": "FR_Outcrop_12_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -41.43375596367196,
+        -64.52066333002752,
+        -1.3003071241443132
+      ],
+      "width_m": 1.0236355126318353,
+      "scale": 2.9388381917164885,
+      "base_burial_m": 0.01772141632551211
+    },
+    {
+      "label": "FR_Outcrop_13_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_20",
+      "local": [
+        -46,
+        -57,
+        -1.5381311807331688
+      ],
+      "width_m": 2.1344920626616393,
+      "scale": 1.7470933798063129,
+      "base_burial_m": 0.2167072517727502
+    },
+    {
+      "label": "FR_Outcrop_13_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -46.464425557338686,
+        -57.08763025674904,
+        -1.2801042736801789
+      ],
+      "width_m": 0.8596327471133552,
+      "scale": 2.467989354503293,
+      "base_burial_m": 0.014882162264446379
+    },
+    {
+      "label": "FR_Outcrop_14_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_8",
+      "local": [
+        -44,
+        -51,
+        -1.3272691855098346
+      ],
+      "width_m": 1.5705842103579957,
+      "scale": 0.5289943558926402,
+      "base_burial_m": 0.1610117530317366
+    },
+    {
+      "label": "FR_Outcrop_14_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -45.36054655835412,
+        -52.19029990747132,
+        -1.2250637579252142
+      ],
+      "width_m": 0.7005786035121614,
+      "scale": 2.0113479171970177,
+      "base_burial_m": 0.012128579898191674
+    },
+    {
+      "label": "FR_Outcrop_15_0",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Rocks/SM_Rock_12",
+      "local": [
+        -29,
+        -65,
+        -1.1775962704959007
+      ],
+      "width_m": 1.9493115196854003,
+      "scale": 0.8263961687980714,
+      "base_burial_m": 0.21857268236800886
+    },
+    {
+      "label": "FR_Outcrop_15_1",
+      "mesh": "/Game/RockEnv_Pack/Meshes/Small_Rocks/SM_Small_Rock_5",
+      "local": [
+        -30.418611760908412,
+        -63.93521764058403,
+        -1.3345178464442178
+      ],
+      "width_m": 0.6618045092562064,
+      "scale": 1.9000282261131858,
+      "base_burial_m": 0.011457313750746836
+    }
+  ]
+}

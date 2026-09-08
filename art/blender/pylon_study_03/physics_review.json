@@ -1,0 +1,64 @@
+{
+  "purpose": "Order-of-magnitude plausibility review; no capacity approval or real-world certification",
+  "assumptions": {
+    "level_span_m": 300.0,
+    "rope_mass_kg_per_m": 12.0,
+    "horizontal_rope_tension_per_run_kN": 250.0,
+    "loaded_cabin_mass_kg": 1800.0,
+    "illustrative_dynamic_multiplier": 1.5,
+    "wind_speed_m_s": 30,
+    "steel_E_GPa": 210,
+    "steel_density_kg_m3": 7850.0,
+    "shaft_wall_base_mm": 25,
+    "shaft_wall_top_mm": 16,
+    "head_mass_kg": 12000.0
+  },
+  "results": {
+    "empty_midspan_sag_m": 5.2974,
+    "midspan_sag_with_stationary_cabin_m": 10.5948,
+    "vertical_rope_and_dynamic_cabin_reaction_kN": 97.119,
+    "steel_mass_per_leg_kg": 30784.36880889644,
+    "cases": [
+      {
+        "case": "wind_only",
+        "conservative_gravity_eccentric_moment_kNm": 447.5240006359954,
+        "base_moment_per_leg_kNm": 1548.432528855848,
+        "gross_elastic_base_stress_MPa": 24.262142841228318,
+        "first_order_tip_deflection_m": 0.09150858969625641,
+        "axial_load_per_leg_kN": 409.4141580152741,
+        "shallow_pad_eccentricity_m": 3.782068837976239,
+        "shallow_pad_middle_third_limit_m": 0.6333333333333333
+      },
+      {
+        "case": "wind_plus_assumed_20pct_rope_imbalance",
+        "conservative_gravity_eccentric_moment_kNm": 447.5240006359954,
+        "base_moment_per_leg_kNm": 2603.682528855848,
+        "gross_elastic_base_stress_MPa": 38.95122424477237,
+        "first_order_tip_deflection_m": 0.1763615351209165,
+        "axial_load_per_leg_kN": 409.4141580152741,
+        "shallow_pad_eccentricity_m": 6.359532219104919,
+        "shallow_pad_middle_third_limit_m": 0.6333333333333333
+      }
+    ]
+  },
+  "design_actions": [
+    "Keep a full base section; taper from 1.95 m diameter to 0.90 m at the crown.",
+    "Use pinned primary and secondary sheave equalizers connected to an overhead girder.",
+    "Represent concrete plinths as caps on buried foundations; shallow pads alone fail the illustrative eccentricity screen.",
+    "Provide an actual grip and articulated hanger load path; rendered clearance is not a grip strength test.",
+    "At route integration use surveyed span elevations, specified rope properties, carrier mass, wind limits and competent structural design."
+  ],
+  "not_checked": [
+    "Rope breaking strength and fatigue",
+    "Grip clamping/slip capacity",
+    "Shaft local/global buckling and fatigue",
+    "Bolted/welded connection capacities",
+    "Rock-anchor, soil and foundation capacities",
+    "Emergency braking, ice, seismic, real wind and operating limits",
+    "Geometric nonlinear response and full frame dynamics"
+  ],
+  "sources": [
+    "https://www.leitner.com/fileadmin/userdaten/00-home/Ordner-Facelift/PDF_s_Logo_neu/Strecke/The_LEITNER_Line_.pdf",
+    "https://ceae.colorado.edu/~saouma/files/Saouma-Structural-Analysis-Lecture-Notes.pdf"
+  ]
+}

@@ -32,7 +32,9 @@
 		},
 		{
 			"Name": "GaeaUnrealTools",
-			"Enabled": true
+			"Enabled": true,
+			"Optional": true,
+			"PlatformAllowList": ["Win64"]
 		},
 		{
 			"Name": "ProceduralVegetationEditor",

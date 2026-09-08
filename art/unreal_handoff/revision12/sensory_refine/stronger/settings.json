@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "before": {
+    "foot_volume": 2.0,
+    "idle_sway_scale": 2.0,
+    "gait": {
+      "head_bob_scale": 1.5,
+      "walk_sway_cm": 1.7999999523162842,
+      "run_sway_cm": 3.0,
+      "ground_height_response": 18.0
+    }
+  },
+  "foot_volume": 4.0,
+  "idle_sway_scale": 5.0,
+  "gait_preserved": {
+    "head_bob_scale": 1.5,
+    "walk_sway_cm": 1.7999999523162842,
+    "run_sway_cm": 3.0,
+    "ground_height_response": 18.0
+  }
+}
