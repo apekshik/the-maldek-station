@@ -1,0 +1,29 @@
+{
+  "phase": 8,
+  "next": 170145.625,
+  "deadline": 170219.093,
+  "checks": {
+    "empty_code_rejected": true,
+    "empty_code_has_feedback": true,
+    "entry_limit_feedback": true,
+    "entry_limit_stays_locked": true,
+    "valid_code_unlocks": true,
+    "open_before_obstruction": true,
+    "blocked_before_shut": true,
+    "blocked_stays_unlocked": true,
+    "blocked_motion_stops": true,
+    "no_false_closing_impact": true,
+    "cannot_lock_obstructed": true,
+    "clear_door_shuts_and_locks": true,
+    "bolt_engaged_after_shut": true,
+    "standard_starts_unlocked": true,
+    "inward_door_opens": true,
+    "standard_shuts_without_locking": true,
+    "standard_impact": true,
+    "standard_motion_stops": true
+  },
+  "count": 9,
+  "obstructed_angle": 61.18181610107422,
+  "success": true,
+  "error": null
+}

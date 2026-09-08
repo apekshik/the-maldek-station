@@ -32,6 +32,7 @@ public:
  UFUNCTION(BlueprintPure, Category="Door") FVector GetKeypadButtonWorldPosition(int32 Index) const;
  UFUNCTION(BlueprintCallable, Category="Door") bool TryInteract();
  UFUNCTION(BlueprintCallable, Category="Door") bool Unlock();
+ UFUNCTION(BlueprintCallable, Category="Door") bool Lock();
  UFUNCTION(BlueprintCallable, Category="Door") bool SubmitCode(const FString& Code);
  UFUNCTION(BlueprintPure, Category="Door") bool IsLocked() const { return bLocked; }
  UFUNCTION(BlueprintPure, Category="Door") float GetOpenAngle() const { return CurrentAngle; }
@@ -49,6 +50,7 @@ public:
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UCameraComponent> KeypadCamera;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") bool bHasKeypad=false;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") bool bLocked=false;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door") bool bRelockOnClose=true;
  /** Empty by default: a level designer must deliberately configure a code. */
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") FString AccessCode;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door") float OpenAngle=105.f;
@@ -61,8 +63,16 @@ public:
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> UnlatchSound;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> MovementSound;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> CloseSound;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> UnlockSound;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> LockSound;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> ClosingMovementSound;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Audio", meta=(ClampMin="0",ClampMax="4")) float KeypadVolume=1.6f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Audio", meta=(ClampMin="0",ClampMax="4")) float DoorVolume=1.3f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Audio", meta=(ClampMin="0",ClampMax="4")) float MovementVolume=1.2f;
  UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> EventAudio;
  UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> MotionAudio;
+ UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> KeypadAudio;
+ UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> LockAudio;
 private:
  TSharedPtr<SWidget> HintWidget;
  TSharedPtr<STextBlock> HintAction,HintDetail;
@@ -74,6 +84,7 @@ private:
  bool bObstructed=false;
  bool bEnteringCode=false;
  bool bCodeRejected=false;
+ FTimerHandle LockSoundTimer;
  FString EnteredCode;
  float KeypadBlendRemaining=0;
  TWeakObjectPtr<APlayerController> KeypadController;

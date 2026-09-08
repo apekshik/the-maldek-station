@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "doors": [
+    {
+      "label": "R12_Door_Control_front",
+      "keypad": true,
+      "relock_on_close": true
+    },
+    {
+      "label": "R12_Door_Control_side",
+      "keypad": false,
+      "relock_on_close": true
+    },
+    {
+      "label": "R12_Door_Quarters",
+      "keypad": false,
+      "relock_on_close": true
+    },
+    {
+      "label": "R12_Door_Hall_north",
+      "keypad": false,
+      "relock_on_close": true
+    },
+    {
+      "label": "R12_Door_Hall_south",
+      "keypad": false,
+      "relock_on_close": true
+    },
+    {
+      "label": "R12_Door_Generator_south",
+      "keypad": false,
+      "relock_on_close": true
+    },
+    {
+      "label": "R12_Door_Generator_west",
+      "keypad": false,
+      "relock_on_close": true
+    },
+    {
+      "label": "R12_Door_Workshop_shared",
+      "keypad": false,
+      "relock_on_close": true
+    },
+    {
+      "label": "R12_Door_Relay_north",
+      "keypad": true,
+      "relock_on_close": true
+    },
+    {
+      "label": "R12_Door_Relay_south",
+      "keypad": true,
+      "relock_on_close": true
+    }
+  ],
+  "preserved_transforms": 871,
+  "sounds": {
+    "button_sound": "/Game/MaldekRefinement/R12/Doors/Audio/KeyPress.KeyPress",
+    "clear_sound": "/Game/MaldekRefinement/R12/Doors/Audio/KeyClear.KeyClear",
+    "confirm_sound": "/Game/MaldekRefinement/R12/Doors/Audio/KeyConfirm.KeyConfirm",
+    "reject_sound": "/Game/MaldekRefinement/R12/Doors/Audio/KeyReject.KeyReject",
+    "unlatch_sound": "/Game/MaldekRefinement/R12/Doors/Audio/DoorUnlatch.DoorUnlatch",
+    "movement_sound": "/Game/MaldekRefinement/R12/Doors/Audio/DoorMovement.DoorMovement",
+    "closing_movement_sound": "/Game/MaldekRefinement/R12/Doors/Audio/DoorClosingMovement.DoorClosingMovement",
+    "close_sound": "/Game/MaldekRefinement/R12/Doors/Audio/DoorClose.DoorClose",
+    "unlock_sound": "/Game/MaldekRefinement/R12/Doors/Audio/DoorUnlock.DoorUnlock",
+    "lock_sound": "/Game/MaldekRefinement/R12/Doors/Audio/DoorLock.DoorLock"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "KeyPress": {
+    "old_peak": 0.1307861328125,
+    "new_peak": 0.6720214843750001,
+    "rms_change_db": 20.690195747368655,
+    "peak_change_db": 14.216429183342672
+  },
+  "KeyClear": {
+    "old_peak": 0.16953125000000002,
+    "new_peak": 0.67197265625,
+    "rms_change_db": 18.597157447404683,
+    "peak_change_db": 11.962036740118387
+  },
+  "KeyConfirm": {
+    "old_peak": 0.14777832031250002,
+    "new_peak": 0.5759765625000001,
+    "rms_change_db": 13.253732132558003,
+    "peak_change_db": 11.815881712623792
+  },
+  "KeyReject": {
+    "old_peak": 0.16145019531250002,
+    "new_peak": 0.5759765625000001,
+    "rms_change_db": 15.693282443605874,
+    "peak_change_db": 11.0473247367952
+  },
+  "DoorUnlatch": {
+    "old_peak": 0.322540283203125,
+    "new_peak": 0.65,
+    "rms_change_db": -1.87938368478605,
+    "peak_change_db": 6.0865878740333725
+  },
+  "DoorMovement": {
+    "old_peak": 0.10230407714843749,
+    "new_peak": 0.456005859375,
+    "rms_change_db": 10.533997263256946,
+    "peak_change_db": 12.98154962002476
+  },
+  "DoorClose": {
+    "old_peak": 0.61688232421875,
+    "new_peak": 0.7150238037109375,
+    "rms_change_db": 0.11425293591063984,
+    "peak_change_db": 1.2823634729061473
+  }
+}

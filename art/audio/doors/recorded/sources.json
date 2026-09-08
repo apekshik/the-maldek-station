@@ -1,0 +1,62 @@
+[
+  {
+    "author": "Mihacappy",
+    "id": 828113,
+    "page": "https://freesound.org/people/Mihacappy/sounds/828113/",
+    "download": "https://cdn.freesound.org/previews/828/828113_10594370-hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "originals/828113.mp3",
+    "sha256": "68d90a70c7f2e84cc179286ce7c4095b0579cdeec7cb1931e21d5f4e4a1611ce"
+  },
+  {
+    "author": "giddster",
+    "id": 336660,
+    "page": "https://freesound.org/people/giddster/sounds/336660/",
+    "download": "https://cdn.freesound.org/previews/336/336660_1738686-hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "originals/336660.mp3",
+    "sha256": "6feb6c980dc66876342a8c7eb26e463b90badba4648d97f45f0e18f8bd94cb52"
+  },
+  {
+    "author": "qubodup",
+    "id": 167848,
+    "page": "https://freesound.org/people/qubodup/sounds/167848/",
+    "download": "https://cdn.freesound.org/previews/167/167848_71257-hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "originals/167848.mp3",
+    "sha256": "1055b60754c24823dc6f0698e89604a87289adc51e3066dc8fb1f00d8554aa12"
+  },
+  {
+    "author": "wlabarron",
+    "id": 494128,
+    "page": "https://freesound.org/people/wlabarron/sounds/494128/",
+    "download": "https://cdn.freesound.org/previews/494/494128_3782735-hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "originals/494128.mp3",
+    "sha256": "d25a89a4a90352893e58b191b8146dc580ea4afc2886d64df7389f7b16a3d64b"
+  },
+  {
+    "author": "MathewHenry",
+    "id": 700682,
+    "page": "https://freesound.org/people/MathewHenry/sounds/700682/",
+    "download": "https://cdn.freesound.org/previews/700/700682_5544184-hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "originals/700682.mp3",
+    "sha256": "2e1d9a96445c4e1d04c0aad814509df699b4ff66b8301d5e42534fa2d3ae4f43"
+  },
+  {
+    "author": "MathewHenry",
+    "id": 700705,
+    "page": "https://freesound.org/people/MathewHenry/sounds/700705/",
+    "download": "https://cdn.freesound.org/previews/700/700705_5544184-hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "originals/700705.mp3",
+    "sha256": "ffd7a24e3f7fceb3a22f3741611224cedae9fa72e0079521774ee5b07ceb81c7"
+  }
+]

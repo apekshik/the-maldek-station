@@ -1,6 +1,7 @@
 #include "StationDoor.h"
 #include "Components/AudioComponent.h"
 #include "Sound/SoundBase.h"
+#include "TimerManager.h"
 #include "Engine/GameViewportClient.h"
 #include "Widgets/Layout/SBorder.h"
 #include "Widgets/Layout/SBox.h"
@@ -42,12 +43,16 @@ AStationDoor::AStationDoor()
  LeafCollision->SetCollisionProfileName(TEXT("BlockAllDynamic"));LeafCollision->SetGenerateOverlapEvents(false);
   EventAudio=CreateDefaultSubobject<UAudioComponent>(TEXT("DoorEventAudio"));EventAudio->SetupAttachment(Hinge);
  MotionAudio=CreateDefaultSubobject<UAudioComponent>(TEXT("DoorMotionAudio"));MotionAudio->SetupAttachment(Hinge);
- for(UAudioComponent* Audio:{EventAudio.Get(),MotionAudio.Get()})
+ KeypadAudio=CreateDefaultSubobject<UAudioComponent>(TEXT("DoorKeypadAudio"));KeypadAudio->SetupAttachment(Hinge);
+ LockAudio=CreateDefaultSubobject<UAudioComponent>(TEXT("DoorLockAudio"));LockAudio->SetupAttachment(DoorRoot);
+ for(UAudioComponent* Audio:{EventAudio.Get(),MotionAudio.Get(),KeypadAudio.Get(),LockAudio.Get()})
  {
   Audio->bAutoActivate=false;Audio->bOverrideAttenuation=true;Audio->AttenuationOverrides.bAttenuate=true;Audio->AttenuationOverrides.bSpatialize=true;
   Audio->AttenuationOverrides.AttenuationShapeExtents=FVector(100,0,0);Audio->AttenuationOverrides.FalloffDistance=1100;Audio->SetRelativeLocation(FVector(85.6,5,110));
  }
- MotionAudio->SetVolumeMultiplier(.7f);
+ // A fast next digit must not truncate the previous recorded click or feedback tail.
+ KeypadAudio->bCanPlayMultipleInstances=true;
+ MotionAudio->SetVolumeMultiplier(MovementVolume);
  Prompt=CreateDefaultSubobject<UTextRenderComponent>(TEXT("Prompt"));Prompt->SetupAttachment(DoorRoot);
  Prompt->SetHorizontalAlignment(EHTA_Center);Prompt->SetVerticalAlignment(EVRTA_TextCenter);
  Prompt->SetWorldSize(3.f);Prompt->SetTextRenderColor(FColor(223,219,192));Prompt->SetVisibility(false);Prompt->SetCollisionEnabled(ECollisionEnabled::NoCollision);
@@ -76,7 +81,16 @@ void AStationDoor::BeginPlay()
 bool AStationDoor::Unlock()
 {
  if(!bHasKeypad || !bLocked)return false;
- bLocked=false;EndKeypadInteraction(true);EnteredCode.Empty();RefreshLockVisuals();return true;
+ GetWorldTimerManager().ClearTimer(LockSoundTimer);
+ bLocked=false;PlayDoorSound(UnlockSound);EndKeypadInteraction(true);EnteredCode.Empty();RefreshLockVisuals();return true;
+}
+bool AStationDoor::Lock()
+{
+ if(!bHasKeypad || bLocked || !FMath::IsNearlyZero(CurrentAngle,.01f) || !FMath::IsNearlyZero(TargetAngle,.01f))return false;
+ bLocked=true;EndKeypadInteraction(true);EnteredCode.Empty();RefreshLockVisuals();
+ // Let the closing impact speak first, then hear the bolt engage in the fixed strike.
+ GetWorldTimerManager().SetTimer(LockSoundTimer,[this](){if(bLocked)PlayDoorSound(LockSound);},.18f,false);
+ return true;
 }
 bool AStationDoor::SubmitCode(const FString& Code)
 {
@@ -87,7 +101,7 @@ bool AStationDoor::SubmitCode(const FString& Code)
 bool AStationDoor::TryInteract()
 {
  if(bLocked){BeginKeypadInteraction(UGameplayStatics::GetPlayerController(this,0));return false;}
- TargetAngle=FMath::IsNearlyZero(TargetAngle)?OpenAngle:0.f;if(TargetAngle!=0 && FMath::IsNearlyZero(CurrentAngle))PlayDoorSound(UnlatchSound);bObstructed=false;return true;
+ TargetAngle=FMath::IsNearlyZero(TargetAngle)?OpenAngle:0.f;bObstructed=false;return true;
 }
 bool AStationDoor::HasFocus(APlayerController* PC) const
 {
@@ -159,10 +173,16 @@ void AStationDoor::Tick(float Dt)
    CurrentAngle=A;Hinge->SetRelativeRotation(FRotator(0,CurrentAngle,0));
   }
  }
- const bool bMoving=!FMath::IsNearlyEqual(PreviousAngle,CurrentAngle,.001f) && !FMath::IsNearlyEqual(CurrentAngle,TargetAngle,.01f);
- if(bMoving && MovementSound && !MotionAudio->IsPlaying()){MotionAudio->SetSound(MovementSound);MotionAudio->FadeIn(.06f,.7f);}
+ const bool bMoving=!FMath::IsNearlyEqual(PreviousAngle,CurrentAngle,.001f);
+ const bool bClosing=FMath::Abs(CurrentAngle)<FMath::Abs(PreviousAngle);
+ USoundBase* TravelSound=bClosing && ClosingMovementSound?ClosingMovementSound.Get():MovementSound.Get();
+ if(bMoving && FMath::IsNearlyZero(PreviousAngle,.01f))PlayDoorSound(UnlatchSound);
+ if(bMoving && TravelSound && (!MotionAudio->IsPlaying() || MotionAudio->Sound!=TravelSound)){MotionAudio->Stop();MotionAudio->SetSound(TravelSound);MotionAudio->FadeIn(.035f,MovementVolume);}
  else if(!bMoving && MotionAudio->IsPlaying())MotionAudio->Stop();
- if(FMath::Abs(PreviousAngle)>.01f && FMath::IsNearlyZero(CurrentAngle,.01f) && FMath::IsNearlyZero(TargetAngle))PlayDoorSound(CloseSound);
+ if(FMath::Abs(PreviousAngle)>.01f && FMath::IsNearlyZero(CurrentAngle,.01f) && FMath::IsNearlyZero(TargetAngle))
+ {
+  MotionAudio->Stop();PlayDoorSound(CloseSound);if(bRelockOnClose)Lock();
+ }
 }
 FVector AStationDoor::GetKeypadButtonWorldPosition(int32 Index) const
 {
@@ -200,10 +220,11 @@ bool AStationDoor::BeginKeypadInteraction(APlayerController* PC)
 void AStationDoor::PressKeypadButton(int32 Index)
 {
  if(!bEnteringCode || Index<0 || Index>=12)return;
- if(Index==11){SubmitCode(EnteredCode);return;}
+ if(Index==11){PlayDoorSound(ButtonSound,true);SubmitCode(EnteredCode);return;}
  bCodeRejected=false;
  if(Index==9){PlayDoorSound(ClearSound,true);EnteredCode.Empty();}
  else if(EnteredCode.Len()<8){PlayDoorSound(ButtonSound,true);EnteredCode+=FString::FromInt(Index==10?0:Index+1);}
+ else {PlayDoorSound(RejectSound,true);bCodeRejected=true;FeedbackSeconds=.6f;}
 }
 void AStationDoor::CancelKeypadInteraction()
 {
@@ -229,15 +250,17 @@ void AStationDoor::EndKeypadInteraction(bool bBlend)
 }
 void AStationDoor::EndPlay(const EEndPlayReason::Type Reason)
 {
- EndKeypadInteraction(false);if(HintWidget.IsValid() && GetWorld() && GetWorld()->GetGameViewport())GetWorld()->GetGameViewport()->RemoveViewportWidgetContent(HintWidget.ToSharedRef());HintWidget.Reset();MotionAudio->Stop();EventAudio->Stop();Super::EndPlay(Reason);
+ GetWorldTimerManager().ClearTimer(LockSoundTimer);
+ EndKeypadInteraction(false);if(HintWidget.IsValid() && GetWorld() && GetWorld()->GetGameViewport())GetWorld()->GetGameViewport()->RemoveViewportWidgetContent(HintWidget.ToSharedRef());HintWidget.Reset();MotionAudio->Stop();EventAudio->Stop();KeypadAudio->Stop();LockAudio->Stop();Super::EndPlay(Reason);
 }
 
 
 void AStationDoor::PlayDoorSound(USoundBase* Sound,bool bKeypad)
 {
  if(!Sound)return;
- EventAudio->SetRelativeLocation(bKeypad?FVector(85.6,5,105):FVector(111,0,112));EventAudio->SetSound(Sound);
- EventAudio->SetVolumeMultiplier(bKeypad?.8f:1.f);EventAudio->SetPitchMultiplier(bKeypad?1.f:FMath::FRandRange(.97f,1.03f));EventAudio->Play();
+ UAudioComponent* Audio=bKeypad?KeypadAudio.Get():(Sound==UnlockSound || Sound==LockSound?LockAudio.Get():EventAudio.Get());
+ Audio->SetRelativeLocation(bKeypad?FVector(85.6,5,105):FVector(111,0,112));Audio->SetSound(Sound);
+ Audio->SetVolumeMultiplier(bKeypad?KeypadVolume:DoorVolume);Audio->SetPitchMultiplier(1.f);Audio->Play();
 }
 void AStationDoor::ShowDoorHint(bool bVisible,const FString& Action,const FString& Detail)
 {

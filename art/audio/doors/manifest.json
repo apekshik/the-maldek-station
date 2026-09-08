@@ -1,41 +1,152 @@
 {
-  "provenance": "Original deterministic synthesized sound design, not field recordings. No external samples.",
-  "sample_rate": 48000,
-  "assets": {
-    "KeyPress": {
-      "seconds": 0.14,
-      "peak": 0.1635013986117292,
-      "rms": 0.03133661500513823
-    },
-    "KeyClear": {
-      "seconds": 0.24,
-      "peak": 0.21192691521073853,
-      "rms": 0.035241239313944746
-    },
-    "KeyConfirm": {
-      "seconds": 0.32,
-      "peak": 0.18472870287337803,
-      "rms": 0.035685306139697434
-    },
-    "KeyReject": {
-      "seconds": 0.38,
-      "peak": 0.20183044631913383,
-      "rms": 0.03996268826257468
-    },
-    "DoorUnlatch": {
-      "seconds": 0.4,
-      "peak": 0.32256139594681105,
-      "rms": 0.047580729250362254
-    },
-    "DoorClose": {
-      "seconds": 0.65,
-      "peak": 0.6169021475644557,
-      "rms": 0.07601308281107169
-    },
-    "DoorMovement": {
-      "seconds": 1.0,
-      "peak": 0.14616741000718222,
-      "rms": 0.03592561114428396
-    }
+  "KeyPress": {
+    "source_id": 828113,
+    "source_url": "https://freesound.org/people/Mihacappy/sounds/828113/",
+    "excerpt_seconds": [
+      0.135,
+      0.255
+    ],
+    "seconds": 0.12,
+    "peak": 0.42,
+    "rms": 0.16958924061410172,
+    "gain_db": 14.235094895610015,
+    "highpass_hz": 350,
+    "loop": false,
+    "edits": "Excerpt, mono/48kHz, high-pass, DC removal, constant gain, fades or circular seam crossfade; original pitch."
+  },
+  "KeyClear": {
+    "source_id": 828113,
+    "source_url": "https://freesound.org/people/Mihacappy/sounds/828113/",
+    "excerpt_seconds": [
+      0.75,
+      0.905
+    ],
+    "seconds": 0.155,
+    "peak": 0.42,
+    "rms": 0.14988152070868505,
+    "gain_db": 9.380006198095598,
+    "highpass_hz": 350,
+    "loop": false,
+    "edits": "Excerpt, mono/48kHz, high-pass, DC removal, constant gain, fades or circular seam crossfade; original pitch."
+  },
+  "KeyConfirm": {
+    "source_id": 828113,
+    "source_url": "https://freesound.org/people/Mihacappy/sounds/828113/",
+    "excerpt_seconds": [
+      16.28,
+      16.67
+    ],
+    "seconds": 0.39,
+    "peak": 0.36,
+    "rms": 0.0820383741023061,
+    "gain_db": 16.929083326557198,
+    "highpass_hz": 500,
+    "loop": false,
+    "edits": "Excerpt, mono/48kHz, high-pass, DC removal, constant gain, fades or circular seam crossfade; original pitch."
+  },
+  "KeyReject": {
+    "source_id": 167848,
+    "source_url": "https://freesound.org/people/qubodup/sounds/167848/",
+    "excerpt_seconds": [
+      1.49,
+      2.03
+    ],
+    "seconds": 0.5399791666666667,
+    "peak": 0.36,
+    "rms": 0.12166857966658641,
+    "gain_db": -1.6600012302833216,
+    "highpass_hz": 350,
+    "loop": false,
+    "edits": "Excerpt, mono/48kHz, high-pass, DC removal, constant gain, fades or circular seam crossfade; original pitch."
+  },
+  "DoorUnlatch": {
+    "source_id": 336660,
+    "source_url": "https://freesound.org/people/giddster/sounds/336660/",
+    "excerpt_seconds": [
+      2.535,
+      2.99
+    ],
+    "seconds": 0.455,
+    "peak": 0.5,
+    "rms": 0.02947287044970406,
+    "gain_db": -2.333646689213789,
+    "highpass_hz": 65,
+    "loop": false,
+    "edits": "Excerpt, mono/48kHz, high-pass, DC removal, constant gain, fades or circular seam crossfade; original pitch."
+  },
+  "DoorMovement": {
+    "source_id": 700682,
+    "source_url": "https://freesound.org/people/MathewHenry/sounds/700682/",
+    "excerpt_seconds": [
+      0.12,
+      1.7
+    ],
+    "seconds": 1.535,
+    "peak": 0.38,
+    "rms": 0.07044644008333346,
+    "gain_db": -1.580109759766468,
+    "highpass_hz": 85,
+    "loop": true,
+    "edits": "Excerpt, mono/48kHz, high-pass, DC removal, constant gain, fades or circular seam crossfade; original pitch."
+  },
+  "DoorClosingMovement": {
+    "source_id": 700705,
+    "source_url": "https://freesound.org/people/MathewHenry/sounds/700705/",
+    "excerpt_seconds": [
+      0.12,
+      1.68
+    ],
+    "seconds": 1.515,
+    "peak": 0.38,
+    "rms": 0.05818158955285822,
+    "gain_db": -3.5159266231517057,
+    "highpass_hz": 85,
+    "loop": true,
+    "edits": "Excerpt, mono/48kHz, high-pass, DC removal, constant gain, fades or circular seam crossfade; original pitch."
+  },
+  "DoorClose": {
+    "source_id": 336660,
+    "source_url": "https://freesound.org/people/giddster/sounds/336660/",
+    "excerpt_seconds": [
+      8.795,
+      9.67
+    ],
+    "seconds": 0.875,
+    "peak": 0.55,
+    "rms": 0.059238327518151584,
+    "gain_db": 2.4000128349539205,
+    "highpass_hz": 55,
+    "loop": false,
+    "edits": "Excerpt, mono/48kHz, high-pass, DC removal, constant gain, fades or circular seam crossfade; original pitch."
+  },
+  "DoorUnlock": {
+    "source_id": 494128,
+    "source_url": "https://freesound.org/people/wlabarron/sounds/494128/",
+    "excerpt_seconds": [
+      0.24,
+      0.691
+    ],
+    "seconds": 0.451,
+    "peak": 0.48,
+    "rms": 0.030919375062706957,
+    "gain_db": -4.793285757223128,
+    "highpass_hz": 90,
+    "loop": false,
+    "edits": "Excerpt, mono/48kHz, high-pass, DC removal, constant gain, fades or circular seam crossfade; original pitch."
+  },
+  "DoorLock": {
+    "source_id": 494128,
+    "source_url": "https://freesound.org/people/wlabarron/sounds/494128/",
+    "excerpt_seconds": [
+      0.355,
+      0.691
+    ],
+    "seconds": 0.336,
+    "peak": 0.48,
+    "rms": 0.03568454710180266,
+    "gain_db": -4.793288614259218,
+    "highpass_hz": 90,
+    "loop": false,
+    "edits": "Excerpt, mono/48kHz, high-pass, DC removal, constant gain, fades or circular seam crossfade; original pitch."
   }
 }
