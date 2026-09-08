@@ -21,7 +21,7 @@ for name in ['07_Key_cylinder_housings','08_Rotating_plugs','09_Cut_service_key'
   bm.free();e.to_mesh_clear()
 checks['evaluated_parts_closed']=not bad;details['nonmanifold_parts']=bad
 # Through-hole exists through both opaque door layers at the cylinder axis.
-for n in ['Leaf_slab','Interior_enamel']:
+for n in ['Leaf_slab','Interior_enamel']+[o.name for o in bpy.data.collections['01_Moving_leaf'].objects if o.name.startswith('Lock_escutcheon')]:
  o=bpy.data.objects[n];tree=BVHTree.FromObject(o,bpy.context.evaluated_depsgraph_get());inv=o.matrix_world.inverted();a=inv@Vector((1.15,-.1,1));b=inv@Vector((1.15,.1,1));hit=tree.ray_cast(a,(b-a).normalized(),(b-a).length)[0];checks[n+'_through_hole']=hit is None
 rows=[]
 for frame in [1,30,48,70,88,120]:

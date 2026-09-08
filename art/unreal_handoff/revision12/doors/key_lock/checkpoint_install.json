@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "label": "R12_Door_Test_Checkpoint",
+  "position": [
+    -43328.805974972965,
+    18159.307549061974,
+    10400.5
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    -180.0
+  ],
+  "shortcut": "F6",
+  "console": "StationDoorCheckpoint",
+  "scope": "PIE and non-shipping development builds; original opening spawn retained"
+}

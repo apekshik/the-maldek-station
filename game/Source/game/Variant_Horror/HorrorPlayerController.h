@@ -34,6 +34,9 @@ public:
 	/** Constructor */
 	AHorrorPlayerController();
 
+	/** Development shortcut to the placed door-testing checkpoint. */
+	UFUNCTION(Exec) void StationDoorCheckpoint();
+
 protected:
 
 	/** Input Mapping Contexts */

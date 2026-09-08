@@ -1,5 +1,5 @@
 {
-  "scope": "Blender keyed-door design and animation; game integration pending",
+  "scope": "Blender keyed-door design and animation; integrated through revision12/doors/key_lock",
   "cylinder_diameter_mm": 33,
   "plug_diameter_mm": 20.3,
   "key_blade_thickness_mm": 2,

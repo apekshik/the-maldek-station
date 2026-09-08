@@ -18,6 +18,7 @@ public:
  bool AllowsFlashlightInput() const {return !bEnableOpening || (bStarted && Elapsed>=6.0f);}
  void FlashlightToggled(bool bEnabled);
  void FocusAdjusted();
+ void SkipForTesting();
  UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Opening") bool bEnableOpening=false;
  UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Opening") TObjectPtr<USoundBase> OpeningAtmosphere;
  UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Station Atmosphere") TObjectPtr<USoundBase> StationAtmosphere;

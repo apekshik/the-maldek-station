@@ -1,5 +1,6 @@
 #include "StationDoor.h"
 #include "Components/AudioComponent.h"
+#include "Components/SpotLightComponent.h"
 #include "Components/WidgetComponent.h"
 #include "Sound/SoundBase.h"
 #include "TimerManager.h"
@@ -40,6 +41,12 @@ AStationDoor::AStationDoor()
  Leaf=Mesh(TEXT("Leaf"),Hinge);Glass=Mesh(TEXT("Glass"),Hinge);
  FixedHardware=Mesh(TEXT("FixedHardware"),DoorRoot);Keypad=Mesh(TEXT("Keypad"),Hinge);
  InteriorElectronics=Mesh(TEXT("InteriorElectronics"),Hinge);ElectronicStrike=Mesh(TEXT("ElectronicStrike"),DoorRoot);
+ KeyLockRoot=CreateDefaultSubobject<USceneComponent>(TEXT("KeyLockRoot"));KeyLockRoot->SetupAttachment(Hinge);
+ // Keep small circular lock hardware at its authored size when fitting different door widths.
+ KeyLockRoot->SetAbsolute(false,false,true);KeyLockRoot->SetRelativeLocation(FVector(114.6,-3.5,100));
+ KeyHousing=Mesh(TEXT("KeyHousing"),KeyLockRoot);KeyPlug=Mesh(TEXT("KeyPlug"),KeyLockRoot);
+ InteriorKeyPlug=Mesh(TEXT("InteriorKeyPlug"),KeyLockRoot);ServiceKey=Mesh(TEXT("ServiceKey"),KeyLockRoot);
+ KeyPlug->SetRelativeLocation(FVector(0,4.6,0));InteriorKeyPlug->SetRelativeLocation(FVector(0,-4.6,0));InteriorKeyPlug->SetRelativeRotation(FRotator(0,180,0));ServiceKey->SetVisibility(false);
  LeafCollision=CreateDefaultSubobject<UBoxComponent>(TEXT("LeafCollision"));LeafCollision->SetupAttachment(Hinge);
  LeafCollision->SetRelativeLocation(FVector(64.6,-3.5,121.4));LeafCollision->SetBoxExtent(FVector(64.4,2.25,118.0));
  LeafCollision->SetCollisionProfileName(TEXT("BlockAllDynamic"));LeafCollision->SetGenerateOverlapEvents(false);
@@ -67,18 +74,25 @@ AStationDoor::AStationDoor()
  InteractionPromptMaterial=PromptMaterial.Object;
  KeypadCamera=CreateDefaultSubobject<UCameraComponent>(TEXT("KeypadCamera"));KeypadCamera->SetupAttachment(Hinge);
  KeypadCamera->SetRelativeLocation(FVector(109.6,65,124));KeypadCamera->SetRelativeRotation((FVector(85.6,4.5,104.5)-FVector(109.6,65,124)).Rotation());KeypadCamera->SetFieldOfView(48);KeypadCamera->bConstrainAspectRatio=true;
+ // Local inspection fill keeps the small brass grip legible at unlit service doors.
+ KeyInspectionLight=CreateDefaultSubobject<USpotLightComponent>(TEXT("KeyInspectionLight"));KeyInspectionLight->SetupAttachment(KeypadCamera);
+ KeyInspectionLight->SetMobility(EComponentMobility::Movable);KeyInspectionLight->SetIntensityUnits(ELightUnits::Lumens);KeyInspectionLight->SetIntensity(.08f);
+ KeyInspectionLight->SetAttenuationRadius(120.f);KeyInspectionLight->SetInnerConeAngle(30.f);KeyInspectionLight->SetOuterConeAngle(55.f);KeyInspectionLight->SetLightColor(FLinearColor(1.f,.78f,.52f));KeyInspectionLight->SetVisibility(false);
  KeypadDisplay=CreateDefaultSubobject<UTextRenderComponent>(TEXT("KeypadDisplay"));KeypadDisplay->SetupAttachment(Hinge);
  KeypadDisplay->SetRelativeLocation(FVector(85.6,4.65,111.9));KeypadDisplay->SetRelativeRotation(FRotator(0,90,0));KeypadDisplay->SetHorizontalAlignment(EHTA_Center);KeypadDisplay->SetWorldSize(.9f);KeypadDisplay->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }
 void AStationDoor::RefreshLockVisuals()
 {
+ const bool bPhysical=bHasKeyLock && !bHasKeypad;
+ KeyLockRoot->SetRelativeLocation(FVector(114.6,LeafCollision->GetRelativeLocation().Y,100));KeyLockRoot->SetWorldScale3D(FVector::OneVector);
+ KeyHousing->SetVisibility(bPhysical);KeyPlug->SetVisibility(bPhysical);InteriorKeyPlug->SetVisibility(bPhysical);ServiceKey->SetVisibility(bPhysical && bUsingKey);
  Keypad->SetVisibility(bHasKeypad);InteriorElectronics->SetVisibility(bHasKeypad);ElectronicStrike->SetVisibility(bHasKeypad);
  KeypadDisplay->SetVisibility(bHasKeypad);KeypadDisplay->SetText(FText::FromString(bLocked?TEXT("LOCKED"):TEXT("OPEN")));KeypadDisplay->SetTextRenderColor(bLocked?FColor(160,200,170):FColor(100,230,140));
  if(StatusMaterial)StatusMaterial->SetVectorParameterValue(TEXT("StatusColor"),bLocked?FLinearColor(1,.025,.005):FLinearColor(.02,.8,.1));
 }
 void AStationDoor::OnConstruction(const FTransform& Transform)
 {
- Super::OnConstruction(Transform);if(!bHasKeypad)bLocked=false;RefreshLockVisuals();
+ Super::OnConstruction(Transform);if(!bHasKeypad && !bHasKeyLock)bLocked=false;RefreshLockVisuals();
 }
 void AStationDoor::BeginPlay()
 {
@@ -90,13 +104,13 @@ void AStationDoor::BeginPlay()
 }
 bool AStationDoor::Unlock()
 {
- if(!bHasKeypad || !bLocked)return false;
+ if((!bHasKeypad && !bHasKeyLock) || !bLocked)return false;
  GetWorldTimerManager().ClearTimer(LockSoundTimer);
  bLocked=false;PlayDoorSound(UnlockSound);EndKeypadInteraction(true);EnteredCode.Empty();RefreshLockVisuals();return true;
 }
 bool AStationDoor::Lock()
 {
- if(!bHasKeypad || bLocked || !FMath::IsNearlyZero(CurrentAngle,.01f) || !FMath::IsNearlyZero(TargetAngle,.01f))return false;
+ if((!bHasKeypad && !bHasKeyLock) || bLocked || !FMath::IsNearlyZero(CurrentAngle,.01f) || !FMath::IsNearlyZero(TargetAngle,.01f))return false;
  bLocked=true;EndKeypadInteraction(true);EnteredCode.Empty();RefreshLockVisuals();
  // Let the closing impact speak first, then hear the bolt engage in the fixed strike.
  GetWorldTimerManager().SetTimer(LockSoundTimer,[this](){if(bLocked)PlayDoorSound(LockSound);},.18f,false);
@@ -110,11 +124,12 @@ bool AStationDoor::SubmitCode(const FString& Code)
 }
 bool AStationDoor::TryInteract()
 {
+ if(bUsingKey || bEnteringCode)return false;
  if(bLocked)
  {
   APlayerController* PC=UGameplayStatics::GetPlayerController(this,0);
   if(IsInteriorSide(PC) && HasFocus(PC))Unlock();
-  else {BeginKeypadInteraction(PC);return false;}
+  else {if(bHasKeypad)BeginKeypadInteraction(PC);else BeginKeyInteraction(PC);return false;}
  }
  TargetAngle=FMath::IsNearlyZero(TargetAngle)?OpenAngle:0.f;bObstructed=false;return true;
 }
@@ -146,7 +161,8 @@ void AStationDoor::Tick(float Dt)
 {
  Super::Tick(Dt);ShowDoorHint(false);Prompt->SetVisibility(false);APlayerController* PC=UGameplayStatics::GetPlayerController(this,0);
  FeedbackSeconds=FMath::Max(0.f,FeedbackSeconds-Dt);
- if(bEnteringCode)
+ if(bUsingKey)TickKeyInteraction(Dt,PC);
+ else if(bEnteringCode)
  {
   if(!KeypadController.IsValid() || !PC || !PC->GetPawn() || PC!=KeypadController.Get() || (KeypadBlendRemaining<=0 && PC->GetViewTarget()!=this))
    EndKeypadInteraction(false);
@@ -177,12 +193,12 @@ void AStationDoor::Tick(float Dt)
   if(Focus)
   {
    const bool bNeedsCode=bLocked && !IsInteriorSide(PC);
-   ShowDoorHint(true,bNeedsCode?TEXT("Use keypad"):bObstructed?TEXT("Retry door"):FMath::IsNearlyZero(TargetAngle)?TEXT("Open door"):TEXT("Close door"),bNeedsCode?TEXT("SECURED ACCESS"):bObstructed?TEXT("Clear the doorway to continue"):TEXT("STATION ACCESS"));
+   ShowDoorHint(true,bNeedsCode?(bHasKeypad?TEXT("Use keypad"):bKeyAvailable?TEXT("Use key"):TEXT("Key required")):bObstructed?TEXT("Retry door"):FMath::IsNearlyZero(TargetAngle)?TEXT("Open door"):TEXT("Close door"),bNeedsCode?TEXT("SECURED ACCESS"):bObstructed?TEXT("Clear the doorway to continue"):TEXT("STATION ACCESS"));
    if(PC->WasInputKeyJustPressed(EKeys::E))TryInteract();
   }
  }
  const float PreviousAngle=CurrentAngle;
- if(!bLocked && !FMath::IsNearlyEqual(CurrentAngle,TargetAngle,.01f))
+ if(!bLocked && !bUsingKey && !FMath::IsNearlyEqual(CurrentAngle,TargetAngle,.01f))
  {
   const float Next=FMath::FInterpConstantTo(CurrentAngle,TargetAngle,Dt,DegreesPerSecond);
   // Subdivide rotation to prevent tunnelling on a slow frame.
@@ -224,7 +240,12 @@ int32 AStationDoor::HoveredKeypadButton(APlayerController* PC) const
 }
 bool AStationDoor::BeginKeypadInteraction(APlayerController* PC)
 {
- if(bEnteringCode || !bHasKeypad || !bLocked || !PC || !PC->IsLocalController() || !HasFocus(PC))return false;
+ if(bEnteringCode || bUsingKey || !bHasKeypad || !bLocked || !PC || !PC->IsLocalController() || !HasFocus(PC))return false;
+ KeypadCamera->SetRelativeLocation(FVector(109.6,65,124));KeypadCamera->SetRelativeRotation((FVector(85.6,4.5,104.5)-FVector(109.6,65,124)).Rotation());KeypadCamera->SetFieldOfView(48);
+ EnteredCode.Empty();bCodeRejected=false;bEnteringCode=true;BeginCloseup(PC);return true;
+}
+void AStationDoor::BeginCloseup(APlayerController* PC)
+{
  KeypadController=PC;PreviousViewTarget=PC->GetViewTarget();PreviousPawn=PC->GetPawn();bPreviousMouseCursor=PC->bShowMouseCursor;
  PC->SetIgnoreMoveInput(true);PC->SetIgnoreLookInput(true);
  if(ACharacter* Character=Cast<ACharacter>(PreviousPawn.Get()))
@@ -234,10 +255,73 @@ bool AStationDoor::BeginKeypadInteraction(APlayerController* PC)
  }
  TInlineComponentArray<UMeshComponent*> Meshes(PreviousPawn.Get());
  for(UMeshComponent* Mesh:Meshes)if(!Mesh->bHiddenInGame){HiddenPlayerMeshes.Add(Mesh);Mesh->SetHiddenInGame(true);}
- EnteredCode.Empty();bCodeRejected=false;bEnteringCode=true;KeypadBlendRemaining=.5f;
+ KeypadBlendRemaining=.5f;
  FInputModeGameAndUI Mode;Mode.SetHideCursorDuringCapture(false);Mode.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);PC->SetInputMode(Mode);PC->bShowMouseCursor=true;
  int32 Width,Height;PC->GetViewportSize(Width,Height);PC->SetMouseLocation(Width/2,Height/2);
- PC->SetViewTargetWithBlend(this,.35f,VTBlend_Cubic,0,true);Prompt->SetVisibility(false);return true;
+ PC->SetViewTargetWithBlend(this,.35f,VTBlend_Cubic,0,true);Prompt->SetVisibility(false);
+}
+FVector AStationDoor::GetKeyGripWorldPosition(float Insertion) const
+{
+ // The pear-shaped bow centre, measured in the approved seated-key export.
+ return KeyLockRoot->GetComponentTransform().TransformPosition(FVector(0,7.4+8*(1-FMath::Clamp(Insertion,0.f,1.f)),0));
+}
+void AStationDoor::UpdateKeyPose(float TurnDegrees,float Withdrawal)
+{
+ ServiceKey->SetRelativeLocation(FVector(0,4.6+8*(1-KeyInsertion)+Withdrawal,0));
+ ServiceKey->SetRelativeRotation(FRotator(TurnDegrees,0,0));KeyPlug->SetRelativeRotation(FRotator(TurnDegrees,0,0));
+}
+bool AStationDoor::BeginKeyInteraction(APlayerController* PC)
+{
+ if(bUsingKey || bEnteringCode || bHasKeypad || !bHasKeyLock || !bLocked || !bKeyAvailable || !PC || !PC->IsLocalController() || !HasFocus(PC))return false;
+ if(!ServiceKey->GetStaticMesh() || !KeyHousing->GetStaticMesh())return false;
+ const FTransform T=KeyLockRoot->GetComponentTransform();
+ const FVector Camera=T.TransformPosition(FVector(18,35,14));
+ KeypadCamera->SetWorldLocation(Camera);KeypadCamera->SetWorldRotation((T.TransformPosition(FVector(0,6,0))-Camera).Rotation());KeypadCamera->SetFieldOfView(36);
+ bUsingKey=true;bDraggingKey=false;bKeyMouseWasDown=false;KeyInsertion=0;KeyTurnElapsed=-1;UpdateKeyPose();ServiceKey->SetVisibility(true);KeyInspectionLight->SetVisibility(true);BeginCloseup(PC);return true;
+}
+void AStationDoor::TickKeyInteraction(float Dt,APlayerController* PC)
+{
+ if(!KeypadController.IsValid() || !PC || !PC->GetPawn() || PC!=KeypadController.Get() || (KeypadBlendRemaining<=0 && PC->GetViewTarget()!=this))
+ {EndKeypadInteraction(false);return;}
+ if(!bKeyAvailable){EndKeypadInteraction(true);return;}
+ KeypadBlendRemaining=FMath::Max(0.f,KeypadBlendRemaining-Dt);
+ if(PC->WasInputKeyJustPressed(EKeys::E) || PC->WasInputKeyJustPressed(EKeys::Escape) || PC->WasInputKeyJustPressed(EKeys::RightMouseButton))
+ {CancelKeypadInteraction();return;}
+ ShowDoorHint(true,TEXT("Return to door"),KeyTurnElapsed>=0?TEXT("Turning key..."):TEXT("Hold the key and drag toward the lock"));
+ if(KeypadBlendRemaining>0)return;
+ if(KeyTurnElapsed>=0)
+ {
+  KeyTurnElapsed+=Dt;
+  const float Turn=KeyTurnElapsed<.45f?90*FMath::SmoothStep(0.f,.45f,KeyTurnElapsed):KeyTurnElapsed<.65f?90:90*(1-FMath::SmoothStep(.65f,1.f,KeyTurnElapsed));
+  UpdateKeyPose(Turn,8*FMath::SmoothStep(1.f,1.25f,KeyTurnElapsed));
+  if(KeyTurnElapsed>=1.25f)Unlock();
+  return;
+ }
+ FVector2D Start,End,Grip;float MouseX,MouseY;
+ if(!PC->GetMousePosition(MouseX,MouseY) || !PC->ProjectWorldLocationToScreen(GetKeyGripWorldPosition(0),Start) || !PC->ProjectWorldLocationToScreen(GetKeyGripWorldPosition(1),End) || !PC->ProjectWorldLocationToScreen(GetKeyGripWorldPosition(KeyInsertion),Grip))
+ {bDraggingKey=false;bKeyMouseWasDown=false;return;}
+ const FVector2D Mouse(MouseX,MouseY),Axis=End-Start;const float DistanceSquared=Axis.SizeSquared();if(DistanceSquared<1)return;
+ int32 Width,Height;PC->GetViewportSize(Width,Height);
+ const bool bOverKey=FVector2D::Distance(Mouse,Grip)<=FMath::Clamp(Height*.045f,22.f,55.f);
+ const bool bDown=PC->IsInputKeyDown(EKeys::LeftMouseButton);
+ PC->CurrentMouseCursor=bDraggingKey?EMouseCursor::GrabHandClosed:bOverKey?EMouseCursor::GrabHand:EMouseCursor::Default;
+ if(bDown && !bKeyMouseWasDown && bOverKey){bDraggingKey=true;DragStartMouse=Mouse;DragStartInsertion=KeyInsertion;}
+ if(!bDown)bDraggingKey=false;
+ if(bDraggingKey)
+ {
+  FVector2D StartGrip;PC->ProjectWorldLocationToScreen(GetKeyGripWorldPosition(DragStartInsertion),StartGrip);
+  const float ScreenFraction=FMath::Clamp(FVector2D::DotProduct(Mouse-DragStartMouse+StartGrip-Start,Axis)/DistanceSquared,0.f,1.f);
+  // Perspective makes equal world-space insertion steps unequal on screen.
+  // Invert that projection so the bow remains under the player's grab point.
+  FVector Eye;FRotator View;PC->GetPlayerViewPoint(Eye,View);
+  const float NearDepth=FVector::DotProduct(GetKeyGripWorldPosition(0)-Eye,View.Vector());
+  const float FarDepth=FVector::DotProduct(GetKeyGripWorldPosition(1)-Eye,View.Vector());
+  const float Denominator=FarDepth+ScreenFraction*(NearDepth-FarDepth);
+  KeyInsertion=Denominator>SMALL_NUMBER?FMath::Clamp(ScreenFraction*NearDepth/Denominator,0.f,1.f):0.f;
+  UpdateKeyPose();
+  if(KeyInsertion>=.995f){KeyInsertion=1;KeyTurnElapsed=0;bDraggingKey=false;UpdateKeyPose();PlayDoorSound(KeyTurnSound);}
+ }
+ bKeyMouseWasDown=bDown;
 }
 void AStationDoor::PressKeypadButton(int32 Index)
 {
@@ -254,8 +338,9 @@ void AStationDoor::CancelKeypadInteraction()
 }
 void AStationDoor::EndKeypadInteraction(bool bBlend)
 {
- if(!bEnteringCode)return;
- bEnteringCode=false;EnteredCode.Empty();Prompt->SetVisibility(false);
+ if(!bEnteringCode && !bUsingKey)return;
+ if(bUsingKey && EventAudio->Sound==KeyTurnSound)EventAudio->Stop();
+ bEnteringCode=false;bUsingKey=false;bDraggingKey=false;bKeyMouseWasDown=false;KeyInsertion=0;KeyTurnElapsed=-1;UpdateKeyPose();ServiceKey->SetVisibility(false);KeyInspectionLight->SetVisibility(false);EnteredCode.Empty();Prompt->SetVisibility(false);
  if(APlayerController* PC=KeypadController.Get())
  {
   if(PC->GetViewTarget()==this || KeypadBlendRemaining>0)
@@ -282,7 +367,7 @@ void AStationDoor::PlayDoorSound(USoundBase* Sound,bool bKeypad)
  if(!Sound)return;
  UAudioComponent* Audio=bKeypad?KeypadAudio.Get():(Sound==UnlockSound || Sound==LockSound?LockAudio.Get():EventAudio.Get());
  Audio->SetRelativeLocation(bKeypad?FVector(85.6,5,105):FVector(111,0,112));Audio->SetSound(Sound);
- Audio->SetVolumeMultiplier(bKeypad?KeypadVolume:DoorVolume);Audio->SetPitchMultiplier(1.f);Audio->Play();
+ Audio->SetVolumeMultiplier(bKeypad?KeypadVolume:Sound==KeyTurnSound?KeyTurnVolume:DoorVolume);Audio->SetPitchMultiplier(1.f);Audio->Play();
 }
 void AStationDoor::ShowDoorHint(bool bVisible,const FString& Action,const FString& Detail)
 {
@@ -314,9 +399,9 @@ void AStationDoor::ShowDoorHint(bool bVisible,const FString& Action,const FStrin
    FVector Eye;FRotator View;PC->GetPlayerViewPoint(Eye,View);
    const FTransform LeafTransform=Hinge->GetComponentTransform();
    const float Side=LeafTransform.InverseTransformPosition(Eye).Y<0.f?-1.f:1.f;
-   InteractionPrompt->SetWorldLocation(LeafTransform.TransformPosition(bEnteringCode?FVector(85.6,14,95):FVector(50,Side*20,116)));
+   InteractionPrompt->SetWorldLocation(bUsingKey?KeyLockRoot->GetComponentTransform().TransformPosition(FVector(0,8,-5)):LeafTransform.TransformPosition(bEnteringCode?FVector(85.6,14,95):FVector(50,Side*20,116)));
    InteractionPrompt->SetWorldRotation((Eye-InteractionPrompt->GetComponentLocation()).Rotation());
-   InteractionPrompt->SetWorldScale3D(FVector(bEnteringCode?.035f:.16f));
+   InteractionPrompt->SetWorldScale3D(FVector(bUsingKey?.025f:bEnteringCode?.035f:.16f));
   }
  }
  if(HintWidget.IsValid())

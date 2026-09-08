@@ -14,6 +14,7 @@ class UMaterialInterface;
 class UCameraComponent;
 class UMeshComponent;
 class UAudioComponent;
+class USpotLightComponent;
 class USoundBase;
 class SWidget;
 class STextBlock;
@@ -31,6 +32,9 @@ public:
  virtual void EndPlay(const EEndPlayReason::Type Reason) override;
  UFUNCTION(BlueprintCallable, Category="Door") void CancelKeypadInteraction();
  UFUNCTION(BlueprintPure, Category="Door") bool IsUsingKeypad() const { return bEnteringCode; }
+ UFUNCTION(BlueprintPure, Category="Door|Key") bool IsUsingKey() const { return bUsingKey; }
+ UFUNCTION(BlueprintPure, Category="Door|Key") float GetKeyInsertion() const { return KeyInsertion; }
+ UFUNCTION(BlueprintPure, Category="Door|Key") FVector GetKeyGripWorldPosition(float Insertion) const;
  UFUNCTION(BlueprintPure, Category="Door") FVector GetKeypadButtonWorldPosition(int32 Index) const;
  UFUNCTION(BlueprintCallable, Category="Door") bool TryInteract();
  UFUNCTION(BlueprintCallable, Category="Door") bool Unlock();
@@ -46,6 +50,12 @@ public:
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UStaticMeshComponent> Keypad;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UStaticMeshComponent> InteriorElectronics;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UStaticMeshComponent> ElectronicStrike;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<USceneComponent> KeyLockRoot;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<UStaticMeshComponent> KeyHousing;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<UStaticMeshComponent> KeyPlug;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<UStaticMeshComponent> InteriorKeyPlug;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<UStaticMeshComponent> ServiceKey;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<USpotLightComponent> KeyInspectionLight;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UBoxComponent> LeafCollision;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UTextRenderComponent> Prompt;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UWidgetComponent> InteractionPrompt;
@@ -53,6 +63,10 @@ public:
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UTextRenderComponent> KeypadDisplay;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UCameraComponent> KeypadCamera;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") bool bHasKeypad=false;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Key") bool bHasKeyLock=false;
+ /** Temporary possession gate. Future inventory can supply this per required key. */
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Key") bool bKeyAvailable=true;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Key") FName RequiredKeyId=TEXT("StationService");
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") bool bLocked=false;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door") bool bRelockOnClose=true;
  /** Empty by default: a level designer must deliberately configure a code. */
@@ -69,6 +83,8 @@ public:
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> CloseSound;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> UnlockSound;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> LockSound;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> KeyTurnSound;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Audio", meta=(ClampMin="0",ClampMax="8")) float KeyTurnVolume=4.f;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> ClosingMovementSound;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Audio", meta=(ClampMin="0",ClampMax="4")) float KeypadVolume=1.6f;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Audio", meta=(ClampMin="0",ClampMax="4")) float DoorVolume=1.3f;
@@ -87,6 +103,17 @@ private:
  float FeedbackSeconds=0.f;
  bool bObstructed=false;
  bool bEnteringCode=false;
+ bool bUsingKey=false;
+ bool bDraggingKey=false;
+ bool bKeyMouseWasDown=false;
+ float KeyInsertion=0.f;
+ float KeyTurnElapsed=-1.f;
+ float DragStartInsertion=0.f;
+ FVector2D DragStartMouse=FVector2D::ZeroVector;
+ bool BeginKeyInteraction(APlayerController* Controller);
+ void BeginCloseup(APlayerController* Controller);
+ void TickKeyInteraction(float DeltaSeconds,APlayerController* Controller);
+ void UpdateKeyPose(float TurnDegrees=0.f,float Withdrawal=0.f);
  bool bCodeRejected=false;
  FTimerHandle LockSoundTimer;
  FString EnteredCode;

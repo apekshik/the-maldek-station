@@ -1,0 +1,94 @@
+{
+  "success": true,
+  "reopened_doors": [
+    {
+      "label": "R12_Door_Relay_north",
+      "physical_key": false,
+      "starts_locked": true,
+      "key_available": true,
+      "leaf": "/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_RelayLeaf.SM_StationDoor_RelayLeaf",
+      "open_angle": 95.0
+    },
+    {
+      "label": "R12_Door_Relay_south",
+      "physical_key": false,
+      "starts_locked": true,
+      "key_available": true,
+      "leaf": "/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_RelayLeaf.SM_StationDoor_RelayLeaf",
+      "open_angle": 95.0
+    },
+    {
+      "label": "R12_Door_Control_front",
+      "physical_key": false,
+      "starts_locked": true,
+      "key_available": true,
+      "leaf": "/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Leaf.SM_StationDoor_Leaf",
+      "open_angle": 95.0
+    },
+    {
+      "label": "R12_Door_Control_side",
+      "physical_key": true,
+      "starts_locked": true,
+      "key_available": true,
+      "leaf": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_ControlLeaf.SM_KeyLock_ControlLeaf",
+      "open_angle": 95.0
+    },
+    {
+      "label": "R12_Door_Quarters",
+      "physical_key": true,
+      "starts_locked": true,
+      "key_available": true,
+      "leaf": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_QuartersLeaf.SM_KeyLock_QuartersLeaf",
+      "open_angle": -95.0
+    },
+    {
+      "label": "R12_Door_Hall_north",
+      "physical_key": true,
+      "starts_locked": true,
+      "key_available": true,
+      "leaf": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_HallLeaf.SM_KeyLock_HallLeaf",
+      "open_angle": 95.0
+    },
+    {
+      "label": "R12_Door_Hall_south",
+      "physical_key": true,
+      "starts_locked": true,
+      "key_available": true,
+      "leaf": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_HallLeaf.SM_KeyLock_HallLeaf",
+      "open_angle": 95.0
+    },
+    {
+      "label": "R12_Door_Generator_south",
+      "physical_key": true,
+      "starts_locked": true,
+      "key_available": true,
+      "leaf": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_GeneratorInwardLeaf.SM_KeyLock_GeneratorInwardLeaf",
+      "open_angle": -95.0
+    },
+    {
+      "label": "R12_Door_Generator_west",
+      "physical_key": true,
+      "starts_locked": true,
+      "key_available": true,
+      "leaf": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_GeneratorLeaf.SM_KeyLock_GeneratorLeaf",
+      "open_angle": 95.0
+    },
+    {
+      "label": "R12_Door_Workshop_shared",
+      "physical_key": true,
+      "starts_locked": true,
+      "key_available": true,
+      "leaf": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_WorkshopLeaf.SM_KeyLock_WorkshopLeaf",
+      "open_angle": 95.0
+    }
+  ],
+  "keypad_code": "1234",
+  "geometry_and_actor_transforms_preserved": true,
+  "builds": [
+    "Win64 game Development",
+    "Win64 editor Development"
+  ],
+  "checkpoint": "F6 / StationDoorCheckpoint",
+  "key_turn_volume": 4.0,
+  "inspection_lumens": 0.08
+}

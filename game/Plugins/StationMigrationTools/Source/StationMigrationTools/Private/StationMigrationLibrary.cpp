@@ -16,6 +16,7 @@
 #include "Engine/Texture2D.h"
 #include "GameFramework/PlayerController.h"
 #include "InputKeyEventArgs.h"
+#include "Input/Events.h"
 #include "InstancedFoliageActor.h"
 #include "InstancedFoliage.h"
 #include "FoliageType.h"
@@ -132,6 +133,23 @@ bool UStationMigrationLibrary::SendPIEKey(FName KeyName, bool bPressed)
     return Controller->InputKey(FInputKeyEventArgs(Client->Viewport,
         FInputDeviceId::CreateFromInternalId(0), Key, bPressed ? IE_Pressed : IE_Released,
         bPressed ? 1.0f : 0.0f, false, FPlatformTime::Cycles64()));
+}
+
+bool UStationMigrationLibrary::SendPIEMousePosition(float X, float Y)
+{
+    auto* Client=FindPIEViewport();
+    if(!Client || !Client->Viewport || !FMath::IsFinite(X) || !FMath::IsFinite(Y))return false;
+    auto* Viewport=static_cast<FSceneViewport*>(Client->Viewport);
+    const FGeometry& Geometry=Viewport->GetCachedGeometry();
+    const FIntPoint Size=Viewport->GetSizeXY();
+    if(Size.X<=0 || Size.Y<=0)return false;
+    // GetMousePos reads cached physical pixels even when PIE has a fixed render size.
+    const FVector2D Local=FVector2D(X,Y)/Geometry.GetAccumulatedLayoutTransform().GetScale();
+    const FVector2D Absolute=Geometry.LocalToAbsolute(Local);
+    TSet<FKey> Pressed;
+    if(auto* PC=Client->GetWorld()->GetFirstPlayerController())if(PC->IsInputKeyDown(EKeys::LeftMouseButton))Pressed.Add(EKeys::LeftMouseButton);
+    const FPointerEvent Event(0,Absolute,Absolute,Pressed,EKeys::Invalid,0,FModifierKeysState());
+    Viewport->OnMouseMove(Geometry,Event);return true;
 }
 
 TMap<FString, double> UStationMigrationLibrary::CapturePIEFrameStats()

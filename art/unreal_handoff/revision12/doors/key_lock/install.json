@@ -1,0 +1,114 @@
+{
+  "success": true,
+  "meshes": [
+    {
+      "mesh": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Housing.SM_KeyLock_Housing",
+      "bounds_error_cm": 3.5762786865234375e-07,
+      "triangles": 21152
+    },
+    {
+      "mesh": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug",
+      "bounds_error_cm": 1.1920928955078125e-07,
+      "triangles": 2376
+    },
+    {
+      "mesh": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Key.SM_KeyLock_Key",
+      "bounds_error_cm": 2.682209014892578e-07,
+      "triangles": 5280
+    },
+    {
+      "mesh": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_ControlLeaf.SM_KeyLock_ControlLeaf",
+      "bounds_error_cm": 1.0013580322265625e-05,
+      "triangles": 35412
+    },
+    {
+      "mesh": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_HallLeaf.SM_KeyLock_HallLeaf",
+      "bounds_error_cm": 1.0013580322265625e-05,
+      "triangles": 34164
+    },
+    {
+      "mesh": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_GeneratorLeaf.SM_KeyLock_GeneratorLeaf",
+      "bounds_error_cm": 1.0013580322265625e-05,
+      "triangles": 35548
+    },
+    {
+      "mesh": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_WorkshopLeaf.SM_KeyLock_WorkshopLeaf",
+      "bounds_error_cm": 1.0013580322265625e-05,
+      "triangles": 35440
+    },
+    {
+      "mesh": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_QuartersLeaf.SM_KeyLock_QuartersLeaf",
+      "bounds_error_cm": 9.298324584960938e-06,
+      "triangles": 36548
+    },
+    {
+      "mesh": "/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_GeneratorInwardLeaf.SM_KeyLock_GeneratorInwardLeaf",
+      "bounds_error_cm": 9.298324584960938e-06,
+      "triangles": 36036
+    }
+  ],
+  "doors": [
+    {
+      "label": "R12_Door_Control_front",
+      "key_lock": false,
+      "locked": true,
+      "keypad": true
+    },
+    {
+      "label": "R12_Door_Control_side",
+      "key_lock": true,
+      "locked": true,
+      "keypad": false
+    },
+    {
+      "label": "R12_Door_Quarters",
+      "key_lock": true,
+      "locked": true,
+      "keypad": false
+    },
+    {
+      "label": "R12_Door_Hall_north",
+      "key_lock": true,
+      "locked": true,
+      "keypad": false
+    },
+    {
+      "label": "R12_Door_Hall_south",
+      "key_lock": true,
+      "locked": true,
+      "keypad": false
+    },
+    {
+      "label": "R12_Door_Generator_south",
+      "key_lock": true,
+      "locked": true,
+      "keypad": false
+    },
+    {
+      "label": "R12_Door_Generator_west",
+      "key_lock": true,
+      "locked": true,
+      "keypad": false
+    },
+    {
+      "label": "R12_Door_Workshop_shared",
+      "key_lock": true,
+      "locked": true,
+      "keypad": false
+    },
+    {
+      "label": "R12_Door_Relay_north",
+      "key_lock": false,
+      "locked": true,
+      "keypad": true
+    },
+    {
+      "label": "R12_Door_Relay_south",
+      "key_lock": false,
+      "locked": true,
+      "keypad": true
+    }
+  ],
+  "unchanged_actor_transforms": 871,
+  "walking_collision_unchanged": true
+}

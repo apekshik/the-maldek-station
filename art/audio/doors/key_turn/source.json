@@ -1,0 +1,15 @@
+{
+  "title": "Key Twist in lock",
+  "author": "KieranKeegan",
+  "source_url": "https://freesound.org/people/KieranKeegan/sounds/418846/",
+  "download_url": "https://cdn.freesound.org/previews/418/418846_6616210-hq.mp3",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "retrieved": "2026-09-08",
+  "source_sha256": "b3f2a4ae52eff4f60894943f8e7f6dcac93715ab80aea9dd26e8dc2c30f4d510",
+  "output_sha256": "565a1cf8931104b4fa618c24ea648b75a7c54bd16ca4d8abea2d7fd5a24327b2",
+  "seconds": 1.0419583333333333,
+  "peak": 0.4799999999999999,
+  "rms": 0.01707753649951579,
+  "edits": "Full recording, mono 48kHz PCM16, DC removal, constant gain, 4ms edge fades. Original pitch. No generated audio."
+}

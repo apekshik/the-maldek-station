@@ -36,6 +36,10 @@ public:
     UFUNCTION(BlueprintCallable, Category="Station Validation")
     static bool SendPIEKey(FName KeyName, bool bPressed);
 
+    // Route a pointer move through the PIE viewport without moving the desktop cursor.
+    UFUNCTION(BlueprintCallable, Category="Station Validation")
+    static bool SendPIEMousePosition(float X, float Y);
+
     UFUNCTION(BlueprintCallable, Category="Station Validation")
     static TMap<FString, FTransform> GetFoliageInstanceTransforms(AActor* FoliageActor);
 

@@ -8,6 +8,8 @@
     "evaluated_parts_closed": true,
     "Leaf_slab_through_hole": true,
     "Interior_enamel_through_hole": true,
+    "Lock_escutcheon_through_hole": true,
+    "Lock_escutcheon.001_through_hole": true,
     "key_and_plug_turn_together": true,
     "door_stays_closed_until_key_withdrawn": true,
     "opens_95_degrees": true,

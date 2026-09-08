@@ -1,0 +1,29 @@
+{
+  "phase": 9,
+  "next": 175275.61500000002,
+  "deadline": 175340.015,
+  "checks": {
+    "opening_spawn_retained": true,
+    "F6_returns_to_door": true,
+    "tutorial_skipped_safely": true,
+    "walking_restored": true,
+    "checkpoint_faces_usable_lock": true,
+    "warm_fill_final": true,
+    "louder_recorded_turn": true,
+    "checkpoint_cancels_turn": true,
+    "checkpoint_restores_view_and_input": true,
+    "checkpoint_turns_fill_off": true,
+    "repeat_return_safe": true
+  },
+  "turn_probe": {
+    "insertion": 1.0,
+    "sound": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Audio/KeyTurn.KeyTurn' (0x000002E0B71AAA00) Class 'SoundWave'>",
+    "playing": true,
+    "volume": 4.0,
+    "configured_volume": 4.0,
+    "pointer": "<Struct 'Vector2D' (0x000002E0E0DDC720) {x: 599.368164, y: 384.842163}>",
+    "mouse": "(599.0, 385.0)"
+  },
+  "success": true,
+  "error": null
+}

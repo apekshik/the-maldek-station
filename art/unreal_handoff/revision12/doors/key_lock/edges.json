@@ -1,0 +1,18 @@
+{
+  "phase": 13,
+  "next": 175303.187,
+  "deadline": 175369.312,
+  "checks": {
+    "second_aspect_entry": true,
+    "second_aspect_seated": true,
+    "cancel_stops_turn_and_fill": true,
+    "cancel_during_turn_keeps_lock": true,
+    "cancel_restores_both_inputs": true,
+    "partial_before_key_removed": true,
+    "lost_key_cancels_safely": true,
+    "entry_before_teardown": true,
+    "teardown_restores_player": true
+  },
+  "success": true,
+  "error": null
+}

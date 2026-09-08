@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "doors": [
+    "R12_Door_Control_side",
+    "R12_Door_Quarters",
+    "R12_Door_Hall_north",
+    "R12_Door_Hall_south",
+    "R12_Door_Generator_south",
+    "R12_Door_Generator_west",
+    "R12_Door_Workshop_shared"
+  ],
+  "sound": "/Game/MaldekRefinement/R12/Doors/KeyLock/Audio/KeyTurn.KeyTurn",
+  "source": "https://freesound.org/people/KieranKeegan/sounds/418846/",
+  "license": "CC0-1.0"
+}

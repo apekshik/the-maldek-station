@@ -47,7 +47,7 @@ def ring(n,p,outer,inner,depth,m,slot=False):
  mesh=bpy.data.meshes.new(n);mesh.from_pydata(vs,[],fs);mesh.update();bm=bmesh.new();bm.from_mesh(mesh);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.to_mesh(mesh);bm.free()
  o=bpy.data.objects.new(n,mesh);group.objects.link(o);mesh.materials.append(m);mod=o.modifiers.new('Machined edge','BEVEL');mod.width=min(.00018,depth*.15);mod.segments=3;o.modifiers.new('Weighted normals','WEIGHTED_NORMAL');return o
 group=housing
-for o in [bpy.data.objects['Leaf_slab'],bpy.data.objects['Interior_enamel']]:
+for o in [bpy.data.objects['Leaf_slab'],bpy.data.objects['Interior_enamel']]+[o for o in leaf.objects if o.name.startswith('Lock_escutcheon')]:
  tool=cyl('Cut_tool',(1.15,0,1),.0143,.12,dark,'Y',64);tool.modifiers.clear();difference(o,tool)
 ring('Through_leaf_barrel',(1.15,0,1),.014,.0107,.064,brass)
 plugs=[]
@@ -112,4 +112,4 @@ bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'Maldek_Keyed_Door.blend'))
 for name,cam,frame in [('01_Key_ready','10_Cylinder_and_key',1),('02_Inserted','11_Cylinder_macro',30),('03_Turned','11_Cylinder_macro',48),('04_Key_profile','12_Key_profile',1),('05_Door_open','02_Open',120)]:
  s.frame_set(frame);s.camera=bpy.data.objects[cam];s.render.filepath=str(OUT/'previews'/(name+'.png'));bpy.ops.render.render(write_still=True)
 s.frame_set(1);s.camera=bpy.data.objects['10_Cylinder_and_key'];bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'Maldek_Keyed_Door.blend'))
-(OUT/'design_manifest.json').write_text(json.dumps({'scope':'Blender keyed-door design and animation; game integration pending','cylinder_diameter_mm':33,'plug_diameter_mm':20.3,'key_blade_thickness_mm':2,'keyway_mm':[2.8,8.2],'turn_degrees':90,'key_available_initially':True,'later_inventory_requirement':'Separate key possession from the lock animation; grant the matching key by default initially.','frames':{'ready':1,'inserted':30,'turned':48,'returned':70,'withdrawn':88,'open':120},'source':'door_study_03/Maldek_Digital_Door_Variants.blend','surface_ownership':'Old cylinder and painted key-slot objects removed; new collar, rotating plug and recessed cavity own the visible surfaces.'},indent=2))
+(OUT/'design_manifest.json').write_text(json.dumps({'scope':'Blender keyed-door design and animation; integrated through revision12/doors/key_lock','cylinder_diameter_mm':33,'plug_diameter_mm':20.3,'key_blade_thickness_mm':2,'keyway_mm':[2.8,8.2],'turn_degrees':90,'key_available_initially':True,'later_inventory_requirement':'Separate key possession from the lock animation; grant the matching key by default initially.','frames':{'ready':1,'inserted':30,'turned':48,'returned':70,'withdrawn':88,'open':120},'source':'door_study_03/Maldek_Digital_Door_Variants.blend','surface_ownership':'Old cylinder and painted key-slot objects removed; new collar, rotating plug and recessed cavity own the visible surfaces.'},indent=2))
