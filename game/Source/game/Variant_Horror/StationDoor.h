@@ -6,6 +6,7 @@
 class UStaticMeshComponent;
 class UBoxComponent;
 class UTextRenderComponent;
+class UWidgetComponent;
 class APlayerController;
 class APawn;
 class UMaterialInstanceDynamic;
@@ -46,6 +47,7 @@ public:
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UStaticMeshComponent> ElectronicStrike;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UBoxComponent> LeafCollision;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UTextRenderComponent> Prompt;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UWidgetComponent> InteractionPrompt;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UTextRenderComponent> KeypadDisplay;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UCameraComponent> KeypadCamera;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") bool bHasKeypad=false;
@@ -99,6 +101,7 @@ private:
  int32 HoveredKeypadButton(APlayerController* Controller) const;
  UPROPERTY(Transient) TObjectPtr<UMaterialInstanceDynamic> StatusMaterial;
  bool HasFocus(APlayerController* Controller) const;
+ bool IsInteriorSide(APlayerController* Controller) const;
  bool CanOccupyAngle(float Angle) const;
  void RefreshLockVisuals();
 };

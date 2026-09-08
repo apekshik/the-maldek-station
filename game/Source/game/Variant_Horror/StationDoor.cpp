@@ -1,5 +1,6 @@
 #include "StationDoor.h"
 #include "Components/AudioComponent.h"
+#include "Components/WidgetComponent.h"
 #include "Sound/SoundBase.h"
 #include "TimerManager.h"
 #include "Engine/GameViewportClient.h"
@@ -56,6 +57,11 @@ AStationDoor::AStationDoor()
  Prompt=CreateDefaultSubobject<UTextRenderComponent>(TEXT("Prompt"));Prompt->SetupAttachment(DoorRoot);
  Prompt->SetHorizontalAlignment(EHTA_Center);Prompt->SetVerticalAlignment(EVRTA_TextCenter);
  Prompt->SetWorldSize(3.f);Prompt->SetTextRenderColor(FColor(223,219,192));Prompt->SetVisibility(false);Prompt->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+ InteractionPrompt=CreateDefaultSubobject<UWidgetComponent>(TEXT("InteractionPrompt"));
+ InteractionPrompt->SetupAttachment(DoorRoot);InteractionPrompt->SetWidgetSpace(EWidgetSpace::World);
+ InteractionPrompt->SetDrawSize(FVector2D(420,90));InteractionPrompt->SetPivot(FVector2D(.5,.5));
+ InteractionPrompt->SetTwoSided(true);InteractionPrompt->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+ InteractionPrompt->SetGenerateOverlapEvents(false);InteractionPrompt->SetCastShadow(false);InteractionPrompt->SetVisibility(false);
  KeypadCamera=CreateDefaultSubobject<UCameraComponent>(TEXT("KeypadCamera"));KeypadCamera->SetupAttachment(Hinge);
  KeypadCamera->SetRelativeLocation(FVector(109.6,65,124));KeypadCamera->SetRelativeRotation((FVector(85.6,4.5,104.5)-FVector(109.6,65,124)).Rotation());KeypadCamera->SetFieldOfView(48);KeypadCamera->bConstrainAspectRatio=true;
  KeypadDisplay=CreateDefaultSubobject<UTextRenderComponent>(TEXT("KeypadDisplay"));KeypadDisplay->SetupAttachment(Hinge);
@@ -100,8 +106,19 @@ bool AStationDoor::SubmitCode(const FString& Code)
 }
 bool AStationDoor::TryInteract()
 {
- if(bLocked){BeginKeypadInteraction(UGameplayStatics::GetPlayerController(this,0));return false;}
+ if(bLocked)
+ {
+  APlayerController* PC=UGameplayStatics::GetPlayerController(this,0);
+  if(IsInteriorSide(PC) && HasFocus(PC))Unlock();
+  else {BeginKeypadInteraction(PC);return false;}
+ }
  TargetAngle=FMath::IsNearlyZero(TargetAngle)?OpenAngle:0.f;bObstructed=false;return true;
+}
+bool AStationDoor::IsInteriorSide(APlayerController* PC) const
+{
+ // The keypad faces +Y. Use the closed frame and the pawn, never the swinging
+ // leaf or inspection camera, so opening the door cannot swap access sides.
+ return PC && PC->GetPawn() && DoorRoot->GetComponentTransform().InverseTransformPosition(PC->GetPawn()->GetActorLocation()).Y<0.f;
 }
 bool AStationDoor::HasFocus(APlayerController* PC) const
 {
@@ -155,7 +172,8 @@ void AStationDoor::Tick(float Dt)
   const bool Focus=HasFocus(PC);
   if(Focus)
   {
-   ShowDoorHint(true,bLocked?TEXT("Use keypad"):bObstructed?TEXT("Retry door"):FMath::IsNearlyZero(TargetAngle)?TEXT("Open door"):TEXT("Close door"),bLocked?TEXT("SECURED ACCESS"):bObstructed?TEXT("Clear the doorway to continue"):TEXT("STATION ACCESS"));
+   const bool bNeedsCode=bLocked && !IsInteriorSide(PC);
+   ShowDoorHint(true,bNeedsCode?TEXT("Use keypad"):bObstructed?TEXT("Retry door"):FMath::IsNearlyZero(TargetAngle)?TEXT("Open door"):TEXT("Close door"),bNeedsCode?TEXT("SECURED ACCESS"):bObstructed?TEXT("Clear the doorway to continue"):TEXT("STATION ACCESS"));
    if(PC->WasInputKeyJustPressed(EKeys::E))TryInteract();
   }
  }
@@ -251,7 +269,7 @@ void AStationDoor::EndKeypadInteraction(bool bBlend)
 void AStationDoor::EndPlay(const EEndPlayReason::Type Reason)
 {
  GetWorldTimerManager().ClearTimer(LockSoundTimer);
- EndKeypadInteraction(false);if(HintWidget.IsValid() && GetWorld() && GetWorld()->GetGameViewport())GetWorld()->GetGameViewport()->RemoveViewportWidgetContent(HintWidget.ToSharedRef());HintWidget.Reset();MotionAudio->Stop();EventAudio->Stop();KeypadAudio->Stop();LockAudio->Stop();Super::EndPlay(Reason);
+ EndKeypadInteraction(false);InteractionPrompt->SetSlateWidget(nullptr);HintWidget.Reset();MotionAudio->Stop();EventAudio->Stop();KeypadAudio->Stop();LockAudio->Stop();Super::EndPlay(Reason);
 }
 
 
@@ -266,10 +284,9 @@ void AStationDoor::ShowDoorHint(bool bVisible,const FString& Action,const FStrin
 {
  if(!HintWidget.IsValid() && bVisible)
  {
-  auto* Viewport=GetWorld()?GetWorld()->GetGameViewport():nullptr;if(!Viewport)return;
   using namespace StationInteractionStyle;
   HintWidget=SNew(SOverlay)
-   +SOverlay::Slot().HAlign(HAlign_Center).VAlign(VAlign_Bottom).Padding(FMargin(16,0,16,48))
+   +SOverlay::Slot().HAlign(HAlign_Center).VAlign(VAlign_Center)
    [SNew(SBorder).BorderImage(&OuterRule).Padding(1)
     [SNew(SBorder).BorderImage(&RuleGap).Padding(3)
      [SNew(SBorder).BorderImage(&InnerRule).Padding(1)
@@ -283,7 +300,20 @@ void AStationDoor::ShowDoorHint(bool bVisible,const FString& Action,const FStrin
      [SNew(SVerticalBox)
       +SVerticalBox::Slot().AutoHeight()[SAssignNew(HintAction,STextBlock).Font(FCoreStyle::GetDefaultFontStyle("Bold",17)).ColorAndOpacity(StationInteractionStyle::Action)]
       +SVerticalBox::Slot().AutoHeight().Padding(0,4,0,0)[SAssignNew(HintDetail,STextBlock).Font(FCoreStyle::GetDefaultFontStyle("Regular",10)).ColorAndOpacity(StationInteractionStyle::Detail)]]]]]]];
-  Viewport->AddViewportWidgetContent(HintWidget.ToSharedRef(),30);
+  InteractionPrompt->SetSlateWidget(HintWidget);
+ }
+ InteractionPrompt->SetVisibility(bVisible);
+ if(bVisible)
+ {
+  if(APlayerController* PC=UGameplayStatics::GetPlayerController(this,0))
+  {
+   FVector Eye;FRotator View;PC->GetPlayerViewPoint(Eye,View);
+   const FTransform LeafTransform=Hinge->GetComponentTransform();
+   const float Side=LeafTransform.InverseTransformPosition(Eye).Y<0.f?-1.f:1.f;
+   InteractionPrompt->SetWorldLocation(LeafTransform.TransformPosition(FVector(50,Side*20,116)));
+   InteractionPrompt->SetWorldRotation((Eye-InteractionPrompt->GetComponentLocation()).Rotation());
+   InteractionPrompt->SetWorldScale3D(FVector(.09f));
+  }
  }
  if(HintWidget.IsValid())
  {
