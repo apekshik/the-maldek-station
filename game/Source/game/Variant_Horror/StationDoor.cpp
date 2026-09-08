@@ -24,6 +24,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "InputCoreTypes.h"
 #include "Materials/MaterialInstanceDynamic.h"
+#include "UObject/ConstructorHelpers.h"
 
 AStationDoor::AStationDoor()
 {
@@ -62,6 +63,8 @@ AStationDoor::AStationDoor()
  InteractionPrompt->SetDrawSize(FVector2D(420,90));InteractionPrompt->SetPivot(FVector2D(.5,.5));
  InteractionPrompt->SetTwoSided(true);InteractionPrompt->SetCollisionEnabled(ECollisionEnabled::NoCollision);
  InteractionPrompt->SetGenerateOverlapEvents(false);InteractionPrompt->SetCastShadow(false);InteractionPrompt->SetVisibility(false);
+ static ConstructorHelpers::FObjectFinder<UMaterialInterface> PromptMaterial(TEXT("/Game/MaldekRefinement/R12/Doors/M_DoorInteractionPrompt"));
+ InteractionPromptMaterial=PromptMaterial.Object;
  KeypadCamera=CreateDefaultSubobject<UCameraComponent>(TEXT("KeypadCamera"));KeypadCamera->SetupAttachment(Hinge);
  KeypadCamera->SetRelativeLocation(FVector(109.6,65,124));KeypadCamera->SetRelativeRotation((FVector(85.6,4.5,104.5)-FVector(109.6,65,124)).Rotation());KeypadCamera->SetFieldOfView(48);KeypadCamera->bConstrainAspectRatio=true;
  KeypadDisplay=CreateDefaultSubobject<UTextRenderComponent>(TEXT("KeypadDisplay"));KeypadDisplay->SetupAttachment(Hinge);
@@ -80,6 +83,7 @@ void AStationDoor::OnConstruction(const FTransform& Transform)
 void AStationDoor::BeginPlay()
 {
  Super::BeginPlay();CurrentAngle=TargetAngle=0;Hinge->SetRelativeRotation(FRotator::ZeroRotator);
+ if(InteractionPromptMaterial)InteractionPrompt->SetMaterial(0,InteractionPromptMaterial);
  const TArray<FName> Slots=Keypad->GetMaterialSlotNames();
  for(int32 I=0;I<Slots.Num();++I)if(Slots[I].ToString().Contains(TEXT("D03_Status_red")))StatusMaterial=Keypad->CreateAndSetMaterialInstanceDynamic(I);
  RefreshLockVisuals();
@@ -310,9 +314,9 @@ void AStationDoor::ShowDoorHint(bool bVisible,const FString& Action,const FStrin
    FVector Eye;FRotator View;PC->GetPlayerViewPoint(Eye,View);
    const FTransform LeafTransform=Hinge->GetComponentTransform();
    const float Side=LeafTransform.InverseTransformPosition(Eye).Y<0.f?-1.f:1.f;
-   InteractionPrompt->SetWorldLocation(LeafTransform.TransformPosition(FVector(50,Side*20,116)));
+   InteractionPrompt->SetWorldLocation(LeafTransform.TransformPosition(bEnteringCode?FVector(85.6,14,95):FVector(50,Side*20,116)));
    InteractionPrompt->SetWorldRotation((Eye-InteractionPrompt->GetComponentLocation()).Rotation());
-   InteractionPrompt->SetWorldScale3D(FVector(.09f));
+   InteractionPrompt->SetWorldScale3D(FVector(bEnteringCode?.035f:.16f));
   }
  }
  if(HintWidget.IsValid())

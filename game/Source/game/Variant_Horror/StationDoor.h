@@ -10,6 +10,7 @@ class UWidgetComponent;
 class APlayerController;
 class APawn;
 class UMaterialInstanceDynamic;
+class UMaterialInterface;
 class UCameraComponent;
 class UMeshComponent;
 class UAudioComponent;
@@ -48,6 +49,7 @@ public:
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UBoxComponent> LeafCollision;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UTextRenderComponent> Prompt;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UWidgetComponent> InteractionPrompt;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UMaterialInterface> InteractionPromptMaterial;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UTextRenderComponent> KeypadDisplay;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UCameraComponent> KeypadCamera;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") bool bHasKeypad=false;
