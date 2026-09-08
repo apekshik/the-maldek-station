@@ -1,0 +1,31 @@
+{
+  "scope": "Blender design awaiting user approval; no game installation",
+  "cabinet_dimensions_m": [
+    1.48,
+    0.2,
+    1.39
+  ],
+  "overall_height_m": 2.908,
+  "root_relative_to_cabin_floor_m": [
+    2.55,
+    -3.35,
+    0
+  ],
+  "cabinet_inner_x_m": 1.775,
+  "cabin_handle_outer_x_m": 1.43,
+  "lateral_separation_m": 0.345,
+  "states": {
+    "BOARD": 1,
+    "ARRIVING": 49,
+    "DEPART": 97,
+    "AWAY": 145
+  },
+  "tube_diameter_m": 0.01,
+  "future_mapping": {
+    "BOARD": "Docked, landing ready and doors fully open",
+    "ARRIVING": "Cabin approaching or settling; boarding unavailable",
+    "DEPART": "Departure requested, closing and latch sequence",
+    "AWAY": "Cabin absent; boarding unavailable"
+  },
+  "review_context": "Approved cabin frozen open; provisional platform slab, not final station placement"
+}

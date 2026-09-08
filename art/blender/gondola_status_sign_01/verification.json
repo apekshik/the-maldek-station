@@ -1,0 +1,56 @@
+{
+  "success": true,
+  "checks": {
+    "stationary_root": true,
+    "one_lit_circuit_per_state": true,
+    "closed_meshes": true,
+    "tube_cap_repair_saved": true,
+    "unique_electrode_surfaces": true,
+    "outside_boarding_aisle": true,
+    "previews_exist": true
+  },
+  "mesh_objects": 160,
+  "nonmanifold": [],
+  "circuit_strengths": {
+    "BOARD": {
+      "BOARD": 7.0,
+      "ARRIVING": 0.014999999664723873,
+      "DEPART": 0.014999999664723873,
+      "AWAY": 0.014999999664723873
+    },
+    "ARRIVING": {
+      "BOARD": 0.014999999664723873,
+      "ARRIVING": 7.0,
+      "DEPART": 0.014999999664723873,
+      "AWAY": 0.014999999664723873
+    },
+    "DEPART": {
+      "BOARD": 0.014999999664723873,
+      "ARRIVING": 0.014999999664723873,
+      "DEPART": 7.0,
+      "AWAY": 0.014999999664723873
+    },
+    "AWAY": {
+      "BOARD": 0.014999999664723873,
+      "ARRIVING": 0.014999999664723873,
+      "DEPART": 0.014999999664723873,
+      "AWAY": 7.0
+    }
+  },
+  "minimum_sign_world_x_m": 1.774999976158142,
+  "bounds_world_m": [
+    [
+      1.774999976158142,
+      3.3249998092651367
+    ],
+    [
+      -3.5104997158050537,
+      -3.0260000228881836
+    ],
+    [
+      0.0,
+      2.9075000286102295
+    ]
+  ],
+  "integration": "Not imported; game validation deferred until design approval"
+}
