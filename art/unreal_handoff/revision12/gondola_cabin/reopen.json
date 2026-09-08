@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "reopened": true,
+  "checks": [
+    "Old cabin chunks replaced",
+    "Independent door and drive meshes saved",
+    "Both recorded sounds assigned",
+    "Ten shaped cabin collision hulls saved",
+    "Station mechanism stays independent of moving cabin",
+    "Existing 12-lumen lamps preserved",
+    "Staged arrival and far gangway preserved"
+  ],
+  "cabin_parts": [
+    "R12_Gondola_Hanger_Adapter",
+    "R12_Gondola_Interior_Light_0",
+    "R12_Gondola_Interior_Light_1",
+    "R12_Gondola_Roof_Markers",
+    "R12_Gondola_CabinShell",
+    "R12_Gondola_CabinGlass",
+    "R12_Gondola_Marker_Spill_0",
+    "R12_Gondola_Marker_Spill_1"
+  ]
+}

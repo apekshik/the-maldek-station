@@ -3,6 +3,22 @@ import bpy,bmesh
 from pathlib import Path
 def refine():
  s=bpy.context.scene;s.frame_set(60);bpy.context.view_layer.update()
+ # Closed leaves overlap the stationary head/jamb brushes without narrowing the opening.
+ for o in s.objects:
+  if o.name.startswith('GC_Leaf_stile'):o.location.z=1.068;o.dimensions.z=2.096
+  elif o.name.startswith('GC_Leaf_crossrail') and o.location.z>2:o.location.z=2.055;o.dimensions.z=.120
+  elif o.name.startswith('GC_Jamb_seal'):
+   o.location.x=.620 if o.location.x>0 else -.620;o.location.y=-3.091;o.dimensions=(.040,.066,2.10)
+  elif o.name=='GC_Top_seal':o.location.y=-3.091;o.dimensions=(1.20,.066,.030)
+  elif o.name.startswith('GC_Replaceable_sweep'):o.location.z=.011;o.dimensions.z=.020
+ # The window cores are open: service boxes need supports connected to the frames.
+ for sign,z in [(1,1.28),(-1,1.38)]:
+  name='GC_Service_mount_beam_'+str(sign)
+  if not bpy.data.objects.get(name):
+   bpy.ops.mesh.primitive_cube_add(size=1,location=(sign*1.10,-2.958,z));o=bpy.context.object;o.name=name;o.dimensions=(.84,.036,.075);bpy.ops.object.transform_apply(location=False,rotation=False,scale=True)
+   for c in list(o.users_collection):c.objects.unlink(o)
+   bpy.data.collections['04_Cabin_interior_details'].objects.link(o);o.data.materials.append(bpy.data.materials['GC01_Graphite']);mod=o.modifiers.new('Soft fabricated edges','BEVEL');mod.width=.003;mod.segments=3
+   world=o.matrix_world.copy();o.parent=bpy.data.objects['GC_CABIN_APPROACH_ROOT'];o.matrix_world=world
  # Blender's capped curve conversion leaves coincident cap rings unwelded.
  for o in list(s.objects):
   if o.type=='CURVE' and o.name.startswith(('GC_Protected_wiring','GC_Coat_hook')):

@@ -33,6 +33,7 @@ AGondolaSystem::AGondolaSystem()
  DeparturePrompt->SetGenerateOverlapEvents(false);
  DeparturePrompt->SetCastShadow(false);
  DeparturePrompt->SetVisibility(false);
+ CreateDoorComponents();
 }
 void AGondolaSystem::BeginPlay()
 {
@@ -41,7 +42,7 @@ void AGondolaSystem::BeginPlay()
  DeparturePrompt->SetSlateWidget(SNew(SBorder).BorderImage(&OuterRule).Padding(2)
   [SNew(SBorder).BorderImage(&Panel).Padding(12)
    [SNew(SVerticalBox)
-    +SVerticalBox::Slot().AutoHeight()[SNew(STextBlock).Text(FText::FromString(TEXT("E   Depart for Maldek"))).Font(FCoreStyle::GetDefaultFontStyle("Bold",20)).ColorAndOpacity(StationInteractionStyle::Action)]
+    +SVerticalBox::Slot().AutoHeight()[SNew(STextBlock).Text_Lambda([this] { return FText::FromString(bWaitingAtMaldek ? TEXT("E   Return to Millford") : TEXT("E   Depart for Maldek")); }).Font(FCoreStyle::GetDefaultFontStyle("Bold",20)).ColorAndOpacity(StationInteractionStyle::Action)]
     +SVerticalBox::Slot().AutoHeight()[SNew(STextBlock).Text(FText::FromString(TEXT("CROSSING APPROX. 8 MINUTES"))).Font(FCoreStyle::GetDefaultFontStyle("Regular",12)).ColorAndOpacity(StationInteractionStyle::Detail)]]]);
  DeparturePrompt->SetRelativeLocation(FVector(0,210,145));
  DeparturePrompt->SetRelativeRotation(FRotator(0,-90,0));
@@ -72,6 +73,8 @@ void AGondolaSystem::BeginPlay()
   SetCabinHidden(false);
   UpdateGondolaPosition();
  }
+ ApplyDoorPose();
+ if (!bStageFirstArrival && HasSlidingDoors()) DoorPhase = EGondolaDoorPhase::Settling;
 }
 void AGondolaSystem::SetCabinHidden(bool bHideCabin)
 {
@@ -88,12 +91,13 @@ void AGondolaSystem::Tick(float DeltaTime)
 {
  Super::Tick(DeltaTime);
  UpdateBoardingBridge(DeltaTime);
+ UpdateDoors(DeltaTime);
  const APawn* BoardingPlayer = UGameplayStatics::GetPlayerPawn(this, 0);
  APlayerController* BoardingController = UGameplayStatics::GetPlayerController(this, 0);
  const FVector CabinLocal = BoardingPlayer ? GondolaMesh->GetComponentTransform().InverseTransformPosition(BoardingPlayer->GetActorLocation()) : FVector(0,0,-1000);
- const bool bCanDepart = bDocked && !bMoving && !CabinParts.IsEmpty() && FMath::Abs(CabinLocal.X)<120 && FMath::Abs(CabinLocal.Y)<240 && CabinLocal.Z>30 && CabinLocal.Z<230;
+ const bool bCanDepart = (bDocked || bWaitingAtMaldek) && !bMoving && !bDepartureRequested && (!HasSlidingDoors() || DoorPhase == EGondolaDoorPhase::Open) && !CabinParts.IsEmpty() && FMath::Abs(CabinLocal.X)<120 && FMath::Abs(CabinLocal.Y)<240 && CabinLocal.Z>30 && CabinLocal.Z<230;
  DeparturePrompt->SetVisibility(bCanDepart);
- if (bCanDepart && BoardingController && BoardingController->WasInputKeyJustPressed(EKeys::E)) SendGondola();
+ if (bCanDepart && BoardingController && BoardingController->WasInputKeyJustPressed(EKeys::E)) { if (bWaitingAtMaldek) ReturnGondola(); else SendGondola(); }
  if (bArrivalPending)
  {
   const APawn* Player = UGameplayStatics::GetPlayerPawn(this, 0);
@@ -141,6 +145,7 @@ void AGondolaSystem::Tick(float DeltaTime)
 void AGondolaSystem::SendGondola()
 {
  if (bMoving || !bDocked || bArrivalPending) return;
+ if (HasSlidingDoors()) { RequestDeparture(1.f); return; }
  GetWorld()->GetTimerManager().ClearTimer(MaldekWaitTimer);
  bDocked = false; bMoving = true; Direction = 1; CurrentSpeed = 0;
  OnGondolaDeparted.Broadcast();
@@ -149,6 +154,7 @@ void AGondolaSystem::SendGondola()
 void AGondolaSystem::ReturnGondola()
 {
  if (bMoving || bDocked || bArrivalPending) return;
+ if (HasSlidingDoors()) { RequestDeparture(-1.f); return; }
  GetWorld()->GetTimerManager().ClearTimer(MaldekWaitTimer);
  if (IsValid(FarBoardingBridge) && !FarBoardingBridge->GetActorLocation().Equals(FarBridgeParked, 1.f))
  { bReturnRequested = true; return; }
@@ -159,15 +165,14 @@ void AGondolaSystem::ReturnGondola()
 void AGondolaSystem::UpdateBoardingBridge(float DeltaTime)
 {
  if (!IsValid(FarBoardingBridge)) return;
- const bool bDeploy = bWaitingAtMaldek && !bReturnRequested && !bMoving;
+ const bool bDoorsHoldBridge = HasSlidingDoors() && DoorPhase != EGondolaDoorPhase::Closed;
+ const bool bDeploy = bWaitingAtMaldek && (!bReturnRequested || bDoorsHoldBridge) && !bMoving;
  const FVector Target = bDeploy ? FarBridgeDeployed : FarBridgeParked;
  // Hold the gangway while someone occupies its deck. Never retract it under a rider.
- const APawn* Player = UGameplayStatics::GetPlayerPawn(this, 0);
- const FVector Local = Player ? Player->GetActorLocation()-FarBoardingBridge->GetActorLocation() : FVector(0,0,-1000);
- if (FMath::Abs(Local.X)<205 && FMath::Abs(Local.Y)<145 && Local.Z>0 && Local.Z<240) return;
+ if (BridgeOccupied()) return;
  const FVector Next = FMath::VInterpConstantTo(FarBoardingBridge->GetActorLocation(), Target, DeltaTime, 120.f);
  FarBoardingBridge->SetActorLocation(Next, false, nullptr, ETeleportType::None);
- if (bReturnRequested && Next.Equals(FarBridgeParked, 1.f)) ReturnGondola();
+ if (!HasSlidingDoors() && bReturnRequested && Next.Equals(FarBridgeParked, 1.f)) ReturnGondola();
 }
 void AGondolaSystem::UpdateGondolaPosition()
 {
@@ -182,10 +187,12 @@ void AGondolaSystem::UpdateGondolaPosition()
 }
 void AGondolaSystem::OnReachedDestination()
 {
+ if (HasSlidingDoors()) { DoorPhase = EGondolaDoorPhase::Settling; DoorPhaseTime = 0.f; }
  if (CurrentAlpha >= 1.f)
  {
   bWaitingAtMaldek = true;
   UE_LOG(Loggame, Log, TEXT("Gondola arrived at Maldek"));
+  if (HasSlidingDoors()) return; // Boarding dwell starts after the doors finish opening.
   if (WaitTimeAtMaldek > 0)
    GetWorld()->GetTimerManager().SetTimer(MaldekWaitTimer, this, &AGondolaSystem::ReturnGondola, WaitTimeAtMaldek, false);
   else ReturnGondola();

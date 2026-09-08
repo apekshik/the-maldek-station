@@ -5,7 +5,7 @@ from mathutils import Vector
 out=Path(__file__).resolve().parents[1];bpy.ops.wm.open_mainfile(filepath=str(out/'Maldek_Gondola_Cabin.blend'));s=bpy.context.scene;s.frame_set(60);deps=bpy.context.evaluated_depsgraph_get()
 def bounds(o):
  pts=[o.matrix_world@Vector(v) for v in o.bound_box];return [[min(p[i] for p in pts) for i in range(3)],[max(p[i] for p in pts) for i in range(3)]]
-report={'success':False,'scope':'Blender design validation; Unreal collision and state-machine integration remain pending','checks':{}}
+report={'success':False,'scope':'Blender source validation; separate Unreal checks are recorded in art/unreal_handoff/revision12/gondola_cabin','checks':{}}
 def check(n,v):
  report['checks'][n]=bool(v)
  if not v:
@@ -19,6 +19,12 @@ for old in json.loads((out/'audit.json').read_text()):
  b=bounds(o);wanted=[[old[k][i]-[0,8.05,4][i] for i in range(3)] for k in ['lo','hi']]
  maximum=max(maximum,max(abs(b[j][i]-wanted[j][i]) for i in range(3) for j in range(2)));preserved+=1
 check('retained_shell_world_bounds_preserved',maximum<.001);report['preserved_meshes']=preserved;report['maximum_shell_bounds_error_m']=maximum
+head=bounds(bpy.data.objects['GC_Top_seal'])
+check('head_brush_preserves_clear_height',head[0][2]>=2.0999)
+check('closed_leaves_overlap_head_brush',all(bounds(o)[1][2]>head[0][2]+.01 for o in s.objects if o.name.startswith('GC_Leaf_stile')))
+for o in s.objects:
+ if o.name.startswith('GC_Jamb_seal'):
+  lo,hi=bounds(o);check(o.name+'_preserves_width',lo[0]>=.5999 or hi[0]<=-.5999);check(o.name+'_reaches_wall_core',hi[1]>=-3.071)
 for name,sign in [('Gondola_South_Pier',-1),('Gondola_South_End',1)]:
  o=bpy.data.objects[name];inv=o.matrix_world.inverted();hit=o.ray_cast(inv@Vector((sign*1.1,-3.6,1.49)),inv.to_3x3()@Vector((0,1,0)))
  check(name+'_glazing_core_is_open',not hit[0])

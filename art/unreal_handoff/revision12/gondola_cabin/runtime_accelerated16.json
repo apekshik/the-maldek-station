@@ -1,0 +1,23 @@
+{
+  "phase": "outbound",
+  "next": 192671.221,
+  "deadline": 192909.156,
+  "checks": [
+    "Arrival stops before opening with recorded audio",
+    "Actual capsule boards Millford through clear opening",
+    "Closing door reverses and holds for obstructing capsule",
+    "Recorded closing and latch complete before movement"
+  ],
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\runtime_views\\01_opening.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\runtime_views\\02_open.png"
+  ],
+  "recording": false,
+  "phase_time": 77.01858628541231,
+  "record_name": "closing_in_game",
+  "shot_path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\runtime_views\\02_open.png",
+  "opening_shot": true,
+  "obstruction_fraction": 0.8702393770217896,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\scripts\\gondola_cabin_runtime.py\", line 70, in tick\n    assert abs(local.x)<125 and abs(local.y)<260 and 40<local.z<230,('Rider lost outbound',local.to_tuple())\n                                                     ^^^^^^^^^^^^^^\nAssertionError: ('Rider lost outbound', (-0.0005615190966636874, -391.819696732593, 61.87057628524053))\n",
+  "passed": false
+}

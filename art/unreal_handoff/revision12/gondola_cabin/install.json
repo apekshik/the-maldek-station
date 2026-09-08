@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "meshes": [
+    {
+      "name": "SM_Gondola_DoorLeft",
+      "bounds_error_cm": 2.8848648071289062e-05,
+      "collision_hulls": 0
+    },
+    {
+      "name": "SM_Gondola_DoorRight",
+      "bounds_error_cm": 2.9325485229492188e-05,
+      "collision_hulls": 0
+    },
+    {
+      "name": "SM_Gondola_Pinion",
+      "bounds_error_cm": 2.384185791015625e-07,
+      "collision_hulls": 0
+    },
+    {
+      "name": "SM_Gondola_Roller",
+      "bounds_error_cm": 2.384185791015625e-07,
+      "collision_hulls": 0
+    },
+    {
+      "name": "SM_Gondola_CabinShell",
+      "bounds_error_cm": 1.9550323486328125e-05,
+      "collision_hulls": 10
+    },
+    {
+      "name": "SM_Gondola_CabinGlass",
+      "bounds_error_cm": 2.47955322265625e-05,
+      "collision_hulls": 0
+    }
+  ],
+  "removed_old_chunks": [],
+  "cabin_parts": [
+    "R12_Gondola_Hanger_Adapter",
+    "R12_Gondola_Interior_Light_0",
+    "R12_Gondola_Interior_Light_1",
+    "R12_Gondola_Roof_Markers",
+    "R12_Gondola_CabinShell",
+    "R12_Gondola_CabinGlass",
+    "R12_Gondola_Marker_Spill_0",
+    "R12_Gondola_Marker_Spill_1"
+  ],
+  "route_preserved": true,
+  "door_travel_cm": 63.5,
+  "recorded_sounds": [
+    "/Game/MaldekRefinement/R12/GondolaCabin/Audio/Gondola_Door_Open.Gondola_Door_Open",
+    "/Game/MaldekRefinement/R12/GondolaCabin/Audio/Gondola_Door_Close.Gondola_Door_Close"
+  ]
+}

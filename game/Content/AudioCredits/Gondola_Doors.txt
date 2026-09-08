@@ -1,0 +1,13 @@
+Gondola sliding-door recordings
+
+Train Door Opening by iamaviolin
+https://freesound.org/people/iamaviolin/sounds/439499/
+Train Door Closing by iamaviolin
+https://freesound.org/people/iamaviolin/sounds/439494/
+
+Both recordings: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Complete recordings converted to mono 48 kHz PCM16, DC removed, constant gain,
+4 ms edge fades. No synthesis, pitch change or artificial layers.
+Original downloads, hashes and reproducible processing: art/audio/gondola_doors.

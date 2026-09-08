@@ -1,0 +1,33 @@
+{
+  "phase": "finish",
+  "next": 192942.221,
+  "deadline": 193027.375,
+  "checks": [
+    "Arrival stops before opening with recorded audio",
+    "Actual capsule boards Millford through clear opening",
+    "Closing door reverses and holds for obstructing capsule",
+    "Recorded closing and latch complete before movement",
+    "Far gangway deploys before doors open",
+    "Automatic return waits for occupied gangway",
+    "Actual capsule boards from far gangway",
+    "Late gangway obstruction cancels retraction and redeploys before reopening",
+    "Actual capsule boards from far gangway",
+    "Far return waits for closed doors and retracted gangway",
+    "Actual capsule exits after full roundtrip"
+  ],
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\runtime_views\\01_opening.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\runtime_views\\02_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\runtime_views\\03_far_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\runtime_views\\04_return_open.png"
+  ],
+  "recording": false,
+  "phase_time": 1063.358238812536,
+  "record_name": "closing_in_game",
+  "shot_path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\runtime_views\\04_return_open.png",
+  "opening_shot": true,
+  "obstruction_fraction": 0.8930304646492004,
+  "late_bridge_test": true,
+  "error": null,
+  "passed": true
+}

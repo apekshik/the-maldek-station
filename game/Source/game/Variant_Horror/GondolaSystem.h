@@ -9,6 +9,12 @@ class UStaticMeshComponent;
 class UTimelineComponent;
 class UCurveFloat;
 class UWidgetComponent;
+class UAudioComponent;
+class USoundBase;
+class UBoxComponent;
+
+UENUM(BlueprintType)
+enum class EGondolaDoorPhase : uint8 { Closed, Settling, Opening, Open, Closing, Latching };
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FGondolaDockedDelegate);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FGondolaDepartedDelegate);
@@ -49,6 +55,28 @@ public:
 	void BeginArrival();
 	UFUNCTION(BlueprintPure, Category = "Gondola")
 	float GetRouteDistance() const { return RouteDistance; }
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Doors")
+	TObjectPtr<UStaticMeshComponent> DoorLeft;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Doors")
+	TObjectPtr<UStaticMeshComponent> DoorRight;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Doors")
+	TObjectPtr<UStaticMeshComponent> DoorPinion;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Doors")
+	TArray<TObjectPtr<UStaticMeshComponent>> DoorRollers;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Doors")
+	TObjectPtr<UBoxComponent> DoorLeftCollision;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Doors")
+	TObjectPtr<UBoxComponent> DoorRightCollision;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gondola|Doors")
+	TObjectPtr<USoundBase> DoorOpenSound;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gondola|Doors")
+	TObjectPtr<USoundBase> DoorCloseSound;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Doors")
+	EGondolaDoorPhase DoorPhase = EGondolaDoorPhase::Closed;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Doors")
+	float DoorOpenFraction = 0.f;
+	UFUNCTION(BlueprintPure, Category="Gondola|Doors")
+	bool IsDeparturePending() const { return bDepartureRequested; }
 	/** Finished cabin pieces and lights, attached with authored dock offsets. */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gondola|Assembly")
 	TArray<TObjectPtr<AActor>> CabinParts;
@@ -133,6 +161,23 @@ private:
 	void SetCabinHidden(bool bHideCabin);
 	bool bReturnRequested = false;
 	void UpdateBoardingBridge(float DeltaTime);
+	UPROPERTY()
+	TObjectPtr<UAudioComponent> DoorAudio;
+	void UpdateDoors(float DeltaTime);
+	void CreateDoorComponents();
+	void ApplyDoorPose();
+	void StartDoorOpening();
+	void RequestDeparture(float TravelDirection);
+	void StartDeparture();
+	bool HasSlidingDoors() const;
+	bool DoorwayOccupied() const;
+	bool BridgeOccupied() const;
+	bool LandingReady() const;
+	void PlayDoorRecording(USoundBase* Sound);
+	bool bDepartureRequested = false;
+	float RequestedDirection = 0.f;
+	float DoorPhaseTime = 0.f;
+	float DoorTravel = 0.f;
 
 	/** Timer for waiting at Maldek */
 	FTimerHandle MaldekWaitTimer;

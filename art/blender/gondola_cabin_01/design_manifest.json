@@ -1,5 +1,5 @@
 {
-  "scope": "Blender design and sourced sounds for review; not installed in Unreal",
+  "scope": "Blender cabin source and recorded-sound review; runtime installation tracked in revision12/gondola_cabin",
   "source": "visual_fidelity_07/Maldek_Station_Cleanup.blend",
   "origin_shift_m": [
     0,

@@ -138,3 +138,41 @@ The failed bounds assertion exposed it before saving. Evidence:
 [diagnostic transform](unreal_handoff/revision12/gondola_route/bounds_probe.json),
 [corrected cable bounds](unreal_handoff/revision12/gondola_route/orientation.json),
 and [correction script](unreal_handoff/revision12/scripts/gondola_orientation_fix.py).
+
+## Appended cabin hierarchies and capped curves
+
+The cabin source contains a movable parent above its shell pieces. Translating both
+that parent and its children while recentering an appended collection applied the
+origin shift twice. Snapshot each object's world matrix, detach while restoring
+those matrices, then apply the origin shift once. The saved cabin review verifies
+166 retained mesh bounds against the original inventory within 0.37 mm.
+
+Blender 5.0 evaluated capped curve tubes also retained disconnected coincident cap
+rings on the new wiring and hooks. Convert those tubes to mesh and weld the matching
+rings before delivery; merely enabling curve fill caps did not make the evaluated
+mesh manifold. This is a topology repair with no silhouette change. See the
+[reproducible refinement](blender/gondola_cabin_01/scripts/refine_fittings.py) and
+[saved-file geometry checks](blender/gondola_cabin_01/verification.json).
+
+For the outboard sliding doors, a dark beauty render concealed air gaps at the
+head and jambs. Neutral light showed that the leaf stopped below the header and
+the brushes did not reach the wall core. Extend the closed leaf above the clear
+opening and bridge the concealed depth with seals; keep the stationary brushes
+outside the required clear width and height. The cabin refinement and saved-file
+checks above encode that overlap without reducing the 1.20 × 2.10 m opening.
+
+## Splitting terminal curves and compiling material graphs
+
+When separating distant terminal assemblies, classify source curves by evaluated
+world-space bounds rather than object origins. A curve can keep its origin at zero
+while its control points describe a distant wheel rim. Origin-based grouping put
+the Maldek rim into Millford's rotating mesh. The corrected
+[mechanism export](unreal_handoff/revision12/scripts/gondola_mechanism_export.py)
+uses bounds centres and rejects wheel vertices farther than 2.5 m from their pivot.
+
+In this UE version, the single-input pins on MaterialExpressionSine and
+ComponentMask are addressed by an empty pin name. A failed connection left the
+rope material with a missing Sine input. Assert graph-connection return values
+and inspect compiled shader errors, as in the
+[rope material builder](unreal_handoff/revision12/scripts/gondola_mechanism_rope_material.py)
+and its [successful shader check](unreal_handoff/revision12/gondola_mechanism/rope_shader.json).

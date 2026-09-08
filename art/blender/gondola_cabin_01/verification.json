@@ -1,9 +1,15 @@
 {
   "success": true,
-  "scope": "Blender design validation; Unreal collision and state-machine integration remain pending",
+  "scope": "Blender source validation; separate Unreal checks are recorded in art/unreal_handoff/revision12/gondola_cabin",
   "checks": {
     "replaced_old_handles_track_sill_removed": true,
     "retained_shell_world_bounds_preserved": true,
+    "head_brush_preserves_clear_height": true,
+    "closed_leaves_overlap_head_brush": true,
+    "GC_Jamb_seal_preserves_width": true,
+    "GC_Jamb_seal_reaches_wall_core": true,
+    "GC_Jamb_seal.001_preserves_width": true,
+    "GC_Jamb_seal.001_reaches_wall_core": true,
     "Gondola_South_Pier_glazing_core_is_open": true,
     "Gondola_South_End_glazing_core_is_open": true,
     "new_solid_meshes_manifold": true,
@@ -20,8 +26,8 @@
   },
   "preserved_meshes": 166,
   "maximum_shell_bounds_error_m": 0.0003675222396850586,
-  "new_evaluated_objects": 524,
-  "new_triangles": 101672,
+  "new_evaluated_objects": 526,
+  "new_triangles": 102048,
   "non_manifold_objects": [],
   "sampled_frames": 384,
   "key_frames": [

@@ -1,0 +1,24 @@
+{
+  "phase": "outbound",
+  "next": 193032.45599999998,
+  "deadline": 193271.015,
+  "checks": [
+    "Arrival stops before opening with recorded audio",
+    "Actual capsule boards Millford through clear opening",
+    "Closing door reverses and holds for obstructing capsule",
+    "Recorded closing and latch complete before movement",
+    "Rider remains on moving floor for 15 seconds at normal game speed"
+  ],
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\normal_views\\01_opening.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\normal_views\\02_open.png"
+  ],
+  "recording": false,
+  "phase_time": 77.166005179286,
+  "record_name": "closing_in_game",
+  "shot_path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_cabin\\normal_views\\02_open.png",
+  "opening_shot": true,
+  "obstruction_fraction": 0.869081974029541,
+  "error": null,
+  "passed": true
+}

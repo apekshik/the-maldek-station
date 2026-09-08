@@ -1,6 +1,6 @@
 # Gondola cabin and sliding-door study
 
-Editable Blender design for review. **Not installed in Unreal.** The station route, terminal machinery, live cabin materials and dimmed lamps are unchanged.
+Editable Blender source for the integrated gondola cabin. The station route, terminal machinery and dimmed lamps are preserved. Runtime scripts and verification are in `art/unreal_handoff/revision12/gondola_cabin`.
 
 Open `Maldek_Gondola_Cabin.blend`. Press Space to play the 16-second review timeline with the packed recorded opening/closing sounds. The saved view shows the open cabin. Cameras provide an exterior view, door close-up, interior, uncovered track and inside view of the closed doors. The track close-up temporarily hides the removable guard to show the mechanism; the delivered model keeps it fitted.
 
@@ -22,9 +22,9 @@ The cabin pass adds shaped olive seat cushions and backrests, piping, under-seat
 
 `GC_CABIN_APPROACH_ROOT`, `GC_SLIDE_LEFT`, `GC_SLIDE_RIGHT` and `GC_DRIVE_PINION` separate cabin movement, leaf translation and drive rotation. Roller controls follow the leaves. Source objects, new fixed parts, moving leaves, interior fittings and review lights are organized into separate collections.
 
-## Later integration
+## Game integration
 
-The current game controller lives in `GondolaSystem.cpp`. Installation must preserve its actual route and bridge states: stop first, deploy the Maldek landing, then open. Closing must detect doorway occupancy and reopen or hold; route movement and gangway retraction must wait for closed/latch confirmation. The Blender animation is a presentation sequence, not runtime logic or proof of capsule collision. Retain the existing lamp material instances and 12-lumen local lights. Test both terminals, interrupted departure, occupied doorway/bridge and the real player capsule before enabling travel.
+The current game controller lives in `GondolaSystem.cpp`, with the door sequence in `GondolaDoors.cpp`. It stops first, deploys the Maldek landing, then opens. Closing detects doorway occupancy and reopens or holds; route movement and gangway retraction wait for closed/latch confirmation. The Blender animation remains the presentation sequence. Runtime checks separately cover the real player capsule, both terminals, interrupted departure and occupied doorway/bridge. Existing 12-lumen local lights are retained.
 
 The original shell contains legacy layered geometry. This pass cuts the old solid entry-wall cores behind both small front windows so the retained glazing is see-through. New leaves have real window openings and distinct frame/glass/seal surfaces. The removed handles, track and sill must not be left behind when installing replacements. Source validation and saved-file checks are recorded in `verification.json`.
 
