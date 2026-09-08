@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "doors": [
+    {
+      "label": "R12_Door_Control_front",
+      "secured": true,
+      "code": "1234",
+      "location": [
+        -44016.905974972964,
+        18478.207549061975,
+        10298.5
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 0
+    },
+    {
+      "label": "R12_Door_Control_side",
+      "secured": false,
+      "code": "",
+      "location": [
+        -43478.805974972965,
+        18224.307549061974,
+        10298.5
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": -90
+    },
+    {
+      "label": "R12_Door_Relay_north",
+      "secured": true,
+      "code": "1234",
+      "location": [
+        -49141.890447022655,
+        19978.207549061975,
+        10198.64406779661
+      ],
+      "scale": [
+        0.9223602484472049,
+        1,
+        0.9576271186440678
+      ],
+      "yaw": 0
+    },
+    {
+      "label": "R12_Door_Relay_south",
+      "secured": true,
+      "code": "1234",
+      "location": [
+        -49022.721502923276,
+        19571.207549061975,
+        10198.64406779661
+      ],
+      "scale": [
+        0.9223602484472049,
+        1,
+        0.9576271186440678
+      ],
+      "yaw": 180
+    }
+  ],
+  "other_actor_transforms_preserved": 861,
+  "relay_clear_opening_metres": [
+    1.2,
+    2.3
+  ],
+  "relay_leaf_metres": [
+    1.188,
+    2.26
+  ],
+  "threshold_clearance_metres": 0.01
+}

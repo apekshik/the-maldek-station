@@ -1,5 +1,13 @@
 # Standard and digital-keypad door integration
 
+## Approved placement update
+
+The user selected temporary code **1234** for the main control-room entrance and the distant relay station. Both relay entrances use that keypad code; the control-room side door remains standard. Relay openings are 1.2 x 2.3 metres, verified against evaluated VF07 geometry in relay_openings.json. The relay leaf plaque reads R / 01 and RELAY; relay_label_import.json verifies identical bounds and unchanged walking collision. The shared door assembly is fitted to those openings with per-instance width/height scaling, retaining its thickness, existing reveals, thresholds, 6 mm side/head gaps and 10 mm threshold clearance.
+
+After the baseline installation below, export the relay-labelled leaf with Blender using doors_export_relay_label.py. Run doors_place_keypads.py, doors_import_relay_label.py, doors_test_keypads.py, doors_capture_keypads.py and doors_finish_keypads.py through the exclusive editor dispatcher. The keypad-prefixed reports supersede the original two-standard-door reports. All three secured entrances passed actual PIE keyboard entry of 1234, rejection of 9999, locked opening refusal, full 95-degree opening, player passage and closing. The side door remains standard. Final neutral/night captures and save/reopen verification also passed; keypad_saved_verification.json confirms all three code 1234 entrances reload locked and the side door reloads unlocked.
+
+## Original validated baseline
+
 Current source: `art/blender/door_study_03/Maldek_Digital_Door_Variants.blend`.
 The mechanical padlock experiment is superseded and must not be installed.
 

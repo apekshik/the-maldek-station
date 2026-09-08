@@ -1,0 +1,30 @@
+{
+  "phase": 1,
+  "index": 18,
+  "next": 162072.51200000002,
+  "deadline": 162260.89,
+  "files": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\control_night_0.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\control_night_1.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\control_night_2.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\control_neutral_0.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\control_neutral_1.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\control_neutral_2.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_south_night_0.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_south_night_1.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_south_night_2.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_south_neutral_0.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_south_neutral_1.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_south_neutral_2.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_north_night_0.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_north_night_1.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_north_night_2.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_north_neutral_0.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_north_neutral_1.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_north_neutral_2.png"
+  ],
+  "awaiting": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\doors\\keypad_previews\\relay_north_neutral_2.png",
+  "success": true,
+  "error": null,
+  "temporary_light_removed": true
+}
