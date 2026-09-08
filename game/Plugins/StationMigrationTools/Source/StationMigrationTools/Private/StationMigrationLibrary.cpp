@@ -13,6 +13,10 @@
 #include "MaterialShared.h"
 #include "ShaderCompiler.h"
 #include "LandscapeComponent.h"
+#include "Landscape.h"
+#include "LandscapeInfo.h"
+#include "LandscapeEdit.h"
+#include "LandscapeEditLayer.h"
 #include "Engine/Texture2D.h"
 #include "GameFramework/PlayerController.h"
 #include "InputKeyEventArgs.h"
@@ -215,4 +219,59 @@ TArray<FString> UStationMigrationLibrary::GetLandscapeHeightmapPaths(AActor* Lan
         if (UTexture2D* Texture = Component->GetHeightmap(true)) Paths.AddUnique(Texture->GetPathName());
     }
     return Paths;
+}
+
+namespace
+{
+bool ValidStationPatch(ALandscape* Land, int32 X1, int32 Y1, int32 X2, int32 Y2, int32 LayerIndex)
+{
+    if (!Land || Land->GetPackage()->GetName() != TEXT("/Game/MaldekRefinement/R12/Station_R12") ||
+        !Land->GetLandscapeInfo() || X2 < X1 || Y2 < Y1 ||
+        int64(X2-X1+1)*int64(Y2-Y1+1) > 100000 || LayerIndex < -1) return false;
+    int32 MinX, MinY, MaxX, MaxY;
+    if (!Land->GetLandscapeInfo()->GetLandscapeExtent(MinX, MinY, MaxX, MaxY) ||
+        X1 < MinX || Y1 < MinY || X2 > MaxX || Y2 > MaxY) return false;
+    if (LayerIndex >= 0 && !Land->GetEditLayer(LayerIndex)) return false;
+    for (const FString& Path : UStationMigrationLibrary::GetLandscapeHeightmapPaths(Land))
+        if (!Path.StartsWith(TEXT("/Game/MaldekRefinement/R12/Station_R12."))) return false;
+    return true;
+}
+}
+
+TArray<int32> UStationMigrationLibrary::ReadR12LandscapePatch(AActor* Actor, int32 X1, int32 Y1, int32 X2, int32 Y2, int32 LayerIndex)
+{
+    TArray<int32> Result;
+    ALandscape* Land = Cast<ALandscape>(Actor);
+    if (!ValidStationPatch(Land, X1, Y1, X2, Y2, LayerIndex)) return Result;
+    const FGuid Guid = LayerIndex >= 0 ? Land->GetEditLayer(LayerIndex)->GetGuid() : FGuid();
+    FLandscapeEditDataInterface Edit(Land->GetLandscapeInfo(), Guid);
+    TArray<uint16> Values; Values.SetNumZeroed((X2-X1+1)*(Y2-Y1+1));
+    Edit.GetHeightDataFast(X1,Y1,X2,Y2,Values.GetData(),0);
+    for (uint16 Value : Values) Result.Add(Value);
+    return Result;
+}
+
+FString UStationMigrationLibrary::ApplyR12LandscapePatch(AActor* Actor, int32 X1, int32 Y1, int32 X2, int32 Y2, int32 LayerIndex, const TArray<int32>& Expected, const TArray<int32>& Heights)
+{
+    ALandscape* Land = Cast<ALandscape>(Actor);
+    if (!ValidStationPatch(Land,X1,Y1,X2,Y2,LayerIndex) || LayerIndex < 0) return TEXT("Rejected patch bounds, ownership or layer");
+    const int32 Count = (X2-X1+1)*(Y2-Y1+1);
+    if (Expected.Num()!=Count || Heights.Num()!=Count) return TEXT("Rejected array size");
+    for (int32 H : Heights) if (H<0 || H>65535) return TEXT("Rejected height range");
+    if (ReadR12LandscapePatch(Actor,X1,Y1,X2,Y2,LayerIndex)!=Expected) return TEXT("Rejected stale source heights");
+    TArray<uint16> Data; Data.Reserve(Count);
+    int32 Changed=0;
+    for (int32 I=0;I<Count;++I) { Data.Add(uint16(Heights[I])); Changed += Heights[I]!=Expected[I]; }
+    if (!Changed) return TEXT("OK unchanged");
+    FScopedSetLandscapeEditingLayer Scope(Land,Land->GetEditLayer(LayerIndex)->GetGuid());
+    FLandscapeEditDataInterface Edit(Land->GetLandscapeInfo());
+    TSet<ULandscapeComponent*> Components;
+    if (!Edit.GetComponentsInRegion(X1,Y1,X2,Y2,&Components)) return TEXT("Rejected missing components");
+    Land->Modify();
+    for (ULandscapeComponent* Component : Components) Component->Modify();
+    Edit.SetHeightData(X1,Y1,X2,Y2,Data.GetData(),0,false);
+    Edit.Flush();
+    for (ULandscapeComponent* Component : Components) Component->RequestHeightmapUpdate();
+    Land->MarkPackageDirty();
+    return FString::Printf(TEXT("OK %d heights, %d components"),Changed,Components.Num());
 }

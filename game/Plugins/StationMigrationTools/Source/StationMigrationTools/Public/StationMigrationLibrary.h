@@ -32,6 +32,13 @@ public:
     UFUNCTION(BlueprintCallable, Category="Station Validation")
     static TArray<FString> GetLandscapeHeightmapPaths(AActor* LandscapeActor);
 
+    // Bounded CPU terrain access, restricted to the station's owned landscape.
+    UFUNCTION(BlueprintCallable, Category="Station Validation")
+    static TArray<int32> ReadR12LandscapePatch(AActor* LandscapeActor, int32 X1, int32 Y1, int32 X2, int32 Y2, int32 LayerIndex);
+
+    UFUNCTION(BlueprintCallable, Category="Station Validation")
+    static FString ApplyR12LandscapePatch(AActor* LandscapeActor, int32 X1, int32 Y1, int32 X2, int32 Y2, int32 LayerIndex, const TArray<int32>& Expected, const TArray<int32>& Heights);
+
     // Exercises the existing input binding rather than changing flashlight visibility directly.
     UFUNCTION(BlueprintCallable, Category="Station Validation")
     static bool SendPIEKey(FName KeyName, bool bPressed);

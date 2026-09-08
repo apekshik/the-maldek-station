@@ -52,3 +52,10 @@ art/unreal_handoff/revision12/session.json
 
 # Cached web pages may contain third-party tokens. Keep attribution in sources.json.
 art/audio/**/source_pages/
+
+# Local gorge rollbacks and retired render-target import artifacts.
+art/unreal_handoff/revision12/gorge/Station_R12*.umap
+art/unreal_handoff/revision12/gorge/landscape*.png
+art/unreal_handoff/revision12/gorge/landscape_applied.json
+art/unreal_handoff/revision12/gorge/heightmap_report.json
+game/Content/MaldekRefinement/R12/Gorge/HeightImport/
