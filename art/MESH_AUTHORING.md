@@ -113,3 +113,11 @@ that needs measurement.
 
 These are confirmed examples, not a promise that every future flicker has the
 same cause. Extend the diagnostic history when a different cause is established.
+
+## Hinged-door swing direction
+
+A door authored with an exterior hinge pivot cannot be made inward-opening by only negating its target angle. The R12 door's exterior pivot is 35 mm in front of the leaf centre plane; simply setting -95 degrees stopped at about -6 degrees against the existing jamb. The quarters landing and south generator approach needed inward swings.
+
+The verified inward variant moves the pivot to the opposite side, mirrors the hinge hardware and frame stops/seals, re-exports leaf/glass/fixed components around that pivot, and updates the leaf collision centre from -3.5 cm to +3.5 cm. Moving the installed actor by the corresponding 7 cm preserves the closed leaf plane and opening clearances. It does not widen or move the building's doorway. Both inward doors then reached -95 degrees and passed actual player-capsule traversal. Keep this as an assembly change, including hardware and collision, rather than only an animation-sign change.
+
+Evidence: [initial pivot diagnosis](unreal_handoff/revision12/doors/rooms/swing_diagnosis.json), [inward export](unreal_handoff/revision12/scripts/doors_export_inward.py), [placement](unreal_handoff/revision12/doors/rooms_install.json), and [runtime traversal](unreal_handoff/revision12/doors/rooms/runtime.json). Service-area openings come from VF09/R13, which supersedes the VF07 generator/workshop footprint; inspect the current live assembly before applying older opening coordinates.

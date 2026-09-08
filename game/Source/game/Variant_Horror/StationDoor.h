@@ -11,6 +11,10 @@ class APawn;
 class UMaterialInstanceDynamic;
 class UCameraComponent;
 class UMeshComponent;
+class UAudioComponent;
+class USoundBase;
+class SWidget;
+class STextBlock;
 
 /** Hinged station door. Locked doors never change their collision or opening target. */
 UCLASS(Blueprintable)
@@ -50,7 +54,20 @@ public:
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door") float OpenAngle=105.f;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door", meta=(ClampMin="10")) float DegreesPerSecond=85.f;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door", meta=(ClampMin="50")) float InteractionDistance=220.f;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> ButtonSound;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> ClearSound;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> ConfirmSound;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> RejectSound;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> UnlatchSound;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> MovementSound;
+ UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Audio") TObjectPtr<USoundBase> CloseSound;
+ UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> EventAudio;
+ UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> MotionAudio;
 private:
+ TSharedPtr<SWidget> HintWidget;
+ TSharedPtr<STextBlock> HintAction,HintDetail;
+ void ShowDoorHint(bool bVisible,const FString& Action=FString(),const FString& Detail=FString());
+ void PlayDoorSound(USoundBase* Sound,bool bKeypad=false);
  float CurrentAngle=0.f;
  float TargetAngle=0.f;
  float FeedbackSeconds=0.f;

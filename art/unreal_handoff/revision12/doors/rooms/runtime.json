@@ -1,0 +1,157 @@
+{
+  "phase": 1,
+  "index": 6,
+  "next": 167479.934,
+  "deadline": 167597.0,
+  "checks": {},
+  "results": [
+    {
+      "label": "R12_Door_Quarters",
+      "angle": -95.0,
+      "opening_audio": true,
+      "pawn_before": [
+        -44070.12833522141,
+        17948.207549061975,
+        10761.650015386484
+      ],
+      "walk_cm": 390.7615914815214,
+      "walk_start": [
+        -44070.12833522141,
+        17948.207549061975,
+        10761.64406779661
+      ],
+      "walk_end": [
+        -44070.12833522141,
+        18338.969140543497,
+        10761.650004896066
+      ],
+      "closed": true,
+      "close_sound": true,
+      "motion_stopped": true
+    },
+    {
+      "label": "R12_Door_Hall_north",
+      "angle": 94.99579620361328,
+      "opening_audio": true,
+      "pawn_before": [
+        -43256.84386317173,
+        18683.207549061975,
+        10396.649988651276
+      ],
+      "walk_cm": 389.6607229204455,
+      "walk_start": [
+        -43256.84386317173,
+        18558.207549061975,
+        10396.5
+      ],
+      "walk_end": [
+        -43256.84386317173,
+        18168.54682614153,
+        10396.649990558624
+      ],
+      "closed": true,
+      "close_sound": true,
+      "motion_stopped": true
+    },
+    {
+      "label": "R12_Door_Hall_south",
+      "angle": 95.0,
+      "opening_audio": true,
+      "pawn_before": [
+        -42967.7680867742,
+        17486.207549061975,
+        10396.649988651276
+      ],
+      "walk_cm": 387.8868139400619,
+      "walk_start": [
+        -42967.7680867742,
+        17611.207549061975,
+        10396.5
+      ],
+      "walk_end": [
+        -42967.7680867742,
+        17999.094363002037,
+        10396.650000572205
+      ],
+      "closed": true,
+      "close_sound": true,
+      "motion_stopped": true
+    },
+    {
+      "label": "R12_Door_Generator_south",
+      "angle": -95.0,
+      "opening_audio": true,
+      "pawn_before": [
+        -47232.79914267483,
+        16373.207549061975,
+        9848.649994279756
+      ],
+      "walk_cm": 390.0489246186225,
+      "walk_start": [
+        -47232.79914267483,
+        16498.207549061975,
+        9895.328305084746
+      ],
+      "walk_end": [
+        -47232.79914267483,
+        16888.256473680598,
+        9896.649998505156
+      ],
+      "closed": true,
+      "close_sound": true,
+      "motion_stopped": true
+    },
+    {
+      "label": "R12_Door_Generator_west",
+      "angle": 95.0,
+      "opening_audio": true,
+      "pawn_before": [
+        -46773.805974972965,
+        16974.18332545949,
+        9896.649998028319
+      ],
+      "walk_cm": 388.0826254829153,
+      "walk_start": [
+        -46898.805974972965,
+        16974.18332545949,
+        9895.328305084746
+      ],
+      "walk_end": [
+        -47286.88860045588,
+        16974.18332545949,
+        9896.861205894988
+      ],
+      "closed": true,
+      "close_sound": true,
+      "motion_stopped": true
+    },
+    {
+      "label": "R12_Door_Workshop_shared",
+      "angle": 95.0,
+      "opening_audio": true,
+      "pawn_before": [
+        -48190.805974972965,
+        16925.20071676384,
+        9896.650005657713
+      ],
+      "walk_cm": 387.6108261958798,
+      "walk_start": [
+        -48065.805974972965,
+        16925.20071676384,
+        9895.328305084746
+      ],
+      "walk_end": [
+        -47678.195148777086,
+        16930.23046717217,
+        9896.793699134416
+      ],
+      "closed": true,
+      "close_sound": true,
+      "motion_stopped": true
+    }
+  ],
+  "moving_audio": true,
+  "until": 167476.731,
+  "success": true,
+  "error": null
+}

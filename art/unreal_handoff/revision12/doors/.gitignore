@@ -1,2 +1,5 @@
 /Station_R12_before_doors.umap
 /debug_door.png
+/rooms/*_prompt0*.png
+
+/audio_review/*0000*.png

@@ -1,0 +1,118 @@
+{
+  "success": true,
+  "new_doors": [
+    {
+      "label": "R12_Door_Quarters",
+      "source_position": [
+        -2.6456118012422363,
+        -4.465,
+        7.651440677966102
+      ],
+      "clear_width": 1.0499999999999998,
+      "clear_height": 2.3,
+      "yaw": 180,
+      "inward": true,
+      "scale": [
+        0.8059006211180123,
+        1,
+        0.9576271186440679
+      ]
+    },
+    {
+      "label": "R12_Door_Hall_north",
+      "source_position": [
+        -9.503689440993789,
+        0.035,
+        4.0
+      ],
+      "clear_width": 1.5,
+      "clear_height": 2.4,
+      "yaw": 0,
+      "inward": false,
+      "scale": [
+        1.15527950310559,
+        1,
+        1.0000000000000002
+      ]
+    },
+    {
+      "label": "R12_Door_Hall_south",
+      "source_position": [
+        -13.896310559006212,
+        -7.835,
+        4.0
+      ],
+      "clear_width": 1.5,
+      "clear_height": 2.4,
+      "yaw": 180,
+      "inward": false,
+      "scale": [
+        1.15527950310559,
+        1,
+        1.0000000000000002
+      ]
+    },
+    {
+      "label": "R12_Door_Generator_south",
+      "source_position": [
+        28.703534161490683,
+        -18.965,
+        -1.0117169491525424
+      ],
+      "clear_width": 1.6000000000000014,
+      "clear_height": 2.65,
+      "yaw": 180,
+      "inward": true,
+      "scale": [
+        1.2329192546583863,
+        1,
+        1.1093220338983052
+      ]
+    },
+    {
+      "label": "R12_Door_Generator_west",
+      "source_position": [
+        26.965,
+        -14.153378881987578,
+        -1.0117169491525424
+      ],
+      "clear_width": 1.6999999999999993,
+      "clear_height": 2.65,
+      "yaw": -90,
+      "inward": false,
+      "scale": [
+        1.3105590062111796,
+        1,
+        1.1093220338983052
+      ]
+    },
+    {
+      "label": "R12_Door_Workshop_shared",
+      "source_position": [
+        37.035,
+        -16.296465838509317,
+        -1.0117169491525424
+      ],
+      "clear_width": 1.6000000000000014,
+      "clear_height": 2.65,
+      "yaw": 90,
+      "inward": false,
+      "scale": [
+        1.2329192546583863,
+        1,
+        1.1093220338983052
+      ]
+    }
+  ],
+  "total_doors": 10,
+  "other_actors_preserved": 861,
+  "sound_assets": {
+    "button_sound": "/Game/MaldekRefinement/R12/Doors/Audio/KeyPress.KeyPress",
+    "clear_sound": "/Game/MaldekRefinement/R12/Doors/Audio/KeyClear.KeyClear",
+    "confirm_sound": "/Game/MaldekRefinement/R12/Doors/Audio/KeyConfirm.KeyConfirm",
+    "reject_sound": "/Game/MaldekRefinement/R12/Doors/Audio/KeyReject.KeyReject",
+    "unlatch_sound": "/Game/MaldekRefinement/R12/Doors/Audio/DoorUnlatch.DoorUnlatch",
+    "movement_sound": "/Game/MaldekRefinement/R12/Doors/Audio/DoorMovement.DoorMovement",
+    "close_sound": "/Game/MaldekRefinement/R12/Doors/Audio/DoorClose.DoorClose"
+  }
+}

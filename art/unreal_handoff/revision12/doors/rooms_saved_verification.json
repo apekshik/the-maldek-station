@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "reopened_doors": [
+    {
+      "label": "R12_Door_Control_front",
+      "keypad": true,
+      "open_angle": 95.0,
+      "audio_assigned": true
+    },
+    {
+      "label": "R12_Door_Control_side",
+      "keypad": false,
+      "open_angle": 95.0,
+      "audio_assigned": true
+    },
+    {
+      "label": "R12_Door_Quarters",
+      "keypad": false,
+      "open_angle": -95.0,
+      "audio_assigned": true
+    },
+    {
+      "label": "R12_Door_Hall_north",
+      "keypad": false,
+      "open_angle": 95.0,
+      "audio_assigned": true
+    },
+    {
+      "label": "R12_Door_Hall_south",
+      "keypad": false,
+      "open_angle": 95.0,
+      "audio_assigned": true
+    },
+    {
+      "label": "R12_Door_Generator_south",
+      "keypad": false,
+      "open_angle": -95.0,
+      "audio_assigned": true
+    },
+    {
+      "label": "R12_Door_Generator_west",
+      "keypad": false,
+      "open_angle": 95.0,
+      "audio_assigned": true
+    },
+    {
+      "label": "R12_Door_Workshop_shared",
+      "keypad": false,
+      "open_angle": 95.0,
+      "audio_assigned": true
+    },
+    {
+      "label": "R12_Door_Relay_north",
+      "keypad": true,
+      "open_angle": 95.0,
+      "audio_assigned": true
+    },
+    {
+      "label": "R12_Door_Relay_south",
+      "keypad": true,
+      "open_angle": 95.0,
+      "audio_assigned": true
+    }
+  ],
+  "keypad_code": "1234",
+  "temporary_actors_removed": true,
+  "neutral_night_images": 48,
+  "builds": [
+    "Win64 Development game",
+    "Win64 Development editor"
+  ]
+}

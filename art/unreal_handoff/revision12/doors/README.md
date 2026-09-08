@@ -1,5 +1,15 @@
 # Standard and digital-keypad door integration
 
+## Current room coverage, sounds and interaction prompt
+
+Ten interactable doors are installed: three keypad doors (control front and both relay entrances, code 1234) and seven standard doors. The six newly filled entrances are quarters, waiting hall north/south, generator south/west and the shared workshop doorway. Generator/workshop coordinates follow the current VF09/R13 service hall, not the older VF07 footprint. Existing control-side access remains standard.
+
+The quarters and south generator leaves open inward to keep the stair landing and fuel-area approach clear. Their hinges, stops, pivot-relative geometry and collision centre are authored for that direction; their front plaques say PUSH TO OPEN. The other leaves pull outward. Current placements retain each building's existing reveals, headers and thresholds. The generator shell variant removes only the five old parked-door parts; all remaining shell collision boxes match the source exactly.
+
+A centered screen-space prompt uses a rounded dark panel, teal outline, pale E keycap and clear action label. The same panel offers Return to door in the keypad close-up. It never intercepts mouse clicks. Key press, CLR, accepted OK and rejected OK each have their own designed sound. Spatial latch, hinge and closing sounds follow actual door motion. A blocked door stops its hinge loop and does not play the closing impact until fully shut. See art/audio/doors/README.md for sound provenance and preparation.
+
+Reproduction: export doors_export_rooms.py, doors_export_inward.py and doors_export_service_shell.py with Blender. Run doors_install_rooms.py and doors_import_service_shell.py in the exclusive editor session. Run doors_test_rooms.py, doors_test_audio.py, doors_capture_rooms.py and doors_finish_rooms.py for validation. rooms/runtime.json, audio_review/runtime.json and room_previews/capture.json are the current evidence; older reports below describe earlier stages.
+
 ## Keypad inspection camera
 
 Press E while looking at a locked door to blend into a fixed, slightly elevated oblique close-up of its keypad. The camera uses a constrained 16:9 frame so the reader and hints stay visible across viewport shapes. Mouse movement controls a visible cursor; each click is ray-projected against the measured 3 x 4 physical key layout, including scaled relay instances. Digits appear as masked characters on the reader display. CLR clears the whole entry and OK submits it. Wrong codes leave the door locked and show TRY AGAIN. Correct code 1234 returns to the player view; E then opens the unlocked door normally.
@@ -37,4 +47,3 @@ Reproduce through the existing editor dispatcher in order, with exclusive editor
 The frosted pane uses a local scene-color blur material rather than changing global camera effects. Its shaders compile on the tested Win64 D3D12 renderer. This is a screen-space approximation, not a physical transmission simulation; dedicated Mac rendering and performance validation are still required. Blender renders are not evidence of Unreal appearance.
 
 Preserve the concurrent sensory settings: foot volume 3.5, idle sway 5, head bob 1.5, walk sway 1.8, run sway 3, held motion .15 and TorchV2 detailed mesh. Do not restore an older map or pawn to install doors.
-

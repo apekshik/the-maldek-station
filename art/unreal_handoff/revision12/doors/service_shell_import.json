@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "shell_actor": [
+    "R13_VF08_01_Generator_Shell_solid_Exterior"
+  ],
+  "retired_static_door_parts": [
+    "VF08_Door_hinge",
+    "VF08_Door_hinge.001",
+    "VF08_Door_hinge.002",
+    "VF08_Door_push_bar",
+    "VF08_Open_service_door"
+  ],
+  "all_other_collision_preserved": true
+}
