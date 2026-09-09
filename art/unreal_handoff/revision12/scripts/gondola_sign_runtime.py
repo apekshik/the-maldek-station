@@ -2,9 +2,12 @@
 import unreal,json,time,traceback
 from pathlib import Path
 out=Path(__file__).resolve().parents[1]/'gondola_sign';views=out/'review';views.mkdir(exist_ok=True)
+distance_review=globals().get('JOB',{}).get('distance_review',False)
+if distance_review:views=out/'night_distance';views.mkdir(exist_ok=True)
 placement_only=globals().get('JOB',{}).get('placement_only',False)
 walk_only=globals().get('JOB',{}).get('walk_only',False)
 report_name='approach_walk.json' if walk_only else 'runtime.json'
+if distance_review:report_name='night_distance.json'
 ls=unreal.get_editor_subsystem(unreal.LevelEditorSubsystem);aa=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);assert not ls.is_in_play_in_editor()
 light=aa.spawn_actor_from_class(unreal.DirectionalLight,unreal.Vector(0,0,50000),unreal.Rotator(pitch=-40,yaw=-35));light.set_actor_label('Sign_Inspection_Temporary');light.get_component_by_class(unreal.DirectionalLightComponent).set_mobility(unreal.ComponentMobility.MOVABLE);light.get_component_by_class(unreal.DirectionalLightComponent).set_intensity(0)
 settings=unreal.get_default_object(unreal.load_class(None,'/Script/UnrealEd.EditorPerformanceSettings'));throttle=settings.get_editor_property('bThrottleCPUWhenNotForeground');settings.set_editor_property('bThrottleCPUWhenNotForeground',False);unreal.StationMigrationLibrary.set_editor_rendering_suppressed(True)
@@ -48,11 +51,14 @@ def tick(dt):
    assert status=='AWAY';s['sign_position']=a.get_actor_location().to_tuple();s['checks'].append('Initially away; sign is independent of cabin')
    pc.set_ignore_move_input(True);pc.set_ignore_look_input(True);p.character_movement.set_movement_mode(unreal.MovementMode.MOVE_NONE);unreal.StationMigrationLibrary.set_pie_render_size(1440,900)
    g.wait_time_at_maldek=180
-   if walk_only:g.begin_arrival();unreal.GameplayStatics.set_global_time_dilation(w,8);phase('arrive')
+   if walk_only or distance_review:g.begin_arrival();unreal.GameplayStatics.set_global_time_dilation(w,8);phase('arrive')
    else:shotqueue([('01_away_night','front',0,False)],'begin_arrival')
   elif s['phase']=='view_place':
    name,view,lux,torch=s['queue'][0];origin=a.get_actor_location()
-   if view=='approach':eye=start+unreal.Vector(1500,-450,170);target=start+unreal.Vector(-100,-250,290)
+   if view in ['far','middle','near']:
+    eye=start+unreal.Vector({'far':1500,'middle':750,'near':100}[view],-450,170);target=origin+unreal.Vector(0,0,79)
+    s.setdefault('distances_m',{})[name]=(target-eye).length()/100
+   elif view=='approach':eye=start+unreal.Vector(1500,-450,170);target=start+unreal.Vector(-100,-250,290)
    elif view=='intro':eye=start+unreal.Vector(2200,-1800,170);target=origin+unreal.Vector(0,0,79)
    elif view=='rear':eye=origin+unreal.Vector(-380,-180,160);target=origin+unreal.Vector(0,0,79)
    else:eye=origin+unreal.Vector(480,-80 if view=='front' else -280,125);target=origin+unreal.Vector(0,0,79)
@@ -67,15 +73,18 @@ def tick(dt):
    s['queue'].pop(0)
    if s['queue']:phase('view_place')
    else:
-    lamp.set_intensity(0);g.set_actor_tick_enabled(True);phase(s['after'])
+    lamp.set_intensity(0);g.set_actor_tick_enabled(True)
+    if s['after']=='review_complete':s['lit_strength']=a.lit_strength;finish();return
+    phase(s['after'])
   elif s['phase']=='begin_arrival':
    place(0,-480);g.begin_arrival();unreal.GameplayStatics.set_global_time_dilation(w,8);phase('arrive')
   elif s['phase']=='arrive':
-   if status=='ARRIVING' and not s.get('arrival_shot') and not walk_only:
+   if status=='ARRIVING' and not s.get('arrival_shot') and not walk_only and not distance_review:
     s['arrival_shot']=True;shotqueue([('02_arriving_night','front',0,False)],'resume_arrive')
    elif status=='BOARD':
     assert not g.is_moving() and q==1;s['checks'].append('ARRIVING through approach and opening; BOARD only fully open')
-    if walk_only:unreal.GameplayStatics.set_global_time_dilation(w,1);phase('start_board')
+    if distance_review:shotqueue([('01_far','far',0,False),('02_middle','middle',0,False),('03_near','near',0,False)],'review_complete')
+    elif walk_only:unreal.GameplayStatics.set_global_time_dilation(w,1);phase('start_board')
     else:shotqueue([('03_board_night','front',0,False),('04_board_torch','front',0,True),('05_board_neutral','front',3,False),('06_board_glancing','glance',3,False),('07_placement_left','approach',3,False),('08_rear','rear',3,False),('10_approach_night','approach',0,False),('11_intro_approach','intro',3,False)],'start_board')
   elif s['phase']=='resume_arrive':place(0,-480);unreal.GameplayStatics.set_global_time_dilation(w,8);phase('arrive')
   elif s['phase']=='start_board':place(0,-740,walk=True);phase('board')

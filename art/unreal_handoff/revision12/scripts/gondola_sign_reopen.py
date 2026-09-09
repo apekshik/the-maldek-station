@@ -10,7 +10,7 @@ def verify(dt):
  try:
   by={a.get_actor_label():a for a in aa.get_all_level_actors()};a=by['R12_Gondola_Status_Sign'];g=by['BP_GondolaSystem'];sp=g.get_components_by_class(unreal.SplineComponent)[0]
   assert a.gondola==g and not a.far_terminal and a not in g.cabin_parts and not a.get_attach_parent_actor()
-  assert a.unlit_strength==0 and a.lit_strength==7
+  assert a.unlit_strength==0 and a.lit_strength==11
   assert len(a.circuits)==4 and all(c.static_mesh and c.get_num_materials()==1 for c in a.circuits)
   assert unreal.get_editor_subsystem(unreal.StaticMeshEditorSubsystem).get_convex_collision_count(a.cabinet.static_mesh)==3
   assert all(c.get_collision_enabled()==unreal.CollisionEnabled.NO_COLLISION for c in a.circuits)

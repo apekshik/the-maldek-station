@@ -10,7 +10,7 @@ Only the cabinet and mounting shoes have collision; the neon circuits have no co
 `AGondolaStatusSign` reads `AGondolaSystem::GetPlatformStatus` every 0.1 seconds
 after the gondola tick. Four dynamic material instances control `GlowStrength`.
 The controller holds no duplicated travel timers or door animation state.
-Runtime uses strength 7 for the active circuit and 0 for inactive emission,
+Runtime uses strength 11 for the active circuit and 0 for inactive emission,
 keeping the coloured glass visible under normal lighting without glowing at night.
 
 | Status | Runtime condition |
@@ -33,3 +33,5 @@ inspection lighting and test settings are removed before saving. The roof placem
 The shared map already contained the completed parking navigation changes. Those
 are preserved; their two referenced mesh assets accompany the map in the remote
 commit so that the saved level has no missing parking dependencies.
+
+The brightness pass is captured under actual night lighting, with the torch off, at three player-height viewpoints in `night_distance/`. Exact eye-to-panel distances and runtime circuit validation are recorded in `night_distance.json`. The earlier `review/` captures show the prior strength 7 finish.

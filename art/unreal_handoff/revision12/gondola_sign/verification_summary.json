@@ -21,10 +21,11 @@
     "Final placement remains fixed after departure"
   ],
   "reopened": true,
-  "active_emission": 7,
+  "active_emission": 11,
   "inactive_emission": 0,
-  "map_sha256": "4d9a048c53e2ad1953a347a808307f22fc91d686052d8eb6554d9af1c1cc69da",
+  "map_sha256": "ed28f05b28c3c4246a83ab8cea8474c5d7bd146437a375dc20fbf057f68a3020",
   "roof_mount_facing_left_yaw_degrees": "-90",
   "blender_revision": "gondola_status_sign_02",
-  "blender_geometry_verified": true
+  "blender_geometry_verified": true,
+  "night_distance_review": "night_distance.json"
 }

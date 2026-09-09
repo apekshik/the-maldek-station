@@ -1,0 +1,41 @@
+{
+  "phase": "image_wait",
+  "next": 312402.496,
+  "deadline": 312781.703,
+  "checks": [
+    "Initially away; sign is independent of cabin",
+    "ARRIVING through approach and opening; BOARD only fully open"
+  ],
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\night_distance\\01_far.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\night_distance\\02_middle.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\night_distance\\03_near.png"
+  ],
+  "seen": [
+    "AWAY",
+    "ARRIVING",
+    "BOARD"
+  ],
+  "player_offset": [
+    100.0,
+    -450.0,
+    106.0
+  ],
+  "last_status": "BOARD",
+  "status_since": 312392.171,
+  "sign_position": [
+    -44632.305974972965,
+    19029.70756813546,
+    10658.500061035156
+  ],
+  "phase_time": 74.84536818414927,
+  "after": "review_complete",
+  "distances_m": {
+    "01_far": 18.801226111179336,
+    "02_middle": 11.499395779069946,
+    "03_near": 5.611247925701705
+  },
+  "lit_strength": 11.0,
+  "passed": true,
+  "error": null
+}

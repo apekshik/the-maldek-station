@@ -37,7 +37,7 @@ for row in manifest['chunks']:
 label='R12_Gondola_Status_Sign';a=actors.get(label) or aa.spawn_actor_from_class(unreal.GondolaStatusSign,start)
 a.set_actor_label(label);a.set_folder_path('R12/Gondola Status');a.set_actor_location(start+unreal.Vector(-350,-250,364),False,True);a.set_actor_rotation(unreal.Rotator(yaw=-90),True)
 a.set_editor_property('gondola',g);a.set_editor_property('far_terminal',False)
-a.set_editor_property('unlit_strength',0)
+a.set_editor_property('unlit_strength',0);a.set_editor_property('lit_strength',11)
 a.cabinet.set_static_mesh(meshes['SM_Status_Cabinet'])
 for c,word in zip(a.circuits,['BOARD','ARRIVING','DEPART','AWAY']):c.set_static_mesh(meshes['SM_Status_'+word])
 assert not a.get_attach_parent_actor() and a not in g.cabin_parts
