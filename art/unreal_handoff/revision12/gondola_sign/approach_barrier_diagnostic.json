@@ -1,0 +1,31 @@
+{
+  "phase": "walk_exit",
+  "next": 241767.093,
+  "deadline": 242162.093,
+  "checks": [
+    "Initially away; sign is independent of cabin",
+    "ARRIVING through approach and opening; BOARD only fully open",
+    "Actual player capsule boards with sign installed"
+  ],
+  "images": [],
+  "seen": [
+    "AWAY",
+    "ARRIVING",
+    "BOARD"
+  ],
+  "player_offset": [
+    1.514919858891517e-06,
+    -768.3996623735438,
+    98.14999357193847
+  ],
+  "last_status": "BOARD",
+  "status_since": 241772.578,
+  "sign_position": [
+    -44132.305974972965,
+    18649.70756813546,
+    10298.500000000002
+  ],
+  "phase_time": 70.17482880875468,
+  "passed": false,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\scripts\\gondola_sign_runtime.py\", line 90, in tick\n    assert now-s['phase_time']<20,('Exit path blocked',s['player_offset'])\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('Exit path blocked', (1.514919858891517e-06, -768.3996623735438, 98.14999357193847))\n"
+}

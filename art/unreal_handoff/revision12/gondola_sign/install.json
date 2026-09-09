@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "meshes": [
+    {
+      "name": "SM_Status_BOARD",
+      "bounds_error_cm": 9.5367431640625e-06,
+      "collision_hulls": 0
+    },
+    {
+      "name": "SM_Status_ARRIVING",
+      "bounds_error_cm": 6.67572021484375e-06,
+      "collision_hulls": 0
+    },
+    {
+      "name": "SM_Status_DEPART",
+      "bounds_error_cm": 7.62939453125e-06,
+      "collision_hulls": 0
+    },
+    {
+      "name": "SM_Status_AWAY",
+      "bounds_error_cm": 5.245208740234375e-06,
+      "collision_hulls": 0
+    },
+    {
+      "name": "SM_Status_Cabinet",
+      "bounds_error_cm": 6.67572021484375e-06,
+      "collision_hulls": 2
+    }
+  ],
+  "position": [
+    -44537.305974972965,
+    18944.70756813546,
+    10298.500000000002
+  ],
+  "support_heights": [
+    10298.5,
+    10298.5,
+    10298.5,
+    10298.5
+  ],
+  "route_preserved": true,
+  "cabin_parts_preserved": true,
+  "actor": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.GondolaStatusSign_0",
+  "placement": "Mountain-facing left side; independent fixed pedestal",
+  "prior_map_sha256": "d746f5dc87b91b25d92fa83a9e74e62be258436e39d85ca3763c970f5538c21d"
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "reopened": true,
+  "sign_position": [
+    -44132.305974972965,
+    18649.70756813546,
+    10298.500000000002
+  ],
+  "left_of_mountain_heading": true,
+  "heading": [
+    0.004393113638798241,
+    1988.4814516389888,
+    -214.27294126633024
+  ],
+  "collision_hulls": 2,
+  "four_circuits_saved": true,
+  "parking_changes_preserved": true,
+  "temporary_light_removed": true,
+  "default_dwell_preserved": true
+}

@@ -1,0 +1,629 @@
+{
+  "source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\gondola_status_sign_01\\Maldek_Gondola_Status_Sign.blend",
+  "source_sha256": "0c90abcd2407d4301850e971058f924258b681397e755b7db20d14af1c7f8236",
+  "materials": {
+    "NS01_Circuit_BOARD": {
+      "slot": "UE_NS01_Circuit_BOARD",
+      "source_material": "NS01_Circuit_BOARD",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.053199999034404755,
+        0.1899999976158142,
+        0.10450000315904617,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.25,
+      "emission_color": [
+        0.2800000011920929,
+        1.0,
+        0.550000011920929,
+        1.0
+      ],
+      "emission_strength": 0.014999999664723873
+    },
+    "NS01_Circuit_ARRIVING": {
+      "slot": "UE_NS01_Circuit_ARRIVING",
+      "source_material": "NS01_Circuit_ARRIVING",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.1899999976158142,
+        0.09880000352859497,
+        0.02280000038444996,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.25,
+      "emission_color": [
+        1.0,
+        0.5199999809265137,
+        0.11999999731779099,
+        1.0
+      ],
+      "emission_strength": 0.014999999664723873
+    },
+    "NS01_Circuit_DEPART": {
+      "slot": "UE_NS01_Circuit_DEPART",
+      "source_material": "NS01_Circuit_DEPART",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.1899999976158142,
+        0.04560000076889992,
+        0.01140000019222498,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.25,
+      "emission_color": [
+        1.0,
+        0.23999999463558197,
+        0.05999999865889549,
+        1.0
+      ],
+      "emission_strength": 0.014999999664723873
+    },
+    "NS01_Circuit_AWAY": {
+      "slot": "UE_NS01_Circuit_AWAY",
+      "source_material": "NS01_Circuit_AWAY",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.0722000002861023,
+        0.12349999696016312,
+        0.1899999976158142,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.25,
+      "emission_color": [
+        0.3799999952316284,
+        0.6499999761581421,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 7.0
+    },
+    "NS01_Aged_brass": {
+      "slot": "UE_NS01_Aged_brass",
+      "source_material": "NS01_Aged_brass",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.3499999940395355,
+        0.23999999463558197,
+        0.0949999988079071,
+        1.0
+      ],
+      "metallic": 0.75,
+      "roughness": 0.3799999952316284,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "NS01_Petrol_enamel": {
+      "slot": "UE_NS01_Petrol_enamel",
+      "source_material": "NS01_Petrol_enamel",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.03500000014901161,
+        0.07500000298023224,
+        0.06400000303983688,
+        1.0
+      ],
+      "metallic": 0.44999998807907104,
+      "roughness": 0.4000000059604645,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "NS01_Galvanized_steel": {
+      "slot": "UE_NS01_Galvanized_steel",
+      "source_material": "NS01_Galvanized_steel",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.23999999463558197,
+        0.27000001072883606,
+        0.25,
+        1.0
+      ],
+      "metallic": 0.800000011920929,
+      "roughness": 0.36000001430511475,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "NS01_Porcelain": {
+      "slot": "UE_NS01_Porcelain",
+      "source_material": "NS01_Porcelain",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.41999998688697815,
+        0.3799999952316284,
+        0.2800000011920929,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.3499999940395355,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "NS01_Warm_lettering": {
+      "slot": "UE_NS01_Warm_lettering",
+      "source_material": "NS01_Warm_lettering",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.6700000166893005,
+        0.5699999928474426,
+        0.3499999940395355,
+        1.0
+      ],
+      "metallic": 0.10000000149011612,
+      "roughness": 0.5,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "NS01_Recess_black": {
+      "slot": "UE_NS01_Recess_black",
+      "source_material": "NS01_Recess_black",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.012000000104308128,
+        0.019999999552965164,
+        0.017999999225139618,
+        1.0
+      ],
+      "metallic": 0.15000000596046448,
+      "roughness": 0.47999998927116394,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    },
+    "NS01_Cable_rubber": {
+      "slot": "UE_NS01_Cable_rubber",
+      "source_material": "NS01_Cable_rubber",
+      "exposure": null,
+      "physical_surface": "Metal",
+      "glass": false,
+      "base_color": [
+        0.012000000104308128,
+        0.014000000432133675,
+        0.013000000268220901,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.800000011920929,
+      "emission_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emission_strength": 0.0
+    }
+  },
+  "chunks": [
+    {
+      "name": "SM_Status_BOARD",
+      "file": "fbx\\SM_Status_BOARD.fbx",
+      "sha256": "8f73365b0cc40489a3a303dbb2326ca6ba55eb2e85fce2507e02709d5c29cb7c",
+      "sources": [
+        "NS01_Neon_BOARD_0_0",
+        "NS01_Neon_BOARD_0_1",
+        "NS01_Neon_BOARD_0_2",
+        "NS01_Neon_BOARD_1_0",
+        "NS01_Neon_BOARD_2_0",
+        "NS01_Neon_BOARD_2_1",
+        "NS01_Neon_BOARD_3_0",
+        "NS01_Neon_BOARD_3_1",
+        "NS01_Neon_BOARD_4_0",
+        "NS01_Pilot_BOARD"
+      ],
+      "pivot": [
+        2.549999952316284,
+        -3.3499999046325684,
+        0.0
+      ],
+      "bounds": [
+        [
+          -0.585853099822998,
+          -0.0409998893737793,
+          2.465244770050049
+        ],
+        [
+          0.33025527000427246,
+          -0.03099989891052246,
+          2.629995822906494
+        ]
+      ],
+      "material_slots": [
+        "UE_NS01_Circuit_BOARD"
+      ],
+      "triangles": 2812,
+      "collision_boxes": [],
+      "collision_hulls": 0,
+      "physical_surface": "Metal",
+      "role": "thin",
+      "nanite": false,
+      "replacement_targets": []
+    },
+    {
+      "name": "SM_Status_ARRIVING",
+      "file": "fbx\\SM_Status_ARRIVING.fbx",
+      "sha256": "0265fea16e73e936a4a497ce4adedd05029ab1f1aab817cd019079c7467e6027",
+      "sources": [
+        "NS01_Neon_ARRIVING_0_0",
+        "NS01_Neon_ARRIVING_0_1",
+        "NS01_Neon_ARRIVING_1_0",
+        "NS01_Neon_ARRIVING_1_1",
+        "NS01_Neon_ARRIVING_2_0",
+        "NS01_Neon_ARRIVING_2_1",
+        "NS01_Neon_ARRIVING_3_0",
+        "NS01_Neon_ARRIVING_4_0",
+        "NS01_Neon_ARRIVING_5_0",
+        "NS01_Neon_ARRIVING_6_0",
+        "NS01_Neon_ARRIVING_7_0",
+        "NS01_Pilot_ARRIVING"
+      ],
+      "pivot": [
+        2.549999952316284,
+        -3.3499999046325684,
+        0.0
+      ],
+      "bounds": [
+        [
+          -0.585853099822998,
+          -0.0409998893737793,
+          2.2251813411712646
+        ],
+        [
+          0.46970462799072266,
+          -0.03099989891052246,
+          2.3699958324432373
+        ]
+      ],
+      "material_slots": [
+        "UE_NS01_Circuit_ARRIVING"
+      ],
+      "triangles": 2016,
+      "collision_boxes": [],
+      "collision_hulls": 0,
+      "physical_surface": "Metal",
+      "role": "thin",
+      "nanite": false,
+      "replacement_targets": []
+    },
+    {
+      "name": "SM_Status_DEPART",
+      "file": "fbx\\SM_Status_DEPART.fbx",
+      "sha256": "5656097a154c12185395f3e53454f47fa3b9b7234c690d1607f8ca1cc74b9e92",
+      "sources": [
+        "NS01_Neon_DEPART_0_0",
+        "NS01_Neon_DEPART_1_0",
+        "NS01_Neon_DEPART_1_1",
+        "NS01_Neon_DEPART_2_0",
+        "NS01_Neon_DEPART_3_0",
+        "NS01_Neon_DEPART_3_1",
+        "NS01_Neon_DEPART_4_0",
+        "NS01_Neon_DEPART_4_1",
+        "NS01_Neon_DEPART_5_0",
+        "NS01_Neon_DEPART_5_1",
+        "NS01_Pilot_DEPART"
+      ],
+      "pivot": [
+        2.549999952316284,
+        -3.3499999046325684,
+        0.0
+      ],
+      "bounds": [
+        [
+          -0.585853099822998,
+          -0.0409998893737793,
+          1.9852447509765625
+        ],
+        [
+          0.3952500820159912,
+          -0.03099989891052246,
+          2.149995803833008
+        ]
+      ],
+      "material_slots": [
+        "UE_NS01_Circuit_DEPART"
+      ],
+      "triangles": 1964,
+      "collision_boxes": [],
+      "collision_hulls": 0,
+      "physical_surface": "Metal",
+      "role": "thin",
+      "nanite": false,
+      "replacement_targets": []
+    },
+    {
+      "name": "SM_Status_AWAY",
+      "file": "fbx\\SM_Status_AWAY.fbx",
+      "sha256": "454821b7cb58e0d62ba6565c437b0bd1da020ab227503355359fc0ca1a05cbe4",
+      "sources": [
+        "NS01_Neon_AWAY_0_0",
+        "NS01_Neon_AWAY_0_1",
+        "NS01_Neon_AWAY_1_0",
+        "NS01_Neon_AWAY_2_0",
+        "NS01_Neon_AWAY_2_1",
+        "NS01_Neon_AWAY_3_0",
+        "NS01_Neon_AWAY_3_1",
+        "NS01_Pilot_AWAY"
+      ],
+      "pivot": [
+        2.549999952316284,
+        -3.3499999046325684,
+        0.0
+      ],
+      "bounds": [
+        [
+          -0.585853099822998,
+          -0.0409998893737793,
+          1.7452682256698608
+        ],
+        [
+          0.25975823402404785,
+          -0.03099989891052246,
+          1.9097552299499512
+        ]
+      ],
+      "material_slots": [
+        "UE_NS01_Circuit_AWAY"
+      ],
+      "triangles": 852,
+      "collision_boxes": [],
+      "collision_hulls": 0,
+      "physical_surface": "Metal",
+      "role": "thin",
+      "nanite": false,
+      "replacement_targets": []
+    },
+    {
+      "name": "SM_Status_Cabinet",
+      "file": "fbx\\SM_Status_Cabinet.fbx",
+      "sha256": "5ba30414205d779c20dff057e48d38e1cf71071a595b0651abadfeb3e30cd305",
+      "sources": [
+        "NS01_Anchor_bolt",
+        "NS01_Anchor_bolt.001",
+        "NS01_Anchor_bolt.002",
+        "NS01_Anchor_bolt.003",
+        "NS01_Cabinet_back",
+        "NS01_Cabinet_end",
+        "NS01_Cabinet_end.001",
+        "NS01_Cabinet_side",
+        "NS01_Cabinet_side.001",
+        "NS01_Case_hinge",
+        "NS01_Case_hinge.001",
+        "NS01_Case_hinge.002",
+        "NS01_Case_hinge.003",
+        "NS01_Conduit_saddle",
+        "NS01_Conduit_saddle.001",
+        "NS01_Conduit_saddle.002",
+        "NS01_Electrode_ARRIVING",
+        "NS01_Electrode_ARRIVING.001",
+        "NS01_Electrode_ARRIVING.002",
+        "NS01_Electrode_ARRIVING.003",
+        "NS01_Electrode_ARRIVING.004",
+        "NS01_Electrode_ARRIVING.005",
+        "NS01_Electrode_ARRIVING.006",
+        "NS01_Electrode_ARRIVING.007",
+        "NS01_Electrode_ARRIVING.008",
+        "NS01_Electrode_ARRIVING.009",
+        "NS01_Electrode_ARRIVING.010",
+        "NS01_Electrode_ARRIVING.011",
+        "NS01_Electrode_ARRIVING.012",
+        "NS01_Electrode_ARRIVING.013",
+        "NS01_Electrode_ARRIVING.014",
+        "NS01_Electrode_ARRIVING.015",
+        "NS01_Electrode_ARRIVING.016",
+        "NS01_Electrode_ARRIVING.017",
+        "NS01_Electrode_ARRIVING.018",
+        "NS01_Electrode_ARRIVING.019",
+        "NS01_Electrode_ARRIVING.020",
+        "NS01_Electrode_ARRIVING.021",
+        "NS01_Electrode_AWAY",
+        "NS01_Electrode_AWAY.001",
+        "NS01_Electrode_AWAY.002",
+        "NS01_Electrode_AWAY.003",
+        "NS01_Electrode_AWAY.004",
+        "NS01_Electrode_AWAY.005",
+        "NS01_Electrode_AWAY.006",
+        "NS01_Electrode_AWAY.007",
+        "NS01_Electrode_AWAY.008",
+        "NS01_Electrode_AWAY.009",
+        "NS01_Electrode_AWAY.010",
+        "NS01_Electrode_AWAY.011",
+        "NS01_Electrode_AWAY.012",
+        "NS01_Electrode_AWAY.013",
+        "NS01_Electrode_BOARD",
+        "NS01_Electrode_BOARD.001",
+        "NS01_Electrode_BOARD.003",
+        "NS01_Electrode_BOARD.006",
+        "NS01_Electrode_BOARD.008",
+        "NS01_Electrode_BOARD.009",
+        "NS01_Electrode_BOARD.010",
+        "NS01_Electrode_BOARD.011",
+        "NS01_Electrode_BOARD.012",
+        "NS01_Electrode_BOARD.013",
+        "NS01_Electrode_BOARD.014",
+        "NS01_Electrode_BOARD.015",
+        "NS01_Electrode_BOARD.016",
+        "NS01_Electrode_DEPART",
+        "NS01_Electrode_DEPART.002",
+        "NS01_Electrode_DEPART.003",
+        "NS01_Electrode_DEPART.004",
+        "NS01_Electrode_DEPART.005",
+        "NS01_Electrode_DEPART.006",
+        "NS01_Electrode_DEPART.007",
+        "NS01_Electrode_DEPART.008",
+        "NS01_Electrode_DEPART.009",
+        "NS01_Electrode_DEPART.010",
+        "NS01_Electrode_DEPART.011",
+        "NS01_Electrode_DEPART.012",
+        "NS01_Electrode_DEPART.013",
+        "NS01_Electrode_DEPART.014",
+        "NS01_Electrode_DEPART.015",
+        "NS01_Electrode_DEPART.016",
+        "NS01_Electrode_DEPART.017",
+        "NS01_Electrode_DEPART.018",
+        "NS01_Electrode_DEPART.019",
+        "NS01_Face_screw",
+        "NS01_Face_screw.001",
+        "NS01_Face_screw.002",
+        "NS01_Face_screw.003",
+        "NS01_Foot_flange",
+        "NS01_Footer",
+        "NS01_Header",
+        "NS01_Index_ARRIVING",
+        "NS01_Index_AWAY",
+        "NS01_Index_BOARD",
+        "NS01_Index_DEPART",
+        "NS01_Inner_pinstripe",
+        "NS01_Inner_pinstripe.001",
+        "NS01_Inner_pinstripe.002",
+        "NS01_Inner_pinstripe.003",
+        "NS01_Outer_brass_border",
+        "NS01_Outer_brass_border.001",
+        "NS01_Outer_brass_border.002",
+        "NS01_Outer_brass_border.003",
+        "NS01_Post",
+        "NS01_Rain_drip",
+        "NS01_Rain_hood",
+        "NS01_Rear_cover_screw",
+        "NS01_Rear_cover_screw.001",
+        "NS01_Rear_cover_screw.002",
+        "NS01_Rear_cover_screw.003",
+        "NS01_Rear_mount_rail",
+        "NS01_Rear_mount_rail.001",
+        "NS01_Rear_spine",
+        "NS01_Recessed_face",
+        "NS01_Row_rule",
+        "NS01_Row_rule.001",
+        "NS01_Row_rule.002",
+        "NS01_Row_rule.003",
+        "NS01_Row_rule.004",
+        "NS01_Screw_slot",
+        "NS01_Screw_slot.001",
+        "NS01_Screw_slot.002",
+        "NS01_Screw_slot.003",
+        "NS01_Supply_conduit",
+        "NS01_Transformer_box",
+        "NS01_Transformer_plate"
+      ],
+      "pivot": [
+        2.549999952316284,
+        -3.3499999046325684,
+        0.0
+      ],
+      "bounds": [
+        [
+          -0.7749999761581421,
+          -0.16049981117248535,
+          0.0
+        ],
+        [
+          0.7749998569488525,
+          0.32399988174438477,
+          2.9075000286102295
+        ]
+      ],
+      "material_slots": [
+        "UE_NS01_Aged_brass",
+        "UE_NS01_Petrol_enamel",
+        "UE_NS01_Galvanized_steel",
+        "UE_NS01_Porcelain",
+        "UE_NS01_Warm_lettering",
+        "UE_NS01_Recess_black",
+        "UE_NS01_Cable_rubber"
+      ],
+      "triangles": 40460,
+      "collision_boxes": [
+        {
+          "min": [
+            2.489999952316284,
+            -3.2549999046325686,
+            0.0
+          ],
+          "max": [
+            2.6099999523162842,
+            -3.1349999046325685,
+            1.53
+          ],
+          "kind": "authored",
+          "source": "sign collision"
+        },
+        {
+          "min": [
+            1.7749999523162843,
+            -3.4499999046325684,
+            1.4600000000000002
+          ],
+          "max": [
+            3.324999952316284,
+            -3.129999904632568,
+            2.9000000000000004
+          ],
+          "kind": "authored",
+          "source": "sign collision"
+        }
+      ],
+      "collision_hulls": 2,
+      "physical_surface": "Metal",
+      "role": "thin",
+      "nanite": false,
+      "replacement_targets": []
+    }
+  ],
+  "axis": "Imported (x,-y,z); yaw 180 produces (-x,y,z)",
+  "source_mount_relative_to_cabin_m": [
+    2.549999952316284,
+    -3.3499999046325684,
+    0.0
+  ],
+  "review_context_exported": false
+}

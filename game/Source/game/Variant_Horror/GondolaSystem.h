@@ -16,6 +16,9 @@ class UBoxComponent;
 UENUM(BlueprintType)
 enum class EGondolaDoorPhase : uint8 { Closed, Settling, Opening, Open, Closing, Latching };
 
+UENUM(BlueprintType)
+enum class EGondolaPlatformStatus : uint8 { Board, Arriving, Depart, Away };
+
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FGondolaDockedDelegate);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FGondolaDepartedDelegate);
 
@@ -50,6 +53,10 @@ public:
 	/** Is the gondola currently moving? */
 	UFUNCTION(BlueprintCallable, Category = "Gondola")
 	bool IsMoving() const { return bMoving; }
+
+	/** Boarding availability at a fixed terminal, including door and landing interlocks. */
+	UFUNCTION(BlueprintPure, Category="Gondola|Status")
+	EGondolaPlatformStatus GetPlatformStatus(bool bFarTerminal = false) const;
 
 	UFUNCTION(BlueprintCallable, Category = "Gondola")
 	void BeginArrival();

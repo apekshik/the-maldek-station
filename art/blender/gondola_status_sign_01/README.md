@@ -1,7 +1,8 @@
-# Gondola neon status sign — design review
+# Gondola neon status sign — approved design
 
 Editable source: `Maldek_Gondola_Status_Sign.blend`. This is a separate Blender
-study; the approved cabin source and the live game are untouched.
+study. The approved cabin source remains untouched. The game integration is
+tracked in [the Unreal handoff](../../unreal_handoff/revision12/gondola_sign/README.md).
 
 A stationary petrol-enamel cabinet with two sharp brass borders, rain hood,
 recessed exposed neon tubes, porcelain electrodes, bolted steel pedestal,
@@ -18,8 +19,8 @@ Timeline review states (24 fps, stepped changes):
 | 145 | AWAY, pale blue | Cabin absent |
 
 The four circuits use independently named `NS01_Circuit_*` materials. No flashing
-is included. Runtime transitions and obstruction handling remain for implementation
-after design approval. Inactive tube emission is 0.015; active emission is 7.
+is included. Runtime transitions and obstruction handling are implemented in the
+Unreal handoff. Inactive tube emission is 0.015; active emission is 7 in this study.
 
 The cabinet is 1.48 m wide and 1.39 m tall, with its hood at 2.91 m above platform
 level. The mounting origin is 2.55 m to the right of the cabin centre, beside its
@@ -34,6 +35,5 @@ cabin source using Blender 5.0. `scripts/verify.py` checks the reopened source.
 The review glow compositor uses Blender 5.0's group output API, documented in
 [Blender's compositor migration notes](https://developer.blender.org/docs/release_notes/5.0/migration/compositor_migration/).
 
-No FBX, Unreal import, collision changes, map edits or game logic are included.
-Those checks and the final station mounting position belong to the approved
-implementation pass.
+This directory retains the Blender design and its review evidence. FBX exports,
+Unreal validation and final station placement live in the handoff directory.

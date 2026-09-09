@@ -1,0 +1,47 @@
+{
+  "phase": "exit",
+  "next": 240961.871,
+  "deadline": 241316.421,
+  "checks": [
+    "Initially away; sign is independent of cabin",
+    "ARRIVING through approach and opening; BOARD only fully open",
+    "Actual player capsule boards with left-side sign installed",
+    "DEPART remains lit while obstructed doors reopen",
+    "AWAY after latched departure",
+    "Far terminal BOARD waits for deployed gangway and open doors",
+    "ARRIVING switches on within the return approach zone",
+    "Actual capsule exits after full roundtrip; sign stayed fixed"
+  ],
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\01_away_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\02_arriving_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\03_board_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\04_board_torch.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\05_board_neutral.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\06_board_glancing.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\07_placement_left.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\08_rear.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\09_depart_hold.png"
+  ],
+  "seen": [
+    "AWAY",
+    "ARRIVING",
+    "BOARD",
+    "DEPART",
+    "AWAY",
+    "ARRIVING",
+    "BOARD"
+  ],
+  "last_status": "BOARD",
+  "status_since": 241084.609,
+  "sign_position": [
+    -44537.305974972965,
+    18944.70756813546,
+    10298.500000000002
+  ],
+  "after": "clear",
+  "phase_time": 1060.254247881472,
+  "arrival_shot": true,
+  "passed": true,
+  "error": null
+}
