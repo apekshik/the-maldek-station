@@ -4,13 +4,13 @@ Approved source: `art/blender/gondola_status_sign_02/Maldek_Gondola_Status_Sign.
 Blender revision 02 replaces the tall pole-mounted design with a 2.60 m wide by 1.30 m tall panel: BOARD / ARRIVING above DEPART / AWAY. Exported cabinet and four independent tube circuits are installed in
 `/Game/MaldekRefinement/R12/GondolaSign` and placed in `Station_R12`.
 
-The wide two-by-two cabinet on two low bolted shoes sits on the small roof to the **right of the gondola** when facing the mountains, 350 cm right and 250 cm in front of the cabin floor origin, with its base 360 cm above the platform. It faces left toward the incoming upper-platform route (actor yaw -90 degrees). Eight support traces confirm the roof surface. The sign is never attached to `CabinParts`.
+The wide two-by-two cabinet on two low bolted shoes sits on the small roof to the **right of the gondola** when facing the mountains, 220 cm right and 250 cm in front of the cabin floor origin, with its base 360 cm above the platform. It faces left toward the incoming upper-platform route (actor yaw -90 degrees). Eight support traces confirm the roof surface. The sign is never attached to `CabinParts`.
 Only the cabinet and mounting shoes have collision; the neon circuits have no collision.
 
 `AGondolaStatusSign` reads `AGondolaSystem::GetPlatformStatus` every 0.1 seconds
 after the gondola tick. Four dynamic material instances control `GlowStrength`.
 The controller holds no duplicated travel timers or door animation state.
-Runtime uses strength 11 for the active circuit and 0 for inactive emission,
+Runtime uses strength 18 for the active circuit and 0 for inactive emission,
 keeping the coloured glass visible under normal lighting without glowing at night.
 
 | Status | Runtime condition |
@@ -35,3 +35,5 @@ are preserved; their two referenced mesh assets accompany the map in the remote
 commit so that the saved level has no missing parking dependencies.
 
 The brightness pass is captured under actual night lighting, with the torch off, at three player-height viewpoints in `night_distance/`. Exact eye-to-panel distances and runtime circuit validation are recorded in `night_distance.json`. The earlier `review/` captures show the prior strength 7 finish.
+
+The final glow favors a brighter neon halo over distant lettering clarity. The cabinet was moved 130 cm toward the roof edge, leaving both low mounting shoes fully supported and exposing the lower row from the close platform viewpoint.

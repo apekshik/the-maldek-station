@@ -3,7 +3,7 @@ import unreal,json
 from pathlib import Path
 out=Path(__file__).resolve().parents[1]/'gondola_sign';ls=unreal.get_editor_subsystem(unreal.LevelEditorSubsystem);assert not ls.is_in_play_in_editor()
 aa=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);by={a.get_actor_label():a for a in aa.get_all_level_actors()};g=by['BP_GondolaSystem'];a=by['R12_Gondola_Status_Sign'];sp=g.get_components_by_class(unreal.SplineComponent)[0];start=sp.get_location_at_spline_point(0,unreal.SplineCoordinateSpace.WORLD)
-w=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world();a.set_actor_location(start+unreal.Vector(-350,-250,364),False,True)
+w=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world();a.set_actor_location(start+unreal.Vector(-220,-250,364),False,True)
 a.set_actor_rotation(unreal.Rotator(yaw=-90),True)
 heights=[]
 for x,y in [(x+dx,y) for x in [-92,92] for dx in [-9.5,9.5] for y in [-6.5,20.5]]:

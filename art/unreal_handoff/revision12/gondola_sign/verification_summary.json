@@ -3,7 +3,7 @@
   "game_and_editor_builds": "Succeeded",
   "import_bounds_max_error_cm": 1.1682510375976562E-05,
   "final_position": [
-    -44632.305974972965,
+    -44502.305974972965,
     19029.70756813546,
     10658.500061035156
   ],
@@ -21,9 +21,9 @@
     "Final placement remains fixed after departure"
   ],
   "reopened": true,
-  "active_emission": 11,
+  "active_emission": 18,
   "inactive_emission": 0,
-  "map_sha256": "ed28f05b28c3c4246a83ab8cea8474c5d7bd146437a375dc20fbf057f68a3020",
+  "map_sha256": "a2d6b8ab9d7dd7a8b79255080fff855dc78796184e7bcd6efb17689c4d40a166",
   "roof_mount_facing_left_yaw_degrees": "-90",
   "blender_revision": "gondola_status_sign_02",
   "blender_geometry_verified": true,

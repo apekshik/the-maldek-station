@@ -10,13 +10,13 @@ def verify(dt):
  try:
   by={a.get_actor_label():a for a in aa.get_all_level_actors()};a=by['R12_Gondola_Status_Sign'];g=by['BP_GondolaSystem'];sp=g.get_components_by_class(unreal.SplineComponent)[0]
   assert a.gondola==g and not a.far_terminal and a not in g.cabin_parts and not a.get_attach_parent_actor()
-  assert a.unlit_strength==0 and a.lit_strength==11
+  assert a.unlit_strength==0 and a.lit_strength==18
   assert len(a.circuits)==4 and all(c.static_mesh and c.get_num_materials()==1 for c in a.circuits)
   assert unreal.get_editor_subsystem(unreal.StaticMeshEditorSubsystem).get_convex_collision_count(a.cabinet.static_mesh)==3
   assert all(c.get_collision_enabled()==unreal.CollisionEnabled.NO_COLLISION for c in a.circuits)
   origin=sp.get_location_at_spline_point(0,unreal.SplineCoordinateSpace.WORLD);heading=sp.get_location_at_distance_along_spline(2000,unreal.SplineCoordinateSpace.WORLD)-origin;offset=a.get_actor_location()-origin
   left=unreal.Vector(heading.y,-heading.x,0);assert unreal.MathLibrary.dot_vector_vector(offset,left)<0,'Sign is not on the right-hand roof'
-  assert abs(offset.x+350)<.01 and abs(offset.y+250)<.01 and abs(offset.z-360)<.01
+  assert abs(offset.x+220)<.01 and abs(offset.y+250)<.01 and abs(offset.z-360)<.01
   assert abs(a.get_actor_rotation().yaw+90)<.01
   assert g.stage_first_arrival and g.wait_time_at_maldek==180
   assert by['R12_Gondola_Mechanism'] not in g.cabin_parts
