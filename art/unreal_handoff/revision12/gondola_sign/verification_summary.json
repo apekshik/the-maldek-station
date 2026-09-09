@@ -3,9 +3,9 @@
   "game_and_editor_builds": "Succeeded",
   "import_bounds_max_error_cm": 9.5367431640625E-06,
   "final_position": [
-    -44072.305974972965,
-    18854.70756813546,
-    10298.500000000002
+    -44632.305974972965,
+    18929.70756813546,
+    10658.500061035156
   ],
   "platform_support_samples": 4,
   "clear_approach_sightlines": 10,
@@ -14,7 +14,7 @@
     "Initially away; sign is independent of cabin",
     "ARRIVING through approach and opening; BOARD only fully open",
     "Actual player capsule boards with sign installed",
-    "Capsule exits unobstructed at final left placement",
+    "Capsule exits unobstructed at roof placement",
     "Actual player capsule boards with sign installed",
     "DEPART remains lit while obstructed doors reopen",
     "AWAY after latched departure",
@@ -23,6 +23,6 @@
   "reopened": true,
   "active_emission": 7,
   "inactive_emission": 0,
-  "map_sha256": "db27ca8960b5eaf05b9a3e7318381f6f8d7b3160a02146dff6d8aa8fb352d863",
-  "facing_buildings_yaw_degrees": 180
+  "map_sha256": "7cfca93085964c27892a521637706e7c8bc04e62613db650f4ac889fb8190f7a",
+  "roof_mount_facing_left_yaw_degrees": "-90"
 }

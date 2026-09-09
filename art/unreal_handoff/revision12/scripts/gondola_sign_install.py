@@ -35,7 +35,7 @@ for row in manifest['chunks']:
  assert sm.get_convex_collision_count(mesh)==row['collision_hulls']
  lib.save_loaded_asset(mesh);meshes[row['name']]=mesh;rows.append({'name':row['name'],'bounds_error_cm':error,'collision_hulls':sm.get_convex_collision_count(mesh)})
 label='R12_Gondola_Status_Sign';a=actors.get(label) or aa.spawn_actor_from_class(unreal.GondolaStatusSign,start)
-a.set_actor_label(label);a.set_folder_path('R12/Gondola Status');a.set_actor_location(start+unreal.Vector(210,-425,0),False,True);a.set_actor_rotation(unreal.Rotator(yaw=180),True)
+a.set_actor_label(label);a.set_folder_path('R12/Gondola Status');a.set_actor_location(start+unreal.Vector(-350,-350,364),False,True);a.set_actor_rotation(unreal.Rotator(yaw=-90),True)
 a.set_editor_property('gondola',g);a.set_editor_property('far_terminal',False)
 a.set_editor_property('unlit_strength',0)
 a.cabinet.set_static_mesh(meshes['SM_Status_Cabinet'])
@@ -53,4 +53,4 @@ for x,y in [(-12,24),(12,24),(-12,7),(12,7)]:
 assert max(hits)-min(hits)<3,('Uneven support',hits)
 a.set_actor_location(unreal.Vector(a.get_actor_location().x,a.get_actor_location().y,sum(hits)/4),False,True)
 assert ls.save_current_level()
-RESULT={'success':True,'meshes':rows,'position':a.get_actor_location().to_tuple(),'support_heights':hits,'route_preserved':True,'cabin_parts_preserved':True,'actor':a.get_path_name(),'placement':'Mountain-facing left side; independent fixed pedestal','prior_map_sha256':hashlib.sha256((out/'pre_sign_working_map.umap').read_bytes()).hexdigest()};(out/'install.json').write_text(json.dumps(RESULT,indent=2))
+RESULT={'success':True,'meshes':rows,'position':a.get_actor_location().to_tuple(),'support_heights':hits,'route_preserved':True,'cabin_parts_preserved':True,'actor':a.get_path_name(),'placement':'Right-hand roof; facing left toward the incoming platform route','prior_map_sha256':hashlib.sha256((out/'pre_sign_working_map.umap').read_bytes()).hexdigest()};(out/'install.json').write_text(json.dumps(RESULT,indent=2))

@@ -15,14 +15,14 @@ def verify(dt):
   assert unreal.get_editor_subsystem(unreal.StaticMeshEditorSubsystem).get_convex_collision_count(a.cabinet.static_mesh)==2
   assert all(c.get_collision_enabled()==unreal.CollisionEnabled.NO_COLLISION for c in a.circuits)
   origin=sp.get_location_at_spline_point(0,unreal.SplineCoordinateSpace.WORLD);heading=sp.get_location_at_distance_along_spline(2000,unreal.SplineCoordinateSpace.WORLD)-origin;offset=a.get_actor_location()-origin
-  left=unreal.Vector(heading.y,-heading.x,0);assert unreal.MathLibrary.dot_vector_vector(offset,left)>0,'Sign is not on the mountain-facing left'
-  assert abs(offset.x-210)<.01 and abs(offset.y+425)<.01
-  assert abs(abs(a.get_actor_rotation().yaw)-180)<.01
+  left=unreal.Vector(heading.y,-heading.x,0);assert unreal.MathLibrary.dot_vector_vector(offset,left)<0,'Sign is not on the right-hand roof'
+  assert abs(offset.x+350)<.01 and abs(offset.y+350)<.01 and abs(offset.z-360)<.01
+  assert abs(a.get_actor_rotation().yaw+90)<.01
   assert g.stage_first_arrival and g.wait_time_at_maldek==180
   assert by['R12_Gondola_Mechanism'] not in g.cabin_parts
   assert any('Parking_Navigation' in label for label in by),'Existing parking changes were lost'
   assert not unreal.StationMigrationLibrary.validate_material_shaders([c.get_material(0) for c in a.circuits])
-  report={'passed':True,'reopened':True,'sign_position':a.get_actor_location().to_tuple(),'left_of_mountain_heading':True,'heading':heading.to_tuple(),'collision_hulls':2,'four_circuits_saved':True,'parking_changes_preserved':True,'temporary_light_removed':True,'default_dwell_preserved':True}
+  report={'passed':True,'reopened':True,'sign_position':a.get_actor_location().to_tuple(),'right_hand_roof_facing_left':True,'heading':heading.to_tuple(),'collision_hulls':2,'four_circuits_saved':True,'parking_changes_preserved':True,'temporary_light_removed':True,'default_dwell_preserved':True}
  except Exception:report={'passed':False,'error':traceback.format_exc()}
  (out/'reopen.json').write_text(json.dumps(report,indent=2))
 handle=unreal.register_slate_post_tick_callback(verify);RESULT={'started':True}

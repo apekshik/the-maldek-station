@@ -52,9 +52,10 @@ def tick(dt):
    else:shotqueue([('01_away_night','front',0,False)],'begin_arrival')
   elif s['phase']=='view_place':
    name,view,lux,torch=s['queue'][0];origin=a.get_actor_location()
-   if view=='approach':eye=start+unreal.Vector(0,-740,180);target=start+unreal.Vector(100,-330,190)
-   elif view=='rear':eye=origin+unreal.Vector(-150,300,235);target=origin+unreal.Vector(0,20,203)
-   else:eye=origin+unreal.Vector(-80 if view=='front' else -140,-180,240);target=origin+unreal.Vector(0,0,218)
+   if view=='approach':eye=start+unreal.Vector(1500,-450,170);target=start+unreal.Vector(-100,-250,340)
+   elif view=='intro':eye=start+unreal.Vector(2200,-1800,170);target=origin+unreal.Vector(0,0,180)
+   elif view=='rear':eye=origin+unreal.Vector(-300,-150,235);target=origin+unreal.Vector(0,0,203)
+   else:eye=origin+unreal.Vector(420,-80 if view=='front' else -280,150);target=origin+unreal.Vector(0,0,218)
    p.character_movement.set_movement_mode(unreal.MovementMode.MOVE_NONE);p.set_actor_location(eye-unreal.Vector(0,0,64),False,True);pc.set_control_rotation(unreal.MathLibrary.find_look_at_rotation(eye,target));lamp.set_intensity(lux)
    torchcomp=p.get_components_by_class(unreal.SpotLightComponent)[0]
    if torchcomp.is_visible()!=torch:p.toggle_flashlight()
@@ -75,7 +76,7 @@ def tick(dt):
    elif status=='BOARD':
     assert not g.is_moving() and q==1;s['checks'].append('ARRIVING through approach and opening; BOARD only fully open')
     if walk_only:unreal.GameplayStatics.set_global_time_dilation(w,1);phase('start_board')
-    else:shotqueue([('03_board_night','front',0,False),('04_board_torch','front',0,True),('05_board_neutral','front',3,False),('06_board_glancing','glance',3,False),('07_placement_left','approach',3,False),('08_rear','rear',3,False)],'start_board')
+    else:shotqueue([('03_board_night','front',0,False),('04_board_torch','front',0,True),('05_board_neutral','front',3,False),('06_board_glancing','glance',3,False),('07_placement_left','approach',3,False),('08_rear','rear',3,False),('10_approach_night','approach',0,False),('11_intro_approach','intro',3,False)],'start_board')
   elif s['phase']=='resume_arrive':place(0,-480);unreal.GameplayStatics.set_global_time_dilation(w,8);phase('arrive')
   elif s['phase']=='start_board':place(0,-740,walk=True);phase('board')
   elif s['phase']=='board':
@@ -89,7 +90,7 @@ def tick(dt):
   elif s['phase']=='walk_exit':
    assert now-s['phase_time']<20,('Exit path blocked',s['player_offset'])
    if (p.get_actor_location()-carrier.get_world_location()).y>-740:p.add_movement_input(unreal.Vector(0,-1,0),1,True)
-   else:s['walked_exit']=True;s['checks'].append('Capsule exits unobstructed at final left placement');phase('start_board')
+   else:s['walked_exit']=True;s['checks'].append('Capsule exits unobstructed at roof placement');phase('start_board')
   elif s['phase']=='release':unreal.StationMigrationLibrary.send_pie_key('E',False);assert g.is_departure_pending();phase('obstruct')
   elif s['phase']=='obstruct':
    if .4<q<.9:place(0,-316);phase('reopen')

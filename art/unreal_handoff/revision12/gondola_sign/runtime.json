@@ -1,12 +1,12 @@
 {
   "phase": "outbound",
-  "next": 248589.918,
-  "deadline": 248940.453,
+  "next": 305200.028,
+  "deadline": 305543.218,
   "checks": [
     "Initially away; sign is independent of cabin",
     "ARRIVING through approach and opening; BOARD only fully open",
     "Actual player capsule boards with sign installed",
-    "Capsule exits unobstructed at final left placement",
+    "Capsule exits unobstructed at roof placement",
     "Actual player capsule boards with sign installed",
     "DEPART remains lit while obstructed doors reopen",
     "AWAY after latched departure",
@@ -21,6 +21,8 @@
     "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\06_board_glancing.png",
     "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\07_placement_left.png",
     "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\08_rear.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\10_approach_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\11_intro_approach.png",
     "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_sign\\review\\09_depart_hold.png"
   ],
   "seen": [
@@ -31,19 +33,19 @@
     "AWAY"
   ],
   "player_offset": [
-    -0.001331650317297317,
-    -742.752892216311,
-    171.91749335214445
+    -0.0013283791995490901,
+    -741.2722678002901,
+    171.7555436330931
   ],
   "last_status": "AWAY",
-  "status_since": 248593.125,
+  "status_since": 305203.234,
   "sign_position": [
-    -44072.305974972965,
-    18854.70756813546,
-    10298.500000000002
+    -44632.305974972965,
+    18929.70756813546,
+    10658.500061035156
   ],
   "after": "clear",
-  "phase_time": 109.30695787072182,
+  "phase_time": 116.69428903982043,
   "arrival_shot": true,
   "walked_exit": true,
   "passed": true,

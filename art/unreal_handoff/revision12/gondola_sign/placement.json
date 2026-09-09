@@ -1,15 +1,21 @@
 {
   "success": true,
   "position": [
-    -44072.305974972965,
-    18854.70756813546,
-    10298.500000000002
+    -44632.305974972965,
+    18929.70756813546,
+    10658.500061035156
   ],
+  "relative_position": [
+    -350.0,
+    -350.0,
+    360.00006103515443
+  ],
+  "yaw": -90.00000000000001,
   "support_heights": [
-    10298.5,
-    10298.5,
-    10298.5,
-    10298.5
+    10658.500061035156,
+    10658.500061035156,
+    10658.500061035156,
+    10658.500061035156
   ],
   "approach_sightlines_clear": [
     true,
@@ -23,5 +29,5 @@
     true,
     true
   ],
-  "placement": "Beside the boarding-edge railing, left of the gondola and outside the central approach"
+  "placement": "On the small roof right of the gondola, facing left toward the incoming station approach"
 }
