@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "checks": {
+    "stationary_root": true,
+    "one_lit_circuit_per_state": true,
+    "closed_meshes": true,
+    "tube_cap_repair_saved": true,
+    "unique_electrode_surfaces": true,
+    "wide_landscape_panel": true,
+    "no_pole": true,
+    "previews_exist": true
+  },
+  "mesh_objects": 163,
+  "nonmanifold": [],
+  "circuit_strengths": {
+    "BOARD": {
+      "BOARD": 7.0,
+      "ARRIVING": 0.014999999664723873,
+      "DEPART": 0.014999999664723873,
+      "AWAY": 0.014999999664723873
+    },
+    "ARRIVING": {
+      "BOARD": 0.014999999664723873,
+      "ARRIVING": 7.0,
+      "DEPART": 0.014999999664723873,
+      "AWAY": 0.014999999664723873
+    },
+    "DEPART": {
+      "BOARD": 0.014999999664723873,
+      "ARRIVING": 0.014999999664723873,
+      "DEPART": 7.0,
+      "AWAY": 0.014999999664723873
+    },
+    "AWAY": {
+      "BOARD": 0.014999999664723873,
+      "ARRIVING": 0.014999999664723873,
+      "DEPART": 0.014999999664723873,
+      "AWAY": 7.0
+    }
+  },
+  "minimum_sign_world_x_m": -1.3350000381469727,
+  "bounds_world_m": [
+    [
+      -1.3350000381469727,
+      1.3350000381469727
+    ],
+    [
+      -0.16049998998641968,
+      0.3240000009536743
+    ],
+    [
+      0.004999998956918716,
+      1.472499966621399
+    ]
+  ],
+  "integration": "Blender model verified before Unreal reimport"
+}

@@ -26,3 +26,4 @@ art/unreal_handoff/revision12/gondola_mechanism/**/*.wav filter=lfs diff=lfs mer
 art/unreal_handoff/revision12/gondola_mechanism/*.gif filter=lfs diff=lfs merge=lfs -text
 art/blender/gondola_status_sign_01/previews/*.png filter=lfs diff=lfs merge=lfs -text
 art/unreal_handoff/revision12/gondola_sign/**/*.png filter=lfs diff=lfs merge=lfs -text
+art/blender/gondola_status_sign_02/previews/*.png filter=lfs diff=lfs merge=lfs -text

@@ -1,11 +1,11 @@
 # Gondola neon status sign integration
 
-Approved source: `art/blender/gondola_status_sign_01/Maldek_Gondola_Status_Sign.blend`.
-Exported cabinet and four independent tube circuits are installed in
+Approved source: `art/blender/gondola_status_sign_02/Maldek_Gondola_Status_Sign.blend`.
+Blender revision 02 replaces the tall pole-mounted design with a 2.60 m wide by 1.30 m tall panel: BOARD / ARRIVING above DEPART / AWAY. Exported cabinet and four independent tube circuits are installed in
 `/Game/MaldekRefinement/R12/GondolaSign` and placed in `Station_R12`.
 
-The fixed pedestal sits on the small roof to the **right of the gondola** when facing the mountains, 350 cm right and 350 cm in front of the cabin floor origin, with its base 360 cm above the platform. It faces left toward the incoming upper-platform route (actor yaw -90 degrees). Four support traces confirm the roof surface. The sign is never attached to `CabinParts`.
-Only the cabinet/post have collision; the neon circuits have no collision.
+The wide two-by-two cabinet on two low bolted shoes sits on the small roof to the **right of the gondola** when facing the mountains, 350 cm right and 250 cm in front of the cabin floor origin, with its base 360 cm above the platform. It faces left toward the incoming upper-platform route (actor yaw -90 degrees). Eight support traces confirm the roof surface. The sign is never attached to `CabinParts`.
+Only the cabinet and mounting shoes have collision; the neon circuits have no collision.
 
 `AGondolaStatusSign` reads `AGondolaSystem::GetPlatformStatus` every 0.1 seconds
 after the gondola tick. Four dynamic material instances control `GlowStrength`.

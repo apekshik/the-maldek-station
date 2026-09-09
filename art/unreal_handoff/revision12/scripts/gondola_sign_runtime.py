@@ -52,10 +52,10 @@ def tick(dt):
    else:shotqueue([('01_away_night','front',0,False)],'begin_arrival')
   elif s['phase']=='view_place':
    name,view,lux,torch=s['queue'][0];origin=a.get_actor_location()
-   if view=='approach':eye=start+unreal.Vector(1500,-450,170);target=start+unreal.Vector(-100,-250,340)
-   elif view=='intro':eye=start+unreal.Vector(2200,-1800,170);target=origin+unreal.Vector(0,0,180)
-   elif view=='rear':eye=origin+unreal.Vector(-300,-150,235);target=origin+unreal.Vector(0,0,203)
-   else:eye=origin+unreal.Vector(420,-80 if view=='front' else -280,150);target=origin+unreal.Vector(0,0,218)
+   if view=='approach':eye=start+unreal.Vector(1500,-450,170);target=start+unreal.Vector(-100,-250,290)
+   elif view=='intro':eye=start+unreal.Vector(2200,-1800,170);target=origin+unreal.Vector(0,0,79)
+   elif view=='rear':eye=origin+unreal.Vector(-380,-180,160);target=origin+unreal.Vector(0,0,79)
+   else:eye=origin+unreal.Vector(480,-80 if view=='front' else -280,125);target=origin+unreal.Vector(0,0,79)
    p.character_movement.set_movement_mode(unreal.MovementMode.MOVE_NONE);p.set_actor_location(eye-unreal.Vector(0,0,64),False,True);pc.set_control_rotation(unreal.MathLibrary.find_look_at_rotation(eye,target));lamp.set_intensity(lux)
    torchcomp=p.get_components_by_class(unreal.SpotLightComponent)[0]
    if torchcomp.is_visible()!=torch:p.toggle_flashlight()

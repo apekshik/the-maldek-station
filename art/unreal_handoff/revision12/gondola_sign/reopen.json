@@ -3,7 +3,7 @@
   "reopened": true,
   "sign_position": [
     -44632.305974972965,
-    18929.70756813546,
+    19029.70756813546,
     10658.500061035156
   ],
   "right_hand_roof_facing_left": true,
@@ -12,7 +12,7 @@
     1988.4814516389888,
     -214.27294126633024
   ],
-  "collision_hulls": 2,
+  "collision_hulls": 3,
   "four_circuits_saved": true,
   "parking_changes_preserved": true,
   "temporary_light_removed": true,

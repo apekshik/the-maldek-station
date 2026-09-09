@@ -1,4 +1,4 @@
-"""Install the approved sign on the mountain-facing left of Millford's cabin."""
+"""Install the Blender-authored grid sign on the right-hand station roof."""
 import unreal,json,hashlib
 from pathlib import Path
 b=Path(__file__).resolve().parents[1];out=b/'gondola_sign';manifest=json.loads((out/'manifest.json').read_text())
@@ -35,7 +35,7 @@ for row in manifest['chunks']:
  assert sm.get_convex_collision_count(mesh)==row['collision_hulls']
  lib.save_loaded_asset(mesh);meshes[row['name']]=mesh;rows.append({'name':row['name'],'bounds_error_cm':error,'collision_hulls':sm.get_convex_collision_count(mesh)})
 label='R12_Gondola_Status_Sign';a=actors.get(label) or aa.spawn_actor_from_class(unreal.GondolaStatusSign,start)
-a.set_actor_label(label);a.set_folder_path('R12/Gondola Status');a.set_actor_location(start+unreal.Vector(-350,-350,364),False,True);a.set_actor_rotation(unreal.Rotator(yaw=-90),True)
+a.set_actor_label(label);a.set_folder_path('R12/Gondola Status');a.set_actor_location(start+unreal.Vector(-350,-250,364),False,True);a.set_actor_rotation(unreal.Rotator(yaw=-90),True)
 a.set_editor_property('gondola',g);a.set_editor_property('far_terminal',False)
 a.set_editor_property('unlit_strength',0)
 a.cabinet.set_static_mesh(meshes['SM_Status_Cabinet'])
@@ -45,12 +45,12 @@ assert parts==[a.get_path_name() for a in g.cabin_parts if a]
 assert route==[sp.get_location_at_spline_point(i,unreal.SplineCoordinateSpace.WORLD).to_tuple() for i in range(sp.get_number_of_spline_points())]
 # Find the real support surface beneath all four pedestal corners, ignoring the sign itself.
 w=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world();hits=[]
-for x,y in [(-12,24),(12,24),(-12,7),(12,7)]:
+for x,y in [(x+dx,y) for x in [-92,92] for dx in [-9.5,9.5] for y in [-6.5,20.5]]:
  p=unreal.MathLibrary.transform_location(a.get_actor_transform(),unreal.Vector(x,-y,0))
  hit=unreal.SystemLibrary.line_trace_single(w,p+unreal.Vector(0,0,60),p-unreal.Vector(0,0,100),unreal.TraceTypeQuery.TRACE_TYPE_QUERY1,True,[a],unreal.DrawDebugTrace.NONE,True)
  assert hit and hit.to_tuple()[0],('No platform support',p)
  hits.append(hit.to_tuple()[5].z)
 assert max(hits)-min(hits)<3,('Uneven support',hits)
-a.set_actor_location(unreal.Vector(a.get_actor_location().x,a.get_actor_location().y,sum(hits)/4),False,True)
+a.set_actor_location(unreal.Vector(a.get_actor_location().x,a.get_actor_location().y,sum(hits)/len(hits)),False,True)
 assert ls.save_current_level()
 RESULT={'success':True,'meshes':rows,'position':a.get_actor_location().to_tuple(),'support_heights':hits,'route_preserved':True,'cabin_parts_preserved':True,'actor':a.get_path_name(),'placement':'Right-hand roof; facing left toward the incoming platform route','prior_map_sha256':hashlib.sha256((out/'pre_sign_working_map.umap').read_bytes()).hexdigest()};(out/'install.json').write_text(json.dumps(RESULT,indent=2))

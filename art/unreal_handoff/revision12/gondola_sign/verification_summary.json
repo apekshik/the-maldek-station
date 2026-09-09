@@ -1,13 +1,13 @@
 {
   "passed": true,
   "game_and_editor_builds": "Succeeded",
-  "import_bounds_max_error_cm": 9.5367431640625E-06,
+  "import_bounds_max_error_cm": 1.1682510375976562E-05,
   "final_position": [
     -44632.305974972965,
-    18929.70756813546,
+    19029.70756813546,
     10658.500061035156
   ],
-  "platform_support_samples": 4,
+  "platform_support_samples": 8,
   "clear_approach_sightlines": 10,
   "full_roundtrip": true,
   "final_placement_walk_and_status_checks": [
@@ -23,6 +23,8 @@
   "reopened": true,
   "active_emission": 7,
   "inactive_emission": 0,
-  "map_sha256": "7cfca93085964c27892a521637706e7c8bc04e62613db650f4ac889fb8190f7a",
-  "roof_mount_facing_left_yaw_degrees": "-90"
+  "map_sha256": "4d9a048c53e2ad1953a347a808307f22fc91d686052d8eb6554d9af1c1cc69da",
+  "roof_mount_facing_left_yaw_degrees": "-90",
+  "blender_revision": "gondola_status_sign_02",
+  "blender_geometry_verified": true
 }
