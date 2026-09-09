@@ -4,9 +4,9 @@ Approved source: `art/blender/gondola_status_sign_01/Maldek_Gondola_Status_Sign.
 Exported cabinet and four independent tube circuits are installed in
 `/Game/MaldekRefinement/R12/GondolaSign` and placed in `Station_R12`.
 
-The fixed pedestal sits on the **left when facing the mountains**, 150 cm left
-of the cabin centre and 630 cm in front of its floor origin. Four support traces
-confirm a level platform surface. The sign is never attached to `CabinParts`.
+The fixed pedestal sits on the **left when facing the mountains**, 210 cm left
+of the cabin centre and 425 cm in front of its floor origin. Four support traces
+confirm a level platform surface. It faces the station buildings straight on (actor yaw 180 degrees), beside the left boarding-edge rail. The sign is never attached to `CabinParts`.
 Only the cabinet/post have collision; the neon circuits have no collision.
 
 `AGondolaStatusSign` reads `AGondolaSystem::GetPlatformStatus` every 0.1 seconds
@@ -32,9 +32,9 @@ obstruction and a full return journey; travel is accelerated 8× during the test
 Player boarding and exit and review captures run at normal speed. Temporary
 inspection lighting and test settings are removed before saving. The first position
 was screened by a column; the final placement moves the sign to player-view left,
-forward of the machinery. Ten approach sightlines are checked, followed by fresh
+beside the boarding-edge railing, outside the approach path. Ten nearby sightlines are checked, followed by fresh
 night/neutral images, capsule boarding/exit and departure at the final position.
-The extended walk begins 740 cm in front of the cabin, passes the sign at 630 cm,
+The extended walk begins 740 cm in front of the cabin, passes the sign at 425 cm,
 boards, exits and reboards. A diagnostic starting at 780 cm overlapped the existing
 approach barrier (exit stopped at 768.4 cm); the final test starts inside that barrier.
 

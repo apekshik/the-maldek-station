@@ -1,8 +1,8 @@
 {
   "success": true,
   "position": [
-    -44132.305974972965,
-    18649.70756813546,
+    -44072.305974972965,
+    18854.70756813546,
     10298.500000000002
   ],
   "support_heights": [
@@ -23,5 +23,5 @@
     true,
     true
   ],
-  "placement": "Left in player view facing mountains; forward of the machinery column"
+  "placement": "Beside the boarding-edge railing, left of the gondola and outside the central approach"
 }

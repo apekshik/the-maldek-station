@@ -1,10 +1,10 @@
 {
   "passed": true,
   "game_and_editor_builds": "Succeeded",
-  "import_bounds_max_error_cm": 9.5367431640625e-06,
+  "import_bounds_max_error_cm": 9.5367431640625E-06,
   "final_position": [
-    -44132.305974972965,
-    18649.70756813546,
+    -44072.305974972965,
+    18854.70756813546,
     10298.500000000002
   ],
   "platform_support_samples": 4,
@@ -23,5 +23,6 @@
   "reopened": true,
   "active_emission": 7,
   "inactive_emission": 0,
-  "map_sha256": "007f1d550a64713c4eee3c83be96c100a0cbc8d6b0fc9548fc7fb78e8a0d83ec"
+  "map_sha256": "db27ca8960b5eaf05b9a3e7318381f6f8d7b3160a02146dff6d8aa8fb352d863",
+  "facing_buildings_yaw_degrees": 180
 }

@@ -35,7 +35,7 @@ for row in manifest['chunks']:
  assert sm.get_convex_collision_count(mesh)==row['collision_hulls']
  lib.save_loaded_asset(mesh);meshes[row['name']]=mesh;rows.append({'name':row['name'],'bounds_error_cm':error,'collision_hulls':sm.get_convex_collision_count(mesh)})
 label='R12_Gondola_Status_Sign';a=actors.get(label) or aa.spawn_actor_from_class(unreal.GondolaStatusSign,start)
-a.set_actor_label(label);a.set_folder_path('R12/Gondola Status');a.set_actor_location(start+unreal.Vector(150,-630,0),False,True);a.set_actor_rotation(unreal.Rotator(yaw=180),True)
+a.set_actor_label(label);a.set_folder_path('R12/Gondola Status');a.set_actor_location(start+unreal.Vector(210,-425,0),False,True);a.set_actor_rotation(unreal.Rotator(yaw=180),True)
 a.set_editor_property('gondola',g);a.set_editor_property('far_terminal',False)
 a.set_editor_property('unlit_strength',0)
 a.cabinet.set_static_mesh(meshes['SM_Status_Cabinet'])
@@ -46,7 +46,7 @@ assert route==[sp.get_location_at_spline_point(i,unreal.SplineCoordinateSpace.WO
 # Find the real support surface beneath all four pedestal corners, ignoring the sign itself.
 w=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world();hits=[]
 for x,y in [(-12,24),(12,24),(-12,7),(12,7)]:
- p=a.get_actor_location()+unreal.Vector(x,y,0)
+ p=unreal.MathLibrary.transform_location(a.get_actor_transform(),unreal.Vector(x,-y,0))
  hit=unreal.SystemLibrary.line_trace_single(w,p+unreal.Vector(0,0,60),p-unreal.Vector(0,0,100),unreal.TraceTypeQuery.TRACE_TYPE_QUERY1,True,[a],unreal.DrawDebugTrace.NONE,True)
  assert hit and hit.to_tuple()[0],('No platform support',p)
  hits.append(hit.to_tuple()[5].z)

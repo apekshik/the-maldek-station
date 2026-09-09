@@ -52,9 +52,9 @@ def tick(dt):
    else:shotqueue([('01_away_night','front',0,False)],'begin_arrival')
   elif s['phase']=='view_place':
    name,view,lux,torch=s['queue'][0];origin=a.get_actor_location()
-   if view=='approach':eye=start+unreal.Vector(0,-1150,200);target=start+unreal.Vector(70,-420,190)
+   if view=='approach':eye=start+unreal.Vector(0,-740,180);target=start+unreal.Vector(100,-330,190)
    elif view=='rear':eye=origin+unreal.Vector(-150,300,235);target=origin+unreal.Vector(0,20,203)
-   else:eye=origin+unreal.Vector(-100 if view=='front' else 0,-285,240);target=origin+unreal.Vector(0,0,218)
+   else:eye=origin+unreal.Vector(-80 if view=='front' else -140,-180,240);target=origin+unreal.Vector(0,0,218)
    p.character_movement.set_movement_mode(unreal.MovementMode.MOVE_NONE);p.set_actor_location(eye-unreal.Vector(0,0,64),False,True);pc.set_control_rotation(unreal.MathLibrary.find_look_at_rotation(eye,target));lamp.set_intensity(lux)
    torchcomp=p.get_components_by_class(unreal.SpotLightComponent)[0]
    if torchcomp.is_visible()!=torch:p.toggle_flashlight()

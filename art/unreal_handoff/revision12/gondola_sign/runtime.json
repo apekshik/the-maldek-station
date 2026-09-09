@@ -1,7 +1,7 @@
 {
   "phase": "outbound",
-  "next": 241943.59000000003,
-  "deadline": 242296.171,
+  "next": 248589.918,
+  "deadline": 248940.453,
   "checks": [
     "Initially away; sign is independent of cabin",
     "ARRIVING through approach and opening; BOARD only fully open",
@@ -31,19 +31,19 @@
     "AWAY"
   ],
   "player_offset": [
-    -0.0013235455335234292,
-    -739.0843748681436,
-    171.51581181947222
+    -0.001331650317297317,
+    -742.752892216311,
+    171.91749335214445
   ],
   "last_status": "AWAY",
-  "status_since": 241946.796,
+  "status_since": 248593.125,
   "sign_position": [
-    -44132.305974972965,
-    18649.70756813546,
+    -44072.305974972965,
+    18854.70756813546,
     10298.500000000002
   ],
   "after": "clear",
-  "phase_time": 107.98087601736188,
+  "phase_time": 109.30695787072182,
   "arrival_shot": true,
   "walked_exit": true,
   "passed": true,

@@ -16,7 +16,8 @@ def verify(dt):
   assert all(c.get_collision_enabled()==unreal.CollisionEnabled.NO_COLLISION for c in a.circuits)
   origin=sp.get_location_at_spline_point(0,unreal.SplineCoordinateSpace.WORLD);heading=sp.get_location_at_distance_along_spline(2000,unreal.SplineCoordinateSpace.WORLD)-origin;offset=a.get_actor_location()-origin
   left=unreal.Vector(heading.y,-heading.x,0);assert unreal.MathLibrary.dot_vector_vector(offset,left)>0,'Sign is not on the mountain-facing left'
-  assert abs(offset.x-150)<.01 and abs(offset.y+630)<.01
+  assert abs(offset.x-210)<.01 and abs(offset.y+425)<.01
+  assert abs(abs(a.get_actor_rotation().yaw)-180)<.01
   assert g.stage_first_arrival and g.wait_time_at_maldek==180
   assert by['R12_Gondola_Mechanism'] not in g.cabin_parts
   assert any('Parking_Navigation' in label for label in by),'Existing parking changes were lost'
