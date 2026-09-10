@@ -1,0 +1,81 @@
+{
+  "source_unchanged": true,
+  "source_sha256": "b9d78ed0d7c5c50bc28a8fb6a0d63f1c86fa83d3144c6a7eae50476ee9607796",
+  "views": [
+    {
+      "image": "PL03_Front_Alongside_Control.png",
+      "camera_position": [
+        -32,
+        24,
+        16
+      ],
+      "target": [
+        -12,
+        -2,
+        5
+      ],
+      "temporary_review_lights": false,
+      "roof_visible": true
+    },
+    {
+      "image": "PL03_Arrival_And_Station.png",
+      "camera_position": [
+        12,
+        -34,
+        22
+      ],
+      "target": [
+        -13,
+        -2,
+        4
+      ],
+      "temporary_review_lights": false,
+      "roof_visible": true
+    },
+    {
+      "image": "PL03_Inside_From_Entrance.png",
+      "camera_position": [
+        -17.1,
+        -6.35,
+        5.65
+      ],
+      "target": [
+        -17.1,
+        2.3,
+        5.35
+      ],
+      "temporary_review_lights": true,
+      "roof_visible": true
+    },
+    {
+      "image": "PL03_Inside_Toward_Service.png",
+      "camera_position": [
+        -21.8,
+        1.9,
+        5.65
+      ],
+      "target": [
+        -15.8,
+        -6.8,
+        5.25
+      ],
+      "temporary_review_lights": true,
+      "roof_visible": true
+    },
+    {
+      "image": "PL03_Front_Platform.png",
+      "camera_position": [
+        -27,
+        12,
+        7
+      ],
+      "target": [
+        -13,
+        1,
+        5.7
+      ],
+      "temporary_review_lights": false,
+      "roof_visible": true
+    }
+  ]
+}
