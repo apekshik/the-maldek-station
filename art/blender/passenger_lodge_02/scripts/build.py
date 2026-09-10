@@ -101,11 +101,12 @@ for x in [-8.1,-6.3]:
  for i in range(0,24,4):
   y=-14.42+i*.28;z=(i+1)*4/24;beam('PL02_Stair_post',(x,y,z),(x,y,z+1.1))
 rail('PL02_Landing_outer',(-6.3,-7.7),(-6.3,-5.7))
+exec(compile((OUT/'scripts/refine_edges.py').read_text(), 'refine_edges.py', 'exec'))
 print('Deck and stairs ready',flush=True)
 routes={
 
  'Fixed_arrival_turn':next(r['points'] for r in layout['routes'] if r['name']=='Arrival turn onto platform'),
- 'Arrival_to_lodge':[[-21.6,-14.3,4],[-17.1,-14.3,4],[-17.1,-6.8,4]],
+ 'Arrival_to_lodge':[[-23.1,-14.3,4],[-17.1,-14.3,4],[-17.1,-6.8,4]],
  'Lodge_to_platform':[[-17.1,-6.8,4],[-17.1,4.2,4],[-17.1,5.5,4],[-4,5.5,4]],
  'Exterior_bypass':[[-17.1,-14.3,4],[-9.1,-14.3,4],[-9.1,2,4],[-5,2,4]],
  'West_promenade':[[-28,-14,4],[-28,5.5,4],[-17.1,5.5,4]]}

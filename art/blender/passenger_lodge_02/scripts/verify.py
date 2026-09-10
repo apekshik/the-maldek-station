@@ -28,6 +28,13 @@ for c in ['PL02_New_Deck_Rails_and_Stair','PL02_Fitted_Lodge_Geometry']:
   bm.free()
 assert not nonmanifold,nonmanifold[:5]
 assert bpy.data.objects['PL02_Bypass_Upper_Landing'].dimensions.y>=1.99
+from mathutils import Vector
+for ob in bpy.data.collections['PL02_New_Deck_Rails_and_Stair'].objects:
+ if not ob.name.startswith('PL02_Deck'):continue
+ ps=[ob.matrix_world@Vector(v) for v in ob.bound_box]
+ lo=[min(p[i] for p in ps) for i in range(3)];hi=[max(p[i] for p in ps) for i in range(3)]
+ assert not (lo[0]<-6.3001 and hi[0]>-8.0999 and lo[1]<-7.7001 and hi[1]>-15.1499),ob.name
+ assert lo[0]>=-29.451,ob.name
 assert report['source_unchanged']
 report['validation']={'saved_reopened':True,'new_mesh_nonmanifold':nonmanifold,'route_floor_headroom_checks_passed':True,'boundary_probe_m':.002,'limits':'Sampled floor/headroom rays, not continuous capsule or Unreal collision. Existing grating arrival retained; lower stair terrain connection remains provisional.'}
 (OUT/'fit_report.json').write_text(json.dumps(report,indent=2))

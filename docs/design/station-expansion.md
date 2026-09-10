@@ -62,3 +62,5 @@ The map now shows continuous deck beneath the arrival court, flush stair heads, 
 ## Combined Blender fit study
 
 Passenger lodge 02 fits the six-table layout beside the existing control building, extends the deck west to a 7.35 m promenade, and retains the original arrival stair and turn. The 2 m bypass connects to a proposed side stair with a 2 m upper landing. Source geometry remains available in the earlier reference scene. See art/blender/passenger_lodge_02/README.md and its fit_report.json for placement, source preservation and sampled-route evidence. The lower stair approach, final structure and Unreal player collision still require validation before integration.
+
+Edge refinement: west promenade reduced to 5.35 m; arrival assembly and turning opening moved 1.5 m west. The right-hand stair now cuts through all replacement deck surfaces, and an obsolete projecting deck tab is removed. Lower terrain connections remain provisional.

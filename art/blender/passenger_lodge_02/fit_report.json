@@ -1426,7 +1426,7 @@
     "Hex_head.4218",
     "Deck_joist.041"
   ],
-  "fixed_arrival": "Source stair and path retained; grating requires area-contact rather than isolated vertical rays",
+  "fixed_arrival": "Arrival assembly and turn moved 1.5 m west; source reference unchanged; ground approach requires fit validation.",
   "protected_anchors": {
     "Gondola_Floor": [
       [
@@ -1509,40 +1509,40 @@
   "support_probes": [
     {
       "xy": [
-        -30.6,
-        -13.8
+        -28.600000381469727,
+        -13.800000190734863
       ],
-      "ground_z": -3.4990344047546387,
+      "ground_z": -1.8071589469909668,
       "hit": "R11_Current_Terrain"
     },
     {
       "xy": [
-        -30.6,
-        -6
+        -28.600000381469727,
+        -6.0
       ],
-      "ground_z": -3.360973834991455,
+      "ground_z": -1.7388534545898438,
       "hit": "R11_Current_Terrain"
     },
     {
       "xy": [
-        -30.6,
-        1
+        -28.600000381469727,
+        1.0
       ],
-      "ground_z": -3.271167278289795,
+      "ground_z": -1.6936726570129395,
       "hit": "R11_Current_Terrain"
     },
     {
       "xy": [
-        -30.6,
-        6.4
+        -28.600000381469727,
+        6.400000095367432
       ],
-      "ground_z": -3.1781163215637207,
+      "ground_z": -1.6500616073608398,
       "hit": "R11_Current_Terrain"
     },
     {
       "xy": [
         -25.5,
-        -13.8
+        -13.800000190734863
       ],
       "ground_z": -0.34215307235717773,
       "hit": "R11_Current_Terrain"
@@ -1550,7 +1550,7 @@
     {
       "xy": [
         -25.5,
-        -6
+        -6.0
       ],
       "ground_z": -0.33345699310302734,
       "hit": "R11_Current_Terrain"
@@ -1558,7 +1558,7 @@
     {
       "xy": [
         -25.5,
-        1
+        1.0
       ],
       "ground_z": -0.32784271240234375,
       "hit": "R11_Current_Terrain"
@@ -1566,7 +1566,7 @@
     {
       "xy": [
         -25.5,
-        6.4
+        6.400000095367432
       ],
       "ground_z": -0.3231692314147949,
       "hit": "R11_Current_Terrain"
@@ -1577,6 +1577,12 @@
     "Second stair lower tie-in needs terrain/service-yard validation",
     "Deck is solid blockout; grating detailing deferred"
   ],
+  "edge_refinement": {
+    "west_promenade_m": 5.35,
+    "arrival_shift_x_m": -1.5,
+    "stairwell_cut_through_deck": true,
+    "obsolete_deck_tab_removed": true
+  },
   "validation": {
     "saved_reopened": true,
     "new_mesh_nonmanifold": [],
