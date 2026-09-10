@@ -188,3 +188,18 @@ rope material with a missing Sine input. Assert graph-connection return values
 and inspect compiled shader errors, as in the
 [rope material builder](unreal_handoff/revision12/scripts/gondola_mechanism_rope_material.py)
 and its [successful shader check](unreal_handoff/revision12/gondola_mechanism/rope_shader.json).
+
+## Joined furniture material bakes
+
+The lodge seating export found that joining objects reset the active UV layer.
+Smart-project then modified the source grain UVs while the bake still targeted
+the original overlapping destination layout. The resulting atlas contained large
+overlapping hardware shapes instead of individually packed board faces. Explicitly
+reselect the destination `BakeUV` **after joining**, then unwrap and bake; keep
+source texture nodes bound to the separate source UV layer. Inspect the atlas
+before importing, as shader compilation does not detect this mapping mistake.
+The corrected [export](unreal_handoff/passenger_lodge_01/scripts/export_seating.py)
+also carries per-piece generated coordinates as attributes and documents its
+stable replacement for object-random variation. See the corrected
+[atlas](unreal_handoff/passenger_lodge_01/seating/textures/PLS_01_BaseColor.png)
+and [Unreal close-up](unreal_handoff/passenger_lodge_01/previews/seating/table_detail.png).

@@ -1,0 +1,39 @@
+{
+  "reopened": true,
+  "retained_actors": 1155,
+  "assemblies": 6,
+  "tables": 6,
+  "benches": 12,
+  "max_bounds_error_cm": 9.298324584960938e-06,
+  "top_heights_m": [
+    4.7800002288818355,
+    4.48,
+    4.48,
+    4.7800002288818355,
+    4.48,
+    4.48,
+    4.7800002288818355,
+    4.48,
+    4.48,
+    4.7800002288818355,
+    4.48,
+    4.48,
+    4.7800002288818355,
+    4.48,
+    4.48,
+    4.7800002288818355,
+    4.48,
+    4.48
+  ],
+  "shader_errors": [],
+  "interior_samples": 219,
+  "interior_failures": [],
+  "perimeter": {
+    "radius_cm": 34,
+    "half_height_cm": 96,
+    "conditions": "Editor collision queries; no actor exclusions. Actual movement is recorded separately in playtest.json.",
+    "samples": 280,
+    "failures": []
+  },
+  "original_map_unchanged": true
+}

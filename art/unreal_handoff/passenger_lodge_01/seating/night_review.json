@@ -1,0 +1,15 @@
+{
+  "error": null,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\seating_night\\hall_00.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\seating_night\\hall_01.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\seating_night\\hall_02.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\seating_night\\table_detail_00.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\seating_night\\table_detail_01.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\seating_night\\table_detail_02.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\seating_night\\cross_aisle_00.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\seating_night\\cross_aisle_01.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\seating_night\\cross_aisle_02.png"
+  ],
+  "mode": "PIE; existing game night lighting and player flashlight; 2cm glancing camera shifts"
+}

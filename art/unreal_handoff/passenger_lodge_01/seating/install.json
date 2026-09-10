@@ -1,0 +1,54 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Seating/Meshes/SM_PLS_01",
+      "bounds_error_cm": 7.62939453125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Seating/Meshes/SM_PLS_02",
+      "bounds_error_cm": 7.62939453125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Seating/Meshes/SM_PLS_03",
+      "bounds_error_cm": 9.298324584960938e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Seating/Meshes/SM_PLS_04",
+      "bounds_error_cm": 9.298324584960938e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Seating/Meshes/SM_PLS_05",
+      "bounds_error_cm": 7.62939453125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Seating/Meshes/SM_PLS_06",
+      "bounds_error_cm": 7.62939453125e-06
+    }
+  ],
+  "actors": 6,
+  "tables": 6,
+  "benches": 12,
+  "source_components": 559,
+  "texture_dependencies": [
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_01_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_01_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_01_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_02_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_02_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_02_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_03_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_03_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_03_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_04_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_04_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_04_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_05_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_05_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_05_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_06_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_06_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Seating/Textures/T_PLS_06_NormalGL"
+  ],
+  "shader_errors": [],
+  "original_map_unchanged": true
+}

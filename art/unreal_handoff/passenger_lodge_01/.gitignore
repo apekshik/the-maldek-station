@@ -7,3 +7,4 @@ __pycache__/
 *.log
 vegetation_progress.json
 cleanup_progress.json
+seating/progress.json

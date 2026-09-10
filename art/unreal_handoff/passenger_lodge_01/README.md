@@ -49,7 +49,7 @@ Do not infer a 20 m unsupported stair from Landscape-only samples.
 1. Continue extended approach continuity review as detailed assets are installed.
 2. Bake/translate the remaining furnishing materials, preserving UVs, surface
    ownership and glass treatment; integrate accumulated snow/wetness as appropriate.
-3. Import the six remaining detailed furnishing packages with shared meshes/instances;
+3. Import the five remaining detailed furnishing packages with shared meshes/instances;
    keep every moving assembly pivot and exclude reference buildings.
 4. Configure public/staff doors, bathroom doors/stalls, lockers and kitchen
    mechanisms, reusing existing interaction presentation and recorded audio.
@@ -121,3 +121,15 @@ remain historical Unlit geometry evidence. `surface_verification.json` and
 `surface_playtest.json` cover the updated checkpoint. Public/staff doors,
 restrooms, kitchen, seating, lockers and wall dressing are still pending import;
 their source hierarchies and demonstration actions remain preserved in Blender.
+
+## Seating checkpoint
+
+All six detailed tables and twelve benches are now installed at their approved
+780/480 mm heights and original positions. The 559 source pieces are exported as
+six static assemblies with baked wood, end grain and hardware finishes. See
+`seating/README.md` for grouping, texture provenance, fidelity limits and exact
+reproduction. `seating/verification.json` records saved/reopened fit, dependencies,
+219 interior clearance samples and 280 perimeter samples. Player traversal and
+neutral/nighttime images have their own seating reports and preview folders.
+The earlier surface-only images remain historical evidence. Doors, restrooms,
+kitchen, lockers and wall displays are still pending import and interaction work.
