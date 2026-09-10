@@ -1,0 +1,113 @@
+{
+  "blend_sha256": "621feb1708494a955b8ff9e329145e5ff0d8e2469a4160f41be15a850bffbfaa",
+  "engine": "CYCLES",
+  "samples": 32,
+  "resolution": [
+    1400,
+    1000
+  ],
+  "renders": [
+    {
+      "image": "01_Assembly.png",
+      "sha256": "640fe333c491e8d1a35c58339f14165833d7cc2f51391255d15d98cdcb58d173",
+      "camera_position": [
+        -16,
+        -3.5,
+        6.3
+      ],
+      "target": [
+        -19.2,
+        -0.7,
+        4.4
+      ],
+      "mode": "isolated",
+      "temporary_neutral_review_lights": true,
+      "roof_hidden": true
+    },
+    {
+      "image": "02_Reverse.png",
+      "sha256": "86aab82185412976744d9102c5271c2a1f77874d8c6a7029485533a4237bb140",
+      "camera_position": [
+        -22.5,
+        1.8,
+        5.8
+      ],
+      "target": [
+        -19.2,
+        -0.7,
+        4.35
+      ],
+      "mode": "isolated",
+      "temporary_neutral_review_lights": true,
+      "roof_hidden": true
+    },
+    {
+      "image": "03_Underside.png",
+      "sha256": "b194dbd83168bec4feff69cc9bf688660984f107909d08e752f20c8ed7e79430",
+      "camera_position": [
+        -17.1,
+        -2.45,
+        4.35
+      ],
+      "target": [
+        -19.2,
+        -0.7,
+        4.38
+      ],
+      "mode": "isolated",
+      "temporary_neutral_review_lights": true,
+      "roof_hidden": true
+    },
+    {
+      "image": "04_Player_Height.png",
+      "sha256": "25c5794f191bd8b6c092260ece5d960c915e177ece2a46d5a2b74faa07795c45",
+      "camera_position": [
+        -21.4,
+        1.5,
+        5.65
+      ],
+      "target": [
+        -17.7,
+        -2.2,
+        4.6
+      ],
+      "mode": "fitted",
+      "temporary_neutral_review_lights": true,
+      "roof_hidden": true
+    },
+    {
+      "image": "05_All_Six.png",
+      "sha256": "0806d5acd5a763f96aafd837551e19923b3ca37bfaeeff3b78039f21860eb09f",
+      "camera_position": [
+        -17.1,
+        -0.7,
+        17
+      ],
+      "target": [
+        -17.1,
+        -0.7,
+        4
+      ],
+      "mode": "overview",
+      "temporary_neutral_review_lights": true,
+      "roof_hidden": true
+    },
+    {
+      "image": "06_Seated_Proportions.png",
+      "sha256": "e02493bc6e50ad4a3e102d1ed8bfa5b061fea8e06c4ce839b4c5919276982ced",
+      "camera_position": [
+        -16.9,
+        -0.9,
+        4.85
+      ],
+      "target": [
+        -19.2,
+        -1.1,
+        4.62
+      ],
+      "mode": "human",
+      "temporary_neutral_review_lights": true,
+      "roof_hidden": true
+    }
+  ]
+}
