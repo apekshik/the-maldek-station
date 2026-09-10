@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "editable_artworks": 20,
+  "checks": [
+    {
+      "id": "poster_1",
+      "editable_text_exact": true,
+      "texture_sha256": "6eea11557c7a897434f697281f4dc76b86da226c41a0c050a8a69647fb88c2ea"
+    },
+    {
+      "id": "poster_2",
+      "editable_text_exact": true,
+      "texture_sha256": "334382783cccc2d053cbb12787f429fbcbbe5ff7d05d457bff4b026270df0f45"
+    },
+    {
+      "id": "poster_3",
+      "editable_text_exact": true,
+      "texture_sha256": "47139034357345f234a7e1c9dd3b8a7d975790a78e25eb9f05ed4a99f05a04a9"
+    },
+    {
+      "id": "visitor_map",
+      "editable_text_exact": true,
+      "texture_sha256": "aa5027dcc791fe37fdfc4f8c54aaeb0ac660f528c83eba96b0b1e566de4b59bc"
+    },
+    {
+      "id": "timetable",
+      "editable_text_exact": true,
+      "texture_sha256": "105b1846598b3f5a71adc6f1fbb0177f95f17a3a8c450a4064ec3ab6fd4b2b6e"
+    },
+    {
+      "id": "notice_club",
+      "editable_text_exact": true,
+      "texture_sha256": "d61697307a0e392f79ef30498fe71619e73a0d03217a8fe3496e49389731ed4a"
+    },
+    {
+      "id": "notice_lost",
+      "editable_text_exact": true,
+      "texture_sha256": "ae3905a6c7d4b551def02444a4dc04f441c757d4ccc10a3d8685f6821d60885e"
+    },
+    {
+      "id": "notice_hours",
+      "editable_text_exact": true,
+      "texture_sha256": "b3be330f8af2cf3f0ae9ed1a6cddeff6dea75e0097eece757e90d907ce80da22"
+    },
+    {
+      "id": "notice_walk",
+      "editable_text_exact": true,
+      "texture_sha256": "f9c0734be3658077a27abdc6aba5691402bbd9dbb657eff4e6961302fe19ecca"
+    },
+    {
+      "id": "notice_weather",
+      "editable_text_exact": true,
+      "texture_sha256": "bacbff2860220d28c2c47cf7b423258ebc41114414f43fbe0760724a1f934f7b"
+    },
+    {
+      "id": "notice_header",
+      "editable_text_exact": true,
+      "texture_sha256": "54198d2bc97b50a612c97f4e914a02b8154bdd064a2345ecb1c56388e37d33a2"
+    },
+    {
+      "id": "restrooms",
+      "editable_text_exact": true,
+      "texture_sha256": "892c12036d3e3e504644b3da6d740815b4f2878d9220f52a37fd027587cbb1a0"
+    },
+    {
+      "id": "women",
+      "editable_text_exact": true,
+      "texture_sha256": "eea1264101d9012d12f0fe26bee14cfec6ee86a6010f7933e2e012877df13175"
+    },
+    {
+      "id": "men",
+      "editable_text_exact": true,
+      "texture_sha256": "a2c7fa5c07287956ff8695942ddc7f176450625e9e973abab86ec43a57c90c60"
+    },
+    {
+      "id": "exit",
+      "editable_text_exact": true,
+      "texture_sha256": "af37a5f0ffe8146a7f1ec4de075c1f32db148927fa216a442a731c51777a3f87"
+    },
+    {
+      "id": "boarding",
+      "editable_text_exact": true,
+      "texture_sha256": "22f3fa0f05a2bad932f962798e5e7587927cef4aad0928e57321781330f718d5"
+    },
+    {
+      "id": "staff",
+      "editable_text_exact": true,
+      "texture_sha256": "96f023bc912d0f26426d8ec0ead40164271b87dc851330be607b48def1de1b78"
+    },
+    {
+      "id": "lost_property",
+      "editable_text_exact": true,
+      "texture_sha256": "d942431a1a4da9f30f724f5d306aac9d63f67f666dc71618958488f31471b4cb"
+    },
+    {
+      "id": "menu",
+      "editable_text_exact": true,
+      "texture_sha256": "5ba860191b0729a8dc500b1e47ee1dfd04e810e8a628314103b7c49b12278a4a"
+    },
+    {
+      "id": "clock_face",
+      "editable_text_exact": true,
+      "texture_sha256": "de7b5e3c5ef03ea223c9923f4a9e5b9a51969284182388496b72b912fb2eff2b"
+    }
+  ],
+  "render_count": 19,
+  "material_hashes_match": true,
+  "no_generated_critical_text": true,
+  "limits": "Exact source text and PNG integrity checks; human render review remains necessary for legibility."
+}

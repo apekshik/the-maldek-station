@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1450" viewBox="0 0 1800 1450">
+<rect x="0" y="0" width="1800" height="1450" fill="#eee5cc"/>
+<text x="85" y="65" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="82" fill="#254d43">MALDEK STATION</text>
+<text x="85" y="167" dominant-baseline="text-before-edge" text-anchor="start" font-family="Georgia" font-weight="400" font-size="54" fill="#254a5b">Visitor routes</text>
+<text x="85" y="247" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="400" font-size="30" fill="#283833">Platform level  /  diagram of the station buildings</text>
+<rect x="143.19999999999993" y="527" width="672.0000000000001" height="436.79999999999995" fill="#d7d4bc"/>
+<rect x="143.19999999999993" y="963.8" width="240.0" height="195.0" fill="#afc2b7"/>
+<rect x="527.1999999999999" y="963.8" width="288.0000000000001" height="234.0" fill="#afc2b7"/>
+<rect x="911.1999999999999" y="679.1" width="287.9999999999999" height="210.60000000000002" fill="#254a5b"/>
+<rect x="143.19999999999993" y="484.1" width="1219.2000000000003" height="42.89999999999998" fill="#b3c6c4"/>
+<polyline points="479.19999999999993,839 479.19999999999993,488 1141.6,488 1141.6,675.2" fill="none" stroke="#c99542" stroke-width="15" stroke-linejoin="round"/>
+<polyline points="1141.6,488 1300,488" fill="none" stroke="#c99542" stroke-width="15" stroke-linejoin="round"/>
+<polyline points="479.19999999999993,1174.4 479.19999999999993,963.8 479.19999999999993,839" fill="none" stroke="#254d43" stroke-width="9" stroke-linejoin="round"/>
+<circle cx="479.19999999999993" cy="839" r="15" fill="#965844"/>
+<text x="196" y="624.5" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="29" fill="#254d43">PASSENGER LODGE</text>
+<text x="196" y="675.2" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="400" font-size="24" fill="#283833">Six-table waiting room</text>
+<text x="196" y="995" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="25" fill="#254d43">COFFEE</text>
+<text x="546.4000000000001" y="995" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="23" fill="#254d43">RESTROOMS</text>
+<text x="930.4000000000001" y="722" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="27" fill="#eee5cc">CONTROL</text>
+<text x="930.4000000000001" y="772.7" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="400" font-size="23" fill="#eee5cc">Staff only</text>
+<text x="100" y="348" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="25" fill="#254a5b">PUBLIC PLATFORM</text>
+<text x="1240" y="320" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="28" fill="#254a5b">GONDOLA</text>
+<polyline points="1320,365 1300,488" fill="none" stroke="#254a5b" stroke-width="3" stroke-linejoin="round"/>
+<text x="1240" y="600" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="400" font-size="25" fill="#254a5b">Independent entrance</text>
+<text x="1240" y="640" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="400" font-size="25" fill="#283833">Use the exterior platform.</text>
+<polyline points="1240,588 1141.6,675.2" fill="none" stroke="#254a5b" stroke-width="3" stroke-linejoin="round"/>
+<text x="470" y="1230" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="24" fill="#254d43">ARRIVAL COURT</text>
+<polyline points="100,1310 170,1310" fill="none" stroke="#c99542" stroke-width="12" stroke-linejoin="round"/>
+<text x="190" y="1290" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="400" font-size="26" fill="#283833">Exterior route to control and gondola</text>
+<circle cx="940" cy="1310" r="12" fill="#965844"/>
+<text x="970" y="1290" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="400" font-size="26" fill="#283833">Lodge reference point</text>
+<text x="100" y="1380" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="400" font-size="27" fill="#283833">Station plan only. Ask the attendant for current piste and weather information.</text>
+</svg>

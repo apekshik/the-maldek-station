@@ -1,0 +1,173 @@
+{
+  "conditions": "Public/restroom/locker doors open; kitchen cabinets closed. Radius 0.34 m, height 1.8 m; conservative XY hulls. Blender checks only.",
+  "routes": [
+    {
+      "name": "Screened_hall",
+      "minimum_clearance_m": 0.5299997000000003,
+      "nearest": "FIT_Full_height_privacy_screen",
+      "xy": [
+        -14.280769230769232,
+        -8.25
+      ],
+      "samples": 215,
+      "passed": true
+    },
+    {
+      "name": "Women_entry",
+      "minimum_clearance_m": 0.3570003773247268,
+      "nearest": "PLR_Women_Entry_Stop",
+      "xy": [
+        -13.740000000000002,
+        -9.18855421686747
+      ],
+      "samples": 84,
+      "passed": true
+    },
+    {
+      "name": "Women_basin",
+      "minimum_clearance_m": 0.3904927755195506,
+      "nearest": "PLR_Women_B_Stall_Leaf",
+      "xy": [
+        -14.189666666666668,
+        -10.173333333333334
+      ],
+      "samples": 54,
+      "passed": true
+    },
+    {
+      "name": "Women_A_stall",
+      "minimum_clearance_m": 0.3490196608281622,
+      "nearest": "PLR_Women_A_Stall_Stop",
+      "xy": [
+        -15.230000000000002,
+        -11.345333333333333
+      ],
+      "samples": 113,
+      "passed": true
+    },
+    {
+      "name": "Women_B_stall",
+      "minimum_clearance_m": 0.3490181661497599,
+      "nearest": "PLR_Women_B_Stall_Stop",
+      "xy": [
+        -13.88,
+        -11.368571428571428
+      ],
+      "samples": 61,
+      "passed": true
+    },
+    {
+      "name": "Men_entry",
+      "minimum_clearance_m": 0.3600458276062418,
+      "nearest": "PLR_Men_Entry_Lever_-1",
+      "xy": [
+        -11.670000000000002,
+        -9.957216494845362
+      ],
+      "samples": 98,
+      "passed": true
+    },
+    {
+      "name": "Men_basin",
+      "minimum_clearance_m": 0.3540454366323632,
+      "nearest": "PLR_Men_Entry_Leaf",
+      "xy": [
+        -11.280000000000001,
+        -10.5
+      ],
+      "samples": 25,
+      "passed": true
+    },
+    {
+      "name": "Men_A_stall",
+      "minimum_clearance_m": 0.34901846613405907,
+      "nearest": "PLR_Men_A_Stall_Stop",
+      "xy": [
+        -12.280000000000001,
+        -11.368571428571428
+      ],
+      "samples": 69,
+      "passed": true
+    },
+    {
+      "name": "Urinal",
+      "minimum_clearance_m": 0.3549997000000146,
+      "nearest": "PLR_Men_Urinal_shell",
+      "xy": [
+        -11.120000000000001,
+        -11.83
+      ],
+      "samples": 66,
+      "passed": true
+    },
+    {
+      "name": "Main_hall",
+      "minimum_clearance_m": 0.6273957700988745,
+      "nearest": "PLD_GONDOLA_Glazing_Bead",
+      "xy": [
+        -17.1,
+        3.5
+      ],
+      "samples": 397,
+      "passed": true
+    },
+    {
+      "name": "Lockers",
+      "minimum_clearance_m": 0.402795241283111,
+      "nearest": "PLL_03_Door_Fold_Side.001",
+      "xy": [
+        -13.475000000000001,
+        -5.800000000000001
+      ],
+      "samples": 247,
+      "passed": true
+    },
+    {
+      "name": "Coffee_public",
+      "minimum_clearance_m": 0.8519994999999989,
+      "nearest": "PLS_Group_05_Bench_S_Plank_1",
+      "xy": [
+        -18.325000000000003,
+        -5.699999999999999
+      ],
+      "samples": 187,
+      "passed": true
+    },
+    {
+      "name": "Kitchen_work",
+      "minimum_clearance_m": 0.5418539712157329,
+      "nearest": "PLD_STAFF_Jamb_Cover.002",
+      "xy": [
+        -19.5,
+        -10.5
+      ],
+      "samples": 201,
+      "passed": true
+    },
+    {
+      "name": "Kitchen_handwash",
+      "minimum_clearance_m": 0.3881240671057789,
+      "nearest": "PLK_Hand_Splash_separator",
+      "xy": [
+        -20.26,
+        -9.24
+      ],
+      "samples": 65,
+      "passed": true
+    },
+    {
+      "name": "Kitchen_prep",
+      "minimum_clearance_m": 0.3666058686692837,
+      "nearest": "PLK_Rear_right_Pull_0",
+      "xy": [
+        -20.6,
+        -10.9
+      ],
+      "samples": 18,
+      "passed": true
+    }
+  ],
+  "support_failures": [],
+  "support_samples": 355,
+  "passed": true
+}

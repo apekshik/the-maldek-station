@@ -1,0 +1,14 @@
+*.log
+*.blend1
+*.blend2
+__pycache__/
+materials/*.zip
+materials/Cork001/*.blend
+materials/Cork001/*.mtlx
+materials/Cork001/*.tres
+materials/Cork001/*.usdc
+materials/Cork001/Cork001.png
+materials/Cork001/*AmbientOcclusion.jpg
+materials/Cork001/*Displacement.jpg
+materials/Cork001/*NormalDX.jpg
+materials/Cork001/*NormalGL.jpg

@@ -1,0 +1,2003 @@
+{
+  "passed": true,
+  "failures": [],
+  "saved_reopened": true,
+  "owned_objects": 233,
+  "mesh_checks": [
+    {
+      "name": "PLG_Poster_1_backboard",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.014167740422192689,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_print",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.00023908523152202463,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_side_-1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0010445075977248554,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_side_1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0010445075977248554,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_rail_-1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0006922776120707588,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_rail_1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0006922776120707588,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_mount",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.620969868669807e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_mount_screw",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_mount_screw_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_mount.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.620969868669807e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_mount_screw.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_1_mount_screw_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_backboard",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.014167740422192689,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_print",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.00023908523152202463,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_side_-1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0010445075977248554,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_side_1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0010445075977248554,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_rail_-1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0006922776120707588,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_rail_1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0006922776120707588,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_mount",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.620969868669807e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_mount_screw",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_mount_screw_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_mount.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.620969868669807e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_mount_screw.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_2_mount_screw_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_backboard",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.014167740422192689,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_print",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.00023908523152202463,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_side_-1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0010445075977248554,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_side_1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0010445075977248554,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_rail_-1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0006922776120707588,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_rail_1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0006922776120707588,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_mount",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.620969868669807e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_mount_screw",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_mount_screw_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_mount.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.620969868669807e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_mount_screw.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Poster_3_mount_screw_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_backboard",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.01753113996150838,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_print",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.00030030028443932136,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_side_-1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0018742255700669236,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_side_1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0018742255700669236,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_rail_-1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0012698416292968148,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_rail_1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0012698416292968148,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_mount",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.620969868669807e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_mount_screw",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_mount_screw_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_mount.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.620969868669807e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_mount_screw.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_mount_screw_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_glass",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0017159247739061481,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_retainer",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_retainer_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_retainer.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_retainer_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_retainer.002",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_retainer_slot.002",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_retainer.003",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Timetable_retainer_slot.003",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_backboard",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.03057506057886122,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_print",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0005409605209398269,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_side_-1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.001906545538867038,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_side_1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.001906545538867038,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_rail_-1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.002239441625734528,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_rail_1",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.002239441625734528,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_mount",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.620969868669807e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_mount_screw",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_mount_screw_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_mount.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.620969868669807e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_mount_screw.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_mount_screw_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_glass",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.003091100098240013,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_retainer",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_retainer_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_retainer.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_retainer_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_retainer.002",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_retainer_slot.002",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_retainer.003",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Visitor_map_retainer_slot.003",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_back",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.03748599757017525,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_cork",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.016003420641766502,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_side",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0011503456737579072,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_side.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0011503456737579072,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_rail",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0015687456312317668,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_rail.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0015687456312317668,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_heading",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0001679997079968563,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Notice_club",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.099586695598638e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Pin_club",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.417311203822065e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Notice_lost",
+      "vertices": 578,
+      "faces": 576,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.122650641658427e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Pin_lost",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.417311203822065e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Notice_hours",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.099619686771756e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Pin_hours",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.417311203822065e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Notice_walk",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.099619686771756e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Pin_walk",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.417311203822065e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Notice_weather",
+      "vertices": 578,
+      "faces": 576,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.122680217729626e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Pin_weather",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.417311203822065e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_wall_fix",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_wall_fix_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_wall_fix.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Community_wall_fix_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Restrooms_enamel",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0027253568785386385,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Restrooms_art",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.340708745792588e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Restrooms_fixing",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Restrooms_fixing_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Restrooms_fixing.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Restrooms_fixing_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Public_exit_enamel",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.003158956744881384,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Public_exit_art",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.40571347214255e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Public_exit_fixing",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Public_exit_fixing_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Public_exit_fixing.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Public_exit_fixing_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Boarding_enamel",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.00309927680390613,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Boarding_art",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.264112967697112e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Boarding_fixing",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Boarding_fixing_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Boarding_fixing.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Boarding_fixing_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Women_enamel",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0014549569125508327,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Women_art",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.316694875015838e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Women_fixing",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Women_fixing_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Women_fixing.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Women_fixing_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Men_enamel",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0014549569125508327,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Men_art",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.316694875015838e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Men_fixing",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Men_fixing_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Men_fixing.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Men_fixing_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Staff_enamel",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.002049836922372578,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Staff_art",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.739301216961624e-05,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Staff_fixing",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Staff_fixing_slot",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Staff_fixing.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4197301538122094e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Staff_fixing_slot.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1999999998602995e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Menu_artwork",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.00029393997421145283,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Lost_property_artwork",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 9.679999650558459e-06,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Clock_case",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.005981883301372545,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Clock_dial",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 0.0002546033995933793,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Clock_Hour_hand",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 2.2777021912679837e-06,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Clock_Minute_hand",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 2.1687023612187578e-06,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Clock_axle",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.085674030225263e-06,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_ledge_dust",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_ledge_dust.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_ledge_dust.002",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_ledge_dust.003",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_edge_scuff",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.7181891579853494e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_edge_scuff.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 5.897938921177605e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_edge_scuff.002",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.04939905549813e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_edge_scuff.003",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.804125573782496e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_edge_scuff.004",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.890054049705576e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_edge_scuff.005",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.2978678507035904e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_1_edge_scuff.006",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.500743182887578e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_ledge_dust",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_ledge_dust.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_ledge_dust.002",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_ledge_dust.003",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_edge_scuff",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 9.554043998958196e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_edge_scuff.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 5.595294107171137e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_edge_scuff.002",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.920243459833472e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_edge_scuff.003",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.0999137270006945e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_edge_scuff.004",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.081731144148729e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_edge_scuff.005",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 5.010390384920688e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_2_edge_scuff.006",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.8070765624435255e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_ledge_dust",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_ledge_dust.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_ledge_dust.002",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_ledge_dust.003",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.2332288682276677e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_edge_scuff",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 5.368404373980254e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_edge_scuff.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.87765780449224e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_edge_scuff.002",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.355480170351217e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_edge_scuff.003",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 9.231343526168734e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_edge_scuff.004",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.162657447684912e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_edge_scuff.005",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 5.01038144422412e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Poster_3_edge_scuff.006",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.812956630053131e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_ledge_dust",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.696547858795086e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_ledge_dust.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.696547858795086e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_ledge_dust.002",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.696547858795086e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_ledge_dust.003",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.696547858795086e-07,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_edge_scuff",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.501909796446733e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_edge_scuff.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 5.949306575722913e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_edge_scuff.002",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 9.799264954081494e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_edge_scuff.003",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.888574953795503e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_edge_scuff.004",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 9.80299545972456e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_edge_scuff.005",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.6614003526660765e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Timetable_edge_scuff.006",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.434343834894054e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_ledge_dust",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.3195547474108056e-06,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_ledge_dust.001",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.3195547474108056e-06,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_ledge_dust.002",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.3195547474108056e-06,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_ledge_dust.003",
+      "vertices": 96,
+      "faces": 98,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.3195547474108056e-06,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_edge_scuff",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 5.254174681864188e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_edge_scuff.001",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.843637336463308e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_edge_scuff.002",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.480046704683919e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_edge_scuff.003",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 9.535674220271835e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_edge_scuff.004",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.21260911941124e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_edge_scuff.005",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.2558842953968696e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_PLG_Visitor_map_edge_scuff.006",
+      "vertices": 8,
+      "faces": 6,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.912752243118002e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.604474806743287e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.001",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.291980857338969e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.002",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.825417063524162e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.003",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.3205530967223666e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.004",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 5.442617477806348e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.005",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.02143559583389e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.006",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 4.717316546632215e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.007",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 7.245706984777622e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.008",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.004238840693587e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.009",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.434181552346655e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.010",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.2239928789611958e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.011",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.4250460231810523e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.012",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.1616416153183921e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.013",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 8.329196098690105e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.014",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 9.241015963881649e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.015",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 1.337792100976354e-09,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.016",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 3.659907336820799e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.017",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 6.595346113732405e-10,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLG_Old_pin_puncture_mark.018",
+      "vertices": 192,
+      "faces": 162,
+      "nonmanifold_edges": 0,
+      "signed_volume_m3": 9.326152643716636e-10,
+      "degenerate_faces": 0
+    }
+  ],
+  "duplicate_faces": [],
+  "source_unchanged": true,
+  "opening_envelopes_checked": [
+    [
+      "platform",
+      [
+        -17.75,
+        3.0,
+        4
+      ],
+      [
+        -16.45,
+        4.3,
+        6.35
+      ]
+    ],
+    [
+      "arrival",
+      [
+        -17.75,
+        -7.5,
+        4
+      ],
+      [
+        -16.45,
+        -6.6,
+        6.35
+      ]
+    ],
+    [
+      "restrooms",
+      [
+        -15.75,
+        -7.7,
+        4
+      ],
+      [
+        -14.45,
+        -6.6,
+        6.35
+      ]
+    ],
+    [
+      "women",
+      [
+        -14.15,
+        -9.45,
+        4
+      ],
+      [
+        -13.15,
+        -8.6,
+        6.25
+      ]
+    ],
+    [
+      "men",
+      [
+        -12.15,
+        -9.45,
+        4
+      ],
+      [
+        -11.15,
+        -8.6,
+        6.25
+      ]
+    ],
+    [
+      "staff",
+      [
+        -19.6,
+        -11.05,
+        4
+      ],
+      [
+        -18.7,
+        -9.95,
+        6.25
+      ]
+    ]
+  ],
+  "opening_hits": [],
+  "walking_route_sample_count": 331,
+  "walking_route_hits": [],
+  "notice_overlap_samples": 54,
+  "minimum_notice_gap_m": 0.0003500021994113922,
+  "packed_images": [
+    {
+      "name": "boarding.png",
+      "packed": true,
+      "size": [
+        1400,
+        300
+      ]
+    },
+    {
+      "name": "clock_face.png",
+      "packed": true,
+      "size": [
+        1400,
+        1400
+      ]
+    },
+    {
+      "name": "Cork001_1K-JPG_Color.jpg",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "Cork001_1K-JPG_Roughness.jpg",
+      "packed": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "exit.png",
+      "packed": true,
+      "size": [
+        1400,
+        300
+      ]
+    },
+    {
+      "name": "lost_property.png",
+      "packed": true,
+      "size": [
+        1600,
+        200
+      ]
+    },
+    {
+      "name": "men.png",
+      "packed": true,
+      "size": [
+        900,
+        230
+      ]
+    },
+    {
+      "name": "menu.png",
+      "packed": true,
+      "size": [
+        3150,
+        540
+      ]
+    },
+    {
+      "name": "notice_club.png",
+      "packed": true,
+      "size": [
+        700,
+        850
+      ]
+    },
+    {
+      "name": "notice_header.png",
+      "packed": true,
+      "size": [
+        1400,
+        160
+      ]
+    },
+    {
+      "name": "notice_hours.png",
+      "packed": true,
+      "size": [
+        700,
+        850
+      ]
+    },
+    {
+      "name": "notice_lost.png",
+      "packed": true,
+      "size": [
+        700,
+        850
+      ]
+    },
+    {
+      "name": "notice_walk.png",
+      "packed": true,
+      "size": [
+        700,
+        850
+      ]
+    },
+    {
+      "name": "notice_weather.png",
+      "packed": true,
+      "size": [
+        700,
+        850
+      ]
+    },
+    {
+      "name": "poster_1.png",
+      "packed": true,
+      "size": [
+        1400,
+        2000
+      ]
+    },
+    {
+      "name": "poster_2.png",
+      "packed": true,
+      "size": [
+        1400,
+        2000
+      ]
+    },
+    {
+      "name": "poster_3.png",
+      "packed": true,
+      "size": [
+        1400,
+        2000
+      ]
+    },
+    {
+      "name": "restrooms.png",
+      "packed": true,
+      "size": [
+        1400,
+        250
+      ]
+    },
+    {
+      "name": "staff.png",
+      "packed": true,
+      "size": [
+        1400,
+        300
+      ]
+    },
+    {
+      "name": "timetable.png",
+      "packed": true,
+      "size": [
+        1400,
+        1900
+      ]
+    },
+    {
+      "name": "visitor_map.png",
+      "packed": true,
+      "size": [
+        1800,
+        1450
+      ]
+    },
+    {
+      "name": "women.png",
+      "packed": true,
+      "size": [
+        900,
+        230
+      ]
+    }
+  ],
+  "fitted_transform_mismatches": [],
+  "limits": "New package versus proxy layout envelopes only. No engine collision, interaction, Unreal import or PIE test; exact-face duplicate check does not prove arbitrary intersection freedom."
+}

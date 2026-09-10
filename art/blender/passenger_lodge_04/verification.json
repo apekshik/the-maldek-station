@@ -1,0 +1,10 @@
+{
+  "saved_reopened": true,
+  "failures": [],
+  "topology": [],
+  "cross_package_sweep_hits": [],
+  "unique_evaluated_meshes": 1877,
+  "moving_mesh_pose_samples": 15267,
+  "blend_sha256": "bcf7e6301aecedd83688488981fd58a5a9719d685ef975210eef9eeb7f753f6c",
+  "passed": true
+}

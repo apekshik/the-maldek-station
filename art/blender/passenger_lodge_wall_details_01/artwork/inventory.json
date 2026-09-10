@@ -1,0 +1,513 @@
+[
+  {
+    "id": "poster_1",
+    "svg": "artwork/poster_1.svg",
+    "texture": "textures/poster_1.png",
+    "pixels": [
+      1400,
+      2000
+    ],
+    "metres": [
+      0.69,
+      0.99
+    ],
+    "text": [
+      "MALDEK  /  VISITOR SERIES",
+      "SKI MALDEK",
+      "MAKE A DAY OF IT",
+      "A little further from the everyday.",
+      "REGIONAL TRAVEL  /  ILLUSTRATED EDITION"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      2029,
+      2020
+    ]
+  },
+  {
+    "id": "poster_2",
+    "svg": "artwork/poster_2.svg",
+    "texture": "textures/poster_2.png",
+    "pixels": [
+      1400,
+      2000
+    ],
+    "metres": [
+      0.69,
+      0.99
+    ],
+    "text": [
+      "MALDEK  /  VISITOR SERIES",
+      "ABOVE THE PINES",
+      "TRAVEL BY GONDOLA",
+      "A little further from the everyday.",
+      "REGIONAL TRAVEL  /  ILLUSTRATED EDITION"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      2029,
+      2020
+    ]
+  },
+  {
+    "id": "poster_3",
+    "svg": "artwork/poster_3.svg",
+    "texture": "textures/poster_3.png",
+    "pixels": [
+      1400,
+      2000
+    ],
+    "metres": [
+      0.69,
+      0.99
+    ],
+    "text": [
+      "MALDEK  /  VISITOR SERIES",
+      "THE LONG VIEW",
+      "TAKE TIME TO WALK",
+      "A little further from the everyday.",
+      "REGIONAL TRAVEL  /  ILLUSTRATED EDITION"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      2029,
+      2020
+    ]
+  },
+  {
+    "id": "visitor_map",
+    "svg": "artwork/visitor_map.svg",
+    "texture": "textures/visitor_map.png",
+    "pixels": [
+      1800,
+      1450
+    ],
+    "metres": [
+      1.38,
+      1.12
+    ],
+    "text": [
+      "MALDEK STATION",
+      "Visitor routes",
+      "Platform level  /  diagram of the station buildings",
+      "PASSENGER LODGE",
+      "Six-table waiting room",
+      "COFFEE",
+      "RESTROOMS",
+      "CONTROL",
+      "Staff only",
+      "PUBLIC PLATFORM",
+      "GONDOLA",
+      "Independent entrance",
+      "Use the exterior platform.",
+      "ARRIVAL COURT",
+      "Exterior route to control and gondola",
+      "Lodge reference point",
+      "Station plan only. Ask the attendant for current piste and weather information."
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      1304,
+      1295
+    ]
+  },
+  {
+    "id": "timetable",
+    "svg": "artwork/timetable.svg",
+    "texture": "textures/timetable.png",
+    "pixels": [
+      1400,
+      1900
+    ],
+    "metres": [
+      0.78,
+      1.1
+    ],
+    "text": [
+      "MALDEK",
+      "GONDOLA INFORMATION",
+      "Departure board",
+      "Check with the attendant before boarding.",
+      "FIRST DEPARTURE",
+      "09:00",
+      "REGULAR SERVICE",
+      "Every 30 minutes",
+      "LAST DEPARTURE",
+      "16:30",
+      "Before you travel",
+      "Have your pass ready.",
+      "Keep the boarding gate clear.",
+      "Follow the attendant's instructions.",
+      "WEATHER NOTE",
+      "Afternoon excursion cancelled.",
+      "Printed schedule  /  subject to operating conditions"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      1795,
+      1727
+    ]
+  },
+  {
+    "id": "notice_club",
+    "svg": "artwork/notice_club.svg",
+    "texture": "textures/notice_club.png",
+    "pixels": [
+      700,
+      850
+    ],
+    "metres": [
+      0.27,
+      0.328
+    ],
+    "text": [
+      "SKI CLUB",
+      "Weekend outings",
+      "All abilities welcome.",
+      "Leave your name",
+      "with the attendant.",
+      "MALDEK  /  COMMUNITY"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      2593,
+      2591
+    ]
+  },
+  {
+    "id": "notice_lost",
+    "svg": "artwork/notice_lost.svg",
+    "texture": "textures/notice_lost.png",
+    "pixels": [
+      700,
+      850
+    ],
+    "metres": [
+      0.27,
+      0.328
+    ],
+    "text": [
+      "LOST PROPERTY",
+      "Missing a glove?",
+      "Ask at the coffee hatch.",
+      "Please describe",
+      "the item you lost.",
+      "MALDEK  /  COMMUNITY"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      2593,
+      2591
+    ]
+  },
+  {
+    "id": "notice_hours",
+    "svg": "artwork/notice_hours.svg",
+    "texture": "textures/notice_hours.png",
+    "pixels": [
+      700,
+      850
+    ],
+    "metres": [
+      0.27,
+      0.328
+    ],
+    "text": [
+      "COFFEE HATCH",
+      "Open with the",
+      "passenger lodge.",
+      "Tea, coffee",
+      "and light snacks.",
+      "MALDEK  /  COMMUNITY"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      2593,
+      2591
+    ]
+  },
+  {
+    "id": "notice_walk",
+    "svg": "artwork/notice_walk.svg",
+    "texture": "textures/notice_walk.png",
+    "pixels": [
+      700,
+      850
+    ],
+    "metres": [
+      0.27,
+      0.328
+    ],
+    "text": [
+      "WEEKEND WALK",
+      "A gentle local outing.",
+      "Meet at the lodge.",
+      "Ask for details",
+      "at the coffee hatch.",
+      "MALDEK  /  COMMUNITY"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      2593,
+      2591
+    ]
+  },
+  {
+    "id": "notice_weather",
+    "svg": "artwork/notice_weather.svg",
+    "texture": "textures/notice_weather.png",
+    "pixels": [
+      700,
+      850
+    ],
+    "metres": [
+      0.27,
+      0.328
+    ],
+    "text": [
+      "WEATHER UPDATE",
+      "Afternoon excursion",
+      "cancelled.",
+      "Please ask about",
+      "the next outing.",
+      "MALDEK  /  COMMUNITY"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      2593,
+      2591
+    ]
+  },
+  {
+    "id": "notice_header",
+    "svg": "artwork/notice_header.svg",
+    "texture": "textures/notice_header.png",
+    "pixels": [
+      1400,
+      160
+    ],
+    "metres": [
+      1.4,
+      0.12
+    ],
+    "text": [
+      "COMMUNITY",
+      "LOCAL NOTICES"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      1000,
+      1333
+    ]
+  },
+  {
+    "id": "restrooms",
+    "svg": "artwork/restrooms.svg",
+    "texture": "textures/restrooms.png",
+    "pixels": [
+      1400,
+      250
+    ],
+    "metres": [
+      1.026,
+      0.206
+    ],
+    "text": [
+      "RESTROOMS"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      1365,
+      1214
+    ]
+  },
+  {
+    "id": "women",
+    "svg": "artwork/women.svg",
+    "texture": "textures/women.png",
+    "pixels": [
+      900,
+      230
+    ],
+    "metres": [
+      0.666,
+      0.166
+    ],
+    "text": [
+      "WOMEN"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      1351,
+      1386
+    ]
+  },
+  {
+    "id": "men",
+    "svg": "artwork/men.svg",
+    "texture": "textures/men.png",
+    "pixels": [
+      900,
+      230
+    ],
+    "metres": [
+      0.666,
+      0.166
+    ],
+    "text": [
+      "MEN"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      1351,
+      1386
+    ]
+  },
+  {
+    "id": "exit",
+    "svg": "artwork/exit.svg",
+    "texture": "textures/exit.png",
+    "pixels": [
+      1400,
+      300
+    ],
+    "metres": [
+      1.046,
+      0.236
+    ],
+    "text": [
+      "PUBLIC EXIT",
+      "ARRIVAL COURT"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      1338,
+      1271
+    ]
+  },
+  {
+    "id": "boarding",
+    "svg": "artwork/boarding.svg",
+    "texture": "textures/boarding.png",
+    "pixels": [
+      1400,
+      300
+    ],
+    "metres": [
+      1.026,
+      0.236
+    ],
+    "text": [
+      "GONDOLA",
+      "PLATFORM EXIT"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      1365,
+      1271
+    ]
+  },
+  {
+    "id": "staff",
+    "svg": "artwork/staff.svg",
+    "texture": "textures/staff.png",
+    "pixels": [
+      1400,
+      300
+    ],
+    "metres": [
+      0.806,
+      0.196
+    ],
+    "text": [
+      "STAFF ONLY",
+      "COFFEE PREPARATION"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      1737,
+      1531
+    ]
+  },
+  {
+    "id": "lost_property",
+    "svg": "artwork/lost_property.svg",
+    "texture": "textures/lost_property.png",
+    "pixels": [
+      1600,
+      200
+    ],
+    "metres": [
+      0.44,
+      0.055
+    ],
+    "text": [
+      "LOST PROPERTY"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      3636,
+      3636
+    ]
+  },
+  {
+    "id": "menu",
+    "svg": "artwork/menu.svg",
+    "texture": "textures/menu.png",
+    "pixels": [
+      3150,
+      540
+    ],
+    "metres": [
+      2.07,
+      0.355
+    ],
+    "text": [
+      "THE COFFEE HATCH",
+      "COFFEE & TEA",
+      "Freshly made",
+      "HOT CHOCOLATE",
+      "A warm stop",
+      "SOUP & SNACKS",
+      "Ask what is available"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      1522,
+      1521
+    ]
+  },
+  {
+    "id": "clock_face",
+    "svg": "artwork/clock_face.svg",
+    "texture": "textures/clock_face.png",
+    "pixels": [
+      1400,
+      1400
+    ],
+    "metres": [
+      0.33,
+      0.33
+    ],
+    "text": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "MALDEK"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      4242,
+      4242
+    ]
+  }
+]

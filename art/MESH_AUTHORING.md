@@ -1,5 +1,17 @@
 # Mesh authoring lessons: prevent overlapping surfaces
 
+## Integration booleans on touching grating bars
+
+The passenger-lodge reconciliation found that a whole-panel EXACT boolean welded
+two originally disconnected, touching grating bars into one four-face edge away
+from the threshold cutter. A package's asset-only topology check did not cover
+that patched reference panel. Replaying the threshold cut independently on each
+original bar preserved the construction and restored manifold component topology.
+Inspect modified context geometry as well as newly appended assets. This is a
+specific touching-bar case, not a general reason to split every boolean operand.
+See [repair](blender/passenger_lodge_04/scripts/finish.py) and
+[saved-file verification](blender/passenger_lodge_04/verification.json).
+
 Project memory from the R12 door and window repairs, September 2026. Read this
 before authoring or exporting additional station buildings. Prevent the defect
 in source geometry rather than repeatedly patching it after import.
