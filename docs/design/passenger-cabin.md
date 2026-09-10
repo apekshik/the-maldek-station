@@ -1,22 +1,24 @@
-# Former passenger cabin — proposal 02
+# Former passenger cabin — approved layout, revision 03
 
-September 9, 2026 · For layout review; no Blender or Unreal changes in this pass.
+September 9, 2026 · Layout direction approved by the user; six-table capacity adopted. Dimensions remain subject to Blender site-fit verification. No Blender or Unreal changes in this pass.
 
 Review the [interactive floor plan](../passenger-cabin.html). This proposal replaces the old Waiting Hall brief, not the gondola vehicle or central control. The older V2 compound map remains contextual rather than a surveyed R12 footprint.
 
 ## Shape and relationship to the station
 
-A stepped timber lodge at the public platform level (+4 m in the station design baseline). Retain a 14 × 8 m main hall; add a 5 × 5 m enclosed coffee annex to its southwest and a 6 × 6 m restroom wing to its southeast. Gross footprint: 112 + 25 + 36 = **173 m²**, within a 14 × 14 m envelope. The two annexes leave a 3 m wide arrival court; their different depths break up the rear silhouette. Dimensions are schematic exterior envelopes, not guaranteed usable floor areas.
+A stepped timber lodge at the public platform level (+4 m in the station design baseline). Retain a 14 × 11.2 m main hall; add a 5 × 5 m enclosed coffee annex to its southwest and a 6 × 6 m restroom wing to its southeast. Gross footprint: 156.8 + 25 + 36 = **217.8 m²**, within a 14 × 17.2 m envelope. The two annexes leave a 3 m wide arrival court; their different depths break up the rear silhouette. Dimensions are schematic exterior envelopes, not guaranteed usable floor areas.
 
 Broad windows face the platform. Central control remains independent, accessed outside through its existing keypad door. **No internal or direct passenger-lodge door to control.** The old hall–control connection is superseded by this direction; the platform remains the route between them.
 
 The review diagram uses local coordinates, not Unreal world axes. Survey the current waiting hall, control openings, upper quarters supports, terrain, roof sign sightline and platform clearance in Blender before freezing the footprint. Expansion must not overwrite the drive gallery, quarters or retained exterior access. Survey and close any superseded hall opening explicitly during eventual integration; do not remove or bypass control's keypad entrance.
 
+Six tables are the locked capacity target. Four would suit a quieter stop, but six better supports the visitor-lodge brief. Extend the hall by 3.2 m rather than reduce aisle widths: three rows at 3.2 m pitch leave about 1.3 m between the 1.9 m bench envelopes. Preserve the boarding exit alignment and move the rear annexes together in the schematic. If the site cannot accommodate this depth, revise the footprint during Blender blockout while retaining six tables; do not silently reduce capacity.
+
 ## Room and furniture schedule
 
 | Area | Planned contents | Placement / use |
 |---|---|---|
-| Waiting room, 14 × 8 m gross | 4 timber picnic tables, 8 matching benches, 24 nominal seats | Two pairs flanking the boarding route; table tops 1.8 × 0.8 m, complete bench envelope about 1.8 × 1.9 m |
+| Waiting room, 14 × 11.2 m gross | 6 timber picnic tables, 12 matching benches, 36 nominal seats | Three pairs flanking the boarding route; table tops 1.8 × 0.8 m, complete bench envelope about 1.8 × 1.9 m |
 | Lockers | 12 full-height doors, two banks of 6 | Southeast wall where notices were; about 3.84 m total run, 0.5 m deep; reserve 1.5 m clear in front, outside restroom entrance |
 | Poster wall | 3 framed ski/travel posters plus 1 community notice panel | West wall where lockers were; reserve half the notice panel for later evidence |
 | Coffee annex, 5 × 5 m gross | One 3 m serving hatch/counter, 3.5 m equipment run, 3.6 m prep run, 3 shelves and dry-store cabinet | Full-height enclosure with staff door from arrival court; no public through-route; serving queue stays in southwest hall |
@@ -48,7 +50,7 @@ Four authored inspections, proposed rather than implemented:
 
 Keep the critical ticket and key reachable on every visit; reopening the locker remains possible. No random placement, missable consumption or requirement to interpret generated text. Proposed inventory association is later implementation work: current ordinary doors do not yet require finding a key.
 
-Supporting set dressing: 6 cups plus 2 saucers, 1 kettle, 1 coffee urn, 3 drinks cartons/bottle variants, 2 snack package variants, sugar tin, spoon jar, tea tin, cleaning cloth, mop/bucket, radiator, coat hooks, a single lost glove and folded scarf. Dress two tables lightly and leave two mostly clear. Reserve one shelf bay, one locker and half the noticeboard for later evidence. Use ordinary ski-club notices, opening hours and a staff cleaning rota; no wall of threatening messages.
+Supporting set dressing: 6 cups plus 2 saucers, 1 kettle, 1 coffee urn, 3 drinks cartons/bottle variants, 2 snack package variants, sugar tin, spoon jar, tea tin, cleaning cloth, mop/bucket, radiator, coat hooks, a single lost glove and folded scarf. Dress three tables lightly and leave three mostly clear. Reserve one shelf bay, one locker and half the noticeboard for later evidence. Use ordinary ski-club notices, opening hours and a staff cleaning rota; no wall of threatening messages.
 
 ## Blender build order
 

@@ -4,4 +4,4 @@
 
 The selected drive reference is page 13 of [Doppelmayr WIR 202](references/Doppelmayr-WIR202-drive-reference.pdf). The source URL and usage context are recorded in the research note. The PDF is retained for reference, not licensed for redistribution as game content.
 
-[Former passenger cabin](passenger-cabin.md) and its [interactive review plan](../passenger-cabin.html) define the September 9 proposed stepped replacement: quantities, circulation, inspection sequence and Blender build order. Layout review only; site fit remains to verify.
+[Former passenger cabin](passenger-cabin.md) and its [interactive review plan](../passenger-cabin.html) define the September 9 approved stepped layout with six tables: quantities, circulation, inspection sequence and Blender build order. Layout direction approved; site fit remains to verify before construction.

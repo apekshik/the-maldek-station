@@ -1,9 +1,9 @@
 const ns='http://www.w3.org/2000/svg';
 function rect(parent,x,y,w,h,cls){const e=document.createElementNS(ns,'rect');Object.entries({x,y,width:w,height:h,class:cls}).forEach(([k,v])=>e.setAttribute(k,v));parent.append(e);}
 const tables=document.getElementById('tables');
-[[300,165],[600,165],[300,325],[600,325]].forEach(([x,y])=>{rect(tables,x,y,90,40,'furn');rect(tables,x,y-27.5,90,17.5,'furn');rect(tables,x,y+50,90,17.5,'furn');});
+[[300,165],[600,165],[300,325],[600,325],[300,485],[600,485]].forEach(([x,y])=>{rect(tables,x,y,90,40,'furn');rect(tables,x,y-27.5,90,17.5,'furn');rect(tables,x,y+50,90,17.5,'furn');});
 const lockers=document.getElementById('lockers');
-for(let i=0;i<12;i++){rect(lockers,600+i*16,480,15,25,'furn');}
+for(let i=0;i<12;i++){rect(lockers,600+i*16,640,15,25,'furn');}
 const details={ticket:['01 / Lost-property ticket','“Blue day bag · locker 07 · spare key with attendant.” The first clue is a normal service record at the counter. Save its text in the journal when inspected.'],key:['02 / Tagged spare key','A rounded key bow with tag 07 waits in the public cubby beside the hatch. It is always reachable; there is no prerequisite or random hiding place. Finding and associating keys is proposed future logic.'],bag:['03 / Locker 07','Insert and turn the matching key. Inside: a day bag, an ordinary lift pass and a visitor map directing the player outside to control’s keypad entrance. Keep it reopenable; no mandatory progression gate.'],timetable:['04 / Timetable','A weather cancellation and a tea stain establish a working ski stop. This optional inspection is about ordinary life, not another cipher.']};
 document.querySelectorAll('[data-layer]').forEach(button=>button.addEventListener('click',()=>{const show=button.getAttribute('aria-pressed')!=='true';button.setAttribute('aria-pressed',String(show));document.getElementById(button.dataset.layer).style.display=show?'':'none';}));
 function select(pin){const [title,body]=details[pin.dataset.detail];const detail=document.getElementById('detail');detail.replaceChildren();const h=document.createElement('h3'),p=document.createElement('p');h.textContent=title;p.textContent=body;detail.append(h,p);}
