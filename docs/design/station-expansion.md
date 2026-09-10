@@ -58,3 +58,7 @@ The editor was not running during this review; no live scene survey is claimed. 
 Blender route evidence: Arrival runs from approximately (-14.01, -16.35, 0) to (-21.45, -16.35, 4), a westward climb. The turning route then runs from (-21.6, -16.35, 4) to (-18, -14.3, 4). These are Blender source coordinates; do not paste them into Unreal. The documented deck bands are 1.8 m grating + 3.6 m solid plate + 1.95 m grating = 7.35 m. Use that established breadth on the revised west promenade, rather than the previous thin strip.
 
 The map now shows continuous deck beneath the arrival court, flush stair heads, a leftward arrival flight/turn and the proposed bypass descent. These source-informed corrections supersede the previous V3 stair arrangement. Before mesh changes, still survey current saved scene geometry and both new lower landing elevations.
+
+## Combined Blender fit study
+
+Passenger lodge 02 fits the six-table layout beside the existing control building, extends the deck west to a 7.35 m promenade, and retains the original arrival stair and turn. The 2 m bypass connects to a proposed side stair with a 2 m upper landing. Source geometry remains available in the earlier reference scene. See art/blender/passenger_lodge_02/README.md and its fit_report.json for placement, source preservation and sampled-route evidence. The lower stair approach, final structure and Unreal player collision still require validation before integration.

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "blend_sha256": "c317e26643d23ffcd9160b9b97985246b4998c15c351ef55587ff140121a72c3",
+  "saved_reopened": true,
+  "new_mesh_nonmanifold": [],
+  "route_floor_headroom_checks_passed": true,
+  "boundary_probe_m": 0.002,
+  "limits": "Sampled floor/headroom rays, not continuous capsule or Unreal collision. Existing grating arrival retained; lower stair terrain connection remains provisional."
+}
