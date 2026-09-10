@@ -1,0 +1,141 @@
+{
+  "passed": true,
+  "render_count": 15,
+  "images": [
+    {
+      "file": "01_hallway_east.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "ba6c1b012d87480c5f8644304cf01f98199a4c1b33fe433aee349f5550078882",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "02_hallway_west.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "94c9d752d275712db2911018cc836f7391421a334cba44bc6013bd313d24c64c",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "03_women_interior.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "d55400ba00f8158cc82c57c5ec13b4925906bc63457e66873083a39391b988c3",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "04_men_interior.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "b03423479a057699f813e1464598acfe75784150da2ce0a1e4e0bf0b53f3a708",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "05_basin_detail.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "e1da24b6bc0313a8bbabcf77b419137f165272384ddcef43f013465f90efb714",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "06_stall_hardware.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "4026a064ff5b537aa42270780f652a7248ee85094b8ac4b08b40f31b814fdd08",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "07_women_entry_inside.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "31702c5457f1393bc8c02a09f2358c862c9abbdeff3cd1203c17feec7a2fb3f1",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "08_men_entry_inside.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "791130db1cfc658ca3b9ca673decaeb74df46e453a5f22247d7f9b2dae1b0f0d",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "10_men_basin_detail.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "4188a6a0c64373b1d9a7e3581cb577955c5516ea46b41ae9c64c26a16334f652",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "11_urinal_detail.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "f12919cbb3877f95c0125cbb9617c4500a0d688720556090f0ecde33d520d5c6",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "12_wc_detail.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "54f6499ca2ab9aabf8cea799377062364b3bdd2eaa4b0326c8c027f84e382685",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "13_basin_interior.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "ee4b18bf0069df15c3649beef82dc6ef22f6abc89413af45d4b0fe23191cbc12",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "14_women_entry_front.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "3b24962595705def09f3bec78a9341a062e1012fdb816c22028f510414d3a72e",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "15_men_entry_front.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "80743f661a8a0c6cace0aca64e64b75bbd28da662b768c067b3d346f08732f9f",
+      "temporary_review_lighting": true
+    },
+    {
+      "file": "09_all_swings.png",
+      "size_pixels": [
+        1200,
+        900
+      ],
+      "sha256": "029fa3e6b38c2dac33af55d874aa04bc6033fe760e35cced309d4a9cbd6f63b9",
+      "temporary_review_lighting": true
+    }
+  ]
+}

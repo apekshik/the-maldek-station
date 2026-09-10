@@ -1,0 +1,2589 @@
+{
+  "blend_sha256": "07e2a5a744a1e6be984e5f0c642a0949d66e2f1ef3578a5171c97edae7f85a27",
+  "saved_reopened": true,
+  "topology": [
+    {
+      "object": "PLR_Women_Entry_jamb_10",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_jamb_10.9",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_head",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_face_trim",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_face_trim.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_face_header",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_face_trim.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_face_trim.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_face_header.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Leaf",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Kickplate_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Latch_rose_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Lever_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_Entry_Kickplate_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Latch_rose_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Lever_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_Entry_Hinge_barrel_0.25",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Entry_Hinge_fixed_0.25",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Hinge_leaf_0.25",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Hinge_barrel_1.1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Entry_Hinge_fixed_1.1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Hinge_leaf_1.1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Hinge_barrel_1.98",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Entry_Hinge_fixed_1.98",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Hinge_leaf_1.98",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Stop",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Entry_Open_stop",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Entry_jamb_12",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_jamb_12.9",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_head",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_face_trim",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_face_trim.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_face_header",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_face_trim.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_face_trim.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_face_header.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Leaf",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Kickplate_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Latch_rose_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Lever_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Men_Entry_Kickplate_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Latch_rose_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Lever_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Men_Entry_Hinge_barrel_0.25",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Entry_Hinge_fixed_0.25",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Hinge_leaf_0.25",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Hinge_barrel_1.1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Entry_Hinge_fixed_1.1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Hinge_leaf_1.1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Hinge_barrel_1.98",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Entry_Hinge_fixed_1.98",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Hinge_leaf_1.98",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Stop",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Entry_Open_stop",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_A_Left_Partition",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Left_Foot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_A_Left_Foot_plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Left_Foot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_A_Left_Foot_plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Left_Top_rail",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Right_Partition",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Right_Foot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_A_Right_Foot_plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Right_Foot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_A_Right_Foot_plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Right_Top_rail",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Hinge_pilaster",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Latch_pilaster",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Front_brace",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Leaf",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Latch_rose_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Lever_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_A_Stall_Latch_rose_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Lever_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_A_Stall_Indicator_surround",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Indicator_VACANT",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Slide_bolt",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Coat_hook",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_A_Stall_Hinge_barrel_0.36",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_A_Stall_Hinge_fixed_0.36",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Hinge_leaf_0.36",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Hinge_barrel_1.7",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_A_Stall_Hinge_fixed_1.7",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Hinge_leaf_1.7",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Stall_Stop",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Rear",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Toilet_bowl",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 576
+    },
+    {
+      "object": "PLR_Women_A_Seat",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 256
+    },
+    {
+      "object": "PLR_Women_A_Bowl_water",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_A_Pedestal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Cistern",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Cistern_lid",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Flush_button",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Seat_hinge",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_A_Seat_hinge.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_A_Supply",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_A_Isolation_valve",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Waste_soil",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 74
+    },
+    {
+      "object": "PLR_Women_A_Paper_dispenser",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Paper_tail",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Sanitary_bin",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_A_Bin_lid",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Left_Partition",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Left_Foot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_B_Left_Foot_plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Left_Foot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_B_Left_Foot_plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Left_Top_rail",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Right_Partition",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Right_Foot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_B_Right_Foot_plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Right_Foot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_B_Right_Foot_plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Right_Top_rail",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Hinge_pilaster",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Latch_pilaster",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Front_brace",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Leaf",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Latch_rose_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Lever_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_B_Stall_Latch_rose_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Lever_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_B_Stall_Indicator_surround",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Indicator_VACANT",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Slide_bolt",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Coat_hook",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_B_Stall_Hinge_barrel_0.36",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_B_Stall_Hinge_fixed_0.36",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Hinge_leaf_0.36",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Hinge_barrel_1.7",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_B_Stall_Hinge_fixed_1.7",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Hinge_leaf_1.7",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Stall_Stop",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Rear",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Toilet_bowl",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 576
+    },
+    {
+      "object": "PLR_Women_B_Seat",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 256
+    },
+    {
+      "object": "PLR_Women_B_Bowl_water",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_B_Pedestal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Cistern",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Cistern_lid",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Flush_button",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Seat_hinge",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_B_Seat_hinge.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_B_Supply",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_B_Isolation_valve",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Waste_soil",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 74
+    },
+    {
+      "object": "PLR_Women_B_Paper_dispenser",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Paper_tail",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Sanitary_bin",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_B_Bin_lid",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Left_Partition",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Left_Foot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_A_Left_Foot_plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Left_Foot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_A_Left_Foot_plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Left_Top_rail",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Right_Partition",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Right_Foot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_A_Right_Foot_plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Right_Foot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_A_Right_Foot_plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Right_Top_rail",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Hinge_pilaster",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Latch_pilaster",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Front_brace",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Leaf",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Latch_rose_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Lever_-1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Men_A_Stall_Latch_rose_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Lever_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Men_A_Stall_Indicator_surround",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Indicator_VACANT",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Slide_bolt",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Coat_hook",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Men_A_Stall_Hinge_barrel_0.36",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_A_Stall_Hinge_fixed_0.36",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Hinge_leaf_0.36",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Hinge_barrel_1.7",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_A_Stall_Hinge_fixed_1.7",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Hinge_leaf_1.7",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Stall_Stop",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Rear",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Toilet_bowl",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 576
+    },
+    {
+      "object": "PLR_Men_A_Seat",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 256
+    },
+    {
+      "object": "PLR_Men_A_Bowl_water",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_A_Pedestal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Cistern",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Cistern_lid",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Flush_button",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Seat_hinge",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_A_Seat_hinge.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_A_Supply",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Men_A_Isolation_valve",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Waste_soil",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 74
+    },
+    {
+      "object": "PLR_Men_A_Paper_dispenser",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Paper_tail",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Sanitary_bin",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_A_Bin_lid",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Basin_bowl",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 576
+    },
+    {
+      "object": "PLR_Women_Tap_deck",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Drain",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Drain_slot_0",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Drain_slot_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Drain_slot_2",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Drain_slot_3",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Drain_slot_4",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Drain_slot_5",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Drain_slot_6",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Overflow",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Trap",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 122
+    },
+    {
+      "object": "PLR_Women_Waste_wall_flange",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Supply_wall_flange_-0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Supply_-0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_Mount_bracket_-0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Valve_-0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Supply_wall_flange_0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Women_Supply_0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Women_Mount_bracket_0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Valve_0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Mixer_spout",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Mixer_lever",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Mirror_frame",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Mirror",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Soap_dispenser",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Soap_pump",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Towel_dispenser",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Towel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Waste_bin",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Women_Waste_bin_rim",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Basin_bowl",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 576
+    },
+    {
+      "object": "PLR_Men_Tap_deck",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Drain",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Drain_slot_0",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Drain_slot_1",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Drain_slot_2",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Drain_slot_3",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Drain_slot_4",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Drain_slot_5",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Drain_slot_6",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Overflow",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Trap",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 122
+    },
+    {
+      "object": "PLR_Men_Waste_wall_flange",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Supply_wall_flange_-0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Supply_-0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Men_Mount_bracket_-0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Valve_-0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Supply_wall_flange_0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Supply_0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Men_Mount_bracket_0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Valve_0.14",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Mixer_spout",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Mixer_lever",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Mirror_frame",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Mirror",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Soap_dispenser",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Soap_pump",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Towel_dispenser",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Towel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Waste_bin",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Waste_bin_rim",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Urinal_shell",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 512
+    },
+    {
+      "object": "PLR_Men_Urinal_drain",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Urinal_back",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Urinal_flush",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Men_Urinal_flush_valve",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Urinal_waste",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 50
+    },
+    {
+      "object": "PLR_Men_Urinal_supply_flange",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Urinal_waste_flange",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Urinal_hanger",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Urinal_hanger.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Urinal_privacy",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Privacy_foot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Privacy_base",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    },
+    {
+      "object": "PLR_Men_Privacy_foot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 26
+    },
+    {
+      "object": "PLR_Men_Privacy_base.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "faces": 98
+    }
+  ],
+  "swings": [
+    {
+      "pivot": "PLR_Women_Entry_Pivot",
+      "sampled_degrees": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85
+      ],
+      "collisions": []
+    },
+    {
+      "pivot": "PLR_Men_Entry_Pivot",
+      "sampled_degrees": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90
+      ],
+      "collisions": []
+    },
+    {
+      "pivot": "PLR_Women_A_Stall_Pivot",
+      "sampled_degrees": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90
+      ],
+      "collisions": []
+    },
+    {
+      "pivot": "PLR_Women_B_Stall_Pivot",
+      "sampled_degrees": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90
+      ],
+      "collisions": []
+    },
+    {
+      "pivot": "PLR_Men_A_Stall_Pivot",
+      "sampled_degrees": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90
+      ],
+      "collisions": []
+    }
+  ],
+  "routes": [
+    {
+      "name": "Screened_hall",
+      "samples": 215,
+      "radius_m": 0.34,
+      "minimum_obstacle_distance_m": 0.5299997000000003,
+      "nearest_object": "FIT_Full_height_privacy_screen",
+      "nearest_world_xy": [
+        -14.280769230769232,
+        -8.25
+      ],
+      "passed": true,
+      "path_local": [
+        [
+          9,
+          10.5
+        ],
+        [
+          9,
+          12.25
+        ],
+        [
+          12.55,
+          12.25
+        ]
+      ]
+    },
+    {
+      "name": "Women_entry",
+      "samples": 84,
+      "radius_m": 0.34,
+      "minimum_obstacle_distance_m": 0.3570003773247268,
+      "nearest_object": "PLR_Women_Entry_Stop",
+      "nearest_world_xy": [
+        -13.740000000000002,
+        -9.18855421686747
+      ],
+      "passed": true,
+      "path_local": [
+        [
+          10.36,
+          12.25
+        ],
+        [
+          10.36,
+          14.3
+        ]
+      ]
+    },
+    {
+      "name": "Women_basin",
+      "samples": 54,
+      "radius_m": 0.34,
+      "minimum_obstacle_distance_m": 0.3904927755195506,
+      "nearest_object": "PLR_Women_B_Stall_Leaf",
+      "nearest_world_xy": [
+        -14.189666666666668,
+        -10.173333333333334
+      ],
+      "passed": true,
+      "path_local": [
+        [
+          10.36,
+          14.3
+        ],
+        [
+          9.65,
+          14.1
+        ],
+        [
+          9.12,
+          14.18
+        ]
+      ]
+    },
+    {
+      "name": "Women_A_stall",
+      "samples": 113,
+      "radius_m": 0.34,
+      "minimum_obstacle_distance_m": 0.3490196608281622,
+      "nearest_object": "PLR_Women_A_Stall_Stop",
+      "nearest_world_xy": [
+        -15.230000000000002,
+        -11.345333333333333
+      ],
+      "passed": true,
+      "path_local": [
+        [
+          10.36,
+          14.3
+        ],
+        [
+          9.65,
+          14.1
+        ],
+        [
+          9.15,
+          14.7
+        ],
+        [
+          8.87,
+          15.0
+        ],
+        [
+          8.87,
+          15.74
+        ]
+      ]
+    },
+    {
+      "name": "Women_B_stall",
+      "samples": 61,
+      "radius_m": 0.34,
+      "minimum_obstacle_distance_m": 0.3490181661497599,
+      "nearest_object": "PLR_Women_B_Stall_Stop",
+      "nearest_world_xy": [
+        -13.88,
+        -11.368571428571428
+      ],
+      "passed": true,
+      "path_local": [
+        [
+          10.36,
+          14.3
+        ],
+        [
+          10.22,
+          14.7
+        ],
+        [
+          10.22,
+          15.74
+        ]
+      ]
+    },
+    {
+      "name": "Men_entry",
+      "samples": 98,
+      "radius_m": 0.34,
+      "minimum_obstacle_distance_m": 0.3600458276062418,
+      "nearest_object": "PLR_Men_Entry_Lever_-1",
+      "nearest_world_xy": [
+        -11.670000000000002,
+        -9.957216494845362
+      ],
+      "passed": true,
+      "path_local": [
+        [
+          12.43,
+          12.25
+        ],
+        [
+          12.43,
+          14.65
+        ]
+      ]
+    },
+    {
+      "name": "Men_basin",
+      "samples": 25,
+      "radius_m": 0.34,
+      "minimum_obstacle_distance_m": 0.3540454366323632,
+      "nearest_object": "PLR_Men_Entry_Leaf",
+      "nearest_world_xy": [
+        -11.280000000000001,
+        -10.5
+      ],
+      "passed": true,
+      "path_local": [
+        [
+          12.43,
+          14.65
+        ],
+        [
+          12.82,
+          14.65
+        ],
+        [
+          12.82,
+          14.5
+        ]
+      ]
+    },
+    {
+      "name": "Men_A_stall",
+      "samples": 69,
+      "radius_m": 0.34,
+      "minimum_obstacle_distance_m": 0.34901846613405907,
+      "nearest_object": "PLR_Men_A_Stall_Stop",
+      "nearest_world_xy": [
+        -12.280000000000001,
+        -11.368571428571428
+      ],
+      "passed": true,
+      "path_local": [
+        [
+          12.43,
+          14.7
+        ],
+        [
+          11.82,
+          14.7
+        ],
+        [
+          11.82,
+          15.74
+        ]
+      ]
+    },
+    {
+      "name": "Urinal",
+      "samples": 66,
+      "radius_m": 0.34,
+      "minimum_obstacle_distance_m": 0.3549997000000146,
+      "nearest_object": "PLR_Men_Urinal_shell",
+      "nearest_world_xy": [
+        -11.120000000000001,
+        -11.83
+      ],
+      "passed": true,
+      "path_local": [
+        [
+          12.43,
+          14.7
+        ],
+        [
+          12.83,
+          14.9
+        ],
+        [
+          12.83,
+          15.83
+        ],
+        [
+          12.98,
+          15.83
+        ]
+      ]
+    }
+  ],
+  "apertures": [
+    {
+      "name": "Women",
+      "nominal_m": [
+        0.9,
+        2.2
+      ],
+      "rays": 267,
+      "blocked": []
+    },
+    {
+      "name": "Men",
+      "nominal_m": [
+        0.9,
+        2.2
+      ],
+      "rays": 267,
+      "blocked": []
+    }
+  ],
+  "floor_support": [
+    {
+      "route": "Screened_hall",
+      "local_xy": [
+        9,
+        10.5
+      ],
+      "passed": true,
+      "object": "FIT_Hall_Floor"
+    },
+    {
+      "route": "Screened_hall",
+      "local_xy": [
+        9,
+        12.25
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Screened_hall",
+      "local_xy": [
+        12.55,
+        12.25
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_entry",
+      "local_xy": [
+        10.36,
+        12.25
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_entry",
+      "local_xy": [
+        10.36,
+        14.3
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_basin",
+      "local_xy": [
+        10.36,
+        14.3
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_basin",
+      "local_xy": [
+        9.65,
+        14.1
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_basin",
+      "local_xy": [
+        9.12,
+        14.18
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_A_stall",
+      "local_xy": [
+        10.36,
+        14.3
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_A_stall",
+      "local_xy": [
+        9.65,
+        14.1
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_A_stall",
+      "local_xy": [
+        9.15,
+        14.7
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_A_stall",
+      "local_xy": [
+        8.87,
+        15.0
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_A_stall",
+      "local_xy": [
+        8.87,
+        15.74
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_B_stall",
+      "local_xy": [
+        10.36,
+        14.3
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_B_stall",
+      "local_xy": [
+        10.22,
+        14.7
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Women_B_stall",
+      "local_xy": [
+        10.22,
+        15.74
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Men_entry",
+      "local_xy": [
+        12.43,
+        12.25
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Men_entry",
+      "local_xy": [
+        12.43,
+        14.65
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Men_basin",
+      "local_xy": [
+        12.43,
+        14.65
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Men_basin",
+      "local_xy": [
+        12.82,
+        14.65
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Men_basin",
+      "local_xy": [
+        12.82,
+        14.5
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Men_A_stall",
+      "local_xy": [
+        12.43,
+        14.7
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Men_A_stall",
+      "local_xy": [
+        11.82,
+        14.7
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Men_A_stall",
+      "local_xy": [
+        11.82,
+        15.74
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Urinal",
+      "local_xy": [
+        12.43,
+        14.7
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Urinal",
+      "local_xy": [
+        12.83,
+        14.9
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Urinal",
+      "local_xy": [
+        12.83,
+        15.83
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    },
+    {
+      "route": "Urinal",
+      "local_xy": [
+        12.98,
+        15.83
+      ],
+      "passed": true,
+      "object": "FIT_Restrooms_Floor"
+    }
+  ],
+  "screening": [
+    {
+      "eye_x": 8.5,
+      "target_local": [
+        8.46,
+        14.18,
+        0.86
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 8.5,
+      "target_local": [
+        8.85,
+        16.38,
+        0.5
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 8.5,
+      "target_local": [
+        10.2,
+        16.38,
+        0.5
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 8.5,
+      "target_local": [
+        11.825,
+        16.38,
+        0.5
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_0_0",
+        "FIT_WC_shared_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 8.5,
+      "target_local": [
+        13.54,
+        14.5,
+        0.86
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_2_0",
+        "FIT_Full_height_privacy_screen"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 8.5,
+      "target_local": [
+        13.57,
+        15.83,
+        0.9
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_2_0",
+        "FIT_WC_shared_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.0,
+      "target_local": [
+        8.46,
+        14.18,
+        0.86
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.0,
+      "target_local": [
+        8.85,
+        16.38,
+        0.5
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.0,
+      "target_local": [
+        10.2,
+        16.38,
+        0.5
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.0,
+      "target_local": [
+        11.825,
+        16.38,
+        0.5
+      ],
+      "blocked_by": [
+        "FIT_WC_shared_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.0,
+      "target_local": [
+        13.54,
+        14.5,
+        0.86
+      ],
+      "blocked_by": [
+        "FIT_Hall_south_WC_2_0",
+        "FIT_WC_hall_partition_2_0",
+        "FIT_Full_height_privacy_screen"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.0,
+      "target_local": [
+        13.57,
+        15.83,
+        0.9
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_2_0",
+        "FIT_Full_height_privacy_screen"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.5,
+      "target_local": [
+        8.46,
+        14.18,
+        0.86
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.5,
+      "target_local": [
+        8.85,
+        16.38,
+        0.5
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.5,
+      "target_local": [
+        10.2,
+        16.38,
+        0.5
+      ],
+      "blocked_by": [
+        "FIT_WC_hall_partition_0_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.5,
+      "target_local": [
+        11.825,
+        16.38,
+        0.5
+      ],
+      "blocked_by": [
+        "FIT_Hall_south_WC_2_0",
+        "FIT_WC_shared_0_0",
+        "FIT_Full_height_privacy_screen"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.5,
+      "target_local": [
+        13.54,
+        14.5,
+        0.86
+      ],
+      "blocked_by": [
+        "FIT_Hall_south_WC_2_0"
+      ],
+      "passed": true
+    },
+    {
+      "eye_x": 9.5,
+      "target_local": [
+        13.57,
+        15.83,
+        0.9
+      ],
+      "blocked_by": [
+        "FIT_Hall_south_WC_2_0",
+        "FIT_WC_hall_partition_2_0",
+        "FIT_Full_height_privacy_screen"
+      ],
+      "passed": true
+    }
+  ],
+  "stall_operating_space": [
+    {
+      "route": "Women_A_stall",
+      "standing_local": [
+        8.87,
+        15.74
+      ],
+      "minimum_front_hardware_distance": 0.39000000000000057,
+      "disc_radius": 0.34,
+      "passed": true
+    },
+    {
+      "route": "Women_B_stall",
+      "standing_local": [
+        10.22,
+        15.74
+      ],
+      "minimum_front_hardware_distance": 0.39000000000000057,
+      "disc_radius": 0.34,
+      "passed": true
+    },
+    {
+      "route": "Men_A_stall",
+      "standing_local": [
+        11.82,
+        15.74
+      ],
+      "minimum_front_hardware_distance": 0.39000000000000057,
+      "disc_radius": 0.34,
+      "passed": true
+    }
+  ],
+  "door_pair_separation": {
+    "entrance_sweep_max_depth": 14.149,
+    "stall_sweep_min_depth": 14.548,
+    "between_entrance_and_stall_sweeps_m": 0.399,
+    "stall_hinge_spacing_min_m": 1.35,
+    "stall_leaf_width_m": 0.78,
+    "all_pairs_disjoint": true
+  },
+  "patch_topology": [
+    {
+      "object": "FIT_WC_hall_partition_0_0",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "FIT_WC_hall_partition_1_2.2",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "FIT_WC_hall_partition_2_0",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "FIT_WC_hall_partition_3_2.2",
+      "nonmanifold_edges": 0
+    },
+    {
+      "object": "FIT_WC_hall_partition_4_0",
+      "nonmanifold_edges": 0
+    }
+  ],
+  "source_unchanged": true,
+  "passed": true,
+  "limits": "Blender evaluated mesh checks and 0.68m diameter / 1.8m high walking envelope; sweeps sampled every 5 degrees, paths every 25mm. No engine collision, accessibility certification, export/import or PIE validation."
+}

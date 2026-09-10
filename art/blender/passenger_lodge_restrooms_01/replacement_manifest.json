@@ -1,0 +1,517 @@
+{
+  "source_sha256": "b9d78ed0d7c5c50bc28a8fb6a0d63f1c86fa83d3144c6a7eae50476ee9607796",
+  "replacements": {
+    "FIT_Women_A_WC": [
+      "PLR_Women_A_Seat",
+      "PLR_Women_A_Waste_soil",
+      "PLR_Women_A_Seat_hinge",
+      "PLR_Women_A_Seat_hinge.001",
+      "PLR_Women_A_Supply",
+      "PLR_Women_A_Pedestal",
+      "PLR_Women_A_Isolation_valve",
+      "PLR_Women_A_Cistern",
+      "PLR_Women_A_Toilet_bowl",
+      "PLR_Women_A_Cistern_lid",
+      "PLR_Women_A_Flush_button"
+    ],
+    "FIT_Women_A_Left_partition": [
+      "PLR_Women_A_Left_Partition"
+    ],
+    "FIT_Women_A_Right_partition": [
+      "PLR_Women_A_Right_Partition"
+    ],
+    "FIT_Women_B_WC": [
+      "PLR_Women_B_Waste_soil",
+      "PLR_Women_B_Seat_hinge",
+      "PLR_Women_B_Seat",
+      "PLR_Women_B_Seat_hinge.001",
+      "PLR_Women_B_Supply",
+      "PLR_Women_B_Isolation_valve",
+      "PLR_Women_B_Pedestal",
+      "PLR_Women_B_Cistern",
+      "PLR_Women_B_Cistern_lid",
+      "PLR_Women_B_Toilet_bowl",
+      "PLR_Women_B_Flush_button"
+    ],
+    "FIT_Women_B_Left_partition": [
+      "PLR_Women_B_Left_Partition"
+    ],
+    "FIT_Women_B_Right_partition": [
+      "PLR_Women_B_Right_Partition"
+    ],
+    "FIT_Men_A_WC": [
+      "PLR_Men_A_Waste_soil",
+      "PLR_Men_A_Seat",
+      "PLR_Men_A_Seat_hinge",
+      "PLR_Men_A_Seat_hinge.001",
+      "PLR_Men_A_Supply",
+      "PLR_Men_A_Isolation_valve",
+      "PLR_Men_A_Pedestal",
+      "PLR_Men_A_Cistern",
+      "PLR_Men_A_Cistern_lid",
+      "PLR_Men_A_Toilet_bowl",
+      "PLR_Men_A_Flush_button"
+    ],
+    "FIT_Men_A_Left_partition": [
+      "PLR_Men_A_Left_Partition"
+    ],
+    "FIT_Men_A_Right_partition": [
+      "PLR_Men_A_Right_Partition"
+    ],
+    "FIT_Women_Basin": [
+      "PLR_Women_Valve_0.14",
+      "PLR_Women_Mirror",
+      "PLR_Women_Tap_deck",
+      "PLR_Women_Drain_slot_6",
+      "PLR_Women_Drain",
+      "PLR_Women_Basin_bowl",
+      "PLR_Women_Supply_wall_flange_-0.14",
+      "PLR_Women_Soap_dispenser",
+      "PLR_Women_Mixer_lever",
+      "PLR_Women_Towel",
+      "PLR_Women_Drain_slot_0",
+      "PLR_Women_Supply_-0.14",
+      "PLR_Women_Overflow",
+      "PLR_Women_Towel_dispenser",
+      "PLR_Women_Drain_slot_1",
+      "PLR_Women_Mount_bracket_-0.14",
+      "PLR_Women_Waste_wall_flange",
+      "PLR_Women_Mixer_spout",
+      "PLR_Women_Drain_slot_2",
+      "PLR_Women_Valve_-0.14",
+      "PLR_Women_Drain_slot_3",
+      "PLR_Women_Supply_wall_flange_0.14",
+      "PLR_Women_Waste_bin_rim",
+      "PLR_Women_Drain_slot_4",
+      "PLR_Women_Supply_0.14",
+      "PLR_Women_Trap",
+      "PLR_Women_Waste_bin",
+      "PLR_Women_Mount_bracket_0.14",
+      "PLR_Women_Mirror_frame",
+      "PLR_Women_Drain_slot_5",
+      "PLR_Women_Soap_pump"
+    ],
+    "FIT_Men_Basin": [
+      "PLR_Men_Mirror_frame",
+      "PLR_Men_Trap",
+      "PLR_Men_Towel",
+      "PLR_Men_Basin_bowl",
+      "PLR_Men_Mirror",
+      "PLR_Men_Tap_deck",
+      "PLR_Men_Valve_0.14",
+      "PLR_Men_Drain_slot_4",
+      "PLR_Men_Drain_slot_5",
+      "PLR_Men_Soap_dispenser",
+      "PLR_Men_Waste_wall_flange",
+      "PLR_Men_Mixer_lever",
+      "PLR_Men_Drain_slot_6",
+      "PLR_Men_Waste_bin_rim",
+      "PLR_Men_Drain",
+      "PLR_Men_Towel_dispenser",
+      "PLR_Men_Drain_slot_0",
+      "PLR_Men_Overflow",
+      "PLR_Men_Supply_wall_flange_-0.14",
+      "PLR_Men_Drain_slot_1",
+      "PLR_Men_Supply_-0.14",
+      "PLR_Men_Supply_wall_flange_0.14",
+      "PLR_Men_Soap_pump",
+      "PLR_Men_Drain_slot_2",
+      "PLR_Men_Mount_bracket_-0.14",
+      "PLR_Men_Supply_0.14",
+      "PLR_Men_Mixer_spout",
+      "PLR_Men_Valve_-0.14",
+      "PLR_Men_Mount_bracket_0.14",
+      "PLR_Men_Waste_bin",
+      "PLR_Men_Drain_slot_3"
+    ],
+    "FIT_Urinal": [
+      "PLR_Men_Urinal_waste_flange",
+      "PLR_Men_Urinal_flush_valve",
+      "PLR_Men_Urinal_drain",
+      "PLR_Men_Urinal_back",
+      "PLR_Men_Urinal_hanger.001",
+      "PLR_Men_Urinal_waste",
+      "PLR_Men_Urinal_supply_flange",
+      "PLR_Men_Urinal_flush",
+      "PLR_Men_Urinal_shell",
+      "PLR_Men_Urinal_hanger"
+    ],
+    "FIT_Urinal_privacy": [
+      "PLR_Men_Urinal_privacy"
+    ]
+  },
+  "pivots": [
+    {
+      "name": "PLR_Women_Entry_Pivot",
+      "position_world": [
+        -13.20199966430664,
+        -9.251999855041504,
+        4.019999980926514
+      ],
+      "width": 0.896,
+      "open_degrees": 85,
+      "kind": "entrance"
+    },
+    {
+      "name": "PLR_Men_Entry_Pivot",
+      "position_world": [
+        -11.20199966430664,
+        -9.251999855041504,
+        4.019999980926514
+      ],
+      "width": 0.896,
+      "open_degrees": 90,
+      "kind": "entrance"
+    },
+    {
+      "name": "PLR_Women_A_Stall_Pivot",
+      "position_world": [
+        -15.65999984741211,
+        -11.32800006866455,
+        4.150000095367432
+      ],
+      "width": 0.78,
+      "open_degrees": 90,
+      "kind": "stall"
+    },
+    {
+      "name": "PLR_Women_B_Stall_Pivot",
+      "position_world": [
+        -14.3100004196167,
+        -11.32800006866455,
+        4.150000095367432
+      ],
+      "width": 0.78,
+      "open_degrees": 90,
+      "kind": "stall"
+    },
+    {
+      "name": "PLR_Men_A_Stall_Pivot",
+      "position_world": [
+        -12.710000038146973,
+        -11.32800006866455,
+        4.150000095367432
+      ],
+      "width": 0.78,
+      "open_degrees": 90,
+      "kind": "stall"
+    }
+  ],
+  "assembly_transform": "W(x,depth,z)=(x-24.1,4-depth,z+4), metres; mesh objects use documented world matrices",
+  "patch": [
+    {
+      "object": "FIT_WC_hall_partition_0_0",
+      "operation": "notch_jamb_boundary_only",
+      "local_x": [
+        8.18,
+        10
+      ],
+      "left_recess": 0,
+      "right_recess": 0.022,
+      "local_depth": [
+        13.02,
+        13.2
+      ],
+      "local_z": [
+        0,
+        2.226
+      ],
+      "upper_wall_unchanged": true
+    },
+    {
+      "object": "FIT_WC_hall_partition_2_0",
+      "operation": "notch_jamb_boundary_only",
+      "local_x": [
+        10.9,
+        12
+      ],
+      "left_recess": 0.022,
+      "right_recess": 0.022,
+      "local_depth": [
+        13.02,
+        13.2
+      ],
+      "local_z": [
+        0,
+        2.226
+      ],
+      "upper_wall_unchanged": true
+    },
+    {
+      "object": "FIT_WC_hall_partition_4_0",
+      "operation": "notch_jamb_boundary_only",
+      "local_x": [
+        12.9,
+        13.82
+      ],
+      "left_recess": 0.022,
+      "right_recess": 0,
+      "local_depth": [
+        13.02,
+        13.2
+      ],
+      "local_z": [
+        0,
+        2.226
+      ],
+      "upper_wall_unchanged": true
+    },
+    {
+      "object": "FIT_WC_hall_partition_1_2.2",
+      "operation": "recess_header_underside",
+      "world_z": 6.2,
+      "delta_z": 0.026
+    },
+    {
+      "object": "FIT_WC_hall_partition_3_2.2",
+      "operation": "recess_header_underside",
+      "world_z": 6.2,
+      "delta_z": 0.026
+    }
+  ],
+  "export_collection": "PLR_Assets",
+  "excluded": [
+    "PLR_REFERENCE_ONLY",
+    "PLR_REVIEW_ONLY"
+  ],
+  "assembly_groups": {
+    "Women_Entry": [
+      "PLR_Women_Entry_jamb_10",
+      "PLR_Women_Entry_jamb_10.9",
+      "PLR_Women_Entry_head",
+      "PLR_Women_Entry_face_trim",
+      "PLR_Women_Entry_face_trim.001",
+      "PLR_Women_Entry_face_header",
+      "PLR_Women_Entry_face_trim.002",
+      "PLR_Women_Entry_face_trim.003",
+      "PLR_Women_Entry_face_header.001",
+      "PLR_Women_Entry_Pivot",
+      "PLR_Women_Entry_Leaf",
+      "PLR_Women_Entry_Kickplate_-1",
+      "PLR_Women_Entry_Latch_rose_-1",
+      "PLR_Women_Entry_Lever_-1",
+      "PLR_Women_Entry_Kickplate_1",
+      "PLR_Women_Entry_Latch_rose_1",
+      "PLR_Women_Entry_Lever_1",
+      "PLR_Women_Entry_Hinge_barrel_0.25",
+      "PLR_Women_Entry_Hinge_fixed_0.25",
+      "PLR_Women_Entry_Hinge_leaf_0.25",
+      "PLR_Women_Entry_Hinge_barrel_1.1",
+      "PLR_Women_Entry_Hinge_fixed_1.1",
+      "PLR_Women_Entry_Hinge_leaf_1.1",
+      "PLR_Women_Entry_Hinge_barrel_1.98",
+      "PLR_Women_Entry_Hinge_fixed_1.98",
+      "PLR_Women_Entry_Hinge_leaf_1.98",
+      "PLR_Women_Entry_Stop",
+      "PLR_Women_Entry_Sign",
+      "PLR_Women_Entry_Open_stop"
+    ],
+    "Men_Entry": [
+      "PLR_Men_Entry_jamb_12",
+      "PLR_Men_Entry_jamb_12.9",
+      "PLR_Men_Entry_head",
+      "PLR_Men_Entry_face_trim",
+      "PLR_Men_Entry_face_trim.001",
+      "PLR_Men_Entry_face_header",
+      "PLR_Men_Entry_face_trim.002",
+      "PLR_Men_Entry_face_trim.003",
+      "PLR_Men_Entry_face_header.001",
+      "PLR_Men_Entry_Pivot",
+      "PLR_Men_Entry_Leaf",
+      "PLR_Men_Entry_Kickplate_-1",
+      "PLR_Men_Entry_Latch_rose_-1",
+      "PLR_Men_Entry_Lever_-1",
+      "PLR_Men_Entry_Kickplate_1",
+      "PLR_Men_Entry_Latch_rose_1",
+      "PLR_Men_Entry_Lever_1",
+      "PLR_Men_Entry_Hinge_barrel_0.25",
+      "PLR_Men_Entry_Hinge_fixed_0.25",
+      "PLR_Men_Entry_Hinge_leaf_0.25",
+      "PLR_Men_Entry_Hinge_barrel_1.1",
+      "PLR_Men_Entry_Hinge_fixed_1.1",
+      "PLR_Men_Entry_Hinge_leaf_1.1",
+      "PLR_Men_Entry_Hinge_barrel_1.98",
+      "PLR_Men_Entry_Hinge_fixed_1.98",
+      "PLR_Men_Entry_Hinge_leaf_1.98",
+      "PLR_Men_Entry_Stop",
+      "PLR_Men_Entry_Sign",
+      "PLR_Men_Entry_Open_stop"
+    ],
+    "Women_A": [
+      "PLR_Women_A_Left_Partition",
+      "PLR_Women_A_Left_Foot",
+      "PLR_Women_A_Left_Foot_plate",
+      "PLR_Women_A_Left_Foot.001",
+      "PLR_Women_A_Left_Foot_plate.001",
+      "PLR_Women_A_Left_Top_rail",
+      "PLR_Women_A_Right_Partition",
+      "PLR_Women_A_Right_Foot",
+      "PLR_Women_A_Right_Foot_plate",
+      "PLR_Women_A_Right_Foot.001",
+      "PLR_Women_A_Right_Foot_plate.001",
+      "PLR_Women_A_Right_Top_rail",
+      "PLR_Women_A_Hinge_pilaster",
+      "PLR_Women_A_Latch_pilaster",
+      "PLR_Women_A_Front_brace",
+      "PLR_Women_A_Stall_Pivot",
+      "PLR_Women_A_Stall_Leaf",
+      "PLR_Women_A_Stall_Latch_rose_-1",
+      "PLR_Women_A_Stall_Lever_-1",
+      "PLR_Women_A_Stall_Latch_rose_1",
+      "PLR_Women_A_Stall_Lever_1",
+      "PLR_Women_A_Stall_Indicator_surround",
+      "PLR_Women_A_Stall_Indicator_VACANT",
+      "PLR_Women_A_Stall_Slide_bolt",
+      "PLR_Women_A_Stall_Coat_hook",
+      "PLR_Women_A_Stall_Hinge_barrel_0.36",
+      "PLR_Women_A_Stall_Hinge_fixed_0.36",
+      "PLR_Women_A_Stall_Hinge_leaf_0.36",
+      "PLR_Women_A_Stall_Hinge_barrel_1.7",
+      "PLR_Women_A_Stall_Hinge_fixed_1.7",
+      "PLR_Women_A_Stall_Hinge_leaf_1.7",
+      "PLR_Women_A_Stall_Stop",
+      "PLR_Women_A_Rear",
+      "PLR_Women_A_Toilet_bowl",
+      "PLR_Women_A_Seat",
+      "PLR_Women_A_Bowl_water",
+      "PLR_Women_A_Pedestal",
+      "PLR_Women_A_Cistern",
+      "PLR_Women_A_Cistern_lid",
+      "PLR_Women_A_Flush_button",
+      "PLR_Women_A_Seat_hinge",
+      "PLR_Women_A_Seat_hinge.001",
+      "PLR_Women_A_Supply",
+      "PLR_Women_A_Isolation_valve",
+      "PLR_Women_A_Waste_soil",
+      "PLR_Women_A_Paper_dispenser",
+      "PLR_Women_A_Paper_tail",
+      "PLR_Women_A_Sanitary_bin",
+      "PLR_Women_A_Bin_lid"
+    ],
+    "Women_B": [
+      "PLR_Women_B_Left_Partition",
+      "PLR_Women_B_Left_Foot",
+      "PLR_Women_B_Left_Foot_plate",
+      "PLR_Women_B_Left_Foot.001",
+      "PLR_Women_B_Left_Foot_plate.001",
+      "PLR_Women_B_Left_Top_rail",
+      "PLR_Women_B_Right_Partition",
+      "PLR_Women_B_Right_Foot",
+      "PLR_Women_B_Right_Foot_plate",
+      "PLR_Women_B_Right_Foot.001",
+      "PLR_Women_B_Right_Foot_plate.001",
+      "PLR_Women_B_Right_Top_rail",
+      "PLR_Women_B_Hinge_pilaster",
+      "PLR_Women_B_Latch_pilaster",
+      "PLR_Women_B_Front_brace",
+      "PLR_Women_B_Stall_Pivot",
+      "PLR_Women_B_Stall_Leaf",
+      "PLR_Women_B_Stall_Latch_rose_-1",
+      "PLR_Women_B_Stall_Lever_-1",
+      "PLR_Women_B_Stall_Latch_rose_1",
+      "PLR_Women_B_Stall_Lever_1",
+      "PLR_Women_B_Stall_Indicator_surround",
+      "PLR_Women_B_Stall_Indicator_VACANT",
+      "PLR_Women_B_Stall_Slide_bolt",
+      "PLR_Women_B_Stall_Coat_hook",
+      "PLR_Women_B_Stall_Hinge_barrel_0.36",
+      "PLR_Women_B_Stall_Hinge_fixed_0.36",
+      "PLR_Women_B_Stall_Hinge_leaf_0.36",
+      "PLR_Women_B_Stall_Hinge_barrel_1.7",
+      "PLR_Women_B_Stall_Hinge_fixed_1.7",
+      "PLR_Women_B_Stall_Hinge_leaf_1.7",
+      "PLR_Women_B_Stall_Stop",
+      "PLR_Women_B_Rear",
+      "PLR_Women_B_Toilet_bowl",
+      "PLR_Women_B_Seat",
+      "PLR_Women_B_Bowl_water",
+      "PLR_Women_B_Pedestal",
+      "PLR_Women_B_Cistern",
+      "PLR_Women_B_Cistern_lid",
+      "PLR_Women_B_Flush_button",
+      "PLR_Women_B_Seat_hinge",
+      "PLR_Women_B_Seat_hinge.001",
+      "PLR_Women_B_Supply",
+      "PLR_Women_B_Isolation_valve",
+      "PLR_Women_B_Waste_soil",
+      "PLR_Women_B_Paper_dispenser",
+      "PLR_Women_B_Paper_tail",
+      "PLR_Women_B_Sanitary_bin",
+      "PLR_Women_B_Bin_lid",
+      "PLR_Women_Basin_bowl"
+    ],
+    "Men_A": [
+      "PLR_Men_A_Left_Partition",
+      "PLR_Men_A_Left_Foot",
+      "PLR_Men_A_Left_Foot_plate",
+      "PLR_Men_A_Left_Foot.001",
+      "PLR_Men_A_Left_Foot_plate.001",
+      "PLR_Men_A_Left_Top_rail",
+      "PLR_Men_A_Right_Partition",
+      "PLR_Men_A_Right_Foot",
+      "PLR_Men_A_Right_Foot_plate",
+      "PLR_Men_A_Right_Foot.001",
+      "PLR_Men_A_Right_Foot_plate.001",
+      "PLR_Men_A_Right_Top_rail",
+      "PLR_Men_A_Hinge_pilaster",
+      "PLR_Men_A_Latch_pilaster",
+      "PLR_Men_A_Front_brace",
+      "PLR_Men_A_Stall_Pivot",
+      "PLR_Men_A_Stall_Leaf",
+      "PLR_Men_A_Stall_Latch_rose_-1",
+      "PLR_Men_A_Stall_Lever_-1",
+      "PLR_Men_A_Stall_Latch_rose_1",
+      "PLR_Men_A_Stall_Lever_1",
+      "PLR_Men_A_Stall_Indicator_surround",
+      "PLR_Men_A_Stall_Indicator_VACANT",
+      "PLR_Men_A_Stall_Slide_bolt",
+      "PLR_Men_A_Stall_Coat_hook",
+      "PLR_Men_A_Stall_Hinge_barrel_0.36",
+      "PLR_Men_A_Stall_Hinge_fixed_0.36",
+      "PLR_Men_A_Stall_Hinge_leaf_0.36",
+      "PLR_Men_A_Stall_Hinge_barrel_1.7",
+      "PLR_Men_A_Stall_Hinge_fixed_1.7",
+      "PLR_Men_A_Stall_Hinge_leaf_1.7",
+      "PLR_Men_A_Stall_Stop",
+      "PLR_Men_A_Rear",
+      "PLR_Men_A_Toilet_bowl",
+      "PLR_Men_A_Seat",
+      "PLR_Men_A_Bowl_water",
+      "PLR_Men_A_Pedestal",
+      "PLR_Men_A_Cistern",
+      "PLR_Men_A_Cistern_lid",
+      "PLR_Men_A_Flush_button",
+      "PLR_Men_A_Seat_hinge",
+      "PLR_Men_A_Seat_hinge.001",
+      "PLR_Men_A_Supply",
+      "PLR_Men_A_Isolation_valve",
+      "PLR_Men_A_Waste_soil",
+      "PLR_Men_A_Paper_dispenser",
+      "PLR_Men_A_Paper_tail",
+      "PLR_Men_A_Sanitary_bin",
+      "PLR_Men_A_Bin_lid"
+    ],
+    "Women_Basin": [
+      "PLR_Women_Basin_bowl"
+    ],
+    "Men_Basin": [
+      "PLR_Men_Basin_bowl"
+    ],
+    "Men_Urinal": [
+      "PLR_Men_Urinal_shell",
+      "PLR_Men_Urinal_drain",
+      "PLR_Men_Urinal_back",
+      "PLR_Men_Urinal_flush",
+      "PLR_Men_Urinal_flush_valve",
+      "PLR_Men_Urinal_waste",
+      "PLR_Men_Urinal_supply_flange",
+      "PLR_Men_Urinal_waste_flange",
+      "PLR_Men_Urinal_hanger",
+      "PLR_Men_Urinal_hanger.001",
+      "PLR_Men_Urinal_privacy"
+    ]
+  },
+  "inventory": "asset_inventory.json",
+  "clearance_report": "clearance_report.md",
+  "references": "REFERENCES.md"
+}
