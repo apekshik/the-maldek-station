@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "editable_artworks": 12,
+  "checks": [
+    {
+      "id": "safety",
+      "text_exact": true,
+      "sha256": "feb6ee25b30d2eb5436319b6f029f27f86ee8755fa0fd6edb0733910ca226c08"
+    },
+    {
+      "id": "archive_1",
+      "text_exact": true,
+      "sha256": "5cb19104d3cacb811aed8ee895a38da6a521de074fbdbf6e2181a16ac342bb4f"
+    },
+    {
+      "id": "archive_2",
+      "text_exact": true,
+      "sha256": "9f4cf9b9b64224870c90a1a8914ed98753e30326cac058ccc4a9bca7628f6245"
+    },
+    {
+      "id": "leaflet_routes",
+      "text_exact": true,
+      "sha256": "7e3c4d47be2717d6a09977596a49975005f5e7f8840a64527ea471133b1dc4c5"
+    },
+    {
+      "id": "leaflet_lodge",
+      "text_exact": true,
+      "sha256": "876c78b0682e85cdf7b9905115354353bdb12f89bc3176d592fbf2f0ea31c925"
+    },
+    {
+      "id": "leaflet_care",
+      "text_exact": true,
+      "sha256": "1ccb0746cb40ec48e4b28c32785209a908c4a98d1c0f7d8ee7651cb144814dde"
+    },
+    {
+      "id": "rack_label",
+      "text_exact": true,
+      "sha256": "671d72d2160bc65ff20b81ff3929e107ea78f8a6e04e6dace28af94a41497df8"
+    },
+    {
+      "id": "first_aid",
+      "text_exact": true,
+      "sha256": "507d076bfa3454b9b14d19149c58e20d883ffc86cc3bac7b8f2350246c4e19d5"
+    },
+    {
+      "id": "gauge_temperature",
+      "text_exact": true,
+      "sha256": "0f1130de732024eb52e9e5999ed6fcd2ea266c5a88001a6d0064bbb9941630b7"
+    },
+    {
+      "id": "gauge_humidity",
+      "text_exact": true,
+      "sha256": "938b0c81cd70a045881ad9304501bd989cf40f71af60d14eb1e4a2b711c9a6c7"
+    },
+    {
+      "id": "caption_A",
+      "text_exact": true,
+      "sha256": "27db851b67d82a60c9daf1255f2ff84ddc458ad107c9e545a1104332c71dc190"
+    },
+    {
+      "id": "caption_B",
+      "text_exact": true,
+      "sha256": "8bd7e3090898d6c96909f4dc1450592332f4dc4d39ebc7725358c35ce92ea648"
+    }
+  ],
+  "render_count": 11,
+  "before_after_camera_identical": true
+}

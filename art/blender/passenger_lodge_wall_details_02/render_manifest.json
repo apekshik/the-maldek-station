@@ -1,0 +1,211 @@
+[
+  {
+    "file": "renders/01_Before_user_angle.png",
+    "camera_position": [
+      -22.7,
+      2.4,
+      5.65
+    ],
+    "target": [
+      -14,
+      -5.7,
+      5.1
+    ],
+    "lens": 22,
+    "projection": "PERSP",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": false,
+    "cabinet_open_degrees": 0
+  },
+  {
+    "file": "renders/02_After_user_angle.png",
+    "camera_position": [
+      -22.7,
+      2.4,
+      5.65
+    ],
+    "target": [
+      -14,
+      -5.7,
+      5.1
+    ],
+    "lens": 22,
+    "projection": "PERSP",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": true,
+    "cabinet_open_degrees": 0
+  },
+  {
+    "file": "renders/03_Wall_elevation.png",
+    "camera_position": [
+      -17.8,
+      -2.15,
+      5.67
+    ],
+    "target": [
+      -10.28,
+      -2.15,
+      5.67
+    ],
+    "lens": 32,
+    "projection": "ORTHO",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": true,
+    "cabinet_open_degrees": 0
+  },
+  {
+    "file": "renders/04_Oblique_walk.png",
+    "camera_position": [
+      -12.0,
+      1.1,
+      5.65
+    ],
+    "target": [
+      -10.3,
+      -3.1,
+      5.55
+    ],
+    "lens": 23,
+    "projection": "PERSP",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": true,
+    "cabinet_open_degrees": 0
+  },
+  {
+    "file": "renders/05_Leaflet_rack.png",
+    "camera_position": [
+      -11.62,
+      -3.23,
+      5.24
+    ],
+    "target": [
+      -10.4,
+      -3.23,
+      5.18
+    ],
+    "lens": 42,
+    "projection": "PERSP",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": true,
+    "cabinet_open_degrees": 0
+  },
+  {
+    "file": "renders/06_Climate_gauge.png",
+    "camera_position": [
+      -11.12,
+      -4.03,
+      5.91
+    ],
+    "target": [
+      -10.35,
+      -4.03,
+      5.91
+    ],
+    "lens": 43,
+    "projection": "PERSP",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": true,
+    "cabinet_open_degrees": 0
+  },
+  {
+    "file": "renders/07_First_aid.png",
+    "camera_position": [
+      -11.44,
+      -5.02,
+      5.61
+    ],
+    "target": [
+      -10.4,
+      -5.02,
+      5.61
+    ],
+    "lens": 45,
+    "projection": "PERSP",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": true,
+    "cabinet_open_degrees": 0
+  },
+  {
+    "file": "renders/08_Cabinet_open.png",
+    "camera_position": [
+      -11.52,
+      -4.76,
+      5.64
+    ],
+    "target": [
+      -10.45,
+      -5.02,
+      5.61
+    ],
+    "lens": 36,
+    "projection": "PERSP",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": true,
+    "cabinet_open_degrees": 95
+  },
+  {
+    "file": "renders/09_Dim_warm.png",
+    "camera_position": [
+      -22.7,
+      2.4,
+      5.65
+    ],
+    "target": [
+      -14,
+      -5.7,
+      5.1
+    ],
+    "lens": 22,
+    "projection": "PERSP",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": true,
+    "cabinet_open_degrees": 0
+  },
+  {
+    "file": "renders/10_Archive_pair.png",
+    "camera_position": [
+      -12.0,
+      -2.24,
+      5.8
+    ],
+    "target": [
+      -10.32,
+      -2.24,
+      5.8
+    ],
+    "lens": 32,
+    "projection": "PERSP",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": true,
+    "cabinet_open_degrees": 0
+  },
+  {
+    "file": "renders/11_Safety.png",
+    "camera_position": [
+      -11.9,
+      -1.12,
+      5.78
+    ],
+    "target": [
+      -10.32,
+      -1.12,
+      5.78
+    ],
+    "lens": 36,
+    "projection": "PERSP",
+    "temporary_review_lighting": true,
+    "source_preserved": true,
+    "new_collection_visible": true,
+    "cabinet_open_degrees": 0
+  }
+]
