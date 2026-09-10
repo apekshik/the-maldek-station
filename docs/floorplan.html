@@ -27,9 +27,11 @@
 </header>
 
 <div class="plan-tabs" role="tablist" aria-label="Floor plan version">
-  <button id="tab-v1" role="tab" aria-selected="false" aria-controls="plan-v1" tabindex="-1">V1 <span>Original station</span></button>
-  <button id="tab-v2" role="tab" aria-selected="true" aria-controls="plan-v2" tabindex="0">V2 <span>Expanded compound</span></button>
+  <button id="tab-v3" role="tab" aria-selected="true" aria-controls="plan-v3" tabindex="0">V3 <span>Current station expansion</span></button>
+  <button id="tab-v1" role="tab" aria-selected="false" aria-controls="plan-v1" tabindex="-1">V1 <span>Historical original</span></button>
+  <button id="tab-v2" role="tab" aria-selected="false" aria-controls="plan-v2" tabindex="-1">V2 <span>Historical 2D / 3D</span></button>
 </div>
+<div class="layout" id="plan-v3" role="tabpanel" aria-labelledby="tab-v3"></div>
 <div class="layout" id="plan-v1" role="tabpanel" aria-labelledby="tab-v1" hidden>
   <div class="plan-container">
 
@@ -319,7 +321,7 @@
 </div>
 
 
-<div class="layout" id="plan-v2" role="tabpanel" aria-labelledby="tab-v2">
+<div class="layout" id="plan-v2" role="tabpanel" aria-labelledby="tab-v2" hidden>
   <div class="plan-container">
     <div class="view-switch" role="group" aria-label="V2 view">
       <button data-view="2d" aria-pressed="true">2D plan</button>
@@ -420,6 +422,7 @@
 
 <script src="zones.js"></script>
 <script src="zones-v2.js"></script>
+<script src="station-plan-v3.js"></script>
 <script src="floorplan.js"></script>
 <script src="floorplan-views.js"></script>
 </body>

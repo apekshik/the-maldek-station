@@ -1049,3 +1049,6 @@ svg.floorplan {
   .doc-page { padding: 24px; }
   .timeline-cards { grid-template-columns: 1fr; }
 }
+
+/* Current station proposal links remain legible on the dark review panel. */
+#plan-v3 .sidebar a { color: #cbb17d; font-size: 12px; line-height: 1.8; }

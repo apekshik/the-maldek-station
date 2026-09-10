@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   function restoreTab() {
-    activateTab(document.getElementById('tab-' + location.hash.slice(1)) || document.getElementById('tab-v2'));
+    activateTab(document.getElementById('tab-' + location.hash.slice(1)) || document.getElementById('tab-v3'));
   }
   window.addEventListener('hashchange', restoreTab);
   restoreTab();
