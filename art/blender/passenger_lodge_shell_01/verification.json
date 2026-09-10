@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "saved_reopened": true,
+  "new_manifold_meshes": 607,
+  "route_foot_patch_samples": 331,
+  "stair_treads_checked": 24,
+  "right_access_clear": true,
+  "grating_open_rays_of_400": 306,
+  "source_unchanged": true,
+  "blend_sha256": "ff57dfe7d4978820c05d0f6f2354b009b1e747e39d746838c7d0303ba7339781",
+  "limits": "Blender sampled checks; no Unreal collision, structural engineering or finished prop-detail validation."
+}

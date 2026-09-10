@@ -1,0 +1,25 @@
+{
+  "license": "CC0",
+  "license_url": "https://polyhaven.com/license",
+  "asset": "Plastered Wall 04",
+  "author": "Rob Tuytel",
+  "page": "https://polyhaven.com/a/plastered_wall_04",
+  "physical_width_m": 3.2,
+  "files": [
+    {
+      "name": "plastered_wall_04_diff_4k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/plastered_wall_04/plastered_wall_04_diff_4k.jpg",
+      "sha256": "9acb89c06ffdf46073b0045f61babe38b9a773d29b39050381ee17a7cbbb90f7"
+    },
+    {
+      "name": "plastered_wall_04_nor_gl_4k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/plastered_wall_04/plastered_wall_04_nor_gl_4k.jpg",
+      "sha256": "0b3975a6f59c11a19d128c9ad0be16ede5415110dad57c9538e5b7d9b7c8832d"
+    },
+    {
+      "name": "plastered_wall_04_rough_4k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/plastered_wall_04/plastered_wall_04_rough_4k.jpg",
+      "sha256": "4e482d4c764bee60beaf2fde37e54114d5f710e0ace2a2039d64385c494f7c10"
+    }
+  ]
+}
