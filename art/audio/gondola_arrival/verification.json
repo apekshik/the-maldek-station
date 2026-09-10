@@ -1,0 +1,58 @@
+[
+  {
+    "asset": "Platform_Arriving",
+    "source": "DoorChime",
+    "excerpt": [
+      0,
+      1.48
+    ],
+    "duration": 1.48,
+    "peak": 0.56,
+    "rms": 0.16928496264496673
+  },
+  {
+    "asset": "Platform_Board",
+    "source": "ElevatorChime",
+    "excerpt": [
+      0.27,
+      1.95
+    ],
+    "duration": 1.68,
+    "peak": 0.56,
+    "rms": 0.16144976458856083
+  },
+  {
+    "asset": "Platform_Depart",
+    "source": "DoorChime",
+    "excerpt": [
+      1.5,
+      2.6,
+      "repeated with 200ms gap"
+    ],
+    "duration": 2.4,
+    "peak": 0.5567779710641657,
+    "rms": 0.1894066907733638
+  },
+  {
+    "asset": "Platform_Away",
+    "source": "DoorChime",
+    "excerpt": [
+      1.5,
+      2.3
+    ],
+    "duration": 0.7999791666666667,
+    "peak": 0.2578722151480013,
+    "rms": 0.09845597745718894
+  },
+  {
+    "asset": "Gondola_Dock_Whoosh",
+    "source": "AirBrakes",
+    "excerpt": [
+      0,
+      1.65
+    ],
+    "duration": 1.65,
+    "peak": 0.56,
+    "rms": 0.14743314502861118
+  }
+]

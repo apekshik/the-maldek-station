@@ -2,6 +2,9 @@
 #include "Components/StaticMeshComponent.h"
 #include "Components/SplineComponent.h"
 #include "Materials/MaterialInstanceDynamic.h"
+#include "Components/AudioComponent.h"
+#include "Sound/SoundBase.h"
+#include "UObject/ConstructorHelpers.h"
 
 EGondolaPlatformStatus AGondolaSystem::GetPlatformStatus(bool bFarTerminal) const
 {
@@ -30,6 +33,21 @@ AGondolaStatusSign::AGondolaStatusSign()
  Cabinet=CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Cabinet"));
  RootComponent=Cabinet;Cabinet->SetMobility(EComponentMobility::Static);
  Cabinet->SetCollisionProfileName(TEXT("BlockAll"));
+ AnnouncementAudio=CreateDefaultSubobject<UAudioComponent>(TEXT("AnnouncementAudio"));
+ AnnouncementAudio->SetupAttachment(Cabinet);
+ AnnouncementAudio->bAutoActivate=false;
+ AnnouncementAudio->bOverrideAttenuation=true;
+ auto& A=AnnouncementAudio->AttenuationOverrides;
+ A.bAttenuate=true;A.bSpatialize=true;
+ A.DistanceAlgorithm=EAttenuationDistanceModel::Linear;
+ A.AttenuationShape=EAttenuationShape::Sphere;
+ A.AttenuationShapeExtents=FVector(650.f);
+ A.FalloffDistance=4500.f;
+ static ConstructorHelpers::FObjectFinder<USoundBase> BoardCue(TEXT("/Game/MaldekRefinement/R12/GondolaArrival/Platform_Board"));
+ static ConstructorHelpers::FObjectFinder<USoundBase> ArrivingCue(TEXT("/Game/MaldekRefinement/R12/GondolaArrival/Platform_Arriving"));
+ static ConstructorHelpers::FObjectFinder<USoundBase> DepartCue(TEXT("/Game/MaldekRefinement/R12/GondolaArrival/Platform_Depart"));
+ static ConstructorHelpers::FObjectFinder<USoundBase> AwayCue(TEXT("/Game/MaldekRefinement/R12/GondolaArrival/Platform_Away"));
+ StatusSounds={BoardCue.Object,ArrivingCue.Object,DepartCue.Object,AwayCue.Object};
  const TCHAR* Names[]={TEXT("Board"),TEXT("Arriving"),TEXT("Depart"),TEXT("Away")};
  for (const TCHAR* Name:Names)
  {
@@ -44,6 +62,8 @@ void AGondolaStatusSign::BeginPlay()
  if (IsValid(Gondola)) AddTickPrerequisiteActor(Gondola);
  for (UStaticMeshComponent* C:Circuits) CircuitMaterials.Add(C->CreateDynamicMaterialInstance(0));
  UpdateStatus();
+ // Other actors may still be staging their initial position during BeginPlay.
+ bStatusInitialized=false;
 }
 void AGondolaStatusSign::Tick(float DeltaSeconds)
 {
@@ -51,7 +71,23 @@ void AGondolaStatusSign::Tick(float DeltaSeconds)
 }
 void AGondolaStatusSign::UpdateStatus()
 {
- CurrentStatus=IsValid(Gondola) ? Gondola->GetPlatformStatus(bFarTerminal) : EGondolaPlatformStatus::Away;
+ const bool bHasGondola=IsValid(Gondola);
+ const EGondolaPlatformStatus Next=bHasGondola ? Gondola->GetPlatformStatus(bFarTerminal) : EGondolaPlatformStatus::Away;
+ // Initialize silently: loading a map is not an arrival. A missing connection
+ // also stays silent, and reconnecting establishes a fresh baseline.
+ if (bHasGondola && bStatusInitialized && Next!=CurrentStatus)
+ {
+  const int32 Index=static_cast<int32>(Next);
+  if (StatusSounds.IsValidIndex(Index) && StatusSounds[Index])
+  {
+   AnnouncementAudio->Stop();
+   AnnouncementAudio->SetSound(StatusSounds[Index]);
+   AnnouncementAudio->SetVolumeMultiplier(AnnouncementVolume);
+   AnnouncementAudio->Play();
+  }
+ }
+ bStatusInitialized=bHasGondola;
+ CurrentStatus=Next;
  for (int32 I=0;I<CircuitMaterials.Num();++I)
   if (CircuitMaterials[I]) CircuitMaterials[I]->SetScalarParameterValue(TEXT("GlowStrength"),I==static_cast<int32>(CurrentStatus) ? LitStrength : UnlitStrength);
 }

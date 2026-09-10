@@ -1,0 +1,29 @@
+[
+  {
+    "name": "ElevatorChime",
+    "author": "gregconquest",
+    "source": "https://freesound.org/people/gregconquest/sounds/188011/",
+    "download": "https://cdn.freesound.org/previews/188/188011_3488502-hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "7737e035b98769a2c92cc082e7b53d27ac1cb1e4ae2a4e6b39b9c7ca415bb526"
+  },
+  {
+    "name": "DoorChime",
+    "author": "wjauch",
+    "source": "https://freesound.org/people/wjauch/sounds/610096/",
+    "download": "https://cdn.freesound.org/previews/610/610096_2449158-hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "4d65ab6b1b818d9441116b25b8fa16e04a87522f72fc528276207c50aa09bafd"
+  },
+  {
+    "name": "AirBrakes",
+    "author": "rabbydaw",
+    "source": "https://freesound.org/people/rabbydaw/sounds/504865/",
+    "download": "https://cdn.freesound.org/previews/504/504865_7708176-hq.mp3",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sha256": "0ea51edef294c8bc6ed5ce7d26ccf179a936035d7fb51166dd9463d2a3703365"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "sounds": [
+    "/Game/MaldekRefinement/R12/GondolaArrival/Gondola_Dock_Whoosh.Gondola_Dock_Whoosh",
+    "/Game/MaldekRefinement/R12/GondolaArrival/Platform_Arriving.Platform_Arriving",
+    "/Game/MaldekRefinement/R12/GondolaArrival/Platform_Away.Platform_Away",
+    "/Game/MaldekRefinement/R12/GondolaArrival/Platform_Board.Platform_Board",
+    "/Game/MaldekRefinement/R12/GondolaArrival/Platform_Depart.Platform_Depart"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "phase": "end",
+  "next": 340663.984,
+  "deadline": 340822.218,
+  "checks": [
+    "Startup does not announce or whoosh",
+    "Four native status recordings assigned",
+    "Dock recording assigned independently of door audio",
+    "Platform volume and range",
+    "Staged arrival initially away",
+    "Status <GondolaPlatformStatus.ARRIVING: 1> plays corresponding recording",
+    "Arrival bell starts on arriving",
+    "Physical stop whooshes before door opens",
+    "Status <GondolaPlatformStatus.BOARD: 0> plays corresponding recording",
+    "Board chime waits for fully open doors",
+    "Stable board does not repeat chime or whoosh",
+    "Status <GondolaPlatformStatus.DEPART: 2> plays corresponding recording",
+    "Depart warning precedes movement",
+    "Status <GondolaPlatformStatus.AWAY: 3> plays corresponding recording",
+    "Away cue follows doors closed and movement",
+    "Far terminal also plays docking whoosh",
+    "Far whoosh uses cabin position",
+    "Far dock whoosh does not loop",
+    "Subsequent return also whooshes",
+    "Return board settles silently"
+  ],
+  "events": [
+    {
+      "status": "<GondolaPlatformStatus.ARRIVING: 1>",
+      "sound": "Platform_Arriving",
+      "route_distance": 2496.960693359375
+    },
+    {
+      "status": "<GondolaPlatformStatus.BOARD: 0>",
+      "sound": "Platform_Board",
+      "route_distance": 0.0
+    },
+    {
+      "status": "<GondolaPlatformStatus.DEPART: 2>",
+      "sound": "Platform_Depart",
+      "route_distance": 0.0
+    },
+    {
+      "status": "<GondolaPlatformStatus.AWAY: 3>",
+      "sound": "Platform_Away",
+      "route_distance": 0.007208453956991434
+    },
+    {
+      "status": "<GondolaPlatformStatus.ARRIVING: 1>",
+      "sound": "Platform_Arriving",
+      "route_distance": 2452.677001953125
+    },
+    {
+      "status": "<GondolaPlatformStatus.BOARD: 0>",
+      "sound": "Platform_Board",
+      "route_distance": 0.0
+    }
+  ],
+  "recording": false,
+  "clips": [
+    "millford_arrival_mix.wav",
+    "millford_departure_mix.wav",
+    "maldek_dock_mix.wav",
+    "millford_return_mix.wav"
+  ],
+  "clip": "millford_return_mix",
+  "last_status": "<GondolaPlatformStatus.BOARD: 0>",
+  "success": true,
+  "error": null
+}

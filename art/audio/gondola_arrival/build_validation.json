@@ -1,0 +1,13 @@
+{
+  "targets": [
+    "game Win64 Development",
+    "gameEditor Win64 Development"
+  ],
+  "result": "Succeeded",
+  "runtime_checks": 20,
+  "runtime_result": "Passed",
+  "captured_mixes": 4,
+  "clipped_samples": 0,
+  "validation_date": "2026-09-09",
+  "notes": "PIE travel accelerated for round trip; stops and door events recorded at normal speed. No map changes required. Mac build must run on the Mac."
+}

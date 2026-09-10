@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "clips": [
+    {
+      "file": "maldek_dock_mix.wav",
+      "duration": 17.557333333333332,
+      "peak": 0.69171142578125,
+      "rms": 0.10138916003019954,
+      "clipped_samples": 0,
+      "loudest_100ms_rms": 0.19001473571952074
+    },
+    {
+      "file": "millford_arrival_mix.wav",
+      "duration": 21.013333333333332,
+      "peak": 0.5693359375,
+      "rms": 0.10803580945495835,
+      "clipped_samples": 0,
+      "loudest_100ms_rms": 0.2151726317514429
+    },
+    {
+      "file": "millford_departure_mix.wav",
+      "duration": 4.394666666666667,
+      "peak": 0.518035888671875,
+      "rms": 0.13834551759579386,
+      "clipped_samples": 0,
+      "loudest_100ms_rms": 0.1917963029887882
+    },
+    {
+      "file": "millford_return_mix.wav",
+      "duration": 14.634666666666666,
+      "peak": 0.520233154296875,
+      "rms": 0.07702209266502162,
+      "clipped_samples": 0,
+      "loudest_100ms_rms": 0.18874370025104675
+    }
+  ]
+}

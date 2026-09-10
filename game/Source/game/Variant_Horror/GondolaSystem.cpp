@@ -187,6 +187,7 @@ void AGondolaSystem::UpdateGondolaPosition()
 }
 void AGondolaSystem::OnReachedDestination()
 {
+ PlayArrivalAudio();
  if (HasSlidingDoors()) { DoorPhase = EGondolaDoorPhase::Settling; DoorPhaseTime = 0.f; }
  if (CurrentAlpha >= 1.f)
  {

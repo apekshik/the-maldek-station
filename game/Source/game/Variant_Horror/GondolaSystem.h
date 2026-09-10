@@ -78,6 +78,13 @@ public:
 	TObjectPtr<USoundBase> DoorOpenSound;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gondola|Doors")
 	TObjectPtr<USoundBase> DoorCloseSound;
+	/** Pneumatic pressure release at the physical stop, before boarding opens. */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gondola|Audio")
+	TObjectPtr<USoundBase> DockWhooshSound;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Gondola|Audio", meta=(ClampMin="0",ClampMax="3"))
+	float DockWhooshVolume=1.5f;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Audio")
+	TObjectPtr<UAudioComponent> DockWhooshAudio;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Doors")
 	EGondolaDoorPhase DoorPhase = EGondolaDoorPhase::Closed;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Gondola|Doors")
@@ -172,6 +179,8 @@ private:
 	TObjectPtr<UAudioComponent> DoorAudio;
 	void UpdateDoors(float DeltaTime);
 	void CreateDoorComponents();
+	void CreateArrivalAudio();
+	void PlayArrivalAudio();
 	void ApplyDoorPose();
 	void StartDoorOpening();
 	void RequestDeparture(float TravelDirection);

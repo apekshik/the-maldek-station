@@ -1,0 +1,13 @@
+GONDOLA PLATFORM AND ARRIVAL AUDIO
+All sources CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+
+ElevatorChime by gregconquest
+https://freesound.org/people/gregconquest/sounds/188011/
+
+DoorChime by wjauch
+https://freesound.org/people/wjauch/sounds/610096/
+
+AirBrakes by rabbydaw
+https://freesound.org/people/rabbydaw/sounds/504865/
+
+Edits: mono 48kHz PCM, trims, bandpass EQ, gentle peak compression, gain, edge fades; departure repeats a recorded bell. No synthesized audio. Freesound high-quality MP3 previews retained as source files.

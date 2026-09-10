@@ -10,6 +10,7 @@
 
 void AGondolaSystem::CreateDoorComponents()
 {
+ CreateArrivalAudio();
  auto Mesh = [this](FName Name, USceneComponent* Parent)
  {
   auto* C = CreateDefaultSubobject<UStaticMeshComponent>(Name);
