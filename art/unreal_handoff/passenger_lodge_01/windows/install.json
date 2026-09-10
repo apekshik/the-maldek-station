@@ -1,0 +1,56 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_00",
+      "bounds_error_cm": 3.24249267578125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_01",
+      "bounds_error_cm": 3.361701965332031e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_02",
+      "bounds_error_cm": 3.24249267578125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_03",
+      "bounds_error_cm": 3.24249267578125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_04",
+      "bounds_error_cm": 3.337860107421875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_05",
+      "bounds_error_cm": 3.3035874366760254e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_06",
+      "bounds_error_cm": 3.337860107421875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_07",
+      "bounds_error_cm": 3.24249267578125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_08",
+      "bounds_error_cm": 3.361701965332031e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_09",
+      "bounds_error_cm": 3.24249267578125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_10",
+      "bounds_error_cm": 3.337860107421875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Windows/Meshes/SM_PLW_11",
+      "bounds_error_cm": 3.3035874366760254e-05
+    }
+  ],
+  "assemblies": 2,
+  "source_components": 132,
+  "actors": 14,
+  "original_map_unchanged": true
+}

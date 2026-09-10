@@ -1,0 +1,13 @@
+{
+  "reopened": true,
+  "errors": [],
+  "window_assemblies": 2,
+  "window_actors": 14,
+  "window_max_bounds_error_cm": 3.361701965332031e-05,
+  "pane_traces_both_sides": 12,
+  "surface_materials": 18,
+  "shader_errors": [],
+  "route_samples": 280,
+  "route_failures": [],
+  "original_map_unchanged": true
+}

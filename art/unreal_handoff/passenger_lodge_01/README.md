@@ -47,9 +47,9 @@ Do not infer a 20 m unsupported stair from Landscape-only samples.
 ## Remaining migration
 
 1. Continue extended approach continuity review as detailed assets are installed.
-2. Bake/translate the detailed materials, preserving UVs, surface ownership and
-   glass treatment. Replace the provisional ShellPilot/DeckPilot finishes.
-3. Import the seven detailed furnishing packages with shared meshes/instances;
+2. Bake/translate the remaining furnishing materials, preserving UVs, surface
+   ownership and glass treatment; integrate accumulated snow/wetness as appropriate.
+3. Import the six remaining detailed furnishing packages with shared meshes/instances;
    keep every moving assembly pivot and exclude reference buildings.
 4. Configure public/staff doors, bathroom doors/stalls, lockers and kitchen
    mechanisms, reusing existing interaction presentation and recorded audio.
@@ -105,3 +105,19 @@ Seven matching before/after views in `previews/cleanup_before` and
 `previews/cleanup_after` cover the arrival flight, top turn, west and north deck,
 both interior directions and bypass stair. They use Unlit for geometry review;
 materials and furnishings are still at the provisional migration stage.
+
+## Fitted windows and surface checkpoint
+
+The shell/deck now use migration-owned finishes instead of pilot colors, and both
+approved fixed windows are installed. See `windows/README.md` for material
+translation choices, exact grouping, provenance and reproduction. The existing
+4K plaster maps, cream/green dado, quarry tiles and Blender-baked station metals
+are connected in Unreal. The window export contains 132 source components in 14
+actors; the inner and frosted outer panes remain separate.
+
+Current review evidence is in `previews/surfaces` (Lit neutral review) and
+`previews/surfaces_night` (actual PIE flashlight views). Prior cleanup images above
+remain historical Unlit geometry evidence. `surface_verification.json` and
+`surface_playtest.json` cover the updated checkpoint. Public/staff doors,
+restrooms, kitchen, seating, lockers and wall dressing are still pending import;
+their source hierarchies and demonstration actions remain preserved in Blender.

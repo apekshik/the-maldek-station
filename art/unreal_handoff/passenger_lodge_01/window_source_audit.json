@@ -1,0 +1,1476 @@
+[
+  {
+    "name": "PLW_01_Assembly",
+    "type": "EMPTY",
+    "parent": null,
+    "uv": null,
+    "location": [
+      -22.700000762939453,
+      4.0,
+      4.900000095367432
+    ]
+  },
+  {
+    "name": "PLW_01_Reveal_Left",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.69500160217285,
+      3.9230000972747803,
+      5.775750160217285
+    ]
+  },
+  {
+    "name": "PLW_01_Reveal_Right",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -18.905000686645508,
+      3.9230000972747803,
+      5.775750160217285
+    ]
+  },
+  {
+    "name": "PLW_01_Reveal_Head",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.9230000972747803,
+      6.595000267028809
+    ]
+  },
+  {
+    "name": "PLW_01_Sill_Pan",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      4.013999938964844,
+      4.911966800689697
+    ]
+  },
+  {
+    "name": "PLW_01_Sill_End_Dam_0.006",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.69300079345703,
+      3.9619998931884766,
+      4.941999912261963
+    ]
+  },
+  {
+    "name": "PLW_01_Sill_End_Dam_3.792",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -18.907001495361328,
+      3.9619998931884766,
+      4.941999912261963
+    ]
+  },
+  {
+    "name": "PLW_01_Sill_Rear_Upstand",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.802999973297119,
+      4.937000274658203
+    ]
+  },
+  {
+    "name": "PLW_01_Interior_Architrave",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.8002500534057617,
+      5.758000373840332
+    ]
+  },
+  {
+    "name": "PLW_01_Exterior_Architrave",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      4.039000034332275,
+      5.756500244140625
+    ]
+  },
+  {
+    "name": "PLW_01_Exterior_Perimeter_Seal",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      4.033400058746338,
+      5.756500244140625
+    ]
+  },
+  {
+    "name": "PLW_01_Head_Drip",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      4.078999996185303,
+      6.634666919708252
+    ]
+  },
+  {
+    "name": "PLW_01_Installation_Seal",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.946500062942505,
+      5.769000053405762
+    ]
+  },
+  {
+    "name": "PLW_01_Sill_Rear_Bedding",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.9000000953674316,
+      4.943043231964111
+    ]
+  },
+  {
+    "name": "PLW_01_Sill_Support_Packer_1",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.645000457763672,
+      3.9514999389648438,
+      4.939998626708984
+    ]
+  },
+  {
+    "name": "PLW_01_Sill_Support_Packer_2",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -21.415000915527344,
+      3.9514999389648438,
+      4.939998626708984
+    ]
+  },
+  {
+    "name": "PLW_01_Sill_Support_Packer_3",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.185001373291016,
+      3.9514999389648438,
+      4.939998626708984
+    ]
+  },
+  {
+    "name": "PLW_01_Sill_Support_Packer_4",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -18.955001831054688,
+      3.9514999389648438,
+      4.939998626708984
+    ]
+  },
+  {
+    "name": "PLW_01_Jamb_Left",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.645000457763672,
+      3.947000026702881,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Jamb_Right",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -18.955001831054688,
+      3.947000026702881,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Head",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.947000026702881,
+      6.544000148773193
+    ]
+  },
+  {
+    "name": "PLW_01_Sill_Rail",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.947000026702881,
+      4.984000205993652
+    ]
+  },
+  {
+    "name": "PLW_01_Mullion_1",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -21.413333892822266,
+      3.947000026702881,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Glass_Inner",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.02666664123535,
+      3.946000099182129,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Glass_Opal",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.02666664123535,
+      3.9639999866485596,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_IGU_Spacer",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.02666664123535,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_IGU_Edge_Seal",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.02666664123535,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Interior_Bead",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.02666664123535,
+      3.929500102996826,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Interior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.02666664123535,
+      3.9410998821258545,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Exterior_Bead",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.02666664123535,
+      3.9804999828338623,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Exterior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.02666664123535,
+      3.968899965286255,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Setting_Block_0.25",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.318334579467773,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Bead_Fixing_L_0.25",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.60700035095215,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Bead_Fixing_R_0.25",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -21.446334838867188,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Setting_Block_0.75",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -21.735000610351562,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Bead_Fixing_L_0.75",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.60700035095215,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_01_Bay1_Bead_Fixing_R_0.75",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -21.446334838867188,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_01_Mullion_2",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.186668395996094,
+      3.947000026702881,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Glass_Inner",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.946000099182129,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Glass_Opal",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.9639999866485596,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_IGU_Spacer",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_IGU_Edge_Seal",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Interior_Bead",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.929500102996826,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Interior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.9410998821258545,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Exterior_Bead",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.9804999828338623,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Exterior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.80000114440918,
+      3.968899965286255,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Setting_Block_0.25",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -21.09166717529297,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Bead_Fixing_L_0.25",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -21.380332946777344,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Bead_Fixing_R_0.25",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.219667434692383,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Setting_Block_0.75",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.50833511352539,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Bead_Fixing_L_0.75",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -21.380332946777344,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_01_Bay2_Bead_Fixing_R_0.75",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.219667434692383,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Glass_Inner",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -19.573333740234375,
+      3.946000099182129,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Glass_Opal",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -19.573333740234375,
+      3.9639999866485596,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_IGU_Spacer",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -19.573333740234375,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_IGU_Edge_Seal",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -19.573333740234375,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Interior_Bead",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -19.573333740234375,
+      3.929500102996826,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Interior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -19.573333740234375,
+      3.9410998821258545,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Exterior_Bead",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -19.573333740234375,
+      3.9804999828338623,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Exterior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -19.573333740234375,
+      3.968899965286255,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Setting_Block_0.25",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -19.865001678466797,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Bead_Fixing_L_0.25",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.153667449951172,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Bead_Fixing_R_0.25",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -18.993000030517578,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Setting_Block_0.75",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -19.281667709350586,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Bead_Fixing_L_0.75",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -20.153667449951172,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_01_Bay3_Bead_Fixing_R_0.75",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -18.993000030517578,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_01_ID_Plate",
+    "type": "MESH",
+    "parent": "PLW_01_Assembly",
+    "uv": 0,
+    "location": [
+      -22.490001678466797,
+      3.890749931335449,
+      4.980000019073486
+    ]
+  },
+  {
+    "name": "PLW_02_Assembly",
+    "type": "EMPTY",
+    "parent": null,
+    "uv": null,
+    "location": [
+      -15.5,
+      4.0,
+      4.900000095367432
+    ]
+  },
+  {
+    "name": "PLW_02_Reveal_Left",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -15.494999885559082,
+      3.9230000972747803,
+      5.775750160217285
+    ]
+  },
+  {
+    "name": "PLW_02_Reveal_Right",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -11.704999923706055,
+      3.9230000972747803,
+      5.775750160217285
+    ]
+  },
+  {
+    "name": "PLW_02_Reveal_Head",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.9230000972747803,
+      6.595000267028809
+    ]
+  },
+  {
+    "name": "PLW_02_Sill_Pan",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      4.013999938964844,
+      4.911966800689697
+    ]
+  },
+  {
+    "name": "PLW_02_Sill_End_Dam_0.006",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -15.493000030517578,
+      3.9619998931884766,
+      4.941999912261963
+    ]
+  },
+  {
+    "name": "PLW_02_Sill_End_Dam_3.792",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -11.706999778747559,
+      3.9619998931884766,
+      4.941999912261963
+    ]
+  },
+  {
+    "name": "PLW_02_Sill_Rear_Upstand",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.802999973297119,
+      4.937000274658203
+    ]
+  },
+  {
+    "name": "PLW_02_Interior_Architrave",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.8002500534057617,
+      5.758000373840332
+    ]
+  },
+  {
+    "name": "PLW_02_Exterior_Architrave",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      4.039000034332275,
+      5.756500244140625
+    ]
+  },
+  {
+    "name": "PLW_02_Exterior_Perimeter_Seal",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      4.033400058746338,
+      5.756500244140625
+    ]
+  },
+  {
+    "name": "PLW_02_Head_Drip",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      4.078999996185303,
+      6.634666919708252
+    ]
+  },
+  {
+    "name": "PLW_02_Installation_Seal",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.946500062942505,
+      5.769000053405762
+    ]
+  },
+  {
+    "name": "PLW_02_Sill_Rear_Bedding",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.9000000953674316,
+      4.943043231964111
+    ]
+  },
+  {
+    "name": "PLW_02_Sill_Support_Packer_1",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -15.444999694824219,
+      3.9514999389648438,
+      4.939998626708984
+    ]
+  },
+  {
+    "name": "PLW_02_Sill_Support_Packer_2",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.21500015258789,
+      3.9514999389648438,
+      4.939998626708984
+    ]
+  },
+  {
+    "name": "PLW_02_Sill_Support_Packer_3",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.984999656677246,
+      3.9514999389648438,
+      4.939998626708984
+    ]
+  },
+  {
+    "name": "PLW_02_Sill_Support_Packer_4",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -11.755000114440918,
+      3.9514999389648438,
+      4.939998626708984
+    ]
+  },
+  {
+    "name": "PLW_02_Jamb_Left",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -15.444999694824219,
+      3.947000026702881,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Jamb_Right",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -11.755000114440918,
+      3.947000026702881,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Head",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.947000026702881,
+      6.544000148773193
+    ]
+  },
+  {
+    "name": "PLW_02_Sill_Rail",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.947000026702881,
+      4.984000205993652
+    ]
+  },
+  {
+    "name": "PLW_02_Mullion_1",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.213333129882812,
+      3.947000026702881,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Glass_Inner",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.826666831970215,
+      3.946000099182129,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Glass_Opal",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.826666831970215,
+      3.9639999866485596,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_IGU_Spacer",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.826666831970215,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_IGU_Edge_Seal",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.826666831970215,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Interior_Bead",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.826666831970215,
+      3.929500102996826,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Interior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.826666831970215,
+      3.9410998821258545,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Exterior_Bead",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.826666831970215,
+      3.9804999828338623,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Exterior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.826666831970215,
+      3.968899965286255,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Setting_Block_0.25",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -15.118332862854004,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Bead_Fixing_L_0.25",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -15.406999588012695,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Bead_Fixing_R_0.25",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.246333122253418,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Setting_Block_0.75",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.53499984741211,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Bead_Fixing_L_0.75",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -15.406999588012695,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_02_Bay1_Bead_Fixing_R_0.75",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.246333122253418,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_02_Mullion_2",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.986666679382324,
+      3.947000026702881,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Glass_Inner",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.946000099182129,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Glass_Opal",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.9639999866485596,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_IGU_Spacer",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.59999942779541,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_IGU_Edge_Seal",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.59999942779541,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Interior_Bead",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.929500102996826,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Interior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.9410998821258545,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Exterior_Bead",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.9804999828338623,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Exterior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.600000381469727,
+      3.968899965286255,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Setting_Block_0.25",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.891666412353516,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Bead_Fixing_L_0.25",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.180333137512207,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Bead_Fixing_R_0.25",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.01966667175293,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Setting_Block_0.75",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.308333396911621,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Bead_Fixing_L_0.75",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -14.180333137512207,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_02_Bay2_Bead_Fixing_R_0.75",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -13.01966667175293,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Glass_Inner",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.373333930969238,
+      3.946000099182129,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Glass_Opal",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.373333930969238,
+      3.9639999866485596,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_IGU_Spacer",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.373332977294922,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_IGU_Edge_Seal",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.373332977294922,
+      3.9549999237060547,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Interior_Bead",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.373332977294922,
+      3.929500102996826,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Interior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.373333930969238,
+      3.9410998821258545,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Exterior_Bead",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.373332977294922,
+      3.9804999828338623,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Exterior_EPDM",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.373333930969238,
+      3.968899965286255,
+      5.763999938964844
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Setting_Block_0.25",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.664999961853027,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Bead_Fixing_L_0.25",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.953666687011719,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Bead_Fixing_R_0.25",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -11.793000221252441,
+      3.9190332889556885,
+      5.391499996185303
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Setting_Block_0.75",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.081666946411133,
+      3.9549999237060547,
+      5.0211501121521
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Bead_Fixing_L_0.75",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -12.953666687011719,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_02_Bay3_Bead_Fixing_R_0.75",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -11.793000221252441,
+      3.9190332889556885,
+      6.136500358581543
+    ]
+  },
+  {
+    "name": "PLW_02_ID_Plate",
+    "type": "MESH",
+    "parent": "PLW_02_Assembly",
+    "uv": 0,
+    "location": [
+      -15.289999961853027,
+      3.890749931335449,
+      4.980000019073486
+    ]
+  }
+]

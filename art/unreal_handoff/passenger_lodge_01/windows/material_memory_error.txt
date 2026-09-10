@@ -1,0 +1,19 @@
+[2026.09.10-22.04.18:604][138]LogFileHelpers: Saving Package: /Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_007
+[2026.09.10-22.04.18:604][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_007] ([1] browsable assets)...
+[2026.09.10-22.04.18:613][138]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_007.SM_Lodge_Deck_007]
+[2026.09.10-22.04.18:613][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_007]
+[2026.09.10-22.04.18:619][138]LogSavePackage: Moving output files for package: /Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_007
+[2026.09.10-22.04.18:620][138]LogSavePackage: Moving '../../../../../../Users/apek-anna/Developer/the-maldek-station/game/Saved/SM_Lodge_Deck_007134077444AF3373EB5FE1C91DE5B6FF0.tmp' to '../../../../../../Users/apek-anna/Developer/the-maldek-station/game/Content/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_007.uasset'
+[2026.09.10-22.04.18:627][138]LogD3D12RHI: Display: D3D12 CreateCommittedResource failed with params:
+	Heap Type: 2
+	Heap Flags: 4096
+	Resource Dimension: 1
+	Resource Width: 4194304
+	Resource Height: 1
+	Array Size: 1
+	Mip Levels: 1
+	Format: 0
+	Resource Flags: 0
+[2026.09.10-22.04.18:627][138]LogD3D12RHI: Error: hr failed
+ at D:\build\++UE5\Sync\Engine\Source\Runtime\D3D12RHI\Private\D3D12Resources.cpp:866
+ with error E_OUTOFMEMORY

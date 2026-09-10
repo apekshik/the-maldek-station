@@ -7,11 +7,15 @@ settings=unreal.get_default_object(unreal.load_class(None,'/Script/UnrealEd.Edit
 up=[[-7.2,-15.5,0],[-7.2,-6.6,4],[-5,-6.6,4]]
 arrival=[[-15.51,-16.35,0],[-23.1,-16.35,4],[-23.5,-16,4],[-23.5,-14.3,4]]
 tests=[('bypass_up',up),('bypass_down',list(reversed(up))),('arrival_up',arrival),('arrival_down',list(reversed(arrival)))]
+surface=globals().get('JOB',{}).get('surface',False)
+if surface:
+ exit_path=[[-17.1,2.5,4],[-17.1,5.5,4]]
+ tests=[('public_exit_out',exit_path),('public_exit_in',list(reversed(exit_path)))]
 state={'phase':'warm','next':time.monotonic()+12,'deadline':time.monotonic()+200,'index':0,'results':[],'samples':[],'busy':False}
 def wp(p):return unreal.Vector(o[0]-100*p[0],o[1]+100*p[1],o[2]+100*p[2])
 def end(error=None):
  state.update(passed=error is None and len(state['results'])==len(tests),error=error,phase='finished')
- (OUT/'playtest.json').write_text(json.dumps({k:v for k,v in state.items() if k!='busy'},indent=2))
+ (OUT/('surface_playtest.json' if surface else 'playtest.json')).write_text(json.dumps({k:v for k,v in state.items() if k!='busy'},indent=2))
  settings.set_editor_property('bThrottleCPUWhenNotForeground',throttle);ls.editor_request_end_play();unreal.unregister_slate_post_tick_callback(handle)
 def tick(dt):
  if state['busy']:return

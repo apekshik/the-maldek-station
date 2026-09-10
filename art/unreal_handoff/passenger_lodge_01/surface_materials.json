@@ -1,0 +1,101 @@
+{
+  "materials": [
+    {
+      "source": "PLSH_Ceiling_Enamel",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_PLSH_Ceiling_Enamel",
+      "translation": "authored constant finish / clear-pane settings"
+    },
+    {
+      "source": "PLSH_Painted_Plaster",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_PLSH_Painted_Plaster",
+      "translation": "original plaster maps and dado height"
+    },
+    {
+      "source": "PLSH_Painted_Trim",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_PLSH_Painted_Trim",
+      "translation": "authored constant finish / clear-pane settings"
+    },
+    {
+      "source": "PLSH_Quarry_Floor",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_PLSH_Quarry_Floor",
+      "translation": "300mm quarry tiles and 4mm grout"
+    },
+    {
+      "source": "PLW_Clear_Glass_6mm",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_PLW_Clear_Glass_6mm",
+      "translation": "authored constant finish / clear-pane settings"
+    },
+    {
+      "source": "PLW_EPDM_Charcoal",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_PLW_EPDM_Charcoal",
+      "translation": "authored constant finish / clear-pane settings"
+    },
+    {
+      "source": "PLW_IGU_Edge_Seal",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_PLW_IGU_Edge_Seal",
+      "translation": "authored constant finish / clear-pane settings"
+    },
+    {
+      "source": "PLW_Opal_Glass_6mm",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_PLW_Opal_Glass_6mm",
+      "translation": "local frosted scene transmission"
+    },
+    {
+      "source": "VF06_Concrete",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_VF06_Concrete",
+      "translation": "existing Blender-baked station BaseColor/ORM/NormalDX; source-metre triplanar mapping"
+    },
+    {
+      "source": "VF06_Fastener_oxidation",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_VF06_Fastener_oxidation",
+      "translation": "existing Blender-baked station BaseColor/ORM/NormalDX; source-metre triplanar mapping"
+    },
+    {
+      "source": "VF06_Galvanized",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_VF06_Galvanized",
+      "translation": "existing Blender-baked station BaseColor/ORM/NormalDX; source-metre triplanar mapping"
+    },
+    {
+      "source": "VF06_Galvanized.001",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_VF06_Galvanized_001",
+      "translation": "existing Blender-baked station BaseColor/ORM/NormalDX; source-metre triplanar mapping"
+    },
+    {
+      "source": "VF06_Petrol_paint",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_VF06_Petrol_paint",
+      "translation": "existing Blender-baked station BaseColor/ORM/NormalDX; source-metre triplanar mapping"
+    },
+    {
+      "source": "VF06_Petrol_paint.001",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_VF06_Petrol_paint_001",
+      "translation": "existing Blender-baked station BaseColor/ORM/NormalDX; source-metre triplanar mapping"
+    },
+    {
+      "source": "VF06_Safety_ochre",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_VF06_Safety_ochre",
+      "translation": "existing Blender-baked station BaseColor/ORM/NormalDX; source-metre triplanar mapping"
+    },
+    {
+      "source": "VF06_Structural_steel",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_VF06_Structural_steel",
+      "translation": "existing Blender-baked station BaseColor/ORM/NormalDX; source-metre triplanar mapping"
+    },
+    {
+      "source": "VF06_Warm_enamel.001",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_VF06_Warm_enamel_001",
+      "translation": "existing Blender-baked station BaseColor/ORM/NormalDX; source-metre triplanar mapping"
+    },
+    {
+      "source": "VF07_Compacted_Gravel",
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_VF07_Compacted_Gravel",
+      "translation": "existing Blender-baked station BaseColor/ORM/NormalDX; source-metre triplanar mapping"
+    }
+  ],
+  "shader_errors": [],
+  "original_map_unchanged": true,
+  "source_textures": [
+    "art/blender/passenger_lodge_shell_01/texture_sources.json",
+    "art/unreal_handoff/revision12/baked_materials.json"
+  ],
+  "limitations": "Tile randomization translated to UE. No weather accumulation function added. Frosted glass uses local screen-space transmission."
+}

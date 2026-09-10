@@ -1,0 +1,499 @@
+{
+  "source_sha256": "bcf7e6301aecedd83688488981fd58a5a9719d685ef975210eef9eeb7f753f6c",
+  "assets": [
+    {
+      "name": "SM_PLW_00",
+      "material": "PLW_Clear_Glass_6mm",
+      "lo": [
+        0.09400177001953125,
+        -0.056999921798706055,
+        0.12299966812133789
+      ],
+      "hi": [
+        3.7060012817382812,
+        -0.05099987983703613,
+        1.6050000190734863
+      ],
+      "vertices": 168,
+      "polygons": 162,
+      "sha256": "ee9ef2cd95580f9183e64c5990d74e06385fe1fe23deed3a3ccf4943d5ade795"
+    },
+    {
+      "name": "SM_PLW_01",
+      "material": "PLW_EPDM_Charcoal",
+      "lo": [
+        -0.03199958801269531,
+        -0.1119999885559082,
+        -0.018999576568603516
+      ],
+      "hi": [
+        3.831998825073242,
+        0.03679990768432617,
+        1.7320003509521484
+      ],
+      "vertices": 1416,
+      "polygons": 1394,
+      "sha256": "1127fabf43915ef9c5613b586efd48fc8b1028a6f7070878fc0635f556aa4699"
+    },
+    {
+      "name": "SM_PLW_02",
+      "material": "PLW_IGU_Edge_Seal",
+      "lo": [
+        0.09400177001953125,
+        -0.051000118255615234,
+        0.12299966812133789
+      ],
+      "hi": [
+        3.7060012817382812,
+        -0.03900003433227539,
+        1.6050000190734863
+      ],
+      "vertices": 48,
+      "polygons": 48,
+      "sha256": "43b9abff8f83690cbb70a8d7a1a862b9c94595b0ea7e97280979df624fe011f9"
+    },
+    {
+      "name": "SM_PLW_03",
+      "material": "PLW_Opal_Glass_6mm",
+      "lo": [
+        0.09400177001953125,
+        -0.03900003433227539,
+        0.12299966812133789
+      ],
+      "hi": [
+        3.7060012817382812,
+        -0.03299999237060547,
+        1.6050000190734863
+      ],
+      "vertices": 168,
+      "polygons": 162,
+      "sha256": "7fa2f2d0fb8e85e6f8e6ae0f88d0c24dde5d4781c8ef4caad9b5ac91ddc6cf8c"
+    },
+    {
+      "name": "SM_PLW_04",
+      "material": "VF06_Galvanized.001",
+      "lo": [
+        -0.0410003662109375,
+        -0.1979999542236328,
+        -0.021999835968017578
+      ],
+      "hi": [
+        3.8409996032714844,
+        0.11999988555908203,
+        1.7469711303710938
+      ],
+      "vertices": 1424,
+      "polygons": 1192,
+      "sha256": "5e86dc868ae6055fbaa1c1ea7352d91685cc82a82ffee9be09cdef054897df5b"
+    },
+    {
+      "name": "SM_PLW_05",
+      "material": "VF06_Petrol_paint.001",
+      "lo": [
+        0.020000457763671875,
+        -0.10800004005432129,
+        0.04891157150268555
+      ],
+      "hi": [
+        3.779998779296875,
+        0.0019998550415039062,
+        1.678999900817871
+      ],
+      "vertices": 2031,
+      "polygons": 2002,
+      "sha256": "2e0e48453d245144fb2a2b4225fb6cf16359f8a92c1b552865136695f4aae0f7"
+    },
+    {
+      "name": "SM_PLW_06",
+      "material": "VF06_Warm_enamel.001",
+      "lo": [
+        -0.034999847412109375,
+        -0.20099997520446777,
+        -0.021999835968017578
+      ],
+      "hi": [
+        3.8349990844726562,
+        0.04400014877319336,
+        1.7350001335144043
+      ],
+      "vertices": 392,
+      "polygons": 386,
+      "sha256": "d5ff623763571a0d091f7491537f1d2609e62d07885e40e188f173d919c3b148"
+    },
+    {
+      "name": "SM_PLW_07",
+      "material": "PLW_Clear_Glass_6mm",
+      "lo": [
+        0.09399986267089844,
+        -0.056999921798706055,
+        0.12299966812133789
+      ],
+      "hi": [
+        3.7059993743896484,
+        -0.05099987983703613,
+        1.6050000190734863
+      ],
+      "vertices": 168,
+      "polygons": 162,
+      "sha256": "769632307c9be0a8619d7eb7754216416e3002203453a94fa7b3f5223ed61e2a"
+    },
+    {
+      "name": "SM_PLW_08",
+      "material": "PLW_EPDM_Charcoal",
+      "lo": [
+        -0.03200054168701172,
+        -0.1119999885559082,
+        -0.018999576568603516
+      ],
+      "hi": [
+        3.8319997787475586,
+        0.03679990768432617,
+        1.7320003509521484
+      ],
+      "vertices": 1416,
+      "polygons": 1394,
+      "sha256": "7d6bf7cce3edef528a95e60146e2269d96c81389de2bbe43d7d771037583b494"
+    },
+    {
+      "name": "SM_PLW_09",
+      "material": "PLW_Opal_Glass_6mm",
+      "lo": [
+        0.09399986267089844,
+        -0.03900003433227539,
+        0.12299966812133789
+      ],
+      "hi": [
+        3.7059993743896484,
+        -0.03299999237060547,
+        1.6050000190734863
+      ],
+      "vertices": 168,
+      "polygons": 162,
+      "sha256": "19774d24bdb60479901d1adf8cbc0b2ed77b33e94f1ca3ac46126c55551346b1"
+    },
+    {
+      "name": "SM_PLW_10",
+      "material": "VF06_Galvanized.001",
+      "lo": [
+        -0.0410003662109375,
+        -0.1979999542236328,
+        -0.021999835968017578
+      ],
+      "hi": [
+        3.8409996032714844,
+        0.11999988555908203,
+        1.7469711303710938
+      ],
+      "vertices": 1424,
+      "polygons": 1192,
+      "sha256": "c45e4863098e6d85c3979f7d1e8415d3fe42c22487ad35badae94e674b845532"
+    },
+    {
+      "name": "SM_PLW_11",
+      "material": "VF06_Petrol_paint.001",
+      "lo": [
+        0.020000457763671875,
+        -0.10800004005432129,
+        0.04891157150268555
+      ],
+      "hi": [
+        3.7799997329711914,
+        0.0019998550415039062,
+        1.678999900817871
+      ],
+      "vertices": 2031,
+      "polygons": 2002,
+      "sha256": "dd7197048cb400636b3fc2bd4e76fcc8d2f13442271c82e80936bd96765d5b65"
+    }
+  ],
+  "placements": [
+    {
+      "label": "MIG_PLW_01_00",
+      "mesh": "SM_PLW_00",
+      "pivot": [
+        -22.7,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_01_Bay1_Glass_Inner",
+        "PLW_01_Bay2_Glass_Inner",
+        "PLW_01_Bay3_Glass_Inner"
+      ]
+    },
+    {
+      "label": "MIG_PLW_01_01",
+      "mesh": "SM_PLW_01",
+      "pivot": [
+        -22.7,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_01_Exterior_Perimeter_Seal",
+        "PLW_01_Installation_Seal",
+        "PLW_01_Sill_Rear_Bedding",
+        "PLW_01_Sill_Support_Packer_1",
+        "PLW_01_Sill_Support_Packer_2",
+        "PLW_01_Sill_Support_Packer_3",
+        "PLW_01_Sill_Support_Packer_4",
+        "PLW_01_Bay1_Interior_EPDM",
+        "PLW_01_Bay1_Exterior_EPDM",
+        "PLW_01_Bay1_Setting_Block_0.25",
+        "PLW_01_Bay1_Setting_Block_0.75",
+        "PLW_01_Bay2_Interior_EPDM",
+        "PLW_01_Bay2_Exterior_EPDM",
+        "PLW_01_Bay2_Setting_Block_0.25",
+        "PLW_01_Bay2_Setting_Block_0.75",
+        "PLW_01_Bay3_Interior_EPDM",
+        "PLW_01_Bay3_Exterior_EPDM",
+        "PLW_01_Bay3_Setting_Block_0.25",
+        "PLW_01_Bay3_Setting_Block_0.75"
+      ]
+    },
+    {
+      "label": "MIG_PLW_01_02",
+      "mesh": "SM_PLW_02",
+      "pivot": [
+        -22.7,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_01_Bay1_IGU_Edge_Seal",
+        "PLW_01_Bay2_IGU_Edge_Seal",
+        "PLW_01_Bay3_IGU_Edge_Seal"
+      ]
+    },
+    {
+      "label": "MIG_PLW_01_03",
+      "mesh": "SM_PLW_03",
+      "pivot": [
+        -22.7,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_01_Bay1_Glass_Opal",
+        "PLW_01_Bay2_Glass_Opal",
+        "PLW_01_Bay3_Glass_Opal"
+      ]
+    },
+    {
+      "label": "MIG_PLW_01_04",
+      "mesh": "SM_PLW_04",
+      "pivot": [
+        -22.7,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_01_Sill_Pan",
+        "PLW_01_Sill_End_Dam_0.006",
+        "PLW_01_Sill_End_Dam_3.792",
+        "PLW_01_Sill_Rear_Upstand",
+        "PLW_01_Head_Drip",
+        "PLW_01_Bay1_IGU_Spacer",
+        "PLW_01_Bay1_Bead_Fixing_L_0.25",
+        "PLW_01_Bay1_Bead_Fixing_R_0.25",
+        "PLW_01_Bay1_Bead_Fixing_L_0.75",
+        "PLW_01_Bay1_Bead_Fixing_R_0.75",
+        "PLW_01_Bay2_IGU_Spacer",
+        "PLW_01_Bay2_Bead_Fixing_L_0.25",
+        "PLW_01_Bay2_Bead_Fixing_R_0.25",
+        "PLW_01_Bay2_Bead_Fixing_L_0.75",
+        "PLW_01_Bay2_Bead_Fixing_R_0.75",
+        "PLW_01_Bay3_IGU_Spacer",
+        "PLW_01_Bay3_Bead_Fixing_L_0.25",
+        "PLW_01_Bay3_Bead_Fixing_R_0.25",
+        "PLW_01_Bay3_Bead_Fixing_L_0.75",
+        "PLW_01_Bay3_Bead_Fixing_R_0.75",
+        "PLW_01_ID_Plate"
+      ]
+    },
+    {
+      "label": "MIG_PLW_01_05",
+      "mesh": "SM_PLW_05",
+      "pivot": [
+        -22.7,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_01_Jamb_Left",
+        "PLW_01_Jamb_Right",
+        "PLW_01_Head",
+        "PLW_01_Sill_Rail",
+        "PLW_01_Mullion_1",
+        "PLW_01_Bay1_Interior_Bead",
+        "PLW_01_Bay1_Exterior_Bead",
+        "PLW_01_Mullion_2",
+        "PLW_01_Bay2_Interior_Bead",
+        "PLW_01_Bay2_Exterior_Bead",
+        "PLW_01_Bay3_Interior_Bead",
+        "PLW_01_Bay3_Exterior_Bead"
+      ]
+    },
+    {
+      "label": "MIG_PLW_01_06",
+      "mesh": "SM_PLW_06",
+      "pivot": [
+        -22.7,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_01_Reveal_Left",
+        "PLW_01_Reveal_Right",
+        "PLW_01_Reveal_Head",
+        "PLW_01_Interior_Architrave",
+        "PLW_01_Exterior_Architrave"
+      ]
+    },
+    {
+      "label": "MIG_PLW_02_07",
+      "mesh": "SM_PLW_07",
+      "pivot": [
+        -15.5,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_02_Bay1_Glass_Inner",
+        "PLW_02_Bay2_Glass_Inner",
+        "PLW_02_Bay3_Glass_Inner"
+      ]
+    },
+    {
+      "label": "MIG_PLW_02_08",
+      "mesh": "SM_PLW_08",
+      "pivot": [
+        -15.5,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_02_Exterior_Perimeter_Seal",
+        "PLW_02_Installation_Seal",
+        "PLW_02_Sill_Rear_Bedding",
+        "PLW_02_Sill_Support_Packer_1",
+        "PLW_02_Sill_Support_Packer_2",
+        "PLW_02_Sill_Support_Packer_3",
+        "PLW_02_Sill_Support_Packer_4",
+        "PLW_02_Bay1_Interior_EPDM",
+        "PLW_02_Bay1_Exterior_EPDM",
+        "PLW_02_Bay1_Setting_Block_0.25",
+        "PLW_02_Bay1_Setting_Block_0.75",
+        "PLW_02_Bay2_Interior_EPDM",
+        "PLW_02_Bay2_Exterior_EPDM",
+        "PLW_02_Bay2_Setting_Block_0.25",
+        "PLW_02_Bay2_Setting_Block_0.75",
+        "PLW_02_Bay3_Interior_EPDM",
+        "PLW_02_Bay3_Exterior_EPDM",
+        "PLW_02_Bay3_Setting_Block_0.25",
+        "PLW_02_Bay3_Setting_Block_0.75"
+      ]
+    },
+    {
+      "label": "MIG_PLW_02_09",
+      "mesh": "SM_PLW_02",
+      "pivot": [
+        -15.5,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_02_Bay1_IGU_Edge_Seal",
+        "PLW_02_Bay2_IGU_Edge_Seal",
+        "PLW_02_Bay3_IGU_Edge_Seal"
+      ]
+    },
+    {
+      "label": "MIG_PLW_02_10",
+      "mesh": "SM_PLW_09",
+      "pivot": [
+        -15.5,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_02_Bay1_Glass_Opal",
+        "PLW_02_Bay2_Glass_Opal",
+        "PLW_02_Bay3_Glass_Opal"
+      ]
+    },
+    {
+      "label": "MIG_PLW_02_11",
+      "mesh": "SM_PLW_10",
+      "pivot": [
+        -15.5,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_02_Sill_Pan",
+        "PLW_02_Sill_End_Dam_0.006",
+        "PLW_02_Sill_End_Dam_3.792",
+        "PLW_02_Sill_Rear_Upstand",
+        "PLW_02_Head_Drip",
+        "PLW_02_Bay1_IGU_Spacer",
+        "PLW_02_Bay1_Bead_Fixing_L_0.25",
+        "PLW_02_Bay1_Bead_Fixing_R_0.25",
+        "PLW_02_Bay1_Bead_Fixing_L_0.75",
+        "PLW_02_Bay1_Bead_Fixing_R_0.75",
+        "PLW_02_Bay2_IGU_Spacer",
+        "PLW_02_Bay2_Bead_Fixing_L_0.25",
+        "PLW_02_Bay2_Bead_Fixing_R_0.25",
+        "PLW_02_Bay2_Bead_Fixing_L_0.75",
+        "PLW_02_Bay2_Bead_Fixing_R_0.75",
+        "PLW_02_Bay3_IGU_Spacer",
+        "PLW_02_Bay3_Bead_Fixing_L_0.25",
+        "PLW_02_Bay3_Bead_Fixing_R_0.25",
+        "PLW_02_Bay3_Bead_Fixing_L_0.75",
+        "PLW_02_Bay3_Bead_Fixing_R_0.75",
+        "PLW_02_ID_Plate"
+      ]
+    },
+    {
+      "label": "MIG_PLW_02_12",
+      "mesh": "SM_PLW_11",
+      "pivot": [
+        -15.5,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_02_Jamb_Left",
+        "PLW_02_Jamb_Right",
+        "PLW_02_Head",
+        "PLW_02_Sill_Rail",
+        "PLW_02_Mullion_1",
+        "PLW_02_Bay1_Interior_Bead",
+        "PLW_02_Bay1_Exterior_Bead",
+        "PLW_02_Mullion_2",
+        "PLW_02_Bay2_Interior_Bead",
+        "PLW_02_Bay2_Exterior_Bead",
+        "PLW_02_Bay3_Interior_Bead",
+        "PLW_02_Bay3_Exterior_Bead"
+      ]
+    },
+    {
+      "label": "MIG_PLW_02_13",
+      "mesh": "SM_PLW_06",
+      "pivot": [
+        -15.5,
+        4,
+        4.9
+      ],
+      "sources": [
+        "PLW_02_Reveal_Left",
+        "PLW_02_Reveal_Right",
+        "PLW_02_Reveal_Head",
+        "PLW_02_Interior_Architrave",
+        "PLW_02_Exterior_Architrave"
+      ]
+    }
+  ],
+  "units": "metres; engine mapping (-X,+Y,+Z)",
+  "mechanisms": "Both windows fixed; no animated objects exported"
+}
