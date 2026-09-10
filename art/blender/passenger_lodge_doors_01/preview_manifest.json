@@ -1,0 +1,330 @@
+{
+  "blend_sha256": "28e49b42549bf966fab5c9fab958057ed496486c3e7d081f619a96d3f6ae42ac",
+  "render_count": 27,
+  "renders": [
+    {
+      "name": "ARRIVAL_Face_A",
+      "camera": "PLD_REVIEW_ARRIVAL_Face_A",
+      "frame": 1,
+      "path": "previews/ARRIVAL_Face_A.png",
+      "bytes": 1271748,
+      "sha256": "81a829b29e824379ce60651f184d1bff19700df64edae6b9cde858442c406dea",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "ARRIVAL_Hardware_-1",
+      "camera": "PLD_REVIEW_ARRIVAL_Hardware_-1",
+      "frame": 1,
+      "path": "previews/ARRIVAL_Hardware_-1.png",
+      "bytes": 1224452,
+      "sha256": "61992c08f8341cff2a3f82dc38f95fb23d2cfcabf57e0295fef4dfd7d1a75b6c",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "ARRIVAL_Face_B",
+      "camera": "PLD_REVIEW_ARRIVAL_Face_B",
+      "frame": 1,
+      "path": "previews/ARRIVAL_Face_B.png",
+      "bytes": 1321427,
+      "sha256": "30fa038fdc2bf018bbeff1d27d88686e5ebeff5b926b7e8c56b4dcd4688b428b",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "ARRIVAL_Hardware_1",
+      "camera": "PLD_REVIEW_ARRIVAL_Hardware_1",
+      "frame": 1,
+      "path": "previews/ARRIVAL_Hardware_1.png",
+      "bytes": 1369034,
+      "sha256": "e4c9e5a8407fba33c01790081580e54fc08f2ba578ba066c962d2ee3cc212bdd",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "ARRIVAL_Plan_Closed",
+      "camera": "PLD_REVIEW_ARRIVAL_Swing_Plan",
+      "frame": 1,
+      "path": "previews/ARRIVAL_Plan_Closed.png",
+      "bytes": 1233980,
+      "sha256": "d91b84566bcab3e8bacd0f77d83d340ae50ee82c7b91b85561f4c41ec729d4ba",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "ARRIVAL_Plan_Partial",
+      "camera": "PLD_REVIEW_ARRIVAL_Swing_Plan",
+      "frame": 40,
+      "path": "previews/ARRIVAL_Plan_Partial.png",
+      "bytes": 1249365,
+      "sha256": "1ca4a9efb1ce2193b8a039b7be2ebbd87a12d14e718e1d46b11da61206c020b3",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "ARRIVAL_Plan_Open",
+      "camera": "PLD_REVIEW_ARRIVAL_Swing_Plan",
+      "frame": 80,
+      "path": "previews/ARRIVAL_Plan_Open.png",
+      "bytes": 1247344,
+      "sha256": "1156e2af067544d6784a7b84445d85cd1b18b1327e186a81b5b50f2ade848f5d",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "ARRIVAL_Fitted_Partial",
+      "camera": "PLD_REVIEW_ARRIVAL_Fitted_Swing",
+      "frame": 40,
+      "path": "previews/ARRIVAL_Fitted_Partial.png",
+      "bytes": 1392580,
+      "sha256": "e65a74681c4e99e8207389632d9dd4b16eab34d4aed41d11704573b3f230a9bc",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "ARRIVAL_Fitted_Open",
+      "camera": "PLD_REVIEW_ARRIVAL_Fitted_Swing",
+      "frame": 80,
+      "path": "previews/ARRIVAL_Fitted_Open.png",
+      "bytes": 1403449,
+      "sha256": "04a38b35ab6cb6a363221889b074d44c190ad7a2fd9b1eaee99cf201ea5ab5a1",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "GONDOLA_Face_A",
+      "camera": "PLD_REVIEW_GONDOLA_Face_A",
+      "frame": 1,
+      "path": "previews/GONDOLA_Face_A.png",
+      "bytes": 1390943,
+      "sha256": "c98c90b2b79b9982f1472220ea897f7545b1bc973edd7355272b419416886157",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "GONDOLA_Hardware_-1",
+      "camera": "PLD_REVIEW_GONDOLA_Hardware_-1",
+      "frame": 1,
+      "path": "previews/GONDOLA_Hardware_-1.png",
+      "bytes": 1286455,
+      "sha256": "d8d2c97b2ab2ee509ffbb29194f554054a4b3635fb9ac2a0d0ec9d44fb636cd4",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "GONDOLA_Face_B",
+      "camera": "PLD_REVIEW_GONDOLA_Face_B",
+      "frame": 1,
+      "path": "previews/GONDOLA_Face_B.png",
+      "bytes": 1271438,
+      "sha256": "b2a3ec222de32f57aac047dbdd4c6ceca72fd9608c827a929fa043fdaa54dde5",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "GONDOLA_Hardware_1",
+      "camera": "PLD_REVIEW_GONDOLA_Hardware_1",
+      "frame": 1,
+      "path": "previews/GONDOLA_Hardware_1.png",
+      "bytes": 1398493,
+      "sha256": "8230b5bc2a80bf6d8e7f8c924ff8a5e766f487450459f13e2f47297020e15202",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "GONDOLA_Plan_Closed",
+      "camera": "PLD_REVIEW_GONDOLA_Swing_Plan",
+      "frame": 1,
+      "path": "previews/GONDOLA_Plan_Closed.png",
+      "bytes": 1430850,
+      "sha256": "cf32563c33912b37c3ab643d9ac38fafbd20674f71a1514bec6f166bb656ed97",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "GONDOLA_Plan_Partial",
+      "camera": "PLD_REVIEW_GONDOLA_Swing_Plan",
+      "frame": 40,
+      "path": "previews/GONDOLA_Plan_Partial.png",
+      "bytes": 1447668,
+      "sha256": "9bae491b497dbae73cee712d26a834149b1ca0554251d88f7c270f1927fa3e3c",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "GONDOLA_Plan_Open",
+      "camera": "PLD_REVIEW_GONDOLA_Swing_Plan",
+      "frame": 80,
+      "path": "previews/GONDOLA_Plan_Open.png",
+      "bytes": 1440312,
+      "sha256": "d2cc0ac452d7d44d15e403e4157f4f80a44bc55de5b98988928940793b5dac38",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "GONDOLA_Fitted_Partial",
+      "camera": "PLD_REVIEW_GONDOLA_Fitted_Swing",
+      "frame": 40,
+      "path": "previews/GONDOLA_Fitted_Partial.png",
+      "bytes": 1357739,
+      "sha256": "dc7192fcfa2fd125ed2f21fe5ca2e634416987b40bd0a1f0963d996ca963ca40",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "GONDOLA_Fitted_Open",
+      "camera": "PLD_REVIEW_GONDOLA_Fitted_Swing",
+      "frame": 80,
+      "path": "previews/GONDOLA_Fitted_Open.png",
+      "bytes": 1472805,
+      "sha256": "584a978bf74166d9e8bd20a7ca0deb81dbb0f4e6aa6f70659a927e01c0c3c59d",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "STAFF_Face_A",
+      "camera": "PLD_REVIEW_STAFF_Face_A",
+      "frame": 1,
+      "path": "previews/STAFF_Face_A.png",
+      "bytes": 1340474,
+      "sha256": "50358f47adbf42383c6b182d4bd6a955fc1b4515b2a83bf43e576fd7a16d6eea",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "STAFF_Hardware_-1",
+      "camera": "PLD_REVIEW_STAFF_Hardware_-1",
+      "frame": 1,
+      "path": "previews/STAFF_Hardware_-1.png",
+      "bytes": 1246630,
+      "sha256": "04acf90a6b91cfd61321cbf458172cd41370eece3d596a82124ee669b0d9f11f",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "STAFF_Face_B",
+      "camera": "PLD_REVIEW_STAFF_Face_B",
+      "frame": 1,
+      "path": "previews/STAFF_Face_B.png",
+      "bytes": 1306372,
+      "sha256": "5db46250f006108c2b68760bd0626eb548b128362f8821301e393b6633a0a13a",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "STAFF_Hardware_1",
+      "camera": "PLD_REVIEW_STAFF_Hardware_1",
+      "frame": 1,
+      "path": "previews/STAFF_Hardware_1.png",
+      "bytes": 1344624,
+      "sha256": "4e9e990240b1bf977691188c0f5e6a4a2fb92431e2c5fc8ab36547c016d94736",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "STAFF_Plan_Closed",
+      "camera": "PLD_REVIEW_STAFF_Swing_Plan",
+      "frame": 1,
+      "path": "previews/STAFF_Plan_Closed.png",
+      "bytes": 1263185,
+      "sha256": "b0afbbe21c3ceae47ae1eddfa95b22b9f0d384563a8c294d45fe18c4e2491e40",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "STAFF_Plan_Partial",
+      "camera": "PLD_REVIEW_STAFF_Swing_Plan",
+      "frame": 40,
+      "path": "previews/STAFF_Plan_Partial.png",
+      "bytes": 1280424,
+      "sha256": "4b0c988926b47ab4a3a22a2a097e34f4faef9a0083fb9387827b0d3f3c38e54c",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "STAFF_Plan_Open",
+      "camera": "PLD_REVIEW_STAFF_Swing_Plan",
+      "frame": 80,
+      "path": "previews/STAFF_Plan_Open.png",
+      "bytes": 1284423,
+      "sha256": "c2f6016582181321cf30ef36ab39c4043edefa71f9493ec50223f74fd4055858",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "STAFF_Fitted_Partial",
+      "camera": "PLD_REVIEW_STAFF_Fitted_Swing",
+      "frame": 40,
+      "path": "previews/STAFF_Fitted_Partial.png",
+      "bytes": 1441169,
+      "sha256": "b3e9c890010a57a4445f5974860e1b8a84fc1bdc034df439e8d56b7c3a80facc",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    },
+    {
+      "name": "STAFF_Fitted_Open",
+      "camera": "PLD_REVIEW_STAFF_Fitted_Swing",
+      "frame": 80,
+      "path": "previews/STAFF_Fitted_Open.png",
+      "bytes": 1417235,
+      "sha256": "d84d4d38f52ad08474d26c56ad601b7ff5d30b777bfff7897e86e8d39ebc1772",
+      "dimensions": [
+        1200,
+        1000
+      ]
+    }
+  ]
+}

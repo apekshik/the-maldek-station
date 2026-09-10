@@ -1,0 +1,3749 @@
+{
+  "sha256": "b9d78ed0d7c5c50bc28a8fb6a0d63f1c86fa83d3144c6a7eae50476ee9607796",
+  "objects": [
+    {
+      "name": "R11_Current_Terrain",
+      "lo": [
+        -96.0,
+        -80.0,
+        -153.9970245361328
+      ],
+      "hi": [
+        112.0,
+        96.0,
+        4.450560569763184
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "15_Terrain"
+      ]
+    },
+    {
+      "name": "FIT_Hall_Floor",
+      "lo": [
+        -24.100000381469727,
+        -7.199999809265137,
+        3.8000001907348633
+      ],
+      "hi": [
+        -10.100000381469727,
+        4.0,
+        4.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Coffee_Floor",
+      "lo": [
+        -24.100000381469727,
+        -12.199999809265137,
+        3.8000001907348633
+      ],
+      "hi": [
+        -19.100000381469727,
+        -7.199999809265137,
+        4.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Restrooms_Floor",
+      "lo": [
+        -16.100000381469727,
+        -13.199999809265137,
+        3.8000001907348633
+      ],
+      "hi": [
+        -10.100000381469727,
+        -7.199999809265137,
+        4.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Arrival_court_floor",
+      "lo": [
+        -19.100000381469727,
+        -13.199999809265137,
+        3.8000001907348633
+      ],
+      "hi": [
+        -16.100000381469727,
+        -7.199999809265137,
+        4.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_North_0_0",
+      "lo": [
+        -23.920000076293945,
+        3.820000171661377,
+        4.0
+      ],
+      "hi": [
+        -22.69999885559082,
+        4.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_North_1_0",
+      "lo": [
+        -22.700000762939453,
+        3.820000171661377,
+        3.999999761581421
+      ],
+      "hi": [
+        -18.900001525878906,
+        4.0,
+        4.899999618530273
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_North_1_2.6",
+      "lo": [
+        -22.700000762939453,
+        3.820000171661377,
+        6.599999904632568
+      ],
+      "hi": [
+        -18.900001525878906,
+        4.0,
+        7.200000286102295
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_North_2_0",
+      "lo": [
+        -18.899999618530273,
+        3.820000171661377,
+        4.0
+      ],
+      "hi": [
+        -17.69999885559082,
+        4.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_North_3_2.3",
+      "lo": [
+        -17.700000762939453,
+        3.820000171661377,
+        6.300000190734863
+      ],
+      "hi": [
+        -16.5,
+        4.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_North_4_0",
+      "lo": [
+        -16.5,
+        3.820000171661377,
+        4.0
+      ],
+      "hi": [
+        -15.5,
+        4.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_North_5_0",
+      "lo": [
+        -15.5,
+        3.820000171661377,
+        3.999999761581421
+      ],
+      "hi": [
+        -11.700000762939453,
+        4.0,
+        4.899999618530273
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_North_5_2.6",
+      "lo": [
+        -15.5,
+        3.820000171661377,
+        6.599999904632568
+      ],
+      "hi": [
+        -11.700000762939453,
+        4.0,
+        7.200000286102295
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_North_6_0",
+      "lo": [
+        -11.700000762939453,
+        3.820000171661377,
+        4.0
+      ],
+      "hi": [
+        -10.280000686645508,
+        4.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_West_0_0",
+      "lo": [
+        -24.100000381469727,
+        -12.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -23.920000076293945,
+        4.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_East_0_0",
+      "lo": [
+        -10.280000686645508,
+        -13.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -10.100000381469727,
+        4.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Hall_south_coffee_0_0",
+      "lo": [
+        -23.920000076293945,
+        -7.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -23.100000381469727,
+        -7.0199995040893555,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Hall_south_coffee_1_2.2",
+      "lo": [
+        -23.100000381469727,
+        -7.199999809265137,
+        6.199999809265137
+      ],
+      "hi": [
+        -20.100000381469727,
+        -7.0199995040893555,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Hall_south_coffee_2_0",
+      "lo": [
+        -20.100000381469727,
+        -7.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -19.100000381469727,
+        -7.0199995040893555,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Hall_south_entry_0_0",
+      "lo": [
+        -19.10000228881836,
+        -7.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -17.700000762939453,
+        -7.0199995040893555,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Hall_south_entry_1_2.3",
+      "lo": [
+        -17.700000762939453,
+        -7.199999809265137,
+        6.300000190734863
+      ],
+      "hi": [
+        -16.5,
+        -7.0199995040893555,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Hall_south_entry_2_0",
+      "lo": [
+        -16.5,
+        -7.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -16.099998474121094,
+        -7.0199995040893555,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Hall_south_WC_0_0",
+      "lo": [
+        -16.100000381469727,
+        -7.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -15.700000762939453,
+        -7.0199995040893555,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Hall_south_WC_1_2.3",
+      "lo": [
+        -15.700000762939453,
+        -7.199999809265137,
+        6.300000190734863
+      ],
+      "hi": [
+        -14.5,
+        -7.0199995040893555,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Hall_south_WC_2_0",
+      "lo": [
+        -14.5,
+        -7.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -10.280000686645508,
+        -7.0199995040893555,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Coffee_east_0_0",
+      "lo": [
+        -19.280000686645508,
+        -10.0,
+        4.0
+      ],
+      "hi": [
+        -19.100000381469727,
+        -7.200000286102295,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Coffee_east_1_2.2",
+      "lo": [
+        -19.280000686645508,
+        -11.0,
+        6.199999809265137
+      ],
+      "hi": [
+        -19.100000381469727,
+        -10.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Coffee_east_2_0",
+      "lo": [
+        -19.280000686645508,
+        -12.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -19.100000381469727,
+        -11.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Coffee_rear_0_0",
+      "lo": [
+        -23.920000076293945,
+        -12.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -19.280000686645508,
+        -12.020000457763672,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_WC_west_0_0",
+      "lo": [
+        -16.100000381469727,
+        -13.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -15.920000076293945,
+        -7.199999809265137,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_WC_rear_0_0",
+      "lo": [
+        -15.920000076293945,
+        -13.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -10.280000686645508,
+        -13.020000457763672,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_WC_hall_partition_0_0",
+      "lo": [
+        -15.920000076293945,
+        -9.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -14.100000381469727,
+        -9.019999504089355,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_WC_hall_partition_1_2.2",
+      "lo": [
+        -14.100000381469727,
+        -9.199999809265137,
+        6.199999809265137
+      ],
+      "hi": [
+        -13.200000762939453,
+        -9.019999504089355,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_WC_hall_partition_2_0",
+      "lo": [
+        -13.200000762939453,
+        -9.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -12.100000381469727,
+        -9.019999504089355,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_WC_hall_partition_3_2.2",
+      "lo": [
+        -12.100000381469727,
+        -9.199999809265137,
+        6.199999809265137
+      ],
+      "hi": [
+        -11.200000762939453,
+        -9.019999504089355,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_WC_hall_partition_4_0",
+      "lo": [
+        -11.200000762939453,
+        -9.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -10.280000686645508,
+        -9.019999504089355,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_WC_shared_0_0",
+      "lo": [
+        -13.190000534057617,
+        -13.019999504089355,
+        4.0
+      ],
+      "hi": [
+        -13.010000228881836,
+        -9.199999809265137,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Full_height_privacy_screen",
+      "lo": [
+        -14.300000190734863,
+        -7.720000267028809,
+        4.0
+      ],
+      "hi": [
+        -14.119999885559082,
+        -7.199999809265137,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Frosted_window_placeholder",
+      "lo": [
+        -22.700000762939453,
+        3.884999990463257,
+        4.900000095367432
+      ],
+      "hi": [
+        -18.900001525878906,
+        3.93500018119812,
+        6.599999904632568
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Frosted_window_placeholder.001",
+      "lo": [
+        -15.5,
+        3.884999990463257,
+        4.900000095367432
+      ],
+      "hi": [
+        -11.700000762939453,
+        3.93500018119812,
+        6.599999904632568
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_01_Leg",
+      "lo": [
+        -19.98000144958496,
+        2.180000066757202,
+        4.0
+      ],
+      "hi": [
+        -19.82000160217285,
+        2.819999933242798,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_01_Leg.001",
+      "lo": [
+        -18.600000381469727,
+        2.180000066757202,
+        4.0
+      ],
+      "hi": [
+        -18.440000534057617,
+        2.819999933242798,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_01_Support",
+      "lo": [
+        -19.98000144958496,
+        3.1000001430511475,
+        3.999999761581421
+      ],
+      "hi": [
+        -19.82000160217285,
+        3.450000047683716,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_01_Support.001",
+      "lo": [
+        -18.600000381469727,
+        3.1000001430511475,
+        3.999999761581421
+      ],
+      "hi": [
+        -18.440000534057617,
+        3.450000047683716,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_01_Support.002",
+      "lo": [
+        -19.98000144958496,
+        1.5499999523162842,
+        3.999999761581421
+      ],
+      "hi": [
+        -19.82000160217285,
+        1.8999998569488525,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_01_Support.003",
+      "lo": [
+        -18.600000381469727,
+        1.5499999523162842,
+        3.999999761581421
+      ],
+      "hi": [
+        -18.440000534057617,
+        1.8999998569488525,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_02_Leg",
+      "lo": [
+        -13.980000495910645,
+        2.180000066757202,
+        4.0
+      ],
+      "hi": [
+        -13.820000648498535,
+        2.819999933242798,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_02_Leg.001",
+      "lo": [
+        -12.600000381469727,
+        2.180000066757202,
+        4.0
+      ],
+      "hi": [
+        -12.440000534057617,
+        2.819999933242798,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_02_Support",
+      "lo": [
+        -13.980000495910645,
+        3.1000001430511475,
+        3.999999761581421
+      ],
+      "hi": [
+        -13.820000648498535,
+        3.450000047683716,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_02_Support.001",
+      "lo": [
+        -12.600000381469727,
+        3.1000001430511475,
+        3.999999761581421
+      ],
+      "hi": [
+        -12.440000534057617,
+        3.450000047683716,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_02_Support.002",
+      "lo": [
+        -13.980000495910645,
+        1.5499999523162842,
+        3.999999761581421
+      ],
+      "hi": [
+        -13.820000648498535,
+        1.8999998569488525,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_02_Support.003",
+      "lo": [
+        -12.600000381469727,
+        1.5499999523162842,
+        3.999999761581421
+      ],
+      "hi": [
+        -12.440000534057617,
+        1.8999998569488525,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_03_Leg",
+      "lo": [
+        -19.98000144958496,
+        -1.0199997425079346,
+        4.0
+      ],
+      "hi": [
+        -19.82000160217285,
+        -0.3799998164176941,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_03_Leg.001",
+      "lo": [
+        -18.600000381469727,
+        -1.0199997425079346,
+        4.0
+      ],
+      "hi": [
+        -18.440000534057617,
+        -0.3799998164176941,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_03_Support",
+      "lo": [
+        -19.98000144958496,
+        -0.09999994933605194,
+        3.999999761581421
+      ],
+      "hi": [
+        -19.82000160217285,
+        0.2500000596046448,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_03_Support.001",
+      "lo": [
+        -18.600000381469727,
+        -0.09999994933605194,
+        3.999999761581421
+      ],
+      "hi": [
+        -18.440000534057617,
+        0.2500000596046448,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_03_Support.002",
+      "lo": [
+        -19.98000144958496,
+        -1.6499998569488525,
+        3.999999761581421
+      ],
+      "hi": [
+        -19.82000160217285,
+        -1.2999999523162842,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_03_Support.003",
+      "lo": [
+        -18.600000381469727,
+        -1.6499998569488525,
+        3.999999761581421
+      ],
+      "hi": [
+        -18.440000534057617,
+        -1.2999999523162842,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_04_Leg",
+      "lo": [
+        -13.980000495910645,
+        -1.0199997425079346,
+        4.0
+      ],
+      "hi": [
+        -13.820000648498535,
+        -0.3799998164176941,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_04_Leg.001",
+      "lo": [
+        -12.600000381469727,
+        -1.0199997425079346,
+        4.0
+      ],
+      "hi": [
+        -12.440000534057617,
+        -0.3799998164176941,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_04_Support",
+      "lo": [
+        -13.980000495910645,
+        -0.09999994933605194,
+        3.999999761581421
+      ],
+      "hi": [
+        -13.820000648498535,
+        0.2500000596046448,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_04_Support.001",
+      "lo": [
+        -12.600000381469727,
+        -0.09999994933605194,
+        3.999999761581421
+      ],
+      "hi": [
+        -12.440000534057617,
+        0.2500000596046448,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_04_Support.002",
+      "lo": [
+        -13.980000495910645,
+        -1.6499998569488525,
+        3.999999761581421
+      ],
+      "hi": [
+        -13.820000648498535,
+        -1.2999999523162842,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_04_Support.003",
+      "lo": [
+        -12.600000381469727,
+        -1.6499998569488525,
+        3.999999761581421
+      ],
+      "hi": [
+        -12.440000534057617,
+        -1.2999999523162842,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_05_Leg",
+      "lo": [
+        -19.98000144958496,
+        -4.220000267028809,
+        4.0
+      ],
+      "hi": [
+        -19.82000160217285,
+        -3.580000162124634,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_05_Leg.001",
+      "lo": [
+        -18.600000381469727,
+        -4.220000267028809,
+        4.0
+      ],
+      "hi": [
+        -18.440000534057617,
+        -3.580000162124634,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_05_Support",
+      "lo": [
+        -19.98000144958496,
+        -3.299999952316284,
+        3.999999761581421
+      ],
+      "hi": [
+        -19.82000160217285,
+        -2.950000047683716,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_05_Support.001",
+      "lo": [
+        -18.600000381469727,
+        -3.299999952316284,
+        3.999999761581421
+      ],
+      "hi": [
+        -18.440000534057617,
+        -2.950000047683716,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_05_Support.002",
+      "lo": [
+        -19.98000144958496,
+        -4.850000381469727,
+        3.999999761581421
+      ],
+      "hi": [
+        -19.82000160217285,
+        -4.5,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_05_Support.003",
+      "lo": [
+        -18.600000381469727,
+        -4.850000381469727,
+        3.999999761581421
+      ],
+      "hi": [
+        -18.440000534057617,
+        -4.5,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_06_Leg",
+      "lo": [
+        -13.980000495910645,
+        -4.220000267028809,
+        4.0
+      ],
+      "hi": [
+        -13.820000648498535,
+        -3.580000162124634,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Table_06_Leg.001",
+      "lo": [
+        -12.600000381469727,
+        -4.220000267028809,
+        4.0
+      ],
+      "hi": [
+        -12.440000534057617,
+        -3.580000162124634,
+        4.739999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_06_Support",
+      "lo": [
+        -13.980000495910645,
+        -3.299999952316284,
+        3.999999761581421
+      ],
+      "hi": [
+        -13.820000648498535,
+        -2.950000047683716,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_06_Support.001",
+      "lo": [
+        -12.600000381469727,
+        -3.299999952316284,
+        3.999999761581421
+      ],
+      "hi": [
+        -12.440000534057617,
+        -2.950000047683716,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_06_Support.002",
+      "lo": [
+        -13.980000495910645,
+        -4.850000381469727,
+        3.999999761581421
+      ],
+      "hi": [
+        -13.820000648498535,
+        -4.5,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Bench_06_Support.003",
+      "lo": [
+        -12.600000381469727,
+        -4.850000381469727,
+        3.999999761581421
+      ],
+      "hi": [
+        -12.440000534057617,
+        -4.5,
+        4.439999580383301
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_01",
+      "lo": [
+        -14.100000381469727,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -13.80000114440918,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_01_Door",
+      "lo": [
+        -14.090001106262207,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -13.8100004196167,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_02",
+      "lo": [
+        -13.779999732971191,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -13.480000495910645,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_02_Door",
+      "lo": [
+        -13.770000457763672,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -13.489999771118164,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_03",
+      "lo": [
+        -13.460000038146973,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -13.160000801086426,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_03_Door",
+      "lo": [
+        -13.450000762939453,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -13.170000076293945,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_04",
+      "lo": [
+        -13.140000343322754,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -12.840001106262207,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_04_Door",
+      "lo": [
+        -13.130001068115234,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -12.850000381469727,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_05",
+      "lo": [
+        -12.819999694824219,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -12.520000457763672,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_05_Door",
+      "lo": [
+        -12.8100004196167,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -12.529999732971191,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_06",
+      "lo": [
+        -12.5,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -12.200000762939453,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_06_Door",
+      "lo": [
+        -12.49000072479248,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -12.210000038146973,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_07",
+      "lo": [
+        -12.180000305175781,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -11.880001068115234,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_07_Door",
+      "lo": [
+        -12.170001029968262,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -11.890000343322754,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_08",
+      "lo": [
+        -11.859999656677246,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -11.5600004196167,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_08_Door",
+      "lo": [
+        -11.850000381469727,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -11.569999694824219,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_09",
+      "lo": [
+        -11.539999961853027,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -11.24000072479248,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_09_Door",
+      "lo": [
+        -11.530000686645508,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -11.25,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_10",
+      "lo": [
+        -11.220000267028809,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -10.920001029968262,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_10_Door",
+      "lo": [
+        -11.210000991821289,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -10.930000305175781,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_11",
+      "lo": [
+        -10.899999618530273,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -10.600000381469727,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_11_Door",
+      "lo": [
+        -10.890000343322754,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -10.609999656677246,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_12",
+      "lo": [
+        -10.579999923706055,
+        -7.0,
+        4.0
+      ],
+      "hi": [
+        -10.280000686645508,
+        -6.5,
+        5.850000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_12_Door",
+      "lo": [
+        -10.570000648498535,
+        -6.494999885559082,
+        4.079999923706055
+      ],
+      "hi": [
+        -10.289999961853027,
+        -6.47499942779541,
+        5.779999732971191
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Serving_counter",
+      "lo": [
+        -23.100000381469727,
+        -7.5,
+        4.0
+      ],
+      "hi": [
+        -20.100000381469727,
+        -6.850000381469727,
+        5.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Coffee_equipment_run",
+      "lo": [
+        -23.850000381469727,
+        -11.5,
+        3.999999761581421
+      ],
+      "hi": [
+        -23.149999618530273,
+        -8.0,
+        4.899999618530273
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Rear_prep_run",
+      "lo": [
+        -23.05000114440918,
+        -11.949999809265137,
+        3.999999761581421
+      ],
+      "hi": [
+        -19.55000114440918,
+        -11.300000190734863,
+        4.899999618530273
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Dry_store",
+      "lo": [
+        -20.649999618530273,
+        -8.149999618530273,
+        4.0
+      ],
+      "hi": [
+        -19.600000381469727,
+        -7.599999904632568,
+        6.100000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Urn_Proxy",
+      "lo": [
+        -23.780000686645508,
+        -8.600000381469727,
+        4.909999847412109
+      ],
+      "hi": [
+        -23.30000114440918,
+        -8.100000381469727,
+        5.510000228881836
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Kettle_Proxy",
+      "lo": [
+        -23.779998779296875,
+        -9.199999809265137,
+        4.909999847412109
+      ],
+      "hi": [
+        -23.360000610351562,
+        -8.800000190734863,
+        5.260000228881836
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Wash_sink_Proxy",
+      "lo": [
+        -23.809999465942383,
+        -10.949999809265137,
+        4.909999847412109
+      ],
+      "hi": [
+        -23.21000099182129,
+        -10.300000190734863,
+        4.989999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Hand_basin_Proxy",
+      "lo": [
+        -23.80000114440918,
+        -11.40000057220459,
+        4.909999847412109
+      ],
+      "hi": [
+        -23.350000381469727,
+        -11.050000190734863,
+        4.989999771118164
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Microwave_Proxy",
+      "lo": [
+        -22.80000114440918,
+        -11.850000381469727,
+        4.910000324249268
+      ],
+      "hi": [
+        -22.149999618530273,
+        -11.350000381469727,
+        5.309999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Fridge_proxy",
+      "lo": [
+        -21.850000381469727,
+        -11.920000076293945,
+        4.049999713897705
+      ],
+      "hi": [
+        -21.19999885559082,
+        -11.34000015258789,
+        4.849999904632568
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Public_lost_property_cubby",
+      "lo": [
+        -19.880001068115234,
+        -7.0,
+        4.650000095367432
+      ],
+      "hi": [
+        -19.380001068115234,
+        -6.600000381469727,
+        5.200000286102295
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Poster_frame_1",
+      "lo": [
+        -23.910001754760742,
+        1.0499999523162842,
+        5.150000095367432
+      ],
+      "hi": [
+        -23.8700008392334,
+        1.7999999523162842,
+        6.200000286102295
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Poster_frame_2",
+      "lo": [
+        -23.910001754760742,
+        -0.9499998092651367,
+        5.150000095367432
+      ],
+      "hi": [
+        -23.8700008392334,
+        -0.19999980926513672,
+        6.200000286102295
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Poster_frame_3",
+      "lo": [
+        -23.910001754760742,
+        -2.9499998092651367,
+        5.150000095367432
+      ],
+      "hi": [
+        -23.8700008392334,
+        -2.1999998092651367,
+        6.200000286102295
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Women_A_WC",
+      "lo": [
+        -15.5,
+        -12.55000114440918,
+        4.0
+      ],
+      "hi": [
+        -15.0,
+        -11.850000381469727,
+        4.449999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Women_A_Left_partition",
+      "lo": [
+        -15.850000381469727,
+        -12.90000057220459,
+        4.0
+      ],
+      "hi": [
+        -15.790000915527344,
+        -11.300000190734863,
+        6.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Women_A_Right_partition",
+      "lo": [
+        -14.710000038146973,
+        -12.90000057220459,
+        4.0
+      ],
+      "hi": [
+        -14.65000057220459,
+        -11.300000190734863,
+        6.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Women_B_WC",
+      "lo": [
+        -14.15000057220459,
+        -12.55000114440918,
+        4.0
+      ],
+      "hi": [
+        -13.65000057220459,
+        -11.850000381469727,
+        4.449999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Women_B_Left_partition",
+      "lo": [
+        -14.5,
+        -12.90000057220459,
+        4.0
+      ],
+      "hi": [
+        -14.440000534057617,
+        -11.300000190734863,
+        6.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Women_B_Right_partition",
+      "lo": [
+        -13.359999656677246,
+        -12.90000057220459,
+        4.0
+      ],
+      "hi": [
+        -13.300000190734863,
+        -11.300000190734863,
+        6.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Men_A_WC",
+      "lo": [
+        -12.550000190734863,
+        -12.55000114440918,
+        4.0
+      ],
+      "hi": [
+        -12.050000190734863,
+        -11.850000381469727,
+        4.449999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Men_A_Left_partition",
+      "lo": [
+        -12.90000057220459,
+        -12.90000057220459,
+        4.0
+      ],
+      "hi": [
+        -12.840001106262207,
+        -11.300000190734863,
+        6.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Men_A_Right_partition",
+      "lo": [
+        -11.710000038146973,
+        -12.90000057220459,
+        4.0
+      ],
+      "hi": [
+        -11.65000057220459,
+        -11.300000190734863,
+        6.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Women_Basin",
+      "lo": [
+        -15.850000381469727,
+        -10.199999809265137,
+        4.720000267028809
+      ],
+      "hi": [
+        -15.350000381469727,
+        -9.800000190734863,
+        4.880000114440918
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Men_Basin",
+      "lo": [
+        -11.0,
+        -10.199999809265137,
+        4.720000267028809
+      ],
+      "hi": [
+        -10.5,
+        -9.800000190734863,
+        4.880000114440918
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Urinal",
+      "lo": [
+        -10.800000190734863,
+        -11.850000381469727,
+        4.5
+      ],
+      "hi": [
+        -10.40000057220459,
+        -11.5,
+        5.100000381469727
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Urinal_privacy",
+      "lo": [
+        -11.15000057220459,
+        -12.050000190734863,
+        4.0
+      ],
+      "hi": [
+        -11.090001106262207,
+        -11.40000057220459,
+        5.5
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Cleaning_cupboard",
+      "lo": [
+        -10.90000057220459,
+        -8.300000190734863,
+        4.0
+      ],
+      "hi": [
+        -10.40000057220459,
+        -7.300000190734863,
+        6.0
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_North_door_sweep",
+      "lo": [
+        -17.700490951538086,
+        2.785007953643799,
+        4.010000228881836
+      ],
+      "hi": [
+        -16.485008239746094,
+        4.000490665435791,
+        4.039999961853027
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Court_door_sweep",
+      "lo": [
+        -17.700490951538086,
+        -7.020491600036621,
+        4.010000228881836
+      ],
+      "hi": [
+        -16.485008239746094,
+        -5.8050079345703125,
+        4.039999961853027
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Staff_door_sweep",
+      "lo": [
+        -20.294992446899414,
+        -10.00049114227295,
+        4.010000228881836
+      ],
+      "hi": [
+        -19.279510498046875,
+        -8.985008239746094,
+        4.039999961853027
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Restroom_door_sweep",
+      "lo": [
+        -14.100491523742676,
+        -9.934991836547852,
+        4.010000228881836
+      ],
+      "hi": [
+        -13.185009002685547,
+        -9.019510269165039,
+        4.039999961853027
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Restroom_door_sweep.001",
+      "lo": [
+        -12.100491523742676,
+        -9.934991836547852,
+        4.010000228881836
+      ],
+      "hi": [
+        -11.185009002685547,
+        -9.019510269165039,
+        4.039999961853027
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Arrival_to_platform",
+      "lo": [
+        -17.125,
+        -12.799999237060547,
+        4.006999969482422
+      ],
+      "hi": [
+        -17.075000762939453,
+        3.9000000953674316,
+        4.057000160217285
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Coffee_queue",
+      "lo": [
+        -21.617677688598633,
+        -6.217677116394043,
+        4.006999969482422
+      ],
+      "hi": [
+        -17.100000381469727,
+        -5.675000190734863,
+        4.057000160217285
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Restroom_hall",
+      "lo": [
+        -17.100000381469727,
+        -8.424999237060547,
+        4.006999969482422
+      ],
+      "hi": [
+        -12.40000057220459,
+        -5.675000190734863,
+        4.057000160217285
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Women_basin",
+      "lo": [
+        -15.200000762939453,
+        -10.625,
+        4.006999969482422
+      ],
+      "hi": [
+        -13.632323265075684,
+        -8.375,
+        4.057000160217285
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Men_basin",
+      "lo": [
+        -12.40000057220459,
+        -10.674118995666504,
+        4.006999969482422
+      ],
+      "hi": [
+        -11.093422889709473,
+        -8.375,
+        4.057000160217285
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Staff_entry",
+      "lo": [
+        -22.125,
+        -10.524999618530273,
+        4.006999969482422
+      ],
+      "hi": [
+        -18.100000381469727,
+        -8.0,
+        4.057000160217285
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "FIT_Locker_approach",
+      "lo": [
+        -17.100000381469727,
+        -5.72499942779541,
+        4.006999969482422
+      ],
+      "hi": [
+        -12.100000381469727,
+        -5.675000190734863,
+        4.057000160217285
+      ],
+      "visible": true,
+      "hide_render": true,
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_0_0",
+      "lo": [
+        -23.920000076293945,
+        4.002999782562256,
+        4.0
+      ],
+      "hi": [
+        -22.69999885559082,
+        4.0320000648498535,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_1_0",
+      "lo": [
+        -22.700000762939453,
+        4.002999782562256,
+        3.999999761581421
+      ],
+      "hi": [
+        -18.900001525878906,
+        4.0320000648498535,
+        4.899999618530273
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_1_2.6",
+      "lo": [
+        -22.700000762939453,
+        4.002999782562256,
+        6.599999904632568
+      ],
+      "hi": [
+        -18.900001525878906,
+        4.0320000648498535,
+        7.200000286102295
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_2_0",
+      "lo": [
+        -18.899999618530273,
+        4.002999782562256,
+        4.0
+      ],
+      "hi": [
+        -17.69999885559082,
+        4.0320000648498535,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_3_2.3",
+      "lo": [
+        -17.700000762939453,
+        4.002999782562256,
+        6.300000190734863
+      ],
+      "hi": [
+        -16.5,
+        4.0320000648498535,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_4_0",
+      "lo": [
+        -16.5,
+        4.002999782562256,
+        4.0
+      ],
+      "hi": [
+        -15.5,
+        4.0320000648498535,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_5_0",
+      "lo": [
+        -15.5,
+        4.002999782562256,
+        3.999999761581421
+      ],
+      "hi": [
+        -11.700000762939453,
+        4.0320000648498535,
+        4.899999618530273
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_5_2.6",
+      "lo": [
+        -15.5,
+        4.002999782562256,
+        6.599999904632568
+      ],
+      "hi": [
+        -11.700000762939453,
+        4.0320000648498535,
+        7.200000286102295
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_6_0",
+      "lo": [
+        -11.700000762939453,
+        4.002999782562256,
+        4.0
+      ],
+      "hi": [
+        -10.280000686645508,
+        4.0320000648498535,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_West_0_0",
+      "lo": [
+        -24.131999969482422,
+        -12.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -24.10300064086914,
+        4.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_East_0_0",
+      "lo": [
+        -10.097000122070312,
+        -13.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -10.068000793457031,
+        4.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_Hall_south_entry_0_0",
+      "lo": [
+        -19.10000228881836,
+        -7.23199987411499,
+        4.0
+      ],
+      "hi": [
+        -17.700000762939453,
+        -7.202999591827393,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_Hall_south_entry_1_2.3",
+      "lo": [
+        -17.700000762939453,
+        -7.23199987411499,
+        6.300000190734863
+      ],
+      "hi": [
+        -16.5,
+        -7.202999591827393,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_Hall_south_entry_2_0",
+      "lo": [
+        -16.5,
+        -7.23199987411499,
+        4.0
+      ],
+      "hi": [
+        -16.099998474121094,
+        -7.202999591827393,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_Coffee_east_0_0",
+      "lo": [
+        -19.097000122070312,
+        -10.0,
+        4.0
+      ],
+      "hi": [
+        -19.06800079345703,
+        -7.200000286102295,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_Coffee_east_1_2.2",
+      "lo": [
+        -19.097000122070312,
+        -11.0,
+        6.199999809265137
+      ],
+      "hi": [
+        -19.06800079345703,
+        -10.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_Coffee_east_2_0",
+      "lo": [
+        -19.097000122070312,
+        -12.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -19.06800079345703,
+        -11.0,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_Coffee_rear_0_0",
+      "lo": [
+        -23.920000076293945,
+        -12.232000350952148,
+        4.0
+      ],
+      "hi": [
+        -19.280000686645508,
+        -12.203001022338867,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_WC_west_0_0",
+      "lo": [
+        -16.131999969482422,
+        -13.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -16.10300064086914,
+        -7.199999809265137,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "PL03_Cladding_FIT_WC_rear_0_0",
+      "lo": [
+        -15.920000076293945,
+        -13.232000350952148,
+        4.0
+      ],
+      "hi": [
+        -10.280000686645508,
+        -13.203001022338867,
+        7.199999809265137
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ]
+    },
+    {
+      "name": "FIT_Table_01_Top_Plank",
+      "lo": [
+        -20.100000381469727,
+        2.0999999046325684,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        2.296999931335449,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_01_Top_Plank.001",
+      "lo": [
+        -20.100000381469727,
+        2.299999952316284,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        2.496999979019165,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_01_Top_Plank.002",
+      "lo": [
+        -20.100000381469727,
+        2.5,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        2.697000026702881,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_01_Top_Plank.003",
+      "lo": [
+        -20.100000381469727,
+        2.700000047683716,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        2.8970000743865967,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_01_0.55_Seat_Plank",
+      "lo": [
+        -20.100000381469727,
+        3.1000001430511475,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        3.2720000743865967,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_01_0.55_Seat_Plank.001",
+      "lo": [
+        -20.100000381469727,
+        3.2750000953674316,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        3.447000026702881,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_01_2.1_Seat_Plank",
+      "lo": [
+        -20.100000381469727,
+        1.5499999523162842,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        1.7219998836517334,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_01_2.1_Seat_Plank.001",
+      "lo": [
+        -20.100000381469727,
+        1.7249999046325684,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        1.8969998359680176,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_02_Top_Plank",
+      "lo": [
+        -14.100000381469727,
+        2.0999999046325684,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        2.296999931335449,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_02_Top_Plank.001",
+      "lo": [
+        -14.100000381469727,
+        2.299999952316284,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        2.496999979019165,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_02_Top_Plank.002",
+      "lo": [
+        -14.100000381469727,
+        2.5,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        2.697000026702881,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_02_Top_Plank.003",
+      "lo": [
+        -14.100000381469727,
+        2.700000047683716,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        2.8970000743865967,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_02_0.55_Seat_Plank",
+      "lo": [
+        -14.100000381469727,
+        3.1000001430511475,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        3.2720000743865967,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_02_0.55_Seat_Plank.001",
+      "lo": [
+        -14.100000381469727,
+        3.2750000953674316,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        3.447000026702881,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_02_2.1_Seat_Plank",
+      "lo": [
+        -14.100000381469727,
+        1.5499999523162842,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        1.7219998836517334,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_02_2.1_Seat_Plank.001",
+      "lo": [
+        -14.100000381469727,
+        1.7249999046325684,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        1.8969998359680176,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_03_Top_Plank",
+      "lo": [
+        -20.100000381469727,
+        -1.0999997854232788,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        -0.9029998183250427,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_03_Top_Plank.001",
+      "lo": [
+        -20.100000381469727,
+        -0.8999997973442078,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        -0.7029997706413269,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_03_Top_Plank.002",
+      "lo": [
+        -20.100000381469727,
+        -0.6999998092651367,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        -0.5029997825622559,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_03_Top_Plank.003",
+      "lo": [
+        -20.100000381469727,
+        -0.4999997913837433,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        -0.3029997944831848,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_03_3.75_Seat_Plank",
+      "lo": [
+        -20.100000381469727,
+        -0.09999994933605194,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        0.07200005650520325,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_03_3.75_Seat_Plank.001",
+      "lo": [
+        -20.100000381469727,
+        0.07500005513429642,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        0.247000053524971,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_03_5.3_Seat_Plank",
+      "lo": [
+        -20.100000381469727,
+        -1.6499998569488525,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        -1.4779999256134033,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_03_5.3_Seat_Plank.001",
+      "lo": [
+        -20.100000381469727,
+        -1.4749999046325684,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        -1.3029999732971191,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_04_Top_Plank",
+      "lo": [
+        -14.100000381469727,
+        -1.0999997854232788,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        -0.9029998183250427,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_04_Top_Plank.001",
+      "lo": [
+        -14.100000381469727,
+        -0.8999997973442078,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        -0.7029997706413269,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_04_Top_Plank.002",
+      "lo": [
+        -14.100000381469727,
+        -0.6999998092651367,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        -0.5029997825622559,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_04_Top_Plank.003",
+      "lo": [
+        -14.100000381469727,
+        -0.4999997913837433,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        -0.3029997944831848,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_04_3.75_Seat_Plank",
+      "lo": [
+        -14.100000381469727,
+        -0.09999994933605194,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        0.07200005650520325,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_04_3.75_Seat_Plank.001",
+      "lo": [
+        -14.100000381469727,
+        0.07500005513429642,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        0.247000053524971,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_04_5.3_Seat_Plank",
+      "lo": [
+        -14.100000381469727,
+        -1.6499998569488525,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        -1.4779999256134033,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_04_5.3_Seat_Plank.001",
+      "lo": [
+        -14.100000381469727,
+        -1.4749999046325684,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        -1.3029999732971191,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_05_Top_Plank",
+      "lo": [
+        -20.100000381469727,
+        -4.300000190734863,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        -4.103000164031982,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_05_Top_Plank.001",
+      "lo": [
+        -20.100000381469727,
+        -4.100000381469727,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        -3.9030001163482666,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_05_Top_Plank.002",
+      "lo": [
+        -20.100000381469727,
+        -3.9000000953674316,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        -3.703000068664551,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_05_Top_Plank.003",
+      "lo": [
+        -20.100000381469727,
+        -3.700000047683716,
+        4.740000247955322
+      ],
+      "hi": [
+        -18.30000114440918,
+        -3.503000020980835,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_05_6.95_Seat_Plank",
+      "lo": [
+        -20.100000381469727,
+        -3.299999952316284,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        -3.128000020980835,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_05_6.95_Seat_Plank.001",
+      "lo": [
+        -20.100000381469727,
+        -3.125,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        -2.953000068664551,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_05_8.5_Seat_Plank",
+      "lo": [
+        -20.100000381469727,
+        -4.850000381469727,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        -4.677999973297119,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_05_8.5_Seat_Plank.001",
+      "lo": [
+        -20.100000381469727,
+        -4.675000190734863,
+        4.440000057220459
+      ],
+      "hi": [
+        -18.30000114440918,
+        -4.502999782562256,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_06_Top_Plank",
+      "lo": [
+        -14.100000381469727,
+        -4.300000190734863,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        -4.103000164031982,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_06_Top_Plank.001",
+      "lo": [
+        -14.100000381469727,
+        -4.100000381469727,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        -3.9030001163482666,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_06_Top_Plank.002",
+      "lo": [
+        -14.100000381469727,
+        -3.9000000953674316,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        -3.703000068664551,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Table_06_Top_Plank.003",
+      "lo": [
+        -14.100000381469727,
+        -3.700000047683716,
+        4.740000247955322
+      ],
+      "hi": [
+        -12.30000114440918,
+        -3.503000020980835,
+        4.809999942779541
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_06_6.95_Seat_Plank",
+      "lo": [
+        -14.100000381469727,
+        -3.299999952316284,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        -3.128000020980835,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_06_6.95_Seat_Plank.001",
+      "lo": [
+        -14.100000381469727,
+        -3.125,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        -2.953000068664551,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_06_8.5_Seat_Plank",
+      "lo": [
+        -14.100000381469727,
+        -4.850000381469727,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        -4.677999973297119,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    },
+    {
+      "name": "FIT_Bench_06_8.5_Seat_Plank.001",
+      "lo": [
+        -14.100000381469727,
+        -4.675000190734863,
+        4.440000057220459
+      ],
+      "hi": [
+        -12.30000114440918,
+        -4.502999782562256,
+        4.509999752044678
+      ],
+      "visible": true,
+      "hide_render": false,
+      "collections": [
+        "PL03_Furniture_Details"
+      ]
+    }
+  ]
+}

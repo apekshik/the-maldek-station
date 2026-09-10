@@ -1,0 +1,2209 @@
+{
+  "saved_reopened": true,
+  "failures": [],
+  "topology": [
+    {
+      "name": "PLD_ARRIVAL_Leaf_Steel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glass",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Bead",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Seal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Bead.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Seal.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Bead.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Seal.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Bead.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Seal.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Lever_Rose",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Return_Lever",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Cylinder_Collar",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Cylinder_Gasket",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Rotating_Plug",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Recessed_Keyway",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Enamel_ID_Plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Bead.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Seal.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Bead.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Seal.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Bead.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Seal.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Bead.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Glazing_Seal.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.008",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.008",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.009",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.009",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.010",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.010",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener.011",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Kick_Fastener_Slot.011",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Lever_Rose.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Return_Lever.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Cylinder_Collar.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Cylinder_Gasket.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Rotating_Plug.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Recessed_Keyway.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Enamel_ID_Plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Through_Leaf_Cylinder",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Lock_Edge_Plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_LATCH",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_BOTTOM_SEAL",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Hinge_Strap",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw_Slot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw_Slot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Hinge_Strap",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Knuckle",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Knuckle.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Pin",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw_Slot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw_Slot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Hinge_Strap.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw_Slot.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw_Slot.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Hinge_Strap.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Knuckle.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Knuckle.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Pin.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw_Slot.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw_Slot.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Hinge_Strap.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.008",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw_Slot.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw_Slot.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Hinge_Strap.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Knuckle.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Knuckle.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Pin.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw_Slot.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw_Slot.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Hinge_Strap.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.009",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.010",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Moving_Knuckle.011",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw_Slot.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Leaf_Screw_Slot.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Hinge_Strap.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Knuckle.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Fixed_Knuckle.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Pin.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw_Slot.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Hinge_Frame_Screw_Slot.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Reveal_Jamb",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Reveal_Jamb.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Reveal_Header",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Jamb_Cover",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Jamb_Cover.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Head_Cover",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Jamb_Cover.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Jamb_Cover.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Head_Cover.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Seal_Stop_Channel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Compression_Seal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Seal_Stop_Channel.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Compression_Seal.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Head_Stop_Channel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Head_Seal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Strike_Keeper",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Flush_Threshold",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Drip_Head",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_ARRIVAL_Drip_Downstand",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Leaf_Steel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glass",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Bead",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Seal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Bead.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Seal.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Bead.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Seal.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Bead.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Seal.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Lever_Rose",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Return_Lever",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Cylinder_Collar",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Cylinder_Gasket",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Rotating_Plug",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Recessed_Keyway",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Enamel_ID_Plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Bead.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Seal.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Bead.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Seal.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Bead.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Seal.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Bead.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Glazing_Seal.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.008",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.008",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.009",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.009",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.010",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.010",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener.011",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Kick_Fastener_Slot.011",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Lever_Rose.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Return_Lever.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Cylinder_Collar.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Cylinder_Gasket.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Rotating_Plug.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Recessed_Keyway.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Enamel_ID_Plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Through_Leaf_Cylinder",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Lock_Edge_Plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_LATCH",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_BOTTOM_SEAL",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Hinge_Strap",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw_Slot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw_Slot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Hinge_Strap",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Knuckle",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Knuckle.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Pin",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw_Slot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw_Slot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Hinge_Strap.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw_Slot.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw_Slot.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Hinge_Strap.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Knuckle.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Knuckle.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Pin.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw_Slot.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw_Slot.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Hinge_Strap.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.008",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw_Slot.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw_Slot.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Hinge_Strap.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Knuckle.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Knuckle.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Pin.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw_Slot.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw_Slot.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Hinge_Strap.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.009",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.010",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Moving_Knuckle.011",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw_Slot.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Leaf_Screw_Slot.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Hinge_Strap.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Knuckle.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Fixed_Knuckle.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Pin.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw_Slot.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Hinge_Frame_Screw_Slot.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Reveal_Jamb",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Reveal_Jamb.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Reveal_Header",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Jamb_Cover",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Jamb_Cover.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Head_Cover",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Jamb_Cover.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Jamb_Cover.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Head_Cover.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Seal_Stop_Channel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Compression_Seal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Seal_Stop_Channel.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Compression_Seal.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Head_Stop_Channel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Head_Seal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Strike_Keeper",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Flush_Threshold",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Drip_Head",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_GONDOLA_Drip_Downstand",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Leaf_Steel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glass",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Bead",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Seal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Bead.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Seal.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Bead.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Seal.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Bead.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Seal.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Lever_Rose",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Return_Lever",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Cylinder_Collar",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Cylinder_Gasket",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Rotating_Plug",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Recessed_Keyway",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Enamel_ID_Plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Bead.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Seal.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Bead.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Seal.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Bead.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Seal.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Bead.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Glazing_Seal.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.008",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.008",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.009",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.009",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.010",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.010",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener.011",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Kick_Fastener_Slot.011",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Lever_Rose.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Return_Lever.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Cylinder_Collar.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Cylinder_Gasket.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Rotating_Plug.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Recessed_Keyway.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Enamel_ID_Plate.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Through_Leaf_Cylinder",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Lock_Edge_Plate",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_LATCH",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_BOTTOM_SEAL",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Hinge_Strap",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Knuckle",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Knuckle.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Knuckle.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw_Slot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw_Slot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Fixed_Hinge_Strap",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Fixed_Knuckle",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Fixed_Knuckle.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Pin",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw_Slot",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw_Slot.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Hinge_Strap.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Knuckle.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Knuckle.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Knuckle.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw_Slot.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw_Slot.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Fixed_Hinge_Strap.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Fixed_Knuckle.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Fixed_Knuckle.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Pin.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw_Slot.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw_Slot.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Hinge_Strap.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Knuckle.006",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Knuckle.007",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Moving_Knuckle.008",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw_Slot.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Leaf_Screw_Slot.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Fixed_Hinge_Strap.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Fixed_Knuckle.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Fixed_Knuckle.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Pin.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw_Slot.004",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Hinge_Frame_Screw_Slot.005",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Reveal_Jamb",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Reveal_Jamb.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Reveal_Header",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Jamb_Cover",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Jamb_Cover.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Head_Cover",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Jamb_Cover.002",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Jamb_Cover.003",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Head_Cover.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Seal_Stop_Channel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Compression_Seal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Seal_Stop_Channel.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Compression_Seal.001",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Head_Stop_Channel",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Head_Seal",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Strike_Keeper",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Flush_Threshold",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Drip_Head",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLD_STAFF_Drip_Downstand",
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    }
+  ],
+  "swing": [
+    {
+      "door": "ARRIVAL",
+      "sample_step_degrees": 5,
+      "sampled_angles": 21,
+      "stationary_candidates": 40,
+      "surface_collisions": []
+    },
+    {
+      "door": "GONDOLA",
+      "sample_step_degrees": 5,
+      "sampled_angles": 21,
+      "stationary_candidates": 52,
+      "surface_collisions": []
+    },
+    {
+      "door": "STAFF",
+      "sample_step_degrees": 5,
+      "sampled_angles": 21,
+      "stationary_candidates": 25,
+      "surface_collisions": []
+    }
+  ],
+  "opening_rays": [
+    {
+      "door": "ARRIVAL",
+      "width": 1.2,
+      "height": 2.3,
+      "rays": 25,
+      "blocked": []
+    },
+    {
+      "door": "GONDOLA",
+      "width": 1.2,
+      "height": 2.3,
+      "rays": 25,
+      "blocked": []
+    },
+    {
+      "door": "STAFF",
+      "width": 1.0,
+      "height": 2.2,
+      "rays": 25,
+      "blocked": []
+    }
+  ],
+  "route_clearance": [
+    {
+      "door": "ARRIVAL",
+      "route": "coffee_queue",
+      "radius_m": 0.34,
+      "min_sweep_margin_m": 1.1639999961853025,
+      "fully_open_margin_m": 1.3949489453395245,
+      "required": "all sampled swing angles"
+    },
+    {
+      "door": "ARRIVAL",
+      "route": "court_remote_route",
+      "radius_m": 0.34,
+      "min_sweep_margin_m": 0.1892960263096542,
+      "fully_open_margin_m": 0.5825939657457135,
+      "required": "all sampled swing angles"
+    },
+    {
+      "door": "ARRIVAL",
+      "route": "door_traversal",
+      "radius_m": 0.34,
+      "min_sweep_margin_m": -0.34,
+      "fully_open_margin_m": 0.2727369805257644,
+      "required": "fully open only; doorway is occupied during movement"
+    },
+    {
+      "door": "GONDOLA",
+      "route": "grating_promenade",
+      "radius_m": 0.34,
+      "min_sweep_margin_m": 1.3119999504089355,
+      "fully_open_margin_m": 1.4135376291675164,
+      "required": "all sampled swing angles"
+    },
+    {
+      "door": "GONDOLA",
+      "route": "door_traversal",
+      "radius_m": 0.34,
+      "min_sweep_margin_m": -0.34,
+      "fully_open_margin_m": 0.27274866167811734,
+      "required": "fully open only; doorway is occupied during movement"
+    },
+    {
+      "door": "STAFF",
+      "route": "main_arrival_route",
+      "radius_m": 0.34,
+      "min_sweep_margin_m": 0.4648431763174364,
+      "fully_open_margin_m": 0.4729208574288695,
+      "required": "all sampled swing angles"
+    },
+    {
+      "door": "STAFF",
+      "route": "staff_traversal",
+      "radius_m": 0.34,
+      "min_sweep_margin_m": -0.34,
+      "fully_open_margin_m": 0.1727723684484393,
+      "required": "fully open only; doorway is occupied during movement"
+    }
+  ],
+  "source_unchanged": true,
+  "reference_transform_checks": 6831,
+  "passed": true,
+  "limits": "Blender evaluated manifold and mesh-surface checks at 5-degree intervals plus 0.34 m radius plan-route samples. Not a continuous collision proof, structural certification, engine collision, or PIE test. Door traversal is tested fully open; during movement the doorway must be kept clear."
+}

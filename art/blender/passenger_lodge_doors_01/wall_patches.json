@@ -1,0 +1,1111 @@
+{
+  "source_sha256": "b9d78ed0d7c5c50bc28a8fb6a0d63f1c86fa83d3144c6a7eae50476ee9607796",
+  "patches": [
+    {
+      "door": "ARRIVAL",
+      "source_object": "FIT_Hall_south_entry_0_0",
+      "replacement_object": "PLD_ARRIVAL_PATCH_FIT_Hall_south_entry_0_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -7.23199987411499
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "ARRIVAL",
+      "source_object": "PL03_Cladding_FIT_Hall_south_entry_0_0",
+      "replacement_object": "PLD_ARRIVAL_PATCH_PL03_Cladding_FIT_Hall_south_entry_0_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -7.23199987411499
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "ARRIVAL",
+      "source_object": "FIT_Hall_south_entry_1_2.3",
+      "replacement_object": "PLD_ARRIVAL_PATCH_FIT_Hall_south_entry_1_2.3",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -7.23199987411499
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "ARRIVAL",
+      "source_object": "PL03_Cladding_FIT_Hall_south_entry_1_2.3",
+      "replacement_object": "PLD_ARRIVAL_PATCH_PL03_Cladding_FIT_Hall_south_entry_1_2.3",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -7.23199987411499
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "ARRIVAL",
+      "source_object": "FIT_Hall_south_entry_2_0",
+      "replacement_object": "PLD_ARRIVAL_PATCH_FIT_Hall_south_entry_2_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -7.23199987411499
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "ARRIVAL",
+      "source_object": "PL03_Cladding_FIT_Hall_south_entry_2_0",
+      "replacement_object": "PLD_ARRIVAL_PATCH_PL03_Cladding_FIT_Hall_south_entry_2_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -7.23199987411499
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "ARRIVAL",
+      "source_object": "FIT_Arrival_court_floor",
+      "replacement_object": "PLD_PATCH_FIT_Arrival_court_floor",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        -0.007
+      ],
+      "local_box_dimensions": [
+        1.202,
+        0.342,
+        0.016
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -7.23199987411499
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "purpose": "flush pan pocket; 1 mm edge gap, 3 mm underside gap"
+    },
+    {
+      "door": "ARRIVAL",
+      "source_object": "FIT_Hall_Floor",
+      "replacement_object": "PLD_PATCH_FIT_Hall_Floor",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        -0.007
+      ],
+      "local_box_dimensions": [
+        1.202,
+        0.342,
+        0.016
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          -7.23199987411499
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "purpose": "flush pan pocket; 1 mm edge gap, 3 mm underside gap"
+    },
+    {
+      "door": "GONDOLA",
+      "source_object": "FIT_North_2_0",
+      "replacement_object": "PLD_GONDOLA_PATCH_FIT_North_2_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          3.819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "GONDOLA",
+      "source_object": "PL03_Cladding_FIT_North_2_0",
+      "replacement_object": "PLD_GONDOLA_PATCH_PL03_Cladding_FIT_North_2_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          3.819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "GONDOLA",
+      "source_object": "FIT_North_3_2.3",
+      "replacement_object": "PLD_GONDOLA_PATCH_FIT_North_3_2.3",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          3.819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "GONDOLA",
+      "source_object": "PL03_Cladding_FIT_North_3_2.3",
+      "replacement_object": "PLD_GONDOLA_PATCH_PL03_Cladding_FIT_North_3_2.3",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          3.819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "GONDOLA",
+      "source_object": "FIT_North_4_0",
+      "replacement_object": "PLD_GONDOLA_PATCH_FIT_North_4_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          3.819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "GONDOLA",
+      "source_object": "PL03_Cladding_FIT_North_4_0",
+      "replacement_object": "PLD_GONDOLA_PATCH_PL03_Cladding_FIT_North_4_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        1.182
+      ],
+      "local_box_dimensions": [
+        1.3279999999999998,
+        0.65,
+        2.364
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          3.819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.2,
+        2.3
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "GONDOLA",
+      "source_object": "FIT_Hall_Floor",
+      "replacement_object": "PLD_PATCH_FIT_Hall_Floor",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        -0.007
+      ],
+      "local_box_dimensions": [
+        1.202,
+        0.342,
+        0.016
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          3.819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "purpose": "flush pan pocket; 1 mm edge gap, 3 mm underside gap"
+    },
+    {
+      "door": "GONDOLA",
+      "source_object": "PL03_Grate_PL02_Deck_029_3_0",
+      "replacement_object": "PLD_PATCH_PL03_Grate_PL02_Deck_029_3_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.6,
+        -0.106,
+        -0.007
+      ],
+      "local_box_dimensions": [
+        1.202,
+        0.342,
+        0.016
+      ],
+      "matrix_world": [
+        [
+          -1.0,
+          -8.742277657347586e-08,
+          0.0,
+          -16.5
+        ],
+        [
+          8.742277657347586e-08,
+          -1.0,
+          0.0,
+          3.819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "purpose": "flush pan pocket; 1 mm edge gap, 3 mm underside gap"
+    },
+    {
+      "door": "STAFF",
+      "source_object": "FIT_Coffee_east_0_0",
+      "replacement_object": "PLD_STAFF_PATCH_FIT_Coffee_east_0_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.5,
+        0.106,
+        1.1320000000000001
+      ],
+      "local_box_dimensions": [
+        1.1280000000000001,
+        0.65,
+        2.2640000000000002
+      ],
+      "matrix_world": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          -19.06800079345703
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.0,
+        2.2
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "STAFF",
+      "source_object": "PL03_Cladding_FIT_Coffee_east_0_0",
+      "replacement_object": "PLD_STAFF_PATCH_PL03_Cladding_FIT_Coffee_east_0_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.5,
+        0.106,
+        1.1320000000000001
+      ],
+      "local_box_dimensions": [
+        1.1280000000000001,
+        0.65,
+        2.2640000000000002
+      ],
+      "matrix_world": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          -19.06800079345703
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.0,
+        2.2
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "STAFF",
+      "source_object": "FIT_Coffee_east_1_2.2",
+      "replacement_object": "PLD_STAFF_PATCH_FIT_Coffee_east_1_2.2",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.5,
+        0.106,
+        1.1320000000000001
+      ],
+      "local_box_dimensions": [
+        1.1280000000000001,
+        0.65,
+        2.2640000000000002
+      ],
+      "matrix_world": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          -19.06800079345703
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.0,
+        2.2
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "STAFF",
+      "source_object": "PL03_Cladding_FIT_Coffee_east_1_2.2",
+      "replacement_object": "PLD_STAFF_PATCH_PL03_Cladding_FIT_Coffee_east_1_2.2",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.5,
+        0.106,
+        1.1320000000000001
+      ],
+      "local_box_dimensions": [
+        1.1280000000000001,
+        0.65,
+        2.2640000000000002
+      ],
+      "matrix_world": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          -19.06800079345703
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.0,
+        2.2
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "STAFF",
+      "source_object": "FIT_Coffee_east_2_0",
+      "replacement_object": "PLD_STAFF_PATCH_FIT_Coffee_east_2_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.5,
+        0.106,
+        1.1320000000000001
+      ],
+      "local_box_dimensions": [
+        1.1280000000000001,
+        0.65,
+        2.2640000000000002
+      ],
+      "matrix_world": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          -19.06800079345703
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.0,
+        2.2
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "STAFF",
+      "source_object": "PL03_Cladding_FIT_Coffee_east_2_0",
+      "replacement_object": "PLD_STAFF_PATCH_PL03_Cladding_FIT_Coffee_east_2_0",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.5,
+        0.106,
+        1.1320000000000001
+      ],
+      "local_box_dimensions": [
+        1.1280000000000001,
+        0.65,
+        2.2640000000000002
+      ],
+      "matrix_world": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          -19.06800079345703
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "clear_aperture_m": [
+        1.0,
+        2.2
+      ],
+      "concealed_core_gap_m": 0.004
+    },
+    {
+      "door": "STAFF",
+      "source_object": "FIT_Arrival_court_floor",
+      "replacement_object": "PLD_PATCH_FIT_Arrival_court_floor",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.5,
+        0.106,
+        -0.007
+      ],
+      "local_box_dimensions": [
+        1.002,
+        0.342,
+        0.016
+      ],
+      "matrix_world": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          -19.06800079345703
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "purpose": "flush pan pocket; 1 mm edge gap, 3 mm underside gap"
+    },
+    {
+      "door": "STAFF",
+      "source_object": "FIT_Coffee_Floor",
+      "replacement_object": "PLD_PATCH_FIT_Coffee_Floor",
+      "operation": "DIFFERENCE",
+      "local_box_center": [
+        0.5,
+        0.106,
+        -0.007
+      ],
+      "local_box_dimensions": [
+        1.002,
+        0.342,
+        0.016
+      ],
+      "matrix_world": [
+        [
+          7.549790126404332e-08,
+          -1.0,
+          0.0,
+          -19.06800079345703
+        ],
+        [
+          1.0,
+          7.549790126404332e-08,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "purpose": "flush pan pocket; 1 mm edge gap, 3 mm underside gap"
+    }
+  ],
+  "scope": "Only three door apertures and flush threshold footprints; apply to a copy, never master in this package.",
+  "merge_note": "Shared floor objects contain multiple local pan cuts. Replay local cuts when merging with other packages, do not replace whole shared floor blindly."
+}

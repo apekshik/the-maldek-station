@@ -1,0 +1,15 @@
+{
+  "rejected_arrival_option": {
+    "hinge": "East jamb, inward to hall",
+    "root_station_m": [-16.5, -7.02, 4],
+    "yaw_degrees": 180,
+    "signed_open_degrees": -100,
+    "sample_step_degrees": 5,
+    "queue_route_station_xy": [[-17.1, -5.7], [-21.1, -5.7]],
+    "route_radius_m": 0.34,
+    "worst_swing_margin_m": -0.21655226529515742,
+    "reason": "Intermediate swing intrudes into the coffee queue envelope even though the fully open leaf is clear."
+  },
+  "selected_option": "Outward east-jamb arrival swing; see current verification.json for measured clearance.",
+  "fixed_staff_contract": "1.0 x 2.2 m clear, local X=4.82 wall, depth14–15, floor Z=4 station. The 32 mm exterior-cladding offset of the assembly root does not move the opening."
+}

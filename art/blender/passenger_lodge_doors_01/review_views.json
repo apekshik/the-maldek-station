@@ -1,0 +1,137 @@
+[
+  {
+    "name": "ARRIVAL_Face_A",
+    "camera": "PLD_REVIEW_ARRIVAL_Face_A",
+    "frame": 1
+  },
+  {
+    "name": "ARRIVAL_Hardware_-1",
+    "camera": "PLD_REVIEW_ARRIVAL_Hardware_-1",
+    "frame": 1
+  },
+  {
+    "name": "ARRIVAL_Face_B",
+    "camera": "PLD_REVIEW_ARRIVAL_Face_B",
+    "frame": 1
+  },
+  {
+    "name": "ARRIVAL_Hardware_1",
+    "camera": "PLD_REVIEW_ARRIVAL_Hardware_1",
+    "frame": 1
+  },
+  {
+    "name": "ARRIVAL_Plan_Closed",
+    "camera": "PLD_REVIEW_ARRIVAL_Swing_Plan",
+    "frame": 1
+  },
+  {
+    "name": "ARRIVAL_Plan_Partial",
+    "camera": "PLD_REVIEW_ARRIVAL_Swing_Plan",
+    "frame": 40
+  },
+  {
+    "name": "ARRIVAL_Plan_Open",
+    "camera": "PLD_REVIEW_ARRIVAL_Swing_Plan",
+    "frame": 80
+  },
+  {
+    "name": "ARRIVAL_Fitted_Partial",
+    "camera": "PLD_REVIEW_ARRIVAL_Fitted_Swing",
+    "frame": 40
+  },
+  {
+    "name": "ARRIVAL_Fitted_Open",
+    "camera": "PLD_REVIEW_ARRIVAL_Fitted_Swing",
+    "frame": 80
+  },
+  {
+    "name": "GONDOLA_Face_A",
+    "camera": "PLD_REVIEW_GONDOLA_Face_A",
+    "frame": 1
+  },
+  {
+    "name": "GONDOLA_Hardware_-1",
+    "camera": "PLD_REVIEW_GONDOLA_Hardware_-1",
+    "frame": 1
+  },
+  {
+    "name": "GONDOLA_Face_B",
+    "camera": "PLD_REVIEW_GONDOLA_Face_B",
+    "frame": 1
+  },
+  {
+    "name": "GONDOLA_Hardware_1",
+    "camera": "PLD_REVIEW_GONDOLA_Hardware_1",
+    "frame": 1
+  },
+  {
+    "name": "GONDOLA_Plan_Closed",
+    "camera": "PLD_REVIEW_GONDOLA_Swing_Plan",
+    "frame": 1
+  },
+  {
+    "name": "GONDOLA_Plan_Partial",
+    "camera": "PLD_REVIEW_GONDOLA_Swing_Plan",
+    "frame": 40
+  },
+  {
+    "name": "GONDOLA_Plan_Open",
+    "camera": "PLD_REVIEW_GONDOLA_Swing_Plan",
+    "frame": 80
+  },
+  {
+    "name": "GONDOLA_Fitted_Partial",
+    "camera": "PLD_REVIEW_GONDOLA_Fitted_Swing",
+    "frame": 40
+  },
+  {
+    "name": "GONDOLA_Fitted_Open",
+    "camera": "PLD_REVIEW_GONDOLA_Fitted_Swing",
+    "frame": 80
+  },
+  {
+    "name": "STAFF_Face_A",
+    "camera": "PLD_REVIEW_STAFF_Face_A",
+    "frame": 1
+  },
+  {
+    "name": "STAFF_Hardware_-1",
+    "camera": "PLD_REVIEW_STAFF_Hardware_-1",
+    "frame": 1
+  },
+  {
+    "name": "STAFF_Face_B",
+    "camera": "PLD_REVIEW_STAFF_Face_B",
+    "frame": 1
+  },
+  {
+    "name": "STAFF_Hardware_1",
+    "camera": "PLD_REVIEW_STAFF_Hardware_1",
+    "frame": 1
+  },
+  {
+    "name": "STAFF_Plan_Closed",
+    "camera": "PLD_REVIEW_STAFF_Swing_Plan",
+    "frame": 1
+  },
+  {
+    "name": "STAFF_Plan_Partial",
+    "camera": "PLD_REVIEW_STAFF_Swing_Plan",
+    "frame": 40
+  },
+  {
+    "name": "STAFF_Plan_Open",
+    "camera": "PLD_REVIEW_STAFF_Swing_Plan",
+    "frame": 80
+  },
+  {
+    "name": "STAFF_Fitted_Partial",
+    "camera": "PLD_REVIEW_STAFF_Fitted_Swing",
+    "frame": 40
+  },
+  {
+    "name": "STAFF_Fitted_Open",
+    "camera": "PLD_REVIEW_STAFF_Fitted_Swing",
+    "frame": 80
+  }
+]

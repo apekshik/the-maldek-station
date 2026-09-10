@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "objects": [
+    {
+      "source_object": "FIT_Hall_south_entry_0_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "PL03_Cladding_FIT_Hall_south_entry_0_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_Hall_south_entry_1_2.3",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "PL03_Cladding_FIT_Hall_south_entry_1_2.3",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_Hall_south_entry_2_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "PL03_Cladding_FIT_Hall_south_entry_2_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_Arrival_court_floor",
+      "max_symmetric_vertex_surface_distance_m": 1.922192041092785e-06,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_Hall_Floor",
+      "max_symmetric_vertex_surface_distance_m": 2.384185791015625e-07,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_North_2_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "PL03_Cladding_FIT_North_2_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_North_3_2.3",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "PL03_Cladding_FIT_North_3_2.3",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_North_4_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "PL03_Cladding_FIT_North_4_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "PL03_Grate_PL02_Deck_029_3_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_Coffee_east_0_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "PL03_Cladding_FIT_Coffee_east_0_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_Coffee_east_1_2.2",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "PL03_Cladding_FIT_Coffee_east_1_2.2",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_Coffee_east_2_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "PL03_Cladding_FIT_Coffee_east_2_0",
+      "max_symmetric_vertex_surface_distance_m": 0.0,
+      "passed": true
+    },
+    {
+      "source_object": "FIT_Coffee_Floor",
+      "max_symmetric_vertex_surface_distance_m": 9.830249609876773e-07,
+      "passed": true
+    }
+  ],
+  "tolerance_m": 5e-05,
+  "method": "Every evaluated vertex compared to the opposite evaluated surface, in both directions after reopening both files."
+}
