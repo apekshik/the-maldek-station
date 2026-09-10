@@ -36,6 +36,16 @@ for ob in bpy.data.collections['PL02_New_Deck_Rails_and_Stair'].objects:
  assert not (lo[0]<-6.3001 and hi[0]>-8.0999 and lo[1]<-7.7001 and hi[1]>-15.1499),ob.name
  assert lo[0]>=-29.451,ob.name
 assert report['source_unchanged']
+if bpy.data.objects.get('PL02_Safe_Left_Deck_bar'):
+ for y in [-6.9,-6.6,-6.3]:
+  for z in [4.3,4.9,5.7]:
+   hit,_,_,_,ob,_=s.ray_cast(dg,Vector((-9.5,y,z)),Vector((1,0,0)),distance=6)
+   assert not hit,('Right-side landing route blocked',ob.name if hit else None)
+ for i in range(24):
+  y=-14.42+(i+.5)*.28;z=(i+1)*4/24
+  for x in [-7.7,-7.2,-6.7]:
+   hit,loc,_,_,ob,_=s.ray_cast(dg,Vector((x,y,z+2.05)),Vector((0,0,-1)),distance=2.2)
+   assert hit and abs(loc.z-z)<.03,(i,x,ob.name if hit else None)
 report['validation']={'saved_reopened':True,'new_mesh_nonmanifold':nonmanifold,'route_floor_headroom_checks_passed':True,'boundary_probe_m':.002,'limits':'Sampled floor/headroom rays, not continuous capsule or Unreal collision. Existing grating arrival retained; lower stair terrain connection remains provisional.'}
 (OUT/'fit_report.json').write_text(json.dumps(report,indent=2))
 (OUT/'verification.json').write_text(json.dumps({'passed':True,'blend_sha256':hashlib.sha256(f.read_bytes()).hexdigest(),**report['validation']},indent=2))
