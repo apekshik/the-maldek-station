@@ -1,0 +1,79 @@
+[
+  {
+    "image": "PLW_01_Interior.png",
+    "position_m": [
+      -20.399999618530273,
+      0.800000011920929,
+      5.650000095367432
+    ],
+    "lens_mm": 26.0,
+    "roof_visible": true,
+    "lighting": "Source world plus labelled neutral temporary softboxes"
+  },
+  {
+    "image": "PLW_02_Interior.png",
+    "position_m": [
+      -14.0,
+      0.800000011920929,
+      5.650000095367432
+    ],
+    "lens_mm": 26.0,
+    "roof_visible": true,
+    "lighting": "Source world plus labelled neutral temporary softboxes"
+  },
+  {
+    "image": "PLW_Facade_Beside_Control.png",
+    "position_m": [
+      -32.0,
+      24.0,
+      16.0
+    ],
+    "lens_mm": 35.0,
+    "roof_visible": true,
+    "lighting": "Unchanged source lighting"
+  },
+  {
+    "image": "PLW_Sill_Detail.png",
+    "position_m": [
+      -21.600000381469727,
+      4.849999904632568,
+      5.119999885559082
+    ],
+    "lens_mm": 48.0,
+    "roof_visible": true,
+    "lighting": "Source world plus labelled neutral temporary softboxes"
+  },
+  {
+    "image": "PLW_Head_Detail.png",
+    "position_m": [
+      -22.0,
+      4.650000095367432,
+      6.449999809265137
+    ],
+    "lens_mm": 48.0,
+    "roof_visible": true,
+    "lighting": "Source world plus labelled neutral temporary softboxes"
+  },
+  {
+    "image": "PLW_01_Exterior.png",
+    "position_m": [
+      -21.399999618530273,
+      7.099999904632568,
+      5.650000095367432
+    ],
+    "lens_mm": 24.0,
+    "roof_visible": true,
+    "lighting": "Source world plus labelled neutral temporary softboxes"
+  },
+  {
+    "image": "PLW_02_Exterior.png",
+    "position_m": [
+      -13.0,
+      7.099999904632568,
+      5.650000095367432
+    ],
+    "lens_mm": 24.0,
+    "roof_visible": true,
+    "lighting": "Source world plus labelled neutral temporary softboxes"
+  }
+]

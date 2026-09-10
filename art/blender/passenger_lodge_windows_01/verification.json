@@ -1,0 +1,1214 @@
+{
+  "passed": true,
+  "saved_reopened": true,
+  "failures": [],
+  "source_unchanged": true,
+  "source_meshes_preserved": 11952,
+  "mesh_count": 132,
+  "topology": [
+    {
+      "name": "PLW_01_Reveal_Left",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Reveal_Right",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Reveal_Head",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Sill_Pan",
+      "vertices": 84,
+      "faces": 80,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Sill_End_Dam_0.006",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Sill_End_Dam_3.792",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Sill_Rear_Upstand",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Interior_Architrave",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Exterior_Architrave",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Exterior_Perimeter_Seal",
+      "vertices": 16,
+      "faces": 16,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Head_Drip",
+      "vertices": 84,
+      "faces": 80,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Installation_Seal",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Sill_Rear_Bedding",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Sill_Support_Packer_1",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Sill_Support_Packer_2",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Sill_Support_Packer_3",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Sill_Support_Packer_4",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Jamb_Left",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Jamb_Right",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Head",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Sill_Rail",
+      "vertices": 799,
+      "faces": 770,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Mullion_1",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Glass_Inner",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Glass_Opal",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_IGU_Spacer",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_IGU_Edge_Seal",
+      "vertices": 16,
+      "faces": 16,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Interior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Interior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Exterior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Exterior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Setting_Block_0.25",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Bead_Fixing_L_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Bead_Fixing_R_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Setting_Block_0.75",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Bead_Fixing_L_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay1_Bead_Fixing_R_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Mullion_2",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Glass_Inner",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Glass_Opal",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_IGU_Spacer",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_IGU_Edge_Seal",
+      "vertices": 16,
+      "faces": 16,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Interior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Interior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Exterior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Exterior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Setting_Block_0.25",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Bead_Fixing_L_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Bead_Fixing_R_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Setting_Block_0.75",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Bead_Fixing_L_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay2_Bead_Fixing_R_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Glass_Inner",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Glass_Opal",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_IGU_Spacer",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_IGU_Edge_Seal",
+      "vertices": 16,
+      "faces": 16,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Interior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Interior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Exterior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Exterior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Setting_Block_0.25",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Bead_Fixing_L_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Bead_Fixing_R_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Setting_Block_0.75",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Bead_Fixing_L_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_Bay3_Bead_Fixing_R_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_01_ID_Plate",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Reveal_Left",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Reveal_Right",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Reveal_Head",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Sill_Pan",
+      "vertices": 84,
+      "faces": 80,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Sill_End_Dam_0.006",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Sill_End_Dam_3.792",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Sill_Rear_Upstand",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Interior_Architrave",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Exterior_Architrave",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Exterior_Perimeter_Seal",
+      "vertices": 16,
+      "faces": 16,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Head_Drip",
+      "vertices": 84,
+      "faces": 80,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Installation_Seal",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Sill_Rear_Bedding",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Sill_Support_Packer_1",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Sill_Support_Packer_2",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Sill_Support_Packer_3",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Sill_Support_Packer_4",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Jamb_Left",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Jamb_Right",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Head",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Sill_Rail",
+      "vertices": 799,
+      "faces": 770,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Mullion_1",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Glass_Inner",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Glass_Opal",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_IGU_Spacer",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_IGU_Edge_Seal",
+      "vertices": 16,
+      "faces": 16,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Interior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Interior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Exterior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Exterior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Setting_Block_0.25",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Bead_Fixing_L_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Bead_Fixing_R_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Setting_Block_0.75",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Bead_Fixing_L_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay1_Bead_Fixing_R_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Mullion_2",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Glass_Inner",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Glass_Opal",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_IGU_Spacer",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_IGU_Edge_Seal",
+      "vertices": 16,
+      "faces": 16,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Interior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Interior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Exterior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Exterior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Setting_Block_0.25",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Bead_Fixing_L_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Bead_Fixing_R_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Setting_Block_0.75",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Bead_Fixing_L_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay2_Bead_Fixing_R_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Glass_Inner",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Glass_Opal",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_IGU_Spacer",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_IGU_Edge_Seal",
+      "vertices": 16,
+      "faces": 16,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Interior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Interior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Exterior_Bead",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Exterior_EPDM",
+      "vertices": 112,
+      "faces": 112,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Setting_Block_0.25",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Bead_Fixing_L_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Bead_Fixing_R_0.25",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Setting_Block_0.75",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Bead_Fixing_L_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_Bay3_Bead_Fixing_R_0.75",
+      "vertices": 58,
+      "faces": 40,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    {
+      "name": "PLW_02_ID_Plate",
+      "vertices": 56,
+      "faces": 54,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    }
+  ],
+  "source_asset_surface_contacts": [
+    {
+      "asset": "PLW_01_Exterior_Perimeter_Seal",
+      "context": "PL03_Cladding_FIT_North_1_0",
+      "triangle_contacts": 121,
+      "intentional_concealed_corrugation_seal": true
+    },
+    {
+      "asset": "PLW_01_Exterior_Perimeter_Seal",
+      "context": "PL03_Cladding_FIT_North_1_2.6",
+      "triangle_contacts": 192,
+      "intentional_concealed_corrugation_seal": true
+    },
+    {
+      "asset": "PLW_02_Exterior_Perimeter_Seal",
+      "context": "PL03_Cladding_FIT_North_5_0",
+      "triangle_contacts": 121,
+      "intentional_concealed_corrugation_seal": true
+    },
+    {
+      "asset": "PLW_02_Exterior_Perimeter_Seal",
+      "context": "PL03_Cladding_FIT_North_5_2.6",
+      "triangle_contacts": 192,
+      "intentional_concealed_corrugation_seal": true
+    }
+  ],
+  "openings": [
+    {
+      "window": "PLW_01_",
+      "context_rays": 702,
+      "blocked_by": []
+    },
+    {
+      "window": "PLW_02_",
+      "context_rays": 702,
+      "blocked_by": []
+    }
+  ],
+  "reveal_corners": [
+    {
+      "window": "PLW_01_",
+      "corner": "Left_sill",
+      "face": "interior",
+      "jamb_core_gap_m": 0.0039997100830078125,
+      "head_core_gap_m": null,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_01_",
+      "corner": "Left_sill",
+      "face": "exterior",
+      "jamb_core_gap_m": 0.0039997100830078125,
+      "head_core_gap_m": null,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_01_",
+      "corner": "Left_head",
+      "face": "interior",
+      "jamb_core_gap_m": 0.0039997100830078125,
+      "head_core_gap_m": 0.004,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_01_",
+      "corner": "Left_head",
+      "face": "exterior",
+      "jamb_core_gap_m": 0.0039997100830078125,
+      "head_core_gap_m": 0.004,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_01_",
+      "corner": "Right_sill",
+      "face": "interior",
+      "jamb_core_gap_m": 0.004000473022461648,
+      "head_core_gap_m": null,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_01_",
+      "corner": "Right_sill",
+      "face": "exterior",
+      "jamb_core_gap_m": 0.004000473022461648,
+      "head_core_gap_m": null,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_01_",
+      "corner": "Right_head",
+      "face": "interior",
+      "jamb_core_gap_m": 0.004000473022461648,
+      "head_core_gap_m": 0.004,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_01_",
+      "corner": "Right_head",
+      "face": "exterior",
+      "jamb_core_gap_m": 0.004000473022461648,
+      "head_core_gap_m": 0.004,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_02_",
+      "corner": "Left_sill",
+      "face": "interior",
+      "jamb_core_gap_m": 0.0039997100830078125,
+      "head_core_gap_m": null,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_02_",
+      "corner": "Left_sill",
+      "face": "exterior",
+      "jamb_core_gap_m": 0.0039997100830078125,
+      "head_core_gap_m": null,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_02_",
+      "corner": "Left_head",
+      "face": "interior",
+      "jamb_core_gap_m": 0.0039997100830078125,
+      "head_core_gap_m": 0.004,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_02_",
+      "corner": "Left_head",
+      "face": "exterior",
+      "jamb_core_gap_m": 0.0039997100830078125,
+      "head_core_gap_m": 0.004,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_02_",
+      "corner": "Right_sill",
+      "face": "interior",
+      "jamb_core_gap_m": 0.003999519348145242,
+      "head_core_gap_m": null,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_02_",
+      "corner": "Right_sill",
+      "face": "exterior",
+      "jamb_core_gap_m": 0.003999519348145242,
+      "head_core_gap_m": null,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_02_",
+      "corner": "Right_head",
+      "face": "interior",
+      "jamb_core_gap_m": 0.003999519348145242,
+      "head_core_gap_m": 0.004,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    },
+    {
+      "window": "PLW_02_",
+      "corner": "Right_head",
+      "face": "exterior",
+      "jamb_core_gap_m": 0.003999519348145242,
+      "head_core_gap_m": 0.004,
+      "ownership": "Head sheet runs over jamb ends with 1 mm seam; sloping sill owns lower reveal; shaped jamb ends clear sloping end dams."
+    }
+  ],
+  "drainage": [
+    {
+      "window": "PLW_01_",
+      "bay": 1,
+      "fraction": 0.17,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_01_",
+      "bay": 1,
+      "fraction": 0.83,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_01_",
+      "bay": 2,
+      "fraction": 0.17,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_01_",
+      "bay": 2,
+      "fraction": 0.83,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_01_",
+      "bay": 3,
+      "fraction": 0.17,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_01_",
+      "bay": 3,
+      "fraction": 0.83,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_02_",
+      "bay": 1,
+      "fraction": 0.17,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_02_",
+      "bay": 1,
+      "fraction": 0.83,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_02_",
+      "bay": 2,
+      "fraction": 0.17,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_02_",
+      "bay": 2,
+      "fraction": 0.83,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_02_",
+      "bay": 3,
+      "fraction": 0.17,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    },
+    {
+      "window": "PLW_02_",
+      "bay": 3,
+      "fraction": 0.83,
+      "outlet_clear": true,
+      "feed_clear": true,
+      "feed_blockers": []
+    }
+  ],
+  "interior_sill_closure": [
+    {
+      "window": "PLW_01_",
+      "closed_rays": 63,
+      "total_rays": 63
+    },
+    {
+      "window": "PLW_02_",
+      "closed_rays": 63,
+      "total_rays": 63
+    }
+  ],
+  "exit_clear_width_m": 1.2,
+  "limits": "Evaluated Blender meshes and sampled ray checks. Engine collision, night lighting and structural/weather performance remain integration work."
+}

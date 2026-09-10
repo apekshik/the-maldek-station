@@ -1,0 +1,5 @@
+*.log
+*.blend1
+references/*.pdf
+references/*.png
+__pycache__/

@@ -1,0 +1,859 @@
+{
+  "source_sha256": "b9d78ed0d7c5c50bc28a8fb6a0d63f1c86fa83d3144c6a7eae50476ee9607796",
+  "objects": [
+    {
+      "name": "FIT_North_0_0",
+      "bounds": [
+        [
+          -23.920000076293945,
+          3.820000171661377,
+          4.0
+        ],
+        [
+          -22.69999885559082,
+          4.0,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_North_1_0",
+      "bounds": [
+        [
+          -22.700000762939453,
+          3.820000171661377,
+          3.999999761581421
+        ],
+        [
+          -18.900001525878906,
+          4.0,
+          4.899999618530273
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_North_1_2.6",
+      "bounds": [
+        [
+          -22.700000762939453,
+          3.820000171661377,
+          6.599999904632568
+        ],
+        [
+          -18.900001525878906,
+          4.0,
+          7.200000286102295
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_North_2_0",
+      "bounds": [
+        [
+          -18.899999618530273,
+          3.820000171661377,
+          4.0
+        ],
+        [
+          -17.69999885559082,
+          4.0,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_North_3_2.3",
+      "bounds": [
+        [
+          -17.700000762939453,
+          3.820000171661377,
+          6.300000190734863
+        ],
+        [
+          -16.5,
+          4.0,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_North_4_0",
+      "bounds": [
+        [
+          -16.5,
+          3.820000171661377,
+          4.0
+        ],
+        [
+          -15.5,
+          4.0,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_North_5_0",
+      "bounds": [
+        [
+          -15.5,
+          3.820000171661377,
+          3.999999761581421
+        ],
+        [
+          -11.700000762939453,
+          4.0,
+          4.899999618530273
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_North_5_2.6",
+      "bounds": [
+        [
+          -15.5,
+          3.820000171661377,
+          6.599999904632568
+        ],
+        [
+          -11.700000762939453,
+          4.0,
+          7.200000286102295
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_North_6_0",
+      "bounds": [
+        [
+          -11.700000762939453,
+          3.820000171661377,
+          4.0
+        ],
+        [
+          -10.280000686645508,
+          4.0,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_West_0_0",
+      "bounds": [
+        [
+          -24.100000381469727,
+          -12.200000762939453,
+          4.0
+        ],
+        [
+          -23.920000076293945,
+          4.0,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_East_0_0",
+      "bounds": [
+        [
+          -10.280000686645508,
+          -13.200000762939453,
+          4.0
+        ],
+        [
+          -10.100000381469727,
+          4.0,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Warm_enamel"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_Frosted_window_placeholder",
+      "bounds": [
+        [
+          -22.700000762939453,
+          3.884999990463257,
+          4.900000095367432
+        ],
+        [
+          -18.900001525878906,
+          3.93500018119812,
+          6.599999904632568
+        ]
+      ],
+      "materials": [
+        "PL03_Frosted_Glass"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "FIT_Frosted_window_placeholder.001",
+      "bounds": [
+        [
+          -15.5,
+          3.884999990463257,
+          4.900000095367432
+        ],
+        [
+          -11.700000762939453,
+          3.93500018119812,
+          6.599999904632568
+        ]
+      ],
+      "materials": [
+        "PL03_Frosted_Glass"
+      ],
+      "collections": [
+        "PL02_Fitted_Lodge_Geometry"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_0_0",
+      "bounds": [
+        [
+          -23.920000076293945,
+          4.002999782562256,
+          4.0
+        ],
+        [
+          -22.69999885559082,
+          4.0320000648498535,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Petrol_paint"
+      ],
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_1_0",
+      "bounds": [
+        [
+          -22.700000762939453,
+          4.002999782562256,
+          3.999999761581421
+        ],
+        [
+          -18.900001525878906,
+          4.0320000648498535,
+          4.899999618530273
+        ]
+      ],
+      "materials": [
+        "VF06_Petrol_paint"
+      ],
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_1_2.6",
+      "bounds": [
+        [
+          -22.700000762939453,
+          4.002999782562256,
+          6.599999904632568
+        ],
+        [
+          -18.900001525878906,
+          4.0320000648498535,
+          7.200000286102295
+        ]
+      ],
+      "materials": [
+        "VF06_Petrol_paint"
+      ],
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_2_0",
+      "bounds": [
+        [
+          -18.899999618530273,
+          4.002999782562256,
+          4.0
+        ],
+        [
+          -17.69999885559082,
+          4.0320000648498535,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Petrol_paint"
+      ],
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_3_2.3",
+      "bounds": [
+        [
+          -17.700000762939453,
+          4.002999782562256,
+          6.300000190734863
+        ],
+        [
+          -16.5,
+          4.0320000648498535,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Petrol_paint"
+      ],
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_4_0",
+      "bounds": [
+        [
+          -16.5,
+          4.002999782562256,
+          4.0
+        ],
+        [
+          -15.5,
+          4.0320000648498535,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Petrol_paint"
+      ],
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_5_0",
+      "bounds": [
+        [
+          -15.5,
+          4.002999782562256,
+          3.999999761581421
+        ],
+        [
+          -11.700000762939453,
+          4.0320000648498535,
+          4.899999618530273
+        ]
+      ],
+      "materials": [
+        "VF06_Petrol_paint"
+      ],
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_5_2.6",
+      "bounds": [
+        [
+          -15.5,
+          4.002999782562256,
+          6.599999904632568
+        ],
+        [
+          -11.700000762939453,
+          4.0320000648498535,
+          7.200000286102295
+        ]
+      ],
+      "materials": [
+        "VF06_Petrol_paint"
+      ],
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "PL03_Cladding_FIT_North_6_0",
+      "bounds": [
+        [
+          -11.700000762939453,
+          4.002999782562256,
+          4.0
+        ],
+        [
+          -10.280000686645508,
+          4.0320000648498535,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Petrol_paint"
+      ],
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    },
+    {
+      "name": "PL03_Cladding_FIT_East_0_0",
+      "bounds": [
+        [
+          -10.097000122070312,
+          -13.200000762939453,
+          4.0
+        ],
+        [
+          -10.068000793457031,
+          4.0,
+          7.199999809265137
+        ]
+      ],
+      "materials": [
+        "VF06_Petrol_paint"
+      ],
+      "collections": [
+        "PL03_Corrugated_Exterior"
+      ],
+      "hide_render": false,
+      "visible": true,
+      "modifiers": []
+    }
+  ],
+  "collections": [
+    [
+      "01_Upper_Platform",
+      false,
+      false
+    ],
+    [
+      "02_Control_Room",
+      false,
+      false
+    ],
+    [
+      "03_Waiting_Hall",
+      false,
+      false
+    ],
+    [
+      "04_Lower_Drive",
+      false,
+      false
+    ],
+    [
+      "05_Generator_Room",
+      false,
+      false
+    ],
+    [
+      "06_Stairs_and_Landings",
+      false,
+      false
+    ],
+    [
+      "07_Overlook",
+      false,
+      false
+    ],
+    [
+      "08_Fuel_Yard",
+      false,
+      false
+    ],
+    [
+      "09_Relay_and_Paths",
+      false,
+      false
+    ],
+    [
+      "10_Parking_and_Arrival",
+      false,
+      false
+    ],
+    [
+      "11_Doors",
+      false,
+      false
+    ],
+    [
+      "12_Gondola",
+      false,
+      false
+    ],
+    [
+      "13_Roofs",
+      false,
+      false
+    ],
+    [
+      "14_Site_Structure",
+      false,
+      false
+    ],
+    [
+      "15_Terrain",
+      false,
+      false
+    ],
+    [
+      "18_Cliff_Anchors",
+      false,
+      false
+    ],
+    [
+      "19_Cable_Route",
+      false,
+      false
+    ],
+    [
+      "20_Lookout_Bridge",
+      false,
+      false
+    ],
+    [
+      "21_Maintenance",
+      false,
+      false
+    ],
+    [
+      "PL01_Furniture_Footprints",
+      false,
+      false
+    ],
+    [
+      "PL01_Labels_and_Clearances",
+      false,
+      false
+    ],
+    [
+      "PL01_Linked_Lodge_Assembly",
+      false,
+      false
+    ],
+    [
+      "PL01_Restroom_Fixtures",
+      false,
+      false
+    ],
+    [
+      "PL01_Review",
+      false,
+      false
+    ],
+    [
+      "PL01_Roof_Envelope",
+      true,
+      true
+    ],
+    [
+      "PL01_Shell",
+      false,
+      false
+    ],
+    [
+      "PL02_Fitted_Lodge_Geometry",
+      false,
+      false
+    ],
+    [
+      "PL02_New_Deck_Rails_and_Stair",
+      false,
+      false
+    ],
+    [
+      "PL02_Retained_East_Rails_and_Supports",
+      false,
+      false
+    ],
+    [
+      "PL03_Corrugated_Exterior",
+      false,
+      false
+    ],
+    [
+      "PL03_Furniture_Details",
+      false,
+      false
+    ],
+    [
+      "PL03_Open_Grating",
+      false,
+      false
+    ],
+    [
+      "PL03_Removable_Roof",
+      false,
+      false
+    ],
+    [
+      "Source_VF07_Routes_and_Anchors",
+      false,
+      false
+    ],
+    [
+      "VF06_Banded_Public_Deck",
+      false,
+      false
+    ],
+    [
+      "VF06_Canopy_Junction",
+      false,
+      false
+    ],
+    [
+      "VF06_Control",
+      false,
+      false
+    ],
+    [
+      "VF06_Gondola_Details",
+      false,
+      false
+    ],
+    [
+      "VF06_Lower_Gallery_Details",
+      false,
+      false
+    ],
+    [
+      "VF06_Maintenance_Shells",
+      false,
+      false
+    ],
+    [
+      "VF06_New_Construction",
+      false,
+      false
+    ],
+    [
+      "VF06_Presentation",
+      false,
+      false
+    ],
+    [
+      "VF06_Quarters",
+      false,
+      false
+    ],
+    [
+      "VF06_Quarters_Rear_Stair",
+      false,
+      false
+    ],
+    [
+      "VF06_Relay_Shell",
+      false,
+      false
+    ],
+    [
+      "VF06_Service_Hardware",
+      false,
+      false
+    ],
+    [
+      "VF06_Transferred_Details",
+      false,
+      false
+    ],
+    [
+      "VF06_Waiting_Hall",
+      false,
+      false
+    ],
+    [
+      "VF06_Water_Service_Terrace",
+      false,
+      false
+    ],
+    [
+      "VF06_Water_Tower",
+      false,
+      false
+    ],
+    [
+      "VF07_Continuous_Service_Routes",
+      false,
+      false
+    ],
+    [
+      "VF07_Deck_Structure",
+      false,
+      false
+    ],
+    [
+      "VF07_Internal_Tread_Refresh",
+      false,
+      false
+    ],
+    [
+      "VF07_Public_Deck",
+      false,
+      false
+    ],
+    [
+      "VF07_Public_Guards",
+      false,
+      false
+    ],
+    [
+      "VF07_Quarters_Access",
+      false,
+      false
+    ],
+    [
+      "VF07_Service_Apron",
+      false,
+      false
+    ],
+    [
+      "VF07_Service_Descent",
+      false,
+      false
+    ],
+    [
+      "VF07_Sideways_Arrival",
+      false,
+      false
+    ],
+    [
+      "VF07_Water_Pipework",
+      false,
+      false
+    ]
+  ]
+}
