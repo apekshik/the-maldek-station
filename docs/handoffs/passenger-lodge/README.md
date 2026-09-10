@@ -11,6 +11,7 @@ Read [the shared contract](shared-contract.md), then one work package:
 5. [Tables and benches](05-benches.md): the six picnic tables and twelve matching benches, including realistic construction and wear.
 6. [Lockers](06-lockers.md): the twelve-unit bank, moving doors, interiors and mechanical hardware.
 7. [Wall displays and artwork](07-wall-details.md): posters, maps, timetable, notices, fixed-wall wayfinding, menu artwork and supporting wall details.
+8. [Additional east-wall dressing](08-east-wall-dressing.md): an additive pass against the integrated lodge 04, furnishing the bare wall between the visitor map and lockers with period displays and practical fittings.
 
 The restroom task owns every bathroom door. The kitchen task reserves the staff doorway; the lodge-door task owns its door assembly. This avoids cross-task ownership of the same mesh.
 
