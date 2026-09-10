@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\Maldek_Station_Cleanup.blend",
+  "source_sha256": "e2ce19363f35f7fbef1860f5d5591e53ccf0b97d989085153b631a82558724dd",
+  "imported_meshes": 10581,
+  "changed_source_transforms": [],
+  "source_file_unchanged": true,
+  "reference_scene": "03_Existing_Station_Reference",
+  "lodge_staging_offset_m": [
+    -43.0,
+    0.0,
+    4.0
+  ],
+  "site_placement_approved": false,
+  "contains": "Actual appended source platform, grating, railings, stairs, control, quarters, terrain and station assemblies; not bounding-box substitutes."
+}

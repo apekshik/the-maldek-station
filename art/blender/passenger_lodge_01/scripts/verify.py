@@ -2,7 +2,7 @@ import bpy,bmesh,json,hashlib
 from pathlib import Path
 OUT=Path(__file__).resolve().parents[1]
 bpy.ops.wm.open_mainfile(filepath=str(OUT/'Maldek_Passenger_Lodge_Layout.blend'))
-s=bpy.data.scenes['01_Lodge_Layout'];dg=bpy.context.evaluated_depsgraph_get();bad=[]
+s=bpy.data.scenes['01_Lodge_Layout'];bpy.context.window.scene=s;dg=bpy.context.evaluated_depsgraph_get();bad=[]
 for o in s.objects:
  if o.type!='MESH':continue
  eo=o.evaluated_get(dg);me=eo.to_mesh();bm=bmesh.new();bm.from_mesh(me)
@@ -16,6 +16,11 @@ assert len([o for o in s.objects if o.name.startswith('Bench_') and o.name.endsw
 assert len([o for o in s.objects if o.name.startswith('Locker_') and o.name.endswith('_Door')])==12
 assert bpy.data.collections['PL01_Roof_Envelope'].hide_render
 assert '02_Protected_Site_Study' in bpy.data.scenes
-previews=sorted((OUT/'previews').glob('*.png'));assert len(previews)==5
+if '03_Existing_Station_Reference' in bpy.data.scenes:
+ ref=json.loads((OUT/'station_reference.json').read_text())
+ assert ref['source_file_unchanged'] and not ref['changed_source_transforms']
+ assert ref['imported_meshes']>100
+ assert 'NEW_LODGE_STAGING_ONLY_NOT_SITE_PLACEMENT' in bpy.data.objects
+previews=sorted((OUT/'previews').glob('*.png'));assert len(previews)>=5
 result={'passed':True,'saved_reopened':True,'evaluated_nonmanifold_meshes':bad,'sampled_clearance_radius_m':.34,'routes':len(r['routes']),'preview_count':len(previews),'blend_sha256':hashlib.sha256((OUT/'Maldek_Passenger_Lodge_Layout.blend').read_bytes()).hexdigest(),'limitations':'Axis-aligned blockout clearance samples; not Unreal collision or continuous capsule testing. Site placement uncommitted. Roof and props are layout proxies.'}
 (OUT/'verification.json').write_text(json.dumps(result,indent=2));print(json.dumps(result))

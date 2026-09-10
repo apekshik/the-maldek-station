@@ -4,7 +4,7 @@
   "evaluated_nonmanifold_meshes": [],
   "sampled_clearance_radius_m": 0.34,
   "routes": 7,
-  "preview_count": 5,
-  "blend_sha256": "350e48ddac8ea2a8138482190a6782d1d9414cc372c924ddd5b72430b6153107",
+  "preview_count": 6,
+  "blend_sha256": "db0201b0591e245947dc594a9e3fc0344d468241dcbfde4a064a2782c2e911de",
   "limitations": "Axis-aligned blockout clearance samples; not Unreal collision or continuous capsule testing. Site placement uncommitted. Roof and props are layout proxies."
 }

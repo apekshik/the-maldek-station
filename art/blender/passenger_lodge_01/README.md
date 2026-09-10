@@ -19,3 +19,12 @@ Review images: top plan, cutaway, player entry, coffee workspace and restroom ap
 7. Materials, restrained wear, lighting, sound and final Blender review; then export/import and test Unreal. No phase is marked finished merely because a proxy exists.
 
 Rebuild from repo root with Blender 5.0 background `--python art/blender/passenger_lodge_01/scripts/build.py`, then run `scripts/verify.py` in a separate Blender process. Earlier station and lodge plans remain the design reference.
+
+
+## Existing station included
+
+`03_Existing_Station_Reference` appends the actual VF07 station scene, including platform plates/grating, railings, stairs, control, quarters and terrain. Imported source mesh transforms are checked unchanged and the original .blend is not modified. This replaces reliance on simple reference boxes when judging the design against existing architecture.
+
+A linked instance of the new lodge is staged west of the station at (-43, 0, 4) metres for side-by-side comparison. **This is a staging position, not its proposed final location or a connected platform.** Edit lodge geometry in `01_Lodge_Layout`; the reference-scene instance follows those edits. Work toward the existing control/platform by replacing only the identified waiting-hall/deck parts after a route-protection and site-fit pass. Do not move the established approach to make the staged instance fit.
+
+Run `scripts/add_station_reference.py` after the blockout build and before `scripts/verify.py`. It adds the reference scene and sixth review image. The saved file opens on that reference scene. `station_reference.json` records provenance and preservation checks. This remains the VF07 source baseline, not a fresh export of all subsequent Unreal dressing changes.
