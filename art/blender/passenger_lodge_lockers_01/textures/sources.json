@@ -1,0 +1,11 @@
+{
+  "asset": "Painted Metal 012",
+  "author": "ambientCG / Lennart Demes",
+  "source": "https://ambientcg.com/view?id=PaintedMetal012",
+  "download": "https://ambientcg.com/get?file=PaintedMetal012_1K-JPG.zip",
+  "license": "CC0 1.0",
+  "license_url": "https://docs.ambientcg.com/license/",
+  "retained_file": "PaintedMetal012_1K-JPG_Roughness.jpg",
+  "sha256": "4474096e77d3cb223cdaf7d7b4b4164ac193818ef74fd79dcceeb4ce3ee190e9",
+  "use": "Non-color roughness and subtle painted-surface color variation; packed into both blends. Source color/rust maps are not used."
+}

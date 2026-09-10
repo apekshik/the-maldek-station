@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "retained_objects": 11936,
+  "method": "Exact source versus saved review hashes of mesh vertex positions, polygon indices, material slots, world matrices and font text; excludes only 96 manifest replacements.",
+  "source_sha256": "b9d78ed0d7c5c50bc28a8fb6a0d63f1c86fa83d3144c6a7eae50476ee9607796",
+  "visibility": "Original excluded collections remain hidden; roof is intentionally hidden for review."
+}
