@@ -1,0 +1,27 @@
+{
+  "saved_reopened": true,
+  "all_scene_geometry_transforms_parents_unchanged": true,
+  "reference_material_slots_unchanged": true,
+  "new_material_count": 11,
+  "used_texture_count": 7,
+  "all_used_textures_packed": true,
+  "geometry_clearances": "Inherited unchanged from clean verification.json and mechanism_contacts.json; no engine collision tested.",
+  "clean_blend_sha256": "bdc3877c054ea9fbac644fbe7f4344c7391a74553a2878441f7e1dde9ed6c168",
+  "asset_library_reopened": true,
+  "asset_library_meshes": 402,
+  "asset_library_reference_context_absent": true,
+  "asset_library_packed_relative_images": 7,
+  "downloaded_texture_hashes_verified": 14,
+  "review_renders": [
+    "PLK_REVIEW_01_Customer.png",
+    "PLK_REVIEW_02_Staff_counter.png",
+    "PLK_REVIEW_03_Staff_entry.png",
+    "PLK_REVIEW_04_Rear_prep.png",
+    "PLK_REVIEW_05_Washing.png",
+    "PLK_REVIEW_06_Overhead.png",
+    "PLK_REVIEW_07_Handwashing.png",
+    "PLK_REVIEW_08_Open_mechanisms.png",
+    "PLK_REVIEW_09_Cubby.png",
+    "PLK_REVIEW_10_Beverage_equipment.png"
+  ]
+}

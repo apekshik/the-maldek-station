@@ -1,0 +1,200 @@
+[
+  {
+    "clean_material": "PL03_Aged_Pine",
+    "weathered_material": "PLK_Worn_Aged_Pine",
+    "blender_only": true,
+    "textures": [
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg",
+      "wood_cabinet_worn_long_diff_2k.jpg",
+      "wood_cabinet_worn_long_rough_2k.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": false,
+      "fine_scuffs": false,
+      "cup_rings": false,
+      "worn_wood": true
+    }
+  },
+  {
+    "clean_material": "PL03_Warm_Porcelain",
+    "weathered_material": "PLK_Worn_Warm_Porcelain",
+    "blender_only": true,
+    "textures": [
+      "SurfaceImperfections001_2K-JPG_Opacity.jpg",
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": true,
+      "fine_scuffs": false,
+      "cup_rings": false,
+      "worn_wood": false
+    }
+  },
+  {
+    "clean_material": "PLK_Bakelite_rubber",
+    "weathered_material": "PLK_Worn_Bakelite_rubber",
+    "blender_only": true,
+    "textures": [
+      "Scratches004_2K-JPG_Opacity.jpg",
+      "Smear004_2K-JPG_Roughness.jpg",
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": false,
+      "fine_scuffs": true,
+      "cup_rings": false,
+      "worn_wood": false
+    }
+  },
+  {
+    "clean_material": "PLK_Brushed_stainless",
+    "weathered_material": "PLK_Worn_Brushed_stainless",
+    "blender_only": true,
+    "textures": [
+      "Scratches004_2K-JPG_Opacity.jpg",
+      "Smear004_2K-JPG_Roughness.jpg",
+      "SurfaceImperfections001_2K-JPG_Opacity.jpg",
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": true,
+      "fine_scuffs": true,
+      "cup_rings": false,
+      "worn_wood": false
+    }
+  },
+  {
+    "clean_material": "PLK_Carcass_birch",
+    "weathered_material": "PLK_Worn_Carcass_birch",
+    "blender_only": true,
+    "textures": [
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg",
+      "wood_cabinet_worn_long_diff_2k.jpg",
+      "wood_cabinet_worn_long_rough_2k.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": false,
+      "fine_scuffs": false,
+      "cup_rings": false,
+      "worn_wood": true
+    }
+  },
+  {
+    "clean_material": "PLK_Chrome",
+    "weathered_material": "PLK_Worn_Chrome",
+    "blender_only": true,
+    "textures": [
+      "Scratches004_2K-JPG_Opacity.jpg",
+      "Smear004_2K-JPG_Roughness.jpg",
+      "SurfaceImperfections001_2K-JPG_Opacity.jpg",
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": true,
+      "fine_scuffs": true,
+      "cup_rings": false,
+      "worn_wood": false
+    }
+  },
+  {
+    "clean_material": "PLK_Display_glass",
+    "weathered_material": "PLK_Worn_Display_glass",
+    "blender_only": true,
+    "textures": [
+      "Scratches004_2K-JPG_Opacity.jpg",
+      "Smear004_2K-JPG_Roughness.jpg",
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": false,
+      "fine_scuffs": true,
+      "cup_rings": false,
+      "worn_wood": false
+    }
+  },
+  {
+    "clean_material": "PLK_Paper",
+    "weathered_material": "PLK_Worn_Paper",
+    "blender_only": true,
+    "textures": [
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": false,
+      "fine_scuffs": false,
+      "cup_rings": false,
+      "worn_wood": false
+    }
+  },
+  {
+    "clean_material": "PLK_Warm_grey_laminate",
+    "weathered_material": "PLK_Worn_Warm_grey_laminate",
+    "blender_only": true,
+    "textures": [
+      "Scratches004_2K-JPG_Opacity.jpg",
+      "Smear004_2K-JPG_Roughness.jpg",
+      "SurfaceImperfections007_2K-JPG_Opacity.jpg",
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": false,
+      "fine_scuffs": true,
+      "cup_rings": true,
+      "worn_wood": false
+    }
+  },
+  {
+    "clean_material": "VF06_Petrol_paint",
+    "weathered_material": "PLK_Worn_Petrol_paint",
+    "blender_only": true,
+    "textures": [
+      "Scratches004_2K-JPG_Opacity.jpg",
+      "Smear004_2K-JPG_Roughness.jpg",
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": false,
+      "fine_scuffs": true,
+      "cup_rings": false,
+      "worn_wood": false
+    }
+  },
+  {
+    "clean_material": "VF06_Warm_enamel",
+    "weathered_material": "PLK_Worn_Warm_enamel",
+    "blender_only": true,
+    "textures": [
+      "Scratches004_2K-JPG_Opacity.jpg",
+      "Smear004_2K-JPG_Roughness.jpg",
+      "SurfaceImperfections015_2K-JPG_Opacity.jpg"
+    ],
+    "treatment": {
+      "directional_dust": true,
+      "cavity_dirt": true,
+      "water_residue": false,
+      "fine_scuffs": true,
+      "cup_rings": false,
+      "worn_wood": false
+    }
+  }
+]

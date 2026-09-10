@@ -1,0 +1,128 @@
+[
+  {
+    "provider": "ambientCG",
+    "asset": "SurfaceImperfections015",
+    "page": "https://ambientcg.com/a/SurfaceImperfections015",
+    "download": "https://ambientcg.com/get?file=SurfaceImperfections015_2K-JPG.zip",
+    "file": "SurfaceImperfections015_2K-JPG_Color.jpg",
+    "sha256": "afc2ef1e639489ca2823f194d99e742e009695a70182cc155d24de57b5b5fd37",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "ambientCG",
+    "asset": "SurfaceImperfections015",
+    "page": "https://ambientcg.com/a/SurfaceImperfections015",
+    "download": "https://ambientcg.com/get?file=SurfaceImperfections015_2K-JPG.zip",
+    "file": "SurfaceImperfections015_2K-JPG_Opacity.jpg",
+    "sha256": "50ff5018cb21951bb53b8cc75303671852e73ae7e494d424f62e7b9c7c2e1d56",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "ambientCG",
+    "asset": "SurfaceImperfections015",
+    "page": "https://ambientcg.com/a/SurfaceImperfections015",
+    "download": "https://ambientcg.com/get?file=SurfaceImperfections015_2K-JPG.zip",
+    "file": "SurfaceImperfections015_2K-JPG_Roughness.jpg",
+    "sha256": "f0a9e98b9acbfa1aad8df6328edeec672ffd224b6f644bb40549d0581eadff30",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "ambientCG",
+    "asset": "SurfaceImperfections001",
+    "page": "https://ambientcg.com/a/SurfaceImperfections001",
+    "download": "https://ambientcg.com/get?file=SurfaceImperfections001_2K-JPG.zip",
+    "file": "SurfaceImperfections001_2K-JPG_Color.jpg",
+    "sha256": "a95ae019bd983747e0694efe920224253c43edd6b4da17f8221f2604388dea83",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "ambientCG",
+    "asset": "SurfaceImperfections001",
+    "page": "https://ambientcg.com/a/SurfaceImperfections001",
+    "download": "https://ambientcg.com/get?file=SurfaceImperfections001_2K-JPG.zip",
+    "file": "SurfaceImperfections001_2K-JPG_Opacity.jpg",
+    "sha256": "a95ae019bd983747e0694efe920224253c43edd6b4da17f8221f2604388dea83",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "ambientCG",
+    "asset": "SurfaceImperfections007",
+    "page": "https://ambientcg.com/a/SurfaceImperfections007",
+    "download": "https://ambientcg.com/get?file=SurfaceImperfections007_2K-JPG.zip",
+    "file": "SurfaceImperfections007_2K-JPG_Color.jpg",
+    "sha256": "be0d5632f386e1f98abf57339575237387e99987fb4de01773b8bac58e781d6e",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "ambientCG",
+    "asset": "SurfaceImperfections007",
+    "page": "https://ambientcg.com/a/SurfaceImperfections007",
+    "download": "https://ambientcg.com/get?file=SurfaceImperfections007_2K-JPG.zip",
+    "file": "SurfaceImperfections007_2K-JPG_Opacity.jpg",
+    "sha256": "be0d5632f386e1f98abf57339575237387e99987fb4de01773b8bac58e781d6e",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "ambientCG",
+    "asset": "Scratches004",
+    "page": "https://ambientcg.com/a/Scratches004",
+    "download": "https://ambientcg.com/get?file=Scratches004_2K-JPG.zip",
+    "file": "Scratches004_2K-JPG_Color.jpg",
+    "sha256": "8510e6ed6345175fc2f67e872332fc726a68769e9d070b7d53453386e052672b",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "ambientCG",
+    "asset": "Scratches004",
+    "page": "https://ambientcg.com/a/Scratches004",
+    "download": "https://ambientcg.com/get?file=Scratches004_2K-JPG.zip",
+    "file": "Scratches004_2K-JPG_Opacity.jpg",
+    "sha256": "8510e6ed6345175fc2f67e872332fc726a68769e9d070b7d53453386e052672b",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "ambientCG",
+    "asset": "Smear004",
+    "page": "https://ambientcg.com/a/Smear004",
+    "download": "https://ambientcg.com/get?file=Smear004_2K-JPG.zip",
+    "file": "Smear004_2K-JPG_Color.jpg",
+    "sha256": "207be44b4f0e1614ae89e0343889b20cde7b7cdbe1726d0d3e6a9316864c3a23",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "ambientCG",
+    "asset": "Smear004",
+    "page": "https://ambientcg.com/a/Smear004",
+    "download": "https://ambientcg.com/get?file=Smear004_2K-JPG.zip",
+    "file": "Smear004_2K-JPG_Roughness.jpg",
+    "sha256": "897a3610b58949dae5f9c3b6f5962a9c581ddeda751c20f9f01f8651a528f774",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "Poly Haven",
+    "asset": "wood_cabinet_worn_long",
+    "page": "https://polyhaven.com/a/wood_cabinet_worn_long",
+    "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_cabinet_worn_long/wood_cabinet_worn_long_diff_2k.jpg",
+    "file": "wood_cabinet_worn_long_diff_2k.jpg",
+    "sha256": "de86a6c12fed2284c57be666abfabfa6601dcd5226bd56e70fd6c9722df3291a",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "Poly Haven",
+    "asset": "wood_cabinet_worn_long",
+    "page": "https://polyhaven.com/a/wood_cabinet_worn_long",
+    "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_cabinet_worn_long/wood_cabinet_worn_long_rough_2k.jpg",
+    "file": "wood_cabinet_worn_long_rough_2k.jpg",
+    "sha256": "0f63854881c9c94145c9b06a9299493d74cd8d7bfd2ec12875573cd23dd14508",
+    "license": "CC0-1.0"
+  },
+  {
+    "provider": "Poly Haven",
+    "asset": "wood_cabinet_worn_long",
+    "page": "https://polyhaven.com/a/wood_cabinet_worn_long",
+    "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_cabinet_worn_long/wood_cabinet_worn_long_nor_gl_2k.jpg",
+    "file": "wood_cabinet_worn_long_nor_gl_2k.jpg",
+    "sha256": "c39684e3d84e9e639a9f5e53008d1efab9d3661f8bcdd385eadbd0dc67d14775",
+    "license": "CC0-1.0"
+  }
+]

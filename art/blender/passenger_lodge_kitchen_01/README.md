@@ -1,5 +1,10 @@
 # Passenger lodge coffee preparation package
 
+An optional [weathered finish variant](weathering/README.md) adds downloaded CC0
+dust, water marks, scuffs, smudges and worn furniture textures. It includes a
+separate fitted blend, asset library and matching review renders; clean files below
+remain the geometry baseline.
+
 Editable, fitted Blender assembly for the enclosed coffee annex. Open `Maldek_Passenger_Lodge_Kitchen.blend`, scene `PLK_Fitted_Review`. `PLK_Assets.blend` is a separate appendable collection library without station context. Finished meshes are in `PLK_Assets` beneath `PLK_Assembly`. Everything under `REFERENCE_ONLY_Source_Context`, all other source scenes, and every `PLK_REVIEW_*` collection are context/review only and must be excluded from asset exports.
 
 ## Fit and ownership
