@@ -1,5 +1,5 @@
 {
-  "blend_sha256": "07e2a5a744a1e6be984e5f0c642a0949d66e2f1ef3578a5171c97edae7f85a27",
+  "blend_sha256": "7e8ea2f111c2de70c179be07aa517059559dfb6605bff19a4f79744f91b9a611",
   "saved_reopened": true,
   "topology": [
     {
@@ -1194,13 +1194,7 @@
       "object": "PLR_Women_Basin_bowl",
       "nonmanifold_edges": 0,
       "degenerate_faces": 0,
-      "faces": 576
-    },
-    {
-      "object": "PLR_Women_Tap_deck",
-      "nonmanifold_edges": 0,
-      "degenerate_faces": 0,
-      "faces": 98
+      "faces": 768
     },
     {
       "object": "PLR_Women_Drain",
@@ -1380,13 +1374,7 @@
       "object": "PLR_Men_Basin_bowl",
       "nonmanifold_edges": 0,
       "degenerate_faces": 0,
-      "faces": 576
-    },
-    {
-      "object": "PLR_Men_Tap_deck",
-      "nonmanifold_edges": 0,
-      "degenerate_faces": 0,
-      "faces": 98
+      "faces": 768
     },
     {
       "object": "PLR_Men_Drain",

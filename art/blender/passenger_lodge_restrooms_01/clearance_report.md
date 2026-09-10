@@ -1,6 +1,6 @@
 # Saved-file topology and clearance report
 
-Overall result: **PASS**. 275 evaluated asset meshes; 24,684 evaluated polygons. All have zero non-manifold edges and zero degenerate faces.
+Overall result: **PASS**. 273 evaluated asset meshes; 24,872 evaluated polygons. All have zero non-manifold edges and zero degenerate faces.
 
 All 5 patched context meshes are manifold. Source hash remains unchanged.
 
@@ -42,7 +42,7 @@ Both nominal 0.900 x 2.200 m openings passed 267 reveal rays each. Door leaves a
 
 ## Replacement and surface ownership
 
-13 exact proxies are replaced; 282 asset objects are inventoried. The new closed rear cubicle panels, door assemblies and ancillary hardware are additions within the approved envelopes. No hall lockers, hall furniture or privacy-screen walls were changed.
+13 exact proxies are replaced; 280 asset objects are inventoried. The new closed rear cubicle panels, door assemblies and ancillary hardware are additions within the approved envelopes. No hall lockers, hall furniture or privacy-screen walls were changed.
 
 See `replacement_manifest.json` for every original proxy, its replacement parts and the five opening-specific patches; `asset_inventory.json` provides dimensions, material slots, parent relationships and assembly matrices.
 

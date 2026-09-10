@@ -1,0 +1,50 @@
+[
+  {
+    "name": "05_basin_detail",
+    "camera_local": [
+      9.65,
+      14.5,
+      1.42
+    ],
+    "target_local": [
+      8.46,
+      14.18,
+      0.86
+    ],
+    "frame": 1,
+    "temporary_review_lighting": true,
+    "roof_hidden": true
+  },
+  {
+    "name": "06_stall_hardware",
+    "camera_local": [
+      9.27,
+      14.28,
+      1.4
+    ],
+    "target_local": [
+      9.12,
+      15.31,
+      1.14
+    ],
+    "frame": 1,
+    "temporary_review_lighting": true,
+    "roof_hidden": true
+  },
+  {
+    "name": "13_basin_interior",
+    "camera_local": [
+      9.3,
+      14.2,
+      1.95
+    ],
+    "target_local": [
+      8.46,
+      14.18,
+      0.74
+    ],
+    "frame": 1,
+    "temporary_review_lighting": true,
+    "roof_hidden": true
+  }
+]

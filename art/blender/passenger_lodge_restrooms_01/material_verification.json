@@ -1,0 +1,48 @@
+{
+  "packed_images": [
+    {
+      "name": "metal_plate_02_diff_2k.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "metal_plate_02_rough_2k.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "metal_plate_02_metal_2k.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "metal_plate_02_nor_gl_2k.jpg",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    }
+  ],
+  "uv_mesh_count": 273,
+  "source": "https://polyhaven.com/a/metal_plate_02",
+  "license": "CC0",
+  "source_hashes_verified": true,
+  "procedural_layers": "Blender only; bake/recreate at Unreal integration",
+  "saved_reopened": true,
+  "packed_hashes_verified": true,
+  "rounded_basin_envelopes_verified": true
+}

@@ -17,3 +17,11 @@ The cream ceramic, petrol laminate and practical metalwork are an interpretation
 of the lodge's early-1990s design intent. Contemporary references establish
 recognizable construction, not historical product provenance. Hidden valve
 internals and concealed fastening mechanisms are intentionally not modeled.
+
+## Rounded basin and abandonment revision
+
+- [Ideal Standard Connect Air E0298](https://www.idealstandard.co.uk/products/e0298): contemporary 600 x 460 x 160 mm wall basin with central tap hole, overflow and wall fixing, used for construction/proportion comparison. The custom PLR basin preserves its own 620 x 510 mm envelope.
+- [Poly Haven Metal Plate 02](https://polyhaven.com/a/metal_plate_02), Rob Tuytel: downloaded albedo, roughness, metalness and OpenGL normal maps at 2K. Adapted for aged hardware and as roughness variation for coated panels; not a claim that laminate is bare corroded steel.
+- [Poly Haven asset license](https://polyhaven.com/license): CC0. Download URLs and verified hashes are retained in `textures/provenance.json`. Powered by Poly Haven (download API).
+
+Dirt distribution and basin mineral deposits are authored procedural layers, not downloaded scans. No dirty-tile texture was applied to fixtures.

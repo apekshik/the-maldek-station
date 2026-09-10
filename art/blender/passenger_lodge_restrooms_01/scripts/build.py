@@ -171,15 +171,15 @@ for n,x,w in [('Women_A',8.25,1.2),('Women_B',9.6,1.2),('Men_A',11.2,1.25)]:
  box(n+'_Sanitary_bin',(x+w-.19,16.61,.23),(.23,.24,.42),cream,.035)
  box(n+'_Bin_lid',(x+w-.19,16.61,.452),(.24,.25,.035),steel)
  replacements['FIT_'+n+'_WC']=[o.name for o in set(asset.objects)-before if any(k in o.name for k in ['Toilet','Seat','Pedestal','Cistern','Flush','Supply','Isolation','Waste'])]
+from basin import build_basin
 # Wall mounted basins face the room from west/east side walls.
 for n,wall,sign in [('Women',8.18,1),('Men',13.82,-1)]:
  before=set(asset.objects);cx=wall+sign*.28;dd=14.18 if n=='Women' else 14.5
- bowl(n+'_Basin_bowl',(cx,dd,.86),.255,.31,[(.11,-.20),(.65,-.19),(.96,-.045),(1,-.01),(.98,.01),(.82,.014),(.72,-.03),(.44,-.13),(.11,-.15)],cream)
- box(n+'_Tap_deck',(wall+sign*.10,dd,.790),(.18,.49,.15),cream,.02)
+ build_basin(mesh,W,n,cx,dd,sign,cream)
  tube(n+'_Drain',[(cx,dd,.719),(cx,dd,.737)],.029,steel)
  for j in range(7):
   a=j*math.tau/7;tube(n+'_Drain_slot_'+str(j),[(cx+.016*math.cos(a),dd+.016*math.sin(a),.737),(cx+.016*math.cos(a),dd+.016*math.sin(a),.739)],.0027,dark)
- box(n+'_Overflow',(cx-sign*.189,dd,.819),(.007,.047,.012),dark,.004)
+ box(n+'_Overflow',(cx-sign*.145,dd,.843),(.007,.047,.012),dark,.004)
  tube(n+'_Trap',[(cx,dd,.69),(cx,dd,.46),(cx-sign*.07,dd,.40),(cx-sign*.15,dd,.45),(cx-sign*.15,dd,.54),(wall+sign*.02,dd,.54)],.022,steel)
  tube(n+'_Waste_wall_flange',[(wall-sign*.005,dd,.54),(wall+sign*.03,dd,.54)],.037,steel)
  for off in [-.14,.14]:
@@ -221,6 +221,8 @@ for o in asset.objects:
   center=sum((v.co for v in o.data.vertices),Vector())/len(o.data.vertices)
   o.data.transform(Matrix.Translation(-center));o.matrix_basis=o.matrix_basis@Matrix.Translation(center)
 bpy.context.view_layer.update()
+from weathering import apply as apply_weathering
+apply_weathering(P,asset)
 # All generated asset geometry remains separate/editable, local object origins documented in inventory.
 for o in asset.objects:
  o['package']='PLR';o['export_asset']=True

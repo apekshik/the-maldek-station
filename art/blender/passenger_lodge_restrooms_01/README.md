@@ -61,8 +61,9 @@ Run with Blender 5.0 from the repository root:
 
 ```text
 blender --background --python art/blender/passenger_lodge_restrooms_01/scripts/build.py
-blender --background --python art/blender/passenger_lodge_restrooms_01/scripts/verify.py
-blender --background --threads 6 --python art/blender/passenger_lodge_restrooms_01/scripts/render.py
+blender --background --python art/blender/passenger_lodge_restrooms_01/scripts/render.py
+blender --background --threads 4 --python art/blender/passenger_lodge_restrooms_01/scripts/verify.py
+blender --background --python art/blender/passenger_lodge_restrooms_01/scripts/verify_materials.py
 blender --background --python art/blender/passenger_lodge_restrooms_01/scripts/report.py
 ```
 
@@ -86,8 +87,12 @@ See `REFERENCES.md` for manufacturer references used for the ceramic forms,
 exposed connections and partition hardware. This is an original station design,
 not a branded replica or claim that current catalog products date from 1990.
 
-New materials are simple Principled materials. The retained station context may
-contain Blender-only procedural materials. UV preparation/baking, export LODs,
+Materials now include packed 2K CC0 scan textures and adjustable procedural
+weathering. See `MATERIALS.md` for sources, mapping, controls and limitations.
+Both basins are rounded rectangular, 620 x 510 mm, with 75 mm outer corner
+radii and integrated tap decks; their centers and maximum projections remain
+unchanged. The obsolete separate tap-deck blocks were removed.
+Texture baking, export LODs,
 engine material conversion, collision authoring, door/indicator interaction and
 actual player traversal remain integration work. Preserve the documented swing
 limits and check the narrow stall gates against the final player collision.
