@@ -228,7 +228,11 @@ namespace
 {
 bool ValidStationPatch(ALandscape* Land, int32 X1, int32 Y1, int32 X2, int32 Y2, int32 LayerIndex)
 {
-    if (!Land || Land->GetPackage()->GetName() != TEXT("/Game/MaldekRefinement/R12/Station_R12") ||
+    if (!Land) return false;
+    const FString MapPackage = Land->GetPackage()->GetName();
+    const bool bAllowedMap = MapPackage == TEXT("/Game/MaldekRefinement/R12/Station_R12") ||
+        MapPackage == TEXT("/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration");
+    if (!bAllowedMap ||
         !Land->GetLandscapeInfo() || X2 < X1 || Y2 < Y1 ||
         int64(X2-X1+1)*int64(Y2-Y1+1) > 100000 || LayerIndex < -1) return false;
     int32 MinX, MinY, MaxX, MaxY;
@@ -236,7 +240,7 @@ bool ValidStationPatch(ALandscape* Land, int32 X1, int32 Y1, int32 X2, int32 Y2,
         X1 < MinX || Y1 < MinY || X2 > MaxX || Y2 > MaxY) return false;
     if (LayerIndex >= 0 && !Land->GetEditLayer(LayerIndex)) return false;
     for (const FString& Path : UStationMigrationLibrary::GetLandscapeHeightmapPaths(Land))
-        if (!Path.StartsWith(TEXT("/Game/MaldekRefinement/R12/Station_R12."))) return false;
+        if (!Path.StartsWith(MapPackage + TEXT("."))) return false;
     return true;
 }
 }

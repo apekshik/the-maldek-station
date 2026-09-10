@@ -1,0 +1,8409 @@
+{
+  "owners": [
+    "Landscape0",
+    "VF10_Parking_Terrain",
+    "VF10_Parking_Ground"
+  ],
+  "samples": [
+    {
+      "xy": [
+        -34,
+        -24
+      ],
+      "z": 1.1055813624698567,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -23
+      ],
+      "z": 0.16757558643072115,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -22
+      ],
+      "z": -2.361684148513541,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -21
+      ],
+      "z": -4.930933431309477,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -20
+      ],
+      "z": -6.855064860905713,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -19
+      ],
+      "z": -7.632855485428881,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -18
+      ],
+      "z": -7.622317757318924,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -17
+      ],
+      "z": -7.610177855177226,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -16
+      ],
+      "z": -7.59803845493845,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -15
+      ],
+      "z": -7.573206914755556,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -14
+      ],
+      "z": -7.548375836330415,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -13
+      ],
+      "z": -7.5073949624470515,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -12
+      ],
+      "z": -7.4664075442731335,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -11
+      ],
+      "z": -7.363264608630543,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -10
+      ],
+      "z": -7.148557924948636,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -9
+      ],
+      "z": -6.842071654390548,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -8
+      ],
+      "z": -6.4542500210977956,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -7
+      ],
+      "z": -5.9960623276554,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -6
+      ],
+      "z": -5.486328821968272,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -5
+      ],
+      "z": -4.950588367677301,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -4
+      ],
+      "z": -4.388871334258656,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -3
+      ],
+      "z": -3.816468049785308,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -2
+      ],
+      "z": -3.244306868226795,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        -1
+      ],
+      "z": -2.5827813280997725,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        0
+      ],
+      "z": -1.8679958849238392,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        1
+      ],
+      "z": -1.2411364975783727,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        2
+      ],
+      "z": -0.7807790329930322,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        3
+      ],
+      "z": -0.5033448514781048,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        4
+      ],
+      "z": -0.37895428512720175,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        5
+      ],
+      "z": -0.3489183430989033,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        6
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        7
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        8
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        9
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -34,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -24
+      ],
+      "z": 1.160442696953196,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -23
+      ],
+      "z": 0.29635064829550173,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -22
+      ],
+      "z": -1.8416972050190088,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -21
+      ],
+      "z": -4.061321924291569,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -20
+      ],
+      "z": -5.647807388943438,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -19
+      ],
+      "z": -6.288374384132039,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -18
+      ],
+      "z": -6.276597053496534,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -17
+      ],
+      "z": -6.265647340653832,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -16
+      ],
+      "z": -6.254697546057832,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -15
+      ],
+      "z": -6.234179971915474,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -14
+      ],
+      "z": -6.213661068633192,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -13
+      ],
+      "z": -6.1817548962986075,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -12
+      ],
+      "z": -6.1498420823961535,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -11
+      ],
+      "z": -6.063960640904297,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -10
+      ],
+      "z": -5.885228837699433,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -9
+      ],
+      "z": -5.630467535530024,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -8
+      ],
+      "z": -5.308256365205343,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -7
+      ],
+      "z": -4.92906899135076,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -6
+      ],
+      "z": -4.507256352152308,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -5
+      ],
+      "z": -4.062711626957171,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -4
+      ],
+      "z": -3.597284910779108,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -3
+      ],
+      "z": -3.1239949584066924,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -2
+      ],
+      "z": -2.6517928024936372,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        -1
+      ],
+      "z": -2.110569889031285,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        0
+      ],
+      "z": -1.5323652079120802,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        1
+      ],
+      "z": -1.031155756477092,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        2
+      ],
+      "z": -0.668600627850974,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        3
+      ],
+      "z": -0.4555346661867043,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        4
+      ],
+      "z": -0.3649545650036089,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        5
+      ],
+      "z": -0.3471302651683982,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        6
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        7
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        8
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        9
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -33,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -24
+      ],
+      "z": 1.187128688450266,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -23
+      ],
+      "z": 0.3894307125078012,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -22
+      ],
+      "z": -1.2776591284751522,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -21
+      ],
+      "z": -3.1634070871129736,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -20
+      ],
+      "z": -4.53742104254292,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -19
+      ],
+      "z": -5.055490536398411,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -18
+      ],
+      "z": -5.043477049846096,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -17
+      ],
+      "z": -5.033904597753171,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -16
+      ],
+      "z": -5.024332126620703,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -15
+      ],
+      "z": -5.0078117109491,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -14
+      ],
+      "z": -4.991290954895903,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -13
+      ],
+      "z": -4.9672098200780965,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -12
+      ],
+      "z": -4.943128804387416,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -11
+      ],
+      "z": -4.873496236132432,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -10
+      ],
+      "z": -4.728657734032986,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -9
+      ],
+      "z": -4.522530488908014,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -8
+      ],
+      "z": -4.261966942007129,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -7
+      ],
+      "z": -3.9565413827632074,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -6
+      ],
+      "z": -3.6168040495172136,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -5
+      ],
+      "z": -3.2577828031685203,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -4
+      ],
+      "z": -2.8824458302510902,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -3
+      ],
+      "z": -2.5015722594596443,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -2
+      ],
+      "z": -2.122293167517055,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        -1
+      ],
+      "z": -1.6916729959830263,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        0
+      ],
+      "z": -1.2374321521399543,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        1
+      ],
+      "z": -0.8489058181911241,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        2
+      ],
+      "z": -0.5729008480207994,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        3
+      ],
+      "z": -0.41577216277015394,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        4
+      ],
+      "z": -0.35379359556303824,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        5
+      ],
+      "z": -0.34582451158898037,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        6
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        7
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        8
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        9
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -32,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -24
+      ],
+      "z": 1.1163013008102824,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -23
+      ],
+      "z": 0.4381183847376087,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -22
+      ],
+      "z": -0.812035452492546,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -21
+      ],
+      "z": -2.2670852635547636,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -20
+      ],
+      "z": -3.4816830976899293,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -19
+      ],
+      "z": -3.9458161860655308,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -18
+      ],
+      "z": -3.9320049240745174,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -17
+      ],
+      "z": -3.9241762455008393,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -16
+      ],
+      "z": -3.9163478394685263,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -15
+      ],
+      "z": -3.903172766390453,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -14
+      ],
+      "z": -3.8899976773642084,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -13
+      ],
+      "z": -3.8724497488208183,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -12
+      ],
+      "z": -3.8549016643703,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -11
+      ],
+      "z": -3.8002857025474257,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -10
+      ],
+      "z": -3.686821818715325,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -9
+      ],
+      "z": -3.5252451517097687,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -8
+      ],
+      "z": -3.3212719744116113,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -7
+      ],
+      "z": -3.0836394582003415,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -6
+      ],
+      "z": -2.8193250669836925,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -5
+      ],
+      "z": -2.5394582363055087,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -4
+      ],
+      "z": -2.2472388020856306,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -3
+      ],
+      "z": -1.9510637229455097,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -2
+      ],
+      "z": -1.6567041233915005,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        -1
+      ],
+      "z": -1.3261317718656573,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        0
+      ],
+      "z": -0.9825940015375818,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        1
+      ],
+      "z": -0.6934313375638703,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        2
+      ],
+      "z": -0.4927340293119596,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        3
+      ],
+      "z": -0.3833783934253734,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        4
+      ],
+      "z": -0.3451259210752323,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        5
+      ],
+      "z": -0.34491258237158035,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        6
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        7
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        8
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        9
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -31,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -24
+      ],
+      "z": 0.6135026745971299,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -23
+      ],
+      "z": 0.4042031440864048,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -22
+      ],
+      "z": -0.4667482442323126,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -21
+      ],
+      "z": -1.5228971097186332,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -20
+      ],
+      "z": -2.474651281271508,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -19
+      ],
+      "z": -2.9599461660046655,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -18
+      ],
+      "z": -2.951091224578777,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -17
+      ],
+      "z": -2.9449605441637323,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -16
+      ],
+      "z": -2.9388301448589482,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -15
+      ],
+      "z": -2.9287571879819008,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -14
+      ],
+      "z": -2.918684533140058,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -13
+      ],
+      "z": -2.906505259783571,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -12
+      ],
+      "z": -2.8943261670224456,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -11
+      ],
+      "z": -2.85332268672586,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -10
+      ],
+      "z": -2.768294875741758,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -9
+      ],
+      "z": -2.647162332457301,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -8
+      ],
+      "z": -2.4944635034662133,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -7
+      ],
+      "z": -2.317677580293912,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -6
+      ],
+      "z": -2.121051322970161,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -5
+      ],
+      "z": -1.9124433996320658,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -4
+      ],
+      "z": -1.6948997315031555,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -3
+      ],
+      "z": -1.474675888057427,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -2
+      ],
+      "z": -1.2562271208348648,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        -1
+      ],
+      "z": -1.0141312577578174,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        0
+      ],
+      "z": -0.7672703187952902,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        1
+      ],
+      "z": -0.5638469310287292,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        2
+      ],
+      "z": -0.4272132129665988,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        3
+      ],
+      "z": -0.3576875579987427,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        4
+      ],
+      "z": -0.3386111654112392,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        5
+      ],
+      "z": -0.34430952026879824,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        6
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        7
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        8
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        9
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -30,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -24
+      ],
+      "z": 0.0064517410394000765,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -23
+      ],
+      "z": 0.17631856606280052,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -22
+      ],
+      "z": -0.2803731982104546,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -21
+      ],
+      "z": -0.9744126569770378,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -20
+      ],
+      "z": -1.6460231946293424,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -19
+      ],
+      "z": -2.073327158481279,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -18
+      ],
+      "z": -2.1106798158317908,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -17
+      ],
+      "z": -2.105541568784411,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -16
+      ],
+      "z": -2.100403458234559,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -15
+      ],
+      "z": -2.092629700453581,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -14
+      ],
+      "z": -2.08485579702854,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -13
+      ],
+      "z": -2.0767336862869525,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -12
+      ],
+      "z": -2.0686111823692954,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -11
+      ],
+      "z": -2.040152664326124,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -10
+      ],
+      "z": -1.9807072090148905,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -9
+      ],
+      "z": -1.8947952402733244,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -8
+      ],
+      "z": -1.7868320526729804,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -7
+      ],
+      "z": -1.6626728091130099,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -6
+      ],
+      "z": -1.524729409665233,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -5
+      ],
+      "z": -1.3786092146139526,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -4
+      ],
+      "z": -1.226423223379352,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -3
+      ],
+      "z": -1.072613031215933,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -2
+      ],
+      "z": -0.9203184922770743,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        -1
+      ],
+      "z": -0.7545220865673764,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        0
+      ],
+      "z": -0.5899766236291362,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        1
+      ],
+      "z": -0.45863139064113057,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        2
+      ],
+      "z": -0.37509148600369374,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        3
+      ],
+      "z": -0.3378985302441288,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        4
+      ],
+      "z": -0.3338862452986177,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        5
+      ],
+      "z": -0.3439359873005742,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        6
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        7
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        8
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        9
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -29,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -24
+      ],
+      "z": -0.34630905454307137,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -23
+      ],
+      "z": -0.07361167630997442,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -22
+      ],
+      "z": -0.2138121813044927,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -21
+      ],
+      "z": -0.6080262944595961,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -20
+      ],
+      "z": -1.0277992757471293,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -19
+      ],
+      "z": -1.341558873111553,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -18
+      ],
+      "z": -1.4119168172858736,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -17
+      ],
+      "z": -1.408755644752091,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -16
+      ],
+      "z": -1.404877305398877,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -15
+      ],
+      "z": -1.3993833728313074,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -14
+      ],
+      "z": -1.3938895960837363,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -13
+      ],
+      "z": -1.3889255991153187,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -12
+      ],
+      "z": -1.383961554730613,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -11
+      ],
+      "z": -1.3658827899938297,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -10
+      ],
+      "z": -1.3278970900621971,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -9
+      ],
+      "z": -1.2722089831812082,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -8
+      ],
+      "z": -1.202469139952118,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -7
+      ],
+      "z": -1.1228394800873502,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -6
+      ],
+      "z": -1.0344755468829498,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -5
+      ],
+      "z": -0.9410373307638839,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -4
+      ],
+      "z": -0.8438466165578029,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -3
+      ],
+      "z": -0.745783418168412,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -2
+      ],
+      "z": -0.6488611866320206,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        -1
+      ],
+      "z": -0.5463123841642664,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        0
+      ],
+      "z": -0.44922488846204944,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        1
+      ],
+      "z": -0.37629205116076264,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        2
+      ],
+      "z": -0.33516181431743464,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        3
+      ],
+      "z": -0.3232534306632442,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        4
+      ],
+      "z": -0.3306173843354918,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        5
+      ],
+      "z": -0.3437236639753064,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        6
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        7
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        8
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        9
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -28,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -24
+      ],
+      "z": -0.3694817843627243,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -23
+      ],
+      "z": -0.24995519507891004,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -22
+      ],
+      "z": -0.2162507114289292,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -21
+      ],
+      "z": -0.38920749696027995,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -20
+      ],
+      "z": -0.6079568917476535,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -19
+      ],
+      "z": -0.7979781627468765,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -18
+      ],
+      "z": -0.8553000091917784,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -17
+      ],
+      "z": -0.8611593119101599,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -16
+      ],
+      "z": -0.8587841937674239,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -15
+      ],
+      "z": -0.8551538944188541,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -14
+      ],
+      "z": -0.8515236754139914,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -13
+      ],
+      "z": -0.8485571330593848,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -12
+      ],
+      "z": -0.8455904139721678,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -11
+      ],
+      "z": -0.8357133863911076,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -10
+      ],
+      "z": -0.8148410108929602,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -9
+      ],
+      "z": -0.7837711836302697,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -8
+      ],
+      "z": -0.7450066531170705,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -7
+      ],
+      "z": -0.7008809868681237,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -6
+      ],
+      "z": -0.6520355633025064,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -5
+      ],
+      "z": -0.6006292213682173,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -4
+      ],
+      "z": -0.5472472207731517,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -3
+      ],
+      "z": -0.49353058006223366,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -2
+      ],
+      "z": -0.44053665316394475,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        -1
+      ],
+      "z": -0.38768699364627535,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        0
+      ],
+      "z": -0.3430504788745566,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        1
+      ],
+      "z": -0.3150633325830131,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        2
+      ],
+      "z": -0.30610641929026317,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        3
+      ],
+      "z": -0.3129764147505557,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        4
+      ],
+      "z": -0.32848860739721203,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        5
+      ],
+      "z": -0.34361593834850285,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        6
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        7
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        8
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        9
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -27,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -24
+      ],
+      "z": -0.3600879311751305,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -23
+      ],
+      "z": -0.3422411145362821,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -22
+      ],
+      "z": -0.2359701963640873,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -21
+      ],
+      "z": -0.2789622148657145,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -20
+      ],
+      "z": -0.3568860509306251,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -19
+      ],
+      "z": -0.44161520448988084,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -18
+      ],
+      "z": -0.46038028978966394,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -17
+      ],
+      "z": -0.46534164997656263,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -16
+      ],
+      "z": -0.4641969663743839,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -15
+      ],
+      "z": -0.4623330628316762,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -14
+      ],
+      "z": -0.46046916213044825,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -13
+      ],
+      "z": -0.45907091916502396,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -12
+      ],
+      "z": -0.4576726291097657,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -11
+      ],
+      "z": -0.45361653359401316,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -10
+      ],
+      "z": -0.44512587509165313,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -9
+      ],
+      "z": -0.43230159951570385,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -8
+      ],
+      "z": -0.4164183129667254,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -7
+      ],
+      "z": -0.39846184622403596,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -6
+      ],
+      "z": -0.3786661427668332,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -5
+      ],
+      "z": -0.35798982968926796,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -4
+      ],
+      "z": -0.33657228709291304,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -3
+      ],
+      "z": -0.3151049840846099,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        -2
+      ],
+      "z": 0.10815134061795106,
+      "actor": "Landscape0"
+    },
+    {
+      "xy": [
+        -26,
+        -1
+      ],
+      "z": 0.11729047815322702,
+      "actor": "Landscape0"
+    },
+    {
+      "xy": [
+        -26,
+        0
+      ],
+      "z": 0.0712090938665824,
+      "actor": "Landscape0"
+    },
+    {
+      "xy": [
+        -26,
+        1
+      ],
+      "z": -0.03020649984538977,
+      "actor": "Landscape0"
+    },
+    {
+      "xy": [
+        -26,
+        2
+      ],
+      "z": -0.1558629561877933,
+      "actor": "Landscape0"
+    },
+    {
+      "xy": [
+        -26,
+        3
+      ],
+      "z": -0.2887473404862612,
+      "actor": "Landscape0"
+    },
+    {
+      "xy": [
+        -26,
+        4
+      ],
+      "z": -0.32722812309348226,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        5
+      ],
+      "z": -0.3435699279373512,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        6
+      ],
+      "z": -0.34999999995694453,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        7
+      ],
+      "z": -0.3499973871755355,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        8
+      ],
+      "z": -0.3499990855114447,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        9
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -26,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -24
+      ],
+      "z": -0.3418750919450031,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -23
+      ],
+      "z": -0.34249214630741337,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -22
+      ],
+      "z": -0.2724488136641594,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -21
+      ],
+      "z": -0.24034217981119582,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -20
+      ],
+      "z": -0.23327380803046252,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -19
+      ],
+      "z": -0.2525926273690129,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -18
+      ],
+      "z": -0.23369416138581073,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -17
+      ],
+      "z": -0.2256714351761184,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -16
+      ],
+      "z": -0.2252427371802696,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -15
+      ],
+      "z": -0.22471469253850956,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -14
+      ],
+      "z": 1.2520333069486151,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -13
+      ],
+      "z": 1.9354753433844052,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -12
+      ],
+      "z": 1.9356447189524806,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -11
+      ],
+      "z": 1.9359019912082658,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -10
+      ],
+      "z": 1.9363233044320804,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -9
+      ],
+      "z": 1.9369367338178745,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -8
+      ],
+      "z": 1.9376479768917125,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -7
+      ],
+      "z": 1.9384072910683243,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -6
+      ],
+      "z": 1.9392193651106209,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -5
+      ],
+      "z": 1.9400041247196531,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -4
+      ],
+      "z": 1.94079803938419,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -3
+      ],
+      "z": 1.9415667770505025,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -2
+      ],
+      "z": 1.9423100243949738,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        -1
+      ],
+      "z": 1.9404351493331524,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        0
+      ],
+      "z": 1.9341625454912719,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        1
+      ],
+      "z": 1.92481057418212,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        2
+      ],
+      "z": 1.9137757196319216,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        3
+      ],
+      "z": 1.902533505577594,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        4
+      ],
+      "z": 1.8926088990811332,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        5
+      ],
+      "z": 1.8855407472327352,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        6
+      ],
+      "z": 1.8828532410568368,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        7
+      ],
+      "z": 1.7174563681278414,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        8
+      ],
+      "z": 0.7664217214373821,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        9
+      ],
+      "z": -0.18460548121995088,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -25,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -24
+      ],
+      "z": -0.3329333499073982,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -23
+      ],
+      "z": -0.3240527610648496,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -22
+      ],
+      "z": -0.2996117589740061,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -21
+      ],
+      "z": -0.2383827875474526,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -20
+      ],
+      "z": -0.21100098434993925,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -19
+      ],
+      "z": -0.20927209247405698,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -18
+      ],
+      "z": -0.20887815252361178,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -17
+      ],
+      "z": -0.20735081995506335,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -16
+      ],
+      "z": -0.20684444028716825,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -15
+      ],
+      "z": -0.2052045535709658,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -14
+      ],
+      "z": 2.3214883878637194,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -13
+      ],
+      "z": 3.479998674118524,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -12
+      ],
+      "z": 3.4799986746996727,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -11
+      ],
+      "z": 3.479998674769704,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -10
+      ],
+      "z": 3.4799986748427183,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -9
+      ],
+      "z": 3.4799986749410707,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -8
+      ],
+      "z": 3.4799986750394054,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -7
+      ],
+      "z": 3.4799986751273355,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        6
+      ],
+      "z": 3.4800000000169167,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        7
+      ],
+      "z": 3.1962874235981507,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        8
+      ],
+      "z": 1.5649887446658612,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        9
+      ],
+      "z": -0.06629975929967259,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -24,
+        10
+      ],
+      "z": -0.35,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -24
+      ],
+      "z": -0.315196638881971,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -23
+      ],
+      "z": -0.3151965453902267,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -22
+      ],
+      "z": -0.3029300860118201,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -21
+      ],
+      "z": -0.25541398059725906,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -20
+      ],
+      "z": -0.21973416363745854,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -19
+      ],
+      "z": -0.21390882429917837,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -18
+      ],
+      "z": -0.21775104680475124,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -17
+      ],
+      "z": -0.21999999045367077,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -16
+      ],
+      "z": -0.21999998974613846,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -15
+      ],
+      "z": -0.21788940720982283,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -14
+      ],
+      "z": 2.31881677672789,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        7
+      ],
+      "z": 3.1962882893888307,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        8
+      ],
+      "z": 1.564989870192403,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        9
+      ],
+      "z": -0.06629975929798093,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -23,
+        10
+      ],
+      "z": -0.35000002976767064,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -24
+      ],
+      "z": -0.30632812476176696,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -23
+      ],
+      "z": -0.2974109558811324,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -22
+      ],
+      "z": -0.29729578460342965,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -21
+      ],
+      "z": -0.2621906130548632,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -20
+      ],
+      "z": -0.22683336780084573,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -19
+      ],
+      "z": -0.21617133353796816,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -18
+      ],
+      "z": -0.21812200840842708,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -17
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -16
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -15
+      ],
+      "z": -0.21789153149156845,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -14
+      ],
+      "z": 2.318814039952995,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        7
+      ],
+      "z": 3.1962882893888307,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        8
+      ],
+      "z": 1.564989870211648,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        9
+      ],
+      "z": -0.06629906666366878,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -22,
+        10
+      ],
+      "z": -0.35000023489557863,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -24
+      ],
+      "z": -0.28840827155132504,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -23
+      ],
+      "z": -0.2884081834554672,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -22
+      ],
+      "z": -0.2792834416268306,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -21
+      ],
+      "z": -0.2640222399286904,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -20
+      ],
+      "z": -0.231528813752775,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -19
+      ],
+      "z": -0.2168519775985078,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -18
+      ],
+      "z": -0.2183170519282976,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -17
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -16
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -15
+      ],
+      "z": -0.21789204649086968,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -14
+      ],
+      "z": 2.3188140399396433,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        7
+      ],
+      "z": 3.196289155183731,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        8
+      ],
+      "z": 1.5649909957326964,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        9
+      ],
+      "z": -0.06629906666366878,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -21,
+        10
+      ],
+      "z": -0.3500006620761087,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -24
+      ],
+      "z": -0.27928343855593996,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -23
+      ],
+      "z": -0.2700000843100861,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -22
+      ],
+      "z": -0.26035040658120123,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -21
+      ],
+      "z": -0.24995192073251019,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -20
+      ],
+      "z": -0.23729222196303454,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -19
+      ],
+      "z": -0.21834694656266948,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -18
+      ],
+      "z": -0.21857330062664915,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -17
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -16
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -15
+      ],
+      "z": -0.2179219540196027,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -14
+      ],
+      "z": 2.3188140399396433,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        7
+      ],
+      "z": 3.196289155187951,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        8
+      ],
+      "z": 1.5649909957381896,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        9
+      ],
+      "z": -0.06629906666197712,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -20,
+        10
+      ],
+      "z": -0.3601807557480424,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -24
+      ],
+      "z": -0.26035040791310166,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -23
+      ],
+      "z": -0.250224749147892,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -22
+      ],
+      "z": -0.25022463902043457,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -21
+      ],
+      "z": -0.239732664786643,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -20
+      ],
+      "z": -0.22670684492939472,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -19
+      ],
+      "z": -0.21414423873942723,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -18
+      ],
+      "z": -0.21833860198410548,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -17
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -16
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -15
+      ],
+      "z": -0.21783158248155815,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -14
+      ],
+      "z": 2.3189220707483584,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        7
+      ],
+      "z": 3.196290020978631,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        8
+      ],
+      "z": 1.5649921212661138,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        9
+      ],
+      "z": -0.06629872190602328,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -19,
+        10
+      ],
+      "z": -0.39179755044313425,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -24
+      ],
+      "z": -0.25265250796466715,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -23
+      ],
+      "z": -0.239732703812424,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -22
+      ],
+      "z": -0.22898447804176614,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -21
+      ],
+      "z": -0.21808970488244087,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -20
+      ],
+      "z": -0.20839992552213515,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -19
+      ],
+      "z": -0.21209002211389816,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -18
+      ],
+      "z": -0.2182623230345598,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -17
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -16
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -15
+      ],
+      "z": -0.2177092224158696,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -14
+      ],
+      "z": 2.3193244401749324,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        7
+      ],
+      "z": 3.196290020978631,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        8
+      ],
+      "z": 1.5649921212661138,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        9
+      ],
+      "z": -0.06629879988737229,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -18,
+        10
+      ],
+      "z": -0.4413449535272412,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -24
+      ],
+      "z": -0.12499702145438278,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -23
+      ],
+      "z": -0.21808973170816898,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -22
+      ],
+      "z": -0.21808963941783077,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -21
+      ],
+      "z": -0.2071582436265453,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -20
+      ],
+      "z": -0.19896533474755415,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -19
+      ],
+      "z": -0.2066864649828676,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -18
+      ],
+      "z": -0.21823676342153703,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -17
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -16
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -15
+      ],
+      "z": -0.2181657730603547,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -14
+      ],
+      "z": 2.3187319543302145,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        7
+      ],
+      "z": 3.1962908867735313,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        8
+      ],
+      "z": 1.564993246791273,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        9
+      ],
+      "z": -0.06629900946545604,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -17,
+        10
+      ],
+      "z": -0.503770337778169,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -24
+      ],
+      "z": 0.16661721116808623,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -23
+      ],
+      "z": -0.2084449112592665,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -22
+      ],
+      "z": -0.1963001291605542,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -21
+      ],
+      "z": -0.18562508607756173,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -20
+      ],
+      "z": -0.18637458733839593,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -19
+      ],
+      "z": -0.20873649222176027,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -18
+      ],
+      "z": -0.21918241547045908,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -17
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -16
+      ],
+      "z": -0.22,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -15
+      ],
+      "z": -0.21927464874643193,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -14
+      ],
+      "z": 2.3156578056465515,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        7
+      ],
+      "z": 3.1962908867735313,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        8
+      ],
+      "z": 1.5649932467967664,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        9
+      ],
+      "z": -0.06633507668404491,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -16,
+        10
+      ],
+      "z": -0.5730960204701477,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -24
+      ],
+      "z": 0.5126879880538218,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -23
+      ],
+      "z": -0.10017346212025587,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -22
+      ],
+      "z": -0.17524302273988723,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -21
+      ],
+      "z": -0.17524295604853252,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -20
+      ],
+      "z": -0.17456619723699987,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -19
+      ],
+      "z": -0.18102090399781445,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -18
+      ],
+      "z": -0.1829632137392582,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -17
+      ],
+      "z": -0.19250400435081247,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -16
+      ],
+      "z": -0.21847280832100296,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -15
+      ],
+      "z": -0.21991841459172065,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -14
+      ],
+      "z": 2.313962557421637,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        7
+      ],
+      "z": 3.1962908867735313,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        8
+      ],
+      "z": 1.5649932468077532,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        9
+      ],
+      "z": -0.07200229784779368,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -15,
+        10
+      ],
+      "z": -0.6430480680918117,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -24
+      ],
+      "z": 0.7934177535170602,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -23
+      ],
+      "z": 0.09289670304089669,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -22
+      ],
+      "z": -0.1649873495069369,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -21
+      ],
+      "z": -0.15579728228645762,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -20
+      ],
+      "z": -0.17000000130552506,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -19
+      ],
+      "z": -0.17,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -18
+      ],
+      "z": -0.17,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -17
+      ],
+      "z": -0.1700001070712642,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -16
+      ],
+      "z": -0.20085899710413288,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -15
+      ],
+      "z": -0.21978978218421616,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -14
+      ],
+      "z": 2.314441521302979,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        7
+      ],
+      "z": 3.1962917525684498,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        8
+      ],
+      "z": 1.5649943723329307,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        9
+      ],
+      "z": -0.0839522312439658,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -14,
+        10
+      ],
+      "z": -0.7076369456573047,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -24
+      ],
+      "z": 0.9384518487975038,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -23
+      ],
+      "z": 0.3175481018548635,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -22
+      ],
+      "z": -0.1010164228370013,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -21
+      ],
+      "z": -0.13884178521568175,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -20
+      ],
+      "z": -0.17,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -19
+      ],
+      "z": -0.17,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -18
+      ],
+      "z": -0.17,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -17
+      ],
+      "z": -0.17000004146435457,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -16
+      ],
+      "z": -0.20085886511797071,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -15
+      ],
+      "z": -0.21870359469312461,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -14
+      ],
+      "z": 2.3177422771248346,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        7
+      ],
+      "z": 3.1962917525684498,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        8
+      ],
+      "z": 1.5649943723329307,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        9
+      ],
+      "z": -0.09762067049499819,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -13,
+        10
+      ],
+      "z": -0.7616151224091664,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -24
+      ],
+      "z": 0.9235078477121896,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -23
+      ],
+      "z": 0.4880484999079272,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -22
+      ],
+      "z": -0.0073882703262825086,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -21
+      ],
+      "z": -0.12519832122441585,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -20
+      ],
+      "z": -0.1619595695058888,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -19
+      ],
+      "z": -0.17587095840666733,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -18
+      ],
+      "z": -0.1829628506805784,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -17
+      ],
+      "z": -0.19250359304052836,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -16
+      ],
+      "z": -0.218472728281522,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -15
+      ],
+      "z": -0.2175063904905619,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -14
+      ],
+      "z": 2.3210045952811926,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        7
+      ],
+      "z": 3.1962917525684498,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        8
+      ],
+      "z": 1.5649943723329307,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        9
+      ],
+      "z": -0.10918491585416631,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -12,
+        10
+      ],
+      "z": -0.8007939887058092,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -24
+      ],
+      "z": 0.8793223077971561,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -23
+      ],
+      "z": 0.5723142944427128,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -22
+      ],
+      "z": 0.0982025323569178,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -21
+      ],
+      "z": -0.10113934495146168,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -20
+      ],
+      "z": -0.13057042341972191,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -19
+      ],
+      "z": -0.16946329816542857,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -18
+      ],
+      "z": -0.19122587275356637,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -17
+      ],
+      "z": -0.1916528490761266,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -16
+      ],
+      "z": -0.1943197463998149,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -15
+      ],
+      "z": -0.1930335734242908,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -14
+      ],
+      "z": 2.3259509977836204,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        7
+      ],
+      "z": 3.19629261836335,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        8
+      ],
+      "z": 1.564995497860855,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        9
+      ],
+      "z": -0.11588026552739393,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -11,
+        10
+      ],
+      "z": -0.8222261608471672,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -24
+      ],
+      "z": 0.835387506362058,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -23
+      ],
+      "z": 0.5776489160567689,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -22
+      ],
+      "z": 0.18401117752411664,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -21
+      ],
+      "z": -0.06235869045734944,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -20
+      ],
+      "z": -0.10735531295811597,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -19
+      ],
+      "z": -0.12904723692761763,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -18
+      ],
+      "z": -0.13903145317883173,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -17
+      ],
+      "z": -0.14021386886553955,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -16
+      ],
+      "z": -0.14375611321403994,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -15
+      ],
+      "z": -0.15022615388934354,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -14
+      ],
+      "z": 2.3343416139859436,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        7
+      ],
+      "z": 3.19629261836335,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        8
+      ],
+      "z": 1.5649954978649658,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        9
+      ],
+      "z": -0.1162163792438696,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -10,
+        10
+      ],
+      "z": -0.8242970241463263,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -24
+      ],
+      "z": 0.8043941541217282,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -23
+      ],
+      "z": 0.5716480614877218,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -22
+      ],
+      "z": 0.22220625930491222,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -21
+      ],
+      "z": -0.02126118552430853,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -20
+      ],
+      "z": -0.09585180225703879,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -19
+      ],
+      "z": -0.11756827194672952,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -18
+      ],
+      "z": -0.1166517719496187,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -17
+      ],
+      "z": -0.11843003440371831,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -16
+      ],
+      "z": -0.12226544395940436,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -15
+      ],
+      "z": -0.12761333949878462,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -14
+      ],
+      "z": 2.3359885667039633,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        7
+      ],
+      "z": 3.19629261836335,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        8
+      ],
+      "z": 1.5649954978718414,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        9
+      ],
+      "z": -0.11009454816015932,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -9,
+        10
+      ],
+      "z": -0.8067678462286676,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -24
+      ],
+      "z": 0.8084956167435848,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -23
+      ],
+      "z": 0.5686159912880794,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -22
+      ],
+      "z": 0.2500235494046865,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -21
+      ],
+      "z": 0.019376813374801714,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -20
+      ],
+      "z": -0.08285799575942292,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -19
+      ],
+      "z": -0.1255268984916802,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -18
+      ],
+      "z": -0.1250454765243012,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -17
+      ],
+      "z": -0.12629396238175106,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -16
+      ],
+      "z": -0.12945654730874595,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -15
+      ],
+      "z": -0.13427085204033573,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -14
+      ],
+      "z": 2.334979658496377,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        7
+      ],
+      "z": 3.19629348415825,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        8
+      ],
+      "z": 1.5649966233997656,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        9
+      ],
+      "z": -0.09883556226714063,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -8,
+        10
+      ],
+      "z": -0.7708064479712085,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -24
+      ],
+      "z": 0.8312486572050147,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -23
+      ],
+      "z": 0.5843016836018796,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -22
+      ],
+      "z": 0.2696224141251696,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -21
+      ],
+      "z": 0.04825572566545816,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -20
+      ],
+      "z": -0.07336299369542758,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -19
+      ],
+      "z": -0.134246597206311,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -18
+      ],
+      "z": -0.13384680086628578,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -17
+      ],
+      "z": -0.13482141794544078,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -16
+      ],
+      "z": -0.13712181512346433,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -15
+      ],
+      "z": -0.14012723052683212,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -14
+      ],
+      "z": 2.333664507528574,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        7
+      ],
+      "z": 3.1962934841614334,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        8
+      ],
+      "z": 1.5649966234038766,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        9
+      ],
+      "z": -0.08510062024786748,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -7,
+        10
+      ],
+      "z": -0.7189916519492544,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -24
+      ],
+      "z": 0.8433010812338034,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -23
+      ],
+      "z": 0.5987532332874252,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -22
+      ],
+      "z": 0.2841367300684942,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -21
+      ],
+      "z": 0.06525484367606622,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -20
+      ],
+      "z": -0.06820816173079948,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -19
+      ],
+      "z": -0.1413658410127755,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -18
+      ],
+      "z": -0.14113305793527617,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -17
+      ],
+      "z": -0.1416922699127099,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -16
+      ],
+      "z": -0.14291801237359322,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -15
+      ],
+      "z": -0.14426170628703402,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -14
+      ],
+      "z": 2.33303294567615,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -13
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -12
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -11
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -10
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -9
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -8
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -7
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        -1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        0
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        1
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        2
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        3
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        4
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        5
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        6
+      ],
+      "z": 3.48,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        7
+      ],
+      "z": 3.1962943499531504,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        8
+      ],
+      "z": 1.564997748933165,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        9
+      ],
+      "z": -0.07271968641232888,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -6,
+        10
+      ],
+      "z": -0.6552758962392908,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -24
+      ],
+      "z": 0.813340951602695,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -23
+      ],
+      "z": 0.5945625314460995,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -22
+      ],
+      "z": 0.2897737174855138,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -21
+      ],
+      "z": 0.07297822760119743,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -20
+      ],
+      "z": -0.06579283866260084,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -19
+      ],
+      "z": -0.1448986845421132,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -18
+      ],
+      "z": -0.14485752308139127,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -17
+      ],
+      "z": -0.1449456658037707,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -16
+      ],
+      "z": -0.14499999237561498,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -15
+      ],
+      "z": -0.14499835160529984,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -14
+      ],
+      "z": 1.8417617556776895,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -13
+      ],
+      "z": 2.7613453287296035,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -12
+      ],
+      "z": 2.7613453287296035,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -11
+      ],
+      "z": 2.761344451460245,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -10
+      ],
+      "z": 2.761344451459172,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -9
+      ],
+      "z": 2.7613440128274305,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -8
+      ],
+      "z": 2.7613440128226285,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -7
+      ],
+      "z": 2.761343135557545,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -6
+      ],
+      "z": 2.761343135554871,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -5
+      ],
+      "z": 2.761343135552197,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -4
+      ],
+      "z": 2.7613422582860405,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -3
+      ],
+      "z": 2.761341819652171,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -2
+      ],
+      "z": 2.7613418185361662,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        -1
+      ],
+      "z": 2.75959502715059,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        0
+      ],
+      "z": 2.754990837393125,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        1
+      ],
+      "z": 2.7484820467002646,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        2
+      ],
+      "z": 2.741018126840245,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        3
+      ],
+      "z": 2.727020929654573,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        4
+      ],
+      "z": 2.7224002945390566,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        5
+      ],
+      "z": 2.7214564394738954,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        6
+      ],
+      "z": 2.7206938046822327,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        7
+      ],
+      "z": 2.4932343299579953,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        8
+      ],
+      "z": 1.1853449770835869,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        9
+      ],
+      "z": -0.12265053910965434,
+      "actor": "VF10_Parking_Terrain"
+    },
+    {
+      "xy": [
+        -5,
+        10
+      ],
+      "z": -0.5848455942677355,
+      "actor": "VF10_Parking_Terrain"
+    }
+  ]
+}

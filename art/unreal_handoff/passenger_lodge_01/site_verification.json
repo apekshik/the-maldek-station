@@ -1,0 +1,1484 @@
+{
+  "preserved_actor_components": 929,
+  "actor_errors": [],
+  "original_map_unchanged": true,
+  "stair_ground_probes": [
+    {
+      "x": -7.7,
+      "y": -14.28,
+      "tread": 0,
+      "tread_top": 0.16666666666666666,
+      "ground": -0.16759973697800887,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -14.28,
+      "tread": 0,
+      "tread_top": 0.16666666666666666,
+      "ground": -0.16759973697800887,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -14.28,
+      "tread": 0,
+      "tread_top": 0.16666666666666666,
+      "ground": -0.16759973697800887,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -14.0,
+      "tread": 1,
+      "tread_top": 0.3333333333333333,
+      "ground": -0.049999840827204024,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -14.0,
+      "tread": 1,
+      "tread_top": 0.3333333333333333,
+      "ground": -0.049999840827204024,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -14.0,
+      "tread": 1,
+      "tread_top": 0.3333333333333333,
+      "ground": -0.049999840827204024,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -13.719999999999999,
+      "tread": 2,
+      "tread_top": 0.5,
+      "ground": 0.11666682825543831,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -13.719999999999999,
+      "tread": 2,
+      "tread_top": 0.5,
+      "ground": 0.11666682825543831,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -13.719999999999999,
+      "tread": 2,
+      "tread_top": 0.5,
+      "ground": 0.11666682825543831,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -13.44,
+      "tread": 3,
+      "tread_top": 0.6666666666666666,
+      "ground": 0.2833334979102983,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -13.44,
+      "tread": 3,
+      "tread_top": 0.6666666666666666,
+      "ground": 0.2833334979102983,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -13.44,
+      "tread": 3,
+      "tread_top": 0.6666666666666666,
+      "ground": 0.2833334979102983,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -13.16,
+      "tread": 4,
+      "tread_top": 0.8333333333333334,
+      "ground": 0.4500001696632171,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -13.16,
+      "tread": 4,
+      "tread_top": 0.8333333333333334,
+      "ground": 0.4500001696632171,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -13.16,
+      "tread": 4,
+      "tread_top": 0.8333333333333334,
+      "ground": 0.4500001696632171,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -12.879999999999999,
+      "tread": 5,
+      "tread_top": 1.0,
+      "ground": 0.616666841416154,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -12.879999999999999,
+      "tread": 5,
+      "tread_top": 1.0,
+      "ground": 0.616666841416154,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -12.879999999999999,
+      "tread": 5,
+      "tread_top": 1.0,
+      "ground": 0.616666841416154,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -12.6,
+      "tread": 6,
+      "tread_top": 1.1666666666666667,
+      "ground": 0.7833335131690911,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -12.6,
+      "tread": 6,
+      "tread_top": 1.1666666666666667,
+      "ground": 0.7833335131690911,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -12.6,
+      "tread": 6,
+      "tread_top": 1.1666666666666667,
+      "ground": 0.7833335131690911,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -12.319999999999999,
+      "tread": 7,
+      "tread_top": 1.3333333333333333,
+      "ground": 0.9500001711890036,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -12.319999999999999,
+      "tread": 7,
+      "tread_top": 1.3333333333333333,
+      "ground": 0.9500001711890036,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -12.319999999999999,
+      "tread": 7,
+      "tread_top": 1.3333333333333333,
+      "ground": 0.9500001711890036,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -12.04,
+      "tread": 8,
+      "tread_top": 1.5,
+      "ground": 1.116666821579638,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -12.04,
+      "tread": 8,
+      "tread_top": 1.5,
+      "ground": 1.116666821579638,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -12.04,
+      "tread": 8,
+      "tread_top": 1.5,
+      "ground": 1.116666821579638,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -11.759999999999998,
+      "tread": 9,
+      "tread_top": 1.6666666666666667,
+      "ground": 1.2833334719702543,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -11.759999999999998,
+      "tread": 9,
+      "tread_top": 1.6666666666666667,
+      "ground": 1.2833334719702543,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -11.759999999999998,
+      "tread": 9,
+      "tread_top": 1.6666666666666667,
+      "ground": 1.2833334719702543,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -11.479999999999999,
+      "tread": 10,
+      "tread_top": 1.8333333333333333,
+      "ground": 1.4500001223608887,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -11.479999999999999,
+      "tread": 10,
+      "tread_top": 1.8333333333333333,
+      "ground": 1.4500001223608887,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -11.479999999999999,
+      "tread": 10,
+      "tread_top": 1.8333333333333333,
+      "ground": 1.4500001223608887,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -11.2,
+      "tread": 11,
+      "tread_top": 2.0,
+      "ground": 1.616666772751505,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -11.2,
+      "tread": 11,
+      "tread_top": 2.0,
+      "ground": 1.616666772751505,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -11.2,
+      "tread": 11,
+      "tread_top": 2.0,
+      "ground": 1.616666772751505,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -10.919999999999998,
+      "tread": 12,
+      "tread_top": 2.1666666666666665,
+      "ground": 1.783333447556579,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -10.919999999999998,
+      "tread": 12,
+      "tread_top": 2.1666666666666665,
+      "ground": 1.783333447556579,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -10.919999999999998,
+      "tread": 12,
+      "tread_top": 2.1666666666666665,
+      "ground": 1.783333447556579,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -10.639999999999999,
+      "tread": 13,
+      "tread_top": 2.3333333333333335,
+      "ground": 1.9500001833964051,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -10.639999999999999,
+      "tread": 13,
+      "tread_top": 2.3333333333333335,
+      "ground": 1.9500001833964051,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -10.639999999999999,
+      "tread": 13,
+      "tread_top": 2.3333333333333335,
+      "ground": 1.9500001833964051,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -10.36,
+      "tread": 14,
+      "tread_top": 2.5,
+      "ground": 2.116667020962577,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -10.36,
+      "tread": 14,
+      "tread_top": 2.5,
+      "ground": 2.116667020962577,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -10.36,
+      "tread": 14,
+      "tread_top": 2.5,
+      "ground": 2.1166669192362497,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -10.079999999999998,
+      "tread": 15,
+      "tread_top": 2.6666666666666665,
+      "ground": 2.283333960253276,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -10.079999999999998,
+      "tread": 15,
+      "tread_top": 2.6666666666666665,
+      "ground": 2.283333960253276,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -10.079999999999998,
+      "tread": 15,
+      "tread_top": 2.6666666666666665,
+      "ground": 2.2833337422719886,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -9.799999999999999,
+      "tread": 16,
+      "tread_top": 2.8333333333333335,
+      "ground": 2.4500006321491674,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -9.799999999999999,
+      "tread": 16,
+      "tread_top": 2.8333333333333335,
+      "ground": 2.4500006321491674,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -9.799999999999999,
+      "tread": 16,
+      "tread_top": 2.8333333333333335,
+      "ground": 2.4500004141683713,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -9.52,
+      "tread": 17,
+      "tread_top": 3.0,
+      "ground": 2.6166671970905737,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -9.52,
+      "tread": 17,
+      "tread_top": 3.0,
+      "ground": 2.6166671970905737,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -9.52,
+      "tread": 17,
+      "tread_top": 3.0,
+      "ground": 2.6166669791097776,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -9.239999999999998,
+      "tread": 18,
+      "tread_top": 3.1666666666666665,
+      "ground": 2.783333841378244,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -9.239999999999998,
+      "tread": 18,
+      "tread_top": 3.1666666666666665,
+      "ground": 2.783333841378244,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -9.239999999999998,
+      "tread": 18,
+      "tread_top": 3.1666666666666665,
+      "ground": 2.7833336233973385,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -8.959999999999999,
+      "tread": 19,
+      "tread_top": 3.3333333333333335,
+      "ground": 2.95000049176886,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -8.959999999999999,
+      "tread": 19,
+      "tread_top": 3.3333333333333335,
+      "ground": 2.95000049176886,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -8.959999999999999,
+      "tread": 19,
+      "tread_top": 3.3333333333333335,
+      "ground": 2.950000273787955,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -8.68,
+      "tread": 20,
+      "tread_top": 3.5,
+      "ground": 3.1166671421594945,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -8.68,
+      "tread": 20,
+      "tread_top": 3.5,
+      "ground": 3.1166671421594945,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -8.68,
+      "tread": 20,
+      "tread_top": 3.5,
+      "ground": 3.1166669241785896,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -8.399999999999999,
+      "tread": 21,
+      "tread_top": 3.6666666666666665,
+      "ground": 3.275048057340464,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -8.399999999999999,
+      "tread": 21,
+      "tread_top": 3.6666666666666665,
+      "ground": 3.275048057340464,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -8.399999999999999,
+      "tread": 21,
+      "tread_top": 3.6666666666666665,
+      "ground": 3.2750478697019387,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -8.12,
+      "tread": 22,
+      "tread_top": 3.8333333333333335,
+      "ground": 3.4185150739420167,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -8.12,
+      "tread": 22,
+      "tread_top": 3.8333333333333335,
+      "ground": 3.4185150739420167,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -8.12,
+      "tread": 22,
+      "tread_top": 3.8333333333333335,
+      "ground": 3.4185148863032917,
+      "clear": true
+    },
+    {
+      "x": -7.7,
+      "y": -7.84,
+      "tread": 23,
+      "tread_top": 4.0,
+      "ground": 3.48,
+      "clear": true
+    },
+    {
+      "x": -7.2,
+      "y": -7.84,
+      "tread": 23,
+      "tread_top": 4.0,
+      "ground": 3.48,
+      "clear": true
+    },
+    {
+      "x": -6.7,
+      "y": -7.84,
+      "tread": 23,
+      "tread_top": 4.0,
+      "ground": 3.48,
+      "clear": true
+    }
+  ],
+  "stair_ground_clear": true,
+  "material_slots": [
+    {
+      "asset": "SM_Lodge_Shell_000",
+      "source": [
+        "PLSH_Painted_Plaster"
+      ],
+      "imported": [
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_001",
+      "source": [
+        "PLSH_Quarry_Floor",
+        "PLSH_Painted_Plaster"
+      ],
+      "imported": [
+        "PLSH_Quarry_Floor",
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_002",
+      "source": [
+        "PLSH_Quarry_Floor",
+        "PLSH_Painted_Plaster"
+      ],
+      "imported": [
+        "PLSH_Quarry_Floor",
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_003",
+      "source": [
+        "PLSH_Painted_Plaster"
+      ],
+      "imported": [
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_004",
+      "source": [
+        "PLSH_Quarry_Floor",
+        "PLSH_Painted_Plaster"
+      ],
+      "imported": [
+        "PLSH_Quarry_Floor",
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_005",
+      "source": [
+        "PLSH_Painted_Plaster",
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "PLSH_Painted_Plaster",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_006",
+      "source": [
+        "PLSH_Painted_Plaster"
+      ],
+      "imported": [
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_007",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_008",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_009",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_010",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_011",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_012",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_013",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_014",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_015",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_016",
+      "source": [
+        "VF06_Petrol_paint",
+        "PLSH_Ceiling_Enamel",
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Petrol_paint",
+        "PLSH_Ceiling_Enamel",
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_017",
+      "source": [
+        "VF06_Petrol_paint",
+        "PLSH_Ceiling_Enamel",
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Petrol_paint",
+        "PLSH_Ceiling_Enamel",
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_018",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_019",
+      "source": [
+        "VF06_Petrol_paint",
+        "PLSH_Ceiling_Enamel",
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Petrol_paint",
+        "PLSH_Ceiling_Enamel",
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_020",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_021",
+      "source": [
+        "PLSH_Ceiling_Enamel"
+      ],
+      "imported": [
+        "PLSH_Ceiling_Enamel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_022",
+      "source": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ],
+      "imported": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_023",
+      "source": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ],
+      "imported": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_024",
+      "source": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ],
+      "imported": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_025",
+      "source": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ],
+      "imported": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_026",
+      "source": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ],
+      "imported": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Shell_027",
+      "source": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ],
+      "imported": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_000",
+      "source": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_001",
+      "source": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_002",
+      "source": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_003",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_004",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_005",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_006",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_007",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_008",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_009",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_010",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_011",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_012",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_013",
+      "source": [
+        "VF06_Petrol_paint"
+      ],
+      "imported": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_014",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_015",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_016",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_017",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_018",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_019",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_020",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_021",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_022",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_023",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_024",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_025",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_026",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_027",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_028",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_029",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_030",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_031",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_032",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_033",
+      "source": [
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_034",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_035",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_036",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Safety_ochre",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Safety_ochre",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_037",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_038",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel",
+        "VF07_Compacted_Gravel"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel",
+        "VF07_Compacted_Gravel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_039",
+      "source": [
+        "VF06_Fastener_oxidation",
+        "VF06_Galvanized",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Fastener_oxidation",
+        "VF06_Galvanized",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_040",
+      "source": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_041",
+      "source": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_042",
+      "source": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_043",
+      "source": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_044",
+      "source": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_045",
+      "source": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_046",
+      "source": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_047",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_048",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_049",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_050",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_051",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_052",
+      "source": [
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation",
+        "VF06_Galvanized"
+      ],
+      "imported": [
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation",
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_053",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_054",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_055",
+      "source": [
+        "VF06_Fastener_oxidation",
+        "VF06_Galvanized",
+        "VF06_Structural_steel"
+      ],
+      "imported": [
+        "VF06_Fastener_oxidation",
+        "VF06_Galvanized",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_056",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "asset": "SM_Lodge_Deck_057",
+      "source": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ],
+      "imported": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    }
+  ]
+}

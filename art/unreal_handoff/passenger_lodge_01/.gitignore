@@ -1,0 +1,8 @@
+request.json
+response.json
+session.json
+capture_error.txt
+__pycache__/
+*.blend1
+*.log
+vegetation_progress.json

@@ -1,0 +1,3003 @@
+{
+  "source_sha256": "bcf7e6301aecedd83688488981fd58a5a9719d685ef975210eef9eeb7f753f6c",
+  "assets": [
+    {
+      "name": "SM_Lodge_Deck_000",
+      "pivot": [
+        -32,
+        -16,
+        4
+      ],
+      "lo": [
+        -29.4950008392334,
+        -15.194999694824219,
+        -1.8071590662002563
+      ],
+      "hi": [
+        -24.454999923706055,
+        -9.104999542236328,
+        5.135000228881836
+      ],
+      "sources": [
+        "PL02_Support",
+        "PL02_Support.004",
+        "PL02_Rear_West_bar",
+        "PL02_Rear_West_bar.001",
+        "PL02_Rear_West_post",
+        "PL02_Rear_West_post.001",
+        "PL02_Rear_West_post.002",
+        "PL02_Rear_West_post.003",
+        "PL02_Rear_West_post.004",
+        "PL02_Perimeter_0_post",
+        "PL02_Perimeter_0_post.001",
+        "PL02_Perimeter_0_post.002",
+        "PL02_Perimeter_0_post.003",
+        "PL02_Perimeter_0_post.004"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_001",
+      "pivot": [
+        -32,
+        -8,
+        4
+      ],
+      "lo": [
+        -29.4950008392334,
+        -15.149999618530273,
+        -1.7388535737991333
+      ],
+      "hi": [
+        -25.3799991607666,
+        7.350000381469727,
+        5.135000705718994
+      ],
+      "sources": [
+        "PL02_Support.001",
+        "PL02_Support.005",
+        "PL02_Perimeter_0_bar",
+        "PL02_Perimeter_0_bar.001",
+        "PL02_Perimeter_0_post.005",
+        "PL02_Perimeter_0_post.006",
+        "PL02_Perimeter_0_post.007",
+        "PL02_Perimeter_0_post.008",
+        "PL02_Perimeter_0_post.009",
+        "PL02_Perimeter_0_post.010"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_002",
+      "pivot": [
+        -32,
+        0,
+        4
+      ],
+      "lo": [
+        -29.4950008392334,
+        0.8799999952316284,
+        -1.693672776222229
+      ],
+      "hi": [
+        -24.9138240814209,
+        7.394999980926514,
+        5.100000381469727
+      ],
+      "sources": [
+        "PL02_Support.002",
+        "PL02_Support.003",
+        "PL02_Support.006",
+        "PL02_Support.007",
+        "PL02_Perimeter_0_post.011",
+        "PL02_Perimeter_0_post.012",
+        "PL02_Perimeter_0_post.013",
+        "PL02_Perimeter_0_post.014",
+        "PL02_Perimeter_0_post.015",
+        "PL02_Perimeter_1_post",
+        "PL02_Perimeter_1_post.001",
+        "PL02_Perimeter_1_post.002",
+        "PL02_Perimeter_1_post.003"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_003",
+      "pivot": [
+        -24,
+        -16,
+        4
+      ],
+      "lo": [
+        -22.545000076293945,
+        -15.194999694824219,
+        4.0
+      ],
+      "hi": [
+        -16.69499969482422,
+        -15.104999542236328,
+        5.100000381469727
+      ],
+      "sources": [
+        "PL02_Rear_East_post",
+        "PL02_Rear_East_post.001",
+        "PL02_Rear_East_post.002",
+        "PL02_Rear_East_post.003",
+        "PL02_Rear_East_post.004"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_004",
+      "pivot": [
+        -24,
+        0,
+        4
+      ],
+      "lo": [
+        -29.450000762939453,
+        7.304999828338623,
+        4.0
+      ],
+      "hi": [
+        -4.0,
+        7.394999980926514,
+        5.135000228881836
+      ],
+      "sources": [
+        "PL02_Perimeter_1_bar",
+        "PL02_Perimeter_1_bar.001",
+        "PL02_Perimeter_1_post.004",
+        "PL02_Perimeter_1_post.005",
+        "PL02_Perimeter_1_post.006",
+        "PL02_Perimeter_1_post.007",
+        "PL02_Perimeter_1_post.008"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_005",
+      "pivot": [
+        -16,
+        -24,
+        4
+      ],
+      "lo": [
+        -8.135000228881836,
+        -16.2549991607666,
+        0.0
+      ],
+      "hi": [
+        -8.065000534057617,
+        -16.184999465942383,
+        1.100000023841858
+      ],
+      "sources": [
+        "PL02_Safe_Left_Post"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_006",
+      "pivot": [
+        -16,
+        -16,
+        4
+      ],
+      "lo": [
+        -22.5,
+        -16.219999313354492,
+        0.0
+      ],
+      "hi": [
+        -8.055000305175781,
+        -7.6999993324279785,
+        5.135000228881836
+      ],
+      "sources": [
+        "PL02_Rear_East_bar",
+        "PL02_Rear_East_bar.001",
+        "PL02_Rear_East_post.005",
+        "PL02_Rear_East_post.006",
+        "PL02_Rear_East_post.007",
+        "PL02_Rear_East_post.008",
+        "PL02_Rear_East_post.009",
+        "PL02_Rear_East_post.010",
+        "PL02_Safe_Left_Deck_bar",
+        "PL02_Safe_Left_Deck_bar.001",
+        "PL02_Safe_Left_Deck_post",
+        "PL02_Safe_Left_Deck_post.001",
+        "PL02_Safe_Left_Deck_post.002",
+        "PL02_Safe_Left_Deck_post.003",
+        "PL02_Safe_Left_Deck_post.004",
+        "PL02_Safe_Left_Handrail",
+        "PL02_Safe_Left_Handrail.001",
+        "PL02_Safe_Left_Handrail.002",
+        "PL02_Safe_Left_Handrail.004",
+        "PL02_Safe_Left_Handrail.005",
+        "PL02_Safe_Left_Handrail.006",
+        "PL02_Safe_Left_Post.001",
+        "PL02_Safe_Left_Post.002",
+        "PL02_Safe_Left_Post.003",
+        "PL02_Safe_Left_Post.004",
+        "PL02_Safe_Left_Post.005",
+        "PL02_Safe_Left_Post.006",
+        "PL02_Safe_Left_Post.007"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_007",
+      "pivot": [
+        -16,
+        -8,
+        4
+      ],
+      "lo": [
+        -8.244999885559082,
+        -8.015000343322754,
+        4.0
+      ],
+      "hi": [
+        -8.065000534057617,
+        -7.654999732971191,
+        5.130000114440918
+      ],
+      "sources": [
+        "PL02_Safe_Left_Deck_post.005",
+        "PL02_Safe_Left_Handrail.003",
+        "PL02_Safe_Left_Handrail.007",
+        "PL02_Safe_Left_Post.008",
+        "PL02_Safe_Left_Post.009"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_008",
+      "pivot": [
+        -16,
+        0,
+        4
+      ],
+      "lo": [
+        -16.02147102355957,
+        7.304999828338623,
+        4.0
+      ],
+      "hi": [
+        -8.446176528930664,
+        7.394999980926514,
+        5.100000381469727
+      ],
+      "sources": [
+        "PL02_Perimeter_1_post.009",
+        "PL02_Perimeter_1_post.010",
+        "PL02_Perimeter_1_post.011",
+        "PL02_Perimeter_1_post.012",
+        "PL02_Perimeter_1_post.013",
+        "PL02_Perimeter_1_post.014"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_009",
+      "pivot": [
+        -8,
+        -24,
+        4
+      ],
+      "lo": [
+        -6.335000038146973,
+        -16.2549991607666,
+        0.0
+      ],
+      "hi": [
+        -6.265000343322754,
+        -16.184999465942383,
+        1.100000023841858
+      ],
+      "sources": [
+        "PL02_Safe_Right_Post"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_010",
+      "pivot": [
+        -8,
+        -16,
+        4
+      ],
+      "lo": [
+        -6.335000038146973,
+        -16.219999313354492,
+        0.0
+      ],
+      "hi": [
+        1.5,
+        -7.699999809265137,
+        5.135000228881836
+      ],
+      "sources": [
+        "PL02_Safe_Right_Deck_bar",
+        "PL02_Safe_Right_Deck_bar.001",
+        "PL02_Safe_Right_Deck_post",
+        "PL02_Safe_Right_Deck_post.001",
+        "PL02_Safe_Right_Deck_post.002",
+        "PL02_Safe_Right_Deck_post.003",
+        "PL02_Safe_East_Return_bar",
+        "PL02_Safe_East_Return_bar.001",
+        "PL02_Safe_East_Return_post",
+        "PL02_Safe_East_Return_post.001",
+        "PL02_Safe_East_Return_post.002",
+        "PL02_Safe_East_Return_post.003",
+        "PL02_Safe_East_Return_post.004",
+        "PL02_Safe_Right_Handrail",
+        "PL02_Safe_Right_Handrail.001",
+        "PL02_Safe_Right_Handrail.002",
+        "PL02_Safe_Right_Handrail.004",
+        "PL02_Safe_Right_Handrail.005",
+        "PL02_Safe_Right_Handrail.006",
+        "PL02_Safe_Right_Post.001",
+        "PL02_Safe_Right_Post.002",
+        "PL02_Safe_Right_Post.003",
+        "PL02_Safe_Right_Post.004",
+        "PL02_Safe_Right_Post.005",
+        "PL02_Safe_Right_Post.006",
+        "PL02_Safe_Right_Post.007"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_011",
+      "pivot": [
+        -8,
+        -8,
+        4
+      ],
+      "lo": [
+        -6.335000038146973,
+        -8.015000343322754,
+        4.0
+      ],
+      "hi": [
+        -6.154999732971191,
+        -7.654999732971191,
+        5.130000114440918
+      ],
+      "sources": [
+        "PL02_Safe_Right_Deck_post.004",
+        "PL02_Safe_Right_Handrail.003",
+        "PL02_Safe_Right_Handrail.007",
+        "PL02_Safe_Right_Post.008",
+        "PL02_Safe_Right_Post.009"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_012",
+      "pivot": [
+        -8,
+        0,
+        4
+      ],
+      "lo": [
+        -7.039117813110352,
+        7.304999828338623,
+        4.0
+      ],
+      "hi": [
+        -3.9549999237060547,
+        7.394999980926514,
+        5.100000381469727
+      ],
+      "sources": [
+        "PL02_Perimeter_1_post.015",
+        "PL02_Perimeter_1_post.016",
+        "PL02_Perimeter_1_post.017"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_013",
+      "pivot": [
+        0,
+        -16,
+        4
+      ],
+      "lo": [
+        0.17166666686534882,
+        -13.244999885559082,
+        4.0
+      ],
+      "hi": [
+        1.5449999570846558,
+        -13.154999732971191,
+        5.100000381469727
+      ],
+      "sources": [
+        "PL02_Safe_East_Return_post.005",
+        "PL02_Safe_East_Return_post.006"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_014",
+      "pivot": [
+        -32,
+        -16,
+        4
+      ],
+      "lo": [
+        -29.44999885559082,
+        -15.149999618530273,
+        3.940000057220459
+      ],
+      "hi": [
+        -24.100000381469727,
+        -8.044736862182617,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_025_0_0",
+        "PL03_Grate_PL02_Deck_025_0_1",
+        "PL03_Grate_PL02_Deck_025_0_2",
+        "PL03_Grate_PL02_Deck_025_0_3",
+        "PL03_Grate_PL02_Deck_025_0_4",
+        "PL03_Grate_PL02_Deck_025_0_5",
+        "PL03_Grate_PL02_Deck_025_1_0",
+        "PL03_Grate_PL02_Deck_025_1_1",
+        "PL03_Grate_PL02_Deck_025_1_2",
+        "PL03_Grate_PL02_Deck_025_1_3",
+        "PL03_Grate_PL02_Deck_025_1_4",
+        "PL03_Grate_PL02_Deck_025_1_5",
+        "PL03_Grate_PL02_Deck_025_2_0",
+        "PL03_Grate_PL02_Deck_025_2_1",
+        "PL03_Grate_PL02_Deck_025_2_2",
+        "PL03_Grate_PL02_Deck_025_2_3",
+        "PL03_Grate_PL02_Deck_025_2_4",
+        "PL03_Grate_PL02_Deck_025_2_5"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_015",
+      "pivot": [
+        -32,
+        -8,
+        4
+      ],
+      "lo": [
+        -29.44999885559082,
+        -8.044736862182617,
+        3.940000057220459
+      ],
+      "hi": [
+        -24.100000381469727,
+        0.24473689496517181,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_025_0_6",
+        "PL03_Grate_PL02_Deck_025_0_7",
+        "PL03_Grate_PL02_Deck_025_0_8",
+        "PL03_Grate_PL02_Deck_025_0_9",
+        "PL03_Grate_PL02_Deck_025_0_10",
+        "PL03_Grate_PL02_Deck_025_0_11",
+        "PL03_Grate_PL02_Deck_025_0_12",
+        "PL03_Grate_PL02_Deck_025_1_6",
+        "PL03_Grate_PL02_Deck_025_1_7",
+        "PL03_Grate_PL02_Deck_025_1_8",
+        "PL03_Grate_PL02_Deck_025_1_9",
+        "PL03_Grate_PL02_Deck_025_1_10",
+        "PL03_Grate_PL02_Deck_025_1_11",
+        "PL03_Grate_PL02_Deck_025_1_12",
+        "PL03_Grate_PL02_Deck_025_2_6",
+        "PL03_Grate_PL02_Deck_025_2_7",
+        "PL03_Grate_PL02_Deck_025_2_8",
+        "PL03_Grate_PL02_Deck_025_2_9",
+        "PL03_Grate_PL02_Deck_025_2_10",
+        "PL03_Grate_PL02_Deck_025_2_11",
+        "PL03_Grate_PL02_Deck_025_2_12"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_016",
+      "pivot": [
+        -32,
+        0,
+        4
+      ],
+      "lo": [
+        -29.44999885559082,
+        0.24473689496517181,
+        3.940000057220459
+      ],
+      "hi": [
+        -24.100000381469727,
+        7.349999904632568,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_025_0_13",
+        "PL03_Grate_PL02_Deck_025_0_14",
+        "PL03_Grate_PL02_Deck_025_0_15",
+        "PL03_Grate_PL02_Deck_025_0_16",
+        "PL03_Grate_PL02_Deck_025_0_17",
+        "PL03_Grate_PL02_Deck_025_0_18",
+        "PL03_Grate_PL02_Deck_025_1_13",
+        "PL03_Grate_PL02_Deck_025_1_14",
+        "PL03_Grate_PL02_Deck_025_1_15",
+        "PL03_Grate_PL02_Deck_025_1_16",
+        "PL03_Grate_PL02_Deck_025_1_17",
+        "PL03_Grate_PL02_Deck_025_1_18",
+        "PL03_Grate_PL02_Deck_025_2_13",
+        "PL03_Grate_PL02_Deck_025_2_14",
+        "PL03_Grate_PL02_Deck_025_2_15",
+        "PL03_Grate_PL02_Deck_025_2_16",
+        "PL03_Grate_PL02_Deck_025_2_17",
+        "PL03_Grate_PL02_Deck_025_2_18"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_017",
+      "pivot": [
+        -24,
+        -24,
+        4
+      ],
+      "lo": [
+        -24.5,
+        -17.25,
+        3.940000057220459
+      ],
+      "hi": [
+        -22.5,
+        -16.200000762939453,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_022_0_0"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_018",
+      "pivot": [
+        -24,
+        -16,
+        4
+      ],
+      "lo": [
+        -24.5,
+        -16.200000762939453,
+        3.940000057220459
+      ],
+      "hi": [
+        -16.100000381469727,
+        -12.199999809265137,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_022_0_1",
+        "PL03_Grate_PL02_Deck_026_0_0",
+        "PL03_Grate_PL02_Deck_026_0_1",
+        "PL03_Grate_PL02_Deck_026_1_0",
+        "PL03_Grate_PL02_Deck_026_1_1",
+        "PL03_Grate_PL02_Deck_028_0_0",
+        "PL03_Grate_PL02_Deck_028_0_1",
+        "PL03_Grate_PL02_Deck_028_0_2",
+        "PL03_Grate_PL02_Deck_028_1_0",
+        "PL03_Grate_PL02_Deck_028_1_1",
+        "PL03_Grate_PL02_Deck_028_1_2",
+        "PL03_Grate_PL02_Deck_028_2_0",
+        "PL03_Grate_PL02_Deck_028_2_1",
+        "PL03_Grate_PL02_Deck_028_2_2"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_019",
+      "pivot": [
+        -24,
+        0,
+        4
+      ],
+      "lo": [
+        -24.100000381469727,
+        4.0,
+        3.940000057220459
+      ],
+      "hi": [
+        -16.100000381469727,
+        7.350000381469727,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_029_0_0",
+        "PL03_Grate_PL02_Deck_029_0_1",
+        "PL03_Grate_PL02_Deck_029_0_2",
+        "PL03_Grate_PL02_Deck_029_1_0",
+        "PL03_Grate_PL02_Deck_029_1_1",
+        "PL03_Grate_PL02_Deck_029_1_2",
+        "PL03_Grate_PL02_Deck_029_2_0",
+        "PL03_Grate_PL02_Deck_029_2_1",
+        "PL03_Grate_PL02_Deck_029_2_2",
+        "PL03_Grate_PL02_Deck_029_3_0",
+        "PL03_Grate_PL02_Deck_029_3_1",
+        "PL03_Grate_PL02_Deck_029_3_2"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_020",
+      "pivot": [
+        -16,
+        -16,
+        4
+      ],
+      "lo": [
+        -16.100000381469727,
+        -15.15000057220459,
+        3.940000057220459
+      ],
+      "hi": [
+        -8.100000381469727,
+        -7.700000286102295,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_027_0_0",
+        "PL03_Grate_PL02_Deck_027_0_1",
+        "PL03_Grate_PL02_Deck_027_1_0",
+        "PL03_Grate_PL02_Deck_027_1_1",
+        "PL03_Grate_PL02_Deck_027_2_0",
+        "PL03_Grate_PL02_Deck_027_2_1",
+        "PL03_Grate_PL02_Deck_030_0_0",
+        "PL03_Grate_PL02_Deck_030_0_1",
+        "PL03_Grate_PL02_Deck_030_0_2",
+        "PL03_Grate_PL02_Deck_030_0_3",
+        "PL03_Grate_PL02_Deck_030_0_4",
+        "PL03_Grate_PL02_Deck_030_0_5",
+        "PL03_Grate_PL02_Deck_030_0_6"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_021",
+      "pivot": [
+        -16,
+        -8,
+        4
+      ],
+      "lo": [
+        -10.100000381469727,
+        -7.699999809265137,
+        3.940000057220459
+      ],
+      "hi": [
+        -8.100000381469727,
+        0.23181797564029694,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Bypass_Upper_Landing_0_0",
+        "PL03_Grate_PL02_Bypass_Upper_Landing_0_1",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_0",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_1",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_2",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_3",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_4"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_022",
+      "pivot": [
+        -16,
+        0,
+        4
+      ],
+      "lo": [
+        -16.100000381469727,
+        0.0,
+        3.940000057220459
+      ],
+      "hi": [
+        -8.0,
+        7.350000381469727,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_000_0_0",
+        "PL03_Grate_PL02_Deck_000_0_1",
+        "PL03_Grate_PL02_Deck_002_0_0",
+        "PL03_Grate_PL02_Deck_002_0_1",
+        "PL03_Grate_PL02_Deck_002_0_2",
+        "PL03_Grate_PL02_Deck_004_0_0",
+        "PL03_Grate_PL02_Deck_004_0_1",
+        "PL03_Grate_PL02_Deck_029_4_0",
+        "PL03_Grate_PL02_Deck_029_4_1",
+        "PL03_Grate_PL02_Deck_029_4_2",
+        "PL03_Grate_PL02_Deck_029_5_0",
+        "PL03_Grate_PL02_Deck_029_5_1",
+        "PL03_Grate_PL02_Deck_029_5_2",
+        "PL03_Grate_PL02_Deck_029_6_0",
+        "PL03_Grate_PL02_Deck_029_6_1",
+        "PL03_Grate_PL02_Deck_029_6_2",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_5",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_6",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_7",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_8",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_9",
+        "PL03_Grate_PL02_Deck_031_Cut_0_0_10"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_023",
+      "pivot": [
+        -8,
+        -16,
+        4
+      ],
+      "lo": [
+        -8.09999942779541,
+        -16.219999313354492,
+        -0.05999999865889549
+      ],
+      "hi": [
+        -0.4500000476837158,
+        -7.900000095367432,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Bypass_Stair_00_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_01_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_02_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_03_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_04_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_05_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_06_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_07_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_08_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_09_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_10_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_11_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_12_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_13_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_14_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_15_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_16_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_17_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_18_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_19_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_20_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_21_0_0",
+        "PL03_Grate_PL02_Bypass_Stair_22_0_0",
+        "PL03_Grate_PL02_Bypass_Lower_Landing_0_0",
+        "PL03_Grate_PL02_Bypass_Lower_Landing_0_1",
+        "PL03_Grate_PL02_Deck_007_Cut_0_0_0",
+        "PL03_Grate_PL02_Deck_007_Cut_0_0_1",
+        "PL03_Grate_PL02_Deck_007_Cut_0_0_2",
+        "PL03_Grate_PL02_Deck_007_Cut_0_1_0",
+        "PL03_Grate_PL02_Deck_007_Cut_0_1_1",
+        "PL03_Grate_PL02_Deck_007_Cut_0_1_2",
+        "PL03_Grate_PL02_Deck_007_Cut_0_2_0",
+        "PL03_Grate_PL02_Deck_007_Cut_0_2_1",
+        "PL03_Grate_PL02_Deck_007_Cut_0_2_2",
+        "PL03_Grate_PL02_Deck_008_Cut_0_0_0",
+        "PL03_Grate_PL02_Deck_008_Cut_0_0_1",
+        "PL03_Grate_PL02_Deck_008_Cut_0_0_2",
+        "PL03_Grate_PL02_Deck_008_Cut_0_1_0",
+        "PL03_Grate_PL02_Deck_008_Cut_0_1_1",
+        "PL03_Grate_PL02_Deck_008_Cut_0_1_2",
+        "PL03_Grate_PL02_Deck_008_Cut_0_2_0",
+        "PL03_Grate_PL02_Deck_008_Cut_0_2_1",
+        "PL03_Grate_PL02_Deck_008_Cut_0_2_2"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_024",
+      "pivot": [
+        -8,
+        -8,
+        4
+      ],
+      "lo": [
+        -8.199999809265137,
+        -7.980000019073486,
+        3.940000057220459
+      ],
+      "hi": [
+        -0.4500000476837158,
+        -4.5,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_023_0_0",
+        "PL03_Grate_PL02_Deck_023_0_1",
+        "PL03_Grate_PL02_Bypass_Stair_23_0_0",
+        "PL03_Grate_PL02_Bypass_Upper_Landing_1_0",
+        "PL03_Grate_PL02_Bypass_Upper_Landing_1_1",
+        "PL03_Grate_PL02_Deck_006_Cut_0_0_0",
+        "PL03_Grate_PL02_Deck_006_Cut_0_0_1",
+        "PL03_Grate_PL02_Deck_006_Cut_0_1_0",
+        "PL03_Grate_PL02_Deck_006_Cut_0_1_1",
+        "PL03_Grate_PL02_Deck_006_Cut_0_2_0",
+        "PL03_Grate_PL02_Deck_006_Cut_0_2_1",
+        "PL03_Grate_PL02_Deck_006_Cut_1_0_0",
+        "PL03_Grate_PL02_Deck_007_Cut_0_0_3",
+        "PL03_Grate_PL02_Deck_007_Cut_0_1_3",
+        "PL03_Grate_PL02_Deck_007_Cut_0_2_3"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_025",
+      "pivot": [
+        -8,
+        0,
+        4
+      ],
+      "lo": [
+        -8.0,
+        0.0,
+        3.940000057220459
+      ],
+      "hi": [
+        0.0,
+        8.449999809265137,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_009_0_0",
+        "PL03_Grate_PL02_Deck_009_0_1",
+        "PL03_Grate_PL02_Deck_009_1_0",
+        "PL03_Grate_PL02_Deck_009_1_1",
+        "PL03_Grate_PL02_Deck_009_2_0",
+        "PL03_Grate_PL02_Deck_009_2_1",
+        "PL03_Grate_PL02_Deck_009_3_0",
+        "PL03_Grate_PL02_Deck_009_3_1",
+        "PL03_Grate_PL02_Deck_010_0_0",
+        "PL03_Grate_PL02_Deck_010_0_1",
+        "PL03_Grate_PL02_Deck_010_0_2",
+        "PL03_Grate_PL02_Deck_010_1_0",
+        "PL03_Grate_PL02_Deck_010_1_1",
+        "PL03_Grate_PL02_Deck_010_1_2",
+        "PL03_Grate_PL02_Deck_010_2_0",
+        "PL03_Grate_PL02_Deck_010_2_1",
+        "PL03_Grate_PL02_Deck_010_2_2",
+        "PL03_Grate_PL02_Deck_010_3_0",
+        "PL03_Grate_PL02_Deck_010_3_1",
+        "PL03_Grate_PL02_Deck_010_3_2",
+        "PL03_Grate_PL02_Deck_011_0_0",
+        "PL03_Grate_PL02_Deck_011_0_1",
+        "PL03_Grate_PL02_Deck_011_0_2",
+        "PL03_Grate_PL02_Deck_013_0_0",
+        "PL03_Grate_PL02_Deck_013_0_1",
+        "PL03_Grate_PL02_Deck_013_1_0",
+        "PL03_Grate_PL02_Deck_013_1_1",
+        "PL03_Grate_PL02_Deck_014_0_0",
+        "PL03_Grate_PL02_Deck_014_0_1",
+        "PL03_Grate_PL02_Deck_014_0_2",
+        "PL03_Grate_PL02_Deck_014_1_0",
+        "PL03_Grate_PL02_Deck_014_1_1",
+        "PL03_Grate_PL02_Deck_014_1_2"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_026",
+      "pivot": [
+        -8,
+        8,
+        4
+      ],
+      "lo": [
+        -4.0,
+        8.449999809265137,
+        3.940000057220459
+      ],
+      "hi": [
+        -1.6999999284744263,
+        11.5,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_014_0_3",
+        "PL03_Grate_PL02_Deck_014_0_4",
+        "PL03_Grate_PL02_Deck_014_0_5",
+        "PL03_Grate_PL02_Deck_014_1_3",
+        "PL03_Grate_PL02_Deck_014_1_4",
+        "PL03_Grate_PL02_Deck_014_1_5"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_027",
+      "pivot": [
+        0,
+        -16,
+        4
+      ],
+      "lo": [
+        -0.4500000476837158,
+        -13.199999809265137,
+        3.940000057220459
+      ],
+      "hi": [
+        1.5,
+        -7.900000095367432,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_007_Cut_0_3_0",
+        "PL03_Grate_PL02_Deck_007_Cut_0_3_1",
+        "PL03_Grate_PL02_Deck_007_Cut_0_3_2",
+        "PL03_Grate_PL02_Deck_008_Cut_0_3_0",
+        "PL03_Grate_PL02_Deck_008_Cut_0_3_1",
+        "PL03_Grate_PL02_Deck_008_Cut_0_3_2"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_028",
+      "pivot": [
+        0,
+        -8,
+        4
+      ],
+      "lo": [
+        -0.75,
+        -7.900000095367432,
+        3.940000057220459
+      ],
+      "hi": [
+        1.5,
+        -4.5,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_023_1_0",
+        "PL03_Grate_PL02_Deck_023_1_1",
+        "PL03_Grate_PL02_Deck_006_Cut_0_3_0",
+        "PL03_Grate_PL02_Deck_006_Cut_0_3_1",
+        "PL03_Grate_PL02_Deck_007_Cut_0_3_3"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_029",
+      "pivot": [
+        0,
+        0,
+        4
+      ],
+      "lo": [
+        0.0,
+        0.0,
+        3.940000057220459
+      ],
+      "hi": [
+        6.0,
+        8.449999809265137,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_009_4_0",
+        "PL03_Grate_PL02_Deck_009_4_1",
+        "PL03_Grate_PL02_Deck_009_5_0",
+        "PL03_Grate_PL02_Deck_009_5_1",
+        "PL03_Grate_PL02_Deck_009_6_0",
+        "PL03_Grate_PL02_Deck_009_6_1",
+        "PL03_Grate_PL02_Deck_011_1_0",
+        "PL03_Grate_PL02_Deck_011_1_1",
+        "PL03_Grate_PL02_Deck_011_1_2",
+        "PL03_Grate_PL02_Deck_012_0_0",
+        "PL03_Grate_PL02_Deck_012_0_1",
+        "PL03_Grate_PL02_Deck_012_0_2",
+        "PL03_Grate_PL02_Deck_012_1_0",
+        "PL03_Grate_PL02_Deck_012_1_1",
+        "PL03_Grate_PL02_Deck_012_1_2",
+        "PL03_Grate_PL02_Deck_012_2_0",
+        "PL03_Grate_PL02_Deck_012_2_1",
+        "PL03_Grate_PL02_Deck_012_2_2",
+        "PL03_Grate_PL02_Deck_015_0_0",
+        "PL03_Grate_PL02_Deck_015_0_1",
+        "PL03_Grate_PL02_Deck_015_0_2",
+        "PL03_Grate_PL02_Deck_016_0_0",
+        "PL03_Grate_PL02_Deck_016_0_1",
+        "PL03_Grate_PL02_Deck_016_0_2",
+        "PL03_Grate_PL02_Deck_016_1_0",
+        "PL03_Grate_PL02_Deck_016_1_1",
+        "PL03_Grate_PL02_Deck_016_1_2"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_030",
+      "pivot": [
+        0,
+        8,
+        4
+      ],
+      "lo": [
+        1.7000000476837158,
+        8.449999809265137,
+        3.940000057220459
+      ],
+      "hi": [
+        3.6000001430511475,
+        11.5,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_015_0_3",
+        "PL03_Grate_PL02_Deck_015_0_4",
+        "PL03_Grate_PL02_Deck_015_0_5"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_031",
+      "pivot": [
+        8,
+        0,
+        4
+      ],
+      "lo": [
+        8.0,
+        1.9999998807907104,
+        3.940000057220459
+      ],
+      "hi": [
+        15.350000381469727,
+        8.40000057220459,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_017_0_0",
+        "PL03_Grate_PL02_Deck_017_0_1",
+        "PL03_Grate_PL02_Deck_017_1_0",
+        "PL03_Grate_PL02_Deck_017_1_1",
+        "PL03_Grate_PL02_Deck_017_2_0",
+        "PL03_Grate_PL02_Deck_017_2_1",
+        "PL03_Grate_PL02_Deck_017_3_0",
+        "PL03_Grate_PL02_Deck_017_3_1",
+        "PL03_Grate_PL02_Deck_018_0_0",
+        "PL03_Grate_PL02_Deck_018_0_1",
+        "PL03_Grate_PL02_Deck_018_0_2",
+        "PL03_Grate_PL02_Deck_018_1_0",
+        "PL03_Grate_PL02_Deck_018_1_1",
+        "PL03_Grate_PL02_Deck_018_1_2",
+        "PL03_Grate_PL02_Deck_018_2_0",
+        "PL03_Grate_PL02_Deck_018_2_1",
+        "PL03_Grate_PL02_Deck_018_2_2",
+        "PL03_Grate_PL02_Deck_018_3_0",
+        "PL03_Grate_PL02_Deck_018_3_1",
+        "PL03_Grate_PL02_Deck_018_3_2",
+        "PL03_Grate_PL02_Deck_019_0_0",
+        "PL03_Grate_PL02_Deck_019_0_1",
+        "PL03_Grate_PL02_Deck_019_1_0",
+        "PL03_Grate_PL02_Deck_019_1_1",
+        "PL03_Grate_PL02_Deck_019_2_0",
+        "PL03_Grate_PL02_Deck_019_2_1",
+        "PL03_Grate_PL02_Deck_019_3_0",
+        "PL03_Grate_PL02_Deck_019_3_1"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_032",
+      "pivot": [
+        16,
+        -8,
+        4
+      ],
+      "lo": [
+        15.299999237060547,
+        -6.299999713897705,
+        3.940000057220459
+      ],
+      "hi": [
+        17.299999237060547,
+        -4.440000057220459,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_024_0_0",
+        "PL03_Grate_PL02_Deck_024_0_1"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_033",
+      "pivot": [
+        16,
+        0,
+        4
+      ],
+      "lo": [
+        15.350000381469727,
+        1.999999761581421,
+        3.940000057220459
+      ],
+      "hi": [
+        17.30000114440918,
+        8.399999618530273,
+        4.0
+      ],
+      "sources": [
+        "PL03_Grate_PL02_Deck_020_0_0",
+        "PL03_Grate_PL02_Deck_020_0_1",
+        "PL03_Grate_PL02_Deck_020_0_2",
+        "PL03_Grate_PL02_Deck_020_0_3",
+        "PL03_Grate_PL02_Deck_020_0_4",
+        "PL03_Grate_PL02_Deck_020_0_5"
+      ],
+      "category": "PL03_Open_Grating",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_034",
+      "pivot": [
+        -32,
+        -24,
+        4
+      ],
+      "lo": [
+        -24.584999084472656,
+        -17.334999084472656,
+        3.759999990463257
+      ],
+      "hi": [
+        -23.5049991607666,
+        -15.15000057220459,
+        5.125
+      ],
+      "sources": [
+        "PL02_Shifted_Open_grating_tile.332",
+        "PL02_Shifted_Fastener_washer.5642",
+        "PL02_Shifted_Hex_head.5642",
+        "PL02_Shifted_Fastener_washer.5643",
+        "PL02_Shifted_Hex_head.5643",
+        "PL02_Shifted_Fastener_washer.5646",
+        "PL02_Shifted_Hex_head.5646",
+        "PL02_Shifted_Deck_joist.193",
+        "PL02_Shifted_Guard_post.133",
+        "PL02_Shifted_Bolted_guard_base.133",
+        "PL02_Shifted_Fastener_washer.5658",
+        "PL02_Shifted_Hex_head.5658",
+        "PL02_Shifted_Fastener_washer.5659",
+        "PL02_Shifted_Hex_head.5659",
+        "PL02_Shifted_Guard_post.136",
+        "PL02_Shifted_Bolted_guard_base.136",
+        "PL02_Shifted_Fastener_washer.5664",
+        "PL02_Shifted_Hex_head.5664",
+        "PL02_Shifted_Fastener_washer.5665",
+        "PL02_Shifted_Hex_head.5665",
+        "PL02_Shifted_Guard_post.137",
+        "PL02_Shifted_Bolted_guard_base.137",
+        "PL02_Shifted_Fastener_washer.5666",
+        "PL02_Shifted_Hex_head.5666",
+        "PL02_Shifted_Fastener_washer.5667",
+        "PL02_Shifted_Hex_head.5667",
+        "PL02_Shifted_Tubular_guard.046",
+        "PL02_Shifted_Tubular_guard.047",
+        "PL02_Shifted_Toe_kick.023"
+      ],
+      "category": "ShiftedArrival",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_035",
+      "pivot": [
+        -32,
+        -16,
+        4
+      ],
+      "lo": [
+        -24.4950008392334,
+        -16.19499969482422,
+        3.940000057220459
+      ],
+      "hi": [
+        -23.5049991607666,
+        -15.154999732971191,
+        4.013000011444092
+      ],
+      "sources": [
+        "PL02_Shifted_Open_grating_tile.333",
+        "PL02_Shifted_Fastener_washer.5647",
+        "PL02_Shifted_Hex_head.5647"
+      ],
+      "category": "ShiftedArrival",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_036",
+      "pivot": [
+        -24,
+        -24,
+        4
+      ],
+      "lo": [
+        -24.5,
+        -17.799999237060547,
+        -0.24000000953674316
+      ],
+      "hi": [
+        -16.020000457763672,
+        -15.15000057220459,
+        5.125
+      ],
+      "sources": [
+        "PL02_Shifted_Open_grating_tile.282",
+        "PL02_Shifted_Fastener_washer.5442",
+        "PL02_Shifted_Hex_head.5442",
+        "PL02_Shifted_Fastener_washer.5443",
+        "PL02_Shifted_Hex_head.5443",
+        "PL02_Shifted_Fastener_washer.5444",
+        "PL02_Shifted_Hex_head.5444",
+        "PL02_Shifted_Fastener_washer.5445",
+        "PL02_Shifted_Hex_head.5445",
+        "PL02_Shifted_Fastener_washer.5446",
+        "PL02_Shifted_Hex_head.5446",
+        "PL02_Shifted_Fastener_washer.5448",
+        "PL02_Shifted_Hex_head.5448",
+        "PL02_Shifted_Arrival_Nosing",
+        "PL02_Shifted_Open_grating_tile.284",
+        "PL02_Shifted_Fastener_washer.5450",
+        "PL02_Shifted_Hex_head.5450",
+        "PL02_Shifted_Fastener_washer.5451",
+        "PL02_Shifted_Hex_head.5451",
+        "PL02_Shifted_Fastener_washer.5452",
+        "PL02_Shifted_Hex_head.5452",
+        "PL02_Shifted_Fastener_washer.5453",
+        "PL02_Shifted_Hex_head.5453",
+        "PL02_Shifted_Fastener_washer.5454",
+        "PL02_Shifted_Hex_head.5454",
+        "PL02_Shifted_Fastener_washer.5456",
+        "PL02_Shifted_Hex_head.5456",
+        "PL02_Shifted_Arrival_Nosing.001",
+        "PL02_Shifted_Open_grating_tile.286",
+        "PL02_Shifted_Fastener_washer.5458",
+        "PL02_Shifted_Hex_head.5458",
+        "PL02_Shifted_Fastener_washer.5459",
+        "PL02_Shifted_Hex_head.5459",
+        "PL02_Shifted_Fastener_washer.5460",
+        "PL02_Shifted_Hex_head.5460",
+        "PL02_Shifted_Fastener_washer.5461",
+        "PL02_Shifted_Hex_head.5461",
+        "PL02_Shifted_Fastener_washer.5462",
+        "PL02_Shifted_Hex_head.5462",
+        "PL02_Shifted_Fastener_washer.5464",
+        "PL02_Shifted_Hex_head.5464",
+        "PL02_Shifted_Arrival_Nosing.002",
+        "PL02_Shifted_Open_grating_tile.288",
+        "PL02_Shifted_Fastener_washer.5466",
+        "PL02_Shifted_Hex_head.5466",
+        "PL02_Shifted_Fastener_washer.5467",
+        "PL02_Shifted_Hex_head.5467",
+        "PL02_Shifted_Fastener_washer.5468",
+        "PL02_Shifted_Hex_head.5468",
+        "PL02_Shifted_Fastener_washer.5469",
+        "PL02_Shifted_Hex_head.5469",
+        "PL02_Shifted_Fastener_washer.5470",
+        "PL02_Shifted_Hex_head.5470",
+        "PL02_Shifted_Fastener_washer.5472",
+        "PL02_Shifted_Hex_head.5472",
+        "PL02_Shifted_Arrival_Nosing.003",
+        "PL02_Shifted_Open_grating_tile.290",
+        "PL02_Shifted_Fastener_washer.5474",
+        "PL02_Shifted_Hex_head.5474",
+        "PL02_Shifted_Fastener_washer.5475",
+        "PL02_Shifted_Hex_head.5475",
+        "PL02_Shifted_Fastener_washer.5476",
+        "PL02_Shifted_Hex_head.5476",
+        "PL02_Shifted_Fastener_washer.5477",
+        "PL02_Shifted_Hex_head.5477",
+        "PL02_Shifted_Fastener_washer.5478",
+        "PL02_Shifted_Hex_head.5478",
+        "PL02_Shifted_Fastener_washer.5480",
+        "PL02_Shifted_Hex_head.5480",
+        "PL02_Shifted_Arrival_Nosing.004",
+        "PL02_Shifted_Open_grating_tile.292",
+        "PL02_Shifted_Fastener_washer.5482",
+        "PL02_Shifted_Hex_head.5482",
+        "PL02_Shifted_Fastener_washer.5483",
+        "PL02_Shifted_Hex_head.5483",
+        "PL02_Shifted_Fastener_washer.5484",
+        "PL02_Shifted_Hex_head.5484",
+        "PL02_Shifted_Fastener_washer.5485",
+        "PL02_Shifted_Hex_head.5485",
+        "PL02_Shifted_Fastener_washer.5486",
+        "PL02_Shifted_Hex_head.5486",
+        "PL02_Shifted_Fastener_washer.5488",
+        "PL02_Shifted_Hex_head.5488",
+        "PL02_Shifted_Arrival_Nosing.005",
+        "PL02_Shifted_Open_grating_tile.294",
+        "PL02_Shifted_Fastener_washer.5490",
+        "PL02_Shifted_Hex_head.5490",
+        "PL02_Shifted_Fastener_washer.5491",
+        "PL02_Shifted_Hex_head.5491",
+        "PL02_Shifted_Fastener_washer.5492",
+        "PL02_Shifted_Hex_head.5492",
+        "PL02_Shifted_Fastener_washer.5493",
+        "PL02_Shifted_Hex_head.5493",
+        "PL02_Shifted_Fastener_washer.5494",
+        "PL02_Shifted_Hex_head.5494",
+        "PL02_Shifted_Fastener_washer.5496",
+        "PL02_Shifted_Hex_head.5496",
+        "PL02_Shifted_Arrival_Nosing.006",
+        "PL02_Shifted_Open_grating_tile.296",
+        "PL02_Shifted_Fastener_washer.5498",
+        "PL02_Shifted_Hex_head.5498",
+        "PL02_Shifted_Fastener_washer.5499",
+        "PL02_Shifted_Hex_head.5499",
+        "PL02_Shifted_Fastener_washer.5500",
+        "PL02_Shifted_Hex_head.5500",
+        "PL02_Shifted_Fastener_washer.5501",
+        "PL02_Shifted_Hex_head.5501",
+        "PL02_Shifted_Fastener_washer.5502",
+        "PL02_Shifted_Hex_head.5502",
+        "PL02_Shifted_Fastener_washer.5504",
+        "PL02_Shifted_Hex_head.5504",
+        "PL02_Shifted_Arrival_Nosing.007",
+        "PL02_Shifted_Open_grating_tile.298",
+        "PL02_Shifted_Fastener_washer.5506",
+        "PL02_Shifted_Hex_head.5506",
+        "PL02_Shifted_Fastener_washer.5507",
+        "PL02_Shifted_Hex_head.5507",
+        "PL02_Shifted_Fastener_washer.5508",
+        "PL02_Shifted_Hex_head.5508",
+        "PL02_Shifted_Fastener_washer.5509",
+        "PL02_Shifted_Hex_head.5509",
+        "PL02_Shifted_Fastener_washer.5510",
+        "PL02_Shifted_Hex_head.5510",
+        "PL02_Shifted_Fastener_washer.5512",
+        "PL02_Shifted_Hex_head.5512",
+        "PL02_Shifted_Arrival_Nosing.008",
+        "PL02_Shifted_Open_grating_tile.300",
+        "PL02_Shifted_Fastener_washer.5514",
+        "PL02_Shifted_Hex_head.5514",
+        "PL02_Shifted_Fastener_washer.5515",
+        "PL02_Shifted_Hex_head.5515",
+        "PL02_Shifted_Fastener_washer.5516",
+        "PL02_Shifted_Hex_head.5516",
+        "PL02_Shifted_Fastener_washer.5517",
+        "PL02_Shifted_Hex_head.5517",
+        "PL02_Shifted_Fastener_washer.5518",
+        "PL02_Shifted_Hex_head.5518",
+        "PL02_Shifted_Fastener_washer.5520",
+        "PL02_Shifted_Hex_head.5520",
+        "PL02_Shifted_Arrival_Nosing.009",
+        "PL02_Shifted_Open_grating_tile.302",
+        "PL02_Shifted_Fastener_washer.5522",
+        "PL02_Shifted_Hex_head.5522",
+        "PL02_Shifted_Fastener_washer.5523",
+        "PL02_Shifted_Hex_head.5523",
+        "PL02_Shifted_Fastener_washer.5524",
+        "PL02_Shifted_Hex_head.5524",
+        "PL02_Shifted_Fastener_washer.5525",
+        "PL02_Shifted_Hex_head.5525",
+        "PL02_Shifted_Fastener_washer.5526",
+        "PL02_Shifted_Hex_head.5526",
+        "PL02_Shifted_Fastener_washer.5528",
+        "PL02_Shifted_Hex_head.5528",
+        "PL02_Shifted_Arrival_Nosing.010",
+        "PL02_Shifted_Open_grating_tile.304",
+        "PL02_Shifted_Fastener_washer.5530",
+        "PL02_Shifted_Hex_head.5530",
+        "PL02_Shifted_Fastener_washer.5531",
+        "PL02_Shifted_Hex_head.5531",
+        "PL02_Shifted_Fastener_washer.5532",
+        "PL02_Shifted_Hex_head.5532",
+        "PL02_Shifted_Fastener_washer.5533",
+        "PL02_Shifted_Hex_head.5533",
+        "PL02_Shifted_Fastener_washer.5534",
+        "PL02_Shifted_Hex_head.5534",
+        "PL02_Shifted_Fastener_washer.5536",
+        "PL02_Shifted_Hex_head.5536",
+        "PL02_Shifted_Arrival_Nosing.011",
+        "PL02_Shifted_Open_grating_tile.306",
+        "PL02_Shifted_Fastener_washer.5538",
+        "PL02_Shifted_Hex_head.5538",
+        "PL02_Shifted_Fastener_washer.5539",
+        "PL02_Shifted_Hex_head.5539",
+        "PL02_Shifted_Fastener_washer.5540",
+        "PL02_Shifted_Hex_head.5540",
+        "PL02_Shifted_Fastener_washer.5541",
+        "PL02_Shifted_Hex_head.5541",
+        "PL02_Shifted_Fastener_washer.5542",
+        "PL02_Shifted_Hex_head.5542",
+        "PL02_Shifted_Fastener_washer.5544",
+        "PL02_Shifted_Hex_head.5544",
+        "PL02_Shifted_Arrival_Nosing.012",
+        "PL02_Shifted_Open_grating_tile.308",
+        "PL02_Shifted_Fastener_washer.5546",
+        "PL02_Shifted_Hex_head.5546",
+        "PL02_Shifted_Fastener_washer.5547",
+        "PL02_Shifted_Hex_head.5547",
+        "PL02_Shifted_Fastener_washer.5548",
+        "PL02_Shifted_Hex_head.5548",
+        "PL02_Shifted_Fastener_washer.5549",
+        "PL02_Shifted_Hex_head.5549",
+        "PL02_Shifted_Fastener_washer.5550",
+        "PL02_Shifted_Hex_head.5550",
+        "PL02_Shifted_Fastener_washer.5552",
+        "PL02_Shifted_Hex_head.5552",
+        "PL02_Shifted_Arrival_Nosing.013",
+        "PL02_Shifted_Open_grating_tile.310",
+        "PL02_Shifted_Fastener_washer.5554",
+        "PL02_Shifted_Hex_head.5554",
+        "PL02_Shifted_Fastener_washer.5555",
+        "PL02_Shifted_Hex_head.5555",
+        "PL02_Shifted_Fastener_washer.5556",
+        "PL02_Shifted_Hex_head.5556",
+        "PL02_Shifted_Fastener_washer.5557",
+        "PL02_Shifted_Hex_head.5557",
+        "PL02_Shifted_Fastener_washer.5558",
+        "PL02_Shifted_Hex_head.5558",
+        "PL02_Shifted_Fastener_washer.5560",
+        "PL02_Shifted_Hex_head.5560",
+        "PL02_Shifted_Arrival_Nosing.014",
+        "PL02_Shifted_Open_grating_tile.312",
+        "PL02_Shifted_Fastener_washer.5562",
+        "PL02_Shifted_Hex_head.5562",
+        "PL02_Shifted_Fastener_washer.5563",
+        "PL02_Shifted_Hex_head.5563",
+        "PL02_Shifted_Fastener_washer.5564",
+        "PL02_Shifted_Hex_head.5564",
+        "PL02_Shifted_Fastener_washer.5565",
+        "PL02_Shifted_Hex_head.5565",
+        "PL02_Shifted_Fastener_washer.5566",
+        "PL02_Shifted_Hex_head.5566",
+        "PL02_Shifted_Fastener_washer.5568",
+        "PL02_Shifted_Hex_head.5568",
+        "PL02_Shifted_Arrival_Nosing.015",
+        "PL02_Shifted_Open_grating_tile.314",
+        "PL02_Shifted_Fastener_washer.5570",
+        "PL02_Shifted_Hex_head.5570",
+        "PL02_Shifted_Fastener_washer.5571",
+        "PL02_Shifted_Hex_head.5571",
+        "PL02_Shifted_Fastener_washer.5572",
+        "PL02_Shifted_Hex_head.5572",
+        "PL02_Shifted_Fastener_washer.5573",
+        "PL02_Shifted_Hex_head.5573",
+        "PL02_Shifted_Fastener_washer.5574",
+        "PL02_Shifted_Hex_head.5574",
+        "PL02_Shifted_Fastener_washer.5576",
+        "PL02_Shifted_Hex_head.5576",
+        "PL02_Shifted_Arrival_Nosing.016",
+        "PL02_Shifted_Open_grating_tile.316",
+        "PL02_Shifted_Fastener_washer.5578",
+        "PL02_Shifted_Hex_head.5578",
+        "PL02_Shifted_Fastener_washer.5579",
+        "PL02_Shifted_Hex_head.5579",
+        "PL02_Shifted_Fastener_washer.5580",
+        "PL02_Shifted_Hex_head.5580",
+        "PL02_Shifted_Fastener_washer.5581",
+        "PL02_Shifted_Hex_head.5581",
+        "PL02_Shifted_Fastener_washer.5582",
+        "PL02_Shifted_Hex_head.5582",
+        "PL02_Shifted_Fastener_washer.5584",
+        "PL02_Shifted_Hex_head.5584",
+        "PL02_Shifted_Arrival_Nosing.017",
+        "PL02_Shifted_Open_grating_tile.318",
+        "PL02_Shifted_Fastener_washer.5586",
+        "PL02_Shifted_Hex_head.5586",
+        "PL02_Shifted_Fastener_washer.5587",
+        "PL02_Shifted_Hex_head.5587",
+        "PL02_Shifted_Fastener_washer.5588",
+        "PL02_Shifted_Hex_head.5588",
+        "PL02_Shifted_Fastener_washer.5589",
+        "PL02_Shifted_Hex_head.5589",
+        "PL02_Shifted_Fastener_washer.5590",
+        "PL02_Shifted_Hex_head.5590",
+        "PL02_Shifted_Fastener_washer.5592",
+        "PL02_Shifted_Hex_head.5592",
+        "PL02_Shifted_Arrival_Nosing.018",
+        "PL02_Shifted_Open_grating_tile.320",
+        "PL02_Shifted_Fastener_washer.5594",
+        "PL02_Shifted_Hex_head.5594",
+        "PL02_Shifted_Fastener_washer.5595",
+        "PL02_Shifted_Hex_head.5595",
+        "PL02_Shifted_Fastener_washer.5596",
+        "PL02_Shifted_Hex_head.5596",
+        "PL02_Shifted_Fastener_washer.5597",
+        "PL02_Shifted_Hex_head.5597",
+        "PL02_Shifted_Fastener_washer.5598",
+        "PL02_Shifted_Hex_head.5598",
+        "PL02_Shifted_Fastener_washer.5600",
+        "PL02_Shifted_Hex_head.5600",
+        "PL02_Shifted_Arrival_Nosing.019",
+        "PL02_Shifted_Open_grating_tile.322",
+        "PL02_Shifted_Fastener_washer.5602",
+        "PL02_Shifted_Hex_head.5602",
+        "PL02_Shifted_Fastener_washer.5603",
+        "PL02_Shifted_Hex_head.5603",
+        "PL02_Shifted_Fastener_washer.5604",
+        "PL02_Shifted_Hex_head.5604",
+        "PL02_Shifted_Fastener_washer.5605",
+        "PL02_Shifted_Hex_head.5605",
+        "PL02_Shifted_Fastener_washer.5606",
+        "PL02_Shifted_Hex_head.5606",
+        "PL02_Shifted_Fastener_washer.5608",
+        "PL02_Shifted_Hex_head.5608",
+        "PL02_Shifted_Arrival_Nosing.020",
+        "PL02_Shifted_Open_grating_tile.324",
+        "PL02_Shifted_Fastener_washer.5610",
+        "PL02_Shifted_Hex_head.5610",
+        "PL02_Shifted_Fastener_washer.5611",
+        "PL02_Shifted_Hex_head.5611",
+        "PL02_Shifted_Fastener_washer.5612",
+        "PL02_Shifted_Hex_head.5612",
+        "PL02_Shifted_Fastener_washer.5613",
+        "PL02_Shifted_Hex_head.5613",
+        "PL02_Shifted_Fastener_washer.5614",
+        "PL02_Shifted_Hex_head.5614",
+        "PL02_Shifted_Fastener_washer.5616",
+        "PL02_Shifted_Hex_head.5616",
+        "PL02_Shifted_Arrival_Nosing.021",
+        "PL02_Shifted_Open_grating_tile.326",
+        "PL02_Shifted_Fastener_washer.5618",
+        "PL02_Shifted_Hex_head.5618",
+        "PL02_Shifted_Fastener_washer.5619",
+        "PL02_Shifted_Hex_head.5619",
+        "PL02_Shifted_Fastener_washer.5620",
+        "PL02_Shifted_Hex_head.5620",
+        "PL02_Shifted_Fastener_washer.5621",
+        "PL02_Shifted_Hex_head.5621",
+        "PL02_Shifted_Fastener_washer.5622",
+        "PL02_Shifted_Hex_head.5622",
+        "PL02_Shifted_Fastener_washer.5624",
+        "PL02_Shifted_Hex_head.5624",
+        "PL02_Shifted_Arrival_Nosing.022",
+        "PL02_Shifted_Arrival_Stringer.001",
+        "PL02_Shifted_Arrival_Post.008",
+        "PL02_Shifted_Arrival_Post.009",
+        "PL02_Shifted_Arrival_Post.010",
+        "PL02_Shifted_Arrival_Post.011",
+        "PL02_Shifted_Arrival_Post.012",
+        "PL02_Shifted_Arrival_Post.013",
+        "PL02_Shifted_Arrival_Post.014",
+        "PL02_Shifted_Arrival_Post.015",
+        "PL02_Shifted_Arrival_Handrail.002",
+        "PL02_Shifted_Arrival_Handrail.003",
+        "PL02_Shifted_Deck_joist.190",
+        "PL02_Shifted_Fastener_washer.5644",
+        "PL02_Shifted_Hex_head.5644",
+        "PL02_Shifted_Fastener_washer.5645",
+        "PL02_Shifted_Hex_head.5645",
+        "PL02_Shifted_Fastener_washer.5648",
+        "PL02_Shifted_Hex_head.5648",
+        "PL02_Shifted_Open_grating_tile.334",
+        "PL02_Shifted_Fastener_washer.5650",
+        "PL02_Shifted_Hex_head.5650",
+        "PL02_Shifted_Fastener_washer.5651",
+        "PL02_Shifted_Hex_head.5651",
+        "PL02_Shifted_Fastener_washer.5652",
+        "PL02_Shifted_Hex_head.5652",
+        "PL02_Shifted_Fastener_washer.5653",
+        "PL02_Shifted_Hex_head.5653",
+        "PL02_Shifted_Fastener_washer.5654",
+        "PL02_Shifted_Hex_head.5654",
+        "PL02_Shifted_Fastener_washer.5656",
+        "PL02_Shifted_Hex_head.5656",
+        "PL02_Shifted_Band_edge_channel.094",
+        "PL02_Shifted_Deck_joist.194",
+        "PL02_Shifted_Deck_joist.195",
+        "PL02_Shifted_Guard_post.134",
+        "PL02_Shifted_Bolted_guard_base.134",
+        "PL02_Shifted_Fastener_washer.5660",
+        "PL02_Shifted_Hex_head.5660",
+        "PL02_Shifted_Fastener_washer.5661",
+        "PL02_Shifted_Hex_head.5661",
+        "PL02_Shifted_Guard_post.135",
+        "PL02_Shifted_Bolted_guard_base.135",
+        "PL02_Shifted_Fastener_washer.5662",
+        "PL02_Shifted_Hex_head.5662",
+        "PL02_Shifted_Fastener_washer.5663",
+        "PL02_Shifted_Hex_head.5663",
+        "PL02_Shifted_Tubular_guard.044",
+        "PL02_Shifted_Tubular_guard.045",
+        "PL02_Shifted_Toe_kick.022"
+      ],
+      "category": "ShiftedArrival",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Safety_ochre",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_037",
+      "pivot": [
+        -24,
+        -16,
+        4
+      ],
+      "lo": [
+        -23.611000061035156,
+        -16.345001220703125,
+        -0.1858905553817749
+      ],
+      "hi": [
+        -15.975001335144043,
+        -15.154999732971191,
+        5.101109027862549
+      ],
+      "sources": [
+        "PL02_Shifted_Open_grating_tile.283",
+        "PL02_Shifted_Fastener_washer.5447",
+        "PL02_Shifted_Hex_head.5447",
+        "PL02_Shifted_Fastener_washer.5449",
+        "PL02_Shifted_Hex_head.5449",
+        "PL02_Shifted_Open_grating_tile.285",
+        "PL02_Shifted_Fastener_washer.5455",
+        "PL02_Shifted_Hex_head.5455",
+        "PL02_Shifted_Fastener_washer.5457",
+        "PL02_Shifted_Hex_head.5457",
+        "PL02_Shifted_Open_grating_tile.287",
+        "PL02_Shifted_Fastener_washer.5463",
+        "PL02_Shifted_Hex_head.5463",
+        "PL02_Shifted_Fastener_washer.5465",
+        "PL02_Shifted_Hex_head.5465",
+        "PL02_Shifted_Open_grating_tile.289",
+        "PL02_Shifted_Fastener_washer.5471",
+        "PL02_Shifted_Hex_head.5471",
+        "PL02_Shifted_Fastener_washer.5473",
+        "PL02_Shifted_Hex_head.5473",
+        "PL02_Shifted_Open_grating_tile.291",
+        "PL02_Shifted_Fastener_washer.5479",
+        "PL02_Shifted_Hex_head.5479",
+        "PL02_Shifted_Fastener_washer.5481",
+        "PL02_Shifted_Hex_head.5481",
+        "PL02_Shifted_Open_grating_tile.293",
+        "PL02_Shifted_Fastener_washer.5487",
+        "PL02_Shifted_Hex_head.5487",
+        "PL02_Shifted_Fastener_washer.5489",
+        "PL02_Shifted_Hex_head.5489",
+        "PL02_Shifted_Open_grating_tile.295",
+        "PL02_Shifted_Fastener_washer.5495",
+        "PL02_Shifted_Hex_head.5495",
+        "PL02_Shifted_Fastener_washer.5497",
+        "PL02_Shifted_Hex_head.5497",
+        "PL02_Shifted_Open_grating_tile.297",
+        "PL02_Shifted_Fastener_washer.5503",
+        "PL02_Shifted_Hex_head.5503",
+        "PL02_Shifted_Fastener_washer.5505",
+        "PL02_Shifted_Hex_head.5505",
+        "PL02_Shifted_Open_grating_tile.299",
+        "PL02_Shifted_Fastener_washer.5511",
+        "PL02_Shifted_Hex_head.5511",
+        "PL02_Shifted_Fastener_washer.5513",
+        "PL02_Shifted_Hex_head.5513",
+        "PL02_Shifted_Open_grating_tile.301",
+        "PL02_Shifted_Fastener_washer.5519",
+        "PL02_Shifted_Hex_head.5519",
+        "PL02_Shifted_Fastener_washer.5521",
+        "PL02_Shifted_Hex_head.5521",
+        "PL02_Shifted_Open_grating_tile.303",
+        "PL02_Shifted_Fastener_washer.5527",
+        "PL02_Shifted_Hex_head.5527",
+        "PL02_Shifted_Fastener_washer.5529",
+        "PL02_Shifted_Hex_head.5529",
+        "PL02_Shifted_Open_grating_tile.305",
+        "PL02_Shifted_Fastener_washer.5535",
+        "PL02_Shifted_Hex_head.5535",
+        "PL02_Shifted_Fastener_washer.5537",
+        "PL02_Shifted_Hex_head.5537",
+        "PL02_Shifted_Open_grating_tile.307",
+        "PL02_Shifted_Fastener_washer.5543",
+        "PL02_Shifted_Hex_head.5543",
+        "PL02_Shifted_Fastener_washer.5545",
+        "PL02_Shifted_Hex_head.5545",
+        "PL02_Shifted_Open_grating_tile.309",
+        "PL02_Shifted_Fastener_washer.5551",
+        "PL02_Shifted_Hex_head.5551",
+        "PL02_Shifted_Fastener_washer.5553",
+        "PL02_Shifted_Hex_head.5553",
+        "PL02_Shifted_Open_grating_tile.311",
+        "PL02_Shifted_Fastener_washer.5559",
+        "PL02_Shifted_Hex_head.5559",
+        "PL02_Shifted_Fastener_washer.5561",
+        "PL02_Shifted_Hex_head.5561",
+        "PL02_Shifted_Open_grating_tile.313",
+        "PL02_Shifted_Fastener_washer.5567",
+        "PL02_Shifted_Hex_head.5567",
+        "PL02_Shifted_Fastener_washer.5569",
+        "PL02_Shifted_Hex_head.5569",
+        "PL02_Shifted_Open_grating_tile.315",
+        "PL02_Shifted_Fastener_washer.5575",
+        "PL02_Shifted_Hex_head.5575",
+        "PL02_Shifted_Fastener_washer.5577",
+        "PL02_Shifted_Hex_head.5577",
+        "PL02_Shifted_Open_grating_tile.317",
+        "PL02_Shifted_Fastener_washer.5583",
+        "PL02_Shifted_Hex_head.5583",
+        "PL02_Shifted_Fastener_washer.5585",
+        "PL02_Shifted_Hex_head.5585",
+        "PL02_Shifted_Open_grating_tile.319",
+        "PL02_Shifted_Fastener_washer.5591",
+        "PL02_Shifted_Hex_head.5591",
+        "PL02_Shifted_Fastener_washer.5593",
+        "PL02_Shifted_Hex_head.5593",
+        "PL02_Shifted_Open_grating_tile.321",
+        "PL02_Shifted_Fastener_washer.5599",
+        "PL02_Shifted_Hex_head.5599",
+        "PL02_Shifted_Fastener_washer.5601",
+        "PL02_Shifted_Hex_head.5601",
+        "PL02_Shifted_Open_grating_tile.323",
+        "PL02_Shifted_Fastener_washer.5607",
+        "PL02_Shifted_Hex_head.5607",
+        "PL02_Shifted_Fastener_washer.5609",
+        "PL02_Shifted_Hex_head.5609",
+        "PL02_Shifted_Open_grating_tile.325",
+        "PL02_Shifted_Fastener_washer.5615",
+        "PL02_Shifted_Hex_head.5615",
+        "PL02_Shifted_Fastener_washer.5617",
+        "PL02_Shifted_Hex_head.5617",
+        "PL02_Shifted_Open_grating_tile.327",
+        "PL02_Shifted_Fastener_washer.5623",
+        "PL02_Shifted_Hex_head.5623",
+        "PL02_Shifted_Fastener_washer.5625",
+        "PL02_Shifted_Hex_head.5625",
+        "PL02_Shifted_Arrival_Stringer",
+        "PL02_Shifted_Arrival_Post",
+        "PL02_Shifted_Arrival_Post.001",
+        "PL02_Shifted_Arrival_Post.002",
+        "PL02_Shifted_Arrival_Post.003",
+        "PL02_Shifted_Arrival_Post.004",
+        "PL02_Shifted_Arrival_Post.005",
+        "PL02_Shifted_Arrival_Post.006",
+        "PL02_Shifted_Arrival_Post.007",
+        "PL02_Shifted_Arrival_Handrail",
+        "PL02_Shifted_Arrival_Handrail.001",
+        "PL02_Shifted_Fastener_washer.5649",
+        "PL02_Shifted_Hex_head.5649",
+        "PL02_Shifted_Open_grating_tile.335",
+        "PL02_Shifted_Fastener_washer.5655",
+        "PL02_Shifted_Hex_head.5655",
+        "PL02_Shifted_Fastener_washer.5657",
+        "PL02_Shifted_Hex_head.5657",
+        "PL02_Shifted_Guard_post.144",
+        "PL02_Shifted_Bolted_guard_base.144",
+        "PL02_Shifted_Fastener_washer.5680",
+        "PL02_Shifted_Hex_head.5680",
+        "PL02_Shifted_Fastener_washer.5681",
+        "PL02_Shifted_Hex_head.5681"
+      ],
+      "category": "ShiftedArrival",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_038",
+      "pivot": [
+        -16,
+        -24,
+        4
+      ],
+      "lo": [
+        -16.060001373291016,
+        -19.5,
+        -0.28999999165534973
+      ],
+      "hi": [
+        -13.975000381469727,
+        -15.449999809265137,
+        1.1250001192092896
+      ],
+      "sources": [
+        "PL02_Shifted_Open_grating_tile.328",
+        "PL02_Shifted_Fastener_washer.5626",
+        "PL02_Shifted_Hex_head.5626",
+        "PL02_Shifted_Fastener_washer.5627",
+        "PL02_Shifted_Hex_head.5627",
+        "PL02_Shifted_Fastener_washer.5628",
+        "PL02_Shifted_Hex_head.5628",
+        "PL02_Shifted_Fastener_washer.5629",
+        "PL02_Shifted_Hex_head.5629",
+        "PL02_Shifted_Open_grating_tile.329",
+        "PL02_Shifted_Fastener_washer.5630",
+        "PL02_Shifted_Hex_head.5630",
+        "PL02_Shifted_Fastener_washer.5632",
+        "PL02_Shifted_Hex_head.5632",
+        "PL02_Shifted_Open_grating_tile.330",
+        "PL02_Shifted_Fastener_washer.5634",
+        "PL02_Shifted_Hex_head.5634",
+        "PL02_Shifted_Fastener_washer.5635",
+        "PL02_Shifted_Hex_head.5635",
+        "PL02_Shifted_Fastener_washer.5636",
+        "PL02_Shifted_Hex_head.5636",
+        "PL02_Shifted_Fastener_washer.5637",
+        "PL02_Shifted_Hex_head.5637",
+        "PL02_Shifted_Open_grating_tile.331",
+        "PL02_Shifted_Fastener_washer.5638",
+        "PL02_Shifted_Hex_head.5638",
+        "PL02_Shifted_Fastener_washer.5640",
+        "PL02_Shifted_Hex_head.5640",
+        "PL02_Shifted_Band_edge_channel.092",
+        "PL02_Shifted_Deck_joist.191",
+        "PL02_Shifted_Deck_joist.192",
+        "PL02_Shifted_Guard_post.139",
+        "PL02_Shifted_Bolted_guard_base.139",
+        "PL02_Shifted_Fastener_washer.5670",
+        "PL02_Shifted_Hex_head.5670",
+        "PL02_Shifted_Fastener_washer.5671",
+        "PL02_Shifted_Hex_head.5671",
+        "PL02_Shifted_Guard_post.140",
+        "PL02_Shifted_Bolted_guard_base.140",
+        "PL02_Shifted_Fastener_washer.5672",
+        "PL02_Shifted_Hex_head.5672",
+        "PL02_Shifted_Fastener_washer.5673",
+        "PL02_Shifted_Hex_head.5673",
+        "PL02_Shifted_Tubular_guard.048",
+        "PL02_Shifted_Tubular_guard.049",
+        "PL02_Shifted_Toe_kick.024",
+        "PL02_Shifted_Arrival_ground_approach"
+      ],
+      "category": "ShiftedArrival",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel",
+        "VF07_Compacted_Gravel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_039",
+      "pivot": [
+        -16,
+        -16,
+        4
+      ],
+      "lo": [
+        -16.060001373291016,
+        -15.560999870300293,
+        -0.28999999165534973
+      ],
+      "hi": [
+        -13.975000381469727,
+        -15.364999771118164,
+        1.1250001192092896
+      ],
+      "sources": [
+        "PL02_Shifted_Fastener_washer.5631",
+        "PL02_Shifted_Hex_head.5631",
+        "PL02_Shifted_Fastener_washer.5633",
+        "PL02_Shifted_Hex_head.5633",
+        "PL02_Shifted_Fastener_washer.5639",
+        "PL02_Shifted_Hex_head.5639",
+        "PL02_Shifted_Fastener_washer.5641",
+        "PL02_Shifted_Hex_head.5641",
+        "PL02_Shifted_Band_edge_channel.093",
+        "PL02_Shifted_Guard_post.141",
+        "PL02_Shifted_Bolted_guard_base.141",
+        "PL02_Shifted_Fastener_washer.5674",
+        "PL02_Shifted_Hex_head.5674",
+        "PL02_Shifted_Fastener_washer.5675",
+        "PL02_Shifted_Hex_head.5675",
+        "PL02_Shifted_Guard_post.142",
+        "PL02_Shifted_Bolted_guard_base.142",
+        "PL02_Shifted_Fastener_washer.5676",
+        "PL02_Shifted_Hex_head.5676",
+        "PL02_Shifted_Fastener_washer.5677",
+        "PL02_Shifted_Hex_head.5677",
+        "PL02_Shifted_Guard_post.143",
+        "PL02_Shifted_Bolted_guard_base.143",
+        "PL02_Shifted_Fastener_washer.5678",
+        "PL02_Shifted_Hex_head.5678",
+        "PL02_Shifted_Fastener_washer.5679",
+        "PL02_Shifted_Hex_head.5679",
+        "PL02_Shifted_Tubular_guard.050",
+        "PL02_Shifted_Tubular_guard.051",
+        "PL02_Shifted_Toe_kick.025"
+      ],
+      "category": "ShiftedArrival",
+      "materials": [
+        "VF06_Fastener_oxidation",
+        "VF06_Galvanized",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_040",
+      "pivot": [
+        -8,
+        8,
+        4
+      ],
+      "lo": [
+        -4.400000095367432,
+        10.5,
+        -72.23616790771484
+      ],
+      "hi": [
+        -3.350783348083496,
+        11.299999237060547,
+        3.7486369609832764
+      ],
+      "sources": [
+        "Grounded_footing.013",
+        "Deck_column.013",
+        "Deck_brace.013"
+      ],
+      "category": "VF07_Deck_Structure",
+      "materials": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_041",
+      "pivot": [
+        0,
+        -16,
+        4
+      ],
+      "lo": [
+        0.9500000476837158,
+        -13.09999942779541,
+        -0.3449999988079071
+      ],
+      "hi": [
+        1.9992167949676514,
+        -12.300000190734863,
+        3.7486369609832764
+      ],
+      "sources": [
+        "Grounded_footing.010",
+        "Deck_column.010",
+        "Deck_brace.010"
+      ],
+      "category": "VF07_Deck_Structure",
+      "materials": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_042",
+      "pivot": [
+        0,
+        -8,
+        4
+      ],
+      "lo": [
+        0.9500000476837158,
+        -6.0,
+        -0.3449999988079071
+      ],
+      "hi": [
+        1.9992167949676514,
+        -5.199999809265137,
+        3.7486369609832764
+      ],
+      "sources": [
+        "Grounded_footing.011",
+        "Deck_column.011",
+        "Deck_brace.011"
+      ],
+      "category": "VF07_Deck_Structure",
+      "materials": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_043",
+      "pivot": [
+        0,
+        0,
+        4
+      ],
+      "lo": [
+        5.25,
+        7.400000095367432,
+        -21.597408294677734
+      ],
+      "hi": [
+        6.299216270446777,
+        8.199999809265137,
+        3.7486369609832764
+      ],
+      "sources": [
+        "Grounded_footing.015",
+        "Deck_column.015",
+        "Deck_brace.015"
+      ],
+      "category": "VF07_Deck_Structure",
+      "materials": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_044",
+      "pivot": [
+        0,
+        8,
+        4
+      ],
+      "lo": [
+        3.1499998569488525,
+        10.5,
+        -71.09529876708984
+      ],
+      "hi": [
+        4.199216842651367,
+        11.299999237060547,
+        3.7486369609832764
+      ],
+      "sources": [
+        "Grounded_footing.014",
+        "Deck_column.014",
+        "Deck_brace.014"
+      ],
+      "category": "VF07_Deck_Structure",
+      "materials": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_045",
+      "pivot": [
+        8,
+        0,
+        4
+      ],
+      "lo": [
+        8.300000190734863,
+        0.625,
+        -22.62921142578125
+      ],
+      "hi": [
+        13.375,
+        8.300000190734863,
+        14.0123929977417
+      ],
+      "sources": [
+        "Grounded_footing.018",
+        "Deck_column.018",
+        "Deck_brace.018",
+        "Grounded_footing.019",
+        "Deck_column.019",
+        "Deck_brace.019",
+        "Backstay_ground_anchor",
+        "Reanchored_backstay",
+        "Backstay_ground_anchor.001",
+        "Reanchored_backstay.001"
+      ],
+      "category": "VF07_Deck_Structure",
+      "materials": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_046",
+      "pivot": [
+        16,
+        0,
+        4
+      ],
+      "lo": [
+        16.5,
+        1.899999976158142,
+        -0.4983985722064972
+      ],
+      "hi": [
+        17.549217224121094,
+        8.300000190734863,
+        3.7486369609832764
+      ],
+      "sources": [
+        "Grounded_footing.016",
+        "Deck_column.016",
+        "Deck_brace.016",
+        "Grounded_footing.017",
+        "Deck_column.017",
+        "Deck_brace.017"
+      ],
+      "category": "VF07_Deck_Structure",
+      "materials": [
+        "VF06_Concrete",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_047",
+      "pivot": [
+        -8,
+        -8,
+        4
+      ],
+      "lo": [
+        -2.184999942779541,
+        -5.284999847412109,
+        4.0
+      ],
+      "hi": [
+        1.5,
+        0.02500000037252903,
+        5.125
+      ],
+      "sources": [
+        "Guard_post.085",
+        "Guard_post.086",
+        "Guard_post.125",
+        "Bolted_guard_base.125",
+        "Fastener_washer.5242",
+        "Hex_head.5242",
+        "Fastener_washer.5243",
+        "Hex_head.5243",
+        "Guard_post.126",
+        "Bolted_guard_base.126",
+        "Fastener_washer.5244",
+        "Hex_head.5244",
+        "Fastener_washer.5245",
+        "Hex_head.5245",
+        "Tubular_guard.038",
+        "Tubular_guard.039",
+        "Toe_kick.019"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_048",
+      "pivot": [
+        -8,
+        0,
+        4
+      ],
+      "lo": [
+        -7.789999961853027,
+        -0.08500000089406967,
+        4.0
+      ],
+      "hi": [
+        -0.6233332753181458,
+        7.434999942779541,
+        7.449999809265137
+      ],
+      "sources": [
+        "Guard_post.029",
+        "Bolted_guard_base.029",
+        "Fastener_washer.5086",
+        "Hex_head.5086",
+        "Fastener_washer.5087",
+        "Hex_head.5087",
+        "Guard_post.030",
+        "Bolted_guard_base.030",
+        "Fastener_washer.5088",
+        "Hex_head.5088",
+        "Fastener_washer.5089",
+        "Hex_head.5089",
+        "Guard_post.031",
+        "Bolted_guard_base.031",
+        "Fastener_washer.5090",
+        "Hex_head.5090",
+        "Fastener_washer.5091",
+        "Hex_head.5091",
+        "Guard_post.032",
+        "Bolted_guard_base.032",
+        "Fastener_washer.5092",
+        "Hex_head.5092",
+        "Fastener_washer.5093",
+        "Hex_head.5093",
+        "Bolted_guard_base.085",
+        "Fastener_washer.5162",
+        "Hex_head.5162",
+        "Fastener_washer.5163",
+        "Hex_head.5163",
+        "Bolted_guard_base.086",
+        "Fastener_washer.5164",
+        "Hex_head.5164",
+        "Fastener_washer.5165",
+        "Hex_head.5165",
+        "Canopy_outboard_head"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_049",
+      "pivot": [
+        -8,
+        8,
+        4
+      ],
+      "lo": [
+        -4.085000038146973,
+        7.350000381469727,
+        4.0
+      ],
+      "hi": [
+        -1.6150000095367432,
+        11.585000038146973,
+        5.125
+      ],
+      "sources": [
+        "Guard_post.033",
+        "Bolted_guard_base.033",
+        "Fastener_washer.5094",
+        "Hex_head.5094",
+        "Fastener_washer.5095",
+        "Hex_head.5095",
+        "Guard_post.034",
+        "Bolted_guard_base.034",
+        "Fastener_washer.5096",
+        "Hex_head.5096",
+        "Fastener_washer.5097",
+        "Hex_head.5097",
+        "Guard_post.035",
+        "Bolted_guard_base.035",
+        "Fastener_washer.5098",
+        "Hex_head.5098",
+        "Fastener_washer.5099",
+        "Hex_head.5099",
+        "Tubular_guard.004",
+        "Tubular_guard.005",
+        "Toe_kick.002",
+        "Guard_post.036",
+        "Bolted_guard_base.036",
+        "Fastener_washer.5100",
+        "Hex_head.5100",
+        "Fastener_washer.5101",
+        "Hex_head.5101",
+        "Guard_post.037",
+        "Bolted_guard_base.037",
+        "Fastener_washer.5102",
+        "Hex_head.5102",
+        "Fastener_washer.5103",
+        "Hex_head.5103",
+        "Guard_post.038",
+        "Bolted_guard_base.038",
+        "Fastener_washer.5104",
+        "Hex_head.5104",
+        "Fastener_washer.5105",
+        "Hex_head.5105",
+        "Tubular_guard.006",
+        "Tubular_guard.007",
+        "Toe_kick.003"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_050",
+      "pivot": [
+        0,
+        -16,
+        4
+      ],
+      "lo": [
+        1.4149999618530273,
+        -13.199999809265137,
+        4.0
+      ],
+      "hi": [
+        1.5850000381469727,
+        -5.199999809265137,
+        5.125
+      ],
+      "sources": [
+        "Guard_post.117",
+        "Bolted_guard_base.117",
+        "Fastener_washer.5226",
+        "Hex_head.5226",
+        "Fastener_washer.5227",
+        "Hex_head.5227",
+        "Guard_post.118",
+        "Bolted_guard_base.118",
+        "Fastener_washer.5228",
+        "Hex_head.5228",
+        "Fastener_washer.5229",
+        "Hex_head.5229",
+        "Guard_post.119",
+        "Bolted_guard_base.119",
+        "Fastener_washer.5230",
+        "Hex_head.5230",
+        "Fastener_washer.5231",
+        "Hex_head.5231",
+        "Tubular_guard.036",
+        "Tubular_guard.037",
+        "Toe_kick.018"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_051",
+      "pivot": [
+        0,
+        -8,
+        4
+      ],
+      "lo": [
+        -2.0500001907348633,
+        -7.951666355133057,
+        4.0
+      ],
+      "hi": [
+        6.025001049041748,
+        0.040000174194574356,
+        5.100000381469727
+      ],
+      "sources": [
+        "Guard_post.087",
+        "Guard_post.088",
+        "Guard_post.089",
+        "Guard_post.090",
+        "Guard_post.091",
+        "Toe_kick.013",
+        "Guard_post.120",
+        "Bolted_guard_base.120",
+        "Fastener_washer.5232",
+        "Hex_head.5232",
+        "Fastener_washer.5233",
+        "Hex_head.5233",
+        "Guard_post.121",
+        "Bolted_guard_base.121",
+        "Fastener_washer.5234",
+        "Hex_head.5234",
+        "Fastener_washer.5235",
+        "Hex_head.5235",
+        "Guard_post.122",
+        "Bolted_guard_base.122",
+        "Fastener_washer.5236",
+        "Hex_head.5236",
+        "Fastener_washer.5237",
+        "Hex_head.5237",
+        "Guard_post.123",
+        "Bolted_guard_base.123",
+        "Fastener_washer.5238",
+        "Hex_head.5238",
+        "Fastener_washer.5239",
+        "Hex_head.5239",
+        "Guard_post.124",
+        "Bolted_guard_base.124",
+        "Fastener_washer.5240",
+        "Hex_head.5240",
+        "Fastener_washer.5241",
+        "Hex_head.5241"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_052",
+      "pivot": [
+        0,
+        0,
+        4
+      ],
+      "lo": [
+        -2.0500001907348633,
+        -0.08500000089406967,
+        4.0
+      ],
+      "hi": [
+        8.085000038146973,
+        6.885000228881836,
+        5.125
+      ],
+      "sources": [
+        "Bolted_guard_base.056",
+        "Fastener_washer.5140",
+        "Hex_head.5140",
+        "Bolted_guard_base.062",
+        "Fastener_washer.5152",
+        "Hex_head.5152",
+        "Bolted_guard_base.063",
+        "Fastener_washer.5154",
+        "Hex_head.5154",
+        "Bolted_guard_base.064",
+        "Fastener_washer.5156",
+        "Hex_head.5156",
+        "Bolted_guard_base.065",
+        "Fastener_washer.5158",
+        "Hex_head.5158",
+        "Bolted_guard_base.066",
+        "Fastener_washer.5160",
+        "Hex_head.5160",
+        "Bolted_guard_base.087",
+        "Fastener_washer.5166",
+        "Hex_head.5166",
+        "Fastener_washer.5167",
+        "Hex_head.5167",
+        "Bolted_guard_base.088",
+        "Fastener_washer.5168",
+        "Hex_head.5168",
+        "Fastener_washer.5169",
+        "Hex_head.5169",
+        "Bolted_guard_base.089",
+        "Fastener_washer.5170",
+        "Hex_head.5170",
+        "Fastener_washer.5171",
+        "Hex_head.5171",
+        "Bolted_guard_base.090",
+        "Fastener_washer.5172",
+        "Hex_head.5172",
+        "Fastener_washer.5173",
+        "Hex_head.5173",
+        "Bolted_guard_base.091",
+        "Fastener_washer.5174",
+        "Hex_head.5174",
+        "Fastener_washer.5175",
+        "Hex_head.5175",
+        "Tubular_guard.026",
+        "Tubular_guard.027"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation",
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_053",
+      "pivot": [
+        0,
+        8,
+        4
+      ],
+      "lo": [
+        1.6150000095367432,
+        8.3149995803833,
+        4.0
+      ],
+      "hi": [
+        10.850000381469727,
+        11.585000038146973,
+        5.125
+      ],
+      "sources": [
+        "Guard_post.039",
+        "Bolted_guard_base.039",
+        "Fastener_washer.5106",
+        "Hex_head.5106",
+        "Fastener_washer.5107",
+        "Hex_head.5107",
+        "Guard_post.040",
+        "Bolted_guard_base.040",
+        "Fastener_washer.5108",
+        "Hex_head.5108",
+        "Fastener_washer.5109",
+        "Hex_head.5109",
+        "Guard_post.041",
+        "Bolted_guard_base.041",
+        "Fastener_washer.5110",
+        "Hex_head.5110",
+        "Fastener_washer.5111",
+        "Hex_head.5111",
+        "Tubular_guard.008",
+        "Tubular_guard.009",
+        "Toe_kick.004",
+        "Guard_post.042",
+        "Bolted_guard_base.042",
+        "Fastener_washer.5112",
+        "Hex_head.5112",
+        "Fastener_washer.5113",
+        "Hex_head.5113",
+        "Guard_post.043",
+        "Bolted_guard_base.043",
+        "Fastener_washer.5114",
+        "Hex_head.5114",
+        "Fastener_washer.5115",
+        "Hex_head.5115",
+        "Guard_post.044",
+        "Bolted_guard_base.044",
+        "Fastener_washer.5116",
+        "Hex_head.5116",
+        "Fastener_washer.5117",
+        "Hex_head.5117",
+        "Guard_post.045",
+        "Bolted_guard_base.045",
+        "Fastener_washer.5118",
+        "Hex_head.5118",
+        "Fastener_washer.5119",
+        "Hex_head.5119",
+        "Tubular_guard.010",
+        "Tubular_guard.011",
+        "Toe_kick.005",
+        "Guard_post.046",
+        "Bolted_guard_base.046",
+        "Fastener_washer.5120",
+        "Hex_head.5120",
+        "Fastener_washer.5121",
+        "Hex_head.5121",
+        "Guard_post.047",
+        "Bolted_guard_base.047",
+        "Fastener_washer.5122",
+        "Hex_head.5122",
+        "Fastener_washer.5123",
+        "Hex_head.5123",
+        "Guard_post.048",
+        "Bolted_guard_base.048",
+        "Fastener_washer.5124",
+        "Hex_head.5124",
+        "Fastener_washer.5125",
+        "Hex_head.5125",
+        "Guard_post.049",
+        "Bolted_guard_base.049",
+        "Fastener_washer.5126",
+        "Hex_head.5126",
+        "Tubular_guard.012",
+        "Tubular_guard.013",
+        "Toe_kick.006"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_054",
+      "pivot": [
+        8,
+        0,
+        4
+      ],
+      "lo": [
+        7.960000038146973,
+        1.9149999618530273,
+        4.0
+      ],
+      "hi": [
+        15.385000228881836,
+        6.866000175476074,
+        5.125
+      ],
+      "sources": [
+        "Guard_post.056",
+        "Fastener_washer.5141",
+        "Hex_head.5141",
+        "Guard_post.057",
+        "Bolted_guard_base.057",
+        "Fastener_washer.5142",
+        "Hex_head.5142",
+        "Fastener_washer.5143",
+        "Hex_head.5143",
+        "Guard_post.058",
+        "Bolted_guard_base.058",
+        "Fastener_washer.5144",
+        "Hex_head.5144",
+        "Fastener_washer.5145",
+        "Hex_head.5145",
+        "Guard_post.059",
+        "Bolted_guard_base.059",
+        "Fastener_washer.5146",
+        "Hex_head.5146",
+        "Fastener_washer.5147",
+        "Hex_head.5147",
+        "Guard_post.060",
+        "Bolted_guard_base.060",
+        "Fastener_washer.5148",
+        "Hex_head.5148",
+        "Fastener_washer.5149",
+        "Hex_head.5149",
+        "Guard_post.061",
+        "Bolted_guard_base.061",
+        "Fastener_washer.5150",
+        "Hex_head.5150",
+        "Fastener_washer.5151",
+        "Hex_head.5151",
+        "Tubular_guard.016",
+        "Tubular_guard.017",
+        "Toe_kick.008",
+        "Guard_post.062",
+        "Fastener_washer.5153",
+        "Hex_head.5153",
+        "Guard_post.063",
+        "Fastener_washer.5155",
+        "Hex_head.5155",
+        "Guard_post.064",
+        "Fastener_washer.5157",
+        "Hex_head.5157",
+        "Guard_post.065",
+        "Fastener_washer.5159",
+        "Hex_head.5159",
+        "Guard_post.066",
+        "Fastener_washer.5161",
+        "Hex_head.5161",
+        "Tubular_guard.018",
+        "Tubular_guard.019",
+        "Toe_kick.009"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Fastener_oxidation",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_055",
+      "pivot": [
+        8,
+        8,
+        4
+      ],
+      "lo": [
+        7.98900032043457,
+        8.3149995803833,
+        4.0
+      ],
+      "hi": [
+        17.299999237060547,
+        8.484999656677246,
+        5.125
+      ],
+      "sources": [
+        "Fastener_washer.5127",
+        "Hex_head.5127",
+        "Guard_post.050",
+        "Bolted_guard_base.050",
+        "Fastener_washer.5128",
+        "Hex_head.5128",
+        "Fastener_washer.5129",
+        "Hex_head.5129",
+        "Guard_post.051",
+        "Bolted_guard_base.051",
+        "Fastener_washer.5130",
+        "Hex_head.5130",
+        "Fastener_washer.5131",
+        "Hex_head.5131",
+        "Guard_post.052",
+        "Bolted_guard_base.052",
+        "Fastener_washer.5132",
+        "Hex_head.5132",
+        "Fastener_washer.5133",
+        "Hex_head.5133",
+        "Guard_post.053",
+        "Bolted_guard_base.053",
+        "Fastener_washer.5134",
+        "Hex_head.5134",
+        "Fastener_washer.5135",
+        "Hex_head.5135",
+        "Guard_post.054",
+        "Bolted_guard_base.054",
+        "Fastener_washer.5136",
+        "Hex_head.5136",
+        "Fastener_washer.5137",
+        "Hex_head.5137",
+        "Tubular_guard.014",
+        "Tubular_guard.015",
+        "Toe_kick.007"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Fastener_oxidation",
+        "VF06_Galvanized",
+        "VF06_Structural_steel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_056",
+      "pivot": [
+        16,
+        0,
+        4
+      ],
+      "lo": [
+        17.21500015258789,
+        1.9149999618530273,
+        4.0
+      ],
+      "hi": [
+        17.384998321533203,
+        8.399999618530273,
+        5.125
+      ],
+      "sources": [
+        "Guard_post.128",
+        "Bolted_guard_base.128",
+        "Fastener_washer.5248",
+        "Hex_head.5248",
+        "Fastener_washer.5249",
+        "Hex_head.5249",
+        "Guard_post.129",
+        "Bolted_guard_base.129",
+        "Fastener_washer.5250",
+        "Hex_head.5250",
+        "Fastener_washer.5251",
+        "Hex_head.5251",
+        "Tubular_guard.040",
+        "Tubular_guard.041",
+        "Toe_kick.020",
+        "Guard_post.130",
+        "Bolted_guard_base.130",
+        "Fastener_washer.5252",
+        "Hex_head.5252",
+        "Fastener_washer.5253",
+        "Hex_head.5253",
+        "Guard_post.131",
+        "Bolted_guard_base.131",
+        "Fastener_washer.5254",
+        "Hex_head.5254",
+        "Fastener_washer.5255",
+        "Hex_head.5255",
+        "Guard_post.132",
+        "Bolted_guard_base.132",
+        "Fastener_washer.5256",
+        "Hex_head.5256",
+        "Fastener_washer.5257",
+        "Hex_head.5257",
+        "Tubular_guard.042",
+        "Tubular_guard.043",
+        "Toe_kick.021"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_057",
+      "pivot": [
+        16,
+        8,
+        4
+      ],
+      "lo": [
+        17.21500015258789,
+        8.3149995803833,
+        4.0
+      ],
+      "hi": [
+        17.384998321533203,
+        8.484999656677246,
+        5.100000381469727
+      ],
+      "sources": [
+        "Guard_post.055",
+        "Bolted_guard_base.055",
+        "Fastener_washer.5138",
+        "Hex_head.5138",
+        "Fastener_washer.5139",
+        "Hex_head.5139",
+        "Guard_post.127",
+        "Bolted_guard_base.127",
+        "Fastener_washer.5246",
+        "Hex_head.5246",
+        "Fastener_washer.5247",
+        "Hex_head.5247"
+      ],
+      "category": "VF07_Public_Guards",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Structural_steel",
+        "VF06_Fastener_oxidation"
+      ]
+    }
+  ],
+  "materials": {
+    "VF06_Galvanized": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.3799999952316284,
+      "metallic": 0.8500000238418579,
+      "pilot_only": true
+    },
+    "VF06_Structural_steel": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.7200000286102295,
+      "pilot_only": true
+    },
+    "VF06_Fastener_oxidation": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.800000011920929,
+      "metallic": 0.05000000074505806,
+      "pilot_only": true
+    },
+    "VF06_Concrete": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.8399999737739563,
+      "metallic": 0.0,
+      "pilot_only": true
+    },
+    "VF06_Petrol_paint": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.550000011920929,
+      "metallic": 0.2800000011920929,
+      "pilot_only": true
+    },
+    "VF06_Safety_ochre": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.5199999809265137,
+      "metallic": 0.25,
+      "pilot_only": true
+    },
+    "VF07_Compacted_Gravel": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.9200000166893005,
+      "metallic": 0.0,
+      "pilot_only": true
+    }
+  }
+}

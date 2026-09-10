@@ -1,0 +1,163 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_000",
+      "actor": "StaticMeshActor_427",
+      "bounds_error_cm": 0.0001220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_001",
+      "actor": "StaticMeshActor_428",
+      "bounds_error_cm": 7.724761962890625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_002",
+      "actor": "StaticMeshActor_429",
+      "bounds_error_cm": 0.0001220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_003",
+      "actor": "StaticMeshActor_430",
+      "bounds_error_cm": 6.103515625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_004",
+      "actor": "StaticMeshActor_739",
+      "bounds_error_cm": 7.724761962890625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_005",
+      "actor": "StaticMeshActor_740",
+      "bounds_error_cm": 7.62939453125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_006",
+      "actor": "StaticMeshActor_741",
+      "bounds_error_cm": 6.103515625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_007",
+      "actor": "StaticMeshActor_742",
+      "bounds_error_cm": 0.0001220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_008",
+      "actor": "StaticMeshActor_743",
+      "bounds_error_cm": 7.2479248046875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_009",
+      "actor": "StaticMeshActor_744",
+      "bounds_error_cm": 7.05718994140625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_010",
+      "actor": "StaticMeshActor_745",
+      "bounds_error_cm": 6.67572021484375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_011",
+      "actor": "StaticMeshActor_746",
+      "bounds_error_cm": 5.340576171875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_012",
+      "actor": "StaticMeshActor_747",
+      "bounds_error_cm": 0.0001220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_013",
+      "actor": "StaticMeshActor_748",
+      "bounds_error_cm": 5.340576171875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_014",
+      "actor": "StaticMeshActor_749",
+      "bounds_error_cm": 0.0001316070556640625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_015",
+      "actor": "StaticMeshActor_750",
+      "bounds_error_cm": 7.62939453125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_016",
+      "actor": "StaticMeshActor_751",
+      "bounds_error_cm": 0.0001316070556640625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_017",
+      "actor": "StaticMeshActor_752",
+      "bounds_error_cm": 0.000141143798828125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_018",
+      "actor": "StaticMeshActor_753",
+      "bounds_error_cm": 0.000110626220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_019",
+      "actor": "StaticMeshActor_754",
+      "bounds_error_cm": 7.43865966796875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_020",
+      "actor": "StaticMeshActor_755",
+      "bounds_error_cm": 2.288818359375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_021",
+      "actor": "StaticMeshActor_756",
+      "bounds_error_cm": 0.0001220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_022",
+      "actor": "StaticMeshActor_757",
+      "bounds_error_cm": 7.2479248046875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_023",
+      "actor": "StaticMeshActor_758",
+      "bounds_error_cm": 0.00010395050048828125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_024",
+      "actor": "StaticMeshActor_759",
+      "bounds_error_cm": 6.103515625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_025",
+      "actor": "StaticMeshActor_760",
+      "bounds_error_cm": 7.62939453125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_026",
+      "actor": "StaticMeshActor_761",
+      "bounds_error_cm": 7.62939453125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_027",
+      "actor": "StaticMeshActor_762",
+      "bounds_error_cm": 6.103515625e-05
+    }
+  ],
+  "retired": [
+    "R12_VF06_Waiting_Hall_000_solid",
+    "R12_VF06_Waiting_Hall_001_solid",
+    "R12_VF06_Waiting_Hall_002_glass",
+    "R12_VF06_Waiting_Hall_003_solid",
+    "R12_VF06_Waiting_Hall_004_floor",
+    "R12_VF06_Waiting_Hall_005_floor",
+    "R12_VF06_Waiting_Hall_006_solid",
+    "R12_VF06_Waiting_Hall_007_solid",
+    "R12_VF06_Waiting_Hall_008_floor",
+    "R12_VF06_Waiting_Hall_009_glass",
+    "R12_VF06_Waiting_Hall_010_solid",
+    "R12_VF06_Waiting_Hall_011_floor",
+    "R12_VF06_Waiting_Hall_012_solid",
+    "R12_VF06_Waiting_Hall_013_solid",
+    "R12_VF06_Waiting_Hall_014_solid"
+  ],
+  "original_unchanged": true,
+  "stage": "shell geometry pilot; materials are provisional; deck and mechanisms pending"
+}

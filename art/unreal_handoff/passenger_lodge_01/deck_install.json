@@ -1,0 +1,415 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_000",
+      "actor": "StaticMeshActor_763",
+      "bounds_error_cm": 5.340576171875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_001",
+      "actor": "StaticMeshActor_764",
+      "bounds_error_cm": 6.866455078125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_002",
+      "actor": "StaticMeshActor_765",
+      "bounds_error_cm": 6.866455078125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_003",
+      "actor": "StaticMeshActor_766",
+      "bounds_error_cm": 6.103515625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_004",
+      "actor": "StaticMeshActor_767",
+      "bounds_error_cm": 0.0001220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_005",
+      "actor": "StaticMeshActor_768",
+      "bounds_error_cm": 9.918212890625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_006",
+      "actor": "StaticMeshActor_769",
+      "bounds_error_cm": 0.0001163482666015625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_007",
+      "actor": "StaticMeshActor_770",
+      "bounds_error_cm": 6.902217864990234e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_008",
+      "actor": "StaticMeshActor_771",
+      "bounds_error_cm": 8.392333984375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_009",
+      "actor": "StaticMeshActor_772",
+      "bounds_error_cm": 7.2479248046875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_010",
+      "actor": "StaticMeshActor_773",
+      "bounds_error_cm": 5.7220458984375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_011",
+      "actor": "StaticMeshActor_774",
+      "bounds_error_cm": 1.52587890625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_012",
+      "actor": "StaticMeshActor_775",
+      "bounds_error_cm": 6.866455078125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_013",
+      "actor": "StaticMeshActor_776",
+      "bounds_error_cm": 2.6226043701171875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_014",
+      "actor": "StaticMeshActor_777",
+      "bounds_error_cm": 6.866455078125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_015",
+      "actor": "StaticMeshActor_778",
+      "bounds_error_cm": 6.866455078125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_016",
+      "actor": "StaticMeshActor_779",
+      "bounds_error_cm": 7.05718994140625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_017",
+      "actor": "StaticMeshActor_780",
+      "bounds_error_cm": 6.866455078125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_018",
+      "actor": "StaticMeshActor_781",
+      "bounds_error_cm": 4.1961669921875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_019",
+      "actor": "StaticMeshActor_782",
+      "bounds_error_cm": 8.392333984375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_020",
+      "actor": "StaticMeshActor_783",
+      "bounds_error_cm": 2.86102294921875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_021",
+      "actor": "StaticMeshActor_784",
+      "bounds_error_cm": 8.720159530639648e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_022",
+      "actor": "StaticMeshActor_785",
+      "bounds_error_cm": 6.906399357831106e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_023",
+      "actor": "StaticMeshActor_786",
+      "bounds_error_cm": 0.0001316070556640625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_024",
+      "actor": "StaticMeshActor_787",
+      "bounds_error_cm": 6.103515625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_025",
+      "actor": "StaticMeshActor_788",
+      "bounds_error_cm": 8.0108642578125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_026",
+      "actor": "StaticMeshActor_789",
+      "bounds_error_cm": 6.103515625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_027",
+      "actor": "StaticMeshActor_790",
+      "bounds_error_cm": 7.152557373046875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_028",
+      "actor": "StaticMeshActor_791",
+      "bounds_error_cm": 3.0517578125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_029",
+      "actor": "StaticMeshActor_792",
+      "bounds_error_cm": 4.414850627654232e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_030",
+      "actor": "StaticMeshActor_793",
+      "bounds_error_cm": 3.528594970703125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_031",
+      "actor": "StaticMeshActor_794",
+      "bounds_error_cm": 7.343514153035358e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_032",
+      "actor": "StaticMeshActor_795",
+      "bounds_error_cm": 3.0517578125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_033",
+      "actor": "StaticMeshActor_796",
+      "bounds_error_cm": 7.62939453125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_034",
+      "actor": "StaticMeshActor_797",
+      "bounds_error_cm": 9.1552734375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_035",
+      "actor": "StaticMeshActor_798",
+      "bounds_error_cm": 7.2479248046875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_036",
+      "actor": "StaticMeshActor_799",
+      "bounds_error_cm": 7.62939453125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_037",
+      "actor": "StaticMeshActor_800",
+      "bounds_error_cm": 2.5272369384765625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_038",
+      "actor": "StaticMeshActor_801",
+      "bounds_error_cm": 5.435943603515625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_039",
+      "actor": "StaticMeshActor_802",
+      "bounds_error_cm": 1.9073486328125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_040",
+      "actor": "StaticMeshActor_803",
+      "bounds_error_cm": 9.1552734375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_041",
+      "actor": "StaticMeshActor_804",
+      "bounds_error_cm": 3.528594970703125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_042",
+      "actor": "StaticMeshActor_805",
+      "bounds_error_cm": 3.039836883544922e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_043",
+      "actor": "StaticMeshActor_806",
+      "bounds_error_cm": 0.0001068115234375
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_044",
+      "actor": "StaticMeshActor_807",
+      "bounds_error_cm": 9.1552734375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_045",
+      "actor": "StaticMeshActor_808",
+      "bounds_error_cm": 7.2479248046875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_046",
+      "actor": "StaticMeshActor_809",
+      "bounds_error_cm": 7.2479248046875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_047",
+      "actor": "StaticMeshActor_810",
+      "bounds_error_cm": 4.57763671875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_048",
+      "actor": "StaticMeshActor_811",
+      "bounds_error_cm": 6.4849853515625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_049",
+      "actor": "StaticMeshActor_812",
+      "bounds_error_cm": 5.7220458984375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_050",
+      "actor": "StaticMeshActor_813",
+      "bounds_error_cm": 5.7220458984375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_051",
+      "actor": "StaticMeshActor_814",
+      "bounds_error_cm": 7.2479248046875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_052",
+      "actor": "StaticMeshActor_815",
+      "bounds_error_cm": 9.918212890625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_053",
+      "actor": "StaticMeshActor_816",
+      "bounds_error_cm": 3.814697265625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_054",
+      "actor": "StaticMeshActor_817",
+      "bounds_error_cm": 5.9604644775390625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_055",
+      "actor": "StaticMeshActor_818",
+      "bounds_error_cm": 6.866455078125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_056",
+      "actor": "StaticMeshActor_819",
+      "bounds_error_cm": 6.866455078125e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_057",
+      "actor": "StaticMeshActor_820",
+      "bounds_error_cm": 1.1444091796875e-05
+    }
+  ],
+  "retired": [
+    "R12_VF07_Deck_Structure_000_solid",
+    "R12_VF07_Deck_Structure_001_solid",
+    "R12_VF07_Deck_Structure_002_solid",
+    "R12_VF07_Deck_Structure_003_solid",
+    "R12_VF07_Deck_Structure_004_solid",
+    "R12_VF07_Deck_Structure_005_solid",
+    "R12_VF07_Deck_Structure_006_solid",
+    "R12_VF07_Deck_Structure_007_solid",
+    "R12_VF07_Deck_Structure_008_solid",
+    "R12_VF07_Deck_Structure_009_solid",
+    "R12_VF07_Deck_Structure_010_solid",
+    "R12_VF07_Deck_Structure_011_solid",
+    "R12_VF07_Deck_Structure_012_solid",
+    "R12_VF07_Deck_Structure_013_solid",
+    "R12_VF07_Deck_Structure_014_solid",
+    "R12_VF07_Deck_Structure_015_solid",
+    "R12_VF07_Deck_Structure_016_solid",
+    "R12_VF07_Public_Deck_000_grating",
+    "R12_VF07_Public_Deck_001_solid",
+    "R12_VF07_Public_Deck_002_grating",
+    "R12_VF07_Public_Deck_003_solid",
+    "R12_VF07_Public_Deck_004_grating",
+    "R12_VF07_Public_Deck_005_solid",
+    "R12_VF07_Public_Deck_006_floor",
+    "R12_VF07_Public_Deck_007_grating",
+    "R12_VF07_Public_Deck_008_solid",
+    "R12_VF07_Public_Deck_009_floor",
+    "R12_VF07_Public_Deck_010_grating",
+    "R12_VF07_Public_Deck_011_solid",
+    "R12_VF07_Public_Deck_012_floor",
+    "R12_VF07_Public_Deck_013_grating",
+    "R12_VF07_Public_Deck_014_solid",
+    "R12_VF07_Public_Deck_015_floor",
+    "R12_VF07_Public_Deck_016_grating",
+    "R12_VF07_Public_Deck_017_solid",
+    "R12_VF07_Public_Deck_018_solid",
+    "R12_VF07_Public_Deck_019_floor",
+    "R12_VF07_Public_Deck_020_grating",
+    "R12_VF07_Public_Deck_021_solid",
+    "R12_VF07_Public_Deck_022_floor",
+    "R12_VF07_Public_Deck_023_grating",
+    "R12_VF07_Public_Deck_024_solid",
+    "R12_VF07_Public_Deck_025_floor",
+    "R12_VF07_Public_Deck_026_grating",
+    "R12_VF07_Public_Deck_027_solid",
+    "R12_VF07_Public_Deck_028_floor",
+    "R12_VF07_Public_Deck_029_grating",
+    "R12_VF07_Public_Deck_030_solid",
+    "R12_VF07_Public_Deck_031_grating",
+    "R12_VF07_Public_Deck_032_solid",
+    "R12_VF07_Public_Deck_033_floor",
+    "R12_VF07_Public_Deck_034_grating",
+    "R12_VF07_Public_Deck_035_solid",
+    "R12_VF07_Public_Deck_036_floor",
+    "R12_VF07_Public_Deck_037_grating",
+    "R12_VF07_Public_Deck_038_solid",
+    "R12_VF07_Public_Deck_039_floor",
+    "R12_VF07_Public_Deck_040_grating",
+    "R12_VF07_Public_Deck_041_solid",
+    "R12_VF07_Public_Deck_042_grating",
+    "R12_VF07_Public_Deck_043_solid",
+    "R12_VF07_Public_Deck_044_floor",
+    "R12_VF07_Public_Deck_045_grating",
+    "R12_VF07_Public_Deck_046_solid",
+    "R12_VF07_Public_Deck_047_solid",
+    "R12_VF07_Public_Deck_048_grating",
+    "R12_VF07_Public_Deck_049_solid",
+    "R12_VF07_Public_Deck_050_solid",
+    "R12_VF07_Public_Guards_000_solid",
+    "R12_VF07_Public_Guards_001_thin",
+    "R12_VF07_Public_Guards_002_solid",
+    "R12_VF07_Public_Guards_003_thin",
+    "R12_VF07_Public_Guards_004_solid",
+    "R12_VF07_Public_Guards_005_thin",
+    "R12_VF07_Public_Guards_006_solid",
+    "R12_VF07_Public_Guards_007_thin",
+    "R12_VF07_Public_Guards_008_solid",
+    "R12_VF07_Public_Guards_009_thin",
+    "R12_VF07_Public_Guards_010_solid",
+    "R12_VF07_Public_Guards_011_thin",
+    "R12_VF07_Public_Guards_012_solid",
+    "R12_VF07_Public_Guards_013_thin",
+    "R12_VF07_Public_Guards_014_solid",
+    "R12_VF07_Public_Guards_015_thin",
+    "R12_VF07_Public_Guards_016_solid",
+    "R12_VF07_Public_Guards_017_thin",
+    "R12_VF07_Public_Guards_019_thin",
+    "R12_VF07_Public_Guards_020_solid",
+    "R12_VF07_Public_Guards_021_thin",
+    "R12_VF07_Public_Guards_022_solid",
+    "R12_VF07_Public_Guards_023_thin",
+    "R12_VF07_Public_Guards_024_solid",
+    "R12_VF07_Public_Guards_025_thin",
+    "R12_VF07_Public_Guards_026_solid",
+    "R12_VF07_Public_Guards_027_thin",
+    "R12_VF07_Public_Guards_028_solid",
+    "R12_VF07_Public_Guards_029_thin",
+    "R12_VF07_Public_Guards_030_solid",
+    "R12_VF07_Public_Guards_031_thin",
+    "R12_VF07_Public_Guards_032_solid",
+    "R12_VF07_Public_Guards_033_thin",
+    "R12_VF07_Public_Guards_034_solid",
+    "R12_VF07_Public_Guards_035_thin",
+    "R12_VF07_Public_Guards_036_solid",
+    "R12_VF07_Public_Guards_037_thin",
+    "R12_VF07_Sideways_Arrival_000_grating",
+    "R12_VF07_Sideways_Arrival_001_solid",
+    "R12_VF07_Sideways_Arrival_002_thin",
+    "R12_VF07_Sideways_Arrival_003_grating",
+    "R12_VF07_Sideways_Arrival_004_solid",
+    "R12_VF07_Sideways_Arrival_005_thin",
+    "R12_VF07_Sideways_Arrival_006_grating",
+    "R12_VF07_Sideways_Arrival_007_solid",
+    "R12_VF07_Sideways_Arrival_008_thin",
+    "R12_VF07_Sideways_Arrival_009_grating",
+    "R12_VF07_Sideways_Arrival_010_solid",
+    "R12_VF07_Sideways_Arrival_011_thin"
+  ],
+  "original_unchanged": true,
+  "stage": "shell geometry pilot; materials are provisional; deck and mechanisms pending"
+}

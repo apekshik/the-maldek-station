@@ -1,0 +1,61 @@
+{
+  "mode": "Unlit site geometry review; provisional materials",
+  "views": [
+    {
+      "name": "overhead",
+      "position": [
+        -16,
+        -4,
+        32
+      ],
+      "target": [
+        -16,
+        -4,
+        4
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\overhead.png"
+    },
+    {
+      "name": "arrival",
+      "position": [
+        -14,
+        -22,
+        12
+      ],
+      "target": [
+        -16,
+        -3,
+        4
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\arrival.png"
+    },
+    {
+      "name": "west",
+      "position": [
+        -31,
+        -5,
+        12
+      ],
+      "target": [
+        -18,
+        -4,
+        5
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\west.png"
+    },
+    {
+      "name": "bypass",
+      "position": [
+        -7.2,
+        -16.7,
+        2
+      ],
+      "target": [
+        -7.2,
+        -10,
+        3
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\bypass.png"
+    }
+  ]
+}

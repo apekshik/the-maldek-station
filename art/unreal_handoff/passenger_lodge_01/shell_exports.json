@@ -1,0 +1,1005 @@
+{
+  "source_sha256": "bcf7e6301aecedd83688488981fd58a5a9719d685ef975210eef9eeb7f753f6c",
+  "assets": [
+    {
+      "name": "SM_Lodge_Shell_000",
+      "pivot": [
+        -32,
+        -8,
+        4
+      ],
+      "lo": [
+        -24.100000381469727,
+        -12.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -23.920000076293945,
+        4.0,
+        7.199999809265137
+      ],
+      "sources": [
+        "FIT_West_0_0"
+      ],
+      "category": "PL02_Fitted_Lodge_Geometry",
+      "materials": [
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_001",
+      "pivot": [
+        -24,
+        -16,
+        4
+      ],
+      "lo": [
+        -24.100000381469727,
+        -13.199999809265137,
+        3.8000001907348633
+      ],
+      "hi": [
+        -15.920000076293945,
+        -7.199999809265137,
+        7.199999809265137
+      ],
+      "sources": [
+        "FIT_Coffee_Floor",
+        "FIT_Arrival_court_floor",
+        "FIT_Coffee_east_0_0",
+        "FIT_Coffee_east_1_2.2",
+        "FIT_Coffee_east_2_0",
+        "FIT_Coffee_rear_0_0",
+        "FIT_WC_west_0_0"
+      ],
+      "category": "PL02_Fitted_Lodge_Geometry",
+      "materials": [
+        "PLSH_Quarry_Floor",
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_002",
+      "pivot": [
+        -24,
+        -8,
+        4
+      ],
+      "lo": [
+        -24.100000381469727,
+        -7.199999809265137,
+        3.8000001907348633
+      ],
+      "hi": [
+        -10.100000381469727,
+        4.0,
+        7.199999809265137
+      ],
+      "sources": [
+        "FIT_Hall_Floor",
+        "FIT_Hall_south_coffee_0_0",
+        "FIT_Hall_south_coffee_1_2.2",
+        "FIT_Hall_south_coffee_2_0",
+        "FIT_Hall_south_entry_0_0",
+        "FIT_Hall_south_entry_1_2.3",
+        "FIT_Hall_south_entry_2_0"
+      ],
+      "category": "PL02_Fitted_Lodge_Geometry",
+      "materials": [
+        "PLSH_Quarry_Floor",
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_003",
+      "pivot": [
+        -24,
+        0,
+        4
+      ],
+      "lo": [
+        -23.920000076293945,
+        3.820000171661377,
+        3.999999761581421
+      ],
+      "hi": [
+        -15.5,
+        4.0,
+        7.200000286102295
+      ],
+      "sources": [
+        "FIT_North_0_0",
+        "FIT_North_1_0",
+        "FIT_North_1_2.6",
+        "FIT_North_2_0",
+        "FIT_North_3_2.3",
+        "FIT_North_4_0"
+      ],
+      "category": "PL02_Fitted_Lodge_Geometry",
+      "materials": [
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_004",
+      "pivot": [
+        -16,
+        -16,
+        4
+      ],
+      "lo": [
+        -16.100000381469727,
+        -13.200000762939453,
+        3.8000001907348633
+      ],
+      "hi": [
+        -10.100000381469727,
+        -7.199999809265137,
+        7.199999809265137
+      ],
+      "sources": [
+        "FIT_Restrooms_Floor",
+        "FIT_WC_rear_0_0",
+        "FIT_WC_hall_partition_0_0",
+        "FIT_WC_hall_partition_1_2.2",
+        "FIT_WC_hall_partition_2_0",
+        "FIT_WC_hall_partition_3_2.2",
+        "FIT_WC_hall_partition_4_0",
+        "FIT_WC_shared_0_0"
+      ],
+      "category": "PL02_Fitted_Lodge_Geometry",
+      "materials": [
+        "PLSH_Quarry_Floor",
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_005",
+      "pivot": [
+        -16,
+        -8,
+        4
+      ],
+      "lo": [
+        -16.100000381469727,
+        -13.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -10.100000381469727,
+        4.0,
+        7.199999809265137
+      ],
+      "sources": [
+        "FIT_East_0_0",
+        "FIT_Hall_south_WC_0_0",
+        "FIT_Hall_south_WC_1_2.3",
+        "FIT_Hall_south_WC_2_0",
+        "FIT_Full_height_privacy_screen",
+        "FIT_Cleaning_cupboard"
+      ],
+      "category": "PL02_Fitted_Lodge_Geometry",
+      "materials": [
+        "PLSH_Painted_Plaster",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_006",
+      "pivot": [
+        -16,
+        0,
+        4
+      ],
+      "lo": [
+        -15.5,
+        3.820000171661377,
+        3.999999761581421
+      ],
+      "hi": [
+        -10.280000686645508,
+        4.0,
+        7.200000286102295
+      ],
+      "sources": [
+        "FIT_North_5_0",
+        "FIT_North_5_2.6",
+        "FIT_North_6_0"
+      ],
+      "category": "PL02_Fitted_Lodge_Geometry",
+      "materials": [
+        "PLSH_Painted_Plaster"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_007",
+      "pivot": [
+        -32,
+        -8,
+        4
+      ],
+      "lo": [
+        -24.131999969482422,
+        -12.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -24.10300064086914,
+        4.0,
+        7.199999809265137
+      ],
+      "sources": [
+        "PL03_Cladding_FIT_West_0_0"
+      ],
+      "category": "PL03_Corrugated_Exterior",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_008",
+      "pivot": [
+        -24,
+        -16,
+        4
+      ],
+      "lo": [
+        -23.920000076293945,
+        -13.199999809265137,
+        4.0
+      ],
+      "hi": [
+        -16.10300064086914,
+        -7.199999809265137,
+        7.199999809265137
+      ],
+      "sources": [
+        "PL03_Cladding_FIT_Coffee_east_0_0",
+        "PL03_Cladding_FIT_Coffee_east_1_2.2",
+        "PL03_Cladding_FIT_Coffee_east_2_0",
+        "PL03_Cladding_FIT_Coffee_rear_0_0",
+        "PL03_Cladding_FIT_WC_west_0_0"
+      ],
+      "category": "PL03_Corrugated_Exterior",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_009",
+      "pivot": [
+        -24,
+        -8,
+        4
+      ],
+      "lo": [
+        -19.10000228881836,
+        -7.23199987411499,
+        4.0
+      ],
+      "hi": [
+        -16.099998474121094,
+        -7.202999591827393,
+        7.199999809265137
+      ],
+      "sources": [
+        "PL03_Cladding_FIT_Hall_south_entry_0_0",
+        "PL03_Cladding_FIT_Hall_south_entry_1_2.3",
+        "PL03_Cladding_FIT_Hall_south_entry_2_0"
+      ],
+      "category": "PL03_Corrugated_Exterior",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_010",
+      "pivot": [
+        -24,
+        0,
+        4
+      ],
+      "lo": [
+        -23.920000076293945,
+        4.002999782562256,
+        3.999999761581421
+      ],
+      "hi": [
+        -15.5,
+        4.0320000648498535,
+        7.200000286102295
+      ],
+      "sources": [
+        "PL03_Cladding_FIT_North_0_0",
+        "PL03_Cladding_FIT_North_1_0",
+        "PL03_Cladding_FIT_North_1_2.6",
+        "PL03_Cladding_FIT_North_2_0",
+        "PL03_Cladding_FIT_North_3_2.3",
+        "PL03_Cladding_FIT_North_4_0"
+      ],
+      "category": "PL03_Corrugated_Exterior",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_011",
+      "pivot": [
+        -16,
+        -16,
+        4
+      ],
+      "lo": [
+        -15.920000076293945,
+        -13.232000350952148,
+        4.0
+      ],
+      "hi": [
+        -10.280000686645508,
+        -13.203001022338867,
+        7.199999809265137
+      ],
+      "sources": [
+        "PL03_Cladding_FIT_WC_rear_0_0"
+      ],
+      "category": "PL03_Corrugated_Exterior",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_012",
+      "pivot": [
+        -16,
+        -8,
+        4
+      ],
+      "lo": [
+        -10.097000122070312,
+        -13.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -10.068000793457031,
+        4.0,
+        7.199999809265137
+      ],
+      "sources": [
+        "PL03_Cladding_FIT_East_0_0"
+      ],
+      "category": "PL03_Corrugated_Exterior",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_013",
+      "pivot": [
+        -16,
+        0,
+        4
+      ],
+      "lo": [
+        -15.5,
+        4.002999782562256,
+        3.999999761581421
+      ],
+      "hi": [
+        -10.280000686645508,
+        4.0320000648498535,
+        7.200000286102295
+      ],
+      "sources": [
+        "PL03_Cladding_FIT_North_5_0",
+        "PL03_Cladding_FIT_North_5_2.6",
+        "PL03_Cladding_FIT_North_6_0"
+      ],
+      "category": "PL03_Corrugated_Exterior",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_014",
+      "pivot": [
+        -32,
+        -16,
+        4
+      ],
+      "lo": [
+        -24.299999237060547,
+        -12.399999618530273,
+        7.389999866485596
+      ],
+      "hi": [
+        -24.274999618530273,
+        -7.400000095367432,
+        7.418000221252441
+      ],
+      "sources": [
+        "PL03_Roof_Seam.035"
+      ],
+      "category": "PL03_Removable_Roof",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_015",
+      "pivot": [
+        -32,
+        -8,
+        4
+      ],
+      "lo": [
+        -24.299999237060547,
+        -7.400000095367432,
+        7.389999866485596
+      ],
+      "hi": [
+        -24.274999618530273,
+        4.199999809265137,
+        7.418000221252441
+      ],
+      "sources": [
+        "PL03_Roof_Seam"
+      ],
+      "category": "PL03_Removable_Roof",
+      "materials": [
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_016",
+      "pivot": [
+        -24,
+        -16,
+        4
+      ],
+      "lo": [
+        -24.299999237060547,
+        -13.399999618530273,
+        7.150000095367432
+      ],
+      "hi": [
+        -16.274999618530273,
+        -7.400000095367432,
+        7.418000221252441
+      ],
+      "sources": [
+        "PL03_Roof_Coffee",
+        "PL03_Roof_Seam.036",
+        "PL03_Roof_Seam.037",
+        "PL03_Roof_Seam.038",
+        "PL03_Roof_Seam.039",
+        "PL03_Roof_Seam.040",
+        "PL03_Roof_Seam.041",
+        "PL03_Roof_Seam.042",
+        "PL03_Roof_Seam.043",
+        "PL03_Roof_Seam.044",
+        "PL03_Roof_Seam.045",
+        "PL03_Roof_Seam.046",
+        "PL03_Roof_Seam.047",
+        "PL03_Roof_Fascia.002",
+        "PL03_Roof_Seam.048"
+      ],
+      "category": "PL03_Removable_Roof",
+      "materials": [
+        "VF06_Petrol_paint",
+        "PLSH_Ceiling_Enamel",
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_017",
+      "pivot": [
+        -24,
+        -8,
+        4
+      ],
+      "lo": [
+        -24.299999237060547,
+        -7.434999942779541,
+        7.150000095367432
+      ],
+      "hi": [
+        -9.899999618530273,
+        4.199999809265137,
+        7.418000221252441
+      ],
+      "sources": [
+        "PL03_Roof_Hall",
+        "PL03_Roof_Seam.001",
+        "PL03_Roof_Seam.002",
+        "PL03_Roof_Seam.003",
+        "PL03_Roof_Seam.004",
+        "PL03_Roof_Seam.005",
+        "PL03_Roof_Seam.006",
+        "PL03_Roof_Seam.007",
+        "PL03_Roof_Seam.008",
+        "PL03_Roof_Seam.009",
+        "PL03_Roof_Seam.010",
+        "PL03_Roof_Seam.011",
+        "PL03_Roof_Seam.012",
+        "PL03_Roof_Seam.013",
+        "PL03_Roof_Seam.014",
+        "PL03_Roof_Seam.015",
+        "PL03_Roof_Seam.016",
+        "PL03_Roof_Seam.017",
+        "PL03_Roof_Seam.018",
+        "PL03_Roof_Seam.019",
+        "PL03_Roof_Fascia",
+        "PL03_Roof_Fascia.003"
+      ],
+      "category": "PL03_Removable_Roof",
+      "materials": [
+        "VF06_Petrol_paint",
+        "PLSH_Ceiling_Enamel",
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_018",
+      "pivot": [
+        -24,
+        0,
+        4
+      ],
+      "lo": [
+        -24.299999237060547,
+        4.164999961853027,
+        7.150000095367432
+      ],
+      "hi": [
+        -9.899999618530273,
+        4.199999809265137,
+        7.389999866485596
+      ],
+      "sources": [
+        "PL03_Roof_Fascia.001"
+      ],
+      "category": "PL03_Removable_Roof",
+      "materials": [
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_019",
+      "pivot": [
+        -16,
+        -16,
+        4
+      ],
+      "lo": [
+        -16.299999237060547,
+        -13.399999618530273,
+        7.150000095367432
+      ],
+      "hi": [
+        -9.899999618530273,
+        -7.400000095367432,
+        7.418000221252441
+      ],
+      "sources": [
+        "PL03_Roof_WC",
+        "PL03_Roof_Seam.049",
+        "PL03_Roof_Seam.050",
+        "PL03_Roof_Seam.051",
+        "PL03_Roof_Seam.052",
+        "PL03_Roof_Seam.053",
+        "PL03_Roof_Seam.054",
+        "PL03_Roof_Seam.055",
+        "PL03_Roof_Seam.056",
+        "PL03_Roof_Seam.057",
+        "PL03_Roof_Seam.058",
+        "PL03_Roof_Seam.059",
+        "PL03_Roof_Seam.060",
+        "PL03_Roof_Seam.061",
+        "PL03_Roof_Seam.062",
+        "PL03_Roof_Seam.063",
+        "PL03_Roof_Fascia.004"
+      ],
+      "category": "PL03_Removable_Roof",
+      "materials": [
+        "VF06_Petrol_paint",
+        "PLSH_Ceiling_Enamel",
+        "VF06_Galvanized"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_020",
+      "pivot": [
+        -16,
+        -8,
+        4
+      ],
+      "lo": [
+        -16.299999237060547,
+        -7.434999942779541,
+        7.150000095367432
+      ],
+      "hi": [
+        -9.899999618530273,
+        4.199999809265137,
+        7.418000221252441
+      ],
+      "sources": [
+        "PL03_Roof_Seam.020",
+        "PL03_Roof_Seam.021",
+        "PL03_Roof_Seam.022",
+        "PL03_Roof_Seam.023",
+        "PL03_Roof_Seam.024",
+        "PL03_Roof_Seam.025",
+        "PL03_Roof_Seam.026",
+        "PL03_Roof_Seam.027",
+        "PL03_Roof_Seam.028",
+        "PL03_Roof_Seam.029",
+        "PL03_Roof_Seam.030",
+        "PL03_Roof_Seam.031",
+        "PL03_Roof_Seam.032",
+        "PL03_Roof_Seam.033",
+        "PL03_Roof_Seam.034",
+        "PL03_Roof_Fascia.005"
+      ],
+      "category": "PL03_Removable_Roof",
+      "materials": [
+        "VF06_Galvanized",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_021",
+      "pivot": [
+        -32,
+        -8,
+        4
+      ],
+      "lo": [
+        -24.100000381469727,
+        -12.200000762939453,
+        7.199999809265137
+      ],
+      "hi": [
+        -23.920000076293945,
+        4.0,
+        7.269999980926514
+      ],
+      "sources": [
+        "PLSH_Wall_Head_Closure.007"
+      ],
+      "category": "PLSH_Shell_Trim",
+      "materials": [
+        "PLSH_Ceiling_Enamel"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_022",
+      "pivot": [
+        -24,
+        -16,
+        4
+      ],
+      "lo": [
+        -23.920000076293945,
+        -13.199999809265137,
+        4.005000114440918
+      ],
+      "hi": [
+        -15.920000076293945,
+        -7.199999809265137,
+        7.269999980926514
+      ],
+      "sources": [
+        "PLSH_Wall_Head_Closure.018",
+        "PLSH_Wall_Head_Closure.019",
+        "PLSH_Wall_Head_Closure.020",
+        "PLSH_Wall_Head_Closure.021",
+        "PLSH_Wall_Head_Closure.022",
+        "PLSH_Cornice.006",
+        "PLSH_Skirting.014",
+        "PLSH_Dado.016",
+        "PLSH_Cornice.007",
+        "PLSH_Skirting.012_Integrated_0",
+        "PLSH_Skirting.013_Integrated_0",
+        "PLSH_Dado.013_Integrated_0",
+        "PLSH_Dado.015_Integrated_0"
+      ],
+      "category": "PLSH_Shell_Trim",
+      "materials": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_023",
+      "pivot": [
+        -24,
+        -8,
+        4
+      ],
+      "lo": [
+        -23.920000076293945,
+        -12.100000381469727,
+        4.005000114440918
+      ],
+      "hi": [
+        -10.279999732971191,
+        3.9000000953674316,
+        7.269999980926514
+      ],
+      "sources": [
+        "PLSH_Wall_Head_Closure.009",
+        "PLSH_Wall_Head_Closure.010",
+        "PLSH_Wall_Head_Closure.011",
+        "PLSH_Wall_Head_Closure.012",
+        "PLSH_Wall_Head_Closure.013",
+        "PLSH_Wall_Head_Closure.014",
+        "PLSH_Skirting.002",
+        "PLSH_Dado.004",
+        "PLSH_Cornice.001",
+        "PLSH_Skirting.004",
+        "PLSH_Skirting.005",
+        "PLSH_Dado.006",
+        "PLSH_Dado.008",
+        "PLSH_Cornice.003",
+        "PLSH_Skirting.008",
+        "PLSH_Dado.007",
+        "PLSH_Cornice.005",
+        "PLSH_Ceiling_Member",
+        "PLSH_Ceiling_Member.001",
+        "PLSH_Skirting.009_Integrated_0",
+        "PLSH_Skirting.010_Integrated_0",
+        "PLSH_Dado.009_Integrated_0",
+        "PLSH_Dado.010_Integrated_0"
+      ],
+      "category": "PLSH_Shell_Trim",
+      "materials": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_024",
+      "pivot": [
+        -24,
+        0,
+        4
+      ],
+      "lo": [
+        -23.920000076293945,
+        0.800000011920929,
+        4.005000114440918
+      ],
+      "hi": [
+        -10.279999732971191,
+        4.0,
+        7.269999980926514
+      ],
+      "sources": [
+        "PLSH_Wall_Head_Closure",
+        "PLSH_Wall_Head_Closure.001",
+        "PLSH_Wall_Head_Closure.002",
+        "PLSH_Wall_Head_Closure.003",
+        "PLSH_Dado",
+        "PLSH_Cornice",
+        "PLSH_Ceiling_Member.002",
+        "PLSH_Skirting_Integrated_0",
+        "PLSH_Dado.001_Integrated_0"
+      ],
+      "category": "PLSH_Shell_Trim",
+      "materials": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_025",
+      "pivot": [
+        -16,
+        -16,
+        4
+      ],
+      "lo": [
+        -15.920000076293945,
+        -13.200000762939453,
+        4.005000114440918
+      ],
+      "hi": [
+        -10.279998779296875,
+        -7.002000331878662,
+        7.269999980926514
+      ],
+      "sources": [
+        "PLSH_Wall_Head_Closure.023",
+        "PLSH_Wall_Head_Closure.024",
+        "PLSH_Wall_Head_Closure.025",
+        "PLSH_Wall_Head_Closure.026",
+        "PLSH_Wall_Head_Closure.027",
+        "PLSH_Wall_Head_Closure.028",
+        "PLSH_Wall_Head_Closure.029",
+        "PLSH_Skirting.015",
+        "PLSH_Cornice.008",
+        "PLSH_Skirting.016",
+        "PLSH_Dado.018",
+        "PLSH_Cornice.009",
+        "PLSH_Skirting.017",
+        "PLSH_Skirting.018",
+        "PLSH_Skirting.019",
+        "PLSH_Dado.019",
+        "PLSH_Dado.020",
+        "PLSH_Dado.021",
+        "PLSH_Cornice.010",
+        "PLSH_Skirting.020",
+        "PLSH_Skirting.021",
+        "PLSH_Skirting.022",
+        "PLSH_Dado.022",
+        "PLSH_Dado.023",
+        "PLSH_Dado.024",
+        "PLSH_Cornice.011",
+        "PLSH_Skirting.023",
+        "PLSH_Dado.025",
+        "PLSH_Cornice.012",
+        "PLSH_Skirting.024",
+        "PLSH_Dado.026",
+        "PLSH_Cornice.013",
+        "PLSH_Skirting.003_Integrated_0",
+        "PLSH_Dado.005_Integrated_0",
+        "PLSH_Dado.005_Integrated_1",
+        "PLSH_Dado.005_Integrated_2",
+        "PLSH_Dado.005_Integrated_3",
+        "PLSH_Dado.017_Integrated_0",
+        "PLSH_Dado.017_Integrated_1"
+      ],
+      "category": "PLSH_Shell_Trim",
+      "materials": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_026",
+      "pivot": [
+        -16,
+        -8,
+        4
+      ],
+      "lo": [
+        -16.100000381469727,
+        -13.200000762939453,
+        4.005000114440918
+      ],
+      "hi": [
+        -10.100000381469727,
+        4.0,
+        7.269999980926514
+      ],
+      "sources": [
+        "PLSH_Wall_Head_Closure.008",
+        "PLSH_Wall_Head_Closure.015",
+        "PLSH_Wall_Head_Closure.016",
+        "PLSH_Wall_Head_Closure.017",
+        "PLSH_Wall_Head_Closure.030",
+        "PLSH_Cornice.002",
+        "PLSH_Skirting.006",
+        "PLSH_Skirting.007",
+        "PLSH_Dado.012",
+        "PLSH_Dado.014",
+        "PLSH_Cornice.004",
+        "PLSH_Skirting.011",
+        "PLSH_Dado.011",
+        "PLSH_Skirting.025",
+        "PLSH_Dado.027",
+        "PLSH_Cornice.014",
+        "PLSH_Skirting.026",
+        "PLSH_Dado.028",
+        "PLSH_Cornice.015",
+        "PLSH_Skirting.003_Integrated_1",
+        "PLSH_Dado.005_Integrated_4"
+      ],
+      "category": "PLSH_Shell_Trim",
+      "materials": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Shell_027",
+      "pivot": [
+        -16,
+        0,
+        4
+      ],
+      "lo": [
+        -16.5,
+        3.805000066757202,
+        4.005000114440918
+      ],
+      "hi": [
+        -10.280000686645508,
+        4.0,
+        7.269999980926514
+      ],
+      "sources": [
+        "PLSH_Wall_Head_Closure.004",
+        "PLSH_Wall_Head_Closure.005",
+        "PLSH_Wall_Head_Closure.006",
+        "PLSH_Dado.003",
+        "PLSH_Skirting.001_Integrated_0",
+        "PLSH_Dado.002_Integrated_0"
+      ],
+      "category": "PLSH_Shell_Trim",
+      "materials": [
+        "PLSH_Ceiling_Enamel",
+        "PLSH_Painted_Trim"
+      ]
+    }
+  ],
+  "materials": {
+    "PLSH_Quarry_Floor": {
+      "color": [
+        0.2199999988079071,
+        0.11999999731779099,
+        0.06499999761581421,
+        1.0
+      ],
+      "roughness": 0.6800000071525574,
+      "metallic": 0.0,
+      "pilot_only": true
+    },
+    "PLSH_Painted_Plaster": {
+      "color": [
+        0.5699999928474426,
+        0.5099999904632568,
+        0.4000000059604645,
+        1.0
+      ],
+      "roughness": 0.699999988079071,
+      "metallic": 0.0,
+      "pilot_only": true
+    },
+    "VF06_Petrol_paint": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.550000011920929,
+      "metallic": 0.2800000011920929,
+      "pilot_only": true
+    },
+    "PLSH_Ceiling_Enamel": {
+      "color": [
+        0.4399999976158142,
+        0.4300000071525574,
+        0.36000001430511475,
+        1.0
+      ],
+      "roughness": 0.6499999761581421,
+      "metallic": 0.10000000149011612,
+      "pilot_only": true
+    },
+    "VF06_Galvanized": {
+      "color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.3799999952316284,
+      "metallic": 0.8500000238418579,
+      "pilot_only": true
+    },
+    "PLSH_Painted_Trim": {
+      "color": [
+        0.07500000298023224,
+        0.11999999731779099,
+        0.10000000149011612,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.11999999731779099,
+      "pilot_only": true
+    }
+  }
+}

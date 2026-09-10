@@ -1,0 +1,3753 @@
+[
+  {
+    "xy": [
+      -29,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -1.6460231946293242,
+        "fields": [
+          "True",
+          "False",
+          "0.11829937994480133",
+          "514.602294921875",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41382.305975, y: 16474.707549, z: 9733.897697}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41382.305975, y: 16474.707549, z: 9733.897681}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.606080, y: 0.312543, z: 0.731426}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.606080, y: 0.312543, z: 0.731426}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "36302",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41382.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41382.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -29,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -2.1106798158317726,
+        "fields": [
+          "True",
+          "False",
+          "0.12898114323616028",
+          "561.0679931640625",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41382.305975, y: 16674.707549, z: 9687.432027}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41382.305975, y: 16674.707549, z: 9687.432018}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.643372, y: -0.003934, z: 0.765544}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.643372, y: -0.003934, z: 0.765544}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38494",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41382.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41382.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -29,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -2.105541568784411,
+        "fields": [
+          "True",
+          "False",
+          "0.12886302173137665",
+          "560.5541381835938",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41382.305975, y: 16774.707549, z: 9687.945855}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41382.305975, y: 16774.707549, z: 9687.945843}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.642926, y: -0.003935, z: 0.765918}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.642926, y: -0.003935, z: 0.765918}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "39590",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41382.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41382.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -29,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -2.100403458234559,
+        "fields": [
+          "True",
+          "False",
+          "0.12874490022659302",
+          "560.0403442382812",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41382.305975, y: 16874.707549, z: 9688.459684}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41382.305975, y: 16874.707549, z: 9688.459654}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.642473, y: -0.005957, z: 0.766285}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.642473, y: -0.005957, z: 0.766285}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40686",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41382.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41382.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -29,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -2.092629700453581,
+        "fields": [
+          "True",
+          "False",
+          "0.1285662055015564",
+          "559.2630004882812",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41382.305975, y: 16974.707549, z: 9689.237006}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41382.305975, y: 16974.707549, z: 9689.237030}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.641437, y: -0.005964, z: 0.767153}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.641437, y: -0.005964, z: 0.767153}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41782",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41382.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41382.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -29,
+      -14
+    ],
+    "hits": [
+      {
+        "z": -2.08485579702854,
+        "fields": [
+          "True",
+          "False",
+          "0.12838749587535858",
+          "558.485595703125",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41382.305975, y: 17074.707549, z: 9690.014393}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41382.305975, y: 17074.707549, z: 9690.014420}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.640396, y: -0.006238, z: 0.768019}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.640396, y: -0.006238, z: 0.768019}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42878",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41382.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41382.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -29,
+      -12
+    ],
+    "hits": [
+      {
+        "z": -2.0686111823692954,
+        "fields": [
+          "True",
+          "False",
+          "0.12801405787467957",
+          "556.8611450195312",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41382.305975, y: 17274.707549, z: 9691.638848}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41382.305975, y: 17274.707549, z: 9691.638882}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.636634, y: -0.015527, z: 0.771010}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.636634, y: -0.015527, z: 0.771010}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45070",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41382.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41382.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -29,
+      -8
+    ],
+    "hits": [
+      {
+        "z": -1.7868320526729804,
+        "fields": [
+          "True",
+          "False",
+          "0.12153637409210205",
+          "528.6832275390625",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41382.305975, y: 17674.707549, z: 9719.816773}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41382.305975, y: 17674.707549, z: 9719.816795}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.574457, y: -0.097681, z: 0.812686}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.574457, y: -0.097681, z: 0.812686}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49454",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41382.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41382.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -29,
+      0
+    ],
+    "hits": [
+      {
+        "z": -0.5899766236291362,
+        "fields": [
+          "True",
+          "False",
+          "0.09402244538068771",
+          "408.9976501464844",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41382.305975, y: 18474.707549, z: 9839.502363}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41382.305975, y: 18474.707549, z: 9839.502338}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.170589, y: -0.138846, z: 0.975511}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.170589, y: -0.138846, z: 0.975511}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58222",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41382.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41382.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -29,
+      6
+    ],
+    "hits": [
+      {
+        "z": -0.35,
+        "fields": [
+          "True",
+          "False",
+          "0.08850574493408203",
+          "385.0",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41382.305975, y: 19074.707549, z: 9863.500010}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41382.305975, y: 19074.707549, z: 9863.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64801",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41382.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41382.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -29,
+      8
+    ],
+    "hits": [
+      {
+        "z": -0.35,
+        "fields": [
+          "True",
+          "False",
+          "0.08850574493408203",
+          "385.0",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41382.305975, y: 19274.707549, z: 9863.500010}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41382.305975, y: 19274.707549, z: 9863.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "66993",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41382.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41382.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -0.6079568917476535,
+        "fields": [
+          "True",
+          "False",
+          "0.09443578869104385",
+          "410.7956848144531",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41582.305975, y: 16474.707549, z: 9837.704319}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41582.305975, y: 16474.707549, z: 9837.704311}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.381299, y: 0.172578, z: 0.908200}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.381299, y: 0.172578, z: 0.908200}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "36310",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41582.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41582.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -0.8553000091917784,
+        "fields": [
+          "True",
+          "False",
+          "0.10012184083461761",
+          "435.5299987792969",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41582.305975, y: 16674.707549, z: 9812.969992}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41582.305975, y: 16674.707549, z: 9812.969999}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.486345, y: 0.005120, z: 0.873752}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.486345, y: 0.005120, z: 0.873752}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38502",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41582.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41582.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -0.8611593119101599,
+        "fields": [
+          "True",
+          "False",
+          "0.1002565398812294",
+          "436.1159362792969",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41582.305975, y: 16774.707549, z: 9812.384052}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41582.305975, y: 16774.707549, z: 9812.384069}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.480298, y: -0.002083, z: 0.877103}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.480298, y: -0.002083, z: 0.877103}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "39598",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41582.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41582.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -0.8587841937674239,
+        "fields": [
+          "True",
+          "False",
+          "0.10020193457603455",
+          "435.87841796875",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41582.305975, y: 16874.707549, z: 9812.621585}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41582.305975, y: 16874.707549, z: 9812.621581}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.479281, y: -0.003186, z: 0.877656}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.479281, y: -0.003186, z: 0.877656}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40694",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41582.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41582.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -0.8551538944188541,
+        "fields": [
+          "True",
+          "False",
+          "0.1001184806227684",
+          "435.515380859375",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41582.305975, y: 16974.707549, z: 9812.984609}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41582.305975, y: 16974.707549, z: 9812.984611}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.478020, y: -0.003188, z: 0.878343}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.478020, y: -0.003188, z: 0.878343}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41790",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41582.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41582.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      -14
+    ],
+    "hits": [
+      {
+        "z": -0.8515236754139914,
+        "fields": [
+          "True",
+          "False",
+          "0.10003502666950226",
+          "435.1523742675781",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41582.305975, y: 17074.707549, z: 9813.347634}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41582.305975, y: 17074.707549, z: 9813.347632}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.476757, y: -0.002608, z: 0.879032}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.476757, y: -0.002608, z: 0.879032}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42886",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41582.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41582.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      -12
+    ],
+    "hits": [
+      {
+        "z": -0.8455904139721678,
+        "fields": [
+          "True",
+          "False",
+          "0.09989862889051437",
+          "434.5590515136719",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41582.305975, y: 17274.707549, z: 9813.940964}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41582.305975, y: 17274.707549, z: 9813.940959}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.474029, y: -0.006096, z: 0.880488}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.474029, y: -0.006096, z: 0.880488}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45078",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41582.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41582.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      -8
+    ],
+    "hits": [
+      {
+        "z": -0.7450066531170705,
+        "fields": [
+          "True",
+          "False",
+          "0.09758636355400085",
+          "424.50067138671875",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41582.305975, y: 17674.707549, z: 9823.999319}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41582.305975, y: 17674.707549, z: 9823.999335}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.415348, y: -0.038860, z: 0.908832}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.415348, y: -0.038860, z: 0.908832}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49462",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41582.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41582.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      0
+    ],
+    "hits": [
+      {
+        "z": -0.3430504788745566,
+        "fields": [
+          "True",
+          "False",
+          "0.08834598958492279",
+          "384.3050537109375",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41582.305975, y: 18474.707549, z: 9864.194945}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41582.305975, y: 18474.707549, z: 9864.194952}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.104181, y: -0.032554, z: 0.994025}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.104181, y: -0.032554, z: 0.994025}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58230",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41582.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41582.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      6
+    ],
+    "hits": [
+      {
+        "z": -0.35,
+        "fields": [
+          "True",
+          "False",
+          "0.08850574493408203",
+          "385.0",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41582.305975, y: 19074.707549, z: 9863.500010}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41582.305975, y: 19074.707549, z: 9863.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64806",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41582.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41582.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -27,
+      8
+    ],
+    "hits": [
+      {
+        "z": -0.35,
+        "fields": [
+          "True",
+          "False",
+          "0.08850574493408203",
+          "385.0",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41582.305975, y: 19274.707549, z: 9863.500010}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41582.305975, y: 19274.707549, z: 9863.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "67001",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41582.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41582.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -0.2221371487804754,
+        "fields": [
+          "True",
+          "False",
+          "0.08556637167930603",
+          "372.2137145996094",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41832.305975, y: 16474.707549, z: 9876.286283}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41832.305975, y: 16474.707549, z: 9876.286285}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.022266, y: 0.004512, z: 0.999742}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.022266, y: 0.004512, z: 0.999742}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "36320",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41832.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41832.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -0.21174747815435693,
+        "fields": [
+          "True",
+          "False",
+          "0.08532752841711044",
+          "371.17474365234375",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41832.305975, y: 16674.707549, z: 9877.325251}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41832.305975, y: 16674.707549, z: 9877.325252}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.043850, y: -0.004482, z: 0.999028}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.043850, y: -0.004482, z: 0.999028}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38512",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41832.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41832.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -0.2066919640751985,
+        "fields": [
+          "True",
+          "False",
+          "0.08521130681037903",
+          "370.669189453125",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41832.305975, y: 16774.707549, z: 9877.830815}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41832.305975, y: 16774.707549, z: 9877.830804}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.037931, y: -0.000664, z: 0.999280}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.037931, y: -0.000664, z: 0.999280}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "39608",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41832.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41832.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -0.2060278489196753,
+        "fields": [
+          "True",
+          "False",
+          "0.08519604057073593",
+          "370.602783203125",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41832.305975, y: 16874.707549, z: 9877.897224}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41832.305975, y: 16874.707549, z: 9877.897215}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.038400, y: -0.000104, z: 0.999262}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.038400, y: -0.000104, z: 0.999262}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40704",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41832.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41832.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -0.20532227932317254,
+        "fields": [
+          "True",
+          "False",
+          "0.08517982065677643",
+          "370.5322265625",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41832.305975, y: 16974.707549, z: 9877.967780}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41832.305975, y: 16974.707549, z: 9877.967772}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.020656, y: -0.846057, z: 0.532692}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.020656, y: -0.846057, z: 0.532692}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41800",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41832.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41832.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      -14
+    ],
+    "hits": [
+      {
+        "z": 2.130608373048162,
+        "fields": [
+          "True",
+          "False",
+          "0.03148026764392853",
+          "136.9391632080078",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41832.305975, y: 17074.707549, z: 10111.560836}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41832.305975, y: 17074.707549, z: 10111.560837}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.605963, y: -0.716855, z: 0.344858}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.605963, y: -0.716855, z: 0.344858}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42896",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41832.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41832.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      -12
+    ],
+    "hits": [
+      {
+        "z": 3.2085722758367594,
+        "fields": [
+          "True",
+          "False",
+          "0.006699488032609224",
+          "29.142772674560547",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41832.305975, y: 17274.707549, z: 10219.357227}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41832.305975, y: 17274.707549, z: 10219.357228}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.930771, y: -0.000005, z: 0.365603}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.930771, y: -0.000005, z: 0.365603}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45088",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41832.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41832.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      -8
+    ],
+    "hits": [
+      {
+        "z": 3.208641865382342,
+        "fields": [
+          "True",
+          "False",
+          "0.006697888020426035",
+          "29.135812759399414",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41832.305975, y: 17674.707549, z: 10219.364187}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41832.305975, y: 17674.707549, z: 10219.364187}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.930582, y: -0.000007, z: 0.366085}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.930582, y: -0.000007, z: 0.366085}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49472",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41832.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41832.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      0
+    ],
+    "hits": [
+      {
+        "z": 3.206807850382902,
+        "fields": [
+          "True",
+          "False",
+          "0.006740049459040165",
+          "29.319215774536133",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41832.305975, y: 18474.707549, z: 10219.180785}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41832.305975, y: 18474.707549, z: 10219.180785}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.480745, y: 0.001643, z: 0.876859}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.480745, y: 0.001643, z: 0.876859}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58243",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41832.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41832.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      6
+    ],
+    "hits": [
+      {
+        "z": 3.1962960815598853,
+        "fields": [
+          "True",
+          "False",
+          "0.006981699261814356",
+          "30.370391845703125",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41832.305975, y: 19074.707549, z: 10218.129608}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41832.305975, y: 19074.707549, z: 10218.129608}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.493500, y: -0.000002, z: 0.869746}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.493500, y: -0.000002, z: 0.869746}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64819",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41832.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41832.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -24.5,
+      8
+    ],
+    "hits": [
+      {
+        "z": 1.4231381308971869,
+        "fields": [
+          "True",
+          "False",
+          "0.04774395003914833",
+          "207.68618774414062",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41832.305975, y: 19274.707549, z: 10040.813817}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41832.305975, y: 19274.707549, z: 10040.813813}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.074138, y: 0.860529, z: 0.503977}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.074138, y: 0.860529, z: 0.503977}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "67011",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41832.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41832.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -0.21536750783328898,
+        "fields": [
+          "True",
+          "False",
+          "0.08541074395179749",
+          "371.5367431640625",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41932.305975, y: 16474.707549, z: 9876.963264}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41932.305975, y: 16474.707549, z: 9876.963249}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -0.008732, y: -0.011779, z: 0.999892}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -0.008732, y: -0.011779, z: 0.999892}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "36324",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41932.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41932.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -0.2163579435329484,
+        "fields": [
+          "True",
+          "False",
+          "0.08543352037668228",
+          "371.63580322265625",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41932.305975, y: 16674.707549, z: 9876.864186}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41932.305975, y: 16674.707549, z: 9876.864206}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -0.014958, y: 0.003952, z: 0.999880}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -0.014958, y: 0.003952, z: 0.999880}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38516",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41932.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41932.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -0.21804485732916873,
+        "fields": [
+          "True",
+          "False",
+          "0.08547229319810867",
+          "371.8044738769531",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41932.305975, y: 16774.707549, z: 9876.695525}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41932.305975, y: 16774.707549, z: 9876.695514}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.021383, y: -0.000145, z: 0.999771}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -0.021383, y: -0.000145, z: 0.999771}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "39612",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41932.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41932.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -0.21789995517301577,
+        "fields": [
+          "True",
+          "False",
+          "0.08546897023916245",
+          "371.7900085449219",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41932.305975, y: 16874.707549, z: 9876.709979}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41932.305975, y: 16874.707549, z: 9876.710004}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.022106, y: 0.000000, z: 0.999756}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.022106, y: 0.000000, z: 0.999756}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40708",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41932.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41932.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -0.21591364632500698,
+        "fields": [
+          "True",
+          "False",
+          "0.0854233056306839",
+          "371.59136962890625",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41932.305975, y: 16974.707549, z: 9876.908621}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41932.305975, y: 16974.707549, z: 9876.908635}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.010714, y: -0.865828, z: 0.500227}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.010714, y: -0.865828, z: 0.500227}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41804",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41932.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41932.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      -14
+    ],
+    "hits": [
+      {
+        "z": 2.3192161036360996,
+        "fields": [
+          "True",
+          "False",
+          "0.027144458144903183",
+          "118.0783920288086",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41932.305975, y: 17074.707549, z: 10130.421607}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41932.305975, y: 17074.707549, z: 10130.421610}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -0.001854, y: -0.913109, z: 0.407711}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.001854, y: -0.913109, z: 0.407711}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42900",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41932.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41932.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      -12
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41932.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41932.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45092",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41932.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41932.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      -8
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41932.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41932.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49476",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41932.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41932.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      0
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41932.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -41932.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58247",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41932.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41932.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      6
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41932.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -41932.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64820",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41932.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41932.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -23.5,
+      8
+    ],
+    "hits": [
+      {
+        "z": 1.5649898701869096,
+        "fields": [
+          "True",
+          "False",
+          "0.044482991099357605",
+          "193.50100708007812",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -41932.305975, y: 19274.707549, z: 10054.998989}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -41932.305975, y: 19274.707549, z: 10054.998987}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.879067, z: 0.476698}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.879067, z: 0.476698}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "67015",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -41932.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -41932.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -0.22328377924519371,
+        "fields": [
+          "True",
+          "False",
+          "0.08559273183345795",
+          "372.328369140625",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42032.305975, y: 16474.707549, z: 9876.171617}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42032.305975, y: 16474.707549, z: 9876.171622}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -0.007098, y: -0.014302, z: 0.999873}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.007098, y: -0.014302, z: 0.999873}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "36328",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42032.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42032.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -0.217936521018255,
+        "fields": [
+          "True",
+          "False",
+          "0.0854698047041893",
+          "371.79364013671875",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42032.305975, y: 16674.707549, z: 9876.706350}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42032.305975, y: 16674.707549, z: 9876.706348}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -0.000371, y: 0.004127, z: 0.999991}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -0.000371, y: 0.004127, z: 0.999991}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38520",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42032.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42032.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -0.09999999046325683,
+        "fields": [
+          "True",
+          "False",
+          "0.08275862038135529",
+          "360.0",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42032.305975, y: 16774.707549, z: 9888.500001}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42032.305975, y: 16774.707549, z: 9888.500001}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Metal.PM_Metal' (0x0000011038040CC0) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_156' (0x0000011197942D00) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_156.StaticMeshComponent0' (0x0000011051036000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "1",
+          "198",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42032.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42032.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -0.22,
+        "fields": [
+          "True",
+          "False",
+          "0.08551724255084991",
+          "372.0",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42032.305975, y: 16874.707549, z: 9876.499995}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42032.305975, y: 16874.707549, z: 9876.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40712",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42032.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42032.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -0.21788941685692406,
+        "fields": [
+          "True",
+          "False",
+          "0.08546872437000275",
+          "371.7889404296875",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42032.305975, y: 16974.707549, z: 9876.711049}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42032.305975, y: 16974.707549, z: 9876.711058}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.000000, y: -0.866059, z: 0.499942}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.000000, y: -0.866059, z: 0.499942}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41808",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42032.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42032.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      -14
+    ],
+    "hits": [
+      {
+        "z": 2.318816774778079,
+        "fields": [
+          "True",
+          "False",
+          "0.027153637260198593",
+          "118.11832427978516",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42032.305975, y: 17074.707549, z: 10130.381678}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42032.305975, y: 17074.707549, z: 10130.381677}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.000000, y: -0.913164, z: 0.407593}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.000000, y: -0.913164, z: 0.407593}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42904",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42032.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42032.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      -12
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42032.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42032.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45096",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42032.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42032.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      -8
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42032.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42032.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49480",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42032.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42032.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      0
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42032.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42032.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58251",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42032.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42032.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      6
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42032.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42032.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64827",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42032.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42032.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -22.5,
+      8
+    ],
+    "hits": [
+      {
+        "z": 1.5649898702047722,
+        "fields": [
+          "True",
+          "False",
+          "0.044482991099357605",
+          "193.50100708007812",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42032.305975, y: 19274.707549, z: 10054.998989}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42032.305975, y: 19274.707549, z: 10054.998987}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000001, y: 0.879067, z: 0.476698}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000001, y: 0.879067, z: 0.476698}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "67019",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42032.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42032.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -0.23729222196303454,
+        "fields": [
+          "True",
+          "False",
+          "0.08591476082801819",
+          "373.7292175292969",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42282.305975, y: 16474.707549, z: 9874.770790}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42282.305975, y: 16474.707549, z: 9874.770778}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.005762, y: -0.020960, z: 0.999764}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.005762, y: -0.020960, z: 0.999764}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "36338",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42282.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42282.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -0.21857330062664915,
+        "fields": [
+          "True",
+          "False",
+          "0.08548444509506226",
+          "371.8573303222656",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42282.305975, y: 16674.707549, z: 9876.642664}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42282.305975, y: 16674.707549, z: 9876.642670}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -0.000256, y: 0.002853, z: 0.999996}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.000256, y: 0.002853, z: 0.999996}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38530",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42282.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42282.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -0.22,
+        "fields": [
+          "True",
+          "False",
+          "0.08551724255084991",
+          "372.0",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42282.305975, y: 16774.707549, z: 9876.499995}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42282.305975, y: 16774.707549, z: 9876.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "39626",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42282.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42282.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -0.22,
+        "fields": [
+          "True",
+          "False",
+          "0.08551724255084991",
+          "372.0",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42282.305975, y: 16874.707549, z: 9876.499995}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42282.305975, y: 16874.707549, z: 9876.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40722",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42282.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42282.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -0.2179219540196027,
+        "fields": [
+          "True",
+          "False",
+          "0.08546946942806244",
+          "371.7922058105469",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42282.305975, y: 16974.707549, z: 9876.707808}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42282.305975, y: 16974.707549, z: 9876.707805}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.000015, y: -0.866048, z: 0.499961}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -0.000015, y: -0.866048, z: 0.499961}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41818",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42282.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42282.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      -14
+    ],
+    "hits": [
+      {
+        "z": 2.3188140399396433,
+        "fields": [
+          "True",
+          "False",
+          "0.027153700590133667",
+          "118.11859893798828",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42282.305975, y: 17074.707549, z: 10130.381402}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42282.305975, y: 17074.707549, z: 10130.381404}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.000000, y: -0.913164, z: 0.407593}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.000000, y: -0.913164, z: 0.407593}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42914",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42282.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42282.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      -12
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42282.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42282.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45106",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42282.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42282.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      -8
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42282.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42282.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49490",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42282.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42282.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      0
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42282.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42282.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58261",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42282.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42282.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      6
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42282.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42282.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64837",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42282.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42282.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -20,
+      8
+    ],
+    "hits": [
+      {
+        "z": 1.5649909957381896,
+        "fields": [
+          "True",
+          "False",
+          "0.044482965022325516",
+          "193.5009002685547",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42282.305975, y: 19274.707549, z: 10054.999102}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42282.305975, y: 19274.707549, z: 10054.999100}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000001, y: 0.879067, z: 0.476698}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000001, y: 0.879067, z: 0.476698}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "67029",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42282.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42282.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -0.05681492509720556,
+        "fields": [
+          "True",
+          "False",
+          "0.08176586031913757",
+          "355.6814880371094",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42682.305975, y: 16474.707549, z: 9892.818508}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42682.305975, y: 16474.707549, z: 9892.818507}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.023390, y: -0.006880, z: 0.999703}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.023390, y: -0.006880, z: 0.999703}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Gravel.PM_Gravel' (0x0000011038040D80) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_484' (0x00000112E5C06900) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_484.StaticMeshComponent0' (0x000001104F431800) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "164",
+          "212",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42682.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42682.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -0.2191824154704409,
+        "fields": [
+          "True",
+          "False",
+          "0.08549844473600388",
+          "371.9182434082031",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42682.305975, y: 16674.707549, z: 9876.581765}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42682.305975, y: 16674.707549, z: 9876.581758}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.001132, y: 0.001635, z: 0.999998}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.001132, y: 0.001635, z: 0.999998}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38546",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42682.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42682.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -0.22,
+        "fields": [
+          "True",
+          "False",
+          "0.08551724255084991",
+          "372.0",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42682.305975, y: 16774.707549, z: 9876.499995}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42682.305975, y: 16774.707549, z: 9876.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "39642",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42682.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42682.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -0.22,
+        "fields": [
+          "True",
+          "False",
+          "0.08551724255084991",
+          "372.0",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42682.305975, y: 16874.707549, z: 9876.499995}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42682.305975, y: 16874.707549, z: 9876.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40738",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42682.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42682.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -0.21927464874641373,
+        "fields": [
+          "True",
+          "False",
+          "0.085500568151474",
+          "371.9274597167969",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42682.305975, y: 16974.707549, z: 9876.572529}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42682.305975, y: 16974.707549, z: 9876.572535}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -0.000574, y: -0.865058, z: 0.501671}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -0.000574, y: -0.865058, z: 0.501671}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41834",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42682.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42682.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      -14
+    ],
+    "hits": [
+      {
+        "z": 2.3156578056465515,
+        "fields": [
+          "True",
+          "False",
+          "0.02722625806927681",
+          "118.43421936035156",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42682.305975, y: 17074.707549, z: 10130.065777}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42682.305975, y: 17074.707549, z: 10130.065781}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.001319, y: -0.913579, z: 0.406659}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -0.001319, y: -0.913579, z: 0.406659}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42930",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42682.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42682.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      -12
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42682.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42682.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45122",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42682.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42682.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      -8
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42682.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42682.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49506",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42682.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42682.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      0
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42682.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -42682.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58277",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42682.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42682.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      6
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42682.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -42682.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64853",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42682.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42682.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -16,
+      8
+    ],
+    "hits": [
+      {
+        "z": 1.5649932467967664,
+        "fields": [
+          "True",
+          "False",
+          "0.04448291286826134",
+          "193.50067138671875",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -42682.305975, y: 19274.707549, z: 10054.999329}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -42682.305975, y: 19274.707549, z: 10054.999325}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000002, y: 0.879067, z: 0.476698}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000002, y: 0.879067, z: 0.476698}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "67045",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -42682.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -42682.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -0.1619595695058888,
+        "fields": [
+          "True",
+          "False",
+          "0.0841829776763916",
+          "366.1959533691406",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43082.305975, y: 16474.707549, z: 9882.304047}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43082.305975, y: 16474.707549, z: 9882.304043}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.015381, y: 0.015147, z: 0.999767}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.015381, y: 0.015147, z: 0.999767}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "36370",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43082.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43082.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -0.1829628506805784,
+        "fields": [
+          "True",
+          "False",
+          "0.08466581255197525",
+          "368.2962951660156",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43082.305975, y: 16674.707549, z: 9880.203715}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43082.305975, y: 16674.707549, z: 9880.203715}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.025917, y: 0.002677, z: 0.999661}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.025917, y: 0.002677, z: 0.999661}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38562",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43082.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43082.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -0.19250359304052836,
+        "fields": [
+          "True",
+          "False",
+          "0.0848851427435875",
+          "369.2503662109375",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43082.305975, y: 16774.707549, z: 9879.249629}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43082.305975, y: 16774.707549, z: 9879.249641}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.035780, y: 0.027690, z: 0.998976}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.035780, y: 0.027690, z: 0.998976}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "39658",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43082.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43082.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -0.218472728281522,
+        "fields": [
+          "True",
+          "False",
+          "0.08548212796449661",
+          "371.8472595214844",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43082.305975, y: 16874.707549, z: 9876.652743}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43082.305975, y: 16874.707549, z: 9876.652727}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -0.017781, y: 0.003054, z: 0.999837}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.017781, y: 0.003054, z: 0.999837}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40754",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43082.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43082.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -0.2175063904905619,
+        "fields": [
+          "True",
+          "False",
+          "0.08545991778373718",
+          "371.7506408691406",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43082.305975, y: 16974.707549, z: 9876.749358}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43082.305975, y: 16974.707549, z: 9876.749361}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000535, y: -0.866471, z: 0.499227}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000535, y: -0.866471, z: 0.499227}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41850",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43082.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43082.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      -14
+    ],
+    "hits": [
+      {
+        "z": 2.3210045952811926,
+        "fields": [
+          "True",
+          "False",
+          "0.027103343978524208",
+          "117.89954376220703",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43082.305975, y: 17074.707549, z: 10130.600454}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43082.305975, y: 17074.707549, z: 10130.600460}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.001089, y: -0.912881, z: 0.408223}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.001089, y: -0.912881, z: 0.408223}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42946",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43082.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43082.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      -12
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43082.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43082.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45138",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43082.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43082.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      -8
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43082.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43082.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49522",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43082.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43082.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      0
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43082.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43082.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58293",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43082.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43082.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      6
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43082.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43082.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64869",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43082.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43082.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -12,
+      8
+    ],
+    "hits": [
+      {
+        "z": 1.5649943723329307,
+        "fields": [
+          "True",
+          "False",
+          "0.04448288679122925",
+          "193.5005645751953",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43082.305975, y: 19274.707549, z: 10054.999442}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43082.305975, y: 19274.707549, z: 10054.999437}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.879067, z: 0.476698}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.879067, z: 0.476698}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "67061",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43082.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43082.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -0.08415738273757598,
+        "fields": [
+          "True",
+          "False",
+          "0.08239442110061646",
+          "358.4157409667969",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43472.305975, y: 16474.707549, z: 9890.084268}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43472.305975, y: 16474.707549, z: 9890.084262}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.012981, y: 0.042627, z: 0.999007}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.012981, y: 0.042627, z: 0.999007}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "36386",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43472.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43472.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -0.12420609816736032,
+        "fields": [
+          "True",
+          "False",
+          "0.08331508934497833",
+          "362.4206237792969",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43472.305975, y: 16674.707549, z: 9886.079361}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43472.305975, y: 16674.707549, z: 9886.079390}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.008393, y: 0.001248, z: 0.999964}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -0.008393, y: 0.001248, z: 0.999964}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38578",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43472.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43472.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -0.1255075615804708,
+        "fields": [
+          "True",
+          "False",
+          "0.08334500342607498",
+          "362.5507507324219",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43472.305975, y: 16774.707549, z: 9885.949235}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43472.305975, y: 16774.707549, z: 9885.949244}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.007864, y: 0.003162, z: 0.999964}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.007864, y: 0.003162, z: 0.999964}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "39674",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43472.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43472.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -0.12873743021998962,
+        "fields": [
+          "True",
+          "False",
+          "0.08341925591230392",
+          "362.8737487792969",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43472.305975, y: 16874.707549, z: 9885.626237}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43472.305975, y: 16874.707549, z: 9885.626257}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.007191, y: 0.004816, z: 0.999963}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.007191, y: 0.004816, z: 0.999963}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40770",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43472.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43472.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -0.13360509662745243,
+        "fields": [
+          "True",
+          "False",
+          "0.08353114873170853",
+          "363.3605041503906",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43472.305975, y: 16974.707549, z: 9885.139503}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43472.305975, y: 16974.707549, z: 9885.139490}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -0.003416, y: -0.858352, z: 0.513050}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.003416, y: -0.858352, z: 0.513050}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41866",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43472.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43472.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      -14
+    ],
+    "hits": [
+      {
+        "z": 2.3350805496096654,
+        "fields": [
+          "True",
+          "False",
+          "0.02677975781261921",
+          "116.491943359375",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43472.305975, y: 17074.707549, z: 10132.008054}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43472.305975, y: 17074.707549, z: 10132.008055}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -0.000416, y: -0.910981, z: 0.412448}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -0.000416, y: -0.910981, z: 0.412448}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42962",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43472.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43472.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      -12
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43472.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43472.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45154",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43472.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43472.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      -8
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43472.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43472.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49538",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43472.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43472.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      0
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43472.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43472.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58306",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43472.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43472.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      6
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43472.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43472.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64882",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43472.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43472.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -8.1,
+      8
+    ],
+    "hits": [
+      {
+        "z": 1.5649963982971895,
+        "fields": [
+          "True",
+          "False",
+          "0.044482842087745667",
+          "193.5003662109375",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43472.305975, y: 19274.707549, z: 10054.999637}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43472.305975, y: 19274.707549, z: 10054.999640}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000001, y: 0.879067, z: 0.476698}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000001, y: 0.879067, z: 0.476698}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "67074",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43472.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43472.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -0.07526199958530924,
+        "fields": [
+          "True",
+          "False",
+          "0.08218993246555328",
+          "357.5262145996094",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43562.305975, y: 16474.707549, z: 9890.973794}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43562.305975, y: 16474.707549, z: 9890.973800}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.009477, y: 0.060769, z: 0.998107}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.009477, y: 0.060769, z: 0.998107}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "36390",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43562.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43562.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -0.13208653933063033,
+        "fields": [
+          "True",
+          "False",
+          "0.08349624276161194",
+          "363.2086486816406",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43562.305975, y: 16674.707549, z: 9885.291344}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43562.305975, y: 16674.707549, z: 9885.291346}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -0.008801, y: 0.000975, z: 0.999961}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -0.008801, y: 0.000975, z: 0.999961}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38582",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43562.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43562.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -0.13311592783313245,
+        "fields": [
+          "True",
+          "False",
+          "0.08351990580558777",
+          "363.31158447265625",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43562.305975, y: 16774.707549, z: 9885.188410}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43562.305975, y: 16774.707549, z: 9885.188407}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.008527, y: 0.002300, z: 0.999961}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -0.008527, y: 0.002300, z: 0.999961}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "39678",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43562.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43562.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -0.13558876077164314,
+        "fields": [
+          "True",
+          "False",
+          "0.0835767537355423",
+          "363.5588684082031",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43562.305975, y: 16874.707549, z: 9884.941121}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43562.305975, y: 16874.707549, z: 9884.941124}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.007665, y: 0.003007, z: 0.999966}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.007665, y: 0.003007, z: 0.999966}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40774",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43562.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43562.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -0.13895595061960195,
+        "fields": [
+          "True",
+          "False",
+          "0.08365415781736374",
+          "363.8955993652344",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43562.305975, y: 16974.707549, z: 9884.604413}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43562.305975, y: 16974.707549, z: 9884.604405}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.002999, y: -0.858895, z: 0.512144}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.002999, y: -0.858895, z: 0.512144}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41870",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43562.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43562.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      -14
+    ],
+    "hits": [
+      {
+        "z": 2.333927508016859,
+        "fields": [
+          "True",
+          "False",
+          "0.026806263253092766",
+          "116.60724639892578",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43562.305975, y: 17074.707549, z: 10131.892755}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43562.305975, y: 17074.707549, z: 10131.892751}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -0.000542, y: -0.911161, z: 0.412051}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.000542, y: -0.911161, z: 0.412051}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42966",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43562.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43562.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      -12
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43562.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43562.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45158",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43562.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43562.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      -8
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43562.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43562.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49542",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43562.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43562.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      0
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43562.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43562.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58310",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43562.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43562.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      6
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43562.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43562.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64886",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43562.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43562.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -7.2,
+      8
+    ],
+    "hits": [
+      {
+        "z": 1.5649966233997656,
+        "fields": [
+          "True",
+          "False",
+          "0.04448283463716507",
+          "193.50033569335938",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43562.305975, y: 19274.707549, z: 10054.999669}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43562.305975, y: 19274.707549, z: 10054.999662}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.879067, z: 0.476698}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.879067, z: 0.476698}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "67078",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43562.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43562.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      -20
+    ],
+    "hits": [
+      {
+        "z": -0.0697546661033266,
+        "fields": [
+          "True",
+          "False",
+          "0.08206332474946976",
+          "356.9754638671875",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43652.305975, y: 16474.707549, z: 9891.524537}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43652.305975, y: 16474.707549, z: 9891.524533}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.005141, y: 0.072962, z: 0.997321}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.005141, y: 0.072962, z: 0.997321}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "36394",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43652.305975, y: 16474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43652.305975, y: 16474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      -18
+    ],
+    "hits": [
+      {
+        "z": -0.13894718000075953,
+        "fields": [
+          "True",
+          "False",
+          "0.08365395665168762",
+          "363.89471435546875",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43652.305975, y: 16674.707549, z: 9884.605289}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43652.305975, y: 16674.707549, z: 9884.605282}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -0.007286, y: 0.000559, z: 0.999973}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -0.007286, y: 0.000559, z: 0.999973}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "38586",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43652.305975, y: 16674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43652.305975, y: 16674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      -17
+    ],
+    "hits": [
+      {
+        "z": -0.1396310191142402,
+        "fields": [
+          "True",
+          "False",
+          "0.08366967737674713",
+          "363.9631042480469",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43652.305975, y: 16774.707549, z: 9884.536903}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43652.305975, y: 16774.707549, z: 9884.536898}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -0.006871, y: 0.001226, z: 0.999976}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -0.006871, y: 0.001226, z: 0.999976}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "39682",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43652.305975, y: 16774.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43652.305975, y: 16774.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      -16
+    ],
+    "hits": [
+      {
+        "z": -0.1411791570116475,
+        "fields": [
+          "True",
+          "False",
+          "0.08370526880025864",
+          "364.117919921875",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43652.305975, y: 16874.707549, z: 9884.382081}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43652.305975, y: 16874.707549, z: 9884.382084}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.005796, y: 0.001346, z: 0.999982}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -0.005796, y: 0.001346, z: 0.999982}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "40778",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43652.305975, y: 16874.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43652.305975, y: 16874.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      -15
+    ],
+    "hits": [
+      {
+        "z": -0.14302136700785922,
+        "fields": [
+          "True",
+          "False",
+          "0.08374761790037155",
+          "364.3021240234375",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43652.305975, y: 16974.707549, z: 9884.197862}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43652.305975, y: 16974.707549, z: 9884.197863}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.002114, y: -0.859374, z: 0.511344}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -0.002114, y: -0.859374, z: 0.511344}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "41874",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43652.305975, y: 16974.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43652.305975, y: 16974.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      -14
+    ],
+    "hits": [
+      {
+        "z": 2.3332224598363065,
+        "fields": [
+          "True",
+          "False",
+          "0.026822473853826523",
+          "116.6777572631836",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43652.305975, y: 17074.707549, z: 10131.822239}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43652.305975, y: 17074.707549, z: 10131.822246}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -0.000260, y: -0.911247, z: 0.411860}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -0.000260, y: -0.911247, z: 0.411860}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "42970",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43652.305975, y: 17074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43652.305975, y: 17074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      -12
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43652.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43652.305975, y: 17274.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "45162",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43652.305975, y: 17274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43652.305975, y: 17274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      -8
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43652.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43652.305975, y: 17674.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "49546",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43652.305975, y: 17674.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43652.305975, y: 17674.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      0
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43652.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: -43652.305975, y: 18474.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "58314",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43652.305975, y: 18474.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43652.305975, y: 18474.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      6
+    ],
+    "hits": [
+      {
+        "z": 3.48,
+        "fields": [
+          "True",
+          "False",
+          "0.0004597701190505177",
+          "2.0",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43652.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: -43652.305975, y: 19074.707549, z: 10246.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: 0.000000, y: 0.000000, z: 1.000000}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "64890",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43652.305975, y: 19074.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43652.305975, y: 19074.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  },
+  {
+    "xy": [
+      -6.3,
+      8
+    ],
+    "hits": [
+      {
+        "z": 1.564997748933165,
+        "fields": [
+          "True",
+          "False",
+          "0.04448281228542328",
+          "193.50022888183594",
+          "<Struct 'Vector' (0x0000010FF28AEC20) {x: -43652.305975, y: 19274.707549, z: 10054.999767}>",
+          "<Struct 'Vector' (0x0000010FF28AEC70) {x: -43652.305975, y: 19274.707549, z: 10054.999775}>",
+          "<Struct 'Vector' (0x0000010FF28AECC0) {x: 0.000000, y: 0.879067, z: 0.476698}>",
+          "<Struct 'Vector' (0x0000010FF28AED10) {x: 0.000000, y: 0.879067, z: 0.476698}>",
+          "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Soil.PM_Soil' (0x0000011038040B40) Class 'PhysicalMaterial'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485' (0x00000112E5C07300) Class 'StaticMeshActor'>",
+          "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_485.StaticMeshComponent0' (0x000001104F432000) Class 'StaticMeshComponent'>",
+          "None",
+          "None",
+          "-1",
+          "0",
+          "67082",
+          "<Struct 'Vector' (0x0000010FF28AED60) {x: -43652.305975, y: 19274.707549, z: 10248.500000}>",
+          "<Struct 'Vector' (0x0000010FF28AEDB0) {x: -43652.305975, y: 19274.707549, z: 5898.500000}>"
+        ]
+      }
+    ]
+  }
+]
