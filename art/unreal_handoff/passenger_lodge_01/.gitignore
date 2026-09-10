@@ -6,3 +6,4 @@ __pycache__/
 *.blend1
 *.log
 vegetation_progress.json
+cleanup_progress.json

@@ -90,7 +90,8 @@ bool UStationMigrationLibrary::MoveR12FoliageInstance(AActor* Actor, const FStri
     int32 Index, FVector ExpectedLocation, FVector NewLocation)
 {
     auto* Foliage = Cast<AInstancedFoliageActor>(Actor);
-    if (!Foliage || !Foliage->GetOutermost()->GetName().StartsWith(TEXT("/Game/MaldekRefinement/R12/"))
+    if (!Foliage || (!Foliage->GetOutermost()->GetName().StartsWith(TEXT("/Game/MaldekRefinement/R12/"))
+        && Foliage->GetOutermost()->GetName() != TEXT("/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration"))
         || !Foliage->GetWorld() || Foliage->GetWorld()->WorldType != EWorldType::Editor) return false;
     bool bMoved = false;
     Foliage->ForEachFoliageInfo([&](UFoliageType* Type, FFoliageInfo& Info)

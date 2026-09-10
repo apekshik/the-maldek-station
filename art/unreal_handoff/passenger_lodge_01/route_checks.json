@@ -1,7 +1,7 @@
 {
   "radius_cm": 34,
   "half_height_cm": 96,
-  "conditions": "Editor collision queries; old hall doors ignored pending replacement. No PIE traversal yet.",
+  "conditions": "Editor collision queries; no actor exclusions. Actual movement is recorded separately in playtest.json.",
   "samples": 280,
   "failures": []
 }

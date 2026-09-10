@@ -1,0 +1,499 @@
+{
+  "removed": [
+    "R12_Door_Hall_north",
+    "R12_Door_Hall_south",
+    "R08_WallLight_Waiting_Hall_Entry",
+    "R12_VF06_Transferred_Details_000_solid",
+    "R12_VF06_Transferred_Details_001_thin",
+    "R12_VF06_Transferred_Details_002_signage",
+    "R12_VF06_Transferred_Details_003_solid",
+    "R12_VF06_Transferred_Details_004_thin"
+  ],
+  "moves": [
+    {
+      "label": "FR_Black_Alder_073_2",
+      "before": [
+        -41645.20650625489,
+        16702.48884851671,
+        9817.879785949832
+      ],
+      "after": [
+        -40775.20650625489,
+        16702.48884851671,
+        8974.941691808912
+      ],
+      "reason": "Canopy outside arrival stair and western guard"
+    },
+    {
+      "label": "PoliceTape_PerimeterTree_0_0",
+      "before": [
+        -42020.43286304527,
+        16535.155150315342,
+        9854.981618769641
+      ],
+      "after": [
+        -41220.43286304527,
+        15935.155150315342,
+        9942.743523460134
+      ],
+      "reason": "Clear branches from stair flight; preserve cordon attachment"
+    },
+    {
+      "label": "PoliceTape_PerimeterWrap_0_0",
+      "before": [
+        -42020.43286304527,
+        16535.155150315342,
+        10005.852459125788
+      ],
+      "after": [
+        -41220.43286304527,
+        15935.155150315342,
+        10093.614363816283
+      ],
+      "reason": "Follow relocated perimeter tree"
+    },
+    {
+      "label": "PoliceTape_PerimeterTree_0_1",
+      "before": [
+        -42113.0207813064,
+        16728.099384207086,
+        9854.5
+      ],
+      "after": [
+        -41313.0207813064,
+        16128.099384207086,
+        9921.834775629877
+      ],
+      "reason": "Clear branches from stair flight; preserve cordon attachment"
+    },
+    {
+      "label": "PoliceTape_PerimeterWrap_0_1",
+      "before": [
+        -42113.0207813064,
+        16728.099384207086,
+        10006.108573225085
+      ],
+      "after": [
+        -41313.0207813064,
+        16128.099384207086,
+        10073.443348854962
+      ],
+      "reason": "Follow relocated perimeter tree"
+    },
+    {
+      "label": "PoliceTape_PerimeterTree_0_2",
+      "before": [
+        -42152.28322035422,
+        16871.481603746386,
+        9854.5
+      ],
+      "after": [
+        -41352.28322035422,
+        16271.481603746386,
+        9845.396402316926
+      ],
+      "reason": "Clear branches from stair flight; preserve cordon attachment"
+    },
+    {
+      "label": "PoliceTape_PerimeterWrap_0_2",
+      "before": [
+        -42152.28322035422,
+        16871.481603746386,
+        10006.201779293398
+      ],
+      "after": [
+        -41352.28322035422,
+        16271.481603746386,
+        9997.098181610323
+      ],
+      "reason": "Follow relocated perimeter tree"
+    },
+    {
+      "label": "R12_EdgeMarker_WestRear_Base",
+      "before": [
+        -41767.305974972965,
+        16959.707549061975,
+        10410.948938224648
+      ],
+      "after": [
+        -41337.305974972965,
+        16959.707549061975,
+        10410.948938224648
+      ],
+      "reason": "Follow west guard from source X -25.15 to -29.45"
+    },
+    {
+      "label": "R12_EdgeMarker_WestRear_Lens",
+      "before": [
+        -41767.305974972965,
+        16959.707549061975,
+        10414.498938224648
+      ],
+      "after": [
+        -41337.305974972965,
+        16959.707549061975,
+        10414.498938224648
+      ],
+      "reason": "Follow west guard from source X -25.15 to -29.45"
+    },
+    {
+      "label": "R12_EdgeMarker_WestRear_Spill",
+      "before": [
+        -41767.305974972965,
+        16959.707549061975,
+        10418.698938224648
+      ],
+      "after": [
+        -41337.305974972965,
+        16959.707549061975,
+        10418.698938224648
+      ],
+      "reason": "Follow west guard from source X -25.15 to -29.45"
+    },
+    {
+      "label": "R12_EdgeMarker_WestFront_Base",
+      "before": [
+        -41767.305974972965,
+        19209.707549061975,
+        10412.148388255036
+      ],
+      "after": [
+        -41337.305974972965,
+        19209.707549061975,
+        10412.148388255036
+      ],
+      "reason": "Follow west guard from source X -25.15 to -29.45"
+    },
+    {
+      "label": "R12_EdgeMarker_WestFront_Lens",
+      "before": [
+        -41767.305974972965,
+        19209.707549061975,
+        10415.698388255036
+      ],
+      "after": [
+        -41337.305974972965,
+        19209.707549061975,
+        10415.698388255036
+      ],
+      "reason": "Follow west guard from source X -25.15 to -29.45"
+    },
+    {
+      "label": "R12_EdgeMarker_WestFront_Spill",
+      "before": [
+        -41767.305974972965,
+        19209.707549061975,
+        10419.898388255036
+      ],
+      "after": [
+        -41337.305974972965,
+        19209.707549061975,
+        10419.898388255036
+      ],
+      "reason": "Follow west guard from source X -25.15 to -29.45"
+    }
+  ],
+  "foliage": [
+    {
+      "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_A.FT_Woodland_Grass_A|363",
+      "before": [
+        -41879.30468518808,
+        17271.57738391444,
+        10241.71062917456
+      ],
+      "after": [
+        -41131.78686290844,
+        17271.57738391444,
+        9769.757793288969
+      ],
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_A.FT_Woodland_Grass_A|909",
+      "before": [
+        -42285.92961112188,
+        17353.770461955188,
+        10240.789949918273
+      ],
+      "after": [
+        -41145.98013671216,
+        17353.770461955188,
+        9827.932133040582
+      ],
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_B.FT_Woodland_Grass_B|373",
+      "before": [
+        -41895.12686259451,
+        17400.73770718333,
+        10240.322378936118
+      ],
+      "after": [
+        -41163.58109477407,
+        17400.73770718333,
+        9899.321930833054
+      ],
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_B.FT_Woodland_Grass_B|928",
+      "before": [
+        -42214.09251689539,
+        17312.34230672303,
+        10239.716785924213
+      ],
+      "after": [
+        -41171.913901760054,
+        17312.34230672303,
+        9929.222783417186
+      ],
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_B.FT_Woodland_Grass_B|936",
+      "before": [
+        -42083.64408299165,
+        17129.214902453255,
+        10236.844848040588
+      ],
+      "after": [
+        -41159.17580764365,
+        17129.214902453255,
+        9876.873713034684
+      ],
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_B.FT_Woodland_Grass_B|944",
+      "before": [
+        -42047.645858879405,
+        17243.319822867517,
+        10239.821250814575
+      ],
+      "after": [
+        -41173.83951723651,
+        17243.319822867517,
+        9936.050602818328
+      ],
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_B.FT_Woodland_Grass_B|946",
+      "before": [
+        -42111.793829432965,
+        17246.48847659638,
+        10241.749033590098
+      ],
+      "after": [
+        -41178.657742748874,
+        17246.48847659638,
+        9955.177154201465
+      ],
+      "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|5",
+      "before": [
+        -41323.738327598905,
+        18364.175302889384,
+        9789.464785078402
+      ],
+      "after": [
+        -40687.06468355813,
+        18364.175302889384,
+        9516.933047811875
+      ],
+      "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|22",
+      "before": [
+        -40866.31714024046,
+        16955.090999308457,
+        9092.736216923266
+      ],
+      "after": [
+        -40811.36952782801,
+        16955.090999308457,
+        9032.547398248778
+      ],
+      "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_0.FT_R06_Pine_0|28",
+      "before": [
+        -41307.305974972965,
+        18667.354139671537,
+        9840.34602044765
+      ],
+      "after": [
+        -40801.70735530596,
+        18667.354139671537,
+        9800.254612089795
+      ],
+      "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|28",
+      "before": [
+        -41307.305974972965,
+        16998.26620067719,
+        9600.94917714223
+      ],
+      "after": [
+        -40655.78268250445,
+        16998.26620067719,
+        8796.868693423861
+      ],
+      "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_1.SM_R06_Pine_1"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_1.FT_R06_Pine_1|40",
+      "before": [
+        -41142.73194681808,
+        16654.514189981117,
+        9435.444806300718
+      ],
+      "after": [
+        -40772.483377246455,
+        16654.514189981117,
+        8970.178465642672
+      ],
+      "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_1.SM_R06_Pine_1"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|1",
+      "before": [
+        -41366.66660147247,
+        19069.995488643654,
+        9847.602049500036
+      ],
+      "after": [
+        -40882.06833343182,
+        19069.995488643654,
+        9857.509812978155
+      ],
+      "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|14",
+      "before": [
+        -41551.72054785983,
+        17682.129645416142,
+        9785.427636527054
+      ],
+      "after": [
+        -40855.16686848724,
+        17682.129645416142,
+        9216.934464777525
+      ],
+      "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|23",
+      "before": [
+        -41892.75011253708,
+        19417.985262943253,
+        9851.42284190716
+      ],
+      "after": [
+        -40903.49333867381,
+        19417.985262943253,
+        9857.5
+      ],
+      "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2"
+    },
+    {
+      "key": "/Game/MaldekRefinement/R06/Foliage/FT_R06_Pine_2.FT_R06_Pine_2|37",
+      "before": [
+        -41307.305974972965,
+        17547.000607566337,
+        9624.189902732554
+      ],
+      "after": [
+        -40897.98513093666,
+        17547.000607566337,
+        9218.182977024453
+      ],
+      "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2"
+    }
+  ],
+  "tape_endpoints": [
+    {
+      "actor": "PoliceTape_Perimeter_0_0",
+      "property": "right_anchor",
+      "tree": "PoliceTape_PerimeterTree_0_0",
+      "before": [
+        305.93274331006836,
+        -981.1285897727391,
+        82.53182437227588
+      ],
+      "after": [
+        305.93274331006836,
+        -981.1285897727391,
+        82.53182437227588
+      ]
+    },
+    {
+      "actor": "PoliceTape_Perimeter_0_1",
+      "property": "left_anchor",
+      "tree": "PoliceTape_PerimeterTree_0_0",
+      "before": [
+        -986.7033318408154,
+        -477.0725608525254,
+        87.63384764084367
+      ],
+      "after": [
+        -986.7033318408154,
+        -477.0725608525254,
+        87.63384764084367
+      ]
+    },
+    {
+      "actor": "PoliceTape_Perimeter_0_1",
+      "property": "right_anchor",
+      "tree": "PoliceTape_PerimeterTree_0_1",
+      "before": [
+        -771.0244874550112,
+        -477.07256085252527,
+        67.46283267952458
+      ],
+      "after": [
+        -771.0244874550112,
+        -477.07256085252527,
+        67.46283267952458
+      ]
+    },
+    {
+      "actor": "PoliceTape_Perimeter_0_2",
+      "property": "left_anchor",
+      "tree": "PoliceTape_PerimeterTree_0_1",
+      "before": [
+        -877.7878984934879,
+        -597.6258771988744,
+        67.28817259571952
+      ],
+      "after": [
+        -877.7878984934879,
+        -597.6258771988744,
+        67.28817259571952
+      ]
+    },
+    {
+      "actor": "PoliceTape_Perimeter_0_2",
+      "property": "right_anchor",
+      "tree": "PoliceTape_PerimeterTree_0_2",
+      "before": [
+        -725.7623014095599,
+        -597.6258771988745,
+        -9.05699464891768
+      ],
+      "after": [
+        -725.7623014095599,
+        -597.6258771988745,
+        -9.05699464891768
+      ]
+    }
+  ]
+}

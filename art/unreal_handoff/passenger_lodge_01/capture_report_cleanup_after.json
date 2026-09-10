@@ -1,0 +1,103 @@
+{
+  "mode": "Unlit site geometry review; provisional materials",
+  "views": [
+    {
+      "name": "arrival_flight",
+      "position": [
+        -15.8,
+        -16.35,
+        1.7
+      ],
+      "target": [
+        -23,
+        -16.35,
+        4.8
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\cleanup_after\\arrival_flight.png"
+    },
+    {
+      "name": "arrival_turn",
+      "position": [
+        -23.5,
+        -16.2,
+        5.65
+      ],
+      "target": [
+        -23.5,
+        -12,
+        5
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\cleanup_after\\arrival_turn.png"
+    },
+    {
+      "name": "west_perimeter",
+      "position": [
+        -28,
+        4,
+        5.65
+      ],
+      "target": [
+        -28,
+        -13,
+        5
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\cleanup_after\\west_perimeter.png"
+    },
+    {
+      "name": "north_perimeter",
+      "position": [
+        -23,
+        5.5,
+        5.65
+      ],
+      "target": [
+        -11,
+        5.5,
+        5
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\cleanup_after\\north_perimeter.png"
+    },
+    {
+      "name": "inside_old_wall",
+      "position": [
+        -20,
+        -4,
+        5.65
+      ],
+      "target": [
+        -12,
+        0.3,
+        5.5
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\cleanup_after\\inside_old_wall.png"
+    },
+    {
+      "name": "inside_reverse",
+      "position": [
+        -11,
+        2,
+        5.65
+      ],
+      "target": [
+        -18,
+        -5,
+        5
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\cleanup_after\\inside_reverse.png"
+    },
+    {
+      "name": "bypass",
+      "position": [
+        -7.2,
+        -16.7,
+        2
+      ],
+      "target": [
+        -7.2,
+        -10,
+        3
+      ],
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\cleanup_after\\bypass.png"
+    }
+  ]
+}

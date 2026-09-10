@@ -1,0 +1,338 @@
+[
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_11",
+    "index": 363,
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "position": [
+      -24.030012897848863,
+      -12.031301651475369,
+      3.4321062917456038
+    ],
+    "lo": [
+      -25.181828792364758,
+      -13.184634752668316,
+      3.3037059246673923
+    ],
+    "hi": [
+      -22.874821777203614,
+      -10.855597766170467,
+      4.1591461231832545
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_11",
+    "index": 909,
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "position": [
+      -19.963763638510862,
+      -11.209370871067877,
+      3.4228994991827313
+    ],
+    "lo": [
+      -20.992463276640628,
+      -12.247287704639021,
+      3.32
+    ],
+    "hi": [
+      -18.950505255902826,
+      -10.184552881245509,
+      4.005546077562522
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_12",
+    "index": 373,
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "position": [
+      -23.87179112378457,
+      -10.739698418786466,
+      3.418223789361182
+    ],
+    "lo": [
+      -24.709040064694708,
+      -11.59318094764887,
+      3.32
+    ],
+    "hi": [
+      -23.0345423217956,
+      -9.886215891916036,
+      4.056705536118352
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_12",
+    "index": 928,
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "position": [
+      -20.682134580775745,
+      -11.623652423389467,
+      3.4121678592421265
+    ],
+    "lo": [
+      -21.436055435779707,
+      -12.389705820442432,
+      3.32
+    ],
+    "hi": [
+      -19.928213848646628,
+      -10.857599034174855,
+      4.011284388409931
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_12",
+    "index": 936,
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "position": [
+      -21.98661891981319,
+      -13.4549264660872,
+      3.3834484804058773
+    ],
+    "lo": [
+      -22.867920722610723,
+      -14.33459081569381,
+      3.282689988410766
+    ],
+    "hi": [
+      -21.105317246520062,
+      -12.575262164118577,
+      4.038406494020055
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_12",
+    "index": 944,
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "position": [
+      -22.346601160935606,
+      -12.313877261944581,
+      3.4132125081457527
+    ],
+    "lo": [
+      -23.081265633554505,
+      -13.04358224399224,
+      3.32
+    ],
+    "hi": [
+      -21.61193658357108,
+      -11.584172231443045,
+      4.019119543575561
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_12",
+    "index": 946,
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "position": [
+      -21.705121455400004,
+      -12.282190724655957,
+      3.432490335900984
+    ],
+    "lo": [
+      -22.391603896802042,
+      -13.002987792524364,
+      3.32
+    ],
+    "hi": [
+      -21.018639133159084,
+      -11.561393580324257,
+      4.163708573626027
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_3",
+    "index": 5,
+    "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0",
+    "position": [
+      -29.585676473740605,
+      -1.1053224617259183,
+      -1.090352149215978
+    ],
+    "lo": [
+      -35.18808938788898,
+      -6.598048951136516,
+      -1.0911358498755725
+    ],
+    "hi": [
+      -23.98326355959223,
+      4.387404027684679,
+      22.362299828323085
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_3",
+    "index": 22,
+    "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0",
+    "position": [
+      -34.15988834732503,
+      -15.196165497535185,
+      -8.057637830767344
+    ],
+    "lo": [
+      -38.51925281877462,
+      -19.59486689225327,
+      -8.058506909552525
+    ],
+    "hi": [
+      -29.80052387587544,
+      -10.797464102817102,
+      17.949999193158437
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_3",
+    "index": 28,
+    "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0",
+    "position": [
+      -29.75,
+      1.9264659060956182,
+      -0.5815397955234949
+    ],
+    "lo": [
+      -34.205986196670054,
+      -2.4347715699448598,
+      -0.5826073457474922
+    ],
+    "hi": [
+      -25.294013803329946,
+      6.287703382136097,
+      31.365458800667913
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_4",
+    "index": 28,
+    "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_1.SM_R06_Pine_1",
+    "position": [
+      -29.75,
+      -14.764413483847857,
+      -2.9755082285776915
+    ],
+    "lo": [
+      -35.665232924685185,
+      -20.665074137448684,
+      -2.9676229040845645
+    ],
+    "hi": [
+      -23.83476707531481,
+      -8.86375283024703,
+      25.642428859435004
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_4",
+    "index": 40,
+    "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_1.SM_R06_Pine_1",
+    "position": [
+      -31.39574028154886,
+      -18.201933590808586,
+      -4.630551936992815
+    ],
+    "lo": [
+      -36.14396625881396,
+      -22.84428149738733,
+      -4.624291719620815
+    ],
+    "hi": [
+      -26.64751430428376,
+      -13.55958568422986,
+      18.089439746967145
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_5",
+    "index": 1,
+    "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2",
+    "position": [
+      -29.15639373500497,
+      5.9528793958167805,
+      -0.5089795049996428
+    ],
+    "lo": [
+      -32.808770046350695,
+      2.4287112692221853,
+      -0.5098433155457315
+    ],
+    "hi": [
+      -25.504017319593476,
+      9.47704727531298,
+      18.0793717200291
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_5",
+    "index": 14,
+    "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2",
+    "position": [
+      -27.30585427113132,
+      -7.9257790364583345,
+      -1.1307236347294565
+    ],
+    "lo": [
+      -31.227245605751886,
+      -11.980922132818597,
+      -1.131611452205252
+    ],
+    "hi": [
+      -23.384463206274084,
+      -3.8706358195519717,
+      17.97423304632428
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_5",
+    "index": 23,
+    "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2",
+    "position": [
+      -23.89555862435882,
+      9.43277713881278,
+      -0.47077158092839455
+    ],
+    "lo": [
+      -27.333685236297097,
+      5.856037375457126,
+      -0.47186071377149347
+    ],
+    "hi": [
+      -20.457432261367284,
+      13.009516996474558,
+      22.966293305097807
+    ]
+  },
+  {
+    "actor": "InstancedFoliageActor0",
+    "component": "FoliageInstancedStaticMeshComponent_5",
+    "index": 37,
+    "mesh": "/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2",
+    "position": [
+      -29.75,
+      -9.277069414956387,
+      -2.743100972674456
+    ],
+    "lo": [
+      -33.24320839846005,
+      -12.548687748540287,
+      -2.744406898330126
+    ],
+    "hi": [
+      -26.256791559636913,
+      -6.005451370487354,
+      25.359131480058114
+    ]
+  }
+]

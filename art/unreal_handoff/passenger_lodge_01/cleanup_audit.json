@@ -1,0 +1,3188 @@
+[
+  {
+    "label": "Landscape0",
+    "name": "Landscape_0",
+    "class": "Landscape",
+    "position": [
+      615.2969402502704,
+      -1566.8370754906198,
+      138.645
+    ],
+    "lo": [
+      -3416.7030597497296,
+      -1566.8370754906198,
+      -117.35499999999999
+    ],
+    "hi": [
+      615.2969402502704,
+      2465.16292450938,
+      394.5825
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "GrassInstancedStaticMeshComponent_0",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_1",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_2",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_3",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_4",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_5",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_6",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_7",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_8",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_9",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_10",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_11",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_12",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_13",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_14",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_15",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_16",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_17",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_18",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_19",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_20",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_21",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_22",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_23",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_24",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_26",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_27",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_28",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_29",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_30",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_32",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_33",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_34",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_35",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_36",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_37",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_38",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_39",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_40",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_41",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_42",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_43",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_44",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_45",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_46",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_47",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_48",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_49",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_50",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_51",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_52",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_53",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_54",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_55",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_56",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_57",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_369",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_367",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_366",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_365",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_364",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_363",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_362",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_66",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_67",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_68",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_69",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_70",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_71",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_72",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_73",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_74",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_75",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_76",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_77",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_78",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_79",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_80",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_81",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_82",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_83",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_84",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_85",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_86",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_87",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_88",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_89",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_90",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_91",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_92",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_93",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_94",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_95",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_96",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_97",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_98",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_99",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_100",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_101",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_102",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_103",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_104",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_105",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_106",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_107",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_108",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_109",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_110",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_111",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_112",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_113",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_114",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_115",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_116",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_117",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_118",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_119",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_120",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_121",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_122",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_123",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_124",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_125",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_126",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_127",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_128",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_129",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_130",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_131",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_132",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_133",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_134",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_135",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_136",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_137",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_138",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_139",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_140",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_141",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_142",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_143",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_144",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_145",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_146",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_147",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_148",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_149",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_150",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_151",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_152",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_153",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_154",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_155",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_156",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_157",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_158",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_159",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_160",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_161",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_162",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_163",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_164",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_165",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_166",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_167",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_168",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_169",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_170",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_171",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_172",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_173",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_174",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_175",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_176",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_177",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_178",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_179",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_180",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_181",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_182",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_183",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_184",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_185",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_186",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_187",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_188",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_189",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_190",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_191",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_192",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_193",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_194",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_195",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_196",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_197",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_198",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_199",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_200",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_201",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_202",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_203",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_204",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_205",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_206",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_207",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_208",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_209",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_210",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_211",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_212",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_213",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_214",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_215",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_216",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_217",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_218",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_219",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_220",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_221",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_222",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_223",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_224",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_225",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_226",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_227",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_228",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_229",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_230",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_231",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_232",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_234",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_235",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_236",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_237",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_238",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_361",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_360",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_290",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_248",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_249",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_250",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_251",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_252",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_368",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_270",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_271",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_272",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_273",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_262",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_263",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_264",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_265",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_266",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_267",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow' (0x000002C14B926800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_268",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB' (0x000002C14B927000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_269",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_309",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_307",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC' (0x000002C14B927800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "GrassInstancedStaticMeshComponent_308",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD' (0x000002C14B928000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "InstancedFoliageActor0",
+    "name": "InstancedFoliageActor_0",
+    "class": "InstancedFoliageActor",
+    "position": [
+      -442.8230597497297,
+      -184.74707549061975,
+      -98.985
+    ],
+    "lo": [
+      -85.24749892143794,
+      -76.96110104574814,
+      -91.84960529777868
+    ],
+    "hi": [
+      101.60627227513979,
+      159.9142635407456,
+      39.55000981016379
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "FoliageInstancedStaticMeshComponent_10",
+        "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0' (0x000002C13AC0B800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_11",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA' (0x000002C14B924000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_12",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB' (0x000002C14B924800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_13",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC' (0x000002C14B925000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_14",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD' (0x000002C14B925800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_15",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA' (0x000002C14B921800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_16",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB' (0x000002C14B922000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_17",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC' (0x000002C14B922800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_18",
+        "mesh": "<Object '/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD' (0x000002C14B923000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_19",
+        "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0' (0x000002C13AC0B800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_20",
+        "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_1.SM_R06_Pine_1' (0x000002C13AC0C800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_21",
+        "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2' (0x000002C13AC0D800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_3",
+        "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0' (0x000002C13AC0B800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_4",
+        "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_1.SM_R06_Pine_1' (0x000002C13AC0C800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_5",
+        "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2' (0x000002C13AC0D800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_6",
+        "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_0.SM_R06_Pine_0' (0x000002C13AC0B800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_7",
+        "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_1.SM_R06_Pine_1' (0x000002C13AC0C800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FoliageInstancedStaticMeshComponent_8",
+        "mesh": "<Object '/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2.SM_R06_Pine_2' (0x000002C13AC0D800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R07_TestLight_Main_Platform_East",
+    "name": "SpotLight_1",
+    "class": "SpotLight",
+    "position": [
+      -6.823059749729655,
+      0.6529245093802456,
+      6.665
+    ],
+    "lo": [
+      -8.103059749729654,
+      -0.6270754906197544,
+      4.856688800294141
+    ],
+    "hi": [
+      -5.543059749729655,
+      3.260467819254118,
+      7.944999999999999
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Backplate",
+    "name": "StaticMeshActor_12",
+    "class": "StaticMeshActor",
+    "position": [
+      -12.899999999729625,
+      0.14500000938023733,
+      6.55
+    ],
+    "lo": [
+      -12.899999999729625,
+      0.14500000938023733,
+      6.55
+    ],
+    "hi": [
+      -12.899999999729625,
+      0.14500000938023733,
+      6.55
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "None"
+      }
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Housing",
+    "name": "StaticMeshActor_13",
+    "class": "StaticMeshActor",
+    "position": [
+      -12.899999999729625,
+      0.21000000938023733,
+      6.55
+    ],
+    "lo": [
+      -12.899999999729625,
+      0.21000000938023733,
+      6.55
+    ],
+    "hi": [
+      -12.899999999729625,
+      0.21000000938023733,
+      6.55
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "None"
+      }
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Hood",
+    "name": "StaticMeshActor_14",
+    "class": "StaticMeshActor",
+    "position": [
+      -12.899999999729625,
+      0.23000000938023732,
+      6.7
+    ],
+    "lo": [
+      -12.899999999729625,
+      0.23000000938023732,
+      6.7
+    ],
+    "hi": [
+      -12.899999999729625,
+      0.23000000938023732,
+      6.7
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "None"
+      }
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Diffuser",
+    "name": "StaticMeshActor_15",
+    "class": "StaticMeshActor",
+    "position": [
+      -12.899999999729625,
+      0.2700000093802373,
+      6.53
+    ],
+    "lo": [
+      -12.899999999729625,
+      0.2700000093802373,
+      6.53
+    ],
+    "hi": [
+      -12.899999999729625,
+      0.2700000093802373,
+      6.53
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "None"
+      }
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Guard_Left",
+    "name": "StaticMeshActor_17",
+    "class": "StaticMeshActor",
+    "position": [
+      -12.839999999729626,
+      0.28300000938023007,
+      6.53
+    ],
+    "lo": [
+      -12.839999999729626,
+      0.28300000938023007,
+      6.53
+    ],
+    "hi": [
+      -12.839999999729626,
+      0.28300000938023007,
+      6.53
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "None"
+      }
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Guard_Right",
+    "name": "StaticMeshActor_18",
+    "class": "StaticMeshActor",
+    "position": [
+      -12.959999999729625,
+      0.28300000938023007,
+      6.53
+    ],
+    "lo": [
+      -12.959999999729625,
+      0.28300000938023007,
+      6.53
+    ],
+    "hi": [
+      -12.959999999729625,
+      0.28300000938023007,
+      6.53
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "None"
+      }
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Guard_Crossbar",
+    "name": "StaticMeshActor_19",
+    "class": "StaticMeshActor",
+    "position": [
+      -12.899999999729625,
+      0.28500000938023734,
+      6.53
+    ],
+    "lo": [
+      -12.899999999729625,
+      0.28500000938023734,
+      6.53
+    ],
+    "hi": [
+      -12.899999999729625,
+      0.28500000938023734,
+      6.53
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "None"
+      }
+    ]
+  },
+  {
+    "label": "R08_Waiting_Hall_Entry_Conduit",
+    "name": "StaticMeshActor_20",
+    "class": "StaticMeshActor",
+    "position": [
+      -12.899999999729625,
+      0.14500000938023733,
+      7.035
+    ],
+    "lo": [
+      -12.899999999729625,
+      0.14500000938023733,
+      7.035
+    ],
+    "hi": [
+      -12.899999999729625,
+      0.14500000938023733,
+      7.035
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "None"
+      }
+    ]
+  },
+  {
+    "label": "R08_WallLight_Waiting_Hall_Entry",
+    "name": "SpotLight_7",
+    "class": "SpotLight",
+    "position": [
+      -10.25,
+      0.32,
+      6.585
+    ],
+    "lo": [
+      -11.53,
+      -0.96,
+      4.068754051388533
+    ],
+    "hi": [
+      -8.97,
+      2.0391373085285887,
+      7.865
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_VF06_Quarters_000_floor",
+    "name": "StaticMeshActor_375",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      -8.0,
+      0.0
+    ],
+    "lo": [
+      -7.700001106262207,
+      -4.6,
+      7.370000610351562
+    ],
+    "hi": [
+      -1.4000006103515625,
+      1.3000006103515624,
+      7.65
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_000_floor.SM_R12_VF06_Quarters_000_floor' (0x000002C13B8ED000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Quarters_003_solid",
+    "name": "StaticMeshActor_378",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      -8.0,
+      0.0
+    ],
+    "lo": [
+      -7.785001144409179,
+      -4.6850000000000005,
+      6.7116027832031255
+    ],
+    "hi": [
+      -1.3150006103515621,
+      1.3800006103515625,
+      12.299998779296875
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_003_solid.SM_R12_VF06_Quarters_003_solid' (0x000002C13B978000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Quarters_004_solid",
+    "name": "StaticMeshActor_379",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      -8.0,
+      0.0
+    ],
+    "lo": [
+      -8.000000631542134,
+      -4.6399993896484375,
+      7.370000000000001
+    ],
+    "hi": [
+      -1.3300006103516355,
+      1.2000006103515624,
+      10.3
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_004_solid.SM_R12_VF06_Quarters_004_solid' (0x000002C13D6D1000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Quarters_005_glass",
+    "name": "StaticMeshActor_380",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -6.980000152587891,
+      1.2120004272460938,
+      8.519999389648438
+    ],
+    "hi": [
+      -2.4200000000000004,
+      1.2240009307861328,
+      9.780000610351562
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_005_glass.SM_R12_VF06_Quarters_005_glass' (0x000002C13B97B000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Quarters_006_solid",
+    "name": "StaticMeshActor_381",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -7.780000324249267,
+      -0.0109998631477356,
+      7.65
+    ],
+    "hi": [
+      -1.3199999999999998,
+      1.3850007629394532,
+      10.490001220703126
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_006_solid.SM_R12_VF06_Quarters_006_solid' (0x000002C13B977800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Quarters_007_solid",
+    "name": "StaticMeshActor_382",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -7.690000171661376,
+      0.06000014781951901,
+      7.649999389648437
+    ],
+    "hi": [
+      -1.4099999999999997,
+      1.370000762939453,
+      10.299999999999999
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Quarters_007_solid.SM_R12_VF06_Quarters_007_solid' (0x000002C13AC07000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Transferred_Details_000_solid",
+    "name": "StaticMeshActor_437",
+    "class": "StaticMeshActor",
+    "position": [
+      -24.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -17.814998779296875,
+      0.12500082015991212,
+      4.082605895996094
+    ],
+    "hi": [
+      -17.359998779296877,
+      0.47405769348144533,
+      7.195
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Transferred_Details_000_solid.SM_R12_VF06_Transferred_Details_000_solid' (0x000002C13B97D000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Transferred_Details_001_thin",
+    "name": "StaticMeshActor_438",
+    "class": "StaticMeshActor",
+    "position": [
+      -24.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -17.625,
+      0.13000060081481934,
+      4.230000610351563
+    ],
+    "hi": [
+      -17.474998779296875,
+      0.32500080108642576,
+      7.12
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Transferred_Details_001_thin.SM_R12_VF06_Transferred_Details_001_thin' (0x000002C13B78E800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Transferred_Details_002_signage",
+    "name": "StaticMeshActor_439",
+    "class": "StaticMeshActor",
+    "position": [
+      -16.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -13.437659301757812,
+      0.19240045547485352,
+      6.673920288085937
+    ],
+    "hi": [
+      -12.367260131835938,
+      0.19360071182250976,
+      6.757920532226563
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Transferred_Details_002_signage.SM_R12_VF06_Transferred_Details_002_signage' (0x000002C13B8EF800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Transferred_Details_003_solid",
+    "name": "StaticMeshActor_440",
+    "class": "StaticMeshActor",
+    "position": [
+      -16.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -17.799999237060547,
+      0.11000075340270998,
+      4.082605895996094
+    ],
+    "hi": [
+      -7.9850006103515625,
+      0.4740578079223633,
+      7.195
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Transferred_Details_003_solid.SM_R12_VF06_Transferred_Details_003_solid' (0x000002C13B97D800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Transferred_Details_004_thin",
+    "name": "StaticMeshActor_441",
+    "class": "StaticMeshActor",
+    "position": [
+      -16.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -10.408999633789062,
+      0.1300007152557373,
+      4.230000610351563
+    ],
+    "hi": [
+      -8.175,
+      0.36400054931640624,
+      7.12
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Transferred_Details_004_thin.SM_R12_VF06_Transferred_Details_004_thin' (0x000002C13B78F000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Transferred_Details_007_signage",
+    "name": "StaticMeshActor_444",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -5.499000091552734,
+      0.19240047454833986,
+      6.633920288085937
+    ],
+    "hi": [
+      -4.703399658203125,
+      0.19360065460205078,
+      6.717920532226563
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Transferred_Details_007_signage.SM_R12_VF06_Transferred_Details_007_signage' (0x000002C13B970000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Transferred_Details_008_solid",
+    "name": "StaticMeshActor_445",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -8.000000030291995,
+      0.11000065803527825,
+      4.082605895996093
+    ],
+    "hi": [
+      -1.5,
+      1.4600009155273437,
+      10.309999999999999
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Transferred_Details_008_solid.SM_R12_VF06_Transferred_Details_008_solid' (0x000002C13B97E000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Transferred_Details_009_thin",
+    "name": "StaticMeshActor_446",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -7.8249998283386235,
+      0.13000005722045893,
+      4.229999389648437
+    ],
+    "hi": [
+      -1.3150000000000004,
+      1.4350006103515625,
+      10.25
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Transferred_Details_009_thin.SM_R12_VF06_Transferred_Details_009_thin' (0x000002C13B78F800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_Control_Ceiling_Practical",
+    "name": "RectLight_3",
+    "class": "RectLight",
+    "position": [
+      -5.2,
+      -2.7,
+      6.93
+    ],
+    "lo": [
+      -6.48,
+      -3.9800000000000004,
+      5.6499999999999995
+    ],
+    "hi": [
+      -3.92,
+      -1.4200000000000002,
+      8.209999999999999
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_Quarters_Ceiling_Practical",
+    "name": "RectLight_4",
+    "class": "RectLight",
+    "position": [
+      -4.5,
+      -2.4,
+      10.15
+    ],
+    "lo": [
+      -5.78,
+      -3.6799999999999997,
+      8.870000000000001
+    ],
+    "hi": [
+      -3.2199999999999998,
+      -1.1199999999999999,
+      11.43
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_Audio_Ventilation",
+    "name": "AmbientSound_4",
+    "class": "AmbientSound",
+    "position": [
+      -5.2,
+      -2.7,
+      6.65
+    ],
+    "lo": [
+      -6.48,
+      -3.9800000000000004,
+      5.37
+    ],
+    "hi": [
+      -3.92,
+      -1.4200000000000002,
+      7.930000000000001
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_Sensory_Office_0_Housing",
+    "name": "StaticMeshActor_533",
+    "class": "StaticMeshActor",
+    "position": [
+      -11.0,
+      -3.0,
+      7.1
+    ],
+    "lo": [
+      -11.56,
+      -3.16,
+      7.06
+    ],
+    "hi": [
+      -10.44,
+      -2.84,
+      7.14
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Engine/BasicShapes/Cube.Cube' (0x000002C1014A3000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_Sensory_Office_0_Panel",
+    "name": "StaticMeshActor_534",
+    "class": "StaticMeshActor",
+    "position": [
+      -11.0,
+      -3.0,
+      7.045
+    ],
+    "lo": [
+      -11.52,
+      -3.12,
+      7.032000000000007
+    ],
+    "hi": [
+      -10.48,
+      -2.88,
+      7.057999999999993
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Engine/BasicShapes/Cube.Cube' (0x000002C1014A3000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_Sensory_Office_0_Light",
+    "name": "RectLight_12",
+    "class": "RectLight",
+    "position": [
+      -11.0,
+      -3.0,
+      7.015
+    ],
+    "lo": [
+      -12.28,
+      -4.28,
+      5.734999999999999
+    ],
+    "hi": [
+      -9.72,
+      -1.72,
+      8.295
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_Sensory_Office_1_Housing",
+    "name": "StaticMeshActor_535",
+    "class": "StaticMeshActor",
+    "position": [
+      -15.0,
+      -3.0,
+      7.1
+    ],
+    "lo": [
+      -15.56,
+      -3.16,
+      7.06
+    ],
+    "hi": [
+      -14.44,
+      -2.84,
+      7.14
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Engine/BasicShapes/Cube.Cube' (0x000002C1014A3000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_Sensory_Office_1_Panel",
+    "name": "StaticMeshActor_536",
+    "class": "StaticMeshActor",
+    "position": [
+      -15.0,
+      -3.0,
+      7.045
+    ],
+    "lo": [
+      -15.52,
+      -3.12,
+      7.032000000000007
+    ],
+    "hi": [
+      -14.48,
+      -2.88,
+      7.057999999999993
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Engine/BasicShapes/Cube.Cube' (0x000002C1014A3000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_Sensory_Office_1_Light",
+    "name": "RectLight_13",
+    "class": "RectLight",
+    "position": [
+      -15.0,
+      -3.0,
+      7.015
+    ],
+    "lo": [
+      -16.28,
+      -4.28,
+      5.734999999999999
+    ],
+    "hi": [
+      -13.72,
+      -1.72,
+      8.295
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "FR_Black_Alder_066_2",
+    "name": "SkeletalMeshActor_182",
+    "class": "SkeletalMeshActor",
+    "position": [
+      -32.4255456450145,
+      -20.664138343552878,
+      -4.205866934664282
+    ],
+    "lo": [
+      -36.59734861547811,
+      -24.94450110258148,
+      -4.237318091610359
+    ],
+    "hi": [
+      -28.158703745419913,
+      -16.496555812459345,
+      5.945041603154496
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "FR_Black_Alder_073_2",
+    "name": "SkeletalMeshActor_184",
+    "class": "SkeletalMeshActor",
+    "position": [
+      -26.37099468718072,
+      -17.722187005452653,
+      -0.8062021405016822
+    ],
+    "lo": [
+      -30.44769907504917,
+      -22.40292763815265,
+      -0.8283384057035432
+    ],
+    "hi": [
+      -21.749178429907477,
+      -13.292009024805264,
+      14.422239076128207
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "FR_Black_Alder_087_0",
+    "name": "SkeletalMeshActor_187",
+    "class": "SkeletalMeshActor",
+    "position": [
+      -13.235163276719831,
+      -27.070625778433385,
+      1.1264404069209013
+    ],
+    "lo": [
+      -20.671001031768974,
+      -34.31651983153549,
+      1.0985424369487742
+    ],
+    "hi": [
+      -6.3779298075828414,
+      -20.311452272427623,
+      20.318593731321236
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "FR_Black_Alder_094_0",
+    "name": "SkeletalMeshActor_188",
+    "class": "SkeletalMeshActor",
+    "position": [
+      -9.72219961962357,
+      -24.78295127906904,
+      0.6671280910327915
+    ],
+    "lo": [
+      -12.952307790015912,
+      -28.246657740181252,
+      0.6630328138544428
+    ],
+    "hi": [
+      -5.385985240095906,
+      -20.566131864584566,
+      15.467203398660022
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_Door_Control_front",
+    "name": "BP_StationDoor_Standard_C_0",
+    "class": "BP_StationDoor_Standard_C",
+    "position": [
+      -2.6540000000000146,
+      0.035,
+      4.0
+    ],
+    "lo": [
+      -13.85,
+      -9.415,
+      -4.859999999999999
+    ],
+    "hi": [
+      6.35,
+      10.785,
+      15.34
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "Leaf",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Leaf.SM_StationDoor_Leaf' (0x000002C13AB4B000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Glass",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Glass.SM_StationDoor_Glass' (0x000002C139D46000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FixedHardware",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Fixed.SM_StationDoor_Fixed' (0x000002C13AB40000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Keypad",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Keypad.SM_StationDoor_Keypad' (0x000002C13AB48000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "InteriorElectronics",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_InteriorElectronics.SM_StationDoor_InteriorElectronics' (0x000002C13A5B3800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "ElectronicStrike",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_ElectronicStrike.SM_StationDoor_ElectronicStrike' (0x000002C13A84F800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "KeyHousing",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Housing.SM_KeyLock_Housing' (0x000002C13A5B7800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "KeyPlug",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug' (0x000002C13A5B9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "InteriorKeyPlug",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug' (0x000002C13A5B9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "ServiceKey",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Key.SM_KeyLock_Key' (0x000002C13A5B8000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "CameraProxyMeshComponent_0",
+        "mesh": "<Object '/Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM' (0x000002C0C13C8000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_Door_Control_side",
+    "name": "BP_StationDoor_Standard_C_1",
+    "class": "BP_StationDoor_Standard_C",
+    "position": [
+      -8.035,
+      -2.5040000000000147,
+      4.0
+    ],
+    "lo": [
+      -18.785,
+      -13.7,
+      -4.859999999999999
+    ],
+    "hi": [
+      1.4149999999999991,
+      6.5,
+      15.34
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "Leaf",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_ControlLeaf.SM_KeyLock_ControlLeaf' (0x000002C13ABD9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Glass",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Glass.SM_StationDoor_Glass' (0x000002C139D46000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FixedHardware",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Fixed.SM_StationDoor_Fixed' (0x000002C13AB40000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Keypad",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Keypad.SM_StationDoor_Keypad' (0x000002C13AB48000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "InteriorElectronics",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_InteriorElectronics.SM_StationDoor_InteriorElectronics' (0x000002C13A5B3800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "ElectronicStrike",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_ElectronicStrike.SM_StationDoor_ElectronicStrike' (0x000002C13A84F800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "KeyHousing",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Housing.SM_KeyLock_Housing' (0x000002C13A5B7800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "KeyPlug",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug' (0x000002C13A5B9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "InteriorKeyPlug",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug' (0x000002C13A5B9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "ServiceKey",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Key.SM_KeyLock_Key' (0x000002C13A5B8000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "CameraProxyMeshComponent_0",
+        "mesh": "<Object '/Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM' (0x000002C0C13C8000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_Door_Quarters",
+    "name": "BP_StationDoor_Standard_C_2",
+    "class": "BP_StationDoor_Standard_C",
+    "position": [
+      -2.6456118012422665,
+      -4.465,
+      7.651440677966093
+    ],
+    "lo": [
+      -11.862344720496912,
+      -15.215,
+      -1.2611016949152685
+    ],
+    "hi": [
+      8.337655279503087,
+      4.984999999999999,
+      18.93889830508473
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "Leaf",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_QuartersLeaf.SM_KeyLock_QuartersLeaf' (0x000002C13AB4A000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Glass",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_InwardGlass.SM_StationDoor_InwardGlass' (0x000002C139D45800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FixedHardware",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_InwardFixed.SM_StationDoor_InwardFixed' (0x000002C13A849800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Keypad",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Keypad.SM_StationDoor_Keypad' (0x000002C13AB48000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "InteriorElectronics",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_InteriorElectronics.SM_StationDoor_InteriorElectronics' (0x000002C13A5B3800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "ElectronicStrike",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_ElectronicStrike.SM_StationDoor_ElectronicStrike' (0x000002C13A84F800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "KeyHousing",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Housing.SM_KeyLock_Housing' (0x000002C13A5B7800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "KeyPlug",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug' (0x000002C13A5B9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "InteriorKeyPlug",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug' (0x000002C13A5B9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "ServiceKey",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Key.SM_KeyLock_Key' (0x000002C13A5B8000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "CameraProxyMeshComponent_0",
+        "mesh": "<Object '/Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM' (0x000002C0C13C8000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_Door_Hall_north",
+    "name": "BP_StationDoor_Standard_C_3",
+    "class": "BP_StationDoor_Standard_C",
+    "position": [
+      -9.503689440993767,
+      0.035,
+      4.0
+    ],
+    "lo": [
+      -20.869875776397457,
+      -9.415,
+      -4.859999999999999
+    ],
+    "hi": [
+      -0.6698757763974577,
+      10.785,
+      15.34
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "Leaf",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_HallLeaf.SM_KeyLock_HallLeaf' (0x000002C13AB49800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Glass",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Glass.SM_StationDoor_Glass' (0x000002C139D46000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FixedHardware",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Fixed.SM_StationDoor_Fixed' (0x000002C13AB40000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Keypad",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Keypad.SM_StationDoor_Keypad' (0x000002C13AB48000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "InteriorElectronics",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_InteriorElectronics.SM_StationDoor_InteriorElectronics' (0x000002C13A5B3800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "ElectronicStrike",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_ElectronicStrike.SM_StationDoor_ElectronicStrike' (0x000002C13A84F800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "KeyHousing",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Housing.SM_KeyLock_Housing' (0x000002C13A5B7800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "KeyPlug",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug' (0x000002C13A5B9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "InteriorKeyPlug",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug' (0x000002C13A5B9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "ServiceKey",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Key.SM_KeyLock_Key' (0x000002C13A5B8000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "CameraProxyMeshComponent_0",
+        "mesh": "<Object '/Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM' (0x000002C0C13C8000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_Door_Hall_south",
+    "name": "BP_StationDoor_Standard_C_4",
+    "class": "BP_StationDoor_Standard_C",
+    "position": [
+      -13.896310559006233,
+      -7.835,
+      4.0
+    ],
+    "lo": [
+      -22.730124223602544,
+      -18.585,
+      -4.859999999999999
+    ],
+    "hi": [
+      -2.5301242236025434,
+      1.6150000000000002,
+      15.34
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "Leaf",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_HallLeaf.SM_KeyLock_HallLeaf' (0x000002C13AB49800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Glass",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Glass.SM_StationDoor_Glass' (0x000002C139D46000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "FixedHardware",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Fixed.SM_StationDoor_Fixed' (0x000002C13AB40000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Keypad",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_Keypad.SM_StationDoor_Keypad' (0x000002C13AB48000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "InteriorElectronics",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_InteriorElectronics.SM_StationDoor_InteriorElectronics' (0x000002C13A5B3800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "ElectronicStrike",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/Meshes/SM_StationDoor_ElectronicStrike.SM_StationDoor_ElectronicStrike' (0x000002C13A84F800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "KeyHousing",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Housing.SM_KeyLock_Housing' (0x000002C13A5B7800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "KeyPlug",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug' (0x000002C13A5B9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "InteriorKeyPlug",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Plug.SM_KeyLock_Plug' (0x000002C13A5B9000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "ServiceKey",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Doors/KeyLock/Meshes/SM_KeyLock_Key.SM_KeyLock_Key' (0x000002C13A5B8000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "CameraProxyMeshComponent_0",
+        "mesh": "<Object '/Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM' (0x000002C0C13C8000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_Door_Test_Checkpoint",
+    "name": "TargetPoint_0",
+    "class": "TargetPoint",
+    "position": [
+      -9.535,
+      -3.1540000000000146,
+      5.02
+    ],
+    "lo": [
+      -10.815,
+      -4.434000000000014,
+      3.7399999999999993
+    ],
+    "hi": [
+      -8.255,
+      -1.8740000000000145,
+      6.3
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_EdgeMarker_WestRear_Base",
+    "name": "StaticMeshActor_599",
+    "class": "StaticMeshActor",
+    "position": [
+      -25.15,
+      -15.15,
+      5.124489382246484
+    ],
+    "lo": [
+      -25.229999999999997,
+      -15.23,
+      5.111989382246484
+    ],
+    "hi": [
+      -25.07,
+      -15.07,
+      5.136989382246484
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Engine/BasicShapes/Cylinder.Cylinder' (0x000002C1014A5800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_EdgeMarker_WestRear_Lens",
+    "name": "StaticMeshActor_600",
+    "class": "StaticMeshActor",
+    "position": [
+      -25.15,
+      -15.15,
+      5.159989382246477
+    ],
+    "lo": [
+      -25.209999999999997,
+      -15.209999995422368,
+      5.127489382246477
+    ],
+    "hi": [
+      -25.09,
+      -15.089999995422367,
+      5.192489382246476
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Engine/BasicShapes/Sphere.Sphere' (0x000002C1014A5000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_EdgeMarker_WestRear_Spill",
+    "name": "PointLight_0",
+    "class": "PointLight",
+    "position": [
+      -25.15,
+      -15.15,
+      5.2019893822464836
+    ],
+    "lo": [
+      -26.43,
+      -16.43,
+      3.9219893822464833
+    ],
+    "hi": [
+      -23.869999999999997,
+      -13.870000000000001,
+      6.481989382246484
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_EdgeMarker_WestFront_Base",
+    "name": "StaticMeshActor_601",
+    "class": "StaticMeshActor",
+    "position": [
+      -25.15,
+      7.35,
+      5.1364838825503645
+    ],
+    "lo": [
+      -25.229999999999997,
+      7.27,
+      5.123983882550364
+    ],
+    "hi": [
+      -25.07,
+      7.43,
+      5.148983882550365
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Engine/BasicShapes/Cylinder.Cylinder' (0x000002C1014A5800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_EdgeMarker_WestFront_Lens",
+    "name": "StaticMeshActor_602",
+    "class": "StaticMeshActor",
+    "position": [
+      -25.15,
+      7.35,
+      5.171983882550357
+    ],
+    "lo": [
+      -25.209999999999997,
+      7.2900000045776325,
+      5.1394838825503575
+    ],
+    "hi": [
+      -25.09,
+      7.410000004577632,
+      5.204483882550357
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Engine/BasicShapes/Sphere.Sphere' (0x000002C1014A5000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_EdgeMarker_WestFront_Spill",
+    "name": "PointLight_5",
+    "class": "PointLight",
+    "position": [
+      -25.15,
+      7.35,
+      5.213983882550365
+    ],
+    "lo": [
+      -26.43,
+      6.069999999999999,
+      3.933983882550365
+    ],
+    "hi": [
+      -23.869999999999997,
+      8.629999999999999,
+      6.493983882550365
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_EdgeMarker_BoardingWestTurn_Spill",
+    "name": "PointLight_9",
+    "class": "PointLight",
+    "position": [
+      -4.0,
+      7.35,
+      5.190000305175781
+    ],
+    "lo": [
+      -5.28,
+      6.069999999999999,
+      3.910000305175781
+    ],
+    "hi": [
+      -2.7199999999999998,
+      8.629999999999999,
+      6.470000305175781
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_EdgeMarker_BoardingWestEnd_Spill",
+    "name": "PointLight_10",
+    "class": "PointLight",
+    "position": [
+      -4.0,
+      11.5,
+      5.213981807825803
+    ],
+    "lo": [
+      -5.28,
+      10.22,
+      3.933981807825803
+    ],
+    "hi": [
+      -2.7199999999999998,
+      12.78,
+      6.493981807825803
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "R12_GM_Millford_Frame",
+    "name": "StaticMeshActor_635",
+    "class": "StaticMeshActor",
+    "position": [
+      -0.25,
+      8.050000190734863,
+      9.927000000000007
+    ],
+    "lo": [
+      -5.149999694824219,
+      1.8488508987426757,
+      -0.3000001220703048
+    ],
+    "hi": [
+      2.850000305175781,
+      4.2511491775512695,
+      13.484500000000008
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/GondolaMechanism/Meshes/SM_GM_Millford_Frame.SM_GM_Millford_Frame' (0x000002C139DB5800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "PoliceTape_AnchorTree_0",
+    "name": "SkeletalMeshActor_173",
+    "class": "SkeletalMeshActor",
+    "position": [
+      -18.979930057375242,
+      -25.00548181546321,
+      -0.3737707564572338
+    ],
+    "lo": [
+      -24.843226502806353,
+      -30.638271386267597,
+      -0.3836798140744211
+    ],
+    "hi": [
+      -13.530659666062709,
+      -19.38341541579633,
+      19.741958613659953
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "PoliceTape_AnchorTree_1",
+    "name": "SkeletalMeshActor_174",
+    "class": "SkeletalMeshActor",
+    "position": [
+      -21.020069942624758,
+      -20.99451818453679,
+      -0.4738982989774195
+    ],
+    "lo": [
+      -26.883366388055876,
+      -26.627307755341178,
+      -0.48380735659460683
+    ],
+    "hi": [
+      -15.570799551312229,
+      -15.372451784869908,
+      19.64183107113977
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "PoliceTape_AnchorCollision_1",
+    "name": "StaticMeshActor_426",
+    "class": "StaticMeshActor",
+    "position": [
+      -21.020069942624758,
+      -20.99451818453679,
+      3.736192643405393
+    ],
+    "lo": [
+      -21.170069942624757,
+      -21.14451818453679,
+      -0.2638073565946071
+    ],
+    "hi": [
+      -20.87006994262476,
+      -20.844518184536792,
+      7.736192643405393
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Engine/BasicShapes/Cylinder.Cylinder' (0x000002C1014A5800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "PoliceTape_PerimeterTree_0_0",
+    "name": "SkeletalMeshActor_186",
+    "class": "SkeletalMeshActor",
+    "position": [
+      -22.618731119276926,
+      -19.39552398746633,
+      -0.435183812303585
+    ],
+    "lo": [
+      -29.03390036853896,
+      -25.999248943323373,
+      -0.4464802782071633
+    ],
+    "hi": [
+      -15.732472966489366,
+      -12.760105276815914,
+      22.497032321046063
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "PoliceTape_PerimeterTree_0_1",
+    "name": "SkeletalMeshActor_219",
+    "class": "SkeletalMeshActor",
+    "position": [
+      -21.692851936665683,
+      -17.466081648548897,
+      -0.44
+    ],
+    "lo": [
+      -24.527985330682714,
+      -20.043361236355413,
+      -0.44391329452302664
+    ],
+    "hi": [
+      -19.113495970645598,
+      -14.58767630394075,
+      10.392584836758234
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "PoliceTape_PerimeterTree_0_2",
+    "name": "SkeletalMeshActor_220",
+    "class": "SkeletalMeshActor",
+    "position": [
+      -21.300227546187454,
+      -16.032259453155895,
+      -0.44
+    ],
+    "lo": [
+      -23.263386191581446,
+      -18.027780710164624,
+      -0.4429814176030775
+    ],
+    "hi": [
+      -19.010515363132654,
+      -13.77934040704513,
+      7.7663539243295965
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "PoliceTape_PerimeterTree_1_1",
+    "name": "SkeletalMeshActor_222",
+    "class": "SkeletalMeshActor",
+    "position": [
+      -16.5244975607004,
+      -27.627189513562442,
+      1.5350567550252707
+    ],
+    "lo": [
+      -23.543226003217644,
+      -34.518226252571225,
+      1.5234212133945952
+    ],
+    "hi": [
+      -9.357041223261259,
+      -20.273126811582298,
+      25.15560833113972
+    ],
+    "parent": "None",
+    "components": []
+  },
+  {
+    "label": "Ultra_Dynamic_Sky",
+    "name": "Ultra_Dynamic_Sky_C_2",
+    "class": "Ultra_Dynamic_Sky_C",
+    "position": [
+      -9.12414921738542,
+      9.454828382732922,
+      4.899999995231628
+    ],
+    "lo": [
+      -106426434.34523971,
+      -106426378.79069613,
+      -105388066.975
+    ],
+    "hi": [
+      106426376.25162543,
+      106426410.74501874,
+      93907083.025
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "ClockDisk",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/ClockDisk.ClockDisk' (0x000002C109D44800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Sky_Sphere",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/Ultra_Dynamic_Sky_Sphere.Ultra_Dynamic_Sky_Sphere' (0x000002C138FE1800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "UDS Label",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/UDS_Text.UDS_Text' (0x000002C109D4F800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Compass",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/Compass.Compass' (0x000002C109D4B000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "W",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/Compass_W.Compass_W' (0x000002C109D4E800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "N",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/Compass_N.Compass_N' (0x000002C109D4D800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "E",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/Compass_E.Compass_E' (0x000002C109D4D000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "S",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/Compass_S.Compass_S' (0x000002C109D4E000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Sun Handle",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/Editor_SunMoon_Handle.Editor_SunMoon_Handle' (0x000002C109D4F000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Moon Handle",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/Editor_SunMoon_Handle.Editor_SunMoon_Handle' (0x000002C109D4F000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "NODE_AddStaticMeshComponent-22",
+        "mesh": "<Object '/Engine/BasicShapes/Cube.Cube' (0x000002C1014A3000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "Ultra_Dynamic_Weather",
+    "name": "Ultra_Dynamic_Weather_C_1",
+    "class": "Ultra_Dynamic_Weather_C",
+    "position": [
+      -9.732149521387983,
+      10.486785567083535,
+      4.899999985694885
+    ],
+    "lo": [
+      -28411.67509902066,
+      -28419.675099020664,
+      -24988.0
+    ],
+    "hi": [
+      28383.6726260794,
+      28375.67473219442,
+      25012.0
+    ],
+    "parent": "None",
+    "components": [
+      {
+        "name": "UDW Label",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/UDW_Text.UDW_Text' (0x000002C109D43800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "SelectionHide",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/Nebula_Sphere.Nebula_Sphere' (0x000002C109D45000) Class 'StaticMesh'>"
+      },
+      {
+        "name": "StatusDisk",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/ClockDisk.ClockDisk' (0x000002C109D44800) Class 'StaticMesh'>"
+      },
+      {
+        "name": "Wind_Arrow",
+        "mesh": "<Object '/Game/UltraDynamicSky/Meshes/EditorLabels/Wind_Arrow.Wind_Arrow' (0x000002C109D44000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Control_000_solid",
+    "name": "StaticMeshActor_344",
+    "class": "StaticMeshActor",
+    "position": [
+      -16.0,
+      -8.0,
+      0.0
+    ],
+    "lo": [
+      -8.140000610351564,
+      -5.160999145507812,
+      3.9999996948242185
+    ],
+    "hi": [
+      -7.860001220703126,
+      -0.03899963378906257,
+      7.100999755859375
+    ],
+    "parent": "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_8' (0x000002C0F5536900) Class 'StaticMeshActor'>",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_000_solid.SM_R12_VF06_Control_000_solid' (0x000002C13B872000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Control_001_solid",
+    "name": "StaticMeshActor_345",
+    "class": "StaticMeshActor",
+    "position": [
+      -16.0,
+      -8.0,
+      0.0
+    ],
+    "lo": [
+      -8.13800048828125,
+      -5.1999990844726565,
+      4.0
+    ],
+    "hi": [
+      -8.090000610351563,
+      6.10351562624345e-07,
+      7.15
+    ],
+    "parent": "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_8' (0x000002C0F5536900) Class 'StaticMeshActor'>",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_001_solid.SM_R12_VF06_Control_001_solid' (0x000002C13B87C800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Control_002_floor",
+    "name": "StaticMeshActor_346",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      -8.0,
+      0.0
+    ],
+    "lo": [
+      -8.100001087188721,
+      -5.300000305175781,
+      3.719999694824219
+    ],
+    "hi": [
+      -2.1,
+      0.10000061035156271,
+      4.0
+    ],
+    "parent": "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_8' (0x000002C0F5536900) Class 'StaticMeshActor'>",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_002_floor.SM_R12_VF06_Control_002_floor' (0x000002C13B8EC000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Control_003_floor",
+    "name": "StaticMeshActor_347",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      -8.0,
+      0.0
+    ],
+    "lo": [
+      -8.190000057220459,
+      -3.799999694824219,
+      4.0
+    ],
+    "hi": [
+      -7.810000305175781,
+      -2.5,
+      4.024000244140625
+    ],
+    "parent": "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_8' (0x000002C0F5536900) Class 'StaticMeshActor'>",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_003_floor.SM_R12_VF06_Control_003_floor' (0x000002C13B78A800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Control_004_solid",
+    "name": "StaticMeshActor_348",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      -8.0,
+      0.0
+    ],
+    "lo": [
+      -8.180001010894776,
+      -5.379999694824219,
+      2.9599999999999995
+    ],
+    "hi": [
+      -1.3775006103515626,
+      1.3000006103515624,
+      7.65
+    ],
+    "parent": "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_8' (0x000002C0F5536900) Class 'StaticMeshActor'>",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_004_solid.SM_R12_VF06_Control_004_solid' (0x000002C13B972000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Control_005_solid",
+    "name": "StaticMeshActor_349",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      -8.0,
+      0.0
+    ],
+    "lo": [
+      -7.690000343322754,
+      -5.104999389648437,
+      3.9949999999999997
+    ],
+    "hi": [
+      -2.260001220703125,
+      -0.029999389648437624,
+      7.08
+    ],
+    "parent": "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_8' (0x000002C0F5536900) Class 'StaticMeshActor'>",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_005_solid.SM_R12_VF06_Control_005_solid' (0x000002C13D6D0800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Control_006_thin",
+    "name": "StaticMeshActor_350",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      -8.0,
+      0.0
+    ],
+    "lo": [
+      -7.750000267028809,
+      -4.9775,
+      6.6225000000000005
+    ],
+    "hi": [
+      -2.45,
+      -4.922499084472656,
+      6.7775
+    ],
+    "parent": "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_8' (0x000002C0F5536900) Class 'StaticMeshActor'>",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_006_thin.SM_R12_VF06_Control_006_thin' (0x000002C13B875000) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Control_008_glass",
+    "name": "StaticMeshActor_352",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -7.529999732971191,
+      0.01200016736984253,
+      5.02
+    ],
+    "hi": [
+      -4.369999999999999,
+      0.024000444412231446,
+      6.379999389648438
+    ],
+    "parent": "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_8' (0x000002C0F5536900) Class 'StaticMeshActor'>",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_008_glass.SM_R12_VF06_Control_008_glass' (0x000002C13B979800) Class 'StaticMesh'>"
+      }
+    ]
+  },
+  {
+    "label": "R12_VF06_Control_009_solid",
+    "name": "StaticMeshActor_353",
+    "class": "StaticMeshActor",
+    "position": [
+      -8.0,
+      0.0,
+      0.0
+    ],
+    "lo": [
+      -8.090000162124634,
+      -0.16999996185302735,
+      3.9999996948242185
+    ],
+    "hi": [
+      -1.4,
+      1.3225007629394532,
+      7.65
+    ],
+    "parent": "<Object '/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StaticMeshActor_8' (0x000002C0F5536900) Class 'StaticMeshActor'>",
+    "components": [
+      {
+        "name": "StaticMeshComponent0",
+        "mesh": "<Object '/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Control_009_solid.SM_R12_VF06_Control_009_solid' (0x000002C13B971800) Class 'StaticMesh'>"
+      }
+    ]
+  }
+]

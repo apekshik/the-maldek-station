@@ -36,8 +36,8 @@ Do not infer a 20 m unsupported stair from Landscape-only samples.
 - 72 terrain probes across the bypass treads pass, including near both sides.
 - 280 clearance/support samples pass on entry, west promenade, public platform
   and bypass using radius 34 cm and half-height 96 cm. These are editor collision
-  queries, not actual character movement. They explicitly ignore the two obsolete
-  hall doors, which remain pending functional replacement.
+  queries, not actual character movement. The current cleanup check excludes no
+  actors; the two obsolete hall doors have now been removed.
 - `reopen_verification.json` records the persistence check after a full map switch.
 - `playtest.json` records actual player movement up and down both stairs, including
   the top landing turns. All four tests passed with the runtime capsule dimensions.
@@ -46,8 +46,7 @@ Do not infer a 20 m unsupported stair from Landscape-only samples.
 
 ## Remaining migration
 
-1. Extended approach continuity and a check of remaining old hall foundations,
-   fittings and obsolete door actors.
+1. Continue extended approach continuity review as detailed assets are installed.
 2. Bake/translate the detailed materials, preserving UVs, surface ownership and
    glass treatment. Replace the provisional ShellPilot/DeckPilot finishes.
 3. Import the seven detailed furnishing packages with shared meshes/instances;
@@ -74,3 +73,35 @@ Its module-only Development Editor build passed during this checkpoint.
 The vegetation retry script restores only its eight named actors from baseline
 before retrying a partially completed move. Normal successful runs reject replay.
 Do not rerun duplicate or vegetation initialization over a completed checkpoint.
+
+## Perimeter and obsolete hall cleanup
+
+The cleanup remains confined to the migration map. `cleanup_report.json` records
+every removal and move; `cleanup_baseline.json` preserves the preceding actor
+state. Run `cleanup_apply.py` only on the pre-cleanup checkpoint: it rejects replay.
+
+- Relocated nine native pines, seven native grass clumps and one alder away from
+  the expanded deck and arrival turn, placing their bases against actual ground.
+- Shifted three station-side cordon trees and their wraps away from the arrival
+  flight; five ribbon endpoints follow them. The main crossing anchors remain fixed.
+- Moved six west-edge marker components to the new guard line.
+- Removed exactly eight obsolete hall actors: two doors, the former entry light,
+  and five transferred fitting assemblies containing old conduit, guttering,
+  hardware and lettering. Independent control-room details are retained.
+
+`cleanup_verification.json` supersedes the initial site-fit preservation report:
+1,128 untouched actors plus 13 deliberately moved actors survive reopening, all
+eight removals persist, and all 280 route samples pass. The native foliage
+checkpoint verifies all 4,556 instance positions persist across the map switch;
+the 16 moved instances also match the explicit change ledger. This is a
+post-cleanup persistence checkpoint, not an independent pre-cleanup foliage audit.
+`playtest.json` records all four post-cleanup actual-character stair traversals
+passing. `foliage_audit_after.json` contains zero remaining native foliage bounds
+overlaps with the documented lodge/deck review box. The module-only Development
+Editor rebuild of StationMigrationTools passed after adding this exact migration
+map to the native foliage-move allowlist.
+
+Seven matching before/after views in `previews/cleanup_before` and
+`previews/cleanup_after` cover the arrival flight, top turn, west and north deck,
+both interior directions and bypass stair. They use Unlit for geometry review;
+materials and furnishings are still at the provisional migration stage.
