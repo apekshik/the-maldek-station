@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3150" height="540" viewBox="0 0 3150 540">
+<rect x="0" y="0" width="3150" height="540" fill="#254d43"/>
+<text x="80" y="55" dominant-baseline="text-before-edge" text-anchor="start" font-family="Georgia" font-weight="400" font-size="90" fill="#eee5cc">THE COFFEE HATCH</text>
+<polyline points="80,200 3070,200" fill="none" stroke="#c99542" stroke-width="4" stroke-linejoin="round"/>
+<text x="80" y="260" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="62" fill="#eee5cc">COFFEE &amp; TEA</text>
+<text x="80" y="365" dominant-baseline="text-before-edge" text-anchor="start" font-family="Georgia" font-weight="400" font-size="51" fill="#eee5cc">Freshly made</text>
+<text x="1120" y="260" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="62" fill="#eee5cc">HOT CHOCOLATE</text>
+<text x="1120" y="365" dominant-baseline="text-before-edge" text-anchor="start" font-family="Georgia" font-weight="400" font-size="51" fill="#eee5cc">A warm stop</text>
+<text x="2210" y="260" dominant-baseline="text-before-edge" text-anchor="start" font-family="Arial" font-weight="700" font-size="62" fill="#eee5cc">SOUP &amp; SNACKS</text>
+<text x="2210" y="365" dominant-baseline="text-before-edge" text-anchor="start" font-family="Georgia" font-weight="400" font-size="51" fill="#eee5cc">Ask what is available</text>
+</svg>
