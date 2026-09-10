@@ -1,0 +1,54 @@
+[
+  {
+    "name": "PLK_Warm_grey_laminate",
+    "procedural_blender_only": false
+  },
+  {
+    "name": "PLK_Brushed_stainless",
+    "procedural_blender_only": false
+  },
+  {
+    "name": "PLK_Paper",
+    "procedural_blender_only": false
+  },
+  {
+    "name": "PLK_Chrome",
+    "procedural_blender_only": false
+  },
+  {
+    "name": "PLK_Red_index",
+    "procedural_blender_only": false
+  },
+  {
+    "name": "PL03_Aged_Pine",
+    "procedural_blender_only": true
+  },
+  {
+    "name": "VF06_Petrol_paint",
+    "procedural_blender_only": true
+  },
+  {
+    "name": "PL03_Warm_Porcelain",
+    "procedural_blender_only": false
+  },
+  {
+    "name": "PLK_Chalk_lettering",
+    "procedural_blender_only": false
+  },
+  {
+    "name": "PLK_Display_glass",
+    "procedural_blender_only": false
+  },
+  {
+    "name": "PLK_Carcass_birch",
+    "procedural_blender_only": false
+  },
+  {
+    "name": "VF06_Warm_enamel",
+    "procedural_blender_only": true
+  },
+  {
+    "name": "PLK_Bakelite_rubber",
+    "procedural_blender_only": false
+  }
+]

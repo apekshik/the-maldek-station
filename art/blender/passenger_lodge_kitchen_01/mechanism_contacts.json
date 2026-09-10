@@ -1,0 +1,70 @@
+[
+  {
+    "pivot": "PLK_Hot_base_Door_0_Pivot",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Hot_base_Door_1_Pivot",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Wash_base_Door_0_Pivot",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Wash_base_Door_1_Pivot",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Rear_left_Door_0_Pivot",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Rear_left_Door_1_Pivot",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Rear_right_Door_0_Pivot",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Rear_right_Door_1_Pivot",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Microwave_Door_Pivot",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Fridge_Door_Pivot",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Serving_Drawer_0",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Serving_Drawer_1",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Prep_drawers_Drawer_slide_0",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Prep_drawers_Drawer_slide_1",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Prep_drawers_Drawer_slide_2",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Urn_Lid_lift",
+    "candidate_contacts": {}
+  },
+  {
+    "pivot": "PLK_Kettle_Lid_lift",
+    "candidate_contacts": {}
+  }
+]
