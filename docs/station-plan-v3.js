@@ -3,25 +3,26 @@
   const panel = document.getElementById('plan-v3');
   const zones = {
     lodge: ['Passenger lodge / approved program', '14 × 11.2 m hall + 5 × 5 m coffee annex + 6 × 6 m restroom wing: 217.8 m² gross. Six tables, twelve benches and twelve lockers. Its north exit meets the west apron; the entrance court faces the relocated public stair. The east wall is solid. Exact site position remains proposed.'],
-    apron: ['Expanded public platform / proposed', 'Extend the platform west along the lodge frontage. Reserve a 3 m clear covered strip between lodge and boarding area, with a 3 × 3 m landing at the lodge exit. Rebuild its outer support line and guardrails. Keep the dock, cable mechanism and gondola arrival alignment fixed until a survey proves relocation necessary.'],
+    apron: ['Expanded public platform / proposed', 'Extend the platform west along the lodge frontage. Reserve a 3 m clear covered strip between lodge and boarding area, with a 3 × 3 m landing at the lodge exit. Carry a 7.35 m broad promenade down the west side (1.8 m grating + 3.6 m plate + 1.95 m grating, from the Blender baseline). Fill the rear terrace continuously to both stair heads; rebuild supports and guardrails together. Keep the dock, cable mechanism and gondola arrival alignment fixed until a survey proves relocation necessary.'],
     control: ['Central control / retain anchor', 'Keep the current booth, keypad entrance and dock sightline. The 6 × 5 m rectangle is a planning envelope, not a measured replacement. No lodge connection. A separate exterior path reaches the existing entrance; its final orientation follows the surveyed door. Retain the quarters above and their independent access.'],
-    stairs: ['Public arrival stair / relocate', 'Move the upper landing toward the lodge entrance court. Reserve a 4 × 6 m switchback stair envelope with 1.8 m clear flights and at least 1.8 m landings. For the nominal 4 m rise, study 24 risers of about 167 mm in two flights; verify the actual terrain rise, tread count, headroom and capsule movement in Blender. Join the existing approach at a surveyed lower tie-in.'],
+    stairs: ['Sideways arrival stair / source-informed', 'Match the existing circulation: climb west (left on this plan) along the outer deck edge, reach a flush turning landing, then turn onto the promenade before approaching the lodge. The Blender route rises 4 m while moving west; replace the earlier head-on switchback proposal. Reserve a 1.8 m clear flight and 2 m turning landing; final length follows measured risers and terrain.'],
+    secondary: ['Second deck descent / proposed', 'Add a stair at the south end of the east bypass, with a flush upper landing and a lower connection to the approach/service path. This is a proposed second public-deck access, not a claim that this precise stair already exists. Keep the existing eastern machinery/service stair distinct. Verify landing level and terrain before fixing the flight.'],
     bypass: ['Exterior bypass / add', 'A 2 m clear public path runs around the lodge’s east side and reaches the apron without going through the lodge. It keeps control reachable when the lodge is closed. Preserve guardrails, runoff and clear corners; do not turn it into a shortcut through staff prep.'],
     service: ['Service stair and lower yard / retain destinations', 'Reserve the eastern stair corridor separately from the public stair. Rework its top landing only where the platform edge changes; keep the drive gallery under the dock and the generator, workshop and fuel yard connected below. Lower-level locations in the inset show connectivity, not scale or relocation.'],
     routes: ['Wider map / retain connections', 'Parking and the forest approach feed the new stair tie-in. The relay destination, overlook, bridge and water terrace stay on the exterior network. Reconnect their nearest path segments where the new apron meets the old station. No remote building relocation is proposed.']
   };
   const room = (id, shape, x, y, title) => `<g class="room" data-zone="v3-${id}" id="zone-v3-${id}">${shape}<text x="${x}" y="${y}" class="room-label" id="label-v3-${id}">${title}</text></g>`;
   panel.innerHTML = `<div class="plan-container">
-    <svg class="floorplan floorplan-v2" viewBox="0 0 1080 900" xmlns="http://www.w3.org/2000/svg" aria-label="Current proposed station expansion around the approved six-table lodge">
+    <svg class="floorplan floorplan-v2" viewBox="-100 0 1180 900" xmlns="http://www.w3.org/2000/svg" aria-label="Current proposed station expansion around the approved six-table lodge">
     <defs><pattern id="grid-v3" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#30332b" stroke-width=".5"/></pattern></defs>
-    <rect width="1080" height="900" fill="url(#grid-v3)"/>
+    <rect x="-100" width="1180" height="900" fill="url(#grid-v3)"/>
     <text x="40" y="30" class="map-kicker">MILLFORD / STATION EXPANSION 03</text>
     <text x="40" y="51" class="map-note">Lodge program approved · station placement proposed · local plan axes, not Unreal axes</text>
     <path d="M570 65V145" stroke="#a7b8b0" stroke-width="3"/><text x="590" y="85" class="map-note">CABLE / MOUNTAIN ↑</text>
-    ${room('apron','<path d="M70 130H740V260H70Z" fill="#303929" stroke="#a7ac7b" stroke-width="2"/>',95,180,'EXPANDED WEST APRON')}
+    ${room('apron','<path d="M-47 130H740V260H-47Z" fill="#303929" stroke="#a7ac7b" stroke-width="2"/>',95,180,'EXPANDED WEST APRON')}
     <rect x="540" y="130" width="60" height="64" fill="#172421" stroke="#c8b784" stroke-width="2"/><text x="549" y="153" class="map-note">DOCK</text><text x="610" y="165" class="map-note">RETAIN ANCHOR</text>
     <path d="M100 224H380" stroke="#b3a77f" stroke-dasharray="6 4"/><text x="105" y="246" class="map-note">3 m covered frontage / clear of boarding</text>
-    <path d="M70 260H100V604H380V260H460V650H70Z" fill="#262c23" stroke="#6c765c"/>
+    <path d="M-47 260H460V650H-47Z" fill="#262c23" stroke="#6c765c"/>
     ${room('lodge','<path d="M100 260H380V604H260V484H200V584H100Z" fill="#473923" stroke="#d0ad75" stroke-width="2"/>',115,456,'PASSENGER LODGE')}
     <text x="115" y="475" class="map-note">14 × 11.2 m hall · six tables</text>
     <path d="M100 484H200M260 484H380M260 524H380M320 524V604" stroke="#b39a70" fill="none"/>
@@ -34,13 +35,19 @@
     <path d="M240 267V207H515V250" class="sightline" stroke="#c4ba82"/><text x="355" y="120" class="map-note">PUBLIC LEVEL +4 m</text>
     ${room('bypass','<rect x="400" y="260" width="40" height="365" fill="#324138" stroke="#83a48d"/>',399,425,'BYPASS')}
     <text x="403" y="443" class="map-note">2 m</text>
-    <path d="M240 650H420V235H510" fill="none" stroke="#92b59b" stroke-width="3" stroke-dasharray="7 5"/>
-    <path d="M240 665V497M240 470V280" fill="none" stroke="#d7b984" stroke-width="3" stroke-dasharray="7 5"/>
-    <rect x="200" y="650" width="80" height="25" fill="#34382a" stroke="#a99a75"/>
-    ${room('stairs','<rect x="200" y="675" width="80" height="120" fill="#453d2c" stroke="#d7b984" stroke-width="2"/>',295,720,'NEW PUBLIC STAIR')}
-    ${Array.from({length:11},(_,i)=>`<path d="M204 ${702+i*8}H235M245 ${702+i*8}H276" stroke="#bda878"/>`).join('')}
-    <text x="295" y="741" class="map-note">4 × 6 m reservation</text><text x="295" y="762" class="map-note">2 flights / nominal 4 m rise</text><text x="295" y="783" class="map-note">Upper landing → arrival court</text>
-    <path d="M200 805L150 840H55" stroke="#a99a75" stroke-width="8" fill="none"/><text x="45" y="871" class="map-note">TO EXISTING FOREST APPROACH / PARKING</text>
+    <path d="M-25 650V625H420V235H510" fill="none" stroke="#92b59b" stroke-width="3" stroke-dasharray="7 5"/>
+    <path d="M240 625V497M240 470V280" fill="none" stroke="#d7b984" stroke-width="3" stroke-dasharray="7 5"/>
+    <text x="-23" y="395" class="map-note" transform="rotate(-90 -23 395)">7.35 m WIDE WEST PROMENADE</text>
+    <path d="M-11 270V615M61 270V615" fill="none" stroke="#7e8b6f" stroke-dasharray="3 3"/>
+    ${room('stairs','<rect x="-47" y="650" width="212" height="40" fill="#453d2c" stroke="#d7b984" stroke-width="2"/>',-40,723,'SIDEWAYS ARRIVAL / UP ←')}
+    ${Array.from({length:23},(_,i)=>`<path d="M${-3+i*5.6} 654V686" stroke="#bda878"/>`).join('')}
+    <path d="M145 670H-25V620H150" fill="none" stroke="#d7b984" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="-40" y="746" class="map-note">Turn onto continuous deck</text>
+    <text x="-40" y="766" class="map-note">No detached landing / no open slot</text>
+    <path d="M145 690V810H20" stroke="#a99a75" stroke-width="8" fill="none"/><text x="-40" y="838" class="map-note">EXISTING APPROACH / PARKING</text>
+    ${room('secondary','<rect x="400" y="650" width="40" height="145" fill="#293c32" stroke="#96b89c" stroke-width="2"/>',290,827,'SECOND DESCENT / PROPOSED')}
+    ${Array.from({length:13},(_,i)=>`<path d="M404 ${680+i*8}H436" stroke="#88aa91"/>`).join('')}
+    <path d="M420 625V810H145" fill="none" stroke="#96b89c" stroke-width="2" stroke-dasharray="6 4"/>
     <rect x="635" y="260" width="80" height="15" fill="#243638" stroke="#7a9b9d"/>
     ${room('service','<rect x="635" y="275" width="80" height="120" fill="#243638" stroke="#7a9b9d"/>',625,425,'SERVICE STAIR')}
     ${Array.from({length:10},(_,i)=>`<path d="M640 ${295+i*9}H710" stroke="#789496"/>`).join('')}
@@ -51,8 +58,8 @@
     <rect x="520" y="510" width="510" height="220" fill="#172124" stroke="#668589"/>
     <text x="540" y="540" class="map-kicker">LOWER SERVICE LEVEL / 0 m / CONNECTIVITY INSET</text>
     <text x="540" y="577" class="map-note">Drive gallery remains beneath dock</text><text x="540" y="610" class="map-note">Gallery ↔ workshop ↔ generator ↔ fuel yard</text><text x="540" y="643" class="map-note">Eastern service stair ↔ upper platform</text><text x="540" y="680" class="map-note">Lodge extension requires its own supports;</text><text x="540" y="702" class="map-note">do not fill machinery clearance with foundations.</text>
-    <text x="545" y="775" class="map-note">*Retained building envelopes need a current mesh survey.</text><text x="545" y="798" class="map-note">New west deck edge and stairs are proposals, not surveyed deltas.</text>
+    <text x="545" y="775" class="map-note">*Retained building envelopes need a current mesh survey.</text><text x="545" y="798" class="map-note">Stair orientation / deck bands reference VF07 + R12 reviews.</text>
     <path d="M790 840H990M790 834V846M890 834V846M990 834V846" stroke="#b7a57a"/><text x="790" y="866" class="map-note">0</text><text x="878" y="866" class="map-note">5 m</text><text x="968" y="866" class="map-note">10 m</text>
     </svg><div class="legend">Gold: lodge / arrival · Green: exterior bypass · Blue: service</div><button class="toggle-sightlines" aria-pressed="false">Show Sightlines</button><div class="zoom-indicator"></div></div>
-    <div class="resize-handle"></div><aside class="sidebar" aria-live="polite"><div class="zone-info active" id="info-v3-default"><div class="zone-title">A larger public station</div><p class="zone-desc">The lodge is approved. This station arrangement is the next proposal: expand west and toward arrival, retain the dock/control anchors, and relocate the public stair.</p><p class="zone-desc">Select a space for its dimensions and connections. Scroll to zoom; drag to pan.</p><p><a href="passenger-cabin.html">Approved lodge interior →</a></p><p><a href="design/station-expansion.md">Placement and build sequence →</a></p></div>${Object.entries(zones).map(([id,[title,body]])=>`<div class="zone-info" id="info-v3-${id}"><div class="zone-title">${title}</div><p class="zone-desc">${body}</p><p><a href="design/station-expansion.md">Full station brief →</a></p></div>`).join('')}</aside>`;
+    <div class="resize-handle"></div><aside class="sidebar" aria-live="polite"><div class="zone-info active" id="info-v3-default"><div class="zone-title">A larger public station</div><p class="zone-desc">The lodge is approved. This station arrangement is the next proposal: expand west and toward arrival, retain the dock/control anchors, and retain a sideways arrival with turning landing. A second descent is proposed at the bypass.</p><p class="zone-desc">Select a space for its dimensions and connections. Scroll to zoom; drag to pan.</p><p><a href="assets/station-sideways-arrival.png">Saved Unreal stair reference</a></p><p><a href="passenger-cabin.html">Approved lodge interior →</a></p><p><a href="design/station-expansion.md">Placement and build sequence →</a></p></div>${Object.entries(zones).map(([id,[title,body]])=>`<div class="zone-info" id="info-v3-${id}"><div class="zone-title">${title}</div><p class="zone-desc">${body}</p><p><a href="design/station-expansion.md">Full station brief →</a></p></div>`).join('')}</aside>`;
 })();

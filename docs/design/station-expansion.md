@@ -1,6 +1,6 @@
 # Station expansion around the passenger lodge
 
-September 9, 2026. **Station placement proposal; lodge program approved.** No Unreal actors or Blender meshes changed in this planning pass. [Current compound map](../floorplan.html#v3) · [Approved lodge](../passenger-cabin.html).
+September 9, 2026. **Station placement proposal; lodge program approved. Stair/terrace correction based on saved R12 and Blender references.** No Unreal actors or Blender meshes changed in this planning pass. [Current compound map](../floorplan.html#v3) · [Approved lodge](../passenger-cabin.html).
 
 ## Basis and limits
 
@@ -14,13 +14,14 @@ V3 is a metre-scaled placement study at 20 drawing units/metre for the central c
 
 Keep the gondola dock, cable axis, drive machinery and control booth as anchors. Expand the public deck west and toward the arrival side, rather than moving the cable alignment to accommodate furniture. Place the lodge west of control, with its platform exit facing the dock apron and its entrance court facing the approach. The 14 m hall width is visibly larger than control; its southward depth and annexes determine the new arrival edge.
 
-The new platform envelope is a proposal, not a requirement to fill the entire site with a single slab. Break it into the boarding platform, a 3 m clear covered lodge frontage, and supported arrival/bypass terraces. Keep a 3 × 3 m landing at the lodge's north exit. Rework west/south supports, edge drainage, guardrails, roof seams and lamps together. Keep the gondola sign and boarding sequence visible from the lodge exit and final stair landing. Do not put columns in the gondola door sweep or boarding path.
+The new platform envelope is a proposal, not a requirement to fill the entire site with a single slab. Break it into the boarding platform, a 3 m clear covered lodge frontage, a 7.35 m broad west promenade, and continuous arrival/bypass terraces. Keep a 3 × 3 m landing at the lodge's north exit. Rework west/south supports, edge drainage, guardrails, roof seams and lamps together. Keep the gondola sign and boarding sequence visible from the lodge exit and final stair landing. Do not put columns in the gondola door sweep or boarding path.
 
 ## Circulation and changes
 
 | Element | Proposed treatment | Connection / clearance target |
 |---|---|---|
-| Public stair | Relocate toward the lodge entrance court | 4 × 6 m switchback reservation; 1.8 m clear flights and landings; nominal +4 m rise |
+| Public stair | Sideways climb along outer edge, then turn onto promenade | 1.8 m clear flight, 2 m turning landing; nominal +4 m rise; no head-on approach |
+| Second deck descent | Proposed at south end of bypass | Flush landing; connect below after terrain survey; separate from retained service stair |
 | Final approach | Reroute only the station-end segment after terrain survey | Existing parking/forest route → lower stair landing; retain established start/checkpoints |
 | Arrival terrace | Extend to meet the new court | Stair top → 3 m wide court → lodge entrance; 1.5 m clear through-route |
 | Lodge platform frontage | Extend west from the retained boarding platform | 3 m clear covered strip; no coffee queues on boarding route |
@@ -30,7 +31,9 @@ The new platform envelope is a proposal, not a requirement to fill the entire si
 | Quarters access | Retain independent upper-level connection | Preserve headroom, supports and access to +7.65 m; do not place lodge roof through it |
 | Remote routes | Retain relay, bridge, overlook and water destinations | Adjust near-station ties only where apron perimeter changes |
 
-For the nominal 4 m rise, begin the public stair study with 24 risers of about 167 mm in two flights. Resolve exact riser/tread count and landings from the measured level difference. The reservation is not a tested stair mesh. Verify capsule turning, rail offsets, headroom and the player's downward view at both landings. Do not leave the old stair or collision under the new terrace when implementing the replacement.
+The earlier head-on switchback stair reservation is superseded. Match the existing arrival: a straight flight climbs sideways to the left along the outside deck edge, meets a flush 2 m turning landing, and turns onto the promenade. Retain the 1.8 m clear flight target. The public platform and both upper stair landings must meet without a gap or stair slot through the rear deck. The new stair location/length is still subject to terrain fit.
+
+Add a second proposed descent at the south end of the east bypass, with a flush top landing and lower tie-in to the approach/service network. It is distinct from the retained machinery/service stair. Thus the proposal contains two accesses down from the lodge deck plus the existing service access; it does not duplicate the service stair under a new name.
 
 Public loop: approach → stair → court → lodge → apron → exterior bypass → court. Control is a branch from the apron through its keypad entrance, never a passenger through-route. Staff access to coffee remains off the court. The service loop remains distinct below/east of the public areas.
 
@@ -47,3 +50,11 @@ The wider lodge needs a terrain/support survey before choosing a slab, piers or 
 5. Integrate as an explicit replacement set: old waiting-hall shell, obsolete stair/landing segments, affected deck/rail/roof pieces and their collision. Retain cable machinery, control security, checkpoints and remote buildings. Save/reopen and retest routes after Unreal import.
 
 V3 makes the station changes reviewable; it does not assert terrain feasibility, current collision clearance or a final construction footprint.
+
+## Reference correction / September 9 evening
+
+The editor was not running during this review; no live scene survey is claimed. Examined the saved Unreal [sideways arrival inspection](../assets/station-sideways-arrival.png), `art/blender/visual_fidelity_07/README.md`, its `layout.json`, and the R12 `independent_route_summary.json`. The latter records passed Arrival, Arrival turn onto platform, and Completed rear hall approach routes. The image is a historical in-game reference of the relevant architecture, not a fresh capture of current dressing.
+
+Blender route evidence: Arrival runs from approximately (-14.01, -16.35, 0) to (-21.45, -16.35, 4), a westward climb. The turning route then runs from (-21.6, -16.35, 4) to (-18, -14.3, 4). These are Blender source coordinates; do not paste them into Unreal. The documented deck bands are 1.8 m grating + 3.6 m solid plate + 1.95 m grating = 7.35 m. Use that established breadth on the revised west promenade, rather than the previous thin strip.
+
+The map now shows continuous deck beneath the arrival court, flush stair heads, a leftward arrival flight/turn and the proposed bypass descent. These source-informed corrections supersede the previous V3 stair arrangement. Before mesh changes, still survey current saved scene geometry and both new lower landing elevations.
