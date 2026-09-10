@@ -13,3 +13,5 @@ Build with Blender `--background --python art/blender/passenger_lodge_03/scripts
 Review cameras cover the full exterior, roof-hidden cutaway, grating detail and the corrected staircase. Hide `PL03_Removable_Roof` to work inside the lodge. The file opens with the roof visible.
 
 Additional review views: scripts/render_review.py renders the front beside control, the opposite arrival-side overview, two interiors and a lower front-platform perspective. The roof stays on. Interior views use temporary warm area lights for readability; these lights are not installed fixtures and are not saved into the source. additional_views.json records camera positions and source-file preservation.
+
+Restroom review: scripts/render_restrooms.py supplies the approach from the waiting hall, hallway views in both directions, and a restroom interior. These roof-on renders use temporary review lighting and preserve the source file; restroom_views.json records camera positions. Fixtures and partitions are still mockup assets.

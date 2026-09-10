@@ -1,0 +1,64 @@
+{
+  "source_unchanged": true,
+  "source_sha256": "b9d78ed0d7c5c50bc28a8fb6a0d63f1c86fa83d3144c6a7eae50476ee9607796",
+  "temporary_review_lighting": true,
+  "roof_visible": true,
+  "views": [
+    {
+      "image": "PL03_Restroom_Approach.png",
+      "position": [
+        -15.1,
+        -5.25,
+        5.65
+      ],
+      "target": [
+        -15.1,
+        -8.4,
+        5.35
+      ],
+      "lens_mm": 24
+    },
+    {
+      "image": "PL03_Restroom_Hallway.png",
+      "position": [
+        -15.25,
+        -8.25,
+        5.65
+      ],
+      "target": [
+        -11.4,
+        -8.7,
+        5.3
+      ],
+      "lens_mm": 20
+    },
+    {
+      "image": "PL03_Restroom_Hallway_Reverse.png",
+      "position": [
+        -11.1,
+        -8.6,
+        5.65
+      ],
+      "target": [
+        -15,
+        -8.3,
+        5.3
+      ],
+      "lens_mm": 20
+    },
+    {
+      "image": "PL03_Restroom_Interior.png",
+      "position": [
+        -13.65,
+        -9.65,
+        5.65
+      ],
+      "target": [
+        -14.7,
+        -12,
+        4.95
+      ],
+      "lens_mm": 20
+    }
+  ]
+}
