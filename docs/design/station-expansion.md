@@ -21,7 +21,7 @@ The new platform envelope is a proposal, not a requirement to fill the entire si
 | Element | Proposed treatment | Connection / clearance target |
 |---|---|---|
 | Public stair | Sideways climb along outer edge, then turn onto promenade | 1.8 m clear flight, 2 m turning landing; nominal +4 m rise; no head-on approach |
-| Second deck descent | Proposed at south end of bypass | Flush landing; connect below after terrain survey; separate from retained service stair |
+| Second deck descent | Proposed along the outer right/east side of bypass | Flush landing; connect below after terrain survey; separate from retained service stair |
 | Final approach | Reroute only the station-end segment after terrain survey | Existing parking/forest route → lower stair landing; retain established start/checkpoints |
 | Arrival terrace | Extend to meet the new court | Stair top → 3 m wide court → lodge entrance; 1.5 m clear through-route |
 | Lodge platform frontage | Extend west from the retained boarding platform | 3 m clear covered strip; no coffee queues on boarding route |
@@ -33,7 +33,7 @@ The new platform envelope is a proposal, not a requirement to fill the entire si
 
 The earlier head-on switchback stair reservation is superseded. Match the existing arrival: a straight flight climbs sideways to the left along the outside deck edge, meets a flush 2 m turning landing, and turns onto the promenade. Retain the 1.8 m clear flight target. The public platform and both upper stair landings must meet without a gap or stair slot through the rear deck. The new stair location/length is still subject to terrain fit.
 
-Add a second proposed descent at the south end of the east bypass, with a flush top landing and lower tie-in to the approach/service network. It is distinct from the retained machinery/service stair. Thus the proposal contains two accesses down from the lodge deck plus the existing service access; it does not duplicate the service stair under a new name.
+Run the second proposed stair parallel to the outer right/east side of the bypass, attached to the platform edge. Ascending players travel north, then turn left across a flush upper landing into the bypass. It does not project south from the bypass end. Keep the lower tie-in to the approach/service network. It is distinct from the retained machinery/service stair. Thus the proposal contains two accesses down from the lodge deck plus the existing service access; it does not duplicate the service stair under a new name.
 
 Public loop: approach → stair → court → lodge → apron → exterior bypass → court. Control is a branch from the apron through its keypad entrance, never a passenger through-route. Staff access to coffee remains off the court. The service loop remains distinct below/east of the public areas.
 
