@@ -14,8 +14,8 @@ const ZONES_V2 = {
   },
   'v2-waiting': {
     title: 'Waiting Hall', role: '01 / Platform level · new public space',
-    desc: 'The closed daytime face of the station: ticket counter, benches and old service records. A sheltered circulation loop links the hall, platform and control room.',
-    sections: [{ label: 'Contents', items: [['Ticket office', 'route maps and service records'], ['Lost property', 'shelves and retained belongings']] }, { label: 'Connections', items: [['East door', 'control room'], ['North exit', 'covered link to the platform'], ['South entrance', 'forest approach from parking']] }],
+    desc: 'Updated September 2026: proposed L-shaped passenger cabin with four picnic tables, twelve lockers, coffee service and separate restrooms. See Passenger Cabin in the site navigation for the dimensioned replacement proposal; this compound footprint is historical.',
+    sections: [{ label: 'Contents', items: [['Waiting room', '4 picnic tables, 8 benches, 12 lockers'], ['Coffee counter', 'drinks, snacks and lost property'], ['Restroom wing', 'separate men’s and women’s facilities']] }, { label: 'Connections', items: [['East door', 'control room'], ['North exit', 'covered link to the platform'], ['South entrance', 'forest approach from parking']] }],
     horror: ['The booth wall blocks a direct view of the dock.']
   },
   'v2-drive': {
