@@ -1,6 +1,6 @@
 # Former passenger cabin — approved layout, revision 03
 
-September 9, 2026 · Layout direction approved by the user; six-table capacity adopted. Dimensions remain subject to Blender site-fit verification. No Blender or Unreal changes in this pass.
+September 9, 2026 · Layout direction approved by the user; six-table capacity adopted. Dimensions remain subject to Blender site-fit verification. The first Blender layout is now built in `art/blender/passenger_lodge_01/Maldek_Passenger_Lodge_Layout.blend`; Unreal is unchanged. See that folder’s README and verification report for stage limits.
 
 Review the [interactive floor plan](../passenger-cabin.html). This proposal replaces the old Waiting Hall brief, not the gondola vehicle or central control. The older V2 compound map remains contextual rather than a surveyed R12 footprint.
 

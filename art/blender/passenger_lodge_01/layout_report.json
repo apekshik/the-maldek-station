@@ -1,0 +1,52 @@
+{
+  "stage": "Layout blockout only",
+  "units": "metres",
+  "hall_m": [
+    14,
+    11.2
+  ],
+  "gross_area_m2": 217.8,
+  "tables": 6,
+  "benches": 12,
+  "lockers": 12,
+  "routes": [
+    {
+      "route": "Arrival_to_platform",
+      "radius_m": 0.34,
+      "blocked_by": []
+    },
+    {
+      "route": "Coffee_queue",
+      "radius_m": 0.34,
+      "blocked_by": []
+    },
+    {
+      "route": "Restroom_hall",
+      "radius_m": 0.34,
+      "blocked_by": []
+    },
+    {
+      "route": "Women_basin",
+      "radius_m": 0.34,
+      "blocked_by": []
+    },
+    {
+      "route": "Men_basin",
+      "radius_m": 0.34,
+      "blocked_by": []
+    },
+    {
+      "route": "Staff_entry",
+      "radius_m": 0.34,
+      "blocked_by": []
+    },
+    {
+      "route": "Locker_approach",
+      "radius_m": 0.34,
+      "blocked_by": []
+    }
+  ],
+  "site_placement": "uncommitted; protected VF07 routes stored in separate scene",
+  "roof": "hidden review envelope",
+  "source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\visual_fidelity_07\\layout.json"
+}
