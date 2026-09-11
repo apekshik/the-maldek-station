@@ -203,3 +203,16 @@ also carries per-piece generated coordinates as attributes and documents its
 stable replacement for object-random variation. See the corrected
 [atlas](unreal_handoff/passenger_lodge_01/seating/textures/PLS_01_BaseColor.png)
 and [Unreal close-up](unreal_handoff/passenger_lodge_01/previews/seating/table_detail.png).
+
+## Small hardware collision beside moving storage
+
+The kitchen's second hot-cabinet leaf stopped near 74 degrees in Unreal even
+though source geometry and an engine mesh trace were clear. The obstruction log
+identified a box approximating a 12 mm circular hinge barrel against the adjacent
+drawer's collision box. The box's rotating corners extended beyond the round
+hardware. Keep these small barrels visual/aimable and use the structural panels
+for physical blocking; do not move the authored pivot or enlarge cabinet gaps to
+accommodate an oversized approximation. The [export](unreal_handoff/passenger_lodge_01/scripts/export_kitchen.py)
+and [exact repair ledger](unreal_handoff/passenger_lodge_01/kitchen/collision_repair.json)
+retain the 76 other moving-piece boxes. This diagnosis concerns small round hinge
+hardware; it does not justify removing collision from door leaves or drawer sides.

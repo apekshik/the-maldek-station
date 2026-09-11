@@ -1,0 +1,21 @@
+{
+  "reason": "Box approximations of 12 mm circular hinge barrels falsely contacted adjacent drawer collision at 74 degrees. Hardware remains visible and aimable; structural moving panels retain collision.",
+  "nonblocking_hinges": [
+    "PLK_Hot_base_Hinge_barrel",
+    "PLK_Hot_base_Hinge_barrel.001",
+    "PLK_Hot_base_Hinge_barrel.002",
+    "PLK_Hot_base_Hinge_barrel.003",
+    "PLK_Wash_base_Hinge_barrel",
+    "PLK_Wash_base_Hinge_barrel.001",
+    "PLK_Wash_base_Hinge_barrel.002",
+    "PLK_Wash_base_Hinge_barrel.003",
+    "PLK_Rear_left_Hinge_barrel",
+    "PLK_Rear_left_Hinge_barrel.001",
+    "PLK_Rear_left_Hinge_barrel.002",
+    "PLK_Rear_left_Hinge_barrel.003",
+    "PLK_Rear_right_Hinge_barrel",
+    "PLK_Rear_right_Hinge_barrel.001",
+    "PLK_Rear_right_Hinge_barrel.002",
+    "PLK_Rear_right_Hinge_barrel.003"
+  ]
+}

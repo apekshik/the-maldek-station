@@ -153,3 +153,13 @@ urinal and supporting fixtures. See `restrooms/README.md` for source grouping,
 controls, material translation and reproducible verification. The saved state is
 closed and vacant. The screened hallway and existing building footprint remain.
 Kitchen, lockers and wall displays are the remaining package imports.
+
+## Kitchen checkpoint
+
+The weathered coffee annex package is installed with fifteen independent cabinet,
+drawer and appliance-door mechanisms. Press E on a front to open/close it; blocked
+movement stops and can be retried. The existing staff door, service hatch and
+building geometry are preserved. Sinks, beverage equipment and other appliance
+functions remain decorative. See `kitchen/README.md` for collision repairs,
+material translation, tests and reproduction; neutral/night reviews are in the
+matching preview folders. Lockers and wall displays remain pending imports.

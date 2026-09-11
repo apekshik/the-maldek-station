@@ -1,0 +1,9 @@
+{
+  "target": "gameEditor Win64 Development",
+  "module": "game",
+  "result": "Succeeded",
+  "files": {
+    "game/Source/game/Variant_Horror/StationCabinet.h": "efcfc394ff630499d9f6f012c47af720afbf2eca497bc7fb26859ed922294c74",
+    "game/Source/game/Variant_Horror/StationCabinet.cpp": "372cfab25d13001a8cf1fbe30a33ec5b192863e8b3347cc5c163469e4655e397"
+  }
+}

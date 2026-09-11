@@ -1,0 +1,263 @@
+{
+  "phase": 41,
+  "index": 15,
+  "next": 430408.387,
+  "deadline": 430774.328,
+  "checks": {
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0_closed_initial": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0_focus": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0_fully_open": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0_not_obstructed": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0_recorded_audio": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0_closed_again": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_1_closed_initial": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_1_focus": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_1_fully_open": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_1_not_obstructed": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_1_recorded_audio": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_1_closed_again": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_closed_initial": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_focus": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_fully_open": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_not_obstructed": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_recorded_audio": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_closed_again": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot_closed_initial": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot_focus": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot_fully_open": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot_not_obstructed": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot_recorded_audio": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot_closed_again": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0_closed_initial": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0_focus": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0_fully_open": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0_not_obstructed": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0_recorded_audio": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0_closed_again": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1_closed_initial": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1_focus": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1_fully_open": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1_not_obstructed": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1_recorded_audio": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1_closed_again": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2_closed_initial": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2_focus": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2_fully_open": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2_not_obstructed": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2_recorded_audio": true,
+    "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2_closed_again": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot_closed_initial": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot_focus": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot_fully_open": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot_not_obstructed": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot_recorded_audio": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot_closed_again": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot_closed_initial": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot_focus": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot_fully_open": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot_not_obstructed": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot_recorded_audio": true,
+    "MIG_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot_closed_again": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot_closed_initial": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot_focus": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot_fully_open": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot_not_obstructed": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot_recorded_audio": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot_closed_again": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot_closed_initial": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot_focus": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot_fully_open": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot_not_obstructed": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot_recorded_audio": true,
+    "MIG_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot_closed_again": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot_closed_initial": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot_focus": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot_fully_open": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot_not_obstructed": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot_recorded_audio": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot_closed_again": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot_closed_initial": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot_focus": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot_fully_open": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot_not_obstructed": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot_recorded_audio": true,
+    "MIG_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot_closed_again": true,
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_closed_initial": true,
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_focus": true,
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_fully_open": true,
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_not_obstructed": true,
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_recorded_audio": true,
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_closed_again": true,
+    "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot_closed_initial": true,
+    "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot_focus": true,
+    "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot_fully_open": true,
+    "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot_not_obstructed": true,
+    "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot_recorded_audio": true,
+    "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot_closed_again": true,
+    "staff_entry_floor": true,
+    "door_to_counter_floor": true,
+    "wash_approach_floor": true,
+    "handwash_approach_floor": true,
+    "rear_prep_floor": true,
+    "fridge_floor": true
+  },
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Serving_PLK_Serving_Drawer_0_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Serving_PLK_Serving_Drawer_1_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\MIG_PLK_Microwave_PLK_Microwave_Door_Pivot_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\staff_entry.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\door_to_counter.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\wash_approach.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\handwash_approach.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\rear_prep.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen_night\\fridge.png"
+  ],
+  "routes": [
+    {
+      "name": "staff_entry",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "door_to_counter",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "wash_approach",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "handwash_approach",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "rear_prep",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "fridge",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    }
+  ],
+  "actors": {},
+  "last_motion": {
+    "label": "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot",
+    "fraction": 1.0,
+    "obstructed": false
+  },
+  "route_data": [
+    [
+      "staff_entry",
+      [
+        [
+          5.7,
+          14.5
+        ],
+        [
+          4.6,
+          14.5
+        ]
+      ]
+    ],
+    [
+      "door_to_counter",
+      [
+        [
+          4.6,
+          14.5
+        ],
+        [
+          3.5,
+          14.5
+        ],
+        [
+          2.1,
+          14.5
+        ],
+        [
+          2.1,
+          12.05
+        ]
+      ]
+    ],
+    [
+      "wash_approach",
+      [
+        [
+          2.1,
+          14.5
+        ],
+        [
+          1.36,
+          14.58
+        ]
+      ]
+    ],
+    [
+      "handwash_approach",
+      [
+        [
+          3.5,
+          14.5
+        ],
+        [
+          3.55,
+          13.24
+        ],
+        [
+          3.84,
+          13.24
+        ]
+      ]
+    ],
+    [
+      "rear_prep",
+      [
+        [
+          3.5,
+          14.5
+        ],
+        [
+          3.5,
+          14.9
+        ]
+      ]
+    ],
+    [
+      "fridge",
+      [
+        [
+          2.1,
+          14.5
+        ],
+        [
+          2.58,
+          14.87
+        ]
+      ]
+    ]
+  ],
+  "route_index": 6,
+  "waypoint": 2,
+  "walk_started": 430405.109,
+  "max_floor_error": 0.8500027656555176,
+  "success": true,
+  "error": null
+}

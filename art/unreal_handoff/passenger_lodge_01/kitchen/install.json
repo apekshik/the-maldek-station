@@ -1,0 +1,262 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Serving_Static",
+      "bounds_error_cm": 9.1552734375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Serving_PLK_Serving_Drawer_0",
+      "bounds_error_cm": 3.337860107421875e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Serving_PLK_Serving_Drawer_1",
+      "bounds_error_cm": 3.337860107421875e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Hot_base_Static",
+      "bounds_error_cm": 0.00011444091796875
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot",
+      "bounds_error_cm": 4.5299530029296875e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot",
+      "bounds_error_cm": 4.76837158203125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Prep_drawers_Static",
+      "bounds_error_cm": 0.0001220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0",
+      "bounds_error_cm": 3.337860107421875e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1",
+      "bounds_error_cm": 3.337860107421875e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2",
+      "bounds_error_cm": 3.337860107421875e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Wash_base_Static",
+      "bounds_error_cm": 0.00012969970703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot",
+      "bounds_error_cm": 5.0067901611328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot",
+      "bounds_error_cm": 5.245208740234375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Rear_left_Static",
+      "bounds_error_cm": 0.0001373291015625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot",
+      "bounds_error_cm": 4.76837158203125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot",
+      "bounds_error_cm": 5.0067901611328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Rear_right_Static",
+      "bounds_error_cm": 0.00014495849609375
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot",
+      "bounds_error_cm": 6.67572021484375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot",
+      "bounds_error_cm": 6.9141387939453125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Fridge_Static",
+      "bounds_error_cm": 0.0001373291015625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Fridge_PLK_Fridge_Door_Pivot",
+      "bounds_error_cm": 5.245208740234375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Microwave_Static",
+      "bounds_error_cm": 0.0001373291015625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Microwave_PLK_Microwave_Door_Pivot",
+      "bounds_error_cm": 3.337860107421875e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Fixtures_Static",
+      "bounds_error_cm": 0.0001163482666015625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Kitchen/Meshes/SM_PLK_Fixtures_Glass",
+      "bounds_error_cm": 0.0001068115234375
+    }
+  ],
+  "actors": [
+    {
+      "label": "MIG_PLK_Serving_Static",
+      "mesh": "SM_PLK_Serving_Static",
+      "moving": false
+    },
+    {
+      "label": "MIG_PLK_Serving_PLK_Serving_Drawer_0",
+      "mesh": "SM_PLK_Serving_PLK_Serving_Drawer_0",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Serving_PLK_Serving_Drawer_1",
+      "mesh": "SM_PLK_Serving_PLK_Serving_Drawer_1",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Hot_base_Static",
+      "mesh": "SM_PLK_Hot_base_Static",
+      "moving": false
+    },
+    {
+      "label": "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot",
+      "mesh": "SM_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot",
+      "mesh": "SM_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Prep_drawers_Static",
+      "mesh": "SM_PLK_Prep_drawers_Static",
+      "moving": false
+    },
+    {
+      "label": "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0",
+      "mesh": "SM_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1",
+      "mesh": "SM_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2",
+      "mesh": "SM_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Wash_base_Static",
+      "mesh": "SM_PLK_Wash_base_Static",
+      "moving": false
+    },
+    {
+      "label": "MIG_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot",
+      "mesh": "SM_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot",
+      "mesh": "SM_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Rear_left_Static",
+      "mesh": "SM_PLK_Rear_left_Static",
+      "moving": false
+    },
+    {
+      "label": "MIG_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot",
+      "mesh": "SM_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot",
+      "mesh": "SM_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Rear_right_Static",
+      "mesh": "SM_PLK_Rear_right_Static",
+      "moving": false
+    },
+    {
+      "label": "MIG_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot",
+      "mesh": "SM_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot",
+      "mesh": "SM_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Fridge_Static",
+      "mesh": "SM_PLK_Fridge_Static",
+      "moving": false
+    },
+    {
+      "label": "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot",
+      "mesh": "SM_PLK_Fridge_PLK_Fridge_Door_Pivot",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Microwave_Static",
+      "mesh": "SM_PLK_Microwave_Static",
+      "moving": false
+    },
+    {
+      "label": "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot",
+      "mesh": "SM_PLK_Microwave_PLK_Microwave_Door_Pivot",
+      "moving": true
+    },
+    {
+      "label": "MIG_PLK_Fixtures_Static",
+      "mesh": "SM_PLK_Fixtures_Static",
+      "moving": false
+    },
+    {
+      "label": "MIG_PLK_Fixtures_Glass",
+      "mesh": "SM_PLK_Fixtures_Glass",
+      "moving": false
+    }
+  ],
+  "textures": [
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Serving_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Serving_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Serving_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Hot_base_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Hot_base_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Hot_base_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Prep_drawers_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Prep_drawers_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Prep_drawers_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Wash_base_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Wash_base_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Wash_base_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Rear_left_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Rear_left_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Rear_left_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Rear_right_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Rear_right_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Rear_right_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Fridge_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Fridge_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Fridge_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Microwave_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Microwave_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Microwave_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Fixtures_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Fixtures_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Kitchen/Textures/T_PLK_Fixtures_NormalGL"
+  ],
+  "shader_errors": [],
+  "original_map_unchanged": true
+}

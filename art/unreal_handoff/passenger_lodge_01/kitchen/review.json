@@ -1,0 +1,175 @@
+{
+  "views": [
+    {
+      "name": "01_Customer",
+      "position": [
+        -21.6,
+        -4.35,
+        5.65
+      ],
+      "target": [
+        -21.6,
+        -7.65,
+        5.23
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\01_Customer.png"
+    },
+    {
+      "name": "02_Staff_counter",
+      "position": [
+        -21.5,
+        -9.4,
+        5.65
+      ],
+      "target": [
+        -21.700000000000003,
+        -7.050000000000001,
+        5.08
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\02_Staff_counter.png"
+    },
+    {
+      "name": "03_Staff_entry",
+      "position": [
+        -19.55,
+        -10.5,
+        5.65
+      ],
+      "target": [
+        -23.450000000000003,
+        -9.3,
+        5.07
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\03_Staff_entry.png"
+    },
+    {
+      "name": "04_Rear_prep",
+      "position": [
+        -21.200000000000003,
+        -9.18,
+        5.65
+      ],
+      "target": [
+        -21.400000000000002,
+        -11.65,
+        5.05
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\04_Rear_prep.png"
+    },
+    {
+      "name": "05_Washing",
+      "position": [
+        -22.380000000000003,
+        -10.08,
+        5.65
+      ],
+      "target": [
+        -23.650000000000002,
+        -10.58,
+        4.9
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\05_Washing.png"
+    },
+    {
+      "name": "06_Handwash",
+      "position": [
+        -20.700000000000003,
+        -9.35,
+        5.65
+      ],
+      "target": [
+        -19.6,
+        -9.24,
+        5
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\06_Handwash.png"
+    },
+    {
+      "name": "07_Beverage",
+      "position": [
+        -22.5,
+        -8.4,
+        5.65
+      ],
+      "target": [
+        -23.6,
+        -8.6,
+        5.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\07_Beverage.png"
+    },
+    {
+      "name": "08_Cubby",
+      "position": [
+        -19.650000000000002,
+        -5.35,
+        5.65
+      ],
+      "target": [
+        -19.650000000000002,
+        -6.699999999999999,
+        4.9
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\08_Cubby.png"
+    },
+    {
+      "name": "09_Snacks",
+      "position": [
+        -20.5,
+        -6,
+        5.45
+      ],
+      "target": [
+        -20.8,
+        -7.1,
+        5.1
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\09_Snacks.png"
+    },
+    {
+      "name": "10_Hatch_jamb_0",
+      "position": [
+        -20.200000000000003,
+        -6.1,
+        5.65
+      ],
+      "target": [
+        -20.080000000000002,
+        -7.199999999999999,
+        5.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\10_Hatch_jamb_0.png"
+    },
+    {
+      "name": "10_Hatch_jamb_1",
+      "position": [
+        -20.16,
+        -6.1,
+        5.65
+      ],
+      "target": [
+        -20.080000000000002,
+        -7.199999999999999,
+        5.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\10_Hatch_jamb_1.png"
+    },
+    {
+      "name": "10_Hatch_jamb_2",
+      "position": [
+        -20.12,
+        -6.1,
+        5.65
+      ],
+      "target": [
+        -20.080000000000002,
+        -7.199999999999999,
+        5.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\kitchen\\10_Hatch_jamb_2.png"
+    }
+  ],
+  "error": null,
+  "temporary_lights_removed": true,
+  "mode": "Lit neutral, roof visible; kitchen mechanisms closed"
+}

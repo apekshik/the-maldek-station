@@ -1,0 +1,10 @@
+{
+  "label": "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot",
+  "eye": "<Struct 'Vector' (0x000001C83CA71C80) {x: -42048.805875, y: 17442.207549, z: 10461.500000}>",
+  "target": "<Struct 'Vector' (0x000001C56BEFED10) {x: -42048.805875, y: 17338.707583, z: 10405.999980}>",
+  "hit": "(True, False, 0.5602343082427979, 112.04685974121094, <Struct 'Vector' (0x000001C56BEFED10) {x: -42048.452307, y: 17340.907615, z: 10413.617878}>, <Struct 'Vector' (0x000001C56BEFED60) {x: -42048.452307, y: 17340.907616, z: 10413.617878}>, <Struct 'Vector' (0x000001C56BEFE860) {x: 0.000000, y: 1.000000, z: 0.000000}>, <Struct 'Vector' (0x000001C56BEFE900) {x: 0.000000, y: 1.000000, z: 0.000000}>, <Object '/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial' (0x000001C514FB18C0) Class 'PhysicalMaterial'>, <Object '/Game/MaldekRefinement/PassengerLodge/UEDPIE_0_Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StationCabinet_14' (0x000001C924CC0600) Class 'StationCabinet'>, <Object '/Game/MaldekRefinement/PassengerLodge/UEDPIE_0_Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StationCabinet_14.MovingMesh' (0x000001CA1E158000) Class 'StaticMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 560, <Struct 'Vector' (0x000001C56BEFE9A0) {x: -42048.805875, y: 17442.207549, z: 10461.500000}>, <Struct 'Vector' (0x000001C56BEFEA40) {x: -42048.174768, y: 17261.390466, z: 10376.031971}>)",
+  "ignored": false,
+  "camera": "<Struct 'Vector' (0x000001C56BEFED10) {x: -42048.852808, y: 17455.654344, z: 10461.275104}>",
+  "camera_rotation": "<Struct 'Rotator' (0x000001C56BEFED10) {pitch: -25.298877, yaw: -89.800021, roll: -0.000000}>",
+  "tick": true
+}
