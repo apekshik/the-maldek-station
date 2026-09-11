@@ -43,6 +43,7 @@ AStationDoor::AStationDoor()
  InteriorElectronics=Mesh(TEXT("InteriorElectronics"),Hinge);ElectronicStrike=Mesh(TEXT("ElectronicStrike"),DoorRoot);
  FrontLever=Mesh(TEXT("FrontLever"),Hinge);BackLever=Mesh(TEXT("BackLever"),Hinge);
  MovingLatch=Mesh(TEXT("MovingLatch"),Hinge);BottomSeal=Mesh(TEXT("BottomSeal"),Hinge);
+ PrivacyIndicator=Mesh(TEXT("PrivacyIndicator"),Hinge);
  KeyLockRoot=CreateDefaultSubobject<USceneComponent>(TEXT("KeyLockRoot"));KeyLockRoot->SetupAttachment(Hinge);
  // Keep small circular lock hardware at its authored size when fitting different door widths.
  KeyLockRoot->SetAbsolute(false,false,true);KeyLockRoot->SetRelativeLocation(FVector(114.6,-3.5,100));
@@ -96,15 +97,17 @@ void AStationDoor::RefreshLockVisuals()
  Keypad->SetVisibility(bHasKeypad);InteriorElectronics->SetVisibility(bHasKeypad);ElectronicStrike->SetVisibility(bHasKeypad);
  KeypadDisplay->SetVisibility(bHasKeypad);KeypadDisplay->SetText(FText::FromString(bLocked?TEXT("LOCKED"):TEXT("OPEN")));KeypadDisplay->SetTextRenderColor(bLocked?FColor(160,200,170):FColor(100,230,140));
  if(StatusMaterial)StatusMaterial->SetVectorParameterValue(TEXT("StatusColor"),bLocked?FLinearColor(1,.025,.005):FLinearColor(.02,.8,.1));
+ if(PrivacyMaterial)PrivacyMaterial->SetVectorParameterValue(TEXT("StateColor"),bLocked?FLinearColor(.38,.012,.008):FLinearColor(.025,.22,.08));
 }
 void AStationDoor::OnConstruction(const FTransform& Transform)
 {
- Super::OnConstruction(Transform);if(!bHasKeypad && !bHasKeyLock)bLocked=false;RefreshLockVisuals();
+ Super::OnConstruction(Transform);if(!bHasKeypad && !bHasKeyLock && !bHasPrivacyLatch)bLocked=false;RefreshLockVisuals();
 }
 void AStationDoor::BeginPlay()
 {
  Super::BeginPlay();CurrentAngle=TargetAngle=0;Hinge->SetRelativeRotation(FRotator::ZeroRotator);
  LatchRest=MovingLatch->GetRelativeLocation();SealRest=BottomSeal->GetRelativeLocation();
+ if(bHasPrivacyLatch)PrivacyMaterial=PrivacyIndicator->CreateAndSetMaterialInstanceDynamic(0);
  if(InteractionPromptMaterial)InteractionPrompt->SetMaterial(0,InteractionPromptMaterial);
  const TArray<FName> Slots=Keypad->GetMaterialSlotNames();
  for(int32 I=0;I<Slots.Num();++I)if(Slots[I].ToString().Contains(TEXT("D03_Status_red")))StatusMaterial=Keypad->CreateAndSetMaterialInstanceDynamic(I);
@@ -112,13 +115,13 @@ void AStationDoor::BeginPlay()
 }
 bool AStationDoor::Unlock()
 {
- if((!bHasKeypad && !bHasKeyLock) || !bLocked)return false;
+ if((!bHasKeypad && !bHasKeyLock && !bHasPrivacyLatch) || !bLocked)return false;
  GetWorldTimerManager().ClearTimer(LockSoundTimer);
  bLocked=false;PlayDoorSound(UnlockSound);EndKeypadInteraction(true);EnteredCode.Empty();RefreshLockVisuals();return true;
 }
 bool AStationDoor::Lock()
 {
- if((!bHasKeypad && !bHasKeyLock) || bLocked || !FMath::IsNearlyZero(CurrentAngle,.01f) || !FMath::IsNearlyZero(TargetAngle,.01f))return false;
+ if((!bHasKeypad && !bHasKeyLock && !bHasPrivacyLatch) || bLocked || !FMath::IsNearlyZero(CurrentAngle,.01f) || !FMath::IsNearlyZero(TargetAngle,.01f))return false;
  bLocked=true;EndKeypadInteraction(true);EnteredCode.Empty();RefreshLockVisuals();
  // Let the closing impact speak first, then hear the bolt engage in the fixed strike.
  GetWorldTimerManager().SetTimer(LockSoundTimer,[this](){if(bLocked)PlayDoorSound(LockSound);},.18f,false);
@@ -133,11 +136,12 @@ bool AStationDoor::SubmitCode(const FString& Code)
 bool AStationDoor::TryInteract()
 {
  if(bUsingKey || bEnteringCode)return false;
+ if(HasPrivacyBoltFocus(UGameplayStatics::GetPlayerController(this,0)))return TryTogglePrivacy();
  if(bLocked)
  {
   APlayerController* PC=UGameplayStatics::GetPlayerController(this,0);
   if(IsInteriorSide(PC) && HasFocus(PC))Unlock();
-  else {if(bHasKeypad)BeginKeypadInteraction(PC);else BeginKeyInteraction(PC);return false;}
+  else {if(bHasPrivacyLatch)PlayDoorSound(LockSound);else if(bHasKeypad)BeginKeypadInteraction(PC);else BeginKeyInteraction(PC);return false;}
  }
  TargetAngle=FMath::IsNearlyZero(TargetAngle)?OpenAngle:0.f;bObstructed=false;
  if(bUseAuthoredHardware && FMath::IsNearlyZero(CurrentAngle,.01f))HardwareReleaseRemaining=.22f;
@@ -148,6 +152,19 @@ bool AStationDoor::IsInteriorSide(APlayerController* PC) const
  // The keypad faces +Y. Use the closed frame and the pawn, never the swinging
  // leaf or inspection camera, so opening the door cannot swap access sides.
  return PC && PC->GetPawn() && ((DoorRoot->GetComponentTransform().InverseTransformPosition(PC->GetPawn()->GetActorLocation()).Y<0.f)==bInteriorIsNegativeY);
+}
+bool AStationDoor::HasPrivacyBoltFocus(APlayerController* PC) const
+{
+ if(!bHasPrivacyLatch || !IsInteriorSide(PC) || !FMath::IsNearlyZero(CurrentAngle,.01f) || !FMath::IsNearlyZero(TargetAngle,.01f) || !HasFocus(PC))return false;
+ FVector Eye;FRotator View;PC->GetPlayerViewPoint(Eye,View);
+ const FVector Bolt=Hinge->GetComponentTransform().TransformPosition(PrivacyBoltLocation);
+ const float Along=FVector::DotProduct(Bolt-Eye,View.Vector());
+ return Along>0 && Along<InteractionDistance && FVector::DistSquared(Eye+View.Vector()*Along,Bolt)<FMath::Square(12.f);
+}
+bool AStationDoor::TryTogglePrivacy()
+{
+ if(!HasPrivacyBoltFocus(UGameplayStatics::GetPlayerController(this,0)))return false;
+ return bLocked?Unlock():Lock();
 }
 bool AStationDoor::HasFocus(APlayerController* PC) const
 {
@@ -204,6 +221,8 @@ void AStationDoor::Tick(float Dt)
   {
    const bool bNeedsCode=bLocked && !IsInteriorSide(PC);
    ShowDoorHint(true,bNeedsCode?(bHasKeypad?TEXT("Use keypad"):bKeyAvailable?TEXT("Use key"):TEXT("Key required")):bObstructed?TEXT("Retry door"):FMath::IsNearlyZero(TargetAngle)?TEXT("Open door"):TEXT("Close door"),bNeedsCode?TEXT("SECURED ACCESS"):bObstructed?TEXT("Clear the doorway to continue"):TEXT("STATION ACCESS"));
+   if(bHasPrivacyLatch && bNeedsCode)ShowDoorHint(true,TEXT("Stall occupied"),TEXT("PRIVACY BOLT ENGAGED"));
+   else if(HasPrivacyBoltFocus(PC))ShowDoorHint(true,bLocked?TEXT("Unlock stall"):TEXT("Lock stall"),TEXT("PRIVACY BOLT"));
    if(PC->WasInputKeyJustPressed(EKeys::E))TryInteract();
   }
  }
@@ -226,10 +245,10 @@ void AStationDoor::Tick(float Dt)
  const bool bClosing=FMath::Abs(CurrentAngle)<FMath::Abs(PreviousAngle);
  if(bUseAuthoredHardware)
  {
-  LeverDepression=FMath::FInterpConstantTo(LeverDepression,(HardwareReleaseRemaining>0 || bMoving)?25.f:0.f,Dt,160.f);
+  LeverDepression=FMath::FInterpConstantTo(LeverDepression,(HardwareReleaseRemaining>0 || bMoving)?AuthoredLeverAngle:0.f,Dt,160.f);
   FrontLever->SetRelativeRotation(FRotator(LeverDepression,0,0));BackLever->SetRelativeRotation(FRotator(LeverDepression,0,0));
   const bool bReleased=HardwareReleaseRemaining>0 || !FMath::IsNearlyZero(CurrentAngle,.01f);
-  MovingLatch->SetRelativeLocation(LatchRest+FVector(bReleased?-1.4f:0.f,0,0));
+  MovingLatch->SetRelativeLocation(LatchRest+FVector(bHasPrivacyLatch?(bLocked?2.f:0.f):(bReleased?-1.4f:0.f),0,0));
   BottomSeal->SetRelativeLocation(SealRest+FVector(0,0,bReleased?1.2f:0.f));
  }
  USoundBase* TravelSound=bClosing && ClosingMovementSound?ClosingMovementSound.Get():MovementSound.Get();
@@ -418,9 +437,10 @@ void AStationDoor::ShowDoorHint(bool bVisible,const FString& Action,const FStrin
    FVector Eye;FRotator View;PC->GetPlayerViewPoint(Eye,View);
    const FTransform LeafTransform=Hinge->GetComponentTransform();
    const float Side=LeafTransform.InverseTransformPosition(Eye).Y<0.f?-1.f:1.f;
-   InteractionPrompt->SetWorldLocation(bUsingKey?KeyLockRoot->GetComponentTransform().TransformPosition(FVector(0,8,-5)):LeafTransform.TransformPosition(bEnteringCode?FVector(85.6,14,95):FVector(50,Side*20,116)));
+   const FVector DoorHint(bUseAuthoredHardware?LeafCollision->GetRelativeLocation().X:50.f,Side*(bHasPrivacyLatch?10.f:20.f),bHasPrivacyLatch?125.f:116.f);
+   InteractionPrompt->SetWorldLocation(bUsingKey?KeyLockRoot->GetComponentTransform().TransformPosition(FVector(0,8,-5)):LeafTransform.TransformPosition(bEnteringCode?FVector(85.6,14,95):DoorHint));
    InteractionPrompt->SetWorldRotation((Eye-InteractionPrompt->GetComponentLocation()).Rotation());
-   InteractionPrompt->SetWorldScale3D(FVector(bUsingKey?.025f:bEnteringCode?.035f:.16f));
+   InteractionPrompt->SetWorldScale3D(FVector(bUsingKey?.025f:bEnteringCode?.035f:bHasPrivacyLatch?.09f:.16f));
   }
  }
  if(HintWidget.IsValid())

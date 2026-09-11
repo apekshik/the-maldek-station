@@ -59,7 +59,12 @@ public:
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") FVector AuthoredKeyLocation=FVector(114.6,-3.5,100);
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") FRotator AuthoredKeyRotation=FRotator::ZeroRotator;
  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") float KeyFaceDepth=4.6f;
- UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") bool bInteriorIsNegativeY=true;
+  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") bool bInteriorIsNegativeY=true;
+  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") float AuthoredLeverAngle=25.f;
+  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Privacy") bool bHasPrivacyLatch=false;
+  UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Privacy") FVector PrivacyBoltLocation=FVector::ZeroVector;
+  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Privacy") TObjectPtr<UStaticMeshComponent> PrivacyIndicator;
+  UFUNCTION(BlueprintCallable, Category="Door|Privacy") bool TryTogglePrivacy();
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<USceneComponent> KeyLockRoot;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<UStaticMeshComponent> KeyHousing;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<UStaticMeshComponent> KeyPlug;
@@ -142,6 +147,8 @@ private:
  void PressKeypadButton(int32 Index);
  int32 HoveredKeypadButton(APlayerController* Controller) const;
  UPROPERTY(Transient) TObjectPtr<UMaterialInstanceDynamic> StatusMaterial;
+ UPROPERTY(Transient) TObjectPtr<UMaterialInstanceDynamic> PrivacyMaterial;
+ bool HasPrivacyBoltFocus(APlayerController* Controller) const;
  bool HasFocus(APlayerController* Controller) const;
  bool IsInteriorSide(APlayerController* Controller) const;
  bool CanOccupyAngle(float Angle) const;

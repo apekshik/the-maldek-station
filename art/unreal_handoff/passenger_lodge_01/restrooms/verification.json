@@ -1,0 +1,21 @@
+{
+  "reopened": true,
+  "previous_actors_preserved": 1164,
+  "actors": 1175,
+  "components": 32,
+  "textures_verified": 24,
+  "maximum_bounds_error_cm": 0.0001678466796875,
+  "closed_door_traces": 10,
+  "route_samples": 406,
+  "route_failures": [],
+  "unsupported": [],
+  "perimeter": {
+    "radius_cm": 34,
+    "half_height_cm": 96,
+    "conditions": "Editor collision queries; no actor exclusions. Actual movement is recorded separately in playtest.json.",
+    "samples": 280,
+    "failures": []
+  },
+  "source_map_unchanged": true,
+  "poses_restored_closed": true
+}

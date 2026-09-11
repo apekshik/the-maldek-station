@@ -1,0 +1,138 @@
+{
+  "phase": 41,
+  "index": 5,
+  "next": 420903.984,
+  "deadline": 421261.234,
+  "checks": {
+    "Women_Entry_initial_vacant": true,
+    "Women_Entry_lever_motion": true,
+    "Women_Entry_movement_audio": true,
+    "Women_Entry_full_swing": true,
+    "Women_Entry_close_from_inside": true,
+    "Men_Entry_initial_vacant": true,
+    "Men_Entry_lever_motion": true,
+    "Men_Entry_movement_audio": true,
+    "Men_Entry_full_swing": true,
+    "Men_Entry_close_from_inside": true,
+    "Women_A_initial_vacant": true,
+    "Women_A_lever_motion": true,
+    "Women_A_movement_audio": true,
+    "Women_A_full_swing": true,
+    "Women_A_close_from_inside": true,
+    "Women_A_bolt_locks": true,
+    "Women_A_bolt_extended": true,
+    "Women_A_red_indicator": true,
+    "Women_A_bolt_unlocks_without_opening": true,
+    "Women_A_green_indicator": true,
+    "Women_A_relock": true,
+    "Women_A_outside_blocked": true,
+    "Women_A_outside_prompt": true,
+    "Women_A_inside_egress": true,
+    "Women_A_ends_vacant": true,
+    "Women_B_initial_vacant": true,
+    "Women_B_lever_motion": true,
+    "Women_B_movement_audio": true,
+    "Women_B_full_swing": true,
+    "Women_B_close_from_inside": true,
+    "Women_B_bolt_locks": true,
+    "Women_B_bolt_extended": true,
+    "Women_B_red_indicator": true,
+    "Women_B_bolt_unlocks_without_opening": true,
+    "Women_B_green_indicator": true,
+    "Women_B_relock": true,
+    "Women_B_outside_blocked": true,
+    "Women_B_outside_prompt": true,
+    "Women_B_inside_egress": true,
+    "Women_B_ends_vacant": true,
+    "Men_A_initial_vacant": true,
+    "Men_A_lever_motion": true,
+    "Men_A_movement_audio": true,
+    "Men_A_full_swing": true,
+    "Men_A_close_from_inside": true,
+    "Men_A_bolt_locks": true,
+    "Men_A_bolt_extended": true,
+    "Men_A_red_indicator": true,
+    "Men_A_bolt_unlocks_without_opening": true,
+    "Men_A_green_indicator": true,
+    "Men_A_relock": true,
+    "Men_A_outside_blocked": true,
+    "Men_A_outside_prompt": true,
+    "Men_A_inside_egress": true,
+    "Men_A_ends_vacant": true,
+    "Screened_hall_walking": true,
+    "Women_entry_walking": true,
+    "Women_basin_walking": true,
+    "Women_A_stall_walking": true,
+    "Women_B_stall_walking": true,
+    "Men_entry_walking": true,
+    "Men_basin_walking": true,
+    "Men_A_stall_walking": true,
+    "Urinal_walking": true
+  },
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_Entry_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Men_Entry_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_A_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_A_locked_inside.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_A_occupied.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_B_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_B_locked_inside.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_B_occupied.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Men_A_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Men_A_locked_inside.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Men_A_occupied.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Screened_hall.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_entry.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_basin.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_A_stall.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Women_B_stall.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Men_entry.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Men_basin.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Men_A_stall.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\restrooms_night\\Urinal.png"
+  ],
+  "routes": [
+    {
+      "name": "Screened_hall",
+      "max_floor_error_cm": 2.1499972343444824
+    },
+    {
+      "name": "Women_entry",
+      "max_floor_error_cm": 2.1499972343444824
+    },
+    {
+      "name": "Women_basin",
+      "max_floor_error_cm": 2.1499972343444824
+    },
+    {
+      "name": "Women_A_stall",
+      "max_floor_error_cm": 2.150001990763485
+    },
+    {
+      "name": "Women_B_stall",
+      "max_floor_error_cm": 2.1499972343444824
+    },
+    {
+      "name": "Men_entry",
+      "max_floor_error_cm": 2.1499972343444824
+    },
+    {
+      "name": "Men_basin",
+      "max_floor_error_cm": 2.1499972343444824
+    },
+    {
+      "name": "Men_A_stall",
+      "max_floor_error_cm": 2.150002148395288
+    },
+    {
+      "name": "Urinal",
+      "max_floor_error_cm": 2.1499972343444824
+    }
+  ],
+  "route_index": 9,
+  "waypoint": 4,
+  "walk_started": 420899.609,
+  "max_floor_error": 2.1499972343444824,
+  "success": true,
+  "error": null
+}

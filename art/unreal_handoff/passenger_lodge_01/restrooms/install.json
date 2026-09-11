@@ -1,0 +1,234 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_Entry_FixedHardware",
+      "bounds_error_cm": 5.7220458984375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_Entry_Leaf",
+      "bounds_error_cm": 7.152557373046875e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_Entry_FrontLever",
+      "bounds_error_cm": 9.5367431640625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_Entry_BackLever",
+      "bounds_error_cm": 9.5367431640625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_Entry_FixedHardware",
+      "bounds_error_cm": 5.7220458984375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_Entry_Leaf",
+      "bounds_error_cm": 7.152557373046875e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_Entry_FrontLever",
+      "bounds_error_cm": 9.5367431640625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_Entry_BackLever",
+      "bounds_error_cm": 9.5367431640625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_A_Static",
+      "bounds_error_cm": 1.52587890625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_A_FixedHardware",
+      "bounds_error_cm": 6.9141387939453125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_A_Leaf",
+      "bounds_error_cm": 6.198883056640625e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_A_FrontLever",
+      "bounds_error_cm": 8.940696716308594e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_A_BackLever",
+      "bounds_error_cm": 8.344650268554688e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_A_MovingLatch",
+      "bounds_error_cm": 6.67572021484375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_A_Indicator",
+      "bounds_error_cm": 6.198883056640625e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_B_Static",
+      "bounds_error_cm": 1.1444091796875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_B_FixedHardware",
+      "bounds_error_cm": 6.9141387939453125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_B_Leaf",
+      "bounds_error_cm": 6.198883056640625e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_B_FrontLever",
+      "bounds_error_cm": 8.940696716308594e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_B_BackLever",
+      "bounds_error_cm": 8.344650268554688e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_B_MovingLatch",
+      "bounds_error_cm": 6.67572021484375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_B_Indicator",
+      "bounds_error_cm": 6.198883056640625e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_A_Static",
+      "bounds_error_cm": 1.1444091796875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_A_FixedHardware",
+      "bounds_error_cm": 6.9141387939453125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_A_Leaf",
+      "bounds_error_cm": 6.198883056640625e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_A_FrontLever",
+      "bounds_error_cm": 8.940696716308594e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_A_BackLever",
+      "bounds_error_cm": 8.344650268554688e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_A_MovingLatch",
+      "bounds_error_cm": 6.67572021484375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_A_Indicator",
+      "bounds_error_cm": 6.198883056640625e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Women_Basin_Static",
+      "bounds_error_cm": 0.000110626220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_Basin_Static",
+      "bounds_error_cm": 0.0001678466796875
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Restrooms/Meshes/SM_PLR_Men_Urinal_Static",
+      "bounds_error_cm": 0.0001678466796875
+    }
+  ],
+  "groups": [
+    {
+      "id": "Women_Entry",
+      "position": [
+        -13.20199966430664,
+        -9.251999855041504,
+        4.019999980926514
+      ],
+      "door": true
+    },
+    {
+      "id": "Men_Entry",
+      "position": [
+        -11.20199966430664,
+        -9.251999855041504,
+        4.019999980926514
+      ],
+      "door": true
+    },
+    {
+      "id": "Women_A",
+      "position": [
+        -15.65999984741211,
+        -11.32800006866455,
+        4.150000095367432
+      ],
+      "door": true
+    },
+    {
+      "id": "Women_B",
+      "position": [
+        -14.3100004196167,
+        -11.32800006866455,
+        4.150000095367432
+      ],
+      "door": true
+    },
+    {
+      "id": "Men_A",
+      "position": [
+        -12.710000038146973,
+        -11.32800006866455,
+        4.150000095367432
+      ],
+      "door": true
+    },
+    {
+      "id": "Women_Basin",
+      "position": [
+        -24.100000381469727,
+        4.0,
+        4.0
+      ],
+      "door": false
+    },
+    {
+      "id": "Men_Basin",
+      "position": [
+        -24.100000381469727,
+        4.0,
+        4.0
+      ],
+      "door": false
+    },
+    {
+      "id": "Men_Urinal",
+      "position": [
+        -24.100000381469727,
+        4.0,
+        4.0
+      ],
+      "door": false
+    }
+  ],
+  "textures": [
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_Entry_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_Entry_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_Entry_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_Entry_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_Entry_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_Entry_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_A_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_A_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_A_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_B_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_B_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_B_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_A_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_A_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_A_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_Basin_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_Basin_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Women_Basin_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_Basin_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_Basin_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_Basin_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_Urinal_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_Urinal_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Restrooms/Textures/T_PLR_Men_Urinal_NormalGL"
+  ],
+  "shader_errors": [],
+  "original_map_unchanged": true
+}

@@ -5,3 +5,5 @@ seating/fbx/*.fbx filter=lfs diff=lfs merge=lfs -text
 seating/textures/*.png filter=lfs diff=lfs merge=lfs -text
 doors/fbx/*.fbx filter=lfs diff=lfs merge=lfs -text
 doors/textures/*.png filter=lfs diff=lfs merge=lfs -text
+restrooms/fbx/*.fbx filter=lfs diff=lfs merge=lfs -text
+restrooms/textures/*.png filter=lfs diff=lfs merge=lfs -text

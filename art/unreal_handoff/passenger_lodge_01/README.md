@@ -144,3 +144,12 @@ and neutral/nighttime previews. All three passed actual player traversal and
 key interaction tests. The map saves with them closed and the keys available.
 Restrooms, kitchen, lockers and wall displays remain pending; earlier reports
 above describe their respective historical checkpoints.
+
+## Restroom checkpoint
+
+Both restrooms are furnished with the PLR package, including two entrance doors,
+three cubicles with usable privacy bolts/indicators, three toilets, two basins,
+urinal and supporting fixtures. See `restrooms/README.md` for source grouping,
+controls, material translation and reproducible verification. The saved state is
+closed and vacant. The screened hallway and existing building footprint remain.
+Kitchen, lockers and wall displays are the remaining package imports.
