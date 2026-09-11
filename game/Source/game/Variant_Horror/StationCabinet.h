@@ -25,6 +25,10 @@ public:
  UFUNCTION(BlueprintPure) bool IsObstructed() const { return bObstructed; }
  UPROPERTY(VisibleAnywhere,BlueprintReadOnly) TObjectPtr<USceneComponent> Pivot;
  UPROPERTY(VisibleAnywhere,BlueprintReadOnly) TObjectPtr<UStaticMeshComponent> MovingMesh;
+ UPROPERTY(VisibleAnywhere,BlueprintReadOnly) TObjectPtr<UStaticMeshComponent> Cam;
+ UPROPERTY(EditAnywhere,BlueprintReadWrite) FVector CamLocation=FVector::ZeroVector;
+ UPROPERTY(EditAnywhere,BlueprintReadWrite) TObjectPtr<USoundBase> LatchSound;
+ UFUNCTION(BlueprintPure) float GetCamRelease() const { return CamRelease; }
  UPROPERTY(VisibleAnywhere,BlueprintReadOnly) TObjectPtr<UWidgetComponent> InteractionPrompt;
  UPROPERTY(VisibleAnywhere,BlueprintReadOnly) TObjectPtr<UAudioComponent> MotionAudio;
  UPROPERTY(EditAnywhere,BlueprintReadWrite) bool bSliding=false;
@@ -42,6 +46,7 @@ private:
  TSharedPtr<SWidget> HintWidget;
  TSharedPtr<STextBlock> HintAction,HintDetail;
  float Progress=0,Target=0;
+ float CamRelease=0;
  bool bWantsOpen=false,bObstructed=false;
  FTransform Pose(float Fraction) const;
  bool CanOccupy(float Fraction) const;

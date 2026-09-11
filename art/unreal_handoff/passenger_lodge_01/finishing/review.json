@@ -1,0 +1,189 @@
+{
+  "views": [
+    {
+      "name": "01_Hall",
+      "position": [
+        -21.8,
+        1.8,
+        5.65
+      ],
+      "target": [
+        -16.5,
+        -6.7,
+        5.8
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\01_Hall.png"
+    },
+    {
+      "name": "02_Lockers_closed",
+      "position": [
+        -14.8,
+        -4.4,
+        5.65
+      ],
+      "target": [
+        -12.4,
+        -6.6,
+        5.0
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\02_Lockers_closed.png"
+    },
+    {
+      "name": "03_Lockers_open",
+      "position": [
+        -14.8,
+        -4.4,
+        5.65
+      ],
+      "target": [
+        -12.4,
+        -6.6,
+        5.0
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\03_Lockers_open.png"
+    },
+    {
+      "name": "04_Locker_detail",
+      "position": [
+        -12.9,
+        -5.8,
+        5.4
+      ],
+      "target": [
+        -12.5,
+        -6.8,
+        5.0
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\04_Locker_detail.png"
+    },
+    {
+      "name": "05_Posters",
+      "position": [
+        -21.7,
+        -0.575,
+        5.65
+      ],
+      "target": [
+        -23.9,
+        -0.575,
+        5.85
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\05_Posters.png"
+    },
+    {
+      "name": "06_Timetable",
+      "position": [
+        -18.3,
+        2.15,
+        5.65
+      ],
+      "target": [
+        -18.3,
+        3.77,
+        5.65
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\06_Timetable.png"
+    },
+    {
+      "name": "07_Map",
+      "position": [
+        -12.4,
+        0.4,
+        5.68
+      ],
+      "target": [
+        -10.33,
+        0.4,
+        5.68
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\07_Map.png"
+    },
+    {
+      "name": "08_Community",
+      "position": [
+        -22,
+        -4.8,
+        5.66
+      ],
+      "target": [
+        -23.87,
+        -4.8,
+        5.66
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\08_Community.png"
+    },
+    {
+      "name": "09_Restroom_hall",
+      "position": [
+        -16.4,
+        -4.8,
+        5.65
+      ],
+      "target": [
+        -14.95,
+        -7.1,
+        6
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\09_Restroom_hall.png"
+    },
+    {
+      "name": "10_Menu",
+      "position": [
+        -21.6,
+        -4.6,
+        6.1
+      ],
+      "target": [
+        -21.6,
+        -6.96,
+        6.53
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\10_Menu.png"
+    },
+    {
+      "name": "11_Cubby",
+      "position": [
+        -19.63,
+        -5.7,
+        5.22
+      ],
+      "target": [
+        -19.63,
+        -6.596,
+        5.156
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\11_Cubby.png"
+    },
+    {
+      "name": "12_Case_angle",
+      "position": [
+        -17.15,
+        2.3,
+        5.75
+      ],
+      "target": [
+        -18.3,
+        3.7,
+        5.65
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\12_Case_angle.png"
+    },
+    {
+      "name": "13_Poster_angle",
+      "position": [
+        -22.4,
+        2.8,
+        5.65
+      ],
+      "target": [
+        -23.87,
+        1.425,
+        5.675
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\finishing\\13_Poster_angle.png"
+    }
+  ],
+  "error": null,
+  "temporary_lights_removed": true,
+  "mode": "Lit neutral, roof visible; closed default; lockers 05-07 temporarily open in views 03-04"
+}

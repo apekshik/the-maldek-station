@@ -28,6 +28,7 @@ AStationCabinet::AStationCabinet()
  MovingMesh=CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MovingMesh"));MovingMesh->SetupAttachment(Pivot);
  MovingMesh->SetMobility(EComponentMobility::Movable);MovingMesh->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
  MovingMesh->SetCollisionResponseToAllChannels(ECR_Ignore);MovingMesh->SetCollisionResponseToChannel(ECC_Visibility,ECR_Block);
+ Cam=CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Cam"));Cam->SetupAttachment(Pivot);Cam->SetMobility(EComponentMobility::Movable);Cam->SetCollisionEnabled(ECollisionEnabled::NoCollision);
  InteractionPrompt=CreateDefaultSubobject<UWidgetComponent>(TEXT("InteractionPrompt"));InteractionPrompt->SetupAttachment(RootComponent);
  InteractionPrompt->SetWidgetSpace(EWidgetSpace::World);InteractionPrompt->SetDrawSize(FVector2D(420,90));InteractionPrompt->SetTwoSided(true);
  InteractionPrompt->SetCollisionEnabled(ECollisionEnabled::NoCollision);InteractionPrompt->SetCastShadow(false);InteractionPrompt->SetVisibility(false);
@@ -42,6 +43,7 @@ void AStationCabinet::OnConstruction(const FTransform& Transform)
  Super::OnConstruction(Transform);
  RebuildCollision();
  Progress=Target=0;bWantsOpen=bObstructed=false;Pivot->SetRelativeTransform(Pose(0));MotionAudio->SetRelativeLocation(FocusLocation);
+ CamRelease=0;Cam->SetRelativeLocation(CamLocation);Cam->SetRelativeRotation(FRotator::ZeroRotator);
 }
 void AStationCabinet::RebuildCollision()
 {
@@ -84,6 +86,7 @@ bool AStationCabinet::TryInteract()
 {
  if(!bObstructed)bWantsOpen=!bWantsOpen;
  Target=bWantsOpen?1:0;bObstructed=false;
+ if(Cam->GetStaticMesh() && bWantsOpen && LatchSound)UGameplayStatics::PlaySoundAtLocation(this,LatchSound,GetActorLocation(),.45f);
  if(USoundBase* Sound=bWantsOpen?MovementSound.Get():ClosingSound.Get()){MotionAudio->SetSound(Sound);MotionAudio->Play();}
  return true;
 }
@@ -91,6 +94,14 @@ void AStationCabinet::Tick(float Dt)
 {
  Super::Tick(Dt);auto PC=UGameplayStatics::GetPlayerController(this,0);const bool Focus=HasFocus(PC);ShowHint(Focus);
  if(Focus && PC->WasInputKeyJustPressed(EKeys::E))TryInteract();
+ if(Cam->GetStaticMesh())
+ {
+  const float CamTarget=(bWantsOpen || Progress>0.f)?1.f:0.f;
+  if(CamTarget==0 && CamRelease==1 && LatchSound)UGameplayStatics::PlaySoundAtLocation(this,LatchSound,GetActorLocation(),.45f);
+  CamRelease=FMath::FInterpConstantTo(CamRelease,CamTarget,Dt,5.f);
+  Cam->SetRelativeLocation(CamLocation);Cam->SetRelativeRotation(FRotator(-90.f*CamRelease,0,0));
+  if(Target>Progress && CamRelease<1.f)return;
+ }
  const float Next=FMath::FInterpConstantTo(Progress,Target,Dt,1/FMath::Max(.1f,SecondsToOpen));
  const float Travel=bSliding?OpenOffset.Size():FMath::Abs(OpenAngle);
  const int32 Steps=FMath::Max(1,FMath::CeilToInt(FMath::Abs(Next-Progress)*Travel/(bSliding?.5f:2.f)));

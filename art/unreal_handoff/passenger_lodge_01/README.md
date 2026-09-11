@@ -163,3 +163,13 @@ building geometry are preserved. Sinks, beverage equipment and other appliance
 functions remain decorative. See `kitchen/README.md` for collision repairs,
 material translation, tests and reproduction; neutral/night reviews are in the
 matching preview folders. Lockers and wall displays remain pending imports.
+
+## Lockers and wall displays checkpoint
+
+The last two delivered packages are installed: twelve usable lockers with
+separate lock cams, and the complete delivered wall display collection, including
+the coffee menu and lost-property insert. All seven packages are now represented
+in the isolated migration map. See `finishing/README.md` for controls, provenance,
+material translation, combined validation and remaining narrative scope. Previous
+pending-package lists above describe historical checkpoints. R12 remains the
+original map; promotion and a performance/cooking pass are separate steps.

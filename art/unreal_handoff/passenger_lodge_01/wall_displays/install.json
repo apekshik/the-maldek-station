@@ -1,0 +1,217 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Frames_Static",
+      "bounds_error_cm": 5.340576171875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Poster_1_print",
+      "bounds_error_cm": 2.5033950805664062e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Poster_2_print",
+      "bounds_error_cm": 4.220008850097656e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Poster_3_print",
+      "bounds_error_cm": 6.127357482910156e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Timetable_print",
+      "bounds_error_cm": 5.429983139038086e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Timetable_glass",
+      "bounds_error_cm": 5.4836273193359375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Visitor_map_print",
+      "bounds_error_cm": 0.000118255615234375
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Visitor_map_glass",
+      "bounds_error_cm": 0.000118255615234375
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Community_heading",
+      "bounds_error_cm": 8.374452590942383e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Notice_club",
+      "bounds_error_cm": 8.368492126464844e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Notice_lost",
+      "bounds_error_cm": 7.784366607666016e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Notice_hours",
+      "bounds_error_cm": 8.368492126464844e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Notice_walk",
+      "bounds_error_cm": 7.987022399902344e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Notice_weather",
+      "bounds_error_cm": 7.593631744384766e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Restrooms_art",
+      "bounds_error_cm": 0.0001220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Public_exit_art",
+      "bounds_error_cm": 0.000110626220703125
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Boarding_art",
+      "bounds_error_cm": 6.628036499023438e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Women_art",
+      "bounds_error_cm": 0.0001373291015625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Men_art",
+      "bounds_error_cm": 0.0001373291015625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Staff_art",
+      "bounds_error_cm": 0.000125885009765625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Menu_artwork",
+      "bounds_error_cm": 0.0001068115234375
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Lost_property_artwork",
+      "bounds_error_cm": 0.0001010894775390625
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Meshes/SM_PLG_Clock_dial",
+      "bounds_error_cm": 4.0531158447265625e-05
+    }
+  ],
+  "actors": [
+    {
+      "label": "MIG_PLG_Static",
+      "mesh": "SM_PLG_Frames_Static"
+    },
+    {
+      "label": "MIG_PLG_PLG_Poster_1_print",
+      "mesh": "SM_PLG_Poster_1_print"
+    },
+    {
+      "label": "MIG_PLG_PLG_Poster_2_print",
+      "mesh": "SM_PLG_Poster_2_print"
+    },
+    {
+      "label": "MIG_PLG_PLG_Poster_3_print",
+      "mesh": "SM_PLG_Poster_3_print"
+    },
+    {
+      "label": "MIG_PLG_PLG_Timetable_print",
+      "mesh": "SM_PLG_Timetable_print"
+    },
+    {
+      "label": "MIG_PLG_PLG_Timetable_glass",
+      "mesh": "SM_PLG_Timetable_glass"
+    },
+    {
+      "label": "MIG_PLG_PLG_Visitor_map_print",
+      "mesh": "SM_PLG_Visitor_map_print"
+    },
+    {
+      "label": "MIG_PLG_PLG_Visitor_map_glass",
+      "mesh": "SM_PLG_Visitor_map_glass"
+    },
+    {
+      "label": "MIG_PLG_PLG_Community_heading",
+      "mesh": "SM_PLG_Community_heading"
+    },
+    {
+      "label": "MIG_PLG_PLG_Notice_club",
+      "mesh": "SM_PLG_Notice_club"
+    },
+    {
+      "label": "MIG_PLG_PLG_Notice_lost",
+      "mesh": "SM_PLG_Notice_lost"
+    },
+    {
+      "label": "MIG_PLG_PLG_Notice_hours",
+      "mesh": "SM_PLG_Notice_hours"
+    },
+    {
+      "label": "MIG_PLG_PLG_Notice_walk",
+      "mesh": "SM_PLG_Notice_walk"
+    },
+    {
+      "label": "MIG_PLG_PLG_Notice_weather",
+      "mesh": "SM_PLG_Notice_weather"
+    },
+    {
+      "label": "MIG_PLG_PLG_Restrooms_art",
+      "mesh": "SM_PLG_Restrooms_art"
+    },
+    {
+      "label": "MIG_PLG_PLG_Public_exit_art",
+      "mesh": "SM_PLG_Public_exit_art"
+    },
+    {
+      "label": "MIG_PLG_PLG_Boarding_art",
+      "mesh": "SM_PLG_Boarding_art"
+    },
+    {
+      "label": "MIG_PLG_PLG_Women_art",
+      "mesh": "SM_PLG_Women_art"
+    },
+    {
+      "label": "MIG_PLG_PLG_Men_art",
+      "mesh": "SM_PLG_Men_art"
+    },
+    {
+      "label": "MIG_PLG_PLG_Staff_art",
+      "mesh": "SM_PLG_Staff_art"
+    },
+    {
+      "label": "MIG_PLG_PLG_Menu_artwork",
+      "mesh": "SM_PLG_Menu_artwork"
+    },
+    {
+      "label": "MIG_PLG_PLG_Lost_property_artwork",
+      "mesh": "SM_PLG_Lost_property_artwork"
+    },
+    {
+      "label": "MIG_PLG_PLG_Clock_dial",
+      "mesh": "SM_PLG_Clock_dial"
+    }
+  ],
+  "textures": [
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Frames_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Frames_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Frames_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_poster_1",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_poster_2",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_poster_3",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_timetable",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_visitor_map",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_notice_header",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_notice_club",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_notice_lost",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_notice_hours",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_notice_walk",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_notice_weather",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_restrooms",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_exit",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_boarding",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_women",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_men",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_staff",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_menu",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_lost_property",
+    "/Game/MaldekRefinement/PassengerLodge/WallDisplays/Textures/T_PLG_Ink_clock_face"
+  ],
+  "shader_errors": [],
+  "original_map_unchanged": true
+}

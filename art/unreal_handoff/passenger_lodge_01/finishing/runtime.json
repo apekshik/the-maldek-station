@@ -1,0 +1,554 @@
+{
+  "phase": 41,
+  "index": 12,
+  "next": 435969.825,
+  "deadline": 436483.453,
+  "checks": {
+    "MIG_PLL_01_closed_initial": true,
+    "MIG_PLL_01_focus": true,
+    "MIG_PLL_01_cam_releases_first": true,
+    "MIG_PLL_01_fully_open": true,
+    "MIG_PLL_01_not_obstructed": true,
+    "MIG_PLL_01_cam_released": true,
+    "MIG_PLL_01_recorded_audio": true,
+    "MIG_PLL_01_closed_again": true,
+    "MIG_PLL_02_closed_initial": true,
+    "MIG_PLL_02_focus": true,
+    "MIG_PLL_02_cam_releases_first": true,
+    "MIG_PLL_02_fully_open": true,
+    "MIG_PLL_02_not_obstructed": true,
+    "MIG_PLL_02_cam_released": true,
+    "MIG_PLL_02_recorded_audio": true,
+    "MIG_PLL_02_closed_again": true,
+    "MIG_PLL_03_closed_initial": true,
+    "MIG_PLL_03_focus": true,
+    "MIG_PLL_03_cam_releases_first": true,
+    "MIG_PLL_03_fully_open": true,
+    "MIG_PLL_03_not_obstructed": true,
+    "MIG_PLL_03_cam_released": true,
+    "MIG_PLL_03_recorded_audio": true,
+    "MIG_PLL_03_closed_again": true,
+    "MIG_PLL_04_closed_initial": true,
+    "MIG_PLL_04_focus": true,
+    "MIG_PLL_04_cam_releases_first": true,
+    "MIG_PLL_04_fully_open": true,
+    "MIG_PLL_04_not_obstructed": true,
+    "MIG_PLL_04_cam_released": true,
+    "MIG_PLL_04_recorded_audio": true,
+    "MIG_PLL_04_closed_again": true,
+    "MIG_PLL_05_closed_initial": true,
+    "MIG_PLL_05_focus": true,
+    "MIG_PLL_05_cam_releases_first": true,
+    "MIG_PLL_05_fully_open": true,
+    "MIG_PLL_05_not_obstructed": true,
+    "MIG_PLL_05_cam_released": true,
+    "MIG_PLL_05_recorded_audio": true,
+    "MIG_PLL_05_closed_again": true,
+    "MIG_PLL_06_closed_initial": true,
+    "MIG_PLL_06_focus": true,
+    "MIG_PLL_06_cam_releases_first": true,
+    "MIG_PLL_06_fully_open": true,
+    "MIG_PLL_06_not_obstructed": true,
+    "MIG_PLL_06_cam_released": true,
+    "MIG_PLL_06_recorded_audio": true,
+    "MIG_PLL_06_closed_again": true,
+    "MIG_PLL_07_closed_initial": true,
+    "MIG_PLL_07_focus": true,
+    "MIG_PLL_07_cam_releases_first": true,
+    "MIG_PLL_07_fully_open": true,
+    "MIG_PLL_07_not_obstructed": true,
+    "MIG_PLL_07_cam_released": true,
+    "MIG_PLL_07_recorded_audio": true,
+    "MIG_PLL_07_closed_again": true,
+    "MIG_PLL_08_closed_initial": true,
+    "MIG_PLL_08_focus": true,
+    "MIG_PLL_08_cam_releases_first": true,
+    "MIG_PLL_08_fully_open": true,
+    "MIG_PLL_08_not_obstructed": true,
+    "MIG_PLL_08_cam_released": true,
+    "MIG_PLL_08_recorded_audio": true,
+    "MIG_PLL_08_closed_again": true,
+    "MIG_PLL_09_closed_initial": true,
+    "MIG_PLL_09_focus": true,
+    "MIG_PLL_09_cam_releases_first": true,
+    "MIG_PLL_09_fully_open": true,
+    "MIG_PLL_09_not_obstructed": true,
+    "MIG_PLL_09_cam_released": true,
+    "MIG_PLL_09_recorded_audio": true,
+    "MIG_PLL_09_closed_again": true,
+    "MIG_PLL_10_closed_initial": true,
+    "MIG_PLL_10_focus": true,
+    "MIG_PLL_10_cam_releases_first": true,
+    "MIG_PLL_10_fully_open": true,
+    "MIG_PLL_10_not_obstructed": true,
+    "MIG_PLL_10_cam_released": true,
+    "MIG_PLL_10_recorded_audio": true,
+    "MIG_PLL_10_closed_again": true,
+    "MIG_PLL_11_closed_initial": true,
+    "MIG_PLL_11_focus": true,
+    "MIG_PLL_11_cam_releases_first": true,
+    "MIG_PLL_11_fully_open": true,
+    "MIG_PLL_11_not_obstructed": true,
+    "MIG_PLL_11_cam_released": true,
+    "MIG_PLL_11_recorded_audio": true,
+    "MIG_PLL_11_closed_again": true,
+    "MIG_PLL_12_closed_initial": true,
+    "MIG_PLL_12_focus": true,
+    "MIG_PLL_12_cam_releases_first": true,
+    "MIG_PLL_12_fully_open": true,
+    "MIG_PLL_12_not_obstructed": true,
+    "MIG_PLL_12_cam_released": true,
+    "MIG_PLL_12_recorded_audio": true,
+    "MIG_PLL_12_closed_again": true,
+    "Screened_hall_floor": true,
+    "Women_entry_floor": true,
+    "Women_basin_floor": true,
+    "Women_A_stall_floor": true,
+    "Women_B_stall_floor": true,
+    "Men_entry_floor": true,
+    "Men_basin_floor": true,
+    "Men_A_stall_floor": true,
+    "Urinal_floor": true,
+    "staff_entry_floor": true,
+    "door_to_counter_floor": true,
+    "wash_approach_floor": true,
+    "handwash_approach_floor": true,
+    "rear_prep_floor": true,
+    "fridge_floor": true,
+    "Main_hall_floor": true,
+    "Lockers_floor": true,
+    "Coffee_public_floor": true
+  },
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_01_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_02_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_03_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_04_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_05_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_06_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_07_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_08_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_09_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_10_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_11_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\MIG_PLL_12_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Screened_hall.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Women_entry.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Women_basin.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Women_A_stall.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Women_B_stall.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Men_entry.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Men_basin.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Men_A_stall.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Urinal.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\staff_entry.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\door_to_counter.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\wash_approach.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\handwash_approach.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\rear_prep.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\fridge.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Main_hall.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Lockers.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\lockers_night\\Coffee_public.png"
+  ],
+  "routes": [
+    {
+      "name": "Screened_hall",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Women_entry",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Women_basin",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Women_A_stall",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Women_B_stall",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Men_entry",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Men_basin",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Men_A_stall",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Urinal",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "staff_entry",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "door_to_counter",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "wash_approach",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "handwash_approach",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "rear_prep",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "fridge",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Main_hall",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Lockers",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "Coffee_public",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    }
+  ],
+  "actors": {},
+  "last_motion": {
+    "label": "MIG_PLL_12",
+    "fraction": 1.0,
+    "obstructed": false
+  },
+  "route_data": [
+    [
+      "Screened_hall",
+      [
+        [
+          9,
+          10.5
+        ],
+        [
+          9,
+          12.25
+        ],
+        [
+          12.55,
+          12.25
+        ]
+      ]
+    ],
+    [
+      "Women_entry",
+      [
+        [
+          10.36,
+          12.25
+        ],
+        [
+          10.36,
+          14.3
+        ]
+      ]
+    ],
+    [
+      "Women_basin",
+      [
+        [
+          10.36,
+          14.3
+        ],
+        [
+          9.65,
+          14.1
+        ],
+        [
+          9.12,
+          14.18
+        ]
+      ]
+    ],
+    [
+      "Women_A_stall",
+      [
+        [
+          10.36,
+          14.3
+        ],
+        [
+          9.65,
+          14.1
+        ],
+        [
+          9.15,
+          14.7
+        ],
+        [
+          8.87,
+          15.0
+        ],
+        [
+          8.87,
+          15.74
+        ]
+      ]
+    ],
+    [
+      "Women_B_stall",
+      [
+        [
+          10.36,
+          14.3
+        ],
+        [
+          10.22,
+          14.7
+        ],
+        [
+          10.22,
+          15.74
+        ]
+      ]
+    ],
+    [
+      "Men_entry",
+      [
+        [
+          12.43,
+          12.25
+        ],
+        [
+          12.43,
+          14.65
+        ]
+      ]
+    ],
+    [
+      "Men_basin",
+      [
+        [
+          12.43,
+          14.65
+        ],
+        [
+          12.82,
+          14.65
+        ],
+        [
+          12.82,
+          14.5
+        ]
+      ]
+    ],
+    [
+      "Men_A_stall",
+      [
+        [
+          12.43,
+          14.7
+        ],
+        [
+          11.82,
+          14.7
+        ],
+        [
+          11.82,
+          15.74
+        ]
+      ]
+    ],
+    [
+      "Urinal",
+      [
+        [
+          12.43,
+          14.7
+        ],
+        [
+          12.83,
+          14.9
+        ],
+        [
+          12.83,
+          15.83
+        ],
+        [
+          12.98,
+          15.83
+        ]
+      ]
+    ],
+    [
+      "staff_entry",
+      [
+        [
+          5.7,
+          14.5
+        ],
+        [
+          4.6,
+          14.5
+        ]
+      ]
+    ],
+    [
+      "door_to_counter",
+      [
+        [
+          4.6,
+          14.5
+        ],
+        [
+          3.5,
+          14.5
+        ],
+        [
+          2.1,
+          14.5
+        ],
+        [
+          2.1,
+          12.05
+        ]
+      ]
+    ],
+    [
+      "wash_approach",
+      [
+        [
+          2.1,
+          14.5
+        ],
+        [
+          1.36,
+          14.58
+        ]
+      ]
+    ],
+    [
+      "handwash_approach",
+      [
+        [
+          3.5,
+          14.5
+        ],
+        [
+          3.55,
+          13.24
+        ],
+        [
+          3.84,
+          13.24
+        ]
+      ]
+    ],
+    [
+      "rear_prep",
+      [
+        [
+          3.5,
+          14.5
+        ],
+        [
+          3.5,
+          14.9
+        ]
+      ]
+    ],
+    [
+      "fridge",
+      [
+        [
+          2.1,
+          14.5
+        ],
+        [
+          2.58,
+          14.87
+        ]
+      ]
+    ],
+    [
+      "Main_hall",
+      [
+        [
+          7,
+          10.4
+        ],
+        [
+          7,
+          0.5
+        ]
+      ]
+    ],
+    [
+      "Lockers",
+      [
+        [
+          7,
+          9.8
+        ],
+        [
+          11.7,
+          9.8
+        ],
+        [
+          13.1,
+          9.8
+        ]
+      ]
+    ],
+    [
+      "Coffee_public",
+      [
+        [
+          7,
+          9.7
+        ],
+        [
+          2.6,
+          9.7
+        ],
+        [
+          2.6,
+          9.9
+        ]
+      ]
+    ]
+  ],
+  "route_index": 18,
+  "waypoint": 3,
+  "walk_started": 435962.156,
+  "max_floor_error": 0.8500027656555176,
+  "success": true,
+  "error": null
+}

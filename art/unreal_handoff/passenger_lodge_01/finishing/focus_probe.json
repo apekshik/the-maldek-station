@@ -1,0 +1,10 @@
+{
+  "label": "MIG_PLL_12",
+  "eye": "<Struct 'Vector' (0x000002F15442CA10) {x: -43239.305944, y: 17927.507537, z: 10461.500000}>",
+  "target": "<Struct 'Vector' (0x000002F15442CBF0) {x: -43239.305944, y: 17826.907533, z: 10391.499983}>",
+  "hit": "(True, False, 0.5892367362976074, 117.84734344482422, <Struct 'Vector' (0x000002F15442CBF0) {x: -43239.092881, y: 17826.982534, z: 10399.996539}>, <Struct 'Vector' (0x000002F15442CBA0) {x: -43239.092881, y: 17826.982540, z: 10399.996543}>, <Struct 'Vector' (0x000002F15442CC40) {x: 0.000000, y: 1.000000, z: 0.000000}>, <Struct 'Vector' (0x000002F15442CC90) {x: 0.000000, y: 1.000000, z: 0.000000}>, <Object '/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial' (0x000002F0F68A3240) Class 'PhysicalMaterial'>, <Object '/Game/MaldekRefinement/PassengerLodge/UEDPIE_0_Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StationCabinet_26' (0x000002F16F402400) Class 'StationCabinet'>, <Object '/Game/MaldekRefinement/PassengerLodge/UEDPIE_0_Station_Lodge_Migration.Station_Lodge_Migration:PersistentLevel.StationCabinet_26.MovingMesh' (0x000002F294147000) Class 'StaticMeshComponent'>, Name(\"None\"), Name(\"None\"), -1, 0, 3198, <Struct 'Vector' (0x000002F15442CCE0) {x: -43239.305944, y: 17927.507537, z: 10461.500000}>, <Struct 'Vector' (0x000002F15442CD30) {x: -43238.944352, y: 17756.905474, z: 10357.121816}>)",
+  "ignored": false,
+  "camera": "<Struct 'Vector' (0x000002F15442CBF0) {x: -43239.334445, y: 17940.954384, z: 10461.275104}>",
+  "camera_rotation": "<Struct 'Rotator' (0x000002F15442CBF0) {pitch: -31.459176, yaw: -89.878561, roll: -0.000000}>",
+  "tick": true
+}

@@ -1,0 +1,262 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_01_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_01_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_01_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_02_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_02_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_02_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_03_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_03_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_03_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_04_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_04_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_04_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_05_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_05_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_05_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_06_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_06_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_06_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_07_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_07_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_07_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_08_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_08_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_08_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_09_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_09_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_09_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_10_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_10_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_10_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_11_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_11_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_11_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_12_Static",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_12_Leaf",
+      "bounds_error_cm": 1.9073486328125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Lockers/Meshes/SM_PLL_12_Cam",
+      "bounds_error_cm": 4.3213367462158203e-07
+    }
+  ],
+  "actors": [
+    {
+      "label": "MIG_PLL_01",
+      "body": "SM_PLL_01_Static",
+      "leaf": "SM_PLL_01_Leaf",
+      "cam": "SM_PLL_01_Cam"
+    },
+    {
+      "label": "MIG_PLL_02",
+      "body": "SM_PLL_02_Static",
+      "leaf": "SM_PLL_02_Leaf",
+      "cam": "SM_PLL_02_Cam"
+    },
+    {
+      "label": "MIG_PLL_03",
+      "body": "SM_PLL_03_Static",
+      "leaf": "SM_PLL_03_Leaf",
+      "cam": "SM_PLL_03_Cam"
+    },
+    {
+      "label": "MIG_PLL_04",
+      "body": "SM_PLL_04_Static",
+      "leaf": "SM_PLL_04_Leaf",
+      "cam": "SM_PLL_04_Cam"
+    },
+    {
+      "label": "MIG_PLL_05",
+      "body": "SM_PLL_05_Static",
+      "leaf": "SM_PLL_05_Leaf",
+      "cam": "SM_PLL_05_Cam"
+    },
+    {
+      "label": "MIG_PLL_06",
+      "body": "SM_PLL_06_Static",
+      "leaf": "SM_PLL_06_Leaf",
+      "cam": "SM_PLL_06_Cam"
+    },
+    {
+      "label": "MIG_PLL_07",
+      "body": "SM_PLL_07_Static",
+      "leaf": "SM_PLL_07_Leaf",
+      "cam": "SM_PLL_07_Cam"
+    },
+    {
+      "label": "MIG_PLL_08",
+      "body": "SM_PLL_08_Static",
+      "leaf": "SM_PLL_08_Leaf",
+      "cam": "SM_PLL_08_Cam"
+    },
+    {
+      "label": "MIG_PLL_09",
+      "body": "SM_PLL_09_Static",
+      "leaf": "SM_PLL_09_Leaf",
+      "cam": "SM_PLL_09_Cam"
+    },
+    {
+      "label": "MIG_PLL_10",
+      "body": "SM_PLL_10_Static",
+      "leaf": "SM_PLL_10_Leaf",
+      "cam": "SM_PLL_10_Cam"
+    },
+    {
+      "label": "MIG_PLL_11",
+      "body": "SM_PLL_11_Static",
+      "leaf": "SM_PLL_11_Leaf",
+      "cam": "SM_PLL_11_Cam"
+    },
+    {
+      "label": "MIG_PLL_12",
+      "body": "SM_PLL_12_Static",
+      "leaf": "SM_PLL_12_Leaf",
+      "cam": "SM_PLL_12_Cam"
+    }
+  ],
+  "textures": [
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_01_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_01_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_01_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_02_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_02_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_02_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_03_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_03_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_03_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_04_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_04_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_04_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_05_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_05_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_05_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_06_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_06_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_06_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_07_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_07_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_07_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_08_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_08_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_08_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_09_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_09_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_09_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_10_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_10_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_10_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_11_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_11_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_11_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_12_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_12_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Lockers/Textures/T_PLL_12_NormalGL"
+  ],
+  "shader_errors": [],
+  "original_map_unchanged": true
+}

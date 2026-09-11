@@ -1,0 +1,1104 @@
+{
+  "PL03_Aged_Pine.001": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture",
+      "image": null
+    },
+    {
+      "type": "TEX_COORD",
+      "name": "Texture Coordinate",
+      "image": null
+    },
+    {
+      "type": "VECT_MATH",
+      "name": "Vector Math",
+      "image": null
+    },
+    {
+      "type": "VALTORGB",
+      "name": "Color Ramp",
+      "image": null
+    }
+  ],
+  "PLG_Case_glass": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLG_Cork": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture",
+      "image": null
+    },
+    {
+      "type": "BUMP",
+      "name": "Bump",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\materials\\Cork001\\Cork001_1K-JPG_Color.jpg"
+    },
+    {
+      "type": "MIX_RGB",
+      "name": "Mix (Legacy)",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture.001",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\materials\\Cork001\\Cork001_1K-JPG_Roughness.jpg"
+    }
+  ],
+  "PLG_Frame_edge_scuffs": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLG_Galvanized_fasteners": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLG_Gasket": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLG_Ink_boarding": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\boarding.png"
+    }
+  ],
+  "PLG_Ink_clock_face": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\clock_face.png"
+    }
+  ],
+  "PLG_Ink_exit": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\exit.png"
+    }
+  ],
+  "PLG_Ink_lost_property": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\lost_property.png"
+    }
+  ],
+  "PLG_Ink_men": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\men.png"
+    }
+  ],
+  "PLG_Ink_menu": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\menu.png"
+    }
+  ],
+  "PLG_Ink_notice_club": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\notice_club.png"
+    }
+  ],
+  "PLG_Ink_notice_header": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\notice_header.png"
+    }
+  ],
+  "PLG_Ink_notice_hours": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\notice_hours.png"
+    }
+  ],
+  "PLG_Ink_notice_lost": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\notice_lost.png"
+    }
+  ],
+  "PLG_Ink_notice_walk": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\notice_walk.png"
+    }
+  ],
+  "PLG_Ink_notice_weather": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\notice_weather.png"
+    }
+  ],
+  "PLG_Ink_poster_1": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\poster_1.png"
+    }
+  ],
+  "PLG_Ink_poster_2": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\poster_2.png"
+    }
+  ],
+  "PLG_Ink_poster_3": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\poster_3.png"
+    }
+  ],
+  "PLG_Ink_restrooms": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\restrooms.png"
+    }
+  ],
+  "PLG_Ink_staff": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\staff.png"
+    }
+  ],
+  "PLG_Ink_timetable": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\timetable.png"
+    }
+  ],
+  "PLG_Ink_visitor_map": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\visitor_map.png"
+    }
+  ],
+  "PLG_Ink_women": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "//..\\..\\..\\..\\..\\..\\Developer\\the-maldek-station\\art\\blender\\passenger_lodge_03\\textures\\women.png"
+    }
+  ],
+  "PLG_Old_pin_marks": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLG_Paper_edges": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLG_Petrol_enamel": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLG_Pin_ochre": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLG_Settled_dust": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLL_Aged_Petrol_0_Carcass": [
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "TEX_COORD",
+      "name": "Texture Coordinate",
+      "image": null
+    },
+    {
+      "type": "SEPXYZ",
+      "name": "Separate XYZ",
+      "image": null
+    },
+    {
+      "type": "COMBXYZ",
+      "name": "Combine XYZ",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.001",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.002",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "C:\\Users\\apek-anna\\.codex\\worktrees\\4341\\lockers-assets\\art\\blender\\passenger_lodge_lockers_01\\textures\\PaintedMetal012_1K-JPG_Roughness.jpg"
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture",
+      "image": null
+    },
+    {
+      "type": "VALTORGB",
+      "name": "Color Ramp",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.003",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.004",
+      "image": null
+    },
+    {
+      "type": "BUMP",
+      "name": "Bump",
+      "image": null
+    }
+  ],
+  "PLL_Aged_Petrol_0_Door": [
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "TEX_COORD",
+      "name": "Texture Coordinate",
+      "image": null
+    },
+    {
+      "type": "SEPXYZ",
+      "name": "Separate XYZ",
+      "image": null
+    },
+    {
+      "type": "COMBXYZ",
+      "name": "Combine XYZ",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.001",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.002",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "C:\\Users\\apek-anna\\.codex\\worktrees\\4341\\lockers-assets\\art\\blender\\passenger_lodge_lockers_01\\textures\\PaintedMetal012_1K-JPG_Roughness.jpg"
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture",
+      "image": null
+    },
+    {
+      "type": "VALTORGB",
+      "name": "Color Ramp",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.003",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.004",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.005",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.006",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.007",
+      "image": null
+    },
+    {
+      "type": "MIX_RGB",
+      "name": "Mix (Legacy)",
+      "image": null
+    },
+    {
+      "type": "MIX_RGB",
+      "name": "Mix (Legacy).001",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.008",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.009",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.010",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.011",
+      "image": null
+    },
+    {
+      "type": "BUMP",
+      "name": "Bump",
+      "image": null
+    }
+  ],
+  "PLL_Aged_Petrol_1_Door": [
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "TEX_COORD",
+      "name": "Texture Coordinate",
+      "image": null
+    },
+    {
+      "type": "SEPXYZ",
+      "name": "Separate XYZ",
+      "image": null
+    },
+    {
+      "type": "COMBXYZ",
+      "name": "Combine XYZ",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.001",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.002",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "C:\\Users\\apek-anna\\.codex\\worktrees\\4341\\lockers-assets\\art\\blender\\passenger_lodge_lockers_01\\textures\\PaintedMetal012_1K-JPG_Roughness.jpg"
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture",
+      "image": null
+    },
+    {
+      "type": "VALTORGB",
+      "name": "Color Ramp",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.003",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.004",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.005",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.006",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.007",
+      "image": null
+    },
+    {
+      "type": "MIX_RGB",
+      "name": "Mix (Legacy)",
+      "image": null
+    },
+    {
+      "type": "MIX_RGB",
+      "name": "Mix (Legacy).001",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.008",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.009",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.010",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.011",
+      "image": null
+    },
+    {
+      "type": "BUMP",
+      "name": "Bump",
+      "image": null
+    }
+  ],
+  "PLL_Aged_Petrol_2_Door": [
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "TEX_COORD",
+      "name": "Texture Coordinate",
+      "image": null
+    },
+    {
+      "type": "SEPXYZ",
+      "name": "Separate XYZ",
+      "image": null
+    },
+    {
+      "type": "COMBXYZ",
+      "name": "Combine XYZ",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.001",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.002",
+      "image": null
+    },
+    {
+      "type": "TEX_IMAGE",
+      "name": "Image Texture",
+      "image": "C:\\Users\\apek-anna\\.codex\\worktrees\\4341\\lockers-assets\\art\\blender\\passenger_lodge_lockers_01\\textures\\PaintedMetal012_1K-JPG_Roughness.jpg"
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture",
+      "image": null
+    },
+    {
+      "type": "VALTORGB",
+      "name": "Color Ramp",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.003",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.004",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.005",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.006",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.007",
+      "image": null
+    },
+    {
+      "type": "MIX_RGB",
+      "name": "Mix (Legacy)",
+      "image": null
+    },
+    {
+      "type": "MIX_RGB",
+      "name": "Mix (Legacy).001",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.008",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.009",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.010",
+      "image": null
+    },
+    {
+      "type": "MATH",
+      "name": "Math.011",
+      "image": null
+    },
+    {
+      "type": "BUMP",
+      "name": "Bump",
+      "image": null
+    }
+  ],
+  "PLL_Interior_Light_Galvanized": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLL_Number_Ink": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "PLL_Satin_Nickel_Brass": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    }
+  ],
+  "VF06_Galvanized.004": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_COORD",
+      "name": "Texture Coordinate",
+      "image": null
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture",
+      "image": null
+    },
+    {
+      "type": "VALTORGB",
+      "name": "Color Ramp",
+      "image": null
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture.001",
+      "image": null
+    },
+    {
+      "type": "BUMP",
+      "name": "Bump",
+      "image": null
+    },
+    {
+      "type": "MAP_RANGE",
+      "name": "Map Range",
+      "image": null
+    }
+  ],
+  "VF06_Structural_steel.002": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_COORD",
+      "name": "Texture Coordinate",
+      "image": null
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture",
+      "image": null
+    },
+    {
+      "type": "VALTORGB",
+      "name": "Color Ramp",
+      "image": null
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture.001",
+      "image": null
+    },
+    {
+      "type": "BUMP",
+      "name": "Bump",
+      "image": null
+    },
+    {
+      "type": "MAP_RANGE",
+      "name": "Map Range",
+      "image": null
+    }
+  ],
+  "VF06_Warm_enamel.003": [
+    {
+      "type": "BSDF_PRINCIPLED",
+      "name": "Principled BSDF",
+      "image": null
+    },
+    {
+      "type": "OUTPUT_MATERIAL",
+      "name": "Material Output",
+      "image": null
+    },
+    {
+      "type": "TEX_COORD",
+      "name": "Texture Coordinate",
+      "image": null
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture",
+      "image": null
+    },
+    {
+      "type": "VALTORGB",
+      "name": "Color Ramp",
+      "image": null
+    },
+    {
+      "type": "TEX_NOISE",
+      "name": "Noise Texture.001",
+      "image": null
+    },
+    {
+      "type": "BUMP",
+      "name": "Bump",
+      "image": null
+    },
+    {
+      "type": "MAP_RANGE",
+      "name": "Map Range",
+      "image": null
+    }
+  ]
+}
