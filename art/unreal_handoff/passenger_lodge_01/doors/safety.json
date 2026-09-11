@@ -1,0 +1,36 @@
+{
+  "phase": 16,
+  "index": 3,
+  "next": 418126.234,
+  "deadline": 418260.296,
+  "checks": {
+    "MIG_PLD_ARRIVAL_blocked_before_full_swing": true,
+    "MIG_PLD_ARRIVAL_safe_close": true,
+    "MIG_PLD_ARRIVAL_clear_reopen": true,
+    "MIG_PLD_ARRIVAL_final_closed": true,
+    "MIG_PLD_GONDOLA_blocked_before_full_swing": true,
+    "MIG_PLD_GONDOLA_safe_close": true,
+    "MIG_PLD_GONDOLA_clear_reopen": true,
+    "MIG_PLD_GONDOLA_final_closed": true,
+    "MIG_PLD_STAFF_blocked_before_full_swing": true,
+    "MIG_PLD_STAFF_safe_close": true,
+    "MIG_PLD_STAFF_clear_reopen": true,
+    "MIG_PLD_STAFF_final_closed": true,
+    "legacy_opt_out": true,
+    "legacy_key_camera": true,
+    "legacy_cancel": true,
+    "legacy_swing": true,
+    "legacy_relock": true,
+    "keypad_opt_out": true,
+    "bad_code_rejected": true,
+    "1234_accepted": true,
+    "keypad_input_restored": true
+  },
+  "blocked_angles": {
+    "MIG_PLD_ARRIVAL": 25.383577346801758,
+    "MIG_PLD_GONDOLA": 25.57265853881836,
+    "MIG_PLD_STAFF": 25.42784881591797
+  },
+  "success": true,
+  "error": null
+}

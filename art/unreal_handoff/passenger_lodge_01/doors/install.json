@@ -1,0 +1,172 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_ARRIVAL_Leaf",
+      "bounds_error_cm": 1.430511474609375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_ARRIVAL_Glass",
+      "bounds_error_cm": 1.0013580322265625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_ARRIVAL_FixedHardware",
+      "bounds_error_cm": 1.2278556823730469e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_ARRIVAL_KeyHousing",
+      "bounds_error_cm": 2.384185791015625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_ARRIVAL_KeyPlug",
+      "bounds_error_cm": 1.1920928955078125e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_ARRIVAL_InteriorKeyPlug",
+      "bounds_error_cm": 1.1920928955078125e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_ARRIVAL_FrontLever",
+      "bounds_error_cm": 2.384185791015625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_ARRIVAL_BackLever",
+      "bounds_error_cm": 9.5367431640625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_ARRIVAL_MovingLatch",
+      "bounds_error_cm": 1.1205673217773438e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_ARRIVAL_BottomSeal",
+      "bounds_error_cm": 1.0967254638671875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_GONDOLA_Leaf",
+      "bounds_error_cm": 9.5367431640625e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_GONDOLA_Glass",
+      "bounds_error_cm": 1.0013580322265625e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_GONDOLA_FixedHardware",
+      "bounds_error_cm": 7.62939453125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_GONDOLA_KeyHousing",
+      "bounds_error_cm": 2.384185791015625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_GONDOLA_KeyPlug",
+      "bounds_error_cm": 1.1920928955078125e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_GONDOLA_InteriorKeyPlug",
+      "bounds_error_cm": 1.1920928955078125e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_GONDOLA_FrontLever",
+      "bounds_error_cm": 9.5367431640625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_GONDOLA_BackLever",
+      "bounds_error_cm": 2.384185791015625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_GONDOLA_MovingLatch",
+      "bounds_error_cm": 1.1205673217773438e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_GONDOLA_BottomSeal",
+      "bounds_error_cm": 1.0967254638671875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_STAFF_Leaf",
+      "bounds_error_cm": 8.58306884765625e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_STAFF_Glass",
+      "bounds_error_cm": 8.106231689453125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_STAFF_FixedHardware",
+      "bounds_error_cm": 1.0609626770019531e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_STAFF_KeyHousing",
+      "bounds_error_cm": 2.384185791015625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_STAFF_KeyPlug",
+      "bounds_error_cm": 1.1920928955078125e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_STAFF_InteriorKeyPlug",
+      "bounds_error_cm": 1.1920928955078125e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_STAFF_FrontLever",
+      "bounds_error_cm": 9.5367431640625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_STAFF_BackLever",
+      "bounds_error_cm": 2.384185791015625e-07
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_STAFF_MovingLatch",
+      "bounds_error_cm": 9.5367431640625e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/Doors/Meshes/SM_PLD_STAFF_BottomSeal",
+      "bounds_error_cm": 3.814697265625e-06
+    }
+  ],
+  "actors": [
+    {
+      "label": "MIG_PLD_ARRIVAL",
+      "position": [
+        -16.440000534057617,
+        -7.317999839782715,
+        4.0
+      ],
+      "yaw": 0,
+      "open_angle": -100,
+      "key_available": true
+    },
+    {
+      "label": "MIG_PLD_GONDOLA",
+      "position": [
+        -16.440000534057617,
+        3.7339999675750732,
+        4.0
+      ],
+      "yaw": 0,
+      "open_angle": -100,
+      "key_available": true
+    },
+    {
+      "label": "MIG_PLD_STAFF",
+      "position": [
+        -18.98200035095215,
+        -11.0600004196167,
+        4.0
+      ],
+      "yaw": 90,
+      "open_angle": 100,
+      "key_available": true
+    }
+  ],
+  "textures": [
+    "/Game/MaldekRefinement/PassengerLodge/Doors/Textures/T_PLD_ARRIVAL_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Doors/Textures/T_PLD_ARRIVAL_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Doors/Textures/T_PLD_ARRIVAL_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Doors/Textures/T_PLD_GONDOLA_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Doors/Textures/T_PLD_GONDOLA_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Doors/Textures/T_PLD_GONDOLA_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/Doors/Textures/T_PLD_STAFF_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/Doors/Textures/T_PLD_STAFF_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/Doors/Textures/T_PLD_STAFF_NormalGL"
+  ],
+  "shader_errors": [],
+  "original_map_unchanged": true
+}

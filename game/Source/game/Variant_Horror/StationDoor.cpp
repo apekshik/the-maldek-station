@@ -41,6 +41,8 @@ AStationDoor::AStationDoor()
  Leaf=Mesh(TEXT("Leaf"),Hinge);Glass=Mesh(TEXT("Glass"),Hinge);
  FixedHardware=Mesh(TEXT("FixedHardware"),DoorRoot);Keypad=Mesh(TEXT("Keypad"),Hinge);
  InteriorElectronics=Mesh(TEXT("InteriorElectronics"),Hinge);ElectronicStrike=Mesh(TEXT("ElectronicStrike"),DoorRoot);
+ FrontLever=Mesh(TEXT("FrontLever"),Hinge);BackLever=Mesh(TEXT("BackLever"),Hinge);
+ MovingLatch=Mesh(TEXT("MovingLatch"),Hinge);BottomSeal=Mesh(TEXT("BottomSeal"),Hinge);
  KeyLockRoot=CreateDefaultSubobject<USceneComponent>(TEXT("KeyLockRoot"));KeyLockRoot->SetupAttachment(Hinge);
  // Keep small circular lock hardware at its authored size when fitting different door widths.
  KeyLockRoot->SetAbsolute(false,false,true);KeyLockRoot->SetRelativeLocation(FVector(114.6,-3.5,100));
@@ -84,7 +86,12 @@ AStationDoor::AStationDoor()
 void AStationDoor::RefreshLockVisuals()
 {
  const bool bPhysical=bHasKeyLock && !bHasKeypad;
- KeyLockRoot->SetRelativeLocation(FVector(114.6,LeafCollision->GetRelativeLocation().Y,100));KeyLockRoot->SetWorldScale3D(FVector::OneVector);
+ KeyLockRoot->SetRelativeLocation(bUseAuthoredHardware?AuthoredKeyLocation:FVector(114.6,LeafCollision->GetRelativeLocation().Y,100));KeyLockRoot->SetWorldScale3D(FVector::OneVector);
+ if(bUseAuthoredHardware)
+ {
+  KeyLockRoot->SetRelativeRotation(AuthoredKeyRotation);
+  KeyPlug->SetRelativeLocation(FVector(0,KeyFaceDepth,0));InteriorKeyPlug->SetRelativeLocation(FVector(0,-KeyFaceDepth,0));
+ }
  KeyHousing->SetVisibility(bPhysical);KeyPlug->SetVisibility(bPhysical);InteriorKeyPlug->SetVisibility(bPhysical);ServiceKey->SetVisibility(bPhysical && bUsingKey);
  Keypad->SetVisibility(bHasKeypad);InteriorElectronics->SetVisibility(bHasKeypad);ElectronicStrike->SetVisibility(bHasKeypad);
  KeypadDisplay->SetVisibility(bHasKeypad);KeypadDisplay->SetText(FText::FromString(bLocked?TEXT("LOCKED"):TEXT("OPEN")));KeypadDisplay->SetTextRenderColor(bLocked?FColor(160,200,170):FColor(100,230,140));
@@ -97,6 +104,7 @@ void AStationDoor::OnConstruction(const FTransform& Transform)
 void AStationDoor::BeginPlay()
 {
  Super::BeginPlay();CurrentAngle=TargetAngle=0;Hinge->SetRelativeRotation(FRotator::ZeroRotator);
+ LatchRest=MovingLatch->GetRelativeLocation();SealRest=BottomSeal->GetRelativeLocation();
  if(InteractionPromptMaterial)InteractionPrompt->SetMaterial(0,InteractionPromptMaterial);
  const TArray<FName> Slots=Keypad->GetMaterialSlotNames();
  for(int32 I=0;I<Slots.Num();++I)if(Slots[I].ToString().Contains(TEXT("D03_Status_red")))StatusMaterial=Keypad->CreateAndSetMaterialInstanceDynamic(I);
@@ -131,13 +139,15 @@ bool AStationDoor::TryInteract()
   if(IsInteriorSide(PC) && HasFocus(PC))Unlock();
   else {if(bHasKeypad)BeginKeypadInteraction(PC);else BeginKeyInteraction(PC);return false;}
  }
- TargetAngle=FMath::IsNearlyZero(TargetAngle)?OpenAngle:0.f;bObstructed=false;return true;
+ TargetAngle=FMath::IsNearlyZero(TargetAngle)?OpenAngle:0.f;bObstructed=false;
+ if(bUseAuthoredHardware && FMath::IsNearlyZero(CurrentAngle,.01f))HardwareReleaseRemaining=.22f;
+ return true;
 }
 bool AStationDoor::IsInteriorSide(APlayerController* PC) const
 {
  // The keypad faces +Y. Use the closed frame and the pawn, never the swinging
  // leaf or inspection camera, so opening the door cannot swap access sides.
- return PC && PC->GetPawn() && DoorRoot->GetComponentTransform().InverseTransformPosition(PC->GetPawn()->GetActorLocation()).Y<0.f;
+ return PC && PC->GetPawn() && ((DoorRoot->GetComponentTransform().InverseTransformPosition(PC->GetPawn()->GetActorLocation()).Y<0.f)==bInteriorIsNegativeY);
 }
 bool AStationDoor::HasFocus(APlayerController* PC) const
 {
@@ -198,7 +208,8 @@ void AStationDoor::Tick(float Dt)
   }
  }
  const float PreviousAngle=CurrentAngle;
- if(!bLocked && !bUsingKey && !FMath::IsNearlyEqual(CurrentAngle,TargetAngle,.01f))
+ HardwareReleaseRemaining=FMath::Max(0.f,HardwareReleaseRemaining-Dt);
+ if(!bLocked && !bUsingKey && HardwareReleaseRemaining<=0 && !FMath::IsNearlyEqual(CurrentAngle,TargetAngle,.01f))
  {
   const float Next=FMath::FInterpConstantTo(CurrentAngle,TargetAngle,Dt,DegreesPerSecond);
   // Subdivide rotation to prevent tunnelling on a slow frame.
@@ -213,6 +224,14 @@ void AStationDoor::Tick(float Dt)
  }
  const bool bMoving=!FMath::IsNearlyEqual(PreviousAngle,CurrentAngle,.001f);
  const bool bClosing=FMath::Abs(CurrentAngle)<FMath::Abs(PreviousAngle);
+ if(bUseAuthoredHardware)
+ {
+  LeverDepression=FMath::FInterpConstantTo(LeverDepression,(HardwareReleaseRemaining>0 || bMoving)?25.f:0.f,Dt,160.f);
+  FrontLever->SetRelativeRotation(FRotator(LeverDepression,0,0));BackLever->SetRelativeRotation(FRotator(LeverDepression,0,0));
+  const bool bReleased=HardwareReleaseRemaining>0 || !FMath::IsNearlyZero(CurrentAngle,.01f);
+  MovingLatch->SetRelativeLocation(LatchRest+FVector(bReleased?-1.4f:0.f,0,0));
+  BottomSeal->SetRelativeLocation(SealRest+FVector(0,0,bReleased?1.2f:0.f));
+ }
  USoundBase* TravelSound=bClosing && ClosingMovementSound?ClosingMovementSound.Get():MovementSound.Get();
  if(bMoving && FMath::IsNearlyZero(PreviousAngle,.01f))PlayDoorSound(UnlatchSound);
  if(bMoving && TravelSound && (!MotionAudio->IsPlaying() || MotionAudio->Sound!=TravelSound)){MotionAudio->Stop();MotionAudio->SetSound(TravelSound);MotionAudio->FadeIn(.035f,MovementVolume);}
@@ -263,11 +282,11 @@ void AStationDoor::BeginCloseup(APlayerController* PC)
 FVector AStationDoor::GetKeyGripWorldPosition(float Insertion) const
 {
  // The pear-shaped bow centre, measured in the approved seated-key export.
- return KeyLockRoot->GetComponentTransform().TransformPosition(FVector(0,7.4+8*(1-FMath::Clamp(Insertion,0.f,1.f)),0));
+ return KeyLockRoot->GetComponentTransform().TransformPosition(FVector(0,KeyFaceDepth+2.8f+8*(1-FMath::Clamp(Insertion,0.f,1.f)),0));
 }
 void AStationDoor::UpdateKeyPose(float TurnDegrees,float Withdrawal)
 {
- ServiceKey->SetRelativeLocation(FVector(0,4.6+8*(1-KeyInsertion)+Withdrawal,0));
+ ServiceKey->SetRelativeLocation(FVector(0,KeyFaceDepth+8*(1-KeyInsertion)+Withdrawal,0));
  ServiceKey->SetRelativeRotation(FRotator(TurnDegrees,0,0));KeyPlug->SetRelativeRotation(FRotator(TurnDegrees,0,0));
 }
 bool AStationDoor::BeginKeyInteraction(APlayerController* PC)

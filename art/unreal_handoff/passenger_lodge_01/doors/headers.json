@@ -1,0 +1,259 @@
+{
+  "views": [
+    {
+      "name": "ARRIVAL_side-1_0",
+      "position": [
+        -16.640000413260974,
+        -6.5179998095835545,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        -7.317999722005989,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\ARRIVAL_side-1_0.png"
+    },
+    {
+      "name": "ARRIVAL_side-1_1",
+      "position": [
+        -16.700000413260977,
+        -6.517999800523806,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        -7.317999722005989,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\ARRIVAL_side-1_1.png"
+    },
+    {
+      "name": "ARRIVAL_side-1_2",
+      "position": [
+        -16.760000413260975,
+        -6.517999791464058,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        -7.317999722005989,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\ARRIVAL_side-1_2.png"
+    },
+    {
+      "name": "ARRIVAL_side1_0",
+      "position": [
+        -16.64000065485426,
+        -8.117999809583555,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        -7.317999722005989,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\ARRIVAL_side1_0.png"
+    },
+    {
+      "name": "ARRIVAL_side1_1",
+      "position": [
+        -16.70000065485426,
+        -8.117999800523807,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        -7.317999722005989,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\ARRIVAL_side1_1.png"
+    },
+    {
+      "name": "ARRIVAL_side1_2",
+      "position": [
+        -16.76000065485426,
+        -8.117999791464058,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        -7.317999722005989,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\ARRIVAL_side1_2.png"
+    },
+    {
+      "name": "GONDOLA_side-1_0",
+      "position": [
+        -16.64000065485426,
+        2.933999997774234,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        3.7340000853517994,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\GONDOLA_side-1_0.png"
+    },
+    {
+      "name": "GONDOLA_side-1_1",
+      "position": [
+        -16.70000065485426,
+        2.934000006833982,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        3.7340000853517994,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\GONDOLA_side-1_1.png"
+    },
+    {
+      "name": "GONDOLA_side-1_2",
+      "position": [
+        -16.76000065485426,
+        2.93400001589373,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        3.7340000853517994,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\GONDOLA_side-1_2.png"
+    },
+    {
+      "name": "GONDOLA_side1_0",
+      "position": [
+        -16.640000413260974,
+        4.533999997774234,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        3.7340000853517994,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\GONDOLA_side1_0.png"
+    },
+    {
+      "name": "GONDOLA_side1_1",
+      "position": [
+        -16.700000413260977,
+        4.534000006833982,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        3.7340000853517994,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\GONDOLA_side1_1.png"
+    },
+    {
+      "name": "GONDOLA_side1_2",
+      "position": [
+        -16.760000413260975,
+        4.53400001589373,
+        6.199999999999999
+      ],
+      "target": [
+        -17.22000053405762,
+        3.7340000853517994,
+        6.3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\GONDOLA_side1_2.png"
+    },
+    {
+      "name": "STAFF_side-1_0",
+      "position": [
+        -19.782000312010712,
+        -10.860000263850953,
+        6.1
+      ],
+      "target": [
+        -18.98200022439248,
+        -10.410000419616699,
+        6.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\STAFF_side-1_0.png"
+    },
+    {
+      "name": "STAFF_side-1_1",
+      "position": [
+        -19.78200030032828,
+        -10.800000263850952,
+        6.1
+      ],
+      "target": [
+        -18.98200022439248,
+        -10.410000419616699,
+        6.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\STAFF_side-1_1.png"
+    },
+    {
+      "name": "STAFF_side-1_2",
+      "position": [
+        -19.78200028864585,
+        -10.740000263850952,
+        6.1
+      ],
+      "target": [
+        -18.98200022439248,
+        -10.410000419616699,
+        6.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\STAFF_side-1_2.png"
+    },
+    {
+      "name": "STAFF_side1_0",
+      "position": [
+        -18.18200031201071,
+        -10.860000575382447,
+        6.1
+      ],
+      "target": [
+        -18.98200022439248,
+        -10.410000419616699,
+        6.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\STAFF_side1_0.png"
+    },
+    {
+      "name": "STAFF_side1_1",
+      "position": [
+        -18.18200030032828,
+        -10.800000575382446,
+        6.1
+      ],
+      "target": [
+        -18.98200022439248,
+        -10.410000419616699,
+        6.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\STAFF_side1_1.png"
+    },
+    {
+      "name": "STAFF_side1_2",
+      "position": [
+        -18.18200028864585,
+        -10.740000575382446,
+        6.1
+      ],
+      "target": [
+        -18.98200022439248,
+        -10.410000419616699,
+        6.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\door_headers\\STAFF_side1_2.png"
+    }
+  ],
+  "error": null,
+  "temporary_lights_removed": true,
+  "mode": "Lit, temporary neutral review lights; live weather retained"
+}

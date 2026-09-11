@@ -1,0 +1,175 @@
+{
+  "views": [
+    {
+      "name": "ARRIVAL_outside",
+      "position": [
+        -17.1000007756509,
+        -8.917999740125484,
+        5.7
+      ],
+      "target": [
+        -17.100000534057617,
+        -7.317999740125485,
+        5.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\ARRIVAL_outside.png"
+    },
+    {
+      "name": "ARRIVAL_inside",
+      "position": [
+        -17.100000307563914,
+        -5.817999740125485,
+        5.7
+      ],
+      "target": [
+        -17.100000534057617,
+        -7.317999740125485,
+        5.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\ARRIVAL_inside.png"
+    },
+    {
+      "name": "ARRIVAL_threshold",
+      "position": [
+        -16.5600006246551,
+        -7.917999821663218,
+        4.17
+      ],
+      "target": [
+        -17.04000053405762,
+        -7.317999749185233,
+        4.03
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\ARRIVAL_threshold.png"
+    },
+    {
+      "name": "ARRIVAL_lock",
+      "position": [
+        -17.76000060955552,
+        -7.817999640468256,
+        5.13
+      ],
+      "target": [
+        -17.580000534057618,
+        -7.3179996676475,
+        5.0
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\ARRIVAL_lock.png"
+    },
+    {
+      "name": "GONDOLA_outside",
+      "position": [
+        -17.100000292464333,
+        5.334000067232303,
+        5.7
+      ],
+      "target": [
+        -17.100000534057617,
+        3.734000067232303,
+        5.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\GONDOLA_outside.png"
+    },
+    {
+      "name": "GONDOLA_inside",
+      "position": [
+        -17.10000076055132,
+        2.234000067232303,
+        5.7
+      ],
+      "target": [
+        -17.100000534057617,
+        3.734000067232303,
+        5.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\GONDOLA_inside.png"
+    },
+    {
+      "name": "GONDOLA_threshold",
+      "position": [
+        -16.560000443460137,
+        4.33399998569457,
+        4.17
+      ],
+      "target": [
+        -17.04000053405762,
+        3.7340000581725548,
+        4.03
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\GONDOLA_threshold.png"
+    },
+    {
+      "name": "GONDOLA_lock",
+      "position": [
+        -17.760000458559716,
+        4.234000166889532,
+        5.13
+      ],
+      "target": [
+        -17.580000534057618,
+        3.734000139710288,
+        5.0
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\GONDOLA_lock.png"
+    },
+    {
+      "name": "STAFF_outside",
+      "position": [
+        -17.382000241916124,
+        -10.500000731148193,
+        5.7
+      ],
+      "target": [
+        -18.982000241916126,
+        -10.500000419616699,
+        5.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\STAFF_outside.png"
+    },
+    {
+      "name": "STAFF_inside",
+      "position": [
+        -20.482000241916126,
+        -10.500000127555923,
+        5.7
+      ],
+      "target": [
+        -18.982000241916126,
+        -10.500000419616699,
+        5.2
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\STAFF_inside.png"
+    },
+    {
+      "name": "STAFF_threshold",
+      "position": [
+        -18.382000327587285,
+        -10.94000053644101,
+        4.17
+      ],
+      "target": [
+        -18.982000234127838,
+        -10.4600004196167,
+        4.03
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\STAFF_threshold.png"
+    },
+    {
+      "name": "STAFF_lock",
+      "position": [
+        -18.482000132880103,
+        -9.940000516970292,
+        5.13
+      ],
+      "target": [
+        -18.982000167927396,
+        -10.1200004196167,
+        5.0
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\doors\\STAFF_lock.png"
+    }
+  ],
+  "error": null,
+  "temporary_lights_removed": true,
+  "mode": "Lit, temporary neutral review lights; live weather retained"
+}

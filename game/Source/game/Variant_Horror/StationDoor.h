@@ -50,6 +50,16 @@ public:
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UStaticMeshComponent> Keypad;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UStaticMeshComponent> InteriorElectronics;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UStaticMeshComponent> ElectronicStrike;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Authored") TObjectPtr<UStaticMeshComponent> FrontLever;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Authored") TObjectPtr<UStaticMeshComponent> BackLever;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Authored") TObjectPtr<UStaticMeshComponent> MovingLatch;
+ UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Authored") TObjectPtr<UStaticMeshComponent> BottomSeal;
+ /** Opt-in for fitted assemblies; legacy doors retain their original layout. */
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") bool bUseAuthoredHardware=false;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") FVector AuthoredKeyLocation=FVector(114.6,-3.5,100);
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") FRotator AuthoredKeyRotation=FRotator::ZeroRotator;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") float KeyFaceDepth=4.6f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Authored") bool bInteriorIsNegativeY=true;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<USceneComponent> KeyLockRoot;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<UStaticMeshComponent> KeyHousing;
  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Door|Key") TObjectPtr<UStaticMeshComponent> KeyPlug;
@@ -94,6 +104,9 @@ public:
  UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> KeypadAudio;
  UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> LockAudio;
 private:
+ float HardwareReleaseRemaining=0.f;
+ float LeverDepression=0.f;
+ FVector LatchRest=FVector::ZeroVector,SealRest=FVector::ZeroVector;
  TSharedPtr<SWidget> HintWidget;
  TSharedPtr<STextBlock> HintAction,HintDetail;
  void ShowDoorHint(bool bVisible,const FString& Action=FString(),const FString& Detail=FString());

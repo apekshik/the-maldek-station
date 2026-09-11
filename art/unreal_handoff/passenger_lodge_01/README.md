@@ -133,3 +133,14 @@ reproduction. `seating/verification.json` records saved/reopened fit, dependenci
 neutral/nighttime images have their own seating reports and preview folders.
 The earlier surface-only images remain historical evidence. Doors, restrooms,
 kitchen, lockers and wall displays are still pending import and interaction work.
+
+## Public and staff door checkpoint
+
+The three fitted keyed doors are now installed with separate levers, lock plugs,
+latches and bottom seals. The existing angled key-drag interaction, recorded
+turning/opening/closing sounds and obstruction-aware swings drive these authored
+components. See `doors/README.md`, its installation and verification reports,
+and neutral/nighttime previews. All three passed actual player traversal and
+key interaction tests. The map saves with them closed and the keys available.
+Restrooms, kitchen, lockers and wall displays remain pending; earlier reports
+above describe their respective historical checkpoints.

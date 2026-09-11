@@ -1,0 +1,20 @@
+{
+  "reopened": true,
+  "preserved_actors": 1161,
+  "doors": 3,
+  "components": 30,
+  "max_component_bounds_error_cm": 8.256673027062789e-05,
+  "closed_leaf_traces": 6,
+  "shader_errors": [],
+  "route_conditions": "New doors temporarily posed fully open; restored closed before saving",
+  "interior_samples": 210,
+  "interior_failures": [],
+  "perimeter": {
+    "radius_cm": 34,
+    "half_height_cm": 96,
+    "conditions": "Editor collision queries; no actor exclusions. Actual movement is recorded separately in playtest.json.",
+    "samples": 280,
+    "failures": []
+  },
+  "original_map_unchanged": true
+}
