@@ -1,0 +1,14 @@
+{
+  "saved": true,
+  "recorded_tear_variations": 3,
+  "path_index": 80,
+  "sign_spotlight_off": true,
+  "width_cm": 7.619999885559082,
+  "unrelated_actor_positions_preserved": true,
+  "playtests_passed": true,
+  "capture_shots": [
+    "spawn",
+    "approach",
+    "crossing"
+  ]
+}

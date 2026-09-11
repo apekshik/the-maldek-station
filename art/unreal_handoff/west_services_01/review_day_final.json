@@ -1,0 +1,49 @@
+{
+  "views": [
+    {
+      "name": "compound",
+      "position": [
+        -27,
+        13,
+        10
+      ],
+      "target": [
+        -35,
+        0,
+        4
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\day\\compound.png"
+    },
+    {
+      "name": "north_outward",
+      "position": [
+        -38.7,
+        9.8,
+        2.85
+      ],
+      "target": [
+        -48,
+        21,
+        -3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\day\\north_outward.png"
+    },
+    {
+      "name": "porch_outward",
+      "position": [
+        -30.4,
+        4.2,
+        6.25
+      ],
+      "target": [
+        -49,
+        15,
+        1
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\day\\porch_outward.png"
+    }
+  ],
+  "error": null,
+  "temporary_lights_removed": true,
+  "mode": "Lit, temporary neutral review lights; live weather retained"
+}

@@ -1,0 +1,114 @@
+{
+  "asset": {
+    "reopened": true,
+    "mesh_count": 206,
+    "topology_errors": [],
+    "missing_uvs": []
+  },
+  "fitted": {
+    "reopened": true,
+    "mesh_count": 207,
+    "topology_errors": [],
+    "missing_uvs": []
+  },
+  "routes": {
+    "entrance_to_controls": {
+      "points_local": [
+        [
+          -0.8,
+          7.2
+        ],
+        [
+          2,
+          7.2
+        ],
+        [
+          2,
+          4.15
+        ],
+        [
+          3.45,
+          4.15
+        ]
+      ],
+      "sample_spacing_m": 0.05,
+      "samples": 150,
+      "radius_m": 0.34,
+      "height_m": 1.8,
+      "hits": []
+    },
+    "distribution_service": {
+      "points_local": [
+        [
+          2,
+          7.2
+        ],
+        [
+          4.45,
+          7.2
+        ]
+      ],
+      "sample_spacing_m": 0.05,
+      "samples": 50,
+      "radius_m": 0.34,
+      "height_m": 1.8,
+      "hits": []
+    },
+    "transfer": {
+      "points_local": [
+        [
+          2,
+          7.2
+        ],
+        [
+          2,
+          5.48
+        ],
+        [
+          4.6,
+          5.48
+        ]
+      ],
+      "sample_spacing_m": 0.05,
+      "samples": 89,
+      "radius_m": 0.34,
+      "height_m": 1.8,
+      "hits": []
+    },
+    "battery": {
+      "points_local": [
+        [
+          2,
+          7.2
+        ],
+        [
+          2,
+          4.15
+        ],
+        [
+          4.9,
+          4.15
+        ]
+      ],
+      "sample_spacing_m": 0.05,
+      "samples": 122,
+      "radius_m": 0.34,
+      "height_m": 1.8,
+      "hits": []
+    }
+  },
+  "clearances": {
+    "door_frame_width": 1.43,
+    "door_frame_height": 2.189,
+    "open_leaves_clear_width": 1.4119997024536133,
+    "distribution_front_service_depth": 1.0,
+    "machine_reservation": [
+      2.5,
+      1.3
+    ],
+    "note": "Door hardware evaluated below; static Blender envelope only, no Unreal collision claim.",
+    "door_headroom_including_seal": 2.1779998801648617
+  },
+  "source_hash_unchanged": true,
+  "passed": true
+}

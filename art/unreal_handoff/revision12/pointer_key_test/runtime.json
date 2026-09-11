@@ -1,0 +1,65 @@
+{
+  "phase": 1,
+  "index": 1,
+  "next": 356888.496,
+  "deadline": 357222.265,
+  "checks": {
+    "R12_Door_Control_side_starts_key_locked": true,
+    "R12_Door_Control_side_inspection_fill_on": true,
+    "R12_Door_Control_side_E_enters_key_camera": true,
+    "R12_Door_Control_side_input_held": true,
+    "R12_Door_Control_side_door_still_shut": true,
+    "R12_Door_Control_side_off_key_drag_rejected": true,
+    "R12_Door_Control_side_click_alone_does_not_insert": true,
+    "R12_Door_Control_side_mouse_partial_insertion": true,
+    "R12_Door_Control_side_release_holds_partial": true,
+    "R12_Door_Control_side_drag_can_reverse": true,
+    "R12_Door_Control_side_cancel_stays_locked": true,
+    "R12_Door_Control_side_cancel_restores_input": true,
+    "R12_Door_Control_side_reentry": true,
+    "R12_Door_Control_side_recorded_turn_playing": true,
+    "R12_Door_Control_side_seated_before_unlock": true,
+    "R12_Door_Control_side_inspection_fill_off": true,
+    "R12_Door_Control_side_seating_unlocks": true,
+    "R12_Door_Control_side_unlock_leaves_door_shut": true,
+    "R12_Door_Control_side_unlock_restores_input": true,
+    "R12_Door_Control_side_unlock_sound": true,
+    "R12_Door_Control_side_E_opens_after_unlock": true,
+    "R12_Door_Control_side_player_traversal": true,
+    "R12_Door_Control_side_closed_relocks": true,
+    "R12_Door_Control_side_missing_key_gate": true,
+    "R12_Door_Control_side_inside_egress_without_key": true
+  },
+  "rows": [
+    {
+      "label": "R12_Door_Control_side",
+      "angle": 95.0,
+      "walk_cm": 387.42101356088824
+    }
+  ],
+  "prompt_material": {
+    "material": "/Game/MaldekRefinement/R12/Doors/M_DoorInteractionPrompt.M_DoorInteractionPrompt",
+    "parent": "/Game/MaldekRefinement/R12/Doors/M_DoorInteractionPrompt.M_DoorInteractionPrompt"
+  },
+  "pointer_probe": {
+    "expected": "<Struct 'Vector2D' (0x000001EF0386B2E0) {x: 309.035095, y: 610.351440}>",
+    "read": "(309.0, 610.0)",
+    "viewport": "(1280, 720)"
+  },
+  "last_partial": 0.45028406381607056,
+  "drag_step": 9,
+  "open_focus": {
+    "visible": true,
+    "camera": "<Struct 'Vector' (0x000001EF03876450) {x: -43315.359098, y: 18159.307549, z: 10464.275104}>",
+    "pawn": "<Struct 'Vector' (0x000001EF03876450) {x: -43328.805975, y: 18159.307549, z: 10400.500000}>"
+  },
+  "walk_until": 356882.668,
+  "inside_result": {
+    "locked": false,
+    "key_mode": false,
+    "angle": 95.0,
+    "pawn": "<Struct 'Vector' (0x000001EF038766D0) {x: -43628.805975, y: 18159.307549, z: 10400.500000}>"
+  },
+  "success": true,
+  "error": null
+}

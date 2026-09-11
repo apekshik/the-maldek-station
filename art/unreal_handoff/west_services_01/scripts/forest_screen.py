@@ -1,0 +1,9 @@
+import unreal,json,math
+from pathlib import Path
+P=Path(__file__).resolve().parents[1];o=json.loads((P/'baseline.json').read_text())['origin'];aa=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);actors=aa.get_all_level_actors();by={a.get_actor_label():a for a in actors};w=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world();assert w.get_name()=='Station_Lodge_Migration';mesh=unreal.load_asset('/Game/MaldekRefinement/R06/Meshes/SM_R06_Pine_2');assert mesh;terrain=[by[n] for n in ['Landscape0','VF10_Parking_Terrain','VF10_Parking_Ground']];ignore=[a for a in actors if a not in terrain]
+def wp(x,y,z):return unreal.Vector(o[0]-100*x,o[1]+100*y,o[2]+100*z)
+rows=[];points=[(-43.7-1.1*(i%3)/2,-10.5+i*1.7+.35*math.sin(i*2.3),.28+.07*(i%3)) for i in range(15)]+[(-34-i*1.8,-11.8-.6*math.sin(i*1.8),.37+.05*(i%2)) for i in range(6)]+[(-42+i*2.1,15.8+.7*math.sin(i*1.9),.46+.04*(i%2)) for i in range(7)]
+for i,(x,y,scale) in enumerate(points):
+ h=unreal.SystemLibrary.line_trace_single(w,wp(x,y,30),wp(x,y,-80),unreal.TraceTypeQuery.TRACE_TYPE_QUERY1,True,ignore,unreal.DrawDebugTrace.NONE,True);assert h and h.to_tuple()[0];loc=wp(x,y,0);loc.z=h.to_tuple()[5].z-6;label=f'MIG_WS_Screening_Pine_{i:02d}';a=by.get(label) or aa.spawn_actor_from_class(unreal.StaticMeshActor,loc,unreal.Rotator(pitch=0,yaw=i*137.5,roll=0));a.set_actor_label(label);a.set_folder_path('WestServices/ForestScreen');a.set_actor_location(loc,False,True);a.set_actor_scale3d(unreal.Vector(scale,scale,scale));a.static_mesh_component.set_static_mesh(mesh);a.static_mesh_component.set_collision_profile_name('BlockAll');rows.append({'actor':label,'station_xy':[x,y],'world':[loc.x,loc.y,loc.z],'scale':scale})
+assert unreal.get_editor_subsystem(unreal.LevelEditorSubsystem).save_current_level();(P/'forest_screen.json').write_text(json.dumps(rows,indent=2));RESULT={'screening_saplings':len(rows)}
+

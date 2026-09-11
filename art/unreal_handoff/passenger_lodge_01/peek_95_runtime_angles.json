@@ -1,0 +1,18 @@
+{
+  "phase": 4,
+  "next": 449275.156,
+  "deadline": 449340.5,
+  "checks": {
+    "key_interaction_entered": true,
+    "center_fov": true,
+    "left_95": false
+  },
+  "left_probe": {
+    "yaw": -36.82744657667311,
+    "rest": -36.82744657667311,
+    "roll": -7.999999999999998,
+    "fov": 85.0
+  },
+  "success": false,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\scripts\\peek_95_runtime.py\", line 37, in tick\n    r=cam.get_editor_property('relative_rotation');s['left_probe']={'yaw':r.yaw,'rest':rest.yaw,'roll':r.roll,'fov':cam.field_of_view};check('left_95',abs(delta(r.yaw,rest.yaw)+95)<.2);check('left_tilt_8',abs(delta(r.roll,rest.roll)+8)<.2);check('peek_fov_85',abs(cam.field_of_view-85)<.1)\n                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\scripts\\peek_95_runtime.py\", line 9, in check\n    def check(k,v):s['checks'][k]=bool(v);assert v,k\n                                          ^^^^^^^^^^\nAssertionError: left_95\n"
+}

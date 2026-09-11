@@ -1,0 +1,14 @@
+{
+  "phase": "end",
+  "index": 4,
+  "next": 155056.093,
+  "deadline": 155160.859,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\after\\rear.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\after\\approach.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\after\\front.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\after\\side.png"
+  ],
+  "busy": true,
+  "success": true
+}

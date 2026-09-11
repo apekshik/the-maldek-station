@@ -1,0 +1,314 @@
+[
+  {
+    "wrap": "PoliceTape_Wrap_0_0",
+    "tree": "PoliceTape_AnchorTree_0",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B.SK_European_Beech_01_B",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Beech_01_B.fbx",
+    "tree_position": [
+      -41321.65675930423,
+      13915.504397709228,
+      9804.189745464946
+    ],
+    "tree_scale": [
+      0.85,
+      0.85,
+      0.85
+    ],
+    "tree_rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wrap_position": [
+      -41321.65675930423,
+      13915.504397709228,
+      9933.275681026638
+    ]
+  },
+  {
+    "wrap": "PoliceTape_Wrap_0_1",
+    "tree": "PoliceTape_AnchorTree_0",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B.SK_European_Beech_01_B",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Beech_01_B.fbx",
+    "tree_position": [
+      -41321.65675930423,
+      13915.504397709228,
+      9804.189745464946
+    ],
+    "tree_scale": [
+      0.85,
+      0.85,
+      0.85
+    ],
+    "tree_rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wrap_position": [
+      -41321.65675930423,
+      13915.504397709228,
+      10007.275681026638
+    ]
+  },
+  {
+    "wrap": "PoliceTape_Wrap_0_2",
+    "tree": "PoliceTape_AnchorTree_0",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B.SK_European_Beech_01_B",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Beech_01_B.fbx",
+    "tree_position": [
+      -41321.65675930423,
+      13915.504397709228,
+      9804.189745464946
+    ],
+    "tree_scale": [
+      0.85,
+      0.85,
+      0.85
+    ],
+    "tree_rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wrap_position": [
+      -41321.65675930423,
+      13915.504397709228,
+      9960.275681026638
+    ]
+  },
+  {
+    "wrap": "PoliceTape_Wrap_1_0",
+    "tree": "PoliceTape_AnchorTree_1",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B.SK_European_Beech_01_B",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Beech_01_B.fbx",
+    "tree_position": [
+      -40899.205190641704,
+      13760.473200414723,
+      9811.073231366674
+    ],
+    "tree_scale": [
+      0.85,
+      0.85,
+      0.85
+    ],
+    "tree_rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wrap_position": [
+      -40899.205190641704,
+      13760.473200414723,
+      10008.275681026638
+    ]
+  },
+  {
+    "wrap": "PoliceTape_Wrap_1_1",
+    "tree": "PoliceTape_AnchorTree_1",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B.SK_European_Beech_01_B",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Beech_01_B.fbx",
+    "tree_position": [
+      -40899.205190641704,
+      13760.473200414723,
+      9811.073231366674
+    ],
+    "tree_scale": [
+      0.85,
+      0.85,
+      0.85
+    ],
+    "tree_rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wrap_position": [
+      -40899.205190641704,
+      13760.473200414723,
+      9934.275681026638
+    ]
+  },
+  {
+    "wrap": "PoliceTape_Wrap_1_2",
+    "tree": "PoliceTape_AnchorTree_1",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B.SK_European_Beech_01_B",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Beech_01_B.fbx",
+    "tree_position": [
+      -40899.205190641704,
+      13760.473200414723,
+      9811.073231366674
+    ],
+    "tree_scale": [
+      0.85,
+      0.85,
+      0.85
+    ],
+    "tree_rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wrap_position": [
+      -40899.205190641704,
+      13760.473200414723,
+      9976.275681026638
+    ]
+  },
+  {
+    "wrap": "PoliceTape_PerimeterWrap_0_0",
+    "tree": "FT_European_Beech_004",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B.SK_European_Beech_01_B",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Beech_01_B.fbx",
+    "tree_position": [
+      -40512.51099158476,
+      13659.867308069013,
+      9965.590127912168
+    ],
+    "tree_scale": [
+      0.9690120280850463,
+      0.9690120280850463,
+      0.9690120280850463
+    ],
+    "tree_rotation": [
+      0.0,
+      177.6346893310547,
+      0.0
+    ],
+    "wrap_position": [
+      -40512.51099158476,
+      13659.867308069013,
+      10116.460968268315
+    ]
+  },
+  {
+    "wrap": "PoliceTape_PerimeterWrap_0_1",
+    "tree": "FT_European_Aspen_039",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Aspen/Tree_European_Aspen_01/SK_European_Aspen_01_B.SK_European_Aspen_01_B",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Aspen_01_B.fbx",
+    "tree_position": [
+      -40525.675463059255,
+      14064.46601823815,
+      9927.732847535759
+    ],
+    "tree_scale": [
+      0.9952719258824476,
+      0.9952719258824476,
+      0.9952719258824476
+    ],
+    "tree_rotation": [
+      0.0,
+      32.442089080810554,
+      0.0
+    ],
+    "wrap_position": [
+      -40525.675463059255,
+      14064.46601823815,
+      10079.341420760844
+    ]
+  },
+  {
+    "wrap": "PoliceTape_PerimeterWrap_0_2",
+    "tree": "FT_European_Aspen_017",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Aspen/Tree_European_Aspen_01/SK_European_Aspen_01_C.SK_European_Aspen_01_C",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Aspen_01_C.fbx",
+    "tree_position": [
+      -40451.50170785465,
+      14513.085971996063,
+      9921.13686410369
+    ],
+    "tree_scale": [
+      1.076885934941603,
+      1.076885934941603,
+      1.076885934941603
+    ],
+    "tree_rotation": [
+      0.0,
+      56.305450439453125,
+      0.0
+    ],
+    "wrap_position": [
+      -40451.50170785465,
+      14513.085971996063,
+      10072.838643397088
+    ]
+  },
+  {
+    "wrap": "PoliceTape_PerimeterWrap_1_0",
+    "tree": "FT_European_Aspen_002",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Aspen/Tree_European_Aspen_01/SK_European_Aspen_01_B.SK_European_Aspen_01_B",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Aspen_01_B.fbx",
+    "tree_position": [
+      -41647.12201925591,
+      13657.242324197658,
+      9860.83920897594
+    ],
+    "tree_scale": [
+      0.9110370464994985,
+      0.9110370464994985,
+      0.9110370464994985
+    ],
+    "tree_rotation": [
+      0.0,
+      95.51612091064459,
+      0.0
+    ],
+    "wrap_position": [
+      -41647.12201925591,
+      13657.242324197658,
+      10012.480912076888
+    ]
+  },
+  {
+    "wrap": "PoliceTape_PerimeterWrap_1_1",
+    "tree": "FT_European_Beech_038",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Beech/Tree_European_Beech_01/SK_European_Beech_01_B.SK_European_Beech_01_B",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Beech_01_B.fbx",
+    "tree_position": [
+      -41964.02174702382,
+      14174.265442170592,
+      9989.606128087733
+    ],
+    "tree_scale": [
+      0.9980979794609515,
+      0.9980979794609515,
+      0.9980979794609515
+    ],
+    "tree_rotation": [
+      0.0,
+      109.29107666015629,
+      0.0
+    ],
+    "wrap_position": [
+      -41964.02174702382,
+      14174.265442170592,
+      10140.442522885807
+    ]
+  },
+  {
+    "wrap": "PoliceTape_PerimeterWrap_1_2",
+    "tree": "FT_European_Aspen_016",
+    "mesh": "/Game/Megaplant_Library/Tree_European_Aspen/Tree_European_Aspen_01/SK_European_Aspen_01_D.SK_European_Aspen_01_D",
+    "fbx": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\police_tape\\wrap_fit\\SK_European_Aspen_01_D.fbx",
+    "tree_position": [
+      -42403.98157045944,
+      14072.82239062303,
+      9951.610933502565
+    ],
+    "tree_scale": [
+      0.9678850551885705,
+      0.9678850551885705,
+      0.9678850551885705
+    ],
+    "tree_rotation": [
+      0.0,
+      -95.61535644531251,
+      0.0
+    ],
+    "wrap_position": [
+      -42403.98157045944,
+      14072.82239062303,
+      10103.437875047915
+    ]
+  }
+]

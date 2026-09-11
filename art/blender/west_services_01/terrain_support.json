@@ -1,0 +1,65 @@
+{
+  "basis": "Inherited R11 Blender terrain, not live Unreal survey",
+  "samples": [
+    {
+      "pier": "WS_FoundationPier",
+      "ground_z": -11.7049560546875,
+      "toe_z": -12.0549560546875
+    },
+    {
+      "pier": "WS_FoundationPier.001",
+      "ground_z": -11.204780578613281,
+      "toe_z": -11.554780578613281
+    },
+    {
+      "pier": "WS_FoundationPier.002",
+      "ground_z": -4.31610107421875,
+      "toe_z": -4.66610107421875
+    },
+    {
+      "pier": "WS_FoundationPier.003",
+      "ground_z": -4.1428070068359375,
+      "toe_z": -4.492807006835937
+    },
+    {
+      "pier": "WS_AccessPier",
+      "ground_z": -4.180976867675781,
+      "toe_z": -4.530976867675781
+    },
+    {
+      "pier": "WS_AccessPier.001",
+      "ground_z": -4.061286926269531,
+      "toe_z": -4.411286926269531
+    },
+    {
+      "pier": "WS_AccessPier.002",
+      "ground_z": -3.9320449829101562,
+      "toe_z": -4.282044982910156
+    },
+    {
+      "pier": "WS_AccessPier.003",
+      "ground_z": -4.2982635498046875,
+      "toe_z": -4.648263549804687
+    },
+    {
+      "pier": "WS_LowerAccessPier",
+      "ground_z": -14.744430541992188,
+      "toe_z": -15.094430541992187
+    },
+    {
+      "pier": "WS_LowerAccessPier.001",
+      "ground_z": -17.711509704589844,
+      "toe_z": -18.061509704589845
+    },
+    {
+      "pier": "WS_LowerAccessPier.002",
+      "ground_z": -14.81304931640625,
+      "toe_z": -15.16304931640625
+    },
+    {
+      "pier": "WS_LowerAccessPier.003",
+      "ground_z": -11.296646118164062,
+      "toe_z": -11.646646118164062
+    }
+  ]
+}

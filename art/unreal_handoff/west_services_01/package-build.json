@@ -1,0 +1,11 @@
+{
+  "platform": "Win64",
+  "finished": "2026-09-11T16:23:46.8739670Z",
+  "entry": "Default Entry / StationBeginShift",
+  "configuration": "Development",
+  "archive": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\game\\Saved\\WestServicesPackage",
+  "started": "2026-09-11T16:21:40.7265104Z",
+  "log": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\package-build.log",
+  "exit_code": 0,
+  "success": true
+}

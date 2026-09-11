@@ -1,0 +1,30 @@
+{
+  "error": null,
+  "images": [
+    {
+      "view": "janitor",
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\gameplay_night\\janitor.png"
+    }
+  ],
+  "frame_stats": [
+    {
+      "view": "janitor",
+      "values": {
+        "width": 1600.0,
+        "height": 1000.0,
+        "process_physical_bytes": 8614023168.0,
+        "draw_calls": 1262.0,
+        "frame_ms": 16.241100311279297,
+        "game_ms": 16.256099700927734,
+        "render_ms": 9.999999747378752e-05,
+        "rhi_ms": 0.08789999783039093,
+        "gpu_ms": 7.941299915313721,
+        "streaming_texture_bytes": 1291800576.0,
+        "nonstreaming_texture_bytes": 4303396864.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0
+      }
+    }
+  ],
+  "lighting": "Actual PIE weather and player flashlight"
+}

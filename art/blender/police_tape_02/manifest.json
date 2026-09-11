@@ -1,0 +1,135 @@
+{
+  "stage": "Blender cordon prototype; no live map edits",
+  "crossing_strands": 3,
+  "perimeter_spans": 8,
+  "perimeter_nodes": [
+    [
+      -1.8,
+      0,
+      1.28
+    ],
+    [
+      -3.6,
+      -0.35,
+      1.37
+    ],
+    [
+      -4.8,
+      2.5,
+      1.21
+    ],
+    [
+      -4.2,
+      6.2,
+      1.43
+    ],
+    [
+      -1.9,
+      8,
+      1.26
+    ],
+    [
+      2.6,
+      7.6,
+      1.42
+    ],
+    [
+      4.8,
+      4.3,
+      1.32
+    ],
+    [
+      3.8,
+      0.3,
+      1.44
+    ],
+    [
+      1.8,
+      0,
+      1.38
+    ]
+  ],
+  "simulations": [
+    {
+      "strand": "Lower",
+      "anchors": [
+        [
+          -1.59,
+          -0.065,
+          1.0
+        ],
+        [
+          1.59,
+          -0.065,
+          1.13
+        ]
+      ],
+      "break_frame": 57,
+      "retreat_break_frame": null,
+      "max_segment_error_m": 0.005090790362331538
+    },
+    {
+      "strand": "Upper",
+      "anchors": [
+        [
+          -1.59,
+          0.065,
+          1.6
+        ],
+        [
+          1.59,
+          0.065,
+          1.54
+        ]
+      ],
+      "break_frame": 60,
+      "retreat_break_frame": null,
+      "max_segment_error_m": 0.005071954560469549
+    }
+  ],
+  "middle_break_frame": 59,
+  "exports": [
+    "SM_Tape_Left",
+    "SM_Tape_Right",
+    "SM_Tape_Lower_Left",
+    "SM_Tape_Lower_Right",
+    "SM_Tape_Upper_Left",
+    "SM_Tape_Upper_Right",
+    "SM_Wrap_Left",
+    "SM_Loose_tail_Left",
+    "SM_Wrap_Right",
+    "SM_Loose_tail_Right",
+    "SM_Wrap_Lower_Left",
+    "SM_Wrap_Lower_Right",
+    "SM_Wrap_Upper_Left",
+    "SM_Wrap_Upper_Right",
+    "SM_Perimeter_wrap_01",
+    "SM_Perimeter_tail_01",
+    "SM_Perimeter_wrap_02",
+    "SM_Perimeter_tail_02",
+    "SM_Perimeter_wrap_03",
+    "SM_Perimeter_tail_03",
+    "SM_Perimeter_wrap_04",
+    "SM_Perimeter_tail_04",
+    "SM_Perimeter_wrap_05",
+    "SM_Perimeter_tail_05",
+    "SM_Perimeter_wrap_06",
+    "SM_Perimeter_tail_06",
+    "SM_Perimeter_wrap_07",
+    "SM_Perimeter_tail_07",
+    "SM_Perimeter_span_00",
+    "SM_Perimeter_span_01",
+    "SM_Perimeter_span_02",
+    "SM_Perimeter_span_03",
+    "SM_Perimeter_span_04",
+    "SM_Perimeter_span_05",
+    "SM_Perimeter_span_06",
+    "SM_Perimeter_span_07"
+  ],
+  "limitations": [
+    "No ribbon-to-ribbon collisions in motion study",
+    "Perimeter static in this study",
+    "No hand animation or audio",
+    "Live tree placement and Unreal runtime implementation pending"
+  ]
+}

@@ -1,0 +1,2378 @@
+[
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45870.296875, y: 22502.203125, z: 5706.323242}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3037.183594, y: 3071.015625, z: 4106.293945}>, 5959.63671875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45944.923828, y: 22430.828125, z: 5628.301758}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3153.482422, y: 3168.468750, z: 4245.969727}>, 6165.37939453125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45949.472656, y: 22442.687500, z: 5690.526367}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3132.835938, y: 3155.265625, z: 4131.118164}>, 6069.30810546875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39923.607422, y: 22440.148438, z: 5580.508301}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2889.888672, y: 3143.835938, z: 4255.375488}>, 6028.54736328125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39823.595703, y: 22464.617188, z: 5578.825684}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2993.580078, y: 3137.085938, z: 4263.679199}>, 6081.265625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52394.220703, y: 9805.578125, z: 7398.219727}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3245.240234, y: 3329.562500, z: 1357.596680}>, 4843.61865234375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -48796.890625, y: 13419.312500, z: 9060.741699}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 386.539062, y: 463.265625, z: 131.376465}>, 617.484619140625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45969.576172, y: 16212.398438, z: 8786.674316}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3176.533203, y: 3003.632812, z: 1440.076660}>, 4602.82470703125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52584.041016, y: 16141.812500, z: 7825.988770}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2846.130859, y: 3163.875000, z: 1977.686035}>, 4692.73974609375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52269.019531, y: 16139.421875, z: 7836.199707}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3190.386719, y: 3202.546875, z: 1979.420410}>, 4934.87353515625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52311.363281, y: 16126.273438, z: 7823.503906}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3196.953125, y: 3236.101562, z: 1992.107422}>, 4966.02001953125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33349.949219, y: 28752.226562, z: 4753.071289}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3183.855469, y: 3196.445312, z: 2666.208008}>, 5240.50244140625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33352.937500, y: 28737.476562, z: 4790.289062}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3202.656250, y: 3241.507812, z: 2655.654297}>, 5274.1708984375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33272.421875, y: 28718.015625, z: 5088.569336}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2975.835938, y: 3313.140625, z: 2421.305664}>, 5069.04541015625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -38034.609375, y: 28959.820312, z: 1908.653320}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1576.187500, y: 2958.054688, z: 661.678711}>, 3416.470947265625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52262.326172, y: 9844.492188, z: 7529.169434}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3169.900391, y: 3168.679688, z: 1393.060059}>, 4693.55029296875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49643.193359, y: 18190.492188, z: 8952.353027}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 563.224609, y: 1009.976562, z: 1094.631348}>, 1592.322998046875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52894.605469, y: 16153.718750, z: 7339.304688}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2711.199219, y: 3360.093750, z: 1383.529297}>, 4533.7607421875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45912.572266, y: 16055.875000, z: 8838.173340}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3111.177734, y: 3030.484375, z: 1365.950684}>, 4552.92041015625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45953.427734, y: 22469.398438, z: 5644.615234}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3203.369141, y: 3172.851562, z: 4242.087891}>, 6190.62744140625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45915.675781, y: 22531.617188, z: 5781.690918}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3210.667969, y: 3207.257812, z: 4121.073730}>, 6130.10107421875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -44839.146484, y: 22401.671875, z: 5920.655762}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1946.267578, y: 2969.546875, z: 3973.692871}>, 5328.8271484375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45868.865234, y: 22484.820312, z: 5638.079102}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3040.787109, y: 3112.382812, z: 4181.418945}>, 6034.69775390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45963.347656, y: 22456.562500, z: 5589.751465}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3158.417969, y: 3152.937500, z: 4224.192871}>, 6144.951171875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45938.210938, y: 22521.710938, z: 5611.588867}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3149.457031, y: 3065.789062, z: 4209.336914}>, 6085.775390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -53436.914062, y: 22439.765625, z: 6093.228516}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1991.324219, y: 3163.765625, z: 3756.197266}>, 5299.41552734375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -53316.275391, y: 22435.281250, z: 6206.146484}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2153.650391, y: 3176.281250, z: 3658.367188}>, 5301.9453125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -53509.175781, y: 22422.914062, z: 6100.211914}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2000.539062, y: 3225.460938, z: 3778.518555}>, 5355.6474609375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -53287.232422, y: 22429.687500, z: 6118.124023}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2227.435547, y: 3328.468750, z: 3870.793945}>, 5569.84912109375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49729.421875, y: 23416.867188, z: 6543.070312}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 655.140625, y: 1545.867188, z: 3302.494141}>, 3704.7783203125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49650.511719, y: 23696.015625, z: 6342.900879}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 591.023438, y: 1823.921875, z: 3527.041504}>, 4014.4765625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49781.611328, y: 23401.296875, z: 6535.176758}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 681.416016, y: 1594.843750, z: 3328.530273}>, 3753.260986328125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49474.189453, y: 21983.351562, z: 9807.762695}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 468.154297, y: 192.992188, z: 81.121094}>, 512.8304443359375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49911.925781, y: 22143.125000, z: 9785.440918}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 146.109375, y: 148.531250, z: 119.241699}>, 240.05845642089844)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -58576.623047, y: 22248.976562, z: 7385.679199}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3323.431641, y: 3155.117188, z: 2624.976074}>, 5281.14208984375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -27088.453125, y: 16134.851562, z: 6959.553711}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3206.054688, y: 3264.835938, z: 2980.047852}>, 5460.6435546875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -27180.195312, y: 16168.890625, z: 7003.945801}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3081.398438, y: 3345.828125, z: 3068.545410}>, 5486.8525390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33357.292969, y: 16141.273438, z: 7207.413574}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3156.363281, y: 3163.179688, z: 2682.462402}>, 5211.90380859375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33352.292969, y: 16137.421875, z: 7213.177734}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3184.667969, y: 3203.687500, z: 2693.298828}>, 5259.23779296875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45957.962891, y: 28914.859375, z: 1888.685547}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3153.943359, y: 2998.250000, z: 1221.093750}>, 4519.72705078125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52425.121094, y: 28740.398438, z: 4645.833496}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3039.066406, y: 3184.476562, z: 3660.478027}>, 5725.025390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52372.992188, y: 28743.304688, z: 4659.432617}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3118.558594, y: 3242.601562, z: 3682.204102}>, 5813.64794921875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52931.078125, y: 28758.187500, z: 4742.282227}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2674.367188, y: 3327.265625, z: 3706.713867}>, 5653.55322265625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49219.753906, y: 26807.515625, z: 2979.153320}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 145.273438, y: 745.234375, z: 370.940430}>, 845.0298461914062)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49635.824219, y: 26537.632812, z: 3013.051758}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 553.277344, y: 991.023438, z: 373.489258}>, 1194.8797607421875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49705.917969, y: 26513.906250, z: 3006.372070}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 615.027344, y: 972.046875, z: 353.374023}>, 1203.3316650390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -38613.160156, y: 15676.468750, z: 7080.019043}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2119.386719, y: 2736.750000, z: 1554.401855}>, 3794.438720703125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -38394.589844, y: 15607.523438, z: 6859.447754}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1947.207031, y: 2698.007812, z: 1318.082520}>, 3578.85498046875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -38084.269531, y: 14029.398438, z: 5995.047852}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1163.480469, y: 871.789062, z: 414.133789}>, 1511.6910400390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40872.845703, y: 16224.289062, z: 8525.229980}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1971.970703, y: 3099.632812, z: 1712.255371}>, 4053.1728515625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40799.695312, y: 16439.789062, z: 8575.863770}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2029.000000, y: 2889.726562, z: 1661.279785}>, 3902.205810546875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40890.087891, y: 16471.515625, z: 8486.099121}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1938.189453, y: 2820.796875, z: 1720.267090}>, 3830.508056640625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40806.587891, y: 16739.125000, z: 8230.019531}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2063.259766, y: 2603.562500, z: 1709.205078}>, 3735.901611328125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40352.962891, y: 18877.695312, z: 9822.067383}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 987.517578, y: 226.085938, z: 70.594727}>, 1015.5242309570312)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40003.363281, y: 16121.875000, z: 7983.492676}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2806.753906, y: 3126.718750, z: 2208.568848}>, 4746.7900390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40313.421875, y: 16121.585938, z: 8135.998047}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2470.390625, y: 3133.242188, z: 2057.466797}>, 4489.232421875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39991.632812, y: 16131.945312, z: 7987.484863}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2816.132812, y: 3153.460938, z: 2208.191895}>, 4769.80419921875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40121.705078, y: 16083.992188, z: 8010.754883}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2649.509766, y: 3103.820312, z: 2184.229492}>, 4628.65673828125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39960.646484, y: 16110.992188, z: 7986.636230}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2868.771484, y: 3128.507812, z: 2209.136230}>, 4785.1533203125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40351.187500, y: 16151.835938, z: 8122.724121}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2471.929688, y: 3125.414062, z: 2086.843262}>, 4498.17333984375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39969.304688, y: 16115.937500, z: 8021.553223}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2847.015625, y: 3134.171875, z: 2184.697754}>, 4764.6025390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40380.544922, y: 16230.375000, z: 8198.940918}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2407.474609, y: 2969.078125, z: 2009.065918}>, 4318.298828125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -48685.275391, y: 13514.304688, z: 9139.369629}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 246.533203, y: 518.335938, z: 138.686035}>, 590.4951782226562)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -48682.896484, y: 13747.726562, z: 9139.065918}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 273.876953, y: 634.054688, z: 151.959473}>, 707.1956176757812)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45945.488281, y: 16219.046875, z: 8796.010742}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3181.574219, y: 2987.109375, z: 1468.309570}>, 4604.47265625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45910.701172, y: 16145.875000, z: 8805.337402}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3187.080078, y: 3077.046875, z: 1450.794434}>, 4661.5986328125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45928.267578, y: 16375.296875, z: 8853.897461}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3209.412109, y: 2907.765625, z: 1439.262695}>, 4563.650390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45679.785156, y: 17021.289062, z: 9058.999023}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2199.074219, y: 2028.867188, z: 1191.441406}>, 3220.52197265625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33354.625000, y: 28739.148438, z: 4758.932617}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3150.882812, y: 3158.835938, z: 2643.666992}>, 5186.06591796875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -48838.142578, y: 31814.062500, z: 2106.686523}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 15.787109, y: 13.031250, z: 8.317383}>, 22.09581756591797)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49464.900391, y: 18485.703125, z: 8895.317383}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 408.388672, y: 711.953125, z: 1284.132812}>, 1524.026123046875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49391.333984, y: 19037.515625, z: 9844.577148}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 346.841797, y: 202.859375, z: 63.964844}>, 406.8693542480469)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49452.667969, y: 18451.750000, z: 8779.195312}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 332.816406, y: 753.546875, z: 1131.009766}>, 1399.2078857421875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -32827.445312, y: 22374.359375, z: 8617.686523}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2756.882812, y: 3195.078125, z: 1394.020508}>, 4444.34716796875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33364.125000, y: 9843.156250, z: 5238.811523}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3158.148438, y: 3166.984375, z: 867.284180}>, 4555.861328125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33365.074219, y: 9845.234375, z: 5250.429688}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3197.808594, y: 3202.937500, z: 879.144531}>, 4610.60546875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33347.074219, y: 9831.195312, z: 5248.778320}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3231.121094, y: 3259.976562, z: 890.850586}>, 4675.5966796875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33446.500000, y: 9854.398438, z: 5251.875977}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3059.640625, y: 3328.445312, z: 890.887695}>, 4607.99609375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39653.351562, y: 9834.851562, z: 6497.717773}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3159.906250, y: 3159.414062, z: 1115.831055}>, 4605.64697265625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39661.335938, y: 9831.031250, z: 6482.489258}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3182.921875, y: 3193.921875, z: 1137.397461}>, 4650.35498046875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39633.400391, y: 9835.890625, z: 6514.390137}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3237.517578, y: 3236.421875, z: 1127.204590}>, 4714.5029296875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39698.152344, y: 9844.906250, z: 6398.213379}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3098.957031, y: 3351.718750, z: 991.369629}>, 4671.2275390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39852.818359, y: 22458.312500, z: 5567.570312}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2971.724609, y: 3153.343750, z: 4267.492188}>, 6081.62939453125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39907.861328, y: 22487.742188, z: 5638.407715}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2859.244141, y: 3109.570312, z: 4191.876465}>, 5951.17919921875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39814.773438, y: 22453.140625, z: 5618.920410}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2998.328125, y: 3143.234375, z: 4222.512207}>, 6058.01171875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39964.351562, y: 22494.953125, z: 5589.405273}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2843.054688, y: 3091.203125, z: 4223.534180}>, 5956.2353515625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45947.765625, y: 22461.273438, z: 5603.379883}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3183.261719, y: 3171.335938, z: 4241.674805}>, 6179.185546875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45937.250000, y: 22472.664062, z: 5618.407715}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3180.664062, y: 3179.710938, z: 4264.091309}>, 6197.552734375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45954.980469, y: 22445.031250, z: 5608.275391}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3145.925781, y: 3162.062500, z: 4205.341797}>, 6130.28466796875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33399.812500, y: 16128.585938, z: 7255.821289}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3199.937500, y: 3319.085938, z: 2786.288086}>, 5386.95947265625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33327.070312, y: 22431.343750, z: 6716.017090}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3188.156250, y: 3251.796875, z: 3182.538574}>, 5555.814453125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33339.566406, y: 22432.367188, z: 7899.000977}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3156.542969, y: 3199.226562, z: 1993.110352}>, 4916.43212890625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33255.722656, y: 22444.523438, z: 8209.765625}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3056.300781, y: 3167.101562, z: 1674.984375}>, 4709.2548828125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -27248.179688, y: 22442.757812, z: 8650.154785}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3084.656250, y: 3360.632812, z: 1354.850098}>, 4758.6318359375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -36959.925781, y: 22182.867188, z: 6560.483887}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 407.347656, y: 2665.570312, z: 3244.577637}>, 4218.82470703125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -37272.644531, y: 19618.343750, z: 9715.087402}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 53.730469, y: 281.531250, z: 89.451660}>, 300.24725341796875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40583.117188, y: 22462.125000, z: 5804.253418}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2310.562500, y: 3213.046875, z: 4118.462402}>, 5711.7509765625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -27077.421875, y: 22439.226562, z: 8603.189453}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3226.960938, y: 3259.585938, z: 1300.431641}>, 4767.525390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45957.921875, y: 9843.335938, z: 7678.208496}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3166.757812, y: 3166.195312, z: 1291.712402}>, 4660.65087890625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45973.005859, y: 9799.601562, z: 7674.205566}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3197.794922, y: 3163.710938, z: 1289.539551}>, 4679.51611328125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45972.697266, y: 9782.375000, z: 7669.324219}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3235.904297, y: 3197.515625, z: 1303.275391}>, 4732.19921875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45943.335938, y: 8971.523438, z: 7366.624023}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3338.597656, y: 2453.664062, z: 1017.475586}>, 4266.37548828125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -43553.386719, y: 12826.671875, z: 7659.894531}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 78.316406, y: 73.015625, z: 60.229492}>, 122.8508529663086)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40574.548828, y: 22404.546875, z: 5795.263672}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2287.376953, y: 3169.578125, z: 4091.154297}>, 5658.25634765625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40541.632812, y: 22432.062500, z: 5792.955078}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2329.828125, y: 3180.562500, z: 4087.906250}>, 5679.353515625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -37019.445312, y: 22248.070312, z: 6528.318848}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 377.257812, y: 2655.085938, z: 3279.629395}>, 4236.4814453125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -49437.476562, y: 26795.000000, z: 2988.241211}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 284.859375, y: 650.203125, z: 349.995117}>, 791.4578857421875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45949.976562, y: 28742.539062, z: 1992.255859}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3201.011719, y: 3174.445312, z: 1353.091797}>, 4706.85009765625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45952.771484, y: 28746.601562, z: 2017.760742}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3194.181641, y: 3195.039062, z: 1363.153320}>, 4719.03125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45960.751953, y: 28713.132812, z: 1998.731445}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3176.099609, y: 3139.617188, z: 1344.247070}>, 4663.8828125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52260.468750, y: 9843.093750, z: 7520.696777}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3208.722656, y: 3196.562500, z: 1402.017090}>, 4741.26171875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -52263.648438, y: 9839.437500, z: 7474.158691}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3243.238281, y: 3255.828125, z: 1366.787598}>, 4794.48828125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowC.SM_MWAM_SnowC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40997.988281, y: 28161.000000, z: 1629.295898}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1883.886719, y: 2295.203125, z: 657.497070}>, 3041.264404296875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40858.095703, y: 28381.195312, z: 1548.456055}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2048.681641, y: 2885.992188, z: 930.415039}>, 3659.4697265625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40890.195312, y: 28637.507812, z: 1587.224609}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1971.078125, y: 3076.132812, z: 951.962891}>, 3775.44384765625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40684.298828, y: 28367.843750, z: 1609.299805}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2189.064453, y: 2823.140625, z: 971.217773}>, 3702.0791015625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40715.625000, y: 28484.023438, z: 1585.664062}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2145.414062, y: 2919.617188, z: 948.859375}>, 3745.3037109375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -37694.089844, y: 28847.500000, z: 1976.494141}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 802.582031, y: 3050.203125, z: 566.589844}>, 3204.5126953125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -37879.707031, y: 28982.523438, z: 1986.655273}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1437.769531, y: 2895.445312, z: 661.903320}>, 3299.83349609375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -50101.029297, y: 19050.828125, z: 9828.979004}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 106.701172, y: 109.328125, z: 47.934082}>, 160.1107635498047)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowD.SM_MWAM_SnowD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -38544.898438, y: 15000.570312, z: 6005.635742}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2046.570312, y: 2022.023438, z: 486.930664}>, 2917.898193359375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45956.263672, y: 16069.023438, z: 8774.189941}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3169.142578, y: 3081.648438, z: 1431.383301}>, 4646.38330078125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45962.726562, y: 16112.914062, z: 8735.162598}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3166.750000, y: 3136.523438, z: 1464.707520}>, 4691.63671875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45955.074219, y: 16140.570312, z: 8740.343262}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3155.980469, y: 3159.898438, z: 1463.259277}>, 4699.6064453125)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45961.585938, y: 16106.351562, z: 8804.599609}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3124.636719, y: 3026.648438, z: 1400.449219}>, 4570.0341796875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40519.535156, y: 22437.320312, z: 5577.038086}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2337.699219, y: 3180.414062, z: 4274.159180}>, 5817.9296875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45961.671875, y: 3576.398438, z: 5930.148438}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3296.605469, y: 3293.882812, z: 1411.203125}>, 4869.1650390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_Snow.SM_MWAM_Snow",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39836.267578, y: 3548.476562, z: 5670.023438}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3164.251953, y: 3379.007812, z: 1372.871094}>, 4828.556640625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45945.529297, y: 22550.867188, z: 5800.067871}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3114.443359, y: 3035.039062, z: 4004.985840}>, 5911.9482421875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_SnowB.SM_MWAM_SnowB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -33373.078125, y: 16130.906250, z: 7222.829590}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3216.664062, y: 3233.812500, z: 2700.243652}>, 5300.5458984375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45956.642578, y: 16136.179688, z: 8728.584961}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3156.345703, y: 3156.539062, z: 1464.299805}>, 4697.91796875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45931.863281, y: 16081.718750, z: 8735.968262}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3121.558594, y: 3095.484375, z: 1458.677246}>, 4631.83447265625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -40816.173828, y: 22230.632812, z: 5786.339355}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 1724.634766, y: 2915.398438, z: 4096.856934}>, 5315.83935546875)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39858.761719, y: 22487.101562, z: 5569.840332}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2918.777344, y: 3107.757812, z: 4249.223145}>, 6019.41162109375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -39856.003906, y: 22472.875000, z: 5569.537109}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 2966.253906, y: 3115.671875, z: 4253.699219}>, 6049.7958984375)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45924.111328, y: 28624.148438, z: 2017.740234}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3242.591797, y: 3150.039062, z: 1396.650391}>, 4731.57275390625)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -105812.000000, y: -138209.000000, z: 23763.000000}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 0.000000, y: 0.000000, z: 0.000000}>, 0.0)"
+  },
+  {
+    "label": "Landscape0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103B70) {x: -45958.261719, y: 16127.476562, z: 8764.024902}>, <Struct 'Vector' (0x0000022DEB103DA0) {x: 3150.808594, y: 3157.070312, z: 1431.382324}>, 4684.3935546875)"
+  },
+  {
+    "label": "InstancedFoliageActor0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103DA0) {x: -45489.713548, y: 18246.305271, z: 6544.317679}>, <Struct 'Vector' (0x0000022DEB103BC0) {x: 5702.042542, y: 5060.234772, z: 3770.096939}>, 8504.875)"
+  },
+  {
+    "label": "InstancedFoliageActor0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103BC0) {x: -45320.231689, y: 18180.641192, z: 6504.217179}>, <Struct 'Vector' (0x0000022DEB103A80) {x: 5611.845612, y: 4968.463501, z: 3810.653671}>, 8408.30078125)"
+  },
+  {
+    "label": "InstancedFoliageActor0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB103A80) {x: -45420.170260, y: 18233.591509, z: 6479.727029}>, <Struct 'Vector' (0x0000022DEB101F50) {x: 5697.758575, y: 4972.742279, z: 3817.579575}>, 8471.5126953125)"
+  },
+  {
+    "label": "InstancedFoliageActor0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB101F50) {x: -45442.390019, y: 18280.076556, z: 6461.800188}>, <Struct 'Vector' (0x0000022DEB101E10) {x: 5679.767303, y: 4977.814728, z: 3805.744156}>, 8457.0732421875)"
+  },
+  {
+    "label": "InstancedFoliageActor0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneA.SM_MWAM_StoneA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB101E10) {x: -45158.711094, y: 18105.549163, z: 6575.466243}>, <Struct 'Vector' (0x0000022DEB101960) {x: 5208.172546, y: 4478.663330, z: 3692.395782}>, 7798.54296875)"
+  },
+  {
+    "label": "InstancedFoliageActor0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneB.SM_MWAM_StoneB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB101960) {x: -45262.496902, y: 18262.042266, z: 7601.527862}>, <Struct 'Vector' (0x0000022DEB1000B0) {x: 5000.192902, y: 4501.027935, z: 2659.737396}>, 7234.31982421875)"
+  },
+  {
+    "label": "InstancedFoliageActor0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneC.SM_MWAM_StoneC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1000B0) {x: -44528.580596, y: 18127.251274, z: 6465.065888}>, <Struct 'Vector' (0x0000022DEB100060) {x: 4556.206421, y: 4592.648651, z: 3580.691536}>, 7394.10498046875)"
+  },
+  {
+    "label": "InstancedFoliageActor0",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Cover/SM_MWAM_StoneD.SM_MWAM_StoneD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100060) {x: -45186.075749, y: 18170.425973, z: 6561.890277}>, <Struct 'Vector' (0x0000022DEB100150) {x: 5051.152710, y: 4704.610870, z: 3695.091736}>, 7829.5087890625)"
+  },
+  {
+    "label": "VF10_Parking_Terrain",
+    "mesh": "/Game/MaldekRefinement/R12/Gorge/Meshes/SM_Station_Gorge_Terrain.SM_Station_Gorge_Terrain",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100060) {x: -45082.305975, y: 22974.707305, z: 5147.411621}>, <Struct 'Vector' (0x0000022DEB100100) {x: 10400.001953, y: 12500.002197, z: 5099.088379}>, 16798.935546875)"
+  },
+  {
+    "label": "VF10_Parking_Grass_00_00",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100100) {x: -39606.574286, y: 12235.615377, z: 9691.422755}>, <Struct 'Vector' (0x0000022DEB1001F0) {x: 73.930991, y: 74.361552, z: 27.824852}>, 58.13217544555664)"
+  },
+  {
+    "label": "VF10_Parking_Grass_00_01",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1001F0) {x: -39613.871649, y: 12404.706131, z: 9797.971744}>, <Struct 'Vector' (0x0000022DEB1001A0) {x: 66.564548, y: 69.713665, z: 42.189877}>, 82.5419921875)"
+  },
+  {
+    "label": "VF10_Parking_Grass_00_02",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1001A0) {x: -39722.218862, y: 12528.247186, z: 9824.175014}>, <Struct 'Vector' (0x0000022DEB100290) {x: 67.491053, y: 65.057389, z: 54.770799}>, 89.78570556640625)"
+  },
+  {
+    "label": "VF10_Parking_Grass_00_05",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100290) {x: -39695.076177, y: 12276.331055, z: 9818.893468}>, <Struct 'Vector' (0x0000022DEB100240) {x: 55.126424, y: 52.832980, z: 32.454832}>, 63.49595260620117)"
+  },
+  {
+    "label": "VF10_Parking_Grass_00_06",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100240) {x: -39596.365203, y: 12339.155574, z: 9788.168371}>, <Struct 'Vector' (0x0000022DEB100330) {x: 100.259234, y: 100.841063, z: 61.372841}>, 100.60842895507812)"
+  },
+  {
+    "label": "VF10_Parking_Grass_00_07",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100330) {x: -39518.941180, y: 12359.533150, z: 9614.631945}>, <Struct 'Vector' (0x0000022DEB1002E0) {x: 98.037564, y: 101.312281, z: 50.097684}>, 90.02637481689453)"
+  },
+  {
+    "label": "VF10_Parking_Grass_00_09",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1002E0) {x: -39721.201593, y: 12474.389618, z: 9820.979796}>, <Struct 'Vector' (0x0000022DEB1003D0) {x: 79.837903, y: 76.026450, z: 49.307887}>, 96.46794891357422)"
+  },
+  {
+    "label": "VF10_Parking_Grass_00_12",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1003D0) {x: -39584.756661, y: 12299.016894, z: 9711.685230}>, <Struct 'Vector' (0x0000022DEB100380) {x: 65.887063, y: 65.833135, z: 23.883974}>, 49.89882278442383)"
+  },
+  {
+    "label": "VF10_Parking_Grass_00_13",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100380) {x: -39690.772650, y: 12436.684485, z: 9825.858369}>, <Struct 'Vector' (0x0000022DEB100470) {x: 94.064452, y: 91.996531, z: 48.763440}>, 95.40277862548828)"
+  },
+  {
+    "label": "VF10_Parking_Grass_01_00",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100470) {x: -39711.150143, y: 13092.872338, z: 9810.849651}>, <Struct 'Vector' (0x0000022DEB100420) {x: 72.438715, y: 72.857131, z: 35.904132}>, 70.24430084228516)"
+  },
+  {
+    "label": "VF10_Parking_Grass_01_02",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100420) {x: -39529.043048, y: 12999.381352, z: 9722.108906}>, <Struct 'Vector' (0x0000022DEB100510) {x: 59.881828, y: 61.032894, z: 27.480601}>, 49.38309860229492)"
+  },
+  {
+    "label": "VF10_Parking_Grass_01_03",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100510) {x: -39601.525234, y: 12873.104988, z: 9813.698641}>, <Struct 'Vector' (0x0000022DEB1004C0) {x: 110.565757, y: 110.528156, z: 40.065695}>, 83.70596313476562)"
+  },
+  {
+    "label": "VF10_Parking_Grass_01_05",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1004C0) {x: -39658.612187, y: 12922.349911, z: 9837.891789}>, <Struct 'Vector' (0x0000022DEB1005B0) {x: 90.363523, y: 87.795590, z: 66.710488}>, 109.3584213256836)"
+  },
+  {
+    "label": "VF10_Parking_Grass_01_08",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1005B0) {x: -39594.750697, y: 12984.615517, z: 9829.867606}>, <Struct 'Vector' (0x0000022DEB100560) {x: 96.545748, y: 92.959060, z: 54.993971}>, 107.59243774414062)"
+  },
+  {
+    "label": "VF10_Parking_Grass_01_09",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100560) {x: -39695.068214, y: 12911.434052, z: 9805.738811}>, <Struct 'Vector' (0x0000022DEB100650) {x: 59.171513, y: 59.907314, z: 37.689079}>, 61.783660888671875)"
+  },
+  {
+    "label": "VF10_Parking_Grass_01_11",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100650) {x: -39575.548481, y: 12941.187471, z: 9789.248646}>, <Struct 'Vector' (0x0000022DEB100600) {x: 56.547812, y: 57.182169, z: 23.196204}>, 48.46192169189453)"
+  },
+  {
+    "label": "VF10_Parking_Grass_01_13",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100600) {x: -39739.189925, y: 13099.010263, z: 9837.182905}>, <Struct 'Vector' (0x0000022DEB1006F0) {x: 99.448923, y: 97.883661, z: 64.251488}>, 105.327392578125)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_00",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1006F0) {x: -40079.139932, y: 13537.643757, z: 9885.818804}>, <Struct 'Vector' (0x0000022DEB1006A0) {x: 58.204454, y: 56.166020, z: 46.619709}>, 76.42363739013672)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_01",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1006A0) {x: -40247.332634, y: 13430.468065, z: 9858.990790}>, <Struct 'Vector' (0x0000022DEB100790) {x: 96.586901, y: 96.725120, z: 41.402120}>, 74.40029907226562)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_02",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100790) {x: -40063.724032, y: 13456.067308, z: 9852.792324}>, <Struct 'Vector' (0x0000022DEB100740) {x: 60.261406, y: 61.258999, z: 27.664020}>, 57.796165466308594)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_03",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100740) {x: -40189.897725, y: 13382.774007, z: 9844.032016}>, <Struct 'Vector' (0x0000022DEB100830) {x: 66.774558, y: 70.699371, z: 46.506296}>, 90.98680877685547)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_05",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100830) {x: -40219.956394, y: 13401.202464, z: 9847.357364}>, <Struct 'Vector' (0x0000022DEB1007E0) {x: 80.274930, y: 76.908240, z: 43.126236}>, 77.49856567382812)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_06",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1007E0) {x: -39992.368461, y: 13505.987029, z: 9871.973920}>, <Struct 'Vector' (0x0000022DEB101AA0) {x: 86.582772, y: 87.442373, z: 34.677471}>, 72.44879150390625)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_08",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB101AA0) {x: -40235.185232, y: 13550.071907, z: 9907.355575}>, <Struct 'Vector' (0x0000022DEB100880) {x: 78.678840, y: 76.019667, z: 62.056360}>, 101.72891998291016)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_09",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100880) {x: -40292.837894, y: 13431.516671, z: 9854.575174}>, <Struct 'Vector' (0x0000022DEB100920) {x: 68.050015, y: 70.504356, z: 35.588261}>, 63.95269775390625)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_10",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100920) {x: -40240.519842, y: 13475.389588, z: 9872.482374}>, <Struct 'Vector' (0x0000022DEB1008D0) {x: 108.084957, y: 108.400942, z: 39.582846}>, 82.69718933105469)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_11",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1008D0) {x: -40287.818608, y: 13469.716633, z: 9882.548261}>, <Struct 'Vector' (0x0000022DEB1009C0) {x: 105.304283, y: 105.194113, z: 51.789903}>, 101.32386779785156)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_12",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB1009C0) {x: -40227.615147, y: 13475.576083, z: 9885.084462}>, <Struct 'Vector' (0x0000022DEB100970) {x: 84.148561, y: 83.611465, z: 51.319677}>, 84.12828826904297)"
+  },
+  {
+    "label": "VF10_Parking_Grass_02_13",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100970) {x: -40090.526666, y: 13529.785606, z: 9872.296494}>, <Struct 'Vector' (0x0000022DEB100A60) {x: 76.829416, y: 76.058252, z: 33.310494}>, 59.85951232910156)"
+  },
+  {
+    "label": "VF10_Parking_Grass_03_04",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100A60) {x: -41190.603872, y: 11896.986936, z: 9844.985774}>, <Struct 'Vector' (0x0000022DEB100A10) {x: 84.120497, y: 82.942974, z: 36.990591}>, 66.47270965576172)"
+  },
+  {
+    "label": "VF10_Parking_Grass_03_05",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100A10) {x: -41077.210495, y: 11966.674110, z: 9816.388062}>, <Struct 'Vector' (0x0000022DEB100B00) {x: 100.246808, y: 100.530054, z: 36.688858}>, 76.65101623535156)"
+  },
+  {
+    "label": "VF10_Parking_Grass_03_08",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100B00) {x: -41020.103156, y: 11938.514412, z: 9828.518137}>, <Struct 'Vector' (0x0000022DEB100AB0) {x: 81.730753, y: 83.531127, z: 38.208525}>, 68.6613540649414)"
+  },
+  {
+    "label": "VF10_Parking_Grass_03_10",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100AB0) {x: -41101.256388, y: 11940.322874, z: 9846.349468}>, <Struct 'Vector' (0x0000022DEB100BA0) {x: 103.938850, y: 106.922413, z: 57.267689}>, 112.04083251953125)"
+  },
+  {
+    "label": "VF10_Parking_Grass_03_11",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100BA0) {x: -41108.346688, y: 11910.731037, z: 9862.071503}>, <Struct 'Vector' (0x0000022DEB100B50) {x: 72.470781, y: 69.719640, z: 60.248862}>, 98.7658920288086)"
+  },
+  {
+    "label": "VF10_Parking_Grass_03_12",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100B50) {x: -41270.016973, y: 11977.260324, z: 9829.117205}>, <Struct 'Vector' (0x0000022DEB100C40) {x: 103.052773, y: 101.651892, z: 45.240435}>, 81.29782104492188)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_00",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100C40) {x: -41394.321514, y: 12272.124016, z: 9815.093919}>, <Struct 'Vector' (0x0000022DEB100BF0) {x: 59.486435, y: 58.650952, z: 25.591614}>, 53.46645736694336)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_01",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100BF0) {x: -41423.956882, y: 12411.549105, z: 9826.062588}>, <Struct 'Vector' (0x0000022DEB100CE0) {x: 66.589885, y: 65.131286, z: 34.506829}>, 67.51055908203125)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_02",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100CE0) {x: -41601.353544, y: 12294.599544, z: 9847.989415}>, <Struct 'Vector' (0x0000022DEB100C90) {x: 63.335097, y: 63.517818, z: 38.403494}>, 62.954803466796875)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_03",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100C90) {x: -41483.587936, y: 12189.691381, z: 9868.314876}>, <Struct 'Vector' (0x0000022DEB100D80) {x: 87.799306, y: 84.536660, z: 45.215910}>, 81.25374603271484)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_04",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassA.SM_MWAM_GrassA",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100D80) {x: -41453.656549, y: 12446.554714, z: 9822.221592}>, <Struct 'Vector' (0x0000022DEB100D30) {x: 62.779374, y: 62.024539, z: 25.922124}>, 54.15696334838867)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_05",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100D30) {x: -41463.164938, y: 12404.317823, z: 9848.488665}>, <Struct 'Vector' (0x0000022DEB100E20) {x: 85.836564, y: 82.921533, z: 47.808176}>, 93.53385925292969)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_06",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100E20) {x: -41567.985728, y: 12420.353918, z: 9842.645407}>, <Struct 'Vector' (0x0000022DEB100DD0) {x: 73.114039, y: 73.155133, z: 44.167606}>, 72.40390014648438)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_07",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100DD0) {x: -41499.560080, y: 12319.273158, z: 9843.387912}>, <Struct 'Vector' (0x0000022DEB100EC0) {x: 74.674663, y: 74.207758, z: 32.093818}>, 57.673126220703125)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_09",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100EC0) {x: -41471.058385, y: 12407.888133, z: 9839.559304}>, <Struct 'Vector' (0x0000022DEB100E70) {x: 75.380658, y: 74.701065, z: 37.331306}>, 73.03648376464844)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_10",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassC.SM_MWAM_GrassC",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100E70) {x: -41512.722027, y: 12291.131583, z: 9872.579593}>, <Struct 'Vector' (0x0000022DEB100F60) {x: 69.660060, y: 72.371800, z: 59.791337}>, 98.015869140625)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_11",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassD.SM_MWAM_GrassD",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100F60) {x: -41556.652469, y: 12311.275527, z: 9848.847046}>, <Struct 'Vector' (0x0000022DEB100F10) {x: 90.399151, y: 89.688711, z: 38.973856}>, 70.03666687011719)"
+  },
+  {
+    "label": "VF10_Parking_Grass_04_13",
+    "mesh": "/Game/MWLandscapeAutoMaterial/Meshes/Plants/SM_MWAM_GrassB.SM_MWAM_GrassB",
+    "visible": true,
+    "hidden_in_game": false,
+    "actor_hidden": false,
+    "bounds": "(<Struct 'Vector' (0x0000022DEB100F10) {x: -41397.967385, y: 12232.003189, z: 9840.922365}>, <Struct 'Vector' (0x0000022DEB101000) {x: 75.434196, y: 71.320230, z: 49.224612}>, 96.3050308227539)"
+  }
+]

@@ -1,0 +1,6 @@
+backup/
+*.log
+install_error.txt
+progress.txt
+wrap_fit/*.log
+wrap_fit/*probe*

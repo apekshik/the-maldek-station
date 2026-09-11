@@ -1,4 +1,5 @@
 #include "StationDoor.h"
+ #include "StationPlayerPresentationComponent.h"
 #include "Components/AudioComponent.h"
 #include "Components/SpotLightComponent.h"
 #include "Components/WidgetComponent.h"
@@ -198,11 +199,12 @@ void AStationDoor::Tick(float Dt)
   else
   {
    KeypadBlendRemaining=FMath::Max(0.f,KeypadBlendRemaining-Dt);
-   const int32 Hover=HoveredKeypadButton(PC);PC->CurrentMouseCursor=Hover>=0?EMouseCursor::Hand:EMouseCursor::Default;
-   if(PC->WasInputKeyJustPressed(EKeys::Escape) || PC->WasInputKeyJustPressed(EKeys::RightMouseButton) || PC->WasInputKeyJustPressed(EKeys::E))CancelKeypadInteraction();
+   TickCloseupPeek(Dt,PC);
+   const int32 Hover=HoveredKeypadButton(PC);PC->CurrentMouseCursor=bPeekingAway?EMouseCursor::None:Hover>=0?EMouseCursor::Hand:EMouseCursor::Default;
+   if(PC->WasInputKeyJustPressed(EKeys::Escape) || PC->WasInputKeyJustPressed(EKeys::RightMouseButton))CancelKeypadInteraction();
    else if(KeypadBlendRemaining<=0)
    {
-    if(PC->WasInputKeyJustPressed(EKeys::LeftMouseButton) && Hover>=0)PressKeypadButton(Hover);
+    if(!bPeekingAway && PC->WasInputKeyJustPressed(EKeys::LeftMouseButton) && Hover>=0)PressKeypadButton(Hover);
     const FKey Digits[]={EKeys::Zero,EKeys::One,EKeys::Two,EKeys::Three,EKeys::Four,EKeys::Five,EKeys::Six,EKeys::Seven,EKeys::Eight,EKeys::Nine};
     const FKey NumPad[]={EKeys::NumPadZero,EKeys::NumPadOne,EKeys::NumPadTwo,EKeys::NumPadThree,EKeys::NumPadFour,EKeys::NumPadFive,EKeys::NumPadSix,EKeys::NumPadSeven,EKeys::NumPadEight,EKeys::NumPadNine};
     for(int32 I=0;I<10 && bEnteringCode;++I)if(PC->WasInputKeyJustPressed(Digits[I]) || PC->WasInputKeyJustPressed(NumPad[I]))PressKeypadButton(I==0?10:I-1);
@@ -212,7 +214,7 @@ void AStationDoor::Tick(float Dt)
    if(bEnteringCode)
    {
     KeypadDisplay->SetText(FText::FromString(bCodeRejected && FeedbackSeconds>0?TEXT("TRY AGAIN"):EnteredCode.IsEmpty()?TEXT("ENTER CODE"):FString::ChrN(EnteredCode.Len(),TEXT('*'))));
-    ShowDoorHint(true,TEXT("Return to door"),TEXT("Click keypad buttons   /   OK to confirm"));
+    ShowDoorHint(true,TEXT("Return to door"),bPeekingAway?TEXT("Mouse: aim narrow beam   |   Release Q / E: return"):TEXT("Click buttons / Enter: OK   |   Hold Q / E: peek   |   RMB: back"));
    }
   }
  }
@@ -225,7 +227,7 @@ void AStationDoor::Tick(float Dt)
    ShowDoorHint(true,bNeedsCode?(bHasKeypad?TEXT("Use keypad"):bKeyAvailable?TEXT("Use key"):TEXT("Key required")):bObstructed?TEXT("Retry door"):FMath::IsNearlyZero(TargetAngle)?TEXT("Open door"):TEXT("Close door"),bNeedsCode?TEXT("SECURED ACCESS"):bObstructed?TEXT("Clear the doorway to continue"):TEXT("STATION ACCESS"));
    if(bHasPrivacyLatch && bNeedsCode)ShowDoorHint(true,TEXT("Stall occupied"),TEXT("PRIVACY BOLT ENGAGED"));
    else if(HasPrivacyBoltFocus(PC))ShowDoorHint(true,bLocked?TEXT("Unlock stall"):TEXT("Lock stall"),TEXT("PRIVACY BOLT"));
-   if(PC->WasInputKeyJustPressed(EKeys::E))TryInteract();
+   if(PC->WasInputKeyJustPressed(EKeys::E) || PC->WasInputKeyJustPressed(EKeys::LeftMouseButton))TryInteract();
   }
  }
  const float PreviousAngle=CurrentAngle;
@@ -282,11 +284,19 @@ int32 AStationDoor::HoveredKeypadButton(APlayerController* PC) const
 bool AStationDoor::BeginKeypadInteraction(APlayerController* PC)
 {
  if(bEnteringCode || bUsingKey || !bHasKeypad || !bLocked || !PC || !PC->IsLocalController() || !HasFocus(PC))return false;
- KeypadCamera->SetRelativeLocation(FVector(109.6,65,124));KeypadCamera->SetRelativeRotation((FVector(85.6,4.5,104.5)-FVector(109.6,65,124)).Rotation());KeypadCamera->SetFieldOfView(48);
+ KeypadCamera->SetRelativeLocation(FVector(109.6,65,124));KeypadCamera->SetRelativeRotation((FVector(85.6,4.5,104.5)-FVector(109.6,65,124)).Rotation());KeypadCamera->SetFieldOfView(KeypadCloseupFOV);
  EnteredCode.Empty();bCodeRejected=false;bEnteringCode=true;BeginCloseup(PC);return true;
 }
 void AStationDoor::BeginCloseup(APlayerController* PC)
 {
+ CloseupRestRotation=KeypadCamera->GetRelativeRotation();CloseupRestFOV=KeypadCamera->FieldOfView;PeekAmount=0.f;
+ // Measure both endpoints from the lock's face, not its oblique inspection view.
+ const USceneComponent* Face=bUsingKey?KeyLockRoot.Get():Hinge.Get();
+ const FVector Facing=Face->GetComponentTransform().TransformVectorNoScale(FVector(0,-1,0));
+ CloseupFacingYaw=Hinge->GetComponentTransform().InverseTransformVectorNoScale(Facing).Rotation().Yaw;
+ bPeekingAway=false;
+ // Release the entry key before peeking, so holding E to interact stays centred.
+ bPeekReady=!PC->IsInputKeyDown(EKeys::E) && !PC->IsInputKeyDown(EKeys::Q);
  KeypadController=PC;PreviousViewTarget=PC->GetViewTarget();PreviousPawn=PC->GetPawn();bPreviousMouseCursor=PC->bShowMouseCursor;
  PC->SetIgnoreMoveInput(true);PC->SetIgnoreLookInput(true);
  if(ACharacter* Character=Cast<ACharacter>(PreviousPawn.Get()))
@@ -300,6 +310,66 @@ void AStationDoor::BeginCloseup(APlayerController* PC)
  FInputModeGameAndUI Mode;Mode.SetHideCursorDuringCapture(false);Mode.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);PC->SetInputMode(Mode);PC->bShowMouseCursor=true;
  int32 Width,Height;PC->GetViewportSize(Width,Height);PC->SetMouseLocation(Width/2,Height/2);
  PC->SetViewTargetWithBlend(this,.35f,VTBlend_Cubic,0,true);Prompt->SetVisibility(false);
+}
+void AStationDoor::TickCloseupPeek(float Dt,APlayerController* PC)
+{
+ const bool bLeft=PC->IsInputKeyDown(EKeys::Q),bRight=PC->IsInputKeyDown(EKeys::E);
+ if(!bLeft && !bRight)bPeekReady=true;
+ const float Target=bPeekReady && KeypadBlendRemaining<=0?float(int32(bRight)-int32(bLeft)):0.f;
+ // Exponential easing is frame-rate independent; both keys held means centre.
+ PeekAmount=FMath::Lerp(PeekAmount,Target,1.f-FMath::Exp(-FMath::Max(1.f,PeekResponse)*Dt));
+ if(FMath::IsNearlyEqual(PeekAmount,Target,.001f))PeekAmount=Target;
+ FRotator Rotation=CloseupRestRotation;
+ Rotation.Yaw+=FMath::Abs(PeekAmount)*FMath::FindDeltaAngleDegrees(CloseupRestRotation.Yaw,CloseupFacingYaw)+PeekAmount*PeekYawDegrees;
+ Rotation.Roll+=PeekAmount*PeekRollDegrees;
+ KeypadCamera->SetRelativeRotation(Rotation);
+ KeypadCamera->SetFieldOfView(FMath::Lerp(CloseupRestFOV,FMath::Max(CloseupRestFOV,PeekFOV),FMath::Abs(PeekAmount)));
+ bPeekingAway=Target!=0.f || PeekAmount!=0.f;
+ PC->CurrentMouseCursor=bPeekingAway?EMouseCursor::None:EMouseCursor::Default;
+ if(bPeekingAway)
+ {
+  // A quick glance pauses mouse interaction until the camera returns to the lock.
+  bDraggingKey=false;bKeyMouseWasDown=PC->IsInputKeyDown(EKeys::LeftMouseButton);
+  if(!PeekBeam.IsValid() && PreviousPawn.IsValid())
+  {
+   if(USpotLightComponent* Beam=PreviousPawn->FindComponentByClass<USpotLightComponent>())
+   {
+    PeekBeam=Beam;PeekBeamParent=Beam->GetAttachParent();PeekBeamSocket=Beam->GetAttachSocketName();PeekBeamRest=Beam->GetRelativeTransform();
+    PeekPresentation=PreviousPawn->FindComponentByClass<UStationPlayerPresentationComponent>();
+    if(PeekPresentation.IsValid())PeekPresentation->SetPeekFocus(true);
+    Beam->AttachToComponent(KeypadCamera,FAttachmentTransformRules::SnapToTargetNotIncludingScale);
+    Beam->SetRelativeLocation(FVector(0,8,-6));
+    float X,Y;int32 Width,Height;PC->GetViewportSize(Width,Height);
+    PeekMouseOrigin=PC->GetMousePosition(X,Y)?FVector2D(X,Y):FVector2D(Width*.5f,Height*.5f);
+   }
+  }
+  if(USpotLightComponent* Beam=PeekBeam.Get())
+  {
+   FRotator Aim=FRotator::ZeroRotator;float X,Y;int32 Width,Height;PC->GetViewportSize(Width,Height);
+   if(Target!=0.f && Width>0 && Height>0 && PC->GetMousePosition(X,Y))
+   {
+    const FVector2D Offset=FVector2D(X,Y)-PeekMouseOrigin;
+    Aim=FRotator(-FMath::Clamp(float(Offset.Y)/(Height*.3f),-1.f,1.f)*18.f,FMath::Clamp(float(Offset.X)/(Width*.3f),-1.f,1.f)*24.f,0);
+   }
+   // Deliberately direct: no interpolation or hand lag on mouse aiming.
+   Beam->SetRelativeRotation(Aim);
+  }
+ }
+ else EndPeekBeam();
+ // Only the narrow torch beam lights a peek, never the broad lock inspection fill.
+ KeyInspectionLight->SetVisibility(bUsingKey && !bPeekingAway);
+}
+void AStationDoor::EndPeekBeam()
+{
+ if(USpotLightComponent* Beam=PeekBeam.Get())
+ {
+  if(USceneComponent* Parent=PeekBeamParent.Get())Beam->AttachToComponent(Parent,FAttachmentTransformRules::KeepRelativeTransform,PeekBeamSocket);
+  else Beam->DetachFromComponent(FDetachmentTransformRules::KeepRelativeTransform);
+  Beam->SetRelativeTransform(PeekBeamRest);
+  if(APlayerController* PC=KeypadController.Get())PC->SetMouseLocation(FMath::RoundToInt(PeekMouseOrigin.X),FMath::RoundToInt(PeekMouseOrigin.Y));
+ }
+ if(PeekPresentation.IsValid())PeekPresentation->SetPeekFocus(false);
+ PeekBeam.Reset();PeekBeamParent.Reset();PeekPresentation.Reset();
 }
 FVector AStationDoor::GetKeyGripWorldPosition(float Insertion) const
 {
@@ -317,7 +387,7 @@ bool AStationDoor::BeginKeyInteraction(APlayerController* PC)
  if(!ServiceKey->GetStaticMesh() || !KeyHousing->GetStaticMesh())return false;
  const FTransform T=KeyLockRoot->GetComponentTransform();
  const FVector Camera=T.TransformPosition(KeyCameraOffset);
- KeypadCamera->SetWorldLocation(Camera);KeypadCamera->SetWorldRotation((T.TransformPosition(FVector(0,6,0))-Camera).Rotation());KeypadCamera->SetFieldOfView(36);
+ KeypadCamera->SetWorldLocation(Camera);KeypadCamera->SetWorldRotation((T.TransformPosition(FVector(0,6,0))-Camera).Rotation());KeypadCamera->SetFieldOfView(KeyCloseupFOV);
  bUsingKey=true;bDraggingKey=false;bKeyMouseWasDown=false;KeyInsertion=0;KeyTurnElapsed=-1;UpdateKeyPose();ServiceKey->SetVisibility(true);KeyInspectionLight->SetVisibility(true);BeginCloseup(PC);return true;
 }
 void AStationDoor::TickKeyInteraction(float Dt,APlayerController* PC)
@@ -326,9 +396,10 @@ void AStationDoor::TickKeyInteraction(float Dt,APlayerController* PC)
  {EndKeypadInteraction(false);return;}
  if(!bKeyAvailable){EndKeypadInteraction(true);return;}
  KeypadBlendRemaining=FMath::Max(0.f,KeypadBlendRemaining-Dt);
- if(PC->WasInputKeyJustPressed(EKeys::E) || PC->WasInputKeyJustPressed(EKeys::Escape) || PC->WasInputKeyJustPressed(EKeys::RightMouseButton))
+ TickCloseupPeek(Dt,PC);
+ if(PC->WasInputKeyJustPressed(EKeys::Escape) || PC->WasInputKeyJustPressed(EKeys::RightMouseButton))
  {CancelKeypadInteraction();return;}
- ShowDoorHint(true,TEXT("Return to door"),KeyTurnElapsed>=0?TEXT("Turning key..."):TEXT("Hold the key and drag toward the lock"));
+ ShowDoorHint(true,TEXT("Return to door"),bPeekingAway?TEXT("Mouse: aim narrow beam   |   Release Q / E: return"):KeyTurnElapsed>=0?TEXT("Turning key...   |   Hold Q / E: peek   |   RMB: back"):TEXT("Drag key toward lock   |   Hold Q / E: peek   |   RMB: back"));
  if(KeypadBlendRemaining>0)return;
  if(KeyTurnElapsed>=0)
  {
@@ -338,20 +409,33 @@ void AStationDoor::TickKeyInteraction(float Dt,APlayerController* PC)
   if(KeyTurnElapsed>=1.25f)Unlock();
   return;
  }
+ if(bPeekingAway){PC->CurrentMouseCursor=EMouseCursor::None;return;}
  FVector2D Start,End,Grip;float MouseX,MouseY;
  if(!PC->GetMousePosition(MouseX,MouseY) || !PC->ProjectWorldLocationToScreen(GetKeyGripWorldPosition(0),Start) || !PC->ProjectWorldLocationToScreen(GetKeyGripWorldPosition(1),End) || !PC->ProjectWorldLocationToScreen(GetKeyGripWorldPosition(KeyInsertion),Grip))
  {bDraggingKey=false;bKeyMouseWasDown=false;return;}
  const FVector2D Mouse(MouseX,MouseY),Axis=End-Start;const float DistanceSquared=Axis.SizeSquared();if(DistanceSquared<1)return;
  int32 Width,Height;PC->GetViewportSize(Width,Height);
- const bool bOverKey=FVector2D::Distance(Mouse,Grip)<=FMath::Clamp(Height*.045f,22.f,55.f);
+ // Cover the entire visible key, with padding, rather than one tiny grip point.
+ FBox2D KeyRect(ForceInit);
+ const FBox KeyBounds=ServiceKey->Bounds.GetBox();
+ for(int32 Corner=0;Corner<8;++Corner)
+ {
+  const FVector Point((Corner&1)?KeyBounds.Max.X:KeyBounds.Min.X,(Corner&2)?KeyBounds.Max.Y:KeyBounds.Min.Y,(Corner&4)?KeyBounds.Max.Z:KeyBounds.Min.Z);
+  FVector2D Screen;if(PC->ProjectWorldLocationToScreen(Point,Screen))KeyRect+=Screen;
+ }
+ const float Padding=FMath::Clamp(Height*.03f,18.f,40.f);
+ const bool bOverKey=(KeyRect.bIsValid && KeyRect.ExpandBy(Padding).IsInside(Mouse))
+  || FVector2D::Distance(Mouse,Grip)<=FMath::Clamp(Height*.075f,36.f,90.f);
  const bool bDown=PC->IsInputKeyDown(EKeys::LeftMouseButton);
  PC->CurrentMouseCursor=bDraggingKey?EMouseCursor::GrabHandClosed:bOverKey?EMouseCursor::GrabHand:EMouseCursor::Default;
- if(bDown && !bKeyMouseWasDown && bOverKey){bDraggingKey=true;DragStartMouse=Mouse;DragStartInsertion=KeyInsertion;}
+ if(bDown && !bKeyMouseWasDown && bOverKey){bDraggingKey=true;LastDragMouse=Mouse;}
  if(!bDown)bDraggingKey=false;
  if(bDraggingKey)
  {
-  FVector2D StartGrip;PC->ProjectWorldLocationToScreen(GetKeyGripWorldPosition(DragStartInsertion),StartGrip);
-  const float ScreenFraction=FMath::Clamp(FVector2D::DotProduct(Mouse-DragStartMouse+StartGrip-Start,Axis)/DistanceSquared,0.f,1.f);
+  // Only mouse motion inserts the key. Reproject its current grip every frame
+  // so peeking (including the return) cannot insert or withdraw it by itself.
+  const float ScreenFraction=FMath::Clamp(FVector2D::DotProduct(Mouse-LastDragMouse+Grip-Start,Axis)/DistanceSquared,0.f,1.f);
+  LastDragMouse=Mouse;
   // Perspective makes equal world-space insertion steps unequal on screen.
   // Invert that projection so the bow remains under the player's grab point.
   FVector Eye;FRotator View;PC->GetPlayerViewPoint(Eye,View);
@@ -380,6 +464,7 @@ void AStationDoor::CancelKeypadInteraction()
 void AStationDoor::EndKeypadInteraction(bool bBlend)
 {
  if(!bEnteringCode && !bUsingKey)return;
+ EndPeekBeam();
  if(bUsingKey && EventAudio->Sound==KeyTurnSound)EventAudio->Stop();
  bEnteringCode=false;bUsingKey=false;bDraggingKey=false;bKeyMouseWasDown=false;KeyInsertion=0;KeyTurnElapsed=-1;UpdateKeyPose();ServiceKey->SetVisibility(false);KeyInspectionLight->SetVisibility(false);EnteredCode.Empty();Prompt->SetVisibility(false);
  if(APlayerController* PC=KeypadController.Get())
@@ -395,6 +480,8 @@ void AStationDoor::EndKeypadInteraction(bool bBlend)
  }
  for(auto& Mesh:HiddenPlayerMeshes)if(Mesh.IsValid())Mesh->SetHiddenInGame(false);
  HiddenPlayerMeshes.Empty();KeypadController.Reset();PreviousViewTarget.Reset();PreviousPawn.Reset();KeypadBlendRemaining=0;
+ PeekAmount=0.f;bPeekReady=false;KeypadCamera->SetRelativeRotation(CloseupRestRotation);KeypadCamera->SetFieldOfView(CloseupRestFOV);
+ bPeekingAway=false;
 }
 void AStationDoor::EndPlay(const EEndPlayReason::Type Reason)
 {
@@ -425,7 +512,7 @@ void AStationDoor::ShowDoorHint(bool bVisible,const FString& Action,const FStrin
      +SHorizontalBox::Slot().AutoWidth().VAlign(VAlign_Center).Padding(0,0,15,0)
      [SNew(SBox).WidthOverride(40).HeightOverride(40)
       [SNew(SBorder).BorderImage(&Key).HAlign(HAlign_Center).VAlign(VAlign_Center)
-       [SNew(STextBlock).Text(FText::FromString(TEXT("E"))).Font(FCoreStyle::GetDefaultFontStyle("Bold",20)).ColorAndOpacity(Ink)]]]
+       [SAssignNew(HintKey,STextBlock).Text(FText::FromString(TEXT("E"))).Font(FCoreStyle::GetDefaultFontStyle("Bold",20)).ColorAndOpacity(Ink)]]]
      +SHorizontalBox::Slot().AutoWidth().VAlign(VAlign_Center)
      [SNew(SVerticalBox)
       +SVerticalBox::Slot().AutoHeight()[SAssignNew(HintAction,STextBlock).Font(FCoreStyle::GetDefaultFontStyle("Bold",17)).ColorAndOpacity(StationInteractionStyle::Action)]
@@ -449,6 +536,6 @@ void AStationDoor::ShowDoorHint(bool bVisible,const FString& Action,const FStrin
  if(HintWidget.IsValid())
  {
   HintWidget->SetVisibility(bVisible?EVisibility::HitTestInvisible:EVisibility::Collapsed);
-  if(bVisible){HintAction->SetText(FText::FromString(Action));HintDetail->SetText(FText::FromString(Detail));}
+  if(bVisible){HintKey->SetText(FText::FromString(bUsingKey || bEnteringCode?TEXT("Esc"):TEXT("E")));HintAction->SetText(FText::FromString(Action));HintDetail->SetText(FText::FromString(Detail));}
  }
 }

@@ -4,6 +4,11 @@
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
 *.TGA filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
 *.sh text eol=lf
 art/blender/gondola_cabin_01/previews/*.png filter=lfs diff=lfs merge=lfs -text
 art/unreal_handoff/revision12/gondola_cabin/**/*.png filter=lfs diff=lfs merge=lfs -text
@@ -14,11 +19,9 @@ art/blender/pylon_study_*/previews/*.png filter=lfs diff=lfs merge=lfs -text
 art/unreal_handoff/revision12/textures/*.png filter=lfs diff=lfs merge=lfs -text
 art/unreal_handoff/revision12/textures/*.exr filter=lfs diff=lfs merge=lfs -text
 docs/design/references/*.pdf filter=lfs diff=lfs merge=lfs -text
-
 art/blender/terminal_drive_study_01/*.png filter=lfs diff=lfs merge=lfs -text
 art/unreal_handoff/revision12/gondola_route/**/*.png filter=lfs diff=lfs merge=lfs -text
 game/Content/UI/Menu/*.png filter=lfs diff=lfs merge=lfs -text
-
 art/audio/gondola_drive/originals/*.mp3 filter=lfs diff=lfs merge=lfs -text
 art/audio/gondola_drive/wav/*.wav filter=lfs diff=lfs merge=lfs -text
 art/unreal_handoff/revision12/gondola_mechanism/**/*.png filter=lfs diff=lfs merge=lfs -text
@@ -26,4 +29,5 @@ art/unreal_handoff/revision12/gondola_mechanism/**/*.wav filter=lfs diff=lfs mer
 art/unreal_handoff/revision12/gondola_mechanism/*.gif filter=lfs diff=lfs merge=lfs -text
 art/blender/gondola_status_sign_01/previews/*.png filter=lfs diff=lfs merge=lfs -text
 art/unreal_handoff/revision12/gondola_sign/**/*.png filter=lfs diff=lfs merge=lfs -text
+art/unreal_handoff/revision12/parking_navigation/**/*.png filter=lfs diff=lfs merge=lfs -text
 art/blender/gondola_status_sign_02/previews/*.png filter=lfs diff=lfs merge=lfs -text

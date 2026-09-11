@@ -1,0 +1,50 @@
+{
+  "saved": true,
+  "centre_world": [
+    -41110.430974972965,
+    13837.988799061975,
+    9836.275681026638
+  ],
+  "side": [
+    0.9387812636945116,
+    -0.34451377176556536,
+    0.0
+  ],
+  "forward": [
+    0.34451377176556536,
+    0.9387812636945116,
+    0.0
+  ],
+  "path_index": 28,
+  "ground_world_z": 9836.275681026638,
+  "base_world_z": 9836.275681026638,
+  "tree_ground_world_z": [
+    9825.198839703227,
+    9832.082325604955
+  ],
+  "crossing": "/Game/MaldekRefinement/R12/Station_R12.Station_R12:PersistentLevel.StationPoliceTape_0",
+  "perimeter": [
+    "PoliceTape_Perimeter_0_0",
+    "PoliceTape_Perimeter_0_1",
+    "PoliceTape_Perimeter_0_2",
+    "PoliceTape_Perimeter_1_0",
+    "PoliceTape_Perimeter_1_1",
+    "PoliceTape_Perimeter_1_2"
+  ],
+  "wraps": [
+    "PoliceTape_Wrap_0_0",
+    "PoliceTape_Wrap_0_1",
+    "PoliceTape_Wrap_0_2",
+    "PoliceTape_Wrap_1_0",
+    "PoliceTape_Wrap_1_1",
+    "PoliceTape_Wrap_1_2",
+    "PoliceTape_PerimeterWrap_0_0",
+    "PoliceTape_PerimeterWrap_0_1",
+    "PoliceTape_PerimeterWrap_0_2",
+    "PoliceTape_PerimeterWrap_1_0",
+    "PoliceTape_PerimeterWrap_1_1",
+    "PoliceTape_PerimeterWrap_1_2"
+  ],
+  "segment_bounds": "<Struct 'BoxSphereBounds' (0x000001914F54FC80) {origin: {x: 50.000000, y: -0.000004, z: 0.000000}, box_extent: {x: 50.000000, y: 0.000004, z: 3.810000}, sphere_radius: 50.144951}>",
+  "material": "/Game/MaldekRefinement/R12/PoliceTape/M_PoliceTape.M_PoliceTape"
+}

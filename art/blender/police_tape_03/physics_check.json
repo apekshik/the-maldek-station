@@ -1,0 +1,59 @@
+{
+  "anchors": [
+    [
+      [
+        -1.59,
+        -0.008,
+        0.97
+      ],
+      [
+        1.59,
+        -0.008,
+        1.72
+      ]
+    ],
+    [
+      [
+        -1.59,
+        0.008,
+        1.71
+      ],
+      [
+        1.59,
+        0.008,
+        0.98
+      ]
+    ],
+    [
+      [
+        -1.59,
+        0.0,
+        1.24
+      ],
+      [
+        1.59,
+        0.0,
+        1.4
+      ]
+    ]
+  ],
+  "break_frames": [
+    59,
+    58,
+    58
+  ],
+  "retreat_break_frames": [
+    null,
+    null,
+    null
+  ],
+  "idle_break_frames": [
+    null,
+    null,
+    null
+  ],
+  "contact_projections": 212701,
+  "max_difference_from_contact_disabled_m": 0.41424813155913787,
+  "max_link_error_m": 0.0053888150937274615,
+  "limitation": "Anisotropic centreline contact proxies; no full surface friction or continuous cloth collision."
+}

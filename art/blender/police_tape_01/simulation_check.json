@@ -1,0 +1,8 @@
+{
+  "forward_break_frame": 59,
+  "retreat_break_frame": null,
+  "anchors_fixed": true,
+  "finite_positions": true,
+  "max_segment_error_m": 0.0050887367249408885,
+  "frame_count": 144
+}

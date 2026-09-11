@@ -1,0 +1,2413 @@
+{
+  "units": "metres",
+  "status": "Blender-authored recipes, engine collision not built or tested",
+  "boxes": [
+    {
+      "source_mesh": "WSP_Door_leaf",
+      "shape": "box",
+      "attach_to": "WSP_Door_hinge",
+      "centre_in_attach_space": [
+        -0.005000114440917969,
+        0.6700000762939453,
+        1.1169999837875366
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.05400000140070915,
+        1.350000023841858,
+        2.2260000705718994
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shutter_panel_0",
+      "shape": "box",
+      "attach_to": "WSP_Shutter_0_hinge",
+      "centre_in_attach_space": [
+        -0.01399993896484375,
+        0.3019998073577881,
+        0.4249999523162842
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.032999999821186066,
+        0.5979999899864197,
+        0.8519999980926514
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shutter_panel_1",
+      "shape": "box",
+      "attach_to": "WSP_Shutter_1_hinge",
+      "centre_in_attach_space": [
+        -0.01399993896484375,
+        -0.3020000457763672,
+        0.4249999523162842
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.032999999821186066,
+        0.5979999899864197,
+        0.8519999980926514
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Counter_top",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        5.079999923706055,
+        3.950000047683716,
+        0.9300000071525574
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2400000095367432,
+        1.399999976158142,
+        0.06499999761581421
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Counter_end",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        5.179999828338623,
+        3.309999942779541,
+        0.46000000834465027
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.9599999785423279,
+        0.054999999701976776,
+        0.8700000047683716
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Counter_end.001",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        5.179999828338623,
+        4.590000152587891,
+        0.46000000834465027
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.9599999785423279,
+        0.054999999701976776,
+        0.8700000047683716
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Counter_public_apron",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        5.619999885559082,
+        3.950000047683716,
+        0.5799999833106995
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.04500000178813934,
+        1.2200000286102295,
+        0.5899999737739563
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Drawer_bottom",
+      "shape": "box",
+      "attach_to": "WSP_Clerk_drawer_slide",
+      "centre_in_attach_space": [
+        0.09000015258789062,
+        -0.029999971389770508,
+        -0.042999982833862305
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.75,
+        0.5,
+        0.026000000536441803
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Drawer_side",
+      "shape": "box",
+      "attach_to": "WSP_Clerk_drawer_slide",
+      "centre_in_attach_space": [
+        0.09000015258789062,
+        -0.28999996185302734,
+        0.030000030994415283
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.75,
+        0.027000000700354576,
+        0.11999999731779099
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Drawer_side.001",
+      "shape": "box",
+      "attach_to": "WSP_Clerk_drawer_slide",
+      "centre_in_attach_space": [
+        0.09000015258789062,
+        0.23000001907348633,
+        0.030000030994415283
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.75,
+        0.027000000700354576,
+        0.11999999731779099
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Drawer_front_back",
+      "shape": "box",
+      "attach_to": "WSP_Clerk_drawer_slide",
+      "centre_in_attach_space": [
+        -0.3000001907348633,
+        -0.029999971389770508,
+        0.030000030994415283
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.027000000700354576,
+        0.5400000214576721,
+        0.15000000596046448
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Drawer_front_back.001",
+      "shape": "box",
+      "attach_to": "WSP_Clerk_drawer_slide",
+      "centre_in_attach_space": [
+        0.48000001907348633,
+        -0.029999971389770508,
+        0.030000030994415283
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.027000000700354576,
+        0.5400000214576721,
+        0.15000000596046448
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Rack_upright",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.33000001311302185,
+        0.4300000071525574,
+        1.159999966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.06499999761581421,
+        0.06499999761581421,
+        2.2200000286102295
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Rack_upright.001",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.949999988079071,
+        0.4300000071525574,
+        1.159999966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.06499999761581421,
+        0.06499999761581421,
+        2.2200000286102295
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Rack_upright.002",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.33000001311302185,
+        1.4700000286102295,
+        1.159999966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.06499999761581421,
+        0.06499999761581421,
+        2.2200000286102295
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Rack_upright.003",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.949999988079071,
+        1.4700000286102295,
+        1.159999966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.06499999761581421,
+        0.06499999761581421,
+        2.2200000286102295
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Rack_upright.004",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.33000001311302185,
+        2.509999990463257,
+        1.159999966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.06499999761581421,
+        0.06499999761581421,
+        2.2200000286102295
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Rack_upright.005",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.949999988079071,
+        2.509999990463257,
+        1.159999966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.06499999761581421,
+        0.06499999761581421,
+        2.2200000286102295
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Rack_upright.006",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.33000001311302185,
+        3.549999952316284,
+        1.159999966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.06499999761581421,
+        0.06499999761581421,
+        2.2200000286102295
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Rack_upright.007",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.949999988079071,
+        3.549999952316284,
+        1.159999966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.06499999761581421,
+        0.06499999761581421,
+        2.2200000286102295
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Rack_upright.008",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.33000001311302185,
+        4.590000152587891,
+        1.159999966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.06499999761581421,
+        0.06499999761581421,
+        2.2200000286102295
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Rack_upright.009",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.949999988079071,
+        4.590000152587891,
+        1.159999966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.06499999761581421,
+        0.06499999761581421,
+        2.2200000286102295
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_0_0",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        0.949999988079071,
+        0.25
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        0.5299999713897705,
+        0.21250000596046448
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.001",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        1.3700000047683716,
+        0.21250000596046448
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_0_1",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        1.9900000095367432,
+        0.25
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.002",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        1.5700000524520874,
+        0.21250000596046448
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.003",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        2.4100000858306885,
+        0.21250000596046448
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_0_2",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        3.0299999713897705,
+        0.25
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.004",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        2.609999895095825,
+        0.21250000596046448
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.005",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        3.450000047683716,
+        0.21250000596046448
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_0_3",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        4.070000171661377,
+        0.25
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.006",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        3.6500000953674316,
+        0.21250000596046448
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.007",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        4.489999771118164,
+        0.21250000596046448
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_1_0",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        0.949999988079071,
+        0.8799999952316284
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.008",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        0.5299999713897705,
+        0.8424999713897705
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.009",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        1.3700000047683716,
+        0.8424999713897705
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_1_1",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        1.9900000095367432,
+        0.8799999952316284
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.010",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        1.5700000524520874,
+        0.8424999713897705
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.011",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        2.4100000858306885,
+        0.8424999713897705
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_1_2",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        3.0299999713897705,
+        0.8799999952316284
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.012",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        2.609999895095825,
+        0.8424999713897705
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.013",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        3.450000047683716,
+        0.8424999713897705
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_1_3",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        4.070000171661377,
+        0.8799999952316284
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.014",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        3.6500000953674316,
+        0.8424999713897705
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.015",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        4.489999771118164,
+        0.8424999713897705
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_2_0",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        0.949999988079071,
+        1.5099999904632568
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.016",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        0.5299999713897705,
+        1.472499966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.017",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        1.3700000047683716,
+        1.472499966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_2_1",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        1.9900000095367432,
+        1.5099999904632568
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.018",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        1.5700000524520874,
+        1.472499966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.019",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        2.4100000858306885,
+        1.472499966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_2_2",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        3.0299999713897705,
+        1.5099999904632568
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.020",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        2.609999895095825,
+        1.472499966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.021",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        3.450000047683716,
+        1.472499966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_2_3",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        4.070000171661377,
+        1.5099999904632568
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.022",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        3.6500000953674316,
+        1.472499966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.023",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        4.489999771118164,
+        1.472499966621399
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_3_0",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        0.949999988079071,
+        2.140000104904175
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.024",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        0.5299999713897705,
+        2.1024999618530273
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.025",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        1.3700000047683716,
+        2.1024999618530273
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_3_1",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        1.9900000095367432,
+        2.140000104904175
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.026",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        1.5700000524520874,
+        2.1024999618530273
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.027",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        2.4100000858306885,
+        2.1024999618530273
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_3_2",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        3.0299999713897705,
+        2.140000104904175
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.028",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        2.609999895095825,
+        2.1024999618530273
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.029",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        3.450000047683716,
+        2.1024999618530273
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_3_3",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6399999856948853,
+        4.070000171661377,
+        2.140000104904175
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6800000071525574,
+        0.9649999737739563,
+        0.04500000178813934
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.030",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        3.6500000953674316,
+        2.1024999618530273
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Shelf_angle.031",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        0.6299999952316284,
+        4.489999771118164,
+        2.1024999618530273
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.6299999952316284,
+        0.027000000700354576,
+        0.029999999329447746
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_side",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        1.4800000190734863,
+        0.5899999737739563,
+        1.0199999809265137
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.05000000074505806,
+        0.5799999833106995,
+        1.940000057220459
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_side.001",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        2.9200000762939453,
+        0.5899999737739563,
+        1.0199999809265137
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.05000000074505806,
+        0.5799999833106995,
+        1.940000057220459
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_back",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        2.200000047683716,
+        0.3149999976158142,
+        1.0199999809265137
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.3899999856948853,
+        0.029999999329447746,
+        1.940000057220459
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_shelf",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        2.200000047683716,
+        0.6000000238418579,
+        0.07999999821186066
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.3899999856948853,
+        0.5400000214576721,
+        0.032999999821186066
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_shelf.001",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        2.200000047683716,
+        0.6000000238418579,
+        0.6499999761581421
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.3899999856948853,
+        0.5400000214576721,
+        0.032999999821186066
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_shelf.002",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        2.200000047683716,
+        0.6000000238418579,
+        1.2400000095367432
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.3899999856948853,
+        0.5400000214576721,
+        0.032999999821186066
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_shelf.003",
+      "shape": "box",
+      "attach_to": "assembly_origin",
+      "centre_in_attach_space": [
+        2.200000047683716,
+        0.6000000238418579,
+        1.9700000286102295
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.3899999856948853,
+        0.5400000214576721,
+        0.032999999821186066
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_base",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_1_slide",
+      "centre_in_attach_space": [
+        0.0,
+        -0.010000050067901611,
+        0.015000000596046448
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2699999809265137,
+        0.47999998927116394,
+        0.02500000037252903
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_side",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_1_slide",
+      "centre_in_attach_space": [
+        -0.6400001049041748,
+        -0.010000050067901611,
+        0.06399999558925629
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.01600000075995922,
+        0.47999998927116394,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_side.001",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_1_slide",
+      "centre_in_attach_space": [
+        0.6399998664855957,
+        -0.010000050067901611,
+        0.06399999558925629
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.01600000075995922,
+        0.47999998927116394,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_lip",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_1_slide",
+      "centre_in_attach_space": [
+        0.0,
+        -0.25700002908706665,
+        0.06399999558925629
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2960000038146973,
+        0.014000000432133675,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_lip.001",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_1_slide",
+      "centre_in_attach_space": [
+        0.0,
+        0.2369999885559082,
+        0.06399999558925629
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2960000038146973,
+        0.014000000432133675,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_base.001",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_2_slide",
+      "centre_in_attach_space": [
+        0.0,
+        -0.010000050067901611,
+        0.014999985694885254
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2699999809265137,
+        0.47999998927116394,
+        0.02500000037252903
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_side.002",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_2_slide",
+      "centre_in_attach_space": [
+        -0.6400001049041748,
+        -0.010000050067901611,
+        0.06400001049041748
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.01600000075995922,
+        0.47999998927116394,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_side.003",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_2_slide",
+      "centre_in_attach_space": [
+        0.6399998664855957,
+        -0.010000050067901611,
+        0.06400001049041748
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.01600000075995922,
+        0.47999998927116394,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_lip.002",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_2_slide",
+      "centre_in_attach_space": [
+        0.0,
+        -0.25700002908706665,
+        0.06400001049041748
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2960000038146973,
+        0.014000000432133675,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_lip.003",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_2_slide",
+      "centre_in_attach_space": [
+        0.0,
+        0.2369999885559082,
+        0.06400001049041748
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2960000038146973,
+        0.014000000432133675,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_base.002",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_3_slide",
+      "centre_in_attach_space": [
+        0.0,
+        -0.010000050067901611,
+        0.014999985694885254
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2699999809265137,
+        0.47999998927116394,
+        0.02500000037252903
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_side.004",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_3_slide",
+      "centre_in_attach_space": [
+        -0.6400001049041748,
+        -0.010000050067901611,
+        0.06400001049041748
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.01600000075995922,
+        0.47999998927116394,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_side.005",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_3_slide",
+      "centre_in_attach_space": [
+        0.6399998664855957,
+        -0.010000050067901611,
+        0.06400001049041748
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.01600000075995922,
+        0.47999998927116394,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_lip.004",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_3_slide",
+      "centre_in_attach_space": [
+        0.0,
+        -0.25700002908706665,
+        0.06400001049041748
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2960000038146973,
+        0.014000000432133675,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Tray_lip.005",
+      "shape": "box",
+      "attach_to": "WSP_Secure_tray_3_slide",
+      "centre_in_attach_space": [
+        0.0,
+        0.2369999885559082,
+        0.06400001049041748
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2960000038146973,
+        0.014000000432133675,
+        0.10000000149011612
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_door_stile",
+      "shape": "box",
+      "attach_to": "WSP_Secure_door_hinge",
+      "centre_in_attach_space": [
+        0.019999980926513672,
+        0.0,
+        0.949999988079071
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.03500000014901161,
+        0.03999999910593033,
+        1.899999976158142
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_door_stile.001",
+      "shape": "box",
+      "attach_to": "WSP_Secure_door_hinge",
+      "centre_in_attach_space": [
+        1.3599998950958252,
+        0.0,
+        0.949999988079071
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.03500000014901161,
+        0.03999999910593033,
+        1.899999976158142
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_door_rail",
+      "shape": "box",
+      "attach_to": "WSP_Secure_door_hinge",
+      "centre_in_attach_space": [
+        0.690000057220459,
+        0.0,
+        0.015000000596046448
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.309999942779541,
+        0.03999999910593033,
+        0.03500000014901161
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Secure_door_rail.001",
+      "shape": "box",
+      "attach_to": "WSP_Secure_door_hinge",
+      "centre_in_attach_space": [
+        0.690000057220459,
+        0.0,
+        1.8849999904632568
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        1.309999942779541,
+        0.03999999910593033,
+        0.03500000014901161
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    },
+    {
+      "source_mesh": "WSP_Trolley_deck",
+      "shape": "box",
+      "attach_to": "WSP_Trolley_root",
+      "centre_in_attach_space": [
+        0.0,
+        0.0,
+        0.23000000417232513
+      ],
+      "rotation_quaternion_wxyz": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.7200000286102295,
+        1.100000023841858,
+        0.054999999701976776
+      ],
+      "purpose": "Preliminary physical blocking; retain actual empty structural volumes"
+    }
+  ],
+  "sweeps": {
+    "WSP_Door_hinge": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          4.404623985290527,
+          1.0959999561309814,
+          0.023999929428100586
+        ],
+        [
+          5.822000026702881,
+          2.5251669883728027,
+          2.25
+        ]
+      ]
+    },
+    "WSP_Door_latch_pivot": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          4.532627105712891,
+          1.0959999561309814,
+          0.9544286727905273
+        ],
+        [
+          5.822000026702881,
+          2.392277479171753,
+          1.0320000648498535
+        ]
+      ]
+    },
+    "WSP_Door_key_cylinder": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          4.515415191650391,
+          1.1170001029968262,
+          0.8489015102386475
+        ],
+        [
+          5.797999858856201,
+          2.413755416870117,
+          0.9110984802246094
+        ]
+      ]
+    },
+    "WSP_Clerk_drawer_slide": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          4.2779998779296875,
+          3.36650013923645,
+          0.7039999961853027
+        ],
+        [
+          5.493500232696533,
+          3.9135000705718994,
+          0.8650000095367432
+        ]
+      ]
+    },
+    "WSP_Secure_door_hinge": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          1.4484999179840088,
+          0.8745929598808289,
+          0.07750000059604645
+        ],
+        [
+          2.8876426219940186,
+          2.2776424884796143,
+          1.9825000762939453
+        ]
+      ]
+    },
+    "WSP_Shutter_0_hinge": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          5.138232707977295,
+          3.2075002193450928,
+          1.0989999771118164
+        ],
+        [
+          5.742499828338623,
+          3.886004686355591,
+          1.9509999752044678
+        ]
+      ]
+    },
+    "WSP_Shutter_1_hinge": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          5.138232707977295,
+          3.913994789123535,
+          1.0989999771118164
+        ],
+        [
+          5.742499828338623,
+          4.592499732971191,
+          1.9509999752044678
+        ]
+      ]
+    },
+    "WSP_Secure_tray_1_slide": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          1.5519999265670776,
+          0.335999995470047,
+          0.11249999701976776
+        ],
+        [
+          2.8480000495910645,
+          1.093999981880188,
+          0.2239999920129776
+        ]
+      ]
+    },
+    "WSP_Secure_tray_2_slide": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          1.5519999265670776,
+          0.335999995470047,
+          0.6825000047683716
+        ],
+        [
+          2.8480000495910645,
+          1.093999981880188,
+          0.7940000295639038
+        ]
+      ]
+    },
+    "WSP_Secure_tray_3_slide": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          1.5519999265670776,
+          0.335999995470047,
+          1.272499918937683
+        ],
+        [
+          2.8480000495910645,
+          1.093999981880188,
+          1.3839999437332153
+        ]
+      ]
+    },
+    "WSP_Caster_swivel": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          3.2251152992248535,
+          0.24511533975601196,
+          -0.026675613597035408
+        ],
+        [
+          3.4548845291137695,
+          0.47488468885421753,
+          0.21199999749660492
+        ]
+      ]
+    },
+    "WSP_Wheel_axle": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          3.2251152992248535,
+          0.24511533975601196,
+          -0.026675613597035408
+        ],
+        [
+          3.4548845291137695,
+          0.47488468885421753,
+          0.1966756135225296
+        ]
+      ]
+    },
+    "WSP_Caster_swivel.001": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          3.2251152992248535,
+          1.2451152801513672,
+          -0.026675613597035408
+        ],
+        [
+          3.4548845291137695,
+          1.4748847484588623,
+          0.21199999749660492
+        ]
+      ]
+    },
+    "WSP_Wheel_axle.001": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          3.2251152992248535,
+          1.2451152801513672,
+          -0.026675613597035408
+        ],
+        [
+          3.4548845291137695,
+          1.4748847484588623,
+          0.1966756135225296
+        ]
+      ]
+    },
+    "WSP_Caster_swivel.002": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          3.8651154041290283,
+          0.24511533975601196,
+          -0.026675613597035408
+        ],
+        [
+          4.094884872436523,
+          0.47488468885421753,
+          0.21199999749660492
+        ]
+      ]
+    },
+    "WSP_Wheel_axle.002": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          3.8651154041290283,
+          0.24511533975601196,
+          -0.026675613597035408
+        ],
+        [
+          4.094884872436523,
+          0.47488468885421753,
+          0.1966756135225296
+        ]
+      ]
+    },
+    "WSP_Caster_swivel.003": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          3.8651154041290283,
+          1.2451152801513672,
+          -0.026675613597035408
+        ],
+        [
+          4.094884872436523,
+          1.4748847484588623,
+          0.21199999749660492
+        ]
+      ]
+    },
+    "WSP_Wheel_axle.003": {
+      "sampled_frames": 40,
+      "bounds": [
+        [
+          3.8651154041290283,
+          1.2451152801513672,
+          -0.026675613597035408
+        ],
+        [
+          4.094884872436523,
+          1.4748847484588623,
+          0.1966756135225296
+        ]
+      ]
+    }
+  },
+  "excluded": "Small hinge barrels, latches, tags, scale ticks, loose pencils, wire strands and text remain visual/aimable; do not box-fill open shelving or wire cabinet. Secure door frame boxes do not prevent tiny items passing wire; add a thin interaction-only plane for gameplay if required."
+}

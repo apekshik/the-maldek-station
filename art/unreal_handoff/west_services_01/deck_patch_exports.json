@@ -1,0 +1,86 @@
+[
+  {
+    "old": "SM_Lodge_Deck_000",
+    "new": "SM_WS_Lodge_Deck_000",
+    "materials": [
+      "VF06_Structural_steel",
+      "VF06_Petrol_paint"
+    ],
+    "old_materials": [
+      "VF06_Structural_steel",
+      "VF06_Petrol_paint"
+    ],
+    "retired": [
+      "PL02_Perimeter_0_post",
+      "PL02_Perimeter_0_post.001",
+      "PL02_Perimeter_0_post.002",
+      "PL02_Perimeter_0_post.003",
+      "PL02_Perimeter_0_post.004"
+    ],
+    "preserved": [
+      "PL02_Support",
+      "PL02_Support.004",
+      "PL02_Rear_West_bar",
+      "PL02_Rear_West_bar.001",
+      "PL02_Rear_West_post",
+      "PL02_Rear_West_post.001",
+      "PL02_Rear_West_post.002",
+      "PL02_Rear_West_post.003",
+      "PL02_Rear_West_post.004"
+    ]
+  },
+  {
+    "old": "SM_Lodge_Deck_001",
+    "new": "SM_WS_Lodge_Deck_001",
+    "materials": [
+      "VF06_Structural_steel"
+    ],
+    "old_materials": [
+      "VF06_Structural_steel",
+      "VF06_Petrol_paint"
+    ],
+    "retired": [
+      "PL02_Perimeter_0_bar",
+      "PL02_Perimeter_0_bar.001",
+      "PL02_Perimeter_0_post.005",
+      "PL02_Perimeter_0_post.006",
+      "PL02_Perimeter_0_post.007",
+      "PL02_Perimeter_0_post.008",
+      "PL02_Perimeter_0_post.009",
+      "PL02_Perimeter_0_post.010"
+    ],
+    "preserved": [
+      "PL02_Support.001",
+      "PL02_Support.005"
+    ]
+  },
+  {
+    "old": "SM_Lodge_Deck_002",
+    "new": "SM_WS_Lodge_Deck_002",
+    "materials": [
+      "VF06_Structural_steel",
+      "VF06_Petrol_paint"
+    ],
+    "old_materials": [
+      "VF06_Structural_steel",
+      "VF06_Petrol_paint"
+    ],
+    "retired": [
+      "PL02_Perimeter_0_post.011",
+      "PL02_Perimeter_0_post.012",
+      "PL02_Perimeter_0_post.013",
+      "PL02_Perimeter_0_post.014",
+      "PL02_Perimeter_0_post.015"
+    ],
+    "preserved": [
+      "PL02_Support.002",
+      "PL02_Support.003",
+      "PL02_Support.006",
+      "PL02_Support.007",
+      "PL02_Perimeter_1_post",
+      "PL02_Perimeter_1_post.001",
+      "PL02_Perimeter_1_post.002",
+      "PL02_Perimeter_1_post.003"
+    ]
+  }
+]

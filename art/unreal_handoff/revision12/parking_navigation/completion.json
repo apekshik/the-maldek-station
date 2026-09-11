@@ -1,0 +1,28 @@
+{
+  "complete": true,
+  "saved_and_reopened": true,
+  "level": "/Game/MaldekRefinement/R12/Station_R12",
+  "opening_width_m": 3.2,
+  "walking_tests_passed": 8,
+  "walking_tests_total": 8,
+  "maximum_airborne_seconds": 0,
+  "terrain_clearance_samples": 51,
+  "minimum_terrain_clearance_m": 0.04167162738765917,
+  "review_images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking_navigation\\final\\spawn_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking_navigation\\final\\entrance_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking_navigation\\final\\spawn_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking_navigation\\final\\entrance_inspection.png"
+  ],
+  "temporary_light_removed": true,
+  "preserved": [
+    "PlayerStart",
+    "FR_Parked_Hatchback",
+    "FR_Parked_Pickup",
+    "VF10_Parking_Ground"
+  ],
+  "delivery_sha256": {
+    "SM_Parking_Navigation_Furniture.fbx": "84ec5fd7ec9d087c44cbc781de4ad9a15149f322556ce1ae5e6e7a464775fa45",
+    "SM_Parking_Navigation_Path.fbx": "94bb4cc6eaf872fa22fe3a222ac5b7b789385edd1511b5a29da5df59ff961f22"
+  }
+}

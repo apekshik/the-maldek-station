@@ -1,0 +1,313 @@
+{
+  "world": "/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration",
+  "actors": [
+    {
+      "name": "PlayerStart",
+      "class": "PlayerStart",
+      "location": [
+        -40782.305974972965,
+        12424.707549061975,
+        9908.5
+      ],
+      "rotation": [
+        0.0,
+        89.99999999999999,
+        0.0
+      ]
+    },
+    {
+      "name": "R04_01_Upper_Platform",
+      "class": "StaticMeshActor",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "name": "R04_11_Doors_Door_Control_Platform",
+      "class": "StaticMeshActor",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "name": "R07_TestLight_Main_Platform_West",
+      "class": "SpotLight",
+      "location": [
+        -44830.0,
+        18560.0,
+        10565.0
+      ],
+      "rotation": [
+        -25.31901446672623,
+        97.12501634890182,
+        3.2175523971045755e-07
+      ]
+    },
+    {
+      "name": "R07_TestLight_Main_Platform_East",
+      "class": "SpotLight",
+      "location": [
+        -43600.0,
+        18540.0,
+        10565.0
+      ],
+      "rotation": [
+        -27.191678647322775,
+        101.0937230115579,
+        3.578563584101335e-07
+      ]
+    },
+    {
+      "name": "R12_Door_Relay_north",
+      "class": "BP_StationDoor_Keypad_C",
+      "location": [
+        -49141.890447022655,
+        19978.207549061975,
+        10198.64406779661
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "R12_Door_Relay_south",
+      "class": "BP_StationDoor_Keypad_C",
+      "location": [
+        -49022.721502923276,
+        19571.207549061975,
+        10198.64406779661
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "name": "R12_Door_Control_front",
+      "class": "BP_StationDoor_Standard_C",
+      "location": [
+        -44016.905974972964,
+        18478.207549061975,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "R12_Door_Control_side",
+      "class": "BP_StationDoor_Standard_C",
+      "location": [
+        -43478.805974972965,
+        18224.307549061974,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        -90.00000000000001,
+        0.0
+      ]
+    },
+    {
+      "name": "R12_Door_Quarters",
+      "class": "BP_StationDoor_Standard_C",
+      "location": [
+        -44017.74479484874,
+        18028.207549061975,
+        10663.64406779661
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "name": "R12_Door_Generator_south",
+      "class": "BP_StationDoor_Standard_C",
+      "location": [
+        -47152.65939112203,
+        16578.207549061975,
+        9797.328305084746
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "name": "R12_Door_Generator_west",
+      "class": "BP_StationDoor_Standard_C",
+      "location": [
+        -46978.805974972965,
+        17059.369660863216,
+        9797.328305084746
+      ],
+      "rotation": [
+        0.0,
+        -90.00000000000001,
+        0.0
+      ]
+    },
+    {
+      "name": "R12_Door_Workshop_shared",
+      "class": "BP_StationDoor_Standard_C",
+      "location": [
+        -47985.805974972965,
+        16845.060965211043,
+        9797.328305084746
+      ],
+      "rotation": [
+        0.0,
+        89.99999999999999,
+        0.0
+      ]
+    },
+    {
+      "name": "MIG_PLD_ARRIVAL",
+      "class": "StationDoor",
+      "location": [
+        -42638.305921567204,
+        17742.907565083704,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "MIG_PLD_GONDOLA",
+      "class": "StationDoor",
+      "location": [
+        -42638.305921567204,
+        18848.107545819483,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "MIG_PLD_STAFF",
+      "class": "StationDoor",
+      "location": [
+        -42384.10593987775,
+        17368.707507100306,
+        10298.5
+      ],
+      "rotation": [
+        0.0,
+        89.99999999999999,
+        0.0
+      ]
+    },
+    {
+      "name": "MIG_PLR_Women_Entry",
+      "class": "StationDoor",
+      "location": [
+        -42962.1060085423,
+        17549.507563557825,
+        10300.499998092651
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "name": "MIG_PLR_Men_Entry",
+      "class": "StationDoor",
+      "location": [
+        -43162.1060085423,
+        17549.507563557825,
+        10300.499998092651
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "name": "MIG_PLR_Women_A",
+      "class": "StationDoor",
+      "location": [
+        -42716.305990231755,
+        17341.90754219552,
+        10313.500009536743
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "name": "MIG_PLR_Women_B",
+      "class": "StationDoor",
+      "location": [
+        -42851.305933011296,
+        17341.90754219552,
+        10313.500009536743
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "name": "MIG_PLR_Men_A",
+      "class": "StationDoor",
+      "location": [
+        -43011.30597115827,
+        17341.90754219552,
+        10313.500009536743
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "name": "R12_01_Upper_Platform_001_solid",
+      "class": "StaticMeshActor",
+      "location": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        -0.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "map": "/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration",
+  "mechanisms": {
+    "count": 17,
+    "open_close": true,
+    "E_focus_input": true,
+    "pawn_obstruction_retry": true
+  },
+  "traversal": {
+    "count": 10,
+    "passed": true
+  },
+  "reopen": {
+    "errors": [],
+    "retained_actors": 1279,
+    "imported_groups": 101,
+    "native_foliage_instances": 4556,
+    "source_hash_matches": true,
+    "r12_hash_matches": true,
+    "reopened": true,
+    "passed": true
+  },
+  "artifact": {
+    "unique_source_members": 1566,
+    "groups": 101,
+    "fbx_hashes_match": true,
+    "source_sha256_matches": true,
+    "scripts_parse": true
+  },
+  "foliage_conflicts": 0,
+  "package_build": {
+    "platform": "Win64",
+    "finished": "2026-09-11T16:23:46.8739670Z",
+    "entry": "Default Entry / StationBeginShift",
+    "configuration": "Development",
+    "archive": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\game\\Saved\\WestServicesPackage",
+    "started": "2026-09-11T16:21:40.7265104Z",
+    "log": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\package-build.log",
+    "exit_code": 0,
+    "success": true
+  },
+  "package_interactive_launch": "Normal menu Begin shift passed; expanded station loaded and opening released. Full standalone mechanism traversal is not claimed.",
+  "reports": [
+    "mechanism_runtime.json",
+    "focus_runtime.json",
+    "safety.json",
+    "traversal_runtime.json",
+    "verification.json",
+    "performance.json",
+    "night_review.json",
+    "night_review_details.json",
+    "review_day_final.json"
+  ]
+}

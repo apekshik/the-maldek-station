@@ -1,0 +1,17 @@
+{
+  "mesh": "SM_InspectionMeter",
+  "vertices": 15232,
+  "dimensions_metres": [
+    0.16599999368190765,
+    0.10658000409603119,
+    0.27399998903274536
+  ],
+  "materials": [
+    "Meter_Rubber",
+    "Meter_Enamel",
+    "Meter_Brass",
+    "Meter_Ivory",
+    "Meter_Ink",
+    "Meter_Red"
+  ]
+}

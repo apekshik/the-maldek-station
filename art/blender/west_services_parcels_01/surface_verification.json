@@ -1,0 +1,5 @@
+{
+  "scope": "Cross-object same-facing coplanar rectangular faces, evaluated meshes, 10 micrometre plane buckets. Rotated/curved and text surfaces excluded; complements targeted fitted BVH checks and visual review.",
+  "candidates": [],
+  "passed": true
+}

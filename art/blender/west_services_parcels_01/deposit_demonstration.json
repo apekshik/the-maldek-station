@@ -1,0 +1,21 @@
+{
+  "deposited_image": "previews/03_rear_shelves.png",
+  "removed_image": "previews/11_deposit_removed.png",
+  "independent_root": "WSP_Belonging_1",
+  "hidden_children": [
+    "WSP_Property_tag",
+    "WSP_Suitcase_body",
+    "WSP_Suitcase_clasp",
+    "WSP_Suitcase_clasp.001",
+    "WSP_Suitcase_handle",
+    "WSP_Suitcase_handle_mount",
+    "WSP_Suitcase_handle_mount.001",
+    "WSP_Suitcase_strap",
+    "WSP_Suitcase_strap.001",
+    "WSP_Tag_id",
+    "WSP_Tag_tie"
+  ],
+  "shelving_hash_before": "c4ce2e4f1a1b65c8b50743b60089f3fe741012a77c0cbe03ac4a75dca4ac2d71",
+  "shelving_hash_after": "c4ce2e4f1a1b65c8b50743b60089f3fe741012a77c0cbe03ac4a75dca4ac2d71",
+  "shelving_unchanged": true
+}

@@ -1,0 +1,136 @@
+{
+  "retired": [
+    "PL02_Perimeter_0_bar",
+    "PL02_Perimeter_0_bar.001",
+    "PL02_Perimeter_0_post",
+    "PL02_Perimeter_0_post.001",
+    "PL02_Perimeter_0_post.002",
+    "PL02_Perimeter_0_post.003",
+    "PL02_Perimeter_0_post.004",
+    "PL02_Perimeter_0_post.005",
+    "PL02_Perimeter_0_post.006",
+    "PL02_Perimeter_0_post.007",
+    "PL02_Perimeter_0_post.008",
+    "PL02_Perimeter_0_post.009",
+    "PL02_Perimeter_0_post.010",
+    "PL02_Perimeter_0_post.011",
+    "PL02_Perimeter_0_post.012",
+    "PL02_Perimeter_0_post.013",
+    "PL02_Perimeter_0_post.014",
+    "PL02_Perimeter_0_post.015"
+  ],
+  "chunks": [
+    {
+      "name": "SM_Lodge_Deck_000",
+      "pivot": [
+        -32,
+        -16,
+        4
+      ],
+      "lo": [
+        -29.4950008392334,
+        -15.194999694824219,
+        -1.8071590662002563
+      ],
+      "hi": [
+        -24.454999923706055,
+        -9.104999542236328,
+        5.135000228881836
+      ],
+      "sources": [
+        "PL02_Support",
+        "PL02_Support.004",
+        "PL02_Rear_West_bar",
+        "PL02_Rear_West_bar.001",
+        "PL02_Rear_West_post",
+        "PL02_Rear_West_post.001",
+        "PL02_Rear_West_post.002",
+        "PL02_Rear_West_post.003",
+        "PL02_Rear_West_post.004",
+        "PL02_Perimeter_0_post",
+        "PL02_Perimeter_0_post.001",
+        "PL02_Perimeter_0_post.002",
+        "PL02_Perimeter_0_post.003",
+        "PL02_Perimeter_0_post.004"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_001",
+      "pivot": [
+        -32,
+        -8,
+        4
+      ],
+      "lo": [
+        -29.4950008392334,
+        -15.149999618530273,
+        -1.7388535737991333
+      ],
+      "hi": [
+        -25.3799991607666,
+        7.350000381469727,
+        5.135000705718994
+      ],
+      "sources": [
+        "PL02_Support.001",
+        "PL02_Support.005",
+        "PL02_Perimeter_0_bar",
+        "PL02_Perimeter_0_bar.001",
+        "PL02_Perimeter_0_post.005",
+        "PL02_Perimeter_0_post.006",
+        "PL02_Perimeter_0_post.007",
+        "PL02_Perimeter_0_post.008",
+        "PL02_Perimeter_0_post.009",
+        "PL02_Perimeter_0_post.010"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ]
+    },
+    {
+      "name": "SM_Lodge_Deck_002",
+      "pivot": [
+        -32,
+        0,
+        4
+      ],
+      "lo": [
+        -29.4950008392334,
+        0.8799999952316284,
+        -1.693672776222229
+      ],
+      "hi": [
+        -24.9138240814209,
+        7.394999980926514,
+        5.100000381469727
+      ],
+      "sources": [
+        "PL02_Support.002",
+        "PL02_Support.003",
+        "PL02_Support.006",
+        "PL02_Support.007",
+        "PL02_Perimeter_0_post.011",
+        "PL02_Perimeter_0_post.012",
+        "PL02_Perimeter_0_post.013",
+        "PL02_Perimeter_0_post.014",
+        "PL02_Perimeter_0_post.015",
+        "PL02_Perimeter_1_post",
+        "PL02_Perimeter_1_post.001",
+        "PL02_Perimeter_1_post.002",
+        "PL02_Perimeter_1_post.003"
+      ],
+      "category": "PL02_New_Deck_Rails_and_Stair",
+      "materials": [
+        "VF06_Structural_steel",
+        "VF06_Petrol_paint"
+      ]
+    }
+  ]
+}

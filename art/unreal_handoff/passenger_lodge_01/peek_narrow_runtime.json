@@ -1,0 +1,45 @@
+{
+  "phase": 7,
+  "next": 450341.921,
+  "deadline": 450419.125,
+  "checks": {
+    "entered": true,
+    "torch_normal_until_peek": true,
+    "left_from_face_95": true,
+    "peek_uses_tightest_beam": true,
+    "beam_follows_peek": true,
+    "aim_has_no_added_lag": true,
+    "beam_aim_limited": true,
+    "camera_stays_at_peek": true,
+    "aim_does_not_insert_key": true,
+    "narrow_focus_stays_active": true,
+    "no_lock_fill_during_peek": true,
+    "returns_to_oblique_view": true,
+    "normal_beam_restored_on_release": true,
+    "torch_restored_to_player": true,
+    "right_from_face_95": true,
+    "fov_preserved": true,
+    "torch_parent_restored": true,
+    "normal_beam_restored_on_cancel": true,
+    "torch_rotation_restored": true,
+    "input_restored": true
+  },
+  "beam_intensity": 1.252500057220459,
+  "beam_cone": 25.950000762939453,
+  "aim": {
+    "yaw": 15.961767196655275,
+    "pitch": 9.0376558303833
+  },
+  "cursor_after_synthetic_input": {
+    "expected": [
+      419.0,
+      241.0
+    ],
+    "actual": [
+      419.0,
+      241.0
+    ]
+  },
+  "success": true,
+  "error": null
+}

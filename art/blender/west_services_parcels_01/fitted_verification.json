@@ -1,0 +1,48 @@
+{
+  "saved_review_reopened": true,
+  "source_hash_matches": true,
+  "proxy_absent": true,
+  "opening_triangle_intersections_with_shell": [],
+  "opening_patch_required": false,
+  "mechanism_collisions": [],
+  "placement_errors": [],
+  "placement_tolerance_m": 5e-05,
+  "routes": [
+    {
+      "name": "Walking porch through entry to counter",
+      "samples": 165,
+      "obstacles": [],
+      "passed": true
+    },
+    {
+      "name": "Trolley porch northbound",
+      "samples": 35,
+      "obstacles": [],
+      "passed": true
+    },
+    {
+      "name": "Trolley inward then handling",
+      "samples": 115,
+      "obstacles": [],
+      "passed": true
+    },
+    {
+      "name": "Porch turn",
+      "samples": 19,
+      "obstacles": [],
+      "passed": true
+    },
+    {
+      "name": "Handling turn",
+      "samples": 19,
+      "obstacles": [],
+      "passed": true
+    }
+  ],
+  "surface_ownership": {
+    "method": "Evaluated triangle intersection for moving leaf/drawer/shutters against fixed structure, and frame/sash against shell; exact butt joints are concealed by casing. Asset and context floors are not duplicated.",
+    "limitations": "No general all-pairs coplanarity proof for decorative hardware; visible opening seams also reviewed in neutral renders.",
+    "shared_shell_modifications": []
+  },
+  "passed": true
+}

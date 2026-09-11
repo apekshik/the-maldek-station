@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "reel_-21.25_through_hole": true,
+    "reel_21.25_through_hole": true,
+    "two_label_sides": true,
+    "tape_ribbon": true,
+    "packed_fonts": true,
+    "four_previews": true
+  },
+  "success": true
+}

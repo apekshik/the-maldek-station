@@ -1,0 +1,27 @@
+{
+  "object": "WS_BaseSouth",
+  "operation": "cylindrical DIFFERENCE",
+  "world_axis": "Y",
+  "world_center": [
+    -35.2,
+    -4.875,
+    3.15
+  ],
+  "radius_m": 0.157,
+  "cutter_depth_m": 0.5,
+  "aperture_world_bounds": [
+    [
+      -35.357,
+      -5,
+      2.993
+    ],
+    [
+      -35.043,
+      -4.75,
+      3.307
+    ]
+  ],
+  "faces_before": 6,
+  "faces_after": 56,
+  "note": "Only in review. Replay this narrowly scoped cutter on shared south wall during integration. 7 mm radial sleeve clearance; firestop specification deferred."
+}

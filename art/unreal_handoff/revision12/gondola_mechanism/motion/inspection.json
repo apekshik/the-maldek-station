@@ -1,0 +1,32 @@
+{
+  "phase": "end",
+  "i": 10,
+  "next": 191727.078,
+  "busy": true,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion\\frame_00.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion\\frame_01.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion\\frame_02.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion\\frame_03.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion\\frame_04.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion\\frame_05.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion\\frame_06.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion\\frame_07.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion\\frame_08.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gondola_mechanism\\motion\\frame_09.png"
+  ],
+  "deadline": 191884.531,
+  "travel_m": [
+    -0.3281640625,
+    -0.966640625,
+    -1.11905029296875,
+    -1.11905029296875,
+    -1.11905029296875,
+    -1.11905029296875,
+    -1.11905029296875,
+    -1.11905029296875,
+    -1.11905029296875,
+    -1.11905029296875
+  ],
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\scripts\\gondola_mechanism_motion_capture.py\", line 35, in tick\n    assert all(Path(p).exists() for p in s['images']);s['passed']=True;finish()\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

@@ -1,0 +1,8 @@
+{
+  "direct": "<Struct 'HitResult' (0x00000113F5D93980) {}>",
+  "actual": "<Struct 'HitResult' (0x00000113F5D90B40) {}>",
+  "eye": "<Struct 'Vector' (0x000001100482A770) {x: -40426.284808, y: 12711.940415, z: 9959.192457}>",
+  "target": "<Struct 'Vector' (0x000001100482B030) {x: -40437.014304, y: 12552.547480, z: 9892.989164}>",
+  "focused": true,
+  "throttle": true
+}

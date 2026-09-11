@@ -1,0 +1,19 @@
+{
+  "phase": 4,
+  "next": 449706.293,
+  "deadline": 449785.828,
+  "checks": {
+    "entered": true,
+    "torch_attached_to_closeup": true,
+    "left_from_face_95": true,
+    "mouse_aims_beam": false
+  },
+  "beam_intensity": 1.252500057220459,
+  "beam_cone": 25.950000762939453,
+  "aim": {
+    "yaw": 0.01662984957678214,
+    "pitch": 0.009415928395294601
+  },
+  "success": false,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\scripts\\peek_beam_runtime.py\", line 46, in tick\n    check('mouse_aims_beam',r.yaw>5 and r.pitch>3);check('beam_aim_limited',abs(r.yaw)<=24.1 and abs(r.pitch)<=18.1)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\scripts\\peek_beam_runtime.py\", line 9, in check\n    def check(k,v):s['checks'][k]=bool(v);assert v,k\n                                          ^^^^^^^^^^\nAssertionError: mouse_aims_beam\n"
+}

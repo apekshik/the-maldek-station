@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "packed_lettering": true,
+  "animation_frames": 144,
+  "seam_samples": [
+    {
+      "frame": 1,
+      "seam_gap_m": 0.0010024184232512723
+    },
+    {
+      "frame": 24,
+      "seam_gap_m": 0.0010023458885335954
+    },
+    {
+      "frame": 58,
+      "seam_gap_m": 0.0010023579827250638
+    },
+    {
+      "frame": 59,
+      "seam_gap_m": 0.08053335935343757
+    },
+    {
+      "frame": 72,
+      "seam_gap_m": 1.7813912777965373
+    },
+    {
+      "frame": 96,
+      "seam_gap_m": 3.597933250144128
+    },
+    {
+      "frame": 144,
+      "seam_gap_m": 3.433086267709926
+    }
+  ],
+  "fbx_roundtrip": [
+    {
+      "mesh": "Tape_Left",
+      "roundtrip_bounds_error_m": 9.546056389808655e-08,
+      "uvs_present": true
+    },
+    {
+      "mesh": "Tape_Right",
+      "roundtrip_bounds_error_m": 1.4016404747962952e-07,
+      "uvs_present": true
+    },
+    {
+      "mesh": "Wrap_Left",
+      "roundtrip_bounds_error_m": 1.6391277313232422e-07,
+      "uvs_present": true
+    },
+    {
+      "mesh": "Wrap_Right",
+      "roundtrip_bounds_error_m": 1.6391277313232422e-07,
+      "uvs_present": true
+    },
+    {
+      "mesh": "Loose_tail_Left",
+      "roundtrip_bounds_error_m": 1.4901161193847656e-07,
+      "uvs_present": true
+    },
+    {
+      "mesh": "Loose_tail_Right",
+      "roundtrip_bounds_error_m": 1.7683487385511398e-07,
+      "uvs_present": true
+    }
+  ]
+}

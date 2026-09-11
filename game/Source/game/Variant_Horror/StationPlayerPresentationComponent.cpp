@@ -76,12 +76,18 @@ void UStationPlayerPresentationComponent::SetFocus(float Value)
 void UStationPlayerPresentationComponent::UpdateBeam()
 {
  if(!Beam)return;
+ const float BeamFocus=bPeekFocus?1.f:Focus;
  // Lumen units concentrate the same available flux as the cone narrows.
- Beam->SetOuterConeAngle(FMath::Lerp(34.0f,11.0f,Focus));
+ Beam->SetOuterConeAngle(FMath::Lerp(34.0f,11.0f,BeamFocus));
  Beam->SetInnerConeAngle(0.0f);
- Beam->SetAttenuationRadius(FMath::Lerp(1800.0f,6000.0f,Focus));
- Beam->SetIntensity(FMath::Lerp(WideLumens,FocusedLumens,Focus));
- if(Optics)Optics->SetScalarParameterValue(TEXT("Focus"),Focus);
+ Beam->SetAttenuationRadius(FMath::Lerp(1800.0f,6000.0f,BeamFocus));
+ Beam->SetIntensity(FMath::Lerp(WideLumens,FocusedLumens,BeamFocus));
+ if(Optics)Optics->SetScalarParameterValue(TEXT("Focus"),BeamFocus);
+}
+void UStationPlayerPresentationComponent::SetPeekFocus(bool bActive)
+{
+ if(bPeekFocus==bActive)return;
+ bPeekFocus=bActive;UpdateBeam();
 }
 
 void UStationPlayerPresentationComponent::TickComponent(float Dt,ELevelTick TickType,FActorComponentTickFunction* TickFunction)

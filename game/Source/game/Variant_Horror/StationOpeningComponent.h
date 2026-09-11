@@ -15,7 +15,7 @@ public:
  UStationOpeningComponent();
  virtual void TickComponent(float Dt,ELevelTick TickType,FActorComponentTickFunction* Function) override;
  virtual void EndPlay(const EEndPlayReason::Type Reason) override;
- bool AllowsFlashlightInput() const {return !bEnableOpening || (bStarted && Elapsed>=6.0f);}
+ bool AllowsFlashlightInput() const {return true;}
  void FlashlightToggled(bool bEnabled);
  void FocusAdjusted();
  void SkipForTesting();

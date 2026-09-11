@@ -18,6 +18,7 @@ class USpotLightComponent;
 class USoundBase;
 class SWidget;
 class STextBlock;
+ class UStationPlayerPresentationComponent;
 
 /** Hinged station door. Locked doors never change their collision or opening target. */
 UCLASS(Blueprintable)
@@ -78,6 +79,13 @@ public:
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UTextRenderComponent> KeypadDisplay;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UCameraComponent> KeypadCamera;
  UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Door|Key") FVector KeyCameraOffset=FVector(18,35,14);
+ /** Interaction framing and side glances can be tuned independently. */
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Peek", meta=(ClampMin="40",ClampMax="100")) float KeyCloseupFOV=56.f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Peek", meta=(ClampMin="40",ClampMax="100")) float KeypadCloseupFOV=64.f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Peek", meta=(ClampMin="0",ClampMax="120")) float PeekYawDegrees=95.f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Peek", meta=(ClampMin="0",ClampMax="15")) float PeekRollDegrees=8.f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Peek", meta=(ClampMin="40",ClampMax="110")) float PeekFOV=85.f;
+ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Door|Peek", meta=(ClampMin="1",ClampMax="20")) float PeekResponse=9.f;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") bool bHasKeypad=false;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Key") bool bHasKeyLock=false;
  /** Temporary possession gate. Future inventory can supply this per required key. */
@@ -118,7 +126,7 @@ private:
  float LeverDepression=0.f;
  FVector LatchRest=FVector::ZeroVector,SealRest=FVector::ZeroVector;
  TSharedPtr<SWidget> HintWidget;
- TSharedPtr<STextBlock> HintAction,HintDetail;
+ TSharedPtr<STextBlock> HintAction,HintDetail,HintKey;
  void ShowDoorHint(bool bVisible,const FString& Action=FString(),const FString& Detail=FString());
  UPROPERTY(Transient) TObjectPtr<USoundBase> ActiveTravelSound;
  TWeakObjectPtr<USoundBase> LastOpeningTake,LastClosingTake,LastImpactTake;
@@ -133,8 +141,21 @@ private:
  bool bKeyMouseWasDown=false;
  float KeyInsertion=0.f;
  float KeyTurnElapsed=-1.f;
- float DragStartInsertion=0.f;
- FVector2D DragStartMouse=FVector2D::ZeroVector;
+ FVector2D LastDragMouse=FVector2D::ZeroVector;
+ FRotator CloseupRestRotation=FRotator::ZeroRotator;
+ float PeekAmount=0.f;
+ float CloseupRestFOV=56.f;
+ float CloseupFacingYaw=0.f;
+ bool bPeekingAway=false;
+ TWeakObjectPtr<USpotLightComponent> PeekBeam;
+ TWeakObjectPtr<USceneComponent> PeekBeamParent;
+ TWeakObjectPtr<UStationPlayerPresentationComponent> PeekPresentation;
+ FName PeekBeamSocket;
+ FTransform PeekBeamRest=FTransform::Identity;
+ FVector2D PeekMouseOrigin=FVector2D::ZeroVector;
+ void EndPeekBeam();
+ bool bPeekReady=false;
+ void TickCloseupPeek(float DeltaSeconds,APlayerController* Controller);
  bool BeginKeyInteraction(APlayerController* Controller);
  void BeginCloseup(APlayerController* Controller);
  void TickKeyInteraction(float DeltaSeconds,APlayerController* Controller);

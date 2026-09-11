@@ -1,0 +1,50 @@
+{
+  "saved": true,
+  "grounded": [
+    {
+      "label": "FT_Goat_Willow_030",
+      "terrain_delta_m": 0.4101476690119671,
+      "position": [
+        -37.3,
+        -49.8,
+        -0.672041752269506
+      ]
+    },
+    {
+      "label": "FT_Marker_1_Post",
+      "terrain_delta_m": 0.35848026104176833,
+      "position": [
+        -34.05,
+        -49.7,
+        -0.17634973876152793
+      ]
+    },
+    {
+      "label": "FT_Marker_1_Cap",
+      "terrain_delta_m": 0.35848026104176833,
+      "position": [
+        -34.05,
+        -49.7,
+        0.2836502612384721
+      ]
+    },
+    {
+      "label": "FT_Marker_1_Lens",
+      "terrain_delta_m": 0.35848026104176833,
+      "position": [
+        -34.05,
+        -49.7,
+        0.2036502612384721
+      ]
+    },
+    {
+      "label": "FT_Marker_1_Light",
+      "terrain_delta_m": 0.35848026104176833,
+      "position": [
+        -34.05,
+        -49.7,
+        0.2036502612384721
+      ]
+    }
+  ]
+}

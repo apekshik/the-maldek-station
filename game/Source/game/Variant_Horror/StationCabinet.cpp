@@ -34,10 +34,16 @@ AStationCabinet::AStationCabinet()
  InteractionPrompt->SetWidgetSpace(EWidgetSpace::World);InteractionPrompt->SetDrawSize(FVector2D(420,90));InteractionPrompt->SetTwoSided(true);
  InteractionPrompt->SetCollisionEnabled(ECollisionEnabled::NoCollision);InteractionPrompt->SetCastShadow(false);InteractionPrompt->SetVisibility(false);
  static ConstructorHelpers::FObjectFinder<UMaterialInterface> Mat(TEXT("/Game/MaldekRefinement/R12/Doors/M_DoorInteractionPrompt"));
- if(Mat.Succeeded())InteractionPrompt->SetMaterial(0,Mat.Object);
+ InteractionPromptMaterial=Mat.Object;
  MotionAudio=CreateDefaultSubobject<UAudioComponent>(TEXT("MotionAudio"));MotionAudio->SetupAttachment(Pivot);MotionAudio->bAutoActivate=false;
  MotionAudio->bOverrideAttenuation=true;MotionAudio->AttenuationOverrides.bAttenuate=true;MotionAudio->AttenuationOverrides.bSpatialize=true;
  MotionAudio->AttenuationOverrides.AttenuationShapeExtents=FVector(40,0,0);MotionAudio->AttenuationOverrides.FalloffDistance=600;MotionAudio->SetVolumeMultiplier(.45f);
+}
+void AStationCabinet::BeginPlay()
+{
+ Super::BeginPlay();
+ // Cooked actors can be constructed by the async loader; widget material updates require the game thread.
+ if(InteractionPromptMaterial)InteractionPrompt->SetMaterial(0,InteractionPromptMaterial);
 }
 void AStationCabinet::OnConstruction(const FTransform& Transform)
 {

@@ -1,0 +1,17 @@
+[
+  {
+    "actor": "MIG_Lodge_Shell_005",
+    "before": "/Game/MaldekRefinement/PassengerLodge/ShellPilot/Meshes/SM_Lodge_Shell_005.SM_Lodge_Shell_005",
+    "after": "/Game/MaldekRefinement/WestServices/Architecture/SM_WS_Lodge_Shell_005.SM_WS_Lodge_Shell_005",
+    "retired_sources": [
+      "FIT_Cleaning_cupboard"
+    ],
+    "preserved_sources": [
+      "FIT_East_0_0",
+      "FIT_Hall_south_WC_0_0",
+      "FIT_Hall_south_WC_1_2.3",
+      "FIT_Hall_south_WC_2_0",
+      "FIT_Full_height_privacy_screen"
+    ]
+  }
+]

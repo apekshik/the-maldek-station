@@ -1,0 +1,206 @@
+{
+  "error": null,
+  "images": [
+    {
+      "view": "west_outward",
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\gameplay_night\\west_outward.png"
+    },
+    {
+      "view": "south_outward",
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\gameplay_night\\south_outward.png"
+    },
+    {
+      "view": "north_outward",
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\gameplay_night\\north_outward.png"
+    },
+    {
+      "view": "porch_outward",
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\gameplay_night\\porch_outward.png"
+    },
+    {
+      "view": "parcels",
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\gameplay_night\\parcels.png"
+    },
+    {
+      "view": "rescue",
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\gameplay_night\\rescue.png"
+    },
+    {
+      "view": "power",
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\gameplay_night\\power.png"
+    },
+    {
+      "view": "janitor",
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\gameplay_night\\janitor.png"
+    },
+    {
+      "view": "roof_interface",
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\gameplay_night\\roof_interface.png"
+    }
+  ],
+  "frame_stats": [
+    {
+      "view": "west_outward",
+      "values": {
+        "width": 1600.0,
+        "height": 1000.0,
+        "process_physical_bytes": 6656331776.0,
+        "draw_calls": 2103.0,
+        "frame_ms": 14.590699195861816,
+        "game_ms": 14.914899826049805,
+        "render_ms": 0.0003000000142492354,
+        "rhi_ms": 0.0794999971985817,
+        "gpu_ms": 7.896699905395508,
+        "streaming_texture_bytes": 1289465856.0,
+        "nonstreaming_texture_bytes": 4192706560.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0
+      }
+    },
+    {
+      "view": "south_outward",
+      "values": {
+        "width": 1600.0,
+        "height": 1000.0,
+        "process_physical_bytes": 6814646272.0,
+        "draw_calls": 1719.0,
+        "frame_ms": 16.469697952270508,
+        "game_ms": 16.090099334716797,
+        "render_ms": 0.00019999999494757503,
+        "rhi_ms": 0.08320000022649765,
+        "gpu_ms": 8.60159969329834,
+        "streaming_texture_bytes": 1289498624.0,
+        "nonstreaming_texture_bytes": 4204830720.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0
+      }
+    },
+    {
+      "view": "north_outward",
+      "values": {
+        "width": 1600.0,
+        "height": 1000.0,
+        "process_physical_bytes": 6824910848.0,
+        "draw_calls": 2190.0,
+        "frame_ms": 13.422999382019043,
+        "game_ms": 13.686800003051758,
+        "render_ms": 9.999999747378752e-05,
+        "rhi_ms": 0.06440000236034393,
+        "gpu_ms": 8.090299606323242,
+        "streaming_texture_bytes": 1289498624.0,
+        "nonstreaming_texture_bytes": 4193099776.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0
+      }
+    },
+    {
+      "view": "porch_outward",
+      "values": {
+        "width": 1600.0,
+        "height": 1000.0,
+        "process_physical_bytes": 6833856512.0,
+        "draw_calls": 1521.0,
+        "frame_ms": 13.95740032196045,
+        "game_ms": 13.598899841308594,
+        "render_ms": 9.999999747378752e-05,
+        "rhi_ms": 0.05640000104904175,
+        "gpu_ms": 7.675000190734863,
+        "streaming_texture_bytes": 1289498624.0,
+        "nonstreaming_texture_bytes": 4193099776.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0
+      }
+    },
+    {
+      "view": "parcels",
+      "values": {
+        "width": 1600.0,
+        "height": 1000.0,
+        "process_physical_bytes": 6855913472.0,
+        "draw_calls": 868.0,
+        "frame_ms": 14.923501968383789,
+        "game_ms": 15.022000312805176,
+        "render_ms": 9.999999747378752e-05,
+        "rhi_ms": 0.0625,
+        "gpu_ms": 6.898900032043457,
+        "streaming_texture_bytes": 1289498624.0,
+        "nonstreaming_texture_bytes": 4193099776.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0
+      }
+    },
+    {
+      "view": "rescue",
+      "values": {
+        "width": 1600.0,
+        "height": 1000.0,
+        "process_physical_bytes": 6866845696.0,
+        "draw_calls": 928.0,
+        "frame_ms": 15.08130168914795,
+        "game_ms": 15.029399871826172,
+        "render_ms": 0.00019999999494757503,
+        "rhi_ms": 0.11479999870061874,
+        "gpu_ms": 6.814899921417236,
+        "streaming_texture_bytes": 1289498624.0,
+        "nonstreaming_texture_bytes": 4193099776.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0
+      }
+    },
+    {
+      "view": "power",
+      "values": {
+        "width": 1600.0,
+        "height": 1000.0,
+        "process_physical_bytes": 6884392960.0,
+        "draw_calls": 1639.0,
+        "frame_ms": 17.227500915527344,
+        "game_ms": 17.006500244140625,
+        "render_ms": 9.999999747378752e-05,
+        "rhi_ms": 0.09700000286102295,
+        "gpu_ms": 8.289799690246582,
+        "streaming_texture_bytes": 1289498624.0,
+        "nonstreaming_texture_bytes": 4193099776.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0
+      }
+    },
+    {
+      "view": "janitor",
+      "values": {
+        "width": 1600.0,
+        "height": 1000.0,
+        "process_physical_bytes": 6932217856.0,
+        "draw_calls": 1507.0,
+        "frame_ms": 17.334501266479492,
+        "game_ms": 17.401399612426758,
+        "render_ms": 0.00039999998989515007,
+        "rhi_ms": 0.06459999829530716,
+        "gpu_ms": 8.953399658203125,
+        "streaming_texture_bytes": 1295339520.0,
+        "nonstreaming_texture_bytes": 4193099776.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0
+      }
+    },
+    {
+      "view": "roof_interface",
+      "values": {
+        "width": 1600.0,
+        "height": 1000.0,
+        "process_physical_bytes": 6955081728.0,
+        "draw_calls": 1709.0,
+        "frame_ms": 14.593198776245117,
+        "game_ms": 15.070799827575684,
+        "render_ms": 0.00019999999494757503,
+        "rhi_ms": 0.0575999990105629,
+        "gpu_ms": 7.849899768829346,
+        "streaming_texture_bytes": 1291145216.0,
+        "nonstreaming_texture_bytes": 4193099776.0,
+        "texture_pool_bytes": 1048576000.0,
+        "dedicated_vram_bytes": 16771973120.0
+      }
+    }
+  ],
+  "lighting": "Actual PIE weather and player flashlight"
+}

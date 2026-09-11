@@ -29,6 +29,10 @@ game/*.xcworkspace
 *.blend1
 *.blend2
 
+# Generated build/render logs and local pre-integration rollback copies
+*.log
+art/unreal_handoff/west_services_01/baseline_backup/
+
 # Python bytecode from blockout validation
 __pycache__/
 *.pyc

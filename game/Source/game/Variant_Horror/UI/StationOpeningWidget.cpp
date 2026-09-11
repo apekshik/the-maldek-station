@@ -10,23 +10,12 @@ int32 UStationOpeningWidget::NativePaint(const FPaintArgs& Args,const FGeometry&
  Layer=Super::NativePaint(Args,G,CullingRect,Out,Layer,Style,bParentEnabled);
  const FVector2D Size=G.GetLocalSize();
  const auto Ramp=[](float T,float A,float B){return FMath::SmoothStep(A,B,T);};
- const float Black=1-Ramp(Elapsed,0.0f,2.0f);
- const FSlateBrush* Brush=FCoreStyle::Get().GetBrush("WhiteBrush");
- if(Black>0)FSlateDrawElement::MakeBox(Out,++Layer,G.ToPaintGeometry(),Brush,ESlateDrawEffect::None,FLinearColor(0,0,0,Black));
  auto Text=[&](const FString& Value,float Y,int32 FontSize,FLinearColor Color)
  {
   const FSlateFontInfo Font=FCoreStyle::GetDefaultFontStyle("Regular",FontSize);
   const FVector2D Extent=FSlateApplication::Get().GetRenderer()->GetFontMeasureService()->Measure(Value,Font);
   FSlateDrawElement::MakeText(Out,++Layer,G.ToPaintGeometry(Extent,FSlateLayoutTransform(FVector2D((Size.X-Extent.X)*.5f,Y))),Value,Font,ESlateDrawEffect::None,Color);
  };
- const float Title=Ramp(Elapsed,2.2f,3.0f)*(1-Ramp(Elapsed,4.8f,6.0f));
- if(Title>0)
- {
-  const int32 FontSize=FMath::Clamp(FMath::RoundToInt(Size.X*.040f),18,64);
-  Text(TEXT("MALDEK STATION"),Size.Y*.43f,FontSize,FLinearColor(.85f,.89f,.88f,Title));
-  const FVector2D LineSize(FMath::Min(Size.X*.12f,180.0f),1.0f);
-  FSlateDrawElement::MakeBox(Out,++Layer,G.ToPaintGeometry(LineSize,FSlateLayoutTransform(FVector2D((Size.X-LineSize.X)*.5f,Size.Y*.43f+FontSize*1.7f))),Brush,ESlateDrawEffect::None,FLinearColor(.43f,.51f,.49f,Title*.55f));
- }
  const float Hint=Ramp(Elapsed,11.0f,13.0f)*(1-Ramp(Elapsed,HintEnd-1,HintEnd));
  if(Hint>0)
  {

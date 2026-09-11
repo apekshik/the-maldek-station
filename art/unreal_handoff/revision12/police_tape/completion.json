@@ -1,0 +1,21 @@
+{
+  "saved": true,
+  "fitted_wraps": 12,
+  "reopened_map_components_present": true,
+  "runtime_actor_count": 7,
+  "crossing_strands": 3,
+  "perimeter_spans": 6,
+  "components": {
+    "PoliceTape_MainCrossing": 72,
+    "PoliceTape_Perimeter_0_0": 24,
+    "PoliceTape_Perimeter_0_1": 24,
+    "PoliceTape_Perimeter_0_2": 24,
+    "PoliceTape_Perimeter_1_0": 24,
+    "PoliceTape_Perimeter_1_1": 24,
+    "PoliceTape_Perimeter_1_2": 24
+  },
+  "original_actor_transforms_preserved": true,
+  "temporary_lights_removed": true,
+  "material_errors": [],
+  "playtests": true
+}

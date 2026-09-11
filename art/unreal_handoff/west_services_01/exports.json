@@ -1,0 +1,8626 @@
+{
+  "source": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\station_dressing_01\\Maldek_Station_Furnished.blend",
+  "source_sha256": "d4c5a3a7b4848dcd7221f9c5662e55d591002a7a777435cd510741c1aca2c8ab",
+  "assets": [
+    {
+      "id": 0,
+      "key": "WS_SHARED_STRUCTURE_-9_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_BaseSlab",
+        "WS_UpperSlab",
+        "WS_SharedPartyWall"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__9_0",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Warm_Plaster"
+      ],
+      "lo": [
+        -1.4500007629394531,
+        -5.0,
+        1.0
+      ],
+      "hi": [
+        4.549999237060547,
+        5.0,
+        7.300000190734863
+      ],
+      "vertices": 24,
+      "sha256": "b4ce357dc4fa87598a7cfb0b7543defb9cbcf13e9ae5d21a59bbe367deafc468"
+    },
+    {
+      "id": 1,
+      "key": "WS_SHARED_STRUCTURE_-8_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_BaseEast",
+        "WS_UpperEast.012",
+        "WS_UpperEast.013",
+        "WS_UpperEast.014",
+        "WS_UpperEast.015",
+        "WS_UpperEast.016",
+        "WS_UpperEast.017",
+        "WS_UpperEast.018",
+        "WS_UpperEast.019",
+        "WS_UpperEast.020",
+        "WS_UpperEast.021",
+        "WS_UpperEast.022",
+        "WS_UpperEast.023",
+        "WS_Porch",
+        "WS_AccessPier.002",
+        "WS_PorchEdgeRail",
+        "WS_PorchEdgeRail.001",
+        "WS_PorchEdgePost.004",
+        "WS_PorchEdgePost.005",
+        "WS_PorchEdgePost.006",
+        "WS_PorchEdgePost.007"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__8_0",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Pine_Cladding",
+        "WS02_Warm_Plaster",
+        "WS_Concrete"
+      ],
+      "lo": [
+        0.2999992370605469,
+        -5.0,
+        -4.282044887542725
+      ],
+      "hi": [
+        2.5900001525878906,
+        5.0,
+        7.300000190734863
+      ],
+      "vertices": 264,
+      "sha256": "64782dd3c926b717556c0db96b576638d57bf0ea1e6d2d108447a46d58bc36b5"
+    },
+    {
+      "id": 2,
+      "key": "WS_SHARED_STRUCTURE_-9_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_BaseSouth",
+        "WS_UpperSouth"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__9__2",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Pine_Cladding",
+        "WS02_Warm_Plaster"
+      ],
+      "lo": [
+        -1.25,
+        3.0,
+        1.2000000476837158
+      ],
+      "hi": [
+        4.350000381469727,
+        3.25,
+        7.300000190734863
+      ],
+      "vertices": 116,
+      "sha256": "11d7475d318fc0eee29946058c0709327aedc48eacf420d509738def25f1c497"
+    },
+    {
+      "id": 3,
+      "key": "WS_SHARED_STRUCTURE_-9_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_BaseNorth",
+        "WS_UpperNorth",
+        "WS_ServiceStep.002",
+        "WS_ServiceStep.003",
+        "WS_ServiceStep.004",
+        "WS_ServiceStep.005",
+        "WS_ServiceStep.006",
+        "WS_ServiceStep.007",
+        "WS_ServiceStep.008",
+        "WS_ServiceStep.009",
+        "WS_ServiceStep.010",
+        "WS_ServiceStep.011",
+        "WS_ServiceStep.012",
+        "WS_ServiceStairRail",
+        "WS_ServiceStairRail.001",
+        "WS_ServiceStairPost.001",
+        "WS_ServiceStairPost.002",
+        "WS_ServiceStairPost.003",
+        "WS_ServiceStairPost.004",
+        "WS_ServiceStringer",
+        "WS_ServiceStringer.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__9_1",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Pine_Cladding",
+        "WS02_Warm_Plaster",
+        "WS_Petrol"
+      ],
+      "lo": [
+        -1.25,
+        0.75,
+        0.8909319639205933
+      ],
+      "hi": [
+        4.565650939941406,
+        4.199999809265137,
+        7.300000190734863
+      ],
+      "vertices": 236,
+      "sha256": "6b69e23fc3f87f67b980786dcbca2a5707204e3c1abc397c817fbfe28a2b8b2c"
+    },
+    {
+      "id": 4,
+      "key": "WS_SHARED_STRUCTURE_-10_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_BaseWest",
+        "WS_BaseWest.001",
+        "WS_BaseWest.002",
+        "WS_BaseWest.003",
+        "WS_BaseWest.004",
+        "WS_BaseWest.005",
+        "WS_FoundationPier"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__10__2",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS_Concrete"
+      ],
+      "lo": [
+        2.549999237060547,
+        3.0,
+        -12.054956436157227
+      ],
+      "hi": [
+        3.0,
+        4.199999809265137,
+        4.349999904632568
+      ],
+      "vertices": 56,
+      "sha256": "296ea93c0d67495b70d1a589ed9de14cc12d50406091d9888e2fb16756d182e0"
+    },
+    {
+      "id": 5,
+      "key": "WS_SHARED_STRUCTURE_-10_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_BaseWest.006",
+        "WS_BaseWest.007",
+        "WS_BaseWest.008",
+        "WS_BaseWest.009",
+        "WS_BaseWest.010",
+        "WS_BaseWest.011",
+        "WS_BaseWest.012",
+        "WS_BaseWest.013",
+        "WS_BaseWest.014",
+        "WS_BaseWest.015",
+        "WS_BaseWest.016",
+        "WS_BaseWest.017",
+        "WS_BaseWest.018",
+        "WS_BaseWest.019"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__10__1",
+      "materials": [
+        "WS02_Aged_Concrete"
+      ],
+      "lo": [
+        2.549999237060547,
+        0.20000004768371582,
+        1.2000000476837158
+      ],
+      "hi": [
+        2.799999237060547,
+        4.699999809265137,
+        4.349999904632568
+      ],
+      "vertices": 112,
+      "sha256": "fe8326c1643288f21129cc0fcde5ae6dcdef15f9d641ea9934fc15ced669a2ba"
+    },
+    {
+      "id": 6,
+      "key": "WS_SHARED_STRUCTURE_-10_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_BaseWest.020",
+        "WS_BaseWest.021",
+        "WS_BaseWest.022",
+        "WS_BaseWest.023",
+        "WS_BaseWest.024",
+        "WS_BaseWest.025",
+        "WS_BaseWest.026",
+        "WS_UpperWest",
+        "WS_LowerAccessPier"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__10_0",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Pine_Cladding",
+        "WS02_Warm_Plaster",
+        "WS_Concrete"
+      ],
+      "lo": [
+        0.6500015258789062,
+        -5.0,
+        -15.094430923461914
+      ],
+      "hi": [
+        2.799999237060547,
+        5.0,
+        7.300000190734863
+      ],
+      "vertices": 76,
+      "sha256": "4039c887875bf0658c6789f658b74bee8f248520ebd1b6cb9c1c1813a71f2ddc"
+    },
+    {
+      "id": 7,
+      "key": "WS_SHARED_STRUCTURE_-10_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_BaseWest.027",
+        "WS_BaseWest.028",
+        "WS_BaseWest.029",
+        "WS_BaseWest.030",
+        "WS_BaseWest.031",
+        "WS_BaseWest.032",
+        "WS_ServiceStep.013",
+        "WS_ServiceStep.014",
+        "WS_ServiceStep.015",
+        "WS_FoundationPier.001",
+        "WS_ServiceStairPost.005",
+        "WS_LowerAccessPier.001",
+        "WS_LowerAccessPier.002",
+        "WS_LowerAccessPier.003"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__10_1",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS_Concrete",
+        "WS_Petrol"
+      ],
+      "lo": [
+        0.6500015258789062,
+        -1.0,
+        -18.06151008605957
+      ],
+      "hi": [
+        4.0,
+        4.199999809265137,
+        4.349999904632568
+      ],
+      "vertices": 120,
+      "sha256": "9e20db260898e6788fdb87f590264961c975e1758a070ce96925f253d6c6d895"
+    },
+    {
+      "id": 8,
+      "key": "WS_SHARED_STRUCTURE_-8_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_UpperEast",
+        "WS_UpperEast.001",
+        "WS_UpperEast.002",
+        "WS_UpperEast.003",
+        "WS_FoundationPier.002",
+        "WS_AccessPier.001",
+        "WS_RampOuterPost.004",
+        "WS_RampOuterPost.005",
+        "WS_RampOuterPost.006",
+        "WS_RampInnerPost.004",
+        "WS_RampInnerPost.005",
+        "WS_RampInnerPost.006",
+        "WS_PorchEdgePost"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__8__2",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Pine_Cladding",
+        "WS02_Warm_Plaster",
+        "WS_Concrete"
+      ],
+      "lo": [
+        0.2999992370605469,
+        0.0,
+        -4.666100978851318
+      ],
+      "hi": [
+        2.5900001525878906,
+        4.099999904632568,
+        7.300000190734863
+      ],
+      "vertices": 176,
+      "sha256": "25b8a5b06ec62a591f8aeb538fd187c1ed6a7560580eb439a09ef1aacbf11d95"
+    },
+    {
+      "id": 9,
+      "key": "WS_SHARED_STRUCTURE_-8_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_UpperEast.004",
+        "WS_UpperEast.005",
+        "WS_UpperEast.006",
+        "WS_UpperEast.007",
+        "WS_UpperEast.008",
+        "WS_UpperEast.009",
+        "WS_UpperEast.010",
+        "WS_UpperEast.011",
+        "WS_PorchEdgePost.001",
+        "WS_PorchEdgePost.002",
+        "WS_PorchEdgePost.003"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__8__1",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Pine_Cladding",
+        "WS02_Warm_Plaster"
+      ],
+      "lo": [
+        0.35000038146972656,
+        0.09999990463256836,
+        4.599999904632568
+      ],
+      "hi": [
+        2.5900001525878906,
+        3.5999999046325684,
+        7.300000190734863
+      ],
+      "vertices": 144,
+      "sha256": "2c3ae23728aecb3164ec394b5413940bead3232b292e599fe75fed8bcda38049"
+    },
+    {
+      "id": 10,
+      "key": "WS_SHARED_STRUCTURE_-8_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_UpperEast.024",
+        "WS_UpperEast.025",
+        "WS_UpperEast.026",
+        "WS_UpperEast.027",
+        "WS_UpperStep",
+        "WS_UpperStep.001",
+        "WS_UpperStep.002",
+        "WS_UpperStep.003",
+        "WS_NorthLanding",
+        "WS_ServiceStep",
+        "WS_ServiceStep.001",
+        "WS_FoundationPier.003",
+        "WS_AccessPier.003",
+        "WS_PorchEdgePost.008",
+        "WS_UpperStepOuterRail",
+        "WS_UpperStepOuterRail.001",
+        "WS_UpperStepOuterPost",
+        "WS_UpperStepOuterPost.001",
+        "WS_UpperStepInnerRail",
+        "WS_UpperStepInnerRail.001",
+        "WS_UpperStepInnerPost",
+        "WS_UpperStepInnerPost.001",
+        "WS_NorthShortRail",
+        "WS_NorthShortRail.001",
+        "WS_NorthShortPost",
+        "WS_ServiceStairPost"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__8_1",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Pine_Cladding",
+        "WS02_Warm_Plaster",
+        "WS_Concrete",
+        "WS_Petrol"
+      ],
+      "lo": [
+        -0.15000152587890625,
+        0.4499998092651367,
+        -4.648263454437256
+      ],
+      "hi": [
+        2.5900001525878906,
+        4.199999809265137,
+        7.300000190734863
+      ],
+      "vertices": 328,
+      "sha256": "ca7ca94bb9fc8ce660c33b16c8c675caf5d6cb81a4ab48a72b73eb040e88079a"
+    },
+    {
+      "id": 11,
+      "key": "WS_SHARED_STRUCTURE_-8_-4",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -16.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_RampBottomLanding",
+        "WS_AccessPier",
+        "WS_OldWestSouthRail",
+        "WS_OldWestSouthRail.001",
+        "WS_OldWestSouthPost",
+        "WS_OldWestSouthPost.001",
+        "WS_RampOuterPost",
+        "WS_RampInnerPost",
+        "WS_RampBottomOuterRail",
+        "WS_RampBottomOuterRail.001",
+        "WS_RampBottomOuterPost",
+        "WS_RampBottomOuterPost.001",
+        "WS_RampBottomOuterPost.002",
+        "WS_RampBottomEndRail",
+        "WS_RampBottomEndRail.001",
+        "WS_RampBottomEndPost",
+        "WS_RampBottomEndPost.001",
+        "WS_RampBottomEndPost.002"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__8__4",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS_Concrete",
+        "WS_Petrol"
+      ],
+      "lo": [
+        0.5099983215332031,
+        0.8100004196166992,
+        -4.53097677230835
+      ],
+      "hi": [
+        2.5900001525878906,
+        3.8400001525878906,
+        5.134999752044678
+      ],
+      "vertices": 272,
+      "sha256": "0c453af36549a41d01622913d221fc9cb8f659341b9d69f35bdc2a4e681fb1fc"
+    },
+    {
+      "id": 12,
+      "key": "WS_SHARED_STRUCTURE_-8_-3",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -12.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_TrolleyRamp",
+        "WS_RampOuterRail",
+        "WS_RampOuterRail.001",
+        "WS_RampOuterPost.001",
+        "WS_RampOuterPost.002",
+        "WS_RampOuterPost.003",
+        "WS_RampInnerRail",
+        "WS_RampInnerRail.001",
+        "WS_RampInnerPost.001",
+        "WS_RampInnerPost.002",
+        "WS_RampInnerPost.003"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__8__3",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS_Concrete"
+      ],
+      "lo": [
+        0.5099983215332031,
+        -0.20290660858154297,
+        3.819999933242798
+      ],
+      "hi": [
+        2.5900001525878906,
+        7.002906799316406,
+        5.734879016876221
+      ],
+      "vertices": 168,
+      "sha256": "d00664dc94a0d95afd1fe2a7040c5b20671caaa3a3c361148ec3682bb342e37a"
+    },
+    {
+      "id": 13,
+      "key": "WS_SHARED_STRUCTURE_-8_2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_NorthOuterRail",
+        "WS_NorthOuterRail.001",
+        "WS_NorthOuterPost",
+        "WS_NorthOuterPost.001",
+        "WS_NorthOuterPost.002",
+        "WS_NorthShortPost.001",
+        "WS_ServiceStairPost.006"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__8_2",
+      "materials": [
+        "WS_Petrol"
+      ],
+      "lo": [
+        0.5099983215332031,
+        0.15999984741210938,
+        4.0
+      ],
+      "hi": [
+        2.5900001525878906,
+        0.23999977111816406,
+        5.134999752044678
+      ],
+      "vertices": 112,
+      "sha256": "e3ffdf730f233d5e8c3dc2815307b92b5520b7706b4c24557ca8cc3b1200eb19"
+    },
+    {
+      "id": 14,
+      "key": "WS_SHARED_STRUCTURE_-9_2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_ServiceStairRail.002",
+        "WS_ServiceStairRail.003",
+        "WS_ServiceStairPost.007",
+        "WS_ServiceStairPost.008",
+        "WS_ServiceStairPost.009",
+        "WS_ServiceStairPost.010"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__9_2",
+      "materials": [
+        "WS_Petrol"
+      ],
+      "lo": [
+        -1.0656509399414062,
+        0.15999984741210938,
+        1.718695044517517
+      ],
+      "hi": [
+        4.565650939941406,
+        0.23999977111816406,
+        5.131304740905762
+      ],
+      "vertices": 96,
+      "sha256": "51b2d3ccec4e65e1cddd42b60b4651639dac3fc14d3ea3daa027441fdf15694a"
+    },
+    {
+      "id": 15,
+      "key": "WS_SHARED_STRUCTURE_-10_2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_ServiceStairPost.011"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_STRUCTURE__10_2",
+      "materials": [
+        "WS_Petrol"
+      ],
+      "lo": [
+        2.9099998474121094,
+        0.15999984741210938,
+        1.2000000476837158
+      ],
+      "hi": [
+        2.990001678466797,
+        0.23999977111816406,
+        2.3000001907348633
+      ],
+      "vertices": 16,
+      "sha256": "34f2bfe9dc6b618d1efd1710907922dacc6d3dd89262c552350cc003ff58b20c"
+    },
+    {
+      "id": 16,
+      "key": "WS_SHARED_ROOF_-10_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_RoofPanel",
+        "WS_AtticSide",
+        "WS02_RoofSeam.020",
+        "WS02_RoofSeam.022",
+        "WS02_RoofSeam.024",
+        "WS02_RoofSeam.026",
+        "WS02_RoofSeam.028",
+        "WS02_RoofSeam.030",
+        "WS02_Gutter"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__10_0",
+      "materials": [
+        "WS_Petrol",
+        "WS_Pine",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        2.0649986267089844,
+        -5.5,
+        7.300000190734863
+      ],
+      "hi": [
+        5.553974151611328,
+        5.5,
+        8.337554931640625
+      ],
+      "vertices": 312,
+      "sha256": "b562d01d1061b9f3cf56324853bd22232a5e9dfead11852160ef717e61fbd4bd"
+    },
+    {
+      "id": 17,
+      "key": "WS_SHARED_ROOF_-8_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_RoofPanel.001",
+        "WS_AtticSide.001",
+        "WS02_RoofSeam.021",
+        "WS02_RoofSeam.023",
+        "WS02_RoofSeam.025",
+        "WS02_RoofSeam.027",
+        "WS02_RoofSeam.029",
+        "WS02_RoofSeam.031",
+        "WS02_Gutter.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__8_0",
+      "materials": [
+        "WS_Petrol",
+        "WS_Pine",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        -2.452587127685547,
+        -5.5,
+        7.300000190734863
+      ],
+      "hi": [
+        2.9350013732910156,
+        5.5,
+        8.337812423706055
+      ],
+      "vertices": 184,
+      "sha256": "a7492ae9a862a82fe32e12f3c5695203f4b684ab44f16c460d41010776a96aee"
+    },
+    {
+      "id": 18,
+      "key": "WS_SHARED_ROOF_-8_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_PorchPost",
+        "WS02_RoofSeam.001",
+        "WS02_RoofSeam.003",
+        "WS02_RoofSeam.005"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__8__2",
+      "materials": [
+        "WS_Pine",
+        "WS02_Petrol_Paint"
+      ],
+      "lo": [
+        -2.452587127685547,
+        2.611999988555908,
+        4.599999904632568
+      ],
+      "hi": [
+        2.852588653564453,
+        3.828000068664551,
+        8.337812423706055
+      ],
+      "vertices": 80,
+      "sha256": "dc2c3bef4ee9379484db1ece797ad93b9dd415989962d021e291b69eac07fc3e"
+    },
+    {
+      "id": 19,
+      "key": "WS_SHARED_ROOF_-8_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_PorchPost.001",
+        "WS02_RoofSeam.033",
+        "WS02_RoofSeam.035",
+        "WS02_RoofSeam.037",
+        "WS02_Downpipe.001",
+        "WS02_DrainShoe.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__8_1",
+      "materials": [
+        "WS_Pine",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        -2.452587127685547,
+        0.05200004577636719,
+        1.2293317317962646
+      ],
+      "hi": [
+        2.905000686645508,
+        1.9192638397216797,
+        8.337812423706055
+      ],
+      "vertices": 128,
+      "sha256": "a1f79d665fab866951e00d4731b7e01f27c7a1489f046a35914a4e798670af89"
+    },
+    {
+      "id": 20,
+      "key": "WS_SHARED_ROOF_-9_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_UpperCeiling",
+        "WS02_RidgeCap"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__9_0",
+      "materials": [
+        "WS_Cream",
+        "WS02_Petrol_Paint"
+      ],
+      "lo": [
+        -1.25,
+        -5.480000019073486,
+        7.300000190734863
+      ],
+      "hi": [
+        4.350000381469727,
+        5.480000019073486,
+        8.375
+      ],
+      "vertices": 32,
+      "sha256": "7fc3451728db7e12ba3972d6307dee42aa1274bc1e96b3d6048e393f6926bf82"
+    },
+    {
+      "id": 21,
+      "key": "WS_SHARED_ROOF_-9_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_Gable",
+        "WS_Gable.001",
+        "WS02_Seam_terminated.001",
+        "WS02_ExhaustRoofFlashing",
+        "WS02_StandoffRoofSocket"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__9__2",
+      "materials": [
+        "WS_Pine",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        -1.4500007629394531,
+        2.554999828338623,
+        7.300000190734863
+      ],
+      "hi": [
+        4.549999237060547,
+        3.1999998092651367,
+        8.337554931640625
+      ],
+      "vertices": 256,
+      "sha256": "593d4f6d0c1c222fe44f295d0f04924dafad34f871f9d55aba62734f8f6eeca5"
+    },
+    {
+      "id": 22,
+      "key": "WS_SHARED_ROOF_-9_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS_Gable.002",
+        "WS_Gable.003"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__9_1",
+      "materials": [
+        "WS_Pine"
+      ],
+      "lo": [
+        -1.4500007629394531,
+        0.8000001907348633,
+        7.300000190734863
+      ],
+      "hi": [
+        4.549999237060547,
+        1.0,
+        8.149999618530273
+      ],
+      "vertices": 16,
+      "sha256": "aa9e67b9d24ef0936e756db5e02f2d49daa776bef971a2dd08b1ec31f6f90cd9"
+    },
+    {
+      "id": 23,
+      "key": "WS_SHARED_ROOF_-10_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_RoofSeam.002",
+        "WS02_RoofSeam.004",
+        "WS02_Seam_terminated"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__10__2",
+      "materials": [
+        "WS02_Petrol_Paint"
+      ],
+      "lo": [
+        2.146026611328125,
+        2.611999988555908,
+        7.532444953918457
+      ],
+      "hi": [
+        5.553974151611328,
+        3.828000068664551,
+        8.337554931640625
+      ],
+      "vertices": 72,
+      "sha256": "d741769b3282d38bbe0c5aa75b30ca28c8fa02a74ddf180c8cfc42c16635f990"
+    },
+    {
+      "id": 24,
+      "key": "WS_SHARED_ROOF_-10_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_RoofSeam.006",
+        "WS02_RoofSeam.008",
+        "WS02_RoofSeam.010",
+        "WS02_RoofSeam.012",
+        "WS02_RoofSeam.014",
+        "WS02_RoofSeam.016",
+        "WS02_RoofSeam.018"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__10__1",
+      "materials": [
+        "WS02_Petrol_Paint"
+      ],
+      "lo": [
+        2.146026611328125,
+        0.382000207901001,
+        7.532444953918457
+      ],
+      "hi": [
+        5.553974151611328,
+        3.9579999446868896,
+        8.337554931640625
+      ],
+      "vertices": 168,
+      "sha256": "041830fb8cab00e6269d7834f23976ad2738bca169fbc16fc309d92cc9731826"
+    },
+    {
+      "id": 25,
+      "key": "WS_SHARED_ROOF_-8_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_RoofSeam.007",
+        "WS02_RoofSeam.009",
+        "WS02_RoofSeam.011",
+        "WS02_RoofSeam.013",
+        "WS02_RoofSeam.015",
+        "WS02_RoofSeam.017",
+        "WS02_RoofSeam.019"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__8__1",
+      "materials": [
+        "WS02_Petrol_Paint"
+      ],
+      "lo": [
+        -2.452587127685547,
+        0.382000207901001,
+        7.532186985015869
+      ],
+      "hi": [
+        2.852588653564453,
+        3.9579999446868896,
+        8.337812423706055
+      ],
+      "vertices": 168,
+      "sha256": "b17c212fb0affcafebc7fca4cf753cb4a21849f3bfdda30f7a7c092a68c54b53"
+    },
+    {
+      "id": 26,
+      "key": "WS_SHARED_ROOF_-10_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_RoofSeam.032",
+        "WS02_RoofSeam.034",
+        "WS02_RoofSeam.036",
+        "WS02_Downpipe",
+        "WS02_DrainShoe"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS_SHARED_ROOF__10_1",
+      "materials": [
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        2.095001220703125,
+        0.05200004577636719,
+        1.2293317317962646
+      ],
+      "hi": [
+        5.553974151611328,
+        1.9192638397216797,
+        8.337554931640625
+      ],
+      "vertices": 120,
+      "sha256": "c3d2b4894b4c39c4b0cad4d1830c255e8ee83513055fdf0800841d645b275762"
+    },
+    {
+      "id": 27,
+      "key": "WSP_ASSETS_-8_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Door_jamb",
+        "WSP_Door_jamb.001",
+        "WSP_Door_head",
+        "WSP_Threshold",
+        "WSP_Door_architrave",
+        "WSP_Door_architrave.001",
+        "WSP_Door_architrave_head",
+        "WSP_Door_architrave.002",
+        "WSP_Door_architrave.003",
+        "WSP_Door_architrave_head.001",
+        "WSP_Door_jamb_seal.001",
+        "WSP_Door_hinge_fixed",
+        "WSP_Door_hinge_fixed.001",
+        "WSP_Door_hinge_fixed.002",
+        "WSP_Window_jamb",
+        "WSP_Window_jamb.001",
+        "WSP_Window_sill_head",
+        "WSP_Window_sill_head.001",
+        "WSP_Window_mullion",
+        "WSP_Window_glass",
+        "WSP_Window_glass.001",
+        "WSP_Window_sash_vertical",
+        "WSP_Window_sash_vertical.001",
+        "WSP_Window_sash_horizontal",
+        "WSP_Window_sash_horizontal.001",
+        "WSP_Window_casing",
+        "WSP_Window_casing.001",
+        "WSP_Window_casing.002",
+        "WSP_Window_casing.003",
+        "WSP_Window_casing.004",
+        "WSP_Window_casing.005",
+        "WSP_Window_casing.006",
+        "WSP_Window_casing.007",
+        "WSP_Counter_public_apron",
+        "WSP_Exterior_sign_board",
+        "WSP_Exterior_sign"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_ASSETS__8__1",
+      "materials": [
+        "WSP_Pine",
+        "WSP_Galvanized",
+        "WSP_Petrol_enamel",
+        "WSP_Rubber_ink",
+        "WSP_Glass",
+        "WSP_Cream_enamel"
+      ],
+      "lo": [
+        0.14749908447265625,
+        0.019999980926513672,
+        4.5970001220703125
+      ],
+      "hi": [
+        0.6199989318847656,
+        3.6399998664855957,
+        7.300000190734863
+      ],
+      "vertices": 6768,
+      "sha256": "6bde0d0a760c95d67d3ae3652b252b717f9f93ea8e9a35c2ac4954e66f51606c"
+    },
+    {
+      "id": 28,
+      "key": "NONBLOCK_Hardware_-8_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Door_jamb_seal",
+        "WSP_Door_head_seal"
+      ],
+      "control": null,
+      "nonblocking": true,
+      "mesh": "SM_WS_NONBLOCK_Hardware__8__1",
+      "materials": [
+        "WSP_Rubber_ink"
+      ],
+      "lo": [
+        0.3110008239746094,
+        0.1640000343322754,
+        4.609999656677246
+      ],
+      "hi": [
+        0.3689994812011719,
+        1.5119998455047607,
+        6.869999885559082
+      ],
+      "vertices": 192,
+      "sha256": "5617c7ca9777386b692f3f13c57fcdc54f11625c5950f1471e579d7fc010df40"
+    },
+    {
+      "id": 29,
+      "key": "WSP_Door_hinge",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -31.700000762939453
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -3.820000171661377
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.619999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Door_leaf",
+        "WSP_Door_recess_panel",
+        "WSP_Door_recess_panel.001",
+        "WSP_Door_hinge_barrel",
+        "WSP_Door_hinge_barrel.001",
+        "WSP_Door_hinge_barrel.002",
+        "WSP_Latch_rosette",
+        "WSP_Latch_lever",
+        "WSP_Key_face",
+        "WSP_Key_slot",
+        "WSP_Exterior_latch_rosette",
+        "WSP_Exterior_latch_lever",
+        "WSP_Exterior_key_face",
+        "WSP_Exterior_key_slot"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -31.700000762939453
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -3.820000171661377
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.619999885559082
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": 90.0,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "WSP_Door_leaf",
+            "center": [
+              -0.00500106904655695,
+              0.6725000464916229,
+              1.1170000433921814
+            ],
+            "extent": [
+              0.02700000163167715,
+              0.6524999821186066,
+              1.112999975681305
+            ]
+          },
+          {
+            "source": "WSP_Door_recess_panel",
+            "center": [
+              -0.04000091552734375,
+              0.6700001060962677,
+              0.4800000339746475
+            ],
+            "extent": [
+              0.006999999284744263,
+              0.5450000464916229,
+              0.3400000184774399
+            ]
+          },
+          {
+            "source": "WSP_Door_recess_panel.001",
+            "center": [
+              -0.04000091552734375,
+              0.6700001060962677,
+              1.5900001525878906
+            ],
+            "extent": [
+              0.006999999284744263,
+              0.5450000464916229,
+              0.3400000333786011
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_Door_hinge",
+      "materials": [
+        "WSP_Pine",
+        "WSP_Galvanized",
+        "WSP_Petrol_enamel",
+        "WSP_Rubber_ink"
+      ],
+      "lo": [
+        -0.08399772644042969,
+        -0.01900005340576172,
+        0.004000186920166016
+      ],
+      "hi": [
+        0.07200050354003906,
+        1.3450000286102295,
+        2.2300000190734863
+      ],
+      "vertices": 912,
+      "sha256": "8d3317f304e5047a130fd1c31cd240e4df8bdb6c375a57b723af442765d56bbc"
+    },
+    {
+      "id": 30,
+      "key": "WSP_Shutter_0_hinge",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -31.71000099182129
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.7149999141693115
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Shutter_panel_0",
+        "WSP_Shutter_batten",
+        "WSP_Shutter_batten.001",
+        "WSP_Shutter_knob"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -31.71000099182129
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.7149999141693115
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.699999809265137
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": 90.0,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "WSP_Shutter_panel_0",
+            "center": [
+              -0.01399993896484375,
+              0.3019998222589493,
+              0.4250001907348633
+            ],
+            "extent": [
+              0.016499999910593033,
+              0.29900000989437103,
+              0.4259999990463257
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_Shutter_0_hinge",
+      "materials": [
+        "WSP_Pine",
+        "WSP_Galvanized",
+        "WSP_Petrol_enamel"
+      ],
+      "lo": [
+        -0.0774993896484375,
+        0.0029997825622558594,
+        -0.0009999275207519531
+      ],
+      "hi": [
+        0.0025005340576171875,
+        0.6009998321533203,
+        0.8510003089904785
+      ],
+      "vertices": 336,
+      "sha256": "d850b277f896c6d828842b73296f766782547c520ee2ceb0372e45d49ad452c8"
+    },
+    {
+      "id": 31,
+      "key": "WSP_Shutter_1_hinge",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -31.71000099182129
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.4850001335144043
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Shutter_panel_1",
+        "WSP_Shutter_batten.002",
+        "WSP_Shutter_batten.003",
+        "WSP_Shutter_knob.001"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -31.71000099182129
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -0.4850001335144043
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.699999809265137
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": -90.0,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "WSP_Shutter_panel_1",
+            "center": [
+              -0.01399993896484375,
+              -0.3020000606775284,
+              0.4250001907348633
+            ],
+            "extent": [
+              0.016499999910593033,
+              0.29900000989437103,
+              0.4259999990463257
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_Shutter_1_hinge",
+      "materials": [
+        "WSP_Pine",
+        "WSP_Galvanized",
+        "WSP_Petrol_enamel"
+      ],
+      "lo": [
+        -0.0774993896484375,
+        -0.6010000705718994,
+        -0.0009999275207519531
+      ],
+      "hi": [
+        0.0025005340576171875,
+        -0.0030000507831573486,
+        0.8510003089904785
+      ],
+      "vertices": 336,
+      "sha256": "a0e221d72eb05a74f45552792e800e8520b75729bec06db62c01453a240b77e7"
+    },
+    {
+      "id": 32,
+      "key": "WSP_ASSETS_-9_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Counter_top",
+        "WSP_Counter_end",
+        "WSP_Counter_end.001",
+        "WSP_Counter_lower_brace",
+        "WSP_Drawer_fixed_slide",
+        "WSP_Drawer_fixed_slide.001",
+        "WSP_Caster_race.001",
+        "WSP_Caster_fork.002",
+        "WSP_Caster_fork.003",
+        "WSP_Trolley_tyre.001",
+        "WSP_Trolley_hub.001",
+        "WSP_Caster_race.003",
+        "WSP_Caster_fork.006",
+        "WSP_Caster_fork.007",
+        "WSP_Trolley_tyre.003",
+        "WSP_Trolley_hub.003",
+        "WSP_Scale_base",
+        "WSP_Scale_neck",
+        "WSP_Scale_dial_rim",
+        "WSP_Scale_dial",
+        "WSP_Scale_tick",
+        "WSP_Scale_tick.001",
+        "WSP_Scale_tick.002",
+        "WSP_Scale_tick.003",
+        "WSP_Scale_tick.004",
+        "WSP_Scale_tick.005",
+        "WSP_Scale_tick.006",
+        "WSP_Scale_tick.007",
+        "WSP_Scale_tick.008",
+        "WSP_Scale_tick.009",
+        "WSP_Scale_tick.010",
+        "WSP_Scale_pointer",
+        "WSP_Scale_units",
+        "WSP_Scale_pan",
+        "WSP_Ledger_cover",
+        "WSP_Ledger_pages",
+        "WSP_Ledger_rule",
+        "WSP_Ledger_rule.001",
+        "WSP_Ledger_rule.002",
+        "WSP_Ledger_rule.003",
+        "WSP_Ledger_rule.004",
+        "WSP_Ledger_rule.005",
+        "WSP_Ledger_rule.006",
+        "WSP_Ledger_rule.007",
+        "WSP_Ledger_spine",
+        "WSP_Tag_dispenser",
+        "WSP_Blank_tag",
+        "WSP_Blank_tag.001",
+        "WSP_Blank_tag.002",
+        "WSP_Blank_tag.003",
+        "WSP_Blank_tag.004",
+        "WSP_Blank_tag.005",
+        "WSP_String_spool",
+        "WSP_Spool_flange",
+        "WSP_Spool_flange.001",
+        "WSP_Stamp_pad",
+        "WSP_Stamp_handle",
+        "WSP_Pencil",
+        "WSP_Pencil.001",
+        "WSP_Stamp_foot"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_ASSETS__9__1",
+      "materials": [
+        "WSP_Pine",
+        "WSP_Galvanized",
+        "WSP_Petrol_enamel",
+        "WSP_Rubber_ink",
+        "WSP_Cream_enamel",
+        "WSP_Oxblood_leather",
+        "WSP_Paper"
+      ],
+      "lo": [
+        1.8400001525878906,
+        0.28100013732910156,
+        4.605999946594238
+      ],
+      "hi": [
+        4.249998092651367,
+        3.6500000953674316,
+        6.016499996185303
+      ],
+      "vertices": 4776,
+      "sha256": "5852b76e4c3cd64435772c38c49b9f2b77a0c4f3f73c6344fee620d685314f38"
+    },
+    {
+      "id": 33,
+      "key": "WSP_Clerk_drawer_slide",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.45000076293945
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.3299999237060547
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.359999656677246
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Drawer_bottom",
+        "WSP_Drawer_side",
+        "WSP_Drawer_side.001",
+        "WSP_Drawer_front_back",
+        "WSP_Drawer_front_back.001",
+        "WSP_Drawer_pull",
+        "WSP_Drawer_key"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -32.45000076293945
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.3299999237060547
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.359999656677246
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": true,
+        "angle": 0,
+        "offset": [
+          -0.3799999999999999,
+          0,
+          0
+        ],
+        "axis_source": "X",
+        "collisions": [
+          {
+            "source": "WSP_Drawer_bottom",
+            "center": [
+              0.09000015258789062,
+              -0.029999971389770508,
+              -0.043000221252441406
+            ],
+            "extent": [
+              0.375,
+              0.25,
+              0.013000000268220901
+            ]
+          },
+          {
+            "source": "WSP_Drawer_side",
+            "center": [
+              0.09000015258789062,
+              -0.28999996185302734,
+              0.03000021167099476
+            ],
+            "extent": [
+              0.375,
+              0.013500005006790161,
+              0.06000000052154064
+            ]
+          },
+          {
+            "source": "WSP_Drawer_side.001",
+            "center": [
+              0.09000015258789062,
+              0.23000001907348633,
+              0.03000021167099476
+            ],
+            "extent": [
+              0.375,
+              0.013500005006790161,
+              0.06000000052154064
+            ]
+          },
+          {
+            "source": "WSP_Drawer_front_back",
+            "center": [
+              -0.2999992370605469,
+              -0.029999971389770508,
+              0.03000020980834961
+            ],
+            "extent": [
+              0.013500005006790161,
+              0.27000001072883606,
+              0.07500000298023224
+            ]
+          },
+          {
+            "source": "WSP_Drawer_front_back.001",
+            "center": [
+              0.4799995422363281,
+              -0.029999971389770508,
+              0.03000020980834961
+            ],
+            "extent": [
+              0.013500005006790161,
+              0.27000001072883606,
+              0.07500000298023224
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_Clerk_drawer_slide",
+      "materials": [
+        "WSP_Pine",
+        "WSP_Galvanized",
+        "WSP_Petrol_enamel"
+      ],
+      "lo": [
+        -0.3419990539550781,
+        -0.3034999370574951,
+        -0.0560002326965332
+      ],
+      "hi": [
+        0.493499755859375,
+        0.2434999942779541,
+        0.10500001907348633
+      ],
+      "vertices": 576,
+      "sha256": "727ef16b4e5ac3cff97ee249bbb2e77594d8b95293d28fcc5da0abfb5774502f"
+    },
+    {
+      "id": 34,
+      "key": "WSP_ASSETS_-10_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Rack_upright",
+        "WSP_Rack_upright.001",
+        "WSP_Shelf_0_0",
+        "WSP_Shelf_angle",
+        "WSP_Bay_number",
+        "WSP_Shelf_1_0",
+        "WSP_Shelf_angle.008",
+        "WSP_Bay_number.004",
+        "WSP_Shelf_2_0",
+        "WSP_Shelf_angle.016",
+        "WSP_Shelf_3_0",
+        "WSP_Shelf_angle.024",
+        "WSP_Suitcase_body",
+        "WSP_Suitcase_strap",
+        "WSP_Suitcase_handle",
+        "WSP_Suitcase_handle_mount",
+        "WSP_Suitcase_clasp",
+        "WSP_Canvas_bag",
+        "WSP_Strap_string.002",
+        "WSP_Bag_handle",
+        "WSP_Bag_handle_loop"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_ASSETS__10__2",
+      "materials": [
+        "WSP_Pine",
+        "WSP_Galvanized",
+        "WSP_Petrol_enamel",
+        "WSP_Cream_enamel",
+        "WSP_Oxblood_leather",
+        "WSP_Paper",
+        "WSP_Canvas"
+      ],
+      "lo": [
+        2.8474998474121094,
+        3.3975000381469727,
+        4.649999618530273
+      ],
+      "hi": [
+        3.540599822998047,
+        4.432499885559082,
+        6.869999885559082
+      ],
+      "vertices": 2728,
+      "sha256": "25ced7815cc0766ef16c48fbebb98eb6deadd656b0b2c927c5f96af6fa6ffd49"
+    },
+    {
+      "id": 35,
+      "key": "WSP_ASSETS_-10_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Rack_upright.002",
+        "WSP_Rack_upright.003",
+        "WSP_Rack_upright.004",
+        "WSP_Rack_upright.005",
+        "WSP_Rack_upright.006",
+        "WSP_Rack_upright.007",
+        "WSP_Rack_upright.008",
+        "WSP_Rack_upright.009",
+        "WSP_Shelf_angle.001",
+        "WSP_Shelf_0_1",
+        "WSP_Shelf_angle.002",
+        "WSP_Shelf_angle.003",
+        "WSP_Bay_number.001",
+        "WSP_Shelf_0_2",
+        "WSP_Shelf_angle.004",
+        "WSP_Shelf_angle.005",
+        "WSP_Bay_number.002",
+        "WSP_Shelf_0_3",
+        "WSP_Shelf_angle.006",
+        "WSP_Shelf_angle.007",
+        "WSP_Bay_number.003",
+        "WSP_Shelf_angle.009",
+        "WSP_Shelf_1_1",
+        "WSP_Shelf_angle.010",
+        "WSP_Shelf_angle.011",
+        "WSP_Bay_number.005",
+        "WSP_Shelf_1_2",
+        "WSP_Shelf_angle.012",
+        "WSP_Shelf_angle.013",
+        "WSP_Bay_number.006",
+        "WSP_Shelf_1_3",
+        "WSP_Shelf_angle.014",
+        "WSP_Shelf_angle.015",
+        "WSP_Bay_number.007",
+        "WSP_Shelf_angle.017",
+        "WSP_Shelf_2_1",
+        "WSP_Shelf_angle.018",
+        "WSP_Shelf_angle.019",
+        "WSP_Shelf_2_2",
+        "WSP_Shelf_angle.020",
+        "WSP_Shelf_angle.021",
+        "WSP_Shelf_2_3",
+        "WSP_Shelf_angle.022",
+        "WSP_Shelf_angle.023",
+        "WSP_Shelf_angle.025",
+        "WSP_Shelf_3_1",
+        "WSP_Shelf_angle.026",
+        "WSP_Shelf_angle.027",
+        "WSP_Shelf_3_2",
+        "WSP_Shelf_angle.028",
+        "WSP_Shelf_angle.029",
+        "WSP_Shelf_3_3",
+        "WSP_Shelf_angle.030",
+        "WSP_Shelf_angle.031",
+        "WSP_Rack_diagonal",
+        "WSP_Rack_diagonal.001",
+        "WSP_Suitcase_strap.001",
+        "WSP_Suitcase_handle_mount.001",
+        "WSP_Suitcase_clasp.001",
+        "WSP_Property_tag",
+        "WSP_Tag_id",
+        "WSP_Tag_tie",
+        "WSP_Wrapped_parcel",
+        "WSP_Strap_string",
+        "WSP_Strap_string.001",
+        "WSP_Property_tag.001",
+        "WSP_Tag_id.001",
+        "WSP_Tag_tie.001",
+        "WSP_Strap_string.003",
+        "WSP_Bag_handle_loop.001",
+        "WSP_Property_tag.002",
+        "WSP_Tag_id.002",
+        "WSP_Tag_tie.002",
+        "WSP_Wrapped_parcel.001",
+        "WSP_Strap_string.004",
+        "WSP_Strap_string.005",
+        "WSP_Property_tag.003",
+        "WSP_Tag_id.003",
+        "WSP_Tag_tie.003",
+        "WSP_Canvas_bag.001",
+        "WSP_Strap_string.006",
+        "WSP_Strap_string.007",
+        "WSP_Bag_handle.001",
+        "WSP_Bag_handle_loop.002",
+        "WSP_Bag_handle_loop.003",
+        "WSP_Property_tag.004",
+        "WSP_Tag_id.004",
+        "WSP_Tag_tie.004"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_ASSETS__10__1",
+      "materials": [
+        "WSP_Pine",
+        "WSP_Galvanized",
+        "WSP_Petrol_enamel",
+        "WSP_Rubber_ink",
+        "WSP_Cream_enamel",
+        "WSP_Paper",
+        "WSP_Kraft",
+        "WSP_Canvas"
+      ],
+      "lo": [
+        2.8474998474121094,
+        -0.5480632781982422,
+        4.649999618530273
+      ],
+      "hi": [
+        3.540599822998047,
+        3.62250018119812,
+        6.869999885559082
+      ],
+      "vertices": 15488,
+      "sha256": "8795105c7fcd1648c8a98c21b6c15cd2223287b01341e16975a6ae3c8c3298ab"
+    },
+    {
+      "id": 36,
+      "key": "WSP_ASSETS_-9_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Secure_side",
+        "WSP_Secure_side.001",
+        "WSP_Secure_back",
+        "WSP_Secure_shelf",
+        "WSP_Secure_shelf.001",
+        "WSP_Secure_shelf.002",
+        "WSP_Secure_shelf.003",
+        "WSP_Secure_tray_fixed_runner",
+        "WSP_Secure_tray_fixed_runner.001",
+        "WSP_Secure_tray_fixed_runner.002",
+        "WSP_Secure_tray_fixed_runner.003",
+        "WSP_Secure_tray_fixed_runner.004",
+        "WSP_Secure_tray_fixed_runner.005",
+        "WSP_Trolley_deck",
+        "WSP_Caster_race",
+        "WSP_Caster_fork",
+        "WSP_Caster_fork.001",
+        "WSP_Trolley_tyre",
+        "WSP_Trolley_hub",
+        "WSP_Caster_race.002",
+        "WSP_Caster_fork.004",
+        "WSP_Caster_fork.005",
+        "WSP_Trolley_tyre.002",
+        "WSP_Trolley_hub.002",
+        "WSP_Trolley_handle_post",
+        "WSP_Trolley_handle_post.001",
+        "WSP_Trolley_grip",
+        "WSP_Secure_sign_board",
+        "WSP_Secure_sign"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_ASSETS__9__2",
+      "materials": [
+        "WSP_Pine",
+        "WSP_Galvanized",
+        "WSP_Petrol_enamel",
+        "WSP_Rubber_ink",
+        "WSP_Cream_enamel"
+      ],
+      "lo": [
+        0.00499725341796875,
+        3.2810001373291016,
+        4.605999946594238
+      ],
+      "hi": [
+        2.579998016357422,
+        4.409999847412109,
+        6.875
+      ],
+      "vertices": 5112,
+      "sha256": "b712f8a317e2485099438e67c7991211f4428811d52106871ed16b05ac620f35"
+    },
+    {
+      "id": 37,
+      "key": "WSP_Secure_tray_1_slide",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -35.25
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.400000095367432
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.710000038146973
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Tray_base",
+        "WSP_Tray_side",
+        "WSP_Tray_side.001",
+        "WSP_Tray_lip",
+        "WSP_Tray_lip.001",
+        "WSP_Tray_label"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -35.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -4.400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.710000038146973
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": true,
+        "angle": 0,
+        "offset": [
+          0,
+          0.25,
+          0
+        ],
+        "axis_source": "Y",
+        "collisions": [
+          {
+            "source": "WSP_Tray_base",
+            "center": [
+              0.0,
+              -0.010000236332416534,
+              0.014999866019934416
+            ],
+            "extent": [
+              0.6349999904632568,
+              0.24000000208616257,
+              0.012499999720603228
+            ]
+          },
+          {
+            "source": "WSP_Tray_side",
+            "center": [
+              -0.6399993896484375,
+              -0.010000236332416534,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.008000016212463379,
+              0.24000000208616257,
+              0.04999999888241291
+            ]
+          },
+          {
+            "source": "WSP_Tray_side.001",
+            "center": [
+              0.6399993896484375,
+              -0.010000236332416534,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.008000016212463379,
+              0.24000000208616257,
+              0.04999999888241291
+            ]
+          },
+          {
+            "source": "WSP_Tray_lip",
+            "center": [
+              0.0,
+              -0.2569999694824219,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.6480000019073486,
+              0.006999999284744263,
+              0.04999999888241291
+            ]
+          },
+          {
+            "source": "WSP_Tray_lip.001",
+            "center": [
+              0.0,
+              0.2369999885559082,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.6480000019073486,
+              0.006999999284744263,
+              0.04999999888241291
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_Secure_tray_1_slide",
+      "materials": [
+        "WSP_Galvanized",
+        "WSP_Cream_enamel"
+      ],
+      "lo": [
+        -0.6479988098144531,
+        -0.26399993896484375,
+        0.0025000572204589844
+      ],
+      "hi": [
+        0.6479988098144531,
+        0.24559974670410156,
+        0.11400032043457031
+      ],
+      "vertices": 2664,
+      "sha256": "8bd25914ecbe3e7b966714dc39e1835e0d14e3f6a61850b3d45a47d81f2d5a01"
+    },
+    {
+      "id": 38,
+      "key": "WSP_Secure_tray_2_slide",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -35.25
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.400000095367432
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.279999732971191
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Tray_base.001",
+        "WSP_Tray_side.002",
+        "WSP_Tray_side.003",
+        "WSP_Tray_lip.002",
+        "WSP_Tray_lip.003",
+        "WSP_Tray_label.001"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -35.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -4.400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.279999732971191
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": true,
+        "angle": 0,
+        "offset": [
+          0,
+          0.25,
+          0
+        ],
+        "axis_source": "Y",
+        "collisions": [
+          {
+            "source": "WSP_Tray_base.001",
+            "center": [
+              0.0,
+              -0.010000236332416534,
+              0.014999866019934416
+            ],
+            "extent": [
+              0.6349999904632568,
+              0.24000000208616257,
+              0.012499999720603228
+            ]
+          },
+          {
+            "source": "WSP_Tray_side.002",
+            "center": [
+              -0.6399993896484375,
+              -0.010000236332416534,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.008000016212463379,
+              0.24000000208616257,
+              0.04999999888241291
+            ]
+          },
+          {
+            "source": "WSP_Tray_side.003",
+            "center": [
+              0.6399993896484375,
+              -0.010000236332416534,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.008000016212463379,
+              0.24000000208616257,
+              0.04999999888241291
+            ]
+          },
+          {
+            "source": "WSP_Tray_lip.002",
+            "center": [
+              0.0,
+              -0.2569999694824219,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.6480000019073486,
+              0.006999999284744263,
+              0.04999999888241291
+            ]
+          },
+          {
+            "source": "WSP_Tray_lip.003",
+            "center": [
+              0.0,
+              0.2369999885559082,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.6480000019073486,
+              0.006999999284744263,
+              0.04999999888241291
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_Secure_tray_2_slide",
+      "materials": [
+        "WSP_Galvanized",
+        "WSP_Cream_enamel"
+      ],
+      "lo": [
+        -0.6479988098144531,
+        -0.26399993896484375,
+        0.0025000572204589844
+      ],
+      "hi": [
+        0.6479988098144531,
+        0.24559974670410156,
+        0.11400032043457031
+      ],
+      "vertices": 3004,
+      "sha256": "d8bc1bae40a24584247b447d39906f78c8a1dabec4c171833b250cb8d3918f94"
+    },
+    {
+      "id": 39,
+      "key": "WSP_Secure_tray_3_slide",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -35.25
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.400000095367432
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.869999885559082
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Tray_base.002",
+        "WSP_Tray_side.004",
+        "WSP_Tray_side.005",
+        "WSP_Tray_lip.004",
+        "WSP_Tray_lip.005",
+        "WSP_Tray_label.002"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -35.25
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -4.400000095367432
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.869999885559082
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": true,
+        "angle": 0,
+        "offset": [
+          0,
+          0.25,
+          0
+        ],
+        "axis_source": "Y",
+        "collisions": [
+          {
+            "source": "WSP_Tray_base.002",
+            "center": [
+              0.0,
+              -0.010000236332416534,
+              0.014999866019934416
+            ],
+            "extent": [
+              0.6349999904632568,
+              0.24000000208616257,
+              0.012499999720603228
+            ]
+          },
+          {
+            "source": "WSP_Tray_side.004",
+            "center": [
+              -0.6399993896484375,
+              -0.010000236332416534,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.008000016212463379,
+              0.24000000208616257,
+              0.04999999888241291
+            ]
+          },
+          {
+            "source": "WSP_Tray_side.005",
+            "center": [
+              0.6399993896484375,
+              -0.010000236332416534,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.008000016212463379,
+              0.24000000208616257,
+              0.04999999888241291
+            ]
+          },
+          {
+            "source": "WSP_Tray_lip.004",
+            "center": [
+              0.0,
+              -0.2569999694824219,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.6480000019073486,
+              0.006999999284744263,
+              0.04999999888241291
+            ]
+          },
+          {
+            "source": "WSP_Tray_lip.005",
+            "center": [
+              0.0,
+              0.2369999885559082,
+              0.06400012783706188
+            ],
+            "extent": [
+              0.6480000019073486,
+              0.006999999284744263,
+              0.04999999888241291
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_Secure_tray_3_slide",
+      "materials": [
+        "WSP_Galvanized",
+        "WSP_Cream_enamel"
+      ],
+      "lo": [
+        -0.6479988098144531,
+        -0.26399993896484375,
+        0.0025000572204589844
+      ],
+      "hi": [
+        0.6479988098144531,
+        0.24559974670410156,
+        0.11400032043457031
+      ],
+      "vertices": 3236,
+      "sha256": "77d758392c564f82980aaebdbc9de469a3d234cf55bc5bf7bdf487d0cadce610"
+    },
+    {
+      "id": 40,
+      "key": "WSP_Secure_door_hinge",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -35.94000244140625
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.099999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.679999828338623
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSP_Secure_door_stile",
+        "WSP_Secure_door_stile.001",
+        "WSP_Secure_door_rail",
+        "WSP_Secure_door_rail.001",
+        "WSP_Secure_wire_vertical",
+        "WSP_Secure_wire_vertical.001",
+        "WSP_Secure_wire_vertical.002",
+        "WSP_Secure_wire_vertical.003",
+        "WSP_Secure_wire_vertical.004",
+        "WSP_Secure_wire_vertical.005",
+        "WSP_Secure_wire_vertical.006",
+        "WSP_Secure_wire_vertical.007",
+        "WSP_Secure_wire_vertical.008",
+        "WSP_Secure_wire_vertical.009",
+        "WSP_Secure_wire_vertical.010",
+        "WSP_Secure_wire_vertical.011",
+        "WSP_Secure_wire_vertical.012",
+        "WSP_Secure_wire_vertical.013",
+        "WSP_Secure_wire_vertical.014",
+        "WSP_Secure_wire_vertical.015",
+        "WSP_Secure_wire_vertical.016",
+        "WSP_Secure_wire_vertical.017",
+        "WSP_Secure_wire_vertical.018",
+        "WSP_Secure_wire_vertical.019",
+        "WSP_Secure_wire_vertical.020",
+        "WSP_Secure_wire_vertical.021",
+        "WSP_Secure_wire_vertical.022",
+        "WSP_Secure_wire_vertical.023",
+        "WSP_Secure_wire_vertical.024",
+        "WSP_Secure_wire_horizontal",
+        "WSP_Secure_wire_horizontal.001",
+        "WSP_Secure_wire_horizontal.002",
+        "WSP_Secure_wire_horizontal.003",
+        "WSP_Secure_wire_horizontal.004",
+        "WSP_Secure_wire_horizontal.005",
+        "WSP_Secure_wire_horizontal.006",
+        "WSP_Secure_wire_horizontal.007",
+        "WSP_Secure_wire_horizontal.008",
+        "WSP_Secure_wire_horizontal.009",
+        "WSP_Secure_wire_horizontal.010",
+        "WSP_Secure_wire_horizontal.011",
+        "WSP_Secure_wire_horizontal.012",
+        "WSP_Secure_wire_horizontal.013",
+        "WSP_Secure_wire_horizontal.014",
+        "WSP_Secure_wire_horizontal.015",
+        "WSP_Secure_wire_horizontal.016",
+        "WSP_Secure_wire_horizontal.017",
+        "WSP_Secure_wire_horizontal.018",
+        "WSP_Secure_wire_horizontal.019",
+        "WSP_Secure_wire_horizontal.020",
+        "WSP_Secure_wire_horizontal.021",
+        "WSP_Secure_wire_horizontal.022",
+        "WSP_Secure_wire_horizontal.023",
+        "WSP_Secure_wire_horizontal.024",
+        "WSP_Secure_wire_horizontal.025",
+        "WSP_Secure_wire_horizontal.026",
+        "WSP_Secure_wire_horizontal.027",
+        "WSP_Secure_wire_horizontal.028",
+        "WSP_Secure_wire_horizontal.029",
+        "WSP_Secure_wire_horizontal.030",
+        "WSP_Secure_wire_horizontal.031",
+        "WSP_Secure_wire_horizontal.032",
+        "WSP_Secure_wire_horizontal.033",
+        "WSP_Secure_lock_plate",
+        "WSP_Secure_key",
+        "WSP_Secure_key_slot",
+        "WSP_Secure_hinge",
+        "WSP_Secure_hinge.001"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -35.94000244140625
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -4.099999904632568
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.679999828338623
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": 90.0,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "Wire door blocking envelope",
+            "center": [
+              0.6797504425048828,
+              0.020750045776367188,
+              0.9499998092651367
+            ],
+            "extent": [
+              0.6947519989013672,
+              0.03775002670288086,
+              0.9494998664855957
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSP_Secure_door_hinge",
+      "materials": [
+        "WSP_Galvanized",
+        "WSP_Petrol_enamel",
+        "WSP_Rubber_ink"
+      ],
+      "lo": [
+        -0.018001556396484375,
+        -0.019999980926513672,
+        -0.0025000572204589844
+      ],
+      "hi": [
+        1.37750244140625,
+        0.06150007247924805,
+        1.9024996757507324
+      ],
+      "vertices": 6384,
+      "sha256": "5d0c4d10885b59d69aacfb06356a69e0cb68ac7d96fba5a6709437fb32bc9789"
+    },
+    {
+      "id": 41,
+      "key": "WSR_ASSETS_-8_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Door_jamb",
+        "WSR_Door_jamb.001",
+        "WSR_Door_head",
+        "WSR_Threshold",
+        "WSR_Concealed_jamb_packing",
+        "WSR_Concealed_jamb_packing.001",
+        "WSR_Window_jamb",
+        "WSR_Window_rail",
+        "WSR_Window_rail.001",
+        "WSR_Window_glazing",
+        "WSR_Window_sill",
+        "WSR_Blind_roller",
+        "WSR_Privacy_blind_fabric",
+        "WSR_Boot_tray_rim.003",
+        "WSR_Room_sign",
+        "WSR_Room_sign_text",
+        "WSR_Sign_screw0",
+        "WSR_Sign_screw1",
+        "WSR_Sign_screw2",
+        "WSR_Sign_screw3"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSR_ASSETS__8_0",
+      "materials": [
+        "WSR_Petrol_enamel",
+        "WSR_Galvanized_steel",
+        "WSR_Graphite_rubber",
+        "WSR_Honey_pine",
+        "WSR_Warm_cream_enamel",
+        "WSR_Window_glass",
+        "WSR_Cot_canvas",
+        "WSR_Printed_ink"
+      ],
+      "lo": [
+        0.1289997100830078,
+        0.2499999701976776,
+        4.599999904632568
+      ],
+      "hi": [
+        0.6130008697509766,
+        4.490000247955322,
+        7.224999904632568
+      ],
+      "vertices": 4732,
+      "sha256": "e0f40d811c45245346b924cef6c4b01f9e5683bcd65dc7be72c16b166f40c1f5"
+    },
+    {
+      "id": 42,
+      "key": "NONBLOCK_Hardware_-8_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Door_seal",
+        "WSR_Door_seal.001",
+        "WSR_Head_seal"
+      ],
+      "control": null,
+      "nonblocking": true,
+      "mesh": "SM_WS_NONBLOCK_Hardware__8_0",
+      "materials": [
+        "WSR_Graphite_rubber"
+      ],
+      "lo": [
+        0.30900001525878906,
+        1.2720000743865967,
+        4.607999801635742
+      ],
+      "hi": [
+        0.35899925231933594,
+        2.8279998302459717,
+        6.880000114440918
+      ],
+      "vertices": 288,
+      "sha256": "827caed01adc9d1da8c9d218f965ea812cfd1f494306186bd2e1409866672575"
+    },
+    {
+      "id": 43,
+      "key": "WSR_Door_Active_HINGE",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -31.6820011138916
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.2799999713897705
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.599999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Door_Active_leaf",
+        "WSR_Door_Active_bottom_weatherseal",
+        "WSR_Meeting_astragal",
+        "WSR_Door_Active_rail",
+        "WSR_Door_Active_rail.001",
+        "WSR_Door_Active_kickplate",
+        "WSR_Door_Active_latch_plate",
+        "WSR_Door_Active_handle_spindle",
+        "WSR_Door_Active_lever",
+        "WSR_Door_Active_latch_plate.001",
+        "WSR_Door_Active_handle_spindle.001",
+        "WSR_Door_Active_lever.001",
+        "WSR_Door_Active_hinge_barrel",
+        "WSR_Door_Active_hinge_barrel.001",
+        "WSR_Door_Active_hinge_barrel.002"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -31.6820011138916
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.2799999713897705
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.599999904632568
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": 90,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "WSR_Door_Active_leaf",
+            "center": [
+              -0.02700042724609375,
+              0.37400007247924805,
+              1.1490001678466797
+            ],
+            "extent": [
+              0.02250000089406967,
+              0.39399999380111694,
+              1.13100004196167
+            ]
+          },
+          {
+            "source": "WSR_Door_Active_rail",
+            "center": [
+              0.0009994509164243937,
+              0.37400007247924805,
+              0.17999982833862305
+            ],
+            "extent": [
+              0.00750000006519258,
+              0.34299999475479126,
+              0.06000000238418579
+            ]
+          },
+          {
+            "source": "WSR_Door_Active_rail.001",
+            "center": [
+              0.0009994509164243937,
+              0.37400007247924805,
+              1.9800000190734863
+            ],
+            "extent": [
+              0.00750000006519258,
+              0.34299999475479126,
+              0.059999942779541016
+            ]
+          },
+          {
+            "source": "WSR_Door_Active_kickplate",
+            "center": [
+              0.00099945068359375,
+              0.37400007247924805,
+              0.4200000762939453
+            ],
+            "extent": [
+              0.006000000052154064,
+              0.34299999475479126,
+              0.13999998569488525
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSR_Door_Active_HINGE",
+      "materials": [
+        "WSR_Petrol_enamel",
+        "WSR_Galvanized_steel",
+        "WSR_Graphite_rubber",
+        "WSR_Honey_pine"
+      ],
+      "lo": [
+        -0.09100151062011719,
+        -0.019999980926513672,
+        0.012000083923339844
+      ],
+      "hi": [
+        0.03700065612792969,
+        0.7810001373291016,
+        2.2800002098083496
+      ],
+      "vertices": 1440,
+      "sha256": "3fc76b4963bac2f33e06590a96144d554b544a3802c7f1d5a40cda7c5cdc4650"
+    },
+    {
+      "id": 44,
+      "key": "WSR_ASSETS_-9_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Hold_open_Active",
+        "WSR_Hold_open_Passive",
+        "WSR_Cot_long_rail",
+        "WSR_Cot_leg",
+        "WSR_Cot_foot",
+        "WSR_Cot_leg.001",
+        "WSR_Cot_foot.001",
+        "WSR_Cot_long_rail.001",
+        "WSR_Cot_leg.002",
+        "WSR_Cot_foot.002",
+        "WSR_Cot_leg.003",
+        "WSR_Cot_foot.003",
+        "WSR_Cot_end",
+        "WSR_Cot_end.001",
+        "WSR_Cot_tension_canvas",
+        "WSR_Cot_pad",
+        "WSR_Cot_pillow",
+        "WSR_Arrival_blanket",
+        "WSR_Blanket_woven_border",
+        "WSR_Blanket_woven_border.001",
+        "WSR_Equipment_shelf",
+        "WSR_Shelf_bracket.001",
+        "WSR_Shelf_mount.001",
+        "WSR_First_aid_bag",
+        "WSR_Bag_zipper",
+        "WSR_Bag_handle_upright",
+        "WSR_Bag_handle_upright.001",
+        "WSR_Bag_handle",
+        "WSR_Splint",
+        "WSR_Splint.001",
+        "WSR_Splint.002",
+        "WSR_Splint_rack",
+        "WSR_Rope_bag",
+        "WSR_Rope_coil",
+        "WSR_Rope_coil.001",
+        "WSR_Rope_coil.002",
+        "WSR_Rope_coil.003",
+        "WSR_Rope_coil.004",
+        "WSR_Rope_coil.005",
+        "WSR_Rope_coil.006",
+        "WSR_Hook_plate",
+        "WSR_Hook_stem",
+        "WSR_Hook_return",
+        "WSR_Hook_plate.001",
+        "WSR_Hook_stem.001",
+        "WSR_Hook_return.001",
+        "WSR_Hook_plate.002",
+        "WSR_Hook_stem.002",
+        "WSR_Hook_return.002",
+        "WSR_Boot_tray",
+        "WSR_Boot_tray_rim",
+        "WSR_Boot_tray_rim.001",
+        "WSR_Boot_tray_rim.002",
+        "WSR_Stretcher_rail",
+        "WSR_Stretcher_grip",
+        "WSR_Stretcher_hinge_cheek",
+        "WSR_Stretcher_rail.001",
+        "WSR_Stretcher_grip.001",
+        "WSR_Stretcher_hinge_cheek.001",
+        "WSR_Stretcher_crossbar",
+        "WSR_Stretcher_crossbar.001",
+        "WSR_Stretcher_canvas",
+        "WSR_Stretcher_restraint",
+        "WSR_Stretcher_buckle",
+        "WSR_Stretcher_restraint.001",
+        "WSR_Stretcher_buckle.001",
+        "WSR_Stretcher_leg",
+        "WSR_Stretcher_leg_foot",
+        "WSR_Stretcher_leg.001",
+        "WSR_Stretcher_leg_foot.001",
+        "WSR_Stretcher_leg_tie",
+        "WSR_Stretcher_leg_axle",
+        "WSR_Stretcher_rail.002",
+        "WSR_Stretcher_grip.002",
+        "WSR_Stretcher_hinge_cheek.002",
+        "WSR_Stretcher_rail.003",
+        "WSR_Stretcher_grip.003",
+        "WSR_Stretcher_hinge_cheek.003",
+        "WSR_Stretcher_crossbar.002",
+        "WSR_Stretcher_crossbar.003",
+        "WSR_Stretcher_canvas.001",
+        "WSR_Stretcher_restraint.002",
+        "WSR_Stretcher_buckle.002",
+        "WSR_Stretcher_restraint.003",
+        "WSR_Stretcher_buckle.003",
+        "WSR_Stretcher_leg.002",
+        "WSR_Stretcher_leg_foot.002",
+        "WSR_Stretcher_leg.003",
+        "WSR_Stretcher_leg_foot.003",
+        "WSR_Stretcher_leg_tie.001",
+        "WSR_Stretcher_leg_axle.001",
+        "WSR_Stretcher_hinge_pin",
+        "WSR_Stretcher_locking_sleeve",
+        "WSR_Stretcher_hinge_pin.001",
+        "WSR_Stretcher_locking_sleeve.001",
+        "WSR_Stretcher_wall_plate",
+        "WSR_Stretcher_bracket",
+        "WSR_Stretcher_bracket_lip",
+        "WSR_Stretcher_bracket.001",
+        "WSR_Stretcher_bracket_lip.001",
+        "WSR_Stretcher_wall_plate.001",
+        "WSR_Stretcher_bracket.002",
+        "WSR_Stretcher_bracket_lip.002",
+        "WSR_Stretcher_bracket.003",
+        "WSR_Stretcher_bracket_lip.003"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSR_ASSETS__9_0",
+      "materials": [
+        "WSR_Petrol_enamel",
+        "WSR_Galvanized_steel",
+        "WSR_Graphite_rubber",
+        "WSR_Honey_pine",
+        "WSR_Cot_canvas",
+        "WSR_Checklist_paper",
+        "WSR_Olive_wool",
+        "WSR_Muted_rescue_canvas"
+      ],
+      "lo": [
+        0.20749664306640625,
+        0.11649999022483826,
+        4.599999904632568
+      ],
+      "hi": [
+        4.149999618530273,
+        3.5829999446868896,
+        6.8949995040893555
+      ],
+      "vertices": 10956,
+      "sha256": "0dfa627baffd8a29790ab88c2a0fa00a1c2563f6343675ffa79499e036cb2560"
+    },
+    {
+      "id": 45,
+      "key": "WSR_Door_Passive_HINGE",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -31.6820011138916
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.819999933242798
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.599999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Door_Passive_leaf",
+        "WSR_Door_Passive_bottom_weatherseal",
+        "WSR_Door_Passive_rail",
+        "WSR_Door_Passive_rail.001",
+        "WSR_Door_Passive_kickplate",
+        "WSR_Door_Passive_latch_plate",
+        "WSR_Door_Passive_handle_spindle",
+        "WSR_Door_Passive_lever",
+        "WSR_Door_Passive_latch_plate.001",
+        "WSR_Door_Passive_handle_spindle.001",
+        "WSR_Door_Passive_lever.001",
+        "WSR_Door_Passive_hinge_barrel",
+        "WSR_Door_Passive_hinge_barrel.001",
+        "WSR_Door_Passive_hinge_barrel.002",
+        "WSR_Passive_flush_bolt",
+        "WSR_Passive_flush_bolt.001"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -31.6820011138916
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            2.819999933242798
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.599999904632568
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": -90,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "WSR_Door_Passive_leaf",
+            "center": [
+              -0.02700042724609375,
+              -0.37399983406066895,
+              1.1490001678466797
+            ],
+            "extent": [
+              0.02250000089406967,
+              0.39399999380111694,
+              1.13100004196167
+            ]
+          },
+          {
+            "source": "WSR_Door_Passive_rail",
+            "center": [
+              0.0009994509164243937,
+              -0.37399983406066895,
+              0.17999982833862305
+            ],
+            "extent": [
+              0.00750000006519258,
+              0.34299999475479126,
+              0.06000000238418579
+            ]
+          },
+          {
+            "source": "WSR_Door_Passive_rail.001",
+            "center": [
+              0.0009994509164243937,
+              -0.37399983406066895,
+              1.9800000190734863
+            ],
+            "extent": [
+              0.00750000006519258,
+              0.34299999475479126,
+              0.059999942779541016
+            ]
+          },
+          {
+            "source": "WSR_Door_Passive_kickplate",
+            "center": [
+              0.00099945068359375,
+              -0.37399983406066895,
+              0.4200000762939453
+            ],
+            "extent": [
+              0.006000000052154064,
+              0.34299999475479126,
+              0.13999998569488525
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSR_Door_Passive_HINGE",
+      "materials": [
+        "WSR_Petrol_enamel",
+        "WSR_Galvanized_steel",
+        "WSR_Graphite_rubber",
+        "WSR_Honey_pine"
+      ],
+      "lo": [
+        -0.09100151062011719,
+        -0.7679998874664307,
+        0.012000083923339844
+      ],
+      "hi": [
+        0.03700065612792969,
+        0.020000219345092773,
+        2.2800002098083496
+      ],
+      "vertices": 1536,
+      "sha256": "a349616b0a9ffbbb19c1d3d2d335aae75deb61e0ff78706b8c6bf95ebbdc2007"
+    },
+    {
+      "id": 46,
+      "key": "WSR_ASSETS_-8_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Window_jamb.001",
+        "WSR_Blind_pull",
+        "WSR_Blind_cleat",
+        "WSR_Radio_handset",
+        "WSR_Handset_coil",
+        "WSR_Handset_coil.001",
+        "WSR_Handset_coil.002",
+        "WSR_Handset_coil.003",
+        "WSR_Handset_coil.004",
+        "WSR_Handset_coil.005",
+        "WSR_Handset_coil.006",
+        "WSR_Handset_coil.007",
+        "WSR_Handset_coil.008",
+        "WSR_Handset_coil.009",
+        "WSR_Handset_coil.010",
+        "WSR_Handset_coil.011",
+        "WSR_Handset_coil.012",
+        "WSR_Handset_coil.013",
+        "WSR_Handset_coil.014",
+        "WSR_Handset_coil.015",
+        "WSR_Handset_coil.016",
+        "WSR_Handset_coil.017",
+        "WSR_Handset_return_0"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSR_ASSETS__8_1",
+      "materials": [
+        "WSR_Graphite_rubber",
+        "WSR_Warm_cream_enamel"
+      ],
+      "lo": [
+        -0.0149993896484375,
+        0.38000011444091797,
+        5.5767412185668945
+      ],
+      "hi": [
+        0.5579986572265625,
+        0.6550002098083496,
+        6.680000305175781
+      ],
+      "vertices": 2208,
+      "sha256": "7b465f19830c76a5cc226fc0af24cce79f30ea765186f0ec62faa5db7529ad6d"
+    },
+    {
+      "id": 47,
+      "key": "WSR_ASSETS_-10_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Cupboard_foot",
+        "WSR_Cupboard_foot.001",
+        "WSR_Cupboard_foot.002",
+        "WSR_Cupboard_foot.003",
+        "WSR_Blanket_cupboard_side",
+        "WSR_Blanket_cupboard_side.001",
+        "WSR_Blanket_cupboard_back",
+        "WSR_Blanket_shelf",
+        "WSR_Blanket_shelf.001",
+        "WSR_Blanket_shelf.002",
+        "WSR_Blanket_shelf.003",
+        "WSR_Blanket_shelf.004",
+        "WSR_Folded_wool_blanket",
+        "WSR_Blanket_binding",
+        "WSR_Folded_wool_blanket.001",
+        "WSR_Blanket_binding.001",
+        "WSR_Folded_wool_blanket.002",
+        "WSR_Blanket_binding.002",
+        "WSR_Folded_wool_blanket.003",
+        "WSR_Blanket_binding.003",
+        "WSR_Folded_wool_blanket.004",
+        "WSR_Blanket_binding.004",
+        "WSR_Folded_wool_blanket.005",
+        "WSR_Blanket_binding.005",
+        "WSR_Folded_wool_blanket.006",
+        "WSR_Blanket_binding.006",
+        "WSR_Folded_wool_blanket.007",
+        "WSR_Blanket_binding.007",
+        "WSR_Folded_wool_blanket.008",
+        "WSR_Blanket_binding.008",
+        "WSR_Folded_wool_blanket.009",
+        "WSR_Blanket_binding.009",
+        "WSR_Folded_wool_blanket.010",
+        "WSR_Blanket_binding.010",
+        "WSR_Folded_wool_blanket.011",
+        "WSR_Blanket_binding.011",
+        "WSR_Folded_wool_blanket.012",
+        "WSR_Blanket_binding.012",
+        "WSR_Folded_wool_blanket.013",
+        "WSR_Blanket_binding.013",
+        "WSR_Folded_wool_blanket.014",
+        "WSR_Blanket_binding.014",
+        "WSR_Folded_wool_blanket.015",
+        "WSR_Blanket_binding.015",
+        "WSR_Folded_wool_blanket.016",
+        "WSR_Blanket_binding.016",
+        "WSR_Folded_wool_blanket.017",
+        "WSR_Blanket_binding.017",
+        "WSR_Aid_cabinet_side",
+        "WSR_Aid_cabinet_side.001",
+        "WSR_Aid_cabinet_shelf",
+        "WSR_Aid_cabinet_shelf.001",
+        "WSR_Aid_cabinet_shelf.002",
+        "WSR_Aid_cabinet_back",
+        "WSR_Aid_wrapped_packet",
+        "WSR_Aid_wrapped_packet.001",
+        "WSR_Aid_wrapped_packet.002",
+        "WSR_Aid_wrapped_packet.003",
+        "WSR_Aid_supply_box",
+        "WSR_Aid_supply_box.001",
+        "WSR_Aid_supply_box.002",
+        "WSR_Shelf_bracket",
+        "WSR_Shelf_mount"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSR_ASSETS__10_0",
+      "materials": [
+        "WSR_Galvanized_steel",
+        "WSR_Graphite_rubber",
+        "WSR_Honey_pine",
+        "WSR_Warm_cream_enamel",
+        "WSR_Cot_canvas",
+        "WSR_Checklist_paper",
+        "WSR_Olive_wool"
+      ],
+      "lo": [
+        2.7529983520507812,
+        0.12250000238418579,
+        4.599999904632568
+      ],
+      "hi": [
+        5.043998718261719,
+        3.9175000190734863,
+        6.460000038146973
+      ],
+      "vertices": 6048,
+      "sha256": "e1d8b764b082953aa08c0dd4c43ec4c02a35aceae2ee1ef6e135c31f8b7056ea"
+    },
+    {
+      "id": 48,
+      "key": "WSR_Blanket_cupboard_HINGE",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.520999908447266
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.4399999976158142
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.599999904632568
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Blanket_cupboard_door",
+        "WSR_Cupboard_inset_panel",
+        "WSR_Cupboard_handle"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -36.520999908447266
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.4399999976158142
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            4.599999904632568
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": -105,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "WSR_Blanket_cupboard_door",
+            "center": [
+              0.0,
+              0.5599999725818634,
+              0.9600000381469727
+            ],
+            "extent": [
+              0.017500000074505806,
+              0.5524999797344208,
+              0.8949999809265137
+            ]
+          },
+          {
+            "source": "WSR_Cupboard_inset_panel",
+            "center": [
+              0.021999358665198088,
+              0.5599999874830246,
+              1.099999874830246
+            ],
+            "extent": [
+              0.00699999975040555,
+              0.45499999821186066,
+              0.5599999725818634
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSR_Blanket_cupboard_HINGE",
+      "materials": [
+        "WSR_Petrol_enamel",
+        "WSR_Galvanized_steel",
+        "WSR_Honey_pine"
+      ],
+      "lo": [
+        -0.0175018310546875,
+        0.007499992847442627,
+        0.06500005722045898
+      ],
+      "hi": [
+        0.06299972534179688,
+        1.1124999523162842,
+        1.8550000190734863
+      ],
+      "vertices": 288,
+      "sha256": "a3f010c2a1cf5e60d2d7672c2f957c4c98d1206f58bac098719d4c46ceff0188"
+    },
+    {
+      "id": 49,
+      "key": "WSR_First_aid_HINGE",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.86000061035156
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          3.0999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.670000076293945
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Aid_cabinet_door",
+        "WSR_Aid_symbol_square",
+        "WSR_Aid_symbol_vertical",
+        "WSR_Aid_symbol_arm",
+        "WSR_Aid_symbol_arm.001"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -36.86000061035156
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            3.0999999046325684
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            5.670000076293945
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": -100,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "WSR_Aid_cabinet_door",
+            "center": [
+              0.0,
+              0.40000008046627045,
+              0.3599996715784073
+            ],
+            "extent": [
+              0.017000000923871994,
+              0.39499999582767487,
+              0.3500000089406967
+            ]
+          },
+          {
+            "source": "WSR_Aid_symbol_square",
+            "center": [
+              0.020999908447265625,
+              0.40000009536743164,
+              0.40000009536743164
+            ],
+            "extent": [
+              0.006,
+              0.13999998569488525,
+              0.13999998569488525
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSR_First_aid_HINGE",
+      "materials": [
+        "WSR_Warm_cream_enamel",
+        "WSR_Checklist_paper",
+        "WSR_Aid_green"
+      ],
+      "lo": [
+        -0.016998291015625,
+        0.005000114440917969,
+        0.009999752044677734
+      ],
+      "hi": [
+        0.029499053955078125,
+        0.7950000762939453,
+        0.7099995613098145
+      ],
+      "vertices": 480,
+      "sha256": "eb843acdcbf3048db3b0e43f4339ee8fa74478de5315a7b5232fcc98a51c8a8a"
+    },
+    {
+      "id": 50,
+      "key": "WSR_ASSETS_-10_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Chair_leg",
+        "WSR_Chair_leg.001",
+        "WSR_Chair_leg.002",
+        "WSR_Chair_leg.003",
+        "WSR_Chair_seat",
+        "WSR_Chair_back_post",
+        "WSR_Chair_back_post.001",
+        "WSR_Chair_back_slat",
+        "WSR_Chair_back_slat.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSR_ASSETS__10_1",
+      "materials": [
+        "WSR_Honey_pine"
+      ],
+      "lo": [
+        3.0999984741210938,
+        0.05000019073486328,
+        4.610000133514404
+      ],
+      "hi": [
+        3.5999984741210938,
+        0.5500001907348633,
+        5.759999752044678
+      ],
+      "vertices": 864,
+      "sha256": "f161808014d8f1aaca622ca82d75be8547a51944fe0a0bbb1f3b0d2af1503aff"
+    },
+    {
+      "id": 51,
+      "key": "WSR_ASSETS_-9_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSR_Heater_housing",
+        "WSR_Heater_dark_recess",
+        "WSR_Heater_grille",
+        "WSR_Heater_grille.001",
+        "WSR_Heater_grille.002",
+        "WSR_Heater_grille.003",
+        "WSR_Heater_grille.004",
+        "WSR_Heater_grille.005",
+        "WSR_Heater_grille.006",
+        "WSR_Heater_grille.007",
+        "WSR_Heater_grille.008",
+        "WSR_Heater_grille.009",
+        "WSR_Heater_grille.010",
+        "WSR_Heater_grille.011",
+        "WSR_Heater_grille.012",
+        "WSR_Heater_grille.013",
+        "WSR_Heater_grille.014",
+        "WSR_Heater_grille.015",
+        "WSR_Heater_grille.016",
+        "WSR_Heater_bracket",
+        "WSR_Heater_bracket.001",
+        "WSR_Thermostat_plate",
+        "WSR_Thermostat_dial",
+        "WSR_Thermostat_pointer",
+        "WSR_Heater_conduit",
+        "WSR_Heater_label",
+        "WSR_Radio_mount",
+        "WSR_Radio_case",
+        "WSR_Radio_scale",
+        "WSR_Radio_scale_tick",
+        "WSR_Radio_scale_tick.001",
+        "WSR_Radio_scale_tick.002",
+        "WSR_Radio_scale_tick.003",
+        "WSR_Radio_scale_tick.004",
+        "WSR_Radio_scale_tick.005",
+        "WSR_Radio_scale_tick.006",
+        "WSR_Radio_scale_tick.007",
+        "WSR_Radio_speaker_slot",
+        "WSR_Radio_speaker_slot.001",
+        "WSR_Radio_speaker_slot.002",
+        "WSR_Radio_speaker_slot.003",
+        "WSR_Radio_speaker_slot.004",
+        "WSR_Radio_speaker_slot.005",
+        "WSR_Radio_speaker_slot.006",
+        "WSR_Radio_speaker_slot.007",
+        "WSR_Radio_knob",
+        "WSR_Radio_knob.001",
+        "WSR_Readiness_board",
+        "WSR_Readiness_paper",
+        "WSR_North_wall_standoff",
+        "WSR_North_wall_standoff.001",
+        "WSR_North_wall_standoff.002",
+        "WSR_North_wall_standoff.003",
+        "WSR_North_wall_standoff.004",
+        "WSR_Readiness_print",
+        "WSR_Pencil",
+        "WSR_Heater_conduit_return",
+        "WSR_Handset_return_1",
+        "WSR_Handset_return_2"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSR_ASSETS__9_1",
+      "materials": [
+        "WSR_Petrol_enamel",
+        "WSR_Galvanized_steel",
+        "WSR_Graphite_rubber",
+        "WSR_Honey_pine",
+        "WSR_Warm_cream_enamel",
+        "WSR_Checklist_paper",
+        "WSR_Muted_rescue_canvas",
+        "WSR_Printed_ink"
+      ],
+      "lo": [
+        0.9699974060058594,
+        0.42999982833862305,
+        4.764999866485596
+      ],
+      "hi": [
+        4.025537490844727,
+        0.8000001907348633,
+        6.304999828338623
+      ],
+      "vertices": 11220,
+      "sha256": "6aeaa90ae71f15be19f5ee9bb4f2ded418257ad72347388769f66b5c7cde50aa"
+    },
+    {
+      "id": 52,
+      "key": "WSE_ASSETS_-9_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Drain_pan",
+        "WSE_Vibration_foot",
+        "WSE_Mount_plate",
+        "WSE_Vibration_foot.001",
+        "WSE_Mount_plate.001",
+        "WSE_Vibration_foot.002",
+        "WSE_Mount_plate.002",
+        "WSE_Vibration_foot.003",
+        "WSE_Mount_plate.003",
+        "WSE_Skid_rail",
+        "WSE_Skid_rail.001",
+        "WSE_Integral_day_tank",
+        "WSE_Crankcase",
+        "WSE_Cylinder_head",
+        "WSE_Rocker_cover",
+        "WSE_Injector",
+        "WSE_Injector_line",
+        "WSE_Injector.001",
+        "WSE_Injector_line.001",
+        "WSE_Injector.002",
+        "WSE_Injector_line.002",
+        "WSE_Injector.003",
+        "WSE_Injector_line.003",
+        "WSE_Alternator",
+        "WSE_Alternator_cooling_ring",
+        "WSE_Alternator_cooling_ring.001",
+        "WSE_Alternator_cooling_ring.002",
+        "WSE_Alternator_cooling_ring.003",
+        "WSE_Alternator_cooling_ring.004",
+        "WSE_Alternator_cooling_ring.005",
+        "WSE_Alternator_terminal",
+        "WSE_Radiator_housing",
+        "WSE_Radiator_fin",
+        "WSE_Radiator_fin.001",
+        "WSE_Radiator_fin.002",
+        "WSE_Radiator_fin.003",
+        "WSE_Radiator_fin.004",
+        "WSE_Radiator_fin.005",
+        "WSE_Radiator_fin.006",
+        "WSE_Radiator_fin.007",
+        "WSE_Radiator_fin.008",
+        "WSE_Radiator_fin.009",
+        "WSE_Radiator_fin.010",
+        "WSE_Radiator_fin.011",
+        "WSE_Radiator_fin.012",
+        "WSE_Radiator_fin.013",
+        "WSE_Radiator_fin.014",
+        "WSE_Radiator_fin.015",
+        "WSE_Radiator_fin.016",
+        "WSE_Radiator_fin.017",
+        "WSE_Radiator_fin.018",
+        "WSE_Belt_guard",
+        "WSE_Spin_on_filter",
+        "WSE_Spin_on_filter.001",
+        "WSE_Starter",
+        "WSE_Coolant_hose",
+        "WSE_Panel_pedestal",
+        "WSE_Control_box",
+        "WSE_Panel_title",
+        "WSE_Meter_bezel",
+        "WSE_Meter_face",
+        "WSE_Meter_tick",
+        "WSE_Meter_tick.001",
+        "WSE_Meter_tick.002",
+        "WSE_Meter_tick.003",
+        "WSE_Meter_tick.004",
+        "WSE_Meter_tick.005",
+        "WSE_Meter_tick.006",
+        "WSE_Meter_tick.007",
+        "WSE_Meter_tick.008",
+        "WSE_Needle",
+        "WSE_Meter_units",
+        "WSE_Meter_bezel.001",
+        "WSE_Meter_face.001",
+        "WSE_Meter_tick.009",
+        "WSE_Meter_tick.010",
+        "WSE_Meter_tick.011",
+        "WSE_Meter_tick.012",
+        "WSE_Meter_tick.013",
+        "WSE_Meter_tick.014",
+        "WSE_Meter_tick.015",
+        "WSE_Meter_tick.016",
+        "WSE_Meter_tick.017",
+        "WSE_Needle.001",
+        "WSE_Meter_units.001",
+        "WSE_START_button",
+        "WSE_START_label",
+        "WSE_STOP_button",
+        "WSE_STOP_label",
+        "WSE_FAULT_lens",
+        "WSE_FAULT_label",
+        "WSE_RUN_lens",
+        "WSE_RUN_label",
+        "WSE_Stop_backplate",
+        "WSE_Emergency_stop",
+        "WSE_Battery_case",
+        "WSE_Battery_case.001",
+        "WSE_Battery_case.002",
+        "WSE_Battery",
+        "WSE_Hold_down",
+        "WSE_Protected_terminal",
+        "WSE_Protected_terminal.001",
+        "WSE_Battery.001",
+        "WSE_Hold_down.001",
+        "WSE_Protected_terminal.002",
+        "WSE_Protected_terminal.003",
+        "WSE_Battery_DC",
+        "WSE_Battery_positive",
+        "WSE_Battery_series_link",
+        "WSE_AC_feed",
+        "WSE_Fuel_level_bezel",
+        "WSE_Fuel_level_face",
+        "WSE_Fuel_level",
+        "WSE_Fuel_supply",
+        "WSE_Fuel_isolation_lever",
+        "WSE_Emergency_stop_label",
+        "WSE_Fuel_identification",
+        "WSE_Exhaust_insulated_route",
+        "WSE_Flexible_bellows",
+        "WSE_Flexible_bellows.001",
+        "WSE_Flexible_bellows.002",
+        "WSE_Flexible_bellows.003",
+        "WSE_Flexible_bellows.004",
+        "WSE_Flexible_bellows.005",
+        "WSE_Flexible_bellows.006",
+        "WSE_Silencer",
+        "WSE_Silencer_end_reducer"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_ASSETS__9__1_CF1",
+      "materials": [
+        "WSE_Contact_darkening",
+        "WSE_Rubber",
+        "WSE_Galvanized",
+        "WSE_Petrol_enamel",
+        "WSE_Safety_ochre",
+        "WSE_Cream",
+        "WSE_Ink",
+        "WSE_Start_green",
+        "WSE_Red",
+        "WSE_Run"
+      ],
+      "lo": [
+        0.20000076293945312,
+        -1.3949999809265137,
+        1.2350001335144043
+      ],
+      "hi": [
+        4.049997329711914,
+        4.171999931335449,
+        8.75
+      ],
+      "vertices": 25136,
+      "sha256": "47807fe251ef2bf68301ffa9c8fcd71c235e0faed4fbe490cc87feec526b07fa"
+    },
+    {
+      "id": 53,
+      "key": "WSE_Engine_cover_hinge",
+      "matrix": [
+        [
+          1.1920928244535389e-07,
+          0.0,
+          0.9999998807907104,
+          -34.790000915527344
+        ],
+        [
+          0.9999998807907104,
+          1.1920928244535389e-07,
+          0.0,
+          -1.7899999618530273
+        ],
+        [
+          0.0,
+          0.9999998807907104,
+          1.1920928244535389e-07,
+          2.190000057220459
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Service_cover"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.1920928244535389e-07,
+            0.0,
+            0.9999998807907104,
+            -34.790000915527344
+          ],
+          [
+            0.9999998807907104,
+            1.1920928244535389e-07,
+            0.0,
+            -1.7899999618530273
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            1.1920928244535389e-07,
+            2.190000057220459
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": 100,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "X",
+        "collisions": [
+          {
+            "source": "WSE_Service_cover",
+            "center": [
+              -0.017000083345919847,
+              -0.15999999549239874,
+              2.086162567138672e-07
+            ],
+            "extent": [
+              0.013000020291656256,
+              0.15000006649643183,
+              0.39000004529953003
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_Engine_cover_hinge",
+      "materials": [
+        "WSE_Petrol_enamel"
+      ],
+      "lo": [
+        -0.03000009059906006,
+        -0.31000006198883057,
+        -0.3899993896484375
+      ],
+      "hi": [
+        -0.004000067710876465,
+        -0.009999752044677734,
+        0.3899993896484375
+      ],
+      "vertices": 56,
+      "sha256": "eced613fb0725dddd75464358622bd0f7a122d86fcff51392285c1f5dd81439a"
+    },
+    {
+      "id": 54,
+      "key": "NONBLOCK_Hardware_-9_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Cover_fastener",
+        "WSE_Cover_fastener.001",
+        "WSE_Cover_fastener.002",
+        "WSE_Cover_fastener.003"
+      ],
+      "control": null,
+      "nonblocking": true,
+      "mesh": "SM_WS_NONBLOCK_Hardware__9__1",
+      "materials": [
+        "WSE_Galvanized"
+      ],
+      "lo": [
+        0.8352775573730469,
+        2.2069997787475586,
+        1.873000144958496
+      ],
+      "hi": [
+        1.5847206115722656,
+        2.2170000076293945,
+        2.177000045776367
+      ],
+      "vertices": 48,
+      "sha256": "5076c011d26f50136a4f0b0721232b88de2e2b4a2b862c6679cbfdd16c89c18c"
+    },
+    {
+      "id": 55,
+      "key": "WSE_ASSETS_-8_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Battery_case.003"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_ASSETS__8__1",
+      "materials": [
+        "WSE_Petrol_enamel"
+      ],
+      "lo": [
+        0.009998321533203125,
+        1.7200000286102295,
+        1.3600000143051147
+      ],
+      "hi": [
+        0.049999237060546875,
+        2.319999933242798,
+        2.0799999237060547
+      ],
+      "vertices": 56,
+      "sha256": "63ff3bd522536836631fe9701d4058753fd59a263bb45d125698a54fe5dc0011"
+    },
+    {
+      "id": 56,
+      "key": "WSE_Battery_lid_hinge",
+      "matrix": [
+        [
+          1.1920928244535389e-07,
+          0.0,
+          0.9999998807907104,
+          -32.55000305175781
+        ],
+        [
+          0.9999998807907104,
+          1.1920928244535389e-07,
+          0.0,
+          -2.299999713897705
+        ],
+        [
+          0.0,
+          0.9999998807907104,
+          1.1920928244535389e-07,
+          2.1100001335144043
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Battery_lid"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.1920928244535389e-07,
+            0.0,
+            0.9999998807907104,
+            -32.55000305175781
+          ],
+          [
+            0.9999998807907104,
+            1.1920928244535389e-07,
+            0.0,
+            -2.299999713897705
+          ],
+          [
+            0.0,
+            0.9999998807907104,
+            1.1920928244535389e-07,
+            2.1100001335144043
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": 100.0,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "X",
+        "collisions": [
+          {
+            "source": "WSE_Battery_lid",
+            "center": [
+              0.3199997083283961,
+              6.51925802230835e-08,
+              2.384185791015625e-07
+            ],
+            "extent": [
+              0.3250000341795385,
+              0.02250007539987564,
+              0.6100001335144043
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_Battery_lid_hinge",
+      "materials": [
+        "WSE_Petrol_enamel"
+      ],
+      "lo": [
+        -0.00500035285949707,
+        -0.022500038146972656,
+        -0.6100006103515625
+      ],
+      "hi": [
+        0.6449997425079346,
+        0.022500276565551758,
+        0.6100006103515625
+      ],
+      "vertices": 56,
+      "sha256": "4e2bf905d118a46573e3e9ac75792d5af7ba1f2eefefe84769c0231c083c8c5c"
+    },
+    {
+      "id": 57,
+      "key": "WSE_ASSETS_-8_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Distribution_case",
+        "WSE_Circuit_01 LIGHTING",
+        "WSE_Circuit_02 RADIO",
+        "WSE_Circuit_03 RESCUE HEAT",
+        "WSE_Circuit_conduit.002"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_ASSETS__8_0",
+      "materials": [
+        "WSE_Galvanized",
+        "WSE_Petrol_enamel",
+        "WSE_Cream"
+      ],
+      "lo": [
+        -0.014202117919921875,
+        1.190000057220459,
+        1.690000057220459
+      ],
+      "hi": [
+        0.10000038146972656,
+        4.399999618530273,
+        4.020999908447266
+      ],
+      "vertices": 6464,
+      "sha256": "696b348f2f66fb0eaacc9747aa767e66f188cd7e70a5c7173f8d2aa5e62d4684"
+    },
+    {
+      "id": 58,
+      "key": "WSE_ASSETS_-9_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Distribution_case.001",
+        "WSE_Distribution_case.002",
+        "WSE_Distribution_case.003",
+        "WSE_Distribution_case.004",
+        "WSE_Breaker",
+        "WSE_Breaker_handle",
+        "WSE_Circuit_conduit",
+        "WSE_Breaker.001",
+        "WSE_Breaker_handle.001",
+        "WSE_Circuit_conduit.001",
+        "WSE_Breaker.002",
+        "WSE_Breaker_handle.002",
+        "WSE_Transfer_box",
+        "WSE_Transfer_states",
+        "WSE_Transfer_handle",
+        "WSE_Transfer_rule"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_ASSETS__9_0",
+      "materials": [
+        "WSE_Galvanized",
+        "WSE_Petrol_enamel",
+        "WSE_Cream",
+        "WSE_Ink"
+      ],
+      "lo": [
+        3.6899986267089844,
+        0.15500003099441528,
+        1.6500000953674316
+      ],
+      "hi": [
+        4.1100006103515625,
+        4.399999618530273,
+        4.020999908447266
+      ],
+      "vertices": 5784,
+      "sha256": "da2b39cbd9135b7ba4f6ef481f63fce0f36e15e625eaaeba5e5ba534aa614e65"
+    },
+    {
+      "id": 59,
+      "key": "WSE_Distribution_hinge",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.33000183105469
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.809999942779541
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.450000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Distribution_door",
+        "WSE_Distribution_mark"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -32.33000183105469
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            2.809999942779541
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.450000047683716
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": -110.0,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "WSE_Distribution_door",
+            "center": [
+              0.02700042724609375,
+              -0.8099999725818634,
+              0.0
+            ],
+            "extent": [
+              0.019999999552965164,
+              0.8050000369548798,
+              0.7549999952316284
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_Distribution_hinge",
+      "materials": [
+        "WSE_Petrol_enamel",
+        "WSE_Cream"
+      ],
+      "lo": [
+        -0.000499725341796875,
+        -1.6150000095367432,
+        -0.7549999952316284
+      ],
+      "hi": [
+        0.047000885009765625,
+        -0.004999876022338867,
+        0.7549998760223389
+      ],
+      "vertices": 7196,
+      "sha256": "3c75b97b370afd5e309e525abff8571b471851e181276b6e573dd4760e339cea"
+    },
+    {
+      "id": 60,
+      "key": "WSE_ASSETS_-10_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Door_jamb",
+        "WSE_Door_jamb.001",
+        "WSE_Door_header",
+        "WSE_Threshold",
+        "WSE_Entrance_sign",
+        "WSE_INTAKE_jamb.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_ASSETS__10_0_CF1",
+      "materials": [
+        "WSE_Galvanized",
+        "WSE_Cream"
+      ],
+      "lo": [
+        2.5024986267089844,
+        0.6299998760223389,
+        1.2049999237060547
+      ],
+      "hi": [
+        2.8249969482421875,
+        2.994999885559082,
+        3.9621901512145996
+      ],
+      "vertices": 5696,
+      "sha256": "52419e0eab1ac8237621948370560c5529b04698232c7dbc3ba956d1c1fe804a"
+    },
+    {
+      "id": 61,
+      "key": "WSE_Door_hinge_S",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -37.150001525878906
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.489999771118164
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.320000171661377
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Service_door",
+        "WSE_Door_pull",
+        "WSE_Door_lock",
+        "WSE_Exterior_push_plate",
+        "WSE_Door_bottom_seal"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -37.150001525878906
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.489999771118164
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.320000171661377
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": -90.0,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "WSE_Service_door",
+            "center": [
+              0.029998780228197575,
+              0.3450002819299698,
+              0.0
+            ],
+            "extent": [
+              0.03000000026077032,
+              0.35500000417232513,
+              1.0850000381469727
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_Door_hinge_S",
+      "materials": [
+        "WSE_Rubber",
+        "WSE_Galvanized",
+        "WSE_Petrol_enamel"
+      ],
+      "lo": [
+        -0.004001617431640625,
+        -0.009999752044677734,
+        -1.1009999513626099
+      ],
+      "hi": [
+        0.11500167846679688,
+        0.7000002861022949,
+        1.0850000381469727
+      ],
+      "vertices": 272,
+      "sha256": "6af480c067ea490c1ae73f57ce56d26159ecde73f782487551a07f48b3b0bb69"
+    },
+    {
+      "id": 62,
+      "key": "NONBLOCK_Hardware_-10_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Hinge_barrel",
+        "WSE_Hinge_barrel.001",
+        "WSE_Hinge_barrel.002",
+        "WSE_Hinge_barrel.003",
+        "WSE_Hinge_barrel.004",
+        "WSE_Hinge_barrel.005",
+        "WSE_Door_seal",
+        "WSE_Door_seal.001",
+        "WSE_Door_head_seal"
+      ],
+      "control": null,
+      "nonblocking": true,
+      "mesh": "SM_WS_NONBLOCK_Hardware__10_0_CF1",
+      "materials": [
+        "WSE_Galvanized",
+        "WSE_Rubber"
+      ],
+      "lo": [
+        2.8249969482421875,
+        1.4199999570846558,
+        1.2325001955032349
+      ],
+      "hi": [
+        2.871997833251953,
+        2.9800002574920654,
+        3.4170000553131104
+      ],
+      "vertices": 288,
+      "sha256": "d35ba2458e28bf50d77dfc63e110ab35b539136e28344e0231909042e67f2927"
+    },
+    {
+      "id": 63,
+      "key": "WSE_Door_hinge_N",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -37.150001525878906
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.9099998474121094
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.320000171661377
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Service_door.001",
+        "WSE_Door_pull.001",
+        "WSE_Door_lock.001",
+        "WSE_Exterior_push_plate.001",
+        "WSE_Door_bottom_seal.001"
+      ],
+      "control": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -37.150001525878906
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            2.9099998474121094
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.320000171661377
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "slide": false,
+        "angle": 90.0,
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "axis_source": "Z",
+        "collisions": [
+          {
+            "source": "WSE_Service_door.001",
+            "center": [
+              0.029998780228197575,
+              -0.3449998050928116,
+              0.0
+            ],
+            "extent": [
+              0.03000000026077032,
+              0.35500000417232513,
+              1.0850000381469727
+            ]
+          }
+        ]
+      },
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_Door_hinge_N",
+      "materials": [
+        "WSE_Rubber",
+        "WSE_Galvanized",
+        "WSE_Petrol_enamel"
+      ],
+      "lo": [
+        -0.004001617431640625,
+        -0.6999998092651367,
+        -1.1009999513626099
+      ],
+      "hi": [
+        0.11500167846679688,
+        0.010000228881835938,
+        1.0850000381469727
+      ],
+      "vertices": 272,
+      "sha256": "4d45d63e47cd01764e3f5098ff8b9c91328eb79f8adc705caef22e90907c630f"
+    },
+    {
+      "id": 64,
+      "key": "WSE_ASSETS_-10_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_DISCHARGE_jamb",
+        "WSE_DISCHARGE_jamb.001",
+        "WSE_DISCHARGE_rail",
+        "WSE_DISCHARGE_rail.001",
+        "WSE_DISCHARGE_blade",
+        "WSE_DISCHARGE_blade.001",
+        "WSE_DISCHARGE_blade.002",
+        "WSE_DISCHARGE_blade.003",
+        "WSE_DISCHARGE_blade.004",
+        "WSE_DISCHARGE_blade.005",
+        "WSE_DISCHARGE_blade.006",
+        "WSE_DISCHARGE_blade.007",
+        "WSE_DISCHARGE_label",
+        "WSE_INTAKE_jamb",
+        "WSE_INTAKE_rail",
+        "WSE_INTAKE_rail.001",
+        "WSE_INTAKE_blade",
+        "WSE_INTAKE_blade.001",
+        "WSE_INTAKE_blade.002",
+        "WSE_INTAKE_blade.003",
+        "WSE_INTAKE_blade.004",
+        "WSE_INTAKE_blade.005",
+        "WSE_INTAKE_blade.006",
+        "WSE_INTAKE_blade.007",
+        "WSE_INTAKE_label",
+        "WSE_Discharge_duct",
+        "WSE_Air_separator"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_ASSETS__10__1",
+      "materials": [
+        "WSE_Rubber",
+        "WSE_Galvanized",
+        "WSE_Cream"
+      ],
+      "lo": [
+        1.7299995422363281,
+        -0.03392982482910156,
+        1.5750000476837158
+      ],
+      "hi": [
+        4.325000762939453,
+        4.62999963760376,
+        3.561739921569824
+      ],
+      "vertices": 3652,
+      "sha256": "198199585b069bba837ee6eee259f1bcbfe83d19168a56d5fbcaa32545441957"
+    },
+    {
+      "id": 65,
+      "key": "WSE_ASSETS_-9_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WSE_Silencer_end_reducer.001",
+        "WSE_Wall_sleeve",
+        "WSE_Sleeve_annular_seal",
+        "WSE_Riser_clamp",
+        "WSE_Riser_standoff",
+        "WSE_Riser_clamp.001",
+        "WSE_Riser_standoff.001",
+        "WSE_Riser_clamp.002",
+        "WSE_Riser_standoff.002",
+        "WSE_Riser_clamp.003",
+        "WSE_Riser_standoff.003",
+        "WSE_Riser_clamp.004",
+        "WSE_Riser_standoff.004",
+        "WSE_Weather_cap",
+        "WSE_Cap_support",
+        "WSE_Cap_support.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WSE_ASSETS__9__2",
+      "materials": [
+        "WSE_Rubber",
+        "WSE_Galvanized"
+      ],
+      "lo": [
+        0.5900001525878906,
+        2.489999771118164,
+        2.950000047683716
+      ],
+      "hi": [
+        1.0099983215332031,
+        3.8586502075195312,
+        8.924999237060547
+      ],
+      "vertices": 1256,
+      "sha256": "547a35c72b549ea0c9ab5ede0653addb2ec581e66a08df84c7a4968454169100"
+    },
+    {
+      "id": 66,
+      "key": "WS02_WRAP_PLATFORM_-10_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WrapDeck_0"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__10_0",
+      "materials": [
+        "WS02_Aged_Concrete"
+      ],
+      "lo": [
+        -0.4500007629394531,
+        -7.5,
+        1.0
+      ],
+      "hi": [
+        2.549999237060547,
+        10.600000381469727,
+        1.2000000476837158
+      ],
+      "vertices": 8,
+      "sha256": "9cb3be586049be82fc05d98e141784d42f7c5feb83db57162fba6125d5464a1f"
+    },
+    {
+      "id": 67,
+      "key": "WS02_WRAP_PLATFORM_-9_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WrapDeck_1",
+        "WS02_SouthOuter_bar",
+        "WS02_SouthOuter_bar.001",
+        "WS02_SouthOuter_post.003",
+        "WS02_SouthOuter_foot.003",
+        "WS02_SouthOuter_post.004",
+        "WS02_SouthOuter_foot.004",
+        "WS02_RingBeam"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__9__2",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        -4.450000762939453,
+        0.4250001907348633,
+        0.7300000190734863
+      ],
+      "hi": [
+        7.049999237060547,
+        3.0,
+        2.3350002765655518
+      ],
+      "vertices": 128,
+      "sha256": "1e94982a3146f92e74aa2beedbeaab796b1c1b1f888c83290b90019e891bb1e8"
+    },
+    {
+      "id": 68,
+      "key": "WS02_WRAP_PLATFORM_-8_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WrapDeck_2",
+        "WS02_EastOuter_bar",
+        "WS02_EastOuter_bar.001",
+        "WS02_EastOuter_post.005",
+        "WS02_EastOuter_foot.005",
+        "WS02_EastOuter_post.006",
+        "WS02_EastOuter_foot.006",
+        "WS02_EastOuter_post.007",
+        "WS02_EastOuter_foot.007",
+        "WS02_DeckPier.006",
+        "WS02_LongBeam.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__8_0",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        0.5499992370605469,
+        -7.5,
+        -2.4704909324645996
+      ],
+      "hi": [
+        3.125,
+        10.600000381469727,
+        2.3350002765655518
+      ],
+      "vertices": 168,
+      "sha256": "cd4c7beace4d0684bab92c63f5dd244548dc4054153e96a45f599b8c904ad046"
+    },
+    {
+      "id": 69,
+      "key": "WS02_WRAP_PLATFORM_-9_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WrapDeck_3",
+        "WS02_UnderStairSouth_bar",
+        "WS02_UnderStairSouth_bar.001",
+        "WS02_UnderStairSouth_post.001",
+        "WS02_UnderStairSouth_foot.001",
+        "WS02_UnderStairSouth_post.002",
+        "WS02_UnderStairSouth_foot.002"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__9_1",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        -1.4500007629394531,
+        1.0,
+        1.0
+      ],
+      "hi": [
+        4.549999237060547,
+        6.600000381469727,
+        2.3350002765655518
+      ],
+      "vertices": 120,
+      "sha256": "01f184dbbe642f34371ce937964c7a5cc099adbf27b6e68899b8ce6ce59b8307"
+    },
+    {
+      "id": 70,
+      "key": "WS02_WRAP_PLATFORM_-11_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -44.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WestOuter_bar",
+        "WS02_WestOuter_bar.001",
+        "WS02_WestOuter_post.006",
+        "WS02_WestOuter_foot.006",
+        "WS02_WestOuter_post.007",
+        "WS02_WestOuter_foot.007",
+        "WS02_WestOuter_post.008",
+        "WS02_WestOuter_foot.008",
+        "WS02_DeckPier.002",
+        "WS02_LongBeam"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__11_0",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        3.4749984741210938,
+        -7.5,
+        -16.319345474243164
+      ],
+      "hi": [
+        3.970001220703125,
+        10.600000381469727,
+        2.3350002765655518
+      ],
+      "vertices": 160,
+      "sha256": "ac270d2c7dee06549f0e7f5ede97fb60fd1b3ae1cb6ff38623adec614c8fc363"
+    },
+    {
+      "id": 71,
+      "key": "WS02_WRAP_PLATFORM_-11_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -44.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WestOuter_post",
+        "WS02_WestOuter_foot",
+        "WS02_WestOuter_post.001",
+        "WS02_WestOuter_foot.001",
+        "WS02_WestOuter_post.002",
+        "WS02_WestOuter_foot.002",
+        "WS02_SouthOuter_post.008",
+        "WS02_SouthOuter_foot.008",
+        "WS02_DeckPier"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__11__2",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        3.4749984741210938,
+        0.4250001907348633,
+        -17.122568130493164
+      ],
+      "hi": [
+        3.970001220703125,
+        3.3596153259277344,
+        2.3000001907348633
+      ],
+      "vertices": 136,
+      "sha256": "1af3bfeb61597318eb8dc028440de5e470d36d67dbbf6048093e5e8b2dbd595e"
+    },
+    {
+      "id": 72,
+      "key": "WS02_WRAP_PLATFORM_-11_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -44.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WestOuter_post.003",
+        "WS02_WestOuter_foot.003",
+        "WS02_WestOuter_post.004",
+        "WS02_WestOuter_foot.004",
+        "WS02_WestOuter_post.005",
+        "WS02_WestOuter_foot.005",
+        "WS02_DeckPier.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__11__1",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        3.4749984741210938,
+        0.6019229888916016,
+        -16.796045303344727
+      ],
+      "hi": [
+        3.970001220703125,
+        3.5365397930145264,
+        2.3000001907348633
+      ],
+      "vertices": 104,
+      "sha256": "86647970b5d6b13027a5f57469b4de5ae35ea93178c1361729a7f399db24c41f"
+    },
+    {
+      "id": 73,
+      "key": "WS02_WRAP_PLATFORM_-11_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -44.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WestOuter_post.009",
+        "WS02_WestOuter_foot.009",
+        "WS02_WestOuter_post.010",
+        "WS02_WestOuter_foot.010",
+        "WS02_WestOuter_post.011",
+        "WS02_WestOuter_foot.011"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__11_1",
+      "materials": [
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        3.4749984741210938,
+        0.9557700157165527,
+        1.2000000476837158
+      ],
+      "hi": [
+        3.625,
+        3.890385627746582,
+        2.3000001907348633
+      ],
+      "vertices": 96,
+      "sha256": "f94f6c4d1a41fcb9aa580c952c1f5262553d0f0856d19a99d5a1af40605000b5"
+    },
+    {
+      "id": 74,
+      "key": "WS02_WRAP_PLATFORM_-11_2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -44.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WestOuter_post.012",
+        "WS02_WestOuter_foot.012",
+        "WS02_WestOuter_post.013",
+        "WS02_WestOuter_foot.013",
+        "WS02_NorthOuter_post",
+        "WS02_NorthOuter_foot",
+        "WS02_DeckPier.003"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__11_2",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        3.4749984741210938,
+        1.1326923370361328,
+        -48.584938049316406
+      ],
+      "hi": [
+        3.970001220703125,
+        2.6750001907348633,
+        2.3000001907348633
+      ],
+      "vertices": 104,
+      "sha256": "1c57991e3a69481eca9eecef999af44616f4830886b3baa550bc2ac06ee0f4b8"
+    },
+    {
+      "id": 75,
+      "key": "WS02_WRAP_PLATFORM_-9_2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_NorthOuter_bar",
+        "WS02_NorthOuter_bar.001",
+        "WS02_NorthOuter_post.004",
+        "WS02_NorthOuter_foot.004",
+        "WS02_NorthOuter_post.005",
+        "WS02_NorthOuter_foot.005",
+        "WS02_UnderStairNorth_bar",
+        "WS02_UnderStairNorth_bar.001",
+        "WS02_UnderStairNorth_post.001",
+        "WS02_UnderStairNorth_foot.001",
+        "WS02_UnderStairNorth_post.002",
+        "WS02_UnderStairNorth_foot.002",
+        "WS02_RingBeam.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__9_2",
+      "materials": [
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        -4.450000762939453,
+        0.3249998092651367,
+        0.7300000190734863
+      ],
+      "hi": [
+        7.049999237060547,
+        2.6750001907348633,
+        2.3350002765655518
+      ],
+      "vertices": 232,
+      "sha256": "6feed52cb4efb3198ca4ea645da029f0bbb60ca0a11e9c1533f010282eee135d"
+    },
+    {
+      "id": 76,
+      "key": "WS02_WRAP_PLATFORM_-10_2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_NorthOuter_post.001",
+        "WS02_NorthOuter_foot.001",
+        "WS02_NorthOuter_post.002",
+        "WS02_NorthOuter_foot.002",
+        "WS02_NorthOuter_post.003",
+        "WS02_NorthOuter_foot.003",
+        "WS02_UnderStairNorth_post",
+        "WS02_UnderStairNorth_foot"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__10_2",
+      "materials": [
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        0.9124984741210938,
+        0.3249998092651367,
+        1.2000000476837158
+      ],
+      "hi": [
+        3.9375,
+        2.6750001907348633,
+        2.3000001907348633
+      ],
+      "vertices": 128,
+      "sha256": "c023aaf814079f69e37c4371490c83ce1b8f2b785a638e69bc0c3a7e8f773c66"
+    },
+    {
+      "id": 77,
+      "key": "WS02_WRAP_PLATFORM_-8_2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_NorthOuter_post.006",
+        "WS02_NorthOuter_foot.006",
+        "WS02_NorthOuter_post.007",
+        "WS02_NorthOuter_foot.007",
+        "WS02_NorthOuter_post.008",
+        "WS02_NorthOuter_foot.008",
+        "WS02_EastOuter_post",
+        "WS02_EastOuter_foot",
+        "WS02_EastOuter_post.001",
+        "WS02_EastOuter_foot.001",
+        "WS02_DeckPier.007"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__8_2",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        0.09999847412109375,
+        1.1326923370361328,
+        -39.483360290527344
+      ],
+      "hi": [
+        3.125,
+        2.6750001907348633,
+        2.3000001907348633
+      ],
+      "vertices": 168,
+      "sha256": "d9027e8bc576e8eb63932d6d2b4e3992ddeca889f786a7753305be65baeff48e"
+    },
+    {
+      "id": 78,
+      "key": "WS02_WRAP_PLATFORM_-8_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_EastOuter_post.002",
+        "WS02_EastOuter_foot.002",
+        "WS02_EastOuter_post.003",
+        "WS02_EastOuter_foot.003",
+        "WS02_EastOuter_post.004",
+        "WS02_EastOuter_foot.004"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__8_1",
+      "materials": [
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        2.9749984741210938,
+        0.9557700157165527,
+        1.2000000476837158
+      ],
+      "hi": [
+        3.125,
+        3.890385627746582,
+        2.3000001907348633
+      ],
+      "vertices": 96,
+      "sha256": "3554c44a176bdea8b12256f2b8d92feeb202fe7c332c95a879e26dfe71401b03"
+    },
+    {
+      "id": 79,
+      "key": "WS02_WRAP_PLATFORM_-8_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_EastOuter_post.008",
+        "WS02_EastOuter_foot.008",
+        "WS02_EastOuter_post.009",
+        "WS02_EastOuter_foot.009",
+        "WS02_EastOuter_post.010",
+        "WS02_EastOuter_foot.010",
+        "WS02_DeckPier.005"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__8__1",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        2.6299991607666016,
+        0.6019229888916016,
+        -2.524209499359131
+      ],
+      "hi": [
+        3.125,
+        3.5365383625030518,
+        2.3000001907348633
+      ],
+      "vertices": 104,
+      "sha256": "8a2cda461bcc11aabf98986caf4fc0fec20f1b465f7d40358d1dacfa014bf23a"
+    },
+    {
+      "id": 80,
+      "key": "WS02_WRAP_PLATFORM_-8_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_EastOuter_post.011",
+        "WS02_EastOuter_foot.011",
+        "WS02_EastOuter_post.012",
+        "WS02_EastOuter_foot.012",
+        "WS02_EastOuter_post.013",
+        "WS02_EastOuter_foot.013",
+        "WS02_SouthOuter_post",
+        "WS02_SouthOuter_foot",
+        "WS02_SouthOuter_post.001",
+        "WS02_SouthOuter_foot.001",
+        "WS02_SouthOuter_post.002",
+        "WS02_SouthOuter_foot.002",
+        "WS02_DeckPier.004"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__8__2",
+      "materials": [
+        "WS02_Aged_Concrete",
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        0.09999847412109375,
+        0.4250001907348633,
+        -2.566537380218506
+      ],
+      "hi": [
+        3.125,
+        3.3596153259277344,
+        2.3000001907348633
+      ],
+      "vertices": 200,
+      "sha256": "2f94db31b712dcc51d2432ba2f551829fb163d9f36fce1ce6ab35f2bb98d92d4"
+    },
+    {
+      "id": 81,
+      "key": "WS02_WRAP_PLATFORM_-10_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_SouthOuter_post.005",
+        "WS02_SouthOuter_foot.005",
+        "WS02_SouthOuter_post.006",
+        "WS02_SouthOuter_foot.006",
+        "WS02_SouthOuter_post.007",
+        "WS02_SouthOuter_foot.007"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__10__2",
+      "materials": [
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        0.9124984741210938,
+        0.4250001907348633,
+        1.2000000476837158
+      ],
+      "hi": [
+        3.9375,
+        0.5749998092651367,
+        2.3000001907348633
+      ],
+      "vertices": 96,
+      "sha256": "4225dfdafb432b126e4b9458a617eee4a0ff309c1085f0370b0c35961823c1c8"
+    },
+    {
+      "id": 82,
+      "key": "WS02_WRAP_PLATFORM_-10_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_UnderStairSouth_post",
+        "WS02_UnderStairSouth_foot"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_WRAP_PLATFORM__10_1",
+      "materials": [
+        "WS02_Petrol_Paint",
+        "WS02_Galvanized"
+      ],
+      "lo": [
+        2.875,
+        1.9250001907348633,
+        1.2000000476837158
+      ],
+      "hi": [
+        3.0250015258789062,
+        2.0749998092651367,
+        2.3000001907348633
+      ],
+      "vertices": 32,
+      "sha256": "64652d66ec5aa4b46351cdadc8f2f2a1e02b2512757a6caab6a708aad086b251"
+    },
+    {
+      "id": 83,
+      "key": "WS02_STORAGE_CLUTTER_-10_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_PalletRunner",
+        "WS02_PalletSlat",
+        "WS02_PalletSlat.001",
+        "WS02_PalletSlat.002",
+        "WS02_PalletSlat.003",
+        "WS02_PalletSlat.004",
+        "WS02_PalletSlat.005",
+        "WS02_PalletRunner.002",
+        "WS02_PalletSlat.006",
+        "WS02_PalletSlat.007",
+        "WS02_PalletSlat.008",
+        "WS02_PalletSlat.009",
+        "WS02_PalletSlat.010",
+        "WS02_PalletSlat.011",
+        "WS02_CrateSlat",
+        "WS02_CrateSlat.001",
+        "WS02_CrateEnd",
+        "WS02_CrateEnd.001",
+        "WS02_CrateSlat.002",
+        "WS02_CrateSlat.003",
+        "WS02_CrateEnd.002",
+        "WS02_CrateEnd.003",
+        "WS02_CrateSlat.004",
+        "WS02_CrateSlat.005",
+        "WS02_CrateEnd.004",
+        "WS02_CrateEnd.005",
+        "WS02_CrateBase",
+        "WS02_CrateSlat.012",
+        "WS02_CrateSlat.013",
+        "WS02_CrateEnd.012",
+        "WS02_CrateSlat.014",
+        "WS02_CrateSlat.015",
+        "WS02_CrateEnd.014",
+        "WS02_CrateSlat.016",
+        "WS02_CrateSlat.017",
+        "WS02_CrateEnd.016",
+        "WS02_CrateBase.002"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_STORAGE_CLUTTER__10__2",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        3.3499984741210938,
+        1.9000000953674316,
+        1.2000000476837158
+      ],
+      "hi": [
+        4.520000457763672,
+        2.820000171661377,
+        2.569999933242798
+      ],
+      "vertices": 1976,
+      "sha256": "267dd0317c3aefbe779dd1da7380a3a0fc78b676ef94e9be4602cdbe5b7593fd"
+    },
+    {
+      "id": 84,
+      "key": "WS02_STORAGE_CLUTTER_-9_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_PalletRunner.001",
+        "WS02_PalletRunner.003",
+        "WS02_CrateSlat.006",
+        "WS02_CrateSlat.007",
+        "WS02_CrateEnd.006",
+        "WS02_CrateEnd.007",
+        "WS02_CrateSlat.008",
+        "WS02_CrateSlat.009",
+        "WS02_CrateEnd.008",
+        "WS02_CrateEnd.009",
+        "WS02_CrateSlat.010",
+        "WS02_CrateSlat.011",
+        "WS02_CrateEnd.010",
+        "WS02_CrateEnd.011",
+        "WS02_CrateBase.001",
+        "WS02_CrateEnd.013",
+        "WS02_CrateEnd.015",
+        "WS02_CrateEnd.017"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_STORAGE_CLUTTER__9__2",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        0.0800018310546875,
+        1.9000000953674316,
+        1.2000000476837158
+      ],
+      "hi": [
+        0.6199989318847656,
+        2.8000001907348633,
+        2.569999933242798
+      ],
+      "vertices": 960,
+      "sha256": "4b2acc439405026fedb60b629e12fd9b0adddbebd23313d2334ef3b6806a6d4f"
+    },
+    {
+      "id": 85,
+      "key": "WS02_STORAGE_CLUTTER_-8_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_PipeOffcut",
+        "WS02_PipeOffcut.001",
+        "WS02_PipeOffcut.002",
+        "WS02_PipeOffcut.003",
+        "WS02_PipeOffcut.004",
+        "WS02_SpareBoard",
+        "WS02_SpareBoard.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_STORAGE_CLUTTER__8_0",
+      "materials": [
+        "WS02_Pine_Cladding",
+        "WS02_Dull_Rust"
+      ],
+      "lo": [
+        0.6800003051757812,
+        1.040000081062317,
+        1.2200000286102295
+      ],
+      "hi": [
+        1.3065547943115234,
+        4.735000133514404,
+        2.6200389862060547
+      ],
+      "vertices": 232,
+      "sha256": "b7222f901ddbc16dc61ca3b80c627c56dd3b3a36441cb795a1faabc12d2f02f1"
+    },
+    {
+      "id": 86,
+      "key": "WS02_STORAGE_CLUTTER_-8_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_SpareBoard.002",
+        "WS02_SpareBoard.003",
+        "WS02_SpareBoard.004"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_STORAGE_CLUTTER__8_1",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        0.6800003051757812,
+        -0.7200000286102295,
+        1.309999942779541
+      ],
+      "hi": [
+        1.25,
+        0.8400001525878906,
+        1.440000057220459
+      ],
+      "vertices": 168,
+      "sha256": "4dfd8221f21608585b2930ae8a97e0acca8901be7a57113cd6cdd87098ab2725"
+    },
+    {
+      "id": 87,
+      "key": "WS02_STORAGE_CLUTTER_-9_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_StorageBundle"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_STORAGE_CLUTTER__9_1",
+      "materials": [
+        "WS02_Rubber"
+      ],
+      "lo": [
+        3.299999237060547,
+        1.25,
+        1.2100000381469727
+      ],
+      "hi": [
+        4.299999237060547,
+        1.9499998092651367,
+        1.7999999523162842
+      ],
+      "vertices": 56,
+      "sha256": "2c364c9519923566de5c0cfd6dbe0a7e36891816760566ec875dfc40bf9ae28c"
+    },
+    {
+      "id": 88,
+      "key": "WS02_SHARED_FINISH_-10_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WestBatten",
+        "WS02_WestBatten.001",
+        "WS02_WestBatten.002",
+        "WS02_WestBatten.003",
+        "WS02_EndBatten",
+        "WS02_EndBatten.001",
+        "WS02_EndBatten.002",
+        "WS02_EndBatten.003",
+        "WS02_EndBatten.004"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_SHARED_FINISH__10__2",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        2.5250015258789062,
+        2.9819998741149902,
+        4.619999885559082
+      ],
+      "hi": [
+        3.7919998168945312,
+        3.921999931335449,
+        7.289999961853027
+      ],
+      "vertices": 504,
+      "sha256": "c8e631816d323e0880482c16347801e2f31c6db57b8cf9a46eaae729dbd193e0"
+    },
+    {
+      "id": 89,
+      "key": "WS02_SHARED_FINISH_-10_-1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WestBatten.004",
+        "WS02_WestBatten.005",
+        "WS02_WestBatten.006",
+        "WS02_WestBatten.007",
+        "WS02_WestBatten.008",
+        "WS02_WestBatten.009",
+        "WS02_WestBatten.010",
+        "WS02_WestBatten.011",
+        "WS02_WestBatten.012",
+        "WS02_WestBatten.013",
+        "WS02_WestBatten.014",
+        "WS02_WestBatten.015",
+        "WS02_WestBatten.016",
+        "WS02_WestBatten.017",
+        "WS02_WestBatten.018",
+        "WS02_WestBatten.019"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_SHARED_FINISH__10__1",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        2.5250015258789062,
+        0.1400001049041748,
+        4.619999885559082
+      ],
+      "hi": [
+        2.5519981384277344,
+        3.921999931335449,
+        7.289999961853027
+      ],
+      "vertices": 896,
+      "sha256": "43c6547781d7df1d3a55b6e0cf048123b5bef2cff6476f110ab891838d495511"
+    },
+    {
+      "id": 90,
+      "key": "WS02_SHARED_FINISH_-10_0",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WestBatten.020",
+        "WS02_WestBatten.021",
+        "WS02_WestBatten.022",
+        "WS02_WestBatten.023",
+        "WS02_WestBatten.024",
+        "WS02_WestBatten.025",
+        "WS02_WestBatten.026",
+        "WS02_WestBatten.027",
+        "WS02_WestBatten.028",
+        "WS02_WestBatten.029",
+        "WS02_WestBatten.030",
+        "WS02_WestBatten.031",
+        "WS02_WestBatten.032",
+        "WS02_WestBatten.033",
+        "WS02_WestBatten.034",
+        "WS02_WestBatten.035",
+        "WS02_WestTimberBand",
+        "WS02_WestTimberBand.001"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_SHARED_FINISH__10_0",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        2.509998321533203,
+        -5.03000020980835,
+        4.610000133514404
+      ],
+      "hi": [
+        2.5519981384277344,
+        5.03000020980835,
+        7.289999961853027
+      ],
+      "vertices": 1008,
+      "sha256": "31113b5844a36b42355f69e5f0f7ab27549050dad8dc60c7cb77e43d6ad57d50"
+    },
+    {
+      "id": 91,
+      "key": "WS02_SHARED_FINISH_-10_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_WestBatten.036",
+        "WS02_WestBatten.037",
+        "WS02_WestBatten.038",
+        "WS02_EndBatten.023",
+        "WS02_EndBatten.024",
+        "WS02_EndBatten.025",
+        "WS02_EndBatten.026",
+        "WS02_EndBatten.027"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_SHARED_FINISH__10_1",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        2.5250015258789062,
+        0.1399998664855957,
+        4.619999885559082
+      ],
+      "hi": [
+        3.7919998168945312,
+        1.0180001258850098,
+        7.289999961853027
+      ],
+      "vertices": 448,
+      "sha256": "23ea44a53a4d7e0b66c0be6058978794b00e72c147056e951358df09279e6747"
+    },
+    {
+      "id": 92,
+      "key": "WS02_SHARED_FINISH_-9_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_EndBatten.005",
+        "WS02_EndBatten.006",
+        "WS02_EndBatten.007",
+        "WS02_EndBatten.008",
+        "WS02_EndBatten.009",
+        "WS02_EndBatten.010",
+        "WS02_EndBatten.011",
+        "WS02_EndBatten.012",
+        "WS02_EndBatten.013",
+        "WS02_EndBatten.014",
+        "WS02_EndBatten.015",
+        "WS02_EndBatten.016",
+        "WS02_EndBatten.017",
+        "WS02_EndBatten.018",
+        "WS02_EndBatten.019",
+        "WS02_EndBatten.020",
+        "WS02_EndBatten.021"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_SHARED_FINISH__9__2",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        0.0,
+        2.9819998741149902,
+        4.619999885559082
+      ],
+      "hi": [
+        3.8720016479492188,
+        3.0,
+        7.289999961853027
+      ],
+      "vertices": 952,
+      "sha256": "820a3b3c2cf5bba1e64377071d9e80aae2fde4a90d4401fd137073170d7f2ba7"
+    },
+    {
+      "id": 93,
+      "key": "WS02_SHARED_FINISH_-8_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_EndBatten.022"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_SHARED_FINISH__8__2",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        0.07999992370605469,
+        2.9819998741149902,
+        4.619999885559082
+      ],
+      "hi": [
+        0.11199951171875,
+        3.0,
+        7.289999961853027
+      ],
+      "vertices": 56,
+      "sha256": "d4068bc43990b5b6df956dbb9fd4281e3b451e22520042b40a8e4c918ac52c80"
+    },
+    {
+      "id": 94,
+      "key": "WS02_SHARED_FINISH_-9_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_EndBatten.028",
+        "WS02_EndBatten.029",
+        "WS02_EndBatten.030",
+        "WS02_EndBatten.031",
+        "WS02_EndBatten.032",
+        "WS02_EndBatten.033",
+        "WS02_EndBatten.034",
+        "WS02_EndBatten.035",
+        "WS02_EndBatten.036",
+        "WS02_EndBatten.037",
+        "WS02_EndBatten.038",
+        "WS02_EndBatten.039",
+        "WS02_EndBatten.040",
+        "WS02_EndBatten.041",
+        "WS02_EndBatten.042",
+        "WS02_EndBatten.043",
+        "WS02_EndBatten.044"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_SHARED_FINISH__9_1",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        0.0,
+        1.0,
+        4.619999885559082
+      ],
+      "hi": [
+        3.8720016479492188,
+        1.0180001258850098,
+        7.289999961853027
+      ],
+      "vertices": 952,
+      "sha256": "042ec351ed8fd3ccf536ea22955c2b3504c1d6588f7fe475cb750566ce5ab1de"
+    },
+    {
+      "id": 95,
+      "key": "WS02_SHARED_FINISH_-8_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "WS02_EndBatten.045"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_WS02_SHARED_FINISH__8_1",
+      "materials": [
+        "WS02_Pine_Cladding"
+      ],
+      "lo": [
+        0.07999992370605469,
+        1.0,
+        4.619999885559082
+      ],
+      "hi": [
+        0.11199951171875,
+        1.0180001258850098,
+        7.289999961853027
+      ],
+      "vertices": 56,
+      "sha256": "ed9671aaac7c4f4ae634fb04ebdbe06681bd1b61e89f20c502dec208fcddcf46"
+    },
+    {
+      "id": 96,
+      "key": "SD_JANITOR_-3_-3",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -12.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -12.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "SD_JanitorSide",
+        "SD_CleaningBottle",
+        "SD_CleaningBottleNeck",
+        "SD_CleaningBottleCap",
+        "SD_CleaningBottleLabel",
+        "SD_CleaningBottleLabel.001",
+        "SD_CleaningBottle.002",
+        "SD_CleaningBottleNeck.002",
+        "SD_CleaningBottleCap.002",
+        "SD_CleaningBottleLabel.002",
+        "SD_FoldedRag",
+        "SD_FoldedRag.001",
+        "SD_FoldedRag.002",
+        "SD_PaperRoll",
+        "SD_Bucket",
+        "SD_BucketHandle",
+        "SD_RotaBracket"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_SD_JANITOR__3__3",
+      "materials": [
+        "SD_Paint",
+        "SD_Paper",
+        "SD_BottleBlue",
+        "SD_Cloth",
+        "SD_Galvanized"
+      ],
+      "lo": [
+        1.1000003814697266,
+        3.6999998092651367,
+        4.0
+      ],
+      "hi": [
+        1.6000003814697266,
+        4.139999866485596,
+        6.460000038146973
+      ],
+      "vertices": 560,
+      "sha256": "e0d36a5ee0ed2c4a2201d42f4535857681ae60d86e6125a808be7fb090cd0e87"
+    },
+    {
+      "id": 97,
+      "key": "SD_JANITOR_-3_-2",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -12.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "SD_JanitorSide.001",
+        "SD_JanitorBack",
+        "SD_JanitorDivider",
+        "SD_JanitorShelf",
+        "SD_ShelfMark",
+        "SD_JanitorShelf.001",
+        "SD_ShelfMark.001",
+        "SD_JanitorShelf.002",
+        "SD_ShelfMark.002",
+        "SD_JanitorShelf.003",
+        "SD_ShelfMark.003",
+        "SD_JanitorShelf.004",
+        "SD_ShelfMark.004",
+        "SD_JanitorTop",
+        "SD_CleaningBottle.001",
+        "SD_CleaningBottleNeck.001",
+        "SD_CleaningBottleCap.001",
+        "SD_CleaningBottle.003",
+        "SD_CleaningBottleNeck.003",
+        "SD_CleaningBottleCap.003",
+        "SD_CleaningBottleLabel.003",
+        "SD_PaperRoll.001",
+        "SD_BucketHandle.001",
+        "SD_BucketGrip",
+        "SD_ToolClipRail",
+        "SD_MopHandle",
+        "SD_Clip",
+        "SD_MopStrand",
+        "SD_MopStrand.001",
+        "SD_MopStrand.002",
+        "SD_MopStrand.003",
+        "SD_MopStrand.004",
+        "SD_MopStrand.005",
+        "SD_MopStrand.006",
+        "SD_BroomHandle",
+        "SD_Clip.001",
+        "SD_BroomHead",
+        "SD_Bristles",
+        "SD_Bristles.001",
+        "SD_Bristles.002",
+        "SD_Bristles.003",
+        "SD_Bristles.004",
+        "SD_Bristles.005",
+        "SD_Bristles.006",
+        "SD_Bristles.007",
+        "SD_Bristles.008",
+        "SD_Bristles.009",
+        "SD_Bristles.010",
+        "SD_Bristles.011",
+        "SD_RotaBracket.001",
+        "SD_CleaningRota",
+        "SD_RotaText"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_SD_JANITOR__3__2",
+      "materials": [
+        "SD_Paint",
+        "SD_Pine",
+        "SD_Paper",
+        "SD_BottleBlue",
+        "SD_Galvanized",
+        "SD_Rubber"
+      ],
+      "lo": [
+        1.1000003814697266,
+        -0.3000001907348633,
+        4.0
+      ],
+      "hi": [
+        1.6000003814697266,
+        0.6999998092651367,
+        6.460000038146973
+      ],
+      "vertices": 7888,
+      "sha256": "423670419cace2fbfbae09ee7dd0460f004ea7fcdfca1d339f986bffb3337efc"
+    },
+    {
+      "id": 98,
+      "key": "SD_RESCUE_DRESSING_-10_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "SD_RescueWallShelf",
+        "SD_ShelfBracketWall",
+        "SD_ShelfBracket",
+        "SD_RescueWallShelf.001",
+        "SD_ShelfBracketWall.002",
+        "SD_ShelfBracket.002",
+        "SD_MedicalSupplies",
+        "SD_SupplyLabel",
+        "SD_MedicalSupplies.001",
+        "SD_SupplyLabel.001",
+        "SD_RolledBlanket",
+        "SD_BlanketBand",
+        "SD_RolledBlanket.001",
+        "SD_BlanketBand.001",
+        "SD_RolledBlanket.002",
+        "SD_BlanketBand.002"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_SD_RESCUE_DRESSING__10_1",
+      "materials": [
+        "SD_Paint",
+        "SD_Pine",
+        "SD_Paper",
+        "SD_Cloth",
+        "SD_Galvanized"
+      ],
+      "lo": [
+        3.0999984741210938,
+        0.5,
+        5.87000036239624
+      ],
+      "hi": [
+        4.650001525878906,
+        0.75,
+        6.766000270843506
+      ],
+      "vertices": 4444,
+      "sha256": "6b7929bab36ecdcb85a84519a0f4f7d8b195169a0f2e4c0c7b79f7769f0347c2"
+    },
+    {
+      "id": 99,
+      "key": "SD_RESCUE_DRESSING_-9_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "SD_ShelfBracketWall.001",
+        "SD_ShelfBracket.001",
+        "SD_ShelfBracketWall.003",
+        "SD_ShelfBracket.003",
+        "SD_MedicalSupplies.002",
+        "SD_SupplyLabel.002"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_SD_RESCUE_DRESSING__9_1",
+      "materials": [
+        "SD_Paint",
+        "SD_Paper",
+        "SD_Galvanized"
+      ],
+      "lo": [
+        0.18000030517578125,
+        0.503204345703125,
+        5.87000036239624
+      ],
+      "hi": [
+        0.5400009155273438,
+        0.75,
+        6.553649425506592
+      ],
+      "vertices": 484,
+      "sha256": "430a443853a06ad1dd8da82454dae7e0eca2b87849cdd38687a2fac04204d9c8"
+    },
+    {
+      "id": 100,
+      "key": "SD_POWER_DRESSING_-9_1",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -36.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "sources": [
+        "SD_SparesRackUpright",
+        "SD_SparesRackUpright.001",
+        "SD_SparesRackUpright.002",
+        "SD_SparesRackUpright.003",
+        "SD_SparesRackShelf",
+        "SD_SparesRackFrontLip",
+        "SD_SparesRackShelf.001",
+        "SD_SparesRackFrontLip.001",
+        "SD_SparesRackShelf.002",
+        "SD_SparesRackFrontLip.002",
+        "SD_SparesRackShelf.003",
+        "SD_SparesRackFrontLip.003",
+        "SD_SparesBox",
+        "SD_BoxLabel",
+        "SD_SparesBox.001",
+        "SD_BoxLabel.001",
+        "SD_SparesBox.002",
+        "SD_BoxLabel.002",
+        "SD_SparesBox.003",
+        "SD_BoxLabel.003",
+        "SD_SparesBox.004",
+        "SD_BoxLabel.004",
+        "SD_SparesBox.005",
+        "SD_BoxLabel.005",
+        "SD_FilterTin",
+        "SD_FilterCap",
+        "SD_FilterTin.001",
+        "SD_FilterCap.001",
+        "SD_ToolBoard",
+        "SD_ToolHook",
+        "SD_ToolHandle",
+        "SD_ToolHead",
+        "SD_ToolJaw",
+        "SD_ToolJaw.001",
+        "SD_ToolHook.001",
+        "SD_ToolHandle.001",
+        "SD_ToolHead.001",
+        "SD_ToolJaw.002",
+        "SD_ToolJaw.003",
+        "SD_ToolHook.002",
+        "SD_ToolHandle.002",
+        "SD_ToolHead.002",
+        "SD_ToolJaw.004",
+        "SD_ToolJaw.005",
+        "SD_ToolHook.003",
+        "SD_ToolHandle.003",
+        "SD_ToolHead.003",
+        "SD_ToolJaw.006",
+        "SD_ToolJaw.007",
+        "SD_ToolBoardLabel"
+      ],
+      "control": null,
+      "nonblocking": false,
+      "mesh": "SM_WS_SD_POWER_DRESSING__9_1",
+      "materials": [
+        "SD_Paint",
+        "SD_Pine",
+        "SD_Paper",
+        "SD_Galvanized"
+      ],
+      "lo": [
+        0.049999237060546875,
+        0.17999982833862305,
+        1.2000000476837158
+      ],
+      "hi": [
+        2.9000015258789062,
+        0.7399997711181641,
+        3.2049999237060547
+      ],
+      "vertices": 10852,
+      "sha256": "2d6482f1cc13b0896d279067340d18a47555bed6ea9ca92eef1461ec1b93c2e7"
+    }
+  ],
+  "materials": {
+    "WS02_Aged_Concrete": {
+      "color": [
+        0.3199999928474426,
+        0.3400000035762787,
+        0.3199999928474426,
+        1.0
+      ],
+      "roughness": 0.699999988079071,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WS02_Pine_Cladding": {
+      "color": [
+        0.28999999165534973,
+        0.20000000298023224,
+        0.11999999731779099,
+        1.0
+      ],
+      "roughness": 0.699999988079071,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WS02_Warm_Plaster": {
+      "color": [
+        0.6700000166893005,
+        0.6200000047683716,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.699999988079071,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WS_Concrete": {
+      "color": [
+        0.3199999928474426,
+        0.3400000035762787,
+        0.3199999928474426,
+        1.0
+      ],
+      "roughness": 0.7599999904632568,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WS_Petrol": {
+      "color": [
+        0.054999999701976776,
+        0.17000000178813934,
+        0.15000000596046448,
+        1.0
+      ],
+      "roughness": 0.7599999904632568,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WS_Pine": {
+      "color": [
+        0.3400000035762787,
+        0.2199999988079071,
+        0.11500000208616257,
+        1.0
+      ],
+      "roughness": 0.7599999904632568,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WS_Cream": {
+      "color": [
+        0.699999988079071,
+        0.6600000262260437,
+        0.5099999904632568,
+        1.0
+      ],
+      "roughness": 0.7599999904632568,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WS02_Petrol_Paint": {
+      "color": [
+        0.054999999701976776,
+        0.1599999964237213,
+        0.14499999582767487,
+        1.0
+      ],
+      "roughness": 0.550000011920929,
+      "metallic": 0.20000000298023224,
+      "glass": false
+    },
+    "WS02_Galvanized": {
+      "color": [
+        0.3400000035762787,
+        0.4000000059604645,
+        0.4099999964237213,
+        1.0
+      ],
+      "roughness": 0.41999998688697815,
+      "metallic": 0.6499999761581421,
+      "glass": false
+    },
+    "WSP_Pine": {
+      "color": [
+        0.47999998927116394,
+        0.2849999964237213,
+        0.11999999731779099,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSP_Galvanized": {
+      "color": [
+        0.3700000047683716,
+        0.41999998688697815,
+        0.4300000071525574,
+        1.0
+      ],
+      "roughness": 0.30000001192092896,
+      "metallic": 0.800000011920929,
+      "glass": false
+    },
+    "WSP_Petrol_enamel": {
+      "color": [
+        0.03500000014901161,
+        0.1599999964237213,
+        0.14499999582767487,
+        1.0
+      ],
+      "roughness": 0.3400000035762787,
+      "metallic": 0.25,
+      "glass": false
+    },
+    "WSP_Rubber_ink": {
+      "color": [
+        0.017999999225139618,
+        0.024000000208616257,
+        0.02199999988079071,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSP_Glass": {
+      "color": [
+        0.6600000262260437,
+        0.8299999833106995,
+        0.8199999928474426,
+        1.0
+      ],
+      "roughness": 0.07999999821186066,
+      "metallic": 0.0,
+      "glass": true
+    },
+    "WSP_Cream_enamel": {
+      "color": [
+        0.800000011920929,
+        0.7599999904632568,
+        0.6000000238418579,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.11999999731779099,
+      "glass": false
+    },
+    "WSP_Oxblood_leather": {
+      "color": [
+        0.18000000715255737,
+        0.04500000178813934,
+        0.027000000700354576,
+        1.0
+      ],
+      "roughness": 0.699999988079071,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSP_Paper": {
+      "color": [
+        0.800000011920929,
+        0.6899999976158142,
+        0.46000000834465027,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSP_Kraft": {
+      "color": [
+        0.4300000071525574,
+        0.25,
+        0.10499999672174454,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSP_Canvas": {
+      "color": [
+        0.18000000715255737,
+        0.20999999344348907,
+        0.10000000149011612,
+        1.0
+      ],
+      "roughness": 0.8999999761581421,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSR_Petrol_enamel": {
+      "color": [
+        0.04500000178813934,
+        0.1899999976158142,
+        0.1899999976158142,
+        1.0
+      ],
+      "roughness": 0.36000001430511475,
+      "metallic": 0.25,
+      "glass": false
+    },
+    "WSR_Galvanized_steel": {
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.49000000953674316,
+        1.0
+      ],
+      "roughness": 0.28999999165534973,
+      "metallic": 0.7799999713897705,
+      "glass": false
+    },
+    "WSR_Graphite_rubber": {
+      "color": [
+        0.024000000208616257,
+        0.029999999329447746,
+        0.026000000536441803,
+        1.0
+      ],
+      "roughness": 0.7200000286102295,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSR_Honey_pine": {
+      "color": [
+        0.4300000071525574,
+        0.24500000476837158,
+        0.10499999672174454,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSR_Warm_cream_enamel": {
+      "color": [
+        0.7200000286102295,
+        0.6800000071525574,
+        0.5299999713897705,
+        1.0
+      ],
+      "roughness": 0.3799999952316284,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSR_Window_glass": {
+      "color": [
+        0.699999988079071,
+        0.8299999833106995,
+        0.800000011920929,
+        1.0
+      ],
+      "roughness": 0.11999999731779099,
+      "metallic": 0.0,
+      "glass": true
+    },
+    "WSR_Cot_canvas": {
+      "color": [
+        0.6499999761581421,
+        0.6100000143051147,
+        0.44999998807907104,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSR_Checklist_paper": {
+      "color": [
+        0.8199999928474426,
+        0.800000011920929,
+        0.6600000262260437,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSR_Olive_wool": {
+      "color": [
+        0.2199999988079071,
+        0.27000001072883606,
+        0.11999999731779099,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSR_Aid_green": {
+      "color": [
+        0.07999999821186066,
+        0.2800000011920929,
+        0.17000000178813934,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSR_Muted_rescue_canvas": {
+      "color": [
+        0.6399999856948853,
+        0.1899999976158142,
+        0.04600000008940697,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSR_Printed_ink": {
+      "color": [
+        0.02500000037252903,
+        0.06499999761581421,
+        0.052000001072883606,
+        1.0
+      ],
+      "roughness": 0.5,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSE_Contact_darkening": {
+      "color": [
+        0.08500000089406967,
+        0.07500000298023224,
+        0.04500000178813934,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSE_Rubber": {
+      "color": [
+        0.023000000044703484,
+        0.028999999165534973,
+        0.026000000536441803,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSE_Galvanized": {
+      "color": [
+        0.44999998807907104,
+        0.5,
+        0.49000000953674316,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.75,
+      "glass": false
+    },
+    "WSE_Petrol_enamel": {
+      "color": [
+        0.03500000014901161,
+        0.1899999976158142,
+        0.17000000178813934,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.3499999940395355,
+      "glass": false
+    },
+    "WSE_Safety_ochre": {
+      "color": [
+        0.8500000238418579,
+        0.5,
+        0.07999999821186066,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSE_Cream": {
+      "color": [
+        0.7799999713897705,
+        0.7400000095367432,
+        0.5799999833106995,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSE_Ink": {
+      "color": [
+        0.017999999225139618,
+        0.02500000037252903,
+        0.02199999988079071,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSE_Start_green": {
+      "color": [
+        0.07999999821186066,
+        0.5,
+        0.14000000059604645,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSE_Red": {
+      "color": [
+        0.550000011920929,
+        0.03999999910593033,
+        0.017999999225139618,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WSE_Run": {
+      "color": [
+        0.02500000037252903,
+        0.15000000596046448,
+        0.03999999910593033,
+        1.0
+      ],
+      "roughness": 0.4300000071525574,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "WS02_Dull_Rust": {
+      "color": [
+        0.23999999463558197,
+        0.11500000208616257,
+        0.06499999761581421,
+        1.0
+      ],
+      "roughness": 0.8500000238418579,
+      "metallic": 0.20000000298023224,
+      "glass": false
+    },
+    "WS02_Rubber": {
+      "color": [
+        0.02500000037252903,
+        0.03200000151991844,
+        0.029999999329447746,
+        1.0
+      ],
+      "roughness": 0.699999988079071,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "SD_Paint": {
+      "color": [
+        0.07000000029802322,
+        0.2199999988079071,
+        0.1899999976158142,
+        1.0
+      ],
+      "roughness": 0.6600000262260437,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "SD_Pine": {
+      "color": [
+        0.33000001311302185,
+        0.23000000417232513,
+        0.14000000059604645,
+        1.0
+      ],
+      "roughness": 0.6600000262260437,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "SD_Paper": {
+      "color": [
+        0.7200000286102295,
+        0.6800000071525574,
+        0.550000011920929,
+        1.0
+      ],
+      "roughness": 0.6600000262260437,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "SD_BottleBlue": {
+      "color": [
+        0.10000000149011612,
+        0.23000000417232513,
+        0.30000001192092896,
+        1.0
+      ],
+      "roughness": 0.6600000262260437,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "SD_Cloth": {
+      "color": [
+        0.3799999952316284,
+        0.41999998688697815,
+        0.27000001072883606,
+        1.0
+      ],
+      "roughness": 0.6600000262260437,
+      "metallic": 0.0,
+      "glass": false
+    },
+    "SD_Galvanized": {
+      "color": [
+        0.36000001430511475,
+        0.4000000059604645,
+        0.4099999964237213,
+        1.0
+      ],
+      "roughness": 0.6600000262260437,
+      "metallic": 0.6000000238418579,
+      "glass": false
+    },
+    "SD_Rubber": {
+      "color": [
+        0.029999999329447746,
+        0.03999999910593033,
+        0.03500000014901161,
+        1.0
+      ],
+      "roughness": 0.6600000262260437,
+      "metallic": 0.0,
+      "glass": false
+    }
+  },
+  "textures": {
+    "WS02_Aged_Concrete": {
+      "BaseColor": "WS02_Aged_Concrete_BaseColor.png",
+      "NormalGL": "WS02_Aged_Concrete_NormalGL.png"
+    },
+    "WS02_Pine_Cladding": {
+      "BaseColor": "WS02_Pine_Cladding_BaseColor.png",
+      "NormalGL": "WS02_Pine_Cladding_NormalGL.png"
+    },
+    "WSP_Pine": {
+      "BaseColor": "WSP_Pine_BaseColor.png",
+      "NormalGL": "WSP_Pine_NormalGL.png"
+    },
+    "WSP_Kraft": {
+      "BaseColor": "WSP_Kraft_BaseColor.png",
+      "NormalGL": "WSP_Kraft_NormalGL.png"
+    },
+    "WSR_Honey_pine": {
+      "BaseColor": "WSR_Honey_pine_BaseColor.png",
+      "NormalGL": "WSR_Honey_pine_NormalGL.png"
+    },
+    "WSR_Cot_canvas": {
+      "BaseColor": "WSR_Cot_canvas_BaseColor.png",
+      "NormalGL": "WSR_Cot_canvas_NormalGL.png"
+    },
+    "WSR_Olive_wool": {
+      "BaseColor": "WSR_Olive_wool_BaseColor.png",
+      "NormalGL": "WSR_Olive_wool_NormalGL.png"
+    },
+    "WSR_Muted_rescue_canvas": {
+      "BaseColor": "WSR_Muted_rescue_canvas_BaseColor.png",
+      "NormalGL": "WSR_Muted_rescue_canvas_NormalGL.png"
+    }
+  },
+  "integration_repairs": {
+    "shelf_shift_x_m": 1.25,
+    "shelf_objects": [
+      "WSR_Equipment_shelf",
+      "WSR_Shelf_bracket",
+      "WSR_Shelf_bracket.001",
+      "WSR_First_aid_bag",
+      "WSR_Bag_zipper",
+      "WSR_Bag_handle_upright",
+      "WSR_Bag_handle_upright.001",
+      "WSR_Bag_handle"
+    ],
+    "nonblocking_hardware": [
+      "WSE_Cover_fastener",
+      "WSE_Cover_fastener.001",
+      "WSE_Cover_fastener.002",
+      "WSE_Cover_fastener.003",
+      "WSE_Door_head_seal",
+      "WSE_Door_seal",
+      "WSE_Door_seal.001",
+      "WSE_Hinge_barrel",
+      "WSE_Hinge_barrel.001",
+      "WSE_Hinge_barrel.002",
+      "WSE_Hinge_barrel.003",
+      "WSE_Hinge_barrel.004",
+      "WSE_Hinge_barrel.005",
+      "WSP_Door_head_seal",
+      "WSP_Door_jamb_seal",
+      "WSR_Door_seal",
+      "WSR_Door_seal.001",
+      "WSR_Head_seal"
+    ],
+    "engine_cover_degrees": 100,
+    "fuel_supply_reroute": {
+      "y_shift_max_m": 0.55,
+      "start_station_z": 1.82,
+      "end_station_z": 2.06
+    },
+    "parcels_hinge_collision_inset_m": 0.025,
+    "parcels_latch_collision_inset_m": 0.02
+  }
+}

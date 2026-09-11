@@ -1,0 +1,84 @@
+{
+  "scope": "Saved/reopened Blender blockout; sampled geometry checks, not Unreal capsule or finished asset verification.",
+  "context_transform_changes": [],
+  "retired_context_absent": true,
+  "source_hash_matches": true,
+  "new_meshes": 1384,
+  "topology_errors": [],
+  "package_errors": [],
+  "package_counts": {
+    "WSP_ASSETS": 388,
+    "WSR_ASSETS": 343,
+    "WSE_ASSETS": 244
+  },
+  "sleeve_patch_present": true,
+  "support_method": "Point ray, with 160 x 120 mm footprint search for open grating matching lodge source verification.",
+  "routes": [
+    {
+      "name": "West_promendade_preserved",
+      "samples": 115,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "Ramp_to_parcels",
+      "samples": 97,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "North_steps_to_rescue",
+      "samples": 82,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "Porch_between_rooms",
+      "samples": 30,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "Lower_service",
+      "samples": 144,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "Lower_full_wrap",
+      "samples": 287,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    }
+  ],
+  "openings": [
+    {
+      "name": "Parcels",
+      "rough_width": 1.5,
+      "rough_height": 2.35
+    },
+    {
+      "name": "Rescue",
+      "rough_width": 1.7,
+      "rough_height": 2.35
+    },
+    {
+      "name": "Power",
+      "rough_width": 1.6,
+      "rough_height": 2.3
+    }
+  ],
+  "limitations": [
+    "Finished package door/handling tests retained; combined transit pose checked here.",
+    "Radial probes approximate walking body; not continuous collision or an engine capsule.",
+    "Inherited terrain only; no current Unreal terrain survey.",
+    "Shared finish and wrap platform authored; engine export, material baking and collision remain."
+  ],
+  "passed": true
+}

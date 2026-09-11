@@ -1,0 +1,254 @@
+{
+  "routes": [
+    {
+      "name": "West_promendade_preserved",
+      "samples": 95,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "name": "Ramp_to_parcels",
+      "samples": 81,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "name": "North_steps_to_rescue",
+      "samples": 69,
+      "passed": false,
+      "failures": [
+        {
+          "point": [
+            -30.45,
+            6.322222222222222,
+            4.133333333333333
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__8_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -30.45,
+            6.133333333333334,
+            4.2
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__8_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -30.45,
+            5.7555555555555555,
+            4.333333333333333
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__8_1",
+          "component": "StaticMeshComponent0"
+        }
+      ]
+    },
+    {
+      "name": "Porch_between_rooms",
+      "samples": 25,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "name": "Lower_service",
+      "samples": 122,
+      "passed": false,
+      "failures": [
+        {
+          "point": [
+            -31.643103448275863,
+            7.2,
+            3.9034482758620688
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__8_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -32.029310344827586,
+            7.2,
+            3.7103448275862068
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__8_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -32.41551724137931,
+            7.2,
+            3.5172413793103448
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__8_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -32.60862068965517,
+            7.2,
+            3.420689655172414
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -32.994827586206895,
+            7.2,
+            3.227586206896552
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -33.38103448275862,
+            7.2,
+            3.0344827586206895
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -33.76724137931034,
+            7.2,
+            2.841379310344828
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -34.15344827586207,
+            7.2,
+            2.6482758620689655
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -34.34655172413793,
+            7.2,
+            2.5517241379310347
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -34.73275862068965,
+            7.2,
+            2.3586206896551727
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -35.11896551724138,
+            7.2,
+            2.1655172413793107
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -35.505172413793105,
+            7.2,
+            1.9724137931034482
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -35.891379310344824,
+            7.2,
+            1.7793103448275867
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -36.08448275862069,
+            7.2,
+            1.6827586206896554
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -36.27758620689655,
+            7.2,
+            1.5862068965517242
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -36.47068965517241,
+            7.2,
+            1.4896551724137934
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__10_1",
+          "component": "StaticMeshComponent0"
+        },
+        {
+          "point": [
+            -36.856896551724134,
+            7.2,
+            1.2965517241379314
+          ],
+          "issue": "body",
+          "actor": "MIG_WS_WS_SHARED_STRUCTURE__10_1",
+          "component": "StaticMeshComponent0"
+        }
+      ]
+    },
+    {
+      "name": "Lower_full_wrap",
+      "samples": 237,
+      "passed": true,
+      "failures": []
+    },
+    {
+      "name": "Janitor_access",
+      "samples": 6,
+      "passed": true,
+      "failures": []
+    }
+  ],
+  "passed": false,
+  "capsule": [
+    34,
+    96
+  ],
+  "source": "Editor collision queries; actual movement checked separately."
+}

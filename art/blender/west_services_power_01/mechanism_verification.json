@@ -1,0 +1,92 @@
+{
+  "method": "Reopened fitted meshes, 37 sampled poses per assembly; evaluated BVH surface intersection against explicitly listed relevant cases/shell. This does not replace engine collision or continuous rigid-body simulation. Hinge barrels/fasteners are excluded intentional hardware contacts.",
+  "mechanisms": [
+    {
+      "pivot": "WSE_Door_hinge_S",
+      "samples": 37,
+      "surface_intersections": []
+    },
+    {
+      "pivot": "WSE_Door_hinge_N",
+      "samples": 37,
+      "surface_intersections": []
+    },
+    {
+      "pivot": "WSE_Distribution_hinge",
+      "samples": 37,
+      "surface_intersections": []
+    },
+    {
+      "pivot": "WSE_Battery_lid_hinge",
+      "samples": 37,
+      "surface_intersections": []
+    },
+    {
+      "pivot": "WSE_Engine_cover_hinge",
+      "samples": 37,
+      "surface_intersections": []
+    }
+  ],
+  "door_open_width_m": 1.4119997024536133,
+  "door_headroom_m": 2.1779998801648617,
+  "reach": {
+    "WSE_START": {
+      "operator_hand_local": [
+        3.85,
+        4.15,
+        1.2
+      ],
+      "anchor_distance_m": 0.5346028440693376
+    },
+    "WSE_TRANSFER": {
+      "operator_hand_local": [
+        4.5,
+        5.48,
+        1.2
+      ],
+      "anchor_distance_m": 0.6894201427491816
+    },
+    "WSE_FUEL_ISOLATE": {
+      "operator_hand_local": [
+        2.44,
+        4.05,
+        1.2
+      ],
+      "anchor_distance_m": 0.7993123608430291
+    },
+    "WSE_FUEL_CHECK": {
+      "operator_hand_local": [
+        2.25,
+        4.05,
+        1.2
+      ],
+      "anchor_distance_m": 0.8845904178907682
+    },
+    "WSE_BATTERY_SERVICE": {
+      "operator_hand_local": [
+        4.9,
+        4.15,
+        1.2
+      ],
+      "anchor_distance_m": 0.5830952244952634
+    },
+    "WSE_EMERGENCY_STOP": {
+      "operator_hand_local": [
+        2.94,
+        4.15,
+        1.2
+      ],
+      "anchor_distance_m": 0.5940538243899901
+    },
+    "WSE_STATUS_READ": {
+      "operator_hand_local": [
+        3.45,
+        4.15,
+        1.2
+      ],
+      "anchor_distance_m": 0.5315072965242225
+    }
+  },
+  "reach_assumption": "0.95 m reach radius from a standing hand at 1.20 m; illustrative gameplay target, not player animation validation.",
+  "passed": true
+}

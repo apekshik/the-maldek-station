@@ -1,0 +1,235 @@
+{
+  "method": "Evaluated convex polygon coplanarity buckets (1e-5); 2D convex intersection, positive projected area >1e-6 m2. Asset meshes only; FONT labels omitted. Intentional embedded joints require classification, not blanket dismissal.",
+  "pairs": [
+    {
+      "a": "WSE_Drain_pan",
+      "b": "WSE_Vibration_foot",
+      "same_facing": false,
+      "projected_overlap_m2": 0.02515722836670875
+    },
+    {
+      "a": "WSE_Drain_pan",
+      "b": "WSE_Vibration_foot.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.02515722836670875
+    },
+    {
+      "a": "WSE_Drain_pan",
+      "b": "WSE_Vibration_foot.002",
+      "same_facing": false,
+      "projected_overlap_m2": 0.025157232810727237
+    },
+    {
+      "a": "WSE_Drain_pan",
+      "b": "WSE_Vibration_foot.003",
+      "same_facing": false,
+      "projected_overlap_m2": 0.025157232810727237
+    },
+    {
+      "a": "WSE_Mount_plate",
+      "b": "WSE_Skid_rail",
+      "same_facing": false,
+      "projected_overlap_m2": 0.02267201321410539
+    },
+    {
+      "a": "WSE_Mount_plate.002",
+      "b": "WSE_Skid_rail",
+      "same_facing": false,
+      "projected_overlap_m2": 0.022672038009659445
+    },
+    {
+      "a": "WSE_Mount_plate.001",
+      "b": "WSE_Skid_rail.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.02267201321410539
+    },
+    {
+      "a": "WSE_Mount_plate.003",
+      "b": "WSE_Skid_rail.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.022672038009659445
+    },
+    {
+      "a": "WSE_Crankcase",
+      "b": "WSE_Integral_day_tank",
+      "same_facing": false,
+      "projected_overlap_m2": 0.5544000822067119
+    },
+    {
+      "a": "WSE_Alternator_cooling_ring",
+      "b": "WSE_Starter",
+      "same_facing": false,
+      "projected_overlap_m2": 0.001725244801695336
+    },
+    {
+      "a": "WSE_Battery_case",
+      "b": "WSE_Battery_case.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.016576774810800998
+    },
+    {
+      "a": "WSE_Battery_case",
+      "b": "WSE_Battery_case.002",
+      "same_facing": false,
+      "projected_overlap_m2": 0.014016100677508803
+    },
+    {
+      "a": "WSE_Battery_case",
+      "b": "WSE_Battery_case.003",
+      "same_facing": false,
+      "projected_overlap_m2": 0.014016100677508803
+    },
+    {
+      "a": "WSE_Distribution_case",
+      "b": "WSE_Distribution_case.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.0060155632820624305
+    },
+    {
+      "a": "WSE_Distribution_case",
+      "b": "WSE_Distribution_case.002",
+      "same_facing": false,
+      "projected_overlap_m2": 0.0060155632820624305
+    },
+    {
+      "a": "WSE_Distribution_case",
+      "b": "WSE_Distribution_case.003",
+      "same_facing": false,
+      "projected_overlap_m2": 0.006415535339328926
+    },
+    {
+      "a": "WSE_Distribution_case.001",
+      "b": "WSE_Distribution_case.003",
+      "same_facing": false,
+      "projected_overlap_m2": 0.008256054443336325
+    },
+    {
+      "a": "WSE_Distribution_case.002",
+      "b": "WSE_Distribution_case.003",
+      "same_facing": false,
+      "projected_overlap_m2": 0.008256054443336325
+    },
+    {
+      "a": "WSE_Distribution_case.001",
+      "b": "WSE_Distribution_case.004",
+      "same_facing": false,
+      "projected_overlap_m2": 0.008255992931367473
+    },
+    {
+      "a": "WSE_Distribution_case",
+      "b": "WSE_Distribution_case.004",
+      "same_facing": false,
+      "projected_overlap_m2": 0.006415535339328926
+    },
+    {
+      "a": "WSE_Distribution_case.002",
+      "b": "WSE_Distribution_case.004",
+      "same_facing": false,
+      "projected_overlap_m2": 0.008255992931367473
+    },
+    {
+      "a": "WSE_Transfer_box",
+      "b": "WSE_Transfer_handle",
+      "same_facing": false,
+      "projected_overlap_m2": 0.005376037048336002
+    },
+    {
+      "a": "WSE_Door_header",
+      "b": "WSE_Door_jamb",
+      "same_facing": false,
+      "projected_overlap_m2": 0.022499944232400537
+    },
+    {
+      "a": "WSE_Door_header",
+      "b": "WSE_Door_jamb.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.022499944232400537
+    },
+    {
+      "a": "WSE_Door_jamb",
+      "b": "WSE_Threshold",
+      "same_facing": false,
+      "projected_overlap_m2": 0.002400003062933885
+    },
+    {
+      "a": "WSE_Door_jamb.001",
+      "b": "WSE_Threshold",
+      "same_facing": false,
+      "projected_overlap_m2": 0.0024000030629338573
+    },
+    {
+      "a": "WSE_Door_jamb",
+      "b": "WSE_Door_seal",
+      "same_facing": false,
+      "projected_overlap_m2": 0.1259181976146806
+    },
+    {
+      "a": "WSE_Door_jamb.001",
+      "b": "WSE_Door_seal.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.1259181976146806
+    },
+    {
+      "a": "WSE_Door_head_seal",
+      "b": "WSE_Door_seal",
+      "same_facing": false,
+      "projected_overlap_m2": 9.450328875004743e-05
+    },
+    {
+      "a": "WSE_Door_head_seal",
+      "b": "WSE_Door_seal.001",
+      "same_facing": false,
+      "projected_overlap_m2": 9.450328875004743e-05
+    },
+    {
+      "a": "WSE_DISCHARGE_jamb",
+      "b": "WSE_DISCHARGE_rail",
+      "same_facing": false,
+      "projected_overlap_m2": 0.016416005158066405
+    },
+    {
+      "a": "WSE_DISCHARGE_jamb.001",
+      "b": "WSE_DISCHARGE_rail",
+      "same_facing": false,
+      "projected_overlap_m2": 0.016416005158066405
+    },
+    {
+      "a": "WSE_DISCHARGE_jamb",
+      "b": "WSE_DISCHARGE_rail.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.016415968918444435
+    },
+    {
+      "a": "WSE_DISCHARGE_jamb.001",
+      "b": "WSE_DISCHARGE_rail.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.016415968918444435
+    },
+    {
+      "a": "WSE_INTAKE_jamb",
+      "b": "WSE_INTAKE_rail",
+      "same_facing": false,
+      "projected_overlap_m2": 0.016415968918444435
+    },
+    {
+      "a": "WSE_INTAKE_jamb.001",
+      "b": "WSE_INTAKE_rail",
+      "same_facing": false,
+      "projected_overlap_m2": 0.016415968918444435
+    },
+    {
+      "a": "WSE_INTAKE_jamb",
+      "b": "WSE_INTAKE_rail.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.016415968918444435
+    },
+    {
+      "a": "WSE_INTAKE_jamb.001",
+      "b": "WSE_INTAKE_rail.001",
+      "same_facing": false,
+      "projected_overlap_m2": 0.016415968918444435
+    }
+  ],
+  "same_facing_count": 0,
+  "classification": "Remaining opposite-facing contacts are buried mating surfaces: mounts/tray/tank, enclosure panel ends, louvre/frame junctions and inserted fittings. No same-facing competing planar surface pair remains within stated tolerances."
+}

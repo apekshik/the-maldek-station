@@ -27,14 +27,13 @@ void UStationOpeningComponent::TickComponent(float Dt,ELevelTick TickType,FActor
   UE_LOG(LogTemp,Log,TEXT("Station opening started (elapsed=%.3f)."),Elapsed);
   Widget=CreateWidget<UStationOpeningWidget>(Controller);
   if(Widget){Widget->SetVisibility(ESlateVisibility::HitTestInvisible);Widget->AddToPlayerScreen(100);}
-  Controller->SetIgnoreMoveInput(true);Controller->SetIgnoreLookInput(true);bInputHeld=true;
+  // Gameplay begins immediately; this component only supplies audio and hints.
   if(OpeningAtmosphere)Atmosphere=UGameplayStatics::SpawnSound2D(this,OpeningAtmosphere,AtmosphereVolume,1,0,nullptr,false,true);
  }
  Elapsed+=Dt;
- if(Elapsed>=6.0f)ReleaseInput();
  // A single approach transition per play session, so backing across the boundary
  // never restarts the drone or stacks additional music voices.
- if(Elapsed>=6.0f && StationAtmosphere && StationAtmosphereStartCount==0 &&
+ if(StationAtmosphere && StationAtmosphereStartCount==0 &&
     FVector::DistSquared(GetOwner()->GetActorLocation(),StationApproachLocation)<=FMath::Square(StationApproachRadius))
  {
   StationAudio=UGameplayStatics::CreateSound2D(this,StationAtmosphere,StationAtmosphereVolume,1,0,nullptr,false,true);

@@ -1,0 +1,13 @@
+{
+  "phase": "end",
+  "index": 3,
+  "next": 176733.328,
+  "deadline": 176934.171,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\review\\down.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\review\\mountains.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\gorge\\review\\foundation.png"
+  ],
+  "busy": true,
+  "success": true
+}

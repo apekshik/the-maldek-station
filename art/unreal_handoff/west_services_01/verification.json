@@ -1,0 +1,10 @@
+{
+  "errors": [],
+  "retained_actors": 1279,
+  "imported_groups": 101,
+  "native_foliage_instances": 4556,
+  "source_hash_matches": true,
+  "r12_hash_matches": true,
+  "reopened": true,
+  "passed": true
+}

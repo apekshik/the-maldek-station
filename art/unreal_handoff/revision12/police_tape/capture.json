@@ -1,0 +1,11 @@
+{
+  "phase": "end",
+  "next": 343721.921,
+  "index": 1,
+  "busy": false,
+  "shots": [
+    "night",
+    "inspection"
+  ],
+  "temporary_light_removed": true
+}

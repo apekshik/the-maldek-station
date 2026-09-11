@@ -1,0 +1,41 @@
+{
+  "processing": "Recorded excerpts only: trim, mono 48kHz PCM16, DC removal, constant peak gain, short edge fades. No synthesis.",
+  "clips": [
+    {
+      "asset": "Tape_Tear_01",
+      "source_range_s": [
+        8.117551020408163,
+        9.6
+      ],
+      "duration_s": 1.4824583333333334,
+      "peak": 0.72,
+      "rms": 0.04527129340102535,
+      "gain": 1.765952064107207,
+      "sha256": "ae215772a7d78e5512a6ea37f2196a28b40deb66ac758c79474738d318f99e99"
+    },
+    {
+      "asset": "Tape_Tear_02",
+      "source_range_s": [
+        17.7,
+        19.049002267573695
+      ],
+      "duration_s": 1.3490208333333333,
+      "peak": 0.72,
+      "rms": 0.03884725449647807,
+      "gain": 0.9482243702797915,
+      "sha256": "67480523a5783d3270ac1efffd8a6f6a0b64dc798ed1b7bf97a0f51a38d0132d"
+    },
+    {
+      "asset": "Tape_Tear_03",
+      "source_range_s": [
+        26.071541950113378,
+        27.20403628117914
+      ],
+      "duration_s": 1.1325,
+      "peak": 0.72,
+      "rms": 0.024680006490045227,
+      "gain": 0.6084006573632859,
+      "sha256": "d2c4230c100183220956cfbe109a687fa2f9c51bfa2990c9683afd44094de5a9"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "actor": "MIG_Lodge_Deck_000",
+    "before": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_000.SM_Lodge_Deck_000",
+    "after": "/Game/MaldekRefinement/WestServices/Deck/SM_WS_Lodge_Deck_000.SM_WS_Lodge_Deck_000",
+    "retired_sources": [
+      "PL02_Perimeter_0_post",
+      "PL02_Perimeter_0_post.001",
+      "PL02_Perimeter_0_post.002",
+      "PL02_Perimeter_0_post.003",
+      "PL02_Perimeter_0_post.004"
+    ],
+    "preserved_sources": [
+      "PL02_Support",
+      "PL02_Support.004",
+      "PL02_Rear_West_bar",
+      "PL02_Rear_West_bar.001",
+      "PL02_Rear_West_post",
+      "PL02_Rear_West_post.001",
+      "PL02_Rear_West_post.002",
+      "PL02_Rear_West_post.003",
+      "PL02_Rear_West_post.004"
+    ]
+  },
+  {
+    "actor": "MIG_Lodge_Deck_001",
+    "before": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_001.SM_Lodge_Deck_001",
+    "after": "/Game/MaldekRefinement/WestServices/Deck/SM_WS_Lodge_Deck_001.SM_WS_Lodge_Deck_001",
+    "retired_sources": [
+      "PL02_Perimeter_0_bar",
+      "PL02_Perimeter_0_bar.001",
+      "PL02_Perimeter_0_post.005",
+      "PL02_Perimeter_0_post.006",
+      "PL02_Perimeter_0_post.007",
+      "PL02_Perimeter_0_post.008",
+      "PL02_Perimeter_0_post.009",
+      "PL02_Perimeter_0_post.010"
+    ],
+    "preserved_sources": [
+      "PL02_Support.001",
+      "PL02_Support.005"
+    ]
+  },
+  {
+    "actor": "MIG_Lodge_Deck_002",
+    "before": "/Game/MaldekRefinement/PassengerLodge/DeckPilot/Meshes/SM_Lodge_Deck_002.SM_Lodge_Deck_002",
+    "after": "/Game/MaldekRefinement/WestServices/Deck/SM_WS_Lodge_Deck_002.SM_WS_Lodge_Deck_002",
+    "retired_sources": [
+      "PL02_Perimeter_0_post.011",
+      "PL02_Perimeter_0_post.012",
+      "PL02_Perimeter_0_post.013",
+      "PL02_Perimeter_0_post.014",
+      "PL02_Perimeter_0_post.015"
+    ],
+    "preserved_sources": [
+      "PL02_Support.002",
+      "PL02_Support.003",
+      "PL02_Support.006",
+      "PL02_Support.007",
+      "PL02_Perimeter_1_post",
+      "PL02_Perimeter_1_post.001",
+      "PL02_Perimeter_1_post.002",
+      "PL02_Perimeter_1_post.003"
+    ]
+  }
+]

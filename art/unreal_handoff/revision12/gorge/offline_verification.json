@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "unchanged_mesh_vertices": 27597,
+  "route_samples": 293,
+  "new_route_obstructions": [],
+  "changed_heightmap_pixels": 35811,
+  "outside_mask_changes": 0
+}

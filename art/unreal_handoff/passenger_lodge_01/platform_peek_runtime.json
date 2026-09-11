@@ -1,0 +1,18 @@
+{
+  "phase": 3,
+  "elapsed": 6.504618801176548,
+  "samples": 342,
+  "deadline": 449092.031,
+  "spawn": [
+    -44166.905974972964,
+    18578.207549061975,
+    10396.649991512299
+  ],
+  "grounded": true,
+  "move_until": 1.3128959007561207,
+  "walk_cm": 84.22173885768088,
+  "peek_degrees": 65,
+  "input_unlocked_through_opening": true,
+  "success": true,
+  "error": null
+}

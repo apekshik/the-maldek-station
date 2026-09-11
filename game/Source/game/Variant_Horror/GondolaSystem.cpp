@@ -10,6 +10,7 @@
 #include "Components/WidgetComponent.h"
 #include "InputCoreTypes.h"
 #include "StationInteractionStyle.h"
+#include "StationInspectionComponent.h"
 #include "Widgets/Layout/SBorder.h"
 #include "Widgets/Text/STextBlock.h"
 #include "Widgets/SBoxPanel.h"
@@ -95,7 +96,8 @@ void AGondolaSystem::Tick(float DeltaTime)
  const APawn* BoardingPlayer = UGameplayStatics::GetPlayerPawn(this, 0);
  APlayerController* BoardingController = UGameplayStatics::GetPlayerController(this, 0);
  const FVector CabinLocal = BoardingPlayer ? GondolaMesh->GetComponentTransform().InverseTransformPosition(BoardingPlayer->GetActorLocation()) : FVector(0,0,-1000);
- const bool bCanDepart = (bDocked || bWaitingAtMaldek) && !bMoving && !bDepartureRequested && (!HasSlidingDoors() || DoorPhase == EGondolaDoorPhase::Open) && !CabinParts.IsEmpty() && FMath::Abs(CabinLocal.X)<120 && FMath::Abs(CabinLocal.Y)<240 && CabinLocal.Z>30 && CabinLocal.Z<230;
+ const auto* Inspection=BoardingController?BoardingController->FindComponentByClass<UStationInspectionComponent>():nullptr;
+ const bool bCanDepart = BoardingController && !BoardingController->IsMoveInputIgnored() && (!Inspection || (!Inspection->IsInspectingObject() && !Inspection->HasFocusedObject())) && (bDocked || bWaitingAtMaldek) && !bMoving && !bDepartureRequested && (!HasSlidingDoors() || DoorPhase == EGondolaDoorPhase::Open) && !CabinParts.IsEmpty() && FMath::Abs(CabinLocal.X)<120 && FMath::Abs(CabinLocal.Y)<240 && CabinLocal.Z>30 && CabinLocal.Z<230;
  DeparturePrompt->SetVisibility(bCanDepart);
  if (bCanDepart && BoardingController && BoardingController->WasInputKeyJustPressed(EKeys::E)) { if (bWaitingAtMaldek) ReturnGondola(); else SendGondola(); }
  if (bArrivalPending)

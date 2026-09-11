@@ -1,0 +1,62 @@
+{
+  "scope": "Saved/reopened Blender dressing verification; sampled body probes, not Unreal collision.",
+  "source_hash_matches": true,
+  "changed_existing_transforms": [],
+  "removed_placeholder_absent": true,
+  "new_objects": 141,
+  "topology_errors": [],
+  "new_meshes": 125,
+  "support_method": "Point ray, with 160 x 120 mm footprint search for open grating matching lodge source verification.",
+  "routes": [
+    {
+      "name": "Janitor_access",
+      "samples": 7,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "West_promendade_preserved",
+      "samples": 115,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "Ramp_to_parcels",
+      "samples": 97,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "North_steps_to_rescue",
+      "samples": 82,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "Porch_between_rooms",
+      "samples": 30,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "Lower_service",
+      "samples": 144,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    },
+    {
+      "name": "Lower_full_wrap",
+      "samples": 287,
+      "passed": true,
+      "errors": [],
+      "error_count": 0
+    }
+  ],
+  "passed": true
+}

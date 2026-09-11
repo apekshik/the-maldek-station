@@ -27,6 +27,8 @@ public:
  UFUNCTION(BlueprintCallable, Category="Flashlight") void SetFocus(float Value);
  UFUNCTION(BlueprintPure, Category="Flashlight") float GetFocus() const { return Focus; }
  UFUNCTION(BlueprintPure, Category="Flashlight") float GetTargetFocus() const { return TargetFocus; }
+ /** Temporary narrow-beam override; preserves the player's normal focus setting. */
+ void SetPeekFocus(bool bActive);
  UFUNCTION(BlueprintPure, Category="Walking") FVector GetViewOffset() const { return ViewOffset; }
  UFUNCTION(BlueprintCallable, Category="Looking") void SetInspectActive(bool bActive) { bInspectRequested=bActive; }
  UFUNCTION(BlueprintPure, Category="Looking") float GetInspectAmount() const { return InspectAmount; }
@@ -55,6 +57,7 @@ private:
  UPROPERTY(Transient) TObjectPtr<UMaterialInstanceDynamic> Optics;
  float Focus=0.35f,TargetFocus=0.35f,Phase=0,MotionWeight=0,LandingOffset=0,PreviousVerticalSpeed=0;
  bool bWasGrounded=true;
+ bool bPeekFocus=false;
  FRotator PreviousAim=FRotator::ZeroRotator;
  FVector2D AimLag=FVector2D::ZeroVector;
  FVector ViewOffset=FVector::ZeroVector;

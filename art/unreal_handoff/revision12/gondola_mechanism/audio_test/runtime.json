@@ -1,0 +1,21 @@
+{
+  "phase": "end",
+  "next": 190923.171,
+  "deadline": 190962.781,
+  "checks": [
+    "All nine motion loops stop at dock",
+    "Motor loop active during travel",
+    "Real listener moved to opposite sides and 200 metres away"
+  ],
+  "clips": [
+    "motor_right.wav",
+    "motor_left.wav",
+    "motor_far.wav",
+    "full_drive.wav",
+    "parked.wav"
+  ],
+  "index": 4,
+  "name": "full_drive",
+  "error": null,
+  "passed": true
+}

@@ -1,0 +1,16 @@
+{
+  "phase": "cleanup",
+  "next": 237309.906,
+  "index": 2,
+  "mode": "inspection",
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking_navigation\\before\\overview_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking_navigation\\before\\spawn_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking_navigation\\before\\overview_inspection.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\parking_navigation\\before\\spawn_inspection.png"
+  ],
+  "busy": true,
+  "deadline": 237850.89,
+  "success": true,
+  "inspection_lights_removed": true
+}

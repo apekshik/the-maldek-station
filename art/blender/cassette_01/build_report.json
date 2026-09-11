@@ -1,0 +1,21 @@
+{
+  "status": "Blender review only; not imported or placed in Unreal",
+  "scale": "metres",
+  "width_mm": 100.4,
+  "height_mm": 63.8,
+  "depth_mm": 12.1,
+  "reel_centres_mm": 42.5,
+  "tape_width_mm": 3.81,
+  "parts": 323,
+  "mesh_vertices": 18315,
+  "references": [
+    "https://www.duplication.com/cassette-selection-guide.php",
+    "https://www.recordingthemasters.com/blank-cassettes"
+  ],
+  "renders": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\cassette_01\\previews\\01_hero.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\cassette_01\\previews\\02_front.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\cassette_01\\previews\\03_back.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\cassette_01\\previews\\04_tape_edge.png"
+  ]
+}

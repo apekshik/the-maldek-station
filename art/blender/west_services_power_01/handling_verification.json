@@ -1,0 +1,20 @@
+{
+  "method": "Sampled 2.50 X x 1.30 Y x 1.76 Z m handling box, 50 mm intervals, local coordinates. Services and projecting control pod removed per handling plan; doors at 90 degrees. Checked against lower walls, finished frame/leaves, battery case, distribution and transfer cabinets.",
+  "path_centres": [
+    [
+      2.9,
+      2.85
+    ],
+    [
+      2.9,
+      7.2
+    ],
+    [
+      -0.65,
+      7.2
+    ]
+  ],
+  "hits": [],
+  "passed": true,
+  "limitation": "Last pose still straddles doorway and walkway. Continuing west exceeds the elevated walk support footprint and requires a separately designed temporary lift/landing. No load-bearing/lifting proof is implied."
+}

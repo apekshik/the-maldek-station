@@ -1,0 +1,27 @@
+{
+  "phase": 5,
+  "next": 449757.706,
+  "deadline": 449836.203,
+  "checks": {
+    "entered": true,
+    "torch_attached_to_closeup": true,
+    "left_from_face_95": true,
+    "mouse_aims_beam": true,
+    "beam_aim_limited": true,
+    "camera_stays_at_peek": true,
+    "aim_does_not_insert_key": true,
+    "light_power_preserved": true,
+    "no_lock_fill_during_peek": true,
+    "returns_to_oblique_view": true,
+    "beam_returns_to_lock": true,
+    "cursor_restored": false
+  },
+  "beam_intensity": 1.252500057220459,
+  "beam_cone": 25.950000762939453,
+  "aim": {
+    "yaw": 15.846822660416246,
+    "pitch": 8.972573490482427
+  },
+  "success": false,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\scripts\\peek_beam_runtime.py\", line 58, in tick\n    check('cursor_restored',abs(pc.get_mouse_position()[0]-mouse[0])<2 and abs(pc.get_mouse_position()[1]-mouse[1])<2)\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\scripts\\peek_beam_runtime.py\", line 10, in check\n    def check(k,v):s['checks'][k]=bool(v);assert v,k\n                                          ^^^^^^^^^^\nAssertionError: cursor_restored\n"
+}

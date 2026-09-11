@@ -1,0 +1,29 @@
+{
+  "blend": "Maldek_Station_West_Integrated.blend",
+  "sha256": "48559b9c9f52e6a3cfb6b6350e2fece04194d2df9811f3d9aed6a56e98bc0979",
+  "verification_passed": true,
+  "scene": "Station_West_Services_Integrated",
+  "package_objects": {
+    "WSP_ASSETS": 388,
+    "WSR_ASSETS": 343,
+    "WSE_ASSETS": 244
+  },
+  "route_samples": 755,
+  "routes_passed": 6,
+  "roof_interfaces_passed": true,
+  "previews": {
+    "01_Station.png": "8ac72e9861b979f768df489422cee92b1c4c67211222ab43931058f8cfee5cb7",
+    "02_Wrap_platform.png": "410c6eae692cafaaf2ccfadd3fd5f14d3259a74aca6de1134717e119c19e174f",
+    "03_Upper_cutaway.png": "2b966aa2e709dbf80e6660f4dd793f6cb9f72ed3f8960478da4b35acf223aca2",
+    "04_Lower_wrap_plan.png": "1d8b35cfbac8c11c0317f1b9bf947a54f7d5b995401d9c273a30a2b6caa0ff44",
+    "05_Arrival.png": "3ebab6126159649821642f8af13ec6df6356a29fd4477247b643f6079ca5639a",
+    "06_Parcels.png": "998be87c03326515a049a3dfdbca56dddb9009c1048a479c53b51d4002ece37b",
+    "07_Rescue.png": "5b1fc07e1977a66d4716f82a814ec24c558b8e0fc5b126f55c7bf0c266b1730b",
+    "08_Power.png": "2593e3b3488345b9cc59146516761fbdf3077e376c424d2c476be8ca104d9770",
+    "09_Porch.png": "faeeae02acc819c962861ae8b8a76c72506c0de55ec67c16b0ada04e7829f47d",
+    "10_Lower_door.png": "10aa8eb597b6f3327ea09ce461b7e9ea6490a5b1cb9364e6797220e3035a8401",
+    "11_Spare_side.png": "ad09a80d88e9c3007de42b4f8f65a88120e5c70556ee37e4ed13e8df76857c47",
+    "12_Roof_interface.png": "e91d506d3db963df9089b6fc19b58ba926ccbb3a85f4e5512c3a4d9e955183ae"
+  },
+  "limitations": "Blender assembly only. Unreal import, live terrain fit, materials/export/collision remain separate."
+}

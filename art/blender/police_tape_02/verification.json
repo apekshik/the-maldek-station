@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "crossing_gap_clear_after_release": true,
+  "perimeter_spans": 8,
+  "export_files": 36,
+  "sampled_frames": [
+    {
+      "frame": 24,
+      "strand": "Middle",
+      "vertices_in_central_1_3m_gap": 156
+    },
+    {
+      "frame": 24,
+      "strand": "Lower_",
+      "vertices_in_central_1_3m_gap": 158
+    },
+    {
+      "frame": 24,
+      "strand": "Upper_",
+      "vertices_in_central_1_3m_gap": 156
+    },
+    {
+      "frame": 58,
+      "strand": "Middle",
+      "vertices_in_central_1_3m_gap": 158
+    },
+    {
+      "frame": 58,
+      "strand": "Lower_",
+      "vertices_in_central_1_3m_gap": 150
+    },
+    {
+      "frame": 58,
+      "strand": "Upper_",
+      "vertices_in_central_1_3m_gap": 156
+    },
+    {
+      "frame": 62,
+      "strand": "Middle",
+      "vertices_in_central_1_3m_gap": 122
+    },
+    {
+      "frame": 62,
+      "strand": "Lower_",
+      "vertices_in_central_1_3m_gap": 108
+    },
+    {
+      "frame": 62,
+      "strand": "Upper_",
+      "vertices_in_central_1_3m_gap": 136
+    },
+    {
+      "frame": 110,
+      "strand": "Middle",
+      "vertices_in_central_1_3m_gap": 0
+    },
+    {
+      "frame": 110,
+      "strand": "Lower_",
+      "vertices_in_central_1_3m_gap": 0
+    },
+    {
+      "frame": 110,
+      "strand": "Upper_",
+      "vertices_in_central_1_3m_gap": 0
+    },
+    {
+      "frame": 144,
+      "strand": "Middle",
+      "vertices_in_central_1_3m_gap": 0
+    },
+    {
+      "frame": 144,
+      "strand": "Lower_",
+      "vertices_in_central_1_3m_gap": 0
+    },
+    {
+      "frame": 144,
+      "strand": "Upper_",
+      "vertices_in_central_1_3m_gap": 0
+    }
+  ]
+}

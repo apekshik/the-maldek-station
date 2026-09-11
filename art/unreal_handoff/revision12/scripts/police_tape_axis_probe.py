@@ -1,0 +1,2 @@
+import unreal
+p='C:/Users/apek-anna/Developer/the-maldek-station/art/unreal_handoff/revision12/police_tape/wrap_fit/axis_probe.fbx';t=unreal.AssetExportTask();t.object=unreal.load_asset('/Game/MaldekRefinement/R12/PoliceTape/Wraps/SM_PoliceTape_Wrap_0_1');t.filename=p;t.automated=True;t.prompt=False;t.replace_identical=True;t.exporter=unreal.StaticMeshExporterFBX();assert unreal.Exporter.run_asset_export_task(t);RESULT={'exported':True}

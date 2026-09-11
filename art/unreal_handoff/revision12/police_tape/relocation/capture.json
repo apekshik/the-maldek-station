@@ -1,0 +1,11 @@
+{
+  "index": 3,
+  "phase": "end",
+  "next": 348188.875,
+  "busy": true,
+  "shots": [
+    "spawn",
+    "approach",
+    "crossing"
+  ]
+}

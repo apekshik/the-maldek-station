@@ -1,0 +1,16 @@
+{
+  "blend": "Maldek_Station_Furnished.blend",
+  "scene": "Station_Furnished",
+  "sha256": "d4c5a3a7b4848dcd7221f9c5662e55d591002a7a777435cd510741c1aca2c8ab",
+  "verification_passed": true,
+  "new_objects": 141,
+  "new_meshes": 125,
+  "route_samples": 762,
+  "visually_reviewed_previews": [
+    "01_Janitor.png",
+    "02_Janitor_detail.png",
+    "03_Rescue_shelves.png",
+    "04_Rescue_room.png",
+    "05_Power_spares.png"
+  ]
+}

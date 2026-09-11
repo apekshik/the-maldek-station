@@ -64,3 +64,27 @@ The map now shows continuous deck beneath the arrival court, flush stair heads, 
 Passenger lodge 02 fits the six-table layout beside the existing control building, extends the deck west to a 7.35 m promenade, and retains the original arrival stair and turn. The 2 m bypass connects to a proposed side stair with a 2 m upper landing. Source geometry remains available in the earlier reference scene. See art/blender/passenger_lodge_02/README.md and its fit_report.json for placement, source preservation and sampled-route evidence. The lower stair approach, final structure and Unreal player collision still require validation before integration.
 
 Edge refinement: west promenade reduced to 5.35 m; arrival assembly and turning opening moved 1.5 m west. The right-hand stair now cuts through all replacement deck surfaces, and an obsolete projecting deck tab is removed. Lower terrain connections remain provisional.
+
+## West passenger-support extension / September 11
+
+The user approved both a luggage/parcels office and a small rescue hut, raised above a dedicated emergency power room. The combined Blender blockout is now at `art/blender/west_services_01/Maldek_West_Services_Blockout.blend`, derived from integrated passenger lodge 04. See its README, saved-file verification and [three detail handoffs](../handoffs/west-services/README.md).
+
+The proposal adds a 6 x 10 m structure west of the retained promenade, upper floor +4.60 m and lower floor +1.20 m. Both upper rooms share a covered porch with four steps and a 1:12 trolley/stretcher ramp. The lower room has a separate exterior stair and west service entrance. Existing lodge/control/dock geometry stays fixed. Only the derived scene's west boundary guard is replaced at the new connections.
+
+The three later packages own their individual room fittings and opening assemblies; one integrator owns common walls, slab, roof and access. Emergency power supplies refuge heat, lights and communications, explicitly excluding the gondola drive. This is a Blender authoring proposal with inherited terrain references; current Unreal terrain, capsule traversal and engine integration remain unverified.
+
+## Integrated west services and lower wrap platform / September 11
+
+The completed parcels, rescue and emergency-power meshes are now combined with the existing station in `art/blender/west_services_02/Maldek_Station_West_Integrated.blend`. This is the current Blender assembly for the west extension, superseding its proxy fittings. A lower platform at +1.20 m now wraps the whole building, with a 3 m west doorway band, access around the service-stair foot and loose south/east storage clutter. Common timber/roof finish and the exhaust wall/roof connections are included. See the integrated package's README and verification report. Source files remain preserved; live Unreal terrain and collision are still separate integration work.
+
+## Interior dressing / September 11
+
+Latest combined Blender master: art/blender/station_dressing_01/Maldek_Station_Furnished.blend. The cleaning cupboard placeholder is now open storage with tools and supplies. Rescue wall shelves and an emergency-power spares rack/tool board add room dressing. See the package README, manifest, previews and verification.json. Earlier integrated masters remain intact; Unreal integration is still pending.
+
+## Unreal transfer plan / September 11
+
+See [the detailed integration plan](west-services-unreal-integration.md). It extends the existing furnished lodge migration with the west compound and final dressing, using a fresh engine/terrain baseline, bounded export groups, interaction adapters, runtime/cook checks and a later reconciled promotion. Planning only; no game asset or map changes in this step.
+
+## Unreal implementation / September 11
+
+The west compound and final dressing are now installed in `Station_Lodge_Migration`, including fitted ground, relocated native foliage, 28 screening pines, usable room doors/storage and sheltered-storm audio zones. The solid old cleaning-cupboard placeholder is replaced by the furnished open carcass. Normal game travel and editor startup now target this expanded map, with the original R12 map retained for rollback. See the [integration delivery](../../art/unreal_handoff/west_services_01/README.md) for current checks, source ownership and package results. Earlier pending/planning notes above describe historical checkpoints.

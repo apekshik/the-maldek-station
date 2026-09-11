@@ -1,0 +1,51 @@
+{
+  "stage": "Blender prototype; not installed in Unreal",
+  "width_m": 0.0762,
+  "film_thickness_m": 7.6e-05,
+  "anchor_span_m": 3.18,
+  "break_frame": 59,
+  "duration_seconds": 6,
+  "fps": 24,
+  "simulation": "120 Hz position-based dynamics, anchored endpoints and torso contact; controlled seam release",
+  "exports": [
+    {
+      "name": "SM_Tape_Left",
+      "vertices": 222,
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\police_tape_01\\exports\\SM_Tape_Left.fbx"
+    },
+    {
+      "name": "SM_Tape_Right",
+      "vertices": 174,
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\police_tape_01\\exports\\SM_Tape_Right.fbx"
+    },
+    {
+      "name": "SM_Wrap_Left",
+      "vertices": 582,
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\police_tape_01\\exports\\SM_Wrap_Left.fbx"
+    },
+    {
+      "name": "SM_Loose_tail_Left",
+      "vertices": 156,
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\police_tape_01\\exports\\SM_Loose_tail_Left.fbx"
+    },
+    {
+      "name": "SM_Wrap_Right",
+      "vertices": 582,
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\police_tape_01\\exports\\SM_Wrap_Right.fbx"
+    },
+    {
+      "name": "SM_Loose_tail_Right",
+      "vertices": 156,
+      "file": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\blender\\police_tape_01\\exports\\SM_Loose_tail_Right.fbx"
+    }
+  ],
+  "reference_sources": [
+    "https://www.uline.com/Product/Detail/S-22041/Barricade-Tape/Barricade-Tape-3-x-1000-Police-Line-Do-Not-Cross",
+    "https://www.cbsnews.com/sacramento/news/man-found-dead-grass-valley-california-storm/"
+  ],
+  "pending": [
+    "Unreal runtime ribbon deformation and walking interaction",
+    "Source recorded crinkle/tear audio",
+    "Live placement, foliage density and traversal checks"
+  ]
+}

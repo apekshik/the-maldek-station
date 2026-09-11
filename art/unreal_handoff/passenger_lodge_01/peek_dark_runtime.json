@@ -1,0 +1,31 @@
+{
+  "phase": 7,
+  "next": 450015.984,
+  "deadline": 450092.515,
+  "checks": {
+    "entered": true,
+    "torch_stays_on_player": true,
+    "left_from_face_95": true,
+    "mouse_cannot_aim_torch": true,
+    "torch_still_on_player": true,
+    "camera_stays_at_peek": true,
+    "aim_does_not_insert_key": true,
+    "light_power_preserved": true,
+    "no_lock_fill_during_peek": true,
+    "returns_to_oblique_view": true,
+    "torch_unchanged_on_return": true,
+    "right_from_face_95": true,
+    "fov_preserved": true,
+    "torch_parent_restored": true,
+    "torch_rotation_restored": true,
+    "input_restored": true
+  },
+  "beam_intensity": 1.252500057220459,
+  "beam_cone": 25.950000762939453,
+  "aim": {
+    "yaw": -1.5,
+    "pitch": 0.0
+  },
+  "success": true,
+  "error": null
+}

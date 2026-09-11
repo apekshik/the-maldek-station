@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "frame": 24,
+      "vertices_in_walking_gap": 472
+    },
+    {
+      "frame": 56,
+      "vertices_in_walking_gap": 480
+    },
+    {
+      "frame": 64,
+      "vertices_in_walking_gap": 310
+    },
+    {
+      "frame": 96,
+      "vertices_in_walking_gap": 0
+    },
+    {
+      "frame": 144,
+      "vertices_in_walking_gap": 0
+    }
+  ],
+  "crossing_strands": 3,
+  "perimeter_spans": 8,
+  "static_crossing_exports": 18
+}

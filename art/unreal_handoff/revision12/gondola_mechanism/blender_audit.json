@@ -1,0 +1,1036 @@
+[
+  {
+    "name": "Drive_Apron_Girder",
+    "position": [
+      -1.7000000476837158,
+      5.75,
+      -0.30000001192092896
+    ],
+    "collections": [
+      "18_Cliff_Anchors"
+    ]
+  },
+  {
+    "name": "Drive_Apron_Girder.001",
+    "position": [
+      5.699999809265137,
+      5.75,
+      -0.30000001192092896
+    ],
+    "collections": [
+      "18_Cliff_Anchors"
+    ]
+  },
+  {
+    "name": "Drive_Cliff_Edge_Guard",
+    "position": [
+      2.0,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Cliff_Edge_Post",
+    "position": [
+      -2.0,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Cliff_Edge_Post.001",
+    "position": [
+      -0.6666666269302368,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Cliff_Edge_Post.002",
+    "position": [
+      0.6666667461395264,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Cliff_Edge_Post.003",
+    "position": [
+      2.0,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Cliff_Edge_Post.004",
+    "position": [
+      3.3333334922790527,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Cliff_Edge_Post.005",
+    "position": [
+      4.6666669845581055,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Cliff_Edge_Post.006",
+    "position": [
+      6.0,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Cliff_Edge_Rail",
+    "position": [
+      2.0,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Cliff_Edge_Rail.001",
+    "position": [
+      2.0,
+      11.5,
+      1.100000023841858
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Guard",
+    "position": [
+      6.0,
+      6.599999904632568,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Post",
+    "position": [
+      6.0,
+      1.7000000476837158,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Post.001",
+    "position": [
+      6.0,
+      2.9250001907348633,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Post.002",
+    "position": [
+      6.0,
+      4.150000095367432,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Post.003",
+    "position": [
+      6.0,
+      5.375,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Post.004",
+    "position": [
+      6.0,
+      6.600000381469727,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Post.005",
+    "position": [
+      6.0,
+      7.824999809265137,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Post.006",
+    "position": [
+      6.0,
+      9.050000190734863,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Post.007",
+    "position": [
+      6.0,
+      10.274999618530273,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Post.008",
+    "position": [
+      6.0,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Rail",
+    "position": [
+      6.0,
+      6.599999904632568,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_East_Exposure_Rail.001",
+    "position": [
+      6.0,
+      6.599999904632568,
+      1.100000023841858
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Floor",
+    "position": [
+      2.0,
+      3.5,
+      -0.15000000596046448
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Generator_Partition_End",
+    "position": [
+      5.900000095367432,
+      0.0,
+      1.8250000476837158
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Generator_Partition_Lintel",
+    "position": [
+      2.0,
+      0.0,
+      3.0250000953674316
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Generator_Partition_Lintel.001",
+    "position": [
+      5.199999809265137,
+      0.0,
+      3.0250000953674316
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Generator_Partition_Pier",
+    "position": [
+      -0.3499999940395355,
+      0.0,
+      1.8250000476837158
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_Generator_Partition_Pier.001",
+    "position": [
+      3.6500000953674316,
+      0.0,
+      1.8250000476837158
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_West_Apron_Guard",
+    "position": [
+      -2.0,
+      9.25,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_West_Apron_Post",
+    "position": [
+      -2.0,
+      7.0,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_West_Apron_Post.001",
+    "position": [
+      -2.0,
+      8.125,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_West_Apron_Post.002",
+    "position": [
+      -2.0,
+      9.25,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_West_Apron_Post.003",
+    "position": [
+      -2.0,
+      10.375,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_West_Apron_Post.004",
+    "position": [
+      -2.0,
+      11.5,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_West_Apron_Rail",
+    "position": [
+      -2.0,
+      9.25,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_West_Apron_Rail.001",
+    "position": [
+      -2.0,
+      9.25,
+      1.100000023841858
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Drive_West_End",
+    "position": [
+      -2.0,
+      3.5,
+      0.44999998807907104
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Open_Drive_Apron",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "Open_Drive_Apron_Collision",
+    "position": [
+      2.0,
+      9.25,
+      -0.04500000178813934
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Bearing_Housing",
+    "position": [
+      2.0999999046325684,
+      7.150000095367432,
+      1.0499999523162842
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Bearing_Pedestal",
+    "position": [
+      2.0999999046325684,
+      7.150000095367432,
+      0.5699999928474426
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Brake_Base_Plate",
+    "position": [
+      2.9600000381469727,
+      6.699999809265137,
+      0.16500000655651093
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Brake_Bracket",
+    "position": [
+      2.9600000381469727,
+      6.699999809265137,
+      0.550000011920929
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Brake_Caliper",
+    "position": [
+      2.9600000381469727,
+      6.699999809265137,
+      1.0299999713897705
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Brake_Concrete_Foot",
+    "position": [
+      2.9600000381469727,
+      6.699999809265137,
+      0.05999999865889549
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Drive_Nameplate",
+    "position": [
+      1.4700000286102295,
+      6.375999927520752,
+      0.9399999976158142
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cable",
+    "position": [
+      -0.2800000011920929,
+      6.269999980926514,
+      0.8450000286102295
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cast_Housing",
+    "position": [
+      -0.18000000715255737,
+      5.909999847412109,
+      0.8299999833106995
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin",
+    "position": [
+      -0.18000000715255737,
+      6.330999851226807,
+      0.8299999833106995
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.001",
+    "position": [
+      -0.18000000715255737,
+      6.305610656738281,
+      0.9739904999732971
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.002",
+    "position": [
+      -0.18000000715255737,
+      6.232504844665527,
+      1.1006135940551758
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.003",
+    "position": [
+      -0.18000000715255737,
+      6.120500087738037,
+      1.1945966482162476
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.004",
+    "position": [
+      -0.18000000715255737,
+      5.983105659484863,
+      1.2446041107177734
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.005",
+    "position": [
+      -0.18000000715255737,
+      5.8368940353393555,
+      1.2446041107177734
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.006",
+    "position": [
+      -0.18000000715255737,
+      5.69950008392334,
+      1.1945966482162476
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.007",
+    "position": [
+      -0.18000000715255737,
+      5.58749532699585,
+      1.1006135940551758
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.008",
+    "position": [
+      -0.18000000715255737,
+      5.514389514923096,
+      0.9739904999732971
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.009",
+    "position": [
+      -0.18000000715255737,
+      5.488999843597412,
+      0.8299999833106995
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.010",
+    "position": [
+      -0.18000000715255737,
+      5.514389514923096,
+      0.6860095262527466
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.011",
+    "position": [
+      -0.18000000715255737,
+      5.58749532699585,
+      0.5593864321708679
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.012",
+    "position": [
+      -0.18000000715255737,
+      5.69950008392334,
+      0.46540331840515137
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.013",
+    "position": [
+      -0.18000000715255737,
+      5.8368940353393555,
+      0.41539594531059265
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.014",
+    "position": [
+      -0.18000000715255737,
+      5.983105659484863,
+      0.41539594531059265
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.015",
+    "position": [
+      -0.18000000715255737,
+      6.120500087738037,
+      0.46540331840515137
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.016",
+    "position": [
+      -0.18000000715255737,
+      6.232504844665527,
+      0.5593864321708679
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cooling_Fin.017",
+    "position": [
+      -0.18000000715255737,
+      6.305610656738281,
+      0.6860095262527466
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Coupling",
+    "position": [
+      0.6899999976158142,
+      5.909999847412109,
+      0.8299999833106995
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cross_Mount",
+    "position": [
+      -0.5799999833106995,
+      6.065000057220459,
+      0.26499998569488525
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Cross_Mount.001",
+    "position": [
+      0.25,
+      6.065000057220459,
+      0.26499998569488525
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_End_Shield",
+    "position": [
+      -0.800000011920929,
+      5.909999847412109,
+      0.8299999833106995
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_End_Shield.001",
+    "position": [
+      0.44999998807907104,
+      5.909999847412109,
+      0.8299999833106995
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Foot",
+    "position": [
+      -0.5799999833106995,
+      5.519999980926514,
+      0.36000001430511475
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Foot.001",
+    "position": [
+      -0.5799999833106995,
+      6.300000190734863,
+      0.36000001430511475
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Foot.002",
+    "position": [
+      0.25,
+      5.519999980926514,
+      0.36000001430511475
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Foot.003",
+    "position": [
+      0.25,
+      6.300000190734863,
+      0.36000001430511475
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Motor_Terminal_Box",
+    "position": [
+      -0.2800000011920929,
+      5.909999847412109,
+      1.340000033378601
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Output_Bearing_Base",
+    "position": [
+      2.0999999046325684,
+      7.150000095367432,
+      0.25
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Output_Shaft",
+    "position": [
+      2.0999999046325684,
+      6.679999828338623,
+      1.0499999523162842
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Reducer_Housing",
+    "position": [
+      1.4700000286102295,
+      5.929999828338623,
+      0.75
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Reducer_Split_Flange",
+    "position": [
+      1.4700000286102295,
+      5.929999828338623,
+      0.7799999713897705
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Groove",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Hub",
+    "position": [
+      2.0999999046325684,
+      6.699999809265137,
+      1.0499999523162842
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Rim",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Rim.001",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Spoke",
+    "position": [
+      2.5799999237060547,
+      6.699999809265137,
+      1.0499999523162842
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Spoke.001",
+    "position": [
+      2.439411163330078,
+      6.699999809265137,
+      1.389411211013794
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Spoke.002",
+    "position": [
+      2.0999999046325684,
+      6.699999809265137,
+      1.5299999713897705
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Spoke.003",
+    "position": [
+      1.7605886459350586,
+      6.699999809265137,
+      1.389411211013794
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Spoke.004",
+    "position": [
+      1.6200000047683716,
+      6.699999809265137,
+      1.0499999523162842
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Spoke.005",
+    "position": [
+      1.7605886459350586,
+      6.699999809265137,
+      0.7105887532234192
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Spoke.006",
+    "position": [
+      2.0999999046325684,
+      6.699999809265137,
+      0.5699999928474426
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  },
+  {
+    "name": "R04_Wheel_Spoke.007",
+    "position": [
+      2.439411163330078,
+      6.699999809265137,
+      0.7105887532234192
+    ],
+    "collections": [
+      "04_Lower_Drive"
+    ]
+  }
+]

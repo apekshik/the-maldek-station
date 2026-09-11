@@ -1,0 +1,19 @@
+{
+  "roof_object": "WS_RoofPanel",
+  "bore_center": [
+    -35.2,
+    -5.3,
+    8.1
+  ],
+  "bore_radius": 0.13,
+  "retired_seam": "WS02_RoofSeam",
+  "new_flashing": "WS02_ExhaustRoofFlashing",
+  "package_geometry_modified": false,
+  "intentional_contacts": [
+    "WSE_Riser_standoff.003 embeds into the gable as a wall fixing.",
+    "WSE_Riser_standoff.004 seats in WS02_StandoffRoofSocket."
+  ],
+  "underflight_guard": "Extended eastern endpoint 1.8m; lower walking route runs around north perimeter.",
+  "flashing_top_z": 8.18,
+  "reason": "Low flashing clears the independent riser standoff; wall/socket fixings remain intentional buried contacts."
+}

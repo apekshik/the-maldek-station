@@ -1,0 +1,25 @@
+{
+  "ready": true,
+  "rotation_before_drag": [
+    0.200925812125206,
+    0.011666934005916119,
+    0.05775821954011917,
+    0.9778326749801636
+  ],
+  "location_before_drag": [
+    -40420.364621373206,
+    12638.850484240513,
+    9912.589721003493
+  ],
+  "phase": "<StationInspectionPhase.INSPECTING: 2>",
+  "previous_throttle": true,
+  "rotation_after_drag": [
+    0.07890379428863525,
+    -0.022787371650338173,
+    0.3850673735141754,
+    0.919226884841919
+  ],
+  "actual_mouse_drag_rotates": true,
+  "mouse_session_keeps_input_locked": true,
+  "mouse_session_return_restored": true
+}

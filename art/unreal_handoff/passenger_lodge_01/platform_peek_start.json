@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "location": [
+    -44166.905974972964,
+    18578.207549061975,
+    10398.499999254942
+  ],
+  "floor": "<Struct 'Vector' (0x0000017D07E4F210) {x: -44166.905975, y: 18578.207549, z: 10298.499999}>",
+  "floor_actor": "MIG_Lodge_Deck_025",
+  "rotation": "<Struct 'Rotator' (0x0000017D18D9FF80) {pitch: 0.000000, yaw: -24.943905, roll: 0.000000}>"
+}

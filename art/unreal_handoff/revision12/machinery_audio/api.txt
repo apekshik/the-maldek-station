@@ -1,0 +1,195 @@
+The settings for attenuating.
+
+**C++ Source:**
+
+- **Module**: Engine
+- **File**: SoundAttenuation.h
+
+**Editor Properties:** (see get_editor_property/set_editor_property)
+
+- ``absorption_method`` (AirAbsorptionMethod):  [Read-Write] What method to use to map distance values to frequency absorption values.
+- ``apply_normalization_to_stereo_sounds`` (bool):  [Read-Write] Enables applying a -6 dB attenuation to stereo assets which are 3d spatialized. Avoids clipping when assets have spread of 0.0 due to channel summing.
+- ``attenuate`` (bool):  [Read-Write] Allows distance-based volume attenuation.
+- ``attenuate_with_lpf`` (bool):  [Read-Write] Allows simulation of air absorption by applying a filter with a cutoff frequency as a function of distance.
+- ``attenuation_shape`` (AttenuationShape):  [Read-Write] The shape of the non-custom attenuation method.
+- ``attenuation_shape_extents`` (Vector):  [Read-Write] The dimensions to use for the attenuation shape. Interpretation of the values differ per shape.
+           Sphere  - X is Sphere Radius. Y and Z are unused
+           Capsule - X is Capsule Half Height, Y is Capsule Radius, Z is unused
+           Box     - X, Y, and Z are the Box's dimensions
+           Cone    - X is Cone Radius, Y is Cone Angle, Z is Cone Falloff Angle
+- ``audio_link_settings_override`` (AudioLinkSettingsAbstract):  [Read-Write] AudioLink Setting Overrides
+- ``binaural_radius`` (float):  [Read-Write] What min radius to use to swap to non-binaural audio when a sound starts playing.
+- ``cone_offset`` (float):  [Read-Write] The distance back from the sound's origin to begin the cone when using the cone attenuation shape.
+- ``cone_sphere_falloff_distance`` (float):  [Read-Write] The distance over which volume attenuation occurs for the optional sphere shape.
+- ``cone_sphere_radius`` (float):  [Read-Write] An optional attenuation radius (sphere) that extends from the cone origin.
+- ``custom_attenuation_curve`` (RuntimeFloatCurve):  [Read-Write] The custom volume attenuation curve to use. Value clamped at 1.0.
+- ``custom_highpass_air_absorption_curve`` (RuntimeFloatCurve):  [Read-Write] The normalized custom curve to use for the air absorption highpass frequency values. Does a mapping from defined distance values (x-axis) and defined frequency values (y-axis)
+- ``custom_lowpass_air_absorption_curve`` (RuntimeFloatCurve):  [Read-Write] The normalized custom curve to use for the air absorption lowpass frequency values. Does a mapping from defined distance values (x-axis) and defined frequency values (y-axis)
+- ``custom_priority_attenuation_curve`` (RuntimeFloatCurve):  [Read-Write] The custom curve to use for distance-based priority attenuation.
+- ``custom_reverb_send_curve`` (RuntimeFloatCurve):  [Read-Write] The custom reverb send curve to use for distance-based send level. Values clamped between 0.0 and 1.0.
+- ``d_b_attenuation_at_max`` (float):  [Read-Write] The attenuation volume at the falloff distance in decibels (Only for 'Natural Sound' Distance Algorithm).
+- ``distance_algorithm`` (AttenuationDistanceModel):  [Read-Write] The type of attenuation as a function of distance to use.
+- ``enable_focus_interpolation`` (bool):  [Read-Write] Enables focus interpolation to smooth transition in and and of focus.
+- ``enable_listener_focus`` (bool):  [Read-Write] Enable listener focus-based adjustments.
+- ``enable_log_frequency_scaling`` (bool):  [Read-Write] Enables applying a log scale to frequency values (so frequency sweeping is perceptually linear).
+- ``enable_occlusion`` (bool):  [Read-Write] Enables realtime occlusion tracing.
+- ``enable_priority_attenuation`` (bool):  [Read-Write] Enables attenuation of sound priority based off distance.
+- ``enable_reverb_send`` (bool):  [Read-Write] Enables adjusting reverb sends based on distance.
+- ``enable_send_to_audio_link`` (bool):  [Read-Write] Enables/Disables AudioLink on all sources using this attenuation
+- ``enable_source_data_override`` (bool):  [Read-Write] Enables overriding WaveInstance data using source data override plugin
+- ``enable_submix_sends`` (bool):  [Read-Write] Enables submix sends based on distance.
+- ``falloff_distance`` (float):  [Read-Write] The distance over which volume attenuation occurs.
+- ``falloff_mode`` (NaturalSoundFalloffMode):  [Read-Write] Whether to continue attenuating, go silent, or hold last volume value when beyond falloff bounds and
+  'Attenuation At Max (dB)' is set to a value greater than -60dB.
+  (Only for 'Natural Sound' Distance Algorithm). */
+- ``focus_attack_interp_speed`` (float):  [Read-Write] Scalar used to increase interpolation speed upwards to the target Focus value
+- ``focus_azimuth`` (float):  [Read-Write] Azimuth angle (in degrees) relative to the listener forward vector which defines the focus region of sounds. Sounds playing at an angle less than this will be in focus.
+- ``focus_distance_scale`` (float):  [Read-Write] Amount to scale the distance calculation of sounds that are in-focus. Can be used to make in-focus sounds appear to be closer or further away than they actually are.
+- ``focus_priority_scale`` (float):  [Read-Write] Amount to scale the priority of sounds that are in focus. Can be used to boost the priority of sounds that are in focus.
+- ``focus_release_interp_speed`` (float):  [Read-Write] Scalar used to increase interpolation speed downwards to the target Focus value
+- ``focus_volume_attenuation`` (float):  [Read-Write] Amount to attenuate sounds that are in focus. Can be overridden at the sound-level.
+- ``hpf_frequency_at_max`` (float):  [Read-Write] The range of the cutoff frequency (in Hz) of the highpass absorption filter.
+- ``hpf_frequency_at_min`` (float):  [Read-Write] The range of the cutoff frequency (in Hz) of the highpass absorption filter.
+- ``lpf_frequency_at_max`` (float):  [Read-Write] The range of the cutoff frequency (in Hz) of the lowpass absorption filter.
+- ``lpf_frequency_at_min`` (float):  [Read-Write] The range of the cutoff frequency (in Hz) of the lowpass absorption filter.
+- ``lpf_radius_max`` (float):  [Read-Write] The max distance range at which to apply an absorption LPF filter. Absorption freq cutoff interpolates between filter frequency ranges between these distance values.
+- ``lpf_radius_min`` (float):  [Read-Write] The distance min range at which to apply an absorption LPF filter.
+- ``manual_priority_attenuation`` (float):  [Read-Write] Static priority scalar to use (doesn't change as a function of distance).
+- ``manual_reverb_send_level`` (float):  [Read-Write] The manual master reverb send level to use. Doesn't change as a function of distance.
+- ``non_focus_azimuth`` (float):  [Read-Write] Azimuth angle (in degrees) relative to the listener forward vector which defines the non-focus region of sounds. Sounds playing at an angle greater than this will be out of focus.
+- ``non_focus_distance_scale`` (float):  [Read-Write] Amount to scale the distance calculation of sounds that are not in-focus. Can be used to make in-focus sounds appear to be closer or further away than they actually are.
+- ``non_focus_priority_scale`` (float):  [Read-Write] Amount to scale the priority of sounds that are not in-focus. Can be used to reduce the priority of sounds that are not in focus.
+- ``non_focus_volume_attenuation`` (float):  [Read-Write] Amount to attenuate sounds that are not in focus. Can be overridden at the sound-level.
+- ``non_spatialized_radius_end`` (float):  [Read-Write] The distance below which a sound is fully non-spatialized (2D). See "Non Spatialized Radius Start" to define the start of the interpolation and the "Non Spatialized Radius Mode" for the mode of the interpolation.
+- ``non_spatialized_radius_mode`` (NonSpatializedRadiusSpeakerMapMode):  [Read-Write] Defines how to interpolate a 3D sound towards a 2D sound when using the non-spatialized radius start and end properties.
+- ``non_spatialized_radius_start`` (float):  [Read-Write] The distance below which a sound begins to linearly interpolate towards being non-spatialized (2D). See "Non Spatialized Radius End" to define the end of the interpolation and the "Non Spatialized Radius Mode" for the mode of the interpolation. Note: this does not apply when using a 3rd party binaural plugin (audio will remain spatialized).
+- ``occlusion_interpolation_time`` (float):  [Read-Write] The amount of time in seconds to interpolate to the target OcclusionLowPassFilterFrequency when a sound is occluded.
+- ``occlusion_low_pass_filter_frequency`` (float):  [Read-Write] The low pass filter frequency (in Hz) to apply if the sound playing in this audio component is occluded. This will override the frequency set in LowPassFilterFrequency. A frequency of 0.0 is the device sample rate and will bypass the filter.
+- ``occlusion_trace_channel`` (CollisionChannel):  [Read-Write] Which trace channel to use for audio occlusion checks.
+- ``occlusion_volume_attenuation`` (float):  [Read-Write] The amount of volume attenuation to apply to sounds which are occluded.
+- ``plugin_settings`` (SoundAttenuationPluginSettings):  [Read-Write] Sound attenuation plugin settings to use with sounds that play with this attenuation setting.
+- ``priority_attenuation_distance_max`` (float):  [Read-Write] The max distance to attenuate priority.
+- ``priority_attenuation_distance_min`` (float):  [Read-Write] The min distance to attenuate priority.
+- ``priority_attenuation_max`` (float):  [Read-Write] Interpolated value to scale priority against when the sound is at the maximum priority attenuation distance from the closest listener.
+- ``priority_attenuation_method`` (PriorityAttenuationMethod):  [Read-Write] What method to use to control priority attenuation
+- ``priority_attenuation_min`` (float):  [Read-Write] Interpolated value to scale priority against when the sound is at the minimum priority attenuation distance from the closest listener.
+- ``reverb_distance_max`` (float):  [Read-Write] The max distance to send to the master reverb.
+- ``reverb_distance_min`` (float):  [Read-Write] The min distance to send to the master reverb.
+- ``reverb_send_method`` (ReverbSendMethod):  [Read-Write] What method to use to control master reverb sends
+- ``reverb_wet_level_max`` (float):  [Read-Write] The amount to send to master reverb when sound is located at a distance equal to value specified in the reverb max send distance.
+- ``reverb_wet_level_min`` (float):  [Read-Write] The amount to send to master reverb when sound is located at a distance equal to value specified in the reverb min send distance.
+- ``spatialization_algorithm`` (SoundSpatializationAlgorithm):  [Read-Write] What method we use to spatialize the sound.
+- ``spatialize`` (bool):  [Read-Write] Allows the source to be 3D spatialized.
+- ``stereo_spread`` (float):  [Read-Write] The world-space distance between left and right stereo channels when stereo assets are 3D spatialized.
+- ``submix_send_settings`` (Array[AttenuationSubmixSendSettings]):  [Read-Write] Set of submix send settings to use to send audio to submixes as a function of distance.
+- ``use_complex_collision_for_occlusion`` (bool):  [Read-Write] Enables tracing against complex collision when doing occlusion traces.
+AudioComponent is used to play a Sound
+see: https://docs.unrealengine.com/WorkingWithAudio/Overview
+see: USoundBase
+
+**C++ Source:**
+
+- **Module**: Engine
+- **File**: AudioComponent.h
+
+**Editor Properties:** (see get_editor_property/set_editor_property)
+
+- ``absolute_location`` (bool):  [Read-Write] If RelativeLocation should be considered relative to the world, rather than the parent
+- ``absolute_rotation`` (bool):  [Read-Write] If RelativeRotation should be considered relative to the world, rather than the parent
+- ``absolute_scale`` (bool):  [Read-Write] If RelativeScale3D should be considered relative to the world, rather than the parent
+- ``allow_spatialization`` (bool):  [Read-Write] Overrides spatialization enablement in either the attenuation asset or on this audio component's attenuation settings override.
+- ``asset_user_data`` (Array[AssetUserData]):  [Read-Write] Array of user data stored with the component
+- ``asset_user_data_editor_only`` (Array[AssetUserData]):  [Read-Write] Array of user data stored with the component
+- ``attenuation_overrides`` (SoundAttenuationSettings):  [Read-Write] If bOverrideSettings is true, the attenuation properties to use for sounds generated by this component
+- ``attenuation_settings`` (SoundAttenuation):  [Read-Write] If bOverrideSettings is false, the asset to use to determine attenuation properties for sounds generated by this component
+- ``auto_activate`` (bool):  [Read-Write] Whether the component is activated at creation or must be explicitly activated.
+- ``auto_attach_location_rule`` (AttachmentRule):  [Read-Write] Options for how we handle our location when we attach to the AutoAttachParent, if bAutoManageAttachment is true.
+  see: bAutoManageAttachment, EAttachmentRule
+- ``auto_attach_parent`` (SceneComponent):  [Read-Only] Component we automatically attach to when activated, if bAutoManageAttachment is true.
+  If null during registration, we assign the existing AttachParent and defer attachment until we activate.
+  see: bAutoManageAttachment
+- ``auto_attach_rotation_rule`` (AttachmentRule):  [Read-Write] Options for how we handle our rotation when we attach to the AutoAttachParent, if bAutoManageAttachment is true.
+  see: bAutoManageAttachment, EAttachmentRule
+- ``auto_attach_scale_rule`` (AttachmentRule):  [Read-Write] Options for how we handle our scale when we attach to the AutoAttachParent, if bAutoManageAttachment is true.
+  see: bAutoManageAttachment, EAttachmentRule
+- ``auto_attach_socket_name`` (Name):  [Read-Write] Socket we automatically attach to on the AutoAttachParent, if bAutoManageAttachment is true.
+  see: bAutoManageAttachment
+- ``auto_manage_attachment`` (bool):  [Read-Write] True if we should automatically attach to AutoAttachParent when Played, and detach from our parent when playback is completed.
+  This overrides any current attachment that may be present at the time of activation (deferring initial attachment until activation, if AutoAttachParent is null).
+  If enabled, this AudioComponent's WorldLocation will no longer be reliable when not currently playing audio, and any attach children will also be
+  detached/attached along with it.
+  When enabled, detachment occurs regardless of whether AutoAttachParent is assigned, and the relative transform from the time of activation is restored.
+  This also disables attachment on dedicated servers, where we don't actually activate even if bAutoActivate is true.
+  see: AutoAttachParent, AutoAttachSocketName, AutoAttachLocationType
+- ``can_ever_affect_navigation`` (bool):  [Read-Write] Whether this component can potentially influence navigation
+- ``can_play_multiple_instances`` (bool):  [Read-Write] If true, the Audio Component will play multiple sound instances at once. Switching sounds or calling play while already playing
+  will not stop already active instances. Virtualization for all played sounds will be disabled. Disabling while sound(s) are playing
+  will not take effect until the AudioComponent is stopped and restarted.
+- ``component_tags`` (Array[Name]):  [Read-Write] Array of tags that can be used for grouping and categorizing. Can also be accessed from scripting.
+- ``concurrency_set`` (Set[SoundConcurrency]):  [Read-Write] What sound concurrency rules to use for sounds generated by this audio component
+- ``default_parameters`` (Array[AudioParameter]):  [Read-Write] Array of parameters for this AudioComponent. Changes to this array directly will
+  not be forwarded to the sound if the component is actively playing, and will be superseded
+  by parameters set via the actor interface if set, or the instance parameters.
+- ``detail_mode`` (DetailMode):  [Read-Write] Set the required detail level of this component.
+  It will be deleted or made invisible if the world's detail level is higher, based on platform and scalability settings.
+  For example, a detail mode of High may prevent this component from loading on mobile platforms.
+- ``disable_parameter_updates_while_playing`` (bool):  [Read-Write] If true, the Audio Component will ignore parameter updates for already-playing sound(s).
+- ``editable_when_inherited`` (bool):  [Read-Write] True if this component can be modified when it was inherited from a parent actor class
+- ``enable_high_pass_filter`` (bool):  [Read-Write] Whether or not to apply a low-pass filter to the sound that plays in this audio component.
+- ``enable_low_pass_filter`` (bool):  [Read-Write] Whether or not to apply a low-pass filter to the sound that plays in this audio component.
+- ``envelope_follower_attack_time`` (int32):  [Read-Write] The attack time in milliseconds for the envelope follower. Delegate callbacks can be registered to get the
+  envelope value of sounds played with this audio component.
+- ``envelope_follower_release_time`` (int32):  [Read-Write] The release time in milliseconds for the envelope follower. Delegate callbacks can be registered to get the
+  envelope value of sounds played with this audio component.
+- ``hidden_in_game`` (bool):  [Read-Write] Whether to hide the primitive in game, if the primitive is Visible.
+- ``high_pass_filter_frequency`` (float):  [Read-Write] If enabled, the frequency of the Highpass Filter (in Hz) to apply to this voice. A frequency of 0.0 is the device sample rate and will bypass the filter.
+- ``is_editor_only`` (bool):  [Read-Write] If true, the component will be excluded from non-editor builds
+- ``is_ui_sound`` (bool):  [Read-Write] Whether or not this sound plays when the game is paused in the UI
+- ``low_pass_filter_frequency`` (float):  [Read-Write] If enabled, the frequency of the Lowpass Filter (in Hz) to apply to this voice. A frequency of 0.0 is the device sample rate and will bypass the filter.
+- ``mobility`` (ComponentMobility):  [Read-Write] How often this component is allowed to move, used to make various optimizations. Only safe to set in constructor.
+- ``modulation_routing`` (SoundModulationDefaultRoutingSettings):  [Read-Write]
+- ``occlusion_check_interval`` (float):  [Read-Write] The interval at which to re-test occlusion (in seconds).  Values < 0.f will only check occlusion once when we start playback
+- ``on_audio_finished`` (OnAudioFinished):  [Read-Write] Called when we finish playing audio, either because it played to completion or because a Stop() call turned it off early
+- ``on_audio_multi_envelope_value`` (OnAudioMultiEnvelopeValue):  [Read-Write]
+- ``on_audio_play_state_changed`` (OnAudioPlayStateChanged):  [Read-Write] This function returns the Targeted Audio Component's current Play State.
+  Playing, if the sound is currently playing.
+  Stopped, if the sound is stopped.
+  Paused, if the sound is currently playing, but paused.
+  Fading In, if the sound is in the process of Fading In.
+  Fading Out, if the sound is in the process of Fading Out.
+- ``on_audio_playback_percent`` (OnAudioPlaybackPercent):  [Read-Write] Called as a sound plays on the audio component to allow BP to perform actions based on playback percentage.
+  Computed as samples played divided by total samples, taking into account pitch.
+  Not currently implemented on all platforms.
+- ``on_audio_single_envelope_value`` (OnAudioSingleEnvelopeValue):  [Read-Write]
+- ``on_audio_virtualization_changed`` (OnAudioVirtualizationChanged):  [Read-Write] Called when virtualization state changes
+- ``on_component_activated`` (ActorComponentActivatedSignature):  [Read-Write] Called when the component has been activated, with parameter indicating if it was from a reset
+- ``on_component_deactivated`` (ActorComponentDeactivateSignature):  [Read-Write] Called when the component has been deactivated
+- ``override_attenuation`` (bool):  [Read-Write] Allows defining attenuation settings directly on this audio component without using an attenuation settings asset.
+- ``override_priority`` (bool):  [Read-Write] Whether or not to override the priority of the given sound with the value provided.
+- ``override_subtitle_priority`` (bool):  [Read-Write] Whether or not to override the sound's subtitle priority.
+- ``physics_volume_changed_delegate`` (PhysicsVolumeChanged):  [Read-Write] Delegate that will be called when PhysicsVolume has been changed *
+- ``pitch_modulation_max`` (float):  [Read-Write] The upper bound to use when randomly determining a pitch multiplier
+- ``pitch_modulation_min`` (float):  [Read-Write] The lower bound to use when randomly determining a pitch multiplier
+- ``pitch_multiplier`` (float):  [Read-Write] A pitch multiplier to apply to sounds generated by this component
+- ``primary_component_tick`` (ActorComponentTickFunction):  [Read-Write] Main tick function for the Component
+- ``priority`` (float):  [Read-Write] If enabled, overrides the priority of the selected sound with the value provided.
+- ``relative_location`` (Vector):  [Read-Write] Location of the component relative to its parent
+- ``relative_rotation`` (Rotator):  [Read-Write] Rotation of the component relative to its parent
+- ``relative_scale3d`` (Vector):  [Read-Write] Non-uniform scaling of the component relative to its parent.
+  Note that scaling is always applied in local space (no shearing etc)
+- ``replicate_using_registered_sub_object_list`` (bool):  [Read-Write] When true the replication system will only replicate the registered subobjects list
+  When false the replication system will instead call the virtual ReplicateSubObjects() function where the subobjects need to be manually replicated.
+- ``replicates`` (bool):  [Read-Write] Is this component currently replicating? Should the network code consider it for replication? Owning Actor must be replicating first!
+- ``should_update_physics_volume`` (bool):  [Read-Write] Whether or not the cached PhysicsVolume this component overlaps should be updated when the component is moved.
+  see: GetPhysicsVolume()
+- ``sound`` (SoundBase):  [Read-Write] The sound to be played
+- ``sound_class_override`` (SoundClass):  [Read-Write] SoundClass that overrides that set on the referenced SoundBase when component is played.
+- ``source_effect_chain`` (SoundEffectSourcePresetChain):  [Read-Write] The chain of Source Effects to apply to the sounds playing on the Audio Component
+- ``subtitle_priority`` (float):  [Read-Write] Used by the subtitle manager to prioritize subtitles wave instances spawned by this component.
+- ``suppress_subtitles`` (bool):  [Read-Write] If true, subtitles in the sound data will be ignored.
+- ``use_attach_parent_bound`` (bool):  [Read-Write] If true, this component uses its parents bounds when attached.
+  This can be a significant optimization with many components attached together.
+- ``visible`` (bool):  [Read-Write] Whether to completely draw the primitive; if false, the primitive is not drawn, does not cast a shadow.
+- ``volume_modulation_max`` (float):  [Read-Write] The upper bound to use when randomly determining a volume multiplier
+- ``volume_modulation_min`` (float):  [Read-Write] The lower bound to use when randomly determining a volume multiplier
+- ``volume_multiplier`` (float):  [Read-Write] A volume multiplier to apply to sounds generated by this component

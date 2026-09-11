@@ -1,0 +1,14 @@
+{
+  "phase": 3,
+  "next": 449735.203,
+  "deadline": 449815.703,
+  "checks": {
+    "entered": true,
+    "torch_attached_to_closeup": true,
+    "left_from_face_95": true
+  },
+  "beam_intensity": 1.252500057220459,
+  "beam_cone": 25.950000762939453,
+  "success": false,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\scripts\\peek_beam_runtime.py\", line 44, in tick\n    width,height=pc.get_viewport_size();pointer=(mouse[0]+width*.2,mouse[1]-height*.15);unreal.StationMigrationLibrary.send_pie_mouse_position(*pointer)\n                                                 ~~~~~^^^\nTypeError: 'NoneType' object is not subscriptable\n"
+}

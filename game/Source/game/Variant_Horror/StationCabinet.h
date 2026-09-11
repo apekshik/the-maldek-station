@@ -7,6 +7,7 @@ class UBoxComponent;
 class UWidgetComponent;
 class UAudioComponent;
 class USoundBase;
+class UMaterialInterface;
 class SWidget;
 class STextBlock;
 
@@ -17,6 +18,7 @@ class GAME_API AStationCabinet : public AActor
  GENERATED_BODY()
 public:
  AStationCabinet();
+ virtual void BeginPlay() override;
  virtual void OnConstruction(const FTransform& Transform) override;
  virtual void Tick(float DeltaSeconds) override;
  UFUNCTION(BlueprintCallable) bool TryInteract();
@@ -44,6 +46,7 @@ public:
  UPROPERTY(EditAnywhere,BlueprintReadWrite) TArray<TObjectPtr<USoundBase>> OpeningTakes;
  UPROPERTY(EditAnywhere,BlueprintReadWrite) TArray<TObjectPtr<USoundBase>> ClosingTakes;
 private:
+ UPROPERTY() TObjectPtr<UMaterialInterface> InteractionPromptMaterial;
  TWeakObjectPtr<USoundBase> LastOpeningTake,LastClosingTake;
  UPROPERTY(Transient) TArray<TObjectPtr<UBoxComponent>> Boxes;
  TSharedPtr<SWidget> HintWidget;

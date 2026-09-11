@@ -1,0 +1,74 @@
+{
+  "error": null,
+  "results": [
+    {
+      "name": "MIG_WS_WSE_Battery_lid_hinge",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSE_Distribution_hinge",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSE_Door_hinge_N",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSE_Door_hinge_S",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSE_Engine_cover_hinge",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSP_Clerk_drawer_slide",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSP_Door_hinge",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSP_Secure_door_hinge",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSP_Secure_tray_1_slide",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSP_Secure_tray_2_slide",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSP_Secure_tray_3_slide",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSP_Shutter_0_hinge",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSP_Shutter_1_hinge",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSR_Blanket_cupboard_HINGE",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSR_Door_Active_HINGE",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSR_Door_Passive_HINGE",
+      "focus_and_E_open_close": true
+    },
+    {
+      "name": "MIG_WS_WSR_First_aid_HINGE",
+      "focus_and_E_open_close": true
+    }
+  ],
+  "passed": true
+}

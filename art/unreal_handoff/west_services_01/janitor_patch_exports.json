@@ -1,0 +1,23 @@
+[
+  {
+    "old": "SM_Lodge_Shell_005",
+    "new": "SM_WS_Lodge_Shell_005",
+    "materials": [
+      "PLSH_Painted_Plaster"
+    ],
+    "old_materials": [
+      "PLSH_Painted_Plaster",
+      "VF06_Petrol_paint"
+    ],
+    "retired": [
+      "FIT_Cleaning_cupboard"
+    ],
+    "preserved": [
+      "FIT_East_0_0",
+      "FIT_Hall_south_WC_0_0",
+      "FIT_Hall_south_WC_1_2.3",
+      "FIT_Hall_south_WC_2_0",
+      "FIT_Full_height_privacy_screen"
+    ]
+  }
+]

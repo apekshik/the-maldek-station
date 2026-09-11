@@ -1,0 +1,405 @@
+{
+  "actors": [
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__9_0",
+      "bounds_error_cm": 4.57763671875e-05,
+      "source_count": 3,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__8_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__8_0",
+      "bounds_error_cm": 4.38690185546875e-05,
+      "source_count": 21,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__9__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__9__2",
+      "bounds_error_cm": 3.814697265625e-05,
+      "source_count": 2,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__9_1",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 21,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__10__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__10__2",
+      "bounds_error_cm": 3.814697265625e-05,
+      "source_count": 7,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__10__1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__10__1",
+      "bounds_error_cm": 4.57763671875e-05,
+      "source_count": 14,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__10_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__10_0",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 9,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__10_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__10_1",
+      "bounds_error_cm": 4.9591064453125e-05,
+      "source_count": 14,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__8__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__8__2",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 13,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__8__1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__8__1",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 11,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__8_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__8_1",
+      "bounds_error_cm": 3.719329833984375e-05,
+      "source_count": 26,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__8__4",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__8__4",
+      "bounds_error_cm": 3.4332275390625e-05,
+      "source_count": 18,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__8__3",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__8__3",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 11,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__8_2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__8_2",
+      "bounds_error_cm": 2.47955322265625e-05,
+      "source_count": 7,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__9_2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__9_2",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 6,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_STRUCTURE__10_2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_STRUCTURE__10_2",
+      "bounds_error_cm": 2.6702880859375e-05,
+      "source_count": 1,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__10_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__10_0",
+      "bounds_error_cm": 4.57763671875e-05,
+      "source_count": 9,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__8_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__8_0",
+      "bounds_error_cm": 4.57763671875e-05,
+      "source_count": 9,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__8__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__8__2",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 4,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__8_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__8_1",
+      "bounds_error_cm": 2.288818359375e-05,
+      "source_count": 6,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__9_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__9_0",
+      "bounds_error_cm": 5.340576171875e-05,
+      "source_count": 2,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__9__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__9__2",
+      "bounds_error_cm": 4.9591064453125e-05,
+      "source_count": 5,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__9_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__9_1",
+      "bounds_error_cm": 3.814697265625e-05,
+      "source_count": 2,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__10__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__10__2",
+      "bounds_error_cm": 4.1961669921875e-05,
+      "source_count": 3,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__10__1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__10__1",
+      "bounds_error_cm": 5.435943603515625e-05,
+      "source_count": 7,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__8__1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__8__1",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 7,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS_SHARED_ROOF__10_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS_SHARED_ROOF__10_1",
+      "bounds_error_cm": 2.288818359375e-05,
+      "source_count": 5,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__10_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__10_0",
+      "bounds_error_cm": 9.1552734375e-05,
+      "source_count": 1,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__9__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__9__2",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 8,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__8_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__8_0",
+      "bounds_error_cm": 9.1552734375e-05,
+      "source_count": 11,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__9_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__9_1",
+      "bounds_error_cm": 6.103515625e-05,
+      "source_count": 7,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__11_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__11_0",
+      "bounds_error_cm": 8.392333984375e-05,
+      "source_count": 10,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__11__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__11__2",
+      "bounds_error_cm": 4.57763671875e-05,
+      "source_count": 9,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__11__1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__11__1",
+      "bounds_error_cm": 4.291534423828125e-05,
+      "source_count": 7,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__11_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__11_1",
+      "bounds_error_cm": 4.1961669921875e-05,
+      "source_count": 6,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__11_2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__11_2",
+      "bounds_error_cm": 0.000152587890625,
+      "source_count": 7,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__9_2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__9_2",
+      "bounds_error_cm": 4.57763671875e-05,
+      "source_count": 13,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__10_2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__10_2",
+      "bounds_error_cm": 4.1961669921875e-05,
+      "source_count": 8,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__8_2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__8_2",
+      "bounds_error_cm": 9.1552734375e-05,
+      "source_count": 11,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__8_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__8_1",
+      "bounds_error_cm": 4.1961669921875e-05,
+      "source_count": 6,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__8__1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__8__1",
+      "bounds_error_cm": 3.337860107421875e-05,
+      "source_count": 7,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__8__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__8__2",
+      "bounds_error_cm": 1.52587890625e-05,
+      "source_count": 13,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__10__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__10__2",
+      "bounds_error_cm": 3.4332275390625e-05,
+      "source_count": 6,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_WRAP_PLATFORM__10_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_WRAP_PLATFORM__10_1",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 2,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_STORAGE_CLUTTER__10__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_STORAGE_CLUTTER__10__2",
+      "bounds_error_cm": 4.38690185546875e-05,
+      "source_count": 37,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_STORAGE_CLUTTER__9__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_STORAGE_CLUTTER__9__2",
+      "bounds_error_cm": 2.288818359375e-05,
+      "source_count": 18,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_STORAGE_CLUTTER__8_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_STORAGE_CLUTTER__8_0",
+      "bounds_error_cm": 3.814697265625e-05,
+      "source_count": 7,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_STORAGE_CLUTTER__8_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_STORAGE_CLUTTER__8_1",
+      "bounds_error_cm": 7.62939453125e-06,
+      "source_count": 3,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_STORAGE_CLUTTER__9_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_STORAGE_CLUTTER__9_1",
+      "bounds_error_cm": 3.4332275390625e-05,
+      "source_count": 1,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_SHARED_FINISH__10__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_SHARED_FINISH__10__2",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 9,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_SHARED_FINISH__10__1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_SHARED_FINISH__10__1",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 16,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_SHARED_FINISH__10_0",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_SHARED_FINISH__10_0",
+      "bounds_error_cm": 4.57763671875e-05,
+      "source_count": 18,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_SHARED_FINISH__10_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_SHARED_FINISH__10_1",
+      "bounds_error_cm": 3.62396240234375e-05,
+      "source_count": 8,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_SHARED_FINISH__9__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_SHARED_FINISH__9__2",
+      "bounds_error_cm": 3.0517578125e-05,
+      "source_count": 17,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_SHARED_FINISH__8__2",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_SHARED_FINISH__8__2",
+      "bounds_error_cm": 2.6226043701171875e-05,
+      "source_count": 1,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_SHARED_FINISH__9_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_SHARED_FINISH__9_1",
+      "bounds_error_cm": 3.62396240234375e-05,
+      "source_count": 17,
+      "control": false
+    },
+    {
+      "actor": "MIG_WS_WS02_SHARED_FINISH__8_1",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WS02_SHARED_FINISH__8_1",
+      "bounds_error_cm": 1.1444091796875e-05,
+      "source_count": 1,
+      "control": false
+    }
+  ],
+  "source_sha256": "d4c5a3a7b4848dcd7221f9c5662e55d591002a7a777435cd510741c1aca2c8ab",
+  "shader_errors": []
+}

@@ -1,0 +1,182 @@
+{
+  "phase": 1,
+  "next": 453209.881,
+  "index": 17,
+  "results": [
+    {
+      "name": "MIG_WS_WSE_Battery_lid_hinge",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSE_Distribution_hinge",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSE_Door_hinge_N",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSE_Door_hinge_S",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSE_Engine_cover_hinge",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSP_Clerk_drawer_slide",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSP_Door_hinge",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSP_Secure_door_hinge",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSP_Secure_tray_1_slide",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSP_Secure_tray_2_slide",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSP_Secure_tray_3_slide",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSP_Shutter_0_hinge",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSP_Shutter_1_hinge",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSR_Blanket_cupboard_HINGE",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSR_Door_Active_HINGE",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSR_Door_Passive_HINGE",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    },
+    {
+      "name": "MIG_WS_WSR_First_aid_HINGE",
+      "open": true,
+      "fraction": 1.0,
+      "obstructed": false,
+      "closed_fraction": 0.0,
+      "closed_obstructed": false,
+      "closed": true
+    }
+  ],
+  "deadline": 453368.218,
+  "names": [
+    "MIG_WS_WSE_Battery_lid_hinge",
+    "MIG_WS_WSE_Distribution_hinge",
+    "MIG_WS_WSE_Door_hinge_N",
+    "MIG_WS_WSE_Door_hinge_S",
+    "MIG_WS_WSE_Engine_cover_hinge",
+    "MIG_WS_WSP_Clerk_drawer_slide",
+    "MIG_WS_WSP_Door_hinge",
+    "MIG_WS_WSP_Secure_door_hinge",
+    "MIG_WS_WSP_Secure_tray_1_slide",
+    "MIG_WS_WSP_Secure_tray_2_slide",
+    "MIG_WS_WSP_Secure_tray_3_slide",
+    "MIG_WS_WSP_Shutter_0_hinge",
+    "MIG_WS_WSP_Shutter_1_hinge",
+    "MIG_WS_WSR_Blanket_cupboard_HINGE",
+    "MIG_WS_WSR_Door_Active_HINGE",
+    "MIG_WS_WSR_Door_Passive_HINGE",
+    "MIG_WS_WSR_First_aid_HINGE"
+  ],
+  "error": null,
+  "passed": true
+}

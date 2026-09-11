@@ -1,0 +1,8 @@
+import unreal,json
+from pathlib import Path
+P=Path(__file__).resolve().parents[1];o=json.loads((P/'baseline.json').read_text())['origin'];aa=unreal.get_editor_subsystem(unreal.EditorActorSubsystem);actors=aa.get_all_level_actors();by={a.get_actor_label():a for a in actors};w=unreal.get_editor_subsystem(unreal.UnrealEditorSubsystem).get_editor_world();assert w.get_name()=='Station_Lodge_Migration';fol=by['InstancedFoliageActor0'];native=dict(unreal.StationMigrationLibrary.get_foliage_instance_transforms(fol));terrain=[by[n] for n in ['Landscape0','VF10_Parking_Terrain','VF10_Parking_Ground']];ignore=[a for a in actors if a not in terrain]
+def wp(x,y,z):return unreal.Vector(o[0]-100*x,o[1]+100*y,o[2]+100*z)
+moves=[]
+for i,r in enumerate(json.loads((P/'foliage_conflicts.json').read_text())):
+ assert r['actor']=='InstancedFoliageActor0';old=unreal.Vector(*r['world']);matches=[k for k,t in native.items() if (t.translation-old).length()<.1];assert len(matches)==1;key=matches[0];x=-41.8-(i%3)*.6;y=-6+i*1.1;h=unreal.SystemLibrary.line_trace_single(w,wp(x,y,30),wp(x,y,-80),unreal.TraceTypeQuery.TRACE_TYPE_QUERY1,True,ignore,unreal.DrawDebugTrace.NONE,True);assert h and h.to_tuple()[0];p=wp(x,y,0);p.z=h.to_tuple()[5].z-6;typ,idx=key.rsplit('|',1);assert unreal.StationMigrationLibrary.move_r12_foliage_instance(fol,typ,int(idx),old,p);moves.append({'key':key,'before':r['world'],'after':[p.x,p.y,p.z]})
+assert unreal.get_editor_subsystem(unreal.LevelEditorSubsystem).save_current_level();(P/'foliage_clearance_repair.json').write_text(json.dumps(moves,indent=2));RESULT={'moved':len(moves)}

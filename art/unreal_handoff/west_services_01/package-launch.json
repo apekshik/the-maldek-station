@@ -1,0 +1,10 @@
+{
+  "build_succeeded": true,
+  "executable": "game/Saved/WestServicesPackage/Windows/game.exe",
+  "normal_menu_loaded": true,
+  "station_travel_verified": true,
+  "standalone_interactions_verified": false,
+  "status": "station_loaded",
+  "reason": "Cabinet prompt material initialization moved from constructor to BeginPlay; packaged Begin shift loaded the expanded map and released the opening.",
+  "log": "package-launch-after-fix.log"
+}

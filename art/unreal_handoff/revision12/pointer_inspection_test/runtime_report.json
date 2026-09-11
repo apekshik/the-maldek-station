@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "horror_controller_component": true,
+    "saved_parking_cassette_exists": true,
+    "wall_blocks_pickup": true,
+    "focus_detected": true,
+    "click_enters_inspection": true,
+    "move_and_look_locked": true,
+    "physical_object_lifted": true,
+    "held_collision_disabled": true,
+    "drag_between_ticks_rotates": true,
+    "raw_rotation_input": true,
+    "raw_scroll_zooms": true,
+    "scroll_does_not_change_flashlight": true,
+    "near_zoom_clamped": true,
+    "far_zoom_clamped": true,
+    "R_restores_pose": true,
+    "E_returns_to_idle": true,
+    "original_transform_restored": true,
+    "collision_restored": true,
+    "input_and_camera_restored": true,
+    "repeat_pickup_0": true,
+    "repeat_return_0": true,
+    "repeat_pickup_1": true,
+    "repeat_return_1": true,
+    "repeat_pickup_2": true,
+    "repeat_return_2": true,
+    "external_lock_preserved": true,
+    "pickup_cancel_restores": true,
+    "destroyed_prop_releases_player": true,
+    "teleport_cancels_inspection": true,
+    "door_system_still_present": true
+  },
+  "busy": false,
+  "next": 356757.921,
+  "deadline": 356966.25,
+  "rotation_diagnostics": {
+    "phase": "<StationInspectionPhase.INSPECTING: 2>",
+    "before": [
+      0.1964101493358612,
+      -0.006354654673486948,
+      -0.030307818204164505,
+      0.9800326824188232
+    ],
+    "after": [
+      0.18223987519741058,
+      -0.07352522760629654,
+      0.30863896012306213,
+      0.9306581616401672
+    ]
+  },
+  "success": true,
+  "error": null
+}

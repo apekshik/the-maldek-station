@@ -8,6 +8,7 @@
 
 class UInputMappingContext;
 class UHorrorUI;
+class UStationInspectionComponent;
 
 /**
  *  Player Controller for a first person horror game
@@ -33,6 +34,11 @@ public:
 
 	/** Constructor */
 	AHorrorPlayerController();
+	virtual bool InputKey(const FInputKeyEventArgs& Params) override;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Inspection")
+	TObjectPtr<UStationInspectionComponent> ObjectInspection;
+	UFUNCTION(Exec) void StationInspectionDemo();
 
 	/** Development shortcut to the placed door-testing checkpoint. */
 	UFUNCTION(Exec) void StationDoorCheckpoint();
@@ -63,6 +69,7 @@ protected:
 
 	/** Possessed pawn initialization */
 	virtual void OnPossess(APawn* aPawn) override;
+	virtual void OnUnPossess() override;
 
 	/** Input mapping context setup */
 	virtual void SetupInputComponent() override;

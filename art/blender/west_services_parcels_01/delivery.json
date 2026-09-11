@@ -1,0 +1,128 @@
+{
+  "asset_blend": "Maldek_Parcels_Office.blend",
+  "asset_sha256": "39ce3c95a37cf7df83fee42f3aaefa1092666353bf6a4f9695217b43f8d334ff",
+  "fitted_review_blend": "Maldek_Parcels_Fitted_Review.blend",
+  "fitted_sha256": "2ce4dbbe808e0baf5622ff13358d1c4a8b1d788dcac3fe862e6bfa494bcf8c45",
+  "immutable_master_sha256": "54bb3f1e54a6c84ebd1b90c5664e6e7b328be6e6139bac0f6fd9f49ea630b6aa",
+  "verification_passed": true,
+  "geometry_meshes": 332,
+  "images": [
+    {
+      "file": "previews\\01_porch_closed.png",
+      "sha256": "adf4683f75ff1cb7d05324a7d34cf7b72a41eb2c879861949e567b512b60d4af",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\02_door_open.png",
+      "sha256": "0b090ffb02becc69af28f9f54c6bfc11221a07df7aef09c2268abc5eeb2de31b",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\03_rear_shelves.png",
+      "sha256": "fcbcee30763e99435462e881cd27a41f28b6ec1f485af66d4c409c11f008ad37",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\04_counter_reverse.png",
+      "sha256": "bbcec159bd86137aff836e10a495ffdf318a7e7d281d556c47956d9a52290191",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\05_tag_station.png",
+      "sha256": "16088dd7c98ff11a9e9fdf9f514d1dcaa9fa7a4828af92c8530bac6cac632501",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\06_secure_closed.png",
+      "sha256": "be7c0496b7e35b867f278c71bc6517ca9154bc852bfc0c731319020abc658462",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\07_secure_open.png",
+      "sha256": "ac84614f1e1f006f0fec3fbd8a07617973b531d6121736f5ab265716825930fb",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\08_window_closed.png",
+      "sha256": "f557a3727d8709b2bae659df3d94a95ddd765928773526f98524d2207b8819fa",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\09_door_inside_closed.png",
+      "sha256": "2e57110a23c9a70c3f483fdb066e25662db53b7e97012f822f4232374ec236bd",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\10_threshold.png",
+      "sha256": "746e989bc9cbce875eaf0ca0357ea92fb2a457b9a61e726da5e905042543e7e2",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\11_deposit_removed.png",
+      "sha256": "d9fc61e2f17f8f1761e2511247f118eb4f66d9b7edabdfb674cd8471fd8e2168",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\12_handling_plan.png",
+      "sha256": "c418a38e679a2835f9832e66a7d4ceb6af95f86afd9adecb326be63180fbc097",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\13_trolley_turned.png",
+      "sha256": "6d781fb92df83c823da223ecdfc1870ec54418849d62e767494007347cb5180a",
+      "size": [
+        1200,
+        900
+      ]
+    },
+    {
+      "file": "previews\\14_trolley_porch_turn.png",
+      "sha256": "1351f9252c0384feac154a783c66116660f9b8bdce343dd31dc63535a0102e46",
+      "size": [
+        1200,
+        900
+      ]
+    }
+  ],
+  "integration_limitations": [
+    "No Unreal/map/runtime edits or imports",
+    "Engine material bakes, UV atlas/lightmap preparation, LODs, export basis verification and collision/traversal remain",
+    "Shared shell polish and final assembly belong to a later task"
+  ]
+}

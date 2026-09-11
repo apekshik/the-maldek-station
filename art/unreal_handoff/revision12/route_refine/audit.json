@@ -66,7 +66,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Engine/BasicShapes/Cube.Cube",
           "materials": [
-            "<Object '/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Metal_c669267589.MI_Foot_Metal_c669267589' (0x00000293B83E7800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/ForestTest/Audio/SurfaceMaterials/MI_Foot_Metal_c669267589.MI_Foot_Metal_c669267589' (0x0000022E46C87800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -102,7 +102,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Engine/BasicShapes/Cube.Cube",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp' (0x00000293B84B8C00) Class 'Material'>"
+            "<Object '/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp' (0x0000022E46C94600) Class 'Material'>"
           ]
         }
       ],
@@ -138,7 +138,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Engine/BasicShapes/Cube.Cube",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp' (0x00000293B84B8C00) Class 'Material'>"
+            "<Object '/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp' (0x0000022E46C94600) Class 'Material'>"
           ]
         }
       ],
@@ -174,7 +174,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Engine/BasicShapes/Cube.Cube",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp' (0x00000293B84B8C00) Class 'Material'>"
+            "<Object '/Game/MaldekRefinement/R10/Materials/M_Distant_Station_Lamp.M_Distant_Station_Lamp' (0x0000022E46C94600) Class 'Material'>"
           ]
         }
       ],
@@ -210,7 +210,7 @@
           "name": "GondolaMesh",
           "mesh": "/Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube",
           "materials": [
-            "<Object '/Game/Fab/Megascans/Surfaces/Rusty_Metal_Sheet_tj4kedvcw/Medium/tj4kedvcw_tier_2/Materials/MI_tj4kedvcw.MI_tj4kedvcw' (0x00000293BDE0A000) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/Fab/Megascans/Surfaces/Rusty_Metal_Sheet_tj4kedvcw/Medium/tj4kedvcw_tier_2/Materials/MI_tj4kedvcw.MI_tj4kedvcw' (0x0000022E4C4B9800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -398,7 +398,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_000_glass.SM_R12_12_Gondola_000_glass",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x00000293BE4E8800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x0000022E4D9F0000) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -434,11 +434,11 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_001_solid.SM_R12_12_Gondola_001_solid",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x00000293C205B800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x00000293C3E28800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior' (0x00000293BE585000) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x000002938866D800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x0000022E4D4E1800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x0000022E4C4BB000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior' (0x0000022E4D152800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000022E4CFEE800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x0000022E4D150800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -474,7 +474,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_002_glass.SM_R12_12_Gondola_002_glass",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x00000293BE4E8800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x0000022E4D9F0000) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -510,11 +510,11 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_003_solid.SM_R12_12_Gondola_003_solid",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Damp_Timber__Exterior.MI_UE_R02_Damp_Timber__Exterior' (0x00000293C3DE7800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x00000293C3E28800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x00000293C205B800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x000002938866D800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Damp_Timber__Exterior.MI_UE_R02_Damp_Timber__Exterior' (0x0000022E4D153800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x0000022E4C4BB000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000022E4CFEE800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x0000022E4D4E1800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x0000022E4D150800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -550,7 +550,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_004_thin.SM_R12_12_Gondola_004_thin",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000022E4CFEE800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -586,7 +586,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_005_glass.SM_R12_12_Gondola_005_glass",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x00000293BE4E8800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x0000022E4D9F0000) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -622,11 +622,11 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_006_solid.SM_R12_12_Gondola_006_solid",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x00000293C205B800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x00000293C3E28800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior' (0x00000293BE585000) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x000002938866D800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x0000022E4D4E1800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x0000022E4C4BB000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior' (0x0000022E4D152800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000022E4CFEE800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x0000022E4D150800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -662,7 +662,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_007_glass.SM_R12_12_Gondola_007_glass",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x00000293BE4E8800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Glass__Exterior.MI_UE_VF06_Glass__Exterior' (0x0000022E4D9F0000) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -698,12 +698,12 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_008_solid.SM_R12_12_Gondola_008_solid",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Damp_Timber__Exterior.MI_UE_R02_Damp_Timber__Exterior' (0x00000293C3DE7800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x00000293C3E28800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior' (0x00000293BE585000) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x00000293C205B800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x000002938866D800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Damp_Timber__Exterior.MI_UE_R02_Damp_Timber__Exterior' (0x0000022E4D153800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000022E4CFEE800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Petrol_paint__Exterior.MI_UE_VF06_Petrol_paint__Exterior' (0x0000022E4C4BB000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Oxide_Enamel__Exterior.MI_UE_R04_Oxide_Enamel__Exterior' (0x0000022E4D152800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior' (0x0000022E4D4E1800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior' (0x0000022E4D150800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -739,7 +739,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_12_Gondola_009_thin.SM_R12_12_Gondola_009_thin",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000029388665800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior' (0x0000022E4CFEE800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -775,9 +775,9 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_000_solid.SM_R12_VF06_Gondola_Details_000_solid",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x00000293C46AE000) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x00000293C3DE9000) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x0000022E4D154800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000022E4D158800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x0000022E4D9F8000) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -813,9 +813,9 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_001_solid.SM_R12_VF06_Gondola_Details_001_solid",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x00000293C3DE9000) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x00000293C46AE000) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x0000022E4D9F8000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x0000022E4D154800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000022E4D158800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -851,7 +851,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_002_thin.SM_R12_VF06_Gondola_Details_002_thin",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000022E4D158800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -887,7 +887,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_003_signage.SM_R12_VF06_Gondola_Details_003_signage",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Safety_ochre__Exterior.MI_UE_VF06_Safety_ochre__Exterior' (0x00000293C46A1000) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Safety_ochre__Exterior.MI_UE_VF06_Safety_ochre__Exterior' (0x0000022E4C77A000) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -923,10 +923,10 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_004_solid.SM_R12_VF06_Gondola_Details_004_solid",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Lamp__Exterior.MI_UE_VF06_Lamp__Exterior' (0x00000293BE605800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x00000293C46AE000) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x00000293C3DE9000) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Lamp__Exterior.MI_UE_VF06_Lamp__Exterior' (0x0000022E4CFE7000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000022E4D158800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x0000022E4D154800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x0000022E4D9F8000) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -962,7 +962,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_005_signage.SM_R12_VF06_Gondola_Details_005_signage",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Warm_enamel__Exterior.MI_UE_VF06_Warm_enamel__Exterior' (0x00000293BE606000) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Warm_enamel__Exterior.MI_UE_VF06_Warm_enamel__Exterior' (0x0000022E4C77B800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -998,10 +998,10 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_006_solid.SM_R12_VF06_Gondola_Details_006_solid",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Lamp__Exterior.MI_UE_VF06_Lamp__Exterior' (0x00000293BE605800) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x00000293C3DE9000) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x00000293C46AE000) Class 'MaterialInstanceConstant'>",
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Lamp__Exterior.MI_UE_VF06_Lamp__Exterior' (0x0000022E4CFE7000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Rubber__Exterior.MI_UE_VF06_Rubber__Exterior' (0x0000022E4D9F8000) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Fastener_oxidation__Exterior.MI_UE_VF06_Fastener_oxidation__Exterior' (0x0000022E4D154800) Class 'MaterialInstanceConstant'>",
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000022E4D158800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -1037,7 +1037,7 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_VF06_Gondola_Details_007_thin.SM_R12_VF06_Gondola_Details_007_thin",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000029388669800) Class 'MaterialInstanceConstant'>"
+            "<Object '/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Galvanized__Exterior.MI_UE_VF06_Galvanized__Exterior' (0x0000022E4D158800) Class 'MaterialInstanceConstant'>"
           ]
         }
       ],
@@ -1073,8 +1073,8 @@
           "name": "StaticMeshComponent0",
           "mesh": "/Game/MaldekRefinement/R12/GondolaMarkers/SM_Gondola_Roof_Markers.SM_Gondola_Roof_Markers",
           "materials": [
-            "<Object '/Game/MaldekRefinement/R12/GondolaMarkers/M_Marker_Base.M_Marker_Base' (0x00000293BD180000) Class 'Material'>",
-            "<Object '/Game/MaldekRefinement/R12/GondolaMarkers/M_Marker_Red_Lens.M_Marker_Red_Lens' (0x00000293BD180E00) Class 'Material'>"
+            "<Object '/Game/MaldekRefinement/R12/GondolaMarkers/M_Marker_Base.M_Marker_Base' (0x0000022E46C98C00) Class 'Material'>",
+            "<Object '/Game/MaldekRefinement/R12/GondolaMarkers/M_Marker_Red_Lens.M_Marker_Red_Lens' (0x0000022E483EE000) Class 'Material'>"
           ]
         }
       ],
@@ -1137,5 +1137,5 @@
       "splines": []
     }
   ],
-  "camera": "(<Struct 'Vector' (0x00000290BAAD1280) {x: -42996.752455, y: 18701.961742, z: 10460.708333}>, <Struct 'Rotator' (0x00000290BAAD11E0) {pitch: -1.016052, yaw: -24.925957, roll: 0.000000}>)"
+  "camera": "(<Struct 'Vector' (0x0000022DEAE31AF0) {x: -46080.638095, y: 21361.364510, z: 10457.275104}>, <Struct 'Rotator' (0x0000022DEAE31870) {pitch: -0.355329, yaw: 97.125016, roll: 0.000000}>)"
 }

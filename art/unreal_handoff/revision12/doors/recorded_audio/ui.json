@@ -1,0 +1,7 @@
+{
+  "phase": 0,
+  "next": 170481.39,
+  "deadline": 170532.39,
+  "success": false,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\scripts\\doors_recorded_ui.py\", line 24, in tick\n    widget=opening.get_editor_property('Widget')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nException: StationOpeningComponent: Property 'Widget' for attribute 'Widget' on 'StationOpeningComponent' is protected and cannot be read\n"
+}

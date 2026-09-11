@@ -1,0 +1,26 @@
+{
+  "phase": 7,
+  "next": 449304.343,
+  "deadline": 449367.187,
+  "checks": {
+    "key_interaction_entered": true,
+    "center_fov": true,
+    "left_95": true,
+    "left_tilt_8": true,
+    "peek_fov_85": true,
+    "release_recenters": true,
+    "release_restores_fov": true,
+    "right_95": true,
+    "right_tilt_8": true,
+    "exit_restores_fov": true,
+    "exit_restores_input": true
+  },
+  "left_probe": {
+    "yaw": -36.82744657667311,
+    "rest": 58.1725534233269,
+    "roll": -7.999999999999998,
+    "fov": 85.0
+  },
+  "success": true,
+  "error": null
+}

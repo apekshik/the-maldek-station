@@ -1,0 +1,30 @@
+{
+  "saved": true,
+  "mesh": "/Game/Inspection/Cassette/SM_ServiceCassette.SM_ServiceCassette",
+  "label": "Inspection_Cassette_Pickup_Hood",
+  "location": [
+    -40436.77307088463,
+    12550.58279027439,
+    9893.275170059564
+  ],
+  "rotation": [
+    -98.22166442871094,
+    -1.0653421611550584e-07,
+    -173.0
+  ],
+  "slots": [
+    "Cassette_01",
+    "Cassette_11",
+    "Cassette_03",
+    "Cassette_09",
+    "Cassette_04",
+    "Cassette_05",
+    "Cassette_02",
+    "Cassette_06",
+    "Cassette_07",
+    "Cassette_08",
+    "Cassette_12"
+  ],
+  "other_actor_transforms_preserved": true,
+  "visual_hood_clearance_cm": 6
+}

@@ -1,0 +1,13 @@
+{
+  "actors": [
+    {
+      "actor": "MIG_WS_WSP_Door_hinge",
+      "mesh": "/Game/MaldekRefinement/WestServices/Meshes/SM_WS_WSP_Door_hinge",
+      "bounds_error_cm": 1.049041748046875e-05,
+      "source_count": 14,
+      "control": true
+    }
+  ],
+  "source_sha256": "d4c5a3a7b4848dcd7221f9c5662e55d591002a7a777435cd510741c1aca2c8ab",
+  "shader_errors": []
+}

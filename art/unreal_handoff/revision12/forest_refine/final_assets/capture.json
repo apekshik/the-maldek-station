@@ -1,0 +1,13 @@
+{
+  "phase": "end",
+  "index": 3,
+  "next": 157994.953,
+  "deadline": 158159.234,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\final_assets\\parking.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\final_assets\\valley.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\final_assets\\path.png"
+  ],
+  "busy": true,
+  "success": true
+}

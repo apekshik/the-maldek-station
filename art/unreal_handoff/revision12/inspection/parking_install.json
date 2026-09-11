@@ -1,0 +1,33 @@
+{
+  "saved": true,
+  "level": "/Game/MaldekRefinement/R12/Station_R12.Station_R12",
+  "label": "Inspection_Meter_Pickup_Hood",
+  "vehicle": "FR_Parked_Pickup",
+  "placement": "front hood, near the corner",
+  "location": [
+    -40408.97288836671,
+    12553.922744188398,
+    9886.77041176968
+  ],
+  "rotation": [
+    8.220999717712402,
+    0.0,
+    7.0
+  ],
+  "checkpoint_location": [
+    -40426.63958803875,
+    12697.80643804043,
+    9896.5
+  ],
+  "checkpoint_rotation": [
+    -2.507765373138682e-07,
+    -22.95707893371582,
+    -83.0
+  ],
+  "surface_normal": [
+    -0.017427696921919263,
+    0.14193718607356456,
+    0.9897222391103052
+  ],
+  "other_actor_transforms_preserved": true
+}

@@ -1,0 +1,16 @@
+{
+  "ready": true,
+  "rotation_before_drag": [
+    0.19950610399246216,
+    -0.007291476707905531,
+    -0.03542378917336464,
+    0.9792289137840271
+  ],
+  "location_before_drag": [
+    -40427.9255310839,
+    12683.709613674198,
+    9948.231369624513
+  ],
+  "phase": "<StationInspectionPhase.INSPECTING: 2>",
+  "previous_throttle": true
+}

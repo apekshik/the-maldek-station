@@ -1,0 +1,51 @@
+{
+  "mesh_keys": [
+    "WSE_ASSETS_-10_0",
+    "NONBLOCK_Hardware_-10_0",
+    "WSE_ASSETS_-9_-1"
+  ],
+  "configuration_keys": [
+    "WSP_Door_hinge",
+    "WSE_Engine_cover_hinge"
+  ],
+  "repairs": {
+    "shelf_shift_x_m": 1.25,
+    "shelf_objects": [
+      "WSR_Equipment_shelf",
+      "WSR_Shelf_bracket",
+      "WSR_Shelf_bracket.001",
+      "WSR_First_aid_bag",
+      "WSR_Bag_zipper",
+      "WSR_Bag_handle_upright",
+      "WSR_Bag_handle_upright.001",
+      "WSR_Bag_handle"
+    ],
+    "nonblocking_hardware": [
+      "WSE_Cover_fastener",
+      "WSE_Cover_fastener.001",
+      "WSE_Cover_fastener.002",
+      "WSE_Cover_fastener.003",
+      "WSE_Door_head_seal",
+      "WSE_Door_seal",
+      "WSE_Door_seal.001",
+      "WSE_Hinge_barrel",
+      "WSE_Hinge_barrel.001",
+      "WSE_Hinge_barrel.002",
+      "WSE_Hinge_barrel.003",
+      "WSE_Hinge_barrel.004",
+      "WSE_Hinge_barrel.005",
+      "WSP_Door_head_seal",
+      "WSP_Door_jamb_seal",
+      "WSR_Door_seal",
+      "WSR_Door_seal.001",
+      "WSR_Head_seal"
+    ],
+    "engine_cover_degrees": 100,
+    "fuel_supply_reroute": {
+      "y_shift_max_m": 0.55,
+      "start_station_z": 1.82,
+      "end_station_z": 2.06
+    },
+    "parcels_hinge_collision_inset_m": 0.025
+  }
+}

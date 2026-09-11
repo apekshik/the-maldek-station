@@ -1,0 +1,701 @@
+{
+  "units": "metres",
+  "collection": "WSP_ASSETS",
+  "asset_blend": "Maldek_Parcels_Office.blend",
+  "source_sha256": "54bb3f1e54a6c84ebd1b90c5664e6e7b328be6e6139bac0f6fd9f49ea630b6aa",
+  "local_to_world": [
+    [
+      1,
+      0,
+      0,
+      -37.45
+    ],
+    [
+      0,
+      1,
+      0,
+      -5
+    ],
+    [
+      0,
+      0,
+      1,
+      4.6
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "orientation_marker": "WSP_ORIENTATION_EAST_PLUS_X",
+  "replacement_collection": "WS_PARCELS_PROXY",
+  "delete_exact": [
+    "WS_ParcelsCounter",
+    "WS_ParcelsShelves",
+    "WS_ParcelsSecureCabinet",
+    "WS_ParcelsSign"
+  ],
+  "anchors": {
+    "WSP_DEPOSIT_01": {
+      "position": [
+        0.64,
+        0.95,
+        0.274
+      ],
+      "support": "WSP_Shelf_0_0",
+      "usable_dimensions_m": [
+        0.58,
+        0.86,
+        0.56
+      ],
+      "approach": [
+        1,
+        0,
+        0
+      ],
+      "reach_height_m": 0.274
+    },
+    "WSP_DEPOSIT_02": {
+      "position": [
+        0.64,
+        1.99,
+        0.274
+      ],
+      "support": "WSP_Shelf_0_1",
+      "usable_dimensions_m": [
+        0.58,
+        0.86,
+        0.56
+      ],
+      "approach": [
+        1,
+        0,
+        0
+      ],
+      "reach_height_m": 0.274
+    },
+    "WSP_DEPOSIT_03": {
+      "position": [
+        0.64,
+        3.0300000000000002,
+        0.274
+      ],
+      "support": "WSP_Shelf_0_2",
+      "usable_dimensions_m": [
+        0.58,
+        0.86,
+        0.56
+      ],
+      "approach": [
+        1,
+        0,
+        0
+      ],
+      "reach_height_m": 0.274
+    },
+    "WSP_DEPOSIT_04": {
+      "position": [
+        0.64,
+        4.07,
+        0.274
+      ],
+      "support": "WSP_Shelf_0_3",
+      "usable_dimensions_m": [
+        0.58,
+        0.86,
+        0.56
+      ],
+      "approach": [
+        1,
+        0,
+        0
+      ],
+      "reach_height_m": 0.274
+    },
+    "WSP_DEPOSIT_05": {
+      "position": [
+        0.64,
+        0.95,
+        0.904
+      ],
+      "support": "WSP_Shelf_1_0",
+      "usable_dimensions_m": [
+        0.58,
+        0.86,
+        0.56
+      ],
+      "approach": [
+        1,
+        0,
+        0
+      ],
+      "reach_height_m": 0.904
+    },
+    "WSP_DEPOSIT_06": {
+      "position": [
+        0.64,
+        1.99,
+        0.904
+      ],
+      "support": "WSP_Shelf_1_1",
+      "usable_dimensions_m": [
+        0.58,
+        0.86,
+        0.56
+      ],
+      "approach": [
+        1,
+        0,
+        0
+      ],
+      "reach_height_m": 0.904
+    },
+    "WSP_DEPOSIT_07": {
+      "position": [
+        0.64,
+        3.0300000000000002,
+        0.904
+      ],
+      "support": "WSP_Shelf_1_2",
+      "usable_dimensions_m": [
+        0.58,
+        0.86,
+        0.56
+      ],
+      "approach": [
+        1,
+        0,
+        0
+      ],
+      "reach_height_m": 0.904
+    },
+    "WSP_DEPOSIT_08": {
+      "position": [
+        0.64,
+        4.07,
+        0.904
+      ],
+      "support": "WSP_Shelf_1_3",
+      "usable_dimensions_m": [
+        0.58,
+        0.86,
+        0.56
+      ],
+      "approach": [
+        1,
+        0,
+        0
+      ],
+      "reach_height_m": 0.904
+    },
+    "WSP_TAG_STATION": {
+      "position": [
+        4.88,
+        3.42,
+        1.1
+      ],
+      "approach": [
+        -1,
+        0,
+        0
+      ],
+      "reach_height_m": 1.1,
+      "usable_dimensions_m": [
+        0.6,
+        0.6,
+        0.5
+      ]
+    },
+    "WSP_LOG_LEDGER": {
+      "position": [
+        4.92,
+        3.76,
+        1.04
+      ],
+      "approach": [
+        -1,
+        0,
+        0
+      ],
+      "reach_height_m": 1.04,
+      "usable_dimensions_m": [
+        0.6,
+        0.6,
+        0.5
+      ]
+    },
+    "WSP_SECURE_CABINET": {
+      "position": [
+        2.2,
+        1.05,
+        1.05
+      ],
+      "approach": [
+        0,
+        1,
+        0
+      ],
+      "reach_height_m": 1.05,
+      "usable_dimensions_m": [
+        0.6,
+        0.6,
+        0.5
+      ]
+    },
+    "WSP_TROLLEY_PARK": {
+      "position": [
+        3.66,
+        0.86,
+        0.25
+      ],
+      "approach": [
+        0,
+        1,
+        0
+      ],
+      "reach_height_m": 0.25,
+      "usable_dimensions_m": [
+        0.6,
+        0.6,
+        0.5
+      ]
+    }
+  },
+  "mechanisms": [
+    {
+      "object": "WSP_Door_hinge",
+      "kind": "ROTATION",
+      "axis": 2,
+      "rest": 0.0,
+      "open": 1.5707963267948966,
+      "pivot_parent_space_m": [
+        5.75,
+        1.1799999475479126,
+        0.019999999552965164
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Door_latch_pivot",
+      "kind": "ROTATION",
+      "axis": 0,
+      "rest": 0.0,
+      "open": 0.4,
+      "pivot_parent_space_m": [
+        -0.0560002326965332,
+        1.2100001573562622,
+        1.0
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Door_key_cylinder",
+      "kind": "ROTATION",
+      "axis": 0,
+      "rest": 0.0,
+      "open": 1.5707963267948966,
+      "pivot_parent_space_m": [
+        -0.04699993133544922,
+        1.2100001573562622,
+        0.8600000143051147
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Clerk_drawer_slide",
+      "kind": "TRANSLATION",
+      "axis": 0,
+      "rest": 5.0,
+      "open": 4.62,
+      "pivot_parent_space_m": [
+        5.0,
+        3.6700000762939453,
+        0.7599999904632568
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Secure_door_hinge",
+      "kind": "ROTATION",
+      "axis": 2,
+      "rest": 0.0,
+      "open": 1.5707963267948966,
+      "pivot_parent_space_m": [
+        1.5099999904632568,
+        0.8999999761581421,
+        0.07999999821186066
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Shutter_0_hinge",
+      "kind": "ROTATION",
+      "axis": 2,
+      "rest": 0.0,
+      "open": 1.5707963267948966,
+      "pivot_parent_space_m": [
+        5.739999771118164,
+        3.2850000858306885,
+        1.100000023841858
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Shutter_1_hinge",
+      "kind": "ROTATION",
+      "axis": 2,
+      "rest": 0.0,
+      "open": -1.5707963267948966,
+      "pivot_parent_space_m": [
+        5.739999771118164,
+        4.514999866485596,
+        1.100000023841858
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Secure_tray_1_slide",
+      "kind": "TRANSLATION",
+      "axis": 1,
+      "rest": 0.6000000238418579,
+      "open": 0.8500000238418579,
+      "pivot_parent_space_m": [
+        2.200000047683716,
+        0.6000000238418579,
+        0.10999999940395355
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Secure_tray_2_slide",
+      "kind": "TRANSLATION",
+      "axis": 1,
+      "rest": 0.6000000238418579,
+      "open": 0.8500000238418579,
+      "pivot_parent_space_m": [
+        2.200000047683716,
+        0.6000000238418579,
+        0.6800000071525574
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Secure_tray_3_slide",
+      "kind": "TRANSLATION",
+      "axis": 1,
+      "rest": 0.6000000238418579,
+      "open": 0.8500000238418579,
+      "pivot_parent_space_m": [
+        2.200000047683716,
+        0.6000000238418579,
+        1.2699999809265137
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Caster_swivel",
+      "kind": "ROTATION",
+      "axis": 2,
+      "rest": 0.0,
+      "open": 1.5707963267948966,
+      "pivot_parent_space_m": [
+        -0.32000017166137695,
+        -0.5,
+        0.20000000298023224
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Wheel_axle",
+      "kind": "ROTATION",
+      "axis": 0,
+      "rest": 0.0,
+      "open": 3.141592653589793,
+      "pivot_parent_space_m": [
+        0.0,
+        0.0,
+        -0.11500000208616257
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Caster_swivel.001",
+      "kind": "ROTATION",
+      "axis": 2,
+      "rest": 0.0,
+      "open": 1.5707963267948966,
+      "pivot_parent_space_m": [
+        -0.32000017166137695,
+        0.5,
+        0.20000000298023224
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Wheel_axle.001",
+      "kind": "ROTATION",
+      "axis": 0,
+      "rest": 0.0,
+      "open": 3.141592653589793,
+      "pivot_parent_space_m": [
+        0.0,
+        0.0,
+        -0.11500000208616257
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Caster_swivel.002",
+      "kind": "ROTATION",
+      "axis": 2,
+      "rest": 0.0,
+      "open": 1.5707963267948966,
+      "pivot_parent_space_m": [
+        0.31999993324279785,
+        -0.5,
+        0.20000000298023224
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Wheel_axle.002",
+      "kind": "ROTATION",
+      "axis": 0,
+      "rest": 0.0,
+      "open": 3.141592653589793,
+      "pivot_parent_space_m": [
+        0.0,
+        0.0,
+        -0.11500000208616257
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Caster_swivel.003",
+      "kind": "ROTATION",
+      "axis": 2,
+      "rest": 0.0,
+      "open": 1.5707963267948966,
+      "pivot_parent_space_m": [
+        0.31999993324279785,
+        0.5,
+        0.20000000298023224
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    },
+    {
+      "object": "WSP_Wheel_axle.003",
+      "kind": "ROTATION",
+      "axis": 0,
+      "rest": 0.0,
+      "open": 3.141592653589793,
+      "pivot_parent_space_m": [
+        0.0,
+        0.0,
+        -0.11500000208616257
+      ],
+      "frames": {
+        "closed": 1,
+        "open": 40,
+        "rest": 80
+      }
+    }
+  ],
+  "clear_door_m": [
+    1.324,
+    2.223
+  ],
+  "handling_zone_local": [
+    [
+      2.05,
+      1.6,
+      0
+    ],
+    [
+      4.25,
+      3.8,
+      2.2
+    ]
+  ],
+  "operator_aisle_local": [
+    [
+      3.0,
+      3.25,
+      0
+    ],
+    [
+      4.25,
+      4.7,
+      2.2
+    ]
+  ],
+  "trolley_envelope_m": [
+    0.8,
+    1.2,
+    1.1
+  ],
+  "export": {
+    "include_collection_only": "WSP_ASSETS",
+    "exclude_types": [
+      "EMPTY (except pivots/anchors)",
+      "CAMERA",
+      "LIGHT"
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "engine_export_pending": true
+  },
+  "materials": {
+    "WSP_Canvas": {
+      "procedural": true,
+      "slots": [
+        "WSP_Canvas"
+      ]
+    },
+    "WSP_Cream_enamel": {
+      "procedural": true,
+      "slots": [
+        "WSP_Cream_enamel"
+      ]
+    },
+    "WSP_Galvanized": {
+      "procedural": true,
+      "slots": [
+        "WSP_Galvanized"
+      ]
+    },
+    "WSP_Glass": {
+      "procedural": true,
+      "slots": [
+        "WSP_Glass"
+      ]
+    },
+    "WSP_Kraft": {
+      "procedural": true,
+      "slots": [
+        "WSP_Kraft"
+      ]
+    },
+    "WSP_Oxblood_leather": {
+      "procedural": true,
+      "slots": [
+        "WSP_Oxblood_leather"
+      ]
+    },
+    "WSP_Paper": {
+      "procedural": true,
+      "slots": [
+        "WSP_Paper"
+      ]
+    },
+    "WSP_Petrol_enamel": {
+      "procedural": true,
+      "slots": [
+        "WSP_Petrol_enamel"
+      ]
+    },
+    "WSP_Pine": {
+      "procedural": true,
+      "slots": [
+        "WSP_Pine"
+      ]
+    },
+    "WSP_Rubber_ink": {
+      "procedural": true,
+      "slots": [
+        "WSP_Rubber_ink"
+      ]
+    }
+  },
+  "limitations": [
+    "Engine collision and actual capsule traversal untested",
+    "Procedural material baking, export and LOD work remain integration gates"
+  ],
+  "secure_sequence": "Door opens frames 1-20, stays open through 60; trays extend 20-40 and retract 40-60; door closes 60-80.",
+  "surface_ownership": {
+    "shared_shell_patch": null,
+    "reason": "Frames span entire shell thickness; butt interfaces concealed beneath separate casings. No new wall skins or duplicated floor. Seals bridge to closed leaf."
+  },
+  "collision_recipe": "collision.json",
+  "geometry_inventory": "verification.json:inventory",
+  "mechanism_sweeps": "collision.json:sweeps",
+  "operator_aisle_clear_width_m": 1.25
+}

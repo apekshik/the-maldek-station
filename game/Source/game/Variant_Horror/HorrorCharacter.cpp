@@ -93,8 +93,8 @@ void AHorrorCharacter::ToggleFlashlight()
 	}
 }
 
-void AHorrorCharacter::FocusFlashlightIn() { if (OpeningExperience->AllowsFlashlightInput()) { PlayerPresentation->AdjustFocus(1.0f); OpeningExperience->FocusAdjusted(); } }
-void AHorrorCharacter::FocusFlashlightOut() { if (OpeningExperience->AllowsFlashlightInput()) { PlayerPresentation->AdjustFocus(-1.0f); OpeningExperience->FocusAdjusted(); } }
+void AHorrorCharacter::FocusFlashlightIn() { if (Controller && !Controller->IsLookInputIgnored() && OpeningExperience->AllowsFlashlightInput()) { PlayerPresentation->AdjustFocus(1.0f); OpeningExperience->FocusAdjusted(); } }
+void AHorrorCharacter::FocusFlashlightOut() { if (Controller && !Controller->IsLookInputIgnored() && OpeningExperience->AllowsFlashlightInput()) { PlayerPresentation->AdjustFocus(-1.0f); OpeningExperience->FocusAdjusted(); } }
 
 void AHorrorCharacter::BeginInspect() { PlayerPresentation->SetInspectActive(true); }
 void AHorrorCharacter::EndInspect() { PlayerPresentation->SetInspectActive(false); }

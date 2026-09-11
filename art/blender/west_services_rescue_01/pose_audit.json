@@ -1,0 +1,18 @@
+{
+  "1": {
+    "topology_errors": [],
+    "same_facing_rectangular_coplanar_candidates": [],
+    "passed": true
+  },
+  "40": {
+    "topology_errors": [],
+    "same_facing_rectangular_coplanar_candidates": [],
+    "passed": true
+  },
+  "80": {
+    "topology_errors": [],
+    "same_facing_rectangular_coplanar_candidates": [],
+    "passed": true
+  },
+  "passed": true
+}

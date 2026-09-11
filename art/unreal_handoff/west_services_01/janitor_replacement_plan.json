@@ -1,0 +1,38 @@
+{
+  "chunks": [
+    {
+      "name": "SM_Lodge_Shell_005",
+      "pivot": [
+        -16,
+        -8,
+        4
+      ],
+      "lo": [
+        -16.100000381469727,
+        -13.200000762939453,
+        4.0
+      ],
+      "hi": [
+        -10.100000381469727,
+        4.0,
+        7.199999809265137
+      ],
+      "sources": [
+        "FIT_East_0_0",
+        "FIT_Hall_south_WC_0_0",
+        "FIT_Hall_south_WC_1_2.3",
+        "FIT_Hall_south_WC_2_0",
+        "FIT_Full_height_privacy_screen",
+        "FIT_Cleaning_cupboard"
+      ],
+      "category": "PL02_Fitted_Lodge_Geometry",
+      "materials": [
+        "PLSH_Painted_Plaster",
+        "VF06_Petrol_paint"
+      ]
+    }
+  ],
+  "retired": [
+    "FIT_Cleaning_cupboard"
+  ]
+}

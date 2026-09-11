@@ -1,0 +1,19 @@
+{
+  "station_map": "/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration",
+  "entry_map": "/Engine/Maps/Entry",
+  "rollback_map": "/Game/MaldekRefinement/R12/Station_R12",
+  "config_changes": [
+    {
+      "file": "game\\Config\\DefaultGame.ini",
+      "before_sha256": "0ffdd153c26a0d6e162ce7180d5f4033558f217559c707a4bf63525732cec0d0",
+      "after_sha256": "10c189296f85d30f9d145a2f0023f67f3ef82b71c327ed59b5cbfc4d7ea17635"
+    },
+    {
+      "file": "game\\Config\\DefaultEngine.ini",
+      "before_sha256": "4d33f1962459f9147ae606fee05107c103e73699b528ddf3fd8b13449a7477de",
+      "after_sha256": "8b576b9c7a192784ad2ebb0e6b4e454087e4a2cd2e7051b42197066d921c00b8"
+    }
+  ],
+  "arrival_source": "r12_reconciliation.json",
+  "source_preserved": true
+}

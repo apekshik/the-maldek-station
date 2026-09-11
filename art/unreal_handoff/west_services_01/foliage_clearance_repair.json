@@ -1,0 +1,171 @@
+[
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_A.FT_Woodland_Grass_A|394",
+    "before": [
+      -41419.20583616717,
+      18261.616634747726,
+      10046.045470105244
+    ],
+    "after": [
+      -40102.305974972965,
+      17874.707549061975,
+      9870.92267096851
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_A.FT_Woodland_Grass_A|399",
+    "before": [
+      -41183.98935356223,
+      18015.235265648564,
+      9918.064451268448
+    ],
+    "after": [
+      -40042.305974972965,
+      17984.707549061975,
+      9809.729983546418
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_A.FT_Woodland_Grass_A|464",
+    "before": [
+      -41466.482456403086,
+      19125.951686335167,
+      10193.428525521285
+    ],
+    "after": [
+      -39982.305974972965,
+      18094.707549061975,
+      9749.710814189502
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_A.FT_Woodland_Grass_A|466",
+    "before": [
+      -41398.76422714877,
+      19219.423451346425,
+      9970.489889768118
+    ],
+    "after": [
+      -40102.305974972965,
+      18204.707549061975,
+      9877.377781697689
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_A.FT_Woodland_Grass_A|484",
+    "before": [
+      -41455.983705331826,
+      19195.886670442982,
+      10159.652286091357
+    ],
+    "after": [
+      -40042.305974972965,
+      18314.707549061975,
+      9838.869749261741
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_A.FT_Woodland_Grass_A|486",
+    "before": [
+      -41459.78617896404,
+      19342.656375781535,
+      9944.849940224594
+    ],
+    "after": [
+      -39982.305974972965,
+      18424.707549061975,
+      9818.249686573348
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_B.FT_Woodland_Grass_B|414",
+    "before": [
+      -41403.93114788371,
+      18077.124150820164,
+      9990.285391406895
+    ],
+    "after": [
+      -40102.305974972965,
+      18534.707549061975,
+      9890.957257746577
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_B.FT_Woodland_Grass_B|415",
+    "before": [
+      -41427.053448878025,
+      17947.671346130996,
+      10072.995105623537
+    ],
+    "after": [
+      -40042.305974972965,
+      18644.707549061975,
+      9886.924821948909
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_B.FT_Woodland_Grass_B|420",
+    "before": [
+      -41452.34235014106,
+      17843.170899970628,
+      10151.364497311735
+    ],
+    "after": [
+      -39982.305974972965,
+      18754.707549061975,
+      9891.822677095777
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_B.FT_Woodland_Grass_B|454",
+    "before": [
+      -41401.29609499159,
+      19230.021966979286,
+      9974.236298714757
+    ],
+    "after": [
+      -40102.305974972965,
+      18864.707549061975,
+      9912.774229661787
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_B.FT_Woodland_Grass_B|471",
+    "before": [
+      -41403.57266110347,
+      19249.087539042484,
+      9966.729005031455
+    ],
+    "after": [
+      -40042.305974972965,
+      18974.707549061975,
+      9912.346409207823
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_C.FT_Woodland_Grass_C|410",
+    "before": [
+      -41433.92885235836,
+      19137.511076818013,
+      10096.611220073446
+    ],
+    "after": [
+      -39982.305974972965,
+      19084.707549061975,
+      9908.159490232327
+    ]
+  },
+  {
+    "key": "/Game/MaldekRefinement/R12/ForestRefine/Foliage/FT_Woodland_Grass_D.FT_Woodland_Grass_D|371",
+    "before": [
+      -41398.402146519446,
+      18113.769519165464,
+      9970.476786764859
+    ],
+    "after": [
+      -40102.305974972965,
+      19194.707549061975,
+      9916.241033679209
+    ]
+  }
+]

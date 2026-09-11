@@ -1,0 +1,84 @@
+{
+  "saved": true,
+  "assets": [
+    {
+      "label": "VF10_Parking_Furniture",
+      "mesh": "/Game/MaldekRefinement/R12/ParkingNavigation/SM_Parking_Navigation_Furniture.SM_Parking_Navigation_Furniture",
+      "bounds_error_cm": 6.103515625e-05,
+      "collision_hulls": 7
+    },
+    {
+      "label": "VF10_Parking_Forest_Connector",
+      "mesh": "/Game/MaldekRefinement/R12/ParkingNavigation/SM_Parking_Navigation_Path.SM_Parking_Navigation_Path",
+      "bounds_error_cm": 0.00048828125,
+      "collision_hulls": 164
+    }
+  ],
+  "moved": [
+    {
+      "label": "FT_Goat_Willow_030",
+      "before": [
+        -34.41127135024253,
+        -50.573679433415855,
+        -1.082189421281473
+      ],
+      "after": [
+        -37.3,
+        -49.8,
+        -1.082189421281473
+      ]
+    },
+    {
+      "label": "FT_Marker_1_Post",
+      "before": [
+        -31.271264928924648,
+        -50.798122591554545,
+        -0.5348299998032963
+      ],
+      "after": [
+        -34.05,
+        -49.7,
+        -0.5348299998032963
+      ]
+    },
+    {
+      "label": "FT_Marker_1_Cap",
+      "before": [
+        -31.271264928924648,
+        -50.798122591554545,
+        -0.07482999980329623
+      ],
+      "after": [
+        -34.05,
+        -49.7,
+        -0.07482999980329623
+      ]
+    },
+    {
+      "label": "FT_Marker_1_Lens",
+      "before": [
+        -31.271264928924648,
+        -50.798122591554545,
+        -0.15482999980329623
+      ],
+      "after": [
+        -34.05,
+        -49.7,
+        -0.15482999980329623
+      ]
+    },
+    {
+      "label": "FT_Marker_1_Light",
+      "before": [
+        -31.271264928924648,
+        -50.798122591554545,
+        -0.15482999980329623
+      ],
+      "after": [
+        -34.05,
+        -49.7,
+        -0.15482999980329623
+      ]
+    }
+  ]
+}

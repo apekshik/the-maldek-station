@@ -228,3 +228,26 @@ and authored pivot. Real E-input open/close and all three nearby walking routes
 then passed. This is specific to this hinge, not a general clearance to apply
 to every door. See [repair](unreal_handoff/passenger_lodge_01/east_wall/collision_repair.json)
 and [runtime checks](unreal_handoff/passenger_lodge_01/east_wall/runtime.json).
+
+## Replacing concealed furnishing placeholders
+
+The furnished west-services source had replaced `FIT_Cleaning_cupboard` with an
+open carcass and stocked shelves, but the older Unreal lodge still contained the
+solid placeholder inside `SM_Lodge_Shell_005`. Import bounds and route checks
+passed while the placeholder hid all the new supplies. A flashlight review and
+engine sight-line trace identified the retained source owner. Replace that one
+member through a localized shared-mesh export, retaining the five wall/privacy
+members, rather than hiding the entire shared actor or disabling its collision.
+See the [replacement ledger](unreal_handoff/west_services_01/janitor_patch_install.json)
+and [visible shelves](unreal_handoff/west_services_01/previews/gameplay_night/janitor.png).
+
+For west-services motion, mating seals and hinge barrels also blocked approximate
+leaf boxes. Exact source BVH probes identified the contacts. Separate the small
+fixed hardware collision where appropriate; the parcels structural leaf retains
+its box with measured 25 mm hinge-edge and 20 mm latch-edge insets. The generator
+cover required an actual fuel-line reroute, and the rescue cupboard required a
+shelf relocation. These were geometry-specific repairs, not a reason to remove
+blocking collision from the mechanisms. All 17 mechanisms then passed full
+open/close, real E-input focus and player-obstruction/retry tests; see the
+[manifest](unreal_handoff/west_services_01/exports.json) and
+[runtime safety report](unreal_handoff/west_services_01/safety.json).

@@ -1,0 +1,13 @@
+{
+  "phase": "end",
+  "index": 3,
+  "next": 155222.718,
+  "deadline": 155340.531,
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\after_fixed\\rear.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\after_fixed\\front.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\revision12\\forest_refine\\after_fixed\\ground.png"
+  ],
+  "busy": true,
+  "success": true
+}

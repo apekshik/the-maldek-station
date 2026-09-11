@@ -1,0 +1,38 @@
+[
+  {
+    "name": "full_drive.wav",
+    "rms_dbfs": [
+      -240.0,
+      -240.0
+    ],
+    "peak_dbfs": -240.0,
+    "seconds": 3.008
+  },
+  {
+    "name": "motor_far.wav",
+    "rms_dbfs": [
+      -240.0,
+      -240.0
+    ],
+    "peak_dbfs": -240.0,
+    "seconds": 2.986666666666667
+  },
+  {
+    "name": "motor_left.wav",
+    "rms_dbfs": [
+      -240.0,
+      -240.0
+    ],
+    "peak_dbfs": -240.0,
+    "seconds": 2.986666666666667
+  },
+  {
+    "name": "motor_right.wav",
+    "rms_dbfs": [
+      -240.0,
+      -240.0
+    ],
+    "peak_dbfs": -240.0,
+    "seconds": 2.986666666666667
+  }
+]

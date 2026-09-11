@@ -1,0 +1,18 @@
+{
+  "reviewed": true,
+  "method": "Visual inspection of the final neutral fitted PNGs, with geometry checks recorded separately in verification.json and pose_audit.json.",
+  "images": {
+    "01_Porch_closed.png": "Full room lettering, paired leaves, exterior reveal and window fit; closed threshold visible.",
+    "02_Porch_open.png": "Independent inward leaves and entry into the prepared room; no porch swing obstruction.",
+    "03_Inside_door.png": "Interior leaf plane, seals, latch hardware and raised privacy blind.",
+    "04_Room_toward_cot.png": "Reserved cot position, pillow/blanket, west storage and chair; organized uncluttered room.",
+    "05_Cupboards_open.png": "Blanket and first-aid interiors visible with independently opened doors.",
+    "06_Stretcher_folded.png": "Complete folded silhouette, separated halves, released sleeves, nested legs and wall supports.",
+    "07_Stretcher_deployed.png": "Separate transport stretcher, carrying grips, restraints, hinge construction and floor-supported legs beside the cot.",
+    "08_Handling_overhead.png": "Roof-hidden neutral plan, inward leaves and usable entrance/turning area; see handling_plan.svg for sampled route overlay diagram.",
+    "09_Window_inside.png": "Separate glazing, frame, sill, raised blind, pull and cleat; shared porch rails visible through glazing.",
+    "10_Threshold_inside.png": "Low metal threshold with one finished top surface at the slab transition.",
+    "11_Radio_heater.png": "Analog radio controls and connected handset cord; physical thermostat and connected heater conduit."
+  },
+  "limits": "Neutral Blender review. Shared shell remains the approved blockout. No Unreal rendering/collision certification; materials require later baking/export review."
+}

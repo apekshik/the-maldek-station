@@ -1,0 +1,134 @@
+{
+  "world": "/Game/MaldekRefinement/PassengerLodge/Station_Lodge_Migration.Station_Lodge_Migration",
+  "peek_loaded": true,
+  "doors": [
+    {
+      "name": "R12_Door_Relay_north",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "R12_Door_Relay_south",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "R12_Door_Control_front",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "R12_Door_Control_side",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "R12_Door_Quarters",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "R12_Door_Generator_south",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "R12_Door_Generator_west",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "R12_Door_Workshop_shared",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "MIG_PLD_ARRIVAL",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "MIG_PLD_GONDOLA",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "MIG_PLD_STAFF",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "MIG_PLR_Women_Entry",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "MIG_PLR_Men_Entry",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "MIG_PLR_Women_A",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "MIG_PLR_Women_B",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    },
+    {
+      "name": "MIG_PLR_Men_A",
+      "key_fov": 56.0,
+      "keypad_fov": 64.0,
+      "peek_degrees": 95.0,
+      "peek_roll": 8.0,
+      "peek_fov": 85.0
+    }
+  ]
+}

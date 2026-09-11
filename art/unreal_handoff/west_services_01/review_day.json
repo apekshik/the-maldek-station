@@ -1,0 +1,91 @@
+{
+  "views": [
+    {
+      "name": "compound",
+      "position": [
+        -27,
+        13,
+        10
+      ],
+      "target": [
+        -35,
+        0,
+        4
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\day\\compound.png"
+    },
+    {
+      "name": "west_outward",
+      "position": [
+        -39.6,
+        0,
+        2.85
+      ],
+      "target": [
+        -52,
+        0,
+        -3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\day\\west_outward.png"
+    },
+    {
+      "name": "south_outward",
+      "position": [
+        -37,
+        -6.7,
+        2.85
+      ],
+      "target": [
+        -43,
+        -22,
+        -5
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\day\\south_outward.png"
+    },
+    {
+      "name": "north_outward",
+      "position": [
+        -38.7,
+        9.8,
+        2.85
+      ],
+      "target": [
+        -48,
+        21,
+        -3
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\day\\north_outward.png"
+    },
+    {
+      "name": "lower_east",
+      "position": [
+        -30,
+        -6,
+        2.85
+      ],
+      "target": [
+        -30,
+        7,
+        1.7
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\day\\lower_east.png"
+    },
+    {
+      "name": "porch_outward",
+      "position": [
+        -30.4,
+        4.2,
+        6.25
+      ],
+      "target": [
+        -49,
+        15,
+        1
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\west_services_01\\previews\\day\\porch_outward.png"
+    }
+  ],
+  "error": null,
+  "temporary_lights_removed": true,
+  "mode": "Lit, temporary neutral review lights; live weather retained"
+}

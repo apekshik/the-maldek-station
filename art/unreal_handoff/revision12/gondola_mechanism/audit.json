@@ -1,0 +1,504 @@
+{
+  "actors": [
+    {
+      "label": "R04_01_Upper_Platform",
+      "position": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": [
+        [
+          -44282.305974972965,
+          18474.707549061975,
+          9898.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": null,
+          "materials": []
+        }
+      ]
+    },
+    {
+      "label": "R04_04_Lower_Drive",
+      "position": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": [
+        [
+          -44282.305974972965,
+          18474.707549061975,
+          9898.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": null,
+          "materials": []
+        }
+      ]
+    },
+    {
+      "label": "R12_Audio_Flywheel",
+      "position": [
+        -44432.30596543622,
+        19189.70755859872,
+        9955.50000077486
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+      "bounds": [
+        [
+          -44432.30596543622,
+          19189.70755859872,
+          9955.50000077486
+        ],
+        [
+          128.0,
+          128.0,
+          128.0
+        ]
+      ],
+      "meshes": []
+    },
+    {
+      "label": "R12_Route_Cable_Passenger",
+      "position": [
+        -44257.305974972965,
+        19279.70756813546,
+        10891.2
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": [
+        [
+          -44257.147000563855,
+          88527.7714639868,
+          21225.543627929685
+        ],
+        [
+          3.3590412139965338,
+          69248.4204791486,
+          11680.00207519531
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/GondolaRoute/Meshes/SM_Gondola_Cable_Passenger.SM_Gondola_Cable_Passenger",
+          "materials": [
+            "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Graphite.M_Pylon_Graphite"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_Route_Cable_Return",
+      "position": [
+        -44257.305974972965,
+        19279.70756813546,
+        10891.2
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": [
+        [
+          -44022.146993649716,
+          88527.77145352619,
+          21521.043627929685
+        ],
+        [
+          3.359039306647901,
+          69248.42048960921,
+          11680.00207519531
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/GondolaRoute/Meshes/SM_Gondola_Cable_Return.SM_Gondola_Cable_Return",
+          "materials": [
+            "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Graphite.M_Pylon_Graphite"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_Route_Terminal_Millford",
+      "position": [
+        -44257.305974972965,
+        19279.70756813546,
+        10891.2
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": [
+        [
+          -44257.30602074933,
+          18933.729937712214,
+          10822.350009155274
+        ],
+        [
+          405.00001525878906,
+          345.97763080722143,
+          523.8500213623047
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/GondolaRoute/Meshes/SM_Gondola_Terminal_Millford.SM_Gondola_Terminal_Millford",
+          "materials": [
+            "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Graphite.M_Pylon_Graphite",
+            "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Galvanized.M_Pylon_Galvanized",
+            "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Faded_Grey_Green.M_Pylon_Faded_Grey_Green",
+            "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Marker_Red.M_Pylon_Marker_Red"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_Route_Terminal_Maldek",
+      "position": [
+        -44257.0,
+        157775.0,
+        32902.57795262074
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: 0.000000}>",
+      "bounds": [
+        [
+          -44256.99995422363,
+          158120.977589077,
+          32833.727961776014
+        ],
+        [
+          405.00001525878906,
+          345.9776111183164,
+          523.8500213623047
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/GondolaRoute/Meshes/SM_Gondola_Terminal_Maldek.SM_Gondola_Terminal_Maldek",
+          "materials": [
+            "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Graphite.M_Pylon_Graphite",
+            "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Galvanized.M_Pylon_Galvanized",
+            "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Faded_Grey_Green.M_Pylon_Faded_Grey_Green",
+            "/Game/MaldekRefinement/R12/GondolaRoute/Materials/M_Pylon_Marker_Red.M_Pylon_Marker_Red"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_04_Lower_Drive_000_solid",
+      "position": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": [
+        [
+          -44241.805974972965,
+          18820.582605805597,
+          10081.0
+        ],
+        [
+          170.5,
+          356.8750042915344,
+          182.5
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_000_solid.SM_R12_04_Lower_Drive_000_solid",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Concrete__Exterior.MI_UE_VF06_Concrete__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Weathered_Concrete__Exterior.MI_UE_R02_Weathered_Concrete__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_04_Lower_Drive_001_thin",
+      "position": [
+        -43482.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": [
+        [
+          -44254.30594445539,
+          19101.70764061471,
+          9983.0
+        ],
+        [
+          2.800018310546875,
+          20.563079833984375,
+          50.387939453125
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_001_thin.SM_R12_04_Lower_Drive_001_thin",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_04_Lower_Drive_002_solid",
+      "position": [
+        -43482.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": [
+        [
+          -44148.97260094953,
+          19455.95761343499,
+          9953.5
+        ],
+        [
+          69.41668701171875,
+          171.50002717971802,
+          55.0
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_002_solid.SM_R12_04_Lower_Drive_002_solid",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_04_Lower_Drive_003_thin",
+      "position": [
+        -43482.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": [
+        [
+          -44082.305974972965,
+          19399.707606282434,
+          9981.000003814697
+        ],
+        [
+          2.25,
+          225.00000381469727,
+          29.750041961669922
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_003_thin.SM_R12_04_Lower_Drive_003_thin",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_04_Lower_Drive_004_signage",
+      "position": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": [
+        [
+          -44429.17816735578,
+          19113.707549061975,
+          9991.693500518799
+        ],
+        [
+          13.646499633789062,
+          0.02996826171875,
+          1.2250022888183594
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_004_signage.SM_R12_04_Lower_Drive_004_signage",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_04_Lower_Drive_005_solid",
+      "position": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": [
+        [
+          -44483.68094445539,
+          18861.8325853016,
+          10065.999999046326
+        ],
+        [
+          401.3750305175781,
+          398.1250247955322,
+          197.50000095367432
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_005_solid.SM_R12_04_Lower_Drive_005_solid",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Concrete__Exterior.MI_UE_VF06_Concrete__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Painted_Charcoal__Exterior.MI_UE_R04_Painted_Charcoal__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Safety_Ochre__Exterior.MI_UE_R04_Safety_Ochre__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Instrument_Ivory__Exterior.MI_UE_R04_Instrument_Ivory__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Galvanized_Fittings__Exterior.MI_UE_R04_Galvanized_Fittings__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R04_Seals__Exterior.MI_UE_R04_Seals__Exterior"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_04_Lower_Drive_006_thin",
+      "position": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": [
+        [
+          -44882.30591393781,
+          19134.707564320765,
+          9980.999998092651
+        ],
+        [
+          2.25,
+          489.99998474121094,
+          29.750078201293945
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_006_thin.SM_R12_04_Lower_Drive_006_thin",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_04_Lower_Drive_007_solid",
+      "position": [
+        -44282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": [
+        [
+          -44482.55595971418,
+          19399.95756813546,
+          9949.0
+        ],
+        [
+          402.50001525878906,
+          227.50004196166992,
+          59.5
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_007_solid.SM_R12_04_Lower_Drive_007_solid",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Galvanized_Grating__Exterior.MI_UE_R02_Galvanized_Grating__Exterior"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_04_Lower_Drive_008_thin",
+      "position": [
+        -44282.305974972965,
+        19274.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": [
+        [
+          -44482.30595971418,
+          19624.707564320765,
+          9981.0
+        ],
+        [
+          400.00001525878906,
+          2.2500457763671875,
+          29.750015258789062
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_04_Lower_Drive_008_thin.SM_R12_04_Lower_Drive_008_thin",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "R12_01_Upper_Platform_001_solid",
+      "position": [
+        -44282.305974972965,
+        18474.707549061975,
+        9898.5
+      ],
+      "rotation": "<Struct 'Rotator' (0x0000027E82086130) {pitch: 0.000000, yaw: 180.000000, roll: -0.000000}>",
+      "bounds": [
+        [
+          -44706.30595971418,
+          18827.207604375086,
+          10428.0
+        ],
+        [
+          149.00001525878906,
+          320.5000057220459,
+          220.5
+        ]
+      ],
+      "meshes": [
+        {
+          "mesh": "/Game/MaldekRefinement/R12/Meshes/SM_R12_01_Upper_Platform_001_solid.SM_R12_01_Upper_Platform_001_solid",
+          "materials": [
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_VF06_Structural_steel__Exterior.MI_UE_VF06_Structural_steel__Exterior",
+            "/Game/MaldekRefinement/R12/Materials/Instances/MI_UE_R02_Chipped_Painted_Steel__Exterior.MI_UE_R02_Chipped_Painted_Steel__Exterior"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "editable_blend": "Maldek_Emergency_Power.blend",
+  "fitted_blend": "Maldek_Emergency_Power_Fitted.blend",
+  "reference_sha256": "54bb3f1e54a6c84ebd1b90c5664e6e7b328be6e6139bac0f6fd9f49ea630b6aa",
+  "review_images": [
+    "reviews/01_neutral_overview.png",
+    "reviews/02_service_side.png",
+    "reviews/03_controls_stopped.png",
+    "reviews/04_controls_running_indication.png",
+    "reviews/05_west_entrance_closed.png",
+    "reviews/06_open_mechanisms.png",
+    "reviews/07_west_entrance_open.png",
+    "reviews/08_louvre_section.png",
+    "reviews/09_duct_cutaway.png",
+    "reviews/10_entire_exhaust.png",
+    "reviews/11_sleeve_detail.png",
+    "reviews/12_player_height.png",
+    "reviews/13_distribution_open.png",
+    "reviews/14_battery_open.png"
+  ],
+  "verification_passed": true,
+  "files": {
+    "assembly.json": {
+      "bytes": 230787,
+      "sha256": "31ca76ad48dadb6d8e79660c560ebb01f8f73e96e977923387d051c601745430"
+    },
+    "handling_verification.json": {
+      "bytes": 695,
+      "sha256": "79547f7fad6227fb3ba7d2115529e79e9f1887a3573db19b90bfd32da5da7c94"
+    },
+    "Maldek_Emergency_Power.blend": {
+      "bytes": 510991,
+      "sha256": "0c13d034b4301dbb52b8ea3bf8dfbfc3c06fea86dd141e4a7be78741d3930cf6"
+    },
+    "Maldek_Emergency_Power_Fitted.blend": {
+      "bytes": 596611,
+      "sha256": "bf8d0297466160454f679db5160b749314d2c1a9b7af014bbfbfa6d459df2314"
+    },
+    "mechanism_verification.json": {
+      "bytes": 2305,
+      "sha256": "d6e866f617dc557a35cd9daba3c232dc8ce24beb9823204ec2e09f57438a7245"
+    },
+    "README.md": {
+      "bytes": 10368,
+      "sha256": "b88a9ab553cb1b8959652a602e0170542953e2c593eb56fcf2b2db8d5b5ca3f3"
+    },
+    "reference_inspection.json": {
+      "bytes": 75597,
+      "sha256": "c504da06a9b2dae5b86feae1cd4124bd03a439dcca2e8b925fedb818a1edda8c"
+    },
+    "shell_patch.json": {
+      "bytes": 567,
+      "sha256": "b65aa7ea968f7957d59294fd12fecc52c6cd2ad582e58c04c54d6c4df5f83497"
+    },
+    "surface_audit.json": {
+      "bytes": 6807,
+      "sha256": "55e450800670025096afe2c0b571d4d633746feaec665c8e76eeb151a199f360"
+    },
+    "verification.json": {
+      "bytes": 2121,
+      "sha256": "c701406dc16537d1c7eb8a579d0ec1f41c3cb905d8cc89f1c9be77440a9aa7c3"
+    },
+    "reviews/01_neutral_overview.png": {
+      "bytes": 1525501,
+      "sha256": "0736540c3026c4288b8089c95e72baa7e0f1b95820668c4bb68c1c65c6b5b42b"
+    },
+    "reviews/02_service_side.png": {
+      "bytes": 1599889,
+      "sha256": "cdc11754ae0552763ea361d2b175fa6ed75d06bc534b3676be003a984b9faf25"
+    },
+    "reviews/03_controls_stopped.png": {
+      "bytes": 1488384,
+      "sha256": "bedcee29e692a432feef8f3922a47b4d4d8d2ffe671c38201a27969ba9261a90"
+    },
+    "reviews/04_controls_running_indication.png": {
+      "bytes": 1489177,
+      "sha256": "b574df56d3074557febe49bef517f39324d02f78aac57da33b5a85241c7e5d69"
+    },
+    "reviews/05_west_entrance_closed.png": {
+      "bytes": 1493727,
+      "sha256": "60c8b0c09bfdf8fc33b4088708349ae8f7f5024c3d2aead8b44c38388b4044fc"
+    },
+    "reviews/06_open_mechanisms.png": {
+      "bytes": 1596922,
+      "sha256": "3a84a4db5a29614fef81c6efc46328000fceb520e28a6dfe00693bcbb1ad0c6d"
+    },
+    "reviews/07_west_entrance_open.png": {
+      "bytes": 1446849,
+      "sha256": "00a615aaccdbdf7de76fa74f5fc84464f330c05b52974fea1517bc377340059c"
+    },
+    "reviews/08_louvre_section.png": {
+      "bytes": 1566913,
+      "sha256": "6b53750c85dcbf93775bd6975b2bcd178913f22d0efb1045839b978150e454af"
+    },
+    "reviews/09_duct_cutaway.png": {
+      "bytes": 1604538,
+      "sha256": "8433d805c4ac94c8cd1787d4293fb70c77079e710f8b06df746527f0579c5e89"
+    },
+    "reviews/10_entire_exhaust.png": {
+      "bytes": 1432347,
+      "sha256": "9556d8705e7092c805451f083326e5bddbb523ad6eafa0daa29de886eb3131c6"
+    },
+    "reviews/11_sleeve_detail.png": {
+      "bytes": 1390208,
+      "sha256": "564f9c8ba724ef72f31422289fe8d3d79d5aed232dd9540fd9317079dc47afea"
+    },
+    "reviews/12_player_height.png": {
+      "bytes": 1503181,
+      "sha256": "4d8c1528ab38b80d38ee2f3b57b6ea8cafea8eb49ad0b584dfaea157d2a8f95f"
+    },
+    "reviews/13_distribution_open.png": {
+      "bytes": 1386269,
+      "sha256": "db71ec9485b7a061e84f74975ddc242622b590d379e1c9a27bc1516f3ddbfe2c"
+    },
+    "reviews/14_battery_open.png": {
+      "bytes": 1530596,
+      "sha256": "12ec4d248ada6e5b0b6387a3301e218a256fa64a790e16c9c3b38250199598cf"
+    },
+    "scripts/build.py": {
+      "bytes": 17249,
+      "sha256": "72d9752a09456e072ac7cbd2ce738b6554dff06a46c31e51967f5220b6985a4b"
+    },
+    "scripts/finalize.py": {
+      "bytes": 2859,
+      "sha256": "d85de08a8260499dcccb8d742432df9b0f25590f8c15403148aa5c5092aa9b0f"
+    },
+    "scripts/handling_verify.py": {
+      "bytes": 1877,
+      "sha256": "bf2e9af78507cad7a0536078d87a17849bb7fcf16164e99111fd9e1b138bcb3e"
+    },
+    "scripts/inspect_reference.py": {
+      "bytes": 856,
+      "sha256": "3f47088715cdb85cf6ddec7b903acdc25db916430d9280daaee7651795e52025"
+    },
+    "scripts/mechanism_verify.py": {
+      "bytes": 3812,
+      "sha256": "5cfab49ca1673ea041767327ec978b158befc23922bc79e8bfb849702ca9e500"
+    },
+    "scripts/patch_world.py": {
+      "bytes": 933,
+      "sha256": "0361fa95101e12e92be59c49138c15ad50fa3c1db85cd68e5714153750dac2c4"
+    },
+    "scripts/review.py": {
+      "bytes": 6390,
+      "sha256": "3352dcb9b69086ae31b2eaeabc09958d622000805951f81e3fe4788f95b01d35"
+    },
+    "scripts/surface_audit.py": {
+      "bytes": 2216,
+      "sha256": "d8d0d5ba25253b85a03cd4d2bccb0ef94dd9e4895e878f4b02b7b6ce34ee6668"
+    },
+    "scripts/verify.py": {
+      "bytes": 3637,
+      "sha256": "3aafce82073f03b2f03c993eb386f38813ad0230e02c963efbc5e72f6821d228"
+    }
+  },
+  "limits": "Unreal checks, shared-shell integration, wind/thermal/acoustic/fire/structural sizing and temporary access-lift design remain later gates."
+}
