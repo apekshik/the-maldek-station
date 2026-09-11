@@ -1,4 +1,5 @@
 #include "StationCabinet.h"
+#include "StationSoundVariation.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
 #include "Components/WidgetComponent.h"
@@ -87,7 +88,7 @@ bool AStationCabinet::TryInteract()
  if(!bObstructed)bWantsOpen=!bWantsOpen;
  Target=bWantsOpen?1:0;bObstructed=false;
  if(Cam->GetStaticMesh() && bWantsOpen && LatchSound)UGameplayStatics::PlaySoundAtLocation(this,LatchSound,GetActorLocation(),.45f);
- if(USoundBase* Sound=bWantsOpen?MovementSound.Get():ClosingSound.Get()){MotionAudio->SetSound(Sound);MotionAudio->Play();}
+ if(USoundBase* Sound=bWantsOpen?PickStationSound(MovementSound,OpeningTakes,LastOpeningTake):PickStationSound(ClosingSound,ClosingTakes,LastClosingTake)){MotionAudio->SetSound(Sound);MotionAudio->Play();}
  return true;
 }
 void AStationCabinet::Tick(float Dt)

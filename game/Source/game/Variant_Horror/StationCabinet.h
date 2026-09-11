@@ -41,7 +41,10 @@ public:
  UPROPERTY(EditAnywhere,BlueprintReadWrite) TArray<FVector> CollisionExtents;
  UPROPERTY(EditAnywhere,BlueprintReadWrite) TObjectPtr<USoundBase> MovementSound;
  UPROPERTY(EditAnywhere,BlueprintReadWrite) TObjectPtr<USoundBase> ClosingSound;
+ UPROPERTY(EditAnywhere,BlueprintReadWrite) TArray<TObjectPtr<USoundBase>> OpeningTakes;
+ UPROPERTY(EditAnywhere,BlueprintReadWrite) TArray<TObjectPtr<USoundBase>> ClosingTakes;
 private:
+ TWeakObjectPtr<USoundBase> LastOpeningTake,LastClosingTake;
  UPROPERTY(Transient) TArray<TObjectPtr<UBoxComponent>> Boxes;
  TSharedPtr<SWidget> HintWidget;
  TSharedPtr<STextBlock> HintAction,HintDetail;

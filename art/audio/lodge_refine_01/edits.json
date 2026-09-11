@@ -1,0 +1,722 @@
+[
+  {
+    "asset": "LockerOpen_00",
+    "source": "locker",
+    "excerpt": [
+      0.3,
+      1.15
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.05520207331296238,
+    "gain_db": 5.173313748531724,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "adfb8e119d0cf2cd8a95f53a880d9ff81a112bf1272bfeacdb45c5dfc83a9d87"
+  },
+  {
+    "asset": "LockerOpen_01",
+    "source": "locker",
+    "excerpt": [
+      8.15,
+      9.0
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.0713160596219654,
+    "gain_db": 6.813313085165818,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "6677ed4f2b86a6a9f048b30352674e3dadcd65a2892045fe248c764971cf4bea"
+  },
+  {
+    "asset": "LockerOpen_02",
+    "source": "locker",
+    "excerpt": [
+      17.1,
+      17.950000000000003
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.0813365127550052,
+    "gain_db": 5.804296537016437,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "44e86248d45ed9ad0dda9b721e53c86fe897363f632ff44683116f76ab9e4ea5"
+  },
+  {
+    "asset": "LockerClose_00",
+    "source": "locker",
+    "excerpt": [
+      4.55,
+      5.3999999999999995
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.07020802618600723,
+    "gain_db": 3.193230900670562,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "2a9bd1d88842fdb114714162c86506bf5b932bac08d91e4fdee62d543c71d45f"
+  },
+  {
+    "asset": "LockerClose_01",
+    "source": "locker",
+    "excerpt": [
+      12.8,
+      13.65
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.06971664292636112,
+    "gain_db": 6.987550462579005,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "6fa385adea915ba1b913dce617c4db2741c564f019a6eff285e53527595c1f5e"
+  },
+  {
+    "asset": "LockerClose_02",
+    "source": "locker",
+    "excerpt": [
+      21.4,
+      22.25
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.08529262329586003,
+    "gain_db": 0.6675824506102921,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "da9371c352cc564b88964b9d1654571d34190853bc5e10c6f8671b63ec4f0aeb"
+  },
+  {
+    "asset": "DrawerOpen_00",
+    "source": "drawer",
+    "excerpt": [
+      2.65,
+      3.5
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.06598017764800225,
+    "gain_db": 11.107275608730392,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "8edaa6d198285bc4077bb848458e06373215ac5525f54d071400007baeb943ae"
+  },
+  {
+    "asset": "DrawerOpen_01",
+    "source": "drawer",
+    "excerpt": [
+      5.95,
+      6.8
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.04970538286903478,
+    "gain_db": 8.331192053087083,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "de7c23b779c5c90eeae55ca42c7138c48a1348f635b084c85094f1f95591b3ba"
+  },
+  {
+    "asset": "DrawerOpen_02",
+    "source": "drawer",
+    "excerpt": [
+      11.65,
+      12.5
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.05957922316746064,
+    "gain_db": 11.77326750314801,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "53867c9f5951c84c443992dbfe298c893b1c6fdf49bbed0f459f8cfb8fc50ffa"
+  },
+  {
+    "asset": "DrawerClose_00",
+    "source": "drawer",
+    "excerpt": [
+      4.15,
+      5.0
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.06216555676835012,
+    "gain_db": 0.9328685646037818,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "f927ce062e5e35248474a38695acd6fd6cf7fd1b432ca2c44181fcc3c8dd5774"
+  },
+  {
+    "asset": "DrawerClose_01",
+    "source": "drawer",
+    "excerpt": [
+      6.95,
+      7.8
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.05047593989027157,
+    "gain_db": -3.580421217594229,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "f17220d53e250384583cfd005a631aee5bee46364c0ce350f0217ca5e1756e49"
+  },
+  {
+    "asset": "DrawerClose_02",
+    "source": "drawer",
+    "excerpt": [
+      9.8,
+      10.65
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.04472742437093412,
+    "gain_db": -2.6806080746592875,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "6acffb839fd820abb07afc60ba7331d4073f7259469c03012c5b481849ecfad4"
+  },
+  {
+    "asset": "CupboardOpen_00",
+    "source": "cupboard",
+    "excerpt": [
+      0.2,
+      1.05
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.07033792921818437,
+    "gain_db": -5.799920939608212,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "f5938c3d1ac63beb8b2e90dcfd4d30f3515bbf2d1fc9b33b8ea8543f779f16a3"
+  },
+  {
+    "asset": "CupboardOpen_01",
+    "source": "cupboard",
+    "excerpt": [
+      3.55,
+      4.3999999999999995
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.07150348063397091,
+    "gain_db": -6.338867542965762,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "202979a8af4c65b314861442bd61080a4ef77b42abd5904c62081a28107f5e64"
+  },
+  {
+    "asset": "CupboardClose_00",
+    "source": "cupboard",
+    "excerpt": [
+      1.8,
+      2.65
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.03453761642960688,
+    "gain_db": 7.036247782333499,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "d107ff8e5df66d87d8f3fbff99fe12d13d2059b16703ac8ad6aa02b2b8b209f2"
+  },
+  {
+    "asset": "CupboardClose_01",
+    "source": "cupboard",
+    "excerpt": [
+      4.8,
+      5.6499999999999995
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.029908896263287497,
+    "gain_db": 6.294551725093459,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "94e5a45ee14846d89b7f2434a59973005376c3e1e0235cd072708ff13af25032"
+  },
+  {
+    "asset": "FridgeOpen_00",
+    "source": "fridge",
+    "excerpt": [
+      0.15,
+      1.0
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.06688252029418774,
+    "gain_db": 10.234309170337465,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "4549547e3340bebc7e0adbe36a0c4e06f274795aab1443d38d1262563ad69f2b"
+  },
+  {
+    "asset": "FridgeClose_00",
+    "source": "fridge",
+    "excerpt": [
+      5.6,
+      6.449999999999999
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.05275768080083152,
+    "gain_db": 0.9520429209914433,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "870cd0f946fdaa024ce92e6f16c0b4a09a2a56296cb7ccf1e8db1b6b6be43292"
+  },
+  {
+    "asset": "FridgeClose_01",
+    "source": "fridge",
+    "excerpt": [
+      13.65,
+      14.5
+    ],
+    "lowpass_hz": 3200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.059975859668233565,
+    "gain_db": 2.606977492660211,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "e7d2a0ab66036c01f3f14f53628d91c11240d69cbb11a8bf3d3a967fc8bac912"
+  },
+  {
+    "asset": "RoomOpen_00",
+    "source": "room",
+    "excerpt": [
+      4.85,
+      5.699999999999999
+    ],
+    "lowpass_hz": 2400,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.11406159937499505,
+    "gain_db": 23.24157535664319,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "c9da6cf64c2e9c620491dfc1f1ed4c899f68a8b9386b2d2f8527c7488fa4ec44"
+  },
+  {
+    "asset": "RoomOpen_01",
+    "source": "room",
+    "excerpt": [
+      17.45,
+      18.3
+    ],
+    "lowpass_hz": 2400,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.052289670725377664,
+    "gain_db": 7.9911158728751985,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "0f3e26bec1ec76238f16a15c59a4d70cee66755e3d26a95fe267ff6c0fb584dc"
+  },
+  {
+    "asset": "RoomOpen_02",
+    "source": "room",
+    "excerpt": [
+      22.6,
+      23.450000000000003
+    ],
+    "lowpass_hz": 2400,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.0649552372659075,
+    "gain_db": 9.018085143704338,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "cef24501c84ec24b627b4c8ac4136eb08422eeed2c26343382304d24b97ac7f5"
+  },
+  {
+    "asset": "RoomClose_00",
+    "source": "room",
+    "excerpt": [
+      9.85,
+      10.7
+    ],
+    "lowpass_hz": 2400,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.03853587407354954,
+    "gain_db": 10.356245655235634,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "f5a845f6bd3dc04bf5e8ff64ca39e12996416cc286d997a80476f5a019b0f6f2"
+  },
+  {
+    "asset": "RoomClose_01",
+    "source": "room",
+    "excerpt": [
+      14.55,
+      15.4
+    ],
+    "lowpass_hz": 2400,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.09657433840870162,
+    "gain_db": 13.97034782304431,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "facd6fe69f0ebd2c6eddb94167c5faf9603c83332fba730cd3f145fd61776a0f"
+  },
+  {
+    "asset": "RoomClose_02",
+    "source": "room",
+    "excerpt": [
+      30.95,
+      31.8
+    ],
+    "lowpass_hz": 2400,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6,
+    "rms": 0.12010192675000968,
+    "gain_db": 11.299742019075046,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "a7d66f47d1977f3c91c2c4ba6151a6a1a7eb8679a380da2ddecf373d528e1997"
+  },
+  {
+    "asset": "FridgeOpen_01",
+    "source": "fridge_alt",
+    "excerpt": [
+      6.2,
+      7.05
+    ],
+    "lowpass_hz": 2200,
+    "bass_layer_gain": 0.4,
+    "peak": 0.6000000000000001,
+    "rms": 0.03804626519640442,
+    "gain_db": 6.947326757993686,
+    "seconds": 0.85,
+    "loop": false,
+    "sha256": "3be36a885fc5b17ba57b6ec6969a2fba9a7450ecc5cd2868a861cc9afb1a1f42"
+  },
+  {
+    "asset": "RoomTravelClose_00",
+    "source": "room",
+    "excerpt": [
+      9.2,
+      9.75
+    ],
+    "lowpass_hz": 1800,
+    "bass_layer_gain": 0.3,
+    "peak": 0.15,
+    "rms": 0.027463280441057076,
+    "gain_db": 16.62009815970586,
+    "seconds": 0.55,
+    "loop": false,
+    "sha256": "fa566c43700cf0c89a0e1294192afa6edb69159eec6b97e9ec844b19b325e806"
+  },
+  {
+    "asset": "RoomTravelClose_01",
+    "source": "room",
+    "excerpt": [
+      30.2,
+      30.75
+    ],
+    "lowpass_hz": 1800,
+    "bass_layer_gain": 0.3,
+    "peak": 0.15,
+    "rms": 0.021683460099793054,
+    "gain_db": 20.417120591219337,
+    "seconds": 0.55,
+    "loop": false,
+    "sha256": "f2a9a2c2319d16884d4049ca0cd6b0b0c43e4eb63c25ee3930c8bd724a7ee3a1"
+  },
+  {
+    "asset": "StepTile_00",
+    "source": "tile",
+    "excerpt": [
+      0.82,
+      1.3599999999999999
+    ],
+    "lowpass_hz": 1550,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.051668330600005564,
+    "gain_db": 14.927326390821085,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "540793dc48abe72872a689f52929967e7d1b508b756cdd0c1b5154c38b298b03"
+  },
+  {
+    "asset": "StepTile_01",
+    "source": "tile",
+    "excerpt": [
+      1.74,
+      2.2800000000000002
+    ],
+    "lowpass_hz": 1550,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.04169872649544959,
+    "gain_db": 18.58730524046132,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "55c4c22d12d11b3c3cb0fe8633e13345fd14bc901efe71db3ab79e6758ba721e"
+  },
+  {
+    "asset": "StepTile_02",
+    "source": "tile",
+    "excerpt": [
+      2.66,
+      3.2
+    ],
+    "lowpass_hz": 1550,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.05585018262833093,
+    "gain_db": 18.793905460928503,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "5f427726e4edcf642f2dcee6ad16ed7c2e4c48ab46c739a9792422f67955c3f0"
+  },
+  {
+    "asset": "StepTile_03",
+    "source": "tile",
+    "excerpt": [
+      3.57,
+      4.109999999999999
+    ],
+    "lowpass_hz": 1550,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.041166764681709656,
+    "gain_db": 20.673098390302837,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "bfa93674dc0cabceba0a3d34458f5473891b577b217fdec7c6586054525d0fa2"
+  },
+  {
+    "asset": "StepTile_04",
+    "source": "tile",
+    "excerpt": [
+      4.48,
+      5.0200000000000005
+    ],
+    "lowpass_hz": 1550,
+    "bass_layer_gain": 1.2,
+    "peak": 0.6199999999999999,
+    "rms": 0.04385531714636284,
+    "gain_db": 19.49523022141548,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "276be4df7714c15bc7dfec7bf850de97a4a5fcc4470edb6eea9306f5c051b217"
+  },
+  {
+    "asset": "StepTile_05",
+    "source": "tile",
+    "excerpt": [
+      5.42,
+      5.96
+    ],
+    "lowpass_hz": 1550,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.054925173300249625,
+    "gain_db": 19.351998339316154,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "00b3c1aed26dc6b55db9e6df07bc376d97fab774db078fa0575421a7350a3042"
+  },
+  {
+    "asset": "StepConcrete_00",
+    "source": "concrete",
+    "excerpt": [
+      0.2,
+      0.74
+    ],
+    "lowpass_hz": 1250,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.048369282294284416,
+    "gain_db": 17.758527996448535,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "7ad7ebd5e0450493a8e3b9e54f24ccefdf6447619d2ada95e39315b93248de87"
+  },
+  {
+    "asset": "StepConcrete_01",
+    "source": "concrete",
+    "excerpt": [
+      1.13,
+      1.67
+    ],
+    "lowpass_hz": 1250,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.06470387842768688,
+    "gain_db": 26.808005080725792,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "e6bcdc7d6ab9cdb40eb58e0057cb55024ecc06433658e85f7e82fc6ec7cbf3e9"
+  },
+  {
+    "asset": "StepConcrete_02",
+    "source": "concrete",
+    "excerpt": [
+      2.46,
+      3.0
+    ],
+    "lowpass_hz": 1250,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.058790336857669864,
+    "gain_db": 27.581039764991747,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "47507c6f7c8d072035c405590dc40ac3e24eef19c468c22fc2a3b1984b1dec66"
+  },
+  {
+    "asset": "StepConcrete_03",
+    "source": "concrete",
+    "excerpt": [
+      3.18,
+      3.72
+    ],
+    "lowpass_hz": 1250,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.07753702682393976,
+    "gain_db": 26.20464830003848,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "6ee6162ae3501c252cbae9d28f878d74fe1f479fbfe6c66b7c322afc02a2a317"
+  },
+  {
+    "asset": "StepConcrete_04",
+    "source": "concrete",
+    "excerpt": [
+      5.86,
+      6.4
+    ],
+    "lowpass_hz": 1250,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.047506310110433186,
+    "gain_db": 22.770110446961876,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "a59b7879275c4323b08a6bf5437e60c160329c43e8414ddb080818c9b8254d41"
+  },
+  {
+    "asset": "StepConcrete_05",
+    "source": "concrete",
+    "excerpt": [
+      8.28,
+      8.82
+    ],
+    "lowpass_hz": 1250,
+    "bass_layer_gain": 1.2,
+    "peak": 0.62,
+    "rms": 0.05890266612178833,
+    "gain_db": 17.64222268045514,
+    "seconds": 0.54,
+    "loop": false,
+    "sha256": "47da0c772070dc8a0cb267e0ec369b3719074db6532ceb1d035945b51df2900f"
+  },
+  {
+    "asset": "ShelteredStorm",
+    "source": "wind",
+    "excerpt": [
+      15,
+      105
+    ],
+    "lowpass_hz": 850,
+    "bass_layer_gain": 0.7,
+    "peak": 0.72,
+    "rms": 0.08271545100296153,
+    "gain_db": 8.47487191827641,
+    "seconds": 87.0,
+    "loop": true,
+    "sha256": "beb001cbf25eaa690b19de210c7914cab952a60d1740cd9afeaf95636632a37e"
+  },
+  {
+    "asset": "SteelOpen_00",
+    "source": "steel_open",
+    "excerpt": [
+      0.12,
+      0.86
+    ],
+    "lowpass_hz": 2300,
+    "bass_layer_gain": 0.35,
+    "peak": 0.42,
+    "rms": 0.10495134091530203,
+    "gain_db": 4.523660058199972,
+    "seconds": 0.74,
+    "loop": false,
+    "sha256": "28eb0fc8a2d28f737f77b4746cf25044c8eb5db58475209a1744ce0037f12c17"
+  },
+  {
+    "asset": "SteelOpen_01",
+    "source": "steel_open",
+    "excerpt": [
+      0.86,
+      1.6
+    ],
+    "lowpass_hz": 2300,
+    "bass_layer_gain": 0.35,
+    "peak": 0.42,
+    "rms": 0.08431334707575312,
+    "gain_db": 5.264520165011901,
+    "seconds": 0.74,
+    "loop": false,
+    "sha256": "a73db4b06acb931be3d85e524986d995636bdaa350a10031771d642c74f4f5ef"
+  },
+  {
+    "asset": "SteelClose_00",
+    "source": "steel_close",
+    "excerpt": [
+      0.12,
+      0.86
+    ],
+    "lowpass_hz": 2300,
+    "bass_layer_gain": 0.35,
+    "peak": 0.42,
+    "rms": 0.09024080545241761,
+    "gain_db": 1.7386561192299468,
+    "seconds": 0.74,
+    "loop": false,
+    "sha256": "67b61644168f74701156fab6c6e41f373d31c0147a4e3dccf8d5f3be8fcbdde5"
+  },
+  {
+    "asset": "SteelClose_01",
+    "source": "steel_close",
+    "excerpt": [
+      0.86,
+      1.6
+    ],
+    "lowpass_hz": 2300,
+    "bass_layer_gain": 0.35,
+    "peak": 0.42,
+    "rms": 0.046077892192895736,
+    "gain_db": 3.726736233287748,
+    "seconds": 0.74,
+    "loop": false,
+    "sha256": "e3de8508ae188bb3c34217d67539357812bf8f72534d789324cf0cb56e73299d"
+  }
+]

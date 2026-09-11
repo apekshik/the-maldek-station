@@ -1,0 +1,295 @@
+{
+  "assets": [
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Frames_Static",
+      "bounds_error_cm": 7.62939453125e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Frames_Leaf",
+      "bounds_error_cm": 2.7418136596679688e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Frames_Latch",
+      "bounds_error_cm": 8.940696716308594e-08
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Safety_print",
+      "bounds_error_cm": 3.266334533691406e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Archive_A_print",
+      "bounds_error_cm": 2.4318695068359375e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Archive_B_print",
+      "bounds_error_cm": 2.2411346435546875e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Archive_A_caption_art",
+      "bounds_error_cm": 2.4557113647460938e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Archive_B_caption_art",
+      "bounds_error_cm": 2.1696090698242188e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Rack_heading",
+      "bounds_error_cm": 1.4722347259521484e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_0_0_0",
+      "bounds_error_cm": 1.615285873413086e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_0_0_1",
+      "bounds_error_cm": 1.4990568161010742e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_0_1_0",
+      "bounds_error_cm": 1.424551010131836e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_0_1_1",
+      "bounds_error_cm": 1.3083219528198242e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_0_1_2",
+      "bounds_error_cm": 1.2993812561035156e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_0_1_3",
+      "bounds_error_cm": 1.3232231140136719e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_0_1_4",
+      "bounds_error_cm": 1.2964010238647461e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_0_1_5",
+      "bounds_error_cm": 1.3172626495361328e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_1_1_0",
+      "bounds_error_cm": 1.424551010131836e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_1_1_1",
+      "bounds_error_cm": 1.3083219528198242e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_1_1_2",
+      "bounds_error_cm": 1.2993812561035156e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_2_0_0",
+      "bounds_error_cm": 1.615285873413086e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_2_0_1",
+      "bounds_error_cm": 1.4990568161010742e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_2_0_2",
+      "bounds_error_cm": 1.4901161193847656e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_2_0_3",
+      "bounds_error_cm": 1.5139579772949219e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Leaflet_2_1_0",
+      "bounds_error_cm": 1.424551010131836e-05
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Gauge_temperature_dial",
+      "bounds_error_cm": 7.808208465576172e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Gauge_temperature_glass",
+      "bounds_error_cm": 7.3909759521484375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Gauge_humidity_dial",
+      "bounds_error_cm": 7.808208465576172e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Gauge_humidity_glass",
+      "bounds_error_cm": 7.3909759521484375e-06
+    },
+    {
+      "asset": "/Game/MaldekRefinement/PassengerLodge/EastWall/Meshes/SM_PLG2_Cabinet_label",
+      "bounds_error_cm": 1.6242265701293945e-06
+    }
+  ],
+  "actors": [
+    {
+      "label": "MIG_PLG2_FirstAid",
+      "mesh": "SM_PLG2_Frames_Leaf",
+      "role": "Leaf"
+    },
+    {
+      "label": "MIG_PLG2_Static",
+      "mesh": "SM_PLG2_Frames_Static",
+      "role": "Static"
+    },
+    {
+      "label": "MIG_PLG2_Latch",
+      "mesh": "SM_PLG2_Frames_Latch",
+      "role": "Latch"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Safety_print",
+      "mesh": "SM_PLG2_Safety_print",
+      "role": "PLG2_Safety_print"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Archive_A_print",
+      "mesh": "SM_PLG2_Archive_A_print",
+      "role": "PLG2_Archive_A_print"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Archive_B_print",
+      "mesh": "SM_PLG2_Archive_B_print",
+      "role": "PLG2_Archive_B_print"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Archive_A_caption_art",
+      "mesh": "SM_PLG2_Archive_A_caption_art",
+      "role": "PLG2_Archive_A_caption_art"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Archive_B_caption_art",
+      "mesh": "SM_PLG2_Archive_B_caption_art",
+      "role": "PLG2_Archive_B_caption_art"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Rack_heading",
+      "mesh": "SM_PLG2_Rack_heading",
+      "role": "PLG2_Rack_heading"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_0_0_0",
+      "mesh": "SM_PLG2_Leaflet_0_0_0",
+      "role": "PLG2_Leaflet_0_0_0"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_0_0_1",
+      "mesh": "SM_PLG2_Leaflet_0_0_1",
+      "role": "PLG2_Leaflet_0_0_1"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_0_1_0",
+      "mesh": "SM_PLG2_Leaflet_0_1_0",
+      "role": "PLG2_Leaflet_0_1_0"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_0_1_1",
+      "mesh": "SM_PLG2_Leaflet_0_1_1",
+      "role": "PLG2_Leaflet_0_1_1"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_0_1_2",
+      "mesh": "SM_PLG2_Leaflet_0_1_2",
+      "role": "PLG2_Leaflet_0_1_2"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_0_1_3",
+      "mesh": "SM_PLG2_Leaflet_0_1_3",
+      "role": "PLG2_Leaflet_0_1_3"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_0_1_4",
+      "mesh": "SM_PLG2_Leaflet_0_1_4",
+      "role": "PLG2_Leaflet_0_1_4"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_0_1_5",
+      "mesh": "SM_PLG2_Leaflet_0_1_5",
+      "role": "PLG2_Leaflet_0_1_5"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_1_1_0",
+      "mesh": "SM_PLG2_Leaflet_1_1_0",
+      "role": "PLG2_Leaflet_1_1_0"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_1_1_1",
+      "mesh": "SM_PLG2_Leaflet_1_1_1",
+      "role": "PLG2_Leaflet_1_1_1"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_1_1_2",
+      "mesh": "SM_PLG2_Leaflet_1_1_2",
+      "role": "PLG2_Leaflet_1_1_2"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_2_0_0",
+      "mesh": "SM_PLG2_Leaflet_2_0_0",
+      "role": "PLG2_Leaflet_2_0_0"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_2_0_1",
+      "mesh": "SM_PLG2_Leaflet_2_0_1",
+      "role": "PLG2_Leaflet_2_0_1"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_2_0_2",
+      "mesh": "SM_PLG2_Leaflet_2_0_2",
+      "role": "PLG2_Leaflet_2_0_2"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_2_0_3",
+      "mesh": "SM_PLG2_Leaflet_2_0_3",
+      "role": "PLG2_Leaflet_2_0_3"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Leaflet_2_1_0",
+      "mesh": "SM_PLG2_Leaflet_2_1_0",
+      "role": "PLG2_Leaflet_2_1_0"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Gauge_temperature_dial",
+      "mesh": "SM_PLG2_Gauge_temperature_dial",
+      "role": "PLG2_Gauge_temperature_dial"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Gauge_temperature_glass",
+      "mesh": "SM_PLG2_Gauge_temperature_glass",
+      "role": "PLG2_Gauge_temperature_glass"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Gauge_humidity_dial",
+      "mesh": "SM_PLG2_Gauge_humidity_dial",
+      "role": "PLG2_Gauge_humidity_dial"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Gauge_humidity_glass",
+      "mesh": "SM_PLG2_Gauge_humidity_glass",
+      "role": "PLG2_Gauge_humidity_glass"
+    },
+    {
+      "label": "MIG_PLG2_PLG2_Cabinet_label",
+      "mesh": "SM_PLG2_Cabinet_label",
+      "role": "PLG2_Cabinet_label"
+    }
+  ],
+  "textures": [
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Frames_BaseColor",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Frames_ORM",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Frames_NormalGL",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_safety",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_archive_1",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_archive_2",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_caption_A",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_caption_B",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_rack_label",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_leaflet_routes",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_leaflet_lodge",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_leaflet_care",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_gauge_temperature",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_gauge_humidity",
+    "/Game/MaldekRefinement/PassengerLodge/EastWall/Textures/T_PLG2_Ink_first_aid"
+  ],
+  "shader_errors": [],
+  "original_map_unchanged": true
+}

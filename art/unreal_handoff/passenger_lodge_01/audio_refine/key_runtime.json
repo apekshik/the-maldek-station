@@ -1,0 +1,177 @@
+{
+  "phase": 1,
+  "index": 3,
+  "next": 441894.028,
+  "deadline": 442168.156,
+  "checks": {
+    "MIG_PLD_ARRIVAL_starts_locked": true,
+    "MIG_PLD_ARRIVAL_E_enters_key_camera": true,
+    "MIG_PLD_ARRIVAL_input_held": true,
+    "MIG_PLD_ARRIVAL_key_path_visible": true,
+    "MIG_PLD_ARRIVAL_off_key_drag_rejected": true,
+    "MIG_PLD_ARRIVAL_click_alone_does_not_insert": true,
+    "MIG_PLD_ARRIVAL_partial_insertion": true,
+    "MIG_PLD_ARRIVAL_release_holds_partial": true,
+    "MIG_PLD_ARRIVAL_reverse_drag": true,
+    "MIG_PLD_ARRIVAL_cancel_stays_locked": true,
+    "MIG_PLD_ARRIVAL_cancel_restores_input": true,
+    "MIG_PLD_ARRIVAL_reentry": true,
+    "MIG_PLD_ARRIVAL_recorded_turn_playing": true,
+    "MIG_PLD_ARRIVAL_seated_before_unlock": true,
+    "MIG_PLD_ARRIVAL_plug_turns": true,
+    "MIG_PLD_ARRIVAL_unlock_shut": true,
+    "MIG_PLD_ARRIVAL_unlock_restores_input": true,
+    "MIG_PLD_ARRIVAL_latch_retracted": true,
+    "MIG_PLD_ARRIVAL_seal_lifted": true,
+    "MIG_PLD_ARRIVAL_lever_depressed": true,
+    "MIG_PLD_ARRIVAL_movement_audio": true,
+    "MIG_PLD_ARRIVAL_full_swing": true,
+    "MIG_PLD_ARRIVAL_capsule_crossing": true,
+    "MIG_PLD_ARRIVAL_closed_relocks": true,
+    "MIG_PLD_ARRIVAL_missing_key_gate": true,
+    "MIG_PLD_ARRIVAL_inside_egress_without_key": true,
+    "MIG_PLD_ARRIVAL_rest_pose": true,
+    "MIG_PLD_GONDOLA_starts_locked": true,
+    "MIG_PLD_GONDOLA_E_enters_key_camera": true,
+    "MIG_PLD_GONDOLA_input_held": true,
+    "MIG_PLD_GONDOLA_key_path_visible": true,
+    "MIG_PLD_GONDOLA_off_key_drag_rejected": true,
+    "MIG_PLD_GONDOLA_click_alone_does_not_insert": true,
+    "MIG_PLD_GONDOLA_partial_insertion": true,
+    "MIG_PLD_GONDOLA_release_holds_partial": true,
+    "MIG_PLD_GONDOLA_reverse_drag": true,
+    "MIG_PLD_GONDOLA_cancel_stays_locked": true,
+    "MIG_PLD_GONDOLA_cancel_restores_input": true,
+    "MIG_PLD_GONDOLA_reentry": true,
+    "MIG_PLD_GONDOLA_recorded_turn_playing": true,
+    "MIG_PLD_GONDOLA_seated_before_unlock": true,
+    "MIG_PLD_GONDOLA_plug_turns": true,
+    "MIG_PLD_GONDOLA_unlock_shut": true,
+    "MIG_PLD_GONDOLA_unlock_restores_input": true,
+    "MIG_PLD_GONDOLA_latch_retracted": true,
+    "MIG_PLD_GONDOLA_seal_lifted": true,
+    "MIG_PLD_GONDOLA_lever_depressed": true,
+    "MIG_PLD_GONDOLA_movement_audio": true,
+    "MIG_PLD_GONDOLA_full_swing": true,
+    "MIG_PLD_GONDOLA_capsule_crossing": true,
+    "MIG_PLD_GONDOLA_closed_relocks": true,
+    "MIG_PLD_GONDOLA_missing_key_gate": true,
+    "MIG_PLD_GONDOLA_inside_egress_without_key": true,
+    "MIG_PLD_GONDOLA_rest_pose": true,
+    "MIG_PLD_STAFF_starts_locked": true,
+    "MIG_PLD_STAFF_E_enters_key_camera": true,
+    "MIG_PLD_STAFF_input_held": true,
+    "MIG_PLD_STAFF_key_path_visible": true,
+    "MIG_PLD_STAFF_off_key_drag_rejected": true,
+    "MIG_PLD_STAFF_click_alone_does_not_insert": true,
+    "MIG_PLD_STAFF_partial_insertion": true,
+    "MIG_PLD_STAFF_release_holds_partial": true,
+    "MIG_PLD_STAFF_reverse_drag": true,
+    "MIG_PLD_STAFF_cancel_stays_locked": true,
+    "MIG_PLD_STAFF_cancel_restores_input": true,
+    "MIG_PLD_STAFF_reentry": true,
+    "MIG_PLD_STAFF_recorded_turn_playing": true,
+    "MIG_PLD_STAFF_seated_before_unlock": true,
+    "MIG_PLD_STAFF_plug_turns": true,
+    "MIG_PLD_STAFF_unlock_shut": true,
+    "MIG_PLD_STAFF_unlock_restores_input": true,
+    "MIG_PLD_STAFF_latch_retracted": true,
+    "MIG_PLD_STAFF_seal_lifted": true,
+    "MIG_PLD_STAFF_lever_depressed": true,
+    "MIG_PLD_STAFF_movement_audio": true,
+    "MIG_PLD_STAFF_full_swing": true,
+    "MIG_PLD_STAFF_capsule_crossing": true,
+    "MIG_PLD_STAFF_closed_relocks": true,
+    "MIG_PLD_STAFF_missing_key_gate": true,
+    "MIG_PLD_STAFF_inside_egress_without_key": true,
+    "MIG_PLD_STAFF_rest_pose": true
+  },
+  "rows": [
+    {
+      "label": "MIG_PLD_ARRIVAL",
+      "angle": -100.0,
+      "crossing_distance_cm": 148.0884430975842
+    },
+    {
+      "label": "MIG_PLD_GONDOLA",
+      "angle": -100.0,
+      "crossing_distance_cm": 148.32480136278608
+    },
+    {
+      "label": "MIG_PLD_STAFF",
+      "angle": 100.0,
+      "crossing_distance_cm": 148.3670511380884
+    }
+  ],
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_ARRIVAL_closed_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_ARRIVAL_key_ready.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_ARRIVAL_turning_key.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_ARRIVAL_open_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_GONDOLA_closed_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_GONDOLA_key_ready.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_GONDOLA_turning_key.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_GONDOLA_open_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_STAFF_closed_night.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_STAFF_key_ready.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_STAFF_turning_key.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\key_refine\\MIG_PLD_STAFF_open_night.png"
+  ],
+  "camera_rays": {
+    "MIG_PLD_ARRIVAL": [
+      {
+        "fraction": 0,
+        "blocked": false,
+        "actor": null
+      },
+      {
+        "fraction": 0.5,
+        "blocked": false,
+        "actor": null
+      },
+      {
+        "fraction": 1,
+        "blocked": false,
+        "actor": null
+      }
+    ],
+    "MIG_PLD_GONDOLA": [
+      {
+        "fraction": 0,
+        "blocked": false,
+        "actor": null
+      },
+      {
+        "fraction": 0.5,
+        "blocked": false,
+        "actor": null
+      },
+      {
+        "fraction": 1,
+        "blocked": false,
+        "actor": null
+      }
+    ],
+    "MIG_PLD_STAFF": [
+      {
+        "fraction": 0,
+        "blocked": false,
+        "actor": null
+      },
+      {
+        "fraction": 0.5,
+        "blocked": false,
+        "actor": null
+      },
+      {
+        "fraction": 1,
+        "blocked": false,
+        "actor": null
+      }
+    ]
+  },
+  "drag_step": 9,
+  "walk_start": 441883.984,
+  "success": true,
+  "error": null
+}

@@ -13,6 +13,7 @@
 #include "StationInteractionStyle.h"
 #include "Styling/CoreStyle.h"
 #include "Camera/CameraComponent.h"
+#include "StationSoundVariation.h"
 #include "Components/MeshComponent.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -144,6 +145,7 @@ bool AStationDoor::TryInteract()
   else {if(bHasPrivacyLatch)PlayDoorSound(LockSound);else if(bHasKeypad)BeginKeypadInteraction(PC);else BeginKeyInteraction(PC);return false;}
  }
  TargetAngle=FMath::IsNearlyZero(TargetAngle)?OpenAngle:0.f;bObstructed=false;
+ ActiveTravelSound=FMath::IsNearlyZero(TargetAngle)?PickStationSound(ClosingMovementSound?ClosingMovementSound.Get():MovementSound.Get(),ClosingTakes,LastClosingTake):PickStationSound(MovementSound,OpeningTakes,LastOpeningTake);
  if(bUseAuthoredHardware && FMath::IsNearlyZero(CurrentAngle,.01f))HardwareReleaseRemaining=.22f;
  return true;
 }
@@ -251,13 +253,14 @@ void AStationDoor::Tick(float Dt)
   MovingLatch->SetRelativeLocation(LatchRest+FVector(bHasPrivacyLatch?(bLocked?2.f:0.f):(bReleased?-1.4f:0.f),0,0));
   BottomSeal->SetRelativeLocation(SealRest+FVector(0,0,bReleased?1.2f:0.f));
  }
- USoundBase* TravelSound=bClosing && ClosingMovementSound?ClosingMovementSound.Get():MovementSound.Get();
+ USoundBase* TravelSound=ActiveTravelSound?ActiveTravelSound.Get():(bClosing && ClosingMovementSound?ClosingMovementSound.Get():MovementSound.Get());
  if(bMoving && FMath::IsNearlyZero(PreviousAngle,.01f))PlayDoorSound(UnlatchSound);
- if(bMoving && TravelSound && (!MotionAudio->IsPlaying() || MotionAudio->Sound!=TravelSound)){MotionAudio->Stop();MotionAudio->SetSound(TravelSound);MotionAudio->FadeIn(.035f,MovementVolume);}
+ if(bMoving && TravelSound && (!bMotionWasActive || MotionAudio->Sound!=TravelSound)){MotionAudio->Stop();MotionAudio->SetSound(TravelSound);MotionAudio->FadeIn(.035f,MovementVolume);}
  else if(!bMoving && MotionAudio->IsPlaying())MotionAudio->Stop();
+ bMotionWasActive=bMoving;
  if(FMath::Abs(PreviousAngle)>.01f && FMath::IsNearlyZero(CurrentAngle,.01f) && FMath::IsNearlyZero(TargetAngle))
  {
-  MotionAudio->Stop();PlayDoorSound(CloseSound);if(bRelockOnClose)Lock();
+  MotionAudio->Stop();PlayDoorSound(PickStationSound(CloseSound,CloseImpactTakes,LastImpactTake));if(bRelockOnClose)Lock();
  }
 }
 FVector AStationDoor::GetKeypadButtonWorldPosition(int32 Index) const
@@ -313,7 +316,7 @@ bool AStationDoor::BeginKeyInteraction(APlayerController* PC)
  if(bUsingKey || bEnteringCode || bHasKeypad || !bHasKeyLock || !bLocked || !bKeyAvailable || !PC || !PC->IsLocalController() || !HasFocus(PC))return false;
  if(!ServiceKey->GetStaticMesh() || !KeyHousing->GetStaticMesh())return false;
  const FTransform T=KeyLockRoot->GetComponentTransform();
- const FVector Camera=T.TransformPosition(FVector(18,35,14));
+ const FVector Camera=T.TransformPosition(KeyCameraOffset);
  KeypadCamera->SetWorldLocation(Camera);KeypadCamera->SetWorldRotation((T.TransformPosition(FVector(0,6,0))-Camera).Rotation());KeypadCamera->SetFieldOfView(36);
  bUsingKey=true;bDraggingKey=false;bKeyMouseWasDown=false;KeyInsertion=0;KeyTurnElapsed=-1;UpdateKeyPose();ServiceKey->SetVisibility(true);KeyInspectionLight->SetVisibility(true);BeginCloseup(PC);return true;
 }

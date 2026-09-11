@@ -1,0 +1,103 @@
+{
+  "phase": 41,
+  "index": 1,
+  "next": 444124.903,
+  "deadline": 444780.125,
+  "checks": {
+    "MIG_PLG2_FirstAid_closed_initial": true,
+    "MIG_PLG2_FirstAid_focus": true,
+    "MIG_PLG2_FirstAid_fully_open": true,
+    "MIG_PLG2_FirstAid_not_obstructed": true,
+    "MIG_PLG2_FirstAid_recorded_audio": true,
+    "MIG_PLG2_FirstAid_open_focus": true,
+    "MIG_PLG2_FirstAid_closed_again": true,
+    "East_wall_approach_floor": true,
+    "East_wall_walk_floor": true,
+    "First_aid_approach_floor": true
+  },
+  "images": [
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall_night\\MIG_PLG2_FirstAid_closed.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall_night\\MIG_PLG2_FirstAid_open.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall_night\\East_wall_approach.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall_night\\East_wall_walk.png",
+    "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall_night\\First_aid_approach.png"
+  ],
+  "routes": [
+    {
+      "name": "East_wall_approach",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "East_wall_walk",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    },
+    {
+      "name": "First_aid_approach",
+      "passed": true,
+      "max_floor_error_cm": 0.8500027656555176
+    }
+  ],
+  "actors": {},
+  "last_motion": {
+    "label": "MIG_PLG2_FirstAid",
+    "fraction": 1.0,
+    "obstructed": false
+  },
+  "route_data": [
+    [
+      "East_wall_approach",
+      [
+        [
+          7,
+          9.8
+        ],
+        [
+          12.7,
+          9.8
+        ],
+        [
+          12.7,
+          7.23
+        ],
+        [
+          13.05,
+          7.23
+        ]
+      ]
+    ],
+    [
+      "East_wall_walk",
+      [
+        [
+          12.7,
+          9.4
+        ],
+        [
+          12.7,
+          1.8
+        ]
+      ]
+    ],
+    [
+      "First_aid_approach",
+      [
+        [
+          12.7,
+          9.4
+        ],
+        [
+          13.15,
+          9.3
+        ]
+      ]
+    ]
+  ],
+  "route_index": 3,
+  "waypoint": 2,
+  "walk_started": 444121.812,
+  "max_floor_error": 0.8500027656555176,
+  "success": true,
+  "error": null
+}

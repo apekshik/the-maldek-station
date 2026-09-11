@@ -1,0 +1,286 @@
+[
+  {
+    "id": "safety",
+    "svg": "artwork/safety.svg",
+    "texture": "textures/safety.png",
+    "pixels": [
+      1280,
+      1780
+    ],
+    "metres": [
+      0.64,
+      0.89
+    ],
+    "text": [
+      "SHARE THE MOUNTAIN",
+      "A little care goes a long way",
+      "LOOK AHEAD",
+      "Give others room.",
+      "Check before setting off.",
+      "TAKE YOUR TIME",
+      "Choose a comfortable pace.",
+      "Rest clear of the route.",
+      "LEAVE IT AS YOU FOUND IT",
+      "Take litter back with you.",
+      "Respect the mountain.",
+      "MALDEK  /  VISITOR GUIDANCE"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      2000,
+      2000
+    ]
+  },
+  {
+    "id": "archive_1",
+    "svg": "artwork/archive_1.svg",
+    "texture": "textures/archive_1.png",
+    "pixels": [
+      1800,
+      1230
+    ],
+    "metres": [
+      0.49,
+      0.34
+    ],
+    "text": [
+      "PLATFORM STUDY",
+      "MALDEK  /  ILLUSTRATED COLLECTION"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      3673,
+      3618
+    ]
+  },
+  {
+    "id": "archive_2",
+    "svg": "artwork/archive_2.svg",
+    "texture": "textures/archive_2.png",
+    "pixels": [
+      1800,
+      1230
+    ],
+    "metres": [
+      0.49,
+      0.34
+    ],
+    "text": [
+      "ABOVE THE TREE LINE",
+      "MALDEK  /  ILLUSTRATED COLLECTION"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      3673,
+      3618
+    ]
+  },
+  {
+    "id": "leaflet_routes",
+    "svg": "artwork/leaflet_routes.svg",
+    "texture": "textures/leaflet_routes.png",
+    "pixels": [
+      680,
+      820
+    ],
+    "metres": [
+      0.17,
+      0.205
+    ],
+    "text": [
+      "A DAY OUT",
+      "Ask for local routes",
+      "MALDEK"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      4000,
+      4000
+    ]
+  },
+  {
+    "id": "leaflet_lodge",
+    "svg": "artwork/leaflet_lodge.svg",
+    "texture": "textures/leaflet_lodge.png",
+    "pixels": [
+      680,
+      820
+    ],
+    "metres": [
+      0.17,
+      0.205
+    ],
+    "text": [
+      "AT THE LODGE",
+      "Visitor information",
+      "MALDEK"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      4000,
+      4000
+    ]
+  },
+  {
+    "id": "leaflet_care",
+    "svg": "artwork/leaflet_care.svg",
+    "texture": "textures/leaflet_care.png",
+    "pixels": [
+      680,
+      820
+    ],
+    "metres": [
+      0.17,
+      0.205
+    ],
+    "text": [
+      "MOUNTAIN CARE",
+      "Small things matter",
+      "MALDEK"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      4000,
+      4000
+    ]
+  },
+  {
+    "id": "rack_label",
+    "svg": "artwork/rack_label.svg",
+    "texture": "textures/rack_label.png",
+    "pixels": [
+      1400,
+      150
+    ],
+    "metres": [
+      0.39,
+      0.04
+    ],
+    "text": [
+      "TAKE A LEAFLET"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      3590,
+      3750
+    ]
+  },
+  {
+    "id": "first_aid",
+    "svg": "artwork/first_aid.svg",
+    "texture": "textures/first_aid.png",
+    "pixels": [
+      1120,
+      1260
+    ],
+    "metres": [
+      0.31,
+      0.35
+    ],
+    "text": [
+      "FIRST AID",
+      "MALDEK"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      3613,
+      3600
+    ]
+  },
+  {
+    "id": "gauge_temperature",
+    "svg": "artwork/gauge_temperature.svg",
+    "texture": "textures/gauge_temperature.png",
+    "pixels": [
+      1000,
+      1000
+    ],
+    "metres": [
+      0.14,
+      0.14
+    ],
+    "text": [
+      "TEMPERATURE",
+      "-10",
+      "0",
+      "10",
+      "20",
+      "30",
+      "\u00b0C"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      7143,
+      7143
+    ]
+  },
+  {
+    "id": "gauge_humidity",
+    "svg": "artwork/gauge_humidity.svg",
+    "texture": "textures/gauge_humidity.png",
+    "pixels": [
+      1000,
+      1000
+    ],
+    "metres": [
+      0.14,
+      0.14
+    ],
+    "text": [
+      "RELATIVE HUMIDITY",
+      "20",
+      "35",
+      "50",
+      "65",
+      "80",
+      "% RH"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      7143,
+      7143
+    ]
+  },
+  {
+    "id": "caption_A",
+    "svg": "artwork/caption_A.svg",
+    "texture": "textures/caption_A.png",
+    "pixels": [
+      1400,
+      146
+    ],
+    "metres": [
+      0.464,
+      0.04
+    ],
+    "text": [
+      "PLATFORM STUDY"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      3017,
+      3650
+    ]
+  },
+  {
+    "id": "caption_B",
+    "svg": "artwork/caption_B.svg",
+    "texture": "textures/caption_B.png",
+    "pixels": [
+      1400,
+      146
+    ],
+    "metres": [
+      0.464,
+      0.04
+    ],
+    "text": [
+      "ABOVE THE TREE LINE"
+    ],
+    "provenance": "Original vector illustration and deterministic typesetting authored for this package; no external artwork",
+    "texels_per_metre": [
+      3017,
+      3650
+    ]
+  }
+]

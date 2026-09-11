@@ -1,0 +1,13 @@
+{
+  "pawn": "/Game/MaldekRefinement/R12/Player/BP_StationWalker_Polished.BP_StationWalker_Polished_C",
+  "materials": {
+    "/Game/MaldekRefinement/PassengerLodge/Surfaces/Materials/M_PLSH_Quarry_Floor.M_PLSH_Quarry_Floor": "<Object '/Game/MaldekRefinement/ForestTest/Audio/Surfaces/PM_Concrete.PM_Concrete' (0x0000015D58841EC0) Class 'PhysicalMaterial'>"
+  },
+  "weather": {
+    "Wind Intensity": "2.0",
+    "Snow": "0.0",
+    "snow": "0.0",
+    "Weather": "<Object '/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow_Blizzard.Snow_Blizzard' (0x0000015D89CE5280) Class 'UDS_Weather_Settings_C'>",
+    "weather": "<Object '/Game/UltraDynamicSky/Blueprints/Weather_Effects/Weather_Presets/Snow_Blizzard.Snow_Blizzard' (0x0000015D89CE5280) Class 'UDS_Weather_Settings_C'>"
+  }
+}

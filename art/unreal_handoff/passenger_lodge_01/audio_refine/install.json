@@ -1,0 +1,187 @@
+{
+  "waves": 45,
+  "assignments": [
+    {
+      "actor": "R12_Door_Relay_north",
+      "bank": "Steel"
+    },
+    {
+      "actor": "R12_Door_Relay_south",
+      "bank": "Steel"
+    },
+    {
+      "actor": "R12_Door_Control_front",
+      "bank": "Steel"
+    },
+    {
+      "actor": "R12_Door_Control_side",
+      "bank": "Steel"
+    },
+    {
+      "actor": "R12_Door_Quarters",
+      "bank": "Steel"
+    },
+    {
+      "actor": "R12_Door_Generator_south",
+      "bank": "Steel"
+    },
+    {
+      "actor": "R12_Door_Generator_west",
+      "bank": "Steel"
+    },
+    {
+      "actor": "R12_Door_Workshop_shared",
+      "bank": "Steel"
+    },
+    {
+      "actor": "MIG_PLD_ARRIVAL",
+      "bank": "Steel"
+    },
+    {
+      "actor": "MIG_PLD_GONDOLA",
+      "bank": "Steel"
+    },
+    {
+      "actor": "MIG_PLD_STAFF",
+      "bank": "Steel"
+    },
+    {
+      "actor": "MIG_PLR_Women_Entry",
+      "bank": "Room"
+    },
+    {
+      "actor": "MIG_PLR_Men_Entry",
+      "bank": "Room"
+    },
+    {
+      "actor": "MIG_PLR_Women_A",
+      "bank": "Room"
+    },
+    {
+      "actor": "MIG_PLR_Women_B",
+      "bank": "Room"
+    },
+    {
+      "actor": "MIG_PLR_Men_A",
+      "bank": "Room"
+    },
+    {
+      "actor": "MIG_PLK_Serving_PLK_Serving_Drawer_0",
+      "bank": "Drawer"
+    },
+    {
+      "actor": "MIG_PLK_Serving_PLK_Serving_Drawer_1",
+      "bank": "Drawer"
+    },
+    {
+      "actor": "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot",
+      "bank": "Cupboard"
+    },
+    {
+      "actor": "MIG_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot",
+      "bank": "Cupboard"
+    },
+    {
+      "actor": "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0",
+      "bank": "Drawer"
+    },
+    {
+      "actor": "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1",
+      "bank": "Drawer"
+    },
+    {
+      "actor": "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2",
+      "bank": "Drawer"
+    },
+    {
+      "actor": "MIG_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot",
+      "bank": "Cupboard"
+    },
+    {
+      "actor": "MIG_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot",
+      "bank": "Cupboard"
+    },
+    {
+      "actor": "MIG_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot",
+      "bank": "Cupboard"
+    },
+    {
+      "actor": "MIG_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot",
+      "bank": "Cupboard"
+    },
+    {
+      "actor": "MIG_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot",
+      "bank": "Cupboard"
+    },
+    {
+      "actor": "MIG_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot",
+      "bank": "Cupboard"
+    },
+    {
+      "actor": "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot",
+      "bank": "Fridge"
+    },
+    {
+      "actor": "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot",
+      "bank": "Cupboard"
+    },
+    {
+      "actor": "MIG_PLL_01",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_02",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_03",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_04",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_05",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_06",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_07",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_08",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_09",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_10",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_11",
+      "bank": "Locker"
+    },
+    {
+      "actor": "MIG_PLL_12",
+      "bank": "Locker"
+    }
+  ],
+  "key_camera": [
+    -18,
+    35,
+    14
+  ],
+  "footsteps": {
+    "tile": 6,
+    "concrete": 6
+  },
+  "storm": "MIG_Lodge_Sheltered_Storm"
+}

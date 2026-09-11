@@ -1,0 +1,326 @@
+{
+  "pie": false,
+  "world": "Station_Lodge_Migration",
+  "actors": [
+    {
+      "label": "PlayerStart",
+      "class": "PlayerStart",
+      "location": "<Struct 'Vector' (0x000002F0FD1D0FB0) {x: -40782.305975, y: 12424.707549, z: 9908.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D0FB0) {x: -40782.305975, y: 12480.707549, z: 9908.500000}>, <Struct 'Vector' (0x000002F0FD1D0B50) {x: 128.000000, y: 184.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R07_Local_Station_Mist",
+      "class": "LocalFogVolume",
+      "location": "<Struct 'Vector' (0x000002F0FD1D0FB0) {x: -44150.000000, y: 18750.000000, z: 10200.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D0FB0) {x: -44150.000000, y: 18750.000000, z: 10200.000000}>, <Struct 'Vector' (0x000002F0FD1D0B50) {x: 256.000000, y: 256.000000, z: 256.000000}>)"
+    },
+    {
+      "label": "R07_Relay_Approach_Mist",
+      "class": "LocalFogVolume",
+      "location": "<Struct 'Vector' (0x000002F0FD1D0B50) {x: -47600.000000, y: 19700.000000, z: 10200.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D0B50) {x: -47600.000000, y: 19700.000000, z: 10200.000000}>, <Struct 'Vector' (0x000002F0FD1D3F80) {x: 256.000000, y: 256.000000, z: 256.000000}>)"
+    },
+    {
+      "label": "R10_Forest_Wind",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3F80) {x: -44282.000000, y: 18475.000000, z: 10300.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3F80) {x: -44282.000000, y: 18475.000000, z: 10300.000000}>, <Struct 'Vector' (0x000002F0FD1D0B50) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R10_Distant_Window_0",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3F80) {x: -44632.000000, y: 159169.000000, z: 32467.830254}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3F80) {x: -44632.000000, y: 159169.000000, z: 32467.830254}>, <Struct 'Vector' (0x000002F0FD1D3D50) {x: 110.000000, y: 2.000000, z: 55.000000}>)"
+    },
+    {
+      "label": "R10_Distant_Window_1",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3D50) {x: -44282.000000, y: 159169.000000, z: 32467.830254}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3D50) {x: -44282.000000, y: 159169.000000, z: 32467.830254}>, <Struct 'Vector' (0x000002F0FD1D3EE0) {x: 110.000000, y: 2.000000, z: 55.000000}>)"
+    },
+    {
+      "label": "R10_Distant_Window_2",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3EE0) {x: -43932.000000, y: 159169.000000, z: 32467.830254}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3EE0) {x: -43932.000000, y: 159169.000000, z: 32467.830254}>, <Struct 'Vector' (0x000002F0FD1D3CB0) {x: 110.000000, y: 2.000000, z: 55.000000}>)"
+    },
+    {
+      "label": "R12_Audio_Generator",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3CB0) {x: -47482.305975, y: 17114.707549, z: 10118.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3CB0) {x: -47482.305975, y: 17114.707549, z: 10118.500000}>, <Struct 'Vector' (0x000002F0FD1D3EE0) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_Audio_Flywheel",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3EE0) {x: -44432.305965, y: 19189.707559, z: 9955.500001}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3EE0) {x: -44432.305965, y: 19189.707559, z: 9955.500001}>, <Struct 'Vector' (0x000002F0FD1D3C10) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_Audio_Ventilation",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3C10) {x: -43762.305975, y: 18204.707549, z: 10563.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3C10) {x: -43762.305975, y: 18204.707549, z: 10563.500000}>, <Struct 'Vector' (0x000002F0FD1D3DA0) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_Audio_GondolaCable",
+      "class": "StationCableAudio",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3B70) {x: -44178.212343, y: 19265.290023, z: 10275.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3B70) {x: -44178.212343, y: 19265.290023, z: 10275.000000}>, <Struct 'Vector' (0x000002F0FD1D3D00) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_Route_Fog_01",
+      "class": "LocalFogVolume",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3AD0) {x: -44282.305975, y: 219279.707568, z: 30000.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3AD0) {x: -44282.305975, y: 219279.707568, z: 30000.000000}>, <Struct 'Vector' (0x000002F0FD1D3D00) {x: 256.000000, y: 256.000000, z: 256.000000}>)"
+    },
+    {
+      "label": "R12_Route_Fog_02",
+      "class": "LocalFogVolume",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3D00) {x: -44282.305975, y: 309279.707568, z: 30000.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3D00) {x: -44282.305975, y: 309279.707568, z: 30000.000000}>, <Struct 'Vector' (0x000002F0FD1D3C60) {x: 256.000000, y: 256.000000, z: 256.000000}>)"
+    },
+    {
+      "label": "R12_Route_Fog_03",
+      "class": "LocalFogVolume",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3C60) {x: -44282.305975, y: 409279.707568, z: 30000.000000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3C60) {x: -44282.305975, y: 409279.707568, z: 30000.000000}>, <Struct 'Vector' (0x000002F0FD1D3A30) {x: 256.000000, y: 256.000000, z: 256.000000}>)"
+    },
+    {
+      "label": "R12_GM_Audio_Motor",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3BC0) {x: -44259.305975, y: 18724.707568, z: 10073.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3BC0) {x: -44259.305975, y: 18724.707568, z: 10073.500000}>, <Struct 'Vector' (0x000002F0FD1D3C60) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_GM_Audio_Gearbox",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3C60) {x: -44027.305975, y: 18729.707568, z: 10073.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3C60) {x: -44027.305975, y: 18729.707568, z: 10073.500000}>, <Struct 'Vector' (0x000002F0FD1D3990) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_GM_Audio_Bullwheel_0",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3990) {x: -44139.805975, y: 18719.707568, z: 10971.200000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3990) {x: -44139.805975, y: 18719.707568, z: 10971.200000}>, <Struct 'Vector' (0x000002F0FD1D3B20) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_GM_Audio_Bullwheel_1",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3B20) {x: -44139.500000, y: 158215.000000, z: 32982.577953}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3B20) {x: -44139.500000, y: 158215.000000, z: 32982.577953}>, <Struct 'Vector' (0x000002F0FD1D38F0) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_GM_Audio_Rollers_1",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D38F0) {x: -44257.232760, y: 52419.652543, z: 9683.054915}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D38F0) {x: -44257.232760, y: 52419.652543, z: 9683.054915}>, <Struct 'Vector' (0x000002F0FD1D3A80) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_GM_Audio_Rollers_2",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3A80) {x: -44257.175936, y: 78140.206852, z: 11719.245530}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3A80) {x: -44257.175936, y: 78140.206852, z: 11719.245530}>, <Struct 'Vector' (0x000002F0FD1D3850) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_GM_Audio_Rollers_3",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3850) {x: -44257.118019, y: 104355.387205, z: 16343.460971}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3850) {x: -44257.118019, y: 104355.387205, z: 16343.460971}>, <Struct 'Vector' (0x000002F0FD1D39E0) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_GM_Audio_Rollers_4",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D39E0) {x: -44257.063381, y: 129086.689425, z: 22755.190523}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D39E0) {x: -44257.063381, y: 129086.689425, z: 22755.190523}>, <Struct 'Vector' (0x000002F0FD1D37B0) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "R12_GM_Audio_Rollers_5",
+      "class": "AmbientSound",
+      "location": "<Struct 'Vector' (0x000002F0FD1D37B0) {x: -44257.021855, y: 147882.479112, z: 29083.433654}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D37B0) {x: -44257.021855, y: 147882.479112, z: 29083.433654}>, <Struct 'Vector' (0x000002F0FD1D3940) {x: 128.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLD_ARRIVAL",
+      "class": "StationDoor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D37B0) {x: -42638.305922, y: 17742.907565, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D37B0) {x: -42528.705922, y: 17807.907565, z: 10422.500000}>, <Struct 'Vector' (0x000002F0FD1D3710) {x: 1010.000000, y: 1010.000000, z: 1010.000000}>)"
+    },
+    {
+      "label": "MIG_PLD_GONDOLA",
+      "class": "StationDoor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D37B0) {x: -42638.305922, y: 18848.107546, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D37B0) {x: -42528.705922, y: 18913.107546, z: 10422.500000}>, <Struct 'Vector' (0x000002F0FD1D3710) {x: 1010.000000, y: 1010.000000, z: 1010.000000}>)"
+    },
+    {
+      "label": "MIG_PLD_STAFF",
+      "class": "StationDoor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3710) {x: -42384.105940, y: 17368.707507, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3710) {x: -42449.105940, y: 17478.307507, z: 10422.500000}>, <Struct 'Vector' (0x000002F0FD1D37B0) {x: 1010.000000, y: 1010.000000, z: 1010.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Serving_Static",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D37B0) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D37B0) {x: -42122.306028, y: 17757.207549, z: 10348.500000}>, <Struct 'Vector' (0x000002F0FD1D3940) {x: 150.000000, y: 32.500000, z: 50.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Serving_PLK_Serving_Drawer_0",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D37B0) {x: -42032.305975, y: 17724.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D37B0) {x: -42002.305987, y: 17724.707549, z: 10336.500011}>, <Struct 'Vector' (0x000002F0FD1D3940) {x: 128.000000, y: 210.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Serving_PLK_Serving_Drawer_1",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D37B0) {x: -42032.305975, y: 17724.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D37B0) {x: -42002.305987, y: 17724.707549, z: 10362.499987}>, <Struct 'Vector' (0x000002F0FD1D3940) {x: 128.000000, y: 210.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Hot_base_Static",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3940) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3940) {x: -41932.306085, y: 17619.707549, z: 10353.499996}>, <Struct 'Vector' (0x000002F0FD1D38A0) {x: 35.000043, y: 55.000000, z: 54.999996}>)"
+    },
+    {
+      "label": "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3940) {x: -41970.306082, y: 17674.407523, z: 10312.499987}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3940) {x: -41970.306082, y: 17647.207486, z: 10348.249993}>, <Struct 'Vector' (0x000002F0FD1D38A0) {x: 210.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Hot_base_PLK_Hot_base_Door_1_Pivot",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3940) {x: -41970.306082, y: 17565.007537, z: 10312.499987}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3940) {x: -41970.306082, y: 17592.207562, z: 10348.249993}>, <Struct 'Vector' (0x000002F0FD1D38A0) {x: 210.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Prep_drawers_Static",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D38A0) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D38A0) {x: -41932.306093, y: 17532.207549, z: 10353.499996}>, <Struct 'Vector' (0x000002F0FD1D3670) {x: 35.000042, y: 32.500000, z: 54.999996}>)"
+    },
+    {
+      "label": "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_0",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D38A0) {x: -41967.306013, y: 17564.707511, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D38A0) {x: -41967.306013, y: 17532.207526, z: 10324.500023}>, <Struct 'Vector' (0x000002F0FD1D3670) {x: 210.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_1",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D38A0) {x: -41967.306013, y: 17564.707511, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D38A0) {x: -41967.306013, y: 17532.207526, z: 10348.300014}>, <Struct 'Vector' (0x000002F0FD1D3670) {x: 210.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Prep_drawers_PLK_Prep_drawers_Drawer_slide_2",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D38A0) {x: -41967.306013, y: 17564.707511, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D38A0) {x: -41967.306013, y: 17532.207526, z: 10372.100006}>, <Struct 'Vector' (0x000002F0FD1D3670) {x: 210.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Wash_base_Static",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3670) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3670) {x: -41932.306100, y: 17439.707488, z: 10353.499996}>, <Struct 'Vector' (0x000002F0FD1D3800) {x: 35.000043, y: 60.000061, z: 54.999996}>)"
+    },
+    {
+      "label": "MIG_PLK_Wash_base_PLK_Wash_base_Door_0_Pivot",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3670) {x: -41970.306082, y: 17499.407523, z: 10312.499987}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3670) {x: -41970.306082, y: 17469.707524, z: 10348.249993}>, <Struct 'Vector' (0x000002F0FD1D3800) {x: 210.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Wash_base_PLK_Wash_base_Door_1_Pivot",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3670) {x: -41970.306082, y: 17380.007499, z: 10312.499987}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3670) {x: -41970.306082, y: 17409.707486, z: 10348.249993}>, <Struct 'Vector' (0x000002F0FD1D3800) {x: 210.000000, y: 128.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Rear_left_Static",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3800) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3800) {x: -42152.305998, y: 17312.207549, z: 10353.499996}>, <Struct 'Vector' (0x000002F0FD1D35D0) {x: 175.000000, y: 32.500000, z: 54.999996}>)"
+    },
+    {
+      "label": "MIG_PLK_Rear_left_PLK_Rear_left_Door_0_Pivot",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3800) {x: -41977.605886, y: 17347.707503, z: 10312.499987}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3800) {x: -42006.055899, y: 17347.707503, z: 10348.249993}>, <Struct 'Vector' (0x000002F0FD1D35D0) {x: 128.000000, y: 210.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Rear_left_PLK_Rear_left_Door_1_Pivot",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3800) {x: -42092.005796, y: 17347.707503, z: 10312.499987}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3800) {x: -42063.555784, y: 17347.707503, z: 10348.249993}>, <Struct 'Vector' (0x000002F0FD1D35D0) {x: 128.000000, y: 210.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Rear_right_Static",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D35D0) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D35D0) {x: -42247.806181, y: 17312.207549, z: 10343.500004}>, <Struct 'Vector' (0x000002F0FD1D3760) {x: 79.500000, y: 32.500000, z: 45.000004}>)"
+    },
+    {
+      "label": "MIG_PLK_Rear_right_PLK_Rear_right_Door_0_Pivot",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D35D0) {x: -42168.606062, y: 17347.707503, z: 10312.499987}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D35D0) {x: -42208.056137, y: 17347.707503, z: 10348.249993}>, <Struct 'Vector' (0x000002F0FD1D3760) {x: 128.000000, y: 210.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Rear_right_PLK_Rear_right_Door_1_Pivot",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D35D0) {x: -42327.006025, y: 17347.707503, z: 10312.499987}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D35D0) {x: -42287.555951, y: 17347.707503, z: 10348.249993}>, <Struct 'Vector' (0x000002F0FD1D3760) {x: 128.000000, y: 210.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Fridge_Static",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3760) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3760) {x: -42130.306158, y: 17314.657622, z: 10340.999984}>, <Struct 'Vector' (0x000002F0FD1D3530) {x: 30.000023, y: 28.949951, z: 42.500008}>)"
+    },
+    {
+      "label": "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3760) {x: -42099.906034, y: 17347.707599, z: 10307.499968}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3760) {x: -42130.006094, y: 17347.707599, z: 10342.999969}>, <Struct 'Vector' (0x000002F0FD1D3530) {x: 128.000000, y: 210.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Microwave_Static",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3530) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3530) {x: -42052.880964, y: 17316.872588, z: 10404.899990}>, <Struct 'Vector' (0x000002F0FD1D36C0) {x: 25.574966, y: 23.165039, z: 16.500019}>)"
+    },
+    {
+      "label": "MIG_PLK_Microwave_PLK_Microwave_Door_Pivot",
+      "class": "StationCabinet",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3530) {x: -42028.805799, y: 17337.207549, z: 10392.799984}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3530) {x: -42048.805875, y: 17337.207549, z: 10405.999980}>, <Struct 'Vector' (0x000002F0FD1D36C0) {x: 128.000000, y: 210.000000, z: 128.000000}>)"
+    },
+    {
+      "label": "MIG_PLK_Fixtures_Static",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D36C0) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D36C0) {x: -42122.406093, y: 17547.207549, z: 10436.750000}>, <Struct 'Vector' (0x000002F0FD1D3490) {x: 229.100131, y: 267.500000, z: 138.250000}>)"
+    },
+    {
+      "label": "MIG_PLK_Fixtures_Glass",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3490) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3490) {x: -42204.306013, y: 17760.707549, z: 10413.800034}>, <Struct 'Vector' (0x000002F0FD1D3620) {x: 31.299973, y: 19.000000, z: 13.800003}>)"
+    },
+    {
+      "label": "MIG_PLG_PLG_Notice_weather",
+      "class": "StaticMeshActor",
+      "location": "<Struct 'Vector' (0x000002F0FD1D3490) {x: -41872.305937, y: 18874.707549, z: 10298.500000}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D3490) {x: -41896.668643, y: 17994.707519, z: 10440.500011}>, <Struct 'Vector' (0x000002F0FD1D33F0) {x: 0.217500, y: 14.339813, z: 17.084064}>)"
+    },
+    {
+      "label": "Ultra_Dynamic_Weather",
+      "class": "Ultra_Dynamic_Weather_C",
+      "location": "<Struct 'Vector' (0x000002F0FD1D33F0) {x: -43309.091023, y: 19523.386106, z: 10388.499999}>",
+      "bounds": "(<Struct 'Vector' (0x000002F0FD1D33F0) {x: -42042.182328, y: 18754.689208, z: 10463.500000}>, <Struct 'Vector' (0x000002F0FD1D3350) {x: 2839767.386255, y: 2839767.491561, z: 2500000.000000}>)"
+    }
+  ],
+  "dirty_content": [],
+  "dirty_maps": []
+}

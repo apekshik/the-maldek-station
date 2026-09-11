@@ -77,6 +77,7 @@ public:
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") TObjectPtr<UMaterialInterface> InteractionPromptMaterial;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UTextRenderComponent> KeypadDisplay;
  UPROPERTY(VisibleAnywhere, Category="Door") TObjectPtr<UCameraComponent> KeypadCamera;
+ UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Door|Key") FVector KeyCameraOffset=FVector(18,35,14);
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door") bool bHasKeypad=false;
  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Door|Key") bool bHasKeyLock=false;
  /** Temporary possession gate. Future inventory can supply this per required key. */
@@ -108,13 +109,19 @@ public:
  UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> MotionAudio;
  UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> KeypadAudio;
  UPROPERTY(VisibleAnywhere, Category="Door|Audio") TObjectPtr<UAudioComponent> LockAudio;
+ UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Door|Audio") TArray<TObjectPtr<USoundBase>> OpeningTakes;
+ UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Door|Audio") TArray<TObjectPtr<USoundBase>> ClosingTakes;
+ UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Door|Audio") TArray<TObjectPtr<USoundBase>> CloseImpactTakes;
 private:
+ bool bMotionWasActive=false;
  float HardwareReleaseRemaining=0.f;
  float LeverDepression=0.f;
  FVector LatchRest=FVector::ZeroVector,SealRest=FVector::ZeroVector;
  TSharedPtr<SWidget> HintWidget;
  TSharedPtr<STextBlock> HintAction,HintDetail;
  void ShowDoorHint(bool bVisible,const FString& Action=FString(),const FString& Detail=FString());
+ UPROPERTY(Transient) TObjectPtr<USoundBase> ActiveTravelSound;
+ TWeakObjectPtr<USoundBase> LastOpeningTake,LastClosingTake,LastImpactTake;
  void PlayDoorSound(USoundBase* Sound,bool bKeypad=false);
  float CurrentAngle=0.f;
  float TargetAngle=0.f;

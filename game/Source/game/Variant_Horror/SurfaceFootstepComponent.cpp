@@ -90,6 +90,7 @@ void USurfaceFootstepComponent::PlayStep(float Speed)
 	case 3: Samples = &MetalSteps; break;
 	case 4: Samples = &ConcreteSteps; break;
 	case 5: Samples = &WoodSteps; break;
+	case 6: Samples = &TileSteps; break;
 	default: break;
 	}
 	if (Samples->IsEmpty()) Samples = &SoilSteps;

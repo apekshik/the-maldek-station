@@ -1,0 +1,133 @@
+{
+  "views": [
+    {
+      "name": "01_Hall",
+      "position": [
+        -22.7,
+        2.4,
+        5.65
+      ],
+      "target": [
+        -12.5,
+        -3.2,
+        5.55
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall\\01_Hall.png"
+    },
+    {
+      "name": "02_East_wall",
+      "position": [
+        -15,
+        -2.7,
+        5.7
+      ],
+      "target": [
+        -10.3,
+        -2.7,
+        5.65
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall\\02_East_wall.png"
+    },
+    {
+      "name": "03_Oblique",
+      "position": [
+        -12.3,
+        0.2,
+        5.65
+      ],
+      "target": [
+        -10.4,
+        -3.3,
+        5.6
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall\\03_Oblique.png"
+    },
+    {
+      "name": "04_Leaflets",
+      "position": [
+        -11.65,
+        -3.1,
+        5.5
+      ],
+      "target": [
+        -10.37,
+        -3.23,
+        5.22
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall\\04_Leaflets.png"
+    },
+    {
+      "name": "05_Gauge",
+      "position": [
+        -11.6,
+        -4.03,
+        5.95
+      ],
+      "target": [
+        -10.35,
+        -4.03,
+        5.91
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall\\05_Gauge.png"
+    },
+    {
+      "name": "06_FirstAid",
+      "position": [
+        -11.8,
+        -5.15,
+        5.75
+      ],
+      "target": [
+        -10.43,
+        -5.02,
+        5.61
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall\\06_FirstAid.png"
+    },
+    {
+      "name": "07_FirstAid_open",
+      "position": [
+        -11.8,
+        -5.15,
+        5.75
+      ],
+      "target": [
+        -10.43,
+        -5.02,
+        5.61
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall\\07_FirstAid_open.png"
+    },
+    {
+      "name": "08_Archive",
+      "position": [
+        -11.8,
+        -2.2,
+        5.8
+      ],
+      "target": [
+        -10.34,
+        -2.2,
+        5.8
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall\\08_Archive.png"
+    },
+    {
+      "name": "09_Safety",
+      "position": [
+        -11.8,
+        -1.12,
+        5.8
+      ],
+      "target": [
+        -10.34,
+        -1.12,
+        5.78
+      ],
+      "path": "C:\\Users\\apek-anna\\Developer\\the-maldek-station\\art\\unreal_handoff\\passenger_lodge_01\\previews\\east_wall\\09_Safety.png"
+    }
+  ],
+  "error": null,
+  "temporary_lights_removed": true,
+  "mode": "Lit neutral, roof visible; first-aid open only in view 07"
+}

@@ -1,0 +1,127 @@
+{
+  "phase": 10,
+  "next": 444265.328,
+  "deadline": 444479.218,
+  "checks": {
+    "separate_boot_banks": true,
+    "storm_inside": true,
+    "court_excluded": true,
+    "roof_excluded": true,
+    "restrooms_included": true,
+    "coffee_included": true,
+    "smooth_fade": true,
+    "no_indoor_layer_outside": true,
+    "calm_weather_silent": true,
+    "MIG_PLL_01_open": true,
+    "MIG_PLL_01_closed": true,
+    "MIG_PLL_01_no_repeat_1": true,
+    "MIG_PLL_01_no_repeat_2": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0_open": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0_closed": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0_no_repeat_1": true,
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0_no_repeat_2": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_open": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_closed": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_no_repeat_1": true,
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot_no_repeat_2": true,
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_open": true,
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_closed": true,
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_no_repeat_1": true,
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot_no_repeat_2": true,
+    "tile": true,
+    "concrete": true
+  },
+  "routes": [
+    {
+      "surface": 6,
+      "steps": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "surface": 4,
+      "steps": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "takes": {
+    "MIG_PLL_01": [
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/LockerOpen_02.LockerOpen_02",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/LockerClose_00.LockerClose_00"
+      },
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/LockerOpen_01.LockerOpen_01",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/LockerClose_01.LockerClose_01"
+      },
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/LockerOpen_00.LockerOpen_00",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/LockerClose_00.LockerClose_00"
+      }
+    ],
+    "MIG_PLK_Serving_PLK_Serving_Drawer_0": [
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/DrawerOpen_00.DrawerOpen_00",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/DrawerClose_01.DrawerClose_01"
+      },
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/DrawerOpen_02.DrawerOpen_02",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/DrawerClose_00.DrawerClose_00"
+      },
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/DrawerOpen_00.DrawerOpen_00",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/DrawerClose_01.DrawerClose_01"
+      }
+    ],
+    "MIG_PLK_Hot_base_PLK_Hot_base_Door_0_Pivot": [
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/CupboardOpen_00.CupboardOpen_00",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/CupboardClose_01.CupboardClose_01"
+      },
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/CupboardOpen_01.CupboardOpen_01",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/CupboardClose_00.CupboardClose_00"
+      },
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/CupboardOpen_00.CupboardOpen_00",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/CupboardClose_01.CupboardClose_01"
+      }
+    ],
+    "MIG_PLK_Fridge_PLK_Fridge_Door_Pivot": [
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/FridgeOpen_00.FridgeOpen_00",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/FridgeClose_01.FridgeClose_01"
+      },
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/FridgeOpen_01.FridgeOpen_01",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/FridgeClose_00.FridgeClose_00"
+      },
+      {
+        "open": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/FridgeOpen_00.FridgeOpen_00",
+        "close": "/Game/MaldekRefinement/PassengerLodge/AudioRefine/FridgeClose_01.FridgeClose_01"
+      }
+    ]
+  },
+  "index": 4,
+  "cycle": 0,
+  "route_index": 2,
+  "count": 5,
+  "steps": [
+    4,
+    4,
+    4,
+    4
+  ],
+  "last": 9,
+  "start": 444250.39,
+  "success": true,
+  "error": null
+}

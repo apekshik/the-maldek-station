@@ -1,0 +1,112 @@
+[
+  {
+    "name": "wind",
+    "author": "Kinoton",
+    "id": 815100,
+    "page": "https://freesound.org/people/Kinoton/sounds/815100/",
+    "download": "https://cdn.freesound.org/previews/815/815100_2247456-hq.mp3",
+    "licenses": [
+      "http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "sha256": "f12c329a6ec18d9a59accfa06dca48a20a7925857aa69430e659bf1978899da5"
+  },
+  {
+    "name": "drawer",
+    "author": "maaaks",
+    "id": 521214,
+    "page": "https://freesound.org/people/maaaks/sounds/521214/",
+    "download": "https://cdn.freesound.org/previews/521/521214_1652791-hq.mp3",
+    "licenses": [
+      "http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "sha256": "c7268daac333a4a2257d837e7c6a8aa6464f568e43f8a69c571743021d1ab50a"
+  },
+  {
+    "name": "wooddrawer",
+    "author": "FOSSarts",
+    "id": 740297,
+    "page": "https://freesound.org/people/FOSSarts/sounds/740297/",
+    "download": "https://cdn.freesound.org/previews/740/740297_14631530-hq.mp3",
+    "licenses": [
+      "http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "sha256": "2784648178308f52970a807278e0fccdc46479cacd68f2c0af997c2f650ed665"
+  },
+  {
+    "name": "cupboard",
+    "author": "wlabarron",
+    "id": 509108,
+    "page": "https://freesound.org/people/wlabarron/sounds/509108/",
+    "download": "https://cdn.freesound.org/previews/509/509108_3782735-hq.mp3",
+    "licenses": [
+      "http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "sha256": "51281c1b87e75874f4837cadce6e1f6f3d0b92225c4f8ed087ac94a4ef90ec7b"
+  },
+  {
+    "name": "locker",
+    "author": "kyles",
+    "id": 450785,
+    "page": "https://freesound.org/people/kyles/sounds/450785/",
+    "download": "https://cdn.freesound.org/previews/450/450785_612689-hq.mp3",
+    "licenses": [
+      "http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "sha256": "e93193e5780f8840c09da59c9e1e50638c2bc51d32d2c2b4b471d420db2fa344"
+  },
+  {
+    "name": "fridge",
+    "author": "sethlind",
+    "id": 265024,
+    "page": "https://freesound.org/people/sethlind/sounds/265024/",
+    "download": "https://cdn.freesound.org/previews/265/265024_4101863-hq.mp3",
+    "licenses": [
+      "http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "sha256": "738d0775146c80ebcc163c67d3c2539b2c8a7644d9b6d87e89824769b18df1da"
+  },
+  {
+    "name": "tile",
+    "author": "IENBA",
+    "id": 834027,
+    "page": "https://freesound.org/people/IENBA/sounds/834027/",
+    "download": "https://cdn.freesound.org/previews/834/834027_9616576-hq.mp3",
+    "licenses": [
+      "http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "sha256": "3912d47e76e0544cb7bd386a79a9dd528feec63ff5aa5ae638cc8a7d5b969ec6"
+  },
+  {
+    "name": "concrete",
+    "author": "florianreichelt",
+    "id": 459964,
+    "page": "https://freesound.org/people/florianreichelt/sounds/459964/",
+    "download": "https://cdn.freesound.org/previews/459/459964_6253486-hq.mp3",
+    "licenses": [
+      "http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "sha256": "a212ad7c507cfae371b92568c511e82e03c7014006ac0cd6704a07c67f9ad486"
+  },
+  {
+    "name": "room",
+    "author": "launemax",
+    "id": 250024,
+    "page": "https://freesound.org/people/launemax/sounds/250024/",
+    "download": "https://cdn.freesound.org/previews/250/250024_389377-hq.mp3",
+    "licenses": [
+      "http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "sha256": "299c4f402252490261050f4b485a22c107dbfe2532b65c1db0d85c71ead01bc9"
+  },
+  {
+    "name": "fridge_alt",
+    "author": "SpliceSound",
+    "id": 218334,
+    "page": "https://freesound.org/people/SpliceSound/sounds/218334/",
+    "download": "https://cdn.freesound.org/previews/218/218334_1480854-hq.mp3",
+    "licenses": [
+      "http://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "sha256": "995fa63b77d362cdfe45f0bc88146ff21901d97e59b2133cb9f09d50d16457b7"
+  }
+]

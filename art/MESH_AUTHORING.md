@@ -216,3 +216,15 @@ accommodate an oversized approximation. The [export](unreal_handoff/passenger_lo
 and [exact repair ledger](unreal_handoff/passenger_lodge_01/kitchen/collision_repair.json)
 retain the 76 other moving-piece boxes. This diagnosis concerns small round hinge
 hardware; it does not justify removing collision from door leaves or drawer sides.
+
+## Mating hinge hardware and leaf collision
+
+The east-wall first-aid cabinet initially stopped on its fixed hinge pins and
+knuckles. The source hinge mates intentionally at the panel edge, while the
+Unreal moving collision approximates the panel with a rectangular box. An
+engine obstruction and a Blender BVH probe identified those six fixed pieces.
+Inset only that collision box's hinge edge by 7 mm; preserve the visible panel
+and authored pivot. Real E-input open/close and all three nearby walking routes
+then passed. This is specific to this hinge, not a general clearance to apply
+to every door. See [repair](unreal_handoff/passenger_lodge_01/east_wall/collision_repair.json)
+and [runtime checks](unreal_handoff/passenger_lodge_01/east_wall/runtime.json).

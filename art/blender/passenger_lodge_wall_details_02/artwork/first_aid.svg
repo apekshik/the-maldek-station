@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1260" viewBox="0 0 1120 1260">
+<rect x="0" y="0" width="1120" height="1260" fill="#eee5cc"/>
+<rect x="340" y="180" width="440" height="440" fill="#254d43"/>
+<rect x="508" y="220" width="104" height="360" fill="#eee5cc"/>
+<rect x="380" y="348" width="360" height="104" fill="#eee5cc"/>
+<text x="560" y="760" dominant-baseline="text-before-edge" text-anchor="middle" font-family="Arial" font-weight="700" font-size="125" fill="#254d43">FIRST AID</text>
+<text x="560" y="1015" dominant-baseline="text-before-edge" text-anchor="middle" font-family="Arial" font-weight="400" font-size="49" fill="#254d43">MALDEK</text>
+</svg>

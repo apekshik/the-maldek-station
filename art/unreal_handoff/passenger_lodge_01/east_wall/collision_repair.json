@@ -1,0 +1,20 @@
+{
+  "problem": "The moving rectangular leaf collision initially intersected the two fixed hinge pins and four fixed knuckles at the pivot. Confirmed by engine obstruction and Blender BVH probe.",
+  "repair": "Inset only the leaf collision hinge edge by 7 mm. Keep original leaf, hinge, printed face, latch, frame and authored pivot unchanged. Full moving leaf remains visible and aimable.",
+  "center_delta_cm": [
+    0,
+    0.35,
+    0
+  ],
+  "extent_delta_cm": [
+    0,
+    -0.35,
+    0
+  ],
+  "reproduction": "scripts/install_east_wall.py",
+  "evidence": [
+    "collision_probe.json",
+    "collision_repaired_probe.json",
+    "runtime.json"
+  ]
+}

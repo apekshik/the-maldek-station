@@ -1,0 +1,14 @@
+{
+  "artwork": "Original deterministic SVG illustrations and text; no third-party photographs, real-world historical date or named event asserted.",
+  "source_blend": "passenger_lodge_04/Maldek_Passenger_Lodge_Integrated.blend",
+  "source_sha256": "bcf7e6301aecedd83688488981fd58a5a9719d685ef975210eef9eeb7f753f6c",
+  "source_commit": "fdd88f3",
+  "material_reuse": [
+    "PL03_Aged_Pine from immutable integrated station",
+    "New petrol/cream enamel, galvanized, paper and glass material graphs"
+  ],
+  "fonts": "Windows Arial and Georgia used at build time; font files not redistributed.",
+  "generation": "No FAL or other generative-image call. No credentials accessed.",
+  "reference_image": "User-provided screenshot, matching lodge 04 previews/03_Hall.png; geometry is surveyed from the blend.",
+  "editorial": "Ski guidance and leaflet covers are ordinary proposed visitor dressing. Static gauge readings only."
+}

@@ -1,0 +1,539 @@
+{
+  "old_concrete": [
+    {
+      "file": "art\\audio\\footsteps\\wav\\Step_concrete_00.wav",
+      "seconds": 0.10591666666666667,
+      "rate": 48000,
+      "peak": 0.54998779296875,
+      "rms": 0.05474004899235284,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8946446875584367,
+      "energy_above_3000hz": 0.00034351421154782765
+    },
+    {
+      "file": "art\\audio\\footsteps\\wav\\Step_concrete_01.wav",
+      "seconds": 0.10764583333333333,
+      "rate": 48000,
+      "peak": 0.54998779296875,
+      "rms": 0.047584056300169784,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.7775728801411731,
+      "energy_above_3000hz": 0.005882501737332672
+    },
+    {
+      "file": "art\\audio\\footsteps\\wav\\Step_concrete_02.wav",
+      "seconds": 0.11279166666666667,
+      "rate": 48000,
+      "peak": 0.54998779296875,
+      "rms": 0.04479148971860495,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.7878942809506538,
+      "energy_above_3000hz": 0.005802602463459518
+    },
+    {
+      "file": "art\\audio\\footsteps\\wav\\Step_concrete_03.wav",
+      "seconds": 0.1105,
+      "rate": 48000,
+      "peak": 0.54998779296875,
+      "rms": 0.05097840588050985,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8888978038963857,
+      "energy_above_3000hz": 0.0006822764515632638
+    },
+    {
+      "file": "art\\audio\\footsteps\\wav\\Step_concrete_04.wav",
+      "seconds": 0.11435416666666667,
+      "rate": 48000,
+      "peak": 0.54998779296875,
+      "rms": 0.05330397097679206,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8500099556999395,
+      "energy_above_3000hz": 0.0003961428002153798
+    }
+  ],
+  "new_assets": [
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\CupboardClose_00.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.0345376095378598,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.6376618867293302,
+      "energy_above_3000hz": 0.02421394935318372
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\CupboardClose_01.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.029908886539419616,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.5899026696795638,
+      "energy_above_3000hz": 0.023973674699762446
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\CupboardOpen_00.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.600006103515625,
+      "rms": 0.07033788140834951,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8041065570294766,
+      "energy_above_3000hz": 9.235036164220141e-05
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\CupboardOpen_01.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.600006103515625,
+      "rms": 0.07150347489925965,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8397628121307846,
+      "energy_above_3000hz": 0.00011841735228094442
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\DrawerClose_00.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.06216553129979897,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.9258581315305249,
+      "energy_above_3000hz": 0.0002948131634838131
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\DrawerClose_01.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.05047591040592125,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.9626033765597786,
+      "energy_above_3000hz": 0.00018409784560218022
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\DrawerClose_02.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.04472743510828465,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8328718798561411,
+      "energy_above_3000hz": 0.000948099588051753
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\DrawerOpen_00.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.06598014918338004,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.6341030998652175,
+      "energy_above_3000hz": 0.001478835790668389
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\DrawerOpen_01.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.04970535293153206,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.058731547190221625,
+      "energy_above_3000hz": 0.01681641183813945
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\DrawerOpen_02.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.059579163445276584,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8661826958500007,
+      "energy_above_3000hz": 0.0005333985524362592
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\FridgeClose_00.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.600006103515625,
+      "rms": 0.052757686977218415,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.863763600606546,
+      "energy_above_3000hz": 0.0044333408289228115
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\FridgeClose_01.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.600006103515625,
+      "rms": 0.05997589075052078,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.9270644836163465,
+      "energy_above_3000hz": 0.0025194362787228012
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\FridgeOpen_00.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.06688256393535241,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.826204240460096,
+      "energy_above_3000hz": 0.0025309641714449252
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\FridgeOpen_01.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.600006103515625,
+      "rms": 0.038046367688567805,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.44176508757150024,
+      "energy_above_3000hz": 0.0003894877239150068
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\LockerClose_00.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.07020798994229342,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.6679897186299097,
+      "energy_above_3000hz": 0.009825928766426673
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\LockerClose_01.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.06971667736727784,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.6340319511440263,
+      "energy_above_3000hz": 0.0180335171338143
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\LockerClose_02.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.600006103515625,
+      "rms": 0.08529264692152164,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.6377992003282218,
+      "energy_above_3000hz": 0.00851799199403439
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\LockerOpen_00.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.600006103515625,
+      "rms": 0.05520205489378363,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.48440058463702895,
+      "energy_above_3000hz": 0.017031584968842568
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\LockerOpen_01.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.07131612986989162,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.477641931938408,
+      "energy_above_3000hz": 0.02172060604214988
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\LockerOpen_02.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.600006103515625,
+      "rms": 0.08133649080125296,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.6469395713507827,
+      "energy_above_3000hz": 0.018307037441572728
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\RoomClose_00.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.038535868498065944,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.08048379116063771,
+      "energy_above_3000hz": 0.00014758214985697053
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\RoomClose_01.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.600006103515625,
+      "rms": 0.09657431296576695,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8771558279822188,
+      "energy_above_3000hz": 0.00015337092125565342
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\RoomClose_02.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.12010193280216203,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.93205518208102,
+      "energy_above_3000hz": 6.323992831135703e-05
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\RoomOpen_00.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.11406156170197998,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.9158079942733747,
+      "energy_above_3000hz": 3.053076107631883e-05
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\RoomOpen_01.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.600006103515625,
+      "rms": 0.05228964021204441,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.17420677540466784,
+      "energy_above_3000hz": 0.0006896400079826842
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\RoomOpen_02.wav",
+      "seconds": 0.85,
+      "rate": 48000,
+      "peak": 0.5999755859375,
+      "rms": 0.06495522794600204,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.9429111948699377,
+      "energy_above_3000hz": 1.2541825268615912e-05
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\RoomTravelClose_00.wav",
+      "seconds": 0.55,
+      "rate": 48000,
+      "peak": 0.1500244140625,
+      "rms": 0.027463227016669048,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.554395959161407,
+      "energy_above_3000hz": 6.3881032712584615e-06
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\RoomTravelClose_01.wav",
+      "seconds": 0.55,
+      "rate": 48000,
+      "peak": 0.1500244140625,
+      "rms": 0.021683451960698215,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.05022972712113743,
+      "energy_above_3000hz": 7.291772098997646e-06
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\ShelteredStorm.wav",
+      "seconds": 87.0,
+      "rate": 48000,
+      "peak": 0.720001220703125,
+      "rms": 0.08271545694389765,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.9390927105606975,
+      "energy_above_3000hz": 9.913238044559714e-09
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\SteelClose_00.wav",
+      "seconds": 0.74,
+      "rate": 48000,
+      "peak": 0.420013427734375,
+      "rms": 0.09024085447727624,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.020582439267658095,
+      "energy_above_3000hz": 0.0026190036777603135
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\SteelClose_01.wav",
+      "seconds": 0.74,
+      "rate": 48000,
+      "peak": 0.41998291015625,
+      "rms": 0.04607771687634777,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.029463123887881894,
+      "energy_above_3000hz": 0.0040012441629690395
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\SteelOpen_00.wav",
+      "seconds": 0.74,
+      "rate": 48000,
+      "peak": 0.41998291015625,
+      "rms": 0.10495157971560916,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.050055715370321587,
+      "energy_above_3000hz": 0.004931498068863902
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\SteelOpen_01.wav",
+      "seconds": 0.74,
+      "rate": 48000,
+      "peak": 0.41998291015625,
+      "rms": 0.08431322819103751,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.07006167233982429,
+      "energy_above_3000hz": 0.006714094615620525
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepConcrete_00.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.6199951171875,
+      "rms": 0.04836930306118553,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.9390538041409605,
+      "energy_above_3000hz": 3.2490116888520256e-08
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepConcrete_01.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.620025634765625,
+      "rms": 0.06470381801152646,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.5029079137203363,
+      "energy_above_3000hz": 1.7737889410901105e-07
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepConcrete_02.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.620025634765625,
+      "rms": 0.05879027301934381,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8197603083034464,
+      "energy_above_3000hz": 8.885007247633594e-08
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepConcrete_03.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.6199951171875,
+      "rms": 0.07753704489470796,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.47607053098341223,
+      "energy_above_3000hz": 2.8953437741642003e-08
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepConcrete_04.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.6199951171875,
+      "rms": 0.04750626336860198,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.9287818804467134,
+      "energy_above_3000hz": 3.4379422282282996e-08
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepConcrete_05.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.6199951171875,
+      "rms": 0.05890254576170986,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.7606308091125593,
+      "energy_above_3000hz": 1.9198029145922135e-08
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepTile_00.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.620025634765625,
+      "rms": 0.0516682490357063,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8961821022625733,
+      "energy_above_3000hz": 3.0663850523059906e-08
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepTile_01.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.6199951171875,
+      "rms": 0.041698691193684474,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.7918247660383311,
+      "energy_above_3000hz": 7.343334244248338e-08
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepTile_02.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.620025634765625,
+      "rms": 0.05585029314242864,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.9380406081482182,
+      "energy_above_3000hz": 3.197856939795352e-08
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepTile_03.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.6199951171875,
+      "rms": 0.04116681565623261,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.7232575310091268,
+      "energy_above_3000hz": 4.980371123132027e-08
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepTile_04.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.6199951171875,
+      "rms": 0.043855146008149104,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.909257869848465,
+      "energy_above_3000hz": 2.6525831840014212e-08
+    },
+    {
+      "file": "art\\audio\\lodge_refine_01\\wav\\StepTile_05.wav",
+      "seconds": 0.54,
+      "rate": 48000,
+      "peak": 0.6199951171875,
+      "rms": 0.05492524354744586,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8306476103626583,
+      "energy_above_3000hz": 7.749523145210823e-08
+    }
+  ],
+  "engine_captures": [
+    {
+      "file": "art\\unreal_handoff\\passenger_lodge_01\\audio_refine\\Concrete_steps_game.wav",
+      "seconds": 13.930666666666667,
+      "rate": 48000,
+      "peak": 0.79595947265625,
+      "rms": 0.09059184817961084,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.903217251207236,
+      "energy_above_3000hz": 0.013090864069466775
+    },
+    {
+      "file": "art\\unreal_handoff\\passenger_lodge_01\\audio_refine\\Sheltered_storm_game.wav",
+      "seconds": 6.016,
+      "rate": 48000,
+      "peak": 0.11944580078125,
+      "rms": 0.027296943773010663,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.7955122913832512,
+      "energy_above_3000hz": 0.15467552378812183
+    },
+    {
+      "file": "art\\unreal_handoff\\passenger_lodge_01\\audio_refine\\Tile_steps_game.wav",
+      "seconds": 5.930666666666666,
+      "rate": 48000,
+      "peak": 0.67559814453125,
+      "rms": 0.04144141167980629,
+      "clipped_samples": 0,
+      "energy_below_300hz": 0.8470728317191346,
+      "energy_above_3000hz": 0.02444477583297555
+    }
+  ],
+  "note": "Successful captures with Unreal foreground; the first background captures were silent and replaced."
+}

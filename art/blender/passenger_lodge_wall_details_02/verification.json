@@ -1,0 +1,1474 @@
+{
+  "passed": true,
+  "failures": [],
+  "saved_reopened": true,
+  "source_hash_unchanged": true,
+  "reference_transform_mesh_count_material_signature_equal": true,
+  "mesh_checks": [
+    {
+      "name": "PLG2_Safety_backboard",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.011963340590221826
+    },
+    {
+      "name": "PLG2_Safety_print",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.00019936018416165537
+    },
+    {
+      "name": "PLG2_Safety_side_-1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.000945007626309945
+    },
+    {
+      "name": "PLG2_Safety_side_1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.000945007626309945
+    },
+    {
+      "name": "PLG2_Safety_rail_-1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0006425276583008043
+    },
+    {
+      "name": "PLG2_Safety_rail_1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0006425276583008043
+    },
+    {
+      "name": "PLG2_Safety_mount",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 8.620969868669807e-05
+    },
+    {
+      "name": "PLG2_Safety_mount_screw",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Safety_mount_screw_slot",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Safety_mount.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 8.620969868669807e-05
+    },
+    {
+      "name": "PLG2_Safety_mount_screw.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Safety_mount_screw_slot.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Archive_A_backboard",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0039561415929110786
+    },
+    {
+      "name": "PLG2_Archive_A_print",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 5.8310057853462014e-05
+    },
+    {
+      "name": "PLG2_Archive_A_side_-1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0003977576403677897
+    },
+    {
+      "name": "PLG2_Archive_A_side_1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0003977576403677897
+    },
+    {
+      "name": "PLG2_Archive_A_rail_-1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0004932776287047124
+    },
+    {
+      "name": "PLG2_Archive_A_rail_1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0004932776287047124
+    },
+    {
+      "name": "PLG2_Archive_A_mount",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 8.620969868669807e-05
+    },
+    {
+      "name": "PLG2_Archive_A_mount_screw",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Archive_A_mount_screw_slot",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Archive_A_mount.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 8.620969868669807e-05
+    },
+    {
+      "name": "PLG2_Archive_A_mount_screw.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Archive_A_mount_screw_slot.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Archive_B_backboard",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0039561415929110786
+    },
+    {
+      "name": "PLG2_Archive_B_print",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 5.8310057853462014e-05
+    },
+    {
+      "name": "PLG2_Archive_B_side_-1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0003977576403677897
+    },
+    {
+      "name": "PLG2_Archive_B_side_1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0003977576403677897
+    },
+    {
+      "name": "PLG2_Archive_B_rail_-1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0004932776287047124
+    },
+    {
+      "name": "PLG2_Archive_B_rail_1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0004932776287047124
+    },
+    {
+      "name": "PLG2_Archive_B_mount",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 8.620969868669807e-05
+    },
+    {
+      "name": "PLG2_Archive_B_mount_screw",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Archive_B_mount_screw_slot",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Archive_B_mount.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 8.620969868669807e-05
+    },
+    {
+      "name": "PLG2_Archive_B_mount_screw.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Archive_B_mount_screw_slot.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Archive_A_caption_plate",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.592332594757594e-05
+    },
+    {
+      "name": "PLG2_Archive_A_caption_art",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 5.567990256786814e-06
+    },
+    {
+      "name": "PLG2_Archive_A_caption_fix",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Archive_A_caption_fix_slot",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Archive_A_caption_fix.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Archive_A_caption_fix_slot.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Archive_B_caption_plate",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.592332594757594e-05
+    },
+    {
+      "name": "PLG2_Archive_B_caption_art",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 5.567990256786814e-06
+    },
+    {
+      "name": "PLG2_Archive_B_caption_fix",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Archive_B_caption_fix_slot",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Archive_B_caption_fix.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Archive_B_caption_fix_slot.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Rack_back",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0016189457216411237
+    },
+    {
+      "name": "PLG2_Rack_standoff",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 3.395170403684235e-05
+    },
+    {
+      "name": "PLG2_Rack_wall_fix",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Rack_wall_fix_slot",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Rack_standoff.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 3.395170403684235e-05
+    },
+    {
+      "name": "PLG2_Rack_wall_fix.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Rack_wall_fix_slot.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Rack_standoff.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 3.395170403684235e-05
+    },
+    {
+      "name": "PLG2_Rack_wall_fix.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Rack_wall_fix_slot.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Rack_standoff.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 3.395170403684235e-05
+    },
+    {
+      "name": "PLG2_Rack_wall_fix.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Rack_wall_fix_slot.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Rack_return",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.00037369172936664553
+    },
+    {
+      "name": "PLG2_Rack_return.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.00037369172936664553
+    },
+    {
+      "name": "PLG2_Rack_heading",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 7.80000081807368e-06
+    },
+    {
+      "name": "PLG2_Pocket_floor",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.321469378059203e-05
+    },
+    {
+      "name": "PLG2_Pocket_front_lip",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.439991314339982e-05
+    },
+    {
+      "name": "PLG2_Pocket_rolled_edge",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 5.8052039567099e-06
+    },
+    {
+      "name": "PLG2_Leaflet_0_0_0",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197737855559684e-05
+    },
+    {
+      "name": "PLG2_Leaflet_0_0_1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197737855559684e-05
+    },
+    {
+      "name": "PLG2_Pocket_floor.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.321469378059203e-05
+    },
+    {
+      "name": "PLG2_Pocket_front_lip.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.439991314339982e-05
+    },
+    {
+      "name": "PLG2_Pocket_rolled_edge.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 5.8052039567099e-06
+    },
+    {
+      "name": "PLG2_Leaflet_0_1_0",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197737855559684e-05
+    },
+    {
+      "name": "PLG2_Leaflet_0_1_1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197737855559684e-05
+    },
+    {
+      "name": "PLG2_Leaflet_0_1_2",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.219779482364005e-05
+    },
+    {
+      "name": "PLG2_Leaflet_0_1_3",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197793302237311e-05
+    },
+    {
+      "name": "PLG2_Leaflet_0_1_4",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197792795103062e-05
+    },
+    {
+      "name": "PLG2_Leaflet_0_1_5",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.219779279510307e-05
+    },
+    {
+      "name": "PLG2_Pocket_floor.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.321469378059203e-05
+    },
+    {
+      "name": "PLG2_Pocket_front_lip.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.439991314339982e-05
+    },
+    {
+      "name": "PLG2_Pocket_rolled_edge.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 5.8052039567099e-06
+    },
+    {
+      "name": "PLG2_Pocket_floor.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.321469378059203e-05
+    },
+    {
+      "name": "PLG2_Pocket_front_lip.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.439991314339982e-05
+    },
+    {
+      "name": "PLG2_Pocket_rolled_edge.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 5.8052039567099e-06
+    },
+    {
+      "name": "PLG2_Leaflet_1_1_0",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197737855559684e-05
+    },
+    {
+      "name": "PLG2_Leaflet_1_1_1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197737855559684e-05
+    },
+    {
+      "name": "PLG2_Leaflet_1_1_2",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.219779482364005e-05
+    },
+    {
+      "name": "PLG2_Pocket_floor.004",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.321469378059203e-05
+    },
+    {
+      "name": "PLG2_Pocket_front_lip.004",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.439991314339982e-05
+    },
+    {
+      "name": "PLG2_Pocket_rolled_edge.004",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 5.8052039567099e-06
+    },
+    {
+      "name": "PLG2_Leaflet_2_0_0",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197737855559684e-05
+    },
+    {
+      "name": "PLG2_Leaflet_2_0_1",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197737855559684e-05
+    },
+    {
+      "name": "PLG2_Leaflet_2_0_2",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.219779482364005e-05
+    },
+    {
+      "name": "PLG2_Leaflet_2_0_3",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197793302237311e-05
+    },
+    {
+      "name": "PLG2_Pocket_floor.005",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.321469378059203e-05
+    },
+    {
+      "name": "PLG2_Pocket_front_lip.005",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.439991314339982e-05
+    },
+    {
+      "name": "PLG2_Pocket_rolled_edge.005",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 5.8052039567099e-06
+    },
+    {
+      "name": "PLG2_Leaflet_2_1_0",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.2197737855559684e-05
+    },
+    {
+      "name": "PLG2_Gauge_housing",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0031745023525663065
+    },
+    {
+      "name": "PLG2_Gauge_temperature_rim",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.00022180260474838017
+    },
+    {
+      "name": "PLG2_Gauge_temperature_dial",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 3.052597894598127e-05
+    },
+    {
+      "name": "PLG2_Gauge_temperature_needle",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.3285896190698142e-07
+    },
+    {
+      "name": "PLG2_Gauge_temperature_axle",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.123804053112276e-07
+    },
+    {
+      "name": "PLG2_Gauge_temperature_glass",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.29065005715802e-05
+    },
+    {
+      "name": "PLG2_Gauge_humidity_rim",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.00022180260474838017
+    },
+    {
+      "name": "PLG2_Gauge_humidity_dial",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 3.052597894598127e-05
+    },
+    {
+      "name": "PLG2_Gauge_humidity_needle",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.3285896190698142e-07
+    },
+    {
+      "name": "PLG2_Gauge_humidity_axle",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.123804053112276e-07
+    },
+    {
+      "name": "PLG2_Gauge_humidity_glass",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.29065005715802e-05
+    },
+    {
+      "name": "PLG2_Gauge_mount",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Gauge_mount_slot",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Gauge_mount.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Gauge_mount_slot.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Cabinet_back",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0010251656659088732
+    },
+    {
+      "name": "PLG2_Cabinet_side_return",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.00029643569196667423
+    },
+    {
+      "name": "PLG2_Cabinet_side_return.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.00029643569196667423
+    },
+    {
+      "name": "PLG2_Cabinet_top_bottom_return",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.00024239769227778213
+    },
+    {
+      "name": "PLG2_Cabinet_top_bottom_return.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.00024239769227778213
+    },
+    {
+      "name": "PLG2_Cabinet_stop",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.6904713368484824e-05
+    },
+    {
+      "name": "PLG2_Cabinet_stop.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.6904713368484824e-05
+    },
+    {
+      "name": "PLG2_Cabinet_mount_tab",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.9292702749537524e-05
+    },
+    {
+      "name": "PLG2_Cabinet_back_fix",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Cabinet_back_fix_slot",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Cabinet_mount_tab.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.9292702749537524e-05
+    },
+    {
+      "name": "PLG2_Cabinet_back_fix.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Cabinet_back_fix_slot.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Cabinet_mount_tab.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.9292702749537524e-05
+    },
+    {
+      "name": "PLG2_Cabinet_back_fix.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Cabinet_back_fix_slot.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Cabinet_mount_tab.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.9292702749537524e-05
+    },
+    {
+      "name": "PLG2_Cabinet_back_fix.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4197301538122094e-07
+    },
+    {
+      "name": "PLG2_Cabinet_back_fix_slot.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.1999999998602995e-09
+    },
+    {
+      "name": "PLG2_Cabinet_leaf",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 0.0014407934787177567
+    },
+    {
+      "name": "PLG2_Cabinet_label",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 4.339997639395322e-05
+    },
+    {
+      "name": "PLG2_Cabinet_hinge_pin",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.7317181051613289e-06
+    },
+    {
+      "name": "PLG2_Cabinet_hinge_knuckle",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.7768801618478798e-06
+    },
+    {
+      "name": "PLG2_Cabinet_hinge_knuckle.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.7768801618478798e-06
+    },
+    {
+      "name": "PLG2_Cabinet_hinge_knuckle.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.7768801618478798e-06
+    },
+    {
+      "name": "PLG2_Cabinet_hinge_fixed_tab",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.074702739627612e-06
+    },
+    {
+      "name": "PLG2_Cabinet_hinge_pin.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.7317181051613289e-06
+    },
+    {
+      "name": "PLG2_Cabinet_hinge_knuckle.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.7768801618478798e-06
+    },
+    {
+      "name": "PLG2_Cabinet_hinge_knuckle.004",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.7768801618478798e-06
+    },
+    {
+      "name": "PLG2_Cabinet_hinge_knuckle.005",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.7768801618478798e-06
+    },
+    {
+      "name": "PLG2_Cabinet_hinge_fixed_tab.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 6.074702739627612e-06
+    },
+    {
+      "name": "PLG2_Cabinet_latch_axle",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.8106627849086366e-06
+    },
+    {
+      "name": "PLG2_Cabinet_turn_latch",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.7276206062241097e-06
+    },
+    {
+      "name": "PLG2_PLG2_Safety_top_dust",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.8816002055287435e-06
+    },
+    {
+      "name": "PLG2_PLG2_Safety_rubbed_edge",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 4.050000053225077e-09
+    },
+    {
+      "name": "PLG2_PLG2_Safety_rubbed_edge.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 4.050000053225077e-09
+    },
+    {
+      "name": "PLG2_PLG2_Safety_rubbed_edge.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 4.050000053225077e-09
+    },
+    {
+      "name": "PLG2_PLG2_Archive_A_top_dust",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4784001078426853e-06
+    },
+    {
+      "name": "PLG2_PLG2_Archive_A_rubbed_edge",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 4.050000053225077e-09
+    },
+    {
+      "name": "PLG2_PLG2_Archive_A_rubbed_edge.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 4.050000053225077e-09
+    },
+    {
+      "name": "PLG2_PLG2_Archive_A_rubbed_edge.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 4.050000053225077e-09
+    },
+    {
+      "name": "PLG2_PLG2_Archive_B_top_dust",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4784001078426853e-06
+    },
+    {
+      "name": "PLG2_PLG2_Archive_B_rubbed_edge",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 4.050000053225077e-09
+    },
+    {
+      "name": "PLG2_PLG2_Archive_B_rubbed_edge.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 4.050000053225077e-09
+    },
+    {
+      "name": "PLG2_PLG2_Archive_B_rubbed_edge.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 4.050000053225077e-09
+    },
+    {
+      "name": "PLG2_Empty_pocket_dust",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 3.5750000193016545e-06
+    },
+    {
+      "name": "PLG2_Cabinet_latch_wear",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.4400002051889992e-09
+    },
+    {
+      "name": "PLG2_Cabinet_latch_wear.001",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 1.8000001307576895e-09
+    },
+    {
+      "name": "PLG2_Cabinet_latch_wear.002",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.1600002239644593e-09
+    },
+    {
+      "name": "PLG2_Cabinet_latch_wear.003",
+      "nonmanifold": 0,
+      "degenerate_faces": 0,
+      "volume": 2.520000317171229e-09
+    }
+  ],
+  "packed_images": [
+    {
+      "name": "archive_1.png",
+      "packed": true,
+      "pixels": [
+        1800,
+        1230
+      ]
+    },
+    {
+      "name": "archive_2.png",
+      "packed": true,
+      "pixels": [
+        1800,
+        1230
+      ]
+    },
+    {
+      "name": "caption_A.png",
+      "packed": true,
+      "pixels": [
+        1400,
+        146
+      ]
+    },
+    {
+      "name": "caption_B.png",
+      "packed": true,
+      "pixels": [
+        1400,
+        146
+      ]
+    },
+    {
+      "name": "first_aid.png",
+      "packed": true,
+      "pixels": [
+        1120,
+        1260
+      ]
+    },
+    {
+      "name": "gauge_humidity.png",
+      "packed": true,
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "name": "gauge_temperature.png",
+      "packed": true,
+      "pixels": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "name": "leaflet_care.png",
+      "packed": true,
+      "pixels": [
+        680,
+        820
+      ]
+    },
+    {
+      "name": "leaflet_lodge.png",
+      "packed": true,
+      "pixels": [
+        680,
+        820
+      ]
+    },
+    {
+      "name": "leaflet_routes.png",
+      "packed": true,
+      "pixels": [
+        680,
+        820
+      ]
+    },
+    {
+      "name": "rack_label.png",
+      "packed": true,
+      "pixels": [
+        1400,
+        150
+      ]
+    },
+    {
+      "name": "safety.png",
+      "packed": true,
+      "pixels": [
+        1280,
+        1780
+      ]
+    }
+  ],
+  "context_intersections": [],
+  "minimum_wall_separation_m": 0.008000106811524077,
+  "rack_maximum_projection_m": 0.14999935150146548,
+  "cabinet_sweep_degrees": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95
+  ],
+  "cabinet_sweep_hits": [],
+  "combined_routes": [
+    {
+      "name": "Screened_hall",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 215,
+      "minimum_distance": 0.5299997000000003,
+      "nearest": "FIT_Full_height_privacy_screen",
+      "passed": true
+    },
+    {
+      "name": "Women_entry",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 84,
+      "minimum_distance": 0.3570003773247268,
+      "nearest": "PLR_Women_Entry_Stop",
+      "passed": true
+    },
+    {
+      "name": "Women_basin",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 54,
+      "minimum_distance": 0.3904927755195506,
+      "nearest": "PLR_Women_B_Stall_Leaf",
+      "passed": true
+    },
+    {
+      "name": "Women_A_stall",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 113,
+      "minimum_distance": 0.3490196608281622,
+      "nearest": "PLR_Women_A_Stall_Stop",
+      "passed": true
+    },
+    {
+      "name": "Women_B_stall",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 61,
+      "minimum_distance": 0.3490181661497599,
+      "nearest": "PLR_Women_B_Stall_Stop",
+      "passed": true
+    },
+    {
+      "name": "Men_entry",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 98,
+      "minimum_distance": 0.3600458276062418,
+      "nearest": "PLR_Men_Entry_Lever_-1",
+      "passed": true
+    },
+    {
+      "name": "Men_basin",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 25,
+      "minimum_distance": 0.3540454366323632,
+      "nearest": "PLR_Men_Entry_Leaf",
+      "passed": true
+    },
+    {
+      "name": "Men_A_stall",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 69,
+      "minimum_distance": 0.34901846613405907,
+      "nearest": "PLR_Men_A_Stall_Stop",
+      "passed": true
+    },
+    {
+      "name": "Urinal",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 66,
+      "minimum_distance": 0.3549997000000146,
+      "nearest": "PLR_Men_Urinal_shell",
+      "passed": true
+    },
+    {
+      "name": "Main_hall",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 397,
+      "minimum_distance": 0.6273957700988745,
+      "nearest": "PLD_GONDOLA_Glazing_Bead",
+      "passed": true
+    },
+    {
+      "name": "Lockers",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 247,
+      "minimum_distance": 0.402795241283111,
+      "nearest": "PLL_03_Door_Fold_Side.001",
+      "passed": true
+    },
+    {
+      "name": "Coffee_public",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 187,
+      "minimum_distance": 0.8519994999999989,
+      "nearest": "PLS_Group_05_Bench_S_Plank_1",
+      "passed": true
+    },
+    {
+      "name": "Kitchen_work",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 201,
+      "minimum_distance": 0.5418539712157329,
+      "nearest": "PLD_STAFF_Jamb_Cover.002",
+      "passed": true
+    },
+    {
+      "name": "Kitchen_handwash",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 65,
+      "minimum_distance": 0.3881240671057789,
+      "nearest": "PLK_Hand_Splash_separator",
+      "passed": true
+    },
+    {
+      "name": "Kitchen_prep",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 18,
+      "minimum_distance": 0.3666058686692837,
+      "nearest": "PLK_Rear_right_Pull_0",
+      "passed": true
+    },
+    {
+      "name": "East_wall_approach",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 349,
+      "minimum_distance": 0.402795241283111,
+      "nearest": "PLL_03_Door_Fold_Side.001",
+      "passed": true
+    },
+    {
+      "name": "East_wall_walk",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 305,
+      "minimum_distance": 0.8171731581496782,
+      "nearest": "PLL_09_Door_Fold_Side.001",
+      "passed": true
+    },
+    {
+      "name": "First_aid_approach",
+      "cabinet_open": false,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 20,
+      "minimum_distance": 0.515046261514489,
+      "nearest": "PLG2_Cabinet_turn_latch",
+      "passed": true
+    },
+    {
+      "name": "Screened_hall",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 215,
+      "minimum_distance": 0.5299997000000003,
+      "nearest": "FIT_Full_height_privacy_screen",
+      "passed": true
+    },
+    {
+      "name": "Women_entry",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 84,
+      "minimum_distance": 0.3570003773247268,
+      "nearest": "PLR_Women_Entry_Stop",
+      "passed": true
+    },
+    {
+      "name": "Women_basin",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 54,
+      "minimum_distance": 0.3904927755195506,
+      "nearest": "PLR_Women_B_Stall_Leaf",
+      "passed": true
+    },
+    {
+      "name": "Women_A_stall",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 113,
+      "minimum_distance": 0.3490196608281622,
+      "nearest": "PLR_Women_A_Stall_Stop",
+      "passed": true
+    },
+    {
+      "name": "Women_B_stall",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 61,
+      "minimum_distance": 0.3490181661497599,
+      "nearest": "PLR_Women_B_Stall_Stop",
+      "passed": true
+    },
+    {
+      "name": "Men_entry",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 98,
+      "minimum_distance": 0.3600458276062418,
+      "nearest": "PLR_Men_Entry_Lever_-1",
+      "passed": true
+    },
+    {
+      "name": "Men_basin",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 25,
+      "minimum_distance": 0.3540454366323632,
+      "nearest": "PLR_Men_Entry_Leaf",
+      "passed": true
+    },
+    {
+      "name": "Men_A_stall",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 69,
+      "minimum_distance": 0.34901846613405907,
+      "nearest": "PLR_Men_A_Stall_Stop",
+      "passed": true
+    },
+    {
+      "name": "Urinal",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 66,
+      "minimum_distance": 0.3549997000000146,
+      "nearest": "PLR_Men_Urinal_shell",
+      "passed": true
+    },
+    {
+      "name": "Main_hall",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 397,
+      "minimum_distance": 0.6273957700988745,
+      "nearest": "PLD_GONDOLA_Glazing_Bead",
+      "passed": true
+    },
+    {
+      "name": "Lockers",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 247,
+      "minimum_distance": 0.402795241283111,
+      "nearest": "PLL_03_Door_Fold_Side.001",
+      "passed": true
+    },
+    {
+      "name": "Coffee_public",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 187,
+      "minimum_distance": 0.8519994999999989,
+      "nearest": "PLS_Group_05_Bench_S_Plank_1",
+      "passed": true
+    },
+    {
+      "name": "Kitchen_work",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 201,
+      "minimum_distance": 0.5418539712157329,
+      "nearest": "PLD_STAFF_Jamb_Cover.002",
+      "passed": true
+    },
+    {
+      "name": "Kitchen_handwash",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 65,
+      "minimum_distance": 0.3881240671057789,
+      "nearest": "PLK_Hand_Splash_separator",
+      "passed": true
+    },
+    {
+      "name": "Kitchen_prep",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 18,
+      "minimum_distance": 0.3666058686692837,
+      "nearest": "PLK_Rear_right_Pull_0",
+      "passed": true
+    },
+    {
+      "name": "East_wall_approach",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 349,
+      "minimum_distance": 0.402795241283111,
+      "nearest": "PLL_03_Door_Fold_Side.001",
+      "passed": true
+    },
+    {
+      "name": "East_wall_walk",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 305,
+      "minimum_distance": 0.6022169948798287,
+      "nearest": "PLG2_Cabinet_leaf",
+      "passed": true
+    },
+    {
+      "name": "First_aid_approach",
+      "cabinet_open": true,
+      "radius": 0.34,
+      "height": 1.8,
+      "samples": 20,
+      "minimum_distance": 0.5149816830780888,
+      "nearest": "PLG2_Cabinet_leaf",
+      "passed": true
+    }
+  ],
+  "limits": "Sampled Blender evaluated BVH intersections and conservative XY hull walking envelope. Hinge mating hardware excluded. No engine collision, continuous simulation or gameplay validation."
+}
